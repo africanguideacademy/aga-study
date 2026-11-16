@@ -4,7 +4,7 @@ window.AGA_DATA = {
  "modules": [
   {
    "id": "fgasa80",
-   "title": "FGASA Savanna 80 Birds",
+   "title": "Bird photos (FGASA 80)",
    "subtitle": "Photos and calls of the 80 core savanna birds",
    "items": [
     {
@@ -619,7 +619,7 @@ window.AGA_DATA = {
   },
   {
    "id": "calls",
-   "title": "Bird Calls of Southern Africa",
+   "title": "Bird calls",
    "subtitle": "447 calls - the full call library",
    "items": [
     {
@@ -4203,7 +4203,7 @@ window.AGA_DATA = {
   {
    "id": "q-birds",
    "kind": "questions",
-   "title": "Birds - manual questions",
+   "title": "Birds - manual",
    "photo": "media/birds/african-scops-owl.jpg",
    "subtitle": "108 questions from the Botswana Guide Training Manual",
    "items": [

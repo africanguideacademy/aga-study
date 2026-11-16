@@ -116,6 +116,34 @@ body.focus .tabbar { display: none; }
 .mod-more .ico { width: 16px; height: 16px; }
 .mod-card .row-btn { min-height: 64px; padding: 10px 14px; }
 
+/* home: subject tiles */
+.subject-list { display: grid; gap: 14px; }
+@media (min-width: 600px) { .subject-list { grid-template-columns: 1fr 1fr; } }
+.subject { display: flex; flex-direction: column; overflow: hidden; text-decoration: none; color: inherit; }
+.subject-img { aspect-ratio: 16/8; background: var(--line) center/cover no-repeat; }
+.subject-body { padding: 14px 16px 16px; }
+.subject-body h3 { margin: 0 0 2px; font-family: var(--serif); font-size: 22px; color: var(--brand); }
+@media (prefers-color-scheme: dark) { .subject-body h3 { color: var(--ink); } }
+.subject-body p { margin: 0 0 12px; color: var(--ink-2); font-size: 14px; }
+.subject .go { display: inline-flex; align-items: center; gap: 2px; font-weight: 700; color: var(--brand); }
+@media (prefers-color-scheme: dark) { .subject .go { color: var(--accent); } }
+.subject .go .ico { width: 16px; height: 16px; }
+.coming { padding: 14px 16px; margin-top: 14px; }
+.soon-wrap { display: flex; flex-wrap: wrap; gap: 6px; }
+.soon { font-size: 13px; padding: 5px 10px; border-radius: 99px; background: var(--surface-2); border: 1px dashed var(--line); color: var(--muted); }
+
+/* subject page: activity tiles in a 2-column grid */
+.sec-sub { float: right; text-transform: none; letter-spacing: 0; font-weight: 600; font-size: 12px; }
+.act-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (min-width: 600px) { .act-grid { grid-template-columns: repeat(4, 1fr); } }
+.act { display: flex; flex-direction: column; gap: 4px; padding: 14px; min-height: 128px; text-decoration: none; color: inherit; }
+.act .tile-ico { margin-bottom: 6px; }
+.act strong { font-size: 15px; line-height: 1.25; }
+.act span { font-size: 13px; color: var(--muted); line-height: 1.3; }
+.act:active { transform: scale(.98); }
+@media (hover: hover) { .act:hover { border-color: var(--accent); } }
+.act.off { opacity: .55; }
+
 /* ---------- buttons ---------- */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
