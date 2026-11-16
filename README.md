@@ -51,7 +51,12 @@ powershell -ExecutionPolicy Bypass -File tools/copy-media.ps1
 - Calls are only saved when the student taps Download: FGASA 80 calls (21 MB) or the full library (185 MB).
 - With no signal, quizzes only use calls that have been downloaded.
 - Updates still reach students: when they're online, the app always fetches the latest app files.
-- The icons are made by `tools/make-icons.ps1`.
+- The logo and icons are made by `tools/make-icons.ps1`, which uses the official AGA logo files (Koru Designs 2019, on `Z:\MULTIMEDIA\KORU DESIGNS\AFRICAN GUIDE ACADEMY\2019`).
+- The colours are AGA's house colours: maroon #6e1e10, dark brown #3d0f07, ochre #c06a1a, and cream #f4f1ec.
+
+## Navigation
+- On a phone, the tab bar at the bottom has three tabs: Home, Progress and Offline.
+- Quizzes and flashcards use a full-screen mode with ✕ to quit. The Next and grading buttons sit at the bottom of the screen, within reach of your thumb.
 
 Birds a student keeps getting wrong come up more often. A bird counts as "mastered" after 3 right answers in a row.
 Progress is saved in the student's own browser.
