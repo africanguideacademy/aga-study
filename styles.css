@@ -99,6 +99,23 @@ body.focus .tabbar { display: none; }
 .hero p { margin: 0 0 14px; color: rgba(255,255,255,.88); }
 .hero .stat { font-size: 13px; color: rgba(255,255,255,.8); margin-top: 10px; }
 
+.hero.compact { min-height: 150px; padding: 18px; }
+.hero.compact h1 { font-size: 26px; }
+.hero.compact p { margin: 0; }
+.home-setting { margin-top: 14px; }
+
+/* home: module with its quiz types listed underneath */
+.mod-card { overflow: hidden; }
+.mod-top { display: flex; align-items: center; gap: 12px; padding: 12px 14px; text-decoration: none; color: inherit; background: var(--surface-2); border-bottom: 1px solid var(--line); }
+.mod-thumb { width: 64px; height: 64px; border-radius: 12px; flex: none; background: var(--line) center/cover no-repeat; }
+.mod-info { flex: 1; min-width: 0; }
+.mod-info h3 { margin: 0 0 8px; font-family: var(--serif); font-size: 18px; line-height: 1.2; }
+.mod-info .bar { height: 6px; }
+.mod-info .bar-label { margin-top: 4px; font-size: 12px; }
+.mod-more { flex: none; display: flex; align-items: center; gap: 2px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.mod-more .ico { width: 16px; height: 16px; }
+.mod-card .row-btn { min-height: 64px; padding: 10px 14px; }
+
 /* ---------- buttons ---------- */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
@@ -115,8 +132,8 @@ body.focus .tabbar { display: none; }
 .linkish { background: none; border: 0; color: var(--muted); text-decoration: underline; padding: 10px 0; font-size: 14px; }
 
 /* ---------- module cards ---------- */
-.module-list { display: grid; gap: 14px; }
-@media (min-width: 600px) { .module-list { grid-template-columns: 1fr 1fr; } }
+.module-list { display: grid; gap: 16px; margin-top: 16px; }
+@media (min-width: 900px) { .module-list { grid-template-columns: 1fr 1fr; align-items: start; } }
 .module { padding: 0; overflow: hidden; text-align: left; width: 100%; display: flex; flex-direction: column; }
 .module .banner { position: relative; aspect-ratio: 16/8; background: var(--line) center/cover no-repeat; }
 .module .badge { position: absolute; left: 12px; bottom: 12px; background: rgba(31,22,18,.78); color: #fff; font-size: 12px; font-weight: 700; padding: 5px 10px; border-radius: 99px; display: flex; align-items: center; gap: 6px; }

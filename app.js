@@ -214,31 +214,44 @@
     const fg = modById('fgasa80');
     const heroPhoto = shuffle(fg.items.filter(i => i.photo))[0].photo;
     const done = masteredCount(fg, fg.items);
+    // Each module shows its quiz types and study options straight on the home page.
     const cards = DATA.modules.map(m => {
       const n = m.items.length, d = masteredCount(m, m.items);
-      const badge = isQ(m) ? `${icon('book')} ${n} questions` : m.id === 'calls' ? `${icon('sound')} ${n} calls` : `${icon('camera')} ${n} birds`;
-      return `<button class="card module" data-mod="${esc(m.id)}">
-        <div class="banner" style="background-image:url('${esc(bannerFor(m))}')"><span class="badge">${badge}</span></div>
-        <div class="body"><h3>${esc(m.title)}</h3><p>${esc(m.subtitle)}</p>
-        <div class="bar"><span style="width:${pct(d, n)}%"></span></div>
-        <div class="bar-label"><span>${d} of ${n} mastered</span><span>${pct(d, n)}%</span></div></div></button>`;
+      const count = isQ(m) ? plural(n, 'question') : m.id === 'calls' ? `${n} calls` : `${n} birds`;
+      const rows = modesFor(m).map(k => `<a class="row-btn" href="#/m/${esc(m.id)}/quiz/${k}"><div class="tile-ico">${icon(MODES[k].icon)}</div>
+          <div class="txt"><strong>${MODES[k].title}</strong><span class="d">${MODES[k].desc}</span></div>${icon('chev', 'chev')}</a>`).join('');
+      const sc = settings.scope[m.id];
+      const scopeNote = sc && sc !== 'all' ? ` &middot; ${esc(sc === 'fgasa' ? 'FGASA 80 only' : sc)}` : '';
+      return `<section class="card mod-card">
+        <a class="mod-top" href="#/m/${esc(m.id)}">
+          <div class="mod-thumb" style="background-image:url('${esc(bannerFor(m))}')"></div>
+          <div class="mod-info"><h3>${esc(m.title)}</h3>
+            <div class="bar"><span style="width:${pct(d, n)}%"></span></div>
+            <div class="bar-label"><span>${d} of ${count} mastered${scopeNote}</span></div></div>
+          <span class="mod-more">Settings ${icon('chev')}</span>
+        </a>
+        <div class="list">${rows}
+          <a class="row-btn" href="#/m/${esc(m.id)}/flash"><div class="tile-ico">${icon('cards')}</div><div class="txt"><strong>Flashcards</strong><span class="d">Flip through and mark what you know</span></div>${icon('chev', 'chev')}</a>
+          <a class="row-btn" href="#/m/${esc(m.id)}/browse"><div class="tile-ico">${icon(isQ(m) ? 'list' : 'grid')}</div><div class="txt"><strong>${isQ(m) ? 'Study list' : 'Browse all'}</strong><span class="d">${isQ(m) ? 'Read every question and answer' : 'Look and listen at your own pace'}</span></div>${icon('chev', 'chev')}</a>
+        </div></section>`;
     }).join('');
+    const lens = [10, 20, 0].map(n => `<button data-len="${n}" aria-pressed="${settings.length === n}">${n || 'All'}</button>`).join('');
     const savedCalls = callList(DATA.modules).filter(u => cachedSet.has(abs(u))).length;
     const nudge = hasCaches && !savedCalls ? `<a class="card nudge" href="#/offline"><div class="tile-ico">${icon('download')}</div>
       <div><strong>Studying in camp?</strong><span class="small">Download the calls so the app works with no signal.</span></div>${icon('chev', 'chev')}</a>` : '';
     const previewNote = DATA.preview ? `<div class="alert" style="margin-bottom:14px"><strong>Preview mode</strong> - includes Draft questions that are still being reviewed.</div>` : '';
-    show(`${previewNote}<section class="hero" style="background-image:url('${esc(heroPhoto)}')">
+    show(`${previewNote}<section class="hero compact" style="background-image:url('${esc(heroPhoto)}')">
         <div class="eyebrow">African Guide Academy</div>
         <h1>Learn the birds</h1>
-        <p>By sight and by sound - practise for your FGASA assessments.</p>
-        <div><button class="btn accent" id="quick">${icon('bolt')} Quick quiz</button></div>
-        <div class="stat">${done ? `${done} of ${fg.items.length} birds mastered - keep going!` : '10 quick questions to get you started.'}</div>
+        <p>By sight and by sound - pick a quiz below.${done ? ` ${done} birds mastered so far.` : ''}</p>
       </section>
+      <div class="card setting-row home-setting"><label>Questions per round</label><div class="seg">${lens}</div></div>
       ${nudge}
-      <div class="section-title">Modules</div>
       <div class="module-list">${cards}</div>${footer()}`);
-    $('quick').addEventListener('click', () => go('#/m/fgasa80/quiz/photo2name'));
-    view.querySelectorAll('[data-mod]').forEach(b => b.addEventListener('click', () => go('#/m/' + b.dataset.mod)));
+    view.querySelectorAll('[data-len]').forEach(b => b.addEventListener('click', () => {
+      settings.length = +b.dataset.len; save(SETTINGS_KEY, settings);
+      view.querySelectorAll('[data-len]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+    }));
   }
 
   // ---------- module ----------
