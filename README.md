@@ -16,6 +16,15 @@ A study and quiz web app for African Guide Academy students. It's built from AGA
 - `tools/copy-media.ps1`: resizes the photos and copies the calls into `app/media`.
 - `tools/serve.js`: a local test server.
 
+## Live site
+https://africanguideacademy.github.io/aga-study/
+- Code: https://github.com/africanguideacademy/aga-study (account `africanguideacademy`).
+- The website is served from the `gh-pages` branch, which holds a copy of the `app/` folder.
+- To publish changes, run:
+```
+powershell -ExecutionPolicy Bypass -File tools/publish.ps1 "what changed"
+```
+
 ## Run it locally
 ```
 node tools/serve.js
@@ -43,6 +52,5 @@ Progress is saved in the student's own browser.
 - Identify the 4 "Publication-xxxx.jpg" photos.
 - Check "Long-legged Bustard".
 - Clear the copyright/licence position on the calls and photos before publishing.
-- Hosting: GitHub Pages, with a link or embed on the Wix site.
 - Offline/installable mode for students in camp.
 - Read the content live from the Google Sheet, so edits there show up without a rebuild.
