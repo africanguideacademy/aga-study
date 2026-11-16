@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#2f3b2a">
 <title>AGA Study</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AGA Study">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,11 +21,17 @@
     <span class="brand-mark">AGA</span>
     <span class="brand-text">Study</span>
   </div>
+  <span class="net" id="netBadge" hidden>Offline</span>
   <div class="topbar-right" id="topRight"></div>
 </header>
 <main id="view" tabindex="-1"></main>
 <footer class="foot">African Guide Academy &middot; Pilot version &middot; for enrolled students</footer>
 <script src="data.js"></script>
 <script src="app.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+  }
+</script>
 </body>
 </html>
