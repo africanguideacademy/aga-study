@@ -4199,6 +4199,1527 @@ window.AGA_DATA = {
      "bytes": 427655
     }
    ]
+  },
+  {
+   "id": "q-birds",
+   "kind": "questions",
+   "title": "Birds - manual questions",
+   "photo": "media/birds/african-scops-owl.jpg",
+   "subtitle": "108 questions from the Botswana Guide Training Manual",
+   "items": [
+    {
+     "id": "BIRD-001",
+     "q": "What is the single opening that birds use for both excretion and reproduction called?",
+     "a": "Cloaca",
+     "w": [
+      "Syrinx",
+      "Gizzard",
+      "Preen gland"
+     ],
+     "ex": "Birds have a single excretory and reproductive orifice called the cloaca.",
+     "group": "Features",
+     "page": "92",
+     "draft": true
+    },
+    {
+     "id": "BIRD-002",
+     "q": "In the manual's taxonomic example, the African fish eagle belongs to which class?",
+     "a": "Aves",
+     "w": [
+      "Chordata",
+      "Accipitridae",
+      "Falconiformes"
+     ],
+     "ex": "Kingdom Animalia, Phylum Chordata, Class Aves, Order Falconiformes, Family Accipitridae.",
+     "group": "Features",
+     "page": "92",
+     "draft": true
+    },
+    {
+     "id": "BIRD-003",
+     "q": "Which statement best describes birds?",
+     "a": "Endothermic vertebrates with internal fertilisation, covered in feathers",
+     "w": [
+      "Ectothermic vertebrates with external fertilisation",
+      "Endothermic invertebrates covered in feathers",
+      "Ectothermic vertebrates with internal fertilisation"
+     ],
+     "ex": "Birds are endothermic (warm-blooded) vertebrates with internal fertilisation; the body is covered in feathers.",
+     "group": "Features",
+     "page": "92",
+     "draft": true
+    },
+    {
+     "id": "BIRD-004",
+     "q": "How many main types of feathers does the manual describe?",
+     "a": "4",
+     "w": [
+      "2",
+      "3",
+      "6"
+     ],
+     "ex": "Flight feathers, contour feathers, down feathers and filoplumes.",
+     "group": "Feathers",
+     "page": "92",
+     "draft": true
+    },
+    {
+     "id": "BIRD-005",
+     "q": "Which feathers lie under the contour feathers and are designed to trap body heat?",
+     "a": "Down feathers",
+     "w": [
+      "Flight feathers",
+      "Filoplumes",
+      "Tertials"
+     ],
+     "ex": "Down feathers are fluffy feathers under the contour feathers that trap body heat and maximise insulation.",
+     "group": "Feathers",
+     "page": "92",
+     "draft": true
+    },
+    {
+     "id": "BIRD-006",
+     "q": "Which hair-like feathers are thought to act as small sensory organs?",
+     "a": "Filoplumes",
+     "w": [
+      "Down feathers",
+      "Contour feathers",
+      "Primaries"
+     ],
+     "ex": "Filoplumes are hair-like feathers thought to act as small sensory organs.",
+     "group": "Feathers",
+     "page": "92",
+     "draft": true
+    },
+    {
+     "id": "BIRD-007",
+     "q": "What gives a flight feather its strength and solid surface for flight?",
+     "a": "The barbules of neighbouring barbs interlock",
+     "w": [
+      "Hollow struts inside the shaft",
+      "Oil from the preen gland glues the barbs together",
+      "The feathers overlap like roof tiles"
+     ],
+     "ex": "Each barb has barbules that interlock with those of the adjoining barbs, giving strength and a solid flight surface.",
+     "group": "Feathers",
+     "page": "92",
+     "draft": true
+    },
+    {
+     "id": "BIRD-008",
+     "q": "What are the two main functions of contour feathers?",
+     "a": "An aerodynamic body shape and insulation",
+     "w": [
+      "Sensing touch and attracting mates",
+      "Waterproofing and producing sound",
+      "Lift and steering"
+     ],
+     "ex": "Contour feathers overlap to give an aerodynamic form and insulate the body against heat loss.",
+     "group": "Feathers",
+     "page": "92",
+     "draft": true
+    },
+    {
+     "id": "BIRD-009",
+     "q": "What does a bird do with the oil from its preen gland?",
+     "a": "Spreads it over the feathers to make them water resistant and flexible",
+     "w": [
+      "Uses it to soften food in the crop",
+      "Uses it to scent-mark its territory",
+      "Coats its eggs to camouflage them"
+     ],
+     "ex": "Preening oil makes feathers water resistant, reduces fungal growth and keeps them flexible.",
+     "group": "Feather care",
+     "page": "92",
+     "draft": true
+    },
+    {
+     "id": "BIRD-010",
+     "q": "Why do darters and cormorants lack a preen gland?",
+     "a": "Oil would make them more buoyant when diving for prey",
+     "w": [
+      "They moult their feathers too often",
+      "They dust-bathe instead",
+      "Their feathers are made of a different protein"
+     ],
+     "ex": "They are constantly diving for prey and oil would increase unwanted buoyancy.",
+     "group": "Feather care",
+     "page": "93",
+     "draft": true
+    },
+    {
+     "id": "BIRD-011",
+     "q": "What is \"anting\"?",
+     "a": "Letting ants crawl over the feathers to remove parasites and sticky substances",
+     "w": [
+      "Feeding mainly on ants and termites",
+      "Building a nest inside an ant nest",
+      "Following ant columns to catch disturbed insects"
+     ],
+     "ex": "Birds crouch over ants with feathers puffed out (or drag ants over their feathers) to rid themselves of parasites and sticky substances.",
+     "group": "Feather care",
+     "page": "93",
+     "draft": true
+    },
+    {
+     "id": "BIRD-012",
+     "q": "How often do most birds moult?",
+     "a": "Once a year",
+     "w": [
+      "Twice a year",
+      "Every second year",
+      "Continuously throughout the year"
+     ],
+     "ex": "Most birds moult once a year; birds with a breeding plumage moult twice, but flight feathers are normally only moulted once a year.",
+     "group": "Feather care",
+     "page": "93",
+     "draft": true
+    },
+    {
+     "id": "BIRD-013",
+     "q": "How do most birds replace their flight feathers?",
+     "a": "One flight feather on each wing at a time",
+     "w": [
+      "All flight feathers at once",
+      "All the feathers on one wing, then the other",
+      "Tail feathers only, every few years"
+     ],
+     "ex": "Most birds moult incrementally, losing one flight feather on each wing at the same time so flight is not affected.",
+     "group": "Feather care",
+     "page": "93",
+     "draft": true
+    },
+    {
+     "id": "BIRD-014",
+     "q": "Which birds can moult all their feathers at once while incubating in a partly sealed nest?",
+     "a": "Hornbills",
+     "w": [
+      "Weavers",
+      "Sunbirds",
+      "Doves"
+     ],
+     "ex": "Hornbills moult all their feathers at the same time while the female incubates in a partially sealed nest.",
+     "group": "Feather care",
+     "page": "93",
+     "draft": true
+    },
+    {
+     "id": "BIRD-015",
+     "q": "Which group of birds bathes by shaking among rain-wet leaves?",
+     "a": "Bulbuls, white-eyes and sunbirds",
+     "w": [
+      "Babblers, robins and weavers",
+      "Cormorants and darters",
+      "Doves and sparrows"
+     ],
+     "ex": "Bulbuls, white-eyes and sunbirds use rain collected in leaves; babblers, robins, starlings and weavers bathe in shallow pools.",
+     "group": "Feather care",
+     "page": "93",
+     "draft": true
+    },
+    {
+     "id": "BIRD-016",
+     "q": "Flying without losing height and without flapping, using rising air, is called...",
+     "a": "Soaring",
+     "w": [
+      "Gliding",
+      "Hovering",
+      "Stooping"
+     ],
+     "ex": "Soaring uses thermal updrafts or wind forced upward by obstacles. Gliding also has no flapping but the bird gradually loses height.",
+     "group": "Flight",
+     "page": "93",
+     "draft": true
+    },
+    {
+     "id": "BIRD-017",
+     "q": "Which form of flight uses the most energy?",
+     "a": "Hovering",
+     "w": [
+      "Soaring",
+      "Gliding",
+      "Flapping"
+     ],
+     "ex": "Hovering is the most expensive form of flight and is only used where hunting success is likely and perches are scarce.",
+     "group": "Flight",
+     "page": "93",
+     "draft": true
+    },
+    {
+     "id": "BIRD-018",
+     "q": "Which two species are given as examples of birds that hover to hunt?",
+     "a": "Pied kingfisher and black-winged kite",
+     "w": [
+      "White-backed vulture and marabou stork",
+      "Yellow-billed hornbill and lilac-breasted roller",
+      "Palm swift and barn swallow"
+     ],
+     "ex": "Hovering is commonly practised by pied kingfishers and black-winged kites.",
+     "group": "Flight",
+     "page": "93",
+     "draft": true
+    },
+    {
+     "id": "BIRD-019",
+     "q": "Soaring is typical of which kind of birds?",
+     "a": "Large birds with broad wings and tails, such as vultures and storks",
+     "w": [
+      "Small birds with short, rounded wings",
+      "Birds with long, narrow wings such as falcons",
+      "Birds with almost no tail such as the bateleur"
+     ],
+     "ex": "Soaring is typical of large, broad-winged and broad-tailed birds such as vultures and storks.",
+     "group": "Flight",
+     "page": "93",
+     "draft": true
+    },
+    {
+     "id": "BIRD-020",
+     "q": "How are bird bones made strong but light?",
+     "a": "They are hollow with thin criss-crossing struts",
+     "w": [
+      "They are solid but very thin",
+      "They are filled with fat",
+      "They are made of keratin"
+     ],
+     "ex": "Bird bones are hollow with a thin set of criss-crossing struts for strength.",
+     "group": "Bones and lungs",
+     "page": "93",
+     "draft": true
+    },
+    {
+     "id": "BIRD-021",
+     "q": "The beak is made of bony struts covered by which protein?",
+     "a": "Keratin",
+     "w": [
+      "Collagen",
+      "Chitin",
+      "Melanin"
+     ],
+     "ex": "The beak is mostly hollow, with bony struts covered in keratin.",
+     "group": "Bones and lungs",
+     "page": "93",
+     "draft": true
+    },
+    {
+     "id": "BIRD-022",
+     "q": "What is one advantage of the bird's network of air sacs?",
+     "a": "It lets the bird absorb oxygen when breathing in and when breathing out",
+     "w": [
+      "It produces the bird's song",
+      "It stores water for long flights",
+      "It replaces the lungs during flight"
+     ],
+     "ex": "Air sacs let the bird store more air, absorb oxygen on both the in- and out-breath, and lose excess body heat.",
+     "group": "Bones and lungs",
+     "page": "93",
+     "draft": true
+    },
+    {
+     "id": "BIRD-023",
+     "q": "Forest hunters such as goshawks have which wing and tail shape?",
+     "a": "Short, broad wings and a longer, broader tail",
+     "w": [
+      "Long, narrow wings and a short tail",
+      "Long, broad wings and a forked tail",
+      "Very short wings and almost no tail"
+     ],
+     "ex": "Short, broad wings and longer, broader tails help them manoeuvre through gaps in the canopy.",
+     "group": "Wing and tail design",
+     "page": "94",
+     "draft": true
+    },
+    {
+     "id": "BIRD-024",
+     "q": "Which local bird is given as an example of using the \"ground effect\" over water?",
+     "a": "African skimmer",
+     "w": [
+      "African fish eagle",
+      "Pied kingfisher",
+      "Great white pelican"
+     ],
+     "ex": "Long, thin-winged water birds use the cushion of air trapped over water; albatrosses are masters of it and the African skimmer uses it too.",
+     "group": "Wing and tail design",
+     "page": "94",
+     "draft": true
+    },
+    {
+     "id": "BIRD-025",
+     "q": "Why do falcons have long, narrow wings and no need for a broad tail?",
+     "a": "They are built for speed over open terrain",
+     "w": [
+      "They soar on thermals for hours",
+      "They hunt inside dense forest",
+      "They hover for long periods"
+     ],
+     "ex": "Falcons rely on fast flight over open terrain - they are built purely for speed.",
+     "group": "Wing and tail design",
+     "page": "94",
+     "draft": true
+    },
+    {
+     "id": "BIRD-026",
+     "q": "Which bird is given as an example of a forked tail that helps with steering?",
+     "a": "Fork-tailed drongo",
+     "w": [
+      "Bateleur",
+      "Gabar goshawk",
+      "White-backed vulture"
+     ],
+     "ex": "Yellow-billed kites, terns and fork-tailed drongos have forked tails that maximise steering.",
+     "group": "Wing and tail design",
+     "page": "94",
+     "draft": true
+    },
+    {
+     "id": "BIRD-027",
+     "q": "How does the bateleur, with almost no tail, manage fast turns?",
+     "a": "Without a stabilising tail, any change in wing angle gives an immediate response",
+     "w": [
+      "It uses its feet as a rudder",
+      "It only flies in straight lines",
+      "It spreads its tail feathers very wide"
+     ],
+     "ex": "Having very little tail makes it unstable, so a small change of one wing's angle turns it instantly.",
+     "group": "Wing and tail design",
+     "page": "94",
+     "draft": true
+    },
+    {
+     "id": "BIRD-028",
+     "q": "What is the typical passerine foot arrangement?",
+     "a": "3 toes forward and 1 back",
+     "w": [
+      "2 toes forward and 2 back",
+      "3 toes forward and none back",
+      "All 4 toes forward"
+     ],
+     "ex": "Passerines have 3 toes forward and 1 back, adapted for perching.",
+     "group": "Shapes of birds",
+     "page": "94",
+     "draft": true
+    },
+    {
+     "id": "BIRD-029",
+     "q": "Parrots have a zygodactyl foot. What does that mean?",
+     "a": "2 toes face forward and 2 face back",
+     "w": [
+      "3 toes face forward and 1 faces back",
+      "The toes are webbed",
+      "All 4 toes face forward"
+     ],
+     "ex": "Zygodactyl: 2 toes forward and 2 back.",
+     "group": "Shapes of birds",
+     "page": "94",
+     "draft": true
+    },
+    {
+     "id": "BIRD-030",
+     "q": "Which bill shape is typical of seed-eating passerines?",
+     "a": "Short and conical, good for crushing",
+     "w": [
+      "Long and decurved, for probing",
+      "Hooked, for tearing flesh",
+      "Flat and wide, for catching insects in flight"
+     ],
+     "ex": "Seed-eaters have short, conical bills with good crushing ability.",
+     "group": "Shapes of birds",
+     "page": "94",
+     "draft": true
+    },
+    {
+     "id": "BIRD-031",
+     "q": "Which description fits waders?",
+     "a": "Long legs and neck, long probing bill, small 3-toed feet",
+     "w": [
+      "Short neck, powerful legs and talons",
+      "Short conical bill and perching feet",
+      "Webbed feet and a hooked bill"
+     ],
+     "ex": "Waders have relatively long legs and necks, long probing bills and small, unspecialised 3-toed feet.",
+     "group": "Shapes of birds",
+     "page": "94",
+     "draft": true
+    },
+    {
+     "id": "BIRD-032",
+     "q": "Which organ do birds use to produce sound?",
+     "a": "Syrinx",
+     "w": [
+      "Larynx",
+      "Crop",
+      "Cere"
+     ],
+     "ex": "Birds produce sound from the syrinx, similar to human vocal cords.",
+     "group": "Vocalisation",
+     "page": "95",
+     "draft": true
+    },
+    {
+     "id": "BIRD-033",
+     "q": "What is bird song mainly used for?",
+     "a": "Defining territory and attracting mates",
+     "w": [
+      "Keeping contact while foraging",
+      "Warning others of danger",
+      "Begging for food"
+     ],
+     "ex": "Song defines territory and attracts mates; contact calls keep pairs/flocks together and alarm calls warn of danger.",
+     "group": "Vocalisation",
+     "page": "95",
+     "draft": true
+    },
+    {
+     "id": "BIRD-034",
+     "q": "Why are an owl's ears placed asymmetrically on the skull?",
+     "a": "To triangulate sound and pinpoint prey",
+     "w": [
+      "To hear higher-pitched sounds",
+      "To protect the ears in flight",
+      "To help with balance"
+     ],
+     "ex": "The asymmetry allows better triangulation of sound to find the exact position of prey.",
+     "group": "Hearing",
+     "page": "95",
+     "draft": true
+    },
+    {
+     "id": "BIRD-035",
+     "q": "What does the facial disc of many owls do?",
+     "a": "Acts like a dish that collects sound",
+     "w": [
+      "Reflects light into the eyes",
+      "Insulates the head",
+      "Displays to rival owls"
+     ],
+     "ex": "The facial disc acts as a parabolic dish, making the whole face one large \"ear\".",
+     "group": "Hearing",
+     "page": "95",
+     "draft": true
+    },
+    {
+     "id": "BIRD-036",
+     "q": "In which owls is the moveable flap of skin at the ear-hole most pronounced?",
+     "a": "Barn and grass owls",
+     "w": [
+      "Pel's fishing owl and Verreaux's eagle-owl",
+      "Scops owls and owlets",
+      "All owls equally"
+     ],
+     "ex": "The moveable ear flap is most pronounced in barn and grass owls.",
+     "group": "Hearing",
+     "page": "95",
+     "draft": true
+    },
+    {
+     "id": "BIRD-037",
+     "q": "What do the coloured oil droplets in a bird's eye do?",
+     "a": "Act like camera filters, making certain colours stand out",
+     "w": [
+      "Keep the eye moist on long flights",
+      "Increase blood flow to the retina",
+      "Protect the eye from impact"
+     ],
+     "ex": "The droplets act like filters, highlighting colours related to the bird's diet.",
+     "group": "Sight",
+     "page": "95",
+     "draft": true
+    },
+    {
+     "id": "BIRD-038",
+     "q": "In the foveal pit, how many more cells does a raptor have than a human?",
+     "a": "5 times more",
+     "w": [
+      "2 times more",
+      "10 times more",
+      "50 times more"
+     ],
+     "ex": "A raptor has 5 times more cells in the foveal pit, giving much higher visual acuity.",
+     "group": "Sight",
+     "page": "95",
+     "draft": true
+    },
+    {
+     "id": "BIRD-039",
+     "q": "What is the nictitating membrane?",
+     "a": "A transparent extra eyelid that protects the eye",
+     "w": [
+      "The coloured part of the eye",
+      "A layer of cells that sees ultraviolet light",
+      "The skin flap at an owl's ear"
+     ],
+     "ex": "This transparent third eyelid protects the eye when feeding, helps underwater vision and stops the eye drying out.",
+     "group": "Sight",
+     "page": "95",
+     "draft": true
+    },
+    {
+     "id": "BIRD-040",
+     "q": "What are Herbst corpuscles?",
+     "a": "Touch receptors in the bills of probe-feeders",
+     "w": [
+      "Smell sensors in the brain",
+      "Cells in the retina that detect colour",
+      "Glands that produce preening oil"
+     ],
+     "ex": "Probe-feeders such as yellow-billed storks, spoonbills and African skimmers have bills packed with Herbst corpuscles.",
+     "group": "Taste, touch and smell",
+     "page": "96",
+     "draft": true
+    },
+    {
+     "id": "BIRD-041",
+     "q": "Birds detect smell using sensors in the brain called...",
+     "a": "Olfactory bulbs",
+     "w": [
+      "Herbst corpuscles",
+      "Foveal pits",
+      "Air sacs"
+     ],
+     "ex": "Smell is detected by the olfactory bulbs; petrels can pick up scent from 8 km away.",
+     "group": "Taste, touch and smell",
+     "page": "96",
+     "draft": true
+    },
+    {
+     "id": "BIRD-042",
+     "q": "When handling a raptor, what should you be most wary of?",
+     "a": "The talons",
+     "w": [
+      "The beak",
+      "The wings",
+      "The tail"
+     ],
+     "ex": "The talons grip and often kill prey - be more wary of them than of the beak.",
+     "group": "Feeding habits",
+     "page": "96",
+     "draft": true
+    },
+    {
+     "id": "BIRD-043",
+     "q": "How are swifts adapted to catch insects?",
+     "a": "A wide gape with bristles, and swept-back wings",
+     "w": [
+      "A long, curved bill for probing bark",
+      "A short, conical bill",
+      "Long legs for chasing insects on the ground"
+     ],
+     "ex": "Swifts have a wide gape with bristles to catch insects in flight, swept-back wings, and short legs with needle-like claws.",
+     "group": "Feeding habits",
+     "page": "96",
+     "draft": true
+    },
+    {
+     "id": "BIRD-044",
+     "q": "Which of these is a \"grabber\" fish-eater?",
+     "a": "Cormorant",
+     "w": [
+      "Heron",
+      "Darter",
+      "Pied kingfisher"
+     ],
+     "ex": "Fish-eaters include the stabbers (herons and darters) and grabbers (cormorants).",
+     "group": "Feeding habits",
+     "page": "96",
+     "draft": true
+    },
+    {
+     "id": "BIRD-045",
+     "q": "Why are cormorants and darters often seen with their wings spread?",
+     "a": "They lack a preen (oil) gland, so they dry their wings",
+     "w": [
+      "They are displaying to mates",
+      "They are cooling down",
+      "They are shading the water to see fish"
+     ],
+     "ex": "Without the oil gland their feathers get wet, so they sit with wings spread to dry them.",
+     "group": "Feeding habits",
+     "page": "96",
+     "draft": true
+    },
+    {
+     "id": "BIRD-046",
+     "q": "Which cuckoo parasitises sunbirds?",
+     "a": "Klaas's cuckoo",
+     "w": [
+      "Levaillant's cuckoo",
+      "Great spotted cuckoo",
+      "Black cuckoo"
+     ],
+     "ex": "The manual notes that sunbirds are parasitised by Klaas's cuckoo.",
+     "group": "Feeding habits",
+     "page": "96",
+     "draft": true
+    },
+    {
+     "id": "BIRD-047",
+     "q": "On the trophic pyramid, nectar-feeding birds are...",
+     "a": "Primary consumers",
+     "w": [
+      "Secondary consumers",
+      "Producers",
+      "Decomposers"
+     ],
+     "ex": "Nectar feeders eat plant products, making them primary consumers. Fish-eaters such as cormorants are secondary consumers.",
+     "group": "Feeding habits",
+     "page": "96",
+     "draft": true
+    },
+    {
+     "id": "BIRD-048",
+     "q": "What is the function of the crop?",
+     "a": "To store and soften food",
+     "w": [
+      "To grind food with stones",
+      "To produce digestive acid",
+      "To absorb nutrients"
+     ],
+     "ex": "The crop stores food and keeps it moist before it moves on to be ground down.",
+     "group": "Digestion",
+     "page": "97",
+     "draft": true
+    },
+    {
+     "id": "BIRD-049",
+     "q": "Why do many birds swallow sand or small stones?",
+     "a": "To help grind food in the gizzard, making up for having no teeth",
+     "w": [
+      "To add weight for diving",
+      "To get minerals for eggshells",
+      "To clean the crop"
+     ],
+     "ex": "Grit stays in the gizzard and helps crush food, compensating for the lack of teeth.",
+     "group": "Digestion",
+     "page": "97",
+     "draft": true
+    },
+    {
+     "id": "BIRD-050",
+     "q": "How do birds excrete urine?",
+     "a": "Together with the faeces, as white uric acid, through the cloaca",
+     "w": [
+      "Separately through a bladder",
+      "Through glands near the bill",
+      "They do not produce urine at all"
+     ],
+     "ex": "Birds lack separate organs for urine and faeces; both pass out together, the white part being uric acid.",
+     "group": "Digestion",
+     "page": "97",
+     "draft": true
+    },
+    {
+     "id": "BIRD-051",
+     "q": "What mainly determines the size of a breeding pair's territory?",
+     "a": "Food availability - more food means a smaller territory",
+     "w": [
+      "The size of the birds",
+      "The number of trees",
+      "The age of the male"
+     ],
+     "ex": "The area defended depends mainly on food availability; the more food, the smaller the territory needed.",
+     "group": "Territorial behaviour",
+     "page": "97",
+     "draft": true
+    },
+    {
+     "id": "BIRD-052",
+     "q": "Which statement about birds and territory is correct?",
+     "a": "As a rule, birds do not scent-mark their territory",
+     "w": [
+      "Most birds scent-mark like mammals do",
+      "Birds never fight over territory",
+      "Only raptors defend territories"
+     ],
+     "ex": "Birds advertise territory with calls and displays; as a rule they do not scent-mark (unlike mammals).",
+     "group": "Territorial behaviour",
+     "page": "97",
+     "draft": true
+    },
+    {
+     "id": "BIRD-053",
+     "q": "Which birds often have loud, abusive boundary disputes that end in fights?",
+     "a": "Babblers",
+     "w": [
+      "Fish eagles",
+      "Black-collared barbets",
+      "Red-crested korhaans"
+     ],
+     "ex": "In babblers, territorial exchanges are loud and often end in fights between dominant birds of each flock.",
+     "group": "Territorial behaviour",
+     "page": "97",
+     "draft": true
+    },
+    {
+     "id": "BIRD-054",
+     "q": "Why does Botswana have no altitudinal migrants?",
+     "a": "Botswana lacks mountains (topography)",
+     "w": [
+      "It is too hot in summer",
+      "They are all intra-African migrants",
+      "Hunting has removed them"
+     ],
+     "ex": "Altitudinal migrants move up mountains in summer; Botswana is too flat to have any.",
+     "group": "Migration",
+     "page": "97",
+     "draft": true
+    },
+    {
+     "id": "BIRD-055",
+     "q": "Where do our intra-African migrants spend the southern African winter?",
+     "a": "In tropical Africa",
+     "w": [
+      "In Europe and Asia",
+      "In the mountains of Lesotho",
+      "At sea"
+     ],
+     "ex": "Intra-African migrants go to tropical Africa for our winter and visit southern Africa in summer.",
+     "group": "Migration",
+     "page": "97",
+     "draft": true
+    },
+    {
+     "id": "BIRD-056",
+     "q": "Which group of birds are all Palaearctic migrants?",
+     "a": "Black kites, steppe buzzards and barn swallows",
+     "w": [
+      "Carmine bee-eaters and woodland kingfishers",
+      "Fish eagles and bateleurs",
+      "Red-billed spurfowl and guineafowl"
+     ],
+     "ex": "Palaearctic migrants come from Europe and Asia, e.g. black kites, steppe buzzards and barn swallows.",
+     "group": "Migration",
+     "page": "97",
+     "draft": true
+    },
+    {
+     "id": "BIRD-057",
+     "q": "Why do migration routes avoid long water crossings?",
+     "a": "There are no thermal updrafts over water",
+     "w": [
+      "Birds cannot see landmarks over water",
+      "Storms are more common over water",
+      "There are too many predators at sea"
+     ],
+     "ex": "Routes have few long water crossings because there is no thermal updraft over water.",
+     "group": "Migration",
+     "page": "97",
+     "draft": true
+    },
+    {
+     "id": "BIRD-058",
+     "q": "How do first-year birds learn the migration route?",
+     "a": "By following other birds",
+     "w": [
+      "By instinct alone, using magnetite",
+      "By following rivers",
+      "They do not migrate in their first year"
+     ],
+     "ex": "First-year birds tend to follow others on migration to learn the route.",
+     "group": "Migration",
+     "page": "97",
+     "draft": true
+    },
+    {
+     "id": "BIRD-059",
+     "q": "Which type of nest do swallows and martins typically build?",
+     "a": "Mud nest",
+     "w": [
+      "Woven ball nest",
+      "Platform nest",
+      "Scrape"
+     ],
+     "ex": "Mud nests are built under overhangs using clay and are typical of swallows and martins.",
+     "group": "Breeding",
+     "page": "98",
+     "draft": true
+    },
+    {
+     "id": "BIRD-060",
+     "q": "The southern masked weaver builds which kind of nest?",
+     "a": "Woven ball nest",
+     "w": [
+      "Cup nest",
+      "Hole nest",
+      "Platform nest"
+     ],
+     "ex": "Woven ball nests are enclosed, with the entrance below or at the side - e.g. southern masked weaver.",
+     "group": "Breeding",
+     "page": "98",
+     "draft": true
+    },
+    {
+     "id": "BIRD-061",
+     "q": "Lapwings and plovers lay their eggs in...",
+     "a": "A scrape on the ground",
+     "w": [
+      "A mud nest",
+      "A woven ball nest",
+      "A hole in a riverbank"
+     ],
+     "ex": "Scrapes are a patch of bare earth; the well-camouflaged eggs are laid straight on the ground.",
+     "group": "Breeding",
+     "page": "98",
+     "draft": true
+    },
+    {
+     "id": "BIRD-062",
+     "q": "Which two species dig their nest holes into the ground?",
+     "a": "Grey-rumped swallow and carmine bee-eater",
+     "w": [
+      "Woodpeckers and barbets",
+      "Pied kingfisher and hamerkop",
+      "Doves and spurfowl"
+     ],
+     "ex": "Grey-rumped swallows and carmine bee-eaters nest in holes they excavate in the ground.",
+     "group": "Breeding",
+     "page": "98",
+     "draft": true
+    },
+    {
+     "id": "BIRD-063",
+     "q": "What is a brood patch?",
+     "a": "A bare area on the breast that transfers body heat to the eggs",
+     "w": [
+      "A patch of colourful breeding feathers",
+      "The area of territory around the nest",
+      "A lining of soft material inside the nest"
+     ],
+     "ex": "Incubating birds lose some breast feathers so body heat passes directly to the eggs.",
+     "group": "Breeding",
+     "page": "98",
+     "draft": true
+    },
+    {
+     "id": "BIRD-064",
+     "q": "In polyandrous birds...",
+     "a": "A female has several male partners",
+     "w": [
+      "A male has several female partners",
+      "Pairs mate for life",
+      "Pairs stay together for one season only"
+     ],
+     "ex": "Polyandry: one female, several males - e.g. African jacana, black coucal and small buttonquail.",
+     "group": "Breeding",
+     "page": "98",
+     "draft": true
+    },
+    {
+     "id": "BIRD-065",
+     "q": "Which birds are given as examples of polygyny (one male, several females)?",
+     "a": "Weavers and whydahs",
+     "w": [
+      "African jacana and black coucal",
+      "Eagles",
+      "Robin-chats and robins"
+     ],
+     "ex": "In polygynous birds a male has multiple females, as in weavers and whydahs.",
+     "group": "Breeding",
+     "page": "98",
+     "draft": true
+    },
+    {
+     "id": "BIRD-066",
+     "q": "Which is an example of reverse sexual dimorphism?",
+     "a": "Greater painted-snipe, where the female is the more colourful bird",
+     "w": [
+      "Ostrich, where the male is black and the female drab",
+      "Weavers, where the male gets bright breeding plumage",
+      "Helmeted guineafowl, where both sexes look alike"
+     ],
+     "ex": "In polyandrous birds like the greater painted-snipe the female is more attractive. In eagles, females are larger than males.",
+     "group": "Breeding",
+     "page": "98",
+     "draft": true
+    },
+    {
+     "id": "BIRD-067",
+     "q": "How do honeyguide chicks deal with the host's young?",
+     "a": "They kill the host chicks",
+     "w": [
+      "They push out the host eggs",
+      "They are raised alongside them",
+      "They leave the nest early"
+     ],
+     "ex": "Cuckoos eject host eggs; honeyguides kill the host chicks.",
+     "group": "Parasitism",
+     "page": "99",
+     "draft": true
+    },
+    {
+     "id": "BIRD-068",
+     "q": "Why don't honeyguide eggs need to match the host's eggs?",
+     "a": "Hosts are usually hole-nesters and cannot see colour differences in the dark",
+     "w": [
+      "Honeyguides lay at night",
+      "Hosts cannot count their eggs",
+      "Honeyguides remove all host eggs first"
+     ],
+     "ex": "The host is usually a hole-nesting species and cannot see any difference in colour.",
+     "group": "Parasitism",
+     "page": "99",
+     "draft": true
+    },
+    {
+     "id": "BIRD-069",
+     "q": "Whydahs and indigobirds parasitise which hosts?",
+     "a": "Firefinches, waxbills and mannikins",
+     "w": [
+      "Babblers and bulbuls",
+      "Prinias and cisticolas",
+      "Starlings and sparrows"
+     ],
+     "ex": "Whydahs and indigobirds use firefinches, waxbills and mannikins, and the host chicks are not attacked.",
+     "group": "Parasitism",
+     "page": "99",
+     "draft": true
+    },
+    {
+     "id": "BIRD-070",
+     "q": "Why does a cuckoo chick usually hatch before the host's eggs?",
+     "a": "The cuckoo's incubation period is shorter",
+     "w": [
+      "The cuckoo lays its egg first",
+      "The host stops incubating its own eggs",
+      "Cuckoo eggs are kept warmer"
+     ],
+     "ex": "A shorter incubation lets the cuckoo chick evict host eggs or get a size advantage.",
+     "group": "Parasitism",
+     "page": "99",
+     "draft": true
+    },
+    {
+     "id": "BIRD-071",
+     "q": "Precocial chicks hatch...",
+     "a": "With eyes open, covered in down, and able to move",
+     "w": [
+      "Naked, blind and helpless",
+      "Inside a sealed nest hole",
+      "Only after a very short incubation"
+     ],
+     "ex": "Precocial chicks are advanced at hatching, which needs a longer incubation than for helpless young.",
+     "group": "Chicks",
+     "page": "99",
+     "draft": true
+    },
+    {
+     "id": "BIRD-072",
+     "q": "What type of young do all passerines have?",
+     "a": "Altricial - naked, blind and helpless",
+     "w": [
+      "Precocial - downy and mobile",
+      "Some altricial, some precocial",
+      "Young that leave the nest on the first day"
+     ],
+     "ex": "All passerine species have altricial (naked, blind and helpless) young.",
+     "group": "Taxonomy",
+     "page": "99",
+     "draft": true
+    },
+    {
+     "id": "BIRD-073",
+     "q": "How can a passerine sleep on a branch without falling off?",
+     "a": "A tendon tightens the toes around the branch when the legs bend",
+     "w": [
+      "It hooks its bill onto the branch",
+      "It wraps its wings around the branch",
+      "It only sleeps on the ground"
+     ],
+     "ex": "Bending the legs pulls a tendon tight, locking the toes on the branch.",
+     "group": "Taxonomy",
+     "page": "99",
+     "draft": true
+    },
+    {
+     "id": "BIRD-074",
+     "q": "Which are the exceptions to passerines being mostly small birds?",
+     "a": "Ravens and crows",
+     "w": [
+      "Hornbills and rollers",
+      "Doves and pigeons",
+      "Hawks and eagles"
+     ],
+     "ex": "Most passerines are small, with the exception of ravens and crows.",
+     "group": "Taxonomy",
+     "page": "99",
+     "draft": true
+    },
+    {
+     "id": "BIRD-075",
+     "q": "Which bird is described as one of the best \"predator alarms\" in Botswana?",
+     "a": "Red-billed spurfowl",
+     "w": [
+      "Swainson's spurfowl",
+      "Helmeted guineafowl",
+      "Cape turtle dove"
+     ],
+     "ex": "The loud KAK! KAK! KAK! of the red-billed spurfowl alerts animals to cats, large snakes and raptors.",
+     "group": "Prominent birds",
+     "page": "100",
+     "draft": true
+    },
+    {
+     "id": "BIRD-076",
+     "q": "How does an ostrich defend itself?",
+     "a": "By kicking, using its large toenail as a weapon",
+     "w": [
+      "By pecking at the eyes",
+      "By hissing and spreading its wings",
+      "By running into thick bush"
+     ],
+     "ex": "Ostriches kick, using the large toenail as a weapon.",
+     "group": "Prominent birds",
+     "page": "100",
+     "draft": true
+    },
+    {
+     "id": "BIRD-077",
+     "q": "How does a spur-winged goose defend itself?",
+     "a": "It uses the spurs on its wings to gash attackers",
+     "w": [
+      "It dives underwater",
+      "It kicks with its feet",
+      "It mobs predators in large flocks"
+     ],
+     "ex": "They may hiss and use the substantial spurs on the wing to gash a threatening animal.",
+     "group": "Prominent birds",
+     "page": "101",
+     "draft": true
+    },
+    {
+     "id": "BIRD-078",
+     "q": "How are honeyguides able to digest beeswax?",
+     "a": "Through symbiotic bacteria in the gut",
+     "w": [
+      "By grinding it with stones in the gizzard",
+      "With a special enzyme in their saliva",
+      "They cannot - they only eat the larvae"
+     ],
+     "ex": "Honeyguides are among the few vertebrates that digest beeswax, thanks to symbiotic gut bacteria.",
+     "group": "Prominent birds",
+     "page": "101",
+     "draft": true
+    },
+    {
+     "id": "BIRD-079",
+     "q": "How do you tell a male greater honeyguide from a female?",
+     "a": "The male has a dark head and white ear patch",
+     "w": [
+      "The male has a red throat",
+      "The female is much larger",
+      "The female has long tail streamers"
+     ],
+     "ex": "Males have a dark head and white ear patch; the female's ear coverts are unmarked.",
+     "group": "Prominent birds",
+     "page": "101",
+     "draft": true
+    },
+    {
+     "id": "BIRD-080",
+     "q": "What does a yellow-billed hornbill do when it finds a predator?",
+     "a": "Calls \"krrrrr\" and flies over and circles above it",
+     "w": [
+      "Freezes and relies on camouflage",
+      "Lands next to it and pecks",
+      "Leads it away from the nest"
+     ],
+     "ex": "It gives a \"krrrrr\" call and flies over and circles above the predator.",
+     "group": "Prominent birds",
+     "page": "101",
+     "draft": true
+    },
+    {
+     "id": "BIRD-081",
+     "q": "At what age does the southern ground hornbill's eye turn yellow?",
+     "a": "About 2 years",
+     "w": [
+      "About 6 months",
+      "About 4-6 years",
+      "About 10 years"
+     ],
+     "ex": "The eye turns yellow at 2 years; the red throat and face are only complete at 4-6 years.",
+     "group": "Prominent birds",
+     "page": "102",
+     "draft": true
+    },
+    {
+     "id": "BIRD-082",
+     "q": "How do southern ground hornbills breed?",
+     "a": "Cooperatively - a dominant pair helped by other group members",
+     "w": [
+      "In large colonies",
+      "As brood parasites",
+      "In pairs that leave the group to breed"
+     ],
+     "ex": "They are cooperative breeders: the dominant male and female raise chicks with helpers. Groups are usually 5-6 birds.",
+     "group": "Prominent birds",
+     "page": "102",
+     "draft": true
+    },
+    {
+     "id": "BIRD-083",
+     "q": "How can you tell a male pied kingfisher?",
+     "a": "He has two bands across the chest",
+     "w": [
+      "He has a single broken chest band",
+      "He has a red bill",
+      "He has longer tail streamers"
+     ],
+     "ex": "Males have two chest bands; the female has a single, broad, incomplete band.",
+     "group": "Prominent birds",
+     "page": "102",
+     "draft": true
+    },
+    {
+     "id": "BIRD-084",
+     "q": "Why do carmine bee-eaters follow game-drive vehicles and animal herds?",
+     "a": "To catch the insects they disturb",
+     "w": [
+      "To feed on dung",
+      "For protection from raptors",
+      "To drink from puddles"
+     ],
+     "ex": "They feed on insects disturbed by vehicles and herds.",
+     "group": "Prominent birds",
+     "page": "102",
+     "draft": true
+    },
+    {
+     "id": "BIRD-085",
+     "q": "Which hosts does Levaillant's cuckoo parasitise?",
+     "a": "Babblers",
+     "w": [
+      "Sunbirds",
+      "Weavers",
+      "Firefinches"
+     ],
+     "ex": "Levaillant's cuckoo parasitises the babblers. It is an intra-African migrant.",
+     "group": "Prominent birds",
+     "page": "102",
+     "draft": true
+    },
+    {
+     "id": "BIRD-086",
+     "q": "Which bird calls \"Kwarrrr, Kwarrr\" repeatedly while following a leopard?",
+     "a": "Wattled crane",
+     "w": [
+      "Kori bustard",
+      "Helmeted guineafowl",
+      "Grey go-away-bird"
+     ],
+     "ex": "Wattled cranes keep calling while following leopards and other predators.",
+     "group": "Prominent birds",
+     "page": "103",
+     "draft": true
+    },
+    {
+     "id": "BIRD-087",
+     "q": "In the African jacana, which sex is much larger?",
+     "a": "The female",
+     "w": [
+      "The male",
+      "Both are the same size",
+      "It changes with the season"
+     ],
+     "ex": "African jacana females are much larger than males (they are polyandrous).",
+     "group": "Prominent birds",
+     "page": "103",
+     "draft": true
+    },
+    {
+     "id": "BIRD-088",
+     "q": "How does a Burchell's sandgrouse parent protect its ground nest?",
+     "a": "It walks slowly away to lead the predator off",
+     "w": [
+      "It attacks with open wings",
+      "It flies straight at the predator",
+      "It covers the eggs with sand and leaves"
+     ],
+     "ex": "Parents may lead predators away by walking slowly away rather than flying.",
+     "group": "Prominent birds",
+     "page": "103",
+     "draft": true
+    },
+    {
+     "id": "BIRD-089",
+     "q": "What is the favourite prey of the Gabar goshawk?",
+     "a": "Doves",
+     "w": [
+      "Rodents",
+      "Lizards",
+      "Insects"
+     ],
+     "ex": "They feed almost only on birds caught in flight; doves are the most popular.",
+     "group": "Prominent birds",
+     "page": "104",
+     "draft": true
+    },
+    {
+     "id": "BIRD-090",
+     "q": "By what age does an African fish eagle have full adult colours?",
+     "a": "5th year",
+     "w": [
+      "1st year",
+      "3rd year",
+      "8th year"
+     ],
+     "ex": "Adult colours start in the 3rd year; full adult colour is reached by the 5th year.",
+     "group": "Prominent birds",
+     "page": "104",
+     "draft": true
+    },
+    {
+     "id": "BIRD-091",
+     "q": "How long does a white-backed vulture take to reach full adult plumage?",
+     "a": "6 years",
+     "w": [
+      "2 years",
+      "4 years",
+      "10 years"
+     ],
+     "ex": "They take 6 years; the brown, furry head turns white in the fifth year.",
+     "group": "Prominent birds",
+     "page": "104",
+     "draft": true
+    },
+    {
+     "id": "BIRD-092",
+     "q": "What does the hamerkop mostly eat?",
+     "a": "Frogs and tadpoles",
+     "w": [
+      "Fish",
+      "Water snails",
+      "Insects"
+     ],
+     "ex": "Hamerkops feed mostly on frogs and tadpoles; fish and invertebrates are less important.",
+     "group": "Prominent birds",
+     "page": "105",
+     "draft": true
+    },
+    {
+     "id": "BIRD-093",
+     "q": "What does the openbill mostly eat?",
+     "a": "Water snails",
+     "w": [
+      "Frogs",
+      "Fish",
+      "Seeds"
+     ],
+     "ex": "Openbills feed mostly on water snails and also take fresh-water mussels.",
+     "group": "Prominent birds",
+     "page": "105",
+     "draft": true
+    },
+    {
+     "id": "BIRD-094",
+     "q": "How does the fork-tailed drongo steal food from meerkats (suricates)?",
+     "a": "It mimics their alarm call, then takes the prey when they run for cover",
+     "w": [
+      "It mobs them until they drop their food",
+      "It follows them and picks up scraps",
+      "It raids their burrows at night"
+     ],
+     "ex": "Drongos mimic the alarm call; when the meerkats dash for cover, they swoop down and take the prey.",
+     "group": "Prominent birds",
+     "page": "105",
+     "draft": true
+    },
+    {
+     "id": "BIRD-095",
+     "q": "Why do great white pelicans prefer to fish in large flocks?",
+     "a": "Cooperative fishing is more successful",
+     "w": [
+      "Flocks protect them from crocodiles",
+      "It keeps them warm",
+      "Single birds cannot take off from water"
+     ],
+     "ex": "They prefer to feed cooperatively, which is more successful than feeding alone.",
+     "group": "Prominent birds",
+     "page": "105",
+     "draft": true
+    },
+    {
+     "id": "BIRD-096",
+     "q": "Which is the fastest-flying bird in the world?",
+     "a": "Peregrine falcon",
+     "w": [
+      "Ostrich",
+      "Palm swift",
+      "African fish eagle"
+     ],
+     "ex": "The peregrine falcon reaches speeds of over 300 km/h.",
+     "group": "Exceptional birds",
+     "page": "106",
+     "draft": true
+    },
+    {
+     "id": "BIRD-097",
+     "q": "Which is the heaviest flying bird (according to the manual)?",
+     "a": "Kori bustard",
+     "w": [
+      "Ostrich",
+      "Great white pelican",
+      "Lappet-faced vulture"
+     ],
+     "ex": "Male kori bustards weigh up to 12.5 kg (some sources say the mute swan is heavier).",
+     "group": "Exceptional birds",
+     "page": "106",
+     "draft": true
+    },
+    {
+     "id": "BIRD-098",
+     "q": "Which bird has the largest wingspan?",
+     "a": "Wandering albatross",
+     "w": [
+      "Lappet-faced vulture",
+      "Great white pelican",
+      "Marabou stork"
+     ],
+     "ex": "The wandering albatross reaches a wingspan of 3.6 m.",
+     "group": "Exceptional birds",
+     "page": "106",
+     "draft": true
+    },
+    {
+     "id": "BIRD-099",
+     "q": "Which bird has the longest migration, at just over 16 000 km one way?",
+     "a": "Common tern",
+     "w": [
+      "Barn swallow",
+      "Steppe buzzard",
+      "Carmine bee-eater"
+     ],
+     "ex": "The common tern migrates just over 16 000 km one way.",
+     "group": "Exceptional birds",
+     "page": "106",
+     "draft": true
+    },
+    {
+     "id": "BIRD-100",
+     "q": "What is the main threat to vultures in Botswana?",
+     "a": "Poisoning",
+     "w": [
+      "Pesticides in Europe",
+      "Loss of wetlands",
+      "Boat wakes"
+     ],
+     "ex": "White-backed, lappet-faced, white-headed and hooded vultures are listed as threatened by poisoning.",
+     "group": "Birds of concern",
+     "page": "106",
+     "draft": true
+    },
+    {
+     "id": "BIRD-101",
+     "q": "What is the conservation status of the white-backed vulture?",
+     "a": "Critically Endangered (CE)",
+     "w": [
+      "Vulnerable (VU)",
+      "Near Threatened (NT)",
+      "Least Concern (LC)"
+     ],
+     "ex": "White-backed vulture: threat poisoning - CE.",
+     "group": "Birds of concern",
+     "page": "106",
+     "draft": true
+    },
+    {
+     "id": "BIRD-102",
+     "q": "Why are the European roller and black-winged pratincole listed as birds of concern?",
+     "a": "Heavy use of pesticides in Europe/Asia",
+     "w": [
+      "Poisoning by farmers",
+      "Loss of nesting cliffs",
+      "Collisions with power lines"
+     ],
+     "ex": "Both are migrants threatened by extreme pesticide use in Europe/Asia (NT).",
+     "group": "Birds of concern",
+     "page": "106",
+     "draft": true
+    },
+    {
+     "id": "BIRD-103",
+     "q": "How many Important Bird Areas (IBAs) does Botswana have?",
+     "a": "12",
+     "w": [
+      "6",
+      "9",
+      "20"
+     ],
+     "ex": "Botswana has 12 IBAs.",
+     "group": "Important bird areas",
+     "page": "107",
+     "draft": true
+    },
+    {
+     "id": "BIRD-104",
+     "q": "Which is the most important IBA in Botswana, and its flagship species?",
+     "a": "Okavango Delta - wattled crane",
+     "w": [
+      "Chobe National Park - bateleur",
+      "Makgadikgadi Pans - lesser flamingo",
+      "Lake Ngami - black-winged pratincole"
+     ],
+     "ex": "The Okavango Delta has the largest diversity of wetland habitats; flagship species - wattled crane.",
+     "group": "Important bird areas",
+     "page": "107",
+     "draft": true
+    },
+    {
+     "id": "BIRD-105",
+     "q": "What is the flagship species of the Makgadikgadi Pans IBA?",
+     "a": "Lesser flamingo",
+     "w": [
+      "Wattled crane",
+      "Kori bustard",
+      "Slaty egret"
+     ],
+     "ex": "When flooded, the pans hold southern Africa's largest breeding colony of lesser and greater flamingo and great white pelican.",
+     "group": "Important bird areas",
+     "page": "107",
+     "draft": true
+    },
+    {
+     "id": "BIRD-106",
+     "q": "Chobe National Park IBA has which flagship species?",
+     "a": "Bateleur",
+     "w": [
+      "Slaty egret",
+      "Cape griffon",
+      "Burchell's sandgrouse"
+     ],
+     "ex": "Many raptors have their highest populations here; flagship species - bateleur.",
+     "group": "Important bird areas",
+     "page": "107",
+     "draft": true
+    },
+    {
+     "id": "BIRD-107",
+     "q": "Which IBA has the slaty egret as its flagship species?",
+     "a": "Linyanti Swamp",
+     "w": [
+      "Okavango Delta",
+      "Bokaa Dam",
+      "Lake Ngami"
+     ],
+     "ex": "Linyanti Swamp - wetland threatened by poaching, fires and boat behaviour; flagship species - slaty egret.",
+     "group": "Important bird areas",
+     "page": "107",
+     "draft": true
+    },
+    {
+     "id": "BIRD-108",
+     "q": "Which bird is the flagship species of the Central Kalahari Game Reserve IBA?",
+     "a": "Burchell's sandgrouse",
+     "w": [
+      "Kori bustard",
+      "Short-clawed lark",
+      "Lesser flamingo"
+     ],
+     "ex": "CKGR protects a huge area of Kalahari pans and sandveld; flagship species - Burchell's sandgrouse.",
+     "group": "Important bird areas",
+     "page": "107",
+     "draft": true
+    }
+   ]
   }
  ]
 };
