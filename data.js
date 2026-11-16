@@ -12,532 +12,608 @@ window.AGA_DATA = {
      "name": "Yellow-breasted Apalis",
      "group": "Apalis",
      "photo": "media/birds/yellow-breasted-apalis.jpg",
-     "call": "media/calls/apalis-yellow-breasted.mp3"
+     "call": "media/calls/apalis-yellow-breasted.mp3",
+     "bytes": 413862
     },
     {
      "id": "arrow-marked-babbler",
      "name": "Arrow-marked Babbler",
      "group": "Babbler",
      "photo": "media/birds/arrow-marked-babbler.jpg",
-     "call": "media/calls/babbler-arrow-marked.mp3"
+     "call": "media/calls/babbler-arrow-marked.mp3",
+     "bytes": 526711
     },
     {
      "id": "tropical-boubou",
      "name": "Tropical Boubou",
      "group": "Boubou",
      "photo": "media/birds/tropical-boubou.jpg",
-     "call": "media/calls/boubou-tropical.mp3"
+     "call": "media/calls/boubou-tropical.mp3",
+     "bytes": 470705
     },
     {
      "id": "red-billed-buffalo-weaver",
      "name": "Red-billed Buffalo-Weaver",
      "group": "Weaver",
      "photo": "media/birds/red-billed-buffalo-weaver.jpg",
-     "call": "media/calls/weaver-red-billed-buffalo.mp3"
+     "call": "media/calls/weaver-red-billed-buffalo.mp3",
+     "bytes": 430998
     },
     {
      "id": "orange-breasted-bush-shrike",
      "name": "Orange-breasted Bush-Shrike",
      "group": "Bushshrike",
      "photo": "media/birds/orange-breasted-bush-shrike.jpg",
-     "call": "media/calls/bushshrike-orange-breasted.mp3"
+     "call": "media/calls/bushshrike-orange-breasted.mp3",
+     "bytes": 396766
     },
     {
      "id": "long-legged-bustard",
      "name": "Long-legged Bustard",
      "group": "Bustard",
      "photo": "media/birds/long-legged-bustard.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "kurrichane-buttonquail",
      "name": "Kurrichane Buttonquail",
      "group": "Buttonquail",
      "photo": "media/birds/kurrichane-buttonquail.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "grey-backed-camaroptera",
      "name": "Grey-backed Camaroptera",
      "group": "Camaroptera",
      "photo": "media/birds/grey-backed-camaroptera.jpg",
-     "call": "media/calls/camaroptera-grey-backed.mp3"
+     "call": "media/calls/camaroptera-grey-backed.mp3",
+     "bytes": 425983
     },
     {
      "id": "arnots-chat",
      "name": "Arnot's Chat",
      "group": "Chat",
      "photo": "media/birds/arnots-chat.jpg",
-     "call": "media/calls/chat-arnots.mp3"
+     "call": "media/calls/chat-arnots.mp3",
+     "bytes": 448553
     },
     {
      "id": "red-faced-cisticola",
      "name": "Red-faced Cisticola",
      "group": "Cisticola",
      "photo": "media/birds/red-faced-cisticola.jpg",
-     "call": "media/calls/cisticola-red-faced.mp3"
+     "call": "media/calls/cisticola-red-faced.mp3",
+     "bytes": 438522
     },
     {
      "id": "bronze-winged-courser",
      "name": "Bronze-winged Courser",
      "group": "Courser",
      "photo": "media/birds/bronze-winged-courser.jpg",
-     "call": "media/calls/courser-bronze-winged.mp3"
+     "call": "media/calls/courser-bronze-winged.mp3",
+     "bytes": 434643
     },
     {
      "id": "temmincks-courser",
      "name": "Temminck's Courser",
      "group": "Courser",
      "photo": "media/birds/temmincks-courser.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "black-crake",
      "name": "Black Crake",
      "group": "Crake",
      "photo": "media/birds/black-crake.jpg",
-     "call": "media/calls/crake-black.mp3"
+     "call": "media/calls/crake-black.mp3",
+     "bytes": 437686
     },
     {
      "id": "african-cuckoo",
      "name": "African Cuckoo",
      "group": "Cuckoo",
      "photo": "media/birds/african-cuckoo.jpg",
-     "call": "media/calls/cuckoo-african.mp3"
+     "call": "media/calls/cuckoo-african.mp3",
+     "bytes": 393265
     },
     {
      "id": "black-cuckoo",
      "name": "Black Cuckoo",
      "group": "Cuckoo",
      "photo": "media/birds/black-cuckoo.jpg",
-     "call": "media/calls/cuckoo-black.mp3"
+     "call": "media/calls/cuckoo-black.mp3",
+     "bytes": 437686
     },
     {
      "id": "great-spotted-cuckoo",
      "name": "Great Spotted Cuckoo",
      "group": "Cuckoo",
      "photo": "media/birds/great-spotted-cuckoo.jpg",
-     "call": "media/calls/cuckoo-great-spotted.mp3"
+     "call": "media/calls/cuckoo-great-spotted.mp3",
+     "bytes": 397863
     },
     {
      "id": "levaillants-cuckoo",
      "name": "Levaillant's Cuckoo",
      "group": "Cuckoo",
      "photo": "media/birds/levaillants-cuckoo.jpg",
-     "call": "media/calls/cuckoo-levaillants.mp3"
+     "call": "media/calls/cuckoo-levaillants.mp3",
+     "bytes": 444791
     },
     {
      "id": "black-cuckooshrike",
      "name": "Black Cuckooshrike",
      "group": "Cuckooshrike",
      "photo": "media/birds/black-cuckooshrike.jpg",
-     "call": "media/calls/cuckooshrike-black.mp3"
+     "call": "media/calls/cuckooshrike-black.mp3",
+     "bytes": 450674
     },
     {
      "id": "white-breasted-cuckooshrike",
      "name": "White-breasted Cuckooshrike",
      "group": "Cuckooshrike",
      "photo": "media/birds/white-breasted-cuckooshrike.jpg",
-     "call": "media/calls/cuckooshrike-white-breasted.mp3"
+     "call": "media/calls/cuckooshrike-white-breasted.mp3",
+     "bytes": 384070
     },
     {
      "id": "emerald-spotted-wood-dove",
      "name": "Emerald-spotted Wood-Dove",
      "group": "Dove",
      "photo": "media/birds/emerald-spotted-wood-dove.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "burnt-necked-eremomela",
      "name": "Burnt-necked Eremomela",
      "group": "Eremomela",
      "photo": "media/birds/burnt-necked-eremomela.jpg",
-     "call": "media/calls/eremomela-burnt-necked.mp3"
+     "call": "media/calls/eremomela-burnt-necked.mp3",
+     "bytes": 404968
     },
     {
      "id": "green-capped-eremomela",
      "name": "Green-capped Eremomela",
      "group": "Eremomela",
      "photo": "media/birds/green-capped-eremomela.jpg",
-     "call": "media/calls/eremomela-green-capped.mp3"
+     "call": "media/calls/eremomela-green-capped.mp3",
+     "bytes": 443119
     },
     {
      "id": "ashy-flycatcher",
      "name": "Ashy Flycatcher",
      "group": "Flycatcher",
      "photo": "media/birds/ashy-flycatcher.jpg",
-     "call": "media/calls/flycatcher-ashy.mp3"
+     "call": "media/calls/flycatcher-ashy.mp3",
+     "bytes": 424311
     },
     {
      "id": "southern-black-flycatcher",
      "name": "Southern Black Flycatcher",
      "group": "Flycatcher",
      "photo": "media/birds/southern-black-flycatcher.jpg",
-     "call": "media/calls/flycatcher-southern-black.mp3"
+     "call": "media/calls/flycatcher-southern-black.mp3",
+     "bytes": 407593
     },
     {
      "id": "grey-tit-flycatcher",
      "name": "Grey Tit-Flycatcher",
      "group": "Flycatcher",
      "photo": "media/birds/grey-tit-flycatcher.jpg",
-     "call": "media/calls/flycatcher-grey-tit.mp3"
+     "call": "media/calls/flycatcher-grey-tit.mp3",
+     "bytes": 358157
     },
     {
      "id": "marico-flycatcher",
      "name": "Marico Flycatcher",
      "group": "Flycatcher",
      "photo": "media/birds/marico-flycatcher.jpg",
-     "call": "media/calls/flycatcher-marico.mp3"
+     "call": "media/calls/flycatcher-marico.mp3",
+     "bytes": 428073
     },
     {
      "id": "coqui-francolin",
      "name": "Coqui Francolin",
      "group": "Francolin",
      "photo": "media/birds/coqui-francolin.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "allens-gallinule",
      "name": "Allen's Gallinule",
      "group": "Gallinule",
      "photo": "media/birds/allens-gallinule.jpg",
-     "call": "media/calls/gallinule-allens.mp3"
+     "call": "media/calls/gallinule-allens.mp3",
+     "bytes": 486587
     },
     {
      "id": "african-pygmy-goose",
      "name": "African Pygmy Goose",
      "group": "Goose",
      "photo": "media/birds/african-pygmy-goose.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "dark-chanting-goshawk",
      "name": "Dark Chanting Goshawk",
      "group": "Goshawk",
      "photo": "media/birds/dark-chanting-goshawk.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "gabar-goshawk",
      "name": "Gabar Goshawk",
      "group": "Goshawk",
      "photo": "media/birds/gabar-goshawk.jpg",
-     "call": "media/calls/goshawk-gabar.mp3"
+     "call": "media/calls/goshawk-gabar.mp3",
+     "bytes": 442701
     },
     {
      "id": "african-hawk-eagle",
      "name": "African Hawk-Eagle",
      "group": "Hawk",
      "photo": "media/birds/african-hawk-eagle.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "retzs-helmet-shrike",
      "name": "Retz's Helmet-Shrike",
      "group": "Helmetshrike",
      "photo": "media/birds/retzs-helmet-shrike.jpg",
-     "call": "media/calls/helmetshrike-retzs.mp3"
+     "call": "media/calls/helmetshrike-retzs.mp3",
+     "bytes": 498290
     },
     {
      "id": "grey-headed-kingfisher",
      "name": "Grey-headed Kingfisher",
      "group": "Kingfisher",
      "photo": "media/birds/grey-headed-kingfisher.jpg",
-     "call": "media/calls/kingfisher-grey-headed.mp3"
+     "call": "media/calls/kingfisher-grey-headed.mp3",
+     "bytes": 277189
     },
     {
      "id": "african-pygmy-kingfisher",
      "name": "African Pygmy Kingfisher",
      "group": "Kingfisher",
      "photo": "media/birds/african-pygmy-kingfisher.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "dusky-lark",
      "name": "Dusky Lark",
      "group": "Lark",
      "photo": "media/birds/dusky-lark.jpg",
-     "call": "media/calls/lark-dusky.mp3"
+     "call": "media/calls/lark-dusky.mp3",
+     "bytes": 436014
     },
     {
      "id": "fawn-coloured-lark",
      "name": "Fawn-coloured Lark",
      "group": "Lark",
      "photo": "media/birds/fawn-coloured-lark.jpg",
-     "call": "media/calls/lark-fawn-coloured.mp3"
+     "call": "media/calls/lark-fawn-coloured.mp3",
+     "bytes": 394636
     },
     {
      "id": "monotonous-lark",
      "name": "Monotonous Lark",
      "group": "Lark",
      "photo": "media/birds/monotonous-lark.jpg",
-     "call": "media/calls/lark-monotonous.mp3"
+     "call": "media/calls/lark-monotonous.mp3",
+     "bytes": 434342
     },
     {
      "id": "african-mourning-dove",
      "name": "African Mourning Dove",
      "group": "Mourning",
      "photo": "media/birds/african-mourning-dove.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "pennant-winged-nightjar",
      "name": "Pennant-winged Nightjar",
      "group": "Nightjar",
      "photo": "media/birds/pennant-winged-nightjar.jpg",
-     "call": "media/calls/nightjar-pennant-winged.mp3"
+     "call": "media/calls/nightjar-pennant-winged.mp3",
+     "bytes": 456076
     },
     {
      "id": "pels-fishing-owl",
      "name": "Pel's Fishing-Owl",
      "group": "Owl",
      "photo": "media/birds/pels-fishing-owl.jpg",
-     "call": "media/calls/owl-pels-fishing.mp3"
+     "call": "media/calls/owl-pels-fishing.mp3",
+     "bytes": 468615
     },
     {
      "id": "african-scops-owl",
      "name": "African Scops-Owl",
      "group": "Owl",
      "photo": "media/birds/african-scops-owl.jpg",
-     "call": "media/calls/owl-african-scops.mp3"
+     "call": "media/calls/owl-african-scops.mp3",
+     "bytes": 403413
     },
     {
      "id": "southern-white-faced-owl",
      "name": "Southern White-faced Owl",
      "group": "Owl",
      "photo": "media/birds/southern-white-faced-owl.jpg",
-     "call": "media/calls/owl-southern-white-faced.mp3"
+     "call": "media/calls/owl-southern-white-faced.mp3",
+     "bytes": 446881
     },
     {
      "id": "african-barred-owlet",
      "name": "African Barred Owlet",
      "group": "Owlet",
      "photo": "media/birds/african-barred-owlet.jpg",
-     "call": "media/calls/owlet-african-barred.mp3"
+     "call": "media/calls/owlet-african-barred.mp3",
+     "bytes": 440612
     },
     {
      "id": "yellow-billed-oxpecker",
      "name": "Yellow-billed Oxpecker",
      "group": "Oxpecker",
      "photo": "media/birds/yellow-billed-oxpecker.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "collared-palm-thrush",
      "name": "Collared Palm-Thrush",
      "group": "Palm-Thrush",
      "photo": "media/birds/collared-palm-thrush.jpg",
-     "call": "media/calls/palm-thrush-collared.mp3"
+     "call": "media/calls/palm-thrush-collared.mp3",
+     "bytes": 436014
     },
     {
      "id": "meyers-parrot",
      "name": "Meyer's Parrot",
      "group": "Parrot",
      "photo": "media/birds/meyers-parrot.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "grey-penduline-tit",
      "name": "Grey Penduline-Tit",
      "group": "Tit",
      "photo": "media/birds/grey-penduline-tit.jpg",
-     "call": "media/calls/tit-grey-penduline.mp3"
+     "call": "media/calls/tit-grey-penduline.mp3",
+     "bytes": 341555
     },
     {
      "id": "yellow-throated-petronia",
      "name": "Yellow-throated Petronia",
      "group": "Petronia",
      "photo": "media/birds/yellow-throated-petronia.jpg",
-     "call": "media/calls/petronia-yellow-throated.mp3"
+     "call": "media/calls/petronia-yellow-throated.mp3",
+     "bytes": 462763
     },
     {
      "id": "african-green-pigeon",
      "name": "African Green Pigeon",
      "group": "Pigeon",
      "photo": "media/birds/african-green-pigeon.jpg",
-     "call": "media/calls/pigeon-african-green.mp3"
+     "call": "media/calls/pigeon-african-green.mp3",
+     "bytes": 385859
     },
     {
      "id": "black-winged-pratincole",
      "name": "Black-winged Pratincole",
      "group": "Pratincole",
      "photo": "media/birds/black-winged-pratincole.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "collared-pratincole",
      "name": "Collared Pratincole",
      "group": "Pratincole",
      "photo": "media/birds/collared-pratincole.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "green-winged-pytilia",
      "name": "Green-winged Pytilia",
      "group": "Pytilia",
      "photo": "media/birds/green-winged-pytilia.jpg",
-     "call": "media/calls/pytilia-green-winged.mp3"
+     "call": "media/calls/pytilia-green-winged.mp3",
+     "bytes": 457330
     },
     {
      "id": "red-billed-quelea",
      "name": "Red-billed Quelea",
      "group": "Quelea",
      "photo": "media/birds/red-billed-quelea.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "eastern-bearded-scrub-robin",
      "name": "Eastern Bearded Scrub-Robin",
      "group": "Scrub-Robin",
      "photo": "media/birds/eastern-bearded-scrub-robin.jpg",
-     "call": "media/calls/scrub-robin-eastern-bearded.mp3"
+     "call": "media/calls/scrub-robin-eastern-bearded.mp3",
+     "bytes": 428073
     },
     {
      "id": "white-browed-robin-chat",
      "name": "White-browed Robin-Chat",
      "group": "Robin-Chat",
      "photo": "media/birds/white-browed-robin-chat.jpg",
-     "call": "media/calls/robin-chat-white-browed.mp3"
+     "call": "media/calls/robin-chat-white-browed.mp3",
+     "bytes": 524086
     },
     {
      "id": "broad-billed-roller",
      "name": "Broad-billed Roller",
      "group": "Roller",
      "photo": "media/birds/broad-billed-roller.jpg",
-     "call": "media/calls/roller-broad-billed.mp3"
+     "call": "media/calls/roller-broad-billed.mp3",
+     "bytes": 441865
     },
     {
      "id": "purple-roller",
      "name": "Purple Roller",
      "group": "Roller",
      "photo": "media/birds/purple-roller.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "racket-tailed-roller",
      "name": "Racket-tailed Roller",
      "group": "Roller",
      "photo": "media/birds/racket-tailed-roller.jpg",
-     "call": "media/calls/roller-racket-tailed.mp3"
+     "call": "media/calls/roller-racket-tailed.mp3",
+     "bytes": 518352
     },
     {
      "id": "kalahari-scrub-robin",
      "name": "Kalahari Scrub-Robin",
      "group": "Scrub-Robin",
      "photo": "media/birds/kalahari-scrub-robin.jpg",
-     "call": "media/calls/scrub-robin-kalahari.mp3"
+     "call": "media/calls/scrub-robin-kalahari.mp3",
+     "bytes": 496200
     },
     {
      "id": "chestnut-backed-sparrowlark",
      "name": "Chestnut-backed Sparrowlark",
      "group": "Sparrowlark",
      "photo": "media/birds/chestnut-backed-sparrowlark.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "burchells-starling",
      "name": "Burchell's Starling",
      "group": "Starling",
      "photo": "media/birds/burchells-starling.jpg",
-     "call": "media/calls/starling-burchells.mp3"
+     "call": "media/calls/starling-burchells.mp3",
+     "bytes": 381679
     },
     {
      "id": "greater-blue-eared-starling",
      "name": "Greater Blue-eared Starling",
      "group": "Starling",
      "photo": "media/birds/greater-blue-eared-starling.jpg",
-     "call": "media/calls/starling-greater-blue-eared.mp3"
+     "call": "media/calls/starling-greater-blue-eared.mp3",
+     "bytes": 421385
     },
     {
      "id": "mevess-starling",
      "name": "Meves's Starling",
      "group": "Starling",
      "photo": "media/birds/mevess-starling.jpg",
-     "call": "media/calls/starling-mevess.mp3"
+     "call": "media/calls/starling-mevess.mp3",
+     "bytes": 442283
     },
     {
      "id": "violet-backed-starling",
      "name": "Violet-backed Starling",
      "group": "Starling",
      "photo": "media/birds/violet-backed-starling.jpg",
-     "call": "media/calls/starling-violet-backed.mp3"
+     "call": "media/calls/starling-violet-backed.mp3",
+     "bytes": 454822
     },
     {
      "id": "purple-banded-sunbird",
      "name": "Purple-banded Sunbird",
      "group": "Sunbird",
      "photo": "media/birds/purple-banded-sunbird.jpg",
-     "call": "media/calls/sunbird-purple-banded.mp3"
+     "call": "media/calls/sunbird-purple-banded.mp3",
+     "bytes": 443119
     },
     {
      "id": "grey-rumped-swallow",
      "name": "Grey-rumped Swallow",
      "group": "Swallow",
      "photo": "media/birds/grey-rumped-swallow.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "lesser-striped-swallow",
      "name": "Lesser-striped Swallow",
      "group": "Swallow",
      "photo": "media/birds/lesser-striped-swallow.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "red-breasted-swallow",
      "name": "Red-breasted Swallow",
      "group": "Swallow",
      "photo": "media/birds/red-breasted-swallow.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "wire-tailed-swallow",
      "name": "Wire-tailed Swallow",
      "group": "Swallow",
      "photo": "media/birds/wire-tailed-swallow.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "lapped-faced-vulture",
      "name": "Lapped-faced Vulture",
      "group": "Vulture",
      "photo": "media/birds/lapped-faced-vulture.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "white-headed-vulture",
      "name": "White-headed Vulture",
      "group": "Vulture",
      "photo": "media/birds/white-headed-vulture.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "black-faced-waxbill",
      "name": "Black-faced Waxbill",
      "group": "Waxbill",
      "photo": "media/birds/black-faced-waxbill.jpg",
-     "call": "media/calls/waxbill-black-faced.mp3"
+     "call": "media/calls/waxbill-black-faced.mp3",
+     "bytes": 441447
     },
     {
      "id": "violet-eared-waxbill",
      "name": "Violet-eared Waxbill",
      "group": "Waxbill",
      "photo": "media/birds/violet-eared-waxbill.jpg",
-     "call": "media/calls/waxbill-violet-eared.mp3"
+     "call": "media/calls/waxbill-violet-eared.mp3",
+     "bytes": 395890
     },
     {
      "id": "red-headed-weaver",
      "name": "Red-headed Weaver",
      "group": "Weaver",
      "photo": "media/birds/red-headed-weaver.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     },
     {
      "id": "common-whitethroat",
      "name": "Common Whitethroat",
      "group": "Whitethroat",
      "photo": "media/birds/common-whitethroat.jpg",
-     "call": ""
+     "call": "",
+     "bytes": 0
     }
    ]
   },
@@ -551,3129 +627,3576 @@ window.AGA_DATA = {
      "name": "East Coast Akalat",
      "group": "Akalat",
      "call": "media/calls/akalat-east-coast.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 368723
     },
     {
      "id": "alethe-white-breasted",
      "name": "White-breasted Alethe",
      "group": "Alethe",
      "call": "media/calls/alethe-white-breasted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 337794
     },
     {
      "id": "apalis-bar-throated",
      "name": "Bar-throated Apalis",
      "group": "Apalis",
      "call": "media/calls/apalis-bar-throated.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 422639
     },
     {
      "id": "apalis-black-headed",
      "name": "Black-headed Apalis",
      "group": "Apalis",
      "call": "media/calls/apalis-black-headed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 430163
     },
     {
      "id": "apalis-chirinda",
      "name": "Chirinda Apalis",
      "group": "Apalis",
      "call": "media/calls/apalis-chirinda.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 392964
     },
     {
      "id": "apalis-rudds",
      "name": "Rudd's Apalis",
      "group": "Apalis",
      "call": "media/calls/apalis-rudds.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 387531
     },
     {
      "id": "apalis-yellow-breasted",
      "name": "Yellow-breasted Apalis",
      "group": "Apalis",
      "call": "media/calls/apalis-yellow-breasted.mp3",
-     "photo": "media/birds/yellow-breasted-apalis.jpg"
+     "photo": "media/birds/yellow-breasted-apalis.jpg",
+     "bytes": 413862
     },
     {
      "id": "babbler-arrow-marked",
      "name": "Arrow-marked Babbler",
      "group": "Babbler",
      "call": "media/calls/babbler-arrow-marked.mp3",
-     "photo": "media/birds/arrow-marked-babbler.jpg"
+     "photo": "media/birds/arrow-marked-babbler.jpg",
+     "bytes": 526711
     },
     {
      "id": "babbler-bare-cheeked",
      "name": "Bare-cheeked Babbler",
      "group": "Babbler",
      "call": "media/calls/babbler-bare-cheeked.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 433506
     },
     {
      "id": "babbler-black-faced",
      "name": "Black-faced Babbler",
      "group": "Babbler",
      "call": "media/calls/babbler-black-faced.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 428491
     },
     {
      "id": "babbler-hartlaubs",
      "name": "Hartlaub's Babbler",
      "group": "Babbler",
      "call": "media/calls/babbler-hartlaubs.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 270920
     },
     {
      "id": "babbler-southern-pied",
      "name": "Southern Pied Babbler",
      "group": "Babbler",
      "call": "media/calls/babbler-southern-pied.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 347825
     },
     {
      "id": "barbet-acacia-pied",
      "name": "Acacia Pied Barbet",
      "group": "Barbet",
      "call": "media/calls/barbet-acacia-pied.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 433088
     },
     {
      "id": "barbet-black-collared",
      "name": "Black-collared Barbet",
      "group": "Barbet",
      "call": "media/calls/barbet-black-collared.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 448553
     },
     {
      "id": "barbet-crested",
      "name": "Crested Barbet",
      "group": "Barbet",
      "call": "media/calls/barbet-crested.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 471958
     },
     {
      "id": "barbet-white-eared",
      "name": "White-eared Barbet",
      "group": "Barbet",
      "call": "media/calls/barbet-white-eared.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 387113
     },
     {
      "id": "barbet-whytes",
      "name": "Whyte's Barbet",
      "group": "Barbet",
      "call": "media/calls/barbet-whytes.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 399234
     },
     {
      "id": "barbet-woodwards",
      "name": "Woodward's Barbet",
      "group": "Barbet",
      "call": "media/calls/barbet-woodwards.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 468916
     },
     {
      "id": "barbet-yellow-fronted-tinker",
      "name": "Yellow-fronted Tinkerbird",
      "group": "Barbet",
      "call": "media/calls/barbet-yellow-fronted-tinker.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 455658
     },
     {
      "id": "barbet-yellow-rumped-tinker",
      "name": "Yellow-rumped Tinkerbird",
      "group": "Barbet",
      "call": "media/calls/barbet-yellow-rumped-tinker.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 578120
     },
     {
      "id": "batis-cape",
      "name": "Cape Batis",
      "group": "Batis",
      "call": "media/calls/batis-cape.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 449389
     },
     {
      "id": "batis-chinspot",
      "name": "Chinspot Batis",
      "group": "Batis",
      "call": "media/calls/batis-chinspot.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 442701
     },
     {
      "id": "batis-pale",
      "name": "Pale Batis",
      "group": "Batis",
      "call": "media/calls/batis-pale.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 411772
     },
     {
      "id": "batis-pririt",
      "name": "Pririt Batis",
      "group": "Batis",
      "call": "media/calls/batis-pririt.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 432252
     },
     {
      "id": "batis-woodwards",
      "name": "Woodward's Batis",
      "group": "Batis",
      "call": "media/calls/batis-woodwards.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 395890
     },
     {
      "id": "bittern-dwarf",
      "name": "Dwarf Bittern",
      "group": "Bittern",
      "call": "media/calls/bittern-dwarf.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 385859
     },
     {
      "id": "bittern-little",
      "name": "Little Bittern",
      "group": "Bittern",
      "call": "media/calls/bittern-little.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 432670
     },
     {
      "id": "bittern",
      "name": "Eurasian Bittern",
      "group": "Bittern",
      "call": "media/calls/bittern.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 473513
     },
     {
      "id": "blackcap-bush",
      "name": "Bush Blackcap",
      "group": "Blackcap",
      "call": "media/calls/blackcap-bush.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 397980
     },
     {
      "id": "bokmakierie",
      "name": "Bokmakierie",
      "group": "Bokmakierie",
      "call": "media/calls/bokmakierie.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 461927
     },
     {
      "id": "boubou-southern",
      "name": "Southern Boubou",
      "group": "Boubou",
      "call": "media/calls/boubou-southern.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 695985
     },
     {
      "id": "boubou-swamp",
      "name": "Swamp Boubou",
      "group": "Boubou",
      "call": "media/calls/boubou-swamp.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 442283
     },
     {
      "id": "boubou-tropical",
      "name": "Tropical Boubou",
      "group": "Boubou",
      "call": "media/calls/boubou-tropical.mp3",
-     "photo": "media/birds/tropical-boubou.jpg"
+     "photo": "media/birds/tropical-boubou.jpg",
+     "bytes": 470705
     },
     {
      "id": "broadbill-african",
      "name": "African Broadbill",
      "group": "Broadbill",
      "call": "media/calls/broadbill-african.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 444402
     },
     {
      "id": "brownbul-terrestrial",
      "name": "Terrestrial Brownbul",
      "group": "Brownbul",
      "call": "media/calls/brownbul-terrestrial.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 365797
     },
     {
      "id": "brubru",
      "name": "Brubru",
      "group": "Brubru",
      "call": "media/calls/brubru.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 517934
     },
     {
      "id": "bulbul-african-red-eyed",
      "name": "African Red-eyed Bulbul",
      "group": "Bulbul",
      "call": "media/calls/bulbul-african-red-eyed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 456076
     },
     {
      "id": "bulbul-cape",
      "name": "Cape Bulbul",
      "group": "Bulbul",
      "call": "media/calls/bulbul-cape.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 460975
     },
     {
      "id": "bunting-cabaniss",
      "name": "Cabanis's Bunting",
      "group": "Bunting",
      "call": "media/calls/bunting-cabaniss.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 342391
     },
     {
      "id": "bunting-cape",
      "name": "Cape Bunting",
      "group": "Bunting",
      "call": "media/calls/bunting-cape.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 424311
     },
     {
      "id": "bunting-cinnamon-breasted",
      "name": "Cinnamon-breasted Bunting",
      "group": "Bunting",
      "call": "media/calls/bunting-cinnamon-breasted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 447299
     },
     {
      "id": "bunting-golden-breasted",
      "name": "Golden-breasted Bunting",
      "group": "Bunting",
      "call": "media/calls/bunting-golden-breasted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 494946
     },
     {
      "id": "bunting-lark-like",
      "name": "Lark-like Bunting",
      "group": "Bunting",
      "call": "media/calls/bunting-lark-like.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 457748
     },
     {
      "id": "bushshrike-black-fronted",
      "name": "Black-fronted Bushshrike",
      "group": "Bushshrike",
      "call": "media/calls/bushshrike-black-fronted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 424311
     },
     {
      "id": "bushshrike-gorgeous",
      "name": "Gorgeous Bushshrike",
      "group": "Bushshrike",
      "call": "media/calls/bushshrike-gorgeous.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 398816
     },
     {
      "id": "bushshrike-grey-headed",
      "name": "Grey-headed Bushshrike",
      "group": "Bushshrike",
      "call": "media/calls/bushshrike-grey-headed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 397144
     },
     {
      "id": "bushshrike-olive",
      "name": "Olive Bushshrike",
      "group": "Bushshrike",
      "call": "media/calls/bushshrike-olive.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 536324
     },
     {
      "id": "bushshrike-orange-breasted",
      "name": "Orange-breasted Bushshrike",
      "group": "Bushshrike",
      "call": "media/calls/bushshrike-orange-breasted.mp3",
-     "photo": "media/birds/orange-breasted-bush-shrike.jpg"
+     "photo": "media/birds/orange-breasted-bush-shrike.jpg",
+     "bytes": 396766
     },
     {
      "id": "bustard-barrows",
      "name": "Barrow's Bustard",
      "group": "Bustard",
      "call": "media/calls/bustard-barrows.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 500798
     },
     {
      "id": "bustard-blue",
      "name": "Blue Bustard",
      "group": "Bustard",
      "call": "media/calls/bustard-blue.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 466943
     },
     {
      "id": "bustard-karoo",
      "name": "Karoo Bustard",
      "group": "Bustard",
      "call": "media/calls/bustard-karoo.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 474349
     },
     {
      "id": "bustard-red-crested",
      "name": "Red-crested Bustard",
      "group": "Bustard",
      "call": "media/calls/bustard-red-crested.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 506231
     },
     {
      "id": "bustard-ruppells",
      "name": "Ruppell's Bustard",
      "group": "Bustard",
      "call": "media/calls/bustard-ruppells.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 475302
     },
     {
      "id": "bustard-southern-black",
      "name": "Southern Black Bustard",
      "group": "Bustard",
      "call": "media/calls/bustard-southern-black.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 358274
     },
     {
      "id": "buttonquail-black-rumped",
      "name": "Black-rumped Buttonquail",
      "group": "Buttonquail",
      "call": "media/calls/buttonquail-black-rumped.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 432135
     },
     {
      "id": "camaroptera-green-backed",
      "name": "Green-backed Camaroptera",
      "group": "Camaroptera",
      "call": "media/calls/camaroptera-green-backed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 440194
     },
     {
      "id": "camaroptera-grey-backed",
      "name": "Grey-backed Camaroptera",
      "group": "Camaroptera",
      "call": "media/calls/camaroptera-grey-backed.mp3",
-     "photo": "media/birds/grey-backed-camaroptera.jpg"
+     "photo": "media/birds/grey-backed-camaroptera.jpg",
+     "bytes": 425983
     },
     {
      "id": "canary-black-eared",
      "name": "Black-eared Canary",
      "group": "Canary",
      "call": "media/calls/canary-black-eared.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 467779
     },
     {
      "id": "canary-black-headed",
      "name": "Black-headed Canary",
      "group": "Canary",
      "call": "media/calls/canary-black-headed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 416788
     },
     {
      "id": "canary-black-throated",
      "name": "Black-throated Canary",
      "group": "Canary",
      "call": "media/calls/canary-black-throated.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 488677
     },
     {
      "id": "canary-brimstone",
      "name": "Brimstone Canary",
      "group": "Canary",
      "call": "media/calls/canary-brimstone.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 471123
     },
     {
      "id": "canary-cape",
      "name": "Cape Canary",
      "group": "Canary",
      "call": "media/calls/canary-cape.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 441029
     },
     {
      "id": "canary-forest",
      "name": "Forest Canary",
      "group": "Canary",
      "call": "media/calls/canary-forest.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 421803
     },
     {
      "id": "canary-lemon-breasted",
      "name": "Lemon-breasted Canary",
      "group": "Canary",
      "call": "media/calls/canary-lemon-breasted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 407175
     },
     {
      "id": "canary-protea",
      "name": "Protea Canary",
      "group": "Canary",
      "call": "media/calls/canary-protea.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 432553
     },
     {
      "id": "canary-streaky-headed",
      "name": "Streaky-headed Canary",
      "group": "Canary",
      "call": "media/calls/canary-streaky-headed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 467779
     },
     {
      "id": "canary-white-throated",
      "name": "White-throated Canary",
      "group": "Canary",
      "call": "media/calls/canary-white-throated.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 396726
     },
     {
      "id": "canary-yellow",
      "name": "Yellow Canary",
      "group": "Canary",
      "call": "media/calls/canary-yellow.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 515426
     },
     {
      "id": "chaffinch",
      "name": "Chaffinch",
      "group": "Chaffinch",
      "call": "media/calls/chaffinch.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 407175
     },
     {
      "id": "chat-arnots",
      "name": "Arnot's Chat",
      "group": "Chat",
      "call": "media/calls/chat-arnots.mp3",
-     "photo": "media/birds/arnots-chat.jpg"
+     "photo": "media/birds/arnots-chat.jpg",
+     "bytes": 448553
     },
     {
      "id": "chat-boulder",
      "name": "Boulder Chat",
      "group": "Chat",
      "call": "media/calls/chat-boulder.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 401323
     },
     {
      "id": "chat-buff-streaked",
      "name": "Buff-streaked Chat",
      "group": "Chat",
      "call": "media/calls/chat-buff-streaked.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 423893
     },
     {
      "id": "chat-familiar",
      "name": "Familiar Chat",
      "group": "Chat",
      "call": "media/calls/chat-familiar.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 394636
     },
     {
      "id": "chat-herero",
      "name": "Herero Chat",
      "group": "Chat",
      "call": "media/calls/chat-herero.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 363707
     },
     {
      "id": "chat-karoo",
      "name": "Karoo Chat",
      "group": "Chat",
      "call": "media/calls/chat-karoo.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 432252
     },
     {
      "id": "chat-mocking-cliff",
      "name": "Mocking Cliff Chat",
      "group": "Chat",
      "call": "media/calls/chat-mocking-cliff.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 580628
     },
     {
      "id": "chat-sickle-winged",
      "name": "Sickle-winged Chat",
      "group": "Chat",
      "call": "media/calls/chat-sickle-winged.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 450643
     },
     {
      "id": "chat-tractrac",
      "name": "Tractrac Chat",
      "group": "Chat",
      "call": "media/calls/chat-tractrac.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 397980
     },
     {
      "id": "cisticola-chirping",
      "name": "Chirping Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-chirping.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 440194
     },
     {
      "id": "cisticola-cloud",
      "name": "Cloud Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-cloud.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 430580
     },
     {
      "id": "cisticola-croaking",
      "name": "Croaking Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-croaking.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 420967
     },
     {
      "id": "cisticola-desert",
      "name": "Desert Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-desert.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 441029
     },
     {
      "id": "cisticola-grey-backed",
      "name": "Grey-backed Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-grey-backed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 387531
     },
     {
      "id": "cisticola-lazy",
      "name": "Lazy Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-lazy.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 434760
     },
     {
      "id": "cisticola-levaillants",
      "name": "Levaillant's Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-levaillants.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 423893
     },
     {
      "id": "cisticola-pale-crowned",
      "name": "Pale-crowned Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-pale-crowned.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 432252
     },
     {
      "id": "cisticola-rattling",
      "name": "Rattling Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-rattling.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 493274
     },
     {
      "id": "cisticola-red-faced",
      "name": "Red-faced Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-red-faced.mp3",
-     "photo": "media/birds/red-faced-cisticola.jpg"
+     "photo": "media/birds/red-faced-cisticola.jpg",
+     "bytes": 438522
     },
     {
      "id": "cisticola-rufous-winged",
      "name": "Rufous-winged Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-rufous-winged.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 430580
     },
     {
      "id": "cisticola-short-winged",
      "name": "Short-winged Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-short-winged.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 430580
     },
     {
      "id": "cisticola-singing",
      "name": "Singing Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-singing.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 433506
     },
     {
      "id": "cisticola-tinkling",
      "name": "Tinkling Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-tinkling.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 411354
     },
     {
      "id": "cisticola-wailing",
      "name": "Wailing Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-wailing.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 431416
     },
     {
      "id": "cisticola-wing-snapping",
      "name": "Wing-snapping Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-wing-snapping.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 414698
     },
     {
      "id": "cisticola-zitting",
      "name": "Zitting Cisticola",
      "group": "Cisticola",
      "call": "media/calls/cisticola-zitting.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 411772
     },
     {
      "id": "coucal-black",
      "name": "Black Coucal",
      "group": "Coucal",
      "call": "media/calls/coucal-black.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 380843
     },
     {
      "id": "coucal-burchells",
      "name": "Burchell's Coucal",
      "group": "Coucal",
      "call": "media/calls/coucal-burchells.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 420967
     },
     {
      "id": "coucal-coppery-tailed",
      "name": "Coppery-tailed Coucal",
      "group": "Coucal",
      "call": "media/calls/coucal-coppery-tailed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 406339
     },
     {
      "id": "coucal-senegal",
      "name": "Senegal Coucal",
      "group": "Coucal",
      "call": "media/calls/coucal-senegal.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 424755
     },
     {
      "id": "coucal-white-browed",
      "name": "White-browed Coucal",
      "group": "Coucal",
      "call": "media/calls/coucal-white-browed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 374156
     },
     {
      "id": "courser-bronze-winged",
      "name": "Bronze-winged Courser",
      "group": "Courser",
      "call": "media/calls/courser-bronze-winged.mp3",
-     "photo": "media/birds/bronze-winged-courser.jpg"
+     "photo": "media/birds/bronze-winged-courser.jpg",
+     "bytes": 434643
     },
     {
      "id": "courser-three-banded",
      "name": "Three-banded Courser",
      "group": "Courser",
      "call": "media/calls/courser-three-banded.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 407593
     },
     {
      "id": "crake-african",
      "name": "African Crake",
      "group": "Crake",
      "call": "media/calls/crake-african.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 436850
     },
     {
      "id": "crake-baillons",
      "name": "Baillon's Crake",
      "group": "Crake",
      "call": "media/calls/crake-baillons.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 455240
     },
     {
      "id": "crake-black",
      "name": "Black Crake",
      "group": "Crake",
      "call": "media/calls/crake-black.mp3",
-     "photo": "media/birds/black-crake.jpg"
+     "photo": "media/birds/black-crake.jpg",
+     "bytes": 437686
     },
     {
      "id": "crake-spotted",
      "name": "Spotted Crake",
      "group": "Crake",
      "call": "media/calls/crake-spotted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 378637
     },
     {
      "id": "crake-striped",
      "name": "Striped Crake",
      "group": "Crake",
      "call": "media/calls/crake-striped.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 456494
     },
     {
      "id": "creeper-spotted",
      "name": "Spotted Creeper",
      "group": "Creeper",
      "call": "media/calls/creeper-spotted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 369558
     },
     {
      "id": "crimsonwing-red-faced",
      "name": "Red-faced Crimsonwing",
      "group": "Crimsonwing",
      "call": "media/calls/crimsonwing-red-faced.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 438522
     },
     {
      "id": "crombec-long-billed",
      "name": "Long-billed Crombec",
      "group": "Crombec",
      "call": "media/calls/crombec-long-billed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 442283
     },
     {
      "id": "crombec-red-capped",
      "name": "Red-capped Crombec",
      "group": "Crombec",
      "call": "media/calls/crombec-red-capped.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 394218
     },
     {
      "id": "crombec-red-faced",
      "name": "Red-faced Crombec",
      "group": "Crombec",
      "call": "media/calls/crombec-red-faced.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 413862
     },
     {
      "id": "cuckoo-african",
      "name": "African Cuckoo",
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-african.mp3",
-     "photo": "media/birds/african-cuckoo.jpg"
+     "photo": "media/birds/african-cuckoo.jpg",
+     "bytes": 393265
     },
     {
      "id": "cuckoo-barred",
      "name": "Barred Cuckoo",
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-barred.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 408011
     },
     {
      "id": "cuckoo-black",
      "name": "Black Cuckoo",
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-black.mp3",
-     "photo": "media/birds/black-cuckoo.jpg"
+     "photo": "media/birds/black-cuckoo.jpg",
+     "bytes": 437686
     },
     {
      "id": "cuckoo-dideric",
      "name": "Dideric Cuckoo",
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-dideric.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 417624
     },
     {
      "id": "cuckoo-emerald",
      "name": "Emerald Cuckoo",
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-emerald.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 461961
     },
     {
      "id": "cuckoo-great-spotted",
      "name": "Great Spotted Cuckoo",
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-great-spotted.mp3",
-     "photo": "media/birds/great-spotted-cuckoo.jpg"
+     "photo": "media/birds/great-spotted-cuckoo.jpg",
+     "bytes": 397863
     },
     {
      "id": "cuckoo-indian-lesser",
      "name": "Indian Lesser Cuckoo",
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-indian-lesser.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 414999
     },
     {
      "id": "cuckoo-jacobin",
      "name": "Jacobin Cuckoo",
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-jacobin.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 393800
     },
     {
      "id": "cuckoo-klaass",
      "name": "Klaas's Cuckoo",
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-klaass.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 443119
     },
     {
      "id": "cuckoo-levaillants",
      "name": "Levaillant's Cuckoo",
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-levaillants.mp3",
-     "photo": "media/birds/levaillants-cuckoo.jpg"
+     "photo": "media/birds/levaillants-cuckoo.jpg",
+     "bytes": 444791
     },
     {
      "id": "cuckoo-madagascar",
      "name": "Madagascar Cuckoo",
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-madagascar.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 369140
     },
     {
      "id": "cuckoo-red-chested",
      "name": "Red-chested Cuckoo",
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-red-chested.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 413026
     },
     {
      "id": "cuckoo-thick-billed",
      "name": "Thick-billed Cuckoo",
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-thick-billed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 384605
     },
     {
      "id": "cuckooshrike-black",
      "name": "Black Cuckooshrike",
      "group": "Cuckooshrike",
      "call": "media/calls/cuckooshrike-black.mp3",
-     "photo": "media/birds/black-cuckooshrike.jpg"
+     "photo": "media/birds/black-cuckooshrike.jpg",
+     "bytes": 450674
     },
     {
      "id": "cuckooshrike-grey",
      "name": "Grey Cuckooshrike",
      "group": "Cuckooshrike",
      "call": "media/calls/cuckooshrike-grey.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 454852
     },
     {
      "id": "cuckooshrike-white-breasted",
      "name": "White-breasted Cuckooshrike",
      "group": "Cuckooshrike",
      "call": "media/calls/cuckooshrike-white-breasted.mp3",
-     "photo": "media/birds/white-breasted-cuckooshrike.jpg"
+     "photo": "media/birds/white-breasted-cuckooshrike.jpg",
+     "bytes": 384070
     },
     {
      "id": "dove-lemon",
      "name": "Lemon Dove",
      "group": "Dove",
      "call": "media/calls/dove-lemon.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 407593
     },
     {
      "id": "dove-tambourine",
      "name": "Tambourine Dove",
      "group": "Dove",
      "call": "media/calls/dove-tambourine.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 615318
     },
     {
      "id": "drongo-square-tailed",
      "name": "Square-tailed Drongo",
      "group": "Drongo",
      "call": "media/calls/drongo-square-tailed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 342391
     },
     {
      "id": "eagle-crowned",
      "name": "Crowned Eagle",
      "group": "Eagle",
      "call": "media/calls/eagle-crowned.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 377918
     },
     {
      "id": "eremomela-burnt-necked",
      "name": "Burnt-necked Eremomela",
      "group": "Eremomela",
      "call": "media/calls/eremomela-burnt-necked.mp3",
-     "photo": "media/birds/burnt-necked-eremomela.jpg"
+     "photo": "media/birds/burnt-necked-eremomela.jpg",
+     "bytes": 404968
     },
     {
      "id": "eremomela-green-capped",
      "name": "Green-capped Eremomela",
      "group": "Eremomela",
      "call": "media/calls/eremomela-green-capped.mp3",
-     "photo": "media/birds/green-capped-eremomela.jpg"
+     "photo": "media/birds/green-capped-eremomela.jpg",
+     "bytes": 443119
     },
     {
      "id": "eremomela-karoo",
      "name": "Karoo Eremomela",
      "group": "Eremomela",
      "call": "media/calls/eremomela-karoo.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 368188
     },
     {
      "id": "eremomela-yellow-bellied",
      "name": "Yellow-bellied Eremomela",
      "group": "Eremomela",
      "call": "media/calls/eremomela-yellow-bellied.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 437268
     },
     {
      "id": "falcon-taita",
      "name": "Taita Falcon",
      "group": "Falcon",
      "call": "media/calls/falcon-taita.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 316896
     },
     {
      "id": "finch-cut-throat",
      "name": "Cut-throat Finch",
      "group": "Finch",
      "call": "media/calls/finch-cut-throat.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 442701
     },
     {
      "id": "finch-locust",
      "name": "Locust Finch",
      "group": "Finch",
      "call": "media/calls/finch-locust.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 319403
     },
     {
      "id": "finch-red-headed",
      "name": "Red-headed Finch",
      "group": "Finch",
      "call": "media/calls/finch-red-headed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 408429
     },
     {
      "id": "finch-scaly-feathered",
      "name": "Scaly-feathered Finch",
      "group": "Finch",
      "call": "media/calls/finch-scaly-feathered.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 383769
     },
     {
      "id": "firefinch-african",
      "name": "African Firefinch",
      "group": "Firefinch",
      "call": "media/calls/firefinch-african.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 406369
     },
     {
      "id": "firefinch-brown",
      "name": "Brown Firefinch",
      "group": "Firefinch",
      "call": "media/calls/firefinch-brown.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 419324
     },
     {
      "id": "firefinch-jamesons",
      "name": "Jameson's Firefinch",
      "group": "Firefinch",
      "call": "media/calls/firefinch-jamesons.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 506681
     },
     {
      "id": "firefinch-red-billed",
      "name": "Red-billed Firefinch",
      "group": "Firefinch",
      "call": "media/calls/firefinch-red-billed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 423090
     },
     {
      "id": "flufftail-buff-spotted",
      "name": "Buff-spotted Flufftail",
      "group": "Flufftail",
      "call": "media/calls/flufftail-buff-spotted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 483243
     },
     {
      "id": "flufftail-chestnut-headed",
      "name": "Chestnut-headed Flufftail",
      "group": "Flufftail",
      "call": "media/calls/flufftail-chestnut-headed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 506649
     },
     {
      "id": "flufftail-red-chested",
      "name": "Red-chested Flufftail",
      "group": "Flufftail",
      "call": "media/calls/flufftail-red-chested.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 657950
     },
     {
      "id": "flufftail-streaky-breasted",
      "name": "Streaky-breasted Flufftail",
      "group": "Flufftail",
      "call": "media/calls/flufftail-streaky-breasted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 498708
     },
     {
      "id": "flufftail-striped",
      "name": "Striped Flufftail",
      "group": "Flufftail",
      "call": "media/calls/flufftail-striped.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 503305
     },
     {
      "id": "flufftail-white-winged",
      "name": "White-winged Flufftail",
      "group": "Flufftail",
      "call": "media/calls/flufftail-white-winged.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 448553
     },
     {
      "id": "flycatcher-african-paradise",
      "name": "African Paradise Flycatcher",
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-african-paradise.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 444373
     },
     {
      "id": "flycatcher-ashy",
      "name": "Ashy Flycatcher",
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-ashy.mp3",
-     "photo": "media/birds/ashy-flycatcher.jpg"
+     "photo": "media/birds/ashy-flycatcher.jpg",
+     "bytes": 424311
     },
     {
      "id": "flycatcher-black-and-white-shrike",
      "name": "Black-and-white Shrike-Flycatcher",
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-black-and-white-shrike.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 405130
     },
     {
      "id": "flycatcher-blue-mantled-crested",
      "name": "Blue-mantled Crested Flycatcher",
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-blue-mantled-crested.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 414741
     },
     {
      "id": "flycatcher-chat",
      "name": "Chat Flycatcher",
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-chat.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 395054
     },
     {
      "id": "flycatcher-collared",
      "name": "Collared Flycatcher",
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-collared.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 366633
     },
     {
      "id": "flycatcher-fiscal",
      "name": "Fiscal Flycatcher",
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-fiscal.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 395890
     },
     {
      "id": "flycatcher-grey-tit",
      "name": "Grey Tit-Flycatcher",
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-grey-tit.mp3",
-     "photo": "media/birds/grey-tit-flycatcher.jpg"
+     "photo": "media/birds/grey-tit-flycatcher.jpg",
+     "bytes": 358157
     },
     {
      "id": "flycatcher-livingstones",
      "name": "Livingstone's Flycatcher",
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-livingstones.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 413444
     },
     {
      "id": "flycatcher-marico",
      "name": "Marico Flycatcher",
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-marico.mp3",
-     "photo": "media/birds/marico-flycatcher.jpg"
+     "photo": "media/birds/marico-flycatcher.jpg",
+     "bytes": 428073
     },
     {
      "id": "flycatcher-southern-black",
      "name": "Southern Black Flycatcher",
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-southern-black.mp3",
-     "photo": "media/birds/southern-black-flycatcher.jpg"
+     "photo": "media/birds/southern-black-flycatcher.jpg",
+     "bytes": 407593
     },
     {
      "id": "flycatcher-white-tailed-crested",
      "name": "White-tailed Crested Flycatcher",
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-white-tailed-crested.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 431416
     },
     {
      "id": "francolin-grey-winged",
      "name": "Grey-winged Francolin",
      "group": "Francolin",
      "call": "media/calls/francolin-grey-winged.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 397144
     },
     {
      "id": "francolin-hartlaubs",
      "name": "Hartlaub's Francolin",
      "group": "Francolin",
      "call": "media/calls/francolin-hartlaubs.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 441029
     },
     {
      "id": "francolin-natal",
      "name": "Natal Francolin",
      "group": "Francolin",
      "call": "media/calls/francolin-natal.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 477810
     },
     {
      "id": "francolin-orange-river",
      "name": "Orange River Francolin",
      "group": "Francolin",
      "call": "media/calls/francolin-orange-river.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 492438
     },
     {
      "id": "francolin-red-necked",
      "name": "Red-necked Francolin",
      "group": "Francolin",
      "call": "media/calls/francolin-red-necked.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 426819
     },
     {
      "id": "francolin-red-winged",
      "name": "Red-winged Francolin",
      "group": "Francolin",
      "call": "media/calls/francolin-red-winged.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 437151
     },
     {
      "id": "francolin-shelleys",
      "name": "Shelley's Francolin",
      "group": "Francolin",
      "call": "media/calls/francolin-shelleys.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 460674
     },
     {
      "id": "francolin-swainsons",
      "name": "Swainson's Francolin",
      "group": "Francolin",
      "call": "media/calls/francolin-swainsons.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 424311
     },
     {
      "id": "gallinule-allens",
      "name": "Allen's Gallinule",
      "group": "Gallinule",
      "call": "media/calls/gallinule-allens.mp3",
-     "photo": "media/birds/allens-gallinule.jpg"
+     "photo": "media/birds/allens-gallinule.jpg",
+     "bytes": 486587
     },
     {
      "id": "gallinule-purple",
      "name": "Purple Gallinule",
      "group": "Gallinule",
      "call": "media/calls/gallinule-purple.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 492892
     },
     {
      "id": "goshawk-african",
      "name": "African Goshawk",
      "group": "Goshawk",
      "call": "media/calls/goshawk-african.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 368723
     },
     {
      "id": "goshawk-gabar",
      "name": "Gabar Goshawk",
      "group": "Goshawk",
      "call": "media/calls/goshawk-gabar.mp3",
-     "photo": "media/birds/gabar-goshawk.jpg"
+     "photo": "media/birds/gabar-goshawk.jpg",
+     "bytes": 442701
     },
     {
      "id": "grassbird-cape",
      "name": "Cape Grassbird",
      "group": "Grassbird",
      "call": "media/calls/grassbird-cape.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 454822
     },
     {
      "id": "grassbird-fan-tailed",
      "name": "Fan-tailed Grassbird",
      "group": "Grassbird",
      "call": "media/calls/grassbird-fan-tailed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 432670
     },
     {
      "id": "greenbul-sombre",
      "name": "Sombre Greenbul",
      "group": "Greenbul",
      "call": "media/calls/greenbul-sombre.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 589823
     },
     {
      "id": "greenbul-stripe-cheeked",
      "name": "Stripe-cheeked Greenbul",
      "group": "Greenbul",
      "call": "media/calls/greenbul-stripe-cheeked.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 450225
     },
     {
      "id": "greenbul-tiny",
      "name": "Tiny Greenbul",
      "group": "Greenbul",
      "call": "media/calls/greenbul-tiny.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 401741
     },
     {
      "id": "greenbul-yellow-bellied",
      "name": "Yellow-bellied Greenbul",
      "group": "Greenbul",
      "call": "media/calls/greenbul-yellow-bellied.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 511247
     },
     {
      "id": "greenbul-yellow-streaked",
      "name": "Yellow-streaked Greenbul",
      "group": "Greenbul",
      "call": "media/calls/greenbul-yellow-streaked.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 456076
     },
     {
      "id": "hawk-cuckoo",
      "name": "African Cuckoo-Hawk",
      "group": "Hawk",
      "call": "media/calls/hawk-cuckoo.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 478259
     },
     {
      "id": "helmetshrike-chestnut-fronted",
      "name": "Chestnut-fronted Helmetshrike",
      "group": "Helmetshrike",
      "call": "media/calls/helmetshrike-chestnut-fronted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 397144
     },
     {
      "id": "helmetshrike-retzs",
      "name": "Retz's Helmetshrike",
      "group": "Helmetshrike",
      "call": "media/calls/helmetshrike-retzs.mp3",
-     "photo": "media/birds/retzs-helmet-shrike.jpg"
+     "photo": "media/birds/retzs-helmet-shrike.jpg",
+     "bytes": 498290
     },
     {
      "id": "helmetshrike-white-crested",
      "name": "White-crested Helmetshrike",
      "group": "Helmetshrike",
      "call": "media/calls/helmetshrike-white-crested.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 460674
     },
     {
      "id": "honeybird-brown-backed",
      "name": "Brown-backed Honeybird",
      "group": "Honeybird",
      "call": "media/calls/honeybird-brown-backed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 344481
     },
     {
      "id": "honeybird-green-backed",
      "name": "Green-backed Honeybird",
      "group": "Honeybird",
      "call": "media/calls/honeybird-green-backed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 373738
     },
     {
      "id": "honeyguide-eastern",
      "name": "Eastern Honeyguide",
      "group": "Honeyguide",
      "call": "media/calls/honeyguide-eastern.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 439776
     },
     {
      "id": "honeyguide-greater",
      "name": "Greater Honeyguide",
      "group": "Honeyguide",
      "call": "media/calls/honeyguide-greater.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 481989
     },
     {
      "id": "honeyguide-lesser",
      "name": "Lesser Honeyguide",
      "group": "Honeyguide",
      "call": "media/calls/honeyguide-lesser.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 428909
     },
     {
      "id": "honeyguide-scaly-throated",
      "name": "Scaly-throated Honeyguide",
      "group": "Honeyguide",
      "call": "media/calls/honeyguide-scaly-throated.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 443537
     },
     {
      "id": "hornbill-bradfields",
      "name": "Bradfield's Hornbill",
      "group": "Hornbill",
      "call": "media/calls/hornbill-bradfields.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 357438
     },
     {
      "id": "hornbill-crowned",
      "name": "Crowned Hornbill",
      "group": "Hornbill",
      "call": "media/calls/hornbill-crowned.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 433088
     },
     {
      "id": "hornbill-grey",
      "name": "Grey Hornbill",
      "group": "Hornbill",
      "call": "media/calls/hornbill-grey.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 405954
     },
     {
      "id": "hornbill-monteiros",
      "name": "Monteiro's Hornbill",
      "group": "Hornbill",
      "call": "media/calls/hornbill-monteiros.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 524203
     },
     {
      "id": "hornbill-red-billed",
      "name": "Red-billed Hornbill",
      "group": "Hornbill",
      "call": "media/calls/hornbill-red-billed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 385859
     },
     {
      "id": "hornbill-silvery-cheeked",
      "name": "Silvery-cheeked Hornbill",
      "group": "Hornbill",
      "call": "media/calls/hornbill-silvery-cheeked.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 415534
     },
     {
      "id": "hornbill-trumpeter",
      "name": "Trumpeter Hornbill",
      "group": "Hornbill",
      "call": "media/calls/hornbill-trumpeter.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 422221
     },
     {
      "id": "hyliota-southern",
      "name": "Southern Hyliota",
      "group": "Hyliota",
      "call": "media/calls/hyliota-southern.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 418460
     },
     {
      "id": "hyliota-yellow-bellied",
      "name": "Yellow-bellied Hyliota",
      "group": "Hyliota",
      "call": "media/calls/hyliota-yellow-bellied.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 362453
     },
     {
      "id": "indigobird-dusky",
      "name": "Dusky Indigobird",
      "group": "Indigobird",
      "call": "media/calls/indigobird-dusky.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 455689
     },
     {
      "id": "indigobird-purple",
      "name": "Purple Indigobird",
      "group": "Indigobird",
      "call": "media/calls/indigobird-purple.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 392546
     },
     {
      "id": "indigobird-village",
      "name": "Village Indigobird",
      "group": "Indigobird",
      "call": "media/calls/indigobird-village.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 438522
     },
     {
      "id": "kingfisher-brown-hooded",
      "name": "Brown-hooded Kingfisher",
      "group": "Kingfisher",
      "call": "media/calls/kingfisher-brown-hooded.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 288892
     },
     {
      "id": "kingfisher-grey-headed",
      "name": "Grey-headed Kingfisher",
      "group": "Kingfisher",
      "call": "media/calls/kingfisher-grey-headed.mp3",
-     "photo": "media/birds/grey-headed-kingfisher.jpg"
+     "photo": "media/birds/grey-headed-kingfisher.jpg",
+     "bytes": 277189
     },
     {
      "id": "kingfisher-mangrove",
      "name": "Mangrove Kingfisher",
      "group": "Kingfisher",
      "call": "media/calls/kingfisher-mangrove.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 443119
     },
     {
      "id": "kingfisher-striped",
      "name": "Striped Kingfisher",
      "group": "Kingfisher",
      "call": "media/calls/kingfisher-striped.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 512083
     },
     {
      "id": "kingfisher-woodland",
      "name": "Woodland Kingfisher",
      "group": "Kingfisher",
      "call": "media/calls/kingfisher-woodland.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 562656
     },
     {
      "id": "lark-bothas",
      "name": "Botha's Lark",
      "group": "Lark",
      "call": "media/calls/lark-bothas.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 402577
     },
     {
      "id": "lark-dune",
      "name": "Dune Lark",
      "group": "Lark",
      "call": "media/calls/lark-dune.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 448135
     },
     {
      "id": "lark-dusky",
      "name": "Dusky Lark",
      "group": "Lark",
      "call": "media/calls/lark-dusky.mp3",
-     "photo": "media/birds/dusky-lark.jpg"
+     "photo": "media/birds/dusky-lark.jpg",
+     "bytes": 436014
     },
     {
      "id": "lark-eastern-clapper",
      "name": "Eastern Clapper Lark",
      "group": "Lark",
      "call": "media/calls/lark-eastern-clapper.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 498290
     },
     {
      "id": "lark-fawn-coloured",
      "name": "Fawn-coloured Lark",
      "group": "Lark",
      "call": "media/calls/lark-fawn-coloured.mp3",
-     "photo": "media/birds/fawn-coloured-lark.jpg"
+     "photo": "media/birds/fawn-coloured-lark.jpg",
+     "bytes": 394636
     },
     {
      "id": "lark-fawncoloured-2",
      "name": "Fawn-coloured Lark (2nd recording)",
      "group": "Lark",
      "call": "media/calls/lark-fawncoloured-2.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 456076
     },
     {
      "id": "lark-karoo-long-billed",
      "name": "Karoo Long-billed Lark",
      "group": "Lark",
      "call": "media/calls/lark-karoo-long-billed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 454287
     },
     {
      "id": "lark-karoo",
      "name": "Karoo Lark",
      "group": "Lark",
      "call": "media/calls/lark-karoo.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 443420
     },
     {
      "id": "lark-large-billed",
      "name": "Large-billed Lark",
      "group": "Lark",
      "call": "media/calls/lark-large-billed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 423893
     },
     {
      "id": "lark-melodious",
      "name": "Melodious Lark",
      "group": "Lark",
      "call": "media/calls/lark-melodious.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 558476
     },
     {
      "id": "lark-monotonous",
      "name": "Monotonous Lark",
      "group": "Lark",
      "call": "media/calls/lark-monotonous.mp3",
-     "photo": "media/birds/monotonous-lark.jpg"
+     "photo": "media/birds/monotonous-lark.jpg",
+     "bytes": 434342
     },
     {
      "id": "lark-pink-billed",
      "name": "Pink-billed Lark",
      "group": "Lark",
      "call": "media/calls/lark-pink-billed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 357020
     },
     {
      "id": "lark-red-capped",
      "name": "Red-capped Lark",
      "group": "Lark",
      "call": "media/calls/lark-red-capped.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 437686
     },
     {
      "id": "lark-red",
      "name": "Red Lark",
      "group": "Lark",
      "call": "media/calls/lark-red.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 447182
     },
     {
      "id": "lark-rudds",
      "name": "Rudd's Lark",
      "group": "Lark",
      "call": "media/calls/lark-rudds.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 477810
     },
     {
      "id": "lark-rufous-naped",
      "name": "Rufous-naped Lark",
      "group": "Lark",
      "call": "media/calls/lark-rufous-naped.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 547492
     },
     {
      "id": "lark-sabota",
      "name": "Sabota Lark",
      "group": "Lark",
      "call": "media/calls/lark-sabota.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 409265
     },
     {
      "id": "lark-sclaters",
      "name": "Sclater's Lark",
      "group": "Lark",
      "call": "media/calls/lark-sclaters.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 451779
     },
     {
      "id": "lark-short-clawed",
      "name": "Short-clawed Lark",
      "group": "Lark",
      "call": "media/calls/lark-short-clawed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 402577
     },
     {
      "id": "lark-spike-heeled",
      "name": "Spike-heeled Lark",
      "group": "Lark",
      "call": "media/calls/lark-spike-heeled.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 444373
     },
     {
      "id": "lark-starks",
      "name": "Stark's Lark",
      "group": "Lark",
      "call": "media/calls/lark-starks.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 456912
     },
     {
      "id": "longclaw-fulleborns",
      "name": "Fulleborn's Longclaw",
      "group": "Longclaw",
      "call": "media/calls/longclaw-fulleborns.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 414280
     },
     {
      "id": "longclaw-orange-throated",
      "name": "Orange-throated Longclaw",
      "group": "Longclaw",
      "call": "media/calls/longclaw-orange-throated.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 443119
     },
     {
      "id": "longclaw-rosy-throated",
      "name": "Rosy-throated Longclaw",
      "group": "Longclaw",
      "call": "media/calls/longclaw-rosy-throated.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 425147
     },
     {
      "id": "longclaw-yellow-throated",
      "name": "Yellow-throated Longclaw",
      "group": "Longclaw",
      "call": "media/calls/longclaw-yellow-throated.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 415952
     },
     {
      "id": "lovebird-black-cheeked",
      "name": "Black-cheeked Lovebird",
      "group": "Lovebird",
      "call": "media/calls/lovebird-black-cheeked.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 510411
     },
     {
      "id": "malkoha-green",
      "name": "Green Malkoha",
      "group": "Malkoha",
      "call": "media/calls/malkoha-green.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 402159
     },
     {
      "id": "mannikin-magpie",
      "name": "Magpie Mannikin",
      "group": "Mannikin",
      "call": "media/calls/mannikin-magpie.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 411772
     },
     {
      "id": "mannikin-red-backed",
      "name": "Red-backed Mannikin",
      "group": "Mannikin",
      "call": "media/calls/mannikin-red-backed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 403413
     },
     {
      "id": "moorhen-lesser",
      "name": "Lesser Moorhen",
      "group": "Moorhen",
      "call": "media/calls/moorhen-lesser.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 456076
     },
     {
      "id": "neddicky",
      "name": "Neddicky",
      "group": "Neddicky",
      "call": "media/calls/neddicky.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 433924
     },
     {
      "id": "nicator-eastern",
      "name": "Eastern Nicator",
      "group": "Nicator",
      "call": "media/calls/nicator-eastern.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 501634
     },
     {
      "id": "nightingale-thrush",
      "name": "Thrush Nightingale",
      "group": "Nightingale",
      "call": "media/calls/nightingale-thrush.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 443119
     },
     {
      "id": "nightjar-fiery-necked",
      "name": "Fiery-necked Nightjar",
      "group": "Nightjar",
      "call": "media/calls/nightjar-fiery-necked.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 476556
     },
     {
      "id": "nightjar-freckled",
      "name": "Freckled Nightjar",
      "group": "Nightjar",
      "call": "media/calls/nightjar-freckled.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 424729
     },
     {
      "id": "nightjar-natal",
      "name": "Natal Nightjar",
      "group": "Nightjar",
      "call": "media/calls/nightjar-natal.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 377944
     },
     {
      "id": "nightjar-pennant-winged",
      "name": "Pennant-winged Nightjar",
      "group": "Nightjar",
      "call": "media/calls/nightjar-pennant-winged.mp3",
-     "photo": "media/birds/pennant-winged-nightjar.jpg"
+     "photo": "media/birds/pennant-winged-nightjar.jpg",
+     "bytes": 456076
     },
     {
      "id": "nightjar-rufous-cheeked",
      "name": "Rufous-cheeked Nightjar",
      "group": "Nightjar",
      "call": "media/calls/nightjar-rufous-cheeked.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 501216
     },
     {
      "id": "nightjar-square-tailed",
      "name": "Square-tailed Nightjar",
      "group": "Nightjar",
      "call": "media/calls/nightjar-square-tailed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 393382
     },
     {
      "id": "oriole-african-golden",
      "name": "African Golden Oriole",
      "group": "Oriole",
      "call": "media/calls/oriole-african-golden.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 590241
     },
     {
      "id": "oriole-black-headed",
      "name": "Black-headed Oriole",
      "group": "Oriole",
      "call": "media/calls/oriole-black-headed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 546812
     },
     {
      "id": "oriole-eurasian-golden",
      "name": "Eurasian Golden Oriole",
      "group": "Oriole",
      "call": "media/calls/oriole-eurasian-golden.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 383769
     },
     {
      "id": "oriole-green-headed",
      "name": "Green-headed Oriole",
      "group": "Oriole",
      "call": "media/calls/oriole-green-headed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 436014
     },
     {
      "id": "owl-african-scops",
      "name": "African Scops-Owl",
      "group": "Owl",
      "call": "media/calls/owl-african-scops.mp3",
-     "photo": "media/birds/african-scops-owl.jpg"
+     "photo": "media/birds/african-scops-owl.jpg",
+     "bytes": 403413
     },
     {
      "id": "owl-african-wood",
      "name": "African Wood Owl",
      "group": "Owl",
      "call": "media/calls/owl-african-wood.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 349078
     },
     {
      "id": "owl-barn",
      "name": "Barn Owl",
      "group": "Owl",
      "call": "media/calls/owl-barn.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 429745
     },
     {
      "id": "owl-cape-eagle",
      "name": "Cape Eagle Owl",
      "group": "Owl",
      "call": "media/calls/owl-cape-eagle.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 429745
     },
     {
      "id": "owl-grass",
      "name": "Grass Owl",
      "group": "Owl",
      "call": "media/calls/owl-grass.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 247543
     },
     {
      "id": "owl-marsh",
      "name": "Marsh Owl",
      "group": "Owl",
      "call": "media/calls/owl-marsh.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 364572
     },
     {
      "id": "owl-pels-fishing",
      "name": "Pel's Fishing-Owl",
      "group": "Owl",
      "call": "media/calls/owl-pels-fishing.mp3",
-     "photo": "media/birds/pels-fishing-owl.jpg"
+     "photo": "media/birds/pels-fishing-owl.jpg",
+     "bytes": 468615
     },
     {
      "id": "owl-southern-white-faced",
      "name": "Southern White-faced Owl",
      "group": "Owl",
      "call": "media/calls/owl-southern-white-faced.mp3",
-     "photo": "media/birds/southern-white-faced-owl.jpg"
+     "photo": "media/birds/southern-white-faced-owl.jpg",
+     "bytes": 446881
     },
     {
      "id": "owl-spotted-eagle",
      "name": "Spotted Eagle Owl",
      "group": "Owl",
      "call": "media/calls/owl-spotted-eagle.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 515844
     },
     {
      "id": "owl-verreauxs-eagle",
      "name": "Verreaux's Eagle Owl",
      "group": "Owl",
      "call": "media/calls/owl-verreauxs-eagle.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 445209
     },
     {
      "id": "owlet-african-barred",
      "name": "African Barred Owlet",
      "group": "Owlet",
      "call": "media/calls/owlet-african-barred.mp3",
-     "photo": "media/birds/african-barred-owlet.jpg"
+     "photo": "media/birds/african-barred-owlet.jpg",
+     "bytes": 440612
     },
     {
      "id": "owlet-pearl-spotted",
      "name": "Pearl-spotted Owlet",
      "group": "Owlet",
      "call": "media/calls/owlet-pearl-spotted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 464435
     },
     {
      "id": "painted-snipe-greater",
      "name": "Greater Painted-snipe",
      "group": "Painted-snipe",
      "call": "media/calls/painted-snipe-greater.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 535906
     },
     {
      "id": "palm-thrush-collared",
      "name": "Collared Palm-Thrush",
      "group": "Palm-Thrush",
      "call": "media/calls/palm-thrush-collared.mp3",
-     "photo": "media/birds/collared-palm-thrush.jpg"
+     "photo": "media/birds/collared-palm-thrush.jpg",
+     "bytes": 436014
     },
     {
      "id": "palm-thrush-rufous-tailed",
      "name": "Rufous-tailed Palm-Thrush",
      "group": "Palm-Thrush",
      "call": "media/calls/palm-thrush-rufous-tailed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 423893
     },
     {
      "id": "parrot-brown-headed",
      "name": "Brown-headed Parrot",
      "group": "Parrot",
      "call": "media/calls/parrot-brown-headed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 455658
     },
     {
      "id": "parrot-cape",
      "name": "Cape Parrot",
      "group": "Parrot",
      "call": "media/calls/parrot-cape.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 329016
     },
     {
      "id": "parrot-ruppells",
      "name": "Ruppell's Parrot",
      "group": "Parrot",
      "call": "media/calls/parrot-ruppells.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 394218
     },
     {
      "id": "petronia-yellow-throated",
      "name": "Yellow-throated Petronia",
      "group": "Petronia",
      "call": "media/calls/petronia-yellow-throated.mp3",
-     "photo": "media/birds/yellow-throated-petronia.jpg"
+     "photo": "media/birds/yellow-throated-petronia.jpg",
+     "bytes": 462763
     },
     {
      "id": "pigeon-african-green",
      "name": "African Green Pigeon",
      "group": "Pigeon",
      "call": "media/calls/pigeon-african-green.mp3",
-     "photo": "media/birds/african-green-pigeon.jpg"
+     "photo": "media/birds/african-green-pigeon.jpg",
+     "bytes": 385859
     },
     {
      "id": "pigeon-eastern-bronze-naped",
      "name": "Eastern Bronze-naped Pigeon",
      "group": "Pigeon",
      "call": "media/calls/pigeon-eastern-bronze-naped.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 341137
     },
     {
      "id": "pipit-african-rock",
      "name": "African Rock Pipit",
      "group": "Pipit",
      "call": "media/calls/pipit-african-rock.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 442584
     },
     {
      "id": "pipit-buffy",
      "name": "Buffy Pipit",
      "group": "Pipit",
      "call": "media/calls/pipit-buffy.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 408429
     },
     {
      "id": "pipit-bushveld",
      "name": "Bushveld Pipit",
      "group": "Pipit",
      "call": "media/calls/pipit-bushveld.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 397562
     },
     {
      "id": "pipit-golden",
      "name": "Golden Pipit",
      "group": "Pipit",
      "call": "media/calls/pipit-golden.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 437268
     },
     {
      "id": "pipit-long-billed",
      "name": "Long-billed Pipit",
      "group": "Pipit",
      "call": "media/calls/pipit-long-billed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 443537
     },
     {
      "id": "pipit-mountain",
      "name": "Mountain Pipit",
      "group": "Pipit",
      "call": "media/calls/pipit-mountain.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 398816
     },
     {
      "id": "pipit-plain-backed",
      "name": "Plain-backed Pipit",
      "group": "Pipit",
      "call": "media/calls/pipit-plain-backed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 436014
     },
     {
      "id": "pipit-short-tailed",
      "name": "Short-tailed Pipit",
      "group": "Pipit",
      "call": "media/calls/pipit-short-tailed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 432670
     },
     {
      "id": "pipit-striped",
      "name": "Striped Pipit",
      "group": "Pipit",
      "call": "media/calls/pipit-striped.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 464017
     },
     {
      "id": "pipit-tree",
      "name": "Tree Pipit",
      "group": "Pipit",
      "call": "media/calls/pipit-tree.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 393800
     },
     {
      "id": "pipit-wood",
      "name": "Wood Pipit",
      "group": "Pipit",
      "call": "media/calls/pipit-wood.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 430580
     },
     {
      "id": "pipit-yellow-breasted",
      "name": "Yellow-breasted Pipit",
      "group": "Pipit",
      "call": "media/calls/pipit-yellow-breasted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 439358
     },
     {
      "id": "pitta-african",
      "name": "African Pitta",
      "group": "Pitta",
      "call": "media/calls/pitta-african.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 552207
     },
     {
      "id": "prinia-black-chested",
      "name": "Black-chested Prinia",
      "group": "Prinia",
      "call": "media/calls/prinia-black-chested.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 442283
     },
     {
      "id": "prinia-drakensberg",
      "name": "Drakensberg Prinia",
      "group": "Prinia",
      "call": "media/calls/prinia-drakensberg.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 428073
     },
     {
      "id": "prinia-karoo",
      "name": "Karoo Prinia",
      "group": "Prinia",
      "call": "media/calls/prinia-karoo.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 440194
     },
     {
      "id": "prinia-tawny-flanked",
      "name": "Tawny-flanked Prinia",
      "group": "Prinia",
      "call": "media/calls/prinia-tawny-flanked.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 442283
     },
     {
      "id": "puffback-black-backed",
      "name": "Black-backed Puffback",
      "group": "Puffback",
      "call": "media/calls/puffback-black-backed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 543429
     },
     {
      "id": "pytilia-green-winged",
      "name": "Green-winged Pytilia",
      "group": "Pytilia",
      "call": "media/calls/pytilia-green-winged.mp3",
-     "photo": "media/birds/green-winged-pytilia.jpg"
+     "photo": "media/birds/green-winged-pytilia.jpg",
+     "bytes": 457330
     },
     {
      "id": "pytilia-orange-winged",
      "name": "Orange-winged Pytilia",
      "group": "Pytilia",
      "call": "media/calls/pytilia-orange-winged.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 452732
     },
     {
      "id": "quailfinch-african",
      "name": "African Quailfinch",
      "group": "Quailfinch",
      "call": "media/calls/quailfinch-african.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 450643
     },
     {
      "id": "rail-african",
      "name": "African Rail",
      "group": "Rail",
      "call": "media/calls/rail-african.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 440077
     },
     {
      "id": "robin-swynnertons",
      "name": "Swynnerton's Robin",
      "group": "Robin",
      "call": "media/calls/robin-swynnertons.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 385023
     },
     {
      "id": "robin-white-starred",
      "name": "White-starred Robin",
      "group": "Robin",
      "call": "media/calls/robin-white-starred.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 441748
     },
     {
      "id": "robin-chat-cape",
      "name": "Cape Robin-Chat",
      "group": "Robin-Chat",
      "call": "media/calls/robin-chat-cape.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 474048
     },
     {
      "id": "robin-chat-chorister",
      "name": "Chorister Robin-Chat",
      "group": "Robin-Chat",
      "call": "media/calls/robin-chat-chorister.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 552508
     },
     {
      "id": "robin-chat-red-capped",
      "name": "Red-capped Robin-Chat",
      "group": "Robin-Chat",
      "call": "media/calls/robin-chat-red-capped.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 769545
     },
     {
      "id": "robin-chat-white-browed",
      "name": "White-browed Robin-Chat",
      "group": "Robin-Chat",
      "call": "media/calls/robin-chat-white-browed.mp3",
-     "photo": "media/birds/white-browed-robin-chat.jpg"
+     "photo": "media/birds/white-browed-robin-chat.jpg",
+     "bytes": 524086
     },
     {
      "id": "robin-chat-white-throated",
      "name": "White-throated Robin-Chat",
      "group": "Robin-Chat",
      "call": "media/calls/robin-chat-white-throated.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 405921
     },
     {
      "id": "rockjumper-cape",
      "name": "Cape Rockjumper",
      "group": "Rockjumper",
      "call": "media/calls/rockjumper-cape.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 436432
     },
     {
      "id": "rockjumper-drakensberg",
      "name": "Drakensberg Rockjumper",
      "group": "Rockjumper",
      "call": "media/calls/rockjumper-drakensberg.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 359109
     },
     {
      "id": "rockrunner",
      "name": "Rockrunner",
      "group": "Rockrunner",
      "call": "media/calls/rockrunner.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 431717
     },
     {
      "id": "roller-broad-billed",
      "name": "Broad-billed Roller",
      "group": "Roller",
      "call": "media/calls/roller-broad-billed.mp3",
-     "photo": "media/birds/broad-billed-roller.jpg"
+     "photo": "media/birds/broad-billed-roller.jpg",
+     "bytes": 441865
     },
     {
      "id": "roller-racket-tailed",
      "name": "Racket-tailed Roller",
      "group": "Roller",
      "call": "media/calls/roller-racket-tailed.mp3",
-     "photo": "media/birds/racket-tailed-roller.jpg"
+     "photo": "media/birds/racket-tailed-roller.jpg",
+     "bytes": 518352
     },
     {
      "id": "scimitarbill-common",
      "name": "Common Scimitarbill",
      "group": "Scimitarbill",
      "call": "media/calls/scimitarbill-common.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 463599
     },
     {
      "id": "scrub-robin-brown",
      "name": "Brown Scrub-Robin",
      "group": "Scrub-Robin",
      "call": "media/calls/scrub-robin-brown.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 464017
     },
     {
      "id": "scrub-robin-eastern-bearded",
      "name": "Eastern Bearded Scrub-Robin",
      "group": "Scrub-Robin",
      "call": "media/calls/scrub-robin-eastern-bearded.mp3",
-     "photo": "media/birds/eastern-bearded-scrub-robin.jpg"
+     "photo": "media/birds/eastern-bearded-scrub-robin.jpg",
+     "bytes": 428073
     },
     {
      "id": "scrub-robin-kalahari",
      "name": "Kalahari Scrub-Robin",
      "group": "Scrub-Robin",
      "call": "media/calls/scrub-robin-kalahari.mp3",
-     "photo": "media/birds/kalahari-scrub-robin.jpg"
+     "photo": "media/birds/kalahari-scrub-robin.jpg",
+     "bytes": 496200
     },
     {
      "id": "scrub-robin-white-browed",
      "name": "White-browed Scrub-Robin",
      "group": "Scrub-Robin",
      "call": "media/calls/scrub-robin-white-browed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 483277
     },
     {
      "id": "seedcracker-lesser",
      "name": "Lesser Seedcracker",
      "group": "Seedcracker",
      "call": "media/calls/seedcracker-lesser.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 361199
     },
     {
      "id": "shikra",
      "name": "Shikra",
      "group": "Shikra",
      "call": "media/calls/shikra.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 453568
     },
     {
      "id": "shrike-crimson-breasted",
      "name": "Crimson-breasted Shrike",
      "group": "Shrike",
      "call": "media/calls/shrike-crimson-breasted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 372066
     },
     {
      "id": "shrike-magpie",
      "name": "Magpie Shrike",
      "group": "Shrike",
      "call": "media/calls/shrike-magpie.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 423893
     },
     {
      "id": "shrike-sousas",
      "name": "Sousa's Shrike",
      "group": "Shrike",
      "call": "media/calls/shrike-sousas.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 399652
     },
     {
      "id": "shrike-southern-white-crowned",
      "name": "Southern White-crowned Shrike",
      "group": "Shrike",
      "call": "media/calls/shrike-southern-white-crowned.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 425983
     },
     {
      "id": "shrike-white-tailed",
      "name": "White-tailed Shrike",
      "group": "Shrike",
      "call": "media/calls/shrike-white-tailed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 440612
     },
     {
      "id": "siskin-cape",
      "name": "Cape Siskin",
      "group": "Siskin",
      "call": "media/calls/siskin-cape.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 457330
     },
     {
      "id": "siskin-drakensberg",
      "name": "Drakensberg Siskin",
      "group": "Siskin",
      "call": "media/calls/siskin-drakensberg.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 448971
     },
     {
      "id": "snake-eagle-southern-banded",
      "name": "Southern Banded Snake-Eagle",
      "group": "Snake-Eagle",
      "call": "media/calls/snake-eagle-southern-banded.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 439358
     },
     {
      "id": "snake-eagle-western-banded",
      "name": "Western Banded Snake-Eagle",
      "group": "Snake-Eagle",
      "call": "media/calls/snake-eagle-western-banded.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 388785
     },
     {
      "id": "sparrow-great",
      "name": "Great Sparrow",
      "group": "Sparrow",
      "call": "media/calls/sparrow-great.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 415534
     },
     {
      "id": "sparrow-weaver-white-browed",
      "name": "White-browed Sparrow-Weaver",
      "group": "Sparrow-Weaver",
      "call": "media/calls/sparrow-weaver-white-browed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 423893
     },
     {
      "id": "sparrowhawk-black",
      "name": "Black Sparrowhawk",
      "group": "Sparrowhawk",
      "call": "media/calls/sparrowhawk-black.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 413862
     },
     {
      "id": "sparrowhawk-little",
      "name": "Little Sparrowhawk",
      "group": "Sparrowhawk",
      "call": "media/calls/sparrowhawk-little.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 426401
     },
     {
      "id": "sparrowhawk-ovambo",
      "name": "Ovambo Sparrowhawk",
      "group": "Sparrowhawk",
      "call": "media/calls/sparrowhawk-ovambo.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 334868
     },
     {
      "id": "sparrowhawk-red-breasted",
      "name": "Red-breasted Sparrowhawk",
      "group": "Sparrowhawk",
      "call": "media/calls/sparrowhawk-red-breasted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 440194
     },
     {
      "id": "starling-black-bellied",
      "name": "Black-bellied Starling",
      "group": "Starling",
      "call": "media/calls/starling-black-bellied.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 443537
     },
     {
      "id": "starling-burchells",
      "name": "Burchell's Starling",
      "group": "Starling",
      "call": "media/calls/starling-burchells.mp3",
-     "photo": "media/birds/burchells-starling.jpg"
+     "photo": "media/birds/burchells-starling.jpg",
+     "bytes": 381679
     },
     {
      "id": "starling-greater-blue-eared",
      "name": "Greater Blue-eared Starling",
      "group": "Starling",
      "call": "media/calls/starling-greater-blue-eared.mp3",
-     "photo": "media/birds/greater-blue-eared-starling.jpg"
+     "photo": "media/birds/greater-blue-eared-starling.jpg",
+     "bytes": 421385
     },
     {
      "id": "starling-lesser-blue-eared",
      "name": "Lesser Blue-eared Starling",
      "group": "Starling",
      "call": "media/calls/starling-lesser-blue-eared.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 451896
     },
     {
      "id": "starling-mevess",
      "name": "Meves's Starling",
      "group": "Starling",
      "call": "media/calls/starling-mevess.mp3",
-     "photo": "media/birds/mevess-starling.jpg"
+     "photo": "media/birds/mevess-starling.jpg",
+     "bytes": 442283
     },
     {
      "id": "starling-pale-winged",
      "name": "Pale-winged Starling",
      "group": "Starling",
      "call": "media/calls/starling-pale-winged.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 425983
     },
     {
      "id": "starling-sharp-tailed",
      "name": "Sharp-tailed Starling",
      "group": "Starling",
      "call": "media/calls/starling-sharp-tailed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 429745
     },
     {
      "id": "starling-violet-backed",
      "name": "Violet-backed Starling",
      "group": "Starling",
      "call": "media/calls/starling-violet-backed.mp3",
-     "photo": "media/birds/violet-backed-starling.jpg"
+     "photo": "media/birds/violet-backed-starling.jpg",
+     "bytes": 454822
     },
     {
      "id": "sugarbird-gurneys",
      "name": "Gurney's Sugarbird",
      "group": "Sugarbird",
      "call": "media/calls/sugarbird-gurneys.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 415116
     },
     {
      "id": "sunbird-collared",
      "name": "Collared Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-collared.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 603198
     },
     {
      "id": "sunbird-copper",
      "name": "Copper Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-copper.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 413026
     },
     {
      "id": "sunbird-dusky",
      "name": "Dusky Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-dusky.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 469033
     },
     {
      "id": "sunbird-greater-double-collared",
      "name": "Greater Double-collared Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-greater-double-collared.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 381679
     },
     {
      "id": "sunbird-grey",
      "name": "Grey Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-grey.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 437686
     },
     {
      "id": "sunbird-marico",
      "name": "Marico Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-marico.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 433924
     },
     {
      "id": "sunbird-miombo-double-collared",
      "name": "Miombo Double-collared Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-miombo-double-collared.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 422639
     },
     {
      "id": "sunbird-neergaards",
      "name": "Neergaard's Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-neergaards.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 416788
     },
     {
      "id": "sunbird-olive",
      "name": "Olive Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-olive.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 437686
     },
     {
      "id": "sunbird-plain-backed",
      "name": "Plain-backed Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-plain-backed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 482407
     },
     {
      "id": "sunbird-purple-banded",
      "name": "Purple-banded Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-purple-banded.mp3",
-     "photo": "media/birds/purple-banded-sunbird.jpg"
+     "photo": "media/birds/purple-banded-sunbird.jpg",
+     "bytes": 443119
     },
     {
      "id": "sunbird-shelleys",
      "name": "Shelley's Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-shelleys.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 406339
     },
     {
      "id": "sunbird-southern-double-collared",
      "name": "Southern Double-collared Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-southern-double-collared.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 433924
     },
     {
      "id": "sunbird-variable",
      "name": "Variable Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-variable.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 428073
     },
     {
      "id": "sunbird-western-violet-backed",
      "name": "Western Violet-backed Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-western-violet-backed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 410518
     },
     {
      "id": "sunbird-white-bellied",
      "name": "White-bellied Sunbird",
      "group": "Sunbird",
      "call": "media/calls/sunbird-white-bellied.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 459838
     },
     {
      "id": "tchagra-anchietas",
      "name": "Anchieta's Tchagra",
      "group": "Tchagra",
      "call": "media/calls/tchagra-anchietas.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 421385
     },
     {
      "id": "tchagra-black-crowned",
      "name": "Black-crowned Tchagra",
      "group": "Tchagra",
      "call": "media/calls/tchagra-black-crowned.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 443119
     },
     {
      "id": "tchagra-brown-crowned",
      "name": "Brown-crowned Tchagra",
      "group": "Tchagra",
      "call": "media/calls/tchagra-brown-crowned.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 424311
     },
     {
      "id": "tchagra-southern",
      "name": "Southern Tchagra",
      "group": "Tchagra",
      "call": "media/calls/tchagra-southern.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 451060
     },
     {
      "id": "thick-knee-spotted",
      "name": "Spotted Thick-knee",
      "group": "Thick-knee",
      "call": "media/calls/thick-knee-spotted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 495364
     },
     {
      "id": "thick-knee-water",
      "name": "Water Thick-knee",
      "group": "Thick-knee",
      "call": "media/calls/thick-knee-water.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 417624
     },
     {
      "id": "thrush-cape-rock",
      "name": "Cape Rock Thrush",
      "group": "Thrush",
      "call": "media/calls/thrush-cape-rock.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 419296
     },
     {
      "id": "thrush-groundscraper",
      "name": "Groundscraper Thrush",
      "group": "Thrush",
      "call": "media/calls/thrush-groundscraper.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 380843
     },
     {
      "id": "thrush-kurrichane",
      "name": "Kurrichane Thrush",
      "group": "Thrush",
      "call": "media/calls/thrush-kurrichane.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 527965
     },
     {
      "id": "thrush-miombo-rock",
      "name": "Miombo Rock Thrush",
      "group": "Thrush",
      "call": "media/calls/thrush-miombo-rock.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 397980
     },
     {
      "id": "thrush-olive",
      "name": "Olive Thrush",
      "group": "Thrush",
      "call": "media/calls/thrush-olive.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 499544
     },
     {
      "id": "thrush-orange-ground",
      "name": "Orange Ground Thrush",
      "group": "Thrush",
      "call": "media/calls/thrush-orange-ground.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 534234
     },
     {
      "id": "thrush-sentinel-rock",
      "name": "Sentinel Rock Thrush",
      "group": "Thrush",
      "call": "media/calls/thrush-sentinel-rock.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 395472
     },
     {
      "id": "thrush-short-toed-rock",
      "name": "Short-toed Rock Thrush",
      "group": "Thrush",
      "call": "media/calls/thrush-short-toed-rock.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 391710
     },
     {
      "id": "thrush-spotted-ground",
      "name": "Spotted Ground Thrush",
      "group": "Thrush",
      "call": "media/calls/thrush-spotted-ground.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 435596
     },
     {
      "id": "tinkerbird-green",
      "name": "Green Tinkerbird",
      "group": "Tinkerbird",
      "call": "media/calls/tinkerbird-green.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 450643
     },
     {
      "id": "tinkerbird-red-fronted",
      "name": "Red-fronted Tinkerbird",
      "group": "Tinkerbird",
      "call": "media/calls/tinkerbird-red-fronted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 589405
     },
     {
      "id": "tit-ashy",
      "name": "Ashy Tit",
      "group": "Tit",
      "call": "media/calls/tit-ashy.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 413862
     },
     {
      "id": "tit-cape-penduline",
      "name": "Cape Penduline-Tit",
      "group": "Tit",
      "call": "media/calls/tit-cape-penduline.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 424311
     },
     {
      "id": "tit-carps-black",
      "name": "Carp's Black Tit",
      "group": "Tit",
      "call": "media/calls/tit-carps-black.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 369558
     },
     {
      "id": "tit-grey-penduline",
      "name": "Grey Penduline-Tit",
      "group": "Tit",
      "call": "media/calls/tit-grey-penduline.mp3",
-     "photo": "media/birds/grey-penduline-tit.jpg"
+     "photo": "media/birds/grey-penduline-tit.jpg",
+     "bytes": 341555
     },
     {
      "id": "tit-grey",
      "name": "Grey Tit",
      "group": "Tit",
      "call": "media/calls/tit-grey.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 370394
     },
     {
      "id": "tit-miombo",
      "name": "Miombo Tit",
      "group": "Tit",
      "call": "media/calls/tit-miombo.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 366215
     },
     {
      "id": "tit-rufous-bellied",
      "name": "Rufous-bellied Tit",
      "group": "Tit",
      "call": "media/calls/tit-rufous-bellied.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 297669
     },
     {
      "id": "tit-southern-black",
      "name": "Southern Black Tit",
      "group": "Tit",
      "call": "media/calls/tit-southern-black.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 428491
     },
     {
      "id": "tit-babbler-chestnut-vented",
      "name": "Chestnut-vented Tit-babbler",
      "group": "Tit-babbler",
      "call": "media/calls/tit-babbler-chestnut-vented.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 451060
     },
     {
      "id": "tit-babbler-layards",
      "name": "Layard's Tit-babbler",
      "group": "Tit-babbler",
      "call": "media/calls/tit-babbler-layards.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 417624
     },
     {
      "id": "trogon-narina",
      "name": "Narina Trogon",
      "group": "Trogon",
      "call": "media/calls/trogon-narina.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 494528
     },
     {
      "id": "turaco-knysna",
      "name": "Knysna Turaco",
      "group": "Turaco",
      "call": "media/calls/turaco-knysna.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 549699
     },
     {
      "id": "turaco-livingstones",
      "name": "Livingstone's Turaco",
      "group": "Turaco",
      "call": "media/calls/turaco-livingstones.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 442701
     },
     {
      "id": "turaco-purple-crested",
      "name": "Purple-crested Turaco",
      "group": "Turaco",
      "call": "media/calls/turaco-purple-crested.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 507485
     },
     {
      "id": "turaco-rosss",
      "name": "Ross's Turaco",
      "group": "Turaco",
      "call": "media/calls/turaco-rosss.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 430998
     },
     {
      "id": "turaco-shalows",
      "name": "Shalow's Turaco",
      "group": "Turaco",
      "call": "media/calls/turaco-shalows.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 423893
     },
     {
      "id": "twinspot-green",
      "name": "Green Twinspot",
      "group": "Twinspot",
      "call": "media/calls/twinspot-green.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 436432
     },
     {
      "id": "twinspot-pink-throated",
      "name": "Pink-throated Twinspot",
      "group": "Twinspot",
      "call": "media/calls/twinspot-pink-throated.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 412190
     },
     {
      "id": "twinspot-red-throated",
      "name": "Red-throated Twinspot",
      "group": "Twinspot",
      "call": "media/calls/twinspot-red-throated.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 426401
     },
     {
      "id": "wagtail-mountain",
      "name": "Mountain Wagtail",
      "group": "Wagtail",
      "call": "media/calls/wagtail-mountain.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 402159
     },
     {
      "id": "warbler-african-reed",
      "name": "African Reed Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-african-reed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 414698
     },
     {
      "id": "warbler-barratts",
      "name": "Barratt's Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-barratts.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 504559
     },
     {
      "id": "warbler-barred-wren",
      "name": "Barred Wren Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-barred-wren.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 451478
     },
     {
      "id": "warbler-basra-reed",
      "name": "Basra Reed Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-basra-reed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 433506
     },
     {
      "id": "warbler-cinnamon-reed",
      "name": "Cinnamon Reed Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-cinnamon-reed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 349496
     },
     {
      "id": "warbler-cinnamon-breasted",
      "name": "Cinnamon-breasted Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-cinnamon-breasted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 440495
     },
     {
      "id": "warbler-eurasian-reed",
      "name": "Eurasian Reed Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-eurasian-reed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 421385
     },
     {
      "id": "warbler-fairy",
      "name": "Fairy Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-fairy.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 428491
     },
     {
      "id": "warbler-garden",
      "name": "Garden Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-garden.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 415952
     },
     {
      "id": "warbler-great-reed",
      "name": "Great Reed Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-great-reed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 427655
     },
     {
      "id": "warbler-greater-swamp",
      "name": "Greater Swamp Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-greater-swamp.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 471540
     },
     {
      "id": "warbler-icterine",
      "name": "Icterine Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-icterine.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 425983
     },
     {
      "id": "warbler-knysna",
      "name": "Knysna Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-knysna.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 425448
     },
     {
      "id": "warbler-lesser-swamp",
      "name": "Lesser Swamp Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-lesser-swamp.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 411772
     },
     {
      "id": "warbler-little-rush",
      "name": "Little Rush Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-little-rush.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 419296
     },
     {
      "id": "warbler-marsh",
      "name": "Marsh Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-marsh.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 428909
     },
     {
      "id": "warbler-moustached-grass",
      "name": "Moustached Grass Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-moustached-grass.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 434342
     },
     {
      "id": "warbler-namaqua",
      "name": "Namaqua Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-namaqua.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 442283
     },
     {
      "id": "warbler-olive-tree",
      "name": "Olive-tree Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-olive-tree.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 423893
     },
     {
      "id": "warbler-red-winged",
      "name": "Red-winged Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-red-winged.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 424729
     },
     {
      "id": "warbler-river",
      "name": "River Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-river.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 469869
     },
     {
      "id": "warbler-roberts",
      "name": "Robert's Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-roberts.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 423057
     },
     {
      "id": "warbler-rufous-eared",
      "name": "Rufous-eared Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-rufous-eared.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 366633
     },
     {
      "id": "warbler-sedge",
      "name": "Sedge Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-sedge.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 435178
     },
     {
      "id": "warbler-stierlings-wren",
      "name": "Stierling's Wren Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-stierlings-wren.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 364961
     },
     {
      "id": "warbler-victorins",
      "name": "Victorin's Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-victorins.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 389504
     },
     {
      "id": "warbler-willow",
      "name": "Willow Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-willow.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 422639
     },
     {
      "id": "warbler-yellow-throated-woodland",
      "name": "Yellow-throated Woodland Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-yellow-throated-woodland.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 397562
     },
     {
      "id": "warbler-yellow",
      "name": "Yellow Warbler",
      "group": "Warbler",
      "call": "media/calls/warbler-yellow.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 419330
     },
     {
      "id": "wattle-eye-black-throated",
      "name": "Black-throated Wattle-eye",
      "group": "Wattle-eye",
      "call": "media/calls/wattle-eye-black-throated.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 436014
     },
     {
      "id": "waxbill-black-faced",
      "name": "Black-faced Waxbill",
      "group": "Waxbill",
      "call": "media/calls/waxbill-black-faced.mp3",
-     "photo": "media/birds/black-faced-waxbill.jpg"
+     "photo": "media/birds/black-faced-waxbill.jpg",
+     "bytes": 441447
     },
     {
      "id": "waxbill-cinderella",
      "name": "Cinderella Waxbill",
      "group": "Waxbill",
      "call": "media/calls/waxbill-cinderella.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 424311
     },
     {
      "id": "waxbill-grey",
      "name": "Grey Waxbill",
      "group": "Waxbill",
      "call": "media/calls/waxbill-grey.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 406339
     },
     {
      "id": "waxbill-orange-breasted",
      "name": "Orange-breasted Waxbill",
      "group": "Waxbill",
      "call": "media/calls/waxbill-orange-breasted.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 446070
     },
     {
      "id": "waxbill-swee",
      "name": "Swee Waxbill",
      "group": "Waxbill",
      "call": "media/calls/waxbill-swee.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 438522
     },
     {
      "id": "waxbill-violet-eared",
      "name": "Violet-eared Waxbill",
      "group": "Waxbill",
      "call": "media/calls/waxbill-violet-eared.mp3",
-     "photo": "media/birds/violet-eared-waxbill.jpg"
+     "photo": "media/birds/violet-eared-waxbill.jpg",
+     "bytes": 395890
     },
     {
      "id": "waxbill-yellow-bellied",
      "name": "Yellow-bellied Waxbill",
      "group": "Waxbill",
      "call": "media/calls/waxbill-yellow-bellied.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 449807
     },
     {
      "id": "weaver-dark-backed",
      "name": "Dark-backed Weaver",
      "group": "Weaver",
      "call": "media/calls/weaver-dark-backed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 394636
     },
     {
      "id": "weaver-golden",
      "name": "Golden Weaver",
      "group": "Weaver",
      "call": "media/calls/weaver-golden.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 445660
     },
     {
      "id": "weaver-red-billed-buffalo",
      "name": "Red-billed Buffalo-Weaver",
      "group": "Weaver",
      "call": "media/calls/weaver-red-billed-buffalo.mp3",
-     "photo": "media/birds/red-billed-buffalo-weaver.jpg"
+     "photo": "media/birds/red-billed-buffalo-weaver.jpg",
+     "bytes": 430998
     },
     {
      "id": "weaver-spectacled",
      "name": "Spectacled Weaver",
      "group": "Weaver",
      "call": "media/calls/weaver-spectacled.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 478228
     },
     {
      "id": "wheatear-capped",
      "name": "Capped Wheatear",
      "group": "Wheatear",
      "call": "media/calls/wheatear-capped.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 498290
     },
     {
      "id": "wheatear-mountain",
      "name": "Mountain Wheatear",
      "group": "Wheatear",
      "call": "media/calls/wheatear-mountain.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 436850
     },
     {
      "id": "white-eye-yellow",
      "name": "Yellow White-eye",
      "group": "White-eye",
      "call": "media/calls/white-eye-yellow.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 471994
     },
     {
      "id": "whitethroat-greater",
      "name": "Greater Whitethroat",
      "group": "Whitethroat",
      "call": "media/calls/whitethroat-greater.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 372902
     },
     {
      "id": "whydah-broad-tailed-paradise",
      "name": "Broad-tailed Paradise Whydah",
      "group": "Whydah",
      "call": "media/calls/whydah-broad-tailed-paradise.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 406339
     },
     {
      "id": "wood-hoopoe-violet",
      "name": "Violet Wood-Hoopoe",
      "group": "Wood",
      "call": "media/calls/wood-hoopoe-violet.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 462763
     },
     {
      "id": "woodpecker-bearded",
      "name": "Bearded Woodpecker",
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-bearded.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 330688
     },
     {
      "id": "woodpecker-bennetts",
      "name": "Bennett's Woodpecker",
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-bennetts.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 326091
     },
     {
      "id": "woodpecker-cardinal",
      "name": "Cardinal Woodpecker",
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-cardinal.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 355766
     },
     {
      "id": "woodpecker-golden-tailed",
      "name": "Golden-tailed Woodpecker",
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-golden-tailed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 440194
     },
     {
      "id": "woodpecker-green-backed",
      "name": "Green-backed Woodpecker",
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-green-backed.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 349914
     },
     {
      "id": "woodpecker-ground",
      "name": "Ground Woodpecker",
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-ground.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 430998
     },
     {
      "id": "woodpecker-knysna",
      "name": "Knysna Woodpecker",
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-knysna.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 242081
     },
     {
      "id": "woodpecker-olive",
      "name": "Olive Woodpecker",
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-olive.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 380843
     },
     {
      "id": "wryneck-red-throated",
      "name": "Red-throated Wryneck",
      "group": "Wryneck",
      "call": "media/calls/wryneck-red-throated.mp3",
-     "photo": ""
+     "photo": "",
+     "bytes": 427655
     }
    ]
   }

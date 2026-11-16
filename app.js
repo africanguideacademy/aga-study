@@ -64,11 +64,33 @@
   }
   function stopAudio() { audio.pause(); audioBtn = null; }
 
+  // ---------- offline ----------
+  const MEDIA_CACHE = 'aga-media-v1';
+  const hasCaches = 'caches' in window;
+  let cachedSet = new Set();
+  const abs = u => new URL(u, location.href).href;
+  async function refreshCached() {
+    if (!hasCaches) return;
+    try { const c = await caches.open(MEDIA_CACHE); cachedSet = new Set((await c.keys()).map(r => r.url)); } catch (e) { /* ignore */ }
+  }
+  // Offline, a call can only be used if it has been downloaded.
+  const callOk = i => !!i.call && (navigator.onLine || cachedSet.has(abs(i.call)));
+  const netBadge = document.getElementById('netBadge');
+  function updateNet() { netBadge.hidden = navigator.onLine; }
+  window.addEventListener('online', () => { updateNet(); route(); });
+  window.addEventListener('offline', () => { updateNet(); route(); });
+  let installPrompt = null;
+  window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); installPrompt = e; if (location.hash === '#/offline') route(); });
+  const isStandalone = () => window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const mb = b => (b / 1048576).toFixed(b < 10485760 ? 1 : 0) + ' MB';
+  let downloading = null; // { key, done, total, cancel }
+
   // ---------- modes ----------
   const MODES = {
     photo2name: { icon: '📷', title: 'Name the bird', desc: 'See a photo, pick the right name.', needs: i => i.photo },
-    call2name: { icon: '🔊', title: 'Whose call is this?', desc: 'Listen to the call, pick the bird.', needs: i => i.call },
-    call2photo: { icon: '🎧', title: 'Match call to photo', desc: 'Listen, then tap the right photo.', needs: i => i.call && i.photo },
+    call2name: { icon: '🔊', title: 'Whose call is this?', desc: 'Listen to the call, pick the bird.', needs: callOk },
+    call2photo: { icon: '🎧', title: 'Match call to photo', desc: 'Listen, then tap the right photo.', needs: i => callOk(i) && i.photo },
     name2photo: { icon: '🔎', title: 'Find the bird', desc: 'Read the name, tap the right photo.', needs: i => i.photo },
   };
   function scopedItems(mod) {
@@ -97,6 +119,7 @@
     stopAudio(); keyHandler = null; topRight.textContent = '';
     const p = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
     backBtn.hidden = p.length === 0;
+    if (p[0] === 'offline') return renderOffline();
     if (p[0] === 'm' && modById(p[1])) {
       const mod = modById(p[1]);
       if (p[2] === 'quiz' && MODES[p[3]]) return startQuiz(mod, p[3], p[4] === 'missed' ? lastMissed : null);
@@ -119,9 +142,104 @@
         <div class="bar"><span style="width:${(100 * done / n).toFixed(1)}%"></span></div>
         <div class="bar-label">${done} of ${n} mastered</div></div></button>`;
     }).join('');
+    const allCalls = callList(DATA.modules);
+    const saved = allCalls.filter(u => cachedSet.has(abs(u))).length;
+    const offlineCard = hasCaches ? `<button class="card module offline-card" data-go-offline>
+        <div class="thumb-sound">📥</div>
+        <div><h3>Use offline &amp; install</h3><p>Download calls so you can study in camp with no signal.</p>
+        <div class="bar-label">${saved ? saved + ' of ' + allCalls.length + ' calls saved on this device' : 'No calls downloaded yet'}</div></div></button>` : '';
     show(`<h1>Study modules</h1><p class="sub">Pick a module to practise. Your progress is saved on this device.</p>
-      <div class="module-list">${cards}</div>`);
+      <div class="module-list">${cards}${offlineCard}</div>`);
     view.querySelectorAll('[data-mod]').forEach(b => b.addEventListener('click', () => go('#/m/' + b.dataset.mod)));
+    const oc = view.querySelector('[data-go-offline]');
+    if (oc) oc.addEventListener('click', () => go('#/offline'));
+  }
+
+  // ---------- offline page ----------
+  function callList(mods) { return [...new Set(mods.flatMap(m => m.items.map(i => i.call)).filter(Boolean))]; }
+  function bytesOf(urls) {
+    const size = {};
+    DATA.modules.forEach(m => m.items.forEach(i => { if (i.call) size[i.call] = i.bytes || 0; }));
+    return urls.reduce((s, u) => s + (size[u] || 0), 0);
+  }
+  async function download(key, urls) {
+    if (downloading) return;
+    try { if (navigator.storage && navigator.storage.persist) await navigator.storage.persist(); } catch (e) { /* ignore */ }
+    const cache = await caches.open(MEDIA_CACHE);
+    const todo = urls.filter(u => !cachedSet.has(abs(u)));
+    downloading = { key, done: urls.length - todo.length, total: urls.length, failed: 0, cancelled: false };
+    renderOffline();
+    let next = 0;
+    async function worker() {
+      while (next < todo.length && !downloading.cancelled) {
+        const u = todo[next++];
+        try {
+          const res = await fetch(u, { cache: 'no-store' });
+          if (!res.ok) throw new Error(res.status);
+          await cache.put(abs(u), res);
+          cachedSet.add(abs(u));
+          downloading.done++;
+        } catch (e) { downloading.failed++; }
+        paintProgress();
+      }
+    }
+    await Promise.all([worker(), worker(), worker(), worker()]);
+    const result = downloading; downloading = null;
+    await refreshCached();
+    if (location.hash === '#/offline') renderOffline(result.failed && !result.cancelled ? `${result.failed} files could not be downloaded - check your connection and tap Download again.` : '');
+  }
+  function paintProgress() {
+    const el = document.getElementById('dlProg');
+    if (!el || !downloading) return;
+    el.querySelector('span').style.width = (100 * downloading.done / downloading.total) + '%';
+    document.getElementById('dlText').textContent = `Downloading... ${downloading.done} of ${downloading.total}`;
+  }
+  async function removeCalls() {
+    const cache = await caches.open(MEDIA_CACHE);
+    for (const r of await cache.keys()) if (r.url.includes('/media/calls/')) await cache.delete(r);
+    await refreshCached(); renderOffline();
+  }
+  function renderOffline(message) {
+    const packs = [
+      { key: 'fgasa', title: 'FGASA 80 birds - calls', urls: callList([modById('fgasa80')]) },
+      { key: 'all', title: 'Full call library', urls: callList(DATA.modules) },
+    ];
+    const photos = [...new Set(DATA.modules.flatMap(m => m.items.map(i => i.photo)).filter(Boolean))];
+    const photosSaved = photos.filter(u => cachedSet.has(abs(u))).length;
+    const packHtml = packs.map(p => {
+      const have = p.urls.filter(u => cachedSet.has(abs(u))).length;
+      const left = p.urls.filter(u => !cachedSet.has(abs(u)));
+      const busy = downloading && downloading.key === p.key;
+      let action;
+      if (busy) action = `<div class="bar" id="dlProg"><span style="width:${100 * downloading.done / downloading.total}%"></span></div>
+          <div class="row"><span class="bar-label" id="dlText">Downloading... ${downloading.done} of ${downloading.total}</span><button class="linkish" id="dlCancel">Cancel</button></div>`;
+      else if (!left.length) action = `<span class="done">✓ Saved on this device</span>`;
+      else action = `<button class="btn" data-dl="${p.key}"${downloading || !navigator.onLine ? ' disabled' : ''}>${have ? 'Download the rest' : 'Download'} (${mb(bytesOf(left))})</button>`;
+      return `<div class="card dl"><h3>${esc(p.title)}</h3><p>${p.urls.length} calls &middot; ${mb(bytesOf(p.urls))} &middot; ${have} saved</p>${action}</div>`;
+    }).join('');
+
+    let install;
+    if (isStandalone()) install = `<p class="done">✓ The app is installed on this device.</p>`;
+    else if (installPrompt) install = `<p>Add AGA Study to your home screen so it opens like a normal app.</p><button class="btn" id="installBtn">Install app</button>`;
+    else if (isIOS) install = `<ol class="steps"><li>Open this page in <strong>Safari</strong>.</li><li>Tap the <strong>Share</strong> button (square with an arrow).</li><li>Tap <strong>Add to Home Screen</strong>, then <strong>Add</strong>.</li></ol>`;
+    else install = `<ol class="steps"><li>Open this page in <strong>Chrome</strong>.</li><li>Tap the <strong>⋮</strong> menu.</li><li>Tap <strong>Add to Home screen</strong> or <strong>Install app</strong>.</li></ol>`;
+
+    show(`<h1>Use offline</h1>
+      <p class="sub">${navigator.onLine ? 'Download before you go to camp. Everything you download keeps working with no signal.' : 'You are offline. Quizzes use the photos and calls already saved on this device.'}</p>
+      ${message ? `<div class="feedback bad"><div class="msg">${esc(message)}</div></div>` : ''}
+      <h2>1. Install on your phone</h2><div class="card dl">${install}</div>
+      <h2>2. Download content</h2>
+      <div class="card dl"><h3>App and all photos</h3><p>Saved automatically the first time you open the app.</p>
+        ${photosSaved >= photos.length ? '<span class="done">✓ Saved on this device</span>' : `<span class="bar-label">${photosSaved} of ${photos.length} photos saved - keep the app open on Wi-Fi for a moment.</span>`}</div>
+      ${packHtml}
+      <p class="sub" style="font-size:13px">Tip: download on Wi-Fi. The full library is large, so most students only need the FGASA 80 calls.</p>
+      ${[...cachedSet].some(u => u.includes('/media/calls/')) && !downloading ? '<button class="linkish" id="rmCalls">Remove downloaded calls to free up space</button>' : ''}`);
+    view.querySelectorAll('[data-dl]').forEach(b => b.addEventListener('click', () => download(b.dataset.dl, packs.find(p => p.key === b.dataset.dl).urls)));
+    const c = document.getElementById('dlCancel'); if (c) c.addEventListener('click', () => { downloading.cancelled = true; });
+    const ib = document.getElementById('installBtn');
+    if (ib) ib.addEventListener('click', async () => { installPrompt.prompt(); try { await installPrompt.userChoice; } catch (e) { /* ignore */ } installPrompt = null; renderOffline(); });
+    const rm = document.getElementById('rmCalls');
+    if (rm) rm.addEventListener('click', () => { if (confirm('Remove all downloaded calls from this device? You can download them again later.')) removeCalls(); });
   }
 
   // ---------- module ----------
@@ -318,5 +436,9 @@
     draw('');
   }
 
+  updateNet();
   route();
+  // Once we know what is saved on this device, refresh the screen (counts, offline-only calls).
+  refreshCached().then(() => { if (!downloading && !/\/quiz\/|\/flash/.test(location.hash)) route(); });
+  if (navigator.serviceWorker) navigator.serviceWorker.addEventListener('controllerchange', () => refreshCached());
 })();

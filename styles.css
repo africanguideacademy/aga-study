@@ -150,3 +150,18 @@ h2 { font-size: 18px; margin: 22px 0 10px; }
 .tile .row { display: flex; justify-content: space-between; align-items: center; padding: 0 2px; font-size: 12px; color: var(--muted); min-height: 30px; }
 .dots { letter-spacing: 2px; color: var(--good); }
 .empty { color: var(--muted); padding: 20px 0; text-align: center; }
+
+/* offline */
+.net { background: var(--accent); color: #fff; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 99px; }
+.net[hidden] { display: none; }
+.module.offline-card { grid-template-columns: 84px 1fr; }
+.offline-card .thumb-sound { background: var(--bg); }
+.dl { padding: 14px; margin-bottom: 12px; }
+.dl h3 { margin: 0 0 2px; font-size: 16px; }
+.dl p { margin: 0 0 10px; color: var(--muted); font-size: 14px; }
+.dl .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.dl .bar { margin: 10px 0 4px; }
+.done { color: var(--good); font-weight: 600; }
+.linkish { background: none; border: 0; color: var(--muted); text-decoration: underline; padding: 6px 0; font-size: 14px; }
+.steps { margin: 6px 0 0; padding-left: 20px; color: var(--ink); font-size: 15px; }
+.steps li { margin: 4px 0; }
