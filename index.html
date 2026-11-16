@@ -33,6 +33,10 @@
   <a href="#/offline" data-tab="offline"></a>
 </nav>
 <script src="data.js"></script>
+<script>
+  // ?preview loads draft questions for reviewers (not linked anywhere in the app)
+  if (/[?&]preview\b/.test(location.search)) document.write('<script src="data-preview.js"><\/script>');
+</script>
 <script src="app.js"></script>
 <script>
   if ('serviceWorker' in navigator) {
