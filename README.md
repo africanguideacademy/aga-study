@@ -59,6 +59,9 @@ powershell -ExecutionPolicy Bypass -File tools/copy-media.ps1
 - The master copy is the **Questions** tab of the Google Sheet. Each row has: question, correct answer, 3 wrong answers, explanation, manual page, and a Status of Draft, Approved or Rejected.
 - Only **Approved** questions appear in the public app.
   - **Draft** questions can be previewed at `https://africanguideacademy.github.io/aga-study/?preview`. Nothing in the app links to this address, but anyone who has it can open it.
+- **Current state (16 Nov 2026):** at Bernard's request, the Birds Draft questions are live in the public app for testing, each with a "Draft" label.
+  - To keep them live, build with `$env:DRAFTS_LIVE='1'; node tools/build-data.js`.
+  - Once Grant has reviewed them, build without that setting so only Approved questions are live.
 - Text in the manual's green boxes isn't examinable, so it's left out.
 - To publish after reviewing:
   1. Export the Questions tab to `data/questions.csv`.

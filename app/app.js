@@ -131,10 +131,10 @@
     call2name: { icon: 'sound', title: 'Whose call is this?', desc: 'Listen, then pick the bird', needs: callOk },
     call2photo: { icon: 'match', title: 'Match call to photo', desc: 'Listen, then tap the right photo', needs: i => callOk(i) && i.photo },
     name2photo: { icon: 'search', title: 'Find the bird', desc: 'Read the name, tap the right photo', needs: i => i.photo },
-    mcq: { icon: 'book', title: 'Practice quiz', desc: 'Multiple choice, with explanations', needs: i => !!i.q },
+    mcq: { icon: 'book', title: 'Manual quiz', desc: 'Multiple choice, with explanations', needs: i => !!i.q },
   };
   function scopedItems(mod) {
-    const sc = settings.scope[mod.id] || 'all';
+    const sc = settings.scope[mod.id] || (mod.id === 'calls' ? 'fgasa' : 'all'); // calls default to the FGASA 80
     if (sc === 'all') return mod.items;
     if (sc === 'fgasa') return mod.items.filter(i => i.photo);
     const g = mod.items.filter(i => i.group === sc);
@@ -188,12 +188,13 @@
     const p = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
     if (p[0] === 'offline') return renderOffline();
     if (p[0] === 'progress') return renderProgress();
+    if (p[0] === 's' && SUBJECTS.find(x => x.id === p[1])) return renderSubject(SUBJECTS.find(x => x.id === p[1]));
     if (p[0] === 'm' && modById(p[1])) {
       const mod = modById(p[1]);
       if (p[2] === 'quiz' && MODES[p[3]]) return startQuiz(mod, p[3], p[4] === 'review' ? reviewItems : null);
       if (p[2] === 'flash') return startFlash(mod);
       if (p[2] === 'browse') return renderBrowse(mod);
-      return renderModule(mod);
+      return renderSubject(subjectOf(mod));
     }
     renderHome();
   }
@@ -208,105 +209,113 @@
   }
   const footer = () => `<div class="foot"><img src="brand/logo-colour.png" alt="African Guide Academy">Study app &middot; for AGA students</div>`;
 
+  // ---------- subjects (one per manual chapter; each groups several data modules) ----------
+  const SUBJECTS = [
+    { id: 'birds', title: 'Birds', blurb: 'Photos, calls and manual questions', photo: 'media/birds/racket-tailed-roller.jpg', modules: ['fgasa80', 'calls', 'q-birds'] },
+  ];
+  const COMING_SOON = ['Mammals', 'Plants', 'Reptiles', 'Amphibians', 'Arthropods', 'Ecology', 'Geology', 'Astronomy', 'Guiding principles'];
+  const subjectOf = mod => SUBJECTS.find(s => s.modules.includes(mod.id)) || SUBJECTS[0];
+  const homeOf = mod => '#/s/' + subjectOf(mod).id;
+  const subjectMods = s => s.modules.map(modById).filter(Boolean);
+  function subjectProgress(s) {
+    let d = 0, n = 0;
+    subjectMods(s).forEach(m => { d += masteredCount(m, m.items); n += m.items.length; });
+    return { d, n };
+  }
+
   // ---------- home ----------
   function renderHome() {
     chrome({ tab: 'home' });
     const fg = modById('fgasa80');
     const heroPhoto = shuffle(fg.items.filter(i => i.photo))[0].photo;
-    const done = masteredCount(fg, fg.items);
-    // Each module shows its quiz types and study options straight on the home page.
-    const cards = DATA.modules.map(m => {
-      const n = m.items.length, d = masteredCount(m, m.items);
-      const count = isQ(m) ? plural(n, 'question') : m.id === 'calls' ? `${n} calls` : `${n} birds`;
-      const rows = modesFor(m).map(k => `<a class="row-btn" href="#/m/${esc(m.id)}/quiz/${k}"><div class="tile-ico">${icon(MODES[k].icon)}</div>
-          <div class="txt"><strong>${MODES[k].title}</strong><span class="d">${MODES[k].desc}</span></div>${icon('chev', 'chev')}</a>`).join('');
-      const sc = settings.scope[m.id];
-      const scopeNote = sc && sc !== 'all' ? ` &middot; ${esc(sc === 'fgasa' ? 'FGASA 80 only' : sc)}` : '';
-      return `<section class="card mod-card">
-        <a class="mod-top" href="#/m/${esc(m.id)}">
-          <div class="mod-thumb" style="background-image:url('${esc(bannerFor(m))}')"></div>
-          <div class="mod-info"><h3>${esc(m.title)}</h3>
-            <div class="bar"><span style="width:${pct(d, n)}%"></span></div>
-            <div class="bar-label"><span>${d} of ${count} mastered${scopeNote}</span></div></div>
-          <span class="mod-more">Settings ${icon('chev')}</span>
-        </a>
-        <div class="list">${rows}
-          <a class="row-btn" href="#/m/${esc(m.id)}/flash"><div class="tile-ico">${icon('cards')}</div><div class="txt"><strong>Flashcards</strong><span class="d">Flip through and mark what you know</span></div>${icon('chev', 'chev')}</a>
-          <a class="row-btn" href="#/m/${esc(m.id)}/browse"><div class="tile-ico">${icon(isQ(m) ? 'list' : 'grid')}</div><div class="txt"><strong>${isQ(m) ? 'Study list' : 'Browse all'}</strong><span class="d">${isQ(m) ? 'Read every question and answer' : 'Look and listen at your own pace'}</span></div>${icon('chev', 'chev')}</a>
-        </div></section>`;
+    const tiles = SUBJECTS.map(s => {
+      const { d, n } = subjectProgress(s);
+      return `<a class="card subject" href="#/s/${s.id}">
+        <div class="subject-img" style="background-image:url('${esc(s.photo)}')"></div>
+        <div class="subject-body"><h3>${esc(s.title)}</h3><p>${esc(s.blurb)}</p>
+          <div class="bar"><span style="width:${pct(d, n)}%"></span></div>
+          <div class="bar-label"><span>${pct(d, n)}% mastered</span><span class="go">Open ${icon('chev')}</span></div></div></a>`;
     }).join('');
-    const lens = [10, 20, 0].map(n => `<button data-len="${n}" aria-pressed="${settings.length === n}">${n || 'All'}</button>`).join('');
+    const soon = COMING_SOON.map(t => `<span class="soon">${esc(t)}</span>`).join('');
     const savedCalls = callList(DATA.modules).filter(u => cachedSet.has(abs(u))).length;
     const nudge = hasCaches && !savedCalls ? `<a class="card nudge" href="#/offline"><div class="tile-ico">${icon('download')}</div>
       <div><strong>Studying in camp?</strong><span class="small">Download the calls so the app works with no signal.</span></div>${icon('chev', 'chev')}</a>` : '';
     const previewNote = DATA.preview ? `<div class="alert" style="margin-bottom:14px"><strong>Preview mode</strong> - includes Draft questions that are still being reviewed.</div>` : '';
     show(`${previewNote}<section class="hero compact" style="background-image:url('${esc(heroPhoto)}')">
         <div class="eyebrow">African Guide Academy</div>
-        <h1>Learn the birds</h1>
-        <p>By sight and by sound - pick a quiz below.${done ? ` ${done} birds mastered so far.` : ''}</p>
+        <h1>AGA Study</h1>
+        <p>Choose a subject to practise for your guiding exams.</p>
       </section>
-      <div class="card setting-row home-setting"><label>Questions per round</label><div class="seg">${lens}</div></div>
-      ${nudge}
-      <div class="module-list">${cards}</div>${footer()}`);
+      <div class="section-title">Subjects</div>
+      <div class="subject-list">${tiles}</div>
+      <div class="card coming"><div class="small" style="margin-bottom:8px">Coming soon</div><div class="soon-wrap">${soon}</div></div>
+      ${nudge}${footer()}`);
+  }
+
+  // ---------- subject page (e.g. Birds): every quiz and study tool in one place ----------
+  function renderSubject(s) {
+    chrome({ tab: 'home', back: '#/' });
+    const fg = modById('fgasa80'), calls = modById('calls'), qm = modById('q-birds');
+    const { d, n } = subjectProgress(s);
+    const lens = [10, 20, 0].map(x => `<button data-len="${x}" aria-pressed="${settings.length === x}">${x || 'All'}</button>`).join('');
+    // calls setting
+    const csc = settings.scope.calls || 'fgasa';
+    const cgroups = calls ? [...new Set(calls.items.map(i => i.group).filter(Boolean))].sort() : [];
+    const callSel = calls ? `<div class="setting-row"><label for="callScope">Calls</label><select class="select" id="callScope">
+        <option value="fgasa"${csc === 'fgasa' ? ' selected' : ''}>FGASA 80 birds only</option>
+        <option value="all"${csc === 'all' ? ' selected' : ''}>All ${calls.items.length} calls</option>
+        <optgroup label="One group">${cgroups.map(g => `<option value="${esc(g)}"${csc === g ? ' selected' : ''}>${esc(g)} (${calls.items.filter(i => i.group === g).length})</option>`).join('')}</optgroup>
+      </select></div>` : '';
+    // manual topic setting
+    const qsc = qm ? (settings.scope[qm.id] || 'all') : 'all';
+    const topicSel = qm ? `<div class="setting-row"><label for="qScope">Manual topic</label><select class="select" id="qScope">
+        <option value="all"${qsc === 'all' ? ' selected' : ''}>All topics (${qm.items.length})</option>
+        ${[...new Set(qm.items.map(i => i.group).filter(Boolean))].map(g => `<option value="${esc(g)}"${qsc === g ? ' selected' : ''}>${esc(g)} (${qm.items.filter(i => i.group === g).length})</option>`).join('')}
+      </select></div>` : '';
+
+    const tile = (href, ic, title, sub, ok = true) => ok
+      ? `<a class="card act" href="${href}"><div class="tile-ico">${icon(ic)}</div><strong>${title}</strong><span>${sub}</span></a>`
+      : `<div class="card act off"><div class="tile-ico">${icon(ic)}</div><strong>${title}</strong><span>Download calls to use offline</span></div>`;
+    const has = (m, k) => m && modesFor(m).includes(k);
+    const mp = m => m ? `${masteredCount(m, m.items)}/${m.items.length}` : '';
+    const section = (title, sub, tiles) => `<div class="section-title">${title}${sub ? `<span class="sec-sub">${sub}</span>` : ''}</div><div class="act-grid">${tiles}</div>`;
+
+    show(`<section class="mod-head" style="background-image:url('${esc(s.photo)}')">
+        <h1>${esc(s.title)}</h1><p>${esc(s.blurb)}</p>
+        <div class="bar"><span style="width:${pct(d, n)}%"></span></div>
+        <div class="bar-label"><span>${d} of ${n} items mastered</span><span>${pct(d, n)}%</span></div>
+      </section>
+      <div class="section-title">Settings</div>
+      <div class="card"><div class="setting-row"><label>Questions per round</label><div class="seg">${lens}</div></div>${callSel}${topicSel}</div>
+      ${fg ? section('By sight', `${mp(fg)} mastered`,
+        tile(`#/m/fgasa80/quiz/photo2name`, 'camera', 'Name the bird', 'See a photo, pick the name') +
+        tile(`#/m/fgasa80/quiz/name2photo`, 'search', 'Find the bird', 'Read a name, tap the photo')) : ''}
+      ${calls ? section('By sound', `${mp(calls)} mastered`,
+        tile(`#/m/calls/quiz/call2name`, 'sound', 'Whose call is this?', 'Listen, pick the bird', has(calls, 'call2name')) +
+        tile(`#/m/fgasa80/quiz/call2photo`, 'match', 'Match call to photo', 'Listen, tap the photo', has(fg, 'call2photo'))) : ''}
+      ${qm ? section('Manual knowledge', `${mp(qm)} mastered`,
+        tile(`#/m/${qm.id}/quiz/mcq`, 'book', 'Manual quiz', 'Multiple choice with explanations') +
+        tile(`#/m/${qm.id}/browse`, 'list', 'Study list', 'Every question and answer')) : ''}
+      ${section('Flashcards', '',
+        (fg ? tile(`#/m/fgasa80/flash`, 'camera', 'Photo cards', 'Who is this?') : '') +
+        (calls ? tile(`#/m/calls/flash`, 'sound', 'Call cards', 'Whose call?') : '') +
+        (qm ? tile(`#/m/${qm.id}/flash`, 'cards', 'Question cards', 'From the manual') : '') +
+        (fg ? tile(`#/m/fgasa80/browse`, 'grid', 'Browse birds', 'Photos and calls') : ''))}
+      <p class="small" style="margin:14px 4px 0">An item counts as mastered after 3 right answers in a row. Anything you get wrong comes up more often.</p>`);
     view.querySelectorAll('[data-len]').forEach(b => b.addEventListener('click', () => {
       settings.length = +b.dataset.len; save(SETTINGS_KEY, settings);
       view.querySelectorAll('[data-len]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
     }));
+    const cs = $('callScope'); if (cs) cs.addEventListener('change', () => { settings.scope.calls = cs.value; save(SETTINGS_KEY, settings); renderSubject(s); });
+    const qs = $('qScope'); if (qs) qs.addEventListener('change', () => { settings.scope[qm.id] = qs.value; save(SETTINGS_KEY, settings); renderSubject(s); });
   }
 
-  // ---------- module ----------
-  function renderModule(mod) {
-    chrome({ tab: 'home', back: '#/' });
-    const items = scopedItems(mod);
-    const done = masteredCount(mod, items);
-    const groups = [...new Set(mod.items.map(i => i.group).filter(Boolean))].sort();
-    const sc = settings.scope[mod.id] || 'all';
-    const groupOpts = gs => gs.map(g => `<option value="${esc(g)}"${sc === g ? ' selected' : ''}>${esc(g)} (${mod.items.filter(i => i.group === g).length})</option>`).join('');
-    const scopeRow = mod.id === 'calls' ? `<div class="setting-row"><label for="scope">Practise</label>
-        <select class="select" id="scope">
-          <option value="all"${sc === 'all' ? ' selected' : ''}>All ${mod.items.length} calls</option>
-          <option value="fgasa"${sc === 'fgasa' ? ' selected' : ''}>FGASA 80 birds only</option>
-          <optgroup label="One group">${groupOpts(groups)}</optgroup>
-        </select></div>`
-      : isQ(mod) ? `<div class="setting-row"><label for="scope">Topic</label>
-        <select class="select" id="scope">
-          <option value="all"${sc === 'all' ? ' selected' : ''}>All topics (${mod.items.length})</option>
-          ${groupOpts([...new Set(mod.items.map(i => i.group).filter(Boolean))])}
-        </select></div>` : '';
-    const lens = [10, 20, 0].map(n => `<button data-len="${n}" aria-pressed="${settings.length === n}">${n || 'All'}</button>`).join('');
-    const rows = modesFor(mod).map(k => `<button class="row-btn" data-mode="${k}"><div class="tile-ico">${icon(MODES[k].icon)}</div>
-        <div class="txt"><strong>${MODES[k].title}</strong><span class="d">${MODES[k].desc}</span></div>${icon('chev', 'chev')}</button>`).join('');
-    const offlineNote = !navigator.onLine && mod.items.some(i => i.call && !cachedSet.has(abs(i.call)))
-      ? `<p class="small" style="margin:8px 4px 0">You're offline: call quizzes only use calls you've downloaded.</p>` : '';
-    show(`<section class="mod-head" style="background-image:url('${esc(bannerFor(mod))}')">
-        <h1>${esc(mod.title)}</h1><p>${esc(mod.subtitle)}</p>
-        <div class="bar"><span style="width:${pct(done, items.length)}%"></span></div>
-        <div class="bar-label"><span>${done} of ${items.length} mastered</span><span>${pct(done, items.length)}%</span></div>
-      </section>
-      <div class="section-title">Settings</div>
-      <div class="card">${scopeRow}<div class="setting-row"><label>Questions per round</label><div class="seg">${lens}</div></div></div>
-      <div class="section-title">Quiz</div>
-      <div class="card list">${rows || '<p class="empty">Not enough birds in this selection - pick a bigger group.</p>'}</div>${offlineNote}
-      <div class="section-title">Learn</div>
-      <div class="card list">
-        <button class="row-btn" data-go="flash"><div class="tile-ico">${icon('cards')}</div><div class="txt"><strong>Flashcards</strong><span class="d">Flip through and mark what you know</span></div>${icon('chev', 'chev')}</button>
-        ${isQ(mod)
-          ? `<button class="row-btn" data-go="browse"><div class="tile-ico">${icon('list')}</div><div class="txt"><strong>Study list</strong><span class="d">Read through every question and answer</span></div>${icon('chev', 'chev')}</button>`
-          : `<button class="row-btn" data-go="browse"><div class="tile-ico">${icon('grid')}</div><div class="txt"><strong>Browse all</strong><span class="d">Look and listen at your own pace</span></div>${icon('chev', 'chev')}</button>`}
-      </div>
-      <p class="small" style="margin:12px 4px 0">${isQ(mod) ? 'A question' : 'A bird'} counts as mastered after 3 right answers in a row. ${isQ(mod) ? 'Questions' : 'Birds'} you get wrong come up more often.</p>`);
-    const s = $('scope');
-    if (s) s.addEventListener('change', () => { settings.scope[mod.id] = s.value; save(SETTINGS_KEY, settings); renderModule(mod); });
-    view.querySelectorAll('[data-len]').forEach(b => b.addEventListener('click', () => { settings.length = +b.dataset.len; save(SETTINGS_KEY, settings); renderModule(mod); }));
-    view.querySelectorAll('[data-mode]').forEach(b => b.addEventListener('click', () => go(`#/m/${mod.id}/quiz/${b.dataset.mode}`)));
-    view.querySelectorAll('[data-go]').forEach(b => b.addEventListener('click', () => go(`#/m/${mod.id}/${b.dataset.go}`)));
-  }
 
   // ---------- quiz ----------
   let reviewItems = null;
   function startQuiz(mod, modeKey, onlyItems) {
     const mode = MODES[modeKey];
-    chrome({ focus: true, back: '#/m/' + mod.id, title: mode.title, progress: true });
+    chrome({ focus: true, back: homeOf(mod), title: mode.title, progress: true });
     const pool = scopedItems(mod).filter(mode.needs);
     const n = settings.length || pool.length;
     const questions = onlyItems ? shuffle(onlyItems.filter(mode.needs)) : pickItems(mod, pool, n);
@@ -395,7 +404,7 @@
     function results() {
       document.querySelectorAll('.sheet').forEach(s => s.remove());
       view.dataset.dirty = '';
-      chrome({ focus: true, back: '#/m/' + mod.id, title: 'Results' });
+      chrome({ focus: true, back: homeOf(mod), title: 'Results' });
       const p = pct(state.score, questions.length);
       const msg = p === 100 ? 'Perfect round!' : p >= 80 ? 'Great work!' : p >= 50 ? 'Getting there - keep practising.' : 'Keep at it - try the flashcards first.';
       const C = 2 * Math.PI * 64;
@@ -413,12 +422,12 @@
         <div class="btn-stack">
           ${state.missed.length ? `<button class="btn" id="again">${state.missed.length === 1 ? 'Practise the one I missed' : `Practise the ${state.missed.length} I missed`}</button>` : ''}
           <button class="btn ${state.missed.length ? 'ghost' : ''}" id="new">New round</button>
-          <button class="btn ghost" id="done">Back to ${esc(mod.title)}</button></div>
+          <button class="btn ghost" id="done">Back to ${esc(subjectOf(mod).title)}</button></div>
         ${list ? `<div class="section-title">To review</div><ul class="card review">${list}</ul>` : ''}`);
       const a = $('again');
       if (a) a.addEventListener('click', () => { reviewItems = state.missed.map(m => m.item); go(`#/m/${mod.id}/quiz/${modeKey}/review`); });
       $('new').addEventListener('click', () => go(`#/m/${mod.id}/quiz/${modeKey}`));
-      $('done').addEventListener('click', () => go('#/m/' + mod.id));
+      $('done').addEventListener('click', () => go(homeOf(mod)));
       view.querySelectorAll('[data-call]').forEach(b => b.addEventListener('click', () => playCall(b.dataset.call, b)));
     }
     ask();
@@ -428,7 +437,8 @@
 
   // ---------- flashcards ----------
   function startFlash(mod) {
-    chrome({ focus: true, back: '#/m/' + mod.id, title: 'Flashcards', progress: true });
+    const cardTitle = isQ(mod) ? 'Question cards' : mod.id === 'calls' ? 'Call cards' : 'Photo cards';
+    chrome({ focus: true, back: homeOf(mod), title: cardTitle, progress: true });
     const pool = scopedItems(mod);
     let deck = pickItems(mod, pool, settings.length || pool.length).map(i => Object.assign({}, i));
     let seen = 0, known = 0;
@@ -437,17 +447,17 @@
       if (!deck.length) {
         document.querySelectorAll('.sheet').forEach(s => s.remove());
         view.dataset.dirty = '';
-        chrome({ focus: true, back: '#/m/' + mod.id, title: 'Flashcards' });
+        chrome({ focus: true, back: homeOf(mod), title: cardTitle });
         show(`<div class="card result"><div class="big-name">${known} / ${total}</div><div class="score-line">cards you knew first time</div></div>
-          <div class="btn-stack"><button class="btn" id="new">Another deck</button><button class="btn ghost" id="done">Back to ${esc(mod.title)}</button></div>`);
+          <div class="btn-stack"><button class="btn" id="new">Another deck</button><button class="btn ghost" id="done">Back to ${esc(subjectOf(mod).title)}</button></div>`);
         $('new').addEventListener('click', () => startFlash(mod));
-        $('done').addEventListener('click', () => go('#/m/' + mod.id));
+        $('done').addEventListener('click', () => go(homeOf(mod)));
         return;
       }
       const c = deck[0];
       topRight.textContent = `${Math.min(seen + 1, total)} / ${total}`;
       setQuizProgress(seen / total);
-      const soundFront = !c.photo;
+      const soundFront = mod.id === 'calls' || !c.photo; // call cards: listen first, photo on the back
       if (c.q) { textCard(c); return; }
       const front = soundFront
         ? `${playBtnHtml('fPlay', '', true)}<div class="hint">Whose call is this? Tap the card to check.</div>`
@@ -518,7 +528,7 @@
 
   // ---------- browse ----------
   function renderBrowse(mod) {
-    chrome({ tab: 'home', back: '#/m/' + mod.id, title: mod.title });
+    chrome({ tab: 'home', back: homeOf(mod), title: isQ(mod) ? 'Study list' : 'Browse birds' });
     if (isQ(mod)) return renderStudyList(mod);
     const items = scopedItems(mod).slice().sort((a, b) => a.name.localeCompare(b.name));
     show(`<div class="search-wrap" style="position:sticky">${icon('search')}<input class="search" id="q" type="search" placeholder="Search ${items.length} birds" autocomplete="off" aria-label="Search birds"></div>

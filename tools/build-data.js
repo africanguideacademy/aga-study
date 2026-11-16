@@ -136,12 +136,12 @@ fs.writeFileSync(path.join(ROOT, 'data', 'calls.csv'), csv(callRows));
 const appData = {
   generated: new Date().toISOString().slice(0, 10),
   modules: [
-    { id: 'fgasa80', title: 'FGASA Savanna 80 Birds', subtitle: 'Photos and calls of the 80 core savanna birds',
+    { id: 'fgasa80', title: 'Bird photos (FGASA 80)', subtitle: 'Photos and calls of the 80 core savanna birds',
       items: birds.filter(b => b.active === 'Yes').map(b => {
         const c = b.callFile ? calls.find(x => x.file === b.callFile) : null;
         return { id: b.id, name: b.name, group: b.group, photo: b.photo, call: b.call, bytes: c ? c.bytes : 0 };
       }) },
-    { id: 'calls', title: 'Bird Calls of Southern Africa', subtitle: calls.length + ' calls - the full call library',
+    { id: 'calls', title: 'Bird calls', subtitle: calls.length + ' calls - the full call library',
       items: calls.map(c => ({ id: c.id, name: c.name, group: c.group, call: c.appPath, photo: c.photo, bytes: c.bytes })) },
   ],
 };
@@ -178,7 +178,7 @@ function questionModules(includeDrafts) {
       if (x.status !== 'Approved') o.draft = true;
       return o;
     });
-    return { id: 'q-' + slug(ch), kind: 'questions', title: ch + ' - manual questions', photo: CHAPTER_PHOTO[ch] || '',
+    return { id: 'q-' + slug(ch), kind: 'questions', title: ch + ' - manual', photo: CHAPTER_PHOTO[ch] || '',
       subtitle: `${items.length} questions from the Botswana Guide Training Manual`, items };
   });
 }
