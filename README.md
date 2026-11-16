@@ -54,6 +54,20 @@ powershell -ExecutionPolicy Bypass -File tools/copy-media.ps1
 - The logo and icons are made by `tools/make-icons.ps1`, which uses the official AGA logo files (Koru Designs 2019, on `Z:\MULTIMEDIA\KORU DESIGNS\AFRICAN GUIDE ACADEMY\2019`).
 - The colours are AGA's house colours: maroon #6e1e10, dark brown #3d0f07, ochre #c06a1a, and cream #f4f1ec.
 
+## Manual questions
+- These are multiple-choice questions written from the *Botswana Guide Training Manual* (7th ed., June 2025). The Birds chapter (p92-107) is done first, with 108 questions.
+- The master copy is the **Questions** tab of the Google Sheet. Each row has: question, correct answer, 3 wrong answers, explanation, manual page, and a Status of Draft, Approved or Rejected.
+- Only **Approved** questions appear in the public app.
+  - **Draft** questions can be previewed at `https://africanguideacademy.github.io/aga-study/?preview`. Nothing in the app links to this address, but anyone who has it can open it.
+- Text in the manual's green boxes isn't examinable, so it's left out.
+- To publish after reviewing:
+  1. Export the Questions tab to `data/questions.csv`.
+  2. Run `node tools/build-data.js`.
+  3. Run `tools/publish.ps1`.
+
+  Or simply ask Claude to "publish approved questions".
+- `tools/seed-questions-birds.js` created the first Birds draft. It's kept for reference only; don't run it again, because it would overwrite `data/questions.csv`.
+
 ## Navigation
 - On a phone, the tab bar at the bottom has three tabs: Home, Progress and Offline.
 - Quizzes and flashcards use a full-screen mode with ✕ to quit. The Next and grading buttons sit at the bottom of the screen, within reach of your thumb.

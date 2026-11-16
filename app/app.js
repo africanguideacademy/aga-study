@@ -29,6 +29,8 @@
     stop: '<rect x="7" y="7" width="10" height="10" rx="1.5" fill="currentColor" stroke="none"/>',
     phone: '<rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M11 18.5h2"/>',
     bolt: '<path d="M13 2.5 5 13.5h6l-1 8 8-11h-6z"/>',
+    book: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/>',
+    list: '<path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/>',
   };
   const icon = (n, cls) => `<svg class="ico${cls ? ' ' + cls : ''}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${P[n]}</svg>`;
 
@@ -55,7 +57,9 @@
   const pct = (a, b) => b ? Math.round(100 * a / b) : 0;
   const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
   const BANNERS = { fgasa80: 'media/birds/racket-tailed-roller.jpg', calls: 'media/birds/pels-fishing-owl.jpg' };
+  const isQ = mod => mod.kind === 'questions';
   function bannerFor(mod) {
+    if (mod.photo) return mod.photo;
     const want = BANNERS[mod.id];
     return (want && mod.items.concat(DATA.modules[0].items).some(i => i.photo === want)) ? want : (mod.items.find(i => i.photo) || DATA.modules[0].items[0]).photo;
   }
@@ -127,6 +131,7 @@
     call2name: { icon: 'sound', title: 'Whose call is this?', desc: 'Listen, then pick the bird', needs: callOk },
     call2photo: { icon: 'match', title: 'Match call to photo', desc: 'Listen, then tap the right photo', needs: i => callOk(i) && i.photo },
     name2photo: { icon: 'search', title: 'Find the bird', desc: 'Read the name, tap the right photo', needs: i => i.photo },
+    mcq: { icon: 'book', title: 'Practice quiz', desc: 'Multiple choice, with explanations', needs: i => !!i.q },
   };
   function scopedItems(mod) {
     const sc = settings.scope[mod.id] || 'all';
@@ -211,7 +216,7 @@
     const done = masteredCount(fg, fg.items);
     const cards = DATA.modules.map(m => {
       const n = m.items.length, d = masteredCount(m, m.items);
-      const badge = m.id === 'calls' ? `${icon('sound')} ${n} calls` : `${icon('camera')} ${n} birds`;
+      const badge = isQ(m) ? `${icon('book')} ${n} questions` : m.id === 'calls' ? `${icon('sound')} ${n} calls` : `${icon('camera')} ${n} birds`;
       return `<button class="card module" data-mod="${esc(m.id)}">
         <div class="banner" style="background-image:url('${esc(bannerFor(m))}')"><span class="badge">${badge}</span></div>
         <div class="body"><h3>${esc(m.title)}</h3><p>${esc(m.subtitle)}</p>
@@ -221,7 +226,8 @@
     const savedCalls = callList(DATA.modules).filter(u => cachedSet.has(abs(u))).length;
     const nudge = hasCaches && !savedCalls ? `<a class="card nudge" href="#/offline"><div class="tile-ico">${icon('download')}</div>
       <div><strong>Studying in camp?</strong><span class="small">Download the calls so the app works with no signal.</span></div>${icon('chev', 'chev')}</a>` : '';
-    show(`<section class="hero" style="background-image:url('${esc(heroPhoto)}')">
+    const previewNote = DATA.preview ? `<div class="alert" style="margin-bottom:14px"><strong>Preview mode</strong> - includes Draft questions that are still being reviewed.</div>` : '';
+    show(`${previewNote}<section class="hero" style="background-image:url('${esc(heroPhoto)}')">
         <div class="eyebrow">African Guide Academy</div>
         <h1>Learn the birds</h1>
         <p>By sight and by sound - practise for your FGASA assessments.</p>
@@ -242,11 +248,17 @@
     const done = masteredCount(mod, items);
     const groups = [...new Set(mod.items.map(i => i.group).filter(Boolean))].sort();
     const sc = settings.scope[mod.id] || 'all';
+    const groupOpts = gs => gs.map(g => `<option value="${esc(g)}"${sc === g ? ' selected' : ''}>${esc(g)} (${mod.items.filter(i => i.group === g).length})</option>`).join('');
     const scopeRow = mod.id === 'calls' ? `<div class="setting-row"><label for="scope">Practise</label>
         <select class="select" id="scope">
           <option value="all"${sc === 'all' ? ' selected' : ''}>All ${mod.items.length} calls</option>
           <option value="fgasa"${sc === 'fgasa' ? ' selected' : ''}>FGASA 80 birds only</option>
-          <optgroup label="One group">${groups.map(g => `<option value="${esc(g)}"${sc === g ? ' selected' : ''}>${esc(g)} (${mod.items.filter(i => i.group === g).length})</option>`).join('')}</optgroup>
+          <optgroup label="One group">${groupOpts(groups)}</optgroup>
+        </select></div>`
+      : isQ(mod) ? `<div class="setting-row"><label for="scope">Topic</label>
+        <select class="select" id="scope">
+          <option value="all"${sc === 'all' ? ' selected' : ''}>All topics (${mod.items.length})</option>
+          ${groupOpts([...new Set(mod.items.map(i => i.group).filter(Boolean))])}
         </select></div>` : '';
     const lens = [10, 20, 0].map(n => `<button data-len="${n}" aria-pressed="${settings.length === n}">${n || 'All'}</button>`).join('');
     const rows = modesFor(mod).map(k => `<button class="row-btn" data-mode="${k}"><div class="tile-ico">${icon(MODES[k].icon)}</div>
@@ -265,9 +277,11 @@
       <div class="section-title">Learn</div>
       <div class="card list">
         <button class="row-btn" data-go="flash"><div class="tile-ico">${icon('cards')}</div><div class="txt"><strong>Flashcards</strong><span class="d">Flip through and mark what you know</span></div>${icon('chev', 'chev')}</button>
-        <button class="row-btn" data-go="browse"><div class="tile-ico">${icon('grid')}</div><div class="txt"><strong>Browse all</strong><span class="d">Look and listen at your own pace</span></div>${icon('chev', 'chev')}</button>
+        ${isQ(mod)
+          ? `<button class="row-btn" data-go="browse"><div class="tile-ico">${icon('list')}</div><div class="txt"><strong>Study list</strong><span class="d">Read through every question and answer</span></div>${icon('chev', 'chev')}</button>`
+          : `<button class="row-btn" data-go="browse"><div class="tile-ico">${icon('grid')}</div><div class="txt"><strong>Browse all</strong><span class="d">Look and listen at your own pace</span></div>${icon('chev', 'chev')}</button>`}
       </div>
-      <p class="small" style="margin:12px 4px 0">A bird counts as mastered after 3 right answers in a row. Birds you get wrong come up more often.</p>`);
+      <p class="small" style="margin:12px 4px 0">${isQ(mod) ? 'A question' : 'A bird'} counts as mastered after 3 right answers in a row. ${isQ(mod) ? 'Questions' : 'Birds'} you get wrong come up more often.</p>`);
     const s = $('scope');
     if (s) s.addEventListener('change', () => { settings.scope[mod.id] = s.value; save(SETTINGS_KEY, settings); renderModule(mod); });
     view.querySelectorAll('[data-len]').forEach(b => b.addEventListener('click', () => { settings.length = +b.dataset.len; save(SETTINGS_KEY, settings); renderModule(mod); }));
@@ -289,6 +303,7 @@
 
     function ask() {
       const q = questions[state.i];
+      if (modeKey === 'mcq') return askText(q);
       const opts = shuffle([q].concat(distractors(q, optPool, 3)));
       topRight.textContent = `${state.i + 1} / ${questions.length}`;
       setQuizProgress(state.i / questions.length);
@@ -313,6 +328,24 @@
       };
     }
 
+    // Manual question: the right answer + the sheet's wrong answers, shuffled.
+    function askText(q) {
+      const opts = shuffle([{ id: q.id, name: q.a }].concat(q.w.map((w, k) => ({ id: q.id + '~' + k, name: w }))));
+      topRight.textContent = `${state.i + 1} / ${questions.length}`;
+      setQuizProgress(state.i / questions.length);
+      show(`<div class="card prompt qprompt">
+          <div class="qmeta">${esc(q.group || '')}${q.draft ? ' <span class="draft">Draft</span>' : ''}</div>
+          <div class="qtext">${esc(q.q)}</div></div>
+        <div class="options text one">${opts.map((o, k) => `<button class="opt" data-id="${esc(o.id)}"><span class="k">${'ABCD'[k]}</span><span>${esc(o.name)}</span></button>`).join('')}</div>`);
+      document.querySelectorAll('.sheet').forEach(s => s.remove());
+      const buttons = [...view.querySelectorAll('.opt')];
+      buttons.forEach(b => b.addEventListener('click', () => answer(q, b.dataset.id, buttons, opts, false)));
+      keyHandler = e => {
+        const k = { 1: 0, 2: 1, 3: 2, 4: 3, a: 0, b: 1, c: 2, d: 3 }[e.key.toLowerCase()];
+        if (k != null && buttons[k] && !buttons[0].disabled) buttons[k].click();
+      };
+    }
+
     function answer(q, chosenId, buttons, opts, pics) {
       view.dataset.dirty = '1';
       const correct = chosenId === q.id;
@@ -329,8 +362,10 @@
       const last = state.i === questions.length - 1;
       const img = q.photo && modeKey !== 'photo2name' && !pics ? `<img src="${esc(q.photo)}" alt="">` : '';
       const hear = q.call && (modeKey === 'photo2name' || modeKey === 'name2photo') ? playBtnHtml('fbPlay', 'Hear call') : '';
+      const ansLine = modeKey === 'mcq' ? (correct ? esc(q.a) : 'Answer: ' + esc(q.a)) : (correct ? esc(q.name) : 'It is the ' + esc(q.name));
+      const explain = modeKey === 'mcq' && (q.ex || q.page) ? `<div class="explain">${esc(q.ex || '')}${q.page ? ` <span class="pg">Manual p.${esc(q.page)}</span>` : ''}</div>` : '';
       const s = sheet(`<div class="verdict"><div class="mark">${icon(correct ? 'check' : 'x')}</div>
-          <div class="msg"><strong>${correct ? pickPraise() : 'Not quite'}</strong><span class="ans">${correct ? esc(q.name) : 'It is the ' + esc(q.name)}</span></div>${img}</div>
+          <div class="msg"><strong>${correct ? pickPraise() : 'Not quite'}</strong><span class="ans">${ansLine}</span></div>${img}</div>${explain}
         <div class="actions">${hear}<button class="btn" id="next">${last ? 'See results' : 'Next'}</button></div>`, correct ? 'good' : 'bad');
       const fp = s.querySelector('#fbPlay');
       if (fp) fp.addEventListener('click', () => playCall(q.call, fp));
@@ -351,7 +386,9 @@
       const p = pct(state.score, questions.length);
       const msg = p === 100 ? 'Perfect round!' : p >= 80 ? 'Great work!' : p >= 50 ? 'Getting there - keep practising.' : 'Keep at it - try the flashcards first.';
       const C = 2 * Math.PI * 64;
-      const list = state.missed.map((m, k) => `<li>${m.item.photo ? `<img src="${esc(m.item.photo)}" alt="">` : `<div class="ph">${icon('sound')}</div>`}
+      const list = state.missed.map((m, k) => modeKey === 'mcq'
+        ? `<li class="qreview"><div class="nm"><span class="qq">${esc(m.item.q)}</span>${esc(m.item.a)}<span class="yours">You chose: ${esc(m.chose ? m.chose.name : '-')}</span>${m.item.page ? `<span class="pg">Manual p.${esc(m.item.page)}</span>` : ''}</div></li>`
+        : `<li>${m.item.photo ? `<img src="${esc(m.item.photo)}" alt="">` : `<div class="ph">${icon('sound')}</div>`}
         <div class="nm">${esc(m.item.name)}<span class="yours">You chose: ${esc(m.chose ? m.chose.name : '-')}</span></div>
         ${m.item.call ? `<button class="mini-play" data-call="${esc(m.item.call)}" data-label="Play"><span class="pi">${icon('play')}</span><span class="lbl">Play</span></button>` : ''}</li>`).join('');
       show(`<div class="card result">
@@ -398,6 +435,7 @@
       topRight.textContent = `${Math.min(seen + 1, total)} / ${total}`;
       setQuizProgress(seen / total);
       const soundFront = !c.photo;
+      if (c.q) { textCard(c); return; }
       const front = soundFront
         ? `${playBtnHtml('fPlay', '', true)}<div class="hint">Whose call is this? Tap the card to check.</div>`
         : `<img src="${esc(c.photo)}" alt="Bird photo"><div class="hint">Who is this? Tap the card to check.</div>`;
@@ -422,19 +460,44 @@
       function flip() { flipped = !flipped; flash.classList.toggle('flipped', flipped); if (flipped) showGrade(); else showReveal(); }
       flash.addEventListener('click', e => { if (!e.target.closest('button')) flip(); });
       showReveal();
-      const mark = ok => {
-        view.dataset.dirty = '1';
-        stopAudio();
-        if (!c._seen) { record(mod.id, c.id, ok); seen++; if (ok) known++; c._seen = true; }
-        deck.shift();
-        if (!ok) deck.splice(Math.min(deck.length, 3), 0, c); // comes back in a few cards
-        card();
-      };
+      const mark = ok => markCard(c, ok);
       keyHandler = e => {
         if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flip(); }
         else if (flipped && (e.key === '1' || e.key === 'ArrowLeft')) mark(false);
         else if (flipped && (e.key === '2' || e.key === 'ArrowRight')) mark(true);
         else if (e.key.toLowerCase() === 'r' && c.call) playCall(c.call, fp || bp);
+      };
+    }
+    function markCard(c, ok) {
+      view.dataset.dirty = '1';
+      stopAudio();
+      if (!c._seen) { record(mod.id, c.id, ok); seen++; if (ok) known++; c._seen = true; }
+      deck.shift();
+      if (!ok) deck.splice(Math.min(deck.length, 3), 0, c); // comes back in a few cards
+      card();
+    }
+    // Manual question flashcard: question on the front, answer + explanation on the back
+    function textCard(c) {
+      show(`<div class="flash" id="flash"><div class="flash-inner">
+          <div class="card face front qface"><div class="qmeta">${esc(c.group || '')}</div><div class="qtext">${esc(c.q)}</div><div class="hint">Think of your answer, then tap the card.</div></div>
+          <div class="card face back qface"><div class="qmeta">Answer</div><div class="big-name">${esc(c.a)}</div>
+            ${c.ex ? `<div class="explain">${esc(c.ex)}</div>` : ''}${c.page ? `<div class="small" style="margin-top:8px">Manual p.${esc(c.page)}</div>` : ''}</div>
+        </div></div>`);
+      const flash = $('flash');
+      let flipped = false;
+      const showGrade = () => {
+        const s = sheet(`<div class="grade"><button class="btn again" id="gAgain">${icon('x')} Again</button><button class="btn know" id="gKnow">${icon('check')} I knew it</button></div>`);
+        s.querySelector('#gAgain').addEventListener('click', () => markCard(c, false));
+        s.querySelector('#gKnow').addEventListener('click', () => markCard(c, true));
+      };
+      const showReveal = () => { const s = sheet(`<button class="btn block" id="reveal">Show answer</button>`); s.querySelector('#reveal').addEventListener('click', flip); };
+      function flip() { flipped = !flipped; flash.classList.toggle('flipped', flipped); if (flipped) showGrade(); else showReveal(); }
+      flash.addEventListener('click', flip);
+      showReveal();
+      keyHandler = e => {
+        if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flip(); }
+        else if (flipped && (e.key === '1' || e.key === 'ArrowLeft')) markCard(c, false);
+        else if (flipped && (e.key === '2' || e.key === 'ArrowRight')) markCard(c, true);
       };
     }
     card();
@@ -443,6 +506,7 @@
   // ---------- browse ----------
   function renderBrowse(mod) {
     chrome({ tab: 'home', back: '#/m/' + mod.id, title: mod.title });
+    if (isQ(mod)) return renderStudyList(mod);
     const items = scopedItems(mod).slice().sort((a, b) => a.name.localeCompare(b.name));
     show(`<div class="search-wrap" style="position:sticky">${icon('search')}<input class="search" id="q" type="search" placeholder="Search ${items.length} birds" autocomplete="off" aria-label="Search birds"></div>
       <div class="grid" id="grid"></div>`);
@@ -464,6 +528,27 @@
     draw('');
   }
 
+  // Study list for manual questions: grouped by topic, tap a question to show the answer.
+  function renderStudyList(mod) {
+    const items = scopedItems(mod);
+    const groups = [...new Set(items.map(i => i.group || 'General'))];
+    show(`<div class="search-wrap" style="position:sticky">${icon('search')}<input class="search" id="q" type="search" placeholder="Search ${items.length} questions" autocomplete="off" aria-label="Search questions"></div>
+      <div id="qlist"></div>`);
+    const list = $('qlist');
+    function draw(filter) {
+      const f = (filter || '').toLowerCase();
+      list.innerHTML = groups.map(g => {
+        const qs = items.filter(i => (i.group || 'General') === g && (!f || (i.q + ' ' + i.a + ' ' + (i.ex || '')).toLowerCase().includes(f)));
+        if (!qs.length) return '';
+        return `<div class="section-title">${esc(g)}</div><div class="card list">${qs.map(i => `<details class="qa">
+            <summary><span>${esc(i.q)}</span>${i.draft ? '<span class="draft">Draft</span>' : ''}</summary>
+            <div class="qa-body"><strong>${esc(i.a)}</strong>${i.ex ? `<p>${esc(i.ex)}</p>` : ''}${i.page ? `<span class="pg">Manual p.${esc(i.page)}</span>` : ''}</div></details>`).join('')}</div>`;
+      }).join('') || '<p class="empty">No questions match your search.</p>';
+    }
+    $('q').addEventListener('input', e => draw(e.target.value));
+    draw('');
+  }
+
   // ---------- progress ----------
   function renderProgress() {
     chrome({ tab: 'progress' });
@@ -473,14 +558,14 @@
       const recs = m.items.map(i => ({ i, r: rec(m.id, i.id) }));
       const d = recs.filter(x => x.r.box >= MASTERED).length;
       const weak = recs.filter(x => x.r.wrong > 0 && x.r.box < MASTERED).sort((a, b) => (b.r.wrong - b.r.right) - (a.r.wrong - a.r.right)).slice(0, 10).map(x => x.i);
-      const mode = weak.every(i => i.photo) ? 'photo2name' : 'call2name';
+      const mode = isQ(m) ? 'mcq' : weak.every(i => i.photo) ? 'photo2name' : 'call2name';
       return { m, d, weak, mode };
     });
     const cards = modRows.map(({ m, d, weak, mode }) => `<div class="pad">
         <h3>${esc(m.title)}</h3>
         <div class="bar"><span style="width:${pct(d, m.items.length)}%"></span></div>
         <div class="bar-label"><span>${d} of ${m.items.length} mastered</span><span>${pct(d, m.items.length)}%</span></div>
-        ${weak.length ? `<p style="margin:12px 0 8px">Birds to work on: ${weak.slice(0, 5).map(i => esc(i.name)).join(', ')}${weak.length > 5 ? '...' : ''}</p>
+        ${weak.length ? `<p style="margin:12px 0 8px">${isQ(m) ? `${plural(weak.length, 'question')} to work on, e.g. "${esc(weak[0].q)}"` : `Birds to work on: ${weak.slice(0, 5).map(i => esc(i.name)).join(', ')}${weak.length > 5 ? '...' : ''}`}</p>
           <button class="btn ghost" data-weak="${m.id}" data-mode="${mode}">Practise these ${weak.length}</button>` : ''}
       </div>`).join('');
     show(`<h1>Your progress</h1><p class="sub">Saved on this device.</p>
