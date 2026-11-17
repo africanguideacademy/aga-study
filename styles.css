@@ -46,8 +46,8 @@ img { max-width: 100%; }
 
 /* ---------- app bar ---------- */
 .appbar { position: sticky; top: 0; z-index: 20; background: var(--brand-dk); color: #fff; padding-top: env(safe-area-inset-top, 0px); }
-.appbar-inner { height: var(--bar-h); max-width: 720px; margin: 0 auto; display: flex; align-items: center; gap: 6px; padding: 0 10px 0 12px; }
-.logo { display: flex; align-items: center; height: 100%; }
+.appbar-inner { position: relative; height: var(--bar-h); max-width: 720px; margin: 0 auto; display: flex; align-items: center; gap: 6px; padding: 0 10px 0 12px; }
+.logo { position: absolute; left: 50%; top: 0; transform: translateX(-50%); display: flex; align-items: center; height: 100%; }
 .logo img { height: 44px; width: auto; display: block; }
 .appbar-title { font-weight: 600; font-size: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; min-width: 0; }
 .appbar-right { margin-left: auto; font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums; padding-right: 4px; white-space: nowrap; }
@@ -60,7 +60,7 @@ img { max-width: 100%; }
 .quiz-progress span { display: block; height: 100%; background: var(--accent); width: 0; transition: width .35s ease; }
 .quiz-progress[hidden] { display: none; }
 body.focus .logo { display: none; }
-@media (max-width: 560px) { body.titled .logo { display: none; } }
+body.titled .logo { display: none; }
 main:focus, main:focus-visible { outline: none; }
 
 /* ---------- layout ---------- */
