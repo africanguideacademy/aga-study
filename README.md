@@ -1,4 +1,4 @@
-# AGA Study App (pilot)
+﻿# AGA Study App (pilot)
 
 A study and quiz web app for African Guide Academy students. It's built from AGA's own photos and call recordings.
 
@@ -46,7 +46,7 @@ powershell -ExecutionPolicy Bypass -File tools/copy-media.ps1
 - Browse
 
 ## Offline / install on phone
-- The "Use offline & install" page explains how to install the app on a phone. On Android, Chrome shows an Install button; on iPhone, the page gives Safari's Share → Add to Home Screen steps.
+- The "Use offline & install" page explains how to install the app on a phone. On Android, Chrome shows an Install button; on iPhone, the page gives Safari's Share â†’ Add to Home Screen steps.
 - The service worker (`app/sw.js`) saves the app files and all photos (about 6 MB) the first time the app opens.
 - Calls are only saved when the student taps Download: FGASA 80 calls (21 MB) or the full library (185 MB).
 - With no signal, quizzes only use calls that have been downloaded.
@@ -115,13 +115,13 @@ Tap a photo in **Browse** to open the species page. It shows the photo, the call
   - The **Send a photo** button on a species page, or **Share a photo** in the footer, uploads a photo. The phone shrinks it to 1600 px first.
   - The upload goes to the Apps Script. It saves the file in the Drive folder "AGA Pocket Guide - Photo Submissions" and adds a row to the **Photos** tab of the Student Progress sheet with Status = Pending.
   - A trainer sets Status to **Approved** or **Rejected**.
-  - `node tools/sync-photos.js` pulls the approved photos into `app/media/user/` and records them in `data/photo-overrides.json`. They then replace that species' photo in every list, credited "Name Surname (AGA student)". Rebuild and publish afterwards.
+  - `node tools/sync-photos.js` pulls the approved photos into `app/media/user/` and records them in `data/photo-overrides.json`. They then replace that species' photo in every list, credited "Name Surname (AGA)". Rebuild and publish afterwards.
   - Any photo can be replaced by hand the same way: add an entry to `data/photo-overrides.json`.
   - Drive access needs a one-time authorisation: run `setupPhotos` in the Apps Script editor.
 
 ## Navigation
 - On a phone, the tab bar at the bottom has three tabs: Home, Progress and Offline.
-- Quizzes and flashcards use a full-screen mode with ✕ to quit. The Next and grading buttons sit at the bottom of the screen, within reach of your thumb.
+- Quizzes and flashcards use a full-screen mode with âœ• to quit. The Next and grading buttons sit at the bottom of the screen, within reach of your thumb.
 
 Birds a student keeps getting wrong come up more often. A bird counts as "mastered" after 3 right answers in a row.
 Progress is saved in the student's own browser.

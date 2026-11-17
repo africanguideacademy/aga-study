@@ -1,4 +1,4 @@
-// Pulls the student photos a trainer has APPROVED (Status = Approved on the "Photos" tab of the
+﻿// Pulls the student photos a trainer has APPROVED (Status = Approved on the "Photos" tab of the
 // "AGA Study App - Student Progress" sheet) into the app, replacing that species' photo.
 //   - saves each photo to app/media/user/<species>-<id>.jpg (900 px wide)
 //   - records it in data/photo-overrides.json, which tools/build-data.js applies to every list that has the species
@@ -10,7 +10,7 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 const ROOT = path.join(__dirname, '..');
 const URL_ = 'https://script.google.com/macros/s/AKfycbyJ3sijfiw4uparWC1Di-WnlNS7rl7-HzI6ACw2VhGJPtrzCqvwa4MiM8Wuf1iqcrWgZw/exec';
-const slug = s => s.toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const slug = s => s.toLowerCase().replace(/['â€™]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const norm = s => String(s || '').toLowerCase().replace(/[^a-z]/g, '');
 const FFMPEG = (() => {
   const base = path.join(process.env.LOCALAPPDATA || '', 'Microsoft', 'WinGet', 'Packages');
@@ -24,7 +24,7 @@ const FFMPEG = (() => {
   const names = new Map();
   window.AGA_DATA.modules.filter(m => m.kind !== 'questions').forEach(m => m.items.forEach(i => names.set(norm(i.name), i.name)));
   const of = path.join(ROOT, 'data', 'photo-overrides.json');
-  const ov = fs.existsSync(of) ? JSON.parse(fs.readFileSync(of, 'utf8').replace(/^﻿/, '')) : {};
+  const ov = fs.existsSync(of) ? JSON.parse(fs.readFileSync(of, 'utf8').replace(/^ï»¿/, '')) : {};
   const done = new Set(Object.values(ov).map(o => o.fileId).filter(Boolean));
   const list = await (await fetch(URL_ + '?action=photos')).json();
   if (!list.ok) throw new Error('Could not read the approved photo list: ' + JSON.stringify(list));
@@ -41,7 +41,7 @@ const FFMPEG = (() => {
     fs.writeFileSync(tmp, Buffer.from(j.b64, 'base64'));
     execFileSync(FFMPEG, ['-y', '-loglevel', 'error', '-i', tmp, '-vf', "scale='min(900,iw)':-2", '-q:v', '5', path.join(ROOT, 'app', file)]);
     fs.unlinkSync(tmp);
-    ov[name] = { photo: file, credit: `${p.credit} (AGA student)`, license: 'AGA', fileId: p.fileId };
+    ov[name] = { photo: file, credit: `${p.credit} (AGA)`, license: 'AGA', fileId: p.fileId };
     added++;
     console.log(`  ${name}: photo by ${p.credit}`);
   }

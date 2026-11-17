@@ -1,21 +1,21 @@
-{
+﻿{
  "Eurasian Golden Oriole": {
   "photo": "media/bird-replacements/eurasian-golden-oriole-230484973.jpg",
-  "credit": "© Christiaan Viljoen",
+  "credit": "Â© Christiaan Viljoen",
   "license": "CC BY",
   "src": "https://www.inaturalist.org/observations/135159639",
   "note": "replaced: original photo showed a different species / was unclear (checked 2026-11-17)"
  },
  "Coppery-tailed Coucal": {
   "photo": "media/bird-replacements/coppery-tailed-coucal-15276346.jpg",
-  "credit": "© Wynand Uys",
+  "credit": "Â© Wynand Uys",
   "license": "CC BY",
   "src": "https://www.inaturalist.org/observations/10879030",
   "note": "replaced: original photo showed a different species / was unclear (checked 2026-11-17)"
  },
  "Swamp Boubou": {
   "photo": "media/bird-replacements/swamp-boubou-116431572.jpg",
-  "credit": "© Jan Ebr &amp; Ivana Ebrová",
+  "credit": "Â© Jan Ebr &amp; Ivana EbrovÃ¡",
   "license": "CC BY",
   "src": "https://www.inaturalist.org/observations/71506330",
   "note": "replaced: original photo showed a different species / was unclear (checked 2026-11-17)"
@@ -28,19 +28,19 @@
  },
  "African Wild Dog": {
   "photo": "media/user/african-wild-dog-1Bh6C5tE.jpg",
-  "credit": "Bernard Loots (AGA student)",
+  "credit": "Bernard Loots (AGA)",
   "license": "AGA",
   "fileId": "1Bh6C5tE6SaR6I4brypIho9ux_b9Ely6K"
  },
  "African Civet": {
   "photo": "media/user/african-civet-1j6M9ZHL.jpg",
-  "credit": "Bernard Loots (AGA student)",
+  "credit": "Bernard Loots (AGA)",
   "license": "AGA",
   "fileId": "1j6M9ZHLAiaaUlxwI3Bu2MiztY4frz_vD"
  },
  "Leopard": {
   "photo": "media/user/leopard-1PZn8RZ8.jpg",
-  "credit": "Bernard Loots (AGA student)",
+  "credit": "Bernard Loots (AGA)",
   "license": "AGA",
   "fileId": "1PZn8RZ8UjFC9scWBtz9JG7yKmQzRz38z"
  }

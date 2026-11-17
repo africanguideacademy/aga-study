@@ -32,7 +32,7 @@ window.AGA_DATA = {
      "photo": "media/bird-replacements/swamp-boubou-116431572.jpg",
      "call": "media/calls/boubou-swamp.mp3",
      "bytes": 194040,
-     "credit": "© Jan Ebr &amp; Ivana Ebrová",
+     "credit": "Â© Jan Ebr &amp; Ivana EbrovÃ¡",
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/71506330",
      "wide": 1
@@ -1416,7 +1416,7 @@ window.AGA_DATA = {
      "photo": "media/bird-replacements/eurasian-golden-oriole-230484973.jpg",
      "call": "media/kwapa63/eurasian-golden-oriole.mp3",
      "bytes": 58464,
-     "credit": "© Christiaan Viljoen",
+     "credit": "Â© Christiaan Viljoen",
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/135159639"
     },
@@ -1615,7 +1615,7 @@ window.AGA_DATA = {
      "photo": "media/bird-replacements/coppery-tailed-coucal-15276346.jpg",
      "call": "media/kwapa63/coppery-tailed-coucal.mp3",
      "bytes": 43344,
-     "credit": "© Wynand Uys",
+     "credit": "Â© Wynand Uys",
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/10879030"
     }
@@ -10647,7 +10647,7 @@ window.AGA_DATA = {
      "group": "Cats",
      "photo": "media/user/leopard-1PZn8RZ8.jpg",
      "pb": 75323,
-     "credit": "Bernard Loots (AGA student)",
+     "credit": "Bernard Loots (AGA)",
      "license": "AGA",
      "src": "",
      "f": 1,
@@ -10715,7 +10715,7 @@ window.AGA_DATA = {
      "group": "Dogs and jackals",
      "photo": "media/user/african-wild-dog-1Bh6C5tE.jpg",
      "pb": 73355,
-     "credit": "Bernard Loots (AGA student)",
+     "credit": "Bernard Loots (AGA)",
      "license": "AGA",
      "src": "",
      "f": 1,
@@ -11097,7 +11097,7 @@ window.AGA_DATA = {
      "group": "Genets and civets",
      "photo": "media/user/african-civet-1j6M9ZHL.jpg",
      "pb": 30194,
-     "credit": "Bernard Loots (AGA student)",
+     "credit": "Bernard Loots (AGA)",
      "license": "AGA",
      "src": ""
     },
