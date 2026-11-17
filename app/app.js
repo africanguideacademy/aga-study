@@ -134,9 +134,9 @@
     mcq: { icon: 'book', title: 'Manual quiz', desc: 'Multiple choice, with explanations', needs: i => !!i.q },
   };
   function scopedItems(mod) {
-    const sc = settings.scope[mod.id] || (mod.id === 'calls' ? 'fgasa' : 'all'); // calls default to the FGASA 80
+    const sc = settings.scope[mod.id] || mod.defaultScope || 'all'; // bird calls default to the FGASA 80 ("featured")
     if (sc === 'all') return mod.items;
-    if (sc === 'fgasa') return mod.items.filter(i => i.photo);
+    if (sc === 'featured' || sc === 'fgasa') { const f = mod.items.filter(i => i.f); return f.length ? f : mod.items; }
     const g = mod.items.filter(i => i.group === sc);
     return g.length ? g : mod.items;
   }
@@ -209,26 +209,35 @@
   }
   const footer = () => `<div class="foot"><img src="brand/logo-colour.png" alt="African Guide Academy">Study app &middot; for AGA students</div>`;
 
-  // ---------- subjects (one per manual chapter; each groups several data modules) ----------
+  // ---------- subjects (one per manual chapter; each groups a photo, a call and a manual-question module) ----------
   const SUBJECTS = [
-    { id: 'birds', title: 'Birds', blurb: 'Photos, calls and manual questions', photo: 'media/birds/racket-tailed-roller.jpg', modules: ['fgasa80', 'calls', 'q-birds'] },
+    { id: 'birds', title: 'Birds', noun: 'bird', blurb: 'Photos, calls and manual questions', photo: 'media/birds/racket-tailed-roller.jpg',
+      photos: 'fgasa80', calls: 'calls', manual: 'q-birds' },
+    { id: 'frogs', title: 'Frogs', noun: 'frog', blurb: 'Frog calls and manual questions', photo: 'media/frogs/f-angolan-reed-frog.jpg',
+      calls: 'frog-calls', manual: 'q-amphibians' },
   ];
-  const COMING_SOON = ['Mammals', 'Plants', 'Reptiles', 'Amphibians', 'Arthropods', 'Ecology', 'Geology', 'Astronomy', 'Guiding principles'];
-  const subjectOf = mod => SUBJECTS.find(s => s.modules.includes(mod.id)) || SUBJECTS[0];
+  const COMING_SOON = ['Mammals', 'Plants', 'Reptiles', 'Arthropods', 'Ecology', 'Geology', 'Astronomy', 'Guiding principles'];
+  const subjectModIds = s => [s.photos, s.calls, s.manual].filter(Boolean);
+  const subjectOf = mod => SUBJECTS.find(s => subjectModIds(s).includes(mod.id)) || SUBJECTS[0];
   const homeOf = mod => '#/s/' + subjectOf(mod).id;
-  const subjectMods = s => s.modules.map(modById).filter(Boolean);
+  const subjectMods = s => subjectModIds(s).map(modById).filter(Boolean);
   function subjectProgress(s) {
     let d = 0, n = 0;
     subjectMods(s).forEach(m => { d += masteredCount(m, m.items); n += m.items.length; });
     return { d, n };
   }
+  // Quiz wording per subject ("Name the bird" / "Name the frog")
+  const modeTitle = (k, mod) => {
+    const noun = subjectOf(mod).noun || 'bird';
+    return ({ photo2name: `Name the ${noun}`, name2photo: `Find the ${noun}` })[k] || MODES[k].title;
+  };
 
   // ---------- home ----------
   function renderHome() {
     chrome({ tab: 'home' });
     const fg = modById('fgasa80');
     const heroPhoto = shuffle(fg.items.filter(i => i.photo))[0].photo;
-    const tiles = SUBJECTS.map(s => {
+    const tiles = SUBJECTS.filter(s => subjectMods(s).length).map(s => {
       const { d, n } = subjectProgress(s);
       return `<a class="card subject" href="#/s/${s.id}">
         <div class="subject-img" style="background-image:url('${esc(s.photo)}')"></div>
@@ -252,21 +261,20 @@
       ${nudge}${footer()}`);
   }
 
-  // ---------- subject page (e.g. Birds): every quiz and study tool in one place ----------
+  // ---------- subject page: every quiz and study tool for one subject ----------
   function renderSubject(s) {
     chrome({ tab: 'home', back: '#/' });
-    const fg = modById('fgasa80'), calls = modById('calls'), qm = modById('q-birds');
+    const pm = modById(s.photos), cm = modById(s.calls), qm = modById(s.manual);
     const { d, n } = subjectProgress(s);
     const lens = [10, 20, 0].map(x => `<button data-len="${x}" aria-pressed="${settings.length === x}">${x || 'All'}</button>`).join('');
-    // calls setting
-    const csc = settings.scope.calls || 'fgasa';
-    const cgroups = calls ? [...new Set(calls.items.map(i => i.group).filter(Boolean))].sort() : [];
-    const callSel = calls ? `<div class="setting-row"><label for="callScope">Calls</label><select class="select" id="callScope">
-        <option value="fgasa"${csc === 'fgasa' ? ' selected' : ''}>FGASA 80 birds only</option>
-        <option value="all"${csc === 'all' ? ' selected' : ''}>All ${calls.items.length} calls</option>
-        <optgroup label="One group">${cgroups.map(g => `<option value="${esc(g)}"${csc === g ? ' selected' : ''}>${esc(g)} (${calls.items.filter(i => i.group === g).length})</option>`).join('')}</optgroup>
+    // calls setting: featured set / all / one group
+    const csc = cm ? (settings.scope[cm.id] || cm.defaultScope || 'all') : 'all';
+    const cgroups = cm ? [...new Set(cm.items.map(i => i.group).filter(Boolean))].sort() : [];
+    const callSel = cm ? `<div class="setting-row"><label for="callScope">Calls</label><select class="select" id="callScope">
+        ${cm.featured ? `<option value="featured"${csc === 'featured' || csc === 'fgasa' ? ' selected' : ''}>${esc(cm.featured)} (${cm.items.filter(i => i.f).length})</option>` : ''}
+        <option value="all"${csc === 'all' ? ' selected' : ''}>All ${cm.items.length} calls</option>
+        <optgroup label="One group">${cgroups.map(g => `<option value="${esc(g)}"${csc === g ? ' selected' : ''}>${esc(g)} (${cm.items.filter(i => i.group === g).length})</option>`).join('')}</optgroup>
       </select></div>` : '';
-    // manual topic setting
     const qsc = qm ? (settings.scope[qm.id] || 'all') : 'all';
     const topicSel = qm ? `<div class="setting-row"><label for="qScope">Manual topic</label><select class="select" id="qScope">
         <option value="all"${qsc === 'all' ? ' selected' : ''}>All topics (${qm.items.length})</option>
@@ -275,10 +283,12 @@
 
     const tile = (href, ic, title, sub, ok = true) => ok
       ? `<a class="card act" href="${href}"><div class="tile-ico">${icon(ic)}</div><strong>${title}</strong><span>${sub}</span></a>`
-      : `<div class="card act off"><div class="tile-ico">${icon(ic)}</div><strong>${title}</strong><span>Download calls to use offline</span></div>`;
+      : `<div class="card act off"><div class="tile-ico">${icon(ic)}</div><strong>${title}</strong><span>${navigator.onLine ? 'Not enough in this selection' : 'Download calls to use offline'}</span></div>`;
     const has = (m, k) => m && modesFor(m).includes(k);
     const mp = m => m ? `${masteredCount(m, m.items)}/${m.items.length}` : '';
-    const section = (title, sub, tiles) => `<div class="section-title">${title}${sub ? `<span class="sec-sub">${sub}</span>` : ''}</div><div class="act-grid">${tiles}</div>`;
+    const section = (title, sub, tiles) => tiles ? `<div class="section-title">${title}${sub ? `<span class="sec-sub">${sub}</span>` : ''}</div><div class="act-grid">${tiles}</div>` : '';
+    const matchMod = pm || cm; // call-to-photo uses the photo module if there is one, else calls that have photos
+    const noun = s.noun || 'bird';
 
     show(`<section class="mod-head" style="background-image:url('${esc(s.photo)}')">
         <h1>${esc(s.title)}</h1><p>${esc(s.blurb)}</p>
@@ -287,26 +297,27 @@
       </section>
       <div class="section-title">Settings</div>
       <div class="card"><div class="setting-row"><label>Questions per round</label><div class="seg">${lens}</div></div>${callSel}${topicSel}</div>
-      ${fg ? section('By sight', `${mp(fg)} mastered`,
-        tile(`#/m/fgasa80/quiz/photo2name`, 'camera', 'Name the bird', 'See a photo, pick the name') +
-        tile(`#/m/fgasa80/quiz/name2photo`, 'search', 'Find the bird', 'Read a name, tap the photo')) : ''}
-      ${calls ? section('By sound', `${mp(calls)} mastered`,
-        tile(`#/m/calls/quiz/call2name`, 'sound', 'Whose call is this?', 'Listen, pick the bird', has(calls, 'call2name')) +
-        tile(`#/m/fgasa80/quiz/call2photo`, 'match', 'Match call to photo', 'Listen, tap the photo', has(fg, 'call2photo'))) : ''}
+      ${pm ? section('By sight', `${mp(pm)} mastered`,
+        tile(`#/m/${pm.id}/quiz/photo2name`, 'camera', `Name the ${noun}`, 'See a photo, pick the name') +
+        tile(`#/m/${pm.id}/quiz/name2photo`, 'search', `Find the ${noun}`, 'Read a name, tap the photo')) : ''}
+      ${cm ? section('By sound', `${mp(cm)} mastered`,
+        tile(`#/m/${cm.id}/quiz/call2name`, 'sound', 'Whose call is this?', `Listen, pick the ${noun}`, has(cm, 'call2name')) +
+        (matchMod && matchMod.items.filter(i => i.call && i.photo).length >= 4
+          ? tile(`#/m/${matchMod.id}/quiz/call2photo`, 'match', 'Match call to photo', 'Listen, tap the photo', has(matchMod, 'call2photo')) : '')) : ''}
       ${qm ? section('Manual knowledge', `${mp(qm)} mastered`,
         tile(`#/m/${qm.id}/quiz/mcq`, 'book', 'Manual quiz', 'Multiple choice with explanations') +
         tile(`#/m/${qm.id}/browse`, 'list', 'Study list', 'Every question and answer')) : ''}
       ${section('Flashcards', '',
-        (fg ? tile(`#/m/fgasa80/flash`, 'camera', 'Photo cards', 'Who is this?') : '') +
-        (calls ? tile(`#/m/calls/flash`, 'sound', 'Call cards', 'Whose call?') : '') +
+        (pm ? tile(`#/m/${pm.id}/flash`, 'camera', 'Photo cards', 'Who is this?') : '') +
+        (cm ? tile(`#/m/${cm.id}/flash`, 'sound', 'Call cards', 'Whose call?') : '') +
         (qm ? tile(`#/m/${qm.id}/flash`, 'cards', 'Question cards', 'From the manual') : '') +
-        (fg ? tile(`#/m/fgasa80/browse`, 'grid', 'Browse birds', 'Photos and calls') : ''))}
+        ((pm || cm) ? tile(`#/m/${(pm || cm).id}/browse`, 'grid', `Browse ${s.title.toLowerCase()}`, pm ? 'Photos and calls' : 'Listen to every call') : ''))}
       <p class="small" style="margin:14px 4px 0">An item counts as mastered after 3 right answers in a row. Anything you get wrong comes up more often.</p>`);
     view.querySelectorAll('[data-len]').forEach(b => b.addEventListener('click', () => {
       settings.length = +b.dataset.len; save(SETTINGS_KEY, settings);
       view.querySelectorAll('[data-len]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
     }));
-    const cs = $('callScope'); if (cs) cs.addEventListener('change', () => { settings.scope.calls = cs.value; save(SETTINGS_KEY, settings); renderSubject(s); });
+    const cs = $('callScope'); if (cs) cs.addEventListener('change', () => { settings.scope[cm.id] = cs.value; save(SETTINGS_KEY, settings); renderSubject(s); });
     const qs = $('qScope'); if (qs) qs.addEventListener('change', () => { settings.scope[qm.id] = qs.value; save(SETTINGS_KEY, settings); renderSubject(s); });
   }
 
@@ -315,7 +326,7 @@
   let reviewItems = null;
   function startQuiz(mod, modeKey, onlyItems) {
     const mode = MODES[modeKey];
-    chrome({ focus: true, back: homeOf(mod), title: mode.title, progress: true });
+    chrome({ focus: true, back: homeOf(mod), title: modeTitle(modeKey, mod), progress: true });
     const pool = scopedItems(mod).filter(mode.needs);
     const n = settings.length || pool.length;
     const questions = onlyItems ? shuffle(onlyItems.filter(mode.needs)) : pickItems(mod, pool, n);
@@ -437,7 +448,8 @@
 
   // ---------- flashcards ----------
   function startFlash(mod) {
-    const cardTitle = isQ(mod) ? 'Question cards' : mod.id === 'calls' ? 'Call cards' : 'Photo cards';
+    const isCallMod = mod.id === subjectOf(mod).calls;
+    const cardTitle = isQ(mod) ? 'Question cards' : isCallMod ? 'Call cards' : 'Photo cards';
     chrome({ focus: true, back: homeOf(mod), title: cardTitle, progress: true });
     const pool = scopedItems(mod);
     let deck = pickItems(mod, pool, settings.length || pool.length).map(i => Object.assign({}, i));
@@ -457,7 +469,7 @@
       const c = deck[0];
       topRight.textContent = `${Math.min(seen + 1, total)} / ${total}`;
       setQuizProgress(seen / total);
-      const soundFront = mod.id === 'calls' || !c.photo; // call cards: listen first, photo on the back
+      const soundFront = isCallMod || !c.photo; // call cards: listen first, photo on the back
       if (c.q) { textCard(c); return; }
       const front = soundFront
         ? `${playBtnHtml('fPlay', '', true)}<div class="hint">Whose call is this? Tap the card to check.</div>`
@@ -528,10 +540,11 @@
 
   // ---------- browse ----------
   function renderBrowse(mod) {
-    chrome({ tab: 'home', back: homeOf(mod), title: isQ(mod) ? 'Study list' : 'Browse birds' });
+    const subj = subjectOf(mod);
+    chrome({ tab: 'home', back: homeOf(mod), title: isQ(mod) ? 'Study list' : 'Browse ' + subj.title.toLowerCase() });
     if (isQ(mod)) return renderStudyList(mod);
     const items = scopedItems(mod).slice().sort((a, b) => a.name.localeCompare(b.name));
-    show(`<div class="search-wrap" style="position:sticky">${icon('search')}<input class="search" id="q" type="search" placeholder="Search ${items.length} birds" autocomplete="off" aria-label="Search birds"></div>
+    show(`<div class="search-wrap" style="position:sticky">${icon('search')}<input class="search" id="q" type="search" placeholder="Search ${items.length} ${esc(subj.title.toLowerCase())}" autocomplete="off" aria-label="Search"></div>
       <div class="grid" id="grid"></div>`);
     const grid = $('grid');
     function draw(filter) {
@@ -544,7 +557,7 @@
           <div class="nm">${esc(i.name)}</div>
           <div class="row"><span class="dots" title="Progress">${dots}</span>
           ${i.call ? `<button class="mini-play" data-call="${esc(i.call)}" data-label="Play" aria-label="Play call of ${esc(i.name)}"><span class="pi">${icon('play')}</span><span class="lbl">Play</span></button>` : ''}</div></div>`;
-      }).join('') || '<p class="empty">No birds match your search.</p>';
+      }).join('') || '<p class="empty">Nothing matches your search.</p>';
       grid.querySelectorAll('[data-call]').forEach(b => b.addEventListener('click', () => playCall(b.dataset.call, b)));
     }
     $('q').addEventListener('input', e => draw(e.target.value));
@@ -653,8 +666,9 @@
     chrome({ tab: 'offline' });
     if (!hasCaches) { show(`<h1>Use offline</h1><p class="sub">This browser can't save content for offline use. Try Chrome on Android or Safari on iPhone.</p>`); return; }
     const packs = [
-      { key: 'fgasa', title: 'FGASA 80 birds - calls', urls: callList([modById('fgasa80')]) },
-      { key: 'all', title: 'Full call library', urls: callList(DATA.modules) },
+      { key: 'fgasa', title: 'Birds - FGASA 80 calls', urls: callList([modById('fgasa80')]) },
+      { key: 'frogs', title: 'Frogs - all calls', urls: callList([modById('frog-calls')].filter(Boolean)) },
+      { key: 'all', title: 'Birds - full call library', urls: callList([modById('calls')].filter(Boolean)) },
     ];
     const photos = [...new Set(DATA.modules.flatMap(m => m.items.map(i => i.photo)).filter(Boolean))];
     const photosSaved = photos.filter(u => cachedSet.has(abs(u))).length;

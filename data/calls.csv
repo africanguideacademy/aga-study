@@ -1,448 +1,898 @@
-ID,Common name,Group (file),In FGASA 80?,Call file (original),Call (app),Photo (app),Active
-akalat-east-coast,East Coast Akalat,Akalat,No,Akalat East Coast.mp3,media/calls/akalat-east-coast.mp3,,Yes
-alethe-white-breasted,White-breasted Alethe,Alethe,No,Alethe White-breasted.mp3,media/calls/alethe-white-breasted.mp3,,Yes
-apalis-bar-throated,Bar-throated Apalis,Apalis,No,Apalis Bar-throated.mp3,media/calls/apalis-bar-throated.mp3,,Yes
-apalis-black-headed,Black-headed Apalis,Apalis,No,Apalis Black-headed.mp3,media/calls/apalis-black-headed.mp3,,Yes
-apalis-chirinda,Chirinda Apalis,Apalis,No,Apalis Chirinda.mp3,media/calls/apalis-chirinda.mp3,,Yes
-apalis-rudds,Rudd's Apalis,Apalis,No,Apalis Rudd's.mp3,media/calls/apalis-rudds.mp3,,Yes
-apalis-yellow-breasted,Yellow-breasted Apalis,Apalis,Yes,Apalis Yellow-breasted.mp3,media/calls/apalis-yellow-breasted.mp3,media/birds/yellow-breasted-apalis.jpg,Yes
-babbler-arrow-marked,Arrow-marked Babbler,Babbler,Yes,Babbler Arrow-marked.mp3,media/calls/babbler-arrow-marked.mp3,media/birds/arrow-marked-babbler.jpg,Yes
-babbler-bare-cheeked,Bare-cheeked Babbler,Babbler,No,Babbler Bare-cheeked.mp3,media/calls/babbler-bare-cheeked.mp3,,Yes
-babbler-black-faced,Black-faced Babbler,Babbler,No,Babbler Black-faced.mp3,media/calls/babbler-black-faced.mp3,,Yes
-babbler-hartlaubs,Hartlaub's Babbler,Babbler,No,Babbler Hartlaub's.mp3,media/calls/babbler-hartlaubs.mp3,,Yes
-babbler-southern-pied,Southern Pied Babbler,Babbler,No,Babbler Southern Pied.mp3,media/calls/babbler-southern-pied.mp3,,Yes
-barbet-acacia-pied,Acacia Pied Barbet,Barbet,No,Barbet Acacia Pied.mp3,media/calls/barbet-acacia-pied.mp3,,Yes
-barbet-black-collared,Black-collared Barbet,Barbet,No,Barbet Black-collared.mp3,media/calls/barbet-black-collared.mp3,,Yes
-barbet-crested,Crested Barbet,Barbet,No,Barbet Crested.mp3,media/calls/barbet-crested.mp3,,Yes
-barbet-white-eared,White-eared Barbet,Barbet,No,Barbet White-eared.mp3,media/calls/barbet-white-eared.mp3,,Yes
-barbet-whytes,Whyte's Barbet,Barbet,No,Barbet Whyte's.mp3,media/calls/barbet-whytes.mp3,,Yes
-barbet-woodwards,Woodward's Barbet,Barbet,No,Barbet Woodward's.mp3,media/calls/barbet-woodwards.mp3,,Yes
-barbet-yellow-fronted-tinker,Yellow-fronted Tinkerbird,Barbet,No,Barbet Yellow-fronted Tinker.mp3,media/calls/barbet-yellow-fronted-tinker.mp3,,Yes
-barbet-yellow-rumped-tinker,Yellow-rumped Tinkerbird,Barbet,No,Barbet Yellow-rumped Tinker.mp3,media/calls/barbet-yellow-rumped-tinker.mp3,,Yes
-batis-cape,Cape Batis,Batis,No,Batis Cape.mp3,media/calls/batis-cape.mp3,,Yes
-batis-chinspot,Chinspot Batis,Batis,No,Batis Chinspot.mp3,media/calls/batis-chinspot.mp3,,Yes
-batis-pale,Pale Batis,Batis,No,Batis Pale.mp3,media/calls/batis-pale.mp3,,Yes
-batis-pririt,Pririt Batis,Batis,No,Batis Pririt.mp3,media/calls/batis-pririt.mp3,,Yes
-batis-woodwards,Woodward's Batis,Batis,No,Batis Woodward's.mp3,media/calls/batis-woodwards.mp3,,Yes
-bittern-dwarf,Dwarf Bittern,Bittern,No,Bittern Dwarf.mp3,media/calls/bittern-dwarf.mp3,,Yes
-bittern-little,Little Bittern,Bittern,No,Bittern Little.mp3,media/calls/bittern-little.mp3,,Yes
-bittern,Eurasian Bittern,Bittern,No,Bittern.mp3,media/calls/bittern.mp3,,Yes
-blackcap-bush,Bush Blackcap,Blackcap,No,Blackcap Bush.mp3,media/calls/blackcap-bush.mp3,,Yes
-bokmakierie,Bokmakierie,Bokmakierie,No,Bokmakierie.mp3,media/calls/bokmakierie.mp3,,Yes
-boubou-southern,Southern Boubou,Boubou,No,Boubou Southern.mp3,media/calls/boubou-southern.mp3,,Yes
-boubou-swamp,Swamp Boubou,Boubou,No,Boubou Swamp.mp3,media/calls/boubou-swamp.mp3,,Yes
-boubou-tropical,Tropical Boubou,Boubou,Yes,Boubou Tropical.mp3,media/calls/boubou-tropical.mp3,media/birds/tropical-boubou.jpg,Yes
-broadbill-african,African Broadbill,Broadbill,No,Broadbill African.mp3,media/calls/broadbill-african.mp3,,Yes
-brownbul-terrestrial,Terrestrial Brownbul,Brownbul,No,Brownbul Terrestrial.mp3,media/calls/brownbul-terrestrial.mp3,,Yes
-brubru,Brubru,Brubru,No,Brubru.mp3,media/calls/brubru.mp3,,Yes
-bulbul-african-red-eyed,African Red-eyed Bulbul,Bulbul,No,Bulbul African Red-eyed.mp3,media/calls/bulbul-african-red-eyed.mp3,,Yes
-bulbul-cape,Cape Bulbul,Bulbul,No,Bulbul Cape.mp3,media/calls/bulbul-cape.mp3,,Yes
-bunting-cabaniss,Cabanis's Bunting,Bunting,No,Bunting Cabanis's.mp3,media/calls/bunting-cabaniss.mp3,,Yes
-bunting-cape,Cape Bunting,Bunting,No,Bunting Cape.mp3,media/calls/bunting-cape.mp3,,Yes
-bunting-cinnamon-breasted,Cinnamon-breasted Bunting,Bunting,No,Bunting Cinnamon-breasted.mp3,media/calls/bunting-cinnamon-breasted.mp3,,Yes
-bunting-golden-breasted,Golden-breasted Bunting,Bunting,No,Bunting Golden-breasted.mp3,media/calls/bunting-golden-breasted.mp3,,Yes
-bunting-lark-like,Lark-like Bunting,Bunting,No,Bunting Lark-like.mp3,media/calls/bunting-lark-like.mp3,,Yes
-bushshrike-black-fronted,Black-fronted Bushshrike,Bushshrike,No,Bushshrike Black-fronted.mp3,media/calls/bushshrike-black-fronted.mp3,,Yes
-bushshrike-gorgeous,Gorgeous Bushshrike,Bushshrike,No,Bushshrike Gorgeous.mp3,media/calls/bushshrike-gorgeous.mp3,,Yes
-bushshrike-grey-headed,Grey-headed Bushshrike,Bushshrike,No,Bushshrike Grey-headed.mp3,media/calls/bushshrike-grey-headed.mp3,,Yes
-bushshrike-olive,Olive Bushshrike,Bushshrike,No,Bushshrike Olive.mp3,media/calls/bushshrike-olive.mp3,,Yes
-bushshrike-orange-breasted,Orange-breasted Bushshrike,Bushshrike,Yes,Bushshrike Orange-breasted.mp3,media/calls/bushshrike-orange-breasted.mp3,media/birds/orange-breasted-bush-shrike.jpg,Yes
-bustard-barrows,Barrow's Bustard,Bustard,No,Bustard Barrow's.mp3,media/calls/bustard-barrows.mp3,,Yes
-bustard-blue,Blue Bustard,Bustard,No,Bustard Blue.mp3,media/calls/bustard-blue.mp3,,Yes
-bustard-karoo,Karoo Bustard,Bustard,No,Bustard Karoo.mp3,media/calls/bustard-karoo.mp3,,Yes
-bustard-red-crested,Red-crested Bustard,Bustard,No,Bustard Red-crested.mp3,media/calls/bustard-red-crested.mp3,,Yes
-bustard-ruppells,Ruppell's Bustard,Bustard,No,Bustard Ruppell's.mp3,media/calls/bustard-ruppells.mp3,,Yes
-bustard-southern-black,Southern Black Bustard,Bustard,No,Bustard Southern Black.mp3,media/calls/bustard-southern-black.mp3,,Yes
-buttonquail-black-rumped,Black-rumped Buttonquail,Buttonquail,No,Buttonquail Black-rumped.mp3,media/calls/buttonquail-black-rumped.mp3,,Yes
-camaroptera-green-backed,Green-backed Camaroptera,Camaroptera,No,Camaroptera Green-backed.mp3,media/calls/camaroptera-green-backed.mp3,,Yes
-camaroptera-grey-backed,Grey-backed Camaroptera,Camaroptera,Yes,Camaroptera Grey-backed.mp3,media/calls/camaroptera-grey-backed.mp3,media/birds/grey-backed-camaroptera.jpg,Yes
-canary-black-eared,Black-eared Canary,Canary,No,Canary Black-eared.mp3,media/calls/canary-black-eared.mp3,,Yes
-canary-black-headed,Black-headed Canary,Canary,No,Canary Black-headed.mp3,media/calls/canary-black-headed.mp3,,Yes
-canary-black-throated,Black-throated Canary,Canary,No,Canary Black-throated.mp3,media/calls/canary-black-throated.mp3,,Yes
-canary-brimstone,Brimstone Canary,Canary,No,Canary Brimstone.mp3,media/calls/canary-brimstone.mp3,,Yes
-canary-cape,Cape Canary,Canary,No,Canary Cape.mp3,media/calls/canary-cape.mp3,,Yes
-canary-forest,Forest Canary,Canary,No,Canary Forest.mp3,media/calls/canary-forest.mp3,,Yes
-canary-lemon-breasted,Lemon-breasted Canary,Canary,No,Canary Lemon-breasted.mp3,media/calls/canary-lemon-breasted.mp3,,Yes
-canary-protea,Protea Canary,Canary,No,Canary Protea.mp3,media/calls/canary-protea.mp3,,Yes
-canary-streaky-headed,Streaky-headed Canary,Canary,No,Canary Streaky-headed.mp3,media/calls/canary-streaky-headed.mp3,,Yes
-canary-white-throated,White-throated Canary,Canary,No,Canary White-throated.mp3,media/calls/canary-white-throated.mp3,,Yes
-canary-yellow,Yellow Canary,Canary,No,Canary Yellow.mp3,media/calls/canary-yellow.mp3,,Yes
-chaffinch,Chaffinch,Chaffinch,No,Chaffinch.mp3,media/calls/chaffinch.mp3,,Yes
-chat-arnots,Arnot's Chat,Chat,Yes,Chat Arnot's.mp3,media/calls/chat-arnots.mp3,media/birds/arnots-chat.jpg,Yes
-chat-boulder,Boulder Chat,Chat,No,Chat Boulder.mp3,media/calls/chat-boulder.mp3,,Yes
-chat-buff-streaked,Buff-streaked Chat,Chat,No,Chat Buff-streaked.mp3,media/calls/chat-buff-streaked.mp3,,Yes
-chat-familiar,Familiar Chat,Chat,No,Chat Familiar.mp3,media/calls/chat-familiar.mp3,,Yes
-chat-herero,Herero Chat,Chat,No,Chat Herero.mp3,media/calls/chat-herero.mp3,,Yes
-chat-karoo,Karoo Chat,Chat,No,Chat Karoo.mp3,media/calls/chat-karoo.mp3,,Yes
-chat-mocking-cliff,Mocking Cliff Chat,Chat,No,Chat Mocking Cliff.mp3,media/calls/chat-mocking-cliff.mp3,,Yes
-chat-sickle-winged,Sickle-winged Chat,Chat,No,Chat Sickle-winged.mp3,media/calls/chat-sickle-winged.mp3,,Yes
-chat-tractrac,Tractrac Chat,Chat,No,Chat Tractrac.mp3,media/calls/chat-tractrac.mp3,,Yes
-cisticola-chirping,Chirping Cisticola,Cisticola,No,Cisticola Chirping.mp3,media/calls/cisticola-chirping.mp3,,Yes
-cisticola-cloud,Cloud Cisticola,Cisticola,No,Cisticola Cloud.mp3,media/calls/cisticola-cloud.mp3,,Yes
-cisticola-croaking,Croaking Cisticola,Cisticola,No,Cisticola Croaking.mp3,media/calls/cisticola-croaking.mp3,,Yes
-cisticola-desert,Desert Cisticola,Cisticola,No,Cisticola Desert.mp3,media/calls/cisticola-desert.mp3,,Yes
-cisticola-grey-backed,Grey-backed Cisticola,Cisticola,No,Cisticola Grey-backed.mp3,media/calls/cisticola-grey-backed.mp3,,Yes
-cisticola-lazy,Lazy Cisticola,Cisticola,No,Cisticola Lazy.mp3,media/calls/cisticola-lazy.mp3,,Yes
-cisticola-levaillants,Levaillant's Cisticola,Cisticola,No,Cisticola Levaillant's.mp3,media/calls/cisticola-levaillants.mp3,,Yes
-cisticola-pale-crowned,Pale-crowned Cisticola,Cisticola,No,Cisticola Pale-crowned.mp3,media/calls/cisticola-pale-crowned.mp3,,Yes
-cisticola-rattling,Rattling Cisticola,Cisticola,No,Cisticola Rattling.mp3,media/calls/cisticola-rattling.mp3,,Yes
-cisticola-red-faced,Red-faced Cisticola,Cisticola,Yes,Cisticola Red-faced.mp3,media/calls/cisticola-red-faced.mp3,media/birds/red-faced-cisticola.jpg,Yes
-cisticola-rufous-winged,Rufous-winged Cisticola,Cisticola,No,Cisticola Rufous-winged.mp3,media/calls/cisticola-rufous-winged.mp3,,Yes
-cisticola-short-winged,Short-winged Cisticola,Cisticola,No,Cisticola Short-winged.mp3,media/calls/cisticola-short-winged.mp3,,Yes
-cisticola-singing,Singing Cisticola,Cisticola,No,Cisticola Singing.mp3,media/calls/cisticola-singing.mp3,,Yes
-cisticola-tinkling,Tinkling Cisticola,Cisticola,No,Cisticola Tinkling.mp3,media/calls/cisticola-tinkling.mp3,,Yes
-cisticola-wailing,Wailing Cisticola,Cisticola,No,Cisticola Wailing.mp3,media/calls/cisticola-wailing.mp3,,Yes
-cisticola-wing-snapping,Wing-snapping Cisticola,Cisticola,No,Cisticola Wing-snapping.mp3,media/calls/cisticola-wing-snapping.mp3,,Yes
-cisticola-zitting,Zitting Cisticola,Cisticola,No,Cisticola Zitting.mp3,media/calls/cisticola-zitting.mp3,,Yes
-coucal-black,Black Coucal,Coucal,No,Coucal Black.mp3,media/calls/coucal-black.mp3,,Yes
-coucal-burchells,Burchell's Coucal,Coucal,No,Coucal Burchell's.mp3,media/calls/coucal-burchells.mp3,,Yes
-coucal-coppery-tailed,Coppery-tailed Coucal,Coucal,No,Coucal Coppery-tailed.mp3,media/calls/coucal-coppery-tailed.mp3,,Yes
-coucal-senegal,Senegal Coucal,Coucal,No,Coucal Senegal.mp3,media/calls/coucal-senegal.mp3,,Yes
-coucal-white-browed,White-browed Coucal,Coucal,No,Coucal White-browed.mp3,media/calls/coucal-white-browed.mp3,,Yes
-courser-bronze-winged,Bronze-winged Courser,Courser,Yes,Courser Bronze-winged.mp3,media/calls/courser-bronze-winged.mp3,media/birds/bronze-winged-courser.jpg,Yes
-courser-three-banded,Three-banded Courser,Courser,No,Courser Three-banded.mp3,media/calls/courser-three-banded.mp3,,Yes
-crake-african,African Crake,Crake,No,Crake African.mp3,media/calls/crake-african.mp3,,Yes
-crake-baillons,Baillon's Crake,Crake,No,Crake Baillon's.mp3,media/calls/crake-baillons.mp3,,Yes
-crake-black,Black Crake,Crake,Yes,Crake Black.mp3,media/calls/crake-black.mp3,media/birds/black-crake.jpg,Yes
-crake-spotted,Spotted Crake,Crake,No,Crake Spotted.mp3,media/calls/crake-spotted.mp3,,Yes
-crake-striped,Striped Crake,Crake,No,Crake Striped.mp3,media/calls/crake-striped.mp3,,Yes
-creeper-spotted,Spotted Creeper,Creeper,No,Creeper Spotted.mp3,media/calls/creeper-spotted.mp3,,Yes
-crimsonwing-red-faced,Red-faced Crimsonwing,Crimsonwing,No,Crimsonwing Red-faced.mp3,media/calls/crimsonwing-red-faced.mp3,,Yes
-crombec-long-billed,Long-billed Crombec,Crombec,No,Crombec Long-billed.mp3,media/calls/crombec-long-billed.mp3,,Yes
-crombec-red-capped,Red-capped Crombec,Crombec,No,Crombec Red-capped.mp3,media/calls/crombec-red-capped.mp3,,Yes
-crombec-red-faced,Red-faced Crombec,Crombec,No,Crombec Red-faced.mp3,media/calls/crombec-red-faced.mp3,,Yes
-cuckoo-african,African Cuckoo,Cuckoo,Yes,Cuckoo African.mp3,media/calls/cuckoo-african.mp3,media/birds/african-cuckoo.jpg,Yes
-cuckoo-barred,Barred Cuckoo,Cuckoo,No,Cuckoo Barred.mp3,media/calls/cuckoo-barred.mp3,,Yes
-cuckoo-black,Black Cuckoo,Cuckoo,Yes,Cuckoo Black.mp3,media/calls/cuckoo-black.mp3,media/birds/black-cuckoo.jpg,Yes
-cuckoo-dideric,Dideric Cuckoo,Cuckoo,No,Cuckoo Dideric.mp3,media/calls/cuckoo-dideric.mp3,,Yes
-cuckoo-emerald,Emerald Cuckoo,Cuckoo,No,Cuckoo Emerald.mp3,media/calls/cuckoo-emerald.mp3,,Yes
-cuckoo-great-spotted,Great Spotted Cuckoo,Cuckoo,Yes,Cuckoo Great Spotted.mp3,media/calls/cuckoo-great-spotted.mp3,media/birds/great-spotted-cuckoo.jpg,Yes
-cuckoo-indian-lesser,Indian Lesser Cuckoo,Cuckoo,No,Cuckoo Indian Lesser.mp3,media/calls/cuckoo-indian-lesser.mp3,,Yes
-cuckoo-jacobin,Jacobin Cuckoo,Cuckoo,No,Cuckoo Jacobin.mp3,media/calls/cuckoo-jacobin.mp3,,Yes
-cuckoo-klaass,Klaas's Cuckoo,Cuckoo,No,Cuckoo Klaas's.mp3,media/calls/cuckoo-klaass.mp3,,Yes
-cuckoo-levaillants,Levaillant's Cuckoo,Cuckoo,Yes,Cuckoo Levaillant's.mp3,media/calls/cuckoo-levaillants.mp3,media/birds/levaillants-cuckoo.jpg,Yes
-cuckoo-madagascar,Madagascar Cuckoo,Cuckoo,No,Cuckoo Madagascar.mp3,media/calls/cuckoo-madagascar.mp3,,Yes
-cuckoo-red-chested,Red-chested Cuckoo,Cuckoo,No,Cuckoo Red-chested.mp3,media/calls/cuckoo-red-chested.mp3,,Yes
-cuckoo-thick-billed,Thick-billed Cuckoo,Cuckoo,No,Cuckoo Thick-billed.mp3,media/calls/cuckoo-thick-billed.mp3,,Yes
-cuckooshrike-black,Black Cuckooshrike,Cuckooshrike,Yes,Cuckooshrike Black.mp3,media/calls/cuckooshrike-black.mp3,media/birds/black-cuckooshrike.jpg,Yes
-cuckooshrike-grey,Grey Cuckooshrike,Cuckooshrike,No,Cuckooshrike Grey.mp3,media/calls/cuckooshrike-grey.mp3,,Yes
-cuckooshrike-white-breasted,White-breasted Cuckooshrike,Cuckooshrike,Yes,Cuckooshrike White-breasted.mp3,media/calls/cuckooshrike-white-breasted.mp3,media/birds/white-breasted-cuckooshrike.jpg,Yes
-dove-lemon,Lemon Dove,Dove,No,Dove Lemon.mp3,media/calls/dove-lemon.mp3,,Yes
-dove-tambourine,Tambourine Dove,Dove,No,Dove Tambourine.mp3,media/calls/dove-tambourine.mp3,,Yes
-drongo-square-tailed,Square-tailed Drongo,Drongo,No,Drongo Square-tailed.mp3,media/calls/drongo-square-tailed.mp3,,Yes
-eagle-crowned,Crowned Eagle,Eagle,No,Eagle Crowned.mp3,media/calls/eagle-crowned.mp3,,Yes
-eremomela-burnt-necked,Burnt-necked Eremomela,Eremomela,Yes,Eremomela Burnt-necked.mp3,media/calls/eremomela-burnt-necked.mp3,media/birds/burnt-necked-eremomela.jpg,Yes
-eremomela-green-capped,Green-capped Eremomela,Eremomela,Yes,Eremomela Green-capped.mp3,media/calls/eremomela-green-capped.mp3,media/birds/green-capped-eremomela.jpg,Yes
-eremomela-karoo,Karoo Eremomela,Eremomela,No,Eremomela Karoo.mp3,media/calls/eremomela-karoo.mp3,,Yes
-eremomela-yellow-bellied,Yellow-bellied Eremomela,Eremomela,No,Eremomela Yellow-bellied.mp3,media/calls/eremomela-yellow-bellied.mp3,,Yes
-falcon-taita,Taita Falcon,Falcon,No,Falcon Taita.mp3,media/calls/falcon-taita.mp3,,Yes
-finch-cut-throat,Cut-throat Finch,Finch,No,Finch Cut-throat.mp3,media/calls/finch-cut-throat.mp3,,Yes
-finch-locust,Locust Finch,Finch,No,Finch Locust.mp3,media/calls/finch-locust.mp3,,Yes
-finch-red-headed,Red-headed Finch,Finch,No,Finch Red-headed.mp3,media/calls/finch-red-headed.mp3,,Yes
-finch-scaly-feathered,Scaly-feathered Finch,Finch,No,Finch Scaly-feathered.mp3,media/calls/finch-scaly-feathered.mp3,,Yes
-firefinch-african,African Firefinch,Firefinch,No,Firefinch African.mp3,media/calls/firefinch-african.mp3,,Yes
-firefinch-brown,Brown Firefinch,Firefinch,No,Firefinch Brown.mp3,media/calls/firefinch-brown.mp3,,Yes
-firefinch-jamesons,Jameson's Firefinch,Firefinch,No,Firefinch Jameson's.mp3,media/calls/firefinch-jamesons.mp3,,Yes
-firefinch-red-billed,Red-billed Firefinch,Firefinch,No,Firefinch Red-billed.mp3,media/calls/firefinch-red-billed.mp3,,Yes
-flufftail-buff-spotted,Buff-spotted Flufftail,Flufftail,No,Flufftail Buff-spotted.mp3,media/calls/flufftail-buff-spotted.mp3,,Yes
-flufftail-chestnut-headed,Chestnut-headed Flufftail,Flufftail,No,Flufftail Chestnut-headed.mp3,media/calls/flufftail-chestnut-headed.mp3,,Yes
-flufftail-red-chested,Red-chested Flufftail,Flufftail,No,Flufftail Red-chested.mp3,media/calls/flufftail-red-chested.mp3,,Yes
-flufftail-streaky-breasted,Streaky-breasted Flufftail,Flufftail,No,Flufftail Streaky-breasted.mp3,media/calls/flufftail-streaky-breasted.mp3,,Yes
-flufftail-striped,Striped Flufftail,Flufftail,No,Flufftail Striped.mp3,media/calls/flufftail-striped.mp3,,Yes
-flufftail-white-winged,White-winged Flufftail,Flufftail,No,Flufftail White-winged.mp3,media/calls/flufftail-white-winged.mp3,,Yes
-flycatcher-african-paradise,African Paradise Flycatcher,Flycatcher,No,Flycatcher African Paradise.mp3,media/calls/flycatcher-african-paradise.mp3,,Yes
-flycatcher-ashy,Ashy Flycatcher,Flycatcher,Yes,Flycatcher Ashy.mp3,media/calls/flycatcher-ashy.mp3,media/birds/ashy-flycatcher.jpg,Yes
-flycatcher-black-and-white-shrike,Black-and-white Shrike-Flycatcher,Flycatcher,No,Flycatcher Black and White Shrike.mp3,media/calls/flycatcher-black-and-white-shrike.mp3,,Yes
-flycatcher-blue-mantled-crested,Blue-mantled Crested Flycatcher,Flycatcher,No,Flycatcher Blue-mantled Crested.mp3,media/calls/flycatcher-blue-mantled-crested.mp3,,Yes
-flycatcher-chat,Chat Flycatcher,Flycatcher,No,Flycatcher Chat.mp3,media/calls/flycatcher-chat.mp3,,Yes
-flycatcher-collared,Collared Flycatcher,Flycatcher,No,Flycatcher Collared.mp3,media/calls/flycatcher-collared.mp3,,Yes
-flycatcher-fiscal,Fiscal Flycatcher,Flycatcher,No,Flycatcher Fiscal.mp3,media/calls/flycatcher-fiscal.mp3,,Yes
-flycatcher-grey-tit,Grey Tit-Flycatcher,Flycatcher,Yes,Flycatcher Grey Tit.mp3,media/calls/flycatcher-grey-tit.mp3,media/birds/grey-tit-flycatcher.jpg,Yes
-flycatcher-livingstones,Livingstone's Flycatcher,Flycatcher,No,Flycatcher Livingstone's.mp3,media/calls/flycatcher-livingstones.mp3,,Yes
-flycatcher-marico,Marico Flycatcher,Flycatcher,Yes,Flycatcher Marico.mp3,media/calls/flycatcher-marico.mp3,media/birds/marico-flycatcher.jpg,Yes
-flycatcher-southern-black,Southern Black Flycatcher,Flycatcher,Yes,Flycatcher Southern Black.mp3,media/calls/flycatcher-southern-black.mp3,media/birds/southern-black-flycatcher.jpg,Yes
-flycatcher-white-tailed-crested,White-tailed Crested Flycatcher,Flycatcher,No,Flycatcher White-tailed Crested.mp3,media/calls/flycatcher-white-tailed-crested.mp3,,Yes
-francolin-grey-winged,Grey-winged Francolin,Francolin,No,Francolin Grey-winged.mp3,media/calls/francolin-grey-winged.mp3,,Yes
-francolin-hartlaubs,Hartlaub's Francolin,Francolin,No,Francolin Hartlaub's.mp3,media/calls/francolin-hartlaubs.mp3,,Yes
-francolin-natal,Natal Francolin,Francolin,No,Francolin Natal.mp3,media/calls/francolin-natal.mp3,,Yes
-francolin-orange-river,Orange River Francolin,Francolin,No,Francolin Orange River.mp3,media/calls/francolin-orange-river.mp3,,Yes
-francolin-red-necked,Red-necked Francolin,Francolin,No,Francolin Red-necked.mp3,media/calls/francolin-red-necked.mp3,,Yes
-francolin-red-winged,Red-winged Francolin,Francolin,No,Francolin Red-winged.mp3,media/calls/francolin-red-winged.mp3,,Yes
-francolin-shelleys,Shelley's Francolin,Francolin,No,Francolin Shelley's.mp3,media/calls/francolin-shelleys.mp3,,Yes
-francolin-swainsons,Swainson's Francolin,Francolin,No,Francolin Swainson's.mp3,media/calls/francolin-swainsons.mp3,,Yes
-gallinule-allens,Allen's Gallinule,Gallinule,Yes,Gallinule Allen's.mp3,media/calls/gallinule-allens.mp3,media/birds/allens-gallinule.jpg,Yes
-gallinule-purple,Purple Gallinule,Gallinule,No,Gallinule Purple.mp3,media/calls/gallinule-purple.mp3,,Yes
-goshawk-african,African Goshawk,Goshawk,No,Goshawk African.mp3,media/calls/goshawk-african.mp3,,Yes
-goshawk-gabar,Gabar Goshawk,Goshawk,Yes,Goshawk Gabar.mp3,media/calls/goshawk-gabar.mp3,media/birds/gabar-goshawk.jpg,Yes
-grassbird-cape,Cape Grassbird,Grassbird,No,Grassbird Cape.mp3,media/calls/grassbird-cape.mp3,,Yes
-grassbird-fan-tailed,Fan-tailed Grassbird,Grassbird,No,Grassbird Fan-tailed.mp3,media/calls/grassbird-fan-tailed.mp3,,Yes
-greenbul-sombre,Sombre Greenbul,Greenbul,No,Greenbul Sombre.mp3,media/calls/greenbul-sombre.mp3,,Yes
-greenbul-stripe-cheeked,Stripe-cheeked Greenbul,Greenbul,No,Greenbul Stripe-cheeked.mp3,media/calls/greenbul-stripe-cheeked.mp3,,Yes
-greenbul-tiny,Tiny Greenbul,Greenbul,No,Greenbul Tiny.mp3,media/calls/greenbul-tiny.mp3,,Yes
-greenbul-yellow-bellied,Yellow-bellied Greenbul,Greenbul,No,Greenbul Yellow-bellied.mp3,media/calls/greenbul-yellow-bellied.mp3,,Yes
-greenbul-yellow-streaked,Yellow-streaked Greenbul,Greenbul,No,Greenbul Yellow-streaked.mp3,media/calls/greenbul-yellow-streaked.mp3,,Yes
-hawk-cuckoo,African Cuckoo-Hawk,Hawk,No,Hawk Cuckoo.mp3,media/calls/hawk-cuckoo.mp3,,Yes
-helmetshrike-chestnut-fronted,Chestnut-fronted Helmetshrike,Helmetshrike,No,Helmetshrike Chestnut-fronted.mp3,media/calls/helmetshrike-chestnut-fronted.mp3,,Yes
-helmetshrike-retzs,Retz's Helmetshrike,Helmetshrike,Yes,Helmetshrike Retz's.mp3,media/calls/helmetshrike-retzs.mp3,media/birds/retzs-helmet-shrike.jpg,Yes
-helmetshrike-white-crested,White-crested Helmetshrike,Helmetshrike,No,Helmetshrike White-crested.mp3,media/calls/helmetshrike-white-crested.mp3,,Yes
-honeybird-brown-backed,Brown-backed Honeybird,Honeybird,No,Honeybird Brown-backed.mp3,media/calls/honeybird-brown-backed.mp3,,Yes
-honeybird-green-backed,Green-backed Honeybird,Honeybird,No,Honeybird Green-backed.mp3,media/calls/honeybird-green-backed.mp3,,Yes
-honeyguide-eastern,Eastern Honeyguide,Honeyguide,No,Honeyguide Eastern.mp3,media/calls/honeyguide-eastern.mp3,,Yes
-honeyguide-greater,Greater Honeyguide,Honeyguide,No,Honeyguide Greater.mp3,media/calls/honeyguide-greater.mp3,,Yes
-honeyguide-lesser,Lesser Honeyguide,Honeyguide,No,Honeyguide Lesser.mp3,media/calls/honeyguide-lesser.mp3,,Yes
-honeyguide-scaly-throated,Scaly-throated Honeyguide,Honeyguide,No,Honeyguide Scaly-throated.mp3,media/calls/honeyguide-scaly-throated.mp3,,Yes
-hornbill-bradfields,Bradfield's Hornbill,Hornbill,No,Hornbill Bradfield's.mp3,media/calls/hornbill-bradfields.mp3,,Yes
-hornbill-crowned,Crowned Hornbill,Hornbill,No,Hornbill Crowned.mp3,media/calls/hornbill-crowned.mp3,,Yes
-hornbill-grey,Grey Hornbill,Hornbill,No,Hornbill Grey.mp3,media/calls/hornbill-grey.mp3,,Yes
-hornbill-monteiros,Monteiro's Hornbill,Hornbill,No,Hornbill Monteiro's.mp3,media/calls/hornbill-monteiros.mp3,,Yes
-hornbill-red-billed,Red-billed Hornbill,Hornbill,No,Hornbill Red-billed.mp3,media/calls/hornbill-red-billed.mp3,,Yes
-hornbill-silvery-cheeked,Silvery-cheeked Hornbill,Hornbill,No,Hornbill Silvery-cheeked.mp3,media/calls/hornbill-silvery-cheeked.mp3,,Yes
-hornbill-trumpeter,Trumpeter Hornbill,Hornbill,No,Hornbill Trumpeter.mp3,media/calls/hornbill-trumpeter.mp3,,Yes
-hyliota-southern,Southern Hyliota,Hyliota,No,Hyliota Southern.mp3,media/calls/hyliota-southern.mp3,,Yes
-hyliota-yellow-bellied,Yellow-bellied Hyliota,Hyliota,No,Hyliota Yellow-bellied.mp3,media/calls/hyliota-yellow-bellied.mp3,,Yes
-indigobird-dusky,Dusky Indigobird,Indigobird,No,Indigobird Dusky.mp3,media/calls/indigobird-dusky.mp3,,Yes
-indigobird-purple,Purple Indigobird,Indigobird,No,Indigobird Purple.mp3,media/calls/indigobird-purple.mp3,,Yes
-indigobird-village,Village Indigobird,Indigobird,No,Indigobird Village.mp3,media/calls/indigobird-village.mp3,,Yes
-kingfisher-brown-hooded,Brown-hooded Kingfisher,Kingfisher,No,Kingfisher Brown-hooded.mp3,media/calls/kingfisher-brown-hooded.mp3,,Yes
-kingfisher-grey-headed,Grey-headed Kingfisher,Kingfisher,Yes,Kingfisher Grey-headed.mp3,media/calls/kingfisher-grey-headed.mp3,media/birds/grey-headed-kingfisher.jpg,Yes
-kingfisher-mangrove,Mangrove Kingfisher,Kingfisher,No,Kingfisher Mangrove.mp3,media/calls/kingfisher-mangrove.mp3,,Yes
-kingfisher-striped,Striped Kingfisher,Kingfisher,No,Kingfisher Striped.mp3,media/calls/kingfisher-striped.mp3,,Yes
-kingfisher-woodland,Woodland Kingfisher,Kingfisher,No,Kingfisher Woodland.mp3,media/calls/kingfisher-woodland.mp3,,Yes
-lark-bothas,Botha's Lark,Lark,No,Lark Botha's.mp3,media/calls/lark-bothas.mp3,,Yes
-lark-dune,Dune Lark,Lark,No,Lark Dune.mp3,media/calls/lark-dune.mp3,,Yes
-lark-dusky,Dusky Lark,Lark,Yes,Lark Dusky.mp3,media/calls/lark-dusky.mp3,media/birds/dusky-lark.jpg,Yes
-lark-eastern-clapper,Eastern Clapper Lark,Lark,No,Lark Eastern Clapper.mp3,media/calls/lark-eastern-clapper.mp3,,Yes
-lark-fawn-coloured,Fawn-coloured Lark,Lark,Yes,Lark Fawn-coloured.mp3,media/calls/lark-fawn-coloured.mp3,media/birds/fawn-coloured-lark.jpg,Yes
-lark-fawncoloured-2,Fawn-coloured Lark (2nd recording),Lark,No,Lark Fawncoloured 2.mp3,media/calls/lark-fawncoloured-2.mp3,,Yes
-lark-karoo-long-billed,Karoo Long-billed Lark,Lark,No,Lark Karoo Long-billed.mp3,media/calls/lark-karoo-long-billed.mp3,,Yes
-lark-karoo,Karoo Lark,Lark,No,Lark Karoo.mp3,media/calls/lark-karoo.mp3,,Yes
-lark-large-billed,Large-billed Lark,Lark,No,Lark Large-billed.mp3,media/calls/lark-large-billed.mp3,,Yes
-lark-melodious,Melodious Lark,Lark,No,Lark Melodious.mp3,media/calls/lark-melodious.mp3,,Yes
-lark-monotonous,Monotonous Lark,Lark,Yes,Lark Monotonous.mp3,media/calls/lark-monotonous.mp3,media/birds/monotonous-lark.jpg,Yes
-lark-pink-billed,Pink-billed Lark,Lark,No,Lark Pink-billed.mp3,media/calls/lark-pink-billed.mp3,,Yes
-lark-red-capped,Red-capped Lark,Lark,No,Lark Red-capped.mp3,media/calls/lark-red-capped.mp3,,Yes
-lark-red,Red Lark,Lark,No,Lark Red.mp3,media/calls/lark-red.mp3,,Yes
-lark-rudds,Rudd's Lark,Lark,No,Lark Rudd's.mp3,media/calls/lark-rudds.mp3,,Yes
-lark-rufous-naped,Rufous-naped Lark,Lark,No,Lark Rufous-naped.mp3,media/calls/lark-rufous-naped.mp3,,Yes
-lark-sabota,Sabota Lark,Lark,No,Lark Sabota.mp3,media/calls/lark-sabota.mp3,,Yes
-lark-sclaters,Sclater's Lark,Lark,No,Lark Sclater's.mp3,media/calls/lark-sclaters.mp3,,Yes
-lark-short-clawed,Short-clawed Lark,Lark,No,Lark Short-clawed.mp3,media/calls/lark-short-clawed.mp3,,Yes
-lark-spike-heeled,Spike-heeled Lark,Lark,No,Lark Spike-heeled.mp3,media/calls/lark-spike-heeled.mp3,,Yes
-lark-starks,Stark's Lark,Lark,No,Lark Stark's.mp3,media/calls/lark-starks.mp3,,Yes
-longclaw-fulleborns,Fulleborn's Longclaw,Longclaw,No,Longclaw Fulleborn's.mp3,media/calls/longclaw-fulleborns.mp3,,Yes
-longclaw-orange-throated,Orange-throated Longclaw,Longclaw,No,Longclaw Orange-throated.mp3,media/calls/longclaw-orange-throated.mp3,,Yes
-longclaw-rosy-throated,Rosy-throated Longclaw,Longclaw,No,Longclaw Rosy-throated.mp3,media/calls/longclaw-rosy-throated.mp3,,Yes
-longclaw-yellow-throated,Yellow-throated Longclaw,Longclaw,No,Longclaw Yellow-throated.mp3,media/calls/longclaw-yellow-throated.mp3,,Yes
-lovebird-black-cheeked,Black-cheeked Lovebird,Lovebird,No,Lovebird Black-cheeked.mp3,media/calls/lovebird-black-cheeked.mp3,,Yes
-malkoha-green,Green Malkoha,Malkoha,No,Malkoha Green.mp3,media/calls/malkoha-green.mp3,,Yes
-mannikin-magpie,Magpie Mannikin,Mannikin,No,Mannikin Magpie.mp3,media/calls/mannikin-magpie.mp3,,Yes
-mannikin-red-backed,Red-backed Mannikin,Mannikin,No,Mannikin Red-backed.mp3,media/calls/mannikin-red-backed.mp3,,Yes
-moorhen-lesser,Lesser Moorhen,Moorhen,No,Moorhen Lesser.mp3,media/calls/moorhen-lesser.mp3,,Yes
-neddicky,Neddicky,Neddicky,No,Neddicky.mp3,media/calls/neddicky.mp3,,Yes
-nicator-eastern,Eastern Nicator,Nicator,No,Nicator Eastern.mp3,media/calls/nicator-eastern.mp3,,Yes
-nightingale-thrush,Thrush Nightingale,Nightingale,No,Nightingale Thrush.mp3,media/calls/nightingale-thrush.mp3,,Yes
-nightjar-fiery-necked,Fiery-necked Nightjar,Nightjar,No,Nightjar Fiery-necked.mp3,media/calls/nightjar-fiery-necked.mp3,,Yes
-nightjar-freckled,Freckled Nightjar,Nightjar,No,Nightjar Freckled.mp3,media/calls/nightjar-freckled.mp3,,Yes
-nightjar-natal,Natal Nightjar,Nightjar,No,Nightjar Natal.mp3,media/calls/nightjar-natal.mp3,,Yes
-nightjar-pennant-winged,Pennant-winged Nightjar,Nightjar,Yes,Nightjar Pennant-winged.mp3,media/calls/nightjar-pennant-winged.mp3,media/birds/pennant-winged-nightjar.jpg,Yes
-nightjar-rufous-cheeked,Rufous-cheeked Nightjar,Nightjar,No,Nightjar Rufous-cheeked.mp3,media/calls/nightjar-rufous-cheeked.mp3,,Yes
-nightjar-square-tailed,Square-tailed Nightjar,Nightjar,No,Nightjar Square-tailed.mp3,media/calls/nightjar-square-tailed.mp3,,Yes
-oriole-african-golden,African Golden Oriole,Oriole,No,Oriole African Golden.mp3,media/calls/oriole-african-golden.mp3,,Yes
-oriole-black-headed,Black-headed Oriole,Oriole,No,Oriole Black-headed.mp3,media/calls/oriole-black-headed.mp3,,Yes
-oriole-eurasian-golden,Eurasian Golden Oriole,Oriole,No,Oriole Eurasian Golden.mp3,media/calls/oriole-eurasian-golden.mp3,,Yes
-oriole-green-headed,Green-headed Oriole,Oriole,No,Oriole Green-headed.mp3,media/calls/oriole-green-headed.mp3,,Yes
-owl-african-scops,African Scops-Owl,Owl,Yes,Owl African Scops.mp3,media/calls/owl-african-scops.mp3,media/birds/african-scops-owl.jpg,Yes
-owl-african-wood,African Wood Owl,Owl,No,Owl African Wood.mp3,media/calls/owl-african-wood.mp3,,Yes
-owl-barn,Barn Owl,Owl,No,Owl Barn.mp3,media/calls/owl-barn.mp3,,Yes
-owl-cape-eagle,Cape Eagle Owl,Owl,No,Owl Cape Eagle.mp3,media/calls/owl-cape-eagle.mp3,,Yes
-owl-grass,Grass Owl,Owl,No,Owl Grass.mp3,media/calls/owl-grass.mp3,,Yes
-owl-marsh,Marsh Owl,Owl,No,Owl Marsh.mp3,media/calls/owl-marsh.mp3,,Yes
-owl-pels-fishing,Pel's Fishing-Owl,Owl,Yes,Owl Pel's Fishing.mp3,media/calls/owl-pels-fishing.mp3,media/birds/pels-fishing-owl.jpg,Yes
-owl-southern-white-faced,Southern White-faced Owl,Owl,Yes,Owl Southern White-faced.mp3,media/calls/owl-southern-white-faced.mp3,media/birds/southern-white-faced-owl.jpg,Yes
-owl-spotted-eagle,Spotted Eagle Owl,Owl,No,Owl Spotted Eagle.mp3,media/calls/owl-spotted-eagle.mp3,,Yes
-owl-verreauxs-eagle,Verreaux's Eagle Owl,Owl,No,Owl Verreaux's Eagle.mp3,media/calls/owl-verreauxs-eagle.mp3,,Yes
-owlet-african-barred,African Barred Owlet,Owlet,Yes,Owlet African Barred.mp3,media/calls/owlet-african-barred.mp3,media/birds/african-barred-owlet.jpg,Yes
-owlet-pearl-spotted,Pearl-spotted Owlet,Owlet,No,Owlet Pearl-spotted.mp3,media/calls/owlet-pearl-spotted.mp3,,Yes
-painted-snipe-greater,Greater Painted-snipe,Painted-snipe,No,Painted-snipe Greater.mp3,media/calls/painted-snipe-greater.mp3,,Yes
-palm-thrush-collared,Collared Palm-Thrush,Palm-Thrush,Yes,Palm-Thrush Collared.mp3,media/calls/palm-thrush-collared.mp3,media/birds/collared-palm-thrush.jpg,Yes
-palm-thrush-rufous-tailed,Rufous-tailed Palm-Thrush,Palm-Thrush,No,Palm-Thrush Rufous-tailed.mp3,media/calls/palm-thrush-rufous-tailed.mp3,,Yes
-parrot-brown-headed,Brown-headed Parrot,Parrot,No,Parrot Brown-headed.mp3,media/calls/parrot-brown-headed.mp3,,Yes
-parrot-cape,Cape Parrot,Parrot,No,Parrot Cape.mp3,media/calls/parrot-cape.mp3,,Yes
-parrot-ruppells,Ruppell's Parrot,Parrot,No,Parrot Ruppell's.mp3,media/calls/parrot-ruppells.mp3,,Yes
-petronia-yellow-throated,Yellow-throated Petronia,Petronia,Yes,Petronia Yellow-throated.mp3,media/calls/petronia-yellow-throated.mp3,media/birds/yellow-throated-petronia.jpg,Yes
-pigeon-african-green,African Green Pigeon,Pigeon,Yes,Pigeon African Green.mp3,media/calls/pigeon-african-green.mp3,media/birds/african-green-pigeon.jpg,Yes
-pigeon-eastern-bronze-naped,Eastern Bronze-naped Pigeon,Pigeon,No,Pigeon Eastern Bronze-naped.mp3,media/calls/pigeon-eastern-bronze-naped.mp3,,Yes
-pipit-african-rock,African Rock Pipit,Pipit,No,Pipit African Rock.mp3,media/calls/pipit-african-rock.mp3,,Yes
-pipit-buffy,Buffy Pipit,Pipit,No,Pipit Buffy.mp3,media/calls/pipit-buffy.mp3,,Yes
-pipit-bushveld,Bushveld Pipit,Pipit,No,Pipit Bushveld.mp3,media/calls/pipit-bushveld.mp3,,Yes
-pipit-golden,Golden Pipit,Pipit,No,Pipit Golden.mp3,media/calls/pipit-golden.mp3,,Yes
-pipit-long-billed,Long-billed Pipit,Pipit,No,Pipit Long-billed.mp3,media/calls/pipit-long-billed.mp3,,Yes
-pipit-mountain,Mountain Pipit,Pipit,No,Pipit Mountain.mp3,media/calls/pipit-mountain.mp3,,Yes
-pipit-plain-backed,Plain-backed Pipit,Pipit,No,Pipit Plain-backed.mp3,media/calls/pipit-plain-backed.mp3,,Yes
-pipit-short-tailed,Short-tailed Pipit,Pipit,No,Pipit Short-tailed.mp3,media/calls/pipit-short-tailed.mp3,,Yes
-pipit-striped,Striped Pipit,Pipit,No,Pipit Striped.mp3,media/calls/pipit-striped.mp3,,Yes
-pipit-tree,Tree Pipit,Pipit,No,Pipit Tree.mp3,media/calls/pipit-tree.mp3,,Yes
-pipit-wood,Wood Pipit,Pipit,No,Pipit Wood.mp3,media/calls/pipit-wood.mp3,,Yes
-pipit-yellow-breasted,Yellow-breasted Pipit,Pipit,No,Pipit Yellow-breasted.mp3,media/calls/pipit-yellow-breasted.mp3,,Yes
-pitta-african,African Pitta,Pitta,No,Pitta African.mp3,media/calls/pitta-african.mp3,,Yes
-prinia-black-chested,Black-chested Prinia,Prinia,No,Prinia Black-chested.mp3,media/calls/prinia-black-chested.mp3,,Yes
-prinia-drakensberg,Drakensberg Prinia,Prinia,No,Prinia Drakensberg.mp3,media/calls/prinia-drakensberg.mp3,,Yes
-prinia-karoo,Karoo Prinia,Prinia,No,Prinia Karoo.mp3,media/calls/prinia-karoo.mp3,,Yes
-prinia-tawny-flanked,Tawny-flanked Prinia,Prinia,No,Prinia Tawny-flanked.mp3,media/calls/prinia-tawny-flanked.mp3,,Yes
-puffback-black-backed,Black-backed Puffback,Puffback,No,Puffback Black-backed.mp3,media/calls/puffback-black-backed.mp3,,Yes
-pytilia-green-winged,Green-winged Pytilia,Pytilia,Yes,Pytilia Green-winged.mp3,media/calls/pytilia-green-winged.mp3,media/birds/green-winged-pytilia.jpg,Yes
-pytilia-orange-winged,Orange-winged Pytilia,Pytilia,No,Pytilia Orange-winged.mp3,media/calls/pytilia-orange-winged.mp3,,Yes
-quailfinch-african,African Quailfinch,Quailfinch,No,Quailfinch African.mp3,media/calls/quailfinch-african.mp3,,Yes
-rail-african,African Rail,Rail,No,Rail African.mp3,media/calls/rail-african.mp3,,Yes
-robin-swynnertons,Swynnerton's Robin,Robin,No,Robin Swynnerton's.mp3,media/calls/robin-swynnertons.mp3,,Yes
-robin-white-starred,White-starred Robin,Robin,No,Robin White-starred.mp3,media/calls/robin-white-starred.mp3,,Yes
-robin-chat-cape,Cape Robin-Chat,Robin-Chat,No,Robin-Chat Cape.mp3,media/calls/robin-chat-cape.mp3,,Yes
-robin-chat-chorister,Chorister Robin-Chat,Robin-Chat,No,Robin-Chat Chorister.mp3,media/calls/robin-chat-chorister.mp3,,Yes
-robin-chat-red-capped,Red-capped Robin-Chat,Robin-Chat,No,Robin-Chat Red-capped.mp3,media/calls/robin-chat-red-capped.mp3,,Yes
-robin-chat-white-browed,White-browed Robin-Chat,Robin-Chat,Yes,Robin-Chat White-browed.mp3,media/calls/robin-chat-white-browed.mp3,media/birds/white-browed-robin-chat.jpg,Yes
-robin-chat-white-throated,White-throated Robin-Chat,Robin-Chat,No,Robin-Chat White-throated.mp3,media/calls/robin-chat-white-throated.mp3,,Yes
-rockjumper-cape,Cape Rockjumper,Rockjumper,No,Rockjumper Cape.mp3,media/calls/rockjumper-cape.mp3,,Yes
-rockjumper-drakensberg,Drakensberg Rockjumper,Rockjumper,No,Rockjumper Drakensberg.mp3,media/calls/rockjumper-drakensberg.mp3,,Yes
-rockrunner,Rockrunner,Rockrunner,No,Rockrunner.mp3,media/calls/rockrunner.mp3,,Yes
-roller-broad-billed,Broad-billed Roller,Roller,Yes,Roller Broad-billed.mp3,media/calls/roller-broad-billed.mp3,media/birds/broad-billed-roller.jpg,Yes
-roller-racket-tailed,Racket-tailed Roller,Roller,Yes,Roller Racket-tailed.mp3,media/calls/roller-racket-tailed.mp3,media/birds/racket-tailed-roller.jpg,Yes
-scimitarbill-common,Common Scimitarbill,Scimitarbill,No,Scimitarbill Common.mp3,media/calls/scimitarbill-common.mp3,,Yes
-scrub-robin-brown,Brown Scrub-Robin,Scrub-Robin,No,Scrub-Robin Brown.mp3,media/calls/scrub-robin-brown.mp3,,Yes
-scrub-robin-eastern-bearded,Eastern Bearded Scrub-Robin,Scrub-Robin,Yes,Scrub-Robin Eastern Bearded.mp3,media/calls/scrub-robin-eastern-bearded.mp3,media/birds/eastern-bearded-scrub-robin.jpg,Yes
-scrub-robin-kalahari,Kalahari Scrub-Robin,Scrub-Robin,Yes,Scrub-Robin Kalahari.mp3,media/calls/scrub-robin-kalahari.mp3,media/birds/kalahari-scrub-robin.jpg,Yes
-scrub-robin-white-browed,White-browed Scrub-Robin,Scrub-Robin,No,Scrub-Robin White-browed.mp3,media/calls/scrub-robin-white-browed.mp3,,Yes
-seedcracker-lesser,Lesser Seedcracker,Seedcracker,No,Seedcracker Lesser.mp3,media/calls/seedcracker-lesser.mp3,,Yes
-shikra,Shikra,Shikra,No,Shikra.mp3,media/calls/shikra.mp3,,Yes
-shrike-crimson-breasted,Crimson-breasted Shrike,Shrike,No,Shrike Crimson-breasted.mp3,media/calls/shrike-crimson-breasted.mp3,,Yes
-shrike-magpie,Magpie Shrike,Shrike,No,Shrike Magpie.mp3,media/calls/shrike-magpie.mp3,,Yes
-shrike-sousas,Sousa's Shrike,Shrike,No,Shrike Sousa's.mp3,media/calls/shrike-sousas.mp3,,Yes
-shrike-southern-white-crowned,Southern White-crowned Shrike,Shrike,No,Shrike Southern White-crowned.mp3,media/calls/shrike-southern-white-crowned.mp3,,Yes
-shrike-white-tailed,White-tailed Shrike,Shrike,No,Shrike White-tailed.mp3,media/calls/shrike-white-tailed.mp3,,Yes
-siskin-cape,Cape Siskin,Siskin,No,Siskin Cape.mp3,media/calls/siskin-cape.mp3,,Yes
-siskin-drakensberg,Drakensberg Siskin,Siskin,No,Siskin Drakensberg.mp3,media/calls/siskin-drakensberg.mp3,,Yes
-snake-eagle-southern-banded,Southern Banded Snake-Eagle,Snake-Eagle,No,Snake-Eagle Southern Banded.mp3,media/calls/snake-eagle-southern-banded.mp3,,Yes
-snake-eagle-western-banded,Western Banded Snake-Eagle,Snake-Eagle,No,Snake-Eagle Western Banded.mp3,media/calls/snake-eagle-western-banded.mp3,,Yes
-sparrow-great,Great Sparrow,Sparrow,No,Sparrow Great.mp3,media/calls/sparrow-great.mp3,,Yes
-sparrow-weaver-white-browed,White-browed Sparrow-Weaver,Sparrow-Weaver,No,Sparrow-Weaver White-browed.mp3,media/calls/sparrow-weaver-white-browed.mp3,,Yes
-sparrowhawk-black,Black Sparrowhawk,Sparrowhawk,No,Sparrowhawk Black.mp3,media/calls/sparrowhawk-black.mp3,,Yes
-sparrowhawk-little,Little Sparrowhawk,Sparrowhawk,No,Sparrowhawk Little.mp3,media/calls/sparrowhawk-little.mp3,,Yes
-sparrowhawk-ovambo,Ovambo Sparrowhawk,Sparrowhawk,No,Sparrowhawk Ovambo.mp3,media/calls/sparrowhawk-ovambo.mp3,,Yes
-sparrowhawk-red-breasted,Red-breasted Sparrowhawk,Sparrowhawk,No,Sparrowhawk Red-breasted.mp3,media/calls/sparrowhawk-red-breasted.mp3,,Yes
-starling-black-bellied,Black-bellied Starling,Starling,No,Starling Black-bellied.mp3,media/calls/starling-black-bellied.mp3,,Yes
-starling-burchells,Burchell's Starling,Starling,Yes,Starling Burchell's.mp3,media/calls/starling-burchells.mp3,media/birds/burchells-starling.jpg,Yes
-starling-greater-blue-eared,Greater Blue-eared Starling,Starling,Yes,Starling Greater Blue-eared.mp3,media/calls/starling-greater-blue-eared.mp3,media/birds/greater-blue-eared-starling.jpg,Yes
-starling-lesser-blue-eared,Lesser Blue-eared Starling,Starling,No,Starling Lesser Blue-eared.mp3,media/calls/starling-lesser-blue-eared.mp3,,Yes
-starling-mevess,Meves's Starling,Starling,Yes,Starling Meves's.mp3,media/calls/starling-mevess.mp3,media/birds/mevess-starling.jpg,Yes
-starling-pale-winged,Pale-winged Starling,Starling,No,Starling Pale-winged.mp3,media/calls/starling-pale-winged.mp3,,Yes
-starling-sharp-tailed,Sharp-tailed Starling,Starling,No,Starling Sharp-tailed.mp3,media/calls/starling-sharp-tailed.mp3,,Yes
-starling-violet-backed,Violet-backed Starling,Starling,Yes,Starling Violet-backed.mp3,media/calls/starling-violet-backed.mp3,media/birds/violet-backed-starling.jpg,Yes
-sugarbird-gurneys,Gurney's Sugarbird,Sugarbird,No,Sugarbird Gurney's.mp3,media/calls/sugarbird-gurneys.mp3,,Yes
-sunbird-collared,Collared Sunbird,Sunbird,No,Sunbird Collared.mp3,media/calls/sunbird-collared.mp3,,Yes
-sunbird-copper,Copper Sunbird,Sunbird,No,Sunbird Copper.mp3,media/calls/sunbird-copper.mp3,,Yes
-sunbird-dusky,Dusky Sunbird,Sunbird,No,Sunbird Dusky.mp3,media/calls/sunbird-dusky.mp3,,Yes
-sunbird-greater-double-collared,Greater Double-collared Sunbird,Sunbird,No,Sunbird Greater Double-collared.mp3,media/calls/sunbird-greater-double-collared.mp3,,Yes
-sunbird-grey,Grey Sunbird,Sunbird,No,Sunbird Grey.mp3,media/calls/sunbird-grey.mp3,,Yes
-sunbird-marico,Marico Sunbird,Sunbird,No,Sunbird Marico.mp3,media/calls/sunbird-marico.mp3,,Yes
-sunbird-miombo-double-collared,Miombo Double-collared Sunbird,Sunbird,No,Sunbird Miombo Double-collared.mp3,media/calls/sunbird-miombo-double-collared.mp3,,Yes
-sunbird-neergaards,Neergaard's Sunbird,Sunbird,No,Sunbird Neergaard's.mp3,media/calls/sunbird-neergaards.mp3,,Yes
-sunbird-olive,Olive Sunbird,Sunbird,No,Sunbird Olive.mp3,media/calls/sunbird-olive.mp3,,Yes
-sunbird-plain-backed,Plain-backed Sunbird,Sunbird,No,Sunbird Plain-backed.mp3,media/calls/sunbird-plain-backed.mp3,,Yes
-sunbird-purple-banded,Purple-banded Sunbird,Sunbird,Yes,Sunbird Purple-banded.mp3,media/calls/sunbird-purple-banded.mp3,media/birds/purple-banded-sunbird.jpg,Yes
-sunbird-shelleys,Shelley's Sunbird,Sunbird,No,Sunbird Shelley's.mp3,media/calls/sunbird-shelleys.mp3,,Yes
-sunbird-southern-double-collared,Southern Double-collared Sunbird,Sunbird,No,Sunbird Southern Double-collared.mp3,media/calls/sunbird-southern-double-collared.mp3,,Yes
-sunbird-variable,Variable Sunbird,Sunbird,No,Sunbird Variable.mp3,media/calls/sunbird-variable.mp3,,Yes
-sunbird-western-violet-backed,Western Violet-backed Sunbird,Sunbird,No,Sunbird Western Violet-backed.mp3,media/calls/sunbird-western-violet-backed.mp3,,Yes
-sunbird-white-bellied,White-bellied Sunbird,Sunbird,No,Sunbird White-bellied.mp3,media/calls/sunbird-white-bellied.mp3,,Yes
-tchagra-anchietas,Anchieta's Tchagra,Tchagra,No,Tchagra Anchieta's.mp3,media/calls/tchagra-anchietas.mp3,,Yes
-tchagra-black-crowned,Black-crowned Tchagra,Tchagra,No,Tchagra Black-crowned.mp3,media/calls/tchagra-black-crowned.mp3,,Yes
-tchagra-brown-crowned,Brown-crowned Tchagra,Tchagra,No,Tchagra Brown-crowned.mp3,media/calls/tchagra-brown-crowned.mp3,,Yes
-tchagra-southern,Southern Tchagra,Tchagra,No,Tchagra Southern.mp3,media/calls/tchagra-southern.mp3,,Yes
-thick-knee-spotted,Spotted Thick-knee,Thick-knee,No,Thick-knee Spotted.mp3,media/calls/thick-knee-spotted.mp3,,Yes
-thick-knee-water,Water Thick-knee,Thick-knee,No,Thick-knee Water.mp3,media/calls/thick-knee-water.mp3,,Yes
-thrush-cape-rock,Cape Rock Thrush,Thrush,No,Thrush Cape Rock.mp3,media/calls/thrush-cape-rock.mp3,,Yes
-thrush-groundscraper,Groundscraper Thrush,Thrush,No,Thrush Groundscraper.mp3,media/calls/thrush-groundscraper.mp3,,Yes
-thrush-kurrichane,Kurrichane Thrush,Thrush,No,Thrush Kurrichane.mp3,media/calls/thrush-kurrichane.mp3,,Yes
-thrush-miombo-rock,Miombo Rock Thrush,Thrush,No,Thrush Miombo Rock.mp3,media/calls/thrush-miombo-rock.mp3,,Yes
-thrush-olive,Olive Thrush,Thrush,No,Thrush Olive.mp3,media/calls/thrush-olive.mp3,,Yes
-thrush-orange-ground,Orange Ground Thrush,Thrush,No,Thrush Orange Ground.mp3,media/calls/thrush-orange-ground.mp3,,Yes
-thrush-sentinel-rock,Sentinel Rock Thrush,Thrush,No,Thrush Sentinel Rock.mp3,media/calls/thrush-sentinel-rock.mp3,,Yes
-thrush-short-toed-rock,Short-toed Rock Thrush,Thrush,No,Thrush Short-toed Rock.mp3,media/calls/thrush-short-toed-rock.mp3,,Yes
-thrush-spotted-ground,Spotted Ground Thrush,Thrush,No,Thrush Spotted Ground.mp3,media/calls/thrush-spotted-ground.mp3,,Yes
-tinkerbird-green,Green Tinkerbird,Tinkerbird,No,Tinkerbird Green.mp3,media/calls/tinkerbird-green.mp3,,Yes
-tinkerbird-red-fronted,Red-fronted Tinkerbird,Tinkerbird,No,Tinkerbird Red-fronted.mp3,media/calls/tinkerbird-red-fronted.mp3,,Yes
-tit-ashy,Ashy Tit,Tit,No,Tit Ashy.mp3,media/calls/tit-ashy.mp3,,Yes
-tit-cape-penduline,Cape Penduline-Tit,Tit,No,Tit Cape Penduline.mp3,media/calls/tit-cape-penduline.mp3,,Yes
-tit-carps-black,Carp's Black Tit,Tit,No,Tit Carp's Black.mp3,media/calls/tit-carps-black.mp3,,Yes
-tit-grey-penduline,Grey Penduline-Tit,Tit,Yes,Tit Grey Penduline.mp3,media/calls/tit-grey-penduline.mp3,media/birds/grey-penduline-tit.jpg,Yes
-tit-grey,Grey Tit,Tit,No,Tit Grey.mp3,media/calls/tit-grey.mp3,,Yes
-tit-miombo,Miombo Tit,Tit,No,Tit Miombo.mp3,media/calls/tit-miombo.mp3,,Yes
-tit-rufous-bellied,Rufous-bellied Tit,Tit,No,Tit Rufous-bellied.mp3,media/calls/tit-rufous-bellied.mp3,,Yes
-tit-southern-black,Southern Black Tit,Tit,No,Tit Southern Black.mp3,media/calls/tit-southern-black.mp3,,Yes
-tit-babbler-chestnut-vented,Chestnut-vented Tit-babbler,Tit-babbler,No,Tit-babbler Chestnut-vented.mp3,media/calls/tit-babbler-chestnut-vented.mp3,,Yes
-tit-babbler-layards,Layard's Tit-babbler,Tit-babbler,No,Tit-babbler Layard's.mp3,media/calls/tit-babbler-layards.mp3,,Yes
-trogon-narina,Narina Trogon,Trogon,No,Trogon Narina.mp3,media/calls/trogon-narina.mp3,,Yes
-turaco-knysna,Knysna Turaco,Turaco,No,Turaco Knysna.mp3,media/calls/turaco-knysna.mp3,,Yes
-turaco-livingstones,Livingstone's Turaco,Turaco,No,Turaco Livingstone's.mp3,media/calls/turaco-livingstones.mp3,,Yes
-turaco-purple-crested,Purple-crested Turaco,Turaco,No,Turaco Purple-crested.mp3,media/calls/turaco-purple-crested.mp3,,Yes
-turaco-rosss,Ross's Turaco,Turaco,No,Turaco Ross's.mp3,media/calls/turaco-rosss.mp3,,Yes
-turaco-shalows,Shalow's Turaco,Turaco,No,Turaco Shalow's.mp3,media/calls/turaco-shalows.mp3,,Yes
-twinspot-green,Green Twinspot,Twinspot,No,Twinspot Green.mp3,media/calls/twinspot-green.mp3,,Yes
-twinspot-pink-throated,Pink-throated Twinspot,Twinspot,No,Twinspot Pink-throated.mp3,media/calls/twinspot-pink-throated.mp3,,Yes
-twinspot-red-throated,Red-throated Twinspot,Twinspot,No,Twinspot Red-throated.mp3,media/calls/twinspot-red-throated.mp3,,Yes
-wagtail-mountain,Mountain Wagtail,Wagtail,No,Wagtail Mountain.mp3,media/calls/wagtail-mountain.mp3,,Yes
-warbler-african-reed,African Reed Warbler,Warbler,No,Warbler African Reed.mp3,media/calls/warbler-african-reed.mp3,,Yes
-warbler-barratts,Barratt's Warbler,Warbler,No,Warbler Barratt's.mp3,media/calls/warbler-barratts.mp3,,Yes
-warbler-barred-wren,Barred Wren Warbler,Warbler,No,Warbler Barred Wren.mp3,media/calls/warbler-barred-wren.mp3,,Yes
-warbler-basra-reed,Basra Reed Warbler,Warbler,No,Warbler Basra Reed.mp3,media/calls/warbler-basra-reed.mp3,,Yes
-warbler-cinnamon-reed,Cinnamon Reed Warbler,Warbler,No,Warbler Cinnamon Reed.mp3,media/calls/warbler-cinnamon-reed.mp3,,Yes
-warbler-cinnamon-breasted,Cinnamon-breasted Warbler,Warbler,No,Warbler Cinnamon-breasted.mp3,media/calls/warbler-cinnamon-breasted.mp3,,Yes
-warbler-eurasian-reed,Eurasian Reed Warbler,Warbler,No,Warbler Eurasian Reed.mp3,media/calls/warbler-eurasian-reed.mp3,,Yes
-warbler-fairy,Fairy Warbler,Warbler,No,Warbler Fairy.mp3,media/calls/warbler-fairy.mp3,,Yes
-warbler-garden,Garden Warbler,Warbler,No,Warbler Garden.mp3,media/calls/warbler-garden.mp3,,Yes
-warbler-great-reed,Great Reed Warbler,Warbler,No,Warbler Great Reed.mp3,media/calls/warbler-great-reed.mp3,,Yes
-warbler-greater-swamp,Greater Swamp Warbler,Warbler,No,Warbler Greater Swamp.mp3,media/calls/warbler-greater-swamp.mp3,,Yes
-warbler-icterine,Icterine Warbler,Warbler,No,Warbler Icterine.mp3,media/calls/warbler-icterine.mp3,,Yes
-warbler-knysna,Knysna Warbler,Warbler,No,Warbler Knysna.mp3,media/calls/warbler-knysna.mp3,,Yes
-warbler-lesser-swamp,Lesser Swamp Warbler,Warbler,No,Warbler Lesser Swamp.mp3,media/calls/warbler-lesser-swamp.mp3,,Yes
-warbler-little-rush,Little Rush Warbler,Warbler,No,Warbler Little Rush.mp3,media/calls/warbler-little-rush.mp3,,Yes
-warbler-marsh,Marsh Warbler,Warbler,No,Warbler Marsh.mp3,media/calls/warbler-marsh.mp3,,Yes
-warbler-moustached-grass,Moustached Grass Warbler,Warbler,No,Warbler Moustached Grass.mp3,media/calls/warbler-moustached-grass.mp3,,Yes
-warbler-namaqua,Namaqua Warbler,Warbler,No,Warbler Namaqua.mp3,media/calls/warbler-namaqua.mp3,,Yes
-warbler-olive-tree,Olive-tree Warbler,Warbler,No,Warbler Olive-tree.mp3,media/calls/warbler-olive-tree.mp3,,Yes
-warbler-red-winged,Red-winged Warbler,Warbler,No,Warbler Red-winged.mp3,media/calls/warbler-red-winged.mp3,,Yes
-warbler-river,River Warbler,Warbler,No,Warbler River.mp3,media/calls/warbler-river.mp3,,Yes
-warbler-roberts,Robert's Warbler,Warbler,No,Warbler Robert's.mp3,media/calls/warbler-roberts.mp3,,Yes
-warbler-rufous-eared,Rufous-eared Warbler,Warbler,No,Warbler Rufous-eared.mp3,media/calls/warbler-rufous-eared.mp3,,Yes
-warbler-sedge,Sedge Warbler,Warbler,No,Warbler Sedge.mp3,media/calls/warbler-sedge.mp3,,Yes
-warbler-stierlings-wren,Stierling's Wren Warbler,Warbler,No,Warbler Stierling's Wren.mp3,media/calls/warbler-stierlings-wren.mp3,,Yes
-warbler-victorins,Victorin's Warbler,Warbler,No,Warbler Victorin's.mp3,media/calls/warbler-victorins.mp3,,Yes
-warbler-willow,Willow Warbler,Warbler,No,Warbler Willow.mp3,media/calls/warbler-willow.mp3,,Yes
-warbler-yellow-throated-woodland,Yellow-throated Woodland Warbler,Warbler,No,Warbler Yellow-throated Woodland.mp3,media/calls/warbler-yellow-throated-woodland.mp3,,Yes
-warbler-yellow,Yellow Warbler,Warbler,No,Warbler Yellow.mp3,media/calls/warbler-yellow.mp3,,Yes
-wattle-eye-black-throated,Black-throated Wattle-eye,Wattle-eye,No,Wattle-eye Black-throated.mp3,media/calls/wattle-eye-black-throated.mp3,,Yes
-waxbill-black-faced,Black-faced Waxbill,Waxbill,Yes,Waxbill Black-faced.mp3,media/calls/waxbill-black-faced.mp3,media/birds/black-faced-waxbill.jpg,Yes
-waxbill-cinderella,Cinderella Waxbill,Waxbill,No,Waxbill Cinderella.mp3,media/calls/waxbill-cinderella.mp3,,Yes
-waxbill-grey,Grey Waxbill,Waxbill,No,Waxbill Grey.mp3,media/calls/waxbill-grey.mp3,,Yes
-waxbill-orange-breasted,Orange-breasted Waxbill,Waxbill,No,Waxbill Orange-breasted.mp3,media/calls/waxbill-orange-breasted.mp3,,Yes
-waxbill-swee,Swee Waxbill,Waxbill,No,Waxbill Swee.mp3,media/calls/waxbill-swee.mp3,,Yes
-waxbill-violet-eared,Violet-eared Waxbill,Waxbill,Yes,Waxbill Violet-eared.mp3,media/calls/waxbill-violet-eared.mp3,media/birds/violet-eared-waxbill.jpg,Yes
-waxbill-yellow-bellied,Yellow-bellied Waxbill,Waxbill,No,Waxbill Yellow-bellied.mp3,media/calls/waxbill-yellow-bellied.mp3,,Yes
-weaver-dark-backed,Dark-backed Weaver,Weaver,No,Weaver Dark-backed.mp3,media/calls/weaver-dark-backed.mp3,,Yes
-weaver-golden,Golden Weaver,Weaver,No,Weaver Golden.mp3,media/calls/weaver-golden.mp3,,Yes
-weaver-red-billed-buffalo,Red-billed Buffalo-Weaver,Weaver,Yes,Weaver Red-billed Buffalo.mp3,media/calls/weaver-red-billed-buffalo.mp3,media/birds/red-billed-buffalo-weaver.jpg,Yes
-weaver-spectacled,Spectacled Weaver,Weaver,No,Weaver Spectacled.mp3,media/calls/weaver-spectacled.mp3,,Yes
-wheatear-capped,Capped Wheatear,Wheatear,No,Wheatear Capped.mp3,media/calls/wheatear-capped.mp3,,Yes
-wheatear-mountain,Mountain Wheatear,Wheatear,No,Wheatear Mountain.mp3,media/calls/wheatear-mountain.mp3,,Yes
-white-eye-yellow,Yellow White-eye,White-eye,No,White-eye Yellow.mp3,media/calls/white-eye-yellow.mp3,,Yes
-whitethroat-greater,Greater Whitethroat,Whitethroat,No,Whitethroat Greater.mp3,media/calls/whitethroat-greater.mp3,,Yes
-whydah-broad-tailed-paradise,Broad-tailed Paradise Whydah,Whydah,No,Whydah Broad-tailed Paradise.mp3,media/calls/whydah-broad-tailed-paradise.mp3,,Yes
-wood-hoopoe-violet,Violet Wood-Hoopoe,Wood,No,Wood Hoopoe Violet.mp3,media/calls/wood-hoopoe-violet.mp3,,Yes
-woodpecker-bearded,Bearded Woodpecker,Woodpecker,No,Woodpecker Bearded.mp3,media/calls/woodpecker-bearded.mp3,,Yes
-woodpecker-bennetts,Bennett's Woodpecker,Woodpecker,No,Woodpecker Bennett's.mp3,media/calls/woodpecker-bennetts.mp3,,Yes
-woodpecker-cardinal,Cardinal Woodpecker,Woodpecker,No,Woodpecker Cardinal.mp3,media/calls/woodpecker-cardinal.mp3,,Yes
-woodpecker-golden-tailed,Golden-tailed Woodpecker,Woodpecker,No,Woodpecker Golden-tailed.mp3,media/calls/woodpecker-golden-tailed.mp3,,Yes
-woodpecker-green-backed,Green-backed Woodpecker,Woodpecker,No,Woodpecker Green-backed.mp3,media/calls/woodpecker-green-backed.mp3,,Yes
-woodpecker-ground,Ground Woodpecker,Woodpecker,No,Woodpecker Ground.mp3,media/calls/woodpecker-ground.mp3,,Yes
-woodpecker-knysna,Knysna Woodpecker,Woodpecker,No,Woodpecker Knysna.mp3,media/calls/woodpecker-knysna.mp3,,Yes
-woodpecker-olive,Olive Woodpecker,Woodpecker,No,Woodpecker Olive.mp3,media/calls/woodpecker-olive.mp3,,Yes
-wryneck-red-throated,Red-throated Wryneck,Wryneck,No,Wryneck Red-throated.mp3,media/calls/wryneck-red-throated.mp3,,Yes
+ID,Common name,Group (file),In FGASA 80?,Call file (original),Call (app),Photo (app),Active,Source library
+akalat-east-coast,East Coast Akalat,Akalat,No,Akalat East Coast.mp3,media/calls/akalat-east-coast.mp3,,Yes,Bird calls SA (447)
+alethe-white-breasted,White-breasted Alethe,Alethe,No,Alethe White-breasted.mp3,media/calls/alethe-white-breasted.mp3,,Yes,Bird calls SA (447)
+apalis-bar-throated,Bar-throated Apalis,Apalis,No,Apalis Bar-throated.mp3,media/calls/apalis-bar-throated.mp3,,Yes,Bird calls SA (447)
+apalis-black-headed,Black-headed Apalis,Apalis,No,Apalis Black-headed.mp3,media/calls/apalis-black-headed.mp3,,Yes,Bird calls SA (447)
+apalis-chirinda,Chirinda Apalis,Apalis,No,Apalis Chirinda.mp3,media/calls/apalis-chirinda.mp3,,Yes,Bird calls SA (447)
+apalis-rudds,Rudd's Apalis,Apalis,No,Apalis Rudd's.mp3,media/calls/apalis-rudds.mp3,,Yes,Bird calls SA (447)
+apalis-yellow-breasted,Yellow-breasted Apalis,Apalis,Yes,Apalis Yellow-breasted.mp3,media/calls/apalis-yellow-breasted.mp3,media/birds/yellow-breasted-apalis.jpg,Yes,Bird calls SA (447)
+babbler-arrow-marked,Arrow-marked Babbler,Babbler,Yes,Babbler Arrow-marked.mp3,media/calls/babbler-arrow-marked.mp3,media/birds/arrow-marked-babbler.jpg,Yes,Bird calls SA (447)
+babbler-bare-cheeked,Bare-cheeked Babbler,Babbler,No,Babbler Bare-cheeked.mp3,media/calls/babbler-bare-cheeked.mp3,,Yes,Bird calls SA (447)
+babbler-black-faced,Black-faced Babbler,Babbler,No,Babbler Black-faced.mp3,media/calls/babbler-black-faced.mp3,,Yes,Bird calls SA (447)
+babbler-hartlaubs,Hartlaub's Babbler,Babbler,No,Babbler Hartlaub's.mp3,media/calls/babbler-hartlaubs.mp3,,Yes,Bird calls SA (447)
+babbler-southern-pied,Southern Pied Babbler,Babbler,No,Babbler Southern Pied.mp3,media/calls/babbler-southern-pied.mp3,,Yes,Bird calls SA (447)
+barbet-acacia-pied,Acacia Pied Barbet,Barbet,No,Barbet Acacia Pied.mp3,media/calls/barbet-acacia-pied.mp3,,Yes,Bird calls SA (447)
+barbet-black-collared,Black-collared Barbet,Barbet,No,Barbet Black-collared.mp3,media/calls/barbet-black-collared.mp3,,Yes,Bird calls SA (447)
+barbet-crested,Crested Barbet,Barbet,No,Barbet Crested.mp3,media/calls/barbet-crested.mp3,,Yes,Bird calls SA (447)
+barbet-white-eared,White-eared Barbet,Barbet,No,Barbet White-eared.mp3,media/calls/barbet-white-eared.mp3,,Yes,Bird calls SA (447)
+barbet-whytes,Whyte's Barbet,Barbet,No,Barbet Whyte's.mp3,media/calls/barbet-whytes.mp3,,Yes,Bird calls SA (447)
+barbet-woodwards,Woodward's Barbet,Barbet,No,Barbet Woodward's.mp3,media/calls/barbet-woodwards.mp3,,Yes,Bird calls SA (447)
+barbet-yellow-fronted-tinker,Yellow-fronted Tinkerbird,Barbet,No,Barbet Yellow-fronted Tinker.mp3,media/calls/barbet-yellow-fronted-tinker.mp3,,Yes,Bird calls SA (447)
+barbet-yellow-rumped-tinker,Yellow-rumped Tinkerbird,Barbet,No,Barbet Yellow-rumped Tinker.mp3,media/calls/barbet-yellow-rumped-tinker.mp3,,Yes,Bird calls SA (447)
+batis-cape,Cape Batis,Batis,No,Batis Cape.mp3,media/calls/batis-cape.mp3,,Yes,Bird calls SA (447)
+batis-chinspot,Chinspot Batis,Batis,No,Batis Chinspot.mp3,media/calls/batis-chinspot.mp3,,Yes,Bird calls SA (447)
+batis-pale,Pale Batis,Batis,No,Batis Pale.mp3,media/calls/batis-pale.mp3,,Yes,Bird calls SA (447)
+batis-pririt,Pririt Batis,Batis,No,Batis Pririt.mp3,media/calls/batis-pririt.mp3,,Yes,Bird calls SA (447)
+batis-woodwards,Woodward's Batis,Batis,No,Batis Woodward's.mp3,media/calls/batis-woodwards.mp3,,Yes,Bird calls SA (447)
+bittern-dwarf,Dwarf Bittern,Bittern,No,Bittern Dwarf.mp3,media/calls/bittern-dwarf.mp3,,Yes,Bird calls SA (447)
+bittern-little,Little Bittern,Bittern,No,Bittern Little.mp3,media/calls/bittern-little.mp3,,Yes,Bird calls SA (447)
+bittern,Eurasian Bittern,Bittern,No,Bittern.mp3,media/calls/bittern.mp3,,Yes,Bird calls SA (447)
+blackcap-bush,Bush Blackcap,Blackcap,No,Blackcap Bush.mp3,media/calls/blackcap-bush.mp3,,Yes,Bird calls SA (447)
+bokmakierie,Bokmakierie,Bokmakierie,No,Bokmakierie.mp3,media/calls/bokmakierie.mp3,,Yes,Bird calls SA (447)
+boubou-southern,Southern Boubou,Boubou,No,Boubou Southern.mp3,media/calls/boubou-southern.mp3,,Yes,Bird calls SA (447)
+boubou-swamp,Swamp Boubou,Boubou,No,Boubou Swamp.mp3,media/calls/boubou-swamp.mp3,,Yes,Bird calls SA (447)
+boubou-tropical,Tropical Boubou,Boubou,Yes,Boubou Tropical.mp3,media/calls/boubou-tropical.mp3,media/birds/tropical-boubou.jpg,Yes,Bird calls SA (447)
+broadbill-african,African Broadbill,Broadbill,No,Broadbill African.mp3,media/calls/broadbill-african.mp3,,Yes,Bird calls SA (447)
+brownbul-terrestrial,Terrestrial Brownbul,Brownbul,No,Brownbul Terrestrial.mp3,media/calls/brownbul-terrestrial.mp3,,Yes,Bird calls SA (447)
+brubru,Brubru,Brubru,No,Brubru.mp3,media/calls/brubru.mp3,,Yes,Bird calls SA (447)
+bulbul-african-red-eyed,African Red-eyed Bulbul,Bulbul,No,Bulbul African Red-eyed.mp3,media/calls/bulbul-african-red-eyed.mp3,,Yes,Bird calls SA (447)
+bulbul-cape,Cape Bulbul,Bulbul,No,Bulbul Cape.mp3,media/calls/bulbul-cape.mp3,,Yes,Bird calls SA (447)
+bunting-cabaniss,Cabanis's Bunting,Bunting,No,Bunting Cabanis's.mp3,media/calls/bunting-cabaniss.mp3,,Yes,Bird calls SA (447)
+bunting-cape,Cape Bunting,Bunting,No,Bunting Cape.mp3,media/calls/bunting-cape.mp3,,Yes,Bird calls SA (447)
+bunting-cinnamon-breasted,Cinnamon-breasted Bunting,Bunting,No,Bunting Cinnamon-breasted.mp3,media/calls/bunting-cinnamon-breasted.mp3,,Yes,Bird calls SA (447)
+bunting-golden-breasted,Golden-breasted Bunting,Bunting,No,Bunting Golden-breasted.mp3,media/calls/bunting-golden-breasted.mp3,,Yes,Bird calls SA (447)
+bunting-lark-like,Lark-like Bunting,Bunting,No,Bunting Lark-like.mp3,media/calls/bunting-lark-like.mp3,,Yes,Bird calls SA (447)
+bushshrike-black-fronted,Black-fronted Bushshrike,Bushshrike,No,Bushshrike Black-fronted.mp3,media/calls/bushshrike-black-fronted.mp3,,Yes,Bird calls SA (447)
+bushshrike-gorgeous,Gorgeous Bushshrike,Bushshrike,No,Bushshrike Gorgeous.mp3,media/calls/bushshrike-gorgeous.mp3,,Yes,Bird calls SA (447)
+bushshrike-grey-headed,Grey-headed Bushshrike,Bushshrike,No,Bushshrike Grey-headed.mp3,media/calls/bushshrike-grey-headed.mp3,,Yes,Bird calls SA (447)
+bushshrike-olive,Olive Bushshrike,Bushshrike,No,Bushshrike Olive.mp3,media/calls/bushshrike-olive.mp3,,Yes,Bird calls SA (447)
+bushshrike-orange-breasted,Orange-breasted Bushshrike,Bushshrike,Yes,Bushshrike Orange-breasted.mp3,media/calls/bushshrike-orange-breasted.mp3,media/birds/orange-breasted-bush-shrike.jpg,Yes,Bird calls SA (447)
+bustard-barrows,Barrow's Bustard,Bustard,No,Bustard Barrow's.mp3,media/calls/bustard-barrows.mp3,,Yes,Bird calls SA (447)
+bustard-blue,Blue Bustard,Bustard,No,Bustard Blue.mp3,media/calls/bustard-blue.mp3,,Yes,Bird calls SA (447)
+bustard-karoo,Karoo Bustard,Bustard,No,Bustard Karoo.mp3,media/calls/bustard-karoo.mp3,,Yes,Bird calls SA (447)
+bustard-red-crested,Red-crested Bustard,Bustard,No,Bustard Red-crested.mp3,media/calls/bustard-red-crested.mp3,,Yes,Bird calls SA (447)
+bustard-ruppells,Ruppell's Bustard,Bustard,No,Bustard Ruppell's.mp3,media/calls/bustard-ruppells.mp3,,Yes,Bird calls SA (447)
+bustard-southern-black,Southern Black Bustard,Bustard,No,Bustard Southern Black.mp3,media/calls/bustard-southern-black.mp3,,Yes,Bird calls SA (447)
+buttonquail-black-rumped,Black-rumped Buttonquail,Buttonquail,No,Buttonquail Black-rumped.mp3,media/calls/buttonquail-black-rumped.mp3,,Yes,Bird calls SA (447)
+camaroptera-green-backed,Green-backed Camaroptera,Camaroptera,No,Camaroptera Green-backed.mp3,media/calls/camaroptera-green-backed.mp3,,Yes,Bird calls SA (447)
+camaroptera-grey-backed,Grey-backed Camaroptera,Camaroptera,Yes,Camaroptera Grey-backed.mp3,media/calls/camaroptera-grey-backed.mp3,media/birds/grey-backed-camaroptera.jpg,Yes,Bird calls SA (447)
+canary-black-eared,Black-eared Canary,Canary,No,Canary Black-eared.mp3,media/calls/canary-black-eared.mp3,,Yes,Bird calls SA (447)
+canary-black-headed,Black-headed Canary,Canary,No,Canary Black-headed.mp3,media/calls/canary-black-headed.mp3,,Yes,Bird calls SA (447)
+canary-black-throated,Black-throated Canary,Canary,No,Canary Black-throated.mp3,media/calls/canary-black-throated.mp3,,Yes,Bird calls SA (447)
+canary-brimstone,Brimstone Canary,Canary,No,Canary Brimstone.mp3,media/calls/canary-brimstone.mp3,,Yes,Bird calls SA (447)
+canary-cape,Cape Canary,Canary,No,Canary Cape.mp3,media/calls/canary-cape.mp3,,Yes,Bird calls SA (447)
+canary-forest,Forest Canary,Canary,No,Canary Forest.mp3,media/calls/canary-forest.mp3,,Yes,Bird calls SA (447)
+canary-lemon-breasted,Lemon-breasted Canary,Canary,No,Canary Lemon-breasted.mp3,media/calls/canary-lemon-breasted.mp3,,Yes,Bird calls SA (447)
+canary-protea,Protea Canary,Canary,No,Canary Protea.mp3,media/calls/canary-protea.mp3,,Yes,Bird calls SA (447)
+canary-streaky-headed,Streaky-headed Canary,Canary,No,Canary Streaky-headed.mp3,media/calls/canary-streaky-headed.mp3,,Yes,Bird calls SA (447)
+canary-white-throated,White-throated Canary,Canary,No,Canary White-throated.mp3,media/calls/canary-white-throated.mp3,,Yes,Bird calls SA (447)
+canary-yellow,Yellow Canary,Canary,No,Canary Yellow.mp3,media/calls/canary-yellow.mp3,,Yes,Bird calls SA (447)
+chaffinch,Chaffinch,Chaffinch,No,Chaffinch.mp3,media/calls/chaffinch.mp3,,Yes,Bird calls SA (447)
+chat-arnots,Arnot's Chat,Chat,Yes,Chat Arnot's.mp3,media/calls/chat-arnots.mp3,media/birds/arnots-chat.jpg,Yes,Bird calls SA (447)
+chat-boulder,Boulder Chat,Chat,No,Chat Boulder.mp3,media/calls/chat-boulder.mp3,,Yes,Bird calls SA (447)
+chat-buff-streaked,Buff-streaked Chat,Chat,No,Chat Buff-streaked.mp3,media/calls/chat-buff-streaked.mp3,,Yes,Bird calls SA (447)
+chat-familiar,Familiar Chat,Chat,No,Chat Familiar.mp3,media/calls/chat-familiar.mp3,,Yes,Bird calls SA (447)
+chat-herero,Herero Chat,Chat,No,Chat Herero.mp3,media/calls/chat-herero.mp3,,Yes,Bird calls SA (447)
+chat-karoo,Karoo Chat,Chat,No,Chat Karoo.mp3,media/calls/chat-karoo.mp3,,Yes,Bird calls SA (447)
+chat-mocking-cliff,Mocking Cliff Chat,Chat,No,Chat Mocking Cliff.mp3,media/calls/chat-mocking-cliff.mp3,,Yes,Bird calls SA (447)
+chat-sickle-winged,Sickle-winged Chat,Chat,No,Chat Sickle-winged.mp3,media/calls/chat-sickle-winged.mp3,,Yes,Bird calls SA (447)
+chat-tractrac,Tractrac Chat,Chat,No,Chat Tractrac.mp3,media/calls/chat-tractrac.mp3,,Yes,Bird calls SA (447)
+cisticola-chirping,Chirping Cisticola,Cisticola,No,Cisticola Chirping.mp3,media/calls/cisticola-chirping.mp3,,Yes,Bird calls SA (447)
+cisticola-cloud,Cloud Cisticola,Cisticola,No,Cisticola Cloud.mp3,media/calls/cisticola-cloud.mp3,,Yes,Bird calls SA (447)
+cisticola-croaking,Croaking Cisticola,Cisticola,No,Cisticola Croaking.mp3,media/calls/cisticola-croaking.mp3,,Yes,Bird calls SA (447)
+cisticola-desert,Desert Cisticola,Cisticola,No,Cisticola Desert.mp3,media/calls/cisticola-desert.mp3,,Yes,Bird calls SA (447)
+cisticola-grey-backed,Grey-backed Cisticola,Cisticola,No,Cisticola Grey-backed.mp3,media/calls/cisticola-grey-backed.mp3,,Yes,Bird calls SA (447)
+cisticola-lazy,Lazy Cisticola,Cisticola,No,Cisticola Lazy.mp3,media/calls/cisticola-lazy.mp3,,Yes,Bird calls SA (447)
+cisticola-levaillants,Levaillant's Cisticola,Cisticola,No,Cisticola Levaillant's.mp3,media/calls/cisticola-levaillants.mp3,,Yes,Bird calls SA (447)
+cisticola-pale-crowned,Pale-crowned Cisticola,Cisticola,No,Cisticola Pale-crowned.mp3,media/calls/cisticola-pale-crowned.mp3,,Yes,Bird calls SA (447)
+cisticola-rattling,Rattling Cisticola,Cisticola,No,Cisticola Rattling.mp3,media/calls/cisticola-rattling.mp3,,Yes,Bird calls SA (447)
+cisticola-red-faced,Red-faced Cisticola,Cisticola,Yes,Cisticola Red-faced.mp3,media/calls/cisticola-red-faced.mp3,media/birds/red-faced-cisticola.jpg,Yes,Bird calls SA (447)
+cisticola-rufous-winged,Rufous-winged Cisticola,Cisticola,No,Cisticola Rufous-winged.mp3,media/calls/cisticola-rufous-winged.mp3,,Yes,Bird calls SA (447)
+cisticola-short-winged,Short-winged Cisticola,Cisticola,No,Cisticola Short-winged.mp3,media/calls/cisticola-short-winged.mp3,,Yes,Bird calls SA (447)
+cisticola-singing,Singing Cisticola,Cisticola,No,Cisticola Singing.mp3,media/calls/cisticola-singing.mp3,,Yes,Bird calls SA (447)
+cisticola-tinkling,Tinkling Cisticola,Cisticola,No,Cisticola Tinkling.mp3,media/calls/cisticola-tinkling.mp3,,Yes,Bird calls SA (447)
+cisticola-wailing,Wailing Cisticola,Cisticola,No,Cisticola Wailing.mp3,media/calls/cisticola-wailing.mp3,,Yes,Bird calls SA (447)
+cisticola-wing-snapping,Wing-snapping Cisticola,Cisticola,No,Cisticola Wing-snapping.mp3,media/calls/cisticola-wing-snapping.mp3,,Yes,Bird calls SA (447)
+cisticola-zitting,Zitting Cisticola,Cisticola,No,Cisticola Zitting.mp3,media/calls/cisticola-zitting.mp3,,Yes,Bird calls SA (447)
+coucal-black,Black Coucal,Coucal,No,Coucal Black.mp3,media/calls/coucal-black.mp3,,Yes,Bird calls SA (447)
+coucal-burchells,Burchell's Coucal,Coucal,No,Coucal Burchell's.mp3,media/calls/coucal-burchells.mp3,,Yes,Bird calls SA (447)
+coucal-coppery-tailed,Coppery-tailed Coucal,Coucal,No,Coucal Coppery-tailed.mp3,media/calls/coucal-coppery-tailed.mp3,,Yes,Bird calls SA (447)
+coucal-senegal,Senegal Coucal,Coucal,No,Coucal Senegal.mp3,media/calls/coucal-senegal.mp3,,Yes,Bird calls SA (447)
+coucal-white-browed,White-browed Coucal,Coucal,No,Coucal White-browed.mp3,media/calls/coucal-white-browed.mp3,,Yes,Bird calls SA (447)
+courser-bronze-winged,Bronze-winged Courser,Courser,Yes,Courser Bronze-winged.mp3,media/calls/courser-bronze-winged.mp3,media/birds/bronze-winged-courser.jpg,Yes,Bird calls SA (447)
+courser-three-banded,Three-banded Courser,Courser,No,Courser Three-banded.mp3,media/calls/courser-three-banded.mp3,,Yes,Bird calls SA (447)
+crake-african,African Crake,Crake,No,Crake African.mp3,media/calls/crake-african.mp3,,Yes,Bird calls SA (447)
+crake-baillons,Baillon's Crake,Crake,No,Crake Baillon's.mp3,media/calls/crake-baillons.mp3,,Yes,Bird calls SA (447)
+crake-black,Black Crake,Crake,Yes,Crake Black.mp3,media/calls/crake-black.mp3,media/birds/black-crake.jpg,Yes,Bird calls SA (447)
+crake-spotted,Spotted Crake,Crake,No,Crake Spotted.mp3,media/calls/crake-spotted.mp3,,Yes,Bird calls SA (447)
+crake-striped,Striped Crake,Crake,No,Crake Striped.mp3,media/calls/crake-striped.mp3,,Yes,Bird calls SA (447)
+creeper-spotted,Spotted Creeper,Creeper,No,Creeper Spotted.mp3,media/calls/creeper-spotted.mp3,,Yes,Bird calls SA (447)
+crimsonwing-red-faced,Red-faced Crimsonwing,Crimsonwing,No,Crimsonwing Red-faced.mp3,media/calls/crimsonwing-red-faced.mp3,,Yes,Bird calls SA (447)
+crombec-long-billed,Long-billed Crombec,Crombec,No,Crombec Long-billed.mp3,media/calls/crombec-long-billed.mp3,,Yes,Bird calls SA (447)
+crombec-red-capped,Red-capped Crombec,Crombec,No,Crombec Red-capped.mp3,media/calls/crombec-red-capped.mp3,,Yes,Bird calls SA (447)
+crombec-red-faced,Red-faced Crombec,Crombec,No,Crombec Red-faced.mp3,media/calls/crombec-red-faced.mp3,,Yes,Bird calls SA (447)
+cuckoo-african,African Cuckoo,Cuckoo,Yes,Cuckoo African.mp3,media/calls/cuckoo-african.mp3,media/birds/african-cuckoo.jpg,Yes,Bird calls SA (447)
+cuckoo-barred,Barred Cuckoo,Cuckoo,No,Cuckoo Barred.mp3,media/calls/cuckoo-barred.mp3,,Yes,Bird calls SA (447)
+cuckoo-black,Black Cuckoo,Cuckoo,Yes,Cuckoo Black.mp3,media/calls/cuckoo-black.mp3,media/birds/black-cuckoo.jpg,Yes,Bird calls SA (447)
+cuckoo-dideric,Dideric Cuckoo,Cuckoo,No,Cuckoo Dideric.mp3,media/calls/cuckoo-dideric.mp3,,Yes,Bird calls SA (447)
+cuckoo-emerald,Emerald Cuckoo,Cuckoo,No,Cuckoo Emerald.mp3,media/calls/cuckoo-emerald.mp3,,Yes,Bird calls SA (447)
+cuckoo-great-spotted,Great Spotted Cuckoo,Cuckoo,Yes,Cuckoo Great Spotted.mp3,media/calls/cuckoo-great-spotted.mp3,media/birds/great-spotted-cuckoo.jpg,Yes,Bird calls SA (447)
+cuckoo-indian-lesser,Indian Lesser Cuckoo,Cuckoo,No,Cuckoo Indian Lesser.mp3,media/calls/cuckoo-indian-lesser.mp3,,Yes,Bird calls SA (447)
+cuckoo-jacobin,Jacobin Cuckoo,Cuckoo,No,Cuckoo Jacobin.mp3,media/calls/cuckoo-jacobin.mp3,,Yes,Bird calls SA (447)
+cuckoo-klaass,Klaas's Cuckoo,Cuckoo,No,Cuckoo Klaas's.mp3,media/calls/cuckoo-klaass.mp3,,Yes,Bird calls SA (447)
+cuckoo-levaillants,Levaillant's Cuckoo,Cuckoo,Yes,Cuckoo Levaillant's.mp3,media/calls/cuckoo-levaillants.mp3,media/birds/levaillants-cuckoo.jpg,Yes,Bird calls SA (447)
+cuckoo-madagascar,Madagascar Cuckoo,Cuckoo,No,Cuckoo Madagascar.mp3,media/calls/cuckoo-madagascar.mp3,,Yes,Bird calls SA (447)
+cuckoo-red-chested,Red-chested Cuckoo,Cuckoo,No,Cuckoo Red-chested.mp3,media/calls/cuckoo-red-chested.mp3,,Yes,Bird calls SA (447)
+cuckoo-thick-billed,Thick-billed Cuckoo,Cuckoo,No,Cuckoo Thick-billed.mp3,media/calls/cuckoo-thick-billed.mp3,,Yes,Bird calls SA (447)
+cuckooshrike-black,Black Cuckooshrike,Cuckooshrike,Yes,Cuckooshrike Black.mp3,media/calls/cuckooshrike-black.mp3,media/birds/black-cuckooshrike.jpg,Yes,Bird calls SA (447)
+cuckooshrike-grey,Grey Cuckooshrike,Cuckooshrike,No,Cuckooshrike Grey.mp3,media/calls/cuckooshrike-grey.mp3,,Yes,Bird calls SA (447)
+cuckooshrike-white-breasted,White-breasted Cuckooshrike,Cuckooshrike,Yes,Cuckooshrike White-breasted.mp3,media/calls/cuckooshrike-white-breasted.mp3,media/birds/white-breasted-cuckooshrike.jpg,Yes,Bird calls SA (447)
+dove-lemon,Lemon Dove,Dove,No,Dove Lemon.mp3,media/calls/dove-lemon.mp3,,Yes,Bird calls SA (447)
+dove-tambourine,Tambourine Dove,Dove,No,Dove Tambourine.mp3,media/calls/dove-tambourine.mp3,,Yes,Bird calls SA (447)
+drongo-square-tailed,Square-tailed Drongo,Drongo,No,Drongo Square-tailed.mp3,media/calls/drongo-square-tailed.mp3,,Yes,Bird calls SA (447)
+eagle-crowned,Crowned Eagle,Eagle,No,Eagle Crowned.mp3,media/calls/eagle-crowned.mp3,,Yes,Bird calls SA (447)
+eremomela-burnt-necked,Burnt-necked Eremomela,Eremomela,Yes,Eremomela Burnt-necked.mp3,media/calls/eremomela-burnt-necked.mp3,media/birds/burnt-necked-eremomela.jpg,Yes,Bird calls SA (447)
+eremomela-green-capped,Green-capped Eremomela,Eremomela,Yes,Eremomela Green-capped.mp3,media/calls/eremomela-green-capped.mp3,media/birds/green-capped-eremomela.jpg,Yes,Bird calls SA (447)
+eremomela-karoo,Karoo Eremomela,Eremomela,No,Eremomela Karoo.mp3,media/calls/eremomela-karoo.mp3,,Yes,Bird calls SA (447)
+eremomela-yellow-bellied,Yellow-bellied Eremomela,Eremomela,No,Eremomela Yellow-bellied.mp3,media/calls/eremomela-yellow-bellied.mp3,,Yes,Bird calls SA (447)
+falcon-taita,Taita Falcon,Falcon,No,Falcon Taita.mp3,media/calls/falcon-taita.mp3,,Yes,Bird calls SA (447)
+finch-cut-throat,Cut-throat Finch,Finch,No,Finch Cut-throat.mp3,media/calls/finch-cut-throat.mp3,,Yes,Bird calls SA (447)
+finch-locust,Locust Finch,Finch,No,Finch Locust.mp3,media/calls/finch-locust.mp3,,Yes,Bird calls SA (447)
+finch-red-headed,Red-headed Finch,Finch,No,Finch Red-headed.mp3,media/calls/finch-red-headed.mp3,,Yes,Bird calls SA (447)
+finch-scaly-feathered,Scaly-feathered Finch,Finch,No,Finch Scaly-feathered.mp3,media/calls/finch-scaly-feathered.mp3,,Yes,Bird calls SA (447)
+firefinch-african,African Firefinch,Firefinch,No,Firefinch African.mp3,media/calls/firefinch-african.mp3,,Yes,Bird calls SA (447)
+firefinch-brown,Brown Firefinch,Firefinch,No,Firefinch Brown.mp3,media/calls/firefinch-brown.mp3,,Yes,Bird calls SA (447)
+firefinch-jamesons,Jameson's Firefinch,Firefinch,No,Firefinch Jameson's.mp3,media/calls/firefinch-jamesons.mp3,,Yes,Bird calls SA (447)
+firefinch-red-billed,Red-billed Firefinch,Firefinch,No,Firefinch Red-billed.mp3,media/calls/firefinch-red-billed.mp3,,Yes,Bird calls SA (447)
+flufftail-buff-spotted,Buff-spotted Flufftail,Flufftail,No,Flufftail Buff-spotted.mp3,media/calls/flufftail-buff-spotted.mp3,,Yes,Bird calls SA (447)
+flufftail-chestnut-headed,Chestnut-headed Flufftail,Flufftail,No,Flufftail Chestnut-headed.mp3,media/calls/flufftail-chestnut-headed.mp3,,Yes,Bird calls SA (447)
+flufftail-red-chested,Red-chested Flufftail,Flufftail,No,Flufftail Red-chested.mp3,media/calls/flufftail-red-chested.mp3,,Yes,Bird calls SA (447)
+flufftail-streaky-breasted,Streaky-breasted Flufftail,Flufftail,No,Flufftail Streaky-breasted.mp3,media/calls/flufftail-streaky-breasted.mp3,,Yes,Bird calls SA (447)
+flufftail-striped,Striped Flufftail,Flufftail,No,Flufftail Striped.mp3,media/calls/flufftail-striped.mp3,,Yes,Bird calls SA (447)
+flufftail-white-winged,White-winged Flufftail,Flufftail,No,Flufftail White-winged.mp3,media/calls/flufftail-white-winged.mp3,,Yes,Bird calls SA (447)
+flycatcher-african-paradise,African Paradise Flycatcher,Flycatcher,No,Flycatcher African Paradise.mp3,media/calls/flycatcher-african-paradise.mp3,,Yes,Bird calls SA (447)
+flycatcher-ashy,Ashy Flycatcher,Flycatcher,Yes,Flycatcher Ashy.mp3,media/calls/flycatcher-ashy.mp3,media/birds/ashy-flycatcher.jpg,Yes,Bird calls SA (447)
+flycatcher-black-and-white-shrike,Black-and-white Shrike-Flycatcher,Flycatcher,No,Flycatcher Black and White Shrike.mp3,media/calls/flycatcher-black-and-white-shrike.mp3,,Yes,Bird calls SA (447)
+flycatcher-blue-mantled-crested,Blue-mantled Crested Flycatcher,Flycatcher,No,Flycatcher Blue-mantled Crested.mp3,media/calls/flycatcher-blue-mantled-crested.mp3,,Yes,Bird calls SA (447)
+flycatcher-chat,Chat Flycatcher,Flycatcher,No,Flycatcher Chat.mp3,media/calls/flycatcher-chat.mp3,,Yes,Bird calls SA (447)
+flycatcher-collared,Collared Flycatcher,Flycatcher,No,Flycatcher Collared.mp3,media/calls/flycatcher-collared.mp3,,Yes,Bird calls SA (447)
+flycatcher-fiscal,Fiscal Flycatcher,Flycatcher,No,Flycatcher Fiscal.mp3,media/calls/flycatcher-fiscal.mp3,,Yes,Bird calls SA (447)
+flycatcher-grey-tit,Grey Tit-Flycatcher,Flycatcher,Yes,Flycatcher Grey Tit.mp3,media/calls/flycatcher-grey-tit.mp3,media/birds/grey-tit-flycatcher.jpg,Yes,Bird calls SA (447)
+flycatcher-livingstones,Livingstone's Flycatcher,Flycatcher,No,Flycatcher Livingstone's.mp3,media/calls/flycatcher-livingstones.mp3,,Yes,Bird calls SA (447)
+flycatcher-marico,Marico Flycatcher,Flycatcher,Yes,Flycatcher Marico.mp3,media/calls/flycatcher-marico.mp3,media/birds/marico-flycatcher.jpg,Yes,Bird calls SA (447)
+flycatcher-southern-black,Southern Black Flycatcher,Flycatcher,Yes,Flycatcher Southern Black.mp3,media/calls/flycatcher-southern-black.mp3,media/birds/southern-black-flycatcher.jpg,Yes,Bird calls SA (447)
+flycatcher-white-tailed-crested,White-tailed Crested Flycatcher,Flycatcher,No,Flycatcher White-tailed Crested.mp3,media/calls/flycatcher-white-tailed-crested.mp3,,Yes,Bird calls SA (447)
+francolin-grey-winged,Grey-winged Francolin,Francolin,No,Francolin Grey-winged.mp3,media/calls/francolin-grey-winged.mp3,,Yes,Bird calls SA (447)
+francolin-hartlaubs,Hartlaub's Francolin,Francolin,No,Francolin Hartlaub's.mp3,media/calls/francolin-hartlaubs.mp3,,Yes,Bird calls SA (447)
+francolin-natal,Natal Francolin,Francolin,No,Francolin Natal.mp3,media/calls/francolin-natal.mp3,,Yes,Bird calls SA (447)
+francolin-orange-river,Orange River Francolin,Francolin,No,Francolin Orange River.mp3,media/calls/francolin-orange-river.mp3,,Yes,Bird calls SA (447)
+francolin-red-necked,Red-necked Francolin,Francolin,No,Francolin Red-necked.mp3,media/calls/francolin-red-necked.mp3,,Yes,Bird calls SA (447)
+francolin-red-winged,Red-winged Francolin,Francolin,No,Francolin Red-winged.mp3,media/calls/francolin-red-winged.mp3,,Yes,Bird calls SA (447)
+francolin-shelleys,Shelley's Francolin,Francolin,No,Francolin Shelley's.mp3,media/calls/francolin-shelleys.mp3,,Yes,Bird calls SA (447)
+francolin-swainsons,Swainson's Francolin,Francolin,No,Francolin Swainson's.mp3,media/calls/francolin-swainsons.mp3,,Yes,Bird calls SA (447)
+gallinule-allens,Allen's Gallinule,Gallinule,Yes,Gallinule Allen's.mp3,media/calls/gallinule-allens.mp3,media/birds/allens-gallinule.jpg,Yes,Bird calls SA (447)
+gallinule-purple,Purple Gallinule,Gallinule,No,Gallinule Purple.mp3,media/calls/gallinule-purple.mp3,,Yes,Bird calls SA (447)
+goshawk-african,African Goshawk,Goshawk,No,Goshawk African.mp3,media/calls/goshawk-african.mp3,,Yes,Bird calls SA (447)
+goshawk-gabar,Gabar Goshawk,Goshawk,Yes,Goshawk Gabar.mp3,media/calls/goshawk-gabar.mp3,media/birds/gabar-goshawk.jpg,Yes,Bird calls SA (447)
+grassbird-cape,Cape Grassbird,Grassbird,No,Grassbird Cape.mp3,media/calls/grassbird-cape.mp3,,Yes,Bird calls SA (447)
+grassbird-fan-tailed,Fan-tailed Grassbird,Grassbird,No,Grassbird Fan-tailed.mp3,media/calls/grassbird-fan-tailed.mp3,,Yes,Bird calls SA (447)
+greenbul-sombre,Sombre Greenbul,Greenbul,No,Greenbul Sombre.mp3,media/calls/greenbul-sombre.mp3,,Yes,Bird calls SA (447)
+greenbul-stripe-cheeked,Stripe-cheeked Greenbul,Greenbul,No,Greenbul Stripe-cheeked.mp3,media/calls/greenbul-stripe-cheeked.mp3,,Yes,Bird calls SA (447)
+greenbul-tiny,Tiny Greenbul,Greenbul,No,Greenbul Tiny.mp3,media/calls/greenbul-tiny.mp3,,Yes,Bird calls SA (447)
+greenbul-yellow-bellied,Yellow-bellied Greenbul,Greenbul,No,Greenbul Yellow-bellied.mp3,media/calls/greenbul-yellow-bellied.mp3,,Yes,Bird calls SA (447)
+greenbul-yellow-streaked,Yellow-streaked Greenbul,Greenbul,No,Greenbul Yellow-streaked.mp3,media/calls/greenbul-yellow-streaked.mp3,,Yes,Bird calls SA (447)
+hawk-cuckoo,African Cuckoo-Hawk,Hawk,No,Hawk Cuckoo.mp3,media/calls/hawk-cuckoo.mp3,,Yes,Bird calls SA (447)
+helmetshrike-chestnut-fronted,Chestnut-fronted Helmetshrike,Helmetshrike,No,Helmetshrike Chestnut-fronted.mp3,media/calls/helmetshrike-chestnut-fronted.mp3,,Yes,Bird calls SA (447)
+helmetshrike-retzs,Retz's Helmetshrike,Helmetshrike,Yes,Helmetshrike Retz's.mp3,media/calls/helmetshrike-retzs.mp3,media/birds/retzs-helmet-shrike.jpg,Yes,Bird calls SA (447)
+helmetshrike-white-crested,White-crested Helmetshrike,Helmetshrike,No,Helmetshrike White-crested.mp3,media/calls/helmetshrike-white-crested.mp3,,Yes,Bird calls SA (447)
+honeybird-brown-backed,Brown-backed Honeybird,Honeybird,No,Honeybird Brown-backed.mp3,media/calls/honeybird-brown-backed.mp3,,Yes,Bird calls SA (447)
+honeybird-green-backed,Green-backed Honeybird,Honeybird,No,Honeybird Green-backed.mp3,media/calls/honeybird-green-backed.mp3,,Yes,Bird calls SA (447)
+honeyguide-eastern,Eastern Honeyguide,Honeyguide,No,Honeyguide Eastern.mp3,media/calls/honeyguide-eastern.mp3,,Yes,Bird calls SA (447)
+honeyguide-greater,Greater Honeyguide,Honeyguide,No,Honeyguide Greater.mp3,media/calls/honeyguide-greater.mp3,,Yes,Bird calls SA (447)
+honeyguide-lesser,Lesser Honeyguide,Honeyguide,No,Honeyguide Lesser.mp3,media/calls/honeyguide-lesser.mp3,,Yes,Bird calls SA (447)
+honeyguide-scaly-throated,Scaly-throated Honeyguide,Honeyguide,No,Honeyguide Scaly-throated.mp3,media/calls/honeyguide-scaly-throated.mp3,,Yes,Bird calls SA (447)
+hornbill-bradfields,Bradfield's Hornbill,Hornbill,No,Hornbill Bradfield's.mp3,media/calls/hornbill-bradfields.mp3,,Yes,Bird calls SA (447)
+hornbill-crowned,Crowned Hornbill,Hornbill,No,Hornbill Crowned.mp3,media/calls/hornbill-crowned.mp3,,Yes,Bird calls SA (447)
+hornbill-grey,Grey Hornbill,Hornbill,No,Hornbill Grey.mp3,media/calls/hornbill-grey.mp3,,Yes,Bird calls SA (447)
+hornbill-monteiros,Monteiro's Hornbill,Hornbill,No,Hornbill Monteiro's.mp3,media/calls/hornbill-monteiros.mp3,,Yes,Bird calls SA (447)
+hornbill-red-billed,Red-billed Hornbill,Hornbill,No,Hornbill Red-billed.mp3,media/calls/hornbill-red-billed.mp3,,Yes,Bird calls SA (447)
+hornbill-silvery-cheeked,Silvery-cheeked Hornbill,Hornbill,No,Hornbill Silvery-cheeked.mp3,media/calls/hornbill-silvery-cheeked.mp3,,Yes,Bird calls SA (447)
+hornbill-trumpeter,Trumpeter Hornbill,Hornbill,No,Hornbill Trumpeter.mp3,media/calls/hornbill-trumpeter.mp3,,Yes,Bird calls SA (447)
+hyliota-southern,Southern Hyliota,Hyliota,No,Hyliota Southern.mp3,media/calls/hyliota-southern.mp3,,Yes,Bird calls SA (447)
+hyliota-yellow-bellied,Yellow-bellied Hyliota,Hyliota,No,Hyliota Yellow-bellied.mp3,media/calls/hyliota-yellow-bellied.mp3,,Yes,Bird calls SA (447)
+indigobird-dusky,Dusky Indigobird,Indigobird,No,Indigobird Dusky.mp3,media/calls/indigobird-dusky.mp3,,Yes,Bird calls SA (447)
+indigobird-purple,Purple Indigobird,Indigobird,No,Indigobird Purple.mp3,media/calls/indigobird-purple.mp3,,Yes,Bird calls SA (447)
+indigobird-village,Village Indigobird,Indigobird,No,Indigobird Village.mp3,media/calls/indigobird-village.mp3,,Yes,Bird calls SA (447)
+kingfisher-brown-hooded,Brown-hooded Kingfisher,Kingfisher,No,Kingfisher Brown-hooded.mp3,media/calls/kingfisher-brown-hooded.mp3,,Yes,Bird calls SA (447)
+kingfisher-grey-headed,Grey-headed Kingfisher,Kingfisher,Yes,Kingfisher Grey-headed.mp3,media/calls/kingfisher-grey-headed.mp3,media/birds/grey-headed-kingfisher.jpg,Yes,Bird calls SA (447)
+kingfisher-mangrove,Mangrove Kingfisher,Kingfisher,No,Kingfisher Mangrove.mp3,media/calls/kingfisher-mangrove.mp3,,Yes,Bird calls SA (447)
+kingfisher-striped,Striped Kingfisher,Kingfisher,No,Kingfisher Striped.mp3,media/calls/kingfisher-striped.mp3,,Yes,Bird calls SA (447)
+kingfisher-woodland,Woodland Kingfisher,Kingfisher,No,Kingfisher Woodland.mp3,media/calls/kingfisher-woodland.mp3,,Yes,Bird calls SA (447)
+lark-bothas,Botha's Lark,Lark,No,Lark Botha's.mp3,media/calls/lark-bothas.mp3,,Yes,Bird calls SA (447)
+lark-dune,Dune Lark,Lark,No,Lark Dune.mp3,media/calls/lark-dune.mp3,,Yes,Bird calls SA (447)
+lark-dusky,Dusky Lark,Lark,Yes,Lark Dusky.mp3,media/calls/lark-dusky.mp3,media/birds/dusky-lark.jpg,Yes,Bird calls SA (447)
+lark-eastern-clapper,Eastern Clapper Lark,Lark,No,Lark Eastern Clapper.mp3,media/calls/lark-eastern-clapper.mp3,,Yes,Bird calls SA (447)
+lark-fawn-coloured,Fawn-coloured Lark,Lark,Yes,Lark Fawn-coloured.mp3,media/calls/lark-fawn-coloured.mp3,media/birds/fawn-coloured-lark.jpg,Yes,Bird calls SA (447)
+lark-fawncoloured-2,Fawn-coloured Lark (2nd recording),Lark,No,Lark Fawncoloured 2.mp3,media/calls/lark-fawncoloured-2.mp3,,Yes,Bird calls SA (447)
+lark-karoo-long-billed,Karoo Long-billed Lark,Lark,No,Lark Karoo Long-billed.mp3,media/calls/lark-karoo-long-billed.mp3,,Yes,Bird calls SA (447)
+lark-karoo,Karoo Lark,Lark,No,Lark Karoo.mp3,media/calls/lark-karoo.mp3,,Yes,Bird calls SA (447)
+lark-large-billed,Large-billed Lark,Lark,No,Lark Large-billed.mp3,media/calls/lark-large-billed.mp3,,Yes,Bird calls SA (447)
+lark-melodious,Melodious Lark,Lark,No,Lark Melodious.mp3,media/calls/lark-melodious.mp3,,Yes,Bird calls SA (447)
+lark-monotonous,Monotonous Lark,Lark,Yes,Lark Monotonous.mp3,media/calls/lark-monotonous.mp3,media/birds/monotonous-lark.jpg,Yes,Bird calls SA (447)
+lark-pink-billed,Pink-billed Lark,Lark,No,Lark Pink-billed.mp3,media/calls/lark-pink-billed.mp3,,Yes,Bird calls SA (447)
+lark-red-capped,Red-capped Lark,Lark,No,Lark Red-capped.mp3,media/calls/lark-red-capped.mp3,,Yes,Bird calls SA (447)
+lark-red,Red Lark,Lark,No,Lark Red.mp3,media/calls/lark-red.mp3,,Yes,Bird calls SA (447)
+lark-rudds,Rudd's Lark,Lark,No,Lark Rudd's.mp3,media/calls/lark-rudds.mp3,,Yes,Bird calls SA (447)
+lark-rufous-naped,Rufous-naped Lark,Lark,No,Lark Rufous-naped.mp3,media/calls/lark-rufous-naped.mp3,,Yes,Bird calls SA (447)
+lark-sabota,Sabota Lark,Lark,No,Lark Sabota.mp3,media/calls/lark-sabota.mp3,,Yes,Bird calls SA (447)
+lark-sclaters,Sclater's Lark,Lark,No,Lark Sclater's.mp3,media/calls/lark-sclaters.mp3,,Yes,Bird calls SA (447)
+lark-short-clawed,Short-clawed Lark,Lark,No,Lark Short-clawed.mp3,media/calls/lark-short-clawed.mp3,,Yes,Bird calls SA (447)
+lark-spike-heeled,Spike-heeled Lark,Lark,No,Lark Spike-heeled.mp3,media/calls/lark-spike-heeled.mp3,,Yes,Bird calls SA (447)
+lark-starks,Stark's Lark,Lark,No,Lark Stark's.mp3,media/calls/lark-starks.mp3,,Yes,Bird calls SA (447)
+longclaw-fulleborns,Fulleborn's Longclaw,Longclaw,No,Longclaw Fulleborn's.mp3,media/calls/longclaw-fulleborns.mp3,,Yes,Bird calls SA (447)
+longclaw-orange-throated,Orange-throated Longclaw,Longclaw,No,Longclaw Orange-throated.mp3,media/calls/longclaw-orange-throated.mp3,,Yes,Bird calls SA (447)
+longclaw-rosy-throated,Rosy-throated Longclaw,Longclaw,No,Longclaw Rosy-throated.mp3,media/calls/longclaw-rosy-throated.mp3,,Yes,Bird calls SA (447)
+longclaw-yellow-throated,Yellow-throated Longclaw,Longclaw,No,Longclaw Yellow-throated.mp3,media/calls/longclaw-yellow-throated.mp3,,Yes,Bird calls SA (447)
+lovebird-black-cheeked,Black-cheeked Lovebird,Lovebird,No,Lovebird Black-cheeked.mp3,media/calls/lovebird-black-cheeked.mp3,,Yes,Bird calls SA (447)
+malkoha-green,Green Malkoha,Malkoha,No,Malkoha Green.mp3,media/calls/malkoha-green.mp3,,Yes,Bird calls SA (447)
+mannikin-magpie,Magpie Mannikin,Mannikin,No,Mannikin Magpie.mp3,media/calls/mannikin-magpie.mp3,,Yes,Bird calls SA (447)
+mannikin-red-backed,Red-backed Mannikin,Mannikin,No,Mannikin Red-backed.mp3,media/calls/mannikin-red-backed.mp3,,Yes,Bird calls SA (447)
+moorhen-lesser,Lesser Moorhen,Moorhen,No,Moorhen Lesser.mp3,media/calls/moorhen-lesser.mp3,,Yes,Bird calls SA (447)
+neddicky,Neddicky,Neddicky,No,Neddicky.mp3,media/calls/neddicky.mp3,,Yes,Bird calls SA (447)
+nicator-eastern,Eastern Nicator,Nicator,No,Nicator Eastern.mp3,media/calls/nicator-eastern.mp3,,Yes,Bird calls SA (447)
+nightingale-thrush,Thrush Nightingale,Nightingale,No,Nightingale Thrush.mp3,media/calls/nightingale-thrush.mp3,,Yes,Bird calls SA (447)
+nightjar-fiery-necked,Fiery-necked Nightjar,Nightjar,No,Nightjar Fiery-necked.mp3,media/calls/nightjar-fiery-necked.mp3,,Yes,Bird calls SA (447)
+nightjar-freckled,Freckled Nightjar,Nightjar,No,Nightjar Freckled.mp3,media/calls/nightjar-freckled.mp3,,Yes,Bird calls SA (447)
+nightjar-natal,Natal Nightjar,Nightjar,No,Nightjar Natal.mp3,media/calls/nightjar-natal.mp3,,Yes,Bird calls SA (447)
+nightjar-pennant-winged,Pennant-winged Nightjar,Nightjar,Yes,Nightjar Pennant-winged.mp3,media/calls/nightjar-pennant-winged.mp3,media/birds/pennant-winged-nightjar.jpg,Yes,Bird calls SA (447)
+nightjar-rufous-cheeked,Rufous-cheeked Nightjar,Nightjar,No,Nightjar Rufous-cheeked.mp3,media/calls/nightjar-rufous-cheeked.mp3,,Yes,Bird calls SA (447)
+nightjar-square-tailed,Square-tailed Nightjar,Nightjar,No,Nightjar Square-tailed.mp3,media/calls/nightjar-square-tailed.mp3,,Yes,Bird calls SA (447)
+oriole-african-golden,African Golden Oriole,Oriole,No,Oriole African Golden.mp3,media/calls/oriole-african-golden.mp3,,Yes,Bird calls SA (447)
+oriole-black-headed,Black-headed Oriole,Oriole,No,Oriole Black-headed.mp3,media/calls/oriole-black-headed.mp3,,Yes,Bird calls SA (447)
+oriole-eurasian-golden,Eurasian Golden Oriole,Oriole,No,Oriole Eurasian Golden.mp3,media/calls/oriole-eurasian-golden.mp3,,Yes,Bird calls SA (447)
+oriole-green-headed,Green-headed Oriole,Oriole,No,Oriole Green-headed.mp3,media/calls/oriole-green-headed.mp3,,Yes,Bird calls SA (447)
+owl-african-scops,African Scops-Owl,Owl,Yes,Owl African Scops.mp3,media/calls/owl-african-scops.mp3,media/birds/african-scops-owl.jpg,Yes,Bird calls SA (447)
+owl-african-wood,African Wood Owl,Owl,No,Owl African Wood.mp3,media/calls/owl-african-wood.mp3,,Yes,Bird calls SA (447)
+owl-barn,Barn Owl,Owl,No,Owl Barn.mp3,media/calls/owl-barn.mp3,,Yes,Bird calls SA (447)
+owl-cape-eagle,Cape Eagle Owl,Owl,No,Owl Cape Eagle.mp3,media/calls/owl-cape-eagle.mp3,,Yes,Bird calls SA (447)
+owl-grass,Grass Owl,Owl,No,Owl Grass.mp3,media/calls/owl-grass.mp3,,Yes,Bird calls SA (447)
+owl-marsh,Marsh Owl,Owl,No,Owl Marsh.mp3,media/calls/owl-marsh.mp3,,Yes,Bird calls SA (447)
+owl-pels-fishing,Pel's Fishing-Owl,Owl,Yes,Owl Pel's Fishing.mp3,media/calls/owl-pels-fishing.mp3,media/birds/pels-fishing-owl.jpg,Yes,Bird calls SA (447)
+owl-southern-white-faced,Southern White-faced Owl,Owl,Yes,Owl Southern White-faced.mp3,media/calls/owl-southern-white-faced.mp3,media/birds/southern-white-faced-owl.jpg,Yes,Bird calls SA (447)
+owl-spotted-eagle,Spotted Eagle Owl,Owl,No,Owl Spotted Eagle.mp3,media/calls/owl-spotted-eagle.mp3,,Yes,Bird calls SA (447)
+owl-verreauxs-eagle,Verreaux's Eagle Owl,Owl,No,Owl Verreaux's Eagle.mp3,media/calls/owl-verreauxs-eagle.mp3,,Yes,Bird calls SA (447)
+owlet-african-barred,African Barred Owlet,Owlet,Yes,Owlet African Barred.mp3,media/calls/owlet-african-barred.mp3,media/birds/african-barred-owlet.jpg,Yes,Bird calls SA (447)
+owlet-pearl-spotted,Pearl-spotted Owlet,Owlet,No,Owlet Pearl-spotted.mp3,media/calls/owlet-pearl-spotted.mp3,,Yes,Bird calls SA (447)
+painted-snipe-greater,Greater Painted-snipe,Painted-snipe,No,Painted-snipe Greater.mp3,media/calls/painted-snipe-greater.mp3,,Yes,Bird calls SA (447)
+palm-thrush-collared,Collared Palm-Thrush,Palm-Thrush,Yes,Palm-Thrush Collared.mp3,media/calls/palm-thrush-collared.mp3,media/birds/collared-palm-thrush.jpg,Yes,Bird calls SA (447)
+palm-thrush-rufous-tailed,Rufous-tailed Palm-Thrush,Palm-Thrush,No,Palm-Thrush Rufous-tailed.mp3,media/calls/palm-thrush-rufous-tailed.mp3,,Yes,Bird calls SA (447)
+parrot-brown-headed,Brown-headed Parrot,Parrot,No,Parrot Brown-headed.mp3,media/calls/parrot-brown-headed.mp3,,Yes,Bird calls SA (447)
+parrot-cape,Cape Parrot,Parrot,No,Parrot Cape.mp3,media/calls/parrot-cape.mp3,,Yes,Bird calls SA (447)
+parrot-ruppells,Ruppell's Parrot,Parrot,No,Parrot Ruppell's.mp3,media/calls/parrot-ruppells.mp3,,Yes,Bird calls SA (447)
+petronia-yellow-throated,Yellow-throated Petronia,Petronia,Yes,Petronia Yellow-throated.mp3,media/calls/petronia-yellow-throated.mp3,media/birds/yellow-throated-petronia.jpg,Yes,Bird calls SA (447)
+pigeon-african-green,African Green Pigeon,Pigeon,Yes,Pigeon African Green.mp3,media/calls/pigeon-african-green.mp3,media/birds/african-green-pigeon.jpg,Yes,Bird calls SA (447)
+pigeon-eastern-bronze-naped,Eastern Bronze-naped Pigeon,Pigeon,No,Pigeon Eastern Bronze-naped.mp3,media/calls/pigeon-eastern-bronze-naped.mp3,,Yes,Bird calls SA (447)
+pipit-african-rock,African Rock Pipit,Pipit,No,Pipit African Rock.mp3,media/calls/pipit-african-rock.mp3,,Yes,Bird calls SA (447)
+pipit-buffy,Buffy Pipit,Pipit,No,Pipit Buffy.mp3,media/calls/pipit-buffy.mp3,,Yes,Bird calls SA (447)
+pipit-bushveld,Bushveld Pipit,Pipit,No,Pipit Bushveld.mp3,media/calls/pipit-bushveld.mp3,,Yes,Bird calls SA (447)
+pipit-golden,Golden Pipit,Pipit,No,Pipit Golden.mp3,media/calls/pipit-golden.mp3,,Yes,Bird calls SA (447)
+pipit-long-billed,Long-billed Pipit,Pipit,No,Pipit Long-billed.mp3,media/calls/pipit-long-billed.mp3,,Yes,Bird calls SA (447)
+pipit-mountain,Mountain Pipit,Pipit,No,Pipit Mountain.mp3,media/calls/pipit-mountain.mp3,,Yes,Bird calls SA (447)
+pipit-plain-backed,Plain-backed Pipit,Pipit,No,Pipit Plain-backed.mp3,media/calls/pipit-plain-backed.mp3,,Yes,Bird calls SA (447)
+pipit-short-tailed,Short-tailed Pipit,Pipit,No,Pipit Short-tailed.mp3,media/calls/pipit-short-tailed.mp3,,Yes,Bird calls SA (447)
+pipit-striped,Striped Pipit,Pipit,No,Pipit Striped.mp3,media/calls/pipit-striped.mp3,,Yes,Bird calls SA (447)
+pipit-tree,Tree Pipit,Pipit,No,Pipit Tree.mp3,media/calls/pipit-tree.mp3,,Yes,Bird calls SA (447)
+pipit-wood,Wood Pipit,Pipit,No,Pipit Wood.mp3,media/calls/pipit-wood.mp3,,Yes,Bird calls SA (447)
+pipit-yellow-breasted,Yellow-breasted Pipit,Pipit,No,Pipit Yellow-breasted.mp3,media/calls/pipit-yellow-breasted.mp3,,Yes,Bird calls SA (447)
+pitta-african,African Pitta,Pitta,No,Pitta African.mp3,media/calls/pitta-african.mp3,,Yes,Bird calls SA (447)
+prinia-black-chested,Black-chested Prinia,Prinia,No,Prinia Black-chested.mp3,media/calls/prinia-black-chested.mp3,,Yes,Bird calls SA (447)
+prinia-drakensberg,Drakensberg Prinia,Prinia,No,Prinia Drakensberg.mp3,media/calls/prinia-drakensberg.mp3,,Yes,Bird calls SA (447)
+prinia-karoo,Karoo Prinia,Prinia,No,Prinia Karoo.mp3,media/calls/prinia-karoo.mp3,,Yes,Bird calls SA (447)
+prinia-tawny-flanked,Tawny-flanked Prinia,Prinia,No,Prinia Tawny-flanked.mp3,media/calls/prinia-tawny-flanked.mp3,,Yes,Bird calls SA (447)
+puffback-black-backed,Black-backed Puffback,Puffback,No,Puffback Black-backed.mp3,media/calls/puffback-black-backed.mp3,,Yes,Bird calls SA (447)
+pytilia-green-winged,Green-winged Pytilia,Pytilia,Yes,Pytilia Green-winged.mp3,media/calls/pytilia-green-winged.mp3,media/birds/green-winged-pytilia.jpg,Yes,Bird calls SA (447)
+pytilia-orange-winged,Orange-winged Pytilia,Pytilia,No,Pytilia Orange-winged.mp3,media/calls/pytilia-orange-winged.mp3,,Yes,Bird calls SA (447)
+quailfinch-african,African Quailfinch,Quailfinch,No,Quailfinch African.mp3,media/calls/quailfinch-african.mp3,,Yes,Bird calls SA (447)
+rail-african,African Rail,Rail,No,Rail African.mp3,media/calls/rail-african.mp3,,Yes,Bird calls SA (447)
+robin-swynnertons,Swynnerton's Robin,Robin,No,Robin Swynnerton's.mp3,media/calls/robin-swynnertons.mp3,,Yes,Bird calls SA (447)
+robin-white-starred,White-starred Robin,Robin,No,Robin White-starred.mp3,media/calls/robin-white-starred.mp3,,Yes,Bird calls SA (447)
+robin-chat-cape,Cape Robin-Chat,Robin-Chat,No,Robin-Chat Cape.mp3,media/calls/robin-chat-cape.mp3,,Yes,Bird calls SA (447)
+robin-chat-chorister,Chorister Robin-Chat,Robin-Chat,No,Robin-Chat Chorister.mp3,media/calls/robin-chat-chorister.mp3,,Yes,Bird calls SA (447)
+robin-chat-red-capped,Red-capped Robin-Chat,Robin-Chat,No,Robin-Chat Red-capped.mp3,media/calls/robin-chat-red-capped.mp3,,Yes,Bird calls SA (447)
+robin-chat-white-browed,White-browed Robin-Chat,Robin-Chat,Yes,Robin-Chat White-browed.mp3,media/calls/robin-chat-white-browed.mp3,media/birds/white-browed-robin-chat.jpg,Yes,Bird calls SA (447)
+robin-chat-white-throated,White-throated Robin-Chat,Robin-Chat,No,Robin-Chat White-throated.mp3,media/calls/robin-chat-white-throated.mp3,,Yes,Bird calls SA (447)
+rockjumper-cape,Cape Rockjumper,Rockjumper,No,Rockjumper Cape.mp3,media/calls/rockjumper-cape.mp3,,Yes,Bird calls SA (447)
+rockjumper-drakensberg,Drakensberg Rockjumper,Rockjumper,No,Rockjumper Drakensberg.mp3,media/calls/rockjumper-drakensberg.mp3,,Yes,Bird calls SA (447)
+rockrunner,Rockrunner,Rockrunner,No,Rockrunner.mp3,media/calls/rockrunner.mp3,,Yes,Bird calls SA (447)
+roller-broad-billed,Broad-billed Roller,Roller,Yes,Roller Broad-billed.mp3,media/calls/roller-broad-billed.mp3,media/birds/broad-billed-roller.jpg,Yes,Bird calls SA (447)
+roller-racket-tailed,Racket-tailed Roller,Roller,Yes,Roller Racket-tailed.mp3,media/calls/roller-racket-tailed.mp3,media/birds/racket-tailed-roller.jpg,Yes,Bird calls SA (447)
+scimitarbill-common,Common Scimitarbill,Scimitarbill,No,Scimitarbill Common.mp3,media/calls/scimitarbill-common.mp3,,Yes,Bird calls SA (447)
+scrub-robin-brown,Brown Scrub-Robin,Scrub-Robin,No,Scrub-Robin Brown.mp3,media/calls/scrub-robin-brown.mp3,,Yes,Bird calls SA (447)
+scrub-robin-eastern-bearded,Eastern Bearded Scrub-Robin,Scrub-Robin,Yes,Scrub-Robin Eastern Bearded.mp3,media/calls/scrub-robin-eastern-bearded.mp3,media/birds/eastern-bearded-scrub-robin.jpg,Yes,Bird calls SA (447)
+scrub-robin-kalahari,Kalahari Scrub-Robin,Scrub-Robin,Yes,Scrub-Robin Kalahari.mp3,media/calls/scrub-robin-kalahari.mp3,media/birds/kalahari-scrub-robin.jpg,Yes,Bird calls SA (447)
+scrub-robin-white-browed,White-browed Scrub-Robin,Scrub-Robin,No,Scrub-Robin White-browed.mp3,media/calls/scrub-robin-white-browed.mp3,,Yes,Bird calls SA (447)
+seedcracker-lesser,Lesser Seedcracker,Seedcracker,No,Seedcracker Lesser.mp3,media/calls/seedcracker-lesser.mp3,,Yes,Bird calls SA (447)
+shikra,Shikra,Shikra,No,Shikra.mp3,media/calls/shikra.mp3,,Yes,Bird calls SA (447)
+shrike-crimson-breasted,Crimson-breasted Shrike,Shrike,No,Shrike Crimson-breasted.mp3,media/calls/shrike-crimson-breasted.mp3,,Yes,Bird calls SA (447)
+shrike-magpie,Magpie Shrike,Shrike,No,Shrike Magpie.mp3,media/calls/shrike-magpie.mp3,,Yes,Bird calls SA (447)
+shrike-sousas,Sousa's Shrike,Shrike,No,Shrike Sousa's.mp3,media/calls/shrike-sousas.mp3,,Yes,Bird calls SA (447)
+shrike-southern-white-crowned,Southern White-crowned Shrike,Shrike,No,Shrike Southern White-crowned.mp3,media/calls/shrike-southern-white-crowned.mp3,,Yes,Bird calls SA (447)
+shrike-white-tailed,White-tailed Shrike,Shrike,No,Shrike White-tailed.mp3,media/calls/shrike-white-tailed.mp3,,Yes,Bird calls SA (447)
+siskin-cape,Cape Siskin,Siskin,No,Siskin Cape.mp3,media/calls/siskin-cape.mp3,,Yes,Bird calls SA (447)
+siskin-drakensberg,Drakensberg Siskin,Siskin,No,Siskin Drakensberg.mp3,media/calls/siskin-drakensberg.mp3,,Yes,Bird calls SA (447)
+snake-eagle-southern-banded,Southern Banded Snake-Eagle,Snake-Eagle,No,Snake-Eagle Southern Banded.mp3,media/calls/snake-eagle-southern-banded.mp3,,Yes,Bird calls SA (447)
+snake-eagle-western-banded,Western Banded Snake-Eagle,Snake-Eagle,No,Snake-Eagle Western Banded.mp3,media/calls/snake-eagle-western-banded.mp3,,Yes,Bird calls SA (447)
+sparrow-great,Great Sparrow,Sparrow,No,Sparrow Great.mp3,media/calls/sparrow-great.mp3,,Yes,Bird calls SA (447)
+sparrow-weaver-white-browed,White-browed Sparrow-Weaver,Sparrow-Weaver,No,Sparrow-Weaver White-browed.mp3,media/calls/sparrow-weaver-white-browed.mp3,,Yes,Bird calls SA (447)
+sparrowhawk-black,Black Sparrowhawk,Sparrowhawk,No,Sparrowhawk Black.mp3,media/calls/sparrowhawk-black.mp3,,Yes,Bird calls SA (447)
+sparrowhawk-little,Little Sparrowhawk,Sparrowhawk,No,Sparrowhawk Little.mp3,media/calls/sparrowhawk-little.mp3,,Yes,Bird calls SA (447)
+sparrowhawk-ovambo,Ovambo Sparrowhawk,Sparrowhawk,No,Sparrowhawk Ovambo.mp3,media/calls/sparrowhawk-ovambo.mp3,,Yes,Bird calls SA (447)
+sparrowhawk-red-breasted,Red-breasted Sparrowhawk,Sparrowhawk,No,Sparrowhawk Red-breasted.mp3,media/calls/sparrowhawk-red-breasted.mp3,,Yes,Bird calls SA (447)
+starling-black-bellied,Black-bellied Starling,Starling,No,Starling Black-bellied.mp3,media/calls/starling-black-bellied.mp3,,Yes,Bird calls SA (447)
+starling-burchells,Burchell's Starling,Starling,Yes,Starling Burchell's.mp3,media/calls/starling-burchells.mp3,media/birds/burchells-starling.jpg,Yes,Bird calls SA (447)
+starling-greater-blue-eared,Greater Blue-eared Starling,Starling,Yes,Starling Greater Blue-eared.mp3,media/calls/starling-greater-blue-eared.mp3,media/birds/greater-blue-eared-starling.jpg,Yes,Bird calls SA (447)
+starling-lesser-blue-eared,Lesser Blue-eared Starling,Starling,No,Starling Lesser Blue-eared.mp3,media/calls/starling-lesser-blue-eared.mp3,,Yes,Bird calls SA (447)
+starling-mevess,Meves's Starling,Starling,Yes,Starling Meves's.mp3,media/calls/starling-mevess.mp3,media/birds/mevess-starling.jpg,Yes,Bird calls SA (447)
+starling-pale-winged,Pale-winged Starling,Starling,No,Starling Pale-winged.mp3,media/calls/starling-pale-winged.mp3,,Yes,Bird calls SA (447)
+starling-sharp-tailed,Sharp-tailed Starling,Starling,No,Starling Sharp-tailed.mp3,media/calls/starling-sharp-tailed.mp3,,Yes,Bird calls SA (447)
+starling-violet-backed,Violet-backed Starling,Starling,Yes,Starling Violet-backed.mp3,media/calls/starling-violet-backed.mp3,media/birds/violet-backed-starling.jpg,Yes,Bird calls SA (447)
+sugarbird-gurneys,Gurney's Sugarbird,Sugarbird,No,Sugarbird Gurney's.mp3,media/calls/sugarbird-gurneys.mp3,,Yes,Bird calls SA (447)
+sunbird-collared,Collared Sunbird,Sunbird,No,Sunbird Collared.mp3,media/calls/sunbird-collared.mp3,,Yes,Bird calls SA (447)
+sunbird-copper,Copper Sunbird,Sunbird,No,Sunbird Copper.mp3,media/calls/sunbird-copper.mp3,,Yes,Bird calls SA (447)
+sunbird-dusky,Dusky Sunbird,Sunbird,No,Sunbird Dusky.mp3,media/calls/sunbird-dusky.mp3,,Yes,Bird calls SA (447)
+sunbird-greater-double-collared,Greater Double-collared Sunbird,Sunbird,No,Sunbird Greater Double-collared.mp3,media/calls/sunbird-greater-double-collared.mp3,,Yes,Bird calls SA (447)
+sunbird-grey,Grey Sunbird,Sunbird,No,Sunbird Grey.mp3,media/calls/sunbird-grey.mp3,,Yes,Bird calls SA (447)
+sunbird-marico,Marico Sunbird,Sunbird,No,Sunbird Marico.mp3,media/calls/sunbird-marico.mp3,,Yes,Bird calls SA (447)
+sunbird-miombo-double-collared,Miombo Double-collared Sunbird,Sunbird,No,Sunbird Miombo Double-collared.mp3,media/calls/sunbird-miombo-double-collared.mp3,,Yes,Bird calls SA (447)
+sunbird-neergaards,Neergaard's Sunbird,Sunbird,No,Sunbird Neergaard's.mp3,media/calls/sunbird-neergaards.mp3,,Yes,Bird calls SA (447)
+sunbird-olive,Olive Sunbird,Sunbird,No,Sunbird Olive.mp3,media/calls/sunbird-olive.mp3,,Yes,Bird calls SA (447)
+sunbird-plain-backed,Plain-backed Sunbird,Sunbird,No,Sunbird Plain-backed.mp3,media/calls/sunbird-plain-backed.mp3,,Yes,Bird calls SA (447)
+sunbird-purple-banded,Purple-banded Sunbird,Sunbird,Yes,Sunbird Purple-banded.mp3,media/calls/sunbird-purple-banded.mp3,media/birds/purple-banded-sunbird.jpg,Yes,Bird calls SA (447)
+sunbird-shelleys,Shelley's Sunbird,Sunbird,No,Sunbird Shelley's.mp3,media/calls/sunbird-shelleys.mp3,,Yes,Bird calls SA (447)
+sunbird-southern-double-collared,Southern Double-collared Sunbird,Sunbird,No,Sunbird Southern Double-collared.mp3,media/calls/sunbird-southern-double-collared.mp3,,Yes,Bird calls SA (447)
+sunbird-variable,Variable Sunbird,Sunbird,No,Sunbird Variable.mp3,media/calls/sunbird-variable.mp3,,Yes,Bird calls SA (447)
+sunbird-western-violet-backed,Western Violet-backed Sunbird,Sunbird,No,Sunbird Western Violet-backed.mp3,media/calls/sunbird-western-violet-backed.mp3,,Yes,Bird calls SA (447)
+sunbird-white-bellied,White-bellied Sunbird,Sunbird,No,Sunbird White-bellied.mp3,media/calls/sunbird-white-bellied.mp3,,Yes,Bird calls SA (447)
+tchagra-anchietas,Anchieta's Tchagra,Tchagra,No,Tchagra Anchieta's.mp3,media/calls/tchagra-anchietas.mp3,,Yes,Bird calls SA (447)
+tchagra-black-crowned,Black-crowned Tchagra,Tchagra,No,Tchagra Black-crowned.mp3,media/calls/tchagra-black-crowned.mp3,,Yes,Bird calls SA (447)
+tchagra-brown-crowned,Brown-crowned Tchagra,Tchagra,No,Tchagra Brown-crowned.mp3,media/calls/tchagra-brown-crowned.mp3,,Yes,Bird calls SA (447)
+tchagra-southern,Southern Tchagra,Tchagra,No,Tchagra Southern.mp3,media/calls/tchagra-southern.mp3,,Yes,Bird calls SA (447)
+thick-knee-spotted,Spotted Thick-knee,Thick-knee,No,Thick-knee Spotted.mp3,media/calls/thick-knee-spotted.mp3,,Yes,Bird calls SA (447)
+thick-knee-water,Water Thick-knee,Thick-knee,No,Thick-knee Water.mp3,media/calls/thick-knee-water.mp3,,Yes,Bird calls SA (447)
+thrush-cape-rock,Cape Rock Thrush,Thrush,No,Thrush Cape Rock.mp3,media/calls/thrush-cape-rock.mp3,,Yes,Bird calls SA (447)
+thrush-groundscraper,Groundscraper Thrush,Thrush,No,Thrush Groundscraper.mp3,media/calls/thrush-groundscraper.mp3,,Yes,Bird calls SA (447)
+thrush-kurrichane,Kurrichane Thrush,Thrush,No,Thrush Kurrichane.mp3,media/calls/thrush-kurrichane.mp3,,Yes,Bird calls SA (447)
+thrush-miombo-rock,Miombo Rock Thrush,Thrush,No,Thrush Miombo Rock.mp3,media/calls/thrush-miombo-rock.mp3,,Yes,Bird calls SA (447)
+thrush-olive,Olive Thrush,Thrush,No,Thrush Olive.mp3,media/calls/thrush-olive.mp3,,Yes,Bird calls SA (447)
+thrush-orange-ground,Orange Ground Thrush,Thrush,No,Thrush Orange Ground.mp3,media/calls/thrush-orange-ground.mp3,,Yes,Bird calls SA (447)
+thrush-sentinel-rock,Sentinel Rock Thrush,Thrush,No,Thrush Sentinel Rock.mp3,media/calls/thrush-sentinel-rock.mp3,,Yes,Bird calls SA (447)
+thrush-short-toed-rock,Short-toed Rock Thrush,Thrush,No,Thrush Short-toed Rock.mp3,media/calls/thrush-short-toed-rock.mp3,,Yes,Bird calls SA (447)
+thrush-spotted-ground,Spotted Ground Thrush,Thrush,No,Thrush Spotted Ground.mp3,media/calls/thrush-spotted-ground.mp3,,Yes,Bird calls SA (447)
+tinkerbird-green,Green Tinkerbird,Tinkerbird,No,Tinkerbird Green.mp3,media/calls/tinkerbird-green.mp3,,Yes,Bird calls SA (447)
+tinkerbird-red-fronted,Red-fronted Tinkerbird,Tinkerbird,No,Tinkerbird Red-fronted.mp3,media/calls/tinkerbird-red-fronted.mp3,,Yes,Bird calls SA (447)
+tit-ashy,Ashy Tit,Tit,No,Tit Ashy.mp3,media/calls/tit-ashy.mp3,,Yes,Bird calls SA (447)
+tit-cape-penduline,Cape Penduline-Tit,Tit,No,Tit Cape Penduline.mp3,media/calls/tit-cape-penduline.mp3,,Yes,Bird calls SA (447)
+tit-carps-black,Carp's Black Tit,Tit,No,Tit Carp's Black.mp3,media/calls/tit-carps-black.mp3,,Yes,Bird calls SA (447)
+tit-grey-penduline,Grey Penduline-Tit,Tit,Yes,Tit Grey Penduline.mp3,media/calls/tit-grey-penduline.mp3,media/birds/grey-penduline-tit.jpg,Yes,Bird calls SA (447)
+tit-grey,Grey Tit,Tit,No,Tit Grey.mp3,media/calls/tit-grey.mp3,,Yes,Bird calls SA (447)
+tit-miombo,Miombo Tit,Tit,No,Tit Miombo.mp3,media/calls/tit-miombo.mp3,,Yes,Bird calls SA (447)
+tit-rufous-bellied,Rufous-bellied Tit,Tit,No,Tit Rufous-bellied.mp3,media/calls/tit-rufous-bellied.mp3,,Yes,Bird calls SA (447)
+tit-southern-black,Southern Black Tit,Tit,No,Tit Southern Black.mp3,media/calls/tit-southern-black.mp3,,Yes,Bird calls SA (447)
+tit-babbler-chestnut-vented,Chestnut-vented Tit-babbler,Tit-babbler,No,Tit-babbler Chestnut-vented.mp3,media/calls/tit-babbler-chestnut-vented.mp3,,Yes,Bird calls SA (447)
+tit-babbler-layards,Layard's Tit-babbler,Tit-babbler,No,Tit-babbler Layard's.mp3,media/calls/tit-babbler-layards.mp3,,Yes,Bird calls SA (447)
+trogon-narina,Narina Trogon,Trogon,No,Trogon Narina.mp3,media/calls/trogon-narina.mp3,,Yes,Bird calls SA (447)
+turaco-knysna,Knysna Turaco,Turaco,No,Turaco Knysna.mp3,media/calls/turaco-knysna.mp3,,Yes,Bird calls SA (447)
+turaco-livingstones,Livingstone's Turaco,Turaco,No,Turaco Livingstone's.mp3,media/calls/turaco-livingstones.mp3,,Yes,Bird calls SA (447)
+turaco-purple-crested,Purple-crested Turaco,Turaco,No,Turaco Purple-crested.mp3,media/calls/turaco-purple-crested.mp3,,Yes,Bird calls SA (447)
+turaco-rosss,Ross's Turaco,Turaco,No,Turaco Ross's.mp3,media/calls/turaco-rosss.mp3,,Yes,Bird calls SA (447)
+turaco-shalows,Shalow's Turaco,Turaco,No,Turaco Shalow's.mp3,media/calls/turaco-shalows.mp3,,Yes,Bird calls SA (447)
+twinspot-green,Green Twinspot,Twinspot,No,Twinspot Green.mp3,media/calls/twinspot-green.mp3,,Yes,Bird calls SA (447)
+twinspot-pink-throated,Pink-throated Twinspot,Twinspot,No,Twinspot Pink-throated.mp3,media/calls/twinspot-pink-throated.mp3,,Yes,Bird calls SA (447)
+twinspot-red-throated,Red-throated Twinspot,Twinspot,No,Twinspot Red-throated.mp3,media/calls/twinspot-red-throated.mp3,,Yes,Bird calls SA (447)
+wagtail-mountain,Mountain Wagtail,Wagtail,No,Wagtail Mountain.mp3,media/calls/wagtail-mountain.mp3,,Yes,Bird calls SA (447)
+warbler-african-reed,African Reed Warbler,Warbler,No,Warbler African Reed.mp3,media/calls/warbler-african-reed.mp3,,Yes,Bird calls SA (447)
+warbler-barratts,Barratt's Warbler,Warbler,No,Warbler Barratt's.mp3,media/calls/warbler-barratts.mp3,,Yes,Bird calls SA (447)
+warbler-barred-wren,Barred Wren Warbler,Warbler,No,Warbler Barred Wren.mp3,media/calls/warbler-barred-wren.mp3,,Yes,Bird calls SA (447)
+warbler-basra-reed,Basra Reed Warbler,Warbler,No,Warbler Basra Reed.mp3,media/calls/warbler-basra-reed.mp3,,Yes,Bird calls SA (447)
+warbler-cinnamon-reed,Cinnamon Reed Warbler,Warbler,No,Warbler Cinnamon Reed.mp3,media/calls/warbler-cinnamon-reed.mp3,,Yes,Bird calls SA (447)
+warbler-cinnamon-breasted,Cinnamon-breasted Warbler,Warbler,No,Warbler Cinnamon-breasted.mp3,media/calls/warbler-cinnamon-breasted.mp3,,Yes,Bird calls SA (447)
+warbler-eurasian-reed,Eurasian Reed Warbler,Warbler,No,Warbler Eurasian Reed.mp3,media/calls/warbler-eurasian-reed.mp3,,Yes,Bird calls SA (447)
+warbler-fairy,Fairy Warbler,Warbler,No,Warbler Fairy.mp3,media/calls/warbler-fairy.mp3,,Yes,Bird calls SA (447)
+warbler-garden,Garden Warbler,Warbler,No,Warbler Garden.mp3,media/calls/warbler-garden.mp3,,Yes,Bird calls SA (447)
+warbler-great-reed,Great Reed Warbler,Warbler,No,Warbler Great Reed.mp3,media/calls/warbler-great-reed.mp3,,Yes,Bird calls SA (447)
+warbler-greater-swamp,Greater Swamp Warbler,Warbler,No,Warbler Greater Swamp.mp3,media/calls/warbler-greater-swamp.mp3,,Yes,Bird calls SA (447)
+warbler-icterine,Icterine Warbler,Warbler,No,Warbler Icterine.mp3,media/calls/warbler-icterine.mp3,,Yes,Bird calls SA (447)
+warbler-knysna,Knysna Warbler,Warbler,No,Warbler Knysna.mp3,media/calls/warbler-knysna.mp3,,Yes,Bird calls SA (447)
+warbler-lesser-swamp,Lesser Swamp Warbler,Warbler,No,Warbler Lesser Swamp.mp3,media/calls/warbler-lesser-swamp.mp3,,Yes,Bird calls SA (447)
+warbler-little-rush,Little Rush Warbler,Warbler,No,Warbler Little Rush.mp3,media/calls/warbler-little-rush.mp3,,Yes,Bird calls SA (447)
+warbler-marsh,Marsh Warbler,Warbler,No,Warbler Marsh.mp3,media/calls/warbler-marsh.mp3,,Yes,Bird calls SA (447)
+warbler-moustached-grass,Moustached Grass Warbler,Warbler,No,Warbler Moustached Grass.mp3,media/calls/warbler-moustached-grass.mp3,,Yes,Bird calls SA (447)
+warbler-namaqua,Namaqua Warbler,Warbler,No,Warbler Namaqua.mp3,media/calls/warbler-namaqua.mp3,,Yes,Bird calls SA (447)
+warbler-olive-tree,Olive-tree Warbler,Warbler,No,Warbler Olive-tree.mp3,media/calls/warbler-olive-tree.mp3,,Yes,Bird calls SA (447)
+warbler-red-winged,Red-winged Warbler,Warbler,No,Warbler Red-winged.mp3,media/calls/warbler-red-winged.mp3,,Yes,Bird calls SA (447)
+warbler-river,River Warbler,Warbler,No,Warbler River.mp3,media/calls/warbler-river.mp3,,Yes,Bird calls SA (447)
+warbler-roberts,Robert's Warbler,Warbler,No,Warbler Robert's.mp3,media/calls/warbler-roberts.mp3,,Yes,Bird calls SA (447)
+warbler-rufous-eared,Rufous-eared Warbler,Warbler,No,Warbler Rufous-eared.mp3,media/calls/warbler-rufous-eared.mp3,,Yes,Bird calls SA (447)
+warbler-sedge,Sedge Warbler,Warbler,No,Warbler Sedge.mp3,media/calls/warbler-sedge.mp3,,Yes,Bird calls SA (447)
+warbler-stierlings-wren,Stierling's Wren Warbler,Warbler,No,Warbler Stierling's Wren.mp3,media/calls/warbler-stierlings-wren.mp3,,Yes,Bird calls SA (447)
+warbler-victorins,Victorin's Warbler,Warbler,No,Warbler Victorin's.mp3,media/calls/warbler-victorins.mp3,,Yes,Bird calls SA (447)
+warbler-willow,Willow Warbler,Warbler,No,Warbler Willow.mp3,media/calls/warbler-willow.mp3,,Yes,Bird calls SA (447)
+warbler-yellow-throated-woodland,Yellow-throated Woodland Warbler,Warbler,No,Warbler Yellow-throated Woodland.mp3,media/calls/warbler-yellow-throated-woodland.mp3,,Yes,Bird calls SA (447)
+warbler-yellow,Yellow Warbler,Warbler,No,Warbler Yellow.mp3,media/calls/warbler-yellow.mp3,,Yes,Bird calls SA (447)
+wattle-eye-black-throated,Black-throated Wattle-eye,Wattle-eye,No,Wattle-eye Black-throated.mp3,media/calls/wattle-eye-black-throated.mp3,,Yes,Bird calls SA (447)
+waxbill-black-faced,Black-faced Waxbill,Waxbill,Yes,Waxbill Black-faced.mp3,media/calls/waxbill-black-faced.mp3,media/birds/black-faced-waxbill.jpg,Yes,Bird calls SA (447)
+waxbill-cinderella,Cinderella Waxbill,Waxbill,No,Waxbill Cinderella.mp3,media/calls/waxbill-cinderella.mp3,,Yes,Bird calls SA (447)
+waxbill-grey,Grey Waxbill,Waxbill,No,Waxbill Grey.mp3,media/calls/waxbill-grey.mp3,,Yes,Bird calls SA (447)
+waxbill-orange-breasted,Orange-breasted Waxbill,Waxbill,No,Waxbill Orange-breasted.mp3,media/calls/waxbill-orange-breasted.mp3,,Yes,Bird calls SA (447)
+waxbill-swee,Swee Waxbill,Waxbill,No,Waxbill Swee.mp3,media/calls/waxbill-swee.mp3,,Yes,Bird calls SA (447)
+waxbill-violet-eared,Violet-eared Waxbill,Waxbill,Yes,Waxbill Violet-eared.mp3,media/calls/waxbill-violet-eared.mp3,media/birds/violet-eared-waxbill.jpg,Yes,Bird calls SA (447)
+waxbill-yellow-bellied,Yellow-bellied Waxbill,Waxbill,No,Waxbill Yellow-bellied.mp3,media/calls/waxbill-yellow-bellied.mp3,,Yes,Bird calls SA (447)
+weaver-dark-backed,Dark-backed Weaver,Weaver,No,Weaver Dark-backed.mp3,media/calls/weaver-dark-backed.mp3,,Yes,Bird calls SA (447)
+weaver-golden,Golden Weaver,Weaver,No,Weaver Golden.mp3,media/calls/weaver-golden.mp3,,Yes,Bird calls SA (447)
+weaver-red-billed-buffalo,Red-billed Buffalo-Weaver,Weaver,Yes,Weaver Red-billed Buffalo.mp3,media/calls/weaver-red-billed-buffalo.mp3,media/birds/red-billed-buffalo-weaver.jpg,Yes,Bird calls SA (447)
+weaver-spectacled,Spectacled Weaver,Weaver,No,Weaver Spectacled.mp3,media/calls/weaver-spectacled.mp3,,Yes,Bird calls SA (447)
+wheatear-capped,Capped Wheatear,Wheatear,No,Wheatear Capped.mp3,media/calls/wheatear-capped.mp3,,Yes,Bird calls SA (447)
+wheatear-mountain,Mountain Wheatear,Wheatear,No,Wheatear Mountain.mp3,media/calls/wheatear-mountain.mp3,,Yes,Bird calls SA (447)
+white-eye-yellow,Yellow White-eye,White-eye,No,White-eye Yellow.mp3,media/calls/white-eye-yellow.mp3,,Yes,Bird calls SA (447)
+whitethroat-greater,Greater Whitethroat,Whitethroat,No,Whitethroat Greater.mp3,media/calls/whitethroat-greater.mp3,,Yes,Bird calls SA (447)
+whydah-broad-tailed-paradise,Broad-tailed Paradise Whydah,Whydah,No,Whydah Broad-tailed Paradise.mp3,media/calls/whydah-broad-tailed-paradise.mp3,,Yes,Bird calls SA (447)
+wood-hoopoe-violet,Violet Wood-Hoopoe,Wood,No,Wood Hoopoe Violet.mp3,media/calls/wood-hoopoe-violet.mp3,,Yes,Bird calls SA (447)
+woodpecker-bearded,Bearded Woodpecker,Woodpecker,No,Woodpecker Bearded.mp3,media/calls/woodpecker-bearded.mp3,,Yes,Bird calls SA (447)
+woodpecker-bennetts,Bennett's Woodpecker,Woodpecker,No,Woodpecker Bennett's.mp3,media/calls/woodpecker-bennetts.mp3,,Yes,Bird calls SA (447)
+woodpecker-cardinal,Cardinal Woodpecker,Woodpecker,No,Woodpecker Cardinal.mp3,media/calls/woodpecker-cardinal.mp3,,Yes,Bird calls SA (447)
+woodpecker-golden-tailed,Golden-tailed Woodpecker,Woodpecker,No,Woodpecker Golden-tailed.mp3,media/calls/woodpecker-golden-tailed.mp3,,Yes,Bird calls SA (447)
+woodpecker-green-backed,Green-backed Woodpecker,Woodpecker,No,Woodpecker Green-backed.mp3,media/calls/woodpecker-green-backed.mp3,,Yes,Bird calls SA (447)
+woodpecker-ground,Ground Woodpecker,Woodpecker,No,Woodpecker Ground.mp3,media/calls/woodpecker-ground.mp3,,Yes,Bird calls SA (447)
+woodpecker-knysna,Knysna Woodpecker,Woodpecker,No,Woodpecker Knysna.mp3,media/calls/woodpecker-knysna.mp3,,Yes,Bird calls SA (447)
+woodpecker-olive,Olive Woodpecker,Woodpecker,No,Woodpecker Olive.mp3,media/calls/woodpecker-olive.mp3,,Yes,Bird calls SA (447)
+wryneck-red-throated,Red-throated Wryneck,Wryneck,No,Wryneck Red-throated.mp3,media/calls/wryneck-red-throated.mp3,,Yes,Bird calls SA (447)
+b-abdims-stork,Abdim's Stork,Stork,No,Abdim's stork.mp3,media/calls/b-abdims-stork.mp3,,Yes,Trainer library (881)
+b-african-black-duck,African Black Duck,Duck,No,African Black duck.mp3,media/calls/b-african-black-duck.mp3,,Yes,Trainer library (881)
+b-african-black-oystercatcher,African Black Oystercatcher,Oystercatcher,No,African Black oystercatcher.mp3,media/calls/b-african-black-oystercatcher.mp3,,Yes,Trainer library (881)
+b-african-black-swift,African Black Swift,Swift,No,African Black swift.mp3,media/calls/b-african-black-swift.mp3,,Yes,Trainer library (881)
+b-african-dusky-flycatcher,African Dusky Flycatcher,Flycatcher,No,African Dusky flycatcher.mp3,media/calls/b-african-dusky-flycatcher.mp3,,Yes,Trainer library (881)
+b-african-harrier-hawk,African Harrier-Hawk,Hawk,No,African Harrier-Hawk.mp3,media/calls/b-african-harrier-hawk.mp3,,Yes,Trainer library (881)
+b-african-hawk-eagle,African Hawk-Eagle,Eagle,Yes,African Hawk-Eagle.mp3,media/calls/b-african-hawk-eagle.mp3,media/birds/african-hawk-eagle.jpg,Yes,Trainer library (881)
+b-african-hobby,African Hobby,Hobby,No,African Hobby.mp3,media/calls/b-african-hobby.mp3,,Yes,Trainer library (881)
+b-african-jacana,African Jacana,Jacana,No,African Jacana.mp3,media/calls/b-african-jacana.mp3,,Yes,Trainer library (881)
+b-african-mourning-dove,African Mourning Dove,Dove,Yes,African Mourning dove.mp3,media/calls/b-african-mourning-dove.mp3,media/birds/african-mourning-dove.jpg,Yes,Trainer library (881)
+b-african-pied-wagtail,African Pied Wagtail,Wagtail,No,African Pied wagtail.mp3,media/calls/b-african-pied-wagtail.mp3,,Yes,Trainer library (881)
+b-african-sacred-ibis,African Sacred Ibis,Ibis,No,African Sacred Ibis.mp3,media/calls/b-african-sacred-ibis.mp3,,Yes,Trainer library (881)
+b-african-wattled-lapwing,African Wattled Lapwing,Lapwing,No,African Wattled lapwing.mp3,media/calls/b-african-wattled-lapwing.mp3,,Yes,Trainer library (881)
+b-african-darter,African Darter,Darter,No,African darter.mp3,media/calls/b-african-darter.mp3,,Yes,Trainer library (881)
+b-african-finfoot,African Finfoot,Finfoot,No,African finfoot.mp3,media/calls/b-african-finfoot.mp3,,Yes,Trainer library (881)
+b-african-fish-eagle,African Fish Eagle,Eagle,No,African fish eagle.mp3,media/calls/b-african-fish-eagle.mp3,,Yes,Trainer library (881)
+b-african-hoopoe,African Hoopoe,Hoopoe,No,African hoopoe.mp3,media/calls/b-african-hoopoe.mp3,,Yes,Trainer library (881)
+b-african-marsh-harrier,African Marsh-harrier,harrier,No,African marsh-harrier.mp3,media/calls/b-african-marsh-harrier.mp3,,Yes,Trainer library (881)
+b-african-olive-pigeon,African Olive-pigeon,pigeon,No,African olive-pigeon.mp3,media/calls/b-african-olive-pigeon.mp3,,Yes,Trainer library (881)
+b-african-openbill,African Openbill,Openbill,No,African openbill.mp3,media/calls/b-african-openbill.mp3,,Yes,Trainer library (881)
+b-african-palm-swift,African Palm Swift,Swift,No,African palm swift.mp3,media/calls/b-african-palm-swift.mp3,,Yes,Trainer library (881)
+b-african-penguin,African Penguin,Penguin,No,African penguin.mp3,media/calls/b-african-penguin.mp3,,Yes,Trainer library (881)
+b-african-pipit,African Pipit,Pipit,No,African pipit.mp3,media/calls/b-african-pipit.mp3,,Yes,Trainer library (881)
+b-african-pygmy-goose,African Pygmy Goose,Goose,Yes,African pygmy goose.mp3,media/calls/b-african-pygmy-goose.mp3,media/birds/african-pygmy-goose.jpg,Yes,Trainer library (881)
+b-african-pygmy-kingfisher,African Pygmy Kingfisher,Kingfisher,Yes,African pygmy kingfisher.mp3,media/calls/b-african-pygmy-kingfisher.mp3,media/birds/african-pygmy-kingfisher.jpg,Yes,Trainer library (881)
+b-african-skimmer,African Skimmer,Skimmer,No,African skimmer.mp3,media/calls/b-african-skimmer.mp3,,Yes,Trainer library (881)
+b-african-snipe,African Snipe,Snipe,No,African snipe.mp3,media/calls/b-african-snipe.mp3,,Yes,Trainer library (881)
+b-african-spoonbill,African Spoonbill,Spoonbill,No,African spoonbill.mp3,media/calls/b-african-spoonbill.mp3,,Yes,Trainer library (881)
+b-african-stonechat,African Stonechat,Stonechat,No,African stonechat.mp3,media/calls/b-african-stonechat.mp3,,Yes,Trainer library (881)
+b-alpine-swift,Alpine Swift,Swift,No,Alpine swift.mp3,media/calls/b-alpine-swift.mp3,,Yes,Trainer library (881)
+b-american-purple-gallinule,American Purple Gallinule,Gallinule,No,American Purple gallinule.mp3,media/calls/b-american-purple-gallinule.mp3,,Yes,Trainer library (881)
+b-amethyst-sunbird,Amethyst Sunbird,Sunbird,No,Amethyst sunbird.mp3,media/calls/b-amethyst-sunbird.mp3,,Yes,Trainer library (881)
+b-amur-falcon,Amur Falcon,Falcon,No,Amur falcon.mp3,media/calls/b-amur-falcon.mp3,,Yes,Trainer library (881)
+b-angola-swallow,Angola Swallow,Swallow,No,Angola swallow.mp3,media/calls/b-angola-swallow.mp3,,Yes,Trainer library (881)
+b-ant-eating-chat,Ant-eating Chat,Chat,No,Ant-eating Chat.mp3,media/calls/b-ant-eating-chat.mp3,,Yes,Trainer library (881)
+b-arctic-tern,Arctic Tern,Tern,No,Arctic tern.mp3,media/calls/b-arctic-tern.mp3,,Yes,Trainer library (881)
+b-augur-buzzard,Augur Buzzard,Buzzard,No,Augur Buzzard.mp3,media/calls/b-augur-buzzard.mp3,,Yes,Trainer library (881)
+b-australian-gannet,Australian Gannet,Gannet,No,Australian gannet.mp3,media/calls/b-australian-gannet.mp3,,Yes,Trainer library (881)
+b-ayress-hawk-eagle,Ayres's Hawk-eagle,eagle,No,Ayres's hawk-eagle.mp3,media/calls/b-ayress-hawk-eagle.mp3,,Yes,Trainer library (881)
+b-bairds-sandpiper,Baird's Sandpiper,Sandpiper,No,Baird's sandpiper.mp3,media/calls/b-bairds-sandpiper.mp3,,Yes,Trainer library (881)
+b-banded-martin,Banded Martin,Martin,No,Banded martin.mp3,media/calls/b-banded-martin.mp3,,Yes,Trainer library (881)
+b-bank-cormorant,Bank Cormorant,Cormorant,No,Bank Cormorant.mp3,media/calls/b-bank-cormorant.mp3,,Yes,Trainer library (881)
+b-bar-tailed-godwit,Bar-tailed Godwit,Godwit,No,Bar-tailed godwit.mp3,media/calls/b-bar-tailed-godwit.mp3,,Yes,Trainer library (881)
+b-barn-swallow,Barn Swallow,Swallow,No,Barn swallow.mp3,media/calls/b-barn-swallow.mp3,,Yes,Trainer library (881)
+b-bat-hawk,Bat Hawk,Hawk,No,Bat Hawk.mp3,media/calls/b-bat-hawk.mp3,,Yes,Trainer library (881)
+b-bateleur,Bateleur,Bateleur,No,Bateleur.mp3,media/calls/b-bateleur.mp3,,Yes,Trainer library (881)
+b-bearded-scrub-robin,Bearded Scrub-robin,robin,No,Bearded scrub-robin.mp3,media/calls/b-bearded-scrub-robin.mp3,,Yes,Trainer library (881)
+b-bearded-vulture,Bearded Vulture,Vulture,No,Bearded vulture.mp3,media/calls/b-bearded-vulture.mp3,,Yes,Trainer library (881)
+b-black-harrier,Black Harrier,Harrier,No,Black Harrier.mp3,media/calls/b-black-harrier.mp3,,Yes,Trainer library (881)
+b-black-heron,Black Heron,Heron,No,Black Heron.mp3,media/calls/b-black-heron.mp3,,Yes,Trainer library (881)
+b-black-kite,Black Kite,Kite,No,Black Kite.mp3,media/calls/b-black-kite.mp3,,Yes,Trainer library (881)
+b-black-saw-wing,Black Saw-wing,wing,No,Black saw-wing.mp3,media/calls/b-black-saw-wing.mp3,,Yes,Trainer library (881)
+b-black-stork,Black Stork,Stork,No,Black stork.mp3,media/calls/b-black-stork.mp3,,Yes,Trainer library (881)
+b-black-tern,Black Tern,Tern,No,Black tern.mp3,media/calls/b-black-tern.mp3,,Yes,Trainer library (881)
+b-black-and-white-flycatcher,Black-and-white Flycatcher,Flycatcher,No,Black-and-white flycatcher.mp3,media/calls/b-black-and-white-flycatcher.mp3,,Yes,Trainer library (881)
+b-black-bellied-bustard,Black-bellied Bustard,Bustard,No,Black-bellied Bustard.mp3,media/calls/b-black-bellied-bustard.mp3,,Yes,Trainer library (881)
+b-black-bellied-storm-petrel,Black-bellied Storm-petrel,petrel,No,Black-bellied storm-petrel.mp3,media/calls/b-black-bellied-storm-petrel.mp3,,Yes,Trainer library (881)
+b-black-browed-albatross,Black-browed Albatross,Albatross,No,Black-browed Albatross.mp3,media/calls/b-black-browed-albatross.mp3,,Yes,Trainer library (881)
+b-black-chested-snake-eagle,Black-chested Snake Eagle,Eagle,No,Black-chested snake eagle.mp3,media/calls/b-black-chested-snake-eagle.mp3,,Yes,Trainer library (881)
+b-black-crowned-night-heron,Black-crowned Night-heron,heron,No,Black-crowned night-heron.mp3,media/calls/b-black-crowned-night-heron.mp3,,Yes,Trainer library (881)
+b-black-eared-sparrowlark,Black-eared Sparrowlark,Sparrowlark,No,Black-eared sparrowlark.mp3,media/calls/b-black-eared-sparrowlark.mp3,,Yes,Trainer library (881)
+b-black-headed-heron,Black-headed Heron,Heron,No,Black-headed Heron.mp3,media/calls/b-black-headed-heron.mp3,,Yes,Trainer library (881)
+b-black-legged-kittiwake,Black-legged Kittiwake,Kittiwake,No,Black-legged Kittiwake.mp3,media/calls/b-black-legged-kittiwake.mp3,,Yes,Trainer library (881)
+b-black-naped-tern,Black-naped Tern,Tern,No,Black-naped tern.mp3,media/calls/b-black-naped-tern.mp3,,Yes,Trainer library (881)
+b-black-necked-grebe,Black-necked Grebe,Grebe,No,Black-necked grebe.mp3,media/calls/b-black-necked-grebe.mp3,,Yes,Trainer library (881)
+b-black-shouldered-kite,Black-shouldered Kite,Kite,No,Black-shouldered Kite.mp3,media/calls/b-black-shouldered-kite.mp3,,Yes,Trainer library (881)
+b-black-tailed-godwit,Black-tailed Godwit,Godwit,No,Black-tailed godwit.mp3,media/calls/b-black-tailed-godwit.mp3,,Yes,Trainer library (881)
+b-black-winged-bishop,Black-winged Bishop,Bishop,No,Black-winged Bishop.mp3,media/calls/b-black-winged-bishop.mp3,,Yes,Trainer library (881)
+b-black-winged-lapwing,Black-winged Lapwing,Lapwing,No,Black-winged lapwing.mp3,media/calls/b-black-winged-lapwing.mp3,,Yes,Trainer library (881)
+b-black-winged-pranticole,Black-winged Pranticole,Pranticole,No,Black-winged pranticole.mp3,media/calls/b-black-winged-pranticole.mp3,,Yes,Trainer library (881)
+b-black-winged-stilt,Black-winged Stilt,Stilt,No,Black-winged stilt.mp3,media/calls/b-black-winged-stilt.mp3,,Yes,Trainer library (881)
+b-blacksmith-lapwing,Blacksmith Lapwing,Lapwing,No,Blacksmith lapwing.mp3,media/calls/b-blacksmith-lapwing.mp3,,Yes,Trainer library (881)
+b-blue-crane,Blue Crane,Crane,No,Blue Crane.mp3,media/calls/b-blue-crane.mp3,,Yes,Trainer library (881)
+b-blue-swallow,Blue Swallow,Swallow,No,Blue swallow.mp3,media/calls/b-blue-swallow.mp3,,Yes,Trainer library (881)
+b-blue-waxbill,Blue Waxbill,Waxbill,No,Blue waxbill.mp3,media/calls/b-blue-waxbill.mp3,,Yes,Trainer library (881)
+b-blue-cheeked-bee-eater,Blue-cheeked Bee-eater,eater,No,Blue-cheeked Bee-eater.mp3,media/calls/b-blue-cheeked-bee-eater.mp3,,Yes,Trainer library (881)
+b-blue-spotted-wood-dove,Blue-spotted Wood Dove,Dove,No,Blue-spotted wood dove.mp3,media/calls/b-blue-spotted-wood-dove.mp3,,Yes,Trainer library (881)
+b-bohms-bee-eater,Bohm's Bee-eater,eater,No,Bohm's Bee-eater.mp3,media/calls/b-bohms-bee-eater.mp3,,Yes,Trainer library (881)
+b-bohms-spinetail,Bohm's Spinetail,Spinetail,No,Bohm's spinetail.mp3,media/calls/b-bohms-spinetail.mp3,,Yes,Trainer library (881)
+b-booted-eagle,Booted Eagle,Eagle,No,Booted eagle.mp3,media/calls/b-booted-eagle.mp3,,Yes,Trainer library (881)
+b-bradfields-swift,Bradfield's Swift,Swift,No,Bradfield's swift.mp3,media/calls/b-bradfields-swift.mp3,,Yes,Trainer library (881)
+b-bridled-tern,Bridled Tern,Tern,No,Bridled tern.mp3,media/calls/b-bridled-tern.mp3,,Yes,Trainer library (881)
+b-broad-billed-prion,Broad-billed Prion,Prion,No,Broad-billed prion.mp3,media/calls/b-broad-billed-prion.mp3,,Yes,Trainer library (881)
+b-broad-billed-sandpiper,Broad-billed Sandpiper,Sandpiper,No,Broad-billed sandpiper.mp3,media/calls/b-broad-billed-sandpiper.mp3,,Yes,Trainer library (881)
+b-broad-tailed-warbler,Broad-tailed Warbler,Warbler,No,Broad-tailed warbler.mp3,media/calls/b-broad-tailed-warbler.mp3,,Yes,Trainer library (881)
+b-bronze-mannikin,Bronze Mannikin,Mannikin,No,Bronze mannikin.mp3,media/calls/b-bronze-mannikin.mp3,,Yes,Trainer library (881)
+b-bronzy-sunbird,Bronzy Sunbird,Sunbird,No,Bronzy sunbird.mp3,media/calls/b-bronzy-sunbird.mp3,,Yes,Trainer library (881)
+b-brown-noddy,Brown Noddy,Noddy,No,Brown noddy.mp3,media/calls/b-brown-noddy.mp3,,Yes,Trainer library (881)
+b-brown-snake-eagle,Brown Snake Eagle,Eagle,No,Brown snake eagle.mp3,media/calls/b-brown-snake-eagle.mp3,,Yes,Trainer library (881)
+b-brown-throated-martin,Brown-throated Martin,Martin,No,Brown-throated martin.mp3,media/calls/b-brown-throated-martin.mp3,,Yes,Trainer library (881)
+b-bulwers-petrel,Bulwer's Petrel,Petrel,No,Bulwer's petrel.mp3,media/calls/b-bulwers-petrel.mp3,,Yes,Trainer library (881)
+b-burchells-courser,Burchell's Courser,Courser,No,Burchell's Courser.mp3,media/calls/b-burchells-courser.mp3,,Yes,Trainer library (881)
+b-burchells-sandgrouse,Burchell's Sandgrouse,Sandgrouse,No,Burchell's sandgrouse.mp3,media/calls/b-burchells-sandgrouse.mp3,,Yes,Trainer library (881)
+b-cape-cormorant,Cape Cormorant,Cormorant,No,Cape Cormorant.mp3,media/calls/b-cape-cormorant.mp3,,Yes,Trainer library (881)
+b-cape-crow,Cape Crow,Crow,No,Cape Crow.mp3,media/calls/b-cape-crow.mp3,,Yes,Trainer library (881)
+b-cape-glossy-starling,Cape Glossy Starling,Starling,No,Cape Glossy starling.mp3,media/calls/b-cape-glossy-starling.mp3,,Yes,Trainer library (881)
+b-cape-gannet,Cape Gannet,Gannet,No,Cape gannet.mp3,media/calls/b-cape-gannet.mp3,,Yes,Trainer library (881)
+b-cape-longclaw,Cape Longclaw,Longclaw,No,Cape longclaw.mp3,media/calls/b-cape-longclaw.mp3,,Yes,Trainer library (881)
+b-cape-shoveler,Cape Shoveler,Shoveler,No,Cape shoveler.mp3,media/calls/b-cape-shoveler.mp3,,Yes,Trainer library (881)
+b-cape-sparrow,Cape Sparrow,Sparrow,No,Cape sparrow.mp3,media/calls/b-cape-sparrow.mp3,,Yes,Trainer library (881)
+b-cape-spurfowl,Cape Spurfowl,Spurfowl,No,Cape spurfowl.mp3,media/calls/b-cape-spurfowl.mp3,,Yes,Trainer library (881)
+b-cape-sugarbird,Cape Sugarbird,Sugarbird,No,Cape sugarbird.mp3,media/calls/b-cape-sugarbird.mp3,,Yes,Trainer library (881)
+b-cape-teal,Cape Teal,Teal,No,Cape teal.mp3,media/calls/b-cape-teal.mp3,,Yes,Trainer library (881)
+b-cape-turtle-dove,Cape Turtle Dove,Dove,No,Cape turtle dove.mp3,media/calls/b-cape-turtle-dove.mp3,,Yes,Trainer library (881)
+b-cape-vulture,Cape Vulture,Vulture,No,Cape vulture.mp3,media/calls/b-cape-vulture.mp3,,Yes,Trainer library (881)
+b-cape-wagtail,Cape Wagtail,Wagtail,No,Cape wagtail.mp3,media/calls/b-cape-wagtail.mp3,,Yes,Trainer library (881)
+b-cape-weaver,Cape Weaver,Weaver,No,Cape weaver.mp3,media/calls/b-cape-weaver.mp3,,Yes,Trainer library (881)
+b-cape-white-eye,Cape White-eye,eye,No,Cape white-eye.mp3,media/calls/b-cape-white-eye.mp3,,Yes,Trainer library (881)
+b-cardinal-quelea,Cardinal Quelea,Quelea,No,Cardinal quelea.mp3,media/calls/b-cardinal-quelea.mp3,,Yes,Trainer library (881)
+b-caspian-plover,Caspian Plover,Plover,No,Caspian plover.mp3,media/calls/b-caspian-plover.mp3,,Yes,Trainer library (881)
+b-caspian-tern,Caspian Tern,Tern,No,Caspian tern.mp3,media/calls/b-caspian-tern.mp3,,Yes,Trainer library (881)
+b-cattle-egret,Cattle Egret,Egret,No,Cattle egret.mp3,media/calls/b-cattle-egret.mp3,,Yes,Trainer library (881)
+b-chestnut-weaver,Chestnut Weaver,Weaver,No,Chestnut weaver.mp3,media/calls/b-chestnut-weaver.mp3,,Yes,Trainer library (881)
+b-chestnut-backed-sparrowlark,Chestnut-backed Sparrowlark,Sparrowlark,Yes,Chestnut-backed sparrowlark.mp3,media/calls/b-chestnut-backed-sparrowlark.mp3,media/birds/chestnut-backed-sparrowlark.jpg,Yes,Trainer library (881)
+b-chestnut-banded-plover,Chestnut-banded Plover,Plover,No,Chestnut-banded plover.mp3,media/calls/b-chestnut-banded-plover.mp3,,Yes,Trainer library (881)
+b-chukar-partridge,Chukar Partridge,Partridge,No,Chukar partridge.mp3,media/calls/b-chukar-partridge.mp3,,Yes,Trainer library (881)
+b-clapper-2-species-lark,Clapper (2 Species) Lark,Lark,No,Clapper (2 species) lark.mp3,media/calls/b-clapper-2-species-lark.mp3,,Yes,Trainer library (881)
+b-collared-pranticole,Collared Pranticole,Pranticole,No,Collared pranticole.mp3,media/calls/b-collared-pranticole.mp3,,Yes,Trainer library (881)
+b-comb-duck,Comb Duck,Duck,No,Comb duck.mp3,media/calls/b-comb-duck.mp3,,Yes,Trainer library (881)
+b-common-black-headed-gull,Common Black-headed Gull,Gull,No,Common Black-headed gull.mp3,media/calls/b-common-black-headed-gull.mp3,,Yes,Trainer library (881)
+b-common-cuckoo,Common Cuckoo,Cuckoo,No,Common Cuckoo.mp3,media/calls/b-common-cuckoo.mp3,,Yes,Trainer library (881)
+b-common-ringed-plover,Common Ringed Plover,Plover,No,Common Ringed plover.mp3,media/calls/b-common-ringed-plover.mp3,,Yes,Trainer library (881)
+b-common-fiscal,Common Fiscal,Fiscal,No,Common fiscal.mp3,media/calls/b-common-fiscal.mp3,,Yes,Trainer library (881)
+b-common-greenshank,Common Greenshank,Greenshank,No,Common greenshank.mp3,media/calls/b-common-greenshank.mp3,,Yes,Trainer library (881)
+b-common-house-martin,Common House Martin,Martin,No,Common house martin.mp3,media/calls/b-common-house-martin.mp3,,Yes,Trainer library (881)
+b-common-moorhen,Common Moorhen,Moorhen,No,Common moorhen.mp3,media/calls/b-common-moorhen.mp3,,Yes,Trainer library (881)
+b-common-myna,Common Myna,Myna,No,Common myna.mp3,media/calls/b-common-myna.mp3,,Yes,Trainer library (881)
+b-common-ostrich,Common Ostrich,Ostrich,No,Common ostrich.mp3,media/calls/b-common-ostrich.mp3,,Yes,Trainer library (881)
+b-common-quail,Common Quail,Quail,No,Common quail.mp3,media/calls/b-common-quail.mp3,,Yes,Trainer library (881)
+b-common-redshank,Common Redshank,Redshank,No,Common redshank.mp3,media/calls/b-common-redshank.mp3,,Yes,Trainer library (881)
+b-common-redstart,Common Redstart,Redstart,No,Common redstart.mp3,media/calls/b-common-redstart.mp3,,Yes,Trainer library (881)
+b-common-sandpiper,Common Sandpiper,Sandpiper,No,Common sandpiper.mp3,media/calls/b-common-sandpiper.mp3,,Yes,Trainer library (881)
+b-common-starling,Common Starling,Starling,No,Common starling.mp3,media/calls/b-common-starling.mp3,,Yes,Trainer library (881)
+b-common-swift,Common Swift,Swift,No,Common swift.mp3,media/calls/b-common-swift.mp3,,Yes,Trainer library (881)
+b-common-tern,Common Tern,Tern,No,Common tern.mp3,media/calls/b-common-tern.mp3,,Yes,Trainer library (881)
+b-common-waxbill,Common Waxbill,Waxbill,No,Common waxbill.mp3,media/calls/b-common-waxbill.mp3,,Yes,Trainer library (881)
+b-common-whimbrel,Common Whimbrel,Whimbrel,No,Common whimbrel.mp3,media/calls/b-common-whimbrel.mp3,,Yes,Trainer library (881)
+b-common-whitethroat,Common Whitethroat,Whitethroat,Yes,Common whitethroat.mp3,media/calls/b-common-whitethroat.mp3,media/birds/common-whitethroat.jpg,Yes,Trainer library (881)
+b-coqui-francolin,Coqui Francolin,Francolin,Yes,Coqui francolin.mp3,media/calls/b-coqui-francolin.mp3,media/birds/coqui-francolin.jpg,Yes,Trainer library (881)
+b-corn-crake,Corn Crake,Crake,No,Corn Crake.mp3,media/calls/b-corn-crake.mp3,,Yes,Trainer library (881)
+b-corys-shearwater,Cory's Shearwater,Shearwater,No,Cory's shearwater.mp3,media/calls/b-corys-shearwater.mp3,,Yes,Trainer library (881)
+b-crab-plover,Crab Plover,Plover,No,Crab plover.mp3,media/calls/b-crab-plover.mp3,,Yes,Trainer library (881)
+b-crested-francolin,Crested Francolin,Francolin,No,Crested francolin.mp3,media/calls/b-crested-francolin.mp3,,Yes,Trainer library (881)
+b-crested-guineafowl,Crested Guineafowl,Guineafowl,No,Crested guineafowl.mp3,media/calls/b-crested-guineafowl.mp3,,Yes,Trainer library (881)
+b-crowned-cormorant,Crowned Cormorant,Cormorant,No,Crowned Cormorant.mp3,media/calls/b-crowned-cormorant.mp3,,Yes,Trainer library (881)
+b-crowned-lapwing,Crowned Lapwing,Lapwing,No,Crowned lapwing.mp3,media/calls/b-crowned-lapwing.mp3,,Yes,Trainer library (881)
+b-cuckoo-finch,Cuckoo Finch,Finch,No,Cuckoo finch.mp3,media/calls/b-cuckoo-finch.mp3,,Yes,Trainer library (881)
+b-curlew-sandpiper,Curlew Sandpiper,Sandpiper,No,Curlew sandpiper.mp3,media/calls/b-curlew-sandpiper.mp3,,Yes,Trainer library (881)
+b-damara-tern,Damara Tern,Tern,No,Damara tern.mp3,media/calls/b-damara-tern.mp3,,Yes,Trainer library (881)
+b-dark-chanting-goshawk,Dark Chanting Goshawk,Goshawk,Yes,Dark Chanting goshawk.mp3,media/calls/b-dark-chanting-goshawk.mp3,media/birds/dark-chanting-goshawk.jpg,Yes,Trainer library (881)
+b-dark-capped-bulbul,Dark-capped Bulbul,Bulbul,No,Dark-capped Bulbul.mp3,media/calls/b-dark-capped-bulbul.mp3,,Yes,Trainer library (881)
+b-dickinsons-kestrel,Dickinson's Kestrel,Kestrel,No,Dickinson's Kestrel.mp3,media/calls/b-dickinsons-kestrel.mp3,,Yes,Trainer library (881)
+b-double-banded-courser,Double-banded Courser,Courser,No,Double-banded Courser.mp3,media/calls/b-double-banded-courser.mp3,,Yes,Trainer library (881)
+b-double-banded-sandgrouse,Double-banded Sandgrouse,Sandgrouse,No,Double-banded sandgrouse.mp3,media/calls/b-double-banded-sandgrouse.mp3,,Yes,Trainer library (881)
+b-dunlin,Dunlin,Dunlin,No,Dunlin.mp3,media/calls/b-dunlin.mp3,,Yes,Trainer library (881)
+b-eastern-saw-wing,Eastern Saw-wing,wing,No,Eastern saw-wing.mp3,media/calls/b-eastern-saw-wing.mp3,,Yes,Trainer library (881)
+b-egyptian-goose,Egyptian Goose,Goose,No,Egyptian goose.mp3,media/calls/b-egyptian-goose.mp3,,Yes,Trainer library (881)
+b-egyptian-vulture,Egyptian Vulture,Vulture,No,Egyptian vulture.mp3,media/calls/b-egyptian-vulture.mp3,,Yes,Trainer library (881)
+b-eleonoras-falcon,Eleonora's Falcon,Falcon,No,Eleonora's falcon.mp3,media/calls/b-eleonoras-falcon.mp3,,Yes,Trainer library (881)
+b-emerald-spotted-wood-dove,Emerald-spotted Wood Dove,Dove,Yes,Emerald-spotted wood dove.mp3,media/calls/b-emerald-spotted-wood-dove.mp3,media/birds/emerald-spotted-wood-dove.jpg,Yes,Trainer library (881)
+b-eurasian-blackcap,Eurasian Blackcap,Blackcap,No,Eurasian Blackcap.mp3,media/calls/b-eurasian-blackcap.mp3,,Yes,Trainer library (881)
+b-eurasian-curlew,Eurasian Curlew,Curlew,No,Eurasian Curlew.mp3,media/calls/b-eurasian-curlew.mp3,,Yes,Trainer library (881)
+b-eurasian-hobby,Eurasian Hobby,Hobby,No,Eurasian hobby.mp3,media/calls/b-eurasian-hobby.mp3,,Yes,Trainer library (881)
+b-eurasian-oystercatcher,Eurasian Oystercatcher,Oystercatcher,No,Eurasian oystercatcher.mp3,media/calls/b-eurasian-oystercatcher.mp3,,Yes,Trainer library (881)
+b-european-bee-eater,European Bee-eater,eater,No,European Bee-eater.mp3,media/calls/b-european-bee-eater.mp3,,Yes,Trainer library (881)
+b-european-honey-buzzard,European Honey Buzzard,Buzzard,No,European honey buzzard.mp3,media/calls/b-european-honey-buzzard.mp3,,Yes,Trainer library (881)
+b-european-nightjar,European Nightjar,Nightjar,No,European nightjar.mp3,media/calls/b-european-nightjar.mp3,,Yes,Trainer library (881)
+b-european-roller,European Roller,Roller,No,European roller.mp3,media/calls/b-european-roller.mp3,,Yes,Trainer library (881)
+b-european-storm-petrel,European Storm-petrel,petrel,No,European storm-petrel.mp3,media/calls/b-european-storm-petrel.mp3,,Yes,Trainer library (881)
+b-european-turtle-dove,European Turtle Dove,Dove,No,European turtle dove.mp3,media/calls/b-european-turtle-dove.mp3,,Yes,Trainer library (881)
+b-fan-tailed-widowbird,Fan-tailed Widowbird,Widowbird,No,Fan-tailed widowbird.mp3,media/calls/b-fan-tailed-widowbird.mp3,,Yes,Trainer library (881)
+b-flappet-lark,Flappet Lark,Lark,No,Flappet lark.mp3,media/calls/b-flappet-lark.mp3,,Yes,Trainer library (881)
+b-flesh-footed-shearwater,Flesh-footed Shearwater,Shearwater,No,Flesh-footed shearwater.mp3,media/calls/b-flesh-footed-shearwater.mp3,,Yes,Trainer library (881)
+b-forest-buzzard,Forest Buzzard,Buzzard,No,Forest Buzzard.mp3,media/calls/b-forest-buzzard.mp3,,Yes,Trainer library (881)
+b-fork-tailed-drongo,Fork-tailed Drongo,Drongo,No,Fork-tailed drongo.mp3,media/calls/b-fork-tailed-drongo.mp3,,Yes,Trainer library (881)
+b-franklins-gull,Franklin's Gull,Gull,No,Franklin's gull.mp3,media/calls/b-franklins-gull.mp3,,Yes,Trainer library (881)
+b-fulvous-duck,Fulvous Duck,Duck,No,Fulvous duck.mp3,media/calls/b-fulvous-duck.mp3,,Yes,Trainer library (881)
+b-garganey,Garganey,Garganey,No,Garganey.mp3,media/calls/b-garganey.mp3,,Yes,Trainer library (881)
+b-georgeous-bush-shrike,Georgeous Bush-shrike,shrike,No,Georgeous Bush-shrike.mp3,media/calls/b-georgeous-bush-shrike.mp3,,Yes,Trainer library (881)
+b-giant-kingfisher,Giant Kingfisher,Kingfisher,No,Giant Kingfisher.mp3,media/calls/b-giant-kingfisher.mp3,,Yes,Trainer library (881)
+b-glossy-ibis,Glossy Ibis,Ibis,No,Glossy Ibis.mp3,media/calls/b-glossy-ibis.mp3,,Yes,Trainer library (881)
+b-goliath-heron,Goliath Heron,Heron,No,Goliath Heron.mp3,media/calls/b-goliath-heron.mp3,,Yes,Trainer library (881)
+b-grays-lark,Gray's Lark,Lark,No,Gray's lark.mp3,media/calls/b-grays-lark.mp3,,Yes,Trainer library (881)
+b-great-crested-grebe,Great Crested Grebe,Grebe,No,Great Crested grebe.mp3,media/calls/b-great-crested-grebe.mp3,,Yes,Trainer library (881)
+b-great-egret,Great Egret,Egret,No,Great egret.mp3,media/calls/b-great-egret.mp3,,Yes,Trainer library (881)
+b-great-shearwater,Great Shearwater,Shearwater,No,Great shearwater.mp3,media/calls/b-great-shearwater.mp3,,Yes,Trainer library (881)
+b-great-snipe,Great Snipe,Snipe,No,Great snipe.mp3,media/calls/b-great-snipe.mp3,,Yes,Trainer library (881)
+b-great-white-pelican,Great-White Pelican,Pelican,No,Great-White pelican.mp3,media/calls/b-great-white-pelican.mp3,,Yes,Trainer library (881)
+b-greater-kestrel,Greater Kestrel,Kestrel,No,Greater Kestrel.mp3,media/calls/b-greater-kestrel.mp3,,Yes,Trainer library (881)
+b-greater-sand-plover,Greater Sand Plover,Plover,No,Greater Sand plover.mp3,media/calls/b-greater-sand-plover.mp3,,Yes,Trainer library (881)
+b-greater-striped-swallow,Greater Striped Swallow,Swallow,No,Greater Striped swallow.mp3,media/calls/b-greater-striped-swallow.mp3,,Yes,Trainer library (881)
+b-greater-flamingo,Greater Flamingo,Flamingo,No,Greater flamingo.mp3,media/calls/b-greater-flamingo.mp3,,Yes,Trainer library (881)
+b-greater-frigatebird,Greater Frigatebird,Frigatebird,No,Greater frigatebird.mp3,media/calls/b-greater-frigatebird.mp3,,Yes,Trainer library (881)
+b-greater-pained-snipe,Greater Pained Snipe,Snipe,No,Greater pained snipe.mp3,media/calls/b-greater-pained-snipe.mp3,,Yes,Trainer library (881)
+b-greater-sheathbill,Greater Sheathbill,Sheathbill,No,Greater sheathbill.mp3,media/calls/b-greater-sheathbill.mp3,,Yes,Trainer library (881)
+b-greater-yellowlegs,Greater Yellowlegs,Yellowlegs,No,Greater yellowlegs.mp3,media/calls/b-greater-yellowlegs.mp3,,Yes,Trainer library (881)
+b-green-barbet,Green Barbet,Barbet,No,Green Barbet.mp3,media/calls/b-green-barbet.mp3,,Yes,Trainer library (881)
+b-green-wood-hoopoe,Green Wood Hoopoe,Hoopoe,No,Green Wood Hoopoe.mp3,media/calls/b-green-wood-hoopoe.mp3,,Yes,Trainer library (881)
+b-green-sandpiper,Green Sandpiper,Sandpiper,No,Green sandpiper.mp3,media/calls/b-green-sandpiper.mp3,,Yes,Trainer library (881)
+b-green-backed-heron,Green-backed Heron,Heron,No,Green-backed Heron.mp3,media/calls/b-green-backed-heron.mp3,,Yes,Trainer library (881)
+b-grey-crowned-crane,Grey Crowned Crane,Crane,No,Grey Crowned Crane.mp3,media/calls/b-grey-crowned-crane.mp3,,Yes,Trainer library (881)
+b-grey-heron,Grey Heron,Heron,No,Grey Heron.mp3,media/calls/b-grey-heron.mp3,,Yes,Trainer library (881)
+b-grey-kestrel,Grey Kestrel,Kestrel,No,Grey Kestrel.mp3,media/calls/b-grey-kestrel.mp3,,Yes,Trainer library (881)
+b-grey-go-away-bird,Grey Go Away Bird,Bird,No,Grey go away bird.mp3,media/calls/b-grey-go-away-bird.mp3,,Yes,Trainer library (881)
+b-grey-petrel,Grey Petrel,Petrel,No,Grey petrel.mp3,media/calls/b-grey-petrel.mp3,,Yes,Trainer library (881)
+b-grey-plover,Grey Plover,Plover,No,Grey plover.mp3,media/calls/b-grey-plover.mp3,,Yes,Trainer library (881)
+b-grey-wagtail,Grey Wagtail,Wagtail,No,Grey wagtail.mp3,media/calls/b-grey-wagtail.mp3,,Yes,Trainer library (881)
+b-grey-backed-sparrowlark,Grey-backed Sparrowlark,Sparrowlark,No,Grey-backed sparrowlark.mp3,media/calls/b-grey-backed-sparrowlark.mp3,,Yes,Trainer library (881)
+b-grey-headed-albatross,Grey-headed Albatross,Albatross,No,Grey-headed Albatross.mp3,media/calls/b-grey-headed-albatross.mp3,,Yes,Trainer library (881)
+b-grey-headed-gull,Grey-headed Gull,Gull,No,Grey-headed gull.mp3,media/calls/b-grey-headed-gull.mp3,,Yes,Trainer library (881)
+b-grey-headed-parrot,Grey-headed Parrot,Parrot,No,Grey-headed parrot.mp3,media/calls/b-grey-headed-parrot.mp3,,Yes,Trainer library (881)
+b-grey-rumped-swallow,Grey-rumped Swallow,Swallow,Yes,Grey-rumped swallow.mp3,media/calls/b-grey-rumped-swallow.mp3,media/birds/grey-rumped-swallow.jpg,Yes,Trainer library (881)
+b-gull-billed-tern,Gull-billed Tern,Tern,No,Gull-billed tern.mp3,media/calls/b-gull-billed-tern.mp3,,Yes,Trainer library (881)
+b-hadeda-ibis,Hadeda Ibis,Ibis,No,Hadeda Ibis.mp3,media/calls/b-hadeda-ibis.mp3,,Yes,Trainer library (881)
+b-half-collared-kingfisher,Half-collared Kingfisher,Kingfisher,No,Half-collared Kingfisher.mp3,media/calls/b-half-collared-kingfisher.mp3,,Yes,Trainer library (881)
+b-hamerkop,Hamerkop,Hamerkop,No,Hamerkop.mp3,media/calls/b-hamerkop.mp3,,Yes,Trainer library (881)
+b-harlequin-quail,Harlequin Quail,Quail,No,Harlequin quail.mp3,media/calls/b-harlequin-quail.mp3,,Yes,Trainer library (881)
+b-hartlaubs-gull,Hartlaub's Gull,Gull,No,Hartlaub's gull.mp3,media/calls/b-hartlaubs-gull.mp3,,Yes,Trainer library (881)
+b-helmeted-guineafowl,Helmeted Guineafowl,Guineafowl,No,Helmeted guineafowl.mp3,media/calls/b-helmeted-guineafowl.mp3,,Yes,Trainer library (881)
+b-hooded-vulture,Hooded Vulture,Vulture,No,Hooded vulture.mp3,media/calls/b-hooded-vulture.mp3,,Yes,Trainer library (881)
+b-horus-swift,Horus Swift,Swift,No,Horus swift.mp3,media/calls/b-horus-swift.mp3,,Yes,Trainer library (881)
+b-hottentot-teal,Hottentot Teal,Teal,No,Hottentot teal.mp3,media/calls/b-hottentot-teal.mp3,,Yes,Trainer library (881)
+b-house-crow,House Crow,Crow,No,House Crow.mp3,media/calls/b-house-crow.mp3,,Yes,Trainer library (881)
+b-house-sparrow,House Sparrow,Sparrow,No,House sparrow.mp3,media/calls/b-house-sparrow.mp3,,Yes,Trainer library (881)
+b-isabelline-wheatear,Isabelline Wheatear,Wheatear,No,Isabelline wheater.mp3,media/calls/b-isabelline-wheatear.mp3,,Yes,Trainer library (881)
+b-jackal-buzzard,Jackal Buzzard,Buzzard,No,Jackal Buzzard.mp3,media/calls/b-jackal-buzzard.mp3,,Yes,Trainer library (881)
+b-karoo-scrub-robin,Karoo Scrub-robin,robin,No,Karoo scrub-robin.mp3,media/calls/b-karoo-scrub-robin.mp3,,Yes,Trainer library (881)
+b-karoo-thrush,Karoo Thrush,Thrush,No,Karoo thrush.mp3,media/calls/b-karoo-thrush.mp3,,Yes,Trainer library (881)
+b-kelp-gull,Kelp Gull,Gull,No,Kelp gull.mp3,media/calls/b-kelp-gull.mp3,,Yes,Trainer library (881)
+b-kentish-plover,Kentish Plover,Plover,No,Kentish plover.mp3,media/calls/b-kentish-plover.mp3,,Yes,Trainer library (881)
+b-kerguelen-petrel,Kerguelen Petrel,Petrel,No,Kerguelen petrel.mp3,media/calls/b-kerguelen-petrel.mp3,,Yes,Trainer library (881)
+b-king-penguin,King Penguin,Penguin,No,King penguin.mp3,media/calls/b-king-penguin.mp3,,Yes,Trainer library (881)
+b-kittlitzs-plover,Kittlitz's Plover,Plover,No,Kittlitz's plover.mp3,media/calls/b-kittlitzs-plover.mp3,,Yes,Trainer library (881)
+b-kori-bustard,Kori Bustard,Bustard,No,Kori Bustard.mp3,media/calls/b-kori-bustard.mp3,,Yes,Trainer library (881)
+b-kurrichane-buttonquail,Kurrichane Buttonquail,Buttonquail,Yes,Kurrichane Buttonquail.mp3,media/calls/b-kurrichane-buttonquail.mp3,media/birds/kurrichane-buttonquail.jpg,Yes,Trainer library (881)
+b-lanner-falcon,Lanner Falcon,Falcon,No,Lanner falcon.mp3,media/calls/b-lanner-falcon.mp3,,Yes,Trainer library (881)
+b-lappet-faced-vulture,Lappet-faced Vulture,Vulture,Yes,Lappet-faced vulture.mp3,media/calls/b-lappet-faced-vulture.mp3,media/birds/lappet-faced-vulture.jpg,Yes,Trainer library (881)
+b-laughing-dove,Laughing Dove,Dove,No,Laughing dove.mp3,media/calls/b-laughing-dove.mp3,,Yes,Trainer library (881)
+b-leachs-storm-petrel,Leach's Storm-petrel,petrel,No,Leach's storm-petrel.mp3,media/calls/b-leachs-storm-petrel.mp3,,Yes,Trainer library (881)
+b-lesser-black-backed-gull,Lesser Black-backed Gull,Gull,No,Lesser Black-backed gull.mp3,media/calls/b-lesser-black-backed-gull.mp3,,Yes,Trainer library (881)
+b-lesser-crested-tern,Lesser Crested Tern,Tern,No,Lesser Crested tern.mp3,media/calls/b-lesser-crested-tern.mp3,,Yes,Trainer library (881)
+b-lesser-cuckoo,Lesser Cuckoo,Cuckoo,No,Lesser Cuckoo.mp3,media/calls/b-lesser-cuckoo.mp3,,Yes,Trainer library (881)
+b-lesser-grey-shrike,Lesser Grey Shrike,Shrike,No,Lesser Grey shrike.mp3,media/calls/b-lesser-grey-shrike.mp3,,Yes,Trainer library (881)
+b-lesser-jacana,Lesser Jacana,Jacana,No,Lesser Jacana.mp3,media/calls/b-lesser-jacana.mp3,,Yes,Trainer library (881)
+b-lesser-kestrel,Lesser Kestrel,Kestrel,No,Lesser Kestrel.mp3,media/calls/b-lesser-kestrel.mp3,,Yes,Trainer library (881)
+b-lesser-sand-plover,Lesser Sand Plover,Plover,No,Lesser Sand plover.mp3,media/calls/b-lesser-sand-plover.mp3,,Yes,Trainer library (881)
+b-lesser-spotted-eagle,Lesser Spotted Eagle,Eagle,No,Lesser Spotted eagle.mp3,media/calls/b-lesser-spotted-eagle.mp3,,Yes,Trainer library (881)
+b-lesser-striped-swallow,Lesser Striped Swallow,Swallow,Yes,Lesser Striped swallow.mp3,media/calls/b-lesser-striped-swallow.mp3,media/birds/lesser-striped-swallow.jpg,Yes,Trainer library (881)
+b-lesser-flamingo,Lesser Flamingo,Flamingo,No,Lesser flamingo.mp3,media/calls/b-lesser-flamingo.mp3,,Yes,Trainer library (881)
+b-lesser-masked-weaver,Lesser Masked Weaver,Weaver,No,Lesser masked weaver.mp3,media/calls/b-lesser-masked-weaver.mp3,,Yes,Trainer library (881)
+b-lesser-noddy,Lesser Noddy,Noddy,No,Lesser noddy.mp3,media/calls/b-lesser-noddy.mp3,,Yes,Trainer library (881)
+b-lesser-yellowlegs,Lesser Yellowlegs,Yellowlegs,No,Lesser yellowlegs.mp3,media/calls/b-lesser-yellowlegs.mp3,,Yes,Trainer library (881)
+b-lilac-breasted-roller,Lilac-breasted Roller,Roller,No,Lilac-breasted roller.mp3,media/calls/b-lilac-breasted-roller.mp3,,Yes,Trainer library (881)
+b-lilians-lovebird,Lilian's Lovebird,Lovebird,No,Lilian's lovebird.mp3,media/calls/b-lilians-lovebird.mp3,,Yes,Trainer library (881)
+b-little-bee-eater,Little Bee-eater,eater,No,Little Bee-eater.mp3,media/calls/b-little-bee-eater.mp3,,Yes,Trainer library (881)
+b-little-egret,Little Egret,Egret,No,Little egret.mp3,media/calls/b-little-egret.mp3,,Yes,Trainer library (881)
+b-little-grebe,Little Grebe,Grebe,No,Little grebe.mp3,media/calls/b-little-grebe.mp3,,Yes,Trainer library (881)
+b-little-shearwater,Little Shearwater,Shearwater,No,Little shearwater.mp3,media/calls/b-little-shearwater.mp3,,Yes,Trainer library (881)
+b-little-stint,Little Stint,Stint,No,Little stint.mp3,media/calls/b-little-stint.mp3,,Yes,Trainer library (881)
+b-little-swift,Little Swift,Swift,No,Little swift.mp3,media/calls/b-little-swift.mp3,,Yes,Trainer library (881)
+b-little-tern,Little Tern,Tern,No,Little tern.mp3,media/calls/b-little-tern.mp3,,Yes,Trainer library (881)
+b-lizard-buzzard,Lizard Buzzard,Buzzard,No,Lizard Buzzard.mp3,media/calls/b-lizard-buzzard.mp3,,Yes,Trainer library (881)
+b-long-crested-eagle,Long-crested Eagle,Eagle,No,Long-crested eagle.mp3,media/calls/b-long-crested-eagle.mp3,,Yes,Trainer library (881)
+b-long-legged-buzzard,Long-legged Buzzard,Buzzard,No,Long-legged Buzzard.mp3,media/calls/b-long-legged-buzzard.mp3,,Yes,Trainer library (881)
+b-long-tailed-jaeger,Long-tailed Jaeger,Jaeger,No,Long-tailed Jaeger.mp3,media/calls/b-long-tailed-jaeger.mp3,,Yes,Trainer library (881)
+b-long-tailed-paradise-whydah,Long-tailed Paradise Whydah,Whydah,No,Long-tailed paradise whydah.mp3,media/calls/b-long-tailed-paradise-whydah.mp3,,Yes,Trainer library (881)
+b-long-tailed-widowbird,Long-tailed Widowbird,Widowbird,No,Long-tailed widowbird.mp3,media/calls/b-long-tailed-widowbird.mp3,,Yes,Trainer library (881)
+b-long-toed-lapwing,Long-toed Lapwing,Lapwing,No,Long-toed lapwing.mp3,media/calls/b-long-toed-lapwing.mp3,,Yes,Trainer library (881)
+b-long-toed-stint,Long-toed Stint,Stint,No,Long-toed stint.mp3,media/calls/b-long-toed-stint.mp3,,Yes,Trainer library (881)
+b-ludwigs-bustard,Ludwig's Bustard,Bustard,No,Ludwig's Bustard.mp3,media/calls/b-ludwigs-bustard.mp3,,Yes,Trainer library (881)
+b-macaroni-penguin,Macaroni Penguin,Penguin,No,Macaroni penguin.mp3,media/calls/b-macaroni-penguin.mp3,,Yes,Trainer library (881)
+b-maccoa-duck,Maccoa Duck,Duck,No,Maccoa duck.mp3,media/calls/b-maccoa-duck.mp3,,Yes,Trainer library (881)
+b-madagascar-bee-eater,Madagascar Bee-eater,eater,No,Madagascar Bee-eater.mp3,media/calls/b-madagascar-bee-eater.mp3,,Yes,Trainer library (881)
+b-malachite-kingfisher,Malachite Kingfisher,Kingfisher,No,Malachite Kingfisher.mp3,media/calls/b-malachite-kingfisher.mp3,,Yes,Trainer library (881)
+b-malachite-sunbird,Malachite Sunbird,Sunbird,No,Malachite sunbird.mp3,media/calls/b-malachite-sunbird.mp3,,Yes,Trainer library (881)
+b-malagasy-pond-heron,Malagasy Pond-heron,heron,No,Malagasy pond-heron.mp3,media/calls/b-malagasy-pond-heron.mp3,,Yes,Trainer library (881)
+b-manx-shearwater,Manx Shearwater,Shearwater,No,Manx shearwater.mp3,media/calls/b-manx-shearwater.mp3,,Yes,Trainer library (881)
+b-marabou-stork,Marabou Stork,Stork,No,Marabou stork.mp3,media/calls/b-marabou-stork.mp3,,Yes,Trainer library (881)
+b-marsh-sandpiper,Marsh Sandpiper,Sandpiper,No,Marsh sandpiper.mp3,media/calls/b-marsh-sandpiper.mp3,,Yes,Trainer library (881)
+b-martial-eagle,Martial Eagle,Eagle,No,Martial eagle.mp3,media/calls/b-martial-eagle.mp3,,Yes,Trainer library (881)
+b-mascarene-martin,Mascarene Martin,Martin,No,Mascarene martin.mp3,media/calls/b-mascarene-martin.mp3,,Yes,Trainer library (881)
+b-meyers-parrot,Meyer's Parrot,Parrot,Yes,Meyer's parrot.mp3,media/calls/b-meyers-parrot.mp3,media/birds/meyers-parrot.jpg,Yes,Trainer library (881)
+b-miombo-blue-eared-starling,Miombo Blue-eared Starling,Starling,No,Miombo Blue-eared starling.mp3,media/calls/b-miombo-blue-eared-starling.mp3,,Yes,Trainer library (881)
+b-montagus-harrier,Montagu's Harrier,Harrier,No,Montagu's Harrier.mp3,media/calls/b-montagus-harrier.mp3,,Yes,Trainer library (881)
+b-mosque-swallow,Mosque Swallow,Swallow,No,Mosque swallow.mp3,media/calls/b-mosque-swallow.mp3,,Yes,Trainer library (881)
+b-mottled-swift,Mottled Swift,Swift,No,Mottled swift.mp3,media/calls/b-mottled-swift.mp3,,Yes,Trainer library (881)
+b-mute-swan,Mute Swan,Swan,No,Mute swan.mp3,media/calls/b-mute-swan.mp3,,Yes,Trainer library (881)
+b-namaqua-dove,Namaqua Dove,Dove,No,Namaqua dove.mp3,media/calls/b-namaqua-dove.mp3,,Yes,Trainer library (881)
+b-namaqua-sandgrouse,Namaqua Sandgrouse,Sandgrouse,No,Namaqua sandgrouse.mp3,media/calls/b-namaqua-sandgrouse.mp3,,Yes,Trainer library (881)
+b-northern-black-korhaan,Northern Black Korhaan,Korhaan,No,Northern Black Korhaan.mp3,media/calls/b-northern-black-korhaan.mp3,,Yes,Trainer library (881)
+b-northern-giant-petrel,Northern Giant Petrel,Petrel,No,Northern giant petrel.mp3,media/calls/b-northern-giant-petrel.mp3,,Yes,Trainer library (881)
+b-northern-pintail,Northern Pintail,Pintail,No,Northern pintail.mp3,media/calls/b-northern-pintail.mp3,,Yes,Trainer library (881)
+b-northern-shoveler,Northern Shoveler,Shoveler,No,Northern shoveler.mp3,media/calls/b-northern-shoveler.mp3,,Yes,Trainer library (881)
+b-northern-wheatear,Northern Wheatear,Wheatear,No,Northern wheater.mp3,media/calls/b-northern-wheatear.mp3,,Yes,Trainer library (881)
+b-orange-breasted-sunbird,Orange-breasted Sunbird,Sunbird,No,Orange-breasted sunbird.mp3,media/calls/b-orange-breasted-sunbird.mp3,,Yes,Trainer library (881)
+b-osprey,Osprey,Osprey,No,Osprey.mp3,media/calls/b-osprey.mp3,,Yes,Trainer library (881)
+b-pacific-golden-plover,Pacific Golden Plover,Plover,No,Pacific Golden plover.mp3,media/calls/b-pacific-golden-plover.mp3,,Yes,Trainer library (881)
+b-pale-flycatcher,Pale Flycatcher,Flycatcher,No,Pale flycatcher.mp3,media/calls/b-pale-flycatcher.mp3,,Yes,Trainer library (881)
+b-pallid-harrier,Pallid Harrier,Harrier,No,Pallid Harrier.mp3,media/calls/b-pallid-harrier.mp3,,Yes,Trainer library (881)
+b-pallid-honeyguide,Pallid Honeyguide,Honeyguide,No,Pallid Honeyguide.mp3,media/calls/b-pallid-honeyguide.mp3,,Yes,Trainer library (881)
+b-pallid-swift,Pallid Swift,Swift,No,Pallid swift.mp3,media/calls/b-pallid-swift.mp3,,Yes,Trainer library (881)
+b-palm-nut-vulture,Palm-nut Vulture,Vulture,No,Palm-nut vulture.mp3,media/calls/b-palm-nut-vulture.mp3,,Yes,Trainer library (881)
+b-parasitic-jaeger,Parasitic Jaeger,Jaeger,No,Parasitic Jaeger.mp3,media/calls/b-parasitic-jaeger.mp3,,Yes,Trainer library (881)
+b-pearl-breasted-swallow,Pearl-breasted Swallow,Swallow,No,Pearl-breasted swallow.mp3,media/calls/b-pearl-breasted-swallow.mp3,,Yes,Trainer library (881)
+b-pectoral-sandpiper,Pectoral Sandpiper,Sandpiper,No,Pectoral sandpiper.mp3,media/calls/b-pectoral-sandpiper.mp3,,Yes,Trainer library (881)
+b-peregrine-falcon,Peregrine Falcon,Falcon,No,Peregrine falcon.mp3,media/calls/b-peregrine-falcon.mp3,,Yes,Trainer library (881)
+b-pied-avocet,Pied Avocet,Avocet,No,Pied Avocet.mp3,media/calls/b-pied-avocet.mp3,,Yes,Trainer library (881)
+b-pied-crow,Pied Crow,Crow,No,Pied Crow.mp3,media/calls/b-pied-crow.mp3,,Yes,Trainer library (881)
+b-pied-kingfisher,Pied Kingfisher,Kingfisher,No,Pied Kingfisher.mp3,media/calls/b-pied-kingfisher.mp3,,Yes,Trainer library (881)
+b-pied-starling,Pied Starling,Starling,No,Pied starling.mp3,media/calls/b-pied-starling.mp3,,Yes,Trainer library (881)
+b-pied-wheatear,Pied Wheatear,Wheatear,No,Pied wheater.mp3,media/calls/b-pied-wheatear.mp3,,Yes,Trainer library (881)
+b-pin-tailed-whydah,Pin-tailed Whydah,Whydah,No,Pin-tailed whydah.mp3,media/calls/b-pin-tailed-whydah.mp3,,Yes,Trainer library (881)
+b-pink-backed-pelican,Pink-backed Pelican,Pelican,No,Pink-backed pelican.mp3,media/calls/b-pink-backed-pelican.mp3,,Yes,Trainer library (881)
+b-pomarine-jaeger,Pomarine Jaeger,Jaeger,No,Pomarine Jaeger.mp3,media/calls/b-pomarine-jaeger.mp3,,Yes,Trainer library (881)
+b-purple-heron,Purple Heron,Heron,No,Purple Heron.mp3,media/calls/b-purple-heron.mp3,,Yes,Trainer library (881)
+b-purple-roller,Purple Roller,Roller,Yes,Purple roller.mp3,media/calls/b-purple-roller.mp3,media/birds/purple-roller.jpg,Yes,Trainer library (881)
+b-pygmy-falcon,Pygmy Falcon,Falcon,No,Pygmy falcon.mp3,media/calls/b-pygmy-falcon.mp3,,Yes,Trainer library (881)
+b-red-knot,Red Knot,Knot,No,Red Knot.mp3,media/calls/b-red-knot.mp3,,Yes,Trainer library (881)
+b-red-phalarope,Red Phalarope,Phalarope,No,Red phalarope.mp3,media/calls/b-red-phalarope.mp3,,Yes,Trainer library (881)
+b-red-backed-shrike,Red-backed Shrike,Shrike,No,Red-backed shrike.mp3,media/calls/b-red-backed-shrike.mp3,,Yes,Trainer library (881)
+b-red-billed-oxpecker,Red-billed Oxpecker,Oxpecker,No,Red-billed oxpecker.mp3,media/calls/b-red-billed-oxpecker.mp3,,Yes,Trainer library (881)
+b-red-billed-quelea,Red-billed Quelea,Quelea,Yes,Red-billed quelea.mp3,media/calls/b-red-billed-quelea.mp3,media/birds/red-billed-quelea.jpg,Yes,Trainer library (881)
+b-red-billed-spurfowl,Red-billed Spurfowl,Spurfowl,No,Red-billed spurfowl.mp3,media/calls/b-red-billed-spurfowl.mp3,,Yes,Trainer library (881)
+b-red-billed-teal,Red-billed Teal,Teal,No,Red-billed teal.mp3,media/calls/b-red-billed-teal.mp3,,Yes,Trainer library (881)
+b-red-billed-tropicbird,Red-billed Tropicbird,Tropicbird,No,Red-billed tropicbird.mp3,media/calls/b-red-billed-tropicbird.mp3,,Yes,Trainer library (881)
+b-red-breasted-swallow,Red-breasted Swallow,Swallow,Yes,Red-breasted swallow.mp3,media/calls/b-red-breasted-swallow.mp3,media/birds/red-breasted-swallow.jpg,Yes,Trainer library (881)
+b-red-collared-widowbird,Red-collared Widowbird,Widowbird,No,Red-collared widowbird.mp3,media/calls/b-red-collared-widowbird.mp3,,Yes,Trainer library (881)
+b-red-eyed-dove,Red-eyed Dove,Dove,No,Red-eyed dove.mp3,media/calls/b-red-eyed-dove.mp3,,Yes,Trainer library (881)
+b-red-faced-mousebird,Red-faced Mousebird,Mousebird,No,Red-faced mousebird.mp3,media/calls/b-red-faced-mousebird.mp3,,Yes,Trainer library (881)
+b-red-footed-falcon,Red-footed Falcon,Falcon,No,Red-footed falcon.mp3,media/calls/b-red-footed-falcon.mp3,,Yes,Trainer library (881)
+b-red-headed-quelea,Red-headed Quelea,Quelea,No,Red-headed quelea.mp3,media/calls/b-red-headed-quelea.mp3,,Yes,Trainer library (881)
+b-red-headed-weaver,Red-headed Weaver,Weaver,Yes,Red-headed weaver.mp3,media/calls/b-red-headed-weaver.mp3,media/birds/red-headed-weaver.jpg,Yes,Trainer library (881)
+b-red-knobbed-coot,Red-knobbed Coot,Coot,No,Red-knobbed Coot.mp3,media/calls/b-red-knobbed-coot.mp3,,Yes,Trainer library (881)
+b-red-necked-falcon,Red-necked Falcon,Falcon,No,Red-necked falcon.mp3,media/calls/b-red-necked-falcon.mp3,,Yes,Trainer library (881)
+b-red-necked-phalarope,Red-necked Phalarope,Phalarope,No,Red-necked phalarope.mp3,media/calls/b-red-necked-phalarope.mp3,,Yes,Trainer library (881)
+b-red-necked-stint,Red-necked Stint,Stint,No,Red-necked stint.mp3,media/calls/b-red-necked-stint.mp3,,Yes,Trainer library (881)
+b-red-rumped-swallow,Red-rumped Swallow,Swallow,No,Red-rumped swallow.mp3,media/calls/b-red-rumped-swallow.mp3,,Yes,Trainer library (881)
+b-red-throated-pipit,Red-throated Pipit,Pipit,No,Red-throated pipit.mp3,media/calls/b-red-throated-pipit.mp3,,Yes,Trainer library (881)
+b-red-winged-starling,Red-winged Starling,Starling,No,Red-winged starling.mp3,media/calls/b-red-winged-starling.mp3,,Yes,Trainer library (881)
+b-reed-cormorant,Reed Cormorant,Cormorant,No,Reed Cormorant.mp3,media/calls/b-reed-cormorant.mp3,,Yes,Trainer library (881)
+b-robertss-warbler,Roberts's Warbler,Warbler,No,Roberts's warbler.mp3,media/calls/b-robertss-warbler.mp3,,Yes,Trainer library (881)
+b-rock-kestrel,Rock Kestrel,Kestrel,No,Rock Kestrel.mp3,media/calls/b-rock-kestrel.mp3,,Yes,Trainer library (881)
+b-rock-martin,Rock Martin,Martin,No,Rock martin.mp3,media/calls/b-rock-martin.mp3,,Yes,Trainer library (881)
+b-rock-pranticole,Rock Pranticole,Pranticole,No,Rock pranticole.mp3,media/calls/b-rock-pranticole.mp3,,Yes,Trainer library (881)
+b-rockhopper-penguin,Rockhopper Penguin,Penguin,No,Rockhopper penguin.mp3,media/calls/b-rockhopper-penguin.mp3,,Yes,Trainer library (881)
+b-rose-ringed-parakeet,Rose-ringed Parakeet,Parakeet,No,Rose-ringed parakeet.mp3,media/calls/b-rose-ringed-parakeet.mp3,,Yes,Trainer library (881)
+b-roseate-tern,Roseate Tern,Tern,No,Roseate tern.mp3,media/calls/b-roseate-tern.mp3,,Yes,Trainer library (881)
+b-rosy-faced-lovebird,Rosy-faced Lovebird,Lovebird,No,Rosy-faced lovebird.mp3,media/calls/b-rosy-faced-lovebird.mp3,,Yes,Trainer library (881)
+b-ruddy-turnstone,Ruddy Turnstone,Turnstone,No,Ruddy turnstone.mp3,media/calls/b-ruddy-turnstone.mp3,,Yes,Trainer library (881)
+b-ruff,Ruff,Ruff,No,Ruff.mp3,media/calls/b-ruff.mp3,,Yes,Trainer library (881)
+b-rufous-chested-sparrowhawk,Rufous-chested Sparrowhawk,Sparrowhawk,No,Rufous-chested sparrowhawk.mp3,media/calls/b-rufous-chested-sparrowhawk.mp3,,Yes,Trainer library (881)
+b-saddle-billed-stork,Saddle-billed Stork,Stork,No,Saddle-billed stork.mp3,media/calls/b-saddle-billed-stork.mp3,,Yes,Trainer library (881)
+b-sand-martin,Sand Martin,Martin,No,Sand martin.mp3,media/calls/b-sand-martin.mp3,,Yes,Trainer library (881)
+b-sanderling,Sanderling,Sanderling,No,Sanderling.mp3,media/calls/b-sanderling.mp3,,Yes,Trainer library (881)
+b-sandwich-tern,Sandwich Tern,Tern,No,Sandwich tern.mp3,media/calls/b-sandwich-tern.mp3,,Yes,Trainer library (881)
+b-scarce-swift,Scarce Swift,Swift,No,Scarce swift.mp3,media/calls/b-scarce-swift.mp3,,Yes,Trainer library (881)
+b-scarlet-chested-sunbird,Scarlet-chested Sunbird,Sunbird,No,Scarlet-chested sunbird.mp3,media/calls/b-scarlet-chested-sunbird.mp3,,Yes,Trainer library (881)
+b-schalows-turaco,Schalow's Turaco,Turaco,No,Schalow's turaco.mp3,media/calls/b-schalows-turaco.mp3,,Yes,Trainer library (881)
+b-secretarybird,Secretarybird,Secretarybird,No,Secretarybird.mp3,media/calls/b-secretarybird.mp3,,Yes,Trainer library (881)
+b-senegal-lapwing,Senegal Lapwing,Lapwing,No,Senegal lapwing.mp3,media/calls/b-senegal-lapwing.mp3,,Yes,Trainer library (881)
+b-shaft-tailed-whydah,Shaft-tailed Whydah,Whydah,No,Shaft-tailed whydah.mp3,media/calls/b-shaft-tailed-whydah.mp3,,Yes,Trainer library (881)
+b-shoebill,Shoebill,Shoebill,No,Shoebill.mp3,media/calls/b-shoebill.mp3,,Yes,Trainer library (881)
+b-sociable-weaver,Sociable Weaver,Weaver,No,Sociable weaver.mp3,media/calls/b-sociable-weaver.mp3,,Yes,Trainer library (881)
+b-soft-plumaged-petrel,Soft-plumaged Petrel,Petrel,No,Soft-plumaged petrel.mp3,media/calls/b-soft-plumaged-petrel.mp3,,Yes,Trainer library (881)
+b-soot-albatross,Soot Albatross,Albatross,No,Soot Albatross.mp3,media/calls/b-soot-albatross.mp3,,Yes,Trainer library (881)
+b-sooty-falcon,Sooty Falcon,Falcon,No,Sooty falcon.mp3,media/calls/b-sooty-falcon.mp3,,Yes,Trainer library (881)
+b-south-african-cliff-swallow,South African Cliff-swallow,swallow,No,South African Cliff-swallow.mp3,media/calls/b-south-african-cliff-swallow.mp3,,Yes,Trainer library (881)
+b-south-african-shelduck,South African Shelduck,Shelduck,No,South African Shelduck.mp3,media/calls/b-south-african-shelduck.mp3,,Yes,Trainer library (881)
+b-southern-bald-ibis,Southern Bald Ibis,Ibis,No,Southern Bald Ibis.mp3,media/calls/b-southern-bald-ibis.mp3,,Yes,Trainer library (881)
+b-southern-brown-throated,Southern Brown-throated,throated,No,Southern Brown-throated.mp3,media/calls/b-southern-brown-throated.mp3,,Yes,Trainer library (881)
+b-southern-carmine-bee-eater,Southern Carmine Bee-eater,eater,No,Southern Carmine Bee-eater.mp3,media/calls/b-southern-carmine-bee-eater.mp3,,Yes,Trainer library (881)
+b-southern-grey-headed-sparrow,Southern Grey-headed Sparrow,Sparrow,No,Southern Grey-headed sparrow.mp3,media/calls/b-southern-grey-headed-sparrow.mp3,,Yes,Trainer library (881)
+b-southern-pale-chanting-goshawk,Southern Pale Chanting Goshawk,Goshawk,No,Southern Pale Chanting goshawk.mp3,media/calls/b-southern-pale-chanting-goshawk.mp3,,Yes,Trainer library (881)
+b-southern-red-bishop,Southern Red Bishop,Bishop,No,Southern Red Bishop.mp3,media/calls/b-southern-red-bishop.mp3,,Yes,Trainer library (881)
+b-southern-white-faced-scops-owl,Southern White-faced Scops-owl,owl,No,Southern White-faced scops-owl.mp3,media/calls/b-southern-white-faced-scops-owl.mp3,,Yes,Trainer library (881)
+b-southern-yellow-billed-hornbill,Southern Yellow-billed Hornbill,Hornbill,No,Southern Yellow-billed Hornbill.mp3,media/calls/b-southern-yellow-billed-hornbill.mp3,,Yes,Trainer library (881)
+b-southern-ground-hornbill,Southern Ground Hornbill,Hornbill,No,Southern ground hornbill.mp3,media/calls/b-southern-ground-hornbill.mp3,,Yes,Trainer library (881)
+b-southern-masked-weaver,Southern Masked Weaver,Weaver,No,Southern masked weaver.mp3,media/calls/b-southern-masked-weaver.mp3,,Yes,Trainer library (881)
+b-southern-pochard,Southern Pochard,Pochard,No,Southern pochard.mp3,media/calls/b-southern-pochard.mp3,,Yes,Trainer library (881)
+b-souzas-shrike,Souza's Shrike,Shrike,No,Souza's shrike.mp3,media/calls/b-souzas-shrike.mp3,,Yes,Trainer library (881)
+b-speckled-mousebird,Speckled Mousebird,Mousebird,No,Speckled mousebird.mp3,media/calls/b-speckled-mousebird.mp3,,Yes,Trainer library (881)
+b-speckled-pigeon,Speckled Pigeon,Pigeon,No,Speckled pigeon.mp3,media/calls/b-speckled-pigeon.mp3,,Yes,Trainer library (881)
+b-spotted-flycatcher,Spotted Flycatcher,Flycatcher,No,Spotted flycatcher.mp3,media/calls/b-spotted-flycatcher.mp3,,Yes,Trainer library (881)
+b-spotted-redshank,Spotted Redshank,Redshank,No,Spotted redshank.mp3,media/calls/b-spotted-redshank.mp3,,Yes,Trainer library (881)
+b-spur-winged-goose,Spur-winged Goose,Goose,No,Spur-winged goose.mp3,media/calls/b-spur-winged-goose.mp3,,Yes,Trainer library (881)
+b-spur-winged-lapwing,Spur-winged Lapwing,Lapwing,No,Spur-winged lapwing.mp3,media/calls/b-spur-winged-lapwing.mp3,,Yes,Trainer library (881)
+b-squacco-heron,Squacco Heron,Heron,No,Squacco heron.mp3,media/calls/b-squacco-heron.mp3,,Yes,Trainer library (881)
+b-steppe-buzzard,Steppe Buzzard,Buzzard,No,Steppe Buzzard.mp3,media/calls/b-steppe-buzzard.mp3,,Yes,Trainer library (881)
+b-sub-antarctic-skua,Sub-antarctic Skua,Skua,No,Sub-antarctic skua.mp3,media/calls/b-sub-antarctic-skua.mp3,,Yes,Trainer library (881)
+b-swallow-tailed-bee-eater,Swallow-tailed Bee-eater,eater,No,Swallow-tailed Bee-eater.mp3,media/calls/b-swallow-tailed-bee-eater.mp3,,Yes,Trainer library (881)
+b-swamp-nightjar,Swamp Nightjar,Nightjar,No,Swamp nightjar.mp3,media/calls/b-swamp-nightjar.mp3,,Yes,Trainer library (881)
+b-swift-tern,Swift Tern,Tern,No,Swift tern.mp3,media/calls/b-swift-tern.mp3,,Yes,Trainer library (881)
+b-tawny-eagle,Tawny Eagle,Eagle,No,Tawny eagle.mp3,media/calls/b-tawny-eagle.mp3,,Yes,Trainer library (881)
+b-temmincks-courser,Temminck's Courser,Courser,Yes,Temminck's Courser.mp3,media/calls/b-temmincks-courser.mp3,media/birds/temmincks-courser.jpg,Yes,Trainer library (881)
+b-temmincks-stint,Temminck's Stint,Stint,No,Temminck's stint.mp3,media/calls/b-temmincks-stint.mp3,,Yes,Trainer library (881)
+b-terek-sandpiper,Terek Sandpiper,Sandpiper,No,Terek sandpiper.mp3,media/calls/b-terek-sandpiper.mp3,,Yes,Trainer library (881)
+b-thick-billed-weaver,Thick-billed Weaver,Weaver,No,Thick-billed weaver.mp3,media/calls/b-thick-billed-weaver.mp3,,Yes,Trainer library (881)
+b-three-banded-plover,Three-banded Plover,Plover,No,Three-banded plover.mp3,media/calls/b-three-banded-plover.mp3,,Yes,Trainer library (881)
+b-tropical-shearwater,Tropical Shearwater,Shearwater,No,Tropical shearwater.mp3,media/calls/b-tropical-shearwater.mp3,,Yes,Trainer library (881)
+b-verreauxs-eagle,Verreaux's Eagle,Eagle,No,Verreaux's eagle.mp3,media/calls/b-verreauxs-eagle.mp3,,Yes,Trainer library (881)
+b-village-weaver,Village Weaver,Weaver,No,Village weaver.mp3,media/calls/b-village-weaver.mp3,,Yes,Trainer library (881)
+b-wahlbergs-eagle,Wahlberg's Eagle,Eagle,No,Wahlberg's eagle.mp3,media/calls/b-wahlbergs-eagle.mp3,,Yes,Trainer library (881)
+b-wandering-albatross,Wandering Albatross,Albatross,No,Wandering Albatross.mp3,media/calls/b-wandering-albatross.mp3,,Yes,Trainer library (881)
+b-wattled-crane,Wattled Crane,Crane,No,Wattled Crane.mp3,media/calls/b-wattled-crane.mp3,,Yes,Trainer library (881)
+b-wattled-starling,Wattled Starling,Starling,No,Wattled starling.mp3,media/calls/b-wattled-starling.mp3,,Yes,Trainer library (881)
+b-wedge-tailed-shearwater,Wedge-tailed Shearwater,Shearwater,No,Wedge-tailed shearwater.mp3,media/calls/b-wedge-tailed-shearwater.mp3,,Yes,Trainer library (881)
+b-western-march-harrier,Western March-harrier,harrier,No,Western march-harrier.mp3,media/calls/b-western-march-harrier.mp3,,Yes,Trainer library (881)
+b-whinchat,Whinchat,Whinchat,No,Whinchat.mp3,media/calls/b-whinchat.mp3,,Yes,Trainer library (881)
+b-whiskered-tern,Whiskered Tern,Tern,No,Whiskered tern.mp3,media/calls/b-whiskered-tern.mp3,,Yes,Trainer library (881)
+b-white-stork,White Stork,Stork,No,White stork.mp3,media/calls/b-white-stork.mp3,,Yes,Trainer library (881)
+b-white-backed-duck,White-backed Duck,Duck,No,White-backed duck.mp3,media/calls/b-white-backed-duck.mp3,,Yes,Trainer library (881)
+b-white-backed-mousebird,White-backed Mousebird,Mousebird,No,White-backed mousebird.mp3,media/calls/b-white-backed-mousebird.mp3,,Yes,Trainer library (881)
+b-white-backed-night-heron,White-backed Night-heron,heron,No,White-backed night-heron.mp3,media/calls/b-white-backed-night-heron.mp3,,Yes,Trainer library (881)
+b-white-backed-vulture,White-backed Vulture,Vulture,No,White-backed vulture.mp3,media/calls/b-white-backed-vulture.mp3,,Yes,Trainer library (881)
+b-white-bellied-storm-petrel,White-bellied Storm-petrel,petrel,No,White-bellied storm-petrel.mp3,media/calls/b-white-bellied-storm-petrel.mp3,,Yes,Trainer library (881)
+b-white-breasted-cormorant,White-breasted Cormorant,Cormorant,No,White-breasted Cormorant.mp3,media/calls/b-white-breasted-cormorant.mp3,,Yes,Trainer library (881)
+b-white-chested-alethe,White-chested Alethe,Alethe,No,White-chested Alethe.mp3,media/calls/b-white-chested-alethe.mp3,,Yes,Trainer library (881)
+b-white-chinned-petrel,White-chinned Petrel,Petrel,No,White-chinned petrel.mp3,media/calls/b-white-chinned-petrel.mp3,,Yes,Trainer library (881)
+b-white-crowned-lapwing,White-crowned Lapwing,Lapwing,No,White-crowned lapwing.mp3,media/calls/b-white-crowned-lapwing.mp3,,Yes,Trainer library (881)
+b-white-faced-whistling-duck,White-faced Whistling Duck,Duck,No,White-faced whistling duck.mp3,media/calls/b-white-faced-whistling-duck.mp3,,Yes,Trainer library (881)
+b-white-fronted-bee-eater,White-fronted Bee-eater,eater,No,White-fronted Bee-eater.mp3,media/calls/b-white-fronted-bee-eater.mp3,,Yes,Trainer library (881)
+b-white-fronted-plover,White-fronted Plover,Plover,No,White-fronted plover.mp3,media/calls/b-white-fronted-plover.mp3,,Yes,Trainer library (881)
+b-white-necked-raven,White-necked Raven,Raven,No,White-necked raven.mp3,media/calls/b-white-necked-raven.mp3,,Yes,Trainer library (881)
+b-white-rumped-sandpiper,White-rumped Sandpiper,Sandpiper,No,White-rumped sandpiper.mp3,media/calls/b-white-rumped-sandpiper.mp3,,Yes,Trainer library (881)
+b-white-rumped-swift,White-rumped Swift,Swift,No,White-rumped swift.mp3,media/calls/b-white-rumped-swift.mp3,,Yes,Trainer library (881)
+b-white-tailed-tropicbird,White-tailed Tropicbird,Tropicbird,No,White-tailed tropicbird.mp3,media/calls/b-white-tailed-tropicbird.mp3,,Yes,Trainer library (881)
+b-white-throated-bee-eater,White-throated Bee-eater,eater,No,White-throated Bee-eater.mp3,media/calls/b-white-throated-bee-eater.mp3,,Yes,Trainer library (881)
+b-white-throated-swallow,White-throated Swallow,Swallow,No,White-throated swallow.mp3,media/calls/b-white-throated-swallow.mp3,,Yes,Trainer library (881)
+b-white-winged-tern,White-winged Tern,Tern,No,White-winged tern.mp3,media/calls/b-white-winged-tern.mp3,,Yes,Trainer library (881)
+b-white-winged-wiowbird,White-winged Wiowbird,Wiowbird,No,White-winged wiowbird.mp3,media/calls/b-white-winged-wiowbird.mp3,,Yes,Trainer library (881)
+b-wilsons-phalarope,Wilson's Phalarope,Phalarope,No,Wilson's phalarope.mp3,media/calls/b-wilsons-phalarope.mp3,,Yes,Trainer library (881)
+b-wilsons-storm-petrel,Wilson's Storm-petrel,petrel,No,Wilson's storm-petrel.mp3,media/calls/b-wilsons-storm-petrel.mp3,,Yes,Trainer library (881)
+b-wire-tailed-swallow,Wire-tailed Swallow,Swallow,Yes,Wire-tailed swallow.mp3,media/calls/b-wire-tailed-swallow.mp3,media/birds/wire-tailed-swallow.jpg,Yes,Trainer library (881)
+b-wood-sandpiper,Wood Sandpiper,Sandpiper,No,Wood sandpiper.mp3,media/calls/b-wood-sandpiper.mp3,,Yes,Trainer library (881)
+b-woolly-necked-stork,Woolly-necked Stork,Stork,No,Woolly-necked stork.mp3,media/calls/b-woolly-necked-stork.mp3,,Yes,Trainer library (881)
+b-yellow-bishop,Yellow Bishop,Bishop,No,Yellow Bishop.mp3,media/calls/b-yellow-bishop.mp3,,Yes,Trainer library (881)
+b-yellow-wagtail,Yellow Wagtail,Wagtail,No,Yellow wagtail.mp3,media/calls/b-yellow-wagtail.mp3,,Yes,Trainer library (881)
+b-yellow-weaver,Yellow Weaver,Weaver,No,Yellow weaver.mp3,media/calls/b-yellow-weaver.mp3,,Yes,Trainer library (881)
+b-yellow-billed-kite,Yellow-billed Kite,Kite,No,Yellow-billed Kite.mp3,media/calls/b-yellow-billed-kite.mp3,,Yes,Trainer library (881)
+b-yellow-billed-duck,Yellow-billed Duck,Duck,No,Yellow-billed duck.mp3,media/calls/b-yellow-billed-duck.mp3,,Yes,Trainer library (881)
+b-yellow-billed-egret,Yellow-billed Egret,Egret,No,Yellow-billed egret.mp3,media/calls/b-yellow-billed-egret.mp3,,Yes,Trainer library (881)
+b-yellow-billed-oxpecker,Yellow-billed Oxpecker,Oxpecker,Yes,Yellow-billed oxpecker.mp3,media/calls/b-yellow-billed-oxpecker.mp3,media/birds/yellow-billed-oxpecker.jpg,Yes,Trainer library (881)
+b-yellow-billed-stork,Yellow-billed Stork,Stork,No,Yellow-billed stork.mp3,media/calls/b-yellow-billed-stork.mp3,,Yes,Trainer library (881)
+b-yellow-crowned-bishop,Yellow-crowned Bishop,Bishop,No,Yellow-crowned Bishop.mp3,media/calls/b-yellow-crowned-bishop.mp3,,Yes,Trainer library (881)
+b-yellow-fronted-canary,Yellow-fronted Canary,Canary,No,Yellow-fronted Canary.mp3,media/calls/b-yellow-fronted-canary.mp3,,Yes,Trainer library (881)
+b-yellow-mantled-widowbird,Yellow-mantled Widowbird,Widowbird,No,Yellow-mantled widowbird.mp3,media/calls/b-yellow-mantled-widowbird.mp3,,Yes,Trainer library (881)
+b-yellow-nosed-albatross,Yellow-nosed  Albatross,Albatross,No,Yellow-nosed  Albatross.mp3,media/calls/b-yellow-nosed-albatross.mp3,,Yes,Trainer library (881)
+b-yellow-throated-sandgrouse,Yellow-throated Sandgrouse,Sandgrouse,No,Yellow-throated sandgrouse.mp3,media/calls/b-yellow-throated-sandgrouse.mp3,,Yes,Trainer library (881)
+b-blue-quail,Blue Quail,Quail,No,blue quail.mp3,media/calls/b-blue-quail.mp3,,Yes,Trainer library (881)
+b-mottled-spinetail,Mottled Spinetail,Spinetail,No,mottled spinetail.mp3,media/calls/b-mottled-spinetail.mp3,,Yes,Trainer library (881)
