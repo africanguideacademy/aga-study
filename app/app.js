@@ -220,6 +220,7 @@
       if (p[2] === 'quiz' && MODES[p[3]]) return startQuiz(mod, p[3], p[4] === 'review' ? reviewItems : null);
       if (p[2] === 'flash') return startFlash(mod);
       if (p[2] === 'browse') return renderBrowse(mod);
+      if (p[2] === 'sp' && mod.items.find(i => i.id === p[3])) return renderSpecies(mod, p[3]);
       return renderSubject(subjectOf(mod));
     }
     renderHome();
@@ -532,7 +533,8 @@
         : `<img src="${esc(c.photo)}" alt="Photo"><div class="hint">Who is this? Tap the card to check.</div>`;
       const back = `${c.photo ? `<img src="${esc(c.photo)}" alt="">` : ''}<div class="big-name">${esc(c.name)}</div>
         <div class="small" style="margin-bottom:12px">${esc(c.group || '')}</div>
-        ${c.call ? playBtnHtml('bPlay', 'Play call') : '<div class="small">No call recording in the library</div>'}`;
+        ${c.call ? playBtnHtml('bPlay', 'Play call') : '<div class="small">No call recording in the library</div>'}
+        ${INFO[c.name] && INFO[c.name].titbit ? `<div class="titbit small-tb">${esc(INFO[c.name].titbit)}</div>` : ''}`;
       show(`<div class="flash" id="flash"><div class="flash-inner"><div class="card face front">${front}</div><div class="card face back">${back}</div></div></div>`);
       const flash = $('flash');
       const fp = $('fPlay'), bp = $('bPlay');
@@ -610,15 +612,51 @@
       grid.innerHTML = list.map(i => {
         const box = rec(mod.id, i.id).box;
         const dots = [0, 1, 2].map(k => `<i class="${k < box ? 'on' : ''}"></i>`).join('');
-        return `<div class="card tile">${i.photo ? `<img loading="lazy" src="${esc(i.photo)}" alt="">` : `<div class="ph">${icon('sound')}</div>`}
-          <div class="nm">${esc(i.name)}</div>
+        return `<div class="card tile"><a class="tile-link" href="#/m/${mod.id}/sp/${esc(i.id)}" aria-label="About the ${esc(i.name)}">${i.photo ? `<img loading="lazy" src="${esc(i.photo)}" alt="">` : `<div class="ph">${icon('sound')}</div>`}
+          ${INFO[i.name] ? `<span class="info-dot" aria-hidden="true">i</span>` : ''}
+          <div class="nm">${esc(i.name)}</div></a>
           <div class="row"><span class="dots" title="Progress">${dots}</span>
           ${i.call ? `<button class="mini-play" data-call="${esc(i.call)}" data-label="Play" aria-label="Play call of ${esc(i.name)}"><span class="pi">${icon('play')}</span><span class="lbl">Play</span></button>` : ''}</div></div>`;
       }).join('') || '<p class="empty">Nothing matches your search.</p>';
       grid.querySelectorAll('[data-call]').forEach(b => b.addEventListener('click', () => playCall(b.dataset.call, b)));
     }
-    $('q').addEventListener('input', e => draw(e.target.value));
-    draw('');
+    const q = $('q');
+    q.value = browseFilter[mod.id] || '';
+    q.addEventListener('input', e => { browseFilter[mod.id] = e.target.value; draw(e.target.value); });
+    draw(q.value);
+  }
+  const browseFilter = {};
+
+  // ---------- species page (tap a tile in Browse) ----------
+  const INFO = DATA.info || {};
+  const FACTS = [['size', 'Size'], ['habitat', 'Where it lives'], ['food', 'Food'], ['breeding', 'Breeding']];
+  function renderSpecies(mod, id) {
+    const subj = subjectOf(mod);
+    const items = scopedItems(mod).slice().sort((a, b) => a.name.localeCompare(b.name));
+    const k = items.findIndex(i => i.id === id);
+    const it = k >= 0 ? items[k] : mod.items.find(i => i.id === id);
+    const info = INFO[it.name];
+    chrome({ tab: 'home', back: `#/m/${mod.id}/browse`, title: it.name });
+    const nav = (j, dir) => j >= 0 && j < items.length ? `<a class="btn ghost sp-nav ${dir > 0 ? 'nx' : ''}" href="#/m/${mod.id}/sp/${esc(items[j].id)}">${dir < 0 ? '&lsaquo; ' : ''}${esc(items[j].name)}${dir > 0 ? ' &rsaquo;' : ''}</a>` : '<span></span>';
+    const facts = info ? FACTS.filter(([f]) => info[f]).map(([f, label]) => `<div class="fact"><div class="fl">${label}</div><div class="fv">${esc(info[f])}</div></div>`).join('') : '';
+    show(`<div class="card species">
+        ${it.photo ? `<img class="sp-photo" src="${esc(it.photo)}" alt="${esc(it.name)}">` : ''}
+        <div class="sp-body">
+          <h1 class="sp-name">${esc(it.name)}</h1>
+          ${it.group ? `<div class="small">${esc(it.group)}${it.sci ? ` &middot; <i>${esc(it.sci)}</i>` : ''}</div>` : ''}
+          ${it.call ? `<div style="margin-top:12px">${playBtnHtml('spPlay', 'Play call')}</div>` : ''}
+          ${info && info.titbit ? `<div class="titbit"><div class="fl">Did you know?</div>${esc(info.titbit)}</div>` : ''}
+          ${facts ? `<div class="facts">${facts}</div>` : ''}
+          ${!info ? `<p class="small" style="margin-top:14px">No fact card for this ${esc(subj.noun || 'species')} yet.</p>` : ''}
+          ${info && info.draft ? `<p class="small draft-note"><span class="draft">Draft</span> Facts still being checked by AGA trainers.</p>` : ''}
+        </div></div>
+      ${k >= 0 ? `<div class="sp-pager">${nav(k - 1, -1)}${nav(k + 1, 1)}</div>` : ''}`);
+    const b = $('spPlay');
+    if (b) b.addEventListener('click', () => playCall(it.call, b));
+    keyHandler = e => {
+      if (e.key === 'ArrowLeft' && k > 0) go(`#/m/${mod.id}/sp/${items[k - 1].id}`);
+      else if (e.key === 'ArrowRight' && k >= 0 && k < items.length - 1) go(`#/m/${mod.id}/sp/${items[k + 1].id}`);
+    };
   }
 
   // Study list for manual questions: grouped by topic, tap a question to show the answer.

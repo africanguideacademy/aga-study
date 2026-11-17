@@ -1,0 +1,443 @@
+[
+ {
+  "name": "African Cuckoo",
+  "size": "About 32 cm long.",
+  "habitat": "Summer migrant from tropical Africa to woodland and savanna in northern and eastern Botswana.",
+  "food": "Mainly hairy caterpillars and other insects taken in the tree canopy.",
+  "breeding": "Brood parasite; lays its eggs in the nests of the Fork-tailed Drongo.",
+  "titbit": "Its 'hoop-hoop' call sounds like an African Hoopoe, unlike the 'cuck-oo' of the Common Cuckoo.",
+  "source": "general"
+ },
+ {
+  "name": "African Hawk-Eagle",
+  "size": "About 60-65 cm long; the female is larger than the male.",
+  "habitat": "Resident of tall woodland, especially along rivers, in northern and eastern Botswana.",
+  "food": "Mostly gamebirds such as francolins and guineafowl, also hares and other small mammals.",
+  "breeding": "Builds a large stick nest high in a tall tree, lined with green leaves; lays 1-2 eggs.",
+  "titbit": "Pairs often hunt together, one bird flushing the prey for its partner.",
+  "source": "general"
+ },
+ {
+  "name": "African Mourning Dove",
+  "size": "About 30 cm long.",
+  "habitat": "Resident of riverine woodland in northern Botswana, such as the Okavango and Chobe.",
+  "food": "Seeds picked up on the ground.",
+  "breeding": "Builds a flimsy platform nest of twigs in a tree or bush.",
+  "titbit": "Told from the Cape Turtle Dove by its grey head and yellow eye ringed with red skin.",
+  "source": "general"
+ },
+ {
+  "name": "African Pygmy Kingfisher",
+  "size": "About 12-13 cm long.",
+  "habitat": "Summer migrant from tropical Africa to woodland and savanna in northern and eastern Botswana.",
+  "food": "Insects and small lizards caught on the ground from a low perch; it does not need water.",
+  "breeding": "Digs a nest tunnel in an earth bank, the side of an aardvark burrow or a termite mound.",
+  "titbit": "Told from the Malachite Kingfisher by its violet ear patch and lack of a crest.",
+  "source": "general"
+ },
+ {
+  "name": "Allen's Gallinule",
+  "size": "About 25 cm long.",
+  "habitat": "Summer visitor to flooded grassland and dense marsh vegetation in the Okavango and Chobe.",
+  "food": "Plant material and seeds, also insects and snails.",
+  "breeding": "Cup nest of plant stems hidden in reeds or sedges just above the water.",
+  "titbit": "Breeding birds have a bright blue shield on the forehead above the red bill.",
+  "source": "general"
+ },
+ {
+  "name": "Ashy Flycatcher",
+  "size": "About 14 cm long.",
+  "habitat": "Resident of riverine woodland in far northern Botswana, such as the Okavango and Chobe.",
+  "food": "Insects caught in short flights from a perch.",
+  "breeding": "Small cup nest placed in a tree hollow, a fork of a branch or an old nest of another bird.",
+  "titbit": "Blue-grey above and paler below, with a short white line above the eye.",
+  "source": "general"
+ },
+ {
+  "name": "Black Crake",
+  "size": "About 20-23 cm long.",
+  "habitat": "Common resident of wetlands with reeds and floating plants, especially in the Okavango and Chobe.",
+  "food": "Insects, snails, worms, small fish and frogs found at the water's edge.",
+  "breeding": "Bowl-shaped nest of plant material hidden in reeds or vegetation over water.",
+  "titbit": "Walks on lily pads and has been seen picking parasites off hippos and buffalo.",
+  "source": "general"
+ },
+ {
+  "name": "Black-backed Puffback",
+  "size": "About 16-18 cm long.",
+  "habitat": "Resident of woodland and riverine forest in northern and eastern Botswana.",
+  "food": "Insects picked from leaves and branches in the tree canopy.",
+  "breeding": "Small neat cup nest bound with spider web in the fork of a tree.",
+  "titbit": "The male puffs out his white rump feathers into a fluffy ball when displaying.",
+  "source": "general"
+ },
+ {
+  "name": "Black-faced Waxbill",
+  "size": "About 12-13 cm long.",
+  "habitat": "Resident of dry acacia thornveld and Kalahari scrub.",
+  "food": "Mainly grass seeds taken on or near the ground.",
+  "breeding": "Untidy ball nest of grass with a side entrance, low in a thorny bush.",
+  "titbit": "Easy to know by its black face, grey head and deep red rump and flanks.",
+  "source": "general"
+ },
+ {
+  "name": "Blue Waxbill",
+  "size": "About 13 cm long.",
+  "habitat": "Common resident of acacia savanna and woodland, often near water.",
+  "food": "Mainly grass seeds, also small insects such as termites.",
+  "breeding": "Ball nest of grass with a side entrance in a thorny tree or bush.",
+  "titbit": "Often builds its nest close to a wasp nest, which helps protect it from predators.",
+  "source": "general"
+ },
+ {
+  "name": "Brown-crowned Tchagra",
+  "size": "About 19 cm long.",
+  "habitat": "Resident of thornveld and dry woodland with low bushes.",
+  "food": "Insects found on or near the ground under bushes.",
+  "breeding": "Neat cup nest placed low in a bush or small tree.",
+  "titbit": "In display it flies up with rattling wings, then glides down giving a falling whistled song.",
+  "source": "general"
+ },
+ {
+  "name": "Burchell's Starling",
+  "size": "About 30-34 cm long; the largest glossy starling in the region.",
+  "habitat": "Resident of savanna and open woodland; flocks of 60 or more in late winter and spring.",
+  "food": "Mostly insects, also small vertebrates and sometimes berries and flowers.",
+  "breeding": "Nests in a hole in a tree.",
+  "titbit": "Will fiercely mob slender mongooses, owls and large snakes.",
+  "source": "manual"
+ },
+ {
+  "name": "Cardinal Woodpecker",
+  "size": "About 14-16 cm long.",
+  "habitat": "Resident of woodland and savanna throughout Botswana.",
+  "food": "Insect larvae dug out of thin branches and twigs by tapping.",
+  "breeding": "Excavates its own nest hole, usually in a dead branch.",
+  "titbit": "Southern Africa's smallest woodpecker; the male has a red back of the crown, the female black.",
+  "source": "general"
+ },
+ {
+  "name": "Collared Palm-Thrush",
+  "size": "About 17 cm long.",
+  "habitat": "Resident of thickets and palm groves in far northern Botswana, such as along the Chobe River.",
+  "food": "Insects and other small animals found on the ground.",
+  "breeding": "Cup nest placed in a palm or in a hollow in a tree.",
+  "titbit": "Has a thin black collar around a pale throat and is a good singer that copies other birds.",
+  "source": "general"
+ },
+ {
+  "name": "Coppery-tailed Coucal",
+  "size": "About 44-50 cm long.",
+  "habitat": "Resident of reedbeds and papyrus in the Okavango, Linyanti and Chobe wetlands.",
+  "food": "Insects, frogs, snails, rodents and small birds.",
+  "breeding": "Builds its own ball-shaped nest of grass and reeds; it is not a brood parasite.",
+  "titbit": "The largest coucal in southern Africa, with a deep bubbling 'doo-doo-doo' call.",
+  "source": "general"
+ },
+ {
+  "name": "Crested Francolin",
+  "size": "About 32-35 cm long.",
+  "habitat": "Resident of woodland and savanna with thickets in northern and eastern Botswana.",
+  "food": "Seeds, bulbs, berries, insects and termites scratched from the ground.",
+  "breeding": "Lays its eggs in a shallow scrape on the ground under a bush.",
+  "titbit": "Often runs with its tail cocked like a bantam chicken; pairs duet loudly at dawn.",
+  "source": "general"
+ },
+ {
+  "name": "Dark Chanting Goshawk",
+  "size": "About 50-56 cm long.",
+  "habitat": "Resident of broad-leaved woodland in northern and eastern Botswana.",
+  "food": "Lizards, rodents, birds and large insects, caught by dropping from a perch.",
+  "breeding": "Stick nest in the fork of a tree, often lined with mud or dung.",
+  "titbit": "Named for its piping song; told from the Pale Chanting Goshawk by its grey, barred rump.",
+  "source": "general"
+ },
+ {
+  "name": "Double-banded Sandgrouse",
+  "size": "About 25 cm long.",
+  "habitat": "Resident of mopane and other woodland in northern and eastern Botswana.",
+  "food": "Seeds picked up on the ground.",
+  "breeding": "Lays its eggs in a shallow scrape on the bare ground.",
+  "titbit": "Unlike other sandgrouse it comes to drink at dusk, arriving just after sunset.",
+  "source": "general"
+ },
+ {
+  "name": "Egyptian Goose",
+  "size": "About 63-73 cm long.",
+  "habitat": "Common resident around any slow-moving or still water; most often in pairs.",
+  "food": "Almost entirely plants such as grass and seeds; insects are eaten by accident.",
+  "breeding": "Nests on the ground, in tree holes, on cliff ledges or on top of old nests of other birds.",
+  "titbit": "Not a true goose; it is related to the shelducks. Females have a thinner neck.",
+  "source": "manual"
+ },
+ {
+  "name": "European Bee-eater",
+  "size": "About 25-29 cm long.",
+  "habitat": "Summer migrant from Europe and Asia; common on passage across Botswana.",
+  "food": "Flying insects, especially bees and wasps caught in the air.",
+  "breeding": "Nests in tunnels in sand banks; most breed in Europe and Asia, a few in South Africa and Namibia.",
+  "titbit": "Flocks are often heard calling a soft 'prrrup' high overhead before they are seen.",
+  "source": "general"
+ },
+ {
+  "name": "Gabar Goshawk",
+  "size": "About 28-36 cm long; the female is larger than the male.",
+  "habitat": "Solitary resident of woodland and savanna, often hunting around water-holes.",
+  "food": "Almost only birds caught in flight, doves most of all; it rips open weaver and waxbill nests.",
+  "breeding": "Small stick nest in a tree, often covered with the webs of social spiders.",
+  "titbit": "Young birds take two years to get full adult colours; an all-black form also occurs.",
+  "source": "manual"
+ },
+ {
+  "name": "Great Spotted Cuckoo",
+  "size": "About 38-40 cm long.",
+  "habitat": "Summer migrant from tropical Africa to savanna and open woodland.",
+  "food": "Mainly hairy caterpillars and other large insects.",
+  "breeding": "Brood parasite of crows and starlings; its chick does not throw out the host's eggs or young.",
+  "titbit": "Easy to know by its grey crest, long tail and white-spotted back.",
+  "source": "both"
+ },
+ {
+  "name": "Greater Honeyguide",
+  "size": "About 19-20 cm long.",
+  "habitat": "Solitary resident of riverine and broad-leaved woodland, savanna and gardens.",
+  "food": "Bee eggs, larvae and wax; also hawks flying insects such as termites.",
+  "breeding": "Brood parasite of hole-nesters like barbets; the chick kills the host chicks with its hooked bill.",
+  "titbit": "Leads people to bees' nests, and can digest beeswax with the help of bacteria in its gut.",
+  "source": "manual"
+ },
+ {
+  "name": "Grey Go-away-bird",
+  "size": "About 47-50 cm long.",
+  "habitat": "Resident of dry savanna, usually in groups of 3-8 but up to 30 birds.",
+  "food": "Fruit, flowers, buds and leaves, with some insects.",
+  "breeding": "Flimsy platform nest of sticks in a thorny tree.",
+  "titbit": "Named for its loud 'go-way' alarm call; it mobs large predators and owls.",
+  "source": "manual"
+ },
+ {
+  "name": "Grey-backed Camaroptera",
+  "size": "About 12 cm long.",
+  "habitat": "Resident of thickets and dense undergrowth in northern and eastern Botswana.",
+  "food": "Small insects found in low, dense bushes.",
+  "breeding": "Builds a nest inside living leaves that it sews together with spider web.",
+  "titbit": "Its call is a loud bleat like a lamb, which gave it the old name 'Bleating Warbler'.",
+  "source": "general"
+ },
+ {
+  "name": "Hamerkop",
+  "size": "About 56 cm long.",
+  "habitat": "Resident wherever there is shallow water; usually alone or in pairs.",
+  "food": "Mostly frogs and tadpoles; fish and insects are less important.",
+  "breeding": "Builds a huge domed nest of sticks and mud with a side entrance, often used later by owls and geese.",
+  "titbit": "The name is Afrikaans for 'hammer-head', after the shape of its head and crest.",
+  "source": "manual"
+ },
+ {
+  "name": "Kori Bustard",
+  "size": "About 105-135 cm long; males can weigh more than 12 kg.",
+  "habitat": "Resident of dry open savanna and grassland, alone or in loose groups.",
+  "food": "Mostly insects, also small vertebrates and carrion.",
+  "breeding": "Lays 1-2 eggs on bare ground; the male displays by puffing out his white neck feathers.",
+  "titbit": "One of the heaviest flying birds in the world; the flagship bird of the Kgalagadi park.",
+  "source": "manual"
+ },
+ {
+  "name": "Lesser Striped Swallow",
+  "size": "About 15-17 cm long.",
+  "habitat": "Summer migrant (some stay all year) in northern and eastern Botswana, often near buildings.",
+  "food": "Flying insects caught in the air.",
+  "breeding": "Builds a bowl-shaped mud nest with an entrance tunnel under bridges, eaves or rock ledges.",
+  "titbit": "Told from the Greater Striped Swallow by its heavy black streaks and orange head.",
+  "source": "general"
+ },
+ {
+  "name": "Long-billed Crombec",
+  "size": "About 10-12 cm long.",
+  "habitat": "Common resident of woodland and thornveld throughout Botswana.",
+  "food": "Small insects picked from branches and bark.",
+  "breeding": "Hanging purse-shaped nest of grass and spider web below a twig.",
+  "titbit": "It has almost no tail, so it looks like a small round ball creeping along branches.",
+  "source": "general"
+ },
+ {
+  "name": "Marico Flycatcher",
+  "size": "About 18 cm long.",
+  "habitat": "Common resident of acacia savanna, especially in the Kalahari.",
+  "food": "Insects caught by dropping onto the ground from a low perch.",
+  "breeding": "Small cup nest in the fork of a thorny tree.",
+  "titbit": "Named after the Marico district in South Africa; brown above and clean white below.",
+  "source": "general"
+ },
+ {
+  "name": "Monotonous Lark",
+  "size": "About 14 cm long.",
+  "habitat": "Nomadic; arrives in woodland and grassy savanna in the north and east after good rains.",
+  "food": "Seeds and insects taken on the ground.",
+  "breeding": "Cup nest on the ground next to a grass tuft.",
+  "titbit": "Males repeat the same short song over and over, day and night, which gives the bird its name.",
+  "source": "general"
+ },
+ {
+  "name": "Palm Swift",
+  "size": "About 15-17 cm long.",
+  "habitat": "Resident of savanna with palm trees, usually in pairs or flocks.",
+  "food": "Small insects caught in the air.",
+  "breeding": "Glues a small pad of feathers to the underside of a palm frond with its saliva.",
+  "titbit": "It glues its eggs to the hanging nest so they do not fall out in the wind.",
+  "source": "both"
+ },
+ {
+  "name": "Pennant-winged Nightjar",
+  "size": "About 25-28 cm long, not counting the male's pennants.",
+  "habitat": "Summer migrant to broad-leaved woodland in northern and eastern Botswana.",
+  "food": "Flying insects such as moths and beetles caught at dusk and night.",
+  "breeding": "Lays its eggs on bare ground among leaf litter, with no nest.",
+  "titbit": "Breeding males grow long white wing pennants, up to twice the length of the body.",
+  "source": "general"
+ },
+ {
+  "name": "Purple-banded Sunbird",
+  "size": "About 11-12 cm long.",
+  "habitat": "Resident of riverine woodland in northern Botswana, such as the Okavango and Chobe.",
+  "food": "Nectar, small insects and spiders.",
+  "breeding": "Small hanging oval nest with a side entrance, decorated with lichen and bark.",
+  "titbit": "Told from the similar Marico Sunbird by its smaller size and shorter bill.",
+  "source": "general"
+ },
+ {
+  "name": "Red-billed Buffalo-Weaver",
+  "size": "About 22-24 cm long.",
+  "habitat": "Resident of dry acacia savanna, often near large trees such as baobabs.",
+  "food": "Seeds and insects, mostly taken on the ground, often near game.",
+  "breeding": "Groups build large untidy nests of thorny twigs in big trees; males have several females.",
+  "titbit": "Males have an unusual false penis, a feature found in very few other birds.",
+  "source": "general"
+ },
+ {
+  "name": "Red-billed Quelea",
+  "size": "About 12 cm long.",
+  "habitat": "Nomadic; moves in huge flocks through savanna and thornveld, following seed supply.",
+  "food": "Grass seeds and grain.",
+  "breeding": "Breeds in colonies of up to millions, with small woven ball nests in thorn trees.",
+  "titbit": "Thought to be the most numerous wild bird on Earth, with over a billion birds.",
+  "source": "general"
+ },
+ {
+  "name": "Red-crested Korhaan",
+  "size": "About 50 cm long.",
+  "habitat": "Common resident of Kalahari thornveld and dry woodland.",
+  "food": "Insects such as termites and beetles, also seeds and fruit.",
+  "breeding": "Lays its eggs on bare ground with no nest.",
+  "titbit": "In display the male flies straight up, then tumbles down as if shot and opens his wings at the last moment.",
+  "source": "both"
+ },
+ {
+  "name": "Retz's Helmet-Shrike",
+  "size": "About 20-22 cm long.",
+  "habitat": "Resident of broad-leaved woodland, such as mopane, in northern Botswana.",
+  "food": "Insects and caterpillars found in the tree canopy.",
+  "breeding": "Cup nest on a branch; group members help feed the chicks. Host of the Thick-billed Cuckoo.",
+  "titbit": "Lives in groups that move through the trees together; note the red bill and eye ring.",
+  "source": "general"
+ },
+ {
+  "name": "Southern Black Tit",
+  "size": "About 16 cm long.",
+  "habitat": "Resident of woodland and savanna in northern and eastern Botswana.",
+  "food": "Insects and their larvae picked from bark and leaves.",
+  "breeding": "Nests in a hole in a tree; other group members may help feed the chicks.",
+  "titbit": "The male is glossy black with white wing markings; it often joins mixed bird parties.",
+  "source": "general"
+ },
+ {
+  "name": "Southern Masked Weaver",
+  "size": "About 14-15 cm long.",
+  "habitat": "Common resident of savanna and dry scrub; forms large flocks, especially when breeding.",
+  "food": "Seeds, insects and nectar.",
+  "breeding": "The male weaves ball nests with the entrance below; one male has several females.",
+  "titbit": "Breeding males are bright yellow with a black mask and red eye, and mob predators.",
+  "source": "manual"
+ },
+ {
+  "name": "Southern White-faced Owl",
+  "size": "About 25-28 cm long.",
+  "habitat": "Resident of acacia savanna and dry woodland.",
+  "food": "Rodents, small birds, insects and scorpions.",
+  "breeding": "Uses old stick nests of other birds or a hollow in a tree.",
+  "titbit": "When afraid it can make itself very thin and upright, or puff up to look much bigger.",
+  "source": "general"
+ },
+ {
+  "name": "Striped Kingfisher",
+  "size": "About 18 cm long.",
+  "habitat": "Resident of woodland and savanna; it does not need water.",
+  "food": "Insects and small lizards caught on the ground from a perch.",
+  "breeding": "Nests in a hole in a tree, often an old barbet or woodpecker hole.",
+  "titbit": "When calling it opens its wings to flash the white underwings.",
+  "source": "general"
+ },
+ {
+  "name": "Tawny-flanked Prinia",
+  "size": "About 11-12 cm long.",
+  "habitat": "Common resident of rank grass and thickets, especially near water.",
+  "food": "Small insects found in grass and low bushes.",
+  "breeding": "Ball nest of grass woven into living leaves; may be parasitised by the Cuckoo Finch.",
+  "titbit": "Often holds its long tail cocked up and waves it while scolding loudly.",
+  "source": "both"
+ },
+ {
+  "name": "Verreaux's Eagle-Owl",
+  "size": "About 58-66 cm long; the largest owl in Africa.",
+  "habitat": "Resident of dry savanna, woodland and riverine woodland, usually in pairs.",
+  "food": "Small to medium mammals and birds, even young vervet monkeys and warthog piglets.",
+  "breeding": "Lays its eggs in old stick nests of other birds, such as eagles or Hamerkops.",
+  "titbit": "Has bright pink eyelids, easy to see when it blinks.",
+  "source": "manual"
+ },
+ {
+  "name": "Water Thick-knee",
+  "size": "About 38-41 cm long.",
+  "habitat": "Resident of river banks and wetlands, in pairs or family groups.",
+  "food": "Insects and other invertebrates, and small vertebrates.",
+  "breeding": "Scrape on the ground near water; it will attack predators with open wings to defend the nest.",
+  "titbit": "Often nests close to nesting crocodiles; its sad whistle is heard at night.",
+  "source": "manual"
+ },
+ {
+  "name": "White-breasted Cuckooshrike",
+  "size": "About 25-27 cm long.",
+  "habitat": "Resident of tall broad-leaved woodland in northern and eastern Botswana.",
+  "food": "Caterpillars and other insects in the tree canopy.",
+  "breeding": "Shallow cup nest of lichen and spider web on a horizontal branch.",
+  "titbit": "A quiet grey and white bird of the treetops that is easy to overlook.",
+  "source": "general"
+ },
+ {
+  "name": "White-faced Duck",
+  "size": "About 43-48 cm long.",
+  "habitat": "Resident of lakes, dams and lagoons; groups of about 40, but flocks of thousands occur.",
+  "food": "Mostly plant matter, also invertebrates.",
+  "breeding": "Nest on the ground in grass or reeds near water.",
+  "titbit": "A whistling duck: its three-note whistle is often heard at night as flocks fly over.",
+  "source": "manual"
+ },
+ {
+  "name": "Wood Sandpiper",
+  "size": "About 19-21 cm long.",
+  "habitat": "Summer migrant from Europe and Asia to shallow pans and flooded grassland; usually alone.",
+  "food": "Mostly invertebrates, also small frogs and fish.",
+  "breeding": "Breeds in northern Europe and Asia, sometimes using old songbird nests in trees.",
+  "titbit": "When flushed it flies off calling a shrill 'chiff-iff-iff'.",
+  "source": "both"
+ },
+ {
+  "name": "Yellow-breasted Apalis",
+  "size": "About 12 cm long.",
+  "habitat": "Resident of woodland and thickets in northern and eastern Botswana.",
+  "food": "Small insects gleaned from leaves.",
+  "breeding": "Ball-shaped nest of plant down, moss and spider web with a side entrance.",
+  "titbit": "Pairs sing duets; the male usually has a small black bar on its yellow breast.",
+  "source": "general"
+ }
+]

@@ -92,6 +92,15 @@ powershell -ExecutionPolicy Bypass -File tools/copy-media.ps1
   Or simply ask Claude to "publish approved questions".
 - `tools/seed-questions-birds.js` created the first Birds draft. It's kept for reference only; don't run it again, because it would overwrite `data/questions.csv`.
 
+## Species fact cards
+
+Tap a photo in **Browse** to open the species page. It shows the photo, the call, "Did you know?", size, where it lives, food and breeding.
+
+- Master copy: the Google Sheet's **Species Info** tab. Locally it's `data/species-info.csv`. The app matches rows by the species **Name** exactly as it appears in the app.
+- New drafts go in `data/species-info/<group>-*.json`. Run `node tools/add-species-info.js` to append them as Draft. It skips names that are already there, so it never overwrites Grant's edits.
+- Status works the same way as for questions: only Approved cards are public, unless the app is built with `DRAFTS_LIVE=1`, in which case Draft cards show with a Draft label.
+- To sync Grant's edits: read the tab into `data/species-info.csv`, then run build-data and publish.
+
 ## Navigation
 - On a phone, the tab bar at the bottom has three tabs: Home, Progress and Offline.
 - Quizzes and flashcards use a full-screen mode with ✕ to quit. The Next and grading buttons sit at the bottom of the screen, within reach of your thumb.
