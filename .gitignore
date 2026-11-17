@@ -3,3 +3,5 @@ data/media-plan.json
 node_modules/
 .DS_Store
 Thumbs.db
+data/originals/
+data/.encoded/

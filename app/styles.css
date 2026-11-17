@@ -172,6 +172,11 @@ body.focus .tabbar { display: none; }
 
 .bar { height: 8px; background: var(--line); border-radius: 99px; overflow: hidden; }
 .bar > span { display: block; height: 100%; background: var(--good); border-radius: 99px; transition: width .4s; }
+.form label { display: block; font-weight: 600; font-size: 14px; margin-bottom: 12px; }
+.form input { display: block; width: 100%; margin-top: 6px; padding: 12px 14px; font: inherit; font-weight: 400; color: var(--ink); background: var(--surface-2); border: 1px solid var(--line); border-radius: 10px; }
+.form input:focus { outline: 2px solid var(--accent); border-color: transparent; }
+.done-card { margin-bottom: 14px; background: var(--good-bg); border-color: transparent; }
+a.btn { text-decoration: none; }
 .bar2 { position: relative; }
 .bar2 > span { position: absolute; left: 0; top: 0; bottom: 0; }
 .bar2 > .pr { background: #e2b77a; }

@@ -54,6 +54,27 @@ powershell -ExecutionPolicy Bypass -File tools/copy-media.ps1
 - The logo and icons are made by `tools/make-icons.ps1`, which uses the official AGA logo files (Koru Designs 2019, on `Z:\MULTIMEDIA\KORU DESIGNS\AFRICAN GUIDE ACADEMY\2019`).
 - The colours are AGA's house colours: maroon #6e1e10, dark brown #3d0f07, ochre #c06a1a, and cream #f4f1ec.
 
+## Audio (calls)
+- `tools/encode-audio.ps1` re-encodes every call to a small mono MP3 (56 kbps, 32 kHz) with no album art. This makes calls 2-3 times smaller, so they load much faster on phones.
+- It also cuts the spoken introduction (common name and scientific name) from the frog CD tracks, using `data/frog-trim.json`. `tools/find-voice-intro.ps1` creates that file by detecting the pauses.
+- Needs FFmpeg: `winget install Gyan.FFmpeg.Essentials`.
+- When calls are added, run in order:
+  1. `tools/copy-media.ps1`
+  2. `tools/encode-audio.ps1`
+  3. `node tools/build-data.js`
+- The bird presentations are turned into data by `tools/extract-pptx.ps1`. The originals it uses are kept in `data/originals/`, which is not committed.
+
+## Student progress submission
+- On the "Submit progress" page, students enter their first name, surname and Omang/passport number once; the phone remembers them. They then tap Submit progress.
+- The results go to an Apps Script web app in `progress-script/`, deployed with clasp from the account africanguideacademy@gmail.com.
+  - Script: https://script.google.com/d/18-cnth_X1BqTck4al6HUTA3ZRy1v9U9LwJc6uBPtHgt_QQ70CPfuEBL5/edit
+  - The script writes to the spreadsheet **"AGA Study App - Student Progress"**.
+    - The **Submissions** tab keeps every submission.
+    - The **Students** tab keeps the latest totals, one row per student.
+  - It looks up each student's Student ID in the AGA Student Profiles registry by matching the Omang/passport number. It only reads the registry and never sends anything from it back.
+- If there's no signal, the submission waits on the phone and is sent automatically later.
+- To update the script: `cd progress-script; clasp push; clasp deploy -i <deploymentId>`. Keeping the same deployment ID keeps the same URL, which is set as `PROGRESS_URL` in `app/app.js`.
+
 ## Manual questions
 - These are multiple-choice questions written from the *Botswana Guide Training Manual* (7th ed., June 2025). The Birds chapter (p92-107) is done first, with 108 questions.
 - The master copy is the **Questions** tab of the Google Sheet. Each row has: question, correct answer, 3 wrong answers, explanation, manual page, and a Status of Draft, Approved or Rejected.

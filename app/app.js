@@ -40,7 +40,15 @@
   let progress = load(STORE_KEY, {});
   let settings = Object.assign({ length: 10, scope: {} }, load(SETTINGS_KEY, {}));
   function rec(modId, itemId) { return (progress[modId] && progress[modId][itemId]) || { box: 0, right: 0, wrong: 0 }; }
+  // ---------- progress submission to AGA (Google Apps Script -> "AGA Study App - Student Progress" sheet) ----------
+  const PROGRESS_URL = 'https://script.google.com/macros/s/AKfycbyJ3sijfiw4uparWC1Di-WnlNS7rl7-HzI6ACw2VhGJPtrzCqvwa4MiM8Wuf1iqcrWgZw/exec';
+  const STUDENT_KEY = 'aga-study-student-v1', SESSION_KEY = 'aga-study-session-v1', QUEUE_KEY = 'aga-study-queue-v1', DEVICE_KEY = 'aga-study-device-v1';
+  let session = load(SESSION_KEY, { answers: 0, correct: 0, since: Date.now() });
+  function deviceId() {
+    let d = load(DEVICE_KEY, ''); if (!d) { d = Math.random().toString(36).slice(2, 10); save(DEVICE_KEY, d); } return d;
+  }
   function record(modId, itemId, correct) {
+    session.answers++; if (correct) session.correct++; save(SESSION_KEY, session);
     progress[modId] = progress[modId] || {};
     const r = Object.assign({}, rec(modId, itemId));
     if (correct) { r.right++; r.box = Math.min(5, r.box + 1); } else { r.wrong++; r.box = 0; }
@@ -102,12 +110,15 @@
     audio.play().then(() => setPlaying(true)).catch(() => setPlaying(false));
   }
   function stopAudio() { audio.pause(); audioBtn = null; }
+  // Warm the browser cache for an upcoming call (keeps one hidden Audio element loading in the background)
+  const preloader = new Audio(); preloader.preload = 'auto'; preloader.muted = true;
+  function preloadCall(item) { if (item && item.call && navigator.onLine) { try { preloader.src = item.call; preloader.load(); } catch (e) { /* ignore */ } } }
   const playBtnHtml = (id, label, big) => big
     ? `<button class="play" id="${id}" aria-label="Play call"><span class="pi">${icon('play')}</span></button>`
     : `<button class="mini-play" id="${id}" data-label="${label}"><span class="pi">${icon('play')}</span><span class="lbl">${label}</span></button>`;
 
   // ---------- offline ----------
-  const MEDIA_CACHE = 'aga-media-v1';
+  const MEDIA_CACHE = 'aga-media-v2'; // must match sw.js
   const hasCaches = 'caches' in window;
   let cachedSet = new Set();
   const abs = u => new URL(u, location.href).href;
@@ -191,6 +202,7 @@
     const p = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
     if (p[0] === 'offline') return renderOffline();
     if (p[0] === 'progress') return renderProgress();
+    if (p[0] === 'submit') return renderSubmit();
     if (p[0] === 's' && SUBJECTS.find(x => x.id === p[1])) return renderSubject(SUBJECTS.find(x => x.id === p[1]));
     if (p[0] === 'm' && modById(p[1])) {
       const mod = modById(p[1]);
@@ -355,9 +367,10 @@
       setQuizProgress(state.i / questions.length);
       const pics = modeKey === 'call2photo' || modeKey === 'name2photo';
       let prompt;
-      if (modeKey === 'photo2name') prompt = `<img class="main" src="${esc(q.photo)}" alt="Bird photo"><div class="q">Which bird is this?</div>`;
+      const noun = subjectOf(mod).noun || 'bird'; // "bird" / "frog"
+      if (modeKey === 'photo2name') prompt = `<img class="main" src="${esc(q.photo)}" alt="Photo"><div class="q">Which ${noun} is this?</div>`;
       else if (modeKey === 'name2photo') prompt = `<div class="hint">Tap the photo of the</div><div class="big-name">${esc(q.name)}</div>`;
-      else prompt = `${playBtnHtml('playQ', '', true)}<div class="q">${modeKey === 'call2photo' ? 'Tap the bird that makes this call' : 'Whose call is this?'}</div><div class="hint">Tap the button to play it again</div>`;
+      else prompt = `${playBtnHtml('playQ', '', true)}<div class="q">${modeKey === 'call2photo' ? `Tap the ${noun} that makes this call` : 'Whose call is this?'}</div><div class="hint">Tap the button to play it again</div>`;
       const optHtml = opts.map((o, k) => pics
         ? `<button class="opt" data-id="${esc(o.id)}" aria-label="Option ${k + 1}"><img src="${esc(o.photo)}" alt=""><span class="cap"></span></button>`
         : `<button class="opt" data-id="${esc(o.id)}"><span class="k">${'ABCD'[k]}</span><span>${esc(o.name)}</span></button>`).join('');
@@ -365,6 +378,7 @@
       document.querySelectorAll('.sheet').forEach(s => s.remove());
       const pb = $('playQ');
       if (pb) { pb.addEventListener('click', () => playCall(q.call, pb)); playCall(q.call, pb); }
+      preloadCall(questions[state.i + 1]); // start loading the next question's call now, so it plays instantly
       const buttons = [...view.querySelectorAll('.opt')];
       buttons.forEach(b => b.addEventListener('click', () => answer(q, b.dataset.id, buttons, opts, pics)));
       keyHandler = e => {
@@ -446,7 +460,8 @@
         <div class="btn-stack">
           ${state.missed.length ? `<button class="btn" id="again">${state.missed.length === 1 ? 'Practise the one I missed' : `Practise the ${state.missed.length} I missed`}</button>` : ''}
           <button class="btn ${state.missed.length ? 'ghost' : ''}" id="new">New round</button>
-          <button class="btn ghost" id="done">Back to ${esc(subjectOf(mod).title)}</button></div>
+          <button class="btn ghost" id="done">Back to ${esc(subjectOf(mod).title)}</button>
+          <a class="btn ghost" href="#/submit">${icon('check')} Finished? Submit my progress</a></div>
         ${list ? `<div class="section-title">To review</div><ul class="card review">${list}</ul>` : ''}`);
       const a = $('again');
       if (a) a.addEventListener('click', () => { reviewItems = state.missed.map(m => m.item); go(`#/m/${mod.id}/quiz/${modeKey}/review`); });
@@ -486,7 +501,7 @@
       if (c.q) { textCard(c); return; }
       const front = soundFront
         ? `${playBtnHtml('fPlay', '', true)}<div class="hint">Whose call is this? Tap the card to check.</div>`
-        : `<img src="${esc(c.photo)}" alt="Bird photo"><div class="hint">Who is this? Tap the card to check.</div>`;
+        : `<img src="${esc(c.photo)}" alt="Photo"><div class="hint">Who is this? Tap the card to check.</div>`;
       const back = `${c.photo ? `<img src="${esc(c.photo)}" alt="">` : ''}<div class="big-name">${esc(c.name)}</div>
         <div class="small" style="margin-bottom:12px">${esc(c.group || '')}</div>
         ${c.call ? playBtnHtml('bPlay', 'Play call') : '<div class="small">No call recording in the library</div>'}`;
@@ -494,6 +509,7 @@
       const flash = $('flash');
       const fp = $('fPlay'), bp = $('bPlay');
       if (fp) { fp.addEventListener('click', () => playCall(c.call, fp)); playCall(c.call, fp); }
+      preloadCall(deck[1]);
       if (bp) bp.addEventListener('click', () => playCall(c.call, bp));
       let flipped = false;
       const showGrade = () => {
@@ -626,7 +642,11 @@
           <button class="btn ghost" data-weak="${m.id}" data-mode="${mode}">Practise these ${weak.length}</button>` : ''}
       </div>`).join('')}</div>`;
     }).join('');
-    show(`<h1>Your progress</h1><p class="sub">${last ? `Last studied ${ago(last)}.` : 'You have not started yet.'}</p>
+    const st = load(STUDENT_KEY, {});
+    const pending = load(QUEUE_KEY, []).length;
+    const submitCard = `<a class="card nudge" href="#/submit" style="margin:0 0 14px"><div class="tile-ico">${icon('check')}</div>
+      <div><strong>Submit my progress to AGA</strong><span class="small">${pending ? `${pending} submission waiting for signal` : st.lastSent ? `Last submitted ${ago(st.lastSent)}` : 'Send your results to your instructors'}${session.answers ? ` &middot; ${session.answers} new answers` : ''}</span></div>${icon('chev', 'chev')}</a>`;
+    show(`<h1>Your progress</h1><p class="sub">${last ? `Last studied ${ago(last)}.` : 'You have not started yet.'}</p>${submitCard}
       <div class="stat-grid four"><div class="card stat"><b>${practised}</b><span>practised</span></div>
         <div class="card stat"><b>${mastered}</b><span>mastered</span></div>
         <div class="card stat"><b>${answered}</b><span>answers</span></div>
@@ -643,6 +663,80 @@
     }));
     const rs = $('reset');
     if (rs) rs.addEventListener('click', () => { if (confirm('Reset all your progress on this device? This cannot be undone.')) { progress = {}; save(STORE_KEY, progress); renderProgress(); } });
+  }
+
+  // ---------- submit progress ----------
+  function progressSummary() {
+    let answered = 0, correct = 0, practised = 0, mastered = 0, last = 0;
+    const lists = DATA.modules.map(m => {
+      let pr = 0, ms = 0;
+      m.items.forEach(i => { const r = rec(m.id, i.id); const n = r.right + r.wrong; answered += n; correct += r.right; if (n) { pr++; practised++; } if (r.box >= MASTERED) { ms++; mastered++; } if (r.last > last) last = r.last; });
+      return { title: (subjectOf(m).title + ' - ' + (m.short || m.title)), practised: pr, mastered: ms, total: m.items.length };
+    }).filter(l => l.practised);
+    return { totals: { answered, correct, practised, mastered, last }, lists };
+  }
+  async function postProgress(payload) {
+    const body = JSON.stringify(payload);
+    // Only a confirmed {ok:true} from the AGA script counts as sent; anything else is kept and retried later.
+    try {
+      const r = await fetch(PROGRESS_URL, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body });
+      const j = await r.json();
+      return j && j.ok ? 'ok' : (j && j.error === 'missing details' ? 'rejected' : 'offline');
+    } catch (e) {
+      return 'offline';
+    }
+  }
+  async function flushQueue() {
+    const q = load(QUEUE_KEY, []);
+    if (!q.length || !navigator.onLine) return;
+    const left = [];
+    for (const p of q) { if ((await postProgress(p)) === 'offline') left.push(p); }
+    save(QUEUE_KEY, left);
+    if (left.length < q.length) { const st = load(STUDENT_KEY, {}); st.lastSent = Date.now(); save(STUDENT_KEY, st); }
+  }
+  window.addEventListener('online', () => flushQueue());
+  setInterval(() => flushQueue(), 5 * 60 * 1000); // retry waiting submissions every 5 minutes while the app is open
+  function renderSubmit(message) {
+    chrome({ tab: 'progress', back: '#/progress', title: 'Submit progress' });
+    const st = load(STUDENT_KEY, {});
+    const sum = progressSummary();
+    const pending = load(QUEUE_KEY, []).length;
+    show(`<h1>Submit progress</h1>
+      <p class="sub">Send your study results to African Guide Academy so your instructors can follow your progress.</p>
+      ${message || ''}
+      <div class="card pad"><h3>What will be sent</h3>
+        <p style="margin:0">This session: <strong>${session.answers}</strong> answers${session.answers ? ` (${pct(session.correct, session.answers)}% right)` : ''}.<br>
+        Overall: <strong>${sum.totals.practised}</strong> practised, <strong>${sum.totals.mastered}</strong> mastered, ${sum.totals.answered} answers${sum.totals.answered ? ` (${pct(sum.totals.correct, sum.totals.answered)}% right)` : ''}.</p></div>
+      <form class="card pad form" id="sform" autocomplete="on">
+        <label>First name(s)<input name="first" required maxlength="80" autocomplete="given-name" value="${esc(st.first || '')}"></label>
+        <label>Surname<input name="surname" required maxlength="80" autocomplete="family-name" value="${esc(st.surname || '')}"></label>
+        <label>Omang / Passport number<input name="idno" required maxlength="40" autocomplete="off" value="${esc(st.idno || '')}"></label>
+        <p class="small" style="margin:4px 0 12px">Your details are remembered on this phone and are only sent to African Guide Academy, to link your results to your student profile.</p>
+        <button class="btn block" type="submit" id="sbtn">${icon('check')} Submit progress</button>
+        ${pending ? `<p class="small" style="margin:10px 0 0">${pending} earlier submission is waiting for signal and will be sent automatically.</p>` : ''}
+      </form>`);
+    $('sform').addEventListener('submit', async e => {
+      e.preventDefault();
+      const f = new FormData(e.target);
+      const first = String(f.get('first')).trim(), surname = String(f.get('surname')).trim(), idno = String(f.get('idno')).trim();
+      if (!first || !surname || idno.replace(/[^A-Za-z0-9]/g, '').length < 5) { alert('Please fill in your name, surname and a valid Omang / passport number.'); return; }
+      Object.assign(st, { first, surname, idno }); save(STUDENT_KEY, st);
+      const btn = $('sbtn'); btn.disabled = true; btn.textContent = 'Sending...';
+      const payload = Object.assign({ app: 'aga-study', version: DATA.generated, device: deviceId(), first, surname, idno, sentAt: Date.now(),
+        session: { answers: session.answers, correct: session.correct, since: session.since } }, progressSummary());
+      const res = await postProgress(payload);
+      if (res === 'ok' || res === 'offline') {
+        if (res === 'offline') { const q = load(QUEUE_KEY, []); q.push(payload); save(QUEUE_KEY, q); }
+        else { st.lastSent = Date.now(); save(STUDENT_KEY, st); }
+        session = { answers: 0, correct: 0, since: Date.now() }; save(SESSION_KEY, session);
+        renderSubmit(res === 'ok'
+          ? `<div class="card pad done-card"><span class="done">${icon('check')} Submitted - thank you, ${esc(first)}!</span></div>`
+          : `<div class="alert">Couldn't reach AGA right now (no signal?). Your progress is saved on this phone and will be sent automatically later.</div>`);
+      } else {
+        btn.disabled = false; btn.innerHTML = icon('check') + ' Submit progress';
+        alert('Sorry, the submission was not accepted. Please check your details and try again.');
+      }
+    });
   }
 
   // ---------- offline page ----------
@@ -740,6 +834,7 @@
 
   updateNet();
   route();
+  flushQueue();
   // Once we know what is saved on this device, refresh the screen (counts, offline-only calls).
   refreshCached().then(() => { if (!downloading && !inFocus()) route(); });
   if (navigator.serviceWorker) navigator.serviceWorker.addEventListener('controllerchange', () => refreshCached());
