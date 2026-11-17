@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<defs><radialGradient id="sky" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#132a4f"/><stop offset="1" stop-color="#050b18"/></radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>
+.ln{fill:none;stroke:#e8b65a;stroke-width:2.2;stroke-linecap:round;opacity:.55;stroke-dasharray:1;stroke-dashoffset:0;animation:draw 2.6s ease-out backwards}
+.ln.bold{stroke-width:3.4;opacity:.9}
+.tw{animation:tw 3.4s ease-in-out infinite}
+.ring{fill:none;stroke:#ffd27a;stroke-width:3;transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite;opacity:0;animation-delay:2s}
+.lb{font:700 36px system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;fill:#f3e3c3;animation:fade 1s ease-out 2.2s backwards}
+.lb.sm{font-size:30px;fill:#c9d6ee}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes tw{0%,100%{opacity:1}50%{opacity:.55}}
+@keyframes pulse{0%{opacity:.95;transform:scale(1)}100%{opacity:0;transform:scale(1.9)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+</style>
+<rect width="1200" height="800" fill="url(#sky)"/>
+<path class="ln bold" d="M271.1 163.0L266.9 323.3L369.0 423.7L791.9 457.7L1090.0 280.8L803.6 287.0L271.1 163.0" pathLength="1" style="animation-delay:0.00s"/>
+<path class="ln bold" d="M369.0 423.7L345.5 543.2L167.4 637.0L110.0 565.5" pathLength="1" style="animation-delay:0.15s"/>
+<circle cx="893.1" cy="327.7" r="1.4" fill="rgb(247,246,255)"/>
+<circle cx="1160.5" cy="75.5" r="1.4" fill="rgb(255,225,183)"/>
+<circle cx="62.4" cy="819.9" r="1.4" fill="rgb(255,183,125)"/>
+<circle cx="926.9" cy="396.6" r="1.4" fill="rgb(255,216,168)"/>
+<circle cx="1140.6" cy="323.4" r="1.4" fill="rgb(214,224,255)"/>
+<circle cx="544.7" cy="640.6" r="1.4" fill="rgb(219,228,255)"/>
+<circle cx="576.7" cy="393.3" r="1.4" fill="rgb(255,210,158)"/>
+<circle cx="346.3" cy="740.4" r="1.4" fill="rgb(202,217,255)"/>
+<circle cx="580.4" cy="236.8" r="1.4" fill="rgb(255,228,187)"/>
+<circle cx="465.5" cy="233.4" r="1.5" fill="rgb(255,177,119)"/>
+<circle cx="339.9" cy="220.5" r="1.5" fill="rgb(255,180,122)"/>
+<circle cx="72.8" cy="239.8" r="1.7" fill="rgb(255,182,124)"/>
+<circle cx="561.6" cy="787.3" r="1.7" fill="rgb(193,209,255)"/>
+<circle cx="606.2" cy="115.4" r="1.8" fill="rgb(204,218,255)"/>
+<circle cx="820.9" cy="216.6" r="1.8" fill="rgb(255,206,151)"/>
+<circle cx="1100.2" cy="63.4" r="1.8" fill="rgb(205,218,255)"/>
+<circle cx="157.5" cy="583.4" r="1.9" fill="rgb(227,233,255)"/>
+<circle cx="188.6" cy="181.5" r="1.9" fill="rgb(195,211,255)"/>
+<circle cx="999.0" cy="503.9" r="1.9" fill="rgb(255,222,177)"/>
+<circle cx="1020.3" cy="53.4" r="2.0" fill="rgb(255,188,131)"/>
+<circle cx="550.1" cy="535.9" r="2.4" fill="rgb(205,218,255)"/>
+<circle cx="488.1" cy="-6.8" r="2.4" fill="rgb(255,227,185)"/>
+<circle cx="5.7" cy="0.1" r="2.6" fill="rgb(255,217,169)"/>
+<circle cx="1077.8" cy="62.0" r="3.0" fill="rgb(221,229,255)"/>
+<circle cx="367.0" cy="411.4" r="3.2" fill="rgb(249,246,248)"/>
+<circle cx="200.2" cy="33.2" r="3.5" fill="rgb(255,183,126)"/>
+<circle cx="1216.3" cy="16.5" r="3.5" fill="rgb(215,225,255)"/>
+<circle cx="740.3" cy="11.3" r="3.6" fill="rgb(240,242,255)"/>
+<circle cx="794.4" cy="544.4" r="3.8" fill="rgb(255,179,121)"/>
+<circle cx="1060.3" cy="471.9" r="3.9" fill="rgb(251,243,235)"/>
+<circle cx="700.2" cy="440.8" r="4.1" fill="rgb(206,219,255)"/>
+<circle cx="265.7" cy="97.2" r="4.2" fill="rgb(255,191,135)"/>
+<circle cx="-1.0" cy="547.1" r="4.4" fill="rgb(255,186,129)"/>
+<circle cx="641.4" cy="591.1" r="4.5" fill="rgb(202,216,255)"/>
+<circle cx="1087.3" cy="2.9" r="5.1" fill="rgb(255,188,131)"/>
+<circle cx="892.9" cy="126.8" r="5.3" fill="rgb(248,246,252)"/>
+<circle cx="167.4" cy="637.0" r="5.6" fill="rgb(255,204,149)"/>
+<circle cx="471.1" cy="72.1" r="5.7" fill="rgb(178,198,255)"/>
+<circle cx="44.0" cy="102.0" r="6.5" fill="rgb(250,244,239)"/>
+<circle cx="266.9" cy="323.3" r="6.6" fill="rgb(195,211,255)"/>
+<circle cx="345.5" cy="543.2" r="6.7" fill="rgb(237,240,255)"/>
+<circle cx="803.6" cy="287.0" r="7.0" fill="rgb(200,215,255)"/>
+<circle cx="110.0" cy="565.5" r="8.0" fill="rgb(255,235,199)" filter="url(#glow)"/>
+<circle cx="791.9" cy="457.7" r="9.0" fill="rgb(215,225,255)" filter="url(#glow)" class="tw" style="animation-delay:0.45s"/>
+<circle cx="1090.0" cy="280.8" r="10.1" fill="rgb(211,222,255)" filter="url(#glow)" class="tw" style="animation-delay:0.9s"/>
+<circle cx="369.0" cy="423.7" r="10.5" fill="rgb(255,211,159)" filter="url(#glow)" class="tw" style="animation-delay:1.35s"/>
+<circle cx="271.1" cy="163.0" r="12.2" fill="rgb(187,205,255)" filter="url(#glow)" class="tw" style="animation-delay:1.8s"/>
+<text class="lb" x="293" y="175">Regulus</text>
+<text class="lb" x="1070" y="293" text-anchor="end">Denebola</text>
+<text x="18" y="784" style="font:600 24px system-ui,sans-serif;fill:#a9bbdc">As seen from Botswana, looking north</text>
+<text x="1182" y="784" text-anchor="end" style="font:15px system-ui,sans-serif;fill:#7f93b8">AGA star chart · star data: Hipparcos / d3-celestial</text>
+</svg>

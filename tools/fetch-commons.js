@@ -38,6 +38,7 @@ async function get(url, kind) {
   for (const s of list) {
     if (!s.commons) { problems.push(`${s.name}: no Commons file`); continue; }
     const prev = cache.get(s.name);
+    if (prev && prev.chart) continue; // drawn by tools/make-star-charts.js
     if (prev && prev.commons === s.commons && fs.existsSync(path.join(ROOT, 'app', prev.file))) continue;
     const u = `https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1400&titles=${encodeURIComponent(s.commons)}`;
     const j = await get(u, 'json');

@@ -883,7 +883,7 @@
       rows.push(`<li><strong>${esc(i.name)}</strong> &middot; ${esc(i.credit)}${i.license ? ` &middot; ${esc(i.license)}` : ''}${i.src ? ` &middot; <a href="${esc(i.src)}" target="_blank" rel="noopener">source</a>` : ''}</li>`);
     }));
     show(`<h1>Photo credits</h1>
-      <p class="sub">Bird photos are AGA's own. Other species photos come from <a href="https://www.inaturalist.org" target="_blank" rel="noopener">iNaturalist</a> photographers who share them under free licences (CC0, CC BY, CC BY-SA), and from AGA students. Thank you!</p>
+      <p class="sub">Bird photos are AGA's own. Other species photos come from <a href="https://www.inaturalist.org" target="_blank" rel="noopener">iNaturalist</a> photographers who share them under free licences (CC0, CC BY, CC BY-SA), from Wikimedia Commons and NASA, and from AGA students and staff. The star charts are drawn by AGA from the Hipparcos star catalogue (via d3-celestial, BSD licence). Thank you!</p>
       <ul class="card pad credits">${rows.join('')}</ul>`);
   }
 

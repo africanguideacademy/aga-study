@@ -327,7 +327,9 @@ function jpegSize(file) {
 const sizeCache = {};
 appData.modules.forEach(m => m.items.forEach(i => {
   if (!i.photo) return;
-  const s = sizeCache[i.photo] || (sizeCache[i.photo] = jpegSize(path.join(ROOT, 'app', i.photo)));
+  const svgSize = f => { const m = /viewBox="0 0 (\d+) (\d+)"/.exec(fs.readFileSync(f, 'utf8').slice(0, 400)); return m ? { w: +m[1], h: +m[2] } : null; };
+  const f = path.join(ROOT, 'app', i.photo);
+  const s = sizeCache[i.photo] || (sizeCache[i.photo] = /\.svg$/.test(i.photo) ? svgSize(f) : jpegSize(f));
   if (s && s.w / s.h >= 1.45) i.wide = 1;
 }));
 // Download sizes shown in the app = the re-encoded files in app/media (tools/encode-audio.ps1), not the originals
