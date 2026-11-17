@@ -10037,6 +10037,7 @@ window.AGA_DATA = {
   {
    "id": "q-birds",
    "kind": "questions",
+   "chapter": "Birds",
    "title": "Birds - manual",
    "photo": "media/birds/african-scops-owl.jpg",
    "subtitle": "108 questions from the Botswana Guide Training Manual",
@@ -11450,6 +11451,7 @@ window.AGA_DATA = {
   {
    "id": "q-amphibians",
    "kind": "questions",
+   "chapter": "Amphibians",
    "title": "Amphibians - manual",
    "photo": "media/frogs/f-angolan-reed-frog.jpg",
    "subtitle": "46 questions from the Botswana Guide Training Manual",
@@ -12096,6 +12098,11348 @@ window.AGA_DATA = {
      "ex": "Guttural toad - Bufonidae; giant bullfrog - Pyxicephalidae; Angolan reed frog - Hyperoliidae; banded rubber frog - Microhylidae.",
      "group": "Prominent frogs",
      "page": "75",
+     "draft": true
+    }
+   ]
+  },
+  {
+   "id": "q-guiding-principles",
+   "kind": "questions",
+   "chapter": "Guiding Principles",
+   "title": "Guiding Principles - manual",
+   "photo": "",
+   "subtitle": "71 questions from the Botswana Guide Training Manual",
+   "items": [
+    {
+     "id": "GUID-001",
+     "q": "Which of these is a RESPONSIBILITY of a guide, rather than a role?",
+     "a": "The safety of the guests",
+     "w": [
+      "Creating a sense of awe and wonder",
+      "Giving informative wildlife commentary",
+      "Creating a wilderness experience"
+     ],
+     "ex": "The manual lists the safety of guests, working within the laws and protocols, and upholding the code of ethics as a guide's responsibilities.",
+     "group": "Roles and responsibilities",
+     "page": "5",
+     "draft": true
+    },
+    {
+     "id": "GUID-002",
+     "q": "Which of these is a ROLE of a guide, rather than a responsibility?",
+     "a": "Creating a wilderness experience for guests",
+     "w": [
+      "Upholding the Botswana code of ethics",
+      "Operating within the laws of the area",
+      "Ensuring the safety of the guests"
+     ],
+     "ex": "The roles of a guide are to create a wilderness experience, give interesting commentary and create a sense of awe and wonder.",
+     "group": "Roles and responsibilities",
+     "page": "5",
+     "draft": true
+    },
+    {
+     "id": "GUID-003",
+     "q": "Why is it useful to know and use your guests' names?",
+     "a": "It lets you direct instructions to specific guests",
+     "w": [
+      "It allows you to shorten the safety briefing",
+      "It is required by the Tourism Act",
+      "It helps you choose the route for the drive"
+     ],
+     "ex": "Using names puts guests at ease and lets you direct instructions to specific guests, which is especially important in emergencies.",
+     "group": "Briefings",
+     "page": "5",
+     "draft": true
+    },
+    {
+     "id": "GUID-004",
+     "q": "When can many of the pre-activity briefing points be covered?",
+     "a": "At dinner the night before or at morning tea",
+     "w": [
+      "Only once the game drive has started",
+      "At the first sighting of the drive",
+      "After the activity has ended"
+     ],
+     "ex": "The manual says many points can be covered beforehand in the lodge, at dinner the night before or at tea on the morning of the activity.",
+     "group": "Pre-activity briefing",
+     "page": "5",
+     "draft": true
+    },
+    {
+     "id": "GUID-005",
+     "q": "Why should guests be asked to tell you about medical conditions in private?",
+     "a": "Some may be embarrassed to share them in front of others",
+     "w": [
+      "The law forbids discussing them in public",
+      "Other guests may then cancel the activity",
+      "The lodge manager must be present"
+     ],
+     "ex": "Ask guests to see you in private after the briefing, as some people may be embarrassed to share these in front of others.",
+     "group": "Pre-activity briefing",
+     "page": "5",
+     "draft": true
+    },
+    {
+     "id": "GUID-006",
+     "q": "Which of these is listed in the manual as a medical condition to check for?",
+     "a": "Sun sensitivity",
+     "w": [
+      "Colour blindness",
+      "Short-sightedness",
+      "Fear of the dark"
+     ],
+     "ex": "Listed conditions include allergies, asthma, pregnancy, back issues, disabilities and sun sensitivity.",
+     "group": "Pre-activity briefing",
+     "page": "5",
+     "draft": true
+    },
+    {
+     "id": "GUID-007",
+     "q": "According to the manual, what always adds great value to a guest's stay during the briefing?",
+     "a": "Orientation against a map",
+     "w": [
+      "A printed species checklist",
+      "A slideshow of past sightings",
+      "A tour of the lodge kitchen"
+     ],
+     "ex": "Orientation against a map adds great value and lets you show how you will meet guests' expectations.",
+     "group": "Pre-activity briefing",
+     "page": "5",
+     "draft": true
+    },
+    {
+     "id": "GUID-008",
+     "q": "Where is the activity briefing best done?",
+     "a": "On the vehicle directly before the activity",
+     "w": [
+      "At dinner the night before",
+      "At reception when guests arrive",
+      "At the first sighting of the drive"
+     ],
+     "ex": "The manual states the activity briefing is best done on the vehicle directly before an activity.",
+     "group": "Activity brief",
+     "page": "5",
+     "draft": true
+    },
+    {
+     "id": "GUID-009",
+     "q": "How should the guide explain the route and plan during the activity brief?",
+     "a": "Using the cardinal points",
+     "w": [
+      "Using lodge room numbers",
+      "Using GPS coordinates",
+      "Using road sign numbers"
+     ],
+     "ex": "The explanation of the route and plan should be done using the cardinal points.",
+     "group": "Activity brief",
+     "page": "6",
+     "draft": true
+    },
+    {
+     "id": "GUID-010",
+     "q": "Why are guests asked not to stand while the vehicle is stationary at a sighting?",
+     "a": "They may disturb the animal and cause it to move away",
+     "w": [
+      "It makes the vehicle tip over more easily",
+      "It blocks the guide's view of the road",
+      "Park rules do not allow photos while standing"
+     ],
+     "ex": "Standing in a sighting may cause a disturbance, making the animal move away or show interest in the vehicle.",
+     "group": "Activity brief",
+     "page": "6",
+     "draft": true
+    },
+    {
+     "id": "GUID-011",
+     "q": "What should guests do when the guide warns of overhanging branches?",
+     "a": "Lean into the centre of the vehicle",
+     "w": [
+      "Push the branches away with their hands",
+      "Stand up and duck under the branches",
+      "Hold the branches until the vehicle passes"
+     ],
+     "ex": "Guests should lean into the centre of the vehicle and never grab or push branches, as many trees have thorns.",
+     "group": "Activity brief",
+     "page": "6",
+     "draft": true
+    },
+    {
+     "id": "GUID-012",
+     "q": "What should guests do with rubbish during a drive?",
+     "a": "Put it in the body of the vehicle or hand it to the guide",
+     "w": [
+      "Throw only fruit and vegetables into the bush",
+      "Bury it at the next comfort stop",
+      "Leave it at the sighting for collection"
+     ],
+     "ex": "Guests must never throw anything into the bush, even fruit or vegetables; rubbish goes into the vehicle or to the guide.",
+     "group": "Activity brief",
+     "page": "6",
+     "draft": true
+    },
+    {
+     "id": "GUID-013",
+     "q": "When may guests get off the vehicle?",
+     "a": "Only after the guide checks the area is safe and invites them",
+     "w": [
+      "Whenever they want to take a better photo",
+      "Whenever there are no animals in sight",
+      "Only when another vehicle is nearby"
+     ],
+     "ex": "Guests stay on the vehicle at all times; the guide first ensures the area is appropriate and safe before inviting them off.",
+     "group": "Activity brief",
+     "page": "6",
+     "draft": true
+    },
+    {
+     "id": "GUID-014",
+     "q": "In what order does a PDA's behaviour escalate?",
+     "a": "Relaxed, alert, threatening, charging",
+     "w": [
+      "Alert, relaxed, charging, threatening",
+      "Relaxed, threatening, alert, charging",
+      "Threatening, alert, relaxed, charging"
+     ],
+     "ex": "Guides must identify the escalation of a PDA's behaviour from relaxed to alert to threatening and to charging.",
+     "group": "Minimising risk",
+     "page": "6",
+     "draft": true
+    },
+    {
+     "id": "GUID-015",
+     "q": "Which of these is listed as a way for guides to minimise risk?",
+     "a": "Continuously assessing the sighting for escape routes",
+     "w": [
+      "Parking other vehicles in at a sighting",
+      "Poling mokoros through deep channels",
+      "Walking through thickets to get closer"
+     ],
+     "ex": "Continuously assessing the area around the sighting for escape routes is listed; the others are things to avoid.",
+     "group": "Minimising risk",
+     "page": "6",
+     "draft": true
+    },
+    {
+     "id": "GUID-016",
+     "q": "Why should a guide be aware of wind direction, the sun and noise at a sighting?",
+     "a": "To keep the animals being viewed relaxed",
+     "w": [
+      "To get closer than the legal distance",
+      "To find the shortest route back to camp",
+      "To attract animals towards the vehicle"
+     ],
+     "ex": "Keeping as many of these factors in your favour as possible keeps the animals you are viewing relaxed.",
+     "group": "Minimising risk",
+     "page": "6",
+     "draft": true
+    },
+    {
+     "id": "GUID-017",
+     "q": "What should you do if guests are still uneasy before approaching an animal?",
+     "a": "Explain the body language of the species",
+     "w": [
+      "Drive closer so they see it is safe",
+      "Leave the area without telling them why",
+      "Ask them to sit on the vehicle floor"
+     ],
+     "ex": "If guests are uneasy, inform them about the body language of the species so they can interpret and enjoy the sighting.",
+     "group": "Minimising risk",
+     "page": "7",
+     "draft": true
+    },
+    {
+     "id": "GUID-018",
+     "q": "At what angle should the vehicle be parked at a sighting?",
+     "a": "10 o'clock or 2 o'clock",
+     "w": [
+      "12 o'clock, facing straight on",
+      "6 o'clock, facing away",
+      "Side-on at 9 o'clock only"
+     ],
+     "ex": "Parking at 10 or 2 o'clock gives guests the best viewing and photographic angles.",
+     "group": "Creating a wilderness experience",
+     "page": "7",
+     "draft": true
+    },
+    {
+     "id": "GUID-019",
+     "q": "What should a guide do on first arriving at a sighting?",
+     "a": "Give guests time to absorb what they are seeing",
+     "w": [
+      "Immediately give the scientific name",
+      "Start with a long list of facts",
+      "Tell guests to take their photos quickly"
+     ],
+     "ex": "Don't blurt out facts on arrival; allow guests time to absorb the scene, take images and become curious.",
+     "group": "Creating a wilderness experience",
+     "page": "7",
+     "draft": true
+    },
+    {
+     "id": "GUID-020",
+     "q": "A good guide interprets what is in front of them as:",
+     "a": "An example of ecological interaction",
+     "w": [
+      "A list of interesting animal facts",
+      "A chance to use scientific names",
+      "A photographic opportunity only"
+     ],
+     "ex": "A good guide interprets a sighting as ecological interaction rather than simply repeating animal facts.",
+     "group": "Creating a wilderness experience",
+     "page": "7",
+     "draft": true
+    },
+    {
+     "id": "GUID-021",
+     "q": "In the sighting technique, which question asks what behaviours the animals are showing?",
+     "a": "WHAT",
+     "w": [
+      "WHO",
+      "WHERE",
+      "HOW"
+     ],
+     "ex": "WHAT asks what they are doing and what behaviours are being exhibited.",
+     "group": "Creating a wilderness experience",
+     "page": "7",
+     "draft": true
+    },
+    {
+     "id": "GUID-022",
+     "q": "In the sighting technique, 'How is an elephant using its trunk?' is an example of which question?",
+     "a": "HOW",
+     "w": [
+      "WHY",
+      "WHO",
+      "WHERE"
+     ],
+     "ex": "The manual gives the elephant's trunk as the example of a HOW question.",
+     "group": "Creating a wilderness experience",
+     "page": "7",
+     "draft": true
+    },
+    {
+     "id": "GUID-023",
+     "q": "Why is care and maintenance of equipment so important?",
+     "a": "Neglected equipment may spoil a stay or endanger lives",
+     "w": [
+      "The guide must pay for all damaged equipment",
+      "It is the only way to get a promotion",
+      "Guests inspect the equipment before each drive"
+     ],
+     "ex": "Damaged or neglected equipment may irreparably affect a guest's stay or possibly endanger their lives.",
+     "group": "Creating a wilderness experience",
+     "page": "7",
+     "draft": true
+    },
+    {
+     "id": "GUID-024",
+     "q": "In which zone is the animal relaxed and showing no interest in you?",
+     "a": "Comfort zone",
+     "w": [
+      "Recognition zone",
+      "Warning zone",
+      "Critical zone"
+     ],
+     "ex": "In the comfort zone the animal behaves naturally, shows no interest in your presence and carries on with its life.",
+     "group": "Zones of approach",
+     "page": "7",
+     "draft": true
+    },
+    {
+     "id": "GUID-025",
+     "q": "In which zone does the animal point its ears and look with focus in your direction?",
+     "a": "Recognition zone",
+     "w": [
+      "Comfort zone",
+      "Warning zone",
+      "Critical zone"
+     ],
+     "ex": "In the recognition zone the animal stops what it was doing and puts energy into working out your agenda.",
+     "group": "Zones of approach",
+     "page": "7",
+     "draft": true
+    },
+    {
+     "id": "GUID-026",
+     "q": "In which zone does an animal give an audible or visual warning?",
+     "a": "Warning zone",
+     "w": [
+      "Comfort zone",
+      "Recognition zone",
+      "Critical zone"
+     ],
+     "ex": "In the warning zone the animal barks, snorts, paws the ground, thrashes vegetation or flicks its tail to warn you not to come closer.",
+     "group": "Zones of approach",
+     "page": "7",
+     "draft": true
+    },
+    {
+     "id": "GUID-027",
+     "q": "What happens in the critical zone?",
+     "a": "The animal runs away or charges you",
+     "w": [
+      "The animal stops feeding and stares",
+      "The animal snorts and paws the ground",
+      "The animal ignores you and keeps feeding"
+     ],
+     "ex": "In the critical zone the animal responds to your advance by either running away or charging.",
+     "group": "Zones of approach",
+     "page": "8",
+     "draft": true
+    },
+    {
+     "id": "GUID-028",
+     "q": "Why can retreating from a charging animal be risky?",
+     "a": "It can increase the animal's confidence",
+     "w": [
+      "It always causes the vehicle to stall",
+      "It leaves the guests without a briefing",
+      "It is not allowed in national parks"
+     ],
+     "ex": "Retreating can increase the confidence of a charging animal, making the charge more serious.",
+     "group": "Zones of approach",
+     "page": "8",
+     "draft": true
+    },
+    {
+     "id": "GUID-029",
+     "q": "When should you establish your escape route at a sighting?",
+     "a": "While parking the vehicle",
+     "w": [
+      "Only once the animal charges",
+      "After the guests have taken photos",
+      "When you leave the sighting"
+     ],
+     "ex": "The predetermined escape route should be established while parking.",
+     "group": "Zones of approach",
+     "page": "8",
+     "draft": true
+    },
+    {
+     "id": "GUID-030",
+     "q": "If the other party does not answer, how many times should you call before relaying the message?",
+     "a": "No more than twice",
+     "w": [
+      "No more than five times",
+      "Until they answer",
+      "Only once"
+     ],
+     "ex": "Do not call more than twice before relaying the message; often they can hear you but cannot respond.",
+     "group": "Radio protocols",
+     "page": "8",
+     "draft": true
+    },
+    {
+     "id": "GUID-031",
+     "q": "What does 'Stand by' mean on the radio?",
+     "a": "Wait by the radio for further communication",
+     "w": [
+      "The message was received and understood",
+      "The answer is yes",
+      "Come to the radio now"
+     ],
+     "ex": "'Stand by' tells the person to wait by the radio for further communication.",
+     "group": "Radio protocols",
+     "page": "8",
+     "draft": true
+    },
+    {
+     "id": "GUID-032",
+     "q": "What does 'Copy that' mean on the radio?",
+     "a": "The message was received and understood",
+     "w": [
+      "Please repeat the message",
+      "Wait by the radio for more information",
+      "The answer is no"
+     ],
+     "ex": "'Copy that' means you received and understood the message.",
+     "group": "Radio protocols",
+     "page": "8",
+     "draft": true
+    },
+    {
+     "id": "GUID-033",
+     "q": "How loud should the radio volume be?",
+     "a": "Only loud enough for people in the front to hear",
+     "w": [
+      "Loud enough for all guests to follow",
+      "Turned off for the whole drive",
+      "As loud as possible in open areas"
+     ],
+     "ex": "The radio is a disturbance to guests and should be low enough that only people in the front can hear it.",
+     "group": "Radio protocols",
+     "page": "8",
+     "draft": true
+    },
+    {
+     "id": "GUID-034",
+     "q": "How should the radio be left when it is not in use?",
+     "a": "On scan",
+     "w": [
+      "Switched off",
+      "On full volume",
+      "On the lodge channel only"
+     ],
+     "ex": "The manual says to leave the radio on scan when not in use.",
+     "group": "Radio protocols",
+     "page": "8",
+     "draft": true
+    },
+    {
+     "id": "GUID-035",
+     "q": "In the phonetic alphabet given in the manual, which word stands for the letter Q?",
+     "a": "Quebec",
+     "w": [
+      "Queen",
+      "Quantum",
+      "Quiet"
+     ],
+     "ex": "The manual lists Q as Quebec.",
+     "group": "Radio protocols",
+     "page": "8",
+     "draft": true
+    },
+    {
+     "id": "GUID-036",
+     "q": "What is the main difference between petrol and diesel bush vehicles?",
+     "a": "The engine and electronics",
+     "w": [
+      "The drive train",
+      "The body and seating",
+      "The wheel bearings"
+     ],
+     "ex": "The main difference is in the engine and electronics; otherwise the mechanics are very similar.",
+     "group": "4X4 fault finding",
+     "page": "8",
+     "draft": true
+    },
+    {
+     "id": "GUID-037",
+     "q": "Which part returns power to the battery to keep it charged?",
+     "a": "The alternator",
+     "w": [
+      "The starter motor",
+      "The transfer case",
+      "The fuel pump"
+     ],
+     "ex": "The energy from the engine returns power to the battery through the alternator.",
+     "group": "4X4 fault finding",
+     "page": "8",
+     "draft": true
+    },
+    {
+     "id": "GUID-038",
+     "q": "What does the transfer case do?",
+     "a": "Changes between high range and low range",
+     "w": [
+      "Lets the wheels turn at different speeds",
+      "Stores power to start the vehicle",
+      "Pumps fuel to the combustion chamber"
+     ],
+     "ex": "The transfer case changes from high to low range, giving much more power in deep sand or when towing.",
+     "group": "The drive train",
+     "page": "9",
+     "draft": true
+    },
+    {
+     "id": "GUID-039",
+     "q": "What does the differential allow?",
+     "a": "Wheels on each side to turn at different speeds",
+     "w": [
+      "The engine to start without a battery",
+      "The vehicle to change from high to low range",
+      "Fuel to pass through the filters"
+     ],
+     "ex": "The differential lets the side shafts turn at different speeds, for example when going around a corner.",
+     "group": "The drive train",
+     "page": "9",
+     "draft": true
+    },
+    {
+     "id": "GUID-040",
+     "q": "What do smaller gears give you?",
+     "a": "More speed and less power",
+     "w": [
+      "More power and less speed",
+      "More power and more speed",
+      "Less speed and less power"
+     ],
+     "ex": "Smaller gears turn faster, giving more speed and less power.",
+     "group": "The drive train",
+     "page": "9",
+     "draft": true
+    },
+    {
+     "id": "GUID-041",
+     "q": "What can happen if a wheel bearing is old, worn or dry?",
+     "a": "It can overheat, seize and the wheel can come off",
+     "w": [
+      "The battery will go flat overnight",
+      "The engine will run out of coolant",
+      "The clutch will lose all its pressure"
+     ],
+     "ex": "A worn or dry bearing can overheat and seize, which can cause the wheel to come off at speed.",
+     "group": "The drive train",
+     "page": "9",
+     "draft": true
+    },
+    {
+     "id": "GUID-042",
+     "q": "Which vehicles need their wheel bearings checked more often?",
+     "a": "Vehicles that regularly cross through water",
+     "w": [
+      "Vehicles that only drive on tar roads",
+      "Vehicles that are used only at night",
+      "Vehicles with petrol engines"
+     ],
+     "ex": "Vehicles crossing through water regularly need their bearings checked more often.",
+     "group": "The drive train",
+     "page": "9",
+     "draft": true
+    },
+    {
+     "id": "GUID-043",
+     "q": "When the key is turned, power goes to the starter motor, which spins the:",
+     "a": "Flywheel",
+     "w": [
+      "Alternator",
+      "Propeller shaft",
+      "Fuel pump"
+     ],
+     "ex": "The starter motor spins the flywheel, causing the engine to kick in.",
+     "group": "The electrical system",
+     "page": "9",
+     "draft": true
+    },
+    {
+     "id": "GUID-044",
+     "q": "In a diesel vehicle, what does the electrical system heat to help the diesel start burning?",
+     "a": "The glow plugs",
+     "w": [
+      "The spark plugs",
+      "The fuel filter",
+      "The radiator"
+     ],
+     "ex": "In diesel vehicles the electrical system heats the glow plugs; once running, pressure ignites the diesel.",
+     "group": "The electrical system",
+     "page": "10",
+     "draft": true
+    },
+    {
+     "id": "GUID-045",
+     "q": "Where does the pressure that pushes fuel to the engine come from?",
+     "a": "The fuel pump",
+     "w": [
+      "The alternator",
+      "The fuel filter",
+      "The battery"
+     ],
+     "ex": "Fuel is pushed from the tank through the fuel hose by pressure from the fuel pump.",
+     "group": "Fuel delivery",
+     "page": "10",
+     "draft": true
+    },
+    {
+     "id": "GUID-046",
+     "q": "Which is one of the 3 major requirements for an engine to run?",
+     "a": "Clean air",
+     "w": [
+      "Brake fluid",
+      "Anti-freeze",
+      "A full spare tyre"
+     ],
+     "ex": "An engine needs clean fuel at a specific pressure, clean air and an electrical current.",
+     "group": "Testing for faults",
+     "page": "10",
+     "draft": true
+    },
+    {
+     "id": "GUID-047",
+     "q": "If the engine does not turn over when you turn the key, what is the most common fault?",
+     "a": "A flat battery or loose battery terminals",
+     "w": [
+      "A blocked air filter",
+      "An empty fuel tank",
+      "A faulty thermostat"
+     ],
+     "ex": "The most common fault is a flat battery or loose terminals; clean and tighten them and test the battery.",
+     "group": "Testing for faults",
+     "page": "10",
+     "draft": true
+    },
+    {
+     "id": "GUID-048",
+     "q": "If the starter motor turns when it is bridged, which part is faulty?",
+     "a": "The solenoid of the starter motor",
+     "w": [
+      "The battery",
+      "The glow plugs",
+      "The alternator"
+     ],
+     "ex": "If the starter motor turns when bridged, it is the solenoid of the starter motor that is faulty.",
+     "group": "Testing for faults",
+     "page": "10",
+     "draft": true
+    },
+    {
+     "id": "GUID-049",
+     "q": "What safety check must you make before bridging the starter motor?",
+     "a": "Make sure the vehicle is not in gear",
+     "w": [
+      "Make sure the engine is very hot",
+      "Make sure the fuel tank is empty",
+      "Make sure the lights are switched on"
+     ],
+     "ex": "People have driven the vehicle over themselves while shorting the starter; make sure it is not in gear.",
+     "group": "Testing for faults",
+     "page": "10",
+     "draft": true
+    },
+    {
+     "id": "GUID-050",
+     "q": "What is a possible short-term solution for a faulty thermostat?",
+     "a": "Remove the thermostat",
+     "w": [
+      "Add more brake fluid",
+      "Disconnect the battery",
+      "Blow out the fuel filter"
+     ],
+     "ex": "Removing the thermostat is a short-term solution, but it should be replaced so the engine runs at the right temperature.",
+     "group": "Testing for faults",
+     "page": "10",
+     "draft": true
+    },
+    {
+     "id": "GUID-051",
+     "q": "What often blocks the fins of a radiator in the bush?",
+     "a": "Grass seeds",
+     "w": [
+      "Brake fluid",
+      "Diesel residue",
+      "Battery acid"
+     ],
+     "ex": "Radiator fins often get blocked by grass seeds, which are best blown out with a compressor.",
+     "group": "Testing for faults",
+     "page": "10",
+     "draft": true
+    },
+    {
+     "id": "GUID-052",
+     "q": "If there is no pressure when you press the brake or clutch, what does it mean?",
+     "a": "The fluid has run out or air is in the system",
+     "w": [
+      "The battery is flat",
+      "The thermostat has failed",
+      "The wheel bearings are dry"
+     ],
+     "ex": "No pressure means either the fluid has run out or air has got into the system.",
+     "group": "Clutch and brake systems",
+     "page": "11",
+     "draft": true
+    },
+    {
+     "id": "GUID-053",
+     "q": "After fixing a leak and refilling, what must you do before the brakes or clutch will work?",
+     "a": "Bleed the system to get the air out",
+     "w": [
+      "Remove the thermostat",
+      "Bridge the starter motor",
+      "Change the fuel filter"
+     ],
+     "ex": "You must 'bleed' the brake or clutch to get the air out of the system before it will function again.",
+     "group": "Clutch and brake systems",
+     "page": "11",
+     "draft": true
+    },
+    {
+     "id": "GUID-054",
+     "q": "Unless on a planned walk, how far from the vehicle may guests be, as per the Act?",
+     "a": "Not more than 100 m",
+     "w": [
+      "Not more than 50 m",
+      "Not more than 200 m",
+      "Not more than 500 m"
+     ],
+     "ex": "As per the Act, guests should not be more than 100 m from the vehicle unless on a planned walking excursion.",
+     "group": "Ethics",
+     "page": "11",
+     "draft": true
+    },
+    {
+     "id": "GUID-055",
+     "q": "What is the closest you may park to an animal and to a den?",
+     "a": "15 m from an animal and 30 m from a den",
+     "w": [
+      "30 m from an animal and 15 m from a den",
+      "10 m from an animal and 20 m from a den",
+      "20 m from an animal and 50 m from a den"
+     ],
+     "ex": "Never park closer than 15 m to an animal and 30 m from a den.",
+     "group": "Ethics",
+     "page": "11",
+     "draft": true
+    },
+    {
+     "id": "GUID-056",
+     "q": "How many vehicles should you try to restrict a sighting to?",
+     "a": "3",
+     "w": [
+      "2",
+      "5",
+      "6"
+     ],
+     "ex": "Try to restrict the number of vehicles to 3 at any one sighting.",
+     "group": "Ethics",
+     "page": "11",
+     "draft": true
+    },
+    {
+     "id": "GUID-057",
+     "q": "Which of these is listed as a sensitive animal?",
+     "a": "Bat-eared fox",
+     "w": [
+      "Impala",
+      "Elephant",
+      "Buffalo"
+     ],
+     "ex": "Sensitive animals include cheetah, wild dog, bat-eared fox, caracal, serval, aardwolf, pangolin and others.",
+     "group": "Ethics",
+     "page": "11",
+     "draft": true
+    },
+    {
+     "id": "GUID-058",
+     "q": "How should you approach a sensitive animal?",
+     "a": "At an angle, not head-on",
+     "w": [
+      "Head-on and quickly",
+      "From behind, with the engine revving",
+      "Head-on, but with the engine off"
+     ],
+     "ex": "Continue to assess its mood and do not approach head-on but rather at an angle.",
+     "group": "Ethics",
+     "page": "11",
+     "draft": true
+    },
+    {
+     "id": "GUID-059",
+     "q": "What should you do if a sensitive animal shows signs of agitation?",
+     "a": "Shut off the engine and, if appropriate, retreat",
+     "w": [
+      "Drive closer so guests get a better view",
+      "Hoot to calm the animal down",
+      "Rev the engine to warn it away"
+     ],
+     "ex": "If the animal shows agitation, shut off the engine immediately and, if appropriate, retreat out of the sighting.",
+     "group": "Ethics",
+     "page": "11",
+     "draft": true
+    },
+    {
+     "id": "GUID-060",
+     "q": "When predators are chasing prey, when may you start your vehicle?",
+     "a": "Only when the hunt is over",
+     "w": [
+      "As soon as the chase begins",
+      "When the prey runs past the vehicle",
+      "Whenever the guests ask you to"
+     ],
+     "ex": "Remain still while the animal is in pursuit and only start your vehicle when the hunt is concluded.",
+     "group": "Ethics",
+     "page": "11",
+     "draft": true
+    },
+    {
+     "id": "GUID-061",
+     "q": "Which predator does the manual say is especially easily scared off its kills?",
+     "a": "Cheetah",
+     "w": [
+      "Lion",
+      "Spotted hyaena",
+      "Leopard"
+     ],
+     "ex": "The manual says cheetah, in particular, are easily scared off their kills.",
+     "group": "Ethics",
+     "page": "11",
+     "draft": true
+    },
+    {
+     "id": "GUID-062",
+     "q": "What happens if wild dog are forced to move their den?",
+     "a": "The chance of pup mortality increases",
+     "w": [
+      "The pack immediately splits up",
+      "They move into a national park",
+      "The pups are weaned earlier"
+     ],
+     "ex": "Wild dog are very sensitive; if forced to move a den, the chance of pup mortality is significantly increased.",
+     "group": "Ethics",
+     "page": "11",
+     "draft": true
+    },
+    {
+     "id": "GUID-063",
+     "q": "What should you do instead of making a new track around mud or sand?",
+     "a": "Engage diff-lock and use the existing track",
+     "w": [
+      "Drive around it on the grass",
+      "Turn back and take another route",
+      "Wait for the area to dry out"
+     ],
+     "ex": "Do not make new tracks; rather engage diff-lock and use the existing track.",
+     "group": "Ethics",
+     "page": "12",
+     "draft": true
+    },
+    {
+     "id": "GUID-064",
+     "q": "What should be done with a road formed by a temporary sighting such as a carcass?",
+     "a": "Close it when the predators have finished feeding",
+     "w": [
+      "Keep it open for future game drives",
+      "Mark it on the lodge map",
+      "Leave it for the rangers to close"
+     ],
+     "ex": "If a road is formed by a temporary sighting, close it when the predators have finished feeding.",
+     "group": "Ethics",
+     "page": "12",
+     "draft": true
+    },
+    {
+     "id": "GUID-065",
+     "q": "What is culture shock?",
+     "a": "Shock at unexpected behaviour from another culture",
+     "w": [
+      "Fear of dangerous animals on a first safari",
+      "Discomfort caused by the Botswana heat",
+      "Tiredness after a long international flight"
+     ],
+     "ex": "Culture shock is being shocked by an unexpected gesture or behaviour due to a lack of exposure to other cultures.",
+     "group": "Culture shock",
+     "page": "12",
+     "draft": true
+    },
+    {
+     "id": "GUID-066",
+     "q": "According to the manual, how do Japanese people greet each other?",
+     "a": "They bow",
+     "w": [
+      "They shake hands",
+      "They hug",
+      "They kiss on the cheek"
+     ],
+     "ex": "Japanese do not shake hands to greet but rather bow to each other.",
+     "group": "Culture shock",
+     "page": "12",
+     "draft": true
+    },
+    {
+     "id": "GUID-067",
+     "q": "Which topic should a guide avoid to prevent offending guests?",
+     "a": "Politics",
+     "w": [
+      "Bird identification",
+      "The weather",
+      "Local food"
+     ],
+     "ex": "Topics to avoid include religion, politics, racial issues, sexist remarks, homosexuality and previous wars.",
+     "group": "Culture shock",
+     "page": "12",
+     "draft": true
+    },
+    {
+     "id": "GUID-068",
+     "q": "When should a guide serve themselves at a meal?",
+     "a": "Last",
+     "w": [
+      "First",
+      "Before the children",
+      "Before the lodge manager"
+     ],
+     "ex": "Guides should always serve themselves or be served last.",
+     "group": "Table manners",
+     "page": "12",
+     "draft": true
+    },
+    {
+     "id": "GUID-069",
+     "q": "In which order should cutlery be used?",
+     "a": "From the outside in",
+     "w": [
+      "From the inside out",
+      "Only the fork, for every course",
+      "Whichever is closest to the plate"
+     ],
+     "ex": "Use utensils from the outside in, starting with the outermost for the first course.",
+     "group": "Table manners",
+     "page": "12",
+     "draft": true
+    },
+    {
+     "id": "GUID-070",
+     "q": "Where should the napkin go once the meal is over?",
+     "a": "Folded neatly on the side of the plate",
+     "w": [
+      "Left on your chair",
+      "Placed on top of your food",
+      "Kept on your lap"
+     ],
+     "ex": "Once the meal is over, the napkin should be folded neatly on the side of the plate.",
+     "group": "Table manners",
+     "page": "12",
+     "draft": true
+    },
+    {
+     "id": "GUID-071",
+     "q": "What does the manual say is one of a guide's roles during a meal?",
+     "a": "Ensuring pleasant conversation",
+     "w": [
+      "Serving the guests' food",
+      "Clearing the table",
+      "Choosing the wine for guests"
+     ],
+     "ex": "One of our roles as a guide is to entertain guests by ensuring there is pleasant conversation during the meal.",
+     "group": "Table manners",
+     "page": "12",
+     "draft": true
+    }
+   ]
+  },
+  {
+   "id": "q-astronomy",
+   "kind": "questions",
+   "chapter": "Astronomy",
+   "title": "Astronomy - manual",
+   "photo": "",
+   "subtitle": "44 questions from the Botswana Guide Training Manual",
+   "items": [
+    {
+     "id": "ASTR-001",
+     "q": "What type of galaxy is the Milky Way?",
+     "a": "A spiral galaxy",
+     "w": [
+      "An elliptical galaxy",
+      "An irregular galaxy",
+      "A ring galaxy"
+     ],
+     "ex": "The manual states that our galaxy, the Milky Way, is a spiral galaxy.",
+     "group": "Galaxies",
+     "page": "13",
+     "draft": true
+    },
+    {
+     "id": "ASTR-002",
+     "q": "According to the manual, what is the most common type of galaxy?",
+     "a": "Elliptical galaxy",
+     "w": [
+      "Spiral galaxy",
+      "Irregular galaxy",
+      "Ring galaxy"
+     ],
+     "ex": "The manual states that the most common type of galaxy is an elliptical galaxy.",
+     "group": "Galaxies",
+     "page": "13",
+     "draft": true
+    },
+    {
+     "id": "ASTR-003",
+     "q": "What does the term 'intergalactic' refer to?",
+     "a": "The space between galaxies",
+     "w": [
+      "The centre of a galaxy",
+      "The stars inside one galaxy",
+      "The edge of our solar system"
+     ],
+     "ex": "The manual explains that the term intergalactic refers to the space between galaxies.",
+     "group": "Galaxies",
+     "page": "13",
+     "draft": true
+    },
+    {
+     "id": "ASTR-004",
+     "q": "Apart from our own galaxy, which galaxy can be seen with the naked eye?",
+     "a": "The Andromeda galaxy",
+     "w": [
+      "The Whirlpool galaxy",
+      "The Sombrero galaxy",
+      "The Cartwheel galaxy"
+     ],
+     "ex": "Only three other galaxies are visible with the naked eye: the Large and Small Magellanic Clouds and the Andromeda galaxy.",
+     "group": "Galaxies",
+     "page": "13",
+     "draft": true
+    },
+    {
+     "id": "ASTR-005",
+     "q": "How wide is the Milky Way estimated to be, from one end to the other?",
+     "a": "About 100 000 light years",
+     "w": [
+      "About 4.3 light years",
+      "About 8.5 light years",
+      "About 15 billion light years"
+     ],
+     "ex": "The Milky Way is estimated to be 100 000 light years from one end to the other.",
+     "group": "The Milky Way",
+     "page": "13",
+     "draft": true
+    },
+    {
+     "id": "ASTR-006",
+     "q": "Why do we see a dense 'line' of stars (the Milky Way) across the night sky?",
+     "a": "Our galaxy is disc-shaped, so looking along it we see more stars",
+     "w": [
+      "The Milky Way is a ring of stars around our sun",
+      "Those stars are much closer to Earth than other stars",
+      "Those stars are larger and brighter than other stars"
+     ],
+     "ex": "Because our galaxy is disc-shaped, looking in the direction that goes deeper into the galaxy shows more stars.",
+     "group": "The Milky Way",
+     "page": "13",
+     "draft": true
+    },
+    {
+     "id": "ASTR-007",
+     "q": "What is the main difference between stars and planets?",
+     "a": "Stars produce their own light; planets reflect light",
+     "w": [
+      "Planets produce their own light; stars reflect light",
+      "Stars and planets both only reflect light",
+      "Planets twinkle but the light of stars is constant"
+     ],
+     "ex": "The manual states that stars produce their own light whereas planets reflect light.",
+     "group": "Stars",
+     "page": "13",
+     "draft": true
+    },
+    {
+     "id": "ASTR-008",
+     "q": "How does the light of a planet differ from the light of a star?",
+     "a": "A planet's light is constant; stars twinkle",
+     "w": [
+      "A planet's light twinkles; stars are constant",
+      "A planet's light changes colour; stars do not",
+      "A planet's light is always red; stars are white"
+     ],
+     "ex": "Stars appear to twinkle whereas the light from planets is constant.",
+     "group": "Stars",
+     "page": "13",
+     "draft": true
+    },
+    {
+     "id": "ASTR-009",
+     "q": "Which stage of a star's life is our sun in at the moment?",
+     "a": "The main sequence",
+     "w": [
+      "The protostar stage",
+      "The red giant stage",
+      "The white dwarf stage"
+     ],
+     "ex": "The manual states that the main sequence is the stage our sun is in at the moment.",
+     "group": "Life of a star",
+     "page": "13",
+     "draft": true
+    },
+    {
+     "id": "ASTR-010",
+     "q": "What happens to a star when the hydrogen in its core is used up?",
+     "a": "It expands and becomes a red giant",
+     "w": [
+      "It shrinks and becomes a protostar",
+      "It immediately becomes a black hole",
+      "It starts the main sequence stage"
+     ],
+     "ex": "When the hydrogen in the core is used up, the star expands, becoming a red giant.",
+     "group": "Life of a star",
+     "page": "13",
+     "draft": true
+    },
+    {
+     "id": "ASTR-011",
+     "q": "Which star is the closest star to Earth in the night sky?",
+     "a": "Proxima Centauri",
+     "w": [
+      "Sirius",
+      "Polaris",
+      "Canopus"
+     ],
+     "ex": "Although very faint, Proxima Centauri is the closest star to Earth at approximately 4.3 light years away.",
+     "group": "Constellations",
+     "page": "14",
+     "draft": true
+    },
+    {
+     "id": "ASTR-012",
+     "q": "Which two stars are known as the 'pointers'?",
+     "a": "Alpha and Beta Centauri",
+     "w": [
+      "Alpha and Beta Crux",
+      "Sirius and Canopus",
+      "Betelgeuse and Rigel"
+     ],
+     "ex": "The pointers are Alpha and Beta Centauri, two bright stars that point to the Southern Cross.",
+     "group": "Constellations",
+     "page": "14",
+     "draft": true
+    },
+    {
+     "id": "ASTR-013",
+     "q": "To find celestial south, how many times do you extend the long axis of the Southern Cross?",
+     "a": "4.5 times",
+     "w": [
+      "2 times",
+      "3 times",
+      "10 times"
+     ],
+     "ex": "Measure from Gamma Crux to Alpha Crux and extend this line 4.5 times to find celestial south.",
+     "group": "Constellations",
+     "page": "14",
+     "draft": true
+    },
+    {
+     "id": "ASTR-014",
+     "q": "In the northern hemisphere, which bright star lies on celestial north?",
+     "a": "Polaris (the North Star)",
+     "w": [
+      "Sirius",
+      "Alpha Centauri",
+      "Antares"
+     ],
+     "ex": "In the northern hemisphere Polaris (North Star) lies on celestial north and can be used to find true north.",
+     "group": "Constellations",
+     "page": "14",
+     "draft": true
+    },
+    {
+     "id": "ASTR-015",
+     "q": "How do the Tswana and Sotho people see the pointers and the two brightest stars of the Cross?",
+     "a": "As a group of four giraffes",
+     "w": [
+      "As two male lions and lionesses",
+      "As four hunting dogs",
+      "As a herd of zebra"
+     ],
+     "ex": "The Tswana and Sotho imagine the pointers and Alpha and Beta Crux as a group of four giraffes.",
+     "group": "Constellations",
+     "page": "14",
+     "draft": true
+    },
+    {
+     "id": "ASTR-016",
+     "q": "How did the /Xam (San) see the two pointers?",
+     "a": "As two male lions",
+     "w": [
+      "As two giraffes",
+      "As two hunters",
+      "As two elephants"
+     ],
+     "ex": "The /Xam saw the pointers as two male lions and the three brightest stars of the Cross as lionesses.",
+     "group": "Constellations",
+     "page": "14",
+     "draft": true
+    },
+    {
+     "id": "ASTR-017",
+     "q": "What name is given to the three stars that form Orion's Belt?",
+     "a": "The Three Kings",
+     "w": [
+      "The Seven Sisters",
+      "The Pointers",
+      "The Summer Triangle"
+     ],
+     "ex": "The prominent stars of Orion include the 'Three Kings' which form Orion's Belt.",
+     "group": "Constellations",
+     "page": "14",
+     "draft": true
+    },
+    {
+     "id": "ASTR-018",
+     "q": "How can you find Sirius in the night sky?",
+     "a": "Follow a line along Orion's belt going east",
+     "w": [
+      "Follow the pointers towards the Southern Cross",
+      "Follow the long axis of the Southern Cross",
+      "Look straight down from Polaris"
+     ],
+     "ex": "To find Sirius take a line along Orion's belt going east; Sirius is a bright star along this line.",
+     "group": "Constellations",
+     "page": "14",
+     "draft": true
+    },
+    {
+     "id": "ASTR-019",
+     "q": "When Scorpius rises in the east, what happens to Orion?",
+     "a": "Orion sets in the west",
+     "w": [
+      "Orion rises next to it in the east",
+      "Orion moves to the top of the sky",
+      "Orion disappears for a whole year"
+     ],
+     "ex": "Scorpius rises in the east as Orion sets in the west, as told in the Greek legend.",
+     "group": "Constellations",
+     "page": "14",
+     "draft": true
+    },
+    {
+     "id": "ASTR-020",
+     "q": "According to the manual, the astrological Scorpio today matches which constellation?",
+     "a": "Libra",
+     "w": [
+      "Scorpius",
+      "Orion",
+      "Canis Major"
+     ],
+     "ex": "Professor Fairall is quoted as saying the astrological Scorpio now corresponds with the constellation of Libra.",
+     "group": "Constellations",
+     "page": "14",
+     "draft": true
+    },
+    {
+     "id": "ASTR-021",
+     "q": "Which is the brightest star visible from Earth?",
+     "a": "Sirius",
+     "w": [
+      "Canopus",
+      "Antares",
+      "Betelgeuse"
+     ],
+     "ex": "The brightest star visible from Earth is Sirius of the constellation Canis Major.",
+     "group": "Prominent stars",
+     "page": "15",
+     "draft": true
+    },
+    {
+     "id": "ASTR-022",
+     "q": "Which star is the second brightest star visible from Earth?",
+     "a": "Canopus",
+     "w": [
+      "Sirius",
+      "Procyon",
+      "Aldebaran"
+     ],
+     "ex": "In second place after Sirius is Canopus of the constellation Carina.",
+     "group": "Prominent stars",
+     "page": "15",
+     "draft": true
+    },
+    {
+     "id": "ASTR-023",
+     "q": "Which of these is one of the three most prominent red giant stars?",
+     "a": "Aldebaran",
+     "w": [
+      "Procyon",
+      "Canopus",
+      "Proxima Centauri"
+     ],
+     "ex": "The three most prominent red giants are Antares (Scorpius), Aldebaran (Taurus) and Betelgeuse (Orion).",
+     "group": "Prominent stars",
+     "page": "15",
+     "draft": true
+    },
+    {
+     "id": "ASTR-024",
+     "q": "For Xhosa and Zulu people, what does the reappearance of the Pleiades in June signal?",
+     "a": "Time to prepare the fields for planting",
+     "w": [
+      "Time to harvest the crops",
+      "The start of the winter hunt",
+      "The start of the rainy season"
+     ],
+     "ex": "The Pleiades (Isilimela) reappear in June just before dawn, signalling the people to prepare the fields for planting.",
+     "group": "Other local beliefs",
+     "page": "15",
+     "draft": true
+    },
+    {
+     "id": "ASTR-025",
+     "q": "Which gas makes up most of the sun?",
+     "a": "Hydrogen (about 70%)",
+     "w": [
+      "Helium (about 70%)",
+      "Oxygen (about 70%)",
+      "Carbon dioxide (about 70%)"
+     ],
+     "ex": "The sun is made up of 70% hydrogen, 28% helium and 2% other gases.",
+     "group": "Our Solar System",
+     "page": "15",
+     "draft": true
+    },
+    {
+     "id": "ASTR-026",
+     "q": "How long does it take the light of the sun to reach Earth?",
+     "a": "About 8 minutes",
+     "w": [
+      "About 8 seconds",
+      "About 8 hours",
+      "About 4.3 years"
+     ],
+     "ex": "The manual states it takes the light of the sun 8 minutes to reach Earth.",
+     "group": "Our Solar System",
+     "page": "15",
+     "draft": true
+    },
+    {
+     "id": "ASTR-027",
+     "q": "What is the average distance between the Earth and the sun?",
+     "a": "150 million km (1 AU)",
+     "w": [
+      "15 million km (1 AU)",
+      "1.5 billion km (1 AU)",
+      "150 000 km (1 AU)"
+     ],
+     "ex": "The sun lies, on average, 150 million km (1 astronomical unit) from Earth.",
+     "group": "Our Solar System",
+     "page": "15",
+     "draft": true
+    },
+    {
+     "id": "ASTR-028",
+     "q": "Which is the smallest planet in our solar system?",
+     "a": "Mercury",
+     "w": [
+      "Mars",
+      "Venus",
+      "Neptune"
+     ],
+     "ex": "The manual lists Mercury as the smallest planet and Jupiter as the largest.",
+     "group": "Planets",
+     "page": "15",
+     "draft": true
+    },
+    {
+     "id": "ASTR-029",
+     "q": "Which planets are the gas giants?",
+     "a": "Jupiter, Saturn, Uranus and Neptune",
+     "w": [
+      "Mercury, Venus, Earth and Mars",
+      "Venus, Jupiter, Saturn and Mars",
+      "Earth, Mars, Saturn and Neptune"
+     ],
+     "ex": "Jupiter, Saturn, Uranus and Neptune are gaseous (gas giants); the first four planets are solid.",
+     "group": "Planets",
+     "page": "15",
+     "draft": true
+    },
+    {
+     "id": "ASTR-030",
+     "q": "Which two planets cannot be seen at night with the naked eye?",
+     "a": "Uranus and Neptune",
+     "w": [
+      "Mercury and Venus",
+      "Jupiter and Saturn",
+      "Mars and Jupiter"
+     ],
+     "ex": "All the planets except the last two, Uranus and Neptune, can be seen with the naked eye.",
+     "group": "Planets",
+     "page": "15",
+     "draft": true
+    },
+    {
+     "id": "ASTR-031",
+     "q": "Which two planets do NOT rotate in an anti-clockwise direction?",
+     "a": "Venus and Uranus",
+     "w": [
+      "Mercury and Mars",
+      "Jupiter and Saturn",
+      "Earth and Neptune"
+     ],
+     "ex": "All the planets, except for Venus and Uranus, rotate in an anti-clockwise direction.",
+     "group": "Planets",
+     "page": "15",
+     "draft": true
+    },
+    {
+     "id": "ASTR-032",
+     "q": "What happens when you look at a planet through binoculars?",
+     "a": "It looks larger because it is much closer than a star",
+     "w": [
+      "It looks smaller because it reflects light",
+      "It starts to twinkle like a star",
+      "It stays a tiny prick of light like a star"
+     ],
+     "ex": "A planet viewed through binoculars becomes larger because it is so much closer than a star.",
+     "group": "Visible planets",
+     "page": "15",
+     "draft": true
+    },
+    {
+     "id": "ASTR-033",
+     "q": "Why is Venus the brightest object in the night sky after the moon?",
+     "a": "Because it is so close to Earth",
+     "w": [
+      "Because it is the largest planet",
+      "Because it produces its own light",
+      "Because it is a gas giant"
+     ],
+     "ex": "Many planets are larger than Venus, but because Venus is so close to Earth it is the brightest object after the moon.",
+     "group": "Visible planets",
+     "page": "16",
+     "draft": true
+    },
+    {
+     "id": "ASTR-034",
+     "q": "How can you tell Jupiter apart from Venus when both are low on the horizon?",
+     "a": "Look for Jupiter's 4 Galilean moons with binoculars",
+     "w": [
+      "Jupiter twinkles but Venus does not",
+      "Jupiter always appears red in colour",
+      "Venus is always much higher in the sky"
+     ],
+     "ex": "Jupiter can easily be distinguished from Venus by looking for its 4 Galilean moons with a pair of binoculars.",
+     "group": "Visible planets",
+     "page": "16",
+     "draft": true
+    },
+    {
+     "id": "ASTR-035",
+     "q": "What does 'waxing' mean when describing the moon?",
+     "a": "The moon develops from new to full moon",
+     "w": [
+      "The moon decreases from full to new moon",
+      "The moon is less than half lit",
+      "The moon is in the Earth's shadow"
+     ],
+     "ex": "Waxing (growing) is when the moon develops from new to full moon.",
+     "group": "Our Moon",
+     "page": "16",
+     "draft": true
+    },
+    {
+     "id": "ASTR-036",
+     "q": "What is a gibbous moon?",
+     "a": "A moon that is more than half lit",
+     "w": [
+      "A moon that is less than half lit",
+      "A moon that cannot be seen at all",
+      "A moon that is exactly half lit"
+     ],
+     "ex": "A gibbous moon is more than half, from the start of the 2nd quarter to the end of the 3rd quarter.",
+     "group": "Our Moon",
+     "page": "16",
+     "draft": true
+    },
+    {
+     "id": "ASTR-037",
+     "q": "A lunar eclipse can only happen at the time of which moon phase?",
+     "a": "Full moon",
+     "w": [
+      "New moon",
+      "First quarter",
+      "Waxing crescent"
+     ],
+     "ex": "The manual states that a lunar eclipse can only happen at the time of a full moon.",
+     "group": "Eclipses",
+     "page": "16",
+     "draft": true
+    },
+    {
+     "id": "ASTR-038",
+     "q": "What colour does the moon become during a lunar eclipse?",
+     "a": "A dull reddish brown",
+     "w": [
+      "A bright white",
+      "A pale blue",
+      "Completely black"
+     ],
+     "ex": "When the moon passes into the Earth's shadow it becomes a dull reddish brown.",
+     "group": "Eclipses",
+     "page": "16",
+     "draft": true
+    },
+    {
+     "id": "ASTR-039",
+     "q": "Why can a solar eclipse only be seen from some parts of the Earth?",
+     "a": "The moon is too small to shadow the whole Earth",
+     "w": [
+      "The sun is too small to light the whole Earth",
+      "The Earth's shadow only covers part of the moon",
+      "Clouds always block the view in other areas"
+     ],
+     "ex": "The moon is much smaller than the Earth so it cannot create a shadow large enough to cover the whole planet.",
+     "group": "Eclipses",
+     "page": "16",
+     "draft": true
+    },
+    {
+     "id": "ASTR-040",
+     "q": "Some San tribes believed eclipses were caused by what?",
+     "a": "A lion putting his paw over the full moon",
+     "w": [
+      "The sun tearing pieces off the moon",
+      "A giant scorpion stinging the moon",
+      "Four giraffes walking in front of the moon"
+     ],
+     "ex": "Some San tribes believed a lion put his paw over the full moon because it was too difficult to hunt when it was so light.",
+     "group": "Eclipses",
+     "page": "17",
+     "draft": true
+    },
+    {
+     "id": "ASTR-041",
+     "q": "What is a meteor, commonly called a 'shooting star'?",
+     "a": "A streak of light from a meteoroid burning up in the air",
+     "w": [
+      "A rock from space that lands on Earth's surface",
+      "A small chunk of rock travelling through space",
+      "A star that is dying and falling"
+     ],
+     "ex": "When a meteoroid burns up in Earth's atmosphere it creates a bright streak of light called a meteor.",
+     "group": "Meteors",
+     "page": "17",
+     "draft": true
+    },
+    {
+     "id": "ASTR-042",
+     "q": "What is a meteoroid called once it survives the atmosphere and lands on Earth?",
+     "a": "A meteorite",
+     "w": [
+      "A meteor",
+      "A comet",
+      "An asteroid"
+     ],
+     "ex": "If a meteoroid survives its passage through the atmosphere and lands on Earth's surface, it is called a meteorite.",
+     "group": "Meteors",
+     "page": "17",
+     "draft": true
+    },
+    {
+     "id": "ASTR-043",
+     "q": "What causes a meteor shower?",
+     "a": "Earth passing through a trail of debris left by a comet",
+     "w": [
+      "The moon passing into the shadow of the Earth",
+      "A large meteorite breaking up on the ground",
+      "Stars exploding at the end of their lives"
+     ],
+     "ex": "Meteor showers occur when Earth passes through a trail of debris left by a comet.",
+     "group": "Meteors",
+     "page": "17",
+     "draft": true
+    },
+    {
+     "id": "ASTR-044",
+     "q": "Which is the most prominent meteor shower, and when does it occur?",
+     "a": "The Perseid shower, in the middle of August",
+     "w": [
+      "The Perseid shower, in the middle of December",
+      "The Orion shower, in the middle of August",
+      "The Orion shower, in the middle of June"
+     ],
+     "ex": "The most prominent meteor shower is the Perseid Shower that occurs in the middle of August.",
+     "group": "Meteors",
+     "page": "17",
+     "draft": true
+    }
+   ]
+  },
+  {
+   "id": "q-geology",
+   "kind": "questions",
+   "chapter": "Geology",
+   "title": "Geology - manual",
+   "photo": "",
+   "subtitle": "62 questions from the Botswana Guide Training Manual",
+   "items": [
+    {
+     "id": "GEOL-001",
+     "q": "What is geology?",
+     "a": "The study of the history, composition and make-up of the Earth",
+     "w": [
+      "The study of the weather and climate of an area",
+      "The study of the stars, planets and galaxies",
+      "The study of plants and the soils they grow in"
+     ],
+     "ex": "The manual defines geology as the study of the history, composition and make-up of the Earth.",
+     "group": "Introduction",
+     "page": "18",
+     "draft": true
+    },
+    {
+     "id": "GEOL-002",
+     "q": "According to the manual, what do the rocks of an area determine?",
+     "a": "The type of soils in that area",
+     "w": [
+      "The amount of rain in that area",
+      "The temperature of that area",
+      "The direction rivers flow in"
+     ],
+     "ex": "Rocks determine the type of soils and that, combined with climate, are the main factors determining the flora and fauna.",
+     "group": "Introduction",
+     "page": "18",
+     "draft": true
+    },
+    {
+     "id": "GEOL-003",
+     "q": "Why did the Earth become spherical in shape?",
+     "a": "Its strong, evenly distributed gravitational pull towards the centre",
+     "w": [
+      "The fast spinning of the Earth on its axis",
+      "Erosion of the land surfaces over millions of years",
+      "The pull of the sun's gravity on the Earth"
+     ],
+     "ex": "The molten Earth was malleable and the evenly distributed gravitational pull towards the centre made it spherical.",
+     "group": "The formation of the Earth",
+     "page": "18",
+     "draft": true
+    },
+    {
+     "id": "GEOL-004",
+     "q": "Which heavy metals were drawn towards the Earth's centre by gravity?",
+     "a": "Iron and nickel",
+     "w": [
+      "Aluminium and magnesium",
+      "Gold and silver",
+      "Copper and tin"
+     ],
+     "ex": "Gravity drew heavier metals like iron and nickel towards the centre, while lighter aluminium and magnesium stayed near the surface.",
+     "group": "The Earth's structure",
+     "page": "18",
+     "draft": true
+    },
+    {
+     "id": "GEOL-005",
+     "q": "What fractures the Earth's crust into plates?",
+     "a": "Currents caused by heat in the semi-liquid mantle",
+     "w": [
+      "Earthquakes caused by the moon's gravity",
+      "Erosion of the crust by wind and water",
+      "The cooling and shrinking of the inner core"
+     ],
+     "ex": "The heat in the semi-liquid part of the mantle generates currents that fracture the Earth's crust into plates.",
+     "group": "The Earth's structure",
+     "page": "18",
+     "draft": true
+    },
+    {
+     "id": "GEOL-006",
+     "q": "Which layer of the Earth is a dense liquid made of an iron-nickel alloy?",
+     "a": "The outer core",
+     "w": [
+      "The inner core",
+      "The mantle",
+      "The crust"
+     ],
+     "ex": "The table shows the outer core (2 300 km) is a dense liquid made of an iron-nickel alloy.",
+     "group": "The Earth's structure",
+     "page": "18",
+     "draft": true
+    },
+    {
+     "id": "GEOL-007",
+     "q": "How thick is the Earth's crust, according to the manual?",
+     "a": "7 to 35 km",
+     "w": [
+      "1 200 km",
+      "2 300 km",
+      "2 900 km"
+     ],
+     "ex": "The table gives the crust a thickness of 7-35 km; it is solid and made of multiple minerals.",
+     "group": "The Earth's structure",
+     "page": "18",
+     "draft": true
+    },
+    {
+     "id": "GEOL-008",
+     "q": "Which fault divides the main river of the Pan-handle into the smaller rivers of the Delta?",
+     "a": "The Gumare fault",
+     "w": [
+      "The Thamalakane fault",
+      "The Kunyere fault",
+      "The Linyanti fault"
+     ],
+     "ex": "The Gumare fault is where the main river of the Pan-handle divides up into the smaller rivers of the Delta.",
+     "group": "Plate tectonics",
+     "page": "19",
+     "draft": true
+    },
+    {
+     "id": "GEOL-009",
+     "q": "Which fault in the south of the Delta dams the flood water and forces it south-west to the Boteti?",
+     "a": "The Thamalakane fault",
+     "w": [
+      "The Gumare fault",
+      "The Pan-handle fault",
+      "The Linyanti fault"
+     ],
+     "ex": "The Thamalakane fault has dammed up the yearly flood water, forcing it south-west where the Boteti River has cut a route.",
+     "group": "Plate tectonics",
+     "page": "19",
+     "draft": true
+    },
+    {
+     "id": "GEOL-010",
+     "q": "What are graben faults?",
+     "a": "Parallel faults where the ground sinks between the two fractures",
+     "w": [
+      "Faults where one plate is pushed down into the mantle",
+      "Faults that push the ground up into a mountain range",
+      "Faults formed when a river cuts through solid rock"
+     ],
+     "ex": "Graben faults are parallel faults where the ground subsides between the two fractures, such as the Okavango Delta.",
+     "group": "Plate tectonics",
+     "page": "19",
+     "draft": true
+    },
+    {
+     "id": "GEOL-011",
+     "q": "The smaller faults of northern Botswana are western off-shoots of which feature?",
+     "a": "The Great African Rift Valley",
+     "w": [
+      "The Kalahari Basin",
+      "The Drakensberg escarpment",
+      "The Bakalahari Schwelle"
+     ],
+     "ex": "These smaller faults are western off-shoots from the main Great African Rift Valley.",
+     "group": "Plate tectonics",
+     "page": "19",
+     "draft": true
+    },
+    {
+     "id": "GEOL-012",
+     "q": "Which two African plates are drifting apart along the Great Rift Valley?",
+     "a": "The Nubian and Somali plates",
+     "w": [
+      "The Kalahari and Zimbabwe plates",
+      "The Nubian and Kalahari plates",
+      "The Somali and Zambezi plates"
+     ],
+     "ex": "The two major African plates, the Nubian and Somali plates, are drifting apart.",
+     "group": "Plate tectonics",
+     "page": "19",
+     "draft": true
+    },
+    {
+     "id": "GEOL-013",
+     "q": "How were the Gcwhihaba Caves (including Drotsky's Caves) created?",
+     "a": "Water containing carbon dioxide dissolved the limestone",
+     "w": [
+      "Lava flows cooled and left hollow tubes",
+      "Wind blew sand against the rocks",
+      "Earthquakes cracked open the quartzite"
+     ],
+     "ex": "The caves were created when water containing carbon dioxide seeped through limestone, dissolving the rock.",
+     "group": "Geological features in Botswana",
+     "page": "19",
+     "draft": true
+    },
+    {
+     "id": "GEOL-014",
+     "q": "What type of rock are the Tsodilo Hills made of?",
+     "a": "Quartzite, a metamorphic rock",
+     "w": [
+      "Granite, an igneous rock",
+      "Dolomite, a sedimentary rock",
+      "Rhyolite, a volcanic rock"
+     ],
+     "ex": "The Tsodilo Hills are made of quartzite, a metamorphic rock that results from sandstone.",
+     "group": "Geological features in Botswana",
+     "page": "19",
+     "draft": true
+    },
+    {
+     "id": "GEOL-015",
+     "q": "What is the origin of the Savuti Hills?",
+     "a": "Volcanic (flow-band rhyolitic lava)",
+     "w": [
+      "Sedimentary (layers of sandstone)",
+      "Metamorphic (quartzite)",
+      "Organic (old coral beds)"
+     ],
+     "ex": "The Savuti Hills have a volcanic origin, consisting of flow-band rhyolitic lava.",
+     "group": "Geological features in Botswana",
+     "page": "19",
+     "draft": true
+    },
+    {
+     "id": "GEOL-016",
+     "q": "The Otse Hills on Botswana's southern border are mainly made of which rock?",
+     "a": "Sedimentary sandstone",
+     "w": [
+      "Volcanic rhyolite",
+      "Metamorphic quartzite",
+      "Dolomite and marble"
+     ],
+     "ex": "The Otse Hills, at 1491 metres, are predominantly composed of sedimentary sandstone.",
+     "group": "Geological features in Botswana",
+     "page": "19",
+     "draft": true
+    },
+    {
+     "id": "GEOL-017",
+     "q": "What event led to the formation of the Kalahari Basin?",
+     "a": "South America separating from Africa",
+     "w": [
+      "The Drakensberg Mountains being pushed up",
+      "The drying up of the Makgadikgadi super-lake",
+      "A huge volcano collapsing in the interior"
+     ],
+     "ex": "The Kalahari Basin formed from tectonic movements when South America separated from Africa, causing a recoil.",
+     "group": "Formation of the Kalahari Basin",
+     "page": "20",
+     "draft": true
+    },
+    {
+     "id": "GEOL-018",
+     "q": "Why is Kalahari sand very poor in nutrients?",
+     "a": "Its granitic origin and millions of years of leaching by rain",
+     "w": [
+      "It is too young for minerals to have formed in it",
+      "It comes from volcanic rock that has no minerals",
+      "Animals have eaten all the plants that held nutrients"
+     ],
+     "ex": "Due to the granitic origin of the sand and leaching by rain over hundreds of millions of years, it is very poor in nutrients.",
+     "group": "Formation of the Kalahari Basin",
+     "page": "20",
+     "draft": true
+    },
+    {
+     "id": "GEOL-019",
+     "q": "What does the manual say makes the Kalahari sands special?",
+     "a": "They are the largest continuous body of sand in the world",
+     "w": [
+      "They are the deepest sands in the world",
+      "They are the youngest sands in Africa",
+      "They are the most fertile sands in Africa"
+     ],
+     "ex": "The Kalahari sands span from the Cape Province to the Congo, the largest continuous body of sand in the world.",
+     "group": "Formation of the Kalahari Basin",
+     "page": "20",
+     "draft": true
+    },
+    {
+     "id": "GEOL-020",
+     "q": "What caused the formation of the Paleo-Lake Makgadikgadi?",
+     "a": "A sudden uplift of the Zimbabwe-Kalahari Axis",
+     "w": [
+      "The separation of South America from Africa",
+      "Heavy rains over the Bié Plateau",
+      "The collapse of the Great Rift Valley"
+     ],
+     "ex": "The sudden uplift of the Zimbabwe-Kalahari Axis about 2 million years ago blocked the rivers and formed the super-lake.",
+     "group": "Formation of the Makgadikgadi",
+     "page": "20",
+     "draft": true
+    },
+    {
+     "id": "GEOL-021",
+     "q": "What was the approximate size of the Makgadikgadi super-lake?",
+     "a": "About 200 000 km²",
+     "w": [
+      "About 20 000 km²",
+      "About 2 000 km²",
+      "About 2 000 000 km²"
+     ],
+     "ex": "The blocked rivers formed a massive inland super-lake of around 200 000 km².",
+     "group": "Formation of the Makgadikgadi",
+     "page": "20",
+     "draft": true
+    },
+    {
+     "id": "GEOL-022",
+     "q": "When did the Makgadikgadi super-lake finally dry up?",
+     "a": "Around 10 000 years ago",
+     "w": [
+      "Around 2 million years ago",
+      "Around 100 years ago",
+      "Around 900 million years ago"
+     ],
+     "ex": "The uplift of the Thamalakane and Kunyere fault-lines cut off its water and the super-lake finally dried up around 10 000 years ago.",
+     "group": "Formation of the Makgadikgadi",
+     "page": "20",
+     "draft": true
+    },
+    {
+     "id": "GEOL-023",
+     "q": "How were the Makgadikgadi Salt Pans formed?",
+     "a": "Salts and minerals concentrated as the lake dried up",
+     "w": [
+      "Sea water flooded the area and then evaporated",
+      "Volcanic ash settled over the old lake bed",
+      "Wind blew salt in from the Atlantic Ocean"
+     ],
+     "ex": "The drying of the lake concentrated the salts and minerals; once fully dried, these deposits formed the salt pans.",
+     "group": "Formation of the Makgadikgadi",
+     "page": "21",
+     "draft": true
+    },
+    {
+     "id": "GEOL-024",
+     "q": "Why do intrusive igneous rocks have large crystals?",
+     "a": "The magma cools slowly underground",
+     "w": [
+      "The lava cools quickly on the surface",
+      "They are formed from layers of sand",
+      "They are changed by heat and pressure"
+     ],
+     "ex": "Intrusive igneous rock solidifies underground, so it cools slowly, resulting in larger crystals.",
+     "group": "Rocks",
+     "page": "21",
+     "draft": true
+    },
+    {
+     "id": "GEOL-025",
+     "q": "Which is a typical intrusive igneous rock?",
+     "a": "Granite",
+     "w": [
+      "Basalt",
+      "Shale",
+      "Schist"
+     ],
+     "ex": "The manual names granite as a typical intrusive igneous rock; basalt and rhyolite are extrusive.",
+     "group": "Rocks",
+     "page": "21",
+     "draft": true
+    },
+    {
+     "id": "GEOL-026",
+     "q": "How are metamorphic rocks formed?",
+     "a": "Existing rocks are changed by heat, pressure or fluids without melting",
+     "w": [
+      "Magma cools and hardens on or below the surface",
+      "Particles settle in layers and are cemented together",
+      "Shells, corals and skeletons build up on the sea floor"
+     ],
+     "ex": "Metamorphic rocks form from existing rocks under extreme heat, pressure or chemically active fluids, without the rock melting.",
+     "group": "Rocks",
+     "page": "21",
+     "draft": true
+    },
+    {
+     "id": "GEOL-027",
+     "q": "Schist is a metamorphic rock formed from which rock?",
+     "a": "Shale",
+     "w": [
+      "Granite",
+      "Sandstone",
+      "Limestone"
+     ],
+     "ex": "Schist forms from shale, a sedimentary rock, when subjected to high pressure and heat.",
+     "group": "Rocks",
+     "page": "21",
+     "draft": true
+    },
+    {
+     "id": "GEOL-028",
+     "q": "What are the distinct layers in sedimentary rock called?",
+     "a": "Bedding",
+     "w": [
+      "Crystals",
+      "Faults",
+      "Exfoliation"
+     ],
+     "ex": "Particles settle in layers over time, forming distinct strata known as bedding.",
+     "group": "Rocks",
+     "page": "21",
+     "draft": true
+    },
+    {
+     "id": "GEOL-029",
+     "q": "Shale is a sedimentary rock formed from which particles?",
+     "a": "Clay particles (very fine material)",
+     "w": [
+      "Sand particles (coarse material)",
+      "Coral beds and shells",
+      "Cooled lava"
+     ],
+     "ex": "Shale forms from the compaction of clay particles; sandstone is made of sand particles.",
+     "group": "Rocks",
+     "page": "21",
+     "draft": true
+    },
+    {
+     "id": "GEOL-030",
+     "q": "Why are organic sedimentary rocks, such as limestone from shells, not true rocks?",
+     "a": "They are of biotic (living) origin",
+     "w": [
+      "They contain too many minerals",
+      "They are formed from cooled magma",
+      "They weather too quickly"
+     ],
+     "ex": "Organic sedimentary rocks come from shells, corals and skeletons; rocks of organic (biotic) origin are not true rocks.",
+     "group": "Rocks",
+     "page": "21",
+     "draft": true
+    },
+    {
+     "id": "GEOL-031",
+     "q": "According to the rock table, which rock weathers fast?",
+     "a": "Basalt",
+     "w": [
+      "Shale",
+      "Slate",
+      "Schist"
+     ],
+     "ex": "The table shows basalt (igneous) with a fast weathering speed, while shale and slate weather slowly.",
+     "group": "Rocks",
+     "page": "21",
+     "draft": true
+    },
+    {
+     "id": "GEOL-032",
+     "q": "Which of these is an example of a rock made of a single mineral?",
+     "a": "Diamond",
+     "w": [
+      "Granite",
+      "Basalt",
+      "Sandstone"
+     ],
+     "ex": "Rocks are normally made of two or more minerals; exceptions with a single mineral are gold, diamond, platinum and silver.",
+     "group": "Rocks",
+     "page": "21",
+     "draft": true
+    },
+    {
+     "id": "GEOL-033",
+     "q": "Why do coal, gas and oil not contain minerals?",
+     "a": "They are formed from organic material",
+     "w": [
+      "They are formed from cooled magma",
+      "They are formed under extreme pressure",
+      "They are formed from clay particles"
+     ],
+     "ex": "Coal, gas and oil are fossil fuels and do not contain minerals because they are formed from organic material.",
+     "group": "Rocks",
+     "page": "21",
+     "draft": true
+    },
+    {
+     "id": "GEOL-034",
+     "q": "In the rock cycle, what happens when sedimentary rocks are exposed to great heat and pressure?",
+     "a": "They become metamorphic rocks",
+     "w": [
+      "They become igneous rocks straight away",
+      "They break down into sand",
+      "They turn into fossil fuels"
+     ],
+     "ex": "When sedimentary rocks are exposed to great heat and pressure they become metamorphic.",
+     "group": "Rock cycles",
+     "page": "22",
+     "draft": true
+    },
+    {
+     "id": "GEOL-035",
+     "q": "What is weathering?",
+     "a": "The breaking down of rocks in situ (where they are)",
+     "w": [
+      "The movement of rock particles by wind and water",
+      "The settling of particles into layers",
+      "The melting of rock deep underground"
+     ],
+     "ex": "Weathering is the process of breaking down rocks, in situ, through water, plants and the atmosphere.",
+     "group": "Weathering",
+     "page": "22",
+     "draft": true
+    },
+    {
+     "id": "GEOL-036",
+     "q": "Water combining with iron minerals in a rock (rusting) is an example of what?",
+     "a": "Chemical weathering",
+     "w": [
+      "Mechanical weathering",
+      "Biotic weathering",
+      "Wind erosion"
+     ],
+     "ex": "Oxidation or rusting, where water combines with iron minerals in the rock, is a form of chemical weathering.",
+     "group": "Weathering",
+     "page": "22",
+     "draft": true
+    },
+    {
+     "id": "GEOL-037",
+     "q": "A rock that cracks from heating by day and cooling at night shows which type of weathering?",
+     "a": "Mechanical weathering",
+     "w": [
+      "Chemical weathering",
+      "Biotic weathering",
+      "Water erosion"
+     ],
+     "ex": "Mechanical weathering may be caused by thermal fluctuation: rock expands when hot and contracts when cool, causing cracking.",
+     "group": "Weathering",
+     "page": "22",
+     "draft": true
+    },
+    {
+     "id": "GEOL-038",
+     "q": "The rock-splitting fig growing roots into a crack is a typical example of what?",
+     "a": "Biotic weathering",
+     "w": [
+      "Chemical weathering",
+      "Pressure release",
+      "Water erosion"
+     ],
+     "ex": "Biotic weathering includes plants growing in cracks in rock; the rock-splitting fig is the typical example.",
+     "group": "Weathering",
+     "page": "22",
+     "draft": true
+    },
+    {
+     "id": "GEOL-039",
+     "q": "What is erosion?",
+     "a": "The active movement of rock particles by wind and water",
+     "w": [
+      "The breaking down of rocks where they lie",
+      "The cementing of particles into rock",
+      "The changing of rock by heat and pressure"
+     ],
+     "ex": "Erosion is the active movement of rock particles by wind and water, linking weathering and deposition.",
+     "group": "Erosion",
+     "page": "22",
+     "draft": true
+    },
+    {
+     "id": "GEOL-040",
+     "q": "Why is there very little evidence of erosion through most of Botswana?",
+     "a": "The flat, porous sand does not produce enough run-off",
+     "w": [
+      "Botswana receives no rain at all",
+      "The rocks of Botswana are too hard to erode",
+      "Thick forests cover most of the country"
+     ],
+     "ex": "The flat landscape covered with porous sand does not generate the run-off of water required for obvious soil erosion.",
+     "group": "Erosion",
+     "page": "22",
+     "draft": true
+    },
+    {
+     "id": "GEOL-041",
+     "q": "What is the main reason the Okavango Delta is not as species-rich as similar habitats?",
+     "a": "It is dominated by Kalahari sand with few other soils",
+     "w": [
+      "It receives far less rain than similar habitats",
+      "It has too many hills and steep slopes",
+      "Its soils are too fertile for most plants"
+     ],
+     "ex": "The Delta is dominated by Kalahari sand with small patches of alluvial soil; the lack of soil diversity results in poor plant diversity.",
+     "group": "The impact of geology on biodiversity",
+     "page": "23",
+     "draft": true
+    },
+    {
+     "id": "GEOL-042",
+     "q": "Which is given as an example of a poor grazing grass growing on deep, sandy soils?",
+     "a": "Three-awn grass",
+     "w": [
+      "Love grass",
+      "Drop-seed grass",
+      "Papyrus"
+     ],
+     "ex": "Grasses on poor, sandy soils are very poor grazing grasses such as three-awn grasses; love grass and drop-seed grow on alluvial soils.",
+     "group": "The impact of geology on biodiversity",
+     "page": "23",
+     "draft": true
+    },
+    {
+     "id": "GEOL-043",
+     "q": "Which soils have the better water retention?",
+     "a": "Soils with a higher organic content",
+     "w": [
+      "Deep sandy soils",
+      "Leached Kalahari sands",
+      "Gravel soils on upper slopes"
+     ],
+     "ex": "The greater the organic content of the soil the better the water retention; sandy soils retain much less water than alluvial soils.",
+     "group": "The impact of geology on biodiversity",
+     "page": "23",
+     "draft": true
+    },
+    {
+     "id": "GEOL-044",
+     "q": "Which parent rock weathers into very fertile soil?",
+     "a": "Basalt",
+     "w": [
+      "Granite",
+      "Sandstone",
+      "Quartzite"
+     ],
+     "ex": "Basalt weathers into very fertile soil while granite produces nutrient-poor soils.",
+     "group": "Effects of soils on vegetation",
+     "page": "23",
+     "draft": true
+    },
+    {
+     "id": "GEOL-045",
+     "q": "Which deep-rooted tree grows in the deep Kalahari sands?",
+     "a": "Camel thorn (Acacia erioloba)",
+     "w": [
+      "Jackal berry (Diospyros mespiliformis)",
+      "Sausage tree (Kigelia africana)",
+      "African mangosteen (Garcinia livingstonei)"
+     ],
+     "ex": "Plant species of the deep Kalahari sands include the deep-rooted camel thorn and Kalahari apple-leaf.",
+     "group": "Effects of soils on vegetation",
+     "page": "23",
+     "draft": true
+    },
+    {
+     "id": "GEOL-046",
+     "q": "Mopane scrub on alluvial soil provides good habitat for which animals?",
+     "a": "Elephant and buffalo",
+     "w": [
+      "Gemsbok and springbok",
+      "Lechwe and sitatunga",
+      "Hippo and crocodile"
+     ],
+     "ex": "Mopane scrub is found in alluvial soil and provides good habitats for elephant and buffalo.",
+     "group": "Effects of soils on vegetation",
+     "page": "23",
+     "draft": true
+    },
+    {
+     "id": "GEOL-047",
+     "q": "What does 'carrying capacity' refer to?",
+     "a": "The number of animals a habitat can sustain",
+     "w": [
+      "The amount of water a soil can hold",
+      "The amount of sediment a river can carry",
+      "The number of plant species in an area"
+     ],
+     "ex": "Carrying capacity refers to the number of animals that a habitat can sustain.",
+     "group": "Carrying capacity",
+     "page": "23",
+     "draft": true
+    },
+    {
+     "id": "GEOL-048",
+     "q": "Why are older sandy soils less fertile than younger sands?",
+     "a": "Over time the minerals are leached out of them",
+     "w": [
+      "They contain more clay than younger sands",
+      "They were formed from volcanic rock",
+      "They hold too much water for plants"
+     ],
+     "ex": "Older sands are less fertile because, over time, the sands are leached of their minerals.",
+     "group": "Carrying capacity",
+     "page": "23",
+     "draft": true
+    },
+    {
+     "id": "GEOL-049",
+     "q": "What are the upper reaches of a river usually like?",
+     "a": "Fast-flowing water with low sediment loads",
+     "w": [
+      "Slow, meandering water with high sediment loads",
+      "Wide floodplains with many channels",
+      "Still water with no sediment at all"
+     ],
+     "ex": "The upper reaches, often in mountains, have fast-flowing water and low sediment loads.",
+     "group": "Rivers",
+     "page": "24",
+     "draft": true
+    },
+    {
+     "id": "GEOL-050",
+     "q": "What is a watershed?",
+     "a": "The boundary separating one catchment area from another",
+     "w": [
+      "The total land area drained by a river",
+      "The point where a river enters the sea",
+      "A marsh where a river is blocked by a fault"
+     ],
+     "ex": "The boundary separating one catchment area from another is known as a watershed.",
+     "group": "Rivers",
+     "page": "24",
+     "draft": true
+    },
+    {
+     "id": "GEOL-051",
+     "q": "Where do the Okavango and Kwando rivers have their watershed?",
+     "a": "The Bié Plateau in the highlands of Angola",
+     "w": [
+      "The Drakensberg Mountains of South Africa",
+      "The Kavango region of Namibia",
+      "The Zimbabwe-Kalahari Axis"
+     ],
+     "ex": "The watershed of the Okavango and Kwando rivers lies in the highlands of Angola in an area known as the Bié Plateau.",
+     "group": "Rivers",
+     "page": "24",
+     "draft": true
+    },
+    {
+     "id": "GEOL-052",
+     "q": "Which two rivers merge on the Namibian border to form the Kavango River?",
+     "a": "The Cuito and Cubango",
+     "w": [
+      "The Kwando and Linyanti",
+      "The Thaoge and Xudum",
+      "The Boteti and Nhabe"
+     ],
+     "ex": "The Cuito and Cubango rivers merge on the Namibian border to form the Kavango River.",
+     "group": "Rivers",
+     "page": "24",
+     "draft": true
+    },
+    {
+     "id": "GEOL-053",
+     "q": "What blocks the Kwando River at the Linyanti marsh and forces it north-east?",
+     "a": "The Linyanti fault line",
+     "w": [
+      "The Thamalakane fault line",
+      "The Gumare fault line",
+      "The Kunyere fault line"
+     ],
+     "ex": "The Kwando flows south until the Linyanti marsh where it is blocked by the Linyanti fault line.",
+     "group": "Rivers",
+     "page": "24",
+     "draft": true
+    },
+    {
+     "id": "GEOL-054",
+     "q": "Which Delta river was historically the main feeder of Lake Ngami?",
+     "a": "The Thaoge",
+     "w": [
+      "The Khwai",
+      "The Nqoga",
+      "The Jao/Boro"
+     ],
+     "ex": "The Thaoge was historically the main feeder for Lake Ngami but has not reached the lake in more than half a century.",
+     "group": "Rivers",
+     "page": "24",
+     "draft": true
+    },
+    {
+     "id": "GEOL-055",
+     "q": "The Khwai River has recently created permanent water in which area?",
+     "a": "The Mababe Depression",
+     "w": [
+      "Lake Ngami",
+      "Lake Xau",
+      "The Makgadikgadi Pans"
+     ],
+     "ex": "The Khwai River flows further and in recent times has created permanent water in the Mababe Depression.",
+     "group": "Rivers",
+     "page": "24",
+     "draft": true
+    },
+    {
+     "id": "GEOL-056",
+     "q": "Where does the Boteti River end its journey?",
+     "a": "Lake Xau",
+     "w": [
+      "Lake Ngami",
+      "The Zambezi River",
+      "The Mababe Depression"
+     ],
+     "ex": "The Boteti River meanders south-west into the Kalahari and eventually ends at Lake Xau.",
+     "group": "Rivers",
+     "page": "24",
+     "draft": true
+    },
+    {
+     "id": "GEOL-057",
+     "q": "What is the drop in height between the pan-handle and the Thamalakane River, 250 km apart?",
+     "a": "Only 60 m",
+     "w": [
+      "About 600 m",
+      "About 250 m",
+      "Only 6 m"
+     ],
+     "ex": "The gradient over the 250 km between the pan-handle and the Thamalakane River is only 60 m.",
+     "group": "Rivers",
+     "page": "25",
+     "draft": true
+    },
+    {
+     "id": "GEOL-058",
+     "q": "What does it mean that the Okavango is 'endoreic'?",
+     "a": "It is a closed system that does not flow to the ocean",
+     "w": [
+      "It flows all year round without drying up",
+      "It flows from the north to the south",
+      "It carries a very high sediment load"
+     ],
+     "ex": "The Okavango is endoreic: a closed system that does not flow to the ocean.",
+     "group": "Rivers",
+     "page": "25",
+     "draft": true
+    },
+    {
+     "id": "GEOL-059",
+     "q": "How is most of the water that flows into the Okavango Delta lost?",
+     "a": "Through evapo-transpiration and seepage",
+     "w": [
+      "By flowing down the Boteti to Lake Xau",
+      "By flowing into the Zambezi River",
+      "Through use by people and livestock"
+     ],
+     "ex": "The majority of the water is lost through evapo-transpiration and seepage; only about 3% escapes down the Boteti in major floods.",
+     "group": "Rivers",
+     "page": "25",
+     "draft": true
+    },
+    {
+     "id": "GEOL-060",
+     "q": "What does the Okavango Link Project (OLP) plan to do?",
+     "a": "Extract water from the Kavango River for Windhoek",
+     "w": [
+      "Build a hydro-electric station at Popa Falls",
+      "Irrigate farms along the river in Angola",
+      "Divert the Boteti River into Lake Ngami"
+     ],
+     "ex": "The OLP, approved by the Namibian Government in 2024, may start extracting water from the Kavango River for Windhoek.",
+     "group": "Threats to the Okavango Delta",
+     "page": "25",
+     "draft": true
+    },
+    {
+     "id": "GEOL-061",
+     "q": "What would be the main environmental impact of the Popa Falls hydropower project?",
+     "a": "A reduction of the sediment load reaching the Delta",
+     "w": [
+      "A large increase in the sediment load",
+      "Much more water flowing into the Delta",
+      "Pollution of the water with oil"
+     ],
+     "ex": "The main impact would be a reduction of sediment load, as the water is slowed down before arriving in the Delta.",
+     "group": "Threats to the Okavango Delta",
+     "page": "25",
+     "draft": true
+    },
+    {
+     "id": "GEOL-062",
+     "q": "Which are the most productive ecosystems in the Okavango?",
+     "a": "The floodplains",
+     "w": [
+      "The deep Kalahari sands",
+      "The mopane scrublands",
+      "The dry islands"
+     ],
+     "ex": "The most productive ecosystems in the Okavango are the floodplains, which depend on sediment encouraging flooding.",
+     "group": "Threats to the Okavango Delta",
+     "page": "25",
+     "draft": true
+    }
+   ]
+  },
+  {
+   "id": "q-weather-and-climate",
+   "kind": "questions",
+   "chapter": "Weather and Climate",
+   "title": "Weather and Climate - manual",
+   "photo": "",
+   "subtitle": "41 questions from the Botswana Guide Training Manual",
+   "items": [
+    {
+     "id": "WEAT-001",
+     "q": "What is climate?",
+     "a": "The typical weather expected, based on data from many years",
+     "w": [
+      "The present state of the atmosphere at a given time",
+      "The amount of rain that falls in one day",
+      "The wind speed and direction at a given place"
+     ],
+     "ex": "Climate is determined by weather reports over a long period: the typical weather expected for an area.",
+     "group": "Introduction",
+     "page": "26",
+     "draft": true
+    },
+    {
+     "id": "WEAT-002",
+     "q": "What does 'weather' refer to?",
+     "a": "The present state of the atmosphere and current conditions",
+     "w": [
+      "The average conditions over many years",
+      "The rainfall expected in a typical year",
+      "The height at which clouds form"
+     ],
+     "ex": "Weather refers to the present state of the atmosphere and describes current conditions.",
+     "group": "Introduction",
+     "page": "26",
+     "draft": true
+    },
+    {
+     "id": "WEAT-003",
+     "q": "Which saying sums up the difference between climate and weather?",
+     "a": "Climate is what you expect and weather is what you get",
+     "w": [
+      "Weather is what you expect and climate is what you get",
+      "Climate changes daily but weather never changes",
+      "Weather is measured but climate is only guessed"
+     ],
+     "ex": "The manual uses the saying: 'Climate is what you expect and weather is what you get.'",
+     "group": "Introduction",
+     "page": "26",
+     "draft": true
+    },
+    {
+     "id": "WEAT-004",
+     "q": "Which instrument measures atmospheric pressure?",
+     "a": "A barometer",
+     "w": [
+      "An anemometer",
+      "A rain gauge",
+      "A thermometer"
+     ],
+     "ex": "Barometers are instruments used in meteorology to measure atmospheric pressure.",
+     "group": "Measuring weather",
+     "page": "26",
+     "draft": true
+    },
+    {
+     "id": "WEAT-005",
+     "q": "Which instrument is used to measure wind speed?",
+     "a": "An anemometer",
+     "w": [
+      "A barometer",
+      "A thermometer",
+      "A rain gauge"
+     ],
+     "ex": "Anemometers are used for measuring wind speed and wind pressure.",
+     "group": "Measuring weather",
+     "page": "26",
+     "draft": true
+    },
+    {
+     "id": "WEAT-006",
+     "q": "What is the ideal height for an anemometer?",
+     "a": "10 m in open terrain",
+     "w": [
+      "1 m in open terrain",
+      "10 m next to a building",
+      "100 m on a hilltop"
+     ],
+     "ex": "The ideal height for anemometers is 10 m in open terrain, as trees, valleys and buildings affect readings.",
+     "group": "Measuring weather",
+     "page": "26",
+     "draft": true
+    },
+    {
+     "id": "WEAT-007",
+     "q": "Where should a thermometer be kept?",
+     "a": "In the shade, away from precipitation and direct sunlight",
+     "w": [
+      "In direct sunlight, away from any shade",
+      "Inside a closed vehicle",
+      "Buried just under the surface of the soil"
+     ],
+     "ex": "Thermometers are kept in the shade, away from any form of precipitation or direct sunlight.",
+     "group": "Measuring weather",
+     "page": "26",
+     "draft": true
+    },
+    {
+     "id": "WEAT-008",
+     "q": "Where should a rain gauge be set up?",
+     "a": "In open ground away from objects that may affect it",
+     "w": [
+      "Under a large tree to protect it",
+      "Next to a building for shelter",
+      "On the roof of a vehicle"
+     ],
+     "ex": "The gauge is set in open ground away from any object which may influence the measurements.",
+     "group": "Measuring weather",
+     "page": "26",
+     "draft": true
+    },
+    {
+     "id": "WEAT-009",
+     "q": "Which ocean current is cold and moves north along the Namibian coast?",
+     "a": "The Benguela current",
+     "w": [
+      "The Agulhas current",
+      "The Mozambique current",
+      "The Equatorial current"
+     ],
+     "ex": "The Benguela current off the west coast is a cold current from the Antarctic moving north along the Namibian shoreline.",
+     "group": "Factors influencing our weather",
+     "page": "26",
+     "draft": true
+    },
+    {
+     "id": "WEAT-010",
+     "q": "Why do onshore winds from the Benguela current bring little rain?",
+     "a": "The cold water gives off little moisture",
+     "w": [
+      "The winds blow too fast to form clouds",
+      "The Drakensberg blocks the winds",
+      "The water is too warm to form clouds"
+     ],
+     "ex": "Because the water is cold, onshore winds collect limited moisture, which is deposited as mist a few kilometres inland.",
+     "group": "Factors influencing our weather",
+     "page": "26",
+     "draft": true
+    },
+    {
+     "id": "WEAT-011",
+     "q": "Where does the warm Agulhas current come from?",
+     "a": "The equator",
+     "w": [
+      "The Antarctic",
+      "The Atlantic Ocean",
+      "The Arctic"
+     ],
+     "ex": "The Agulhas current comes from the equator, bringing warm water along the Mozambique/KwaZulu-Natal coast.",
+     "group": "Factors influencing our weather",
+     "page": "26",
+     "draft": true
+    },
+    {
+     "id": "WEAT-012",
+     "q": "Why is Botswana's rainfall lower than that of its eastern neighbours?",
+     "a": "Most rain from the east falls before the clouds reach Botswana",
+     "w": [
+      "The Benguela current brings dry air from the east",
+      "Botswana is too high for clouds to form",
+      "Cold fronts from the south block all rain"
+     ],
+     "ex": "Most of the rain falls over the eastern belt; by the time clouds reach Botswana there is little water vapour left.",
+     "group": "Factors influencing our weather",
+     "page": "27",
+     "draft": true
+    },
+    {
+     "id": "WEAT-013",
+     "q": "What does the Inter-tropical Convergence Zone (ITCZ) bring to Botswana in summer?",
+     "a": "Widespread rain for days at a time",
+     "w": [
+      "Cold, dry winds from the south",
+      "Thick mist a few kilometres inland",
+      "Hot, dry weather with no clouds"
+     ],
+     "ex": "Warm, moist air from the north is undercut by cold fronts from the south, causing widespread rain for days at a time.",
+     "group": "Factors influencing our weather",
+     "page": "27",
+     "draft": true
+    },
+    {
+     "id": "WEAT-014",
+     "q": "In winter, what prevents clouds and rain forming over the interior?",
+     "a": "A strong high pressure system",
+     "w": [
+      "A low pressure system",
+      "Warm, moist air from the Indian Ocean",
+      "The Inter-tropical Convergence Zone"
+     ],
+     "ex": "The winter diagram shows a strong high pressure system dominating the interior, preventing clouds and rain.",
+     "group": "Factors influencing our weather",
+     "page": "27",
+     "draft": true
+    },
+    {
+     "id": "WEAT-015",
+     "q": "In which month do temperatures in Botswana peak?",
+     "a": "October",
+     "w": [
+      "December",
+      "January",
+      "July"
+     ],
+     "ex": "Temperatures peak in October when there is little or no cloud cover and minor wind movement.",
+     "group": "Temperatures and rainfall",
+     "page": "27",
+     "draft": true
+    },
+    {
+     "id": "WEAT-016",
+     "q": "Which is Botswana's coldest month?",
+     "a": "July",
+     "w": [
+      "May",
+      "June",
+      "August"
+     ],
+     "ex": "Botswana's coldest month is July, when it may drop to below freezing point.",
+     "group": "Temperatures and rainfall",
+     "page": "27",
+     "draft": true
+    },
+    {
+     "id": "WEAT-017",
+     "q": "According to the table, which town has the highest average rainfall?",
+     "a": "Kasane (650 mm)",
+     "w": [
+      "Gaborone (530 mm)",
+      "Maun (460 mm)",
+      "Ghanzi (430 mm)"
+     ],
+     "ex": "The table shows Kasane with 650 mm, the highest of the towns listed.",
+     "group": "Temperatures and rainfall",
+     "page": "27",
+     "draft": true
+    },
+    {
+     "id": "WEAT-018",
+     "q": "What is evaporation?",
+     "a": "Water changing from a liquid to a gas",
+     "w": [
+      "A gas or vapour changing to a liquid",
+      "Water changing from a liquid to ice",
+      "Ice changing straight into rain"
+     ],
+     "ex": "Evaporation is the process of water changing from a liquid to a gaseous form.",
+     "group": "Clouds",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-019",
+     "q": "What is condensation?",
+     "a": "A gas or vapour changing to a liquid",
+     "w": [
+      "A liquid changing to a gas",
+      "Air rising and becoming warmer",
+      "Rain soaking into the ground"
+     ],
+     "ex": "Condensation is the change of a gas or vapour to a liquid, by cooling or by increased pressure.",
+     "group": "Clouds",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-020",
+     "q": "According to the manual, what is the height at which clouds form called?",
+     "a": "The dew point",
+     "w": [
+      "The inversion layer",
+      "The occluded front",
+      "The watershed"
+     ],
+     "ex": "The manual states that the height at which clouds form in the atmosphere is known as dew point.",
+     "group": "Clouds",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-021",
+     "q": "How does an occluded front form?",
+     "a": "A warm air mass is caught between two cold fronts and forced up",
+     "w": [
+      "Two warm air masses meet over the ocean",
+      "Cold air is trapped below an inversion layer",
+      "Warm air sinks on the leeward side of a mountain"
+     ],
+     "ex": "An occluded front forms when a warm air mass is caught between two cold fronts and the whole warm mass is forced to rise.",
+     "group": "Clouds",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-022",
+     "q": "Which clouds are high clouds that usually contain ice crystals?",
+     "a": "Cirrus clouds",
+     "w": [
+      "Stratus clouds",
+      "Alto clouds",
+      "Nimbus clouds"
+     ],
+     "ex": "Cirrus are high clouds (6 000 to 12 000 m) that usually contain ice crystals.",
+     "group": "Clouds",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-023",
+     "q": "At what height range are 'alto' (midrange) clouds found?",
+     "a": "2 000 to 6 000 m",
+     "w": [
+      "0 to 2 000 m",
+      "6 000 to 12 000 m",
+      "12 000 to 20 000 m"
+     ],
+     "ex": "The cloud table gives the alto level as 2 000 to 6 000 m.",
+     "group": "Clouds",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-024",
+     "q": "What does the Latin word 'cumulus' mean?",
+     "a": "Heap or pile",
+     "w": [
+      "Sheet",
+      "Rain",
+      "Curling lock of hair"
+     ],
+     "ex": "Cumulus means heap or pile; stratus means sheet, cirrus a curling lock of hair and nimbus rain.",
+     "group": "Clouds",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-025",
+     "q": "What does the Latin word 'nimbus' mean?",
+     "a": "Rain",
+     "w": [
+      "Heap or pile",
+      "Sheet",
+      "Curling lock of hair"
+     ],
+     "ex": "The manual states that nimbus means rain.",
+     "group": "Clouds",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-026",
+     "q": "Which cloud type is classed as multi-level?",
+     "a": "Cumulonimbus",
+     "w": [
+      "Cirrostratus",
+      "Stratocumulus",
+      "Altocumulus"
+     ],
+     "ex": "Of the 10 prominent cloud types, cumulonimbus is the multi-level cloud.",
+     "group": "Clouds",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-027",
+     "q": "What is lightning?",
+     "a": "A large electrostatic discharge from unbalanced electric charges",
+     "w": [
+      "Sunlight reflecting off ice crystals in clouds",
+      "Super-heated rain falling from a cloud",
+      "Burning dust particles in the atmosphere"
+     ],
+     "ex": "Lightning is a large electrostatic discharge caused by an imbalance in the electric charges in the atmosphere.",
+     "group": "Lightning",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-028",
+     "q": "Which clouds usually produce lightning?",
+     "a": "Cumulonimbus clouds",
+     "w": [
+      "Cirrus clouds",
+      "Altostratus clouds",
+      "Stratus clouds"
+     ],
+     "ex": "Lightning is usually associated with and produced by cumulonimbus clouds.",
+     "group": "Lightning",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-029",
+     "q": "What causes thunder?",
+     "a": "Rapid expansion and contraction of air super-heated by lightning",
+     "w": [
+      "Clouds bumping into each other",
+      "Hail hitting the ground at high speed",
+      "Ice crystals breaking inside the cloud"
+     ],
+     "ex": "Thunder results from the rapid expansion and contraction of air molecules super-heated by the lightning.",
+     "group": "Lightning",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-030",
+     "q": "How does lightning benefit plant life?",
+     "a": "It leads to the formation of nitric acid in the air",
+     "w": [
+      "It kills insects that eat the plants",
+      "It burns old grass to make ash",
+      "It warms the soil so seeds can germinate"
+     ],
+     "ex": "Lightning ionises the air, forming nitric oxide and ultimately nitric acid, which benefits the plant life below.",
+     "group": "Lightning",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-031",
+     "q": "Where does relief rainfall occur in southern Africa?",
+     "a": "Along the east coast, against the Drakensberg",
+     "w": [
+      "Along the west coast of Namibia",
+      "Over the centre of the Kalahari",
+      "Over the Okavango Delta"
+     ],
+     "ex": "Relief rainfall occurs along the east coast where moist air is forced up against the Drakensberg mountain range.",
+     "group": "Rainfall",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-032",
+     "q": "What happens to clouds as they pass onto the leeward side of a mountain?",
+     "a": "The air sinks and warms, so the droplets turn back into vapour",
+     "w": [
+      "The air rises and cools, so more rain falls",
+      "The clouds freeze and fall as hail",
+      "The clouds stay the same and keep moving"
+     ],
+     "ex": "On the leeward side the air sinks and the temperature increases, so the droplets become water vapour once more.",
+     "group": "Rainfall",
+     "page": "28",
+     "draft": true
+    },
+    {
+     "id": "WEAT-033",
+     "q": "How does convection rain begin?",
+     "a": "The sun heats the Earth's surface, warming the air above it",
+     "w": [
+      "Moist air is forced up against a mountain range",
+      "A cold current cools the air along the coast",
+      "A warm air mass is trapped between two cold fronts"
+     ],
+     "ex": "Convection rain begins with the sun heating the Earth's surface; the warm air rises, cools and condenses.",
+     "group": "Rainfall",
+     "page": "30",
+     "draft": true
+    },
+    {
+     "id": "WEAT-034",
+     "q": "When does hyperthermia occur?",
+     "a": "When the body produces or absorbs more heat than it can lose",
+     "w": [
+      "When the body loses more heat than it produces",
+      "When a person drinks too much water",
+      "When a person is out in cold winds and hail"
+     ],
+     "ex": "Hyperthermia occurs when the body produces or absorbs more heat than it can dissipate; it is a medical emergency.",
+     "group": "Safety precautions",
+     "page": "30",
+     "draft": true
+    },
+    {
+     "id": "WEAT-035",
+     "q": "What are the most common causes of hyperthermia?",
+     "a": "Heat stroke and adverse reactions to some medications",
+     "w": [
+      "Cold winds and hailstorms",
+      "Drinking alcohol and smoking",
+      "Lightning strikes and flash floods"
+     ],
+     "ex": "The most common causes of hyperthermia are heat stroke and adverse reactions to certain medications.",
+     "group": "Safety precautions",
+     "page": "30",
+     "draft": true
+    },
+    {
+     "id": "WEAT-036",
+     "q": "During a storm, where can you often find adequate shelter?",
+     "a": "On the leeward side of a hill",
+     "w": [
+      "Under a large tree",
+      "In an aluminium boat",
+      "On top of a hill"
+     ],
+     "ex": "The leeward side of a hill often provides adequate protection until the storm has abated.",
+     "group": "Safety precautions",
+     "page": "30",
+     "draft": true
+    },
+    {
+     "id": "WEAT-037",
+     "q": "Why should guides not shelter in aluminium boats during a lightning storm?",
+     "a": "Aluminium boats conduct lightning",
+     "w": [
+      "Aluminium boats sink in heavy rain",
+      "Aluminium boats are blown over by wind",
+      "Aluminium boats get too hot"
+     ],
+     "ex": "The manual warns that aluminium boats will conduct lightning, so guides should find shelter on land.",
+     "group": "Safety precautions",
+     "page": "30",
+     "draft": true
+    },
+    {
+     "id": "WEAT-038",
+     "q": "What should a guide do if out in mokoros when a storm approaches?",
+     "a": "Pole to shore as soon as possible",
+     "w": [
+      "Stay in the open water until it passes",
+      "Shelter under the nearest tree",
+      "Tie the mokoros together and wait"
+     ],
+     "ex": "Avoid being out in the open; if in mokoros, pole to shore as soon as possible.",
+     "group": "Safety precautions",
+     "page": "30",
+     "draft": true
+    },
+    {
+     "id": "WEAT-039",
+     "q": "Which is a typical symptom of hypothermia?",
+     "a": "Shivering",
+     "w": [
+      "Heavy sweating",
+      "Very red, hot skin",
+      "Extreme thirst"
+     ],
+     "ex": "Typical symptoms of hypothermia are shivering, lethargy, confusion, apathy, delirium and heart rhythm irregularities.",
+     "group": "Safety precautions",
+     "page": "30",
+     "draft": true
+    },
+    {
+     "id": "WEAT-040",
+     "q": "Why should alcohol never be used to treat hypothermia?",
+     "a": "It reduces the core body temperature",
+     "w": [
+      "It raises the core body temperature too fast",
+      "It makes the person shiver more",
+      "It causes heat stroke"
+     ],
+     "ex": "Alcohol may give a feeling of warmth, but it reduces core body temperature, making hypothermia worse.",
+     "group": "Safety precautions",
+     "page": "30",
+     "draft": true
+    },
+    {
+     "id": "WEAT-041",
+     "q": "What should be carried on longer activities in case of hypothermia?",
+     "a": "Space blankets",
+     "w": [
+      "Extra fuel",
+      "Alcohol",
+      "Ice packs"
+     ],
+     "ex": "Protective clothing should be provided and space blankets carried as a precautionary measure.",
+     "group": "Safety precautions",
+     "page": "30",
+     "draft": true
+    }
+   ]
+  },
+  {
+   "id": "q-ecology",
+   "kind": "questions",
+   "chapter": "Ecology",
+   "title": "Ecology - manual",
+   "photo": "",
+   "subtitle": "50 questions from the Botswana Guide Training Manual",
+   "items": [
+    {
+     "id": "ECOL-001",
+     "q": "According to the manual, ecology is the study of...",
+     "a": "Interactions between organisms and their surroundings",
+     "w": [
+      "The classification and naming of living things",
+      "Weather patterns and climate over long periods",
+      "The structure of rocks, soils and landforms"
+     ],
+     "ex": "Ecology is the study of interactions between organisms, their relationship to their surroundings and the processes taking place during these interactions.",
+     "group": "Definition",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-002",
+     "q": "Which of these does the manual list among the more important concepts in the study of ecology?",
+     "a": "Adaptation, biodiversity and distribution of organisms",
+     "w": [
+      "Anatomy, physiology and taxonomy of organisms",
+      "Rainfall, temperature and wind direction",
+      "Tourism, hunting and farming practices"
+     ],
+     "ex": "The manual names adaptation (behavioural and evolutionary), biodiversity and distribution of organisms as some of the more important concepts in ecology.",
+     "group": "Definition",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-003",
+     "q": "Why is it not enough to study each species or abiotic element on its own?",
+     "a": "Biotic and abiotic parts of an ecosystem affect each other",
+     "w": [
+      "Each species lives completely separately from others",
+      "Abiotic elements never change over time",
+      "Only large animals affect an ecosystem"
+     ],
+     "ex": "Only by understanding how the biotic and abiotic components affect each other can we effectively conserve nature and biodiversity.",
+     "group": "Ecological concepts",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-004",
+     "q": "Which statement about ecosystems is correct?",
+     "a": "They can be any size, from a fallen tree to the whole planet",
+     "w": [
+      "They must be at least as large as a game reserve",
+      "They contain living organisms only",
+      "They never exist inside larger ecosystems"
+     ],
+     "ex": "An ecosystem can be of any size: a fallen tree, a river system, a game reserve, a biome, a continent or the entire planet. Small ecosystems exist within larger ones.",
+     "group": "Ecological concepts",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-005",
+     "q": "When does the manual say ecosystems are normally relatively stable?",
+     "a": "When conditions are not substantially altered",
+     "w": [
+      "Only when there are no predators present",
+      "Only during the wet season",
+      "When they contain a single species"
+     ],
+     "ex": "Ecosystems are normally relatively stable provided the conditions are not substantially altered.",
+     "group": "Ecological concepts",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-006",
+     "q": "The wise use of renewable natural resources so that they benefit present AND future generations is called...",
+     "a": "Conservation",
+     "w": [
+      "Preservation",
+      "Extinction",
+      "Succession"
+     ],
+     "ex": "Conservation is the wise use of renewable natural resources for the greatest benefit of present generations while keeping their potential for future generations.",
+     "group": "Ecological concepts",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-007",
+     "q": "Hunting concessions where hunting is allowed but populations are carefully monitored are an example of...",
+     "a": "Conservation",
+     "w": [
+      "Preservation",
+      "Extinction",
+      "Parasitism"
+     ],
+     "ex": "The manual places hunting concessions under conservation because the sustainability of the animal populations is monitored.",
+     "group": "Ecological concepts",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-008",
+     "q": "A game reserve that does not allow any cutting of reeds or harvesting of fish is practising...",
+     "a": "Preservation",
+     "w": [
+      "Conservation",
+      "Sustainable harvesting",
+      "Commensalism"
+     ],
+     "ex": "Preservation is the protection of all natural resources from any form of utilisation, allowing no external influences.",
+     "group": "Ecological concepts",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-009",
+     "q": "Which southern African mammal does the manual give as an example of an extinct species?",
+     "a": "Blue buck",
+     "w": [
+      "Red lechwe",
+      "Sable antelope",
+      "Tsessebe"
+     ],
+     "ex": "Extinction means not one living individual remains on Earth; the blue buck is the manual's example of an extinct southern African mammal.",
+     "group": "Ecological concepts",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-010",
+     "q": "In the biotic element of an ecosystem, the producers are...",
+     "a": "Autotrophs (green plants)",
+     "w": [
+      "Heterotrophs (animals)",
+      "Decomposers such as fungi",
+      "Abiotic nutrients in the soil"
+     ],
+     "ex": "The biotic element is divided into producers, which are autotrophs (green plants), consumers (heterotrophs) and decomposers (also heterotrophs).",
+     "group": "Ecological concepts",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-011",
+     "q": "Which of the following is part of the ABIOTIC element of an ecosystem?",
+     "a": "Topography",
+     "w": [
+      "Algae",
+      "Termites",
+      "Bacteria"
+     ],
+     "ex": "The abiotic element is the non-living part of the environment: climate, soils and rocks, topography, altitude, latitude, water and nutrients.",
+     "group": "Ecological concepts",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-012",
+     "q": "All the pygmy geese living within a specific area form a...",
+     "a": "Population",
+     "w": [
+      "Community",
+      "Biome",
+      "Habitat"
+     ],
+     "ex": "A population is an intra-breeding group of the same species that shares a specific place and forms a single genetic unit, e.g. all the pygmy geese in an area.",
+     "group": "From individuals to ecosystems",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-013",
+     "q": "What is a community?",
+     "a": "All the populations of living organisms in an area",
+     "w": [
+      "A single organism of one species",
+      "The non-living parts of an area",
+      "A group of the same species that breed together"
+     ],
+     "ex": "A community is the combined population of all the living organisms in an area, from elephants down to algae.",
+     "group": "From individuals to ecosystems",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-014",
+     "q": "The biotic community together with the abiotic component forms...",
+     "a": "The ecosystem",
+     "w": [
+      "The population",
+      "The niche",
+      "The food chain"
+     ],
+     "ex": "The manual states that the biotic community, together with the abiotic component, forms the ecosystem.",
+     "group": "From individuals to ecosystems",
+     "page": "31",
+     "draft": true
+    },
+    {
+     "id": "ECOL-015",
+     "q": "Autotrophs are organisms that...",
+     "a": "Produce their own food from abiotic substances",
+     "w": [
+      "Feed only on dead plant and animal matter",
+      "Rely on other plants and animals for food",
+      "Collect food and store it for later"
+     ],
+     "ex": "Autotrophs (producers) produce their own food; they are not dependent on other plants or animals but consume abiotic substances.",
+     "group": "Producers and consumers",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-016",
+     "q": "Using the meaning of '...vore', what does a piscivore eat?",
+     "a": "Fish",
+     "w": [
+      "Fruit",
+      "Insects",
+      "Grass"
+     ],
+     "ex": "'Vore' means to eat; piscivores eat fish, frugivores eat fruit and herbivores eat vegetation.",
+     "group": "Producers and consumers",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-017",
+     "q": "Which group of animals does the manual give as examples of browsers?",
+     "a": "Kudu, eland and giraffe",
+     "w": [
+      "Zebra, buffalo and wildebeest",
+      "Hyaenas, vultures and raptors",
+      "Shrews, pangolins and aardvarks"
+     ],
+     "ex": "Browsers eat leaves, fruit, seeds and tips of branches; examples are kudu, eland and giraffe.",
+     "group": "Primary consumers",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-018",
+     "q": "Which of these animals is given as an example of a grazer?",
+     "a": "Tsessebe",
+     "w": [
+      "Kudu",
+      "Eland",
+      "Giraffe"
+     ],
+     "ex": "Grazers feed on grass; examples given are zebra, buffalo, tsessebe and wildebeest.",
+     "group": "Primary consumers",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-019",
+     "q": "Animals such as squirrels that collect food and store it are called...",
+     "a": "Foragers",
+     "w": [
+      "Browsers",
+      "Grazers",
+      "Scavengers"
+     ],
+     "ex": "Foragers are animals that collect food and store it, such as squirrels.",
+     "group": "Primary consumers",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-020",
+     "q": "Why are omnivores described as both primary and secondary consumers?",
+     "a": "They eat both vegetation and animal flesh",
+     "w": [
+      "They eat only dead and rotting material",
+      "They eat only insects and arthropods",
+      "They produce their own food from sunlight"
+     ],
+     "ex": "Omnivores consume both vegetation and the flesh of animals, so they are both primary and secondary consumers.",
+     "group": "Secondary consumers",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-021",
+     "q": "Which animal does the manual list as an omnivore?",
+     "a": "Warthog",
+     "w": [
+      "Aardwolf",
+      "Crocodile",
+      "Zebra"
+     ],
+     "ex": "Omnivores listed include humans, baboons, warthog and jackal.",
+     "group": "Secondary consumers",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-022",
+     "q": "Shrews, pangolins, aardvarks and bat-eared foxes are examples of...",
+     "a": "Insectivores",
+     "w": [
+      "Carnivores",
+      "Herbivores",
+      "Detritivores"
+     ],
+     "ex": "Insectivores are secondary consumers that eat almost only insects and other arthropods, e.g. shrews, pangolins, aardvarks, bat-eared foxes and aardwolf.",
+     "group": "Secondary consumers",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-023",
+     "q": "Termites, dung beetles, fungi and many bacteria are classified as...",
+     "a": "Detritivores/decomposers",
+     "w": [
+      "Scavengers",
+      "Omnivores",
+      "Primary consumers"
+     ],
+     "ex": "Detritivores/decomposers feed only on dead and/or decomposing plant and animal matter; examples include termites, dung beetles, carrion beetles, fungi and bacteria.",
+     "group": "Tertiary consumers",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-024",
+     "q": "Why are lions and leopards NOT classified as true scavengers?",
+     "a": "Scavenging is not their main source of food",
+     "w": [
+      "They never feed on dead animals",
+      "They only eat insects",
+      "They are classified as decomposers"
+     ],
+     "ex": "Lions and leopards are known to scavenge, but this is not their principal source of food, so they are not true scavengers.",
+     "group": "Tertiary consumers",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-025",
+     "q": "Two impala rams fighting for dominance during the rut is an example of...",
+     "a": "Intra-specific competition",
+     "w": [
+      "Inter-specific competition",
+      "Mutualism",
+      "Commensalism"
+     ],
+     "ex": "Intra-specific competition ('intra' means within) is competition between individuals of the same species for a resource in short supply.",
+     "group": "Competition",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-026",
+     "q": "A woodland kingfisher and a Meves's starling competing for nesting holes is an example of...",
+     "a": "Inter-specific competition",
+     "w": [
+      "Intra-specific competition",
+      "Parasitism",
+      "Predation"
+     ],
+     "ex": "Inter-specific competition ('inter' means between different) is competition between two different species for the same scarce resource.",
+     "group": "Competition",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-027",
+     "q": "What is a realised niche?",
+     "a": "The actual area where a species population does exist",
+     "w": [
+      "The conditions in which a species could possibly live",
+      "The area shared by species competing for food",
+      "The place where a species breeds only"
+     ],
+     "ex": "A realised niche is the actual area in which a species population does exist.",
+     "group": "Niche",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-028",
+     "q": "Why is the fundamental niche usually larger than the realised niche?",
+     "a": "It does not consider competition from other species",
+     "w": [
+      "It only includes the breeding area",
+      "It ignores the need for food and water",
+      "It is measured only during the wet season"
+     ],
+     "ex": "The fundamental niche is hypothetical and does not consider competition from other species, so it is usually larger than the realised niche.",
+     "group": "Niche",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-029",
+     "q": "An area that is common to more than one species competing for the same food is called...",
+     "a": "An overlap niche",
+     "w": [
+      "A fundamental niche",
+      "A realised niche",
+      "A habitat"
+     ],
+     "ex": "An overlap niche is the area common to more than one species competing for the same food.",
+     "group": "Niche",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-030",
+     "q": "In parasitism...",
+     "a": "The parasite benefits and the host is harmed",
+     "w": [
+      "Both organisms benefit",
+      "One benefits and the other is unaffected",
+      "Neither organism benefits"
+     ],
+     "ex": "Parasitism is a symbiotic relationship where the parasite benefits but the host is harmed.",
+     "group": "Symbiosis",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-031",
+     "q": "How does parasitism differ from predation?",
+     "a": "Parasites are usually smaller and do not always kill the host",
+     "w": [
+      "Parasites are always larger than their hosts",
+      "Parasites always kill the host quickly",
+      "Parasites only feed on dead animals"
+     ],
+     "ex": "The parasite is usually smaller than its host, and while predators kill their prey, parasites do not necessarily kill the host.",
+     "group": "Symbiosis",
+     "page": "32",
+     "draft": true
+    },
+    {
+     "id": "ECOL-032",
+     "q": "According to the manual, what does the sour plum do as a partial parasite?",
+     "a": "Its roots take nutrients from the roots of nearby grasses",
+     "w": [
+      "It grows high in the canopy of acacia trees",
+      "It traps small insects in bladders on its roots",
+      "It feeds on sugars in the bark of mopane trees"
+     ],
+     "ex": "The sour plum is a partial parasite sending its roots to remove nutrients from the roots of nearby grasses.",
+     "group": "Symbiosis",
+     "page": "33",
+     "draft": true
+    },
+    {
+     "id": "ECOL-033",
+     "q": "Oxpeckers feeding on ticks found on a giraffe is an example of...",
+     "a": "Mutualism",
+     "w": [
+      "Commensalism",
+      "Parasitism",
+      "Inter-specific competition"
+     ],
+     "ex": "Mutualism is a relationship where both partners benefit: the oxpeckers get food and the giraffe is rid of parasites.",
+     "group": "Symbiosis",
+     "page": "33",
+     "draft": true
+    },
+    {
+     "id": "ECOL-034",
+     "q": "How does the marula tree benefit when an elephant eats its fruit?",
+     "a": "Its seed is spread in a nitrogen-rich heap of dung",
+     "w": [
+      "The elephant prunes its lower branches",
+      "The elephant protects it from other browsers",
+      "Its bark grows back thicker"
+     ],
+     "ex": "The elephant gets nutrition, while the tree's seed is spread in a nitrogen-enriched heap of manure, so both benefit (mutualism).",
+     "group": "Symbiosis",
+     "page": "33",
+     "draft": true
+    },
+    {
+     "id": "ECOL-035",
+     "q": "Cattle egrets catching grasshoppers disturbed by moving buffalo is an example of...",
+     "a": "Commensalism",
+     "w": [
+      "Mutualism",
+      "Parasitism",
+      "Predation of buffalo"
+     ],
+     "ex": "In commensalism one partner benefits (the egret) while the other (the buffalo) is unaffected.",
+     "group": "Symbiosis",
+     "page": "33",
+     "draft": true
+    },
+    {
+     "id": "ECOL-036",
+     "q": "Why do blue waxbills often build their nests next to paper-wasp nests?",
+     "a": "The wasps protect them from predators",
+     "w": [
+      "The wasps feed their chicks",
+      "The wasps keep the nest cool",
+      "The waxbills feed on the wasp larvae"
+     ],
+     "ex": "The waxbills are protected from predators by the wasps, while the wasps are not rewarded in any way (commensalism).",
+     "group": "Symbiosis",
+     "page": "33",
+     "draft": true
+    },
+    {
+     "id": "ECOL-037",
+     "q": "A habitat type is normally named after...",
+     "a": "The dominant species of vegetation",
+     "w": [
+      "The largest animal living there",
+      "The nearest river",
+      "The type of rock underneath it"
+     ],
+     "ex": "Habitat types are normally named after the dominant vegetation, e.g. acacia woodlands, floodplains and grasslands.",
+     "group": "Ecological areas",
+     "page": "33",
+     "draft": true
+    },
+    {
+     "id": "ECOL-038",
+     "q": "The thin layer above and below the Earth's surface that sustains all life is the...",
+     "a": "Biosphere",
+     "w": [
+      "Biome",
+      "Habitat",
+      "Ecotone"
+     ],
+     "ex": "The biosphere is the thin layer above and below the Earth's surface that sustains all life, including biotic and abiotic parts.",
+     "group": "Ecological areas",
+     "page": "33",
+     "draft": true
+    },
+    {
+     "id": "ECOL-039",
+     "q": "Biomes are mainly defined by...",
+     "a": "The vegetation within the eco-region",
+     "w": [
+      "The animals that live there",
+      "The country they are found in",
+      "The number of rivers present"
+     ],
+     "ex": "Biomes are mainly defined by vegetation; e.g. the savannah biome is defined by its mix of grassland and woodland.",
+     "group": "Ecological areas",
+     "page": "33",
+     "draft": true
+    },
+    {
+     "id": "ECOL-040",
+     "q": "How many biomes are recognised in southern Africa?",
+     "a": "Nine",
+     "w": [
+      "Five",
+      "Seven",
+      "Twelve"
+     ],
+     "ex": "There are nine recognised biomes in southern Africa, including savannah, grassland, forest and fynbos.",
+     "group": "Biome types",
+     "page": "33",
+     "draft": true
+    },
+    {
+     "id": "ECOL-041",
+     "q": "Which is the largest biome in southern Africa?",
+     "a": "Savannah",
+     "w": [
+      "Fynbos",
+      "Nama-Karoo",
+      "Forest"
+     ],
+     "ex": "The savannah biome is the largest biome in southern Africa.",
+     "group": "Biome types",
+     "page": "33",
+     "draft": true
+    },
+    {
+     "id": "ECOL-042",
+     "q": "What is the annual rainfall range of the savannah biome?",
+     "a": "200mm to 1000mm",
+     "w": [
+      "50mm to 200mm",
+      "1000mm to 2000mm",
+      "500mm to 3000mm"
+     ],
+     "ex": "The structure of the savannah depends on rainfall, which ranges from 200mm to 1000mm per annum.",
+     "group": "Biome types",
+     "page": "33",
+     "draft": true
+    },
+    {
+     "id": "ECOL-043",
+     "q": "How does the savannah tree canopy differ from that of the forest biome?",
+     "a": "In savannah the canopy almost never touches",
+     "w": [
+      "In savannah the canopy is always closed",
+      "Savannah has no trees at all",
+      "Savannah trees are always taller"
+     ],
+     "ex": "In the savannah the tree canopy almost never touches, as it does in the forest biome.",
+     "group": "Biome types",
+     "page": "33",
+     "draft": true
+    },
+    {
+     "id": "ECOL-044",
+     "q": "Why does the savannah biome have a high carrying capacity?",
+     "a": "Leaves at many browsing levels plus abundant grazing",
+     "w": [
+      "It has very little competition between species",
+      "It receives over 2000mm of rain a year",
+      "It has no predators"
+     ],
+     "ex": "Leaves of trees and shrubs at various browsing levels, plus abundant grazing, give the savannah a high carrying capacity and broad species diversity.",
+     "group": "Biome types",
+     "page": "33",
+     "draft": true
+    },
+    {
+     "id": "ECOL-045",
+     "q": "In the energy flow described in the manual, which level eats the carcasses of dead carnivores?",
+     "a": "Scavengers (tertiary consumers)",
+     "w": [
+      "Herbivores (primary consumers)",
+      "Producers",
+      "Secondary consumers"
+     ],
+     "ex": "When the carnivores die, the scavengers (tertiary consumers) eat the carcasses.",
+     "group": "Energy flow",
+     "page": "34",
+     "draft": true
+    },
+    {
+     "id": "ECOL-046",
+     "q": "Herbivores use about 90% of the energy from plants. How much is left for carnivores?",
+     "a": "About 10%",
+     "w": [
+      "About 50%",
+      "About 90%",
+      "About 1%"
+     ],
+     "ex": "Herbivores use 90% of the energy for respiration, digestion, movement etc., leaving only 10% for the carnivores.",
+     "group": "Energy flow",
+     "page": "34",
+     "draft": true
+    },
+    {
+     "id": "ECOL-047",
+     "q": "What percentage of the original plant energy reaches the scavengers (tertiary level)?",
+     "a": "About 1%",
+     "w": [
+      "About 10%",
+      "About 25%",
+      "About 90%"
+     ],
+     "ex": "After herbivores and carnivores each use 90%, only 1% of the original plant energy is available to the scavengers.",
+     "group": "Energy flow",
+     "page": "34",
+     "draft": true
+    },
+    {
+     "id": "ECOL-048",
+     "q": "Which organisms are described as the essential link in the nutrient cycle?",
+     "a": "Decomposers",
+     "w": [
+      "Carnivores",
+      "Herbivores",
+      "Scavengers"
+     ],
+     "ex": "Decomposition of dead organisms makes nutrients available to other life forms; decomposers are the essential link in this cycle.",
+     "group": "Nutrient cycle",
+     "page": "34",
+     "draft": true
+    },
+    {
+     "id": "ECOL-049",
+     "q": "According to the manual, the food chain starts with...",
+     "a": "Sunlight transformed into energy by plants",
+     "w": [
+      "Herbivores eating grass",
+      "Decomposers releasing nutrients",
+      "Predators killing prey"
+     ],
+     "ex": "The food chain starts with sunlight, which is transformed into energy by plants.",
+     "group": "Food chains",
+     "page": "34",
+     "draft": true
+    },
+    {
+     "id": "ECOL-050",
+     "q": "What is a food web?",
+     "a": "Many food chains all interacting with one another",
+     "w": [
+      "A single chain from plant to predator",
+      "The energy lost as metabolic heat",
+      "The abiotic base of the trophic pyramid"
+     ],
+     "ex": "The food web is the interwoven link between many producers and consumers and may be viewed as a number of food chains interacting.",
+     "group": "Food chains",
+     "page": "34",
+     "draft": true
+    }
+   ]
+  },
+  {
+   "id": "q-plants",
+   "kind": "questions",
+   "chapter": "Plants",
+   "title": "Plants - manual",
+   "photo": "",
+   "subtitle": "117 questions from the Botswana Guide Training Manual",
+   "items": [
+    {
+     "id": "PLAN-001",
+     "q": "Most plants are autotrophic. What do they contain for this purpose?",
+     "a": "Chlorophyll",
+     "w": [
+      "Latex",
+      "Tannins",
+      "Rhizoids"
+     ],
+     "ex": "Plants are non-mobile organisms, most of which are autotrophic (produce their own food) and contain chlorophyll for this purpose.",
+     "group": "Introduction",
+     "page": "37",
+     "draft": true
+    },
+    {
+     "id": "PLAN-002",
+     "q": "Why may some parasitic plants not have green leaves?",
+     "a": "They do not need to photosynthesise",
+     "w": [
+      "They only grow at night",
+      "They live underwater",
+      "They reproduce only by spores"
+     ],
+     "ex": "Parasitic plants may not have green leaves as they do not need to photosynthesise.",
+     "group": "Introduction",
+     "page": "37",
+     "draft": true
+    },
+    {
+     "id": "PLAN-003",
+     "q": "Into how many phyla are plants divided in the latest taxonomy?",
+     "a": "12 to 14",
+     "w": [
+      "2 to 4",
+      "20 to 25",
+      "Exactly 4"
+     ],
+     "ex": "Plants are divided into 12 to 14 phyla depending on the literature; the manual deals with the four basic phyla.",
+     "group": "Plant phyla",
+     "page": "37",
+     "draft": true
+    },
+    {
+     "id": "PLAN-004",
+     "q": "How do mosses and liverworts attach themselves to the surface they grow on?",
+     "a": "By rhizoids",
+     "w": [
+      "By tap roots",
+      "By adventitious roots",
+      "By aerial prop roots"
+     ],
+     "ex": "Bryophytes have no roots and attach to the substrate via rhizoids, which limits their habitat to moist areas.",
+     "group": "Plant phyla",
+     "page": "37",
+     "draft": true
+    },
+    {
+     "id": "PLAN-005",
+     "q": "Which group lacks vascular tissue to move water and nutrients up to the leaves?",
+     "a": "Mosses and liverworts",
+     "w": [
+      "Ferns",
+      "Conifers",
+      "Flowering plants"
+     ],
+     "ex": "Bryophytes (mosses, liverworts and hornworts) lack vascular tissue and reproduce via encapsulated spores.",
+     "group": "Plant phyla",
+     "page": "37",
+     "draft": true
+    },
+    {
+     "id": "PLAN-006",
+     "q": "Where are fern spores released from?",
+     "a": "The underside of the leaves",
+     "w": [
+      "The tips of the roots",
+      "Inside cones",
+      "Brightly coloured flowers"
+     ],
+     "ex": "Ferns produce spores that are released in large numbers from the underside of the leaves.",
+     "group": "Plant phyla",
+     "page": "37",
+     "draft": true
+    },
+    {
+     "id": "PLAN-007",
+     "q": "Why can ferns only reach an intermediate size?",
+     "a": "Their vascular tissue is not arranged in bundles",
+     "w": [
+      "They have no vascular tissue at all",
+      "They grow only in water",
+      "They have no leaves"
+     ],
+     "ex": "Ferns have vascular tissue, but it is not arranged into vascular bundles, so they can only achieve intermediate size.",
+     "group": "Plant phyla",
+     "page": "37",
+     "draft": true
+    },
+    {
+     "id": "PLAN-008",
+     "q": "What is meant by conifers having 'naked seeds'?",
+     "a": "The seed is not enclosed in an ovary",
+     "w": [
+      "The seed has no food store",
+      "The seed has no outer skin at all",
+      "The seed is spread only by water"
+     ],
+     "ex": "Conifers have 'naked seeds' borne on the scales of cones, whereas angiosperms bear seeds enclosed in the ovary.",
+     "group": "Plant phyla",
+     "page": "37",
+     "draft": true
+    },
+    {
+     "id": "PLAN-009",
+     "q": "Why do most conifers not need attractive flowers?",
+     "a": "They are mostly wind pollinated",
+     "w": [
+      "They reproduce only by spores",
+      "They are pollinated by bats at night",
+      "They do not produce seeds"
+     ],
+     "ex": "Conifer seeds are mostly wind pollinated and therefore do not need the attractive flowers of angiosperms.",
+     "group": "Plant phyla",
+     "page": "37",
+     "draft": true
+    },
+    {
+     "id": "PLAN-010",
+     "q": "Roughly how many plant species are found in southern Africa?",
+     "a": "10 000",
+     "w": [
+      "1 000",
+      "100 000",
+      "500"
+     ],
+     "ex": "Flowering plants form the vast majority of the 10 000 species of plants found in southern Africa.",
+     "group": "Plant phyla",
+     "page": "38",
+     "draft": true
+    },
+    {
+     "id": "PLAN-011",
+     "q": "How does the large seed of flowering plants help them?",
+     "a": "It stores food that helps the young plant after germination",
+     "w": [
+      "It floats easily on water",
+      "It cannot be eaten by animals",
+      "It allows the plant to live without roots"
+     ],
+     "ex": "The large seed stores food that aids the young plant through the critical days after germination, giving a higher survival rate.",
+     "group": "Plant phyla",
+     "page": "38",
+     "draft": true
+    },
+    {
+     "id": "PLAN-012",
+     "q": "Which features belong to the Liliopsida (monocotyledons)?",
+     "a": "Parallel leaf veins and flower parts in multiples of 3",
+     "w": [
+      "Net leaf veins and flower parts in multiples of 4 or 5",
+      "No roots and reproduction by spores",
+      "Naked seeds borne on cones"
+     ],
+     "ex": "Liliopsida have a single seed leaf, parallel venation and flowering parts in multiples of 3; they include grasses, orchids and palms.",
+     "group": "Plant phyla",
+     "page": "38",
+     "draft": true
+    },
+    {
+     "id": "PLAN-013",
+     "q": "Which is the most diverse plant family in the world?",
+     "a": "Orchids",
+     "w": [
+      "Grasses",
+      "Palms",
+      "Ferns"
+     ],
+     "ex": "Although not common in Botswana, orchids are the most diverse plant family in the world, with more than 20 000 species.",
+     "group": "Plant phyla",
+     "page": "38",
+     "draft": true
+    },
+    {
+     "id": "PLAN-014",
+     "q": "Which group includes all our trees, shrubs and most wildflowers in Botswana?",
+     "a": "Magnoliopsida (dicotyledons)",
+     "w": [
+      "Liliopsida (monocotyledons)",
+      "Bryophytes",
+      "Conifers"
+     ],
+     "ex": "Magnoliopsida have net venation and flower parts in multiples of 4 or 5, and include all our trees, shrubs and most of our wildflowers.",
+     "group": "Plant phyla",
+     "page": "38",
+     "draft": true
+    },
+    {
+     "id": "PLAN-015",
+     "q": "What are the two main functions of roots?",
+     "a": "Support the plant and absorb water and minerals",
+     "w": [
+      "Make food and release oxygen",
+      "Attract pollinators and spread seeds",
+      "Store pollen and protect flowers"
+     ],
+     "ex": "Roots serve two main functions: to support the plant and to absorb water and minerals.",
+     "group": "Plant anatomy",
+     "page": "38",
+     "draft": true
+    },
+    {
+     "id": "PLAN-016",
+     "q": "Which type of root is very much a continuation of the trunk and reaches water deep below the surface?",
+     "a": "Tap root",
+     "w": [
+      "Fibrous root",
+      "Adventitious root",
+      "Aerial prop root"
+     ],
+     "ex": "Tap roots penetrate deep into the soil, provide support in unstable soil and give access to deep water.",
+     "group": "Plant anatomy",
+     "page": "38",
+     "draft": true
+    },
+    {
+     "id": "PLAN-017",
+     "q": "Which type of root is typically found on grasses?",
+     "a": "Fibrous roots",
+     "w": [
+      "Tap roots",
+      "Buttress roots",
+      "Aerial prop roots"
+     ],
+     "ex": "Fibrous roots are typically found on grasses and some other smaller plants.",
+     "group": "Plant anatomy",
+     "page": "38",
+     "draft": true
+    },
+    {
+     "id": "PLAN-018",
+     "q": "A shallow, dense network of thin roots with many small absorptive hairs near the surface describes...",
+     "a": "Adventitious roots",
+     "w": [
+      "Tap roots",
+      "Buttress roots",
+      "Rhizoids"
+     ],
+     "ex": "Adventitious roots are a shallow, dense network of thin roots with masses of small absorptive hairs close to the surface.",
+     "group": "Plant anatomy",
+     "page": "38",
+     "draft": true
+    },
+    {
+     "id": "PLAN-019",
+     "q": "Strangler figs whose host plant dies rely on which roots for stability?",
+     "a": "Aerial prop roots",
+     "w": [
+      "Fibrous roots",
+      "Adventitious roots",
+      "Rhizoids"
+     ],
+     "ex": "Buttress or aerial prop roots stabilise plants in unstable soils, or strangler figs once the host plant dies.",
+     "group": "Plant anatomy",
+     "page": "38",
+     "draft": true
+    },
+    {
+     "id": "PLAN-020",
+     "q": "The outer bark of a tree is...",
+     "a": "Non-living and protects against animals, fire and drying out",
+     "w": [
+      "The living layer that transports water and food",
+      "The layer that produces new xylem",
+      "The part where photosynthesis takes place"
+     ],
+     "ex": "The outer bark is non-living and forms a protective layer against mammals, insects, fire and dehydration.",
+     "group": "Plant anatomy",
+     "page": "39",
+     "draft": true
+    },
+    {
+     "id": "PLAN-021",
+     "q": "Which part of a tree increases its diameter by producing new phloem and xylem?",
+     "a": "Cambium",
+     "w": [
+      "Outer bark",
+      "Cuticle",
+      "Stomata"
+     ],
+     "ex": "The cambium lies beneath the bark, transports water and food, and increases the tree's diameter by producing new phloem and xylem.",
+     "group": "Plant anatomy",
+     "page": "39",
+     "draft": true
+    },
+    {
+     "id": "PLAN-022",
+     "q": "What does the old xylem of a tree develop into?",
+     "a": "Sapwood",
+     "w": [
+      "Bark",
+      "Cambium",
+      "Phloem"
+     ],
+     "ex": "The old phloem becomes the bark and the old xylem develops into the sapwood.",
+     "group": "Plant anatomy",
+     "page": "39",
+     "draft": true
+    },
+    {
+     "id": "PLAN-023",
+     "q": "What is the function of the waxy cuticle on a leaf?",
+     "a": "To prevent excess moisture loss",
+     "w": [
+      "To exchange gases with the air",
+      "To absorb water from rain",
+      "To attract pollinators"
+     ],
+     "ex": "The leaf is protected by a waxy cuticle layer that prevents excess moisture loss.",
+     "group": "Plant anatomy",
+     "page": "39",
+     "draft": true
+    },
+    {
+     "id": "PLAN-024",
+     "q": "Why are most stomata found on the underside of the leaf?",
+     "a": "To further reduce moisture loss",
+     "w": [
+      "To catch more sunlight",
+      "To keep insects away",
+      "To store simple sugars"
+     ],
+     "ex": "Stomata allow gas exchange and are found mostly on the underside of the leaf to further reduce moisture loss.",
+     "group": "Plant anatomy",
+     "page": "39",
+     "draft": true
+    },
+    {
+     "id": "PLAN-025",
+     "q": "Photosynthesis converts...",
+     "a": "Light energy into chemical energy",
+     "w": [
+      "Chemical energy into heat energy",
+      "Water into minerals",
+      "Oxygen into carbon dioxide"
+     ],
+     "ex": "Photosynthesis converts light energy into chemical energy; without it there would be no life on Earth.",
+     "group": "Photosynthesis",
+     "page": "39",
+     "draft": true
+    },
+    {
+     "id": "PLAN-026",
+     "q": "In what form is all food first created through photosynthesis?",
+     "a": "Simple sugars",
+     "w": [
+      "Proteins",
+      "Fats",
+      "Minerals"
+     ],
+     "ex": "All food is first created as simple sugars, which are then used to make more complex carbohydrates, fats and proteins.",
+     "group": "Photosynthesis",
+     "page": "39",
+     "draft": true
+    },
+    {
+     "id": "PLAN-027",
+     "q": "According to the manual, what acts as the sperm cell of a plant?",
+     "a": "Pollen",
+     "w": [
+      "The ovule",
+      "The sepal",
+      "The stigma"
+     ],
+     "ex": "Pollen acts as the sperm cell; the female part of the flower must be fertilised by pollen before fruit or seed is produced.",
+     "group": "Flowers",
+     "page": "39",
+     "draft": true
+    },
+    {
+     "id": "PLAN-028",
+     "q": "White flowers that open at night mainly attract...",
+     "a": "Bats and moths",
+     "w": [
+      "Sunbirds and butterflies",
+      "Bees and wasps",
+      "The wind"
+     ],
+     "ex": "Large bright flowers are pollinated mainly by birds and insects, while white flowers that open at night attract bats and moths.",
+     "group": "Flowers",
+     "page": "40",
+     "draft": true
+    },
+    {
+     "id": "PLAN-029",
+     "q": "Which of these is a MALE part of a flower?",
+     "a": "Anther",
+     "w": [
+      "Stigma",
+      "Style",
+      "Ovary"
+     ],
+     "ex": "The female parts (pistil) are the stigma, style, ovary and ovule; the male parts (stamen) are the filament and anther.",
+     "group": "Flowers",
+     "page": "40",
+     "draft": true
+    },
+    {
+     "id": "PLAN-030",
+     "q": "A tree species with separate male and female plants is described as...",
+     "a": "Dioecious",
+     "w": [
+      "Deciduous",
+      "Epiphytic",
+      "Evergreen"
+     ],
+     "ex": "Some trees have separate male and female plants (dioecious) and rely on birds and insects as pollination vectors.",
+     "group": "Flowers",
+     "page": "40",
+     "draft": true
+    },
+    {
+     "id": "PLAN-031",
+     "q": "Why do some plants invest a lot of energy in producing edible fruit?",
+     "a": "So animals spread the seed far and wide",
+     "w": [
+      "So the seeds float on water",
+      "So the seeds are flung a short distance",
+      "So the seeds stick to animal hair"
+     ],
+     "ex": "The energy spent on edible fruit ensures the seed is dispersed far and wide by animals.",
+     "group": "Seed dispersal",
+     "page": "41",
+     "draft": true
+    },
+    {
+     "id": "PLAN-032",
+     "q": "Seed pods that dehisce...",
+     "a": "Burst open and fling seeds a short distance",
+     "w": [
+      "Float away on water",
+      "Stick to the hair of passing animals",
+      "Drift long distances in the wind"
+     ],
+     "ex": "Some seed pods dehisce (burst open) and the seeds are flung a short distance from the parent plant.",
+     "group": "Seed dispersal",
+     "page": "41",
+     "draft": true
+    },
+    {
+     "id": "PLAN-033",
+     "q": "Seeds with burrs or barbs are dispersed by...",
+     "a": "Sticking to the hair of passing animals",
+     "w": [
+      "Being eaten inside fruit",
+      "Floating on water",
+      "Drifting in the wind"
+     ],
+     "ex": "Some seeds have burrs or barbs that stick to the hair of passing animals.",
+     "group": "Seed dispersal",
+     "page": "41",
+     "draft": true
+    },
+    {
+     "id": "PLAN-034",
+     "q": "Small hair-like structures on plants that may be sharp or sticky are called...",
+     "a": "Trichomes",
+     "w": [
+      "Stomata",
+      "Rhizoids",
+      "Lenticels"
+     ],
+     "ex": "Trichomes are small hair-like structures that may be sharp or sticky and are a mechanical defence.",
+     "group": "Plant defences",
+     "page": "41",
+     "draft": true
+    },
+    {
+     "id": "PLAN-035",
+     "q": "Which of these is a MECHANICAL defence of plants?",
+     "a": "Thick cuticles",
+     "w": [
+      "Alkaloids",
+      "Tannins",
+      "Cyanogenic glycosides"
+     ],
+     "ex": "Mechanical defences are physical barriers such as thorns, spines, thick cuticles and trichomes; the others are chemical defences.",
+     "group": "Plant defences",
+     "page": "41",
+     "draft": true
+    },
+    {
+     "id": "PLAN-036",
+     "q": "How do tannins defend a plant?",
+     "a": "They reduce protein digestion",
+     "w": [
+      "They release toxic cyanide",
+      "They make the leaves sticky",
+      "They attract predatory insects only"
+     ],
+     "ex": "Tannins are a chemical defence that reduce protein digestion in the animal that eats the plant.",
+     "group": "Plant defences",
+     "page": "41",
+     "draft": true
+    },
+    {
+     "id": "PLAN-037",
+     "q": "What do cyanogenic glycosides release when plant cells are damaged?",
+     "a": "Toxic cyanide",
+     "w": [
+      "Nicotine",
+      "Milky latex",
+      "Jasmonic acid"
+     ],
+     "ex": "Cyanogenic glycosides release toxic cyanide when cells are damaged.",
+     "group": "Plant defences",
+     "page": "41",
+     "draft": true
+    },
+    {
+     "id": "PLAN-038",
+     "q": "What is the benefit to a plant of defences that are induced only after attack?",
+     "a": "It saves energy for growth and reproduction",
+     "w": [
+      "It makes the plant grow taller",
+      "It helps the plant spread its seeds",
+      "It increases pollination"
+     ],
+     "ex": "Jasmonates let the plant activate defences only when needed, helping conserve energy for growth and reproduction.",
+     "group": "Plant defences",
+     "page": "41",
+     "draft": true
+    },
+    {
+     "id": "PLAN-039",
+     "q": "In tree identification, what does 'giss' stand for?",
+     "a": "General impression of shape and size",
+     "w": [
+      "Growth in seasonal sunlight",
+      "General identification of seeds and stems",
+      "Grey inner stem surface"
+     ],
+     "ex": "Giss (pronounced jiz) is the general impression of shape and size of a tree, often allowing identification at a glance.",
+     "group": "Identifying trees",
+     "page": "41",
+     "draft": true
+    },
+    {
+     "id": "PLAN-040",
+     "q": "Which feature does the manual call possibly the SIMPLEST way to identify many plants?",
+     "a": "Flower shape, colour and size",
+     "w": [
+      "Bark colour",
+      "Locality",
+      "Root type"
+     ],
+     "ex": "Flower shape, colour and size are possibly the simplest way to identify many plants.",
+     "group": "Identifying trees",
+     "page": "41",
+     "draft": true
+    },
+    {
+     "id": "PLAN-041",
+     "q": "Which part of the plant is the MOST important for general identification?",
+     "a": "The leaves",
+     "w": [
+      "The roots",
+      "The bark",
+      "The seeds"
+     ],
+     "ex": "Leaves are the most important part of the plant for general identification and are highly variable.",
+     "group": "Identifying trees",
+     "page": "41",
+     "draft": true
+    },
+    {
+     "id": "PLAN-042",
+     "q": "How should you check if a leaf is hairy?",
+     "a": "Feel it and look at the folded leaf against the sky",
+     "w": [
+      "Crush it and smell it",
+      "Break it and look for latex",
+      "Count the veins from the base"
+     ],
+     "ex": "Texture is determined by feel and by looking at the folded leaf against the sky to see if it is hairy.",
+     "group": "Identifying trees",
+     "page": "41",
+     "draft": true
+    },
+    {
+     "id": "PLAN-043",
+     "q": "What tells you whether you are looking at a whole leaf or just a leaflet of a compound leaf?",
+     "a": "The position of the axillary bud",
+     "w": [
+      "The colour of the leaf",
+      "The smell of the crushed leaf",
+      "The shape of the leaf margin"
+     ],
+     "ex": "The location of the axillary bud at the base of the petiole tells you whether it is a leaf or a leaflet.",
+     "group": "Identifying trees",
+     "page": "42",
+     "draft": true
+    },
+    {
+     "id": "PLAN-044",
+     "q": "Why should one leaf not be looked at in isolation?",
+     "a": "Leaf size on one tree can vary enormously",
+     "w": [
+      "Leaves change colour every day",
+      "Most trees have no simple leaves",
+      "Single leaves have no axillary bud"
+     ],
+     "ex": "Leaf size on a single tree can vary greatly, so compare several leaves to get a representative sample.",
+     "group": "Identifying trees",
+     "page": "42",
+     "draft": true
+    },
+    {
+     "id": "PLAN-045",
+     "q": "In a bipinnately compound leaf, the leaflets are carried on...",
+     "a": "Rachillae that branch off the central rachis",
+     "w": [
+      "The petiole directly, with no rachis",
+      "A single central rachis only",
+      "The axillary bud"
+     ],
+     "ex": "A bipinnately compound leaf has rachillae branching off the central rachis, and the rachillae bear the leaflets.",
+     "group": "Identifying trees",
+     "page": "42",
+     "draft": true
+    },
+    {
+     "id": "PLAN-046",
+     "q": "Which description matches the bark of the leadwood?",
+     "a": "Pale grey, splitting into long strips on older trunks",
+     "w": [
+      "Almost black in colour",
+      "Peeling off in large pieces",
+      "Light grey and fairly smooth"
+     ],
+     "ex": "Leadwood bark is pale grey and splits into longitudinal strips on older trunks.",
+     "group": "Common plants",
+     "page": "42",
+     "draft": true
+    },
+    {
+     "id": "PLAN-047",
+     "q": "How are leadwood seeds carried?",
+     "a": "In a four-winged structure",
+     "w": [
+      "In large sausage-shaped fruits",
+      "In short, flat pods",
+      "In balloon-shaped hairy fruits"
+     ],
+     "ex": "Leadwood seeds are encapsulated in a four-winged structure, characteristic of the Combretum species.",
+     "group": "Common plants",
+     "page": "42",
+     "draft": true
+    },
+    {
+     "id": "PLAN-048",
+     "q": "Which use of the leadwood does the manual mention?",
+     "a": "Its ash can be used as a toothpaste substitute",
+     "w": [
+      "Its fruit is used to treat skin conditions",
+      "Its fruits were used as a coffee substitute",
+      "Its sap is made into ginger beer"
+     ],
+     "ex": "Leadwood makes excellent firewood and its ash can be used as a toothpaste substitute.",
+     "group": "Common plants",
+     "page": "42",
+     "draft": true
+    },
+    {
+     "id": "PLAN-049",
+     "q": "The oldest recorded leadwood was over...",
+     "a": "1000 years old",
+     "w": [
+      "100 years old",
+      "300 years old",
+      "5000 years old"
+     ],
+     "ex": "The oldest recorded leadwood specimen was over 1000 years old, according to Vogel and Fuls.",
+     "group": "Common plants",
+     "page": "42",
+     "draft": true
+    },
+    {
+     "id": "PLAN-050",
+     "q": "Why must guides take care driving over young leadwood branchlets?",
+     "a": "Their spines can puncture even tough tyres",
+     "w": [
+      "They release a toxic latex",
+      "They hide snakes",
+      "They are protected by law"
+     ],
+     "ex": "Younger leadwoods have spines that pass easily through even the toughest tyres.",
+     "group": "Common plants",
+     "page": "42",
+     "draft": true
+    },
+    {
+     "id": "PLAN-051",
+     "q": "How can the marula be recognised by its bark?",
+     "a": "The bark peels off in large pieces",
+     "w": [
+      "The bark is almost black",
+      "The bark splits into long strips",
+      "The bark is smooth and green"
+     ],
+     "ex": "The marula's trunk bark peels off in large pieces.",
+     "group": "Common plants",
+     "page": "42",
+     "draft": true
+    },
+    {
+     "id": "PLAN-052",
+     "q": "Why are marula trees slowly disappearing in areas with many elephants?",
+     "a": "Elephants eat their soft bark",
+     "w": [
+      "Elephants eat all the seeds",
+      "Elephants dig up the tap roots",
+      "Elephants break all the flowers"
+     ],
+     "ex": "The soft bark is sought after by elephants, and in areas with high elephant numbers these trees are slowly disappearing.",
+     "group": "Common plants",
+     "page": "42",
+     "draft": true
+    },
+    {
+     "id": "PLAN-053",
+     "q": "Marula trees are sensitive to...",
+     "a": "Frost",
+     "w": [
+      "Fire",
+      "Flooding",
+      "Salty soils"
+     ],
+     "ex": "Marula trees occur in woodland and grassland but are sensitive to frost.",
+     "group": "Common plants",
+     "page": "42",
+     "draft": true
+    },
+    {
+     "id": "PLAN-054",
+     "q": "Which tree has dark bark that makes the trunk look almost black and often grows in termite mounds?",
+     "a": "Jackal-berry",
+     "w": [
+      "Leadwood",
+      "Sausage tree",
+      "Marula"
+     ],
+     "ex": "The jackal-berry's dark bark gives an almost black trunk, and it is often found growing in termite mounds.",
+     "group": "Common plants",
+     "page": "43",
+     "draft": true
+    },
+    {
+     "id": "PLAN-055",
+     "q": "Why are jackal-berry leaves browsed throughout the year?",
+     "a": "Nutrients are not withdrawn from the leaves in winter",
+     "w": [
+      "The leaves have no tannins",
+      "The tree flowers all year round",
+      "The tree grows only in grassland"
+     ],
+     "ex": "Nutrients are not withdrawn from jackal-berry leaves during winter, so they are browsed all year.",
+     "group": "Common plants",
+     "page": "43",
+     "draft": true
+    },
+    {
+     "id": "PLAN-056",
+     "q": "Sausage tree flowers are large, wine-red and mostly pollinated by...",
+     "a": "Bats",
+     "w": [
+      "Sunbirds",
+      "The wind",
+      "Beetles"
+     ],
+     "ex": "Sausage tree flowers appear in spring and are mostly pollinated by bats.",
+     "group": "Common plants",
+     "page": "43",
+     "draft": true
+    },
+    {
+     "id": "PLAN-057",
+     "q": "What is the fruit of the sausage tree used for?",
+     "a": "Treating skin conditions",
+     "w": [
+      "Making a coffee substitute",
+      "Curing malaria",
+      "Making rope"
+     ],
+     "ex": "The sausage tree's trunk is used for mokoros and the fruit is used to treat skin conditions.",
+     "group": "Common plants",
+     "page": "43",
+     "draft": true
+    },
+    {
+     "id": "PLAN-058",
+     "q": "Why is the knob-thorn often uprooted during heavy storms?",
+     "a": "Its root system is shallow",
+     "w": [
+      "Its trunk is hollow",
+      "Elephants loosen its roots every year",
+      "It grows only on rocky outcrops"
+     ],
+     "ex": "Water is readily available in its riverbank habitat, so its tap root seldom goes deep; this shallow root system means it is often uprooted.",
+     "group": "Common plants",
+     "page": "43",
+     "draft": true
+    },
+    {
+     "id": "PLAN-059",
+     "q": "Which use of the knob-thorn does the manual mention?",
+     "a": "Bark strips soaked in water serve as rope",
+     "w": [
+      "Its leaves are used for basket weaving",
+      "Its trunk is used for mokoros",
+      "Its fruit is fermented into beer"
+     ],
+     "ex": "Knob-thorn wood is used for fencing posts, and bark strips soaked in water serve as rope.",
+     "group": "Common plants",
+     "page": "43",
+     "draft": true
+    },
+    {
+     "id": "PLAN-060",
+     "q": "What do elephants often do to knob-thorns that is ultimately fatal?",
+     "a": "Ring-bark them",
+     "w": [
+      "Eat all their flowers",
+      "Eat all their seed pods",
+      "Break off their thorns"
+     ],
+     "ex": "Elephants enjoy the leaves, roots and bark, often ring-barking many of these trees, which is ultimately fatal.",
+     "group": "Common plants",
+     "page": "43",
+     "draft": true
+    },
+    {
+     "id": "PLAN-061",
+     "q": "The bark and seeds of the large fever-berry were historically used to cure...",
+     "a": "Malaria",
+     "w": [
+      "Skin conditions",
+      "Toothache",
+      "Snakebite"
+     ],
+     "ex": "The bark and seeds of the large fever-berry were historically used to cure malaria and as a powerful purgative.",
+     "group": "Common plants",
+     "page": "43",
+     "draft": true
+    },
+    {
+     "id": "PLAN-062",
+     "q": "Why do elephants browse the large fever-berry even though it is toxic?",
+     "a": "It helps clear their stomachs",
+     "w": [
+      "It is the only evergreen in their range",
+      "It has the highest protein of any tree",
+      "It has no tannins"
+     ],
+     "ex": "Despite being toxic, the large fever-berry is frequently browsed by elephants, which helps clear their stomachs.",
+     "group": "Common plants",
+     "page": "43",
+     "draft": true
+    },
+    {
+     "id": "PLAN-063",
+     "q": "How can buffalo thorn leaves be recognised?",
+     "a": "Shiny and asymmetrical with three veins from the base",
+     "w": [
+      "Two large leaflets like butterfly wings",
+      "Fan-shaped with spined petioles",
+      "Dark green and growing in whorls"
+     ],
+     "ex": "Buffalo thorn leaves are simple, shiny and asymmetrical, with three veins from the base.",
+     "group": "Common plants",
+     "page": "44",
+     "draft": true
+    },
+    {
+     "id": "PLAN-064",
+     "q": "The fruits of the buffalo thorn were historically used as...",
+     "a": "A coffee substitute",
+     "w": [
+      "A toothpaste substitute",
+      "A cure for malaria",
+      "Birdlime to catch birds"
+     ],
+     "ex": "The fruits of the buffalo thorn were historically used as a coffee substitute.",
+     "group": "Common plants",
+     "page": "44",
+     "draft": true
+    },
+    {
+     "id": "PLAN-065",
+     "q": "In Botswana, the buffalo thorn is believed to be...",
+     "a": "A safe refuge from lightning",
+     "w": [
+      "A sign of underground water",
+      "Bad luck if planted near a home",
+      "A cure for snakebite"
+     ],
+     "ex": "In Botswana the buffalo thorn is thought to be a safe refuge from lightning.",
+     "group": "Common plants",
+     "page": "44",
+     "draft": true
+    },
+    {
+     "id": "PLAN-066",
+     "q": "According to Zulu belief, what does the straight thorn of the buffalo thorn represent?",
+     "a": "Looking to the future",
+     "w": [
+      "Remembering the past",
+      "Protection from lightning",
+      "Good fortune in the garden"
+     ],
+     "ex": "The straight thorn represents looking to the future, while the hooked thorn reminds people not to forget the past.",
+     "group": "Common plants",
+     "page": "44",
+     "draft": true
+    },
+    {
+     "id": "PLAN-067",
+     "q": "How can mopane leaves be recognised?",
+     "a": "Two large leaflets with a small vestigial leaflet between",
+     "w": [
+      "Simple leaves with three veins from the base",
+      "Large fan-shaped leaves on spined stalks",
+      "Bipinnately compound with tiny leaflets"
+     ],
+     "ex": "Mopane compound leaves have a vestigial leaflet and two large leaflets on either side.",
+     "group": "Common plants",
+     "page": "45",
+     "draft": true
+    },
+    {
+     "id": "PLAN-068",
+     "q": "Why are dead mopane leaves valuable to mammals in the dry spring months?",
+     "a": "They keep protein levels of up to 12%",
+     "w": [
+      "They contain a lot of water",
+      "They have no tannins at all",
+      "They are rich in sugar"
+     ],
+     "ex": "Dead mopane leaves retain protein levels of up to 12%, making them a valuable food source in the dry spring months.",
+     "group": "Common plants",
+     "page": "45",
+     "draft": true
+    },
+    {
+     "id": "PLAN-069",
+     "q": "What happens to the larva of the mopane moth in its final instar?",
+     "a": "People collect, dry and eat it",
+     "w": [
+      "It is used to make birdlime",
+      "It is eaten only by elephants",
+      "It is used to make rope"
+     ],
+     "ex": "The larva is collected, dried and eaten in its final instar, an important protein source for many people in Botswana.",
+     "group": "Common plants",
+     "page": "45",
+     "draft": true
+    },
+    {
+     "id": "PLAN-070",
+     "q": "What does the mopane tree rely on for protection against over-browsing?",
+     "a": "Hedging",
+     "w": [
+      "Sharp hooked thorns",
+      "Poisonous milky sap",
+      "Spined leaf stalks"
+     ],
+     "ex": "The mopane relies on hedging for protection against over-browsing.",
+     "group": "Common plants",
+     "page": "45",
+     "draft": true
+    },
+    {
+     "id": "PLAN-071",
+     "q": "Tall mopane woodland with trees of up to 30m is known as...",
+     "a": "Cathedral mopane",
+     "w": [
+      "Scrub mopane",
+      "Riverine mopane",
+      "Climax mopane"
+     ],
+     "ex": "Mopane varies from scrub mopane (2-3m) to large trees of up to 30m in 'cathedral mopane' woodland.",
+     "group": "Common plants",
+     "page": "45",
+     "draft": true
+    },
+    {
+     "id": "PLAN-072",
+     "q": "The sap of young real fan palms can be made into...",
+     "a": "Ginger beer",
+     "w": [
+      "Coffee",
+      "Birdlime",
+      "Toothpaste"
+     ],
+     "ex": "The sap from young real fan palms can be made into 'ginger beer', which becomes potent if left to mature.",
+     "group": "Common plants",
+     "page": "46",
+     "draft": true
+    },
+    {
+     "id": "PLAN-073",
+     "q": "Which animal plays a key role in dispersing real fan palm seeds in northern Botswana?",
+     "a": "Elephant",
+     "w": [
+      "Fruit bat",
+      "Hornbill",
+      "Giraffe"
+     ],
+     "ex": "The fruit is eaten by baboons and elephants, with elephants playing a key role in seed dispersal.",
+     "group": "Common plants",
+     "page": "46",
+     "draft": true
+    },
+    {
+     "id": "PLAN-074",
+     "q": "In what kind of soil does the real fan palm thrive?",
+     "a": "Soils with high salt content, such as Delta islands",
+     "w": [
+      "Deep, frost-prone sourveld soils",
+      "Acidic soils on high ground",
+      "Rocky soils on hilltops"
+     ],
+     "ex": "The real fan palm thrives in soils with high saline content, such as those on islands in the Delta.",
+     "group": "Common plants",
+     "page": "46",
+     "draft": true
+    },
+    {
+     "id": "PLAN-075",
+     "q": "What are real fan palm leaves used for?",
+     "a": "Basket weaving",
+     "w": [
+      "Making mokoros",
+      "Fencing posts",
+      "Treating skin conditions"
+     ],
+     "ex": "Real fan palm leaves are used for basket weaving.",
+     "group": "Common plants",
+     "page": "46",
+     "draft": true
+    },
+    {
+     "id": "PLAN-076",
+     "q": "How are the leaves of the African mangosteen arranged?",
+     "a": "In whorls along the branches",
+     "w": [
+      "Opposite, grey-green and wavy",
+      "In fan shapes on spined stalks",
+      "As two large leaflets"
+     ],
+     "ex": "The African mangosteen has dark green, leathery leaves growing in whorls along the branches.",
+     "group": "Common plants",
+     "page": "46",
+     "draft": true
+    },
+    {
+     "id": "PLAN-077",
+     "q": "What colour is the ripe fruit of the African mangosteen?",
+     "a": "Orange or red",
+     "w": [
+      "Grey",
+      "Shiny dark brown",
+      "Creamy-yellow"
+     ],
+     "ex": "The oval, fleshy fruit is orange or red and ripens in summer.",
+     "group": "Common plants",
+     "page": "46",
+     "draft": true
+    },
+    {
+     "id": "PLAN-078",
+     "q": "What happens when milkweed leaves are damaged?",
+     "a": "They give off a milky latex",
+     "w": [
+      "They release a sweet smell",
+      "They curl up and close",
+      "They change colour to red"
+     ],
+     "ex": "Milkweed's lanceolate leaves emit a milky latex when damaged.",
+     "group": "Common plants",
+     "page": "46",
+     "draft": true
+    },
+    {
+     "id": "PLAN-079",
+     "q": "How are milkweed seeds dispersed?",
+     "a": "By wind, as fluffy seeds",
+     "w": [
+      "By birds wiping them onto bark",
+      "By floating on water",
+      "By sticking to bird feathers"
+     ],
+     "ex": "Milkweed's balloon-shaped fruits ripen and the fluffy seeds are dispersed by the wind.",
+     "group": "Common plants",
+     "page": "46",
+     "draft": true
+    },
+    {
+     "id": "PLAN-080",
+     "q": "Why are African monarch butterflies poisonous to predators?",
+     "a": "Their larvae eat milkweed and build up toxins",
+     "w": [
+      "They feed on mistletoe nectar",
+      "They are protected by paper-wasps",
+      "They mimic the diadem butterfly"
+     ],
+     "ex": "The larvae eat milkweed foliage and build up toxins, making the butterfly poisonous; the non-toxic diadem mimics the monarch.",
+     "group": "Common plants",
+     "page": "46",
+     "draft": true
+    },
+    {
+     "id": "PLAN-081",
+     "q": "How does mistletoe get its nutrients from the host tree?",
+     "a": "Its roots tap into the cambium under the bark",
+     "w": [
+      "It traps insects in bladders",
+      "It absorbs them from the air",
+      "It feeds on the host tree's fruit"
+     ],
+     "ex": "Mistletoe develops roots that penetrate beneath the bark, tapping into the cambium layer to extract nutrients.",
+     "group": "Common plants",
+     "page": "47",
+     "draft": true
+    },
+    {
+     "id": "PLAN-082",
+     "q": "The flowers of the mistletoe are...",
+     "a": "Red and tubular, appearing in winter",
+     "w": [
+      "White and star-shaped, appearing all year",
+      "Wine-red and pollinated by bats",
+      "Golden-yellow with brown blotches"
+     ],
+     "ex": "Mistletoe has abundant tubular red flowers in winter, attracting sunbirds and butterflies.",
+     "group": "Common plants",
+     "page": "47",
+     "draft": true
+    },
+    {
+     "id": "PLAN-083",
+     "q": "How do mistletoe seeds end up on a new tree branch?",
+     "a": "Birds wipe the sticky seeds off their bills onto bark",
+     "w": [
+      "The pods burst and fling them",
+      "The wind carries fluffy seeds",
+      "They float down rivers"
+     ],
+     "ex": "Birds eat the fruit, and the sticky seed is wiped off the bird's bill, its gluey coating fixing it to the tree bark.",
+     "group": "Common plants",
+     "page": "47",
+     "draft": true
+    },
+    {
+     "id": "PLAN-084",
+     "q": "What type of plant is the leopard orchid?",
+     "a": "An epiphyte that grows on trees",
+     "w": [
+      "A carnivorous water plant",
+      "A hemi-parasite on acacias",
+      "A grass of open floodplains"
+     ],
+     "ex": "The leopard orchid is an epiphytic plant that fixes its roots to the rough bark of trees.",
+     "group": "Common plants",
+     "page": "47",
+     "draft": true
+    },
+    {
+     "id": "PLAN-085",
+     "q": "The relationship between the leopard orchid and its host tree is...",
+     "a": "Commensalism",
+     "w": [
+      "Mutualism",
+      "Parasitism",
+      "Competition"
+     ],
+     "ex": "The orchid benefits while the tree remains unaffected, which is commensalism.",
+     "group": "Common plants",
+     "page": "47",
+     "draft": true
+    },
+    {
+     "id": "PLAN-086",
+     "q": "Describe the flowers of the leopard orchid.",
+     "a": "Golden-yellow with brown blotches",
+     "w": [
+      "Red and tubular",
+      "White and star-shaped",
+      "Wine-red and bell-like"
+     ],
+     "ex": "From June to November the leopard orchid produces golden-yellow flowers with brown blotches.",
+     "group": "Common plants",
+     "page": "47",
+     "draft": true
+    },
+    {
+     "id": "PLAN-087",
+     "q": "Why has the bladderwort become an insect-eating plant?",
+     "a": "To make up for nutrient-poor water",
+     "w": [
+      "To protect itself from browsers",
+      "To help pollinate its flowers",
+      "To spread its seeds"
+     ],
+     "ex": "The bladderwort became insectivorous to compensate for the nutrient-deficient waters it lives in.",
+     "group": "Aquatic plants",
+     "page": "47",
+     "draft": true
+    },
+    {
+     "id": "PLAN-088",
+     "q": "How do the bladders of the bladderwort catch prey?",
+     "a": "Trapdoors open and suck prey in by negative pressure",
+     "w": [
+      "Sticky hairs glue the prey to the leaves",
+      "The leaves fold shut around the prey",
+      "Poisonous latex kills the prey"
+     ],
+     "ex": "The bladders work under negative pressure; when prey brushes the trigger, trapdoors open and suck the animal in.",
+     "group": "Aquatic plants",
+     "page": "47",
+     "draft": true
+    },
+    {
+     "id": "PLAN-089",
+     "q": "Which description fits papyrus?",
+     "a": "A perennial sedge over 2m that forms floating mats",
+     "w": [
+      "A small free-floating plant with two or three leaves",
+      "A floating plant with round lily-like leaves",
+      "A carnivorous plant with bladders"
+     ],
+     "ex": "Papyrus is a perennial sedge, often over 2m tall, that forms extensive floating mats along water channels.",
+     "group": "Aquatic plants",
+     "page": "48",
+     "draft": true
+    },
+    {
+     "id": "PLAN-090",
+     "q": "Which people eat the tender fresh stems of papyrus as part of their diet?",
+     "a": "Wayeyi",
+     "w": [
+      "Zulu",
+      "San",
+      "Herero"
+     ],
+     "ex": "Among the Wayeyi people, the tender, fresh stems of papyrus form part of their diet.",
+     "group": "Aquatic plants",
+     "page": "48",
+     "draft": true
+    },
+    {
+     "id": "PLAN-091",
+     "q": "Which plant has white, star-shaped flowers with fringed edges and round, lily-like leaves?",
+     "a": "Snow-flake flower",
+     "w": [
+      "Bladderwort",
+      "Duckweed",
+      "Papyrus"
+     ],
+     "ex": "The snow-flake flower has star-shaped white flowers with fringed edges and round, lily-like leaves.",
+     "group": "Aquatic plants",
+     "page": "48",
+     "draft": true
+    },
+    {
+     "id": "PLAN-092",
+     "q": "How is duckweed spread to new areas?",
+     "a": "It sticks to the feathers of birds",
+     "w": [
+      "Its pods burst open",
+      "Elephants eat it and drop it in dung",
+      "Its fluffy seeds float in the wind"
+     ],
+     "ex": "Duckweed attaches itself to birds' feathers and is carried to other water bodies.",
+     "group": "Aquatic plants",
+     "page": "48",
+     "draft": true
+    },
+    {
+     "id": "PLAN-093",
+     "q": "What is an ecotone?",
+     "a": "A corridor between two eco-zones that belongs to neither",
+     "w": [
+      "The centre of a large habitat",
+      "A single tree and its surroundings",
+      "An area with no vegetation at all"
+     ],
+     "ex": "Ecotones are narrow or wide corridors of vegetation between two eco-zones that belong to neither of the bordering habitats.",
+     "group": "Ecotones",
+     "page": "48",
+     "draft": true
+    },
+    {
+     "id": "PLAN-094",
+     "q": "Thickets of Kalahari apple-leaf are often found between which two woodlands?",
+     "a": "Mopane and camel thorn",
+     "w": [
+      "Leadwood and marula",
+      "Umbrella thorn and riverine forest",
+      "Jackal-berry and sausage tree"
+     ],
+     "ex": "Ecotone thickets of Kalahari apple-leaf are often wedged between mopane and camel thorn woodlands.",
+     "group": "Ecotones",
+     "page": "49",
+     "draft": true
+    },
+    {
+     "id": "PLAN-095",
+     "q": "Which tree is one of the first to establish on floodplains when the Delta water recedes?",
+     "a": "Umbrella thorn",
+     "w": [
+      "Jackal-berry",
+      "Real fan palm",
+      "Leadwood"
+     ],
+     "ex": "On floodplains, one of the first pioneer trees to establish is the umbrella thorn, which grows rapidly in the fertile soils.",
+     "group": "Ecotones",
+     "page": "49",
+     "draft": true
+    },
+    {
+     "id": "PLAN-096",
+     "q": "Rocky outcrops are described as...",
+     "a": "Isolated islands in flat woodland landscapes",
+     "w": [
+      "Corridors of tall evergreen forest",
+      "Thickets between two woodlands",
+      "Open floodplains with pioneer plants"
+     ],
+     "ex": "Rocky outcrops form isolated islands in flat woodland and support flora and fauna unique to their areas.",
+     "group": "Ecotones",
+     "page": "49",
+     "draft": true
+    },
+    {
+     "id": "PLAN-097",
+     "q": "Why do grasses not need attractive flowers?",
+     "a": "They are wind pollinated",
+     "w": [
+      "They reproduce only by spores",
+      "They are pollinated by bats",
+      "They never produce seed"
+     ],
+     "ex": "Grasses are wind pollinated and do not need to use water or nutrients to produce attractive flowers.",
+     "group": "Grasses",
+     "page": "49",
+     "draft": true
+    },
+    {
+     "id": "PLAN-098",
+     "q": "How do grasses help prevent soil erosion?",
+     "a": "Their roots bind the soil",
+     "w": [
+      "Their leaves block the rain",
+      "They grow only on rocks",
+      "Their seeds fill gaps in the soil"
+     ],
+     "ex": "Grass roots bind the soils and prevent erosion.",
+     "group": "Grasses",
+     "page": "49",
+     "draft": true
+    },
+    {
+     "id": "PLAN-099",
+     "q": "Which grass does the manual say is the staple diet for a large percentage of the world's population?",
+     "a": "Rice",
+     "w": [
+      "Bamboo",
+      "Sugar cane",
+      "Thatching grass"
+     ],
+     "ex": "Rice is an annual grass grown in warmer, wetter climates and is the staple diet for a large percentage of the world's population.",
+     "group": "Grasses",
+     "page": "49",
+     "draft": true
+    },
+    {
+     "id": "PLAN-100",
+     "q": "Increaser 1 grasses increase when an area is...",
+     "a": "Under-utilised (under-grazed)",
+     "w": [
+      "Over-grazed",
+      "Burnt every year",
+      "Flooded every year"
+     ],
+     "ex": "Increaser 1 grasses increase during under-utilisation; they are unpalatable grasses with high lignin content.",
+     "group": "Ecological status",
+     "page": "49",
+     "draft": true
+    },
+    {
+     "id": "PLAN-101",
+     "q": "Which grass is the manual's example of an Increaser 1 grass?",
+     "a": "Giant spear grass",
+     "w": [
+      "Red grass",
+      "Finger grass",
+      "Tassel three-awn"
+     ],
+     "ex": "Giant spear grass is an unpalatable, high-lignin Increaser 1 grass.",
+     "group": "Ecological status",
+     "page": "49",
+     "draft": true
+    },
+    {
+     "id": "PLAN-102",
+     "q": "Increaser 2 grasses...",
+     "a": "Increase with over-utilisation",
+     "w": [
+      "Increase with under-utilisation",
+      "Decrease during overgrazing",
+      "Do not react to grazing at all"
+     ],
+     "ex": "Increaser 2 grasses increase with over-utilisation and are normally found in lower rainfall areas.",
+     "group": "Ecological status",
+     "page": "49",
+     "draft": true
+    },
+    {
+     "id": "PLAN-103",
+     "q": "Red grass and finger grass are examples of...",
+     "a": "Decreaser grasses",
+     "w": [
+      "Increaser 1 grasses",
+      "Increaser 2 grasses",
+      "Pioneer grasses"
+     ],
+     "ex": "Decreaser grasses are palatable, decrease during overgrazing and dominate in good veld; examples are red grass and finger grass.",
+     "group": "Ecological status",
+     "page": "49",
+     "draft": true
+    },
+    {
+     "id": "PLAN-104",
+     "q": "The presence of many decreaser grasses usually indicates...",
+     "a": "Good veld condition",
+     "w": [
+      "Heavy overgrazing",
+      "Long periods of under-grazing",
+      "Very low rainfall"
+     ],
+     "ex": "Decreaser grasses are palatable and dominate in good veld conditions.",
+     "group": "Ecological status",
+     "page": "49",
+     "draft": true
+    },
+    {
+     "id": "PLAN-105",
+     "q": "According to the table, couch grass is a...",
+     "a": "Pioneer grass that grows in any soil",
+     "w": [
+      "Climax grass of sandy soils",
+      "Sub-climax grass with low palatability",
+      "Decreaser grass of wetlands"
+     ],
+     "ex": "Couch grass is a pioneer, grows in any soil, has high palatability, low leaf production and is an Increaser 2.",
+     "group": "Ecological status",
+     "page": "50",
+     "draft": true
+    },
+    {
+     "id": "PLAN-106",
+     "q": "According to the table, yellow thatching grass is...",
+     "a": "A climax grass with low palatability",
+     "w": [
+      "A pioneer grass with high palatability",
+      "A sub-climax Increaser 2 grass",
+      "A decreaser grass of clay soils"
+     ],
+     "ex": "Yellow thatching grass is a climax grass of sandy soils with low palatability, high leaf production and Increaser 1 status.",
+     "group": "Ecological status",
+     "page": "50",
+     "draft": true
+    },
+    {
+     "id": "PLAN-107",
+     "q": "Which of these is part of the grazing value of a grass?",
+     "a": "Speed of recovery after being grazed",
+     "w": [
+      "Colour of the flower head",
+      "Height of the nearest tree",
+      "Number of seeds per plant"
+     ],
+     "ex": "Grazing value includes leaf production, palatability, nutrient value, digestibility, speed of recovery, seasonal nutrients and distribution.",
+     "group": "Ecological status",
+     "page": "50",
+     "draft": true
+    },
+    {
+     "id": "PLAN-108",
+     "q": "Why does sweetveld stay palatable throughout the year?",
+     "a": "Its grasses keep most nutrients in their leaves in winter",
+     "w": [
+      "It receives high rainfall all year",
+      "Its nutrients are stored in the roots in winter",
+      "It never experiences grazing"
+     ],
+     "ex": "In winter, sweetveld grasses retain most of their nutrients in their leaves and remain palatable all year.",
+     "group": "Veld types",
+     "page": "50",
+     "draft": true
+    },
+    {
+     "id": "PLAN-109",
+     "q": "Why are sourveld soils acidic with a low pH?",
+     "a": "High rainfall leaches out nutrients and minerals",
+     "w": [
+      "Low rainfall leaves salts behind",
+      "Frequent floods add organic matter",
+      "Grazing animals add dung"
+     ],
+     "ex": "Sourveld is associated with high rainfall, which leaches the soils of nutrients and minerals, giving acidic soils.",
+     "group": "Veld types",
+     "page": "50",
+     "draft": true
+    },
+    {
+     "id": "PLAN-110",
+     "q": "What happens to sourveld grass during the cold winters?",
+     "a": "Nutrients are stored in the roots and it becomes unpalatable",
+     "w": [
+      "It keeps its nutrients in the leaves and stays palatable",
+      "It flowers and sets seed",
+      "It grows faster than in summer"
+     ],
+     "ex": "In cold winters sourveld stores nutrients in the roots and the grass becomes unpalatable.",
+     "group": "Veld types",
+     "page": "50",
+     "draft": true
+    },
+    {
+     "id": "PLAN-111",
+     "q": "What rainfall is typical of sweetveld?",
+     "a": "250 to 500mm, on alkaline soil",
+     "w": [
+      "Usually over 650mm, on acidic soil",
+      "1000 to 2000mm, on sandy soil",
+      "Under 100mm, on rocky soil"
+     ],
+     "ex": "Sweetveld occurs in frost-free, low-lying areas with rainfall of 250 to 500mm on alkaline soil.",
+     "group": "Veld types",
+     "page": "50",
+     "draft": true
+    },
+    {
+     "id": "PLAN-112",
+     "q": "Which veld recovers faster after over-grazing?",
+     "a": "Sweetveld",
+     "w": [
+      "Sourveld",
+      "Both recover at the same speed",
+      "Neither veld type recovers"
+     ],
+     "ex": "When over-grazed, sweetveld recovers faster than sourveld; sourveld tolerates mild overgrazing but recovers slowly.",
+     "group": "Veld types",
+     "page": "50",
+     "draft": true
+    },
+    {
+     "id": "PLAN-113",
+     "q": "Mixed veld is...",
+     "a": "A combination of sweetveld and sourveld",
+     "w": [
+      "Veld with both grass and trees",
+      "Veld that has been burnt",
+      "Veld found only on floodplains"
+     ],
+     "ex": "Mixed veld is a combination between sweet and sourveld.",
+     "group": "Veld types",
+     "page": "50",
+     "draft": true
+    },
+    {
+     "id": "PLAN-114",
+     "q": "What happens to grasses after years of under-utilisation?",
+     "a": "They become moribund and give way to Increaser 1 grasses",
+     "w": [
+      "They become more palatable",
+      "They are replaced by decreaser grasses",
+      "They turn into sweetveld"
+     ],
+     "ex": "Under-utilised grasses become moribund and die, making way for the less palatable Increaser 1 grasses such as giant spear grass.",
+     "group": "Role of fire",
+     "page": "50",
+     "draft": true
+    },
+    {
+     "id": "PLAN-115",
+     "q": "How does fire help grassland according to the manual?",
+     "a": "It controls invader shrubs that block the sun",
+     "w": [
+      "It adds water to the soil",
+      "It kills all grazing animals",
+      "It turns sourveld into sweetveld"
+     ],
+     "ex": "Fires help control invader shrubs and trees (sickle bush and sweet-thorn) that would otherwise block the sun from the grasses.",
+     "group": "Role of fire",
+     "page": "50",
+     "draft": true
+    },
+    {
+     "id": "PLAN-116",
+     "q": "When were natural fires, started by lightning, most frequent?",
+     "a": "At the start of the rains",
+     "w": [
+      "In the middle of winter",
+      "At the end of the rains",
+      "During the floods"
+     ],
+     "ex": "Natural fires are mostly started by lightning, so burns were most frequent at the start of the rains.",
+     "group": "Role of fire",
+     "page": "50",
+     "draft": true
+    },
+    {
+     "id": "PLAN-117",
+     "q": "Why are hot fires in the winter months harmful?",
+     "a": "They burn grass roots and destroy the seed bank",
+     "w": [
+      "They make grass grow too quickly",
+      "They add too many nutrients to the soil",
+      "They attract too many grazers"
+     ],
+     "ex": "Hot winter fires burn the roots of established grasses and destroy the following season's seed bank.",
+     "group": "Role of fire",
+     "page": "50",
+     "draft": true
+    }
+   ]
+  },
+  {
+   "id": "q-arthropods",
+   "kind": "questions",
+   "chapter": "Arthropods",
+   "title": "Arthropods - manual",
+   "photo": "",
+   "subtitle": "124 questions from the Botswana Guide Training Manual",
+   "items": [
+    {
+     "id": "ARTH-001",
+     "q": "What sets arthropods apart from other invertebrates?",
+     "a": "They have segmented legs",
+     "w": [
+      "They have a backbone",
+      "They have soft bodies with no skeleton",
+      "They all have wings"
+     ],
+     "ex": "The manual says what sets arthropods apart from other invertebrates is that they have segmented legs.",
+     "group": "Common features",
+     "page": "51",
+     "draft": true
+    },
+    {
+     "id": "ARTH-002",
+     "q": "Which of these animals is NOT an arthropod?",
+     "a": "Leech",
+     "w": [
+      "Tick",
+      "Millipede",
+      "Scorpion"
+     ],
+     "ex": "Worms, jellyfish and leeches lack backbones but do not have segmented legs, so they are not arthropods.",
+     "group": "Common features",
+     "page": "51",
+     "draft": true
+    },
+    {
+     "id": "ARTH-003",
+     "q": "What type of external skeleton do arthropods have?",
+     "a": "A hard, chitinous skeleton",
+     "w": [
+      "A soft, leathery skin with no skeleton",
+      "A shell made of calcium only",
+      "An internal bony skeleton"
+     ],
+     "ex": "Arthropods have a chitinous (hard) external skeleton.",
+     "group": "Common features",
+     "page": "51",
+     "draft": true
+    },
+    {
+     "id": "ARTH-004",
+     "q": "Which arthropod is given as an example of a body with only a head and body?",
+     "a": "Ticks",
+     "w": [
+      "Spiders",
+      "Butterflies",
+      "Beetles"
+     ],
+     "ex": "Ticks have a head and body; spiders have a cephalothorax and abdomen; butterflies have a separate head, thorax and abdomen.",
+     "group": "Common features",
+     "page": "51",
+     "draft": true
+    },
+    {
+     "id": "ARTH-005",
+     "q": "In spiders, what is the fused head and thorax called?",
+     "a": "Cephalothorax",
+     "w": [
+      "Gnathosoma",
+      "Aculeus",
+      "Scutum"
+     ],
+     "ex": "Spiders have the head and thorax fused into a cephalothorax, plus an abdomen.",
+     "group": "Common features",
+     "page": "51",
+     "draft": true
+    },
+    {
+     "id": "ARTH-006",
+     "q": "How many pairs of legs does an insect have?",
+     "a": "Three pairs",
+     "w": [
+      "Two pairs",
+      "Four pairs",
+      "Five pairs"
+     ],
+     "ex": "Insects have three pairs of legs, one pair of antennae and a body in three parts.",
+     "group": "Insects",
+     "page": "51",
+     "draft": true
+    },
+    {
+     "id": "ARTH-007",
+     "q": "Into which three parts is an insect's body divided?",
+     "a": "Head, thorax and abdomen",
+     "w": [
+      "Head, cephalothorax and tail",
+      "Cephalothorax, abdomen and tail",
+      "Head, body and tail"
+     ],
+     "ex": "Insect bodies are divided into three distinct parts: the head, thorax and abdomen.",
+     "group": "Insects",
+     "page": "51",
+     "draft": true
+    },
+    {
+     "id": "ARTH-008",
+     "q": "Which insects are examples of the ametabolic (no metamorphosis) life cycle?",
+     "a": "Fish moths, springtails and bristletails",
+     "w": [
+      "Dragonflies, damselflies and mayflies",
+      "Ants, bees and wasps",
+      "Butterflies and beetles"
+     ],
+     "ex": "The ametabolic life cycle (egg - young - adult) is the most primitive; examples are fish moths, springtails and bristletails.",
+     "group": "Insect life cycles",
+     "page": "51",
+     "draft": true
+    },
+    {
+     "id": "ARTH-009",
+     "q": "What are the stages of the hemimetabolic (incomplete metamorphosis) life cycle?",
+     "a": "Egg - nymph - adult",
+     "w": [
+      "Egg - larva - pupa - adult",
+      "Egg - young - adult",
+      "Egg - pupa - nymph - adult"
+     ],
+     "ex": "Hemimetabolic (incomplete metamorphosis) is egg - nymph - adult, e.g. dragonflies, aphids, bugs and termites.",
+     "group": "Insect life cycles",
+     "page": "51",
+     "draft": true
+    },
+    {
+     "id": "ARTH-010",
+     "q": "In the hemimetabolic life cycle, what is each moult of the nymph called?",
+     "a": "An instar",
+     "w": [
+      "A pupa",
+      "A cocoon",
+      "A brood"
+     ],
+     "ex": "Nymphs moult their exoskeleton as they grow, and each moult is called an instar.",
+     "group": "Insect life cycles",
+     "page": "51",
+     "draft": true
+    },
+    {
+     "id": "ARTH-011",
+     "q": "In the holometabolic life cycle, during which stage does the body structure change completely?",
+     "a": "The pupa stage",
+     "w": [
+      "The larva stage",
+      "The nymph stage",
+      "The egg stage"
+     ],
+     "ex": "During the pupa stage the body structure changes completely before the adult emerges.",
+     "group": "Insect life cycles",
+     "page": "52",
+     "draft": true
+    },
+    {
+     "id": "ARTH-012",
+     "q": "Which group of insects has a holometabolic (complete metamorphosis) life cycle?",
+     "a": "Ants, bees, wasps, butterflies and beetles",
+     "w": [
+      "Dragonflies, damselflies and mayflies",
+      "Fish moths, springtails and bristletails",
+      "Aphids, bugs and termites"
+     ],
+     "ex": "Holometabolic (egg - larva - pupa - adult) examples are ants, bees, wasps, butterflies and beetles.",
+     "group": "Insect life cycles",
+     "page": "52",
+     "draft": true
+    },
+    {
+     "id": "ARTH-013",
+     "q": "Which insect larvae feed on horns and hooves, which most other animals cannot digest?",
+     "a": "Horn-borer moth larvae",
+     "w": [
+      "Dung beetle larvae",
+      "Antlion larvae",
+      "Mosquito larvae"
+     ],
+     "ex": "The larvae of the horn-borer moths feed on horns and hooves, helping with nutrient and mineral recycling.",
+     "group": "Ecological importance of insects",
+     "page": "52",
+     "draft": true
+    },
+    {
+     "id": "ARTH-014",
+     "q": "According to the manual, how do the diseases passed on by insects affect the ecosystem?",
+     "a": "They help regulate populations of plants and animals",
+     "w": [
+      "They have no effect on populations",
+      "They only affect domestic animals",
+      "They increase the amount of pollination"
+     ],
+     "ex": "Insects pass on a variety of diseases that help to regulate populations of both flora and fauna.",
+     "group": "Ecological importance of insects",
+     "page": "52",
+     "draft": true
+    },
+    {
+     "id": "ARTH-015",
+     "q": "How do termites help to 'unlock' nutrients from dead plants?",
+     "a": "Symbiotic organisms help them break down cellulose",
+     "w": [
+      "They burn dead plant material in their mounds",
+      "They store the plant material without digesting it",
+      "They feed the plant material to dung beetles"
+     ],
+     "ex": "Through symbiotic relationships with protozoa, fungus and others, termites break down cellulose in dead plants so nutrients can be recycled.",
+     "group": "Termites",
+     "page": "52",
+     "draft": true
+    },
+    {
+     "id": "ARTH-016",
+     "q": "Which termite caste is made up of infertile males and females with undeveloped sexual organs?",
+     "a": "Workers and soldiers",
+     "w": [
+      "Alates",
+      "The king and queen",
+      "Nymphs"
+     ],
+     "ex": "Workers and soldiers are infertile males and females whose sexual organs have failed to develop, so they can devote time to labour.",
+     "group": "Termites",
+     "page": "53",
+     "draft": true
+    },
+    {
+     "id": "ARTH-017",
+     "q": "What are termite alates?",
+     "a": "Winged fertile males and females",
+     "w": [
+      "Infertile soldiers with large jaws",
+      "Workers that tend the fungus gardens",
+      "Young nymphs that have not moulted"
+     ],
+     "ex": "Alates are winged fertile males and females, present in the mound in spring and summer; they are feeble fliers.",
+     "group": "Termites",
+     "page": "53",
+     "draft": true
+    },
+    {
+     "id": "ARTH-018",
+     "q": "How do termite workers stimulate the queen to lay more eggs?",
+     "a": "They lick her",
+     "w": [
+      "They feed her fungus balls",
+      "They fan her with their wings",
+      "They bite her abdomen"
+     ],
+     "ex": "The workers lick the queen to stimulate laying; when she is old they eventually lick her to death.",
+     "group": "Termites",
+     "page": "53",
+     "draft": true
+    },
+    {
+     "id": "ARTH-019",
+     "q": "Under optimal conditions, queen termites may live for over...",
+     "a": "45 years",
+     "w": [
+      "5 years",
+      "15 years",
+      "100 years"
+     ],
+     "ex": "The manual states that, under optimal conditions, queen termites may survive for over 45 years.",
+     "group": "Termites",
+     "page": "53",
+     "draft": true
+    },
+    {
+     "id": "ARTH-020",
+     "q": "The 'cement' that binds fungus-growing termite mounds is made of...",
+     "a": "Termite excrement and saliva",
+     "w": [
+      "Clay and plant sap",
+      "Fungus and water",
+      "Silk and sand"
+     ],
+     "ex": "Large fungus-growing termite mounds are soil particles bound with 'cement' of termite excrement and saliva.",
+     "group": "Termites",
+     "page": "53",
+     "draft": true
+    },
+    {
+     "id": "ARTH-021",
+     "q": "How can you tell where harvester termites are living?",
+     "a": "Small, scattered heaps of loose sand with a hole in the centre",
+     "w": [
+      "Tall mounds that lean towards the north",
+      "Paper nests hanging from branches",
+      "Conical pits in loose sand"
+     ],
+     "ex": "Harvester termites live in underground chambers; small heaps of loose sand with a central hole show where they are.",
+     "group": "Termites",
+     "page": "54",
+     "draft": true
+    },
+    {
+     "id": "ARTH-022",
+     "q": "What is true of the harvester termite queen?",
+     "a": "She can move around the nest, as there is no royal chamber",
+     "w": [
+      "She lives in a royal chamber at the top of a mound",
+      "She lives alone, outside the main nest",
+      "She is licked to death within her first year"
+     ],
+     "ex": "In harvester termite nests the queen can move from one part of the nest to another and there is no royal chamber.",
+     "group": "Termites",
+     "page": "54",
+     "draft": true
+    },
+    {
+     "id": "ARTH-023",
+     "q": "What are a mantid's two front legs armed with for grasping prey?",
+     "a": "A double row of spikes",
+     "w": [
+      "Venom claws",
+      "Sticky pads",
+      "Scissor-like pincers"
+     ],
+     "ex": "Mantids stalk and grasp prey with their two front legs, which are armed with a double row of spikes.",
+     "group": "Mantids",
+     "page": "54",
+     "draft": true
+    },
+    {
+     "id": "ARTH-024",
+     "q": "How does the female mantid make her egg case?",
+     "a": "She secretes a liquid that turns into foam in the air",
+     "w": [
+      "She spins a silk cocoon from her spinnerets",
+      "She chews wood pulp and spit into a nest",
+      "She rolls a ball of mud around the eggs"
+     ],
+     "ex": "The female secretes a liquid from her genital opening that turns into foam on contact with the air, then lays about 60 eggs in it at night.",
+     "group": "Mantids",
+     "page": "54",
+     "draft": true
+    },
+    {
+     "id": "ARTH-025",
+     "q": "How does a cicada produce its shrill sound?",
+     "a": "A muscle repeatedly clicks a membrane on the side of its body",
+     "w": [
+      "It rubs its wings together",
+      "It scrapes its legs along its abdomen",
+      "It forces air out through its mouth"
+     ],
+     "ex": "A muscle attached to a membrane on either side of the body contracts and releases, making clicks repeated in quick succession.",
+     "group": "Cicadas",
+     "page": "54",
+     "draft": true
+    },
+    {
+     "id": "ARTH-026",
+     "q": "What do cicada nymphs feed on while living underground?",
+     "a": "The roots of the tree",
+     "w": [
+      "Termites and other insects",
+      "Dead leaves and dung",
+      "Fungus in the soil"
+     ],
+     "ex": "The nymph falls to the ground, buries itself and feeds on the roots of the tree, for a couple of years up to seventeen years.",
+     "group": "Cicadas",
+     "page": "54",
+     "draft": true
+    },
+    {
+     "id": "ARTH-027",
+     "q": "How do antlion antennae differ from those of dragonflies?",
+     "a": "Antlion antennae are clubbed and conspicuous",
+     "w": [
+      "Antlion antennae are threadlike and minute",
+      "Antlion antennae are feathery",
+      "Antlions have no antennae"
+     ],
+     "ex": "The antennae of the antlion are clubbed and conspicuous, whereas those of the dragonfly are threadlike and minute.",
+     "group": "Antlions",
+     "page": "55",
+     "draft": true
+    },
+    {
+     "id": "ARTH-028",
+     "q": "What is unusual about antlion larvae?",
+     "a": "They have no anus and store their waste until the end of the larval stage",
+     "w": [
+      "They have no mouthparts and do not feed",
+      "They are produced without eggs",
+      "They can glow in the dark"
+     ],
+     "ex": "Antlion larvae lack an anus; all their waste is stored and ejected as a single pellet at the end of the larval stage.",
+     "group": "Antlions",
+     "page": "55",
+     "draft": true
+    },
+    {
+     "id": "ARTH-029",
+     "q": "How long can the antlion larval period last?",
+     "a": "Up to three years",
+     "w": [
+      "Up to four weeks",
+      "Up to seventeen years",
+      "Up to ten days"
+     ],
+     "ex": "The larval period can last up to three years, after which the larva spins a silk cocoon and pupates for about four weeks.",
+     "group": "Antlions",
+     "page": "55",
+     "draft": true
+    },
+    {
+     "id": "ARTH-030",
+     "q": "What kind of insects are glow-worms and fireflies?",
+     "a": "Beetles",
+     "w": [
+      "Flies",
+      "Worms",
+      "Moths"
+     ],
+     "ex": "Glow-worms and fireflies are neither flies nor worms; they are beetles.",
+     "group": "Fireflies and glow-worms",
+     "page": "55",
+     "draft": true
+    },
+    {
+     "id": "ARTH-031",
+     "q": "Which enzyme in firefly blood acts on luciferin to produce light?",
+     "a": "Luciferase",
+     "w": [
+      "Urate",
+      "Chitin",
+      "Melarsoprol"
+     ],
+     "ex": "An enzyme called luciferase acts upon luciferin in the presence of oxygen to produce light; urate crystals act as a reflector.",
+     "group": "Fireflies and glow-worms",
+     "page": "55",
+     "draft": true
+    },
+    {
+     "id": "ARTH-032",
+     "q": "How does a firefly switch its light on and off?",
+     "a": "By controlling the flow of oxygen to the light cells",
+     "w": [
+      "By opening and closing its wings",
+      "By moving its urate crystals",
+      "By changing its body temperature"
+     ],
+     "ex": "By controlling the flow of oxygen to the cells, the insect can switch the light on and off at will.",
+     "group": "Fireflies and glow-worms",
+     "page": "55",
+     "draft": true
+    },
+    {
+     "id": "ARTH-033",
+     "q": "Which group of dung beetles rolls a brood-ball away from the dung heap before burying it?",
+     "a": "Telecoprids",
+     "w": [
+      "Endocoprids",
+      "Paracoprids",
+      "Kleptocoprids"
+     ],
+     "ex": "Telecoprids roll a brood-ball away from the dung, lay an egg in it and bury it.",
+     "group": "Dung beetles",
+     "page": "56",
+     "draft": true
+    },
+    {
+     "id": "ARTH-034",
+     "q": "Which group of dung beetles steals dung balls from other dung beetles?",
+     "a": "Kleptocoprids",
+     "w": [
+      "Telecoprids",
+      "Endocoprids",
+      "Paracoprids"
+     ],
+     "ex": "Kleptocoprids steal dung balls from the telecoprids.",
+     "group": "Dung beetles",
+     "page": "56",
+     "draft": true
+    },
+    {
+     "id": "ARTH-035",
+     "q": "Which group of dung beetles lays its eggs directly into the dung?",
+     "a": "Endocoprids",
+     "w": [
+      "Paracoprids",
+      "Telecoprids",
+      "Kleptocoprids"
+     ],
+     "ex": "Endocoprids lay their eggs directly into the dung; paracoprids bury a dung ball directly below the dung pile.",
+     "group": "Dung beetles",
+     "page": "56",
+     "draft": true
+    },
+    {
+     "id": "ARTH-036",
+     "q": "Without dung beetles, how much of the nitrates in a dung heap would seep into the soil?",
+     "a": "Only 3%",
+     "w": [
+      "About 30%",
+      "About 50%",
+      "About 75%"
+     ],
+     "ex": "Without dung beetles only 3% of the nitrates would seep into the soil; the rest would be left on the surface.",
+     "group": "Dung beetles",
+     "page": "56",
+     "draft": true
+    },
+    {
+     "id": "ARTH-037",
+     "q": "Why were dung beetles introduced into Australia?",
+     "a": "As a biological control for flies breeding in cattle dung",
+     "w": [
+      "To pollinate crops",
+      "To control termites in pastures",
+      "To feed birds on cattle farms"
+     ],
+     "ex": "Australia had no natural way to recycle cattle dung; introduced dung beetles greatly reduced the dung left for flies to breed in.",
+     "group": "Dung beetles",
+     "page": "56",
+     "draft": true
+    },
+    {
+     "id": "ARTH-038",
+     "q": "Which insect group is described as by far the most medically important of all insects?",
+     "a": "Flies, midges and mosquitoes",
+     "w": [
+      "Butterflies and moths",
+      "Ants, bees and wasps",
+      "Termites"
+     ],
+     "ex": "Flies, midges and mosquitoes pass on many diseases such as malaria, sleeping sickness, nagana and anthrax.",
+     "group": "Flies and mosquitoes",
+     "page": "56",
+     "draft": true
+    },
+    {
+     "id": "ARTH-039",
+     "q": "Why can male mosquitoes not suck blood?",
+     "a": "Their mouthparts cannot pierce skin",
+     "w": [
+      "They have no proboscis at all",
+      "Blood is poisonous to them",
+      "They only feed as larvae"
+     ],
+     "ex": "The male's mouthparts are imperfectly developed and cannot pierce skin; he feeds on nectar and fruit juices.",
+     "group": "Flies and mosquitoes",
+     "page": "56",
+     "draft": true
+    },
+    {
+     "id": "ARTH-040",
+     "q": "What does it mean when a female mosquito is 'autogenous'?",
+     "a": "She can lay her first batch of eggs without a blood meal",
+     "w": [
+      "She never needs blood to lay eggs",
+      "She can lay eggs without mating",
+      "She feeds only on nectar all her life"
+     ],
+     "ex": "An autogenous female can lay her first batch of eggs without a blood meal, but later egg-laying requires blood.",
+     "group": "Flies and mosquitoes",
+     "page": "56",
+     "draft": true
+    },
+    {
+     "id": "ARTH-041",
+     "q": "What causes the very high fever in malaria?",
+     "a": "Toxic by-products released when infected red blood cells burst",
+     "w": [
+      "Mosquito saliva left in the bite wound",
+      "Bacteria multiplying in the liver",
+      "Swelling of the brain"
+     ],
+     "ex": "Toxic by-products from the protozoa feeding on red blood cells are released when the cells burst, causing high fever and delirium.",
+     "group": "Malaria",
+     "page": "57",
+     "draft": true
+    },
+    {
+     "id": "ARTH-042",
+     "q": "What is the usual incubation period of malaria after a bite?",
+     "a": "10 to 14 days",
+     "w": [
+      "1 to 2 days",
+      "5 to 7 days",
+      "2 to 3 months"
+     ],
+     "ex": "The incubation time for malaria is usually between 10 and 14 days, but can be shorter or much longer.",
+     "group": "Malaria",
+     "page": "57",
+     "draft": true
+    },
+    {
+     "id": "ARTH-043",
+     "q": "When do most malaria infections happen?",
+     "a": "Late summer",
+     "w": [
+      "Early winter",
+      "Late winter",
+      "Early spring"
+     ],
+     "ex": "Malaria increases in years of heavy rainfall, with most infections happening in late summer.",
+     "group": "Malaria",
+     "page": "57",
+     "draft": true
+    },
+    {
+     "id": "ARTH-044",
+     "q": "How does a resting tsetse fly hold its wings?",
+     "a": "Folded one over the other like the blades of scissors",
+     "w": [
+      "Held upright and closed together",
+      "Spread out flat to the sides",
+      "Folded roof-like over the body"
+     ],
+     "ex": "Tsetse wings are folded one over the other like the blades of a pair of scissors, with the tips beyond the abdomen.",
+     "group": "Tsetse flies",
+     "page": "57",
+     "draft": true
+    },
+    {
+     "id": "ARTH-045",
+     "q": "Which tsetse flies feed on blood?",
+     "a": "Both males and females",
+     "w": [
+      "Only the females",
+      "Only the males",
+      "Only the larvae"
+     ],
+     "ex": "Both sexes of tsetse fly are blood-feeders (sanguinophagous).",
+     "group": "Tsetse flies",
+     "page": "57",
+     "draft": true
+    },
+    {
+     "id": "ARTH-046",
+     "q": "What does sleeping sickness cause in the body?",
+     "a": "Swelling of the brain and inflammation of the heart",
+     "w": [
+      "Bursting of red blood cells only",
+      "Bleeding from small blood vessels",
+      "Tissue death around the bite"
+     ],
+     "ex": "Tsetse flies carry the protozoa; the infection spreads through the blood and causes swelling of the brain and inflammation of the heart.",
+     "group": "Tsetse flies",
+     "page": "57",
+     "draft": true
+    },
+    {
+     "id": "ARTH-047",
+     "q": "How do butterfly antennae usually differ from moth antennae?",
+     "a": "Butterfly antennae are usually clubbed at the end",
+     "w": [
+      "Butterfly antennae are usually feathery",
+      "Butterfly antennae are threadlike and minute",
+      "Butterflies have no antennae"
+     ],
+     "ex": "Butterfly antennae are usually clubbed; moth antennae are usually feathery and never clubbed at the tip.",
+     "group": "Butterflies and moths",
+     "page": "58",
+     "draft": true
+    },
+    {
+     "id": "ARTH-048",
+     "q": "What is a frenulum?",
+     "a": "A device that links the wings together in flight",
+     "w": [
+      "A scent pouch on the hind wing",
+      "The coiled sucking mouthparts",
+      "A scale that sheds when touched"
+     ],
+     "ex": "A frenulum links the wings together in flight; most moths have one and butterflies do not.",
+     "group": "Butterflies and moths",
+     "page": "58",
+     "draft": true
+    },
+    {
+     "id": "ARTH-049",
+     "q": "What is the main food plant of the mopane moth larva?",
+     "a": "Mopane leaves",
+     "w": [
+      "Milkweed leaves",
+      "Capparis, Boscia and Maerua leaves",
+      "Fig leaves"
+     ],
+     "ex": "The main food plant of the mopane moth larva is the leaf of the mopane tree.",
+     "group": "Butterflies and moths",
+     "page": "58",
+     "draft": true
+    },
+    {
+     "id": "ARTH-050",
+     "q": "Why are African monarch butterflies toxic to predators?",
+     "a": "Their larvae eat poisonous milkweed leaves",
+     "w": [
+      "They produce venom in their scent glands",
+      "They feed on poisonous nectar as adults",
+      "They eat toxic mopane leaves"
+     ],
+     "ex": "The larvae eat the poisonous leaves of milkweed, making both caterpillar and adult butterfly toxic.",
+     "group": "Butterflies and moths",
+     "page": "58",
+     "draft": true
+    },
+    {
+     "id": "ARTH-051",
+     "q": "Why is the female African diadem seldom preyed upon?",
+     "a": "She closely mimics the toxic African monarch",
+     "w": [
+      "She is toxic to predators",
+      "She only flies at night",
+      "She has large eye-spots on her wings"
+     ],
+     "ex": "The female African diadem is not toxic but closely mimics the African monarch, so she is seldom preyed upon.",
+     "group": "Butterflies and moths",
+     "page": "58",
+     "draft": true
+    },
+    {
+     "id": "ARTH-052",
+     "q": "What prompts the mass migration of brown-veined white butterflies?",
+     "a": "Numbers grow far beyond the food available",
+     "w": [
+      "The first winter frosts",
+      "The flowering of mopane trees",
+      "Heavy rains flooding their habitat"
+     ],
+     "ex": "By December the population grows far beyond food availability, prompting mass migration in a north-easterly direction.",
+     "group": "Butterflies and moths",
+     "page": "58",
+     "draft": true
+    },
+    {
+     "id": "ARTH-053",
+     "q": "Which ants are the soldiers of the colony?",
+     "a": "Major workers with large heads",
+     "w": [
+      "Winged virgin males",
+      "The queens",
+      "Minor workers with small heads"
+     ],
+     "ex": "Workers are sterile females of different sizes; the major workers have large heads and are the soldiers.",
+     "group": "Ants",
+     "page": "59",
+     "draft": true
+    },
+    {
+     "id": "ARTH-054",
+     "q": "What happens when an attacked ant releases a large amount of alarm pheromone?",
+     "a": "The rest of the colony flees",
+     "w": [
+      "Other ants come in to help",
+      "The queen starts laying eggs",
+      "The colony moves into the attack"
+     ],
+     "ex": "Limited secretion calls in support from the colony, while large amounts make the rest of the colony flee.",
+     "group": "Ants",
+     "page": "59",
+     "draft": true
+    },
+    {
+     "id": "ARTH-055",
+     "q": "What does a female spider-hunting wasp do with the spider she has stung?",
+     "a": "Lays her egg in it so her larva can feed on it alive",
+     "w": [
+      "Eats it immediately",
+      "Uses it to build her nest",
+      "Feeds it to the adult wasps in the colony"
+     ],
+     "ex": "She carries the paralysed spider to her nest and lays an egg in its abdomen; the larva feeds on the living spider.",
+     "group": "Wasps",
+     "page": "59",
+     "draft": true
+    },
+    {
+     "id": "ARTH-056",
+     "q": "How does a female fig-wasp find a fig of the right species?",
+     "a": "Each fig species releases its own chemical pheromone",
+     "w": [
+      "She follows other wasps to the tree",
+      "She recognises the colour of the fruit",
+      "She is attracted by the sound of the tree"
+     ],
+     "ex": "Each fig species releases a specific chemical pheromone which the wasp picks up with her well-developed antennae.",
+     "group": "Wasps",
+     "page": "59",
+     "draft": true
+    },
+    {
+     "id": "ARTH-057",
+     "q": "What type of relationship exists between figs and fig-wasps?",
+     "a": "Obligate mutualism",
+     "w": [
+      "Parasitism",
+      "Commensalism",
+      "Competition"
+     ],
+     "ex": "Figs depend totally on fig-wasps for fertilisation and the wasps depend on figs; this is obligate mutualism.",
+     "group": "Wasps",
+     "page": "59",
+     "draft": true
+    },
+    {
+     "id": "ARTH-058",
+     "q": "What do paper wasps build their nests from?",
+     "a": "Wood-pulp and spit",
+     "w": [
+      "Mud and saliva",
+      "Silk and leaves",
+      "Excrement and sand"
+     ],
+     "ex": "Paper wasps are communal insects that build their 'paper nests' from wood-pulp and spit.",
+     "group": "Wasps",
+     "page": "60",
+     "draft": true
+    },
+    {
+     "id": "ARTH-059",
+     "q": "Which statement about honey bee drones is correct?",
+     "a": "They come from unfertilised eggs and cannot sting",
+     "w": [
+      "They are sterile females that forage",
+      "They are the only bees that can sting",
+      "They guard the hive entrance"
+     ],
+     "ex": "Drones are males from unfertilised eggs; they cannot sting and their only purpose is to mate with a virgin queen.",
+     "group": "Bees",
+     "page": "60",
+     "draft": true
+    },
+    {
+     "id": "ARTH-060",
+     "q": "What happens to honey bee drones at the onset of winter?",
+     "a": "They are kept out of the hive and die",
+     "w": [
+      "They become foragers",
+      "They mate with the old queen",
+      "They hibernate in the centre of the hive"
+     ],
+     "ex": "When the nectar flow falls in winter, drones are no longer allowed into the hive and die of exposure and/or starvation.",
+     "group": "Bees",
+     "page": "60",
+     "draft": true
+    },
+    {
+     "id": "ARTH-061",
+     "q": "What is the final duty of a worker honey bee?",
+     "a": "Foraging for the hive",
+     "w": [
+      "Nursing the young",
+      "Guarding the entrance",
+      "Fanning the hive"
+     ],
+     "ex": "After about three weeks of nursing, guarding and fanning, the worker's final duty is foraging.",
+     "group": "Bees",
+     "page": "60",
+     "draft": true
+    },
+    {
+     "id": "ARTH-062",
+     "q": "Which bee product is described as the optimal natural antibiotic?",
+     "a": "Propolis",
+     "w": [
+      "Royal jelly",
+      "Beeswax",
+      "Pollen"
+     ],
+     "ex": "Propolis is the optimal natural antibiotic and acts against fungi, bacteria and viruses.",
+     "group": "Bees",
+     "page": "60",
+     "draft": true
+    },
+    {
+     "id": "ARTH-063",
+     "q": "How should a bee sting be removed?",
+     "a": "Scrape it out with a knife blade in the direction it went in",
+     "w": [
+      "Squeeze it out between finger and thumb",
+      "Pull it out with tweezers by the venom sack",
+      "Leave it in until it falls out"
+     ],
+     "ex": "Scrape the sting out with a knife blade in the same direction it went in, without squeezing more venom from the sack.",
+     "group": "Bees",
+     "page": "60",
+     "draft": true
+    },
+    {
+     "id": "ARTH-064",
+     "q": "Which of these can trigger bees to become aggressive?",
+     "a": "Sweat",
+     "w": [
+      "Bright clothing",
+      "Loud talking",
+      "Cool weather"
+     ],
+     "ex": "Sweat, engine fumes and the smell of crushed khaki weed near a hive can trigger bees.",
+     "group": "Bees",
+     "page": "60",
+     "draft": true
+    },
+    {
+     "id": "ARTH-065",
+     "q": "According to the manual, what is the best defence if bees attack?",
+     "a": "Run through thick bush",
+     "w": [
+      "Lie still on the ground",
+      "Jump into water",
+      "Swat at the bees"
+     ],
+     "ex": "The best defence is to run through thick bush, or close yourself in a tent or building if possible.",
+     "group": "Bees",
+     "page": "60",
+     "draft": true
+    },
+    {
+     "id": "ARTH-066",
+     "q": "How many body parts do arachnids have?",
+     "a": "Two",
+     "w": [
+      "Three",
+      "One",
+      "Four"
+     ],
+     "ex": "All arachnids have two body parts: the cephalothorax and an abdomen.",
+     "group": "Arachnids",
+     "page": "62",
+     "draft": true
+    },
+    {
+     "id": "ARTH-067",
+     "q": "What does it mean that an arachnid's body is a haemocoel?",
+     "a": "Blood circulates without the aid of tubes",
+     "w": [
+      "The body is filled with air sacs",
+      "The blood is pumped through veins",
+      "The body has no blood"
+     ],
+     "ex": "The arachnid body is a haemocoel - it circulates the blood without the aid of tubes.",
+     "group": "Arachnids",
+     "page": "62",
+     "draft": true
+    },
+    {
+     "id": "ARTH-068",
+     "q": "According to the manual's comparison table, what do spiders eat?",
+     "a": "They are carnivores",
+     "w": [
+      "They are herbivores and carnivores",
+      "They are herbivores only",
+      "They feed only on nectar"
+     ],
+     "ex": "The table states that insects are herbivores and carnivores, while spiders are carnivores.",
+     "group": "Spiders",
+     "page": "62",
+     "draft": true
+    },
+    {
+     "id": "ARTH-069",
+     "q": "From what did spider venom glands originate?",
+     "a": "Accessory digestive glands",
+     "w": [
+      "Silk glands",
+      "Scent glands",
+      "Breathing organs"
+     ],
+     "ex": "Spider venom glands originated as accessory digestive glands, and the venom aids external digestion.",
+     "group": "Spiders",
+     "page": "62",
+     "draft": true
+    },
+    {
+     "id": "ARTH-070",
+     "q": "Where are a spider's sense organs for smell and touch found?",
+     "a": "On the legs, as slits or fine hairs",
+     "w": [
+      "In the eight simple eyes",
+      "In the spinnerets",
+      "Inside the chelicerae only"
+     ],
+     "ex": "A spider's sense organs for smell and touch are on the legs as slits or fine tactile hairs that pick up vibrations.",
+     "group": "Spiders",
+     "page": "62",
+     "draft": true
+    },
+    {
+     "id": "ARTH-071",
+     "q": "What is the female spider's reproductive organ called?",
+     "a": "Epigynum",
+     "w": [
+      "Pedipalp",
+      "Spinneret",
+      "Gnathosoma"
+     ],
+     "ex": "The male places sperm with his pedipalps into the female's reproductive organ, the epigynum.",
+     "group": "Spiders",
+     "page": "62",
+     "draft": true
+    },
+    {
+     "id": "ARTH-072",
+     "q": "What is the process of moulting in arthropods called?",
+     "a": "Ecdysis",
+     "w": [
+      "Metamorphosis",
+      "Instar",
+      "Pupation"
+     ],
+     "ex": "The process of moulting in arthropods is called ecdysis; young spiders moult up to 10 times.",
+     "group": "Spiders",
+     "page": "62",
+     "draft": true
+    },
+    {
+     "id": "ARTH-073",
+     "q": "At which trophic level are spiders classified?",
+     "a": "Secondary consumers",
+     "w": [
+      "Primary consumers",
+      "Producers",
+      "Decomposers"
+     ],
+     "ex": "Spiders are secondary consumers because their prey are usually primary consumers.",
+     "group": "Spiders",
+     "page": "62",
+     "draft": true
+    },
+    {
+     "id": "ARTH-074",
+     "q": "What are the two primary functions of spider venom?",
+     "a": "To kill or paralyse prey and start breaking down its organs",
+     "w": [
+      "To defend the web and attract mates",
+      "To build egg sacs and paralyse prey",
+      "To scare predators and mark territory"
+     ],
+     "ex": "Spider venom kills or paralyses prey and then starts breaking down the internal organs before the prey is eaten.",
+     "group": "Spider first aid",
+     "page": "63",
+     "draft": true
+    },
+    {
+     "id": "ARTH-075",
+     "q": "What is the first step of first aid for a serious neurotoxic spider bite?",
+     "a": "Wash the site of the bite",
+     "w": [
+      "Apply a cold compress",
+      "Raise the limb above the heart",
+      "Cut and suck the wound"
+     ],
+     "ex": "Wash the bite, apply a crepe bandage, then a cold compress, keep the limb below the heart and get to a medical facility.",
+     "group": "Spider first aid",
+     "page": "63",
+     "draft": true
+    },
+    {
+     "id": "ARTH-076",
+     "q": "After a neurotoxic bite on an arm or leg, where should the limb be kept?",
+     "a": "Below the level of the heart",
+     "w": [
+      "Above the level of the heart",
+      "Level with the head",
+      "It does not matter"
+     ],
+     "ex": "If the bite is on an extremity, keep the limb below the level of the heart to restrict the flow of venom.",
+     "group": "Spider first aid",
+     "page": "63",
+     "draft": true
+    },
+    {
+     "id": "ARTH-077",
+     "q": "In the neurotoxic venom group, which spider requires immediate action?",
+     "a": "Black widow",
+     "w": [
+      "Brown widow",
+      "Horned baboon spider",
+      "Sac spider"
+     ],
+     "ex": "The manual says that in the neurotoxic venom group only the black widow requires immediate action.",
+     "group": "Spider first aid",
+     "page": "63",
+     "draft": true
+    },
+    {
+     "id": "ARTH-078",
+     "q": "What is typical of a cytotoxic spider bite at first?",
+     "a": "It is usually painless and symptoms are slow to appear",
+     "w": [
+      "It causes immediate severe pain and paralysis",
+      "It causes breathing difficulty within minutes",
+      "It causes heavy bleeding from the bite"
+     ],
+     "ex": "A cytotoxic bite is usually painless with slow symptoms: a red, swollen, itchy area like a mosquito bite.",
+     "group": "Spider first aid",
+     "page": "63",
+     "draft": true
+    },
+    {
+     "id": "ARTH-079",
+     "q": "In first aid for violin and sac spider bites, how should the wound be iced?",
+     "a": "For 10-minute intervals at least twice a day",
+     "w": [
+      "Continuously for 24 hours",
+      "For 1 minute every hour",
+      "Ice should never be used"
+     ],
+     "ex": "Ice the wound for 10-minute intervals at least twice a day and apply antiseptic cream.",
+     "group": "Spider first aid",
+     "page": "63",
+     "draft": true
+    },
+    {
+     "id": "ARTH-080",
+     "q": "Where does the name 'baboon spider' come from?",
+     "a": "Their colour and hairy, stout body",
+     "w": [
+      "They are often eaten by baboons",
+      "They live in baboon sleeping sites",
+      "The noise they make in a threat display"
+     ],
+     "ex": "The colour and hairy, stout body are the origin of the name baboon spider.",
+     "group": "Spiders",
+     "page": "63",
+     "draft": true
+    },
+    {
+     "id": "ARTH-081",
+     "q": "How are the different horned baboon spider species best identified?",
+     "a": "By the location of the horn on the cephalothorax",
+     "w": [
+      "By the colour of their fangs",
+      "By the depth of their burrows",
+      "By the pattern on the abdomen"
+     ],
+     "ex": "Horned baboon spiders are best identified by the location of the horn on the cephalothorax; their venom is neurotoxic.",
+     "group": "Spiders",
+     "page": "64",
+     "draft": true
+    },
+    {
+     "id": "ARTH-082",
+     "q": "How does the six-eyed crab spider catch its prey?",
+     "a": "It buries itself just below the sand and ambushes prey",
+     "w": [
+      "It spins a large orb web",
+      "It chases prey over long distances",
+      "It hunts in groups from a communal nest"
+     ],
+     "ex": "The six-eyed crab spider ambushes prey, buried just below the surface where sand sticks to its body.",
+     "group": "Spiders",
+     "page": "64",
+     "draft": true
+    },
+    {
+     "id": "ARTH-083",
+     "q": "How many eyes does the violin spider have?",
+     "a": "Six",
+     "w": [
+      "Eight",
+      "Four",
+      "Two"
+     ],
+     "ex": "The violin spider has six eyes, whereas most other spiders have eight.",
+     "group": "Spiders",
+     "page": "64",
+     "draft": true
+    },
+    {
+     "id": "ARTH-084",
+     "q": "What does a sac spider bite look like at first?",
+     "a": "Two red dots about 6 mm apart",
+     "w": [
+      "A large blister with a black ring",
+      "A single deep puncture wound",
+      "A bright red hour-glass mark"
+     ],
+     "ex": "The sac spider bite shows two red dots about 6 mm apart; effects are only noticed about 24 hours later.",
+     "group": "Spiders",
+     "page": "64",
+     "draft": true
+    },
+    {
+     "id": "ARTH-085",
+     "q": "How can the brown widow be told apart from the black widow?",
+     "a": "An orange/red hour-glass shape under the abdomen",
+     "w": [
+      "A red dot on the upper side of the abdomen",
+      "A smooth, round egg sac",
+      "A preference for long grass and rocks"
+     ],
+     "ex": "The brown widow has an orange/red hour-glass under the abdomen; the black widow has a red dot or stripe on top.",
+     "group": "Spiders",
+     "page": "65",
+     "draft": true
+    },
+    {
+     "id": "ARTH-086",
+     "q": "How does the brown widow's egg sac differ from the black widow's?",
+     "a": "It has small spikes sticking out",
+     "w": [
+      "It is smooth and round",
+      "It is flat against a surface",
+      "It is buried in the sand"
+     ],
+     "ex": "Both have whitish, ball-shaped egg sacs; the brown widow's has small spikes, the black widow's is smooth and round.",
+     "group": "Spiders",
+     "page": "65",
+     "draft": true
+    },
+    {
+     "id": "ARTH-087",
+     "q": "Where are community web spiders commonly seen?",
+     "a": "In large, messy nests on thorn trees in the savannah",
+     "w": [
+      "In burrows up to 30 cm deep",
+      "Under rocks in sandy deserts",
+      "On curtains in houses"
+     ],
+     "ex": "These social spiders build large, messy ball-shaped nests in a community on thorn trees in the savannah.",
+     "group": "Spiders",
+     "page": "65",
+     "draft": true
+    },
+    {
+     "id": "ARTH-088",
+     "q": "What is the stinger at the end of a scorpion's tail called?",
+     "a": "Aculeus",
+     "w": [
+      "Pedipalp",
+      "Chelicera",
+      "Carapace"
+     ],
+     "ex": "The tail ends in a stinger called an aculeus; the segment before it contains the venom gland.",
+     "group": "Scorpions",
+     "page": "66",
+     "draft": true
+    },
+    {
+     "id": "ARTH-089",
+     "q": "What do scorpions use their enlarged pedipalps (pincers) for?",
+     "a": "Capturing prey",
+     "w": [
+      "Spinning webs",
+      "Feeding and chewing",
+      "Breathing"
+     ],
+     "ex": "The chelicerae are used for feeding and the pedipalps (pincers) are enlarged for capturing prey.",
+     "group": "Scorpions",
+     "page": "66",
+     "draft": true
+    },
+    {
+     "id": "ARTH-090",
+     "q": "Where do young scorpions stay until their first moult?",
+     "a": "On their mother's back",
+     "w": [
+      "In a silk egg sac",
+      "In a separate burrow",
+      "Under the bark of trees"
+     ],
+     "ex": "The young climb onto the female's back and remain there until their first moult, then scatter.",
+     "group": "Scorpions",
+     "page": "66",
+     "draft": true
+    },
+    {
+     "id": "ARTH-091",
+     "q": "How long can some larger scorpions live?",
+     "a": "Up to 25 years",
+     "w": [
+      "Up to 2 years",
+      "Up to 6 months",
+      "Up to 45 years"
+     ],
+     "ex": "Smaller species may live 3-5 years, but some larger scorpions can live for as long as 25 years.",
+     "group": "Scorpions",
+     "page": "66",
+     "draft": true
+    },
+    {
+     "id": "ARTH-092",
+     "q": "What shape are scorpion burrows?",
+     "a": "Keyhole shaped",
+     "w": [
+      "Conical pits",
+      "Ball shaped",
+      "Long, straight tunnels"
+     ],
+     "ex": "Scorpions dig 'keyhole' shaped burrows; in hot dry areas they are deep to keep the scorpion cool.",
+     "group": "Scorpions",
+     "page": "66",
+     "draft": true
+    },
+    {
+     "id": "ARTH-093",
+     "q": "Why should campers be careful when sitting around a fire?",
+     "a": "Logs thrown on the fire often disturb scorpions",
+     "w": [
+      "Scorpions are attracted to firelight",
+      "Smoke makes scorpions aggressive",
+      "Scorpions hunt near warm ashes"
+     ],
+     "ex": "Logs thrown onto a camp fire often disturb scorpions, so campers should take care.",
+     "group": "Scorpions",
+     "page": "66",
+     "draft": true
+    },
+    {
+     "id": "ARTH-094",
+     "q": "Which scorpion family has thick tails and thin pincers?",
+     "a": "Buthidae",
+     "w": [
+      "Scorpionidae",
+      "Ixodidae",
+      "Argasidae"
+     ],
+     "ex": "Buthidae have thick tails and thin pedipalps; Scorpionidae have thin tails and thick pincers.",
+     "group": "Scorpions",
+     "page": "67",
+     "draft": true
+    },
+    {
+     "id": "ARTH-095",
+     "q": "How venomous are scorpions of the family Scorpionidae?",
+     "a": "Only mildly venomous",
+     "w": [
+      "Potentially fatal",
+      "Not venomous at all",
+      "The most venomous in southern Africa"
+     ],
+     "ex": "Scorpionidae have thin tails and thick pedipalps used to hold prey, and are only mildly venomous.",
+     "group": "Scorpions",
+     "page": "67",
+     "draft": true
+    },
+    {
+     "id": "ARTH-096",
+     "q": "How do thick-tailed scorpions make a loud hissing sound?",
+     "a": "By scraping the sting along the first tail segments",
+     "w": [
+      "By rubbing their pincers together",
+      "By forcing air out of their book-lungs",
+      "By beating their legs on the ground"
+     ],
+     "ex": "They rasp the sting along the first two or three tail segments (stridulating) to warn predators.",
+     "group": "Scorpions",
+     "page": "67",
+     "draft": true
+    },
+    {
+     "id": "ARTH-097",
+     "q": "How do burrowing scorpions mainly subdue their prey?",
+     "a": "With their powerful pincers",
+     "w": [
+      "With a strong sting",
+      "By spraying venom",
+      "By trapping it in silk"
+     ],
+     "ex": "Burrowing scorpions do not rely on their sting to kill prey but rather on their powerful pincers.",
+     "group": "Scorpions",
+     "page": "67",
+     "draft": true
+    },
+    {
+     "id": "ARTH-098",
+     "q": "How does the manual describe the sting of the bark scorpions?",
+     "a": "Extremely painful but not medically significant",
+     "w": [
+      "Painless but deadly",
+      "Mild, like a mosquito bite",
+      "Highly toxic and often fatal"
+     ],
+     "ex": "The smaller bark scorpions have an extremely painful sting but are not medically significant.",
+     "group": "Scorpions",
+     "page": "67",
+     "draft": true
+    },
+    {
+     "id": "ARTH-099",
+     "q": "What feature separates the granulated thick-tailed scorpion from other thick-tailed scorpions?",
+     "a": "Its aculeus is about half the size of the other tail segments",
+     "w": [
+      "It is always bright yellow",
+      "It has thin tails and thick pincers",
+      "It can spray its venom"
+     ],
+     "ex": "The aculeus is about half the size of the other tail segments; colour alone can be confusing.",
+     "group": "Scorpions",
+     "page": "68",
+     "draft": true
+    },
+    {
+     "id": "ARTH-100",
+     "q": "Which scorpion is described as the most venomous species in southern Africa?",
+     "a": "Granulated thick-tailed scorpion",
+     "w": [
+      "Kalahari thick-tailed scorpion",
+      "Radiant burrowing scorpion",
+      "Bark scorpion"
+     ],
+     "ex": "The granulated thick-tailed scorpion is the most venomous species in southern Africa.",
+     "group": "Scorpions",
+     "page": "68",
+     "draft": true
+    },
+    {
+     "id": "ARTH-101",
+     "q": "Which scorpion is known to spray venom when agitated?",
+     "a": "Kalahari thick-tailed scorpion",
+     "w": [
+      "Granulated thick-tailed scorpion",
+      "Kalahari burrowing scorpion",
+      "Bark scorpion"
+     ],
+     "ex": "The Kalahari thick-tailed scorpion is known to spray venom when agitated.",
+     "group": "Scorpions",
+     "page": "68",
+     "draft": true
+    },
+    {
+     "id": "ARTH-102",
+     "q": "What type of venom do scorpions of the family Buthidae have?",
+     "a": "Neurotoxic venom with powerful cardiotoxins",
+     "w": [
+      "Cytotoxic venom that causes necrosis",
+      "Mild venom with no effect on the heart",
+      "Haemotoxic venom that stops clotting"
+     ],
+     "ex": "Buthidae venom is neurotoxic with powerful cardiotoxins that affect the heart muscle; it can also paralyse breathing.",
+     "group": "Scorpion first aid",
+     "page": "68",
+     "draft": true
+    },
+    {
+     "id": "ARTH-103",
+     "q": "What is the correct order of first aid for a scorpion sting?",
+     "a": "Wash, crepe bandage, cold compress, immobilise below heart",
+     "w": [
+      "Cold compress, wash, raise limb above heart",
+      "Cut the wound, suck out venom, then bandage",
+      "Give aspirin, wash, then apply a tourniquet"
+     ],
+     "ex": "Keep the patient calm, wash the sting, apply a crepe bandage, then a cold compress, and immobilise the limb below heart level.",
+     "group": "Scorpion first aid",
+     "page": "68",
+     "draft": true
+    },
+    {
+     "id": "ARTH-104",
+     "q": "Which pain relief must NOT be given for a scorpion sting?",
+     "a": "Aspirin",
+     "w": [
+      "A cold compress",
+      "Keeping the patient calm",
+      "A crepe bandage"
+     ],
+     "ex": "Aspirin should not be taken to alleviate the pain, nor should pethidine or morphine be given.",
+     "group": "Scorpion first aid",
+     "page": "68",
+     "draft": true
+    },
+    {
+     "id": "ARTH-105",
+     "q": "Why is it important to identify which scorpion stung the patient?",
+     "a": "A more specific anti-venom exists for the granulated thick-tailed scorpion",
+     "w": [
+      "So that the patient can be given aspirin",
+      "Because only bark scorpions need treatment",
+      "So the scorpion can be released safely"
+     ],
+     "ex": "A more specific anti-venom was made for the granulated thick-tailed scorpion, so good identification is important.",
+     "group": "Scorpion first aid",
+     "page": "68",
+     "draft": true
+    },
+    {
+     "id": "ARTH-106",
+     "q": "Why are solifuges not true spiders?",
+     "a": "They lack silk-producing organs and venom glands",
+     "w": [
+      "They have six legs",
+      "They have three body parts",
+      "They have wings"
+     ],
+     "ex": "Solifuges are not true spiders as they lack silk-producing spinning organs and venom glands.",
+     "group": "Solifuges",
+     "page": "69",
+     "draft": true
+    },
+    {
+     "id": "ARTH-107",
+     "q": "Which part of a solifuge is often mistaken for a fifth pair of legs?",
+     "a": "The long pedipalps",
+     "w": [
+      "The jaws",
+      "The horn-like extensions",
+      "The spinnerets"
+     ],
+     "ex": "Solifuge pedipalps are long and are often mistaken for a fifth pair of legs.",
+     "group": "Solifuges",
+     "page": "69",
+     "draft": true
+    },
+    {
+     "id": "ARTH-108",
+     "q": "How do female solifuges care for their young?",
+     "a": "She guards the eggs and stays until the young have moulted once",
+     "w": [
+      "She carries the young on her back until they mature",
+      "She leaves the eggs buried with no care",
+      "She feeds the young on a dung ball"
+     ],
+     "ex": "The female lays about 20 eggs in late summer, guards them and stays with the young until they have moulted once.",
+     "group": "Solifuges",
+     "page": "69",
+     "draft": true
+    },
+    {
+     "id": "ARTH-109",
+     "q": "Which is the largest mite and the only one easily seen?",
+     "a": "The velvet mite",
+     "w": [
+      "The pepper tick",
+      "The house dust mite",
+      "The tampan"
+     ],
+     "ex": "The velvet mite is bright red, about 5 mm, and is usually seen after summer thundershowers.",
+     "group": "Ticks and mites",
+     "page": "69",
+     "draft": true
+    },
+    {
+     "id": "ARTH-110",
+     "q": "What is the short projection that carries a tick's mouthparts called?",
+     "a": "Gnathosoma",
+     "w": [
+      "Scutum",
+      "Aculeus",
+      "Epigynum"
+     ],
+     "ex": "Tick mouthparts are on a short projection called a gnathosoma.",
+     "group": "Ticks and mites",
+     "page": "69",
+     "draft": true
+    },
+    {
+     "id": "ARTH-111",
+     "q": "Ticks form an important food source for which birds?",
+     "a": "Oxpeckers",
+     "w": [
+      "Rollers",
+      "Hornbills",
+      "Sunbirds"
+     ],
+     "ex": "Ticks are consumers in the trophic pyramid and an important food source for oxpeckers.",
+     "group": "Ticks and mites",
+     "page": "69",
+     "draft": true
+    },
+    {
+     "id": "ARTH-112",
+     "q": "What causes tick-bite fever?",
+     "a": "A bacterial infection in the tick's saliva",
+     "w": [
+      "A virus spread by tick droppings",
+      "A protozoan spread by mosquitoes",
+      "A fungus from tick nests"
+     ],
+     "ex": "Tick-bite fever (rickettsia) is caused by a bacterial infection transmitted in the tick's saliva.",
+     "group": "Tick-borne diseases",
+     "page": "69",
+     "draft": true
+    },
+    {
+     "id": "ARTH-113",
+     "q": "What is the incubation period of tick-bite fever?",
+     "a": "5 to 7 days",
+     "w": [
+      "10 to 14 days",
+      "2 to 3 weeks",
+      "3 months"
+     ],
+     "ex": "The incubation period from bite to symptoms is 5 - 7 days; it can be treated with antibiotics such as doxycycline.",
+     "group": "Tick-borne diseases",
+     "page": "69",
+     "draft": true
+    },
+    {
+     "id": "ARTH-114",
+     "q": "Without treatment, about how many people infected with Congo fever will die?",
+     "a": "Around 30%",
+     "w": [
+      "Around 3%",
+      "Around 75%",
+      "Almost all"
+     ],
+     "ex": "Without treatment, around 30% of people infected with Congo fever will die, usually within two weeks.",
+     "group": "Tick-borne diseases",
+     "page": "70",
+     "draft": true
+    },
+    {
+     "id": "ARTH-115",
+     "q": "What is the incubation period of Q disease?",
+     "a": "Two to three weeks",
+     "w": [
+      "Five to seven days",
+      "Ten to fourteen days",
+      "One to two days"
+     ],
+     "ex": "Q disease has an incubation period of two to three weeks; the fever lasts about 7 to 14 days.",
+     "group": "Tick-borne diseases",
+     "page": "70",
+     "draft": true
+    },
+    {
+     "id": "ARTH-116",
+     "q": "What feature do hard ticks have that soft ticks do not?",
+     "a": "A dorsal shield (scutum)",
+     "w": [
+      "Mouthparts on the underside",
+      "A two-nymph stage",
+      "No legs as larvae"
+     ],
+     "ex": "Hard ticks have a dorsal shield or scutum and mouthparts visible from above.",
+     "group": "Tick families",
+     "page": "70",
+     "draft": true
+    },
+    {
+     "id": "ARTH-117",
+     "q": "How many legs do newly hatched hard tick larvae ('pepper ticks') have?",
+     "a": "Six",
+     "w": [
+      "Eight",
+      "Four",
+      "Ten"
+     ],
+     "ex": "The eggs hatch into minute 6-legged larvae, often called seed ticks or pepper ticks; nymphs have 8 legs.",
+     "group": "Tick families",
+     "page": "70",
+     "draft": true
+    },
+    {
+     "id": "ARTH-118",
+     "q": "Where are the mouthparts of soft ticks (tampans) found?",
+     "a": "On the underside, not visible from above",
+     "w": [
+      "On top, visible from above",
+      "On a long tail",
+      "On the first pair of legs"
+     ],
+     "ex": "Soft tick mouthparts are on the ventral side (underside) and are not visible from above.",
+     "group": "Tick families",
+     "page": "70",
+     "draft": true
+    },
+    {
+     "id": "ARTH-119",
+     "q": "How many pairs of legs does each centipede body segment have?",
+     "a": "One pair",
+     "w": [
+      "Two pairs",
+      "Three pairs",
+      "Four pairs"
+     ],
+     "ex": "Each centipede segment has one pair of legs (excluding the first and last two segments).",
+     "group": "Centipedes",
+     "page": "70",
+     "draft": true
+    },
+    {
+     "id": "ARTH-120",
+     "q": "Does a centipede bite need medical attention according to the manual?",
+     "a": "No - it is painful but does not need medical attention",
+     "w": [
+      "Yes - it is always fatal without anti-venom",
+      "Yes - it causes severe tissue necrosis",
+      "No - centipedes have no venom"
+     ],
+     "ex": "Although centipede venom is painful, it does not require medical attention.",
+     "group": "Centipedes",
+     "page": "70",
+     "draft": true
+    },
+    {
+     "id": "ARTH-121",
+     "q": "How do centipedes reproduce?",
+     "a": "The male leaves sperm on the ground for the female to take up",
+     "w": [
+      "The male places sperm with his pedipalps",
+      "The male spins a web for his sperm",
+      "The female lays eggs that the male fertilises in water"
+     ],
+     "ex": "The male deposits sperm on the ground for the female to engulf; this is indirect internal fertilisation.",
+     "group": "Centipedes",
+     "page": "70",
+     "draft": true
+    },
+    {
+     "id": "ARTH-122",
+     "q": "How many pairs of legs do most millipede body segments have?",
+     "a": "Two pairs",
+     "w": [
+      "One pair",
+      "Three pairs",
+      "Four pairs"
+     ],
+     "ex": "Each millipede segment has two pairs of legs, except the first four segments (the thorax), which have one pair each.",
+     "group": "Millipedes",
+     "page": "71",
+     "draft": true
+    },
+    {
+     "id": "ARTH-123",
+     "q": "Which animals are named as major predators of millipedes?",
+     "a": "Civets",
+     "w": [
+      "Oxpeckers",
+      "Baboons",
+      "Bee-eaters"
+     ],
+     "ex": "The manual states that civets are major predators of millipedes.",
+     "group": "Millipedes",
+     "page": "71",
+     "draft": true
+    },
+    {
+     "id": "ARTH-124",
+     "q": "How do millipedes protect themselves from predators?",
+     "a": "They wriggle like a snake and release a foul chemical",
+     "w": [
+      "They inject venom from claws",
+      "They spray venom from their tail",
+      "They hide inside a silk web"
+     ],
+     "ex": "Millipedes have a hard exoskeleton, wriggle like a snake and release a foul chemical to prevent attack.",
+     "group": "Millipedes",
+     "page": "71",
+     "draft": true
+    }
+   ]
+  },
+  {
+   "id": "q-reptiles",
+   "kind": "questions",
+   "chapter": "Reptiles",
+   "title": "Reptiles - manual",
+   "photo": "",
+   "subtitle": "89 questions from the Botswana Guide Training Manual",
+   "items": [
+    {
+     "id": "REPT-001",
+     "q": "Which features are shared by all members of the Class Reptilia?",
+     "a": "Ectothermic, breathe air, internal fertilisation",
+     "w": [
+      "Endothermic, breathe air, internal fertilisation",
+      "Ectothermic, breathe through gills, external fertilisation",
+      "Endothermic, breathe air, external fertilisation"
+     ],
+     "ex": "All reptiles are ectothermic, have a backbone, breathe air and have internal fertilisation of the egg.",
+     "group": "Reptiles",
+     "page": "78",
+     "draft": true
+    },
+    {
+     "id": "REPT-002",
+     "q": "What are the bony scales on a crocodile's back called?",
+     "a": "Osteoderms",
+     "w": [
+      "Scutes",
+      "Odontoids",
+      "Chromatophores"
+     ],
+     "ex": "The back of the crocodile is covered in protective scales called osteoderms (meaning bony skin).",
+     "group": "Crocodiles",
+     "page": "78",
+     "draft": true
+    },
+    {
+     "id": "REPT-003",
+     "q": "Which member of the order Crocodylia is found in southern Africa?",
+     "a": "Only the Nile crocodile",
+     "w": [
+      "The Nile crocodile and the caiman",
+      "The Nile crocodile and the alligator",
+      "The Nile crocodile and the gavial"
+     ],
+     "ex": "Crocodylia includes crocodiles, caimans, alligators and gavials, but the Nile crocodile is the only species found in southern Africa.",
+     "group": "Crocodiles",
+     "page": "78",
+     "draft": true
+    },
+    {
+     "id": "REPT-004",
+     "q": "How many chambers does a crocodile's heart have?",
+     "a": "Four",
+     "w": [
+      "Three",
+      "Two",
+      "Five"
+     ],
+     "ex": "Unlike other reptiles but similar to mammals and birds, crocodiles have a four-chambered heart.",
+     "group": "Crocodiles",
+     "page": "78",
+     "draft": true
+    },
+    {
+     "id": "REPT-005",
+     "q": "Roughly what part of a crocodile's total length is made up by the tail?",
+     "a": "40%",
+     "w": [
+      "10%",
+      "25%",
+      "60%"
+     ],
+     "ex": "Crocodiles can exceed 6 m in length, and 40% of this is the tail.",
+     "group": "Crocodiles",
+     "page": "78",
+     "draft": true
+    },
+    {
+     "id": "REPT-006",
+     "q": "Why must a crocodile lift its head to open its mouth when basking?",
+     "a": "The upper jaw is fused with the skull",
+     "w": [
+      "The lower jaw is fused with the skull",
+      "Its jaw-opening muscles are too strong",
+      "Its teeth lock the jaws together"
+     ],
+     "ex": "Because the upper jaw is fused with the skull, the head must be lifted to let the bottom jaw fall open (mouth-gaping).",
+     "group": "Crocodiles",
+     "page": "78",
+     "draft": true
+    },
+    {
+     "id": "REPT-007",
+     "q": "Why do crocodiles lie on the bank with their mouths open?",
+     "a": "To warm or cool the blood through the mouth membranes",
+     "w": [
+      "To let their teeth dry out in the sun",
+      "To show other crocodiles their territory",
+      "To catch insects that fly past"
+     ],
+     "ex": "The thick hide slows heat transfer, so the soft mouth membrane absorbs heat; the same mechanism, facing away from the sun, cools the crocodile.",
+     "group": "Crocodiles",
+     "page": "78",
+     "draft": true
+    },
+    {
+     "id": "REPT-008",
+     "q": "In which river in south-eastern Botswana do Nile crocodiles occur?",
+     "a": "Limpopo",
+     "w": [
+      "Boteti",
+      "Okavango",
+      "Chobe"
+     ],
+     "ex": "Crocodiles occur in northern Botswana (Okavango, Chobe, Zambezi, Kubango) and, in the south east, in the Limpopo.",
+     "group": "Crocodiles",
+     "page": "78",
+     "draft": true
+    },
+    {
+     "id": "REPT-009",
+     "q": "About how much of the food a crocodile eats is stored as fat?",
+     "a": "About 60%",
+     "w": [
+      "About 10%",
+      "About 30%",
+      "About 90%"
+     ],
+     "ex": "About 60% of the food they eat is stored as fat in the tail, organs, abdomen and along the back.",
+     "group": "Crocodiles",
+     "page": "79",
+     "draft": true
+    },
+    {
+     "id": "REPT-010",
+     "q": "How long can a newly hatched crocodile survive on the yolk reserves in its belly?",
+     "a": "Up to four months",
+     "w": [
+      "Up to one week",
+      "Up to two years",
+      "Up to one month"
+     ],
+     "ex": "A newly hatched crocodile can survive for up to four months on the fat reserves of the egg-yolk in its belly.",
+     "group": "Crocodiles",
+     "page": "79",
+     "draft": true
+    },
+    {
+     "id": "REPT-011",
+     "q": "What does the gular flap at the back of the throat allow a crocodile to do?",
+     "a": "Open its mouth under water",
+     "w": [
+      "Swallow prey under water",
+      "Breathe under water",
+      "Chew its food"
+     ],
+     "ex": "The gular flap closes when submerging, allowing the crocodile to open its mouth under water, but it must surface before swallowing.",
+     "group": "Crocodiles",
+     "page": "79",
+     "draft": true
+    },
+    {
+     "id": "REPT-012",
+     "q": "How does the bite force of a crocodile compare with that of a hyaena?",
+     "a": "More than six times stronger",
+     "w": [
+      "About half as strong",
+      "About the same",
+      "Slightly weaker"
+     ],
+     "ex": "A hyaena bites at around 800 pounds per square inch, while a crocodile bites at over 5000, more than six times more powerful.",
+     "group": "Crocodiles",
+     "page": "79",
+     "draft": true
+    },
+    {
+     "id": "REPT-013",
+     "q": "What is the first chamber of a crocodile's stomach called, where swallowed stones help grind food?",
+     "a": "The gizzard",
+     "w": [
+      "The crop",
+      "The rumen",
+      "The gular"
+     ],
+     "ex": "Ingested stones end up in the first of the two stomach chambers, the gizzard, where muscles and stones grind up the food.",
+     "group": "Crocodiles",
+     "page": "79",
+     "draft": true
+    },
+    {
+     "id": "REPT-014",
+     "q": "What do sub-adult crocodiles (3 to 12 years old) mainly eat?",
+     "a": "Fish",
+     "w": [
+      "Insects and spiders",
+      "Large mammals",
+      "Plants"
+     ],
+     "ex": "Sub-adults of 3-12 years eat mainly fish, but also small vertebrates such as young crocodiles, lizards, birds and small mammals.",
+     "group": "Crocodiles",
+     "page": "79",
+     "draft": true
+    },
+    {
+     "id": "REPT-015",
+     "q": "What is unusual about the strength of a crocodile's jaw muscles?",
+     "a": "Very strong when closing but weak when opening",
+     "w": [
+      "Very strong when opening but weak when closing",
+      "Equally weak when opening and closing",
+      "Only strong when the crocodile is under water"
+     ],
+     "ex": "The jaw muscles of the crocodile are extremely strong when closing but lack strength when opening.",
+     "group": "Crocodiles",
+     "page": "80",
+     "draft": true
+    },
+    {
+     "id": "REPT-016",
+     "q": "How far from the water's edge can a crocodile lunge out of the water?",
+     "a": "Up to 3 m",
+     "w": [
+      "Up to 30 cm",
+      "Up to 10 m",
+      "Up to 20 m"
+     ],
+     "ex": "Crocodiles can propel themselves out of the water at 70 km/h in a lunge up to 3 m from the water's edge.",
+     "group": "Crocodiles",
+     "page": "80",
+     "draft": true
+    },
+    {
+     "id": "REPT-017",
+     "q": "At about what age do Nile crocodiles reach sexual maturity?",
+     "a": "About 12 years",
+     "w": [
+      "About 2 years",
+      "About 5 years",
+      "About 25 years"
+     ],
+     "ex": "Males and females reach sexual maturity at approximately 12 years (males about 3 m, females just over 2 m).",
+     "group": "Crocodiles",
+     "page": "80",
+     "draft": true
+    },
+    {
+     "id": "REPT-018",
+     "q": "Why does a female crocodile urinate on her nest during incubation?",
+     "a": "To prevent the eggs from drying out",
+     "w": [
+      "To mark her territory for the male",
+      "To warm the eggs",
+      "To keep the hatchlings' sex female"
+     ],
+     "ex": "During incubation she urinates on the nest to prevent egg dehydration.",
+     "group": "Crocodiles",
+     "page": "80",
+     "draft": true
+    },
+    {
+     "id": "REPT-019",
+     "q": "According to the manual, what sex will a crocodile embryo be if the nest is 26-30 °C?",
+     "a": "Female",
+     "w": [
+      "Male",
+      "Half male, half female",
+      "The temperature has no effect"
+     ],
+     "ex": "With temperature-dependent sex determination, 26-30 °C produces females and 31-34 °C produces males.",
+     "group": "Crocodiles",
+     "page": "80",
+     "draft": true
+    },
+    {
+     "id": "REPT-020",
+     "q": "Roughly what percentage of crocodiles that hatch survive to adulthood?",
+     "a": "About 1%",
+     "w": [
+      "About 10%",
+      "About 25%",
+      "About 50%"
+     ],
+     "ex": "Roughly 1% of crocodiles that hatch survive until adulthood.",
+     "group": "Crocodiles",
+     "page": "80",
+     "draft": true
+    },
+    {
+     "id": "REPT-021",
+     "q": "In Botswana, which crocodiles may be destroyed legally?",
+     "a": "Only known man-eaters",
+     "w": [
+      "Any crocodile over 4 m long",
+      "Crocodiles outside the Okavango Delta",
+      "Any crocodile during the dry season"
+     ],
+     "ex": "In Botswana crocodiles are protected and only known man-eaters are destroyed legally.",
+     "group": "Crocodiles",
+     "page": "81",
+     "draft": true
+    },
+    {
+     "id": "REPT-022",
+     "q": "How can snakes be told apart from legless lizards?",
+     "a": "Snakes have no eyelids and no external ears",
+     "w": [
+      "Snakes have eyelids and external ears",
+      "Snakes have no scales on the belly",
+      "Snakes have two equal-sized lungs"
+     ],
+     "ex": "Serpentes can be distinguished from legless lizards by their lack of eyelids and external ears.",
+     "group": "Snakes",
+     "page": "81",
+     "draft": true
+    },
+    {
+     "id": "REPT-023",
+     "q": "Where does a snake place the fork of its tongue to interpret scents?",
+     "a": "Into the organ of Jacobson in the roof of the mouth",
+     "w": [
+      "Into the nostrils on the snout",
+      "Into the heat pits on the lips",
+      "Into the venom glands behind the eyes"
+     ],
+     "ex": "The tongue picks up scent particles and the fork is inserted into the organ of Jacobson, a smelling organ in the roof of the mouth.",
+     "group": "Snakes",
+     "page": "81",
+     "draft": true
+    },
+    {
+     "id": "REPT-024",
+     "q": "What helps a snake to detect ground-borne vibrations?",
+     "a": "Its large body contact with the ground and hollow ribs and backbone",
+     "w": [
+      "Its large external ears",
+      "Its keen eyesight and movable eyelids",
+      "The organ of Jacobson in its mouth"
+     ],
+     "ex": "The large body surface touching the ground, with the hollow rib bones and backbone, conducts vibrations that nerve endings detect.",
+     "group": "Snakes",
+     "page": "81",
+     "draft": true
+    },
+    {
+     "id": "REPT-025",
+     "q": "What is snake venom, according to the manual?",
+     "a": "Modified saliva",
+     "w": [
+      "Modified blood",
+      "Stomach acid",
+      "Modified sweat"
+     ],
+     "ex": "Venom is modified saliva stored in glands that run from behind the eyes to the back of the head.",
+     "group": "Snake venom",
+     "page": "81",
+     "draft": true
+    },
+    {
+     "id": "REPT-026",
+     "q": "Which snakes does the manual give as examples of cytotoxic venom?",
+     "a": "Spitting cobras and most adders",
+     "w": [
+      "Mambas and most cobras",
+      "Vine snake and boomslang",
+      "Pythons and mole snakes"
+     ],
+     "ex": "Cytotoxic venom is found in spitting cobras and most adders, including the puff adder.",
+     "group": "Snake venom",
+     "page": "81",
+     "draft": true
+    },
+    {
+     "id": "REPT-027",
+     "q": "How does cytotoxic venom act?",
+     "a": "It breaks down cell tissue, causing necrosis",
+     "w": [
+      "It shuts down the nervous system",
+      "It stops the blood from clotting",
+      "It paralyses only the eyes"
+     ],
+     "ex": "Cytotoxins cause necrosis by breaking down cell tissue around the bite, and can continue to kill blood and other cells, often causing organ failure.",
+     "group": "Snake venom",
+     "page": "81",
+     "draft": true
+    },
+    {
+     "id": "REPT-028",
+     "q": "Neurotoxic venom mainly shuts down which muscles?",
+     "a": "The involuntary muscles",
+     "w": [
+      "The jaw muscles only",
+      "The leg muscles only",
+      "The muscles around the bite only"
+     ],
+     "ex": "Neurotoxins attack the nervous system, shutting down primarily the involuntary muscles in the body.",
+     "group": "Snake venom",
+     "page": "81",
+     "draft": true
+    },
+    {
+     "id": "REPT-029",
+     "q": "Which of these is a symptom of neurotoxic venom listed in the manual?",
+     "a": "Difficulty in speech and breathing",
+     "w": [
+      "Bleeding from the body orifices",
+      "Rotting of the tissue around the bite",
+      "Blood clots forming at the bite"
+     ],
+     "ex": "Neurotoxic symptoms include vomiting, abnormal sweating, blurred vision, difficulty in speech and breathing and loss of consciousness.",
+     "group": "Snake venom",
+     "page": "81",
+     "draft": true
+    },
+    {
+     "id": "REPT-030",
+     "q": "How does haemotoxic venom act at first?",
+     "a": "As an anti-coagulant that stops blood clotting",
+     "w": [
+      "As a nerve poison that stops breathing",
+      "As a pain-killer that numbs the bite",
+      "As a muscle poison that causes cramps"
+     ],
+     "ex": "Haemotoxins (vine snake and boomslang) act initially as an anti-coagulant, causing serious internal bleeding and haemorrhaging.",
+     "group": "Snake venom",
+     "page": "82",
+     "draft": true
+    },
+    {
+     "id": "REPT-031",
+     "q": "Apart from internal bleeding, what else can cause death from a boomslang bite?",
+     "a": "Blood clots in the brain",
+     "w": [
+      "Failure of the involuntary muscles",
+      "Blindness from venom in the eyes",
+      "Loss of a limb from necrosis"
+     ],
+     "ex": "Boomslang venom also has a pro-coagulant element, so death may result from internal haemorrhaging or blood clotting in the brain.",
+     "group": "Snake venom",
+     "page": "82",
+     "draft": true
+    },
+    {
+     "id": "REPT-032",
+     "q": "How should you roll a log when collecting firewood?",
+     "a": "So the log stays between you and what is under it",
+     "w": [
+      "Towards yourself so you can see underneath",
+      "With your bare hands from the far side",
+      "By kicking it over quickly"
+     ],
+     "ex": "The log should be rolled so that it remains between the person and whatever lies below it.",
+     "group": "Snake safety",
+     "page": "82",
+     "draft": true
+    },
+    {
+     "id": "REPT-033",
+     "q": "Why should you not touch a snake that appears to be dead?",
+     "a": "Some reptiles pretend to be dead (thanatosis)",
+     "w": [
+      "Dead snakes carry dangerous diseases",
+      "Venom becomes stronger after death",
+      "It is illegal to touch dead snakes"
+     ],
+     "ex": "Some reptiles use thanatosis (pretending to be dead) as a means of defence.",
+     "group": "Snake safety",
+     "page": "82",
+     "draft": true
+    },
+    {
+     "id": "REPT-034",
+     "q": "Why are puff adders particularly dangerous to people walking in the bush?",
+     "a": "They lie on pathways and do not move off readily",
+     "w": [
+      "They chase people over long distances",
+      "They spit venom into the eyes",
+      "They drop from trees onto people"
+     ],
+     "ex": "Puff adders are often found lying in the sun on pathways and do not move off readily when approached.",
+     "group": "Snake safety",
+     "page": "82",
+     "draft": true
+    },
+    {
+     "id": "REPT-035",
+     "q": "Why are black mambas considered among the most dangerous snakes?",
+     "a": "Fast, long striking range, nervous, fastest-acting venom",
+     "w": [
+      "Slow, lie on paths and do not move off",
+      "They spit venom into the eyes from far away",
+      "Their fangs stab sideways when they are held"
+     ],
+     "ex": "Black mambas are extremely fast, have a long striking range, a nervous disposition and the fastest-acting venom of our snakes.",
+     "group": "Snake safety",
+     "page": "82",
+     "draft": true
+    },
+    {
+     "id": "REPT-036",
+     "q": "What is the most effective first aid when a spitting cobra spits venom into someone's eyes?",
+     "a": "Flush the eyes with water or another bland liquid, then get medical help",
+     "w": [
+      "Rub the eyes firmly and wait for the pain to pass",
+      "Cover the eyes with a tight bandage and rest",
+      "Inject antivenom directly into the eyes"
+     ],
+     "ex": "The most effective treatment is to flush the eyes with water or any other bland liquid and then seek medical help.",
+     "group": "Snake safety",
+     "page": "82",
+     "draft": true
+    },
+    {
+     "id": "REPT-037",
+     "q": "Why is identifying the snake not critical after a snakebite?",
+     "a": "Bites are generally treated according to the symptoms",
+     "w": [
+      "All snakes have the same venom",
+      "All snakebites are harmless",
+      "Antivenom works for every species"
+     ],
+     "ex": "Bites are generally treated symptomatically, so identification is helpful but not critical; do not put yourself in danger trying.",
+     "group": "Snake safety",
+     "page": "82",
+     "draft": true
+    },
+    {
+     "id": "REPT-038",
+     "q": "Which type of snake movement is used by heavy-bodied snakes such as puff adders and mature pythons?",
+     "a": "Rectilinear (caterpillar-like) motion",
+     "w": [
+      "Side winding",
+      "Concertina motion",
+      "Arboreal gliding"
+     ],
+     "ex": "Rectilinear motion, in a straight line using the belly scales, is used by heavy-bodied species such as puff adders and mature pythons.",
+     "group": "Snake movement",
+     "page": "82",
+     "draft": true
+    },
+    {
+     "id": "REPT-039",
+     "q": "Which is the most common type of snake movement, being the fastest and most energy efficient?",
+     "a": "Serpentine motion (lateral undulation)",
+     "w": [
+      "Rectilinear motion",
+      "Concertina motion",
+      "Side winding"
+     ],
+     "ex": "Most snakes use serpentine motion, gliding in an S shape, as it is the fastest and most energy-efficient method.",
+     "group": "Snake movement",
+     "page": "82",
+     "draft": true
+    },
+    {
+     "id": "REPT-040",
+     "q": "Concertina motion is mainly used by which kind of snake?",
+     "a": "Burrowing snakes, such as the burrowing asp",
+     "w": [
+      "Tree snakes, such as the boomslang",
+      "Desert dune snakes",
+      "Heavy snakes such as pythons"
+     ],
+     "ex": "Concertina motion is a specialised locomotion restricted to burrowing snakes such as the burrowing asp.",
+     "group": "Snake movement",
+     "page": "82",
+     "draft": true
+    },
+    {
+     "id": "REPT-041",
+     "q": "In southern Africa, side winding is restricted to which snake?",
+     "a": "Peringuey's desert adder",
+     "w": [
+      "Puff adder",
+      "Black mamba",
+      "Southern African python"
+     ],
+     "ex": "Side winding is a specialised locomotion that, in southern Africa, is restricted to Peringuey's desert adder on loose dune sand.",
+     "group": "Snake movement",
+     "page": "83",
+     "draft": true
+    },
+    {
+     "id": "REPT-042",
+     "q": "Why do snakes usually swallow their prey head first?",
+     "a": "So fur, feathers or skin flow the right way",
+     "w": [
+      "So the prey cannot see the snake",
+      "So the venom reaches the brain first",
+      "So the snake can chew the head"
+     ],
+     "ex": "Prey is usually swallowed head first so that fur, feathers or outer skin flow in the correct direction for easy swallowing.",
+     "group": "Snake feeding",
+     "page": "83",
+     "draft": true
+    },
+    {
+     "id": "REPT-043",
+     "q": "How does a snake avoid suffocating while swallowing large prey?",
+     "a": "It extends its windpipe beyond the jaw",
+     "w": [
+      "It holds its breath for several days",
+      "It breathes through its skin",
+      "It breathes through its tail"
+     ],
+     "ex": "The trachea (windpipe) can be extended out beyond the jaw to prevent suffocation while swallowing large prey.",
+     "group": "Snake feeding",
+     "page": "83",
+     "draft": true
+    },
+    {
+     "id": "REPT-044",
+     "q": "Most snakes can swallow prey up to what proportion of their own body weight?",
+     "a": "25%",
+     "w": [
+      "5%",
+      "50%",
+      "100%"
+     ],
+     "ex": "Most snakes can swallow prey up to 25% of their body weight; pythons can eat their own weight.",
+     "group": "Snake feeding",
+     "page": "83",
+     "draft": true
+    },
+    {
+     "id": "REPT-045",
+     "q": "What is special about the digestion of pythons compared with other snakes?",
+     "a": "They also digest horn, hair and feathers",
+     "w": [
+      "They cannot digest bones",
+      "They regurgitate all the fur and feathers",
+      "They digest food only with venom"
+     ],
+     "ex": "Most snakes regurgitate hair, feathers and horn, but pythons are the exception and digest even these.",
+     "group": "Snake feeding",
+     "page": "83",
+     "draft": true
+    },
+    {
+     "id": "REPT-046",
+     "q": "Why should a snake not be held by the tail during capture?",
+     "a": "It can damage the snake's vertebrae",
+     "w": [
+      "The tail contains venom glands",
+      "The tail breaks off easily like a lizard's",
+      "The snake will die of shock"
+     ],
+     "ex": "If possible a snake should not be held by the tail as this can damage its vertebrae; a grab stick should be used.",
+     "group": "Snake safety",
+     "page": "83",
+     "draft": true
+    },
+    {
+     "id": "REPT-047",
+     "q": "What does the manual say about the Cape cobra's venom?",
+     "a": "It is the most potent neurotoxin in southern Africa",
+     "w": [
+      "It is a cytotoxin that it can spit over 2 m",
+      "It is a haemotoxin with no antivenom",
+      "It is mild and not dangerous to people"
+     ],
+     "ex": "The Cape cobra cannot spit, but its venom is the most potent neurotoxin in southern Africa, second only to the boomslang in potency.",
+     "group": "Highly venomous snakes",
+     "page": "84",
+     "draft": true
+    },
+    {
+     "id": "REPT-048",
+     "q": "How are Anchieta's cobra and the snouted cobra best told apart?",
+     "a": "By their separate distributions",
+     "w": [
+      "By the colour of their bellies",
+      "By the shape of their hoods",
+      "By their venom type"
+     ],
+     "ex": "The two look very similar and are best separated on their mutually independent distributions.",
+     "group": "Highly venomous snakes",
+     "page": "84",
+     "draft": true
+    },
+    {
+     "id": "REPT-049",
+     "q": "What type of venom does the Mozambique spitting cobra have?",
+     "a": "Cytotoxic",
+     "w": [
+      "Neurotoxic",
+      "Haemotoxic",
+      "It is non-venomous"
+     ],
+     "ex": "The Mozambique spitting cobra is oviparous and has a deadly cytotoxic venom.",
+     "group": "Highly venomous snakes",
+     "page": "84",
+     "draft": true
+    },
+    {
+     "id": "REPT-050",
+     "q": "Which features help identify a black mamba?",
+     "a": "Black lining inside the mouth and a coffin-shaped head",
+     "w": [
+      "Bright green body and very large eyes",
+      "Black and red band through the eye",
+      "Orange body with dark bands"
+     ],
+     "ex": "The black mamba has a black lining to the inside of the mouth and a coffin-shaped head; its body is grey to brown.",
+     "group": "Highly venomous snakes",
+     "page": "84",
+     "draft": true
+    },
+    {
+     "id": "REPT-051",
+     "q": "What type of venom does the shield-nosed snake have?",
+     "a": "Neurotoxic",
+     "w": [
+      "Haemotoxic",
+      "Cytotoxic",
+      "It is non-venomous"
+     ],
+     "ex": "The shield-nosed snake is a short cobra with neurotoxic venom; bites are rare but neurological symptoms are reported.",
+     "group": "Highly venomous snakes",
+     "page": "85",
+     "draft": true
+    },
+    {
+     "id": "REPT-052",
+     "q": "In Botswana, how do male and female boomslangs differ in colour?",
+     "a": "Males are bright green; females are duller brown",
+     "w": [
+      "Females are bright green; males are duller brown",
+      "Both sexes are grey with black blotches",
+      "Both sexes are black with white bands"
+     ],
+     "ex": "Boomslang are dimorphic; in Botswana the female is a duller brownish colour and the male is a striking green.",
+     "group": "Highly venomous snakes",
+     "page": "85",
+     "draft": true
+    },
+    {
+     "id": "REPT-053",
+     "q": "What allows the boomslang to see stationary prey?",
+     "a": "Its very large eyes and exceptional eyesight",
+     "w": [
+      "Heat pits on its lips",
+      "Its long forked tongue",
+      "Vibrations through its hollow ribs"
+     ],
+     "ex": "The boomslang's eyes are noticeably larger than other snakes', and its exceptional eyesight lets it see stationary prey.",
+     "group": "Highly venomous snakes",
+     "page": "85",
+     "draft": true
+    },
+    {
+     "id": "REPT-054",
+     "q": "Which highly venomous snake has a bold black and red eye-band and no available antivenom?",
+     "a": "Vine snake",
+     "w": [
+      "Boomslang",
+      "Cape cobra",
+      "Puff adder"
+     ],
+     "ex": "The vine (twig) snake is grey with black blotching and a black and red eye-band; its haemotoxic venom has no available antivenom.",
+     "group": "Highly venomous snakes",
+     "page": "85",
+     "draft": true
+    },
+    {
+     "id": "REPT-055",
+     "q": "Why should you never try to grab a stiletto snake behind the head?",
+     "a": "It can stab your fingers with its fangs by flexing its neck",
+     "w": [
+      "It will spit venom into your eyes",
+      "Its skin produces a poison",
+      "It will shed its tail and escape"
+     ],
+     "ex": "Stiletto snakes can stab the fingers of anyone holding them behind the head with just a flex of the neck.",
+     "group": "Highly venomous snakes",
+     "page": "85",
+     "draft": true
+    },
+    {
+     "id": "REPT-056",
+     "q": "What does the manual say about the venom of the southern stiletto snake?",
+     "a": "Cytotoxic and non-lethal, but can lead to amputations",
+     "w": [
+      "Neurotoxic and the fastest acting in Africa",
+      "Haemotoxic with no antivenom",
+      "It has no venom at all"
+     ],
+     "ex": "The stiletto snake's venom is cytotoxic but non-lethal; however, amputations after handling mishaps are not uncommon.",
+     "group": "Highly venomous snakes",
+     "page": "85",
+     "draft": true
+    },
+    {
+     "id": "REPT-057",
+     "q": "How does the puff adder reproduce?",
+     "a": "It is viviparous, giving birth to live young",
+     "w": [
+      "It lays eggs in termite mounds",
+      "It lays eggs and guards them",
+      "It lays eggs in water"
+     ],
+     "ex": "Puff adders are viviparous and the live young are born 15-20 cm long.",
+     "group": "Highly venomous snakes",
+     "page": "86",
+     "draft": true
+    },
+    {
+     "id": "REPT-058",
+     "q": "Which snake is the most widely distributed in southern Africa?",
+     "a": "Puff adder",
+     "w": [
+      "Black mamba",
+      "Cape cobra",
+      "Vine snake"
+     ],
+     "ex": "The puff adder is the most widely distributed snake in southern Africa, found in every habitat from almost true desert to forest.",
+     "group": "Highly venomous snakes",
+     "page": "86",
+     "draft": true
+    },
+    {
+     "id": "REPT-059",
+     "q": "How does a python's constriction kill its prey?",
+     "a": "By causing heart failure and suffocation",
+     "w": [
+      "By breaking all the prey's bones",
+      "By injecting venom while coiling",
+      "By drowning it in water"
+     ],
+     "ex": "Contrary to popular belief, constriction does not break bones but rather causes heart failure and suffocation.",
+     "group": "Mildly and non-venomous snakes",
+     "page": "86",
+     "draft": true
+    },
+    {
+     "id": "REPT-060",
+     "q": "What does a female python do while her eggs incubate?",
+     "a": "Coils around the eggs and does not eat",
+     "w": [
+      "Leaves the eggs buried and unguarded",
+      "Carries the eggs in her mouth",
+      "Hunts more often to build up fat"
+     ],
+     "ex": "She coils around the eggs, leaving only to bask or drink, and does not eat during the roughly 3-month incubation.",
+     "group": "Mildly and non-venomous snakes",
+     "page": "86",
+     "draft": true
+    },
+    {
+     "id": "REPT-061",
+     "q": "Which snake is orange with dark bands and has large eyes with vertical pupils?",
+     "a": "Common tiger snake",
+     "w": [
+      "Spotted bush snake",
+      "Mole snake",
+      "Angolan green snake"
+     ],
+     "ex": "The common tiger snake is orange with dark bands and has large eyes with vertical pupils; it is non-venomous but bites readily.",
+     "group": "Mildly and non-venomous snakes",
+     "page": "86",
+     "draft": true
+    },
+    {
+     "id": "REPT-062",
+     "q": "How does the mole snake reproduce?",
+     "a": "It gives birth to 25-50 live young",
+     "w": [
+      "It lays up to 100 eggs in a termite mound",
+      "It lays two hard-shelled eggs",
+      "It lays eggs that the male guards"
+     ],
+     "ex": "Mole snakes are viviparous, giving birth to 25-50 live young, and in exceptional cases 90 or more.",
+     "group": "Mildly and non-venomous snakes",
+     "page": "87",
+     "draft": true
+    },
+    {
+     "id": "REPT-063",
+     "q": "Which snake has black barring on the front two-thirds of its body and is mildly venomous?",
+     "a": "Spotted bush snake",
+     "w": [
+      "Angolan green snake",
+      "Boomslang",
+      "Common tiger snake"
+     ],
+     "ex": "The spotted bush snake is green to olive-green with black barring on the front two-thirds of the body and is mildly venomous.",
+     "group": "Mildly and non-venomous snakes",
+     "page": "87",
+     "draft": true
+    },
+    {
+     "id": "REPT-064",
+     "q": "Where in Botswana does the Angolan green snake live?",
+     "a": "The Delta and riverine areas of the north",
+     "w": [
+      "The Central Kalahari",
+      "The south-western dunes",
+      "Rocky hills in the south east"
+     ],
+     "ex": "The Angolan green snake lives in the Delta and riverine areas of northern Botswana, foraging along water courses.",
+     "group": "Mildly and non-venomous snakes",
+     "page": "87",
+     "draft": true
+    },
+    {
+     "id": "REPT-065",
+     "q": "What is autotomy in lizards?",
+     "a": "Shedding the tail when in danger",
+     "w": [
+      "Changing skin colour",
+      "Pretending to be dead",
+      "Laying eggs without mating"
+     ],
+     "ex": "Many lizards can shed their tails when in danger; this is called autotomy.",
+     "group": "Lizards",
+     "page": "88",
+     "draft": true
+    },
+    {
+     "id": "REPT-066",
+     "q": "Which skink does the manual give as an example of a viviparous (live-bearing) skink?",
+     "a": "Kalahari burrowing skink",
+     "w": [
+      "Kalahari tree skink",
+      "Snake-eyed skink",
+      "Rock skink"
+     ],
+     "ex": "Skinks may be viviparous (Kalahari burrowing skinks) or oviparous (Kalahari tree skinks).",
+     "group": "Lizards",
+     "page": "88",
+     "draft": true
+    },
+    {
+     "id": "REPT-067",
+     "q": "How do monitor lizards use their tails in defence?",
+     "a": "They lash with them; the tail cannot be shed",
+     "w": [
+      "They shed them to distract predators",
+      "They wave them to look like a head",
+      "They use them to spray a foul liquid"
+     ],
+     "ex": "Monitor lizards cannot shed their tails, but the tails can inflict serious injury on would-be predators.",
+     "group": "Lizards",
+     "page": "88",
+     "draft": true
+    },
+    {
+     "id": "REPT-068",
+     "q": "Where do Nile monitors frequently lay their eggs?",
+     "a": "In termite mounds",
+     "w": [
+      "In rock cracks",
+      "In tree cavities",
+      "In floating nests on water"
+     ],
+     "ex": "Nile monitors dig into termite mounds to lay their eggs; the termites seal the hole, protecting the eggs and keeping them warm and humid.",
+     "group": "Lizards",
+     "page": "88",
+     "draft": true
+    },
+    {
+     "id": "REPT-069",
+     "q": "How does the white-throated monitor's habitat differ from the Nile monitor's?",
+     "a": "It spends more time in trees and is seldom near water",
+     "w": [
+      "It spends more time in water than on land",
+      "It lives only underground in burrows",
+      "It lives only on sandbanks in rivers"
+     ],
+     "ex": "White-throated (rock or tree) monitors spend more time in trees than Nile monitors and are very seldom found near water.",
+     "group": "Lizards",
+     "page": "88",
+     "draft": true
+    },
+    {
+     "id": "REPT-070",
+     "q": "What is the principal diet of agamas?",
+     "a": "Ants",
+     "w": [
+      "Fish",
+      "Fruit",
+      "Rodents"
+     ],
+     "ex": "Agamas are diurnal lizards whose principal diet is ants; males are brightly coloured and territorial.",
+     "group": "Lizards",
+     "page": "89",
+     "draft": true
+    },
+    {
+     "id": "REPT-071",
+     "q": "Which lizards live on rocky outcrops, have spiny scales and give birth to live young?",
+     "a": "Girdled lizards",
+     "w": [
+      "Old world lizards",
+      "Skinks",
+      "Geckos"
+     ],
+     "ex": "Girdled lizards have strong spiny scales, live on rocky outcrops, hide in narrow crevices and are viviparous.",
+     "group": "Lizards",
+     "page": "89",
+     "draft": true
+    },
+    {
+     "id": "REPT-072",
+     "q": "How do geckos clean their eyes?",
+     "a": "With their tongues",
+     "w": [
+      "By blinking their eyelids",
+      "With their front feet",
+      "By rubbing them on rocks"
+     ],
+     "ex": "Geckos have fixed eyelids and clean their eyes with their tongues.",
+     "group": "Lizards",
+     "page": "89",
+     "draft": true
+    },
+    {
+     "id": "REPT-073",
+     "q": "Apart from geckos, which is the only other reptile that can vocalise?",
+     "a": "The crocodile",
+     "w": [
+      "The chameleon",
+      "The leopard tortoise",
+      "The python"
+     ],
+     "ex": "All geckos are vocal; apart from geckos, the crocodile is the only other reptile that can vocalise.",
+     "group": "Lizards",
+     "page": "89",
+     "draft": true
+    },
+    {
+     "id": "REPT-074",
+     "q": "Where does a chameleon hold its hollow tongue when it is retracted?",
+     "a": "On a spike called the hyoid horn",
+     "w": [
+      "In a sheath under the lower jaw",
+      "In the organ of Jacobson",
+      "Coiled in the throat pouch"
+     ],
+     "ex": "Chameleons retract their hollow tongues onto a spike in the mouth known as the hyoid horn.",
+     "group": "Lizards",
+     "page": "89",
+     "draft": true
+    },
+    {
+     "id": "REPT-075",
+     "q": "How do chameleons change the colour of their skin?",
+     "a": "With pigment-producing cells called chromatophores",
+     "w": [
+      "By shedding their skin quickly",
+      "By filling their throat pouch with air",
+      "By changing their blood flow to the scales"
+     ],
+     "ex": "Chameleons change colour through pigment-producing cells called chromatophores.",
+     "group": "Lizards",
+     "page": "89",
+     "draft": true
+    },
+    {
+     "id": "REPT-076",
+     "q": "Which is the only chameleon species that occurs in Botswana?",
+     "a": "Flap-necked chameleon",
+     "w": [
+      "Namaqua chameleon",
+      "Dwarf chameleon",
+      "Jackson's chameleon"
+     ],
+     "ex": "Only the flap-necked chameleon occurs in Botswana.",
+     "group": "Lizards",
+     "page": "90",
+     "draft": true
+    },
+    {
+     "id": "REPT-077",
+     "q": "How long do flap-necked chameleon eggs take to hatch?",
+     "a": "Just over a year",
+     "w": [
+      "About two weeks",
+      "About three months",
+      "About three years"
+     ],
+     "ex": "The eggs are laid in mid to late summer and take just over a year to hatch.",
+     "group": "Lizards",
+     "page": "90",
+     "draft": true
+    },
+    {
+     "id": "REPT-078",
+     "q": "What does an amphisbaenid do with its tail when threatened?",
+     "a": "Waves it in the air to look like the head",
+     "w": [
+      "Sheds it to distract the predator",
+      "Uses it to dig quickly into the soil",
+      "Rattles it to make a warning sound"
+     ],
+     "ex": "Amphisbaenia means two-headed; when threatened the short tail is waved to resemble the head, so the predator attacks the tail.",
+     "group": "Amphisbaenia",
+     "page": "90",
+     "draft": true
+    },
+    {
+     "id": "REPT-079",
+     "q": "What is the lower part of a tortoise's shell called?",
+     "a": "Plastron",
+     "w": [
+      "Carapace",
+      "Scute",
+      "Nuchal"
+     ],
+     "ex": "The shell is made up of an upper portion (the carapace) and a base (the plastron).",
+     "group": "Tortoises and terrapins",
+     "page": "90",
+     "draft": true
+    },
+    {
+     "id": "REPT-080",
+     "q": "Why are the scutes on a tortoise's shell useful?",
+     "a": "Their growth rings can be used to age the animal",
+     "w": [
+      "Their colour shows the animal's sex",
+      "Their number shows how many eggs it has laid",
+      "Their shape shows what it eats"
+     ],
+     "ex": "Scutes are horny plates of keratin with growth rings like a tree, which makes them useful for ageing the animals.",
+     "group": "Tortoises and terrapins",
+     "page": "90",
+     "draft": true
+    },
+    {
+     "id": "REPT-081",
+     "q": "Why do guides never handle tortoises, particularly in the dry season?",
+     "a": "Their defensive liquid excretion causes moisture stress",
+     "w": [
+      "They bite and have a dangerous venom",
+      "Their shells break very easily",
+      "They carry ticks that spread disease"
+     ],
+     "ex": "Tortoises excrete liquid in defence; in dry climates this puts them under major moisture stress, so guides never handle them.",
+     "group": "Tortoises and terrapins",
+     "page": "90",
+     "draft": true
+    },
+    {
+     "id": "REPT-082",
+     "q": "How does a terrapin withdraw its head into its shell?",
+     "a": "It bends its neck sideways",
+     "w": [
+      "It pulls its neck straight back",
+      "It cannot withdraw its head",
+      "It tucks its head under the plastron hinge"
+     ],
+     "ex": "Terrapins (sub-order Pleurodira) bend their necks sideways into their shells; tortoises withdraw the neck straight back.",
+     "group": "Tortoises and terrapins",
+     "page": "90",
+     "draft": true
+    },
+    {
+     "id": "REPT-083",
+     "q": "According to the manual's table, how do terrapins and tortoises differ in diet?",
+     "a": "Terrapins are carnivores; tortoises are herbivores",
+     "w": [
+      "Terrapins are herbivores; tortoises are carnivores",
+      "Both are carnivores",
+      "Both are insectivores"
+     ],
+     "ex": "The table lists tortoises as terrestrial herbivores and terrapins as fresh-water carnivores.",
+     "group": "Tortoises and terrapins",
+     "page": "90",
+     "draft": true
+    },
+    {
+     "id": "REPT-084",
+     "q": "Between which temperatures are chelonians most active?",
+     "a": "25 and 30 °C",
+     "w": [
+      "10 and 15 °C",
+      "15 and 20 °C",
+      "35 and 40 °C"
+     ],
+     "ex": "Chelonians need warmth to become active and are most active between 25 and 30 °C.",
+     "group": "Tortoises and terrapins",
+     "page": "90",
+     "draft": true
+    },
+    {
+     "id": "REPT-085",
+     "q": "What is the conservation status of Botswana's tortoises and terrapins?",
+     "a": "None of them are threatened",
+     "w": [
+      "All of them are endangered",
+      "They are critically endangered",
+      "Only the leopard tortoise is threatened"
+     ],
+     "ex": "While some of South Africa's range-restricted tortoises are endangered, none of Botswana's tortoises or terrapins are threatened.",
+     "group": "Tortoises and terrapins",
+     "page": "91",
+     "draft": true
+    },
+    {
+     "id": "REPT-086",
+     "q": "Which tortoise is the largest in southern Africa and the only one that can swim?",
+     "a": "Leopard tortoise",
+     "w": [
+      "Serrated tent tortoise",
+      "Speke's hinged tortoise",
+      "Kalahari tent tortoise"
+     ],
+     "ex": "The leopard tortoise is the largest tortoise in southern Africa and the only one that can swim.",
+     "group": "Tortoises and terrapins",
+     "page": "91",
+     "draft": true
+    },
+    {
+     "id": "REPT-087",
+     "q": "How is the leopard tortoise told apart from the serrated tent tortoise?",
+     "a": "No heavily serrated shell and no nuchal scale",
+     "w": [
+      "A hinged plastron and a large black head",
+      "A much flatter dome to the carapace",
+      "A double hook in the upper beak"
+     ],
+     "ex": "The leopard tortoise lacks the heavily serrated shell and nuchal scale of the Kalahari or serrated tent tortoise.",
+     "group": "Tortoises and terrapins",
+     "page": "91",
+     "draft": true
+    },
+    {
+     "id": "REPT-088",
+     "q": "Which features identify the Okavango hinged terrapin?",
+     "a": "A very large black head with yellow patterns",
+     "w": [
+      "A small brown head with white spots",
+      "A heavily serrated shell",
+      "A soft, leathery shell"
+     ],
+     "ex": "The Okavango hinged terrapin has a hinged plastron and a very large black head with distinctive yellow patterns.",
+     "group": "Tortoises and terrapins",
+     "page": "91",
+     "draft": true
+    },
+    {
+     "id": "REPT-089",
+     "q": "How does the Mashona hinged terrapin differ from the Okavango hinged terrapin?",
+     "a": "Double hook in the upper beak and usually two chin tentacles",
+     "w": [
+      "No hinge on the plastron and a lighter shell",
+      "A much smaller head and a serrated shell",
+      "Three chin tentacles and a smooth beak"
+     ],
+     "ex": "The Mashona hinged terrapin is very similar but has a double hook in the upper beak and usually two (not three) tentacles under the chin.",
+     "group": "Tortoises and terrapins",
+     "page": "91",
+     "draft": true
+    }
+   ]
+  },
+  {
+   "id": "q-mammals",
+   "kind": "questions",
+   "chapter": "Mammals",
+   "title": "Mammals - manual",
+   "photo": "",
+   "subtitle": "142 questions from the Botswana Guide Training Manual",
+   "items": [
+    {
+     "id": "MAMM-001",
+     "q": "Which feature is shared by all mammals?",
+     "a": "Females have mammary glands that produce milk",
+     "w": [
+      "The body is covered in scales",
+      "The heart has three chambers",
+      "They are cold-blooded"
+     ],
+     "ex": "Female mammals have mammary glands which produce milk for the young to suckle.",
+     "group": "Common features",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-002",
+     "q": "How many chambers does a mammal's heart have?",
+     "a": "4",
+     "w": [
+      "2",
+      "3",
+      "5"
+     ],
+     "ex": "The manual states that the mammal heart is 4 chambered.",
+     "group": "Common features",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-003",
+     "q": "How many specialised hearing bones are found in the inner ear of a mammal?",
+     "a": "3",
+     "w": [
+      "1",
+      "2",
+      "5"
+     ],
+     "ex": "The inner ear of a mammal has a system of 3 highly specialised bones for hearing.",
+     "group": "Common features",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-004",
+     "q": "Mammals are described as endothermic. What does this mean?",
+     "a": "They are warm-blooded",
+     "w": [
+      "They are cold-blooded",
+      "They lay eggs",
+      "They only eat plants"
+     ],
+     "ex": "Mammals are endothermic (warm-blooded) and have hair at some stage of development.",
+     "group": "Common features",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-005",
+     "q": "In the manual's taxonomic example, to which family does the African wild dog belong?",
+     "a": "Canidae",
+     "w": [
+      "Felidae",
+      "Hyaenidae",
+      "Herpestidae"
+     ],
+     "ex": "The taxonomic breakdown of the wild dog lists Order Carnivora, Family Canidae.",
+     "group": "Common features",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-006",
+     "q": "What is the scientific name (genus and species) of the African wild dog?",
+     "a": "Lycaon pictus",
+     "w": [
+      "Crocuta crocuta",
+      "Canis mesomelas",
+      "Otocyon megalotis"
+     ],
+     "ex": "The manual's taxonomic example gives the wild dog's genus and species as Lycaon pictus.",
+     "group": "Common features",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-007",
+     "q": "What is oestrus in female mammals?",
+     "a": "The stage when oestrogen peaks before ovulation",
+     "w": [
+      "The stage when the young are weaned",
+      "The period when milk is produced",
+      "The time the egg is fertilised"
+     ],
+     "ex": "Oestrus is the stage when the oestrogen (female hormone) level peaks before ovulation.",
+     "group": "Breeding",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-008",
+     "q": "What is ovulation?",
+     "a": "When the egg is released, ready to be fertilised",
+     "w": [
+      "When the young are born",
+      "When the female produces milk",
+      "When the male tests the female's scent"
+     ],
+     "ex": "Ovulation is when the egg is released, ready to be fertilised.",
+     "group": "Breeding",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-009",
+     "q": "The word 'flehmen' comes from German. What does it mean?",
+     "a": "Exposing teeth",
+     "w": [
+      "Smelling the wind",
+      "Raising the head",
+      "Calling a mate"
+     ],
+     "ex": "Flehmen comes from the German word meaning \"exposing teeth\".",
+     "group": "Breeding",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-010",
+     "q": "What is another name for the vomeronasal organ?",
+     "a": "Jacobson's organ",
+     "w": [
+      "Herbst corpuscle",
+      "Rete mirabilis",
+      "Inter-digital gland"
+     ],
+     "ex": "The vomeronasal organ (Jacobson's organ) is an extra smell sense designed to interpret pheromones.",
+     "group": "Breeding",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-011",
+     "q": "In which two species does the manual say females have synchronised oestrus?",
+     "a": "Wild dog and hyaena",
+     "w": [
+      "Lion and leopard",
+      "Elephant and rhino",
+      "Impala and kudu"
+     ],
+     "ex": "Synchronised oestrus takes place in cooperative breeders such as wild dog and hyaena.",
+     "group": "Breeding",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-012",
+     "q": "What is the benefit of synchronised oestrus to the alpha female?",
+     "a": "Less time spent guarding against other females mating",
+     "w": [
+      "Her young are born in the dry season",
+      "She can mate with more males",
+      "Her cubs grow faster"
+     ],
+     "ex": "It reduces the time alpha females spend guarding against other females mating and producing unwanted young.",
+     "group": "Breeding",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-013",
+     "q": "What is induced ovulation?",
+     "a": "The female only ovulates through sustained mating",
+     "w": [
+      "The female ovulates once a year",
+      "The male controls when the female is in oestrus",
+      "The female ovulates only after giving birth"
+     ],
+     "ex": "With induced ovulation the female only ovulates through sustained sexual intercourse, often 3-5 days after mating begins.",
+     "group": "Breeding",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-014",
+     "q": "In which group of animals does the manual say induced ovulation occurs?",
+     "a": "Elephant, lion and leopard",
+     "w": [
+      "Impala, kudu and zebra",
+      "Wild dog, jackal and fox",
+      "Hippo, buffalo and giraffe"
+     ],
+     "ex": "Induced ovulation occurs, inter alia, amongst elephant, lion and leopard.",
+     "group": "Breeding",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-015",
+     "q": "What is the process of producing milk for newborn mammals called?",
+     "a": "Lactation",
+     "w": [
+      "Ovulation",
+      "Rumination",
+      "Oestrus"
+     ],
+     "ex": "Newborn mammals depend on milk which is produced in a process called lactation.",
+     "group": "Breeding",
+     "page": "108",
+     "draft": true
+    },
+    {
+     "id": "MAMM-016",
+     "q": "According to the manual's table, what is the average weight of a male elephant?",
+     "a": "5500-6000kg",
+     "w": [
+      "3800-4000kg",
+      "2000-2500kg",
+      "7500-8000kg"
+     ],
+     "ex": "The table gives male elephant weight as 5500-6000kg (females 3800-4000kg).",
+     "group": "Elephant",
+     "page": "110",
+     "draft": true
+    },
+    {
+     "id": "MAMM-017",
+     "q": "According to the table, which of these animals has females that are heavier than males?",
+     "a": "Spotted hyaena",
+     "w": [
+      "Lion",
+      "Leopard",
+      "Buffalo"
+     ],
+     "ex": "The table gives spotted hyaena males as 62kg and females as 68kg.",
+     "group": "Hyaenas",
+     "page": "110",
+     "draft": true
+    },
+    {
+     "id": "MAMM-018",
+     "q": "According to the table, what is the average shoulder height of a male lion?",
+     "a": "1m",
+     "w": [
+      "65cm",
+      "1,45m",
+      "1,6m"
+     ],
+     "ex": "The table lists the male lion at 190kg and 1m shoulder height.",
+     "group": "Lion",
+     "page": "110",
+     "draft": true
+    },
+    {
+     "id": "MAMM-019",
+     "q": "About how much food does a bull elephant need each day?",
+     "a": "170kg",
+     "w": [
+      "40kg",
+      "70kg",
+      "300kg"
+     ],
+     "ex": "Bulls need about 170kg of food a day and only digest about 40% of it.",
+     "group": "Elephant",
+     "page": "110",
+     "draft": true
+    },
+    {
+     "id": "MAMM-020",
+     "q": "Approximately how much water does a bull elephant drink per day?",
+     "a": "160 litres",
+     "w": [
+      "40 litres",
+      "80 litres",
+      "300 litres"
+     ],
+     "ex": "Bulls drink approximately 160 litres of water per day.",
+     "group": "Elephant",
+     "page": "110",
+     "draft": true
+    },
+    {
+     "id": "MAMM-021",
+     "q": "Why are elephants active both by day and at night?",
+     "a": "They feed for up to 18 hours a day",
+     "w": [
+      "They avoid lions during the day",
+      "They only drink at night",
+      "Bulls search for females at night"
+     ],
+     "ex": "Because of the large amount of food needed, elephant feed for up to 18 hours a day.",
+     "group": "Elephant",
+     "page": "110",
+     "draft": true
+    },
+    {
+     "id": "MAMM-022",
+     "q": "An elephant that is alert to a threat may stop, listen and raise its trunk. What else may it do while identifying the disturbance?",
+     "a": "Mock-feed",
+     "w": [
+      "Lie down",
+      "Dust-bath",
+      "Roll in mud"
+     ],
+     "ex": "Alert elephant may \"mock-feed\" while trying to identify the disturbance.",
+     "group": "Elephant",
+     "page": "110",
+     "draft": true
+    },
+    {
+     "id": "MAMM-023",
+     "q": "What does a serious elephant charge usually look like?",
+     "a": "Head down, ears back, little noise, maximum speed",
+     "w": [
+      "Head high, ears spread, loud trumpeting",
+      "Head shaking with loud ear flaps",
+      "Walking backwards with the tail held sideways"
+     ],
+     "ex": "A serious charge is usually head down, ears back, minimum noise and maximum speed.",
+     "group": "Elephant",
+     "page": "110",
+     "draft": true
+    },
+    {
+     "id": "MAMM-024",
+     "q": "An elephant runs at you with head held high, ears spread and trumpeting. What must a guide remember?",
+     "a": "It can turn into a serious charge with no warning",
+     "w": [
+      "It will never follow through with the charge",
+      "It is a submissive display",
+      "It means the elephant is in musth"
+     ],
+     "ex": "Although it may be a mock-charge, the elephant can change its mind in a split second and charge seriously.",
+     "group": "Elephant",
+     "page": "110",
+     "draft": true
+    },
+    {
+     "id": "MAMM-025",
+     "q": "You are on foot and a bull elephant has detected you. You cannot reach cover. What should you do?",
+     "a": "Stand your ground",
+     "w": [
+      "Run away with the guests",
+      "Lie flat on the ground",
+      "Climb the nearest small tree"
+     ],
+     "ex": "If detected by a bull and you cannot get to safety, stand your ground and tell guests to stay calm.",
+     "group": "Elephant",
+     "page": "110",
+     "draft": true
+    },
+    {
+     "id": "MAMM-026",
+     "q": "If a bull elephant approaches a guide standing his ground, what does the manual advise?",
+     "a": "Hold arms up and out and step towards it",
+     "w": [
+      "Turn your back and walk away slowly",
+      "Crouch down and stay silent",
+      "Throw something at its head"
+     ],
+     "ex": "Hold your arms up and out to look bigger and take a step towards the elephant.",
+     "group": "Elephant",
+     "page": "110",
+     "draft": true
+    },
+    {
+     "id": "MAMM-027",
+     "q": "Why is standing your ground less effective with a breeding herd?",
+     "a": "Cows with calves are not easily bluffed",
+     "w": [
+      "Cows cannot see well",
+      "Breeding herds never charge",
+      "Cows only charge at vehicles"
+     ],
+     "ex": "The manual states that cows with calves are not as easily bluffed by standing your ground.",
+     "group": "Dangerous mammals (general)",
+     "page": "110",
+     "draft": true
+    },
+    {
+     "id": "MAMM-028",
+     "q": "How does a submissive elephant behave?",
+     "a": "Keeps its head down and does not face the other elephant",
+     "w": [
+      "Faces the other elephant with ears spread",
+      "Trumpets loudly and shakes its head",
+      "Raises its trunk and charges"
+     ],
+     "ex": "A submissive elephant keeps its head down and will not face the other elephant head on.",
+     "group": "Elephant",
+     "page": "110",
+     "draft": true
+    },
+    {
+     "id": "MAMM-029",
+     "q": "What is the gestation period of an elephant?",
+     "a": "22 months",
+     "w": [
+      "15 months",
+      "11 months",
+      "8 months"
+     ],
+     "ex": "Elephant are born after a gestation of 22 months, mostly in the rainy season.",
+     "group": "Elephant",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-030",
+     "q": "What is musth in bull elephants?",
+     "a": "A state of raised testosterone, aggression and sexual desire",
+     "w": [
+      "The time when young bulls leave the herd",
+      "A skin disease of older bulls",
+      "The period when cows give birth"
+     ],
+     "ex": "Musth is a state of elevated testosterone causing more aggression and sexual desire.",
+     "group": "Elephant",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-031",
+     "q": "From what age do bull elephants come into full-blown musth lasting several months?",
+     "a": "After 35 years",
+     "w": [
+      "From 12-15 years",
+      "From 20-25 years",
+      "After 50 years"
+     ],
+     "ex": "Musth is weak from about 20-25 up to 35; after 35, bulls come into full-blown musth.",
+     "group": "Elephant",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-032",
+     "q": "At what age do young bull elephants usually leave the breeding herd?",
+     "a": "12-15 years",
+     "w": [
+      "2-3 years",
+      "5-7 years",
+      "30-35 years"
+     ],
+     "ex": "Young bulls leave between 12-15 years of age and join other bulls.",
+     "group": "Elephant",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-033",
+     "q": "Who makes up an elephant family unit?",
+     "a": "Grandmothers, daughters and granddaughters",
+     "w": [
+      "One dominant bull and his cows",
+      "Young bulls of the same age",
+      "Unrelated cows and their calves"
+     ],
+     "ex": "Breeding herds are made up of family units of grandmothers, their daughters and granddaughters.",
+     "group": "Elephant",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-034",
+     "q": "Many elephant calls are in 'infra-sound'. What does this mean?",
+     "a": "The sound is too low for humans to hear",
+     "w": [
+      "The sound is very loud",
+      "The sound is made only underwater",
+      "The sound is made through the trunk"
+     ],
+     "ex": "Infra-sound is below the frequency that humans can hear.",
+     "group": "Elephant",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-035",
+     "q": "Which feature helps to identify a black rhino?",
+     "a": "A prehensile lip for browsing",
+     "w": [
+      "A large nuchal hump on the neck",
+      "A large head held low",
+      "Calves that run in front of the mother"
+     ],
+     "ex": "Black rhino are smaller, hold a smaller head high, have a prehensile lip and no large nuchal hump.",
+     "group": "Rhinos",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-036",
+     "q": "How do black rhino calves run in relation to their mothers?",
+     "a": "Behind the mother",
+     "w": [
+      "In front of the mother",
+      "Beside the mother",
+      "Far away from the mother"
+     ],
+     "ex": "Black rhino calves run behind their mothers, while white rhino calves run in front.",
+     "group": "Rhinos",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-037",
+     "q": "Black rhino are seldom more than how far from water?",
+     "a": "15km",
+     "w": [
+      "5km",
+      "30km",
+      "50km"
+     ],
+     "ex": "Black rhino are water-dependent and seldom more than 15km from water.",
+     "group": "Rhinos",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-038",
+     "q": "What is the best sense of a rhino?",
+     "a": "Smell",
+     "w": [
+      "Sight",
+      "Hearing",
+      "Touch"
+     ],
+     "ex": "Rhino may run into the down-wind position to use their best sense - smell.",
+     "group": "Rhinos",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-039",
+     "q": "If a black rhino charge comes your way on foot, what does the manual advise?",
+     "a": "Clap and shout to try to break the charge",
+     "w": [
+      "Stand silently and freeze",
+      "Run along the nearest path",
+      "Lie down flat on the ground"
+     ],
+     "ex": "Try to get behind cover or up high; if the charge comes your way, clap and shout at the rhino.",
+     "group": "Rhinos",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-040",
+     "q": "Why should you stay off paths when black rhino are around?",
+     "a": "Some charges are misdirected attempts to escape",
+     "w": [
+      "Rhino mark paths with urine",
+      "Rhino cannot see paths",
+      "Paths lead to rhino middens"
+     ],
+     "ex": "Black rhino may charge repeatedly; some charges are misdirected escapes, so stay off paths.",
+     "group": "Rhinos",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-041",
+     "q": "What is the gestation period of a black rhino?",
+     "a": "15 months",
+     "w": [
+      "8 months",
+      "11 months",
+      "22 months"
+     ],
+     "ex": "Black rhino are born after a gestation period of 15 months.",
+     "group": "Rhinos",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-042",
+     "q": "What are black rhino 'middens' actually used for?",
+     "a": "Shared latrines that show who is in the area",
+     "w": [
+      "Marking a strictly defended territory",
+      "Hiding calves from predators",
+      "Feeding sites shared by the group"
+     ],
+     "ex": "Middens are shared latrines that tell other rhino who is around and advertise breeding condition.",
+     "group": "Rhinos",
+     "page": "111",
+     "draft": true
+    },
+    {
+     "id": "MAMM-043",
+     "q": "At what time of day does most white rhino drinking take place?",
+     "a": "Between 17h00 and 21h00",
+     "w": [
+      "Between 05h00 and 08h00",
+      "Between 11h00 and 14h00",
+      "Between 22h00 and 02h00"
+     ],
+     "ex": "Most white rhino drinking is between 17h00 and 21h00.",
+     "group": "Rhinos",
+     "page": "112",
+     "draft": true
+    },
+    {
+     "id": "MAMM-044",
+     "q": "What is the gestation period of a white rhino?",
+     "a": "16 months",
+     "w": [
+      "11 months",
+      "15 months",
+      "22 months"
+     ],
+     "ex": "White rhino are born after a gestation of 16 months.",
+     "group": "Rhinos",
+     "page": "112",
+     "draft": true
+    },
+    {
+     "id": "MAMM-045",
+     "q": "How do white rhino bulls mark territory?",
+     "a": "Dung middens and urine spraying",
+     "w": [
+      "Thrashing dung on bushes",
+      "Pasting on grass stems",
+      "Paw scrapings with a gland"
+     ],
+     "ex": "White rhino bulls mark territory with dung middens and urine spraying; cows are not territorial.",
+     "group": "Rhinos",
+     "page": "112",
+     "draft": true
+    },
+    {
+     "id": "MAMM-046",
+     "q": "Why are white rhino calves seldom preyed upon by hyaena?",
+     "a": "They are protected by the other rhino in the group",
+     "w": [
+      "They hide in thick bush",
+      "They stay in the water",
+      "They are born in winter"
+     ],
+     "ex": "Unlike black rhino, white rhino calves are protected by the rest of the rhino in the group.",
+     "group": "Hyaenas",
+     "page": "112",
+     "draft": true
+    },
+    {
+     "id": "MAMM-047",
+     "q": "How much grass does a hippo graze each night?",
+     "a": "About 40kg",
+     "w": [
+      "About 10kg",
+      "About 100kg",
+      "About 170kg"
+     ],
+     "ex": "Hippo feed mainly at night and graze about 40kg of grass every night.",
+     "group": "Hippo",
+     "page": "112",
+     "draft": true
+    },
+    {
+     "id": "MAMM-048",
+     "q": "Which statement about hippo digestion is correct?",
+     "a": "They are the only large non-ruminant foregut fermenters",
+     "w": [
+      "They are hindgut fermenters like zebra",
+      "They are ruminants that chew the cud",
+      "They have a simple acid stomach"
+     ],
+     "ex": "Hippo are the only large non-ruminant foregut fermenters found in Botswana.",
+     "group": "Hippo",
+     "page": "112",
+     "draft": true
+    },
+    {
+     "id": "MAMM-049",
+     "q": "Which hippo behaviours are serious warning signs, often followed by a charge?",
+     "a": "Taking a few steps towards you and opening the mouth",
+     "w": [
+      "Turning towards you and listening",
+      "Diving under the water",
+      "Grunting from deep water"
+     ],
+     "ex": "Taking a few steps towards you and opening the mouth are serious warning signs.",
+     "group": "Hippo",
+     "page": "112",
+     "draft": true
+    },
+    {
+     "id": "MAMM-050",
+     "q": "A hippo charges while you are moving guests away on foot. What should you do?",
+     "a": "Get to cover fast and keep clear of its path to water",
+     "w": [
+      "Stand your ground and shout",
+      "Move between the hippo and the water",
+      "Freeze and avoid eye contact"
+     ],
+     "ex": "There is no point standing your ground; get to cover and never block its path to the water.",
+     "group": "Hippo",
+     "page": "112",
+     "draft": true
+    },
+    {
+     "id": "MAMM-051",
+     "q": "According to the manual, up to how many people are killed by hippo in Africa each year?",
+     "a": "2900",
+     "w": [
+      "290",
+      "900",
+      "9000"
+     ],
+     "ex": "Hippo kill more people than any other wild mammal, with up to 2900 killed each year in Africa.",
+     "group": "Hippo",
+     "page": "112",
+     "draft": true
+    },
+    {
+     "id": "MAMM-052",
+     "q": "What is the gestation period of a hippo?",
+     "a": "8 months",
+     "w": [
+      "11 months",
+      "15 months",
+      "3,5 months"
+     ],
+     "ex": "Hippo calves are born after a very short gestation of only 8 months.",
+     "group": "Hippo",
+     "page": "112",
+     "draft": true
+    },
+    {
+     "id": "MAMM-053",
+     "q": "About what percentage of hippo bulls will ever hold a territory?",
+     "a": "10%",
+     "w": [
+      "25%",
+      "50%",
+      "80%"
+     ],
+     "ex": "Only about 10% of hippo bulls will ever hold territory.",
+     "group": "Hippo",
+     "page": "112",
+     "draft": true
+    },
+    {
+     "id": "MAMM-054",
+     "q": "What is the major predator of buffalo?",
+     "a": "Lion",
+     "w": [
+      "Spotted hyaena",
+      "Crocodile",
+      "Leopard"
+     ],
+     "ex": "The major predator of buffalo is lion; hyaena occasionally kill them and crocodiles take young.",
+     "group": "Hyaenas",
+     "page": "113",
+     "draft": true
+    },
+    {
+     "id": "MAMM-055",
+     "q": "A serious buffalo charge often begins with which sound?",
+     "a": "A guttural growl",
+     "w": [
+      "A loud trumpet",
+      "A cattle-like lowing",
+      "A high-pitched squeal"
+     ],
+     "ex": "Often the serious charge begins with a guttural growl.",
+     "group": "Buffalo",
+     "page": "113",
+     "draft": true
+    },
+    {
+     "id": "MAMM-056",
+     "q": "A buffalo begins a serious charge towards you and your guests. What does the manual advise?",
+     "a": "Do not stand your ground; get your guests out",
+     "w": [
+      "Stand your ground and clap",
+      "Lie down and stay still",
+      "Walk slowly towards it"
+     ],
+     "ex": "Once a buffalo charge begins it is rarely a mock charge, so get your guests out of there.",
+     "group": "Buffalo",
+     "page": "113",
+     "draft": true
+    },
+    {
+     "id": "MAMM-057",
+     "q": "What is the gestation period of a buffalo?",
+     "a": "11 months",
+     "w": [
+      "8 months",
+      "15 months",
+      "22 months"
+     ],
+     "ex": "Most mating is in February and a single calf is born after 11 months.",
+     "group": "Buffalo",
+     "page": "113",
+     "draft": true
+    },
+    {
+     "id": "MAMM-058",
+     "q": "What are 'dagga boys'?",
+     "a": "Old buffalo bulls that stay together",
+     "w": [
+      "Young buffalo calves",
+      "Dominant bulls in the breeding herd",
+      "Female buffalo without calves"
+     ],
+     "ex": "Old bulls, or \"dagga boys\", tend to stay with other old bulls.",
+     "group": "Buffalo",
+     "page": "113",
+     "draft": true
+    },
+    {
+     "id": "MAMM-059",
+     "q": "How can the age of a buffalo be estimated?",
+     "a": "By horn growth and how sparse the coat is",
+     "w": [
+      "By counting rings on the hooves",
+      "By the colour of the eyes",
+      "By the length of the tail"
+     ],
+     "ex": "Horns keep growing and the coat becomes sparser with age, so these features can be used to estimate age.",
+     "group": "Buffalo",
+     "page": "113",
+     "draft": true
+    },
+    {
+     "id": "MAMM-060",
+     "q": "What is a lion's best sense?",
+     "a": "Sight",
+     "w": [
+      "Smell",
+      "Hearing",
+      "Touch"
+     ],
+     "ex": "A lion's best sense is its sight and it will immediately stare at any disturbance.",
+     "group": "Lion",
+     "page": "113",
+     "draft": true
+    },
+    {
+     "id": "MAMM-061",
+     "q": "Which are early warning signs from a lion?",
+     "a": "Body flattened, ears back and tail flicking",
+     "w": [
+      "Head high and ears forward",
+      "Ears spread and trumpeting",
+      "Bobbing and jumping while growling"
+     ],
+     "ex": "Early warning signs include flattening the body in a crouch, ears back and tail flicking.",
+     "group": "Lion",
+     "page": "113",
+     "draft": true
+    },
+    {
+     "id": "MAMM-062",
+     "q": "On foot, a lion becomes aware of you. What should you do first?",
+     "a": "Stand your ground and let the lion react",
+     "w": [
+      "Move away immediately",
+      "Run to the nearest tree",
+      "Point it out to the guests"
+     ],
+     "ex": "Do not move away immediately; stand your ground and allow the lion to react.",
+     "group": "Lion",
+     "page": "113",
+     "draft": true
+    },
+    {
+     "id": "MAMM-063",
+     "q": "When should you retreat during a lion encounter on foot?",
+     "a": "After the lion's reaction is over and it has settled",
+     "w": [
+      "As soon as you see the lion",
+      "While the lion is charging",
+      "When the lion turns its back on you"
+     ],
+     "ex": "Wait until the lion's initial reaction is over and it has settled down before retreating.",
+     "group": "Lion",
+     "page": "113",
+     "draft": true
+    },
+    {
+     "id": "MAMM-064",
+     "q": "What is the gestation period of a lion?",
+     "a": "3,5 months",
+     "w": [
+      "2,5 months",
+      "6 months",
+      "8 months"
+     ],
+     "ex": "Lionesses usually have 2-3 cubs after a gestation of 3,5 months.",
+     "group": "Lion",
+     "page": "113",
+     "draft": true
+    },
+    {
+     "id": "MAMM-065",
+     "q": "At what age are male lions evicted from the pride?",
+     "a": "2-4 years",
+     "w": [
+      "6-8 years",
+      "10-12 years",
+      "Under 1 year"
+     ],
+     "ex": "Males are evicted from the pride between 2-4 years of age.",
+     "group": "Lion",
+     "page": "114",
+     "draft": true
+    },
+    {
+     "id": "MAMM-066",
+     "q": "Why do male lions often form coalitions?",
+     "a": "Two medium-strength males can beat one strong male",
+     "w": [
+      "They hunt only large prey",
+      "Females prefer large groups",
+      "It stops cubs being killed by hyaena"
+     ],
+     "ex": "Two medium-strength lions can often defeat one very powerful and experienced lion.",
+     "group": "Lion",
+     "page": "114",
+     "draft": true
+    },
+    {
+     "id": "MAMM-067",
+     "q": "Which statement about lion vocalisation is correct?",
+     "a": "Lions cannot purr",
+     "w": [
+      "The roar is heard up to 1km away",
+      "Lions only roar alone",
+      "Lions make a bird-like chirp"
+     ],
+     "ex": "The roar is over 110 decibels and heard from at least 5km; lions grunt, growl and snarl but cannot purr.",
+     "group": "Lion",
+     "page": "114",
+     "draft": true
+    },
+    {
+     "id": "MAMM-068",
+     "q": "You are on foot and close to a leopard that your guests have not seen. What should you do?",
+     "a": "Do not point it out and quietly leave",
+     "w": [
+      "Point it out so guests can watch",
+      "Walk closer for a better view",
+      "Stare at it to keep it calm"
+     ],
+     "ex": "If guests may not spot it, do not point it out; a leopard that feels unseen will not react aggressively.",
+     "group": "Leopard",
+     "page": "114",
+     "draft": true
+    },
+    {
+     "id": "MAMM-069",
+     "q": "If a leopard charges, what does the manual advise?",
+     "a": "Stand still and avoid direct eye contact",
+     "w": [
+      "Run diagonally away",
+      "Stare at it and shout",
+      "Lie flat on the ground"
+     ],
+     "ex": "If a charge results, stand still and avoid direct eye contact until it is over, then continue retreating.",
+     "group": "Leopard",
+     "page": "114",
+     "draft": true
+    },
+    {
+     "id": "MAMM-070",
+     "q": "How should you retreat from a leopard giving warning signs?",
+     "a": "Back off, preferably at an angle",
+     "w": [
+      "Turn and run in a straight line",
+      "Walk directly towards it",
+      "Stay still until it leaves"
+     ],
+     "ex": "Immediately begin backing off, preferably at an angle (diagonally away from the cat).",
+     "group": "Leopard",
+     "page": "114",
+     "draft": true
+    },
+    {
+     "id": "MAMM-071",
+     "q": "How long are a leopard cub's eyes closed after birth?",
+     "a": "The first 10 days",
+     "w": [
+      "The first 2 days",
+      "The first month",
+      "The first 3 months"
+     ],
+     "ex": "Cubs weigh about 300-500g at birth and their eyes are closed for the first 10 days.",
+     "group": "Leopard",
+     "page": "114",
+     "draft": true
+    },
+    {
+     "id": "MAMM-072",
+     "q": "Leopard territorial calling is described as sounding like what?",
+     "a": "Someone cutting wood with a rough saw",
+     "w": [
+      "A bird-like chirp",
+      "A whooping call",
+      "Cattle lowing"
+     ],
+     "ex": "Leopard vocalise with a harsh rasping sound like someone cutting wood with a rough saw.",
+     "group": "Leopard",
+     "page": "114",
+     "draft": true
+    },
+    {
+     "id": "MAMM-073",
+     "q": "What top speed can a cheetah reach?",
+     "a": "Over 100km/hr",
+     "w": [
+      "About 60km/hr",
+      "About 80km/hr",
+      "About 50km/hr"
+     ],
+     "ex": "Cheetah reach over 100km/hr and accelerate from 0-100km/hr in 3 seconds.",
+     "group": "Cheetah",
+     "page": "115",
+     "draft": true
+    },
+    {
+     "id": "MAMM-074",
+     "q": "How does a cheetah usually react to people on foot if it has an escape route?",
+     "a": "It runs away",
+     "w": [
+      "It charges",
+      "It stalks them",
+      "It stands its ground"
+     ],
+     "ex": "Unless cornered, a cheetah will never attack a human and will run if it has an escape route.",
+     "group": "Cheetah",
+     "page": "115",
+     "draft": true
+    },
+    {
+     "id": "MAMM-075",
+     "q": "What is the gestation period of a cheetah?",
+     "a": "3 months",
+     "w": [
+      "2 months",
+      "4,5 months",
+      "6 months"
+     ],
+     "ex": "A litter of about 4 kittens is born after 3 months, weighing about 250g.",
+     "group": "Cheetah",
+     "page": "115",
+     "draft": true
+    },
+    {
+     "id": "MAMM-076",
+     "q": "Which call is typical of the cheetah?",
+     "a": "A bird-like chirp",
+     "w": [
+      "A rasping cough",
+      "A whooping call",
+      "A loud HOOO HOOO"
+     ],
+     "ex": "Cheetah make a bird-like chirp heard for several hundred metres.",
+     "group": "Cheetah",
+     "page": "115",
+     "draft": true
+    },
+    {
+     "id": "MAMM-077",
+     "q": "What is the hunting style of the wild dog called?",
+     "a": "Coursing",
+     "w": [
+      "Ambushing",
+      "Stalk and pounce",
+      "Pasting"
+     ],
+     "ex": "Wild dog hunting is called coursing: they walk towards prey and run it down when it flees.",
+     "group": "Wild dog",
+     "page": "115",
+     "draft": true
+    },
+    {
+     "id": "MAMM-078",
+     "q": "What is the average wild dog pack size in Botswana?",
+     "a": "8-10",
+     "w": [
+      "2-3",
+      "20-30",
+      "Over 50"
+     ],
+     "ex": "Wild dog are gregarious and pack size in Botswana is on average 8-10.",
+     "group": "Wild dog",
+     "page": "115",
+     "draft": true
+    },
+    {
+     "id": "MAMM-079",
+     "q": "Which statement about wild dog and people on foot is correct?",
+     "a": "They always flee and pose no threat",
+     "w": [
+      "They often charge people",
+      "They stalk people at night",
+      "They attack if you stand still"
+     ],
+     "ex": "Wild dog will always flee from humans and pose no threat to people on foot.",
+     "group": "Wild dog",
+     "page": "115",
+     "draft": true
+    },
+    {
+     "id": "MAMM-080",
+     "q": "When do wild dogs breed in Botswana?",
+     "a": "In winter",
+     "w": [
+      "In summer",
+      "In spring",
+      "All year round"
+     ],
+     "ex": "In Botswana wild dog breed in winter, mating around April and denning around June.",
+     "group": "Wild dog",
+     "page": "115",
+     "draft": true
+    },
+    {
+     "id": "MAMM-081",
+     "q": "On average, how many pups does a wild dog female give birth to?",
+     "a": "10",
+     "w": [
+      "2",
+      "5",
+      "15"
+     ],
+     "ex": "After a gestation of 2,5 months the female gives birth to an average of 10 pups.",
+     "group": "Wild dog",
+     "page": "116",
+     "draft": true
+    },
+    {
+     "id": "MAMM-082",
+     "q": "Which wild dog call is used to regroup after a hunt?",
+     "a": "A loud HOOO HOOO",
+     "w": [
+      "An excited twitter",
+      "A rasping cough",
+      "A bird-like chirp"
+     ],
+     "ex": "The loud HOOO HOOO call is given when trying to regroup after a hunt.",
+     "group": "Wild dog",
+     "page": "116",
+     "draft": true
+    },
+    {
+     "id": "MAMM-083",
+     "q": "When is the peak breeding time for spotted hyaena?",
+     "a": "December/January",
+     "w": [
+      "June/July",
+      "March/April",
+      "September/October"
+     ],
+     "ex": "Hyaena breed all year but peak in December/January when young antelope are abundant.",
+     "group": "Hyaenas",
+     "page": "116",
+     "draft": true
+    },
+    {
+     "id": "MAMM-084",
+     "q": "What colour are spotted hyaena cubs?",
+     "a": "Black",
+     "w": [
+      "Spotted",
+      "Brown with stripes",
+      "Grey"
+     ],
+     "ex": "Cubs are black; spotting begins to emerge on the flanks by 4 months.",
+     "group": "Hyaenas",
+     "page": "116",
+     "draft": true
+    },
+    {
+     "id": "MAMM-085",
+     "q": "Spotted hyaena use 'pasting' to mark territory. What is pasted, and where?",
+     "a": "Anal pouch scent on grass stems",
+     "w": [
+      "Urine on tree trunks",
+      "Dung on bushes",
+      "Saliva on rocks"
+     ],
+     "ex": "Pasting is done on grass stems using the anal pouch.",
+     "group": "Hyaenas",
+     "page": "116",
+     "draft": true
+    },
+    {
+     "id": "MAMM-086",
+     "q": "Which statement about brown hyaena is correct?",
+     "a": "They are totally independent of surface water",
+     "w": [
+      "They hunt more than they scavenge",
+      "They live in a matriarchal clan",
+      "They are active mainly by day"
+     ],
+     "ex": "Brown hyaena are totally independent of surface water and are nocturnal scavengers that seldom hunt.",
+     "group": "Hyaenas",
+     "page": "117",
+     "draft": true
+    },
+    {
+     "id": "MAMM-087",
+     "q": "Why does brown hyaena breeding suit the Kalahari's harshest time?",
+     "a": "Many animals die then, giving plenty of food",
+     "w": [
+      "There is more water at that time",
+      "Predators are less active then",
+      "Grass is greenest at that time"
+     ],
+     "ex": "Births coincide with the harshest time, when many animals die, providing plentiful food for scavengers.",
+     "group": "Hyaenas",
+     "page": "117",
+     "draft": true
+    },
+    {
+     "id": "MAMM-088",
+     "q": "With whom do brown hyaena females frequently breed?",
+     "a": "Nomadic males",
+     "w": [
+      "Only the dominant clan male",
+      "Males from spotted hyaena clans",
+      "Their own brothers"
+     ],
+     "ex": "Breeding is frequently not with males of the clan but with nomadic males.",
+     "group": "Hyaenas",
+     "page": "117",
+     "draft": true
+    },
+    {
+     "id": "MAMM-089",
+     "q": "According to the large herbivore table, what does a male giraffe weigh on average?",
+     "a": "1200kg",
+     "w": [
+      "820kg",
+      "320kg",
+      "2000kg"
+     ],
+     "ex": "The table gives giraffe males 1200kg and females 820kg.",
+     "group": "Large herbivores",
+     "page": "117",
+     "draft": true
+    },
+    {
+     "id": "MAMM-090",
+     "q": "What is the gestation period of a giraffe?",
+     "a": "15 months",
+     "w": [
+      "8,5 months",
+      "11 months",
+      "22 months"
+     ],
+     "ex": "A single giraffe calf is born after a 15 month gestation, with a birth drop of about 2 metres.",
+     "group": "Large herbivores",
+     "page": "118",
+     "draft": true
+    },
+    {
+     "id": "MAMM-091",
+     "q": "Why is a young giraffe moved after almost every feed?",
+     "a": "So the scent of lactation does not attract predators",
+     "w": [
+      "So it learns to walk",
+      "So it can find better browse",
+      "So the herd can find it"
+     ],
+     "ex": "The calf is moved so that the scent of lactation does not linger and attract predators.",
+     "group": "Large herbivores",
+     "page": "118",
+     "draft": true
+    },
+    {
+     "id": "MAMM-092",
+     "q": "How do male giraffe change with age?",
+     "a": "They become darker and develop lumps on the head",
+     "w": [
+      "They become paler and lose their ossicones",
+      "Their spots become larger and rounder",
+      "Their necks become shorter"
+     ],
+     "ex": "Males become darker with age and develop lumps on the head from calcium deposits.",
+     "group": "Large herbivores",
+     "page": "118",
+     "draft": true
+    },
+    {
+     "id": "MAMM-093",
+     "q": "When fleeing from predators, where does the zebra stallion position himself?",
+     "a": "At the back, between the group and the predator",
+     "w": [
+      "At the front, leading the group",
+      "In the middle, among the foals",
+      "Far away from the group"
+     ],
+     "ex": "The stallion drops to the back and stays between the group and the predator, kicking out.",
+     "group": "Large herbivores",
+     "page": "118",
+     "draft": true
+    },
+    {
+     "id": "MAMM-094",
+     "q": "How does a young zebra stallion start his own harem?",
+     "a": "He steals a filly on heat from another herd",
+     "w": [
+      "He fights the old stallion to the death",
+      "He waits for his mother's herd",
+      "Mares choose him at a lek"
+     ],
+     "ex": "A stallion ready to compete steals a filly on heat from another male's herd.",
+     "group": "Large herbivores",
+     "page": "118",
+     "draft": true
+    },
+    {
+     "id": "MAMM-095",
+     "q": "What percentage of zebra oestrus happens in summer?",
+     "a": "80%",
+     "w": [
+      "25%",
+      "50%",
+      "100%"
+     ],
+     "ex": "Mares come into oestrus all year but 80% of the time it happens in summer.",
+     "group": "Large herbivores",
+     "page": "118",
+     "draft": true
+    },
+    {
+     "id": "MAMM-096",
+     "q": "What is the typical call of the plains zebra?",
+     "a": "HWO-HWHOOOP",
+     "w": [
+      "HOOO HOOO",
+      "Nyaaa-aa-aa",
+      "A rasping cough"
+     ],
+     "ex": "Zebra give the typical call \"HWO-HWHOOOP\" repeated several times, and a horse-like snort.",
+     "group": "Large herbivores",
+     "page": "119",
+     "draft": true
+    },
+    {
+     "id": "MAMM-097",
+     "q": "How often must blue wildebeest drink?",
+     "a": "At least every second day",
+     "w": [
+      "Once a week",
+      "Three times a day",
+      "Only in the wet season"
+     ],
+     "ex": "Blue wildebeest are water dependent and must drink at least every second day.",
+     "group": "Large herbivores",
+     "page": "119",
+     "draft": true
+    },
+    {
+     "id": "MAMM-098",
+     "q": "What is a 'pulse-birth', as seen in wildebeest?",
+     "a": "All calves are born in a very short space of time",
+     "w": [
+      "Calves are born every month",
+      "Calves are born at night only",
+      "Each cow has twins"
+     ],
+     "ex": "In a pulse-birth all calves are born in a short time so predators cannot eat them all.",
+     "group": "Large herbivores",
+     "page": "119",
+     "draft": true
+    },
+    {
+     "id": "MAMM-099",
+     "q": "What is the gestation period of the blue wildebeest?",
+     "a": "8,5 months",
+     "w": [
+      "7,5 months",
+      "9 months",
+      "11 months"
+     ],
+     "ex": "Mating is in March/April and a calf is born in November/December after 8,5 months.",
+     "group": "Large herbivores",
+     "page": "119",
+     "draft": true
+    },
+    {
+     "id": "MAMM-100",
+     "q": "What is the wildebeest's only defence against lions?",
+     "a": "Their speed",
+     "w": [
+      "Their horns",
+      "Forming a circle",
+      "Hiding in thickets"
+     ],
+     "ex": "Wildebeest can defend against smaller predators in a group, but speed (up to 80km/hr) is their only defence against lions.",
+     "group": "Large herbivores",
+     "page": "119",
+     "draft": true
+    },
+    {
+     "id": "MAMM-101",
+     "q": "How does a lone oryx defend itself?",
+     "a": "Backs into a thorn-bush and lowers its horns",
+     "w": [
+      "Runs into deep water",
+      "Lies flat in long grass",
+      "Climbs onto a termite mound"
+     ],
+     "ex": "When alone, oryx reverse into a thorn-bush and lower the head, facing horns at the attacker.",
+     "group": "Large herbivores",
+     "page": "119",
+     "draft": true
+    },
+    {
+     "id": "MAMM-102",
+     "q": "What do oryx often dig for?",
+     "a": "Bulbs and tubers",
+     "w": [
+      "Insects",
+      "Salt",
+      "Water"
+     ],
+     "ex": "Oryx are ruminant grazers but frequently dig for bulbs and tubers and occasionally browse.",
+     "group": "Large herbivores",
+     "page": "119",
+     "draft": true
+    },
+    {
+     "id": "MAMM-103",
+     "q": "What is the main defence of waterbuck when attacked?",
+     "a": "Running through water",
+     "w": [
+      "Climbing rocky hills",
+      "Hiding in thick bush",
+      "Forming a circle"
+     ],
+     "ex": "Their main defence is running through water; males also use their horns.",
+     "group": "Large herbivores",
+     "page": "120",
+     "draft": true
+    },
+    {
+     "id": "MAMM-104",
+     "q": "What does the manual say about the idea that waterbuck smell makes their meat distasteful?",
+     "a": "There is no evidence to support it",
+     "w": [
+      "It has been proven true",
+      "It only applies to males",
+      "It only protects the calves"
+     ],
+     "ex": "There is no evidence for this, and waterbuck are often victims of predation.",
+     "group": "Large herbivores",
+     "page": "120",
+     "draft": true
+    },
+    {
+     "id": "MAMM-105",
+     "q": "In large, highly mobile herds, what breeding system do red lechwe males use?",
+     "a": "A lek",
+     "w": [
+      "A harem",
+      "Synchronised oestrus",
+      "Cooperative breeding"
+     ],
+     "ex": "In small sedentary herds males are territorial, but in large mobile herds males use a lek.",
+     "group": "Large herbivores",
+     "page": "120",
+     "draft": true
+    },
+    {
+     "id": "MAMM-106",
+     "q": "When is the peak breeding season for red lechwe in the Okavango?",
+     "a": "March/April",
+     "w": [
+      "January/February",
+      "June/July",
+      "October/November"
+     ],
+     "ex": "Peak breeding is January/February in Linyanti and March/April in the Okavango.",
+     "group": "Large herbivores",
+     "page": "120",
+     "draft": true
+    },
+    {
+     "id": "MAMM-107",
+     "q": "Up to how many times a day do red lechwe drink?",
+     "a": "3",
+     "w": [
+      "1",
+      "5",
+      "10"
+     ],
+     "ex": "Lechwe are water dependent and drink up to 3 times a day.",
+     "group": "Large herbivores",
+     "page": "120",
+     "draft": true
+    },
+    {
+     "id": "MAMM-108",
+     "q": "Up to what percentage of kudu browsing may be done at night?",
+     "a": "40%",
+     "w": [
+      "10%",
+      "60%",
+      "80%"
+     ],
+     "ex": "Kudu are mainly diurnal browsers but up to 40% of browsing may be done at night.",
+     "group": "Large herbivores",
+     "page": "121",
+     "draft": true
+    },
+    {
+     "id": "MAMM-109",
+     "q": "How are most disputes between kudu bulls settled?",
+     "a": "By posturing",
+     "w": [
+      "By serious fighting",
+      "By roaring",
+      "By scent marking"
+     ],
+     "ex": "Fighting between kudu bulls is rare and most disputes over cows are settled by posturing.",
+     "group": "Large herbivores",
+     "page": "121",
+     "draft": true
+    },
+    {
+     "id": "MAMM-110",
+     "q": "By what age have a kudu bull's horns reached about 2½ turns?",
+     "a": "6 years",
+     "w": [
+      "6 months",
+      "2 years",
+      "12 years"
+     ],
+     "ex": "The horn completes its first spiral at 2 years and has 2½ turns by 6.",
+     "group": "Large herbivores",
+     "page": "121",
+     "draft": true
+    },
+    {
+     "id": "MAMM-111",
+     "q": "What does the kudu alarm call sound like?",
+     "a": "A loud, almost baboon-like bark",
+     "w": [
+      "A soft whistle",
+      "A deep roar",
+      "A high squeal"
+     ],
+     "ex": "The kudu alarm bark is loud and almost baboon-like.",
+     "group": "Large herbivores",
+     "page": "121",
+     "draft": true
+    },
+    {
+     "id": "MAMM-112",
+     "q": "Impala are described as 'intermediate feeders'. What does this mean?",
+     "a": "They prefer fresh grass but switch to browse",
+     "w": [
+      "They only browse",
+      "They only graze",
+      "They eat both meat and plants"
+     ],
+     "ex": "Impala prefer grass when fresh and switch to browse when crude protein in the grass gets low.",
+     "group": "Large herbivores",
+     "page": "121",
+     "draft": true
+    },
+    {
+     "id": "MAMM-113",
+     "q": "Why are a herd's impala ewes covered by 3 or 4 strong males during the rut?",
+     "a": "One ram cannot keep up the effort for 3 weeks",
+     "w": [
+      "Ewes reject territorial rams",
+      "Rams share territories",
+      "Only bachelor males mate"
+     ],
+     "ex": "A ram cannot sustain the energy needed for the full 3 week rut, so the 3 or 4 strongest males cover the ewes.",
+     "group": "Large herbivores",
+     "page": "121",
+     "draft": true
+    },
+    {
+     "id": "MAMM-114",
+     "q": "When are impala fawns dropped in a pulse-birth?",
+     "a": "November",
+     "w": [
+      "April",
+      "July",
+      "February"
+     ],
+     "ex": "Impala fawns are dropped in a pulse-birth in November.",
+     "group": "Large herbivores",
+     "page": "121",
+     "draft": true
+    },
+    {
+     "id": "MAMM-115",
+     "q": "What method of hunting does the caracal use?",
+     "a": "Stalk and pounce",
+     "w": [
+      "Coursing",
+      "Endurance running",
+      "Digging prey out"
+     ],
+     "ex": "Caracal are solitary, mainly nocturnal predators with a stalk and pounce method of hunting.",
+     "group": "Medium to small mammals",
+     "page": "121",
+     "draft": true
+    },
+    {
+     "id": "MAMM-116",
+     "q": "What is the gestation period of a caracal?",
+     "a": "80 days",
+     "w": [
+      "70 days",
+      "2 months",
+      "160 days"
+     ],
+     "ex": "After a gestation of 80 days an average of 2 cubs are born.",
+     "group": "Medium to small mammals",
+     "page": "121",
+     "draft": true
+    },
+    {
+     "id": "MAMM-117",
+     "q": "What are the serval's massive ears adapted for?",
+     "a": "Hunting in long grass and swamps",
+     "w": [
+      "Keeping the body cool",
+      "Hearing distant lions",
+      "Signalling to other servals"
+     ],
+     "ex": "The massive ears are adapted for hunting in long grass and swampy habitats where visibility is poor.",
+     "group": "Medium to small mammals",
+     "page": "122",
+     "draft": true
+    },
+    {
+     "id": "MAMM-118",
+     "q": "What is the gestation period of a serval?",
+     "a": "70 days",
+     "w": [
+      "80 days",
+      "3 months",
+      "6 months"
+     ],
+     "ex": "Peak breeding is in late summer, when 2-3 kittens are born after a gestation of 70 days.",
+     "group": "Medium to small mammals",
+     "page": "122",
+     "draft": true
+    },
+    {
+     "id": "MAMM-119",
+     "q": "What is a major threat to the African wildcat?",
+     "a": "Inter-breeding with feral cats",
+     "w": [
+      "Poaching for skins",
+      "Competition with lions",
+      "Loss of water sources"
+     ],
+     "ex": "Genetic pollution through inter-breeding with feral cats is a major threat.",
+     "group": "Medium to small mammals",
+     "page": "122",
+     "draft": true
+    },
+    {
+     "id": "MAMM-120",
+     "q": "What is the first sign that an African wildcat population has been affected by inter-breeding?",
+     "a": "Loss of the reddish colour behind the ears",
+     "w": [
+      "A longer tail",
+      "Loss of spots on the legs",
+      "A larger body size"
+     ],
+     "ex": "The first sign is when they lose the reddish colour behind the ears.",
+     "group": "Medium to small mammals",
+     "page": "122",
+     "draft": true
+    },
+    {
+     "id": "MAMM-121",
+     "q": "Where are African wildcat kittens usually born?",
+     "a": "In disused springhare or aardvark burrows",
+     "w": [
+      "In termite mounds",
+      "In tree hollows",
+      "In reed beds"
+     ],
+     "ex": "An average of 3 kittens are usually born in disused springhare or aardvark burrows.",
+     "group": "Medium to small mammals",
+     "page": "122",
+     "draft": true
+    },
+    {
+     "id": "MAMM-122",
+     "q": "What do spotted-necked otters mainly feed on?",
+     "a": "Small fish and crabs",
+     "w": [
+      "Frogs and snails",
+      "Birds and eggs",
+      "Rodents and insects"
+     ],
+     "ex": "Spotted-necked otter are aquatic predators feeding mainly on small fish and crabs.",
+     "group": "Medium to small mammals",
+     "page": "122",
+     "draft": true
+    },
+    {
+     "id": "MAMM-123",
+     "q": "Under which CITES appendix is the spotted-necked otter protected?",
+     "a": "Appendix 2",
+     "w": [
+      "Appendix 1",
+      "Appendix 3",
+      "Appendix 4"
+     ],
+     "ex": "The spotted-necked otter is protected under CITES Appendix 2.",
+     "group": "Medium to small mammals",
+     "page": "122",
+     "draft": true
+    },
+    {
+     "id": "MAMM-124",
+     "q": "What does the black and white colouring of the honey badger signal?",
+     "a": "A warning not to attack it (aposematic)",
+     "w": [
+      "Camouflage at night",
+      "Its breeding condition",
+      "Its rank in the group"
+     ],
+     "ex": "The black and white colouring is aposematic - a warning to other animals not to engage.",
+     "group": "Medium to small mammals",
+     "page": "123",
+     "draft": true
+    },
+    {
+     "id": "MAMM-125",
+     "q": "How does loose skin help a honey badger in a fight?",
+     "a": "It can turn and bite an attacker holding its neck",
+     "w": [
+      "It stops thorns cutting it",
+      "It keeps it cool",
+      "It lets it squeeze into burrows"
+     ],
+     "ex": "The loose skin lets the badger turn in its skin and bite the face and neck of the attacker.",
+     "group": "Medium to small mammals",
+     "page": "123",
+     "draft": true
+    },
+    {
+     "id": "MAMM-126",
+     "q": "What does the honey badger use as a secondary defence?",
+     "a": "Bad-smelling fluid from anal pouches",
+     "w": [
+      "Loud screaming calls",
+      "Spines on its back",
+      "Playing dead"
+     ],
+     "ex": "A pair of anal pouches release a very unpleasant-smelling fluid used as a secondary defence.",
+     "group": "Medium to small mammals",
+     "page": "123",
+     "draft": true
+    },
+    {
+     "id": "MAMM-127",
+     "q": "How do black-backed jackal live?",
+     "a": "In pairs that share a territory",
+     "w": [
+      "In large packs of 8-10",
+      "Alone with no territory",
+      "In matriarchal clans"
+     ],
+     "ex": "Jackals live in pairs and share a territory, chasing other jackal away.",
+     "group": "Medium to small mammals",
+     "page": "123",
+     "draft": true
+    },
+    {
+     "id": "MAMM-128",
+     "q": "How long does a black-backed jackal live in the wild?",
+     "a": "About 6 years",
+     "w": [
+      "About 12 years",
+      "About 20 years",
+      "About 2 years"
+     ],
+     "ex": "Jackal pups disperse before one year old and live to about 6 years in the wild.",
+     "group": "Medium to small mammals",
+     "page": "123",
+     "draft": true
+    },
+    {
+     "id": "MAMM-129",
+     "q": "What is special about the bat-eared fox's diet?",
+     "a": "It is the only mainly insectivorous canid",
+     "w": [
+      "It only eats fruit",
+      "It mostly eats carrion",
+      "It mainly hunts birds"
+     ],
+     "ex": "Bat-eared fox are the only primarily insectivorous canid.",
+     "group": "Medium to small mammals",
+     "page": "123",
+     "draft": true
+    },
+    {
+     "id": "MAMM-130",
+     "q": "How many teeth can a bat-eared fox have?",
+     "a": "Over 50",
+     "w": [
+      "About 20",
+      "About 32",
+      "About 42"
+     ],
+     "ex": "The bat-eared fox can have in excess of 50 teeth, more than any other African land mammal.",
+     "group": "Medium to small mammals",
+     "page": "123",
+     "draft": true
+    },
+    {
+     "id": "MAMM-131",
+     "q": "When is the bat-eared fox mostly active?",
+     "a": "By day in winter and by night in summer",
+     "w": [
+      "By night all year",
+      "By day all year",
+      "Only at dawn and dusk"
+     ],
+     "ex": "They are predominantly diurnal in winter and nocturnal in summer.",
+     "group": "Medium to small mammals",
+     "page": "123",
+     "draft": true
+    },
+    {
+     "id": "MAMM-132",
+     "q": "Why is the slender mongoose often mobbed by starlings and other birds?",
+     "a": "It climbs trees to forage for nesting birds",
+     "w": [
+      "It steals food from bird feeders",
+      "It hunts in large groups",
+      "It lives in bird nests"
+     ],
+     "ex": "It is the best climber of the mongooses and forages in trees for nesting birds.",
+     "group": "Medium to small mammals",
+     "page": "124",
+     "draft": true
+    },
+    {
+     "id": "MAMM-133",
+     "q": "Where do groups of dwarf mongoose usually live?",
+     "a": "In disused termite mounds",
+     "w": [
+      "In hollow trees",
+      "In rocky caves",
+      "In reed beds"
+     ],
+     "ex": "Dwarf mongoose groups usually live in disused termite mounds.",
+     "group": "Medium to small mammals",
+     "page": "124",
+     "draft": true
+    },
+    {
+     "id": "MAMM-134",
+     "q": "In dwarf mongoose groups, what is 'allo parenting'?",
+     "a": "Group members other than the parents baby-sit the young",
+     "w": [
+      "Both parents feeding the young",
+      "Young being raised by another species",
+      "Parents leaving the young alone"
+     ],
+     "ex": "Often it is not the parents that baby-sit the young while the group forages - this is allo parenting.",
+     "group": "Medium to small mammals",
+     "page": "124",
+     "draft": true
+    },
+    {
+     "id": "MAMM-135",
+     "q": "What is the maximum group size given for dwarf mongoose?",
+     "a": "Up to 30",
+     "w": [
+      "Up to 5",
+      "Up to 10",
+      "Up to 100"
+     ],
+     "ex": "Dwarf mongoose are social and live in groups of up to 30 members.",
+     "group": "Medium to small mammals",
+     "page": "124",
+     "draft": true
+    },
+    {
+     "id": "MAMM-136",
+     "q": "Hares re-eat soft green pellets to help digest grass. What is this called?",
+     "a": "Coprophagy",
+     "w": [
+      "Osteophagy",
+      "Rumination",
+      "Lactation"
+     ],
+     "ex": "Re-eating soft pellets is called coprophagy; it lets hares extract elements such as vitamin B.",
+     "group": "Medium to small mammals",
+     "page": "124",
+     "draft": true
+    },
+    {
+     "id": "MAMM-137",
+     "q": "When is the peak breeding season of the savanna (scrub) hare?",
+     "a": "December to March",
+     "w": [
+      "June to August",
+      "April to May",
+      "September to October"
+     ],
+     "ex": "Peak breeding is December to March and an average of 2 young are born.",
+     "group": "Medium to small mammals",
+     "page": "124",
+     "draft": true
+    },
+    {
+     "id": "MAMM-138",
+     "q": "Vervet monkeys have different alarm calls for different threats. Which three does the manual list?",
+     "a": "Terrestrial predator, bird of prey and python",
+     "w": [
+      "Lion, leopard and hyaena",
+      "Humans, dogs and snakes",
+      "Eagles, owls and vultures"
+     ],
+     "ex": "Vervets give different alarm calls for a terrestrial predator, a bird of prey or a python.",
+     "group": "Medium to small mammals",
+     "page": "125",
+     "draft": true
+    },
+    {
+     "id": "MAMM-139",
+     "q": "What is the gestation period of a vervet monkey?",
+     "a": "About 160 days",
+     "w": [
+      "About 70 days",
+      "About 80 days",
+      "About 9 months"
+     ],
+     "ex": "Vervets have a single young at any time of year after about 160 days.",
+     "group": "Medium to small mammals",
+     "page": "125",
+     "draft": true
+    },
+    {
+     "id": "MAMM-140",
+     "q": "In vervet and baboon troops, which animals stay in their troop of birth?",
+     "a": "Females",
+     "w": [
+      "Males",
+      "Only dominant males",
+      "Only juveniles"
+     ],
+     "ex": "Troops are female-bonded; males disperse from troop to troop and females stay in their birth troop.",
+     "group": "Medium to small mammals",
+     "page": "125",
+     "draft": true
+    },
+    {
+     "id": "MAMM-141",
+     "q": "When a chacma baboon troop is feeding, where do dominant males tend to move?",
+     "a": "Near the front of the troop",
+     "w": [
+      "In the middle of the troop",
+      "At the back of the troop",
+      "On the outer edges"
+     ],
+     "ex": "Dominant males move near the front, dominant females in the middle and low-ranking males at the back.",
+     "group": "Medium to small mammals",
+     "page": "125",
+     "draft": true
+    },
+    {
+     "id": "MAMM-142",
+     "q": "What is the gestation period of the chacma baboon?",
+     "a": "6 months",
+     "w": [
+      "3 months",
+      "9 months",
+      "11 months"
+     ],
+     "ex": "Baboon gestation is 6 months and a single young is born; breeding is all year.",
+     "group": "Medium to small mammals",
+     "page": "125",
+     "draft": true
+    }
+   ]
+  },
+  {
+   "id": "q-tourism-and-legislation",
+   "kind": "questions",
+   "chapter": "Tourism and Legislation",
+   "title": "Tourism and Legislation - manual",
+   "photo": "",
+   "subtitle": "63 questions from the Botswana Guide Training Manual",
+   "items": [
+    {
+     "id": "TOUR-001",
+     "q": "Tourism revenue is called 'invisible exports'. Why?",
+     "a": "Funds come in but nothing leaves the country",
+     "w": [
+      "The money is not recorded by government",
+      "Tourists do not pay any taxes",
+      "Goods are sent out without being seen"
+     ],
+     "ex": "Tourism revenue is called invisible exports because funds come in but nothing leaves the country.",
+     "group": "Economic",
+     "page": "126",
+     "draft": true
+    },
+    {
+     "id": "TOUR-002",
+     "q": "Tourism is Botswana's second largest revenue earner after:",
+     "a": "Diamond mining",
+     "w": [
+      "Cattle farming",
+      "Manufacturing",
+      "Construction"
+     ],
+     "ex": "Tourism is the second largest revenue earner for Botswana after diamond mining.",
+     "group": "Economic",
+     "page": "126",
+     "draft": true
+    },
+    {
+     "id": "TOUR-003",
+     "q": "What share of Botswana's GDP does tourism provide?",
+     "a": "12%",
+     "w": [
+      "8%",
+      "17%",
+      "45%"
+     ],
+     "ex": "Tourism is responsible for 12% of the Gross Domestic Product (GDP).",
+     "group": "Economic",
+     "page": "126",
+     "draft": true
+    },
+    {
+     "id": "TOUR-004",
+     "q": "What percentage of all employment in Botswana does tourism provide?",
+     "a": "8%",
+     "w": [
+      "12%",
+      "6%",
+      "10%"
+     ],
+     "ex": "Tourism provides 8% of all employment in Botswana.",
+     "group": "Economic",
+     "page": "126",
+     "draft": true
+    },
+    {
+     "id": "TOUR-005",
+     "q": "Where does Botswana rank in Africa by tourist numbers?",
+     "a": "12th, with about 850 000 tourists a year",
+     "w": [
+      "1st, with about 10 million tourists a year",
+      "2nd, with about 8 million tourists a year",
+      "8th, with about 1 million tourists a year"
+     ],
+     "ex": "Botswana is ranked 12 with 850 000 tourists per year, growing by about 8.5% a year.",
+     "group": "Economic",
+     "page": "126",
+     "draft": true
+    },
+    {
+     "id": "TOUR-006",
+     "q": "What has always been Botswana's tourism policy?",
+     "a": "High financial yield, low impact",
+     "w": [
+      "Low cost, high volume",
+      "High volume, high impact",
+      "Low yield, low cost"
+     ],
+     "ex": "Botswana's policy of 'high financial yield, low impact' means an expensive destination with low capacity.",
+     "group": "Economic",
+     "page": "126",
+     "draft": true
+    },
+    {
+     "id": "TOUR-007",
+     "q": "How does Botswana's tourism compare with Namibia's?",
+     "a": "Fewer tourists, but higher total revenue",
+     "w": [
+      "More tourists and higher total revenue",
+      "More tourists, but lower total revenue",
+      "Fewer tourists and lower total revenue"
+     ],
+     "ex": "Despite tourism numbers being lower than Namibia, Botswana's total revenue from tourism is higher.",
+     "group": "Economic",
+     "page": "126",
+     "draft": true
+    },
+    {
+     "id": "TOUR-008",
+     "q": "Why does tourism not have a limited life-span like mining?",
+     "a": "It is non-consumptive",
+     "w": [
+      "It is run by the government",
+      "It only operates in winter",
+      "It uses very little water"
+     ],
+     "ex": "Tourism, being non-consumptive, does not have a limited life-span in the way mining does.",
+     "group": "Economic",
+     "page": "126",
+     "draft": true
+    },
+    {
+     "id": "TOUR-009",
+     "q": "How does tourism help families in rural areas?",
+     "a": "People need not leave their families to find city work",
+     "w": [
+      "It moves rural families into the big cities",
+      "It replaces the need for schools in villages",
+      "It provides free housing in Gaborone"
+     ],
+     "ex": "Tourism brings wealth to outlying areas, so Batswana are not forced to leave their families to look for work in cities.",
+     "group": "Socio-cultural aspects",
+     "page": "126",
+     "draft": true
+    },
+    {
+     "id": "TOUR-010",
+     "q": "Which traditional skills has the guiding profession given value to?",
+     "a": "Tracking and trapping animals, gathering wild foods",
+     "w": [
+      "Pottery and metal work",
+      "Cattle herding and ploughing",
+      "Building and thatching houses"
+     ],
+     "ex": "Guiding has given value to skills like tracking and trapping of animals for food and gathering natural foods.",
+     "group": "Socio-cultural aspects",
+     "page": "126",
+     "draft": true
+    },
+    {
+     "id": "TOUR-011",
+     "q": "What percentage of Botswana is set aside as wildlife management areas?",
+     "a": "10%",
+     "w": [
+      "17%",
+      "6%",
+      "45%"
+     ],
+     "ex": "17% of Botswana is game reserves and national parks and a further 10% is wildlife management areas.",
+     "group": "Land use",
+     "page": "126",
+     "draft": true
+    },
+    {
+     "id": "TOUR-012",
+     "q": "Which of these does the manual list as an environmental impact of tourism?",
+     "a": "Clearing land and importing soil for airstrips",
+     "w": [
+      "Large open-cast mining pits",
+      "Overgrazing by tourist cattle",
+      "Draining rivers for lodge farms"
+     ],
+     "ex": "Game-drive roads, off-road driving and clearing areas and importing soil for airstrips all cause disturbance.",
+     "group": "Land use",
+     "page": "126",
+     "draft": true
+    },
+    {
+     "id": "TOUR-013",
+     "q": "How does the physical process of tourism start?",
+     "a": "Promoting Botswana in source markets",
+     "w": [
+      "Transferring guests to camps",
+      "Buying food and beverage for lodges",
+      "Training guides in the field"
+     ],
+     "ex": "It starts with promoting Botswana as a wildlife destination through travel fairs, road-shows and documentaries.",
+     "group": "Physical process",
+     "page": "127",
+     "draft": true
+    },
+    {
+     "id": "TOUR-014",
+     "q": "Foreign travel agents who lack local knowledge often book through a:",
+     "a": "Destination Management Company (DMC)",
+     "w": [
+      "National park gate office",
+      "Department of Wildlife office",
+      "Local airline"
+     ],
+     "ex": "Many foreign agents book through a Destination Management Company or local travel agency that specialises in the region.",
+     "group": "Physical process",
+     "page": "127",
+     "draft": true
+    },
+    {
+     "id": "TOUR-015",
+     "q": "What should hands be washed with before preparing food?",
+     "a": "Anti-bacterial soap",
+     "w": [
+      "Plain cold water only",
+      "River water and sand",
+      "Hand cream"
+     ],
+     "ex": "When preparing food, hands should be washed with an anti-bacterial soap.",
+     "group": "Food and beverage",
+     "page": "127",
+     "draft": true
+    },
+    {
+     "id": "TOUR-016",
+     "q": "What should be done with cracked or chipped crockery and glasses?",
+     "a": "They should be destroyed",
+     "w": [
+      "They should be used for staff only",
+      "They should be glued and reused",
+      "They should be kept for sundowners"
+     ],
+     "ex": "The manual states that cracked or chipped crockery and glasses should be destroyed.",
+     "group": "Food and beverage",
+     "page": "127",
+     "draft": true
+    },
+    {
+     "id": "TOUR-017",
+     "q": "Why should food be served either hot or cold?",
+     "a": "Bacteria breed at mid-range temperatures",
+     "w": [
+      "Guests prefer food straight from the pan",
+      "Warm food attracts dangerous animals",
+      "Cold food is cheaper to prepare"
+     ],
+     "ex": "Bacteria breed at mid-range temperatures, so foods like fish, chicken and dairy can quickly become dangerous.",
+     "group": "Food and beverage",
+     "page": "127",
+     "draft": true
+    },
+    {
+     "id": "TOUR-018",
+     "q": "What percentage of Botswana's land is set aside as protected areas?",
+     "a": "45%",
+     "w": [
+      "17%",
+      "10%",
+      "6%"
+     ],
+     "ex": "Botswana has set aside 45% of its land area as protected areas.",
+     "group": "Legislation",
+     "page": "127",
+     "draft": true
+    },
+    {
+     "id": "TOUR-019",
+     "q": "How much of Botswana is freehold land?",
+     "a": "6%",
+     "w": [
+      "17%",
+      "45%",
+      "60%"
+     ],
+     "ex": "Only 6% of Botswana is freehold land, such as Ghanzi, Tuli and Pandamatenga; most is tribal land.",
+     "group": "Legislation",
+     "page": "127",
+     "draft": true
+    },
+    {
+     "id": "TOUR-020",
+     "q": "Under the 1975 Tribal Land Grazing Policy, which type of grazing land was the largest?",
+     "a": "Communal",
+     "w": [
+      "Commercial",
+      "Reserved",
+      "Freehold"
+     ],
+     "ex": "The TLGP divided grazing land into commercial, communal (the largest) and reserved (for later use).",
+     "group": "Legislation",
+     "page": "127",
+     "draft": true
+    },
+    {
+     "id": "TOUR-021",
+     "q": "In which schedule of the Wildlife Conservation and National Parks Act are national parks specified?",
+     "a": "First schedule",
+     "w": [
+      "Second schedule",
+      "Third schedule",
+      "Fourth schedule"
+     ],
+     "ex": "National parks are specified in the first schedule and have the highest level of protection.",
+     "group": "National parks",
+     "page": "128",
+     "draft": true
+    },
+    {
+     "id": "TOUR-022",
+     "q": "By what time must approved night drives in national parks return to the facility?",
+     "a": "22:00",
+     "w": [
+      "19:00",
+      "20:00",
+      "24:00"
+     ],
+     "ex": "The Act provides for approved night drives with a professional guide, returning by 22:00 (none are currently approved).",
+     "group": "National parks",
+     "page": "128",
+     "draft": true
+    },
+    {
+     "id": "TOUR-023",
+     "q": "What are the summer opening and closing times for national parks and game reserves?",
+     "a": "05:30 to 19:00",
+     "w": [
+      "06:30 to 18:30",
+      "06:00 to 18:00",
+      "05:00 to 20:00"
+     ],
+     "ex": "Summer times are 05:30-19:00 and winter times are 06:30-18:30.",
+     "group": "National parks",
+     "page": "128",
+     "draft": true
+    },
+    {
+     "id": "TOUR-024",
+     "q": "Which area of Chobe National Park is renowned as one of Africa's best areas for predators?",
+     "a": "Savuti",
+     "w": [
+      "The Linyanti region",
+      "The Chobe River front",
+      "Kasane"
+     ],
+     "ex": "Savuti is renowned as one of the best areas in Africa for predators; the riverfront is famous for elephant.",
+     "group": "National parks",
+     "page": "128",
+     "draft": true
+    },
+    {
+     "id": "TOUR-025",
+     "q": "Baines' Baobabs were made famous when Thomas Baines painted them in:",
+     "a": "1862",
+     "w": [
+      "1934",
+      "1961",
+      "1975"
+     ],
+     "ex": "Baines' Baobabs were painted by Thomas Baines on an expedition in 1862.",
+     "group": "National parks",
+     "page": "128",
+     "draft": true
+    },
+    {
+     "id": "TOUR-026",
+     "q": "Makgadikgadi Pans National Park was established to protect which salt pans?",
+     "a": "Sua and Ntwetwe",
+     "w": [
+      "Nxai and Kudiakam",
+      "Sua and Nxai",
+      "Ntwetwe and Kubu"
+     ],
+     "ex": "Makgadikgadi Pans National Park was established to protect the massive Sua and Ntwetwe salt pans.",
+     "group": "National parks",
+     "page": "128",
+     "draft": true
+    },
+    {
+     "id": "TOUR-027",
+     "q": "On what type of land are game reserves found, compared with national parks?",
+     "a": "Game reserves on tribal land; parks on state land",
+     "w": [
+      "Game reserves on state land; parks on tribal land",
+      "Both are on freehold land",
+      "Both are on communal grazing land"
+     ],
+     "ex": "Game reserves are on tribal land whereas national parks are on state land.",
+     "group": "Game reserves",
+     "page": "128",
+     "draft": true
+    },
+    {
+     "id": "TOUR-028",
+     "q": "Mannyelanong Game Reserve was declared to protect which species?",
+     "a": "Cape griffon",
+     "w": [
+      "Lesser flamingo",
+      "Rhino",
+      "Wild dog"
+     ],
+     "ex": "Some game reserves protect specific species, such as Mannyelanong for the Cape griffon.",
+     "group": "Game reserves",
+     "page": "128",
+     "draft": true
+    },
+    {
+     "id": "TOUR-029",
+     "q": "What is the penalty for illegal hunting or capture of animals in a game reserve?",
+     "a": "Up to P5 000 or 5 years in prison",
+     "w": [
+      "Up to P10 000 or 7 years in prison",
+      "Up to P100 000 or 15 years in prison",
+      "A warning on the first offence"
+     ],
+     "ex": "Illegal hunting or capture attracts fines of up to P5 000 or 5 years, while off-road driving first attracts a warning.",
+     "group": "Game reserves",
+     "page": "128",
+     "draft": true
+    },
+    {
+     "id": "TOUR-030",
+     "q": "Which island in Moremi Game Reserve has no public vehicle access?",
+     "a": "Chief's Island",
+     "w": [
+      "Kubu Island",
+      "Kokonje Island",
+      "Third Bridge Island"
+     ],
+     "ex": "Chief's Island has two lodges and there is no public access by vehicle to the island.",
+     "group": "Game reserves",
+     "page": "129",
+     "draft": true
+    },
+    {
+     "id": "TOUR-031",
+     "q": "In which year was the Central Kalahari Game Reserve established?",
+     "a": "1961",
+     "w": [
+      "1975",
+      "1992",
+      "2014"
+     ],
+     "ex": "The CKGR, covering about 52,800 km², was established in 1961.",
+     "group": "Game reserves",
+     "page": "129",
+     "draft": true
+    },
+    {
+     "id": "TOUR-032",
+     "q": "Which sanctuary was declared mainly to protect rhino?",
+     "a": "Khama Rhino Sanctuary",
+     "w": [
+      "Nata Sanctuary",
+      "Mannyelanong",
+      "Moremi"
+     ],
+     "ex": "Sanctuaries are often declared for a specific species, such as rhino at Khama Rhino Sanctuary.",
+     "group": "Sanctuaries",
+     "page": "129",
+     "draft": true
+    },
+    {
+     "id": "TOUR-033",
+     "q": "Nata Sanctuary is one of only how many breeding sites for lesser flamingo?",
+     "a": "5",
+     "w": [
+      "2",
+      "10",
+      "40"
+     ],
+     "ex": "Nata Sanctuary was established to protect the flamingo and is one of only 5 breeding sites for lesser flamingo.",
+     "group": "Sanctuaries",
+     "page": "129",
+     "draft": true
+    },
+    {
+     "id": "TOUR-034",
+     "q": "In which schedule of the Act are Wildlife Management Areas specified?",
+     "a": "Third schedule",
+     "w": [
+      "First schedule",
+      "Second schedule",
+      "Fourth schedule"
+     ],
+     "ex": "WMAs are specified in the third schedule of the Wildlife Conservation and National Parks Act.",
+     "group": "Wildlife management areas",
+     "page": "129",
+     "draft": true
+    },
+    {
+     "id": "TOUR-035",
+     "q": "How do WMAs acting as 'buffers' help protected areas?",
+     "a": "They keep the human edge effect out of core areas",
+     "w": [
+      "They allow off-road driving next to parks",
+      "They keep tourists out of national parks",
+      "They stop all animal movement between parks"
+     ],
+     "ex": "Buffers restrict the edge effect of human/wildlife conflict to the buffer areas and not the core conservation areas.",
+     "group": "Wildlife management areas",
+     "page": "129",
+     "draft": true
+    },
+    {
+     "id": "TOUR-036",
+     "q": "How many scheduled Controlled Hunting Areas are there?",
+     "a": "40",
+     "w": [
+      "17",
+      "12",
+      "5"
+     ],
+     "ex": "There are 40 scheduled CHAs, specified in the fourth schedule of the Act.",
+     "group": "Controlled hunting areas",
+     "page": "129",
+     "draft": true
+    },
+    {
+     "id": "TOUR-037",
+     "q": "Which type of CHA is strictly photographic, community-run and usually next to core conservation areas?",
+     "a": "Community photographic",
+     "w": [
+      "Community multi-purpose",
+      "Commercial multi-purpose",
+      "Commercial photographic"
+     ],
+     "ex": "Community photographic areas are owned and operated by communities and usually adjacent to core conservation areas.",
+     "group": "Controlled hunting areas",
+     "page": "130",
+     "draft": true
+    },
+    {
+     "id": "TOUR-038",
+     "q": "What is a commercial multi-purpose CHA?",
+     "a": "Like community multi-purpose but leased by a company",
+     "w": [
+      "Strictly photographic and owned by the state",
+      "A hunting area only for citizens",
+      "A photographic area run by the community"
+     ],
+     "ex": "Commercial multi-purpose is as per community multi-purpose but leased by a company.",
+     "group": "Controlled hunting areas",
+     "page": "130",
+     "draft": true
+    },
+    {
+     "id": "TOUR-039",
+     "q": "How are Controlled Hunting Areas named?",
+     "a": "With a district prefix and a number, e.g. KD 1",
+     "w": [
+      "After the nearest village",
+      "With the name of the lodge that leases them",
+      "With a number only, from 1 to 40"
+     ],
+     "ex": "Areas are named with a prefix according to the district and numbered, e.g. KD 1, KD 2 in the Kgalagadi.",
+     "group": "Controlled hunting areas",
+     "page": "130",
+     "draft": true
+    },
+    {
+     "id": "TOUR-040",
+     "q": "Who issues hunting quotas for each WMA?",
+     "a": "Department of Wildlife and National Parks",
+     "w": [
+      "Botswana Tourism Organisation",
+      "The local community trust",
+      "Hunting companies"
+     ],
+     "ex": "The Department of Wildlife and National Parks issues quotas; part is commercial and the rest is for citizen hunting for meat.",
+     "group": "Citizen hunting areas",
+     "page": "131",
+     "draft": true
+    },
+    {
+     "id": "TOUR-041",
+     "q": "Botswana's only transfrontier park, Kgalagadi, stretches into which country?",
+     "a": "South Africa",
+     "w": [
+      "Namibia",
+      "Zimbabwe",
+      "Zambia"
+     ],
+     "ex": "Botswana currently has only 1 transfrontier park, the Kgalagadi Transfrontier Park, which stretches into South Africa.",
+     "group": "Transfrontier parks",
+     "page": "131",
+     "draft": true
+    },
+    {
+     "id": "TOUR-042",
+     "q": "Which countries are included in the intended KAZA-TFCA?",
+     "a": "Botswana, Zambia, Angola, Namibia, Zimbabwe",
+     "w": [
+      "Botswana, South Africa, Namibia, Lesotho, Zambia",
+      "Botswana, Zimbabwe, Mozambique, Malawi, Zambia",
+      "Botswana, Angola, Kenya, Namibia, Tanzania"
+     ],
+     "ex": "KAZA includes land of Botswana, Zambia, Angola, Namibia and Zimbabwe.",
+     "group": "Transfrontier parks",
+     "page": "131",
+     "draft": true
+    },
+    {
+     "id": "TOUR-043",
+     "q": "In what year was the Okavango registered as a UNESCO World Heritage Site?",
+     "a": "2014",
+     "w": [
+      "1992",
+      "2001",
+      "1961"
+     ],
+     "ex": "The Okavango was registered as a natural site in 2014 and was the 1000th site registered with UNESCO.",
+     "group": "World heritage sites",
+     "page": "131",
+     "draft": true
+    },
+    {
+     "id": "TOUR-044",
+     "q": "Under which category is Tsodilo Hills registered with UNESCO?",
+     "a": "Cultural site",
+     "w": [
+      "Natural site",
+      "Mixed site",
+      "Marine site"
+     ],
+     "ex": "Tsodilo Hills is registered as a cultural site, while the Okavango is a natural site.",
+     "group": "World heritage sites",
+     "page": "131",
+     "draft": true
+    },
+    {
+     "id": "TOUR-045",
+     "q": "About how many San paintings are protected at Tsodilo Hills?",
+     "a": "4,500",
+     "w": [
+      "1,000",
+      "1,400",
+      "10,000"
+     ],
+     "ex": "The UNESCO World Heritage Site protects an estimated 4,500 San paintings.",
+     "group": "Lesser known attractions",
+     "page": "131",
+     "draft": true
+    },
+    {
+     "id": "TOUR-046",
+     "q": "What are the 3 main hills at Tsodilo called?",
+     "a": "Male, female and child",
+     "w": [
+      "Father, mother and son",
+      "North, south and east",
+      "Big, middle and small"
+     ],
+     "ex": "The site consists of 3 main hills, the male, female and child, plus a 4th unnamed hill.",
+     "group": "Lesser known attractions",
+     "page": "131",
+     "draft": true
+    },
+    {
+     "id": "TOUR-047",
+     "q": "Why are the Gcwihaba and Aha Hills riddled with caves?",
+     "a": "The main rock is dolomite",
+     "w": [
+      "The main rock is granite",
+      "They are old volcanoes",
+      "They were dug out by miners"
+     ],
+     "ex": "These hills are riddled with caves because the principal rock is dolomite.",
+     "group": "Lesser known attractions",
+     "page": "131",
+     "draft": true
+    },
+    {
+     "id": "TOUR-048",
+     "q": "Drotsky's Cave is famous for its:",
+     "a": "Thousands of roosting bats",
+     "w": [
+      "San rock paintings",
+      "Underground river",
+      "Flamingo colony"
+     ],
+     "ex": "The caves are famous for the thousands of bats that roost in the caverns.",
+     "group": "Lesser known attractions",
+     "page": "131",
+     "draft": true
+    },
+    {
+     "id": "TOUR-049",
+     "q": "The Makgadikgadi Pans are a remnant of which ancient lake?",
+     "a": "Paleo Lake Makgadikgadi",
+     "w": [
+      "Lake Ngami",
+      "Lake Kariba",
+      "Paleo Lake Okavango"
+     ],
+     "ex": "The pans are a remnant of Paleo Lake Makgadikgadi, which covered over 100,000 km² in northern Botswana.",
+     "group": "Lesser known attractions",
+     "page": "131",
+     "draft": true
+    },
+    {
+     "id": "TOUR-050",
+     "q": "What is Kubu Island?",
+     "a": "A rocky outcrop in the pans covered in baobabs",
+     "w": [
+      "An island in the Okavango with two lodges",
+      "A sandbank in the Chobe River",
+      "A hill at Tsodilo with San paintings"
+     ],
+     "ex": "Kubu Island is a dramatic rocky outcrop in the pans covered in baobab trees and is popular for camping.",
+     "group": "Lesser known attractions",
+     "page": "131",
+     "draft": true
+    },
+    {
+     "id": "TOUR-051",
+     "q": "Why can Nata Sanctuary offer spectacular flamingo viewing?",
+     "a": "It is the last part of Sua Pan to dry up",
+     "w": [
+      "It is the deepest part of Ntwetwe Pan",
+      "It has the most baobab trees",
+      "It is fed by the Boteti River all year"
+     ],
+     "ex": "As the last part of Sua Pan to dry up, Nata can give some of the most spectacular flamingo viewing in the country.",
+     "group": "Lesser known attractions",
+     "page": "132",
+     "draft": true
+    },
+    {
+     "id": "TOUR-052",
+     "q": "Where is most of the wildlife found in Nxai Pan National Park?",
+     "a": "North of the baobabs on the vegetated Nxai Pan",
+     "w": [
+      "Around Baines' Baobabs on the rocky ridge",
+      "Along the Boteti River",
+      "On the open salt pan surface"
+     ],
+     "ex": "Most of the wildlife is north of the baobabs on the vegetated Nxai Pan, making it more popular with tourists.",
+     "group": "Lesser known attractions",
+     "page": "132",
+     "draft": true
+    },
+    {
+     "id": "TOUR-053",
+     "q": "Which of these is a protected mammal in Botswana?",
+     "a": "Klipspringer",
+     "w": [
+      "Impala",
+      "Kudu",
+      "Warthog"
+     ],
+     "ex": "Klipspringer is on the list of protected mammals; the others are not listed.",
+     "group": "Protected animals",
+     "page": "132",
+     "draft": true
+    },
+    {
+     "id": "TOUR-054",
+     "q": "Which of these birds is protected in Botswana?",
+     "a": "Kori bustard",
+     "w": [
+      "Helmeted guineafowl",
+      "Cape turtle dove",
+      "Red-billed francolin"
+     ],
+     "ex": "Kori bustard is on the protected birds list, along with Stanley's bustard and others.",
+     "group": "Protected animals",
+     "page": "132",
+     "draft": true
+    },
+    {
+     "id": "TOUR-055",
+     "q": "What is currently the only protected reptile in Botswana?",
+     "a": "African rock python",
+     "w": [
+      "Nile crocodile",
+      "Leopard tortoise",
+      "Black mamba"
+     ],
+     "ex": "Currently the only protected reptile in Botswana is the African rock python.",
+     "group": "Protected animals",
+     "page": "132",
+     "draft": true
+    },
+    {
+     "id": "TOUR-056",
+     "q": "What is the maximum penalty for illegally killing a rhinoceros?",
+     "a": "P100 000 fine or 15 years in prison",
+     "w": [
+      "P10 000 fine or 7 years in prison",
+      "P5 000 fine or 5 years in prison",
+      "P50 000 fine or 10 years in prison"
+     ],
+     "ex": "For other protected animals the penalty is up to P10 000 or 7 years; for rhino it is P100 000 or 15 years.",
+     "group": "Protected animals",
+     "page": "132",
+     "draft": true
+    },
+    {
+     "id": "TOUR-057",
+     "q": "Why are wild dog the most difficult protected species to manage?",
+     "a": "Their huge home ranges bring them into conflict",
+     "w": [
+      "They only live inside national parks",
+      "They are hunted for their skins",
+      "They cannot survive without humans"
+     ],
+     "ex": "Their massive home ranges bring them into conflict with farmers and domestic dogs that carry canine distemper.",
+     "group": "Protected animals",
+     "page": "132",
+     "draft": true
+    },
+    {
+     "id": "TOUR-058",
+     "q": "Species with the highest CITES protection (absolutely zero trade) are listed on:",
+     "a": "Appendix 1",
+     "w": [
+      "Appendix 2",
+      "Appendix 3",
+      "Appendix 4"
+     ],
+     "ex": "Appendix 1 gives the highest protection (zero trade) and Appendix 3 the lowest (limited, controlled trade).",
+     "group": "CITES",
+     "page": "133",
+     "draft": true
+    },
+    {
+     "id": "TOUR-059",
+     "q": "What is the aim of CITES?",
+     "a": "To stop international trade threatening species",
+     "w": [
+      "To set national park entry fees",
+      "To grade tourism lodges",
+      "To control hunting quotas in WMAs"
+     ],
+     "ex": "CITES aims to ensure that international trade in wild animals and plants does not threaten their survival.",
+     "group": "CITES",
+     "page": "133",
+     "draft": true
+    },
+    {
+     "id": "TOUR-060",
+     "q": "In which year was the Tourism Act designed?",
+     "a": "1992",
+     "w": [
+      "1975",
+      "1961",
+      "2014"
+     ],
+     "ex": "The Botswana Government designed the Tourism Act in 1992 to regulate the growth and development of tourism.",
+     "group": "Tourism Act",
+     "page": "133",
+     "draft": true
+    },
+    {
+     "id": "TOUR-061",
+     "q": "Why is the wet season (November to March) the best time for birdwatchers?",
+     "a": "Migratory bird species arrive",
+     "w": [
+      "Animals gather around water",
+      "The temperatures are mildest",
+      "The roads are easiest to drive"
+     ],
+     "ex": "The wet season is best for birdwatchers due to the influx of migratory species.",
+     "group": "Climate",
+     "page": "133",
+     "draft": true
+    },
+    {
+     "id": "TOUR-062",
+     "q": "When is prime game viewing considered to be?",
+     "a": "September to late November",
+     "w": [
+      "December to March",
+      "April to June",
+      "June to August"
+     ],
+     "ex": "Prime game viewing is September to late November, depending on the onset of rains.",
+     "group": "Climate",
+     "page": "133",
+     "draft": true
+    },
+    {
+     "id": "TOUR-063",
+     "q": "Which months does the manual say are the most moderate for temperature?",
+     "a": "April/May and August",
+     "w": [
+      "September and October",
+      "December and January",
+      "June and July"
+     ],
+     "ex": "As far as temperature is concerned, April/May and August are the most moderate months.",
+     "group": "Climate",
+     "page": "133",
      "draft": true
     }
    ]
