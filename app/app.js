@@ -297,7 +297,7 @@
     const previewNote = DATA.preview ? `<div class="alert" style="margin-bottom:14px"><strong>Preview mode</strong> - includes Draft questions that are still being reviewed.</div>` : '';
     show(`${previewNote}<section class="hero compact" style="background-image:url('${esc(heroPhoto)}')">
         <div class="eyebrow">African Guide Academy</div>
-        <h1>AGA Study</h1>
+        <h1>Pocket Guide</h1>
         <p>Choose a subject to practise for your guiding exams.</p>
       </section>
       <div class="section-title">Subjects</div>
@@ -836,7 +836,7 @@
 
     let install;
     if (isStandalone()) install = `<span class="done">${icon('check')} Installed on this device</span>`;
-    else if (installPrompt) install = `<p>Put AGA Study on your home screen so it opens like a normal app.</p><button class="btn" id="installBtn">${icon('phone')} Install app</button>`;
+    else if (installPrompt) install = `<p>Put Pocket Guide on your home screen so it opens like a normal app.</p><button class="btn" id="installBtn">${icon('phone')} Install app</button>`;
     else if (isIOS) install = `<ol class="steps"><li>Open this page in <strong>Safari</strong>.</li><li>Tap the <strong>Share</strong> button (the square with an arrow).</li><li>Scroll down and tap <strong>Add to Home Screen</strong>, then <strong>Add</strong>.</li></ol>`;
     else install = `<ol class="steps"><li>Open this page in <strong>Chrome</strong>.</li><li>Tap the <strong>&#8942;</strong> menu (top right).</li><li>Tap <strong>Add to Home screen</strong> or <strong>Install app</strong>.</li></ol>`;
 

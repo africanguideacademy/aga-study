@@ -1,6 +1,6 @@
 {
-  "name": "AGA Study - African Guide Academy",
-  "short_name": "AGA Study",
+  "name": "Pocket Guide - African Guide Academy",
+  "short_name": "Pocket Guide",
   "description": "Bird photo and call quizzes for African Guide Academy students.",
   "start_url": "./",
   "scope": "./",
