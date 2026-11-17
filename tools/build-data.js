@@ -235,7 +235,7 @@ appData.modules.forEach(m => m.items.forEach(i => {
 }));
 // ---------------- species photo sets (tools/fetch-photos.js: free-licence iNaturalist photos) ----------------
 // data/species-lists/<group>.json = the species, data/photos/<group>.json = the photo fetched for each one.
-const PHOTO_GROUPS = { mammals: 'Mammals', reptiles: 'Reptiles', amphibians: 'Amphibians', arthropods: 'Arthropods', plants: 'Plants', astronomy: 'Night sky' };
+const PHOTO_GROUPS = { mammals: 'Mammals', reptiles: 'Reptiles', amphibians: 'Amphibians', arthropods: 'Arthropods', plants: 'Plants', astronomy: 'Sky objects' };
 for (const [g, title] of Object.entries(PHOTO_GROUPS)) {
   const lf = path.join(ROOT, 'data', 'species-lists', g + '.json'), pf = path.join(ROOT, 'data', 'photos', g + '.json');
   if (!fs.existsSync(lf) || !fs.existsSync(pf)) continue;

@@ -17,6 +17,16 @@ const FFMPEG = (() => {
   try { return walk(base) || 'ffmpeg'; } catch { return 'ffmpeg'; }
 })();
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+// Wikimedia limits automated clients: on a "too many requests" answer, wait and try again
+async function get(url, kind) {
+  for (let i = 0; i < 6; i++) {
+    const r = await fetch(url, { headers: HEAD });
+    const ct = r.headers.get('content-type') || '';
+    if (r.ok && (kind === 'json' ? ct.includes('json') : ct.startsWith('image/'))) return kind === 'json' ? r.json() : Buffer.from(await r.arrayBuffer());
+    await sleep(15000 * (i + 1));
+  }
+  throw new Error('Wikimedia kept refusing: ' + url);
+}
 
 (async () => {
   const g = process.argv[2] || 'astronomy';
@@ -30,7 +40,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
     const prev = cache.get(s.name);
     if (prev && prev.commons === s.commons && fs.existsSync(path.join(ROOT, 'app', prev.file))) continue;
     const u = `https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1400&titles=${encodeURIComponent(s.commons)}`;
-    const j = await (await fetch(u, { headers: HEAD })).json();
+    const j = await get(u, 'json');
     const page = Object.values(j.query.pages)[0];
     const ii = page && page.imageinfo && page.imageinfo[0];
     if (!ii) { problems.push(`${s.name}: ${s.commons} not found`); continue; }
@@ -39,7 +49,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
     if (!OK.test(lic)) { problems.push(`${s.name}: licence "${lic}" not allowed`); continue; }
     const file = `media/${g}/${slug(s.name)}-${page.pageid}.jpg`;
     const tmp = path.join(ROOT, 'app', file + '.tmp');
-    fs.writeFileSync(tmp, Buffer.from(await (await fetch(ii.thumburl || ii.url, { headers: HEAD })).arrayBuffer()));
+    fs.writeFileSync(tmp, await get(ii.thumburl || ii.url, 'image'));
     execFileSync(FFMPEG, ['-y', '-loglevel', 'error', '-i', tmp, '-vf', "scale='min(900,iw)':-2", '-q:v', '5', path.join(ROOT, 'app', file)]);
     fs.unlinkSync(tmp);
     if (prev && prev.file !== file) { try { fs.unlinkSync(path.join(ROOT, 'app', prev.file)); } catch (e) { /* gone */ } }
@@ -48,7 +58,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
       credit: artist, source: ii.descriptionurl, place: 'Wikimedia Commons' });
     console.log(`  ${s.name}: ${s.commons} (${lic})`);
     fs.writeFileSync(cf, JSON.stringify([...cache.values()], null, 1));
-    await sleep(500);
+    await sleep(2500);
   }
   console.log(`${g}: ${[...cache.values()].length}/${list.length} have an image`);
   if (problems.length) console.log('Problems:\n  ' + problems.join('\n  '));

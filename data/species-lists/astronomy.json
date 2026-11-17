@@ -1,0 +1,330 @@
+[
+ {
+  "name": "Southern Cross (Crux)",
+  "sci": "Crux",
+  "group": "Constellations",
+  "manual": true,
+  "page": 14,
+  "commons": "File:Crux (Annotated) (crux-ann).jpg"
+ },
+ {
+  "name": "Orion",
+  "sci": "Orion",
+  "group": "Constellations",
+  "manual": true,
+  "page": 14,
+  "commons": "File:Orion (Annotated) (orion-ann).jpg"
+ },
+ {
+  "name": "Orion's Belt (Three Kings)",
+  "sci": "Alnitak, Alnilam, Mintaka",
+  "group": "Constellations",
+  "manual": true,
+  "page": 14,
+  "commons": "File:Orion's Belt, Alnitak, Alnilam, Mintaka.jpg"
+ },
+ {
+  "name": "Canis Major",
+  "sci": "Canis Major",
+  "group": "Constellations",
+  "manual": true,
+  "page": 14,
+  "commons": "File:Canis Major (Annotated) (canis-major-ann).jpg"
+ },
+ {
+  "name": "Scorpius",
+  "sci": "Scorpius",
+  "group": "Constellations",
+  "manual": true,
+  "page": 14,
+  "commons": "File:Scorpius (Annotated) (scorpius-ann).jpg"
+ },
+ {
+  "name": "Carina",
+  "sci": "Carina",
+  "group": "Constellations",
+  "manual": true,
+  "page": 15,
+  "commons": "File:Carina (Annotated) (carina-ann).jpg"
+ },
+ {
+  "name": "Taurus",
+  "sci": "Taurus",
+  "group": "Constellations",
+  "manual": true,
+  "page": 15,
+  "commons": "File:Taurus (Annotated) (taurus-ann).jpg"
+ },
+ {
+  "name": "Leo",
+  "sci": "Leo",
+  "group": "Constellations",
+  "manual": false,
+  "page": null,
+  "commons": "File:Leo (Annotated) (leo-ann).jpg"
+ },
+ {
+  "name": "The Pointers",
+  "sci": "Alpha & Beta Centauri",
+  "group": "Stars",
+  "manual": true,
+  "page": 14,
+  "commons": "File:Alpha, Beta and Proxima Centauri (1).jpg"
+ },
+ {
+  "name": "Alpha Centauri",
+  "sci": "Alpha Centauri (Rigil Kentaurus)",
+  "group": "Stars",
+  "manual": true,
+  "page": 14,
+  "commons": "File:The sky around Alpha Centauri and Proxima Centauri (annotated) (eso1629f).jpg"
+ },
+ {
+  "name": "Sirius",
+  "sci": "Alpha Canis Majoris",
+  "group": "Stars",
+  "manual": true,
+  "page": 15,
+  "commons": "File:Sirius Mirzam M41.jpg"
+ },
+ {
+  "name": "Canopus",
+  "sci": "Alpha Carinae",
+  "group": "Stars",
+  "manual": true,
+  "page": 15,
+  "commons": "File:Canopus.jpg"
+ },
+ {
+  "name": "Betelgeuse",
+  "sci": "Alpha Orionis",
+  "group": "Stars",
+  "manual": true,
+  "page": 15,
+  "commons": "File:Betelgeuse in Orion (with annotations).jpg"
+ },
+ {
+  "name": "Rigel",
+  "sci": "Beta Orionis",
+  "group": "Stars",
+  "manual": true,
+  "page": 14,
+  "commons": "File:Orion Head to Toe.jpg"
+ },
+ {
+  "name": "Antares",
+  "sci": "Alpha Scorpii",
+  "group": "Stars",
+  "manual": true,
+  "page": 15,
+  "commons": "File:Assy-Turgen Observatory against the backdrop of the center of the Milky Way and the star-forming region around Antares.jpg"
+ },
+ {
+  "name": "Aldebaran",
+  "sci": "Alpha Tauri",
+  "group": "Stars",
+  "manual": true,
+  "page": 15,
+  "commons": "File:Aldebaran and the Hyades - Flickr - gjdonatiello.jpg"
+ },
+ {
+  "name": "Procyon",
+  "sci": "Alpha Canis Minoris",
+  "group": "Stars",
+  "manual": true,
+  "page": 15,
+  "commons": "File:Procyon - through a small telescope.jpg"
+ },
+ {
+  "name": "Polaris (North Star)",
+  "sci": "Alpha Ursae Minoris",
+  "group": "Stars",
+  "manual": true,
+  "page": 14,
+  "commons": "File:Circumpolar star trails.jpg"
+ },
+ {
+  "name": "The Sun",
+  "sci": "Sol",
+  "group": "Stars",
+  "manual": true,
+  "page": 15,
+  "commons": "File:The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819.jpg"
+ },
+ {
+  "name": "Mercury",
+  "sci": "Mercury",
+  "group": "Planets",
+  "manual": true,
+  "page": 15,
+  "commons": "File:Mercury in color - Prockter07-edit1.jpg"
+ },
+ {
+  "name": "Venus",
+  "sci": "Venus",
+  "group": "Planets",
+  "manual": true,
+  "page": 16,
+  "commons": "File:Venus Over Dunes (39916414910).jpg"
+ },
+ {
+  "name": "Mars",
+  "sci": "Mars",
+  "group": "Planets",
+  "manual": true,
+  "page": 15,
+  "commons": "File:OSIRIS Mars true color.jpg"
+ },
+ {
+  "name": "Jupiter",
+  "sci": "Jupiter",
+  "group": "Planets",
+  "manual": true,
+  "page": 16,
+  "commons": "File:Jupiter and its shrunken Great Red Spot.jpg"
+ },
+ {
+  "name": "Saturn",
+  "sci": "Saturn",
+  "group": "Planets",
+  "manual": true,
+  "page": 15,
+  "commons": "File:Saturn during Equinox.jpg"
+ },
+ {
+  "name": "Full moon",
+  "sci": "Luna",
+  "group": "Moon",
+  "manual": true,
+  "page": 16,
+  "commons": "File:FullMoon2010.jpg"
+ },
+ {
+  "name": "Crescent moon",
+  "sci": "Luna",
+  "group": "Moon",
+  "manual": true,
+  "page": 16,
+  "commons": "File:Crescent moon 2025.jpg"
+ },
+ {
+  "name": "Gibbous moon",
+  "sci": "Luna",
+  "group": "Moon",
+  "manual": true,
+  "page": 16,
+  "commons": "File:Waxing gibbous moon, 2022-10-04.jpg"
+ },
+ {
+  "name": "Milky Way",
+  "sci": "",
+  "group": "Deep sky",
+  "manual": true,
+  "page": 13,
+  "commons": "File:Milky Way Over Mababe Depression.jpg"
+ },
+ {
+  "name": "Large Magellanic Cloud",
+  "sci": "LMC",
+  "group": "Deep sky",
+  "manual": true,
+  "page": 13,
+  "commons": "File:Large Magellanic Cloud from Hobart.jpg"
+ },
+ {
+  "name": "Small Magellanic Cloud",
+  "sci": "SMC",
+  "group": "Deep sky",
+  "manual": true,
+  "page": 13,
+  "commons": "File:Small Magellanic Cloud.jpg"
+ },
+ {
+  "name": "Andromeda Galaxy",
+  "sci": "M31",
+  "group": "Deep sky",
+  "manual": true,
+  "page": 13,
+  "commons": "File:Andromeda Galaxy (with h-alpha).jpg"
+ },
+ {
+  "name": "Pleiades (Seven Sisters)",
+  "sci": "M45",
+  "group": "Deep sky",
+  "manual": true,
+  "page": 15,
+  "commons": "File:Pleiades large.jpg"
+ },
+ {
+  "name": "Coalsack",
+  "sci": "",
+  "group": "Deep sky",
+  "manual": false,
+  "page": null,
+  "commons": "File:Southern Cross and Coalsack Dark Nebula.jpg"
+ },
+ {
+  "name": "Jewel Box",
+  "sci": "NGC 4755",
+  "group": "Deep sky",
+  "manual": false,
+  "page": null,
+  "commons": "File:The \"Jewel Box\", NGC 4755 (noao-6053).jpg"
+ },
+ {
+  "name": "Omega Centauri",
+  "sci": "NGC 5139",
+  "group": "Deep sky",
+  "manual": false,
+  "page": null,
+  "commons": "File:NGC 5139- Omega Centauri Widefield (noao-n5139guvenen).jpg"
+ },
+ {
+  "name": "Orion Nebula",
+  "sci": "M42",
+  "group": "Deep sky",
+  "manual": false,
+  "page": null,
+  "commons": "File:Orion Nebula - Hubble 2006 mosaic 18000.jpg"
+ },
+ {
+  "name": "Lunar eclipse",
+  "sci": "",
+  "group": "Phenomena",
+  "manual": true,
+  "page": 16,
+  "commons": "File:Total Lunar Eclipse Totality - large image.jpg"
+ },
+ {
+  "name": "Solar eclipse",
+  "sci": "",
+  "group": "Phenomena",
+  "manual": true,
+  "page": 16,
+  "commons": "File:2024 Total Solar Eclipse Corona.jpg"
+ },
+ {
+  "name": "Meteor (shooting star)",
+  "sci": "",
+  "group": "Phenomena",
+  "manual": true,
+  "page": 17,
+  "commons": "File:Cosmic Fireball Falling Over ALMA.jpg"
+ },
+ {
+  "name": "Meteor shower",
+  "sci": "",
+  "group": "Phenomena",
+  "manual": true,
+  "page": 17,
+  "commons": "File:Geminids Over Kitt Peak National Observatory (iotw2352a).jpg"
+ },
+ {
+  "name": "Meteorite",
+  "sci": "",
+  "group": "Phenomena",
+  "manual": true,
+  "page": 17,
+  "commons": "File:Namibie Hoba Meteorite 05.JPG"
+ }
+]

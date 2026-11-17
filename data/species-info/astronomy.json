@@ -1,0 +1,371 @@
+[
+ {
+  "name": "Southern Cross (Crux)",
+  "size": "The smallest constellation, a kite-shaped cross of four bright stars in the Milky Way.",
+  "habitat": "High in the south on autumn and winter evenings (April to July); low in the south-east or south-west at other times.",
+  "food": "Look for the two bright Pointers; they point straight at the cross. A fainter fifth star sits off-centre.",
+  "breeding": "Tswana and Sotho see the Pointers and two brightest Cross stars as four giraffes; the /Xam saw lionesses.",
+  "titbit": "Extend the long axis of the cross 4.5 times to find celestial south, then drop straight down to the horizon.",
+  "source": "both"
+ },
+ {
+  "name": "Orion",
+  "size": "The great hunter, one of the brightest constellations, with red Betelgeuse and blue-white Rigel.",
+  "habitat": "Summer evenings (December to March), high in the north; from Botswana the hunter appears upside down.",
+  "food": "Find the three equal stars in a short straight row (the Belt); the four bright stars around them form the body.",
+  "breeding": "Greek myth: Apollo sent a scorpion to sting Orion, so Orion sets in the west as Scorpius rises in the east.",
+  "titbit": "Orion and Scorpius are never seen high in the sky together; they sit on opposite sides of the sky.",
+  "source": "manual"
+ },
+ {
+  "name": "Orion's Belt (Three Kings)",
+  "size": "An asterism: three bright stars in a neat row that form the belt of Orion.",
+  "habitat": "Summer evenings (December to March), rising in the east after sunset and later high in the north.",
+  "food": "Three equal, bright stars in a short straight line; follow the line one way to Sirius.",
+  "breeding": "Tswana and Sotho call these stars Dikolobe, the three pigs; Khoikhoi saw three zebras.",
+  "titbit": "Follow the Belt one way to brilliant Sirius and the other way to orange Aldebaran.",
+  "source": "both"
+ },
+ {
+  "name": "Canis Major",
+  "size": "The Great Dog constellation, home of Sirius, the brightest star in the night sky.",
+  "habitat": "Summer evenings (December to April), high overhead, just east of Orion.",
+  "food": "Follow Orion's Belt east (away from Aldebaran) to the very bright star Sirius, the dog's nose.",
+  "breeding": "In Greek stories it is one of Orion's hunting dogs following its master across the sky.",
+  "titbit": "Sirius is only about 8.6 light years away, one of the closest stars to us.",
+  "source": "both"
+ },
+ {
+  "name": "Scorpius",
+  "size": "The scorpion, a large hook-shaped constellation with the red giant Antares as its heart.",
+  "habitat": "Winter evenings (May to September); in mid-winter it is almost overhead in the early evening.",
+  "food": "Look for a long curved line of stars like a fish-hook, with bright red Antares near the top.",
+  "breeding": "Greek myth: the gods sent the scorpion to sting Orion; now Scorpius rises as Orion sets.",
+  "titbit": "Astronomical Scorpius is not the same as astrological Scorpio, which today falls in Libra.",
+  "source": "manual"
+ },
+ {
+  "name": "Carina",
+  "size": "The keel of a ship, home of Canopus, the second-brightest star in the night sky.",
+  "habitat": "Best on summer and autumn evenings (January to May), in the south and south-west.",
+  "food": "Find Canopus, the bright star far south of Sirius; the rest of Carina runs towards the Southern Cross.",
+  "breeding": "Once part of a giant ship constellation, Argo Navis, the ship of Jason and the Argonauts.",
+  "titbit": "Carina holds the Carina Nebula and the False Cross, which guests often confuse with the real Southern Cross.",
+  "source": "both"
+ },
+ {
+  "name": "Taurus",
+  "size": "The bull, with orange Aldebaran as the bull's eye and the Pleiades on its shoulder.",
+  "habitat": "Summer evenings (December to February), low in the north, to the left of Orion as you face north.",
+  "food": "Follow Orion's Belt away from Sirius to a V-shape of stars (the Hyades) with orange Aldebaran.",
+  "breeding": "In Greek myth Zeus turned himself into a white bull to carry off Princess Europa.",
+  "titbit": "Taurus is one of the 12 zodiac constellations, so planets and the Moon pass through it.",
+  "source": "both"
+ },
+ {
+  "name": "Leo",
+  "size": "The lion, a zodiac constellation with the bright star Regulus.",
+  "habitat": "Autumn evenings (March to May), in the north.",
+  "food": "Look for a backwards question mark of stars (the Sickle) ending in bright Regulus, the lion's heart.",
+  "breeding": "Greek myth: the Nemean lion, killed by Hercules as the first of his twelve labours.",
+  "titbit": "A good one for a lion-loving safari crowd; the Leonid meteor shower comes from this area in November.",
+  "source": "general"
+ },
+ {
+  "name": "The Pointers",
+  "size": "Two bright stars of Centaurus, Alpha and Beta Centauri, that point to the Southern Cross.",
+  "habitat": "Autumn and winter evenings (April to August), high in the south, beside the Southern Cross.",
+  "food": "Find the two brightest stars near the Cross; a line from them points at the cross.",
+  "breeding": "Tswana and Sotho saw them as two giraffes; the /Xam (San) saw two male lions.",
+  "titbit": "They look like twins but are not: Alpha is about 4.3 light years away, Beta is over 300 light years away.",
+  "source": "both"
+ },
+ {
+  "name": "Alpha Centauri",
+  "size": "The nearest star system to the Sun: three stars, Alpha Centauri A and B and faint Proxima Centauri.",
+  "habitat": "Autumn and winter evenings, high in the south; it is the brighter of the two Pointers.",
+  "food": "Find the Southern Cross, then the brighter Pointer, the one further from the Cross.",
+  "breeding": "One of the four giraffes (Tswana and Sotho) or one of the two male lions (/Xam).",
+  "titbit": "Light from Alpha Centauri takes over 4 years to reach us; Proxima is the closest star to Earth after the Sun.",
+  "source": "manual"
+ },
+ {
+  "name": "Sirius",
+  "size": "The brightest star in the night sky, a white star with a tiny white dwarf companion.",
+  "habitat": "Summer evenings (December to April), high in the east and later almost overhead.",
+  "food": "Follow Orion's Belt to the south-east to the brightest, twinkling star in the sky.",
+  "breeding": "Ancient Egyptians used the first dawn rising of Sirius to predict the yearly Nile flood.",
+  "titbit": "Sirius often flashes many colours when it is low, because our air bends and splits its light.",
+  "source": "both"
+ },
+ {
+  "name": "Canopus",
+  "size": "The second-brightest star in the night sky, a white giant in the constellation Carina.",
+  "habitat": "Summer evenings high in the south (January to April); in winter it rises before dawn in the south-east.",
+  "food": "Look far to the south of Sirius for a second, almost as bright, white star.",
+  "breeding": "Sotho and Tswana call Canopus Naka (the horn); its dawn rising in winter was a sign of the new season.",
+  "titbit": "Canopus is much further away than Sirius (over 300 light years) but gives out thousands of times more light.",
+  "source": "both"
+ },
+ {
+  "name": "Betelgeuse",
+  "size": "A huge red supergiant star in Orion; if it replaced our Sun it would swallow Mars.",
+  "habitat": "Summer evenings (December to March) in the north; the orange-red star in Orion.",
+  "food": "Find Orion's Belt; Betelgeuse is the bright orange-red star on one side of it, opposite blue Rigel.",
+  "breeding": "In a Khoikhoi story Betelgeuse is a lion watching the three zebras of the Belt.",
+  "titbit": "Betelgeuse is near the end of its life and will one day explode as a supernova.",
+  "source": "both"
+ },
+ {
+  "name": "Rigel",
+  "size": "A very bright blue-white supergiant star in Orion, many thousands of times brighter than the Sun.",
+  "habitat": "Summer evenings (December to March); in Orion, high in the north.",
+  "food": "Find Orion's Belt; Rigel is the bright blue-white star on the opposite side from red Betelgeuse.",
+  "breeding": "",
+  "titbit": "Compare Rigel and Betelgeuse with guests: star colour shows temperature, blue is hot and red is cooler.",
+  "source": "general"
+ },
+ {
+  "name": "Antares",
+  "size": "A red supergiant star, the bright red heart of Scorpius.",
+  "habitat": "Winter evenings (May to September), almost overhead in mid-winter.",
+  "food": "Find the hook-shaped Scorpius; Antares is the bright red star in the body of the scorpion.",
+  "breeding": "Its name means \"rival of Mars\" because its red colour looks like the planet Mars.",
+  "titbit": "Antares is so big that it would reach past the orbit of Mars if it sat where our Sun is.",
+  "source": "both"
+ },
+ {
+  "name": "Aldebaran",
+  "size": "An orange giant star, the bright eye of Taurus the bull.",
+  "habitat": "Summer evenings (December to February), low in the north.",
+  "food": "Follow Orion's Belt away from Sirius to a bright orange star at the tip of a V of stars.",
+  "breeding": "In a Khoikhoi story Aldebaran is the hunter whose arrow (Orion's sword) fell short of the three zebras.",
+  "titbit": "Aldebaran is not part of the V-shaped Hyades cluster; it lies about half as far away.",
+  "source": "both"
+ },
+ {
+  "name": "Procyon",
+  "size": "A bright white star in Canis Minor, the Little Dog, with a white dwarf companion.",
+  "habitat": "Summer evenings (December to April), in the north-east, east of Orion.",
+  "food": "Make a triangle with Sirius and Betelgeuse; Procyon is the bright star at the third corner.",
+  "breeding": "",
+  "titbit": "Its name means \"before the dog\" because it rises just before Sirius, the Dog Star, in northern lands.",
+  "source": "both"
+ },
+ {
+  "name": "Polaris (North Star)",
+  "size": "The North Star, which sits almost exactly above the Earth's North Pole.",
+  "habitat": "Not visible from Botswana: it is always below our northern horizon; guests from the north know it well.",
+  "food": "In the northern hemisphere, draw a line from Polaris straight down to the horizon to find true north.",
+  "breeding": "",
+  "titbit": "The south has no bright pole star, which is why we use the Southern Cross and Pointers to find south.",
+  "source": "both"
+ },
+ {
+  "name": "The Sun",
+  "size": "Our own star, about 70% hydrogen and 28% helium, at the centre of the solar system.",
+  "habitat": "Never look at the Sun directly or through binoculars; it can blind you.",
+  "food": "",
+  "breeding": "",
+  "titbit": "Sunlight takes about 8 minutes to cross the 150 million km to Earth.",
+  "source": "manual"
+ },
+ {
+  "name": "Mercury",
+  "size": "The smallest planet and the closest to the Sun, a rocky world covered in craters.",
+  "habitat": "Only low in the west just after sunset or low in the east just before sunrise, for a few weeks at a time.",
+  "food": "Look low near the horizon in bright twilight for a steady, star-like dot that does not twinkle.",
+  "breeding": "Named after the fast messenger of the Roman gods, because it moves quickly around the Sun.",
+  "titbit": "Mercury goes around the Sun in only 88 days.",
+  "source": "both"
+ },
+ {
+  "name": "Venus",
+  "size": "The brightest planet, about the size of Earth, wrapped in thick white clouds.",
+  "habitat": "Only in the west after sunset (evening star) or in the east before sunrise (morning star).",
+  "food": "The brightest point of light in the sky after the Moon; it shines steadily and does not twinkle.",
+  "breeding": "Named after the Roman goddess of love; many cultures thought the evening and morning stars were different objects.",
+  "titbit": "Venus is so bright it can cast a shadow on a dark night, far from lights.",
+  "source": "both"
+ },
+ {
+  "name": "Mars",
+  "size": "The red planet, a small rocky world with iron-rich red dust.",
+  "habitat": "Varies year to year; it moves along the zodiac line, and is brightest about every 26 months.",
+  "food": "Look along the zodiac line for a steady orange-red point that does not twinkle.",
+  "breeding": "Named after the Roman god of war because of its blood-red colour.",
+  "titbit": "Mars has the largest volcano in the solar system, Olympus Mons, about three times as high as Everest.",
+  "source": "both"
+ },
+ {
+  "name": "Jupiter",
+  "size": "The largest planet, a gas giant more than 11 times wider than Earth.",
+  "habitat": "Moves slowly along the zodiac line; it can be seen through the whole night when well placed.",
+  "food": "Very bright and steady; binoculars show up to four tiny moons (the Galilean moons) in a line.",
+  "breeding": "Named after the king of the Roman gods.",
+  "titbit": "Jupiter's four big moons were discovered by Galileo in 1610 and can be seen with binoculars.",
+  "source": "both"
+ },
+ {
+  "name": "Saturn",
+  "size": "A gas giant planet with beautiful bright rings of ice and rock.",
+  "habitat": "Moves slowly along the zodiac line; it stays in roughly the same constellation for about two years.",
+  "food": "A steady, creamy-yellow point on the zodiac line; a small telescope shows the rings.",
+  "breeding": "Named after the Roman god of farming and time.",
+  "titbit": "Saturn is so light for its size that it would float in a big enough bath of water.",
+  "source": "both"
+ },
+ {
+  "name": "Full moon",
+  "size": "The Moon fully lit by the Sun, when the Earth lies between the Sun and the Moon.",
+  "habitat": "Rises in the east at sunset and sets in the west at sunrise.",
+  "food": "A full moon makes the sky bright, so stars and the Milky Way are hard to see.",
+  "breeding": "Some San believed eclipses happened when a lion covered the full moon with its paw so it could hunt.",
+  "titbit": "Only at full moon can a lunar eclipse happen.",
+  "source": "both"
+ },
+ {
+  "name": "Crescent moon",
+  "size": "A thin, less-than-half lit Moon; seen after new moon (waxing) or before new moon (waning).",
+  "habitat": "A waxing crescent is in the west after sunset; a waning crescent is in the east before sunrise.",
+  "food": "Look low in the west just after sunset a few days after new moon.",
+  "breeding": "Some San said the Sun's sharp rays cut pieces off the Moon-man until he begged for mercy and grew again.",
+  "titbit": "The faint glow on the dark part is earthshine: sunlight reflected from Earth onto the Moon.",
+  "source": "both"
+ },
+ {
+  "name": "Gibbous moon",
+  "size": "A more-than-half lit Moon, between first quarter and full moon or between full and third quarter.",
+  "habitat": "A waxing gibbous moon is high in the east in the early evening.",
+  "food": "Waxing means growing (new to full); waning means shrinking (full to new).",
+  "breeding": "",
+  "titbit": "Along the line between light and dark, binoculars show craters and mountains in sharp shadow.",
+  "source": "both"
+ },
+ {
+  "name": "Milky Way",
+  "size": "Our home galaxy, a spiral of up to 400 billion stars, about 100 000 light years across.",
+  "habitat": "Best on dark, moonless winter evenings (June to August), stretching overhead through Scorpius.",
+  "food": "Look for the band of misty light across a dark sky; it is brightest towards Scorpius and Sagittarius.",
+  "breeding": "San say a girl threw wood ashes into the sky to light the way home; Tswana call it Molalatladi.",
+  "titbit": "The band is our flat galaxy seen edge-on from inside; we see more stars when we look along the disc.",
+  "source": "both"
+ },
+ {
+  "name": "Large Magellanic Cloud",
+  "size": "A small galaxy close to our own, about 160 000 light years away.",
+  "habitat": "Best on summer evenings (November to March), high in the south.",
+  "food": "Looks like a detached piece of the Milky Way; find it about halfway between Canopus and the south pole.",
+  "breeding": "Named after the explorer Magellan, whose crew described the clouds on their voyage around the world.",
+  "titbit": "One of only three galaxies (besides our own) that you can see with the naked eye.",
+  "source": "both"
+ },
+ {
+  "name": "Small Magellanic Cloud",
+  "size": "A small galaxy close to our own, about 200 000 light years away.",
+  "habitat": "Best on spring and summer evenings (October to February), high in the south.",
+  "food": "A smaller misty patch than the Large Cloud, near the bright star Achernar.",
+  "breeding": "Named after the explorer Magellan, whose crew described the clouds on their voyage around the world.",
+  "titbit": "Light from the Small Cloud left it about 200 000 years ago, when modern humans first appeared in Africa.",
+  "source": "both"
+ },
+ {
+  "name": "Andromeda Galaxy",
+  "size": "A giant spiral galaxy, the nearest large galaxy to the Milky Way.",
+  "habitat": "Low in the north on spring evenings (October to December); needs a very dark sky.",
+  "food": "A faint oval smudge low in the north; easier to find with binoculars.",
+  "breeding": "Named after the princess Andromeda of Greek myth.",
+  "titbit": "At about 2.5 million light years, it is the most distant object most people can see with the naked eye.",
+  "source": "both"
+ },
+ {
+  "name": "Pleiades (Seven Sisters)",
+  "size": "A cluster of young, hot blue stars, the Seven Sisters, in Taurus.",
+  "habitat": "Summer evenings (November to February), low in the north; it disappears for a few weeks in May.",
+  "food": "Follow Orion's Belt past Aldebaran to a small, tight group of stars like a tiny dipper.",
+  "breeding": "Xhosa and Zulu call it Isilimela, Tswana Selemela; its return before dawn in June is the sign to plough.",
+  "titbit": "Most people see six or seven stars; binoculars show dozens.",
+  "source": "manual"
+ },
+ {
+  "name": "Coalsack",
+  "size": "A dark cloud of dust that blocks the light of the stars behind it.",
+  "habitat": "Autumn and winter evenings (April to July), beside the Southern Cross.",
+  "food": "Look for the dark hole in the Milky Way just next to the bottom-left of the Southern Cross.",
+  "breeding": "Aboriginal Australians see it as the head of a great Emu in the sky, whose body is dark dust lanes.",
+  "titbit": "It is about 600 light years away and contains material for new stars.",
+  "source": "general"
+ },
+ {
+  "name": "Jewel Box",
+  "size": "A small, bright cluster of young stars in the Southern Cross.",
+  "habitat": "Autumn and winter evenings (April to July), in the Southern Cross.",
+  "food": "Look just next to Beta Crux (the left-hand star of the Cross); binoculars show a fuzzy little group.",
+  "breeding": "John Herschel, observing from the Cape in the 1830s, compared it to a box of coloured jewels.",
+  "titbit": "Through a telescope one orange star stands out among the blue-white ones.",
+  "source": "general"
+ },
+ {
+  "name": "Omega Centauri",
+  "size": "The biggest globular cluster of the Milky Way, a ball of about 10 million old stars.",
+  "habitat": "Autumn and winter evenings (April to July), high in the south-east to south.",
+  "food": "From the Southern Cross go up towards Centaurus; it looks like a fuzzy star to the naked eye.",
+  "breeding": "",
+  "titbit": "Early astronomers thought it was a single star, which is why it has a star name.",
+  "source": "general"
+ },
+ {
+  "name": "Orion Nebula",
+  "size": "A huge glowing cloud of gas where new stars are being born, about 1 300 light years away.",
+  "habitat": "Summer evenings (December to March), in Orion.",
+  "food": "Just next to Orion's Belt is a short line of stars (the sword); the middle 'star' is a misty patch.",
+  "breeding": "",
+  "titbit": "It is the brightest star nursery in the sky and easy to see in binoculars.",
+  "source": "general"
+ },
+ {
+  "name": "Lunar eclipse",
+  "size": "The Earth's shadow covers the full moon, turning it a dull reddish-brown.",
+  "habitat": "Only at full moon; can be seen from anywhere on Earth where the Moon is up.",
+  "food": "Safe to watch with naked eyes or binoculars; check eclipse dates in advance.",
+  "breeding": "Some San believed a lion put his paw over the full moon because it was too light to hunt.",
+  "titbit": "Lunar eclipses are much more common to see than solar eclipses.",
+  "source": "manual"
+ },
+ {
+  "name": "Solar eclipse",
+  "size": "The Moon passes between the Sun and the Earth and blocks the Sun.",
+  "habitat": "Only at new moon, and only in a narrow path on Earth; rare at any one place.",
+  "food": "Never look at the Sun with naked eyes, binoculars or a telescope; use proper eclipse glasses.",
+  "breeding": "",
+  "titbit": "In a total eclipse the Sun's glowing outer atmosphere, the corona, becomes visible.",
+  "source": "manual"
+ },
+ {
+  "name": "Meteor (shooting star)",
+  "size": "A streak of light made when a small space rock (meteoroid) burns up in our air.",
+  "habitat": "Any clear, dark night; more are seen after midnight.",
+  "food": "Lie back, let your eyes adjust to the dark for 20 minutes and watch a wide area of sky.",
+  "breeding": "",
+  "titbit": "Most shooting stars come from grains no bigger than a grain of sand.",
+  "source": "manual"
+ },
+ {
+  "name": "Meteor shower",
+  "size": "Many meteors in one night, when Earth passes through dust left behind by a comet.",
+  "habitat": "Fixed dates each year; the manual names the Perseids (mid-August), Geminids (mid-December) are good from Botswana.",
+  "food": "The meteors seem to come from one point in the sky, which gives the shower its name.",
+  "breeding": "",
+  "titbit": "The Perseids sit low in the north from Botswana, so northern-hemisphere guests see more of them at home.",
+  "source": "both"
+ },
+ {
+  "name": "Meteorite",
+  "size": "A space rock that survives its fall through the air and lands on Earth.",
+  "habitat": "",
+  "food": "",
+  "breeding": "",
+  "titbit": "The world's largest known meteorite, Hoba (about 60 tonnes), lies in Namibia.",
+  "source": "both"
+ }
+]
