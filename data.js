@@ -10363,7 +10363,7 @@ window.AGA_DATA = {
    "id": "mammals-photos",
    "title": "Mammals photos",
    "short": "Mammals",
-   "subtitle": "85 mammals of Botswana",
+   "subtitle": "83 mammals of Botswana",
    "featured": "In the manual",
    "defaultScope": "all",
    "items": [
@@ -10510,10 +10510,10 @@ window.AGA_DATA = {
      "sci": "Tragelaphus strepsiceros",
      "group": "Antelope",
      "photo": "media/mammals/greater-kudu.jpg",
-     "pb": 185970,
-     "credit": "© Mahomed Desai",
+     "pb": 118548,
+     "credit": "© Brook",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/133905806",
+     "src": "https://www.inaturalist.org/observations/208267397",
      "f": 1,
      "page": 121
     },
@@ -10755,10 +10755,10 @@ window.AGA_DATA = {
      "sci": "Mellivora capensis",
      "group": "Otters and badgers",
      "photo": "media/mammals/honey-badger-ratel.jpg",
-     "pb": 181759,
-     "credit": "© Lukas Zangl",
+     "pb": 98706,
+     "credit": "© Morten Ross",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/258019033",
+     "src": "https://www.inaturalist.org/observations/111180980",
      "f": 1,
      "page": 123,
      "wide": 1
@@ -10916,11 +10916,10 @@ window.AGA_DATA = {
      "sci": "Sylvicapra grimmia",
      "group": "Antelope",
      "photo": "media/mammals/common-duiker.jpg",
-     "pb": 99696,
-     "credit": "© Robert Taylor",
+     "pb": 85066,
+     "credit": "© Lukas Zangl",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/77548392",
-     "wide": 1
+     "src": "https://www.inaturalist.org/observations/257687337"
     },
     {
      "id": "mammals-common-eland",
@@ -11083,17 +11082,6 @@ window.AGA_DATA = {
      "src": "https://www.inaturalist.org/observations/173520003"
     },
     {
-     "id": "mammals-cape-clawless-otter",
-     "name": "Cape Clawless Otter",
-     "sci": "Aonyx capensis",
-     "group": "Otters and badgers",
-     "photo": "media/mammals/cape-clawless-otter.jpg",
-     "pb": 109132,
-     "credit": "© Jeremy Gilmore",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/35984676"
-    },
-    {
      "id": "mammals-striped-polecat",
      "name": "Striped Polecat",
      "sci": "Ictonyx striatus",
@@ -11202,10 +11190,10 @@ window.AGA_DATA = {
      "sci": "Ichneumia albicauda",
      "group": "Mongooses",
      "photo": "media/mammals/white-tailed-mongoose.jpg",
-     "pb": 280360,
-     "credit": "© tlaloc27",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/9821991"
+     "pb": 39140,
+     "credit": "simontonge",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/100310326"
     },
     {
      "id": "mammals-yellow-mongoose",
@@ -11247,10 +11235,11 @@ window.AGA_DATA = {
      "sci": "Hystrix africaeaustralis",
      "group": "Rodents",
      "photo": "media/mammals/cape-porcupine.jpg",
-     "pb": 215531,
-     "credit": "rianafourie",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/322803080"
+     "pb": 25375,
+     "credit": "© Jan Ebr &amp; Ivana Ebrová",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/70248702",
+     "wide": 1
     },
     {
      "id": "mammals-four-striped-grass-mouse",
@@ -11270,10 +11259,11 @@ window.AGA_DATA = {
      "sci": "Thryonomys swinderianus",
      "group": "Rodents",
      "photo": "media/mammals/greater-cane-rat.jpg",
-     "pb": 113794,
-     "credit": "© Rosemary Harrison",
+     "pb": 69407,
+     "credit": "© Brendan Smith",
      "license": "CC BY-SA",
-     "src": "https://www.inaturalist.org/observations/162108888"
+     "src": "https://www.inaturalist.org/observations/44044858",
+     "wide": 1
     },
     {
      "id": "mammals-ground-squirrel",
@@ -11328,11 +11318,10 @@ window.AGA_DATA = {
      "sci": "Nycteris thebaica",
      "group": "Bats",
      "photo": "media/mammals/egyptian-slit-faced-bat.jpg",
-     "pb": 83610,
-     "credit": "© Robert Taylor",
+     "pb": 58256,
+     "credit": "© Bernard DUPONT",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/39041314",
-     "wide": 1
+     "src": "https://www.inaturalist.org/observations/131170"
     },
     {
      "id": "mammals-little-free-tailed-bat",
@@ -11340,10 +11329,10 @@ window.AGA_DATA = {
      "sci": "Mops pumilus",
      "group": "Bats",
      "photo": "media/mammals/little-free-tailed-bat.jpg",
-     "pb": 49154,
+     "pb": 138916,
      "credit": "© Nick Schaller",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/1747983"
+     "src": "https://www.inaturalist.org/observations/11184456"
     },
     {
      "id": "mammals-mauritian-tomb-bat",
@@ -11379,18 +11368,6 @@ window.AGA_DATA = {
      "src": "https://www.inaturalist.org/observations/242857062"
     },
     {
-     "id": "mammals-yellow-bellied-house-bat",
-     "name": "Yellow-bellied House Bat",
-     "sci": "Scotophilus dinganii",
-     "group": "Bats",
-     "photo": "media/mammals/yellow-bellied-house-bat.jpg",
-     "pb": 24219,
-     "credit": "© Valentin Moser",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/197090185",
-     "wide": 1
-    },
-    {
      "id": "mammals-ground-pangolin",
      "name": "Ground Pangolin",
      "sci": "Smutsia temminckii",
@@ -11408,10 +11385,10 @@ window.AGA_DATA = {
      "sci": "Procavia capensis",
      "group": "Other mammals",
      "photo": "media/mammals/rock-hyrax.jpg",
-     "pb": 167033,
-     "credit": "© Robert Taylor",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/147630064"
+     "pb": 51862,
+     "credit": "sardinemachine",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/302994126"
     },
     {
      "id": "mammals-yellow-spotted-rock-hyrax",
@@ -11440,12 +11417,13 @@ window.AGA_DATA = {
      "sci": "Crocodylus niloticus",
      "group": "Crocodiles",
      "photo": "media/reptiles/nile-crocodile.jpg",
-     "pb": 184885,
-     "credit": "paulomascaretti",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/314228951",
+     "pb": 238670,
+     "credit": "© Dirk Froebel",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/167008427",
      "f": 1,
-     "page": 78
+     "page": 78,
+     "wide": 1
     },
     {
      "id": "reptiles-anchietas-cobra",
@@ -11508,12 +11486,13 @@ window.AGA_DATA = {
      "sci": "Naja annulifera",
      "group": "Venomous snakes",
      "photo": "media/reptiles/snouted-cobra.jpg",
-     "pb": 59766,
-     "credit": "spidermandan",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/213747349",
+     "pb": 51466,
+     "credit": "© i_c_riddell",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/1019879",
      "f": 1,
-     "page": 84
+     "page": 84,
+     "wide": 1
     },
     {
      "id": "reptiles-boomslang",
@@ -11521,12 +11500,13 @@ window.AGA_DATA = {
      "sci": "Dispholidus typus",
      "group": "Venomous snakes",
      "photo": "media/reptiles/boomslang.jpg",
-     "pb": 139005,
-     "credit": "© Robert Taylor",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/349817350",
+     "pb": 175527,
+     "credit": "erwinsieben",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/219044670",
      "f": 1,
-     "page": 85
+     "page": 85,
+     "wide": 1
     },
     {
      "id": "reptiles-shield-nosed-cobra",
@@ -11574,12 +11554,13 @@ window.AGA_DATA = {
      "sci": "Bitis arietans",
      "group": "Venomous snakes",
      "photo": "media/reptiles/puff-adder.jpg",
-     "pb": 206990,
-     "credit": "© Kevin Brix",
-     "license": "CC BY-SA",
-     "src": "https://www.inaturalist.org/observations/188073772",
+     "pb": 131392,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/18826210",
      "f": 1,
-     "page": 86
+     "page": 86,
+     "wide": 1
     },
     {
      "id": "reptiles-mole-snake",
@@ -11628,10 +11609,10 @@ window.AGA_DATA = {
      "sci": "Philothamnus semivariegatus",
      "group": "Non-venomous snakes",
      "photo": "media/reptiles/spotted-bush-snake.jpg",
-     "pb": 119252,
-     "credit": "lbcp2020",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/328029998",
+     "pb": 90409,
+     "credit": "© Scott Crabtree",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/147469616",
      "f": 1,
      "page": 87
     },
@@ -11706,12 +11687,13 @@ window.AGA_DATA = {
      "sci": "Trachylepis spilogaster",
      "group": "Lizards",
      "photo": "media/reptiles/kalahari-tree-skink.jpg",
-     "pb": 145125,
-     "credit": "© Eric Knight",
+     "pb": 86999,
+     "credit": "© Tia Offner",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/136112705",
+     "src": "https://www.inaturalist.org/observations/248199229",
      "f": 1,
-     "page": 88
+     "page": 88,
+     "wide": 1
     },
     {
      "id": "reptiles-nile-monitor-water-leguaan",
@@ -11732,12 +11714,13 @@ window.AGA_DATA = {
      "sci": "Panaspis wahlbergii",
      "group": "Lizards",
      "photo": "media/reptiles/snake-eyed-skink.jpg",
-     "pb": 138168,
-     "credit": "© Murray Yoko",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/336686508",
+     "pb": 31355,
+     "credit": "m_burger",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/218613964",
      "f": 1,
-     "page": 88
+     "page": 88,
+     "wide": 1
     },
     {
      "id": "reptiles-white-throated-monitor-rock-leguaan",
@@ -11811,10 +11794,10 @@ window.AGA_DATA = {
      "sci": "Chamaeleo dilepis",
      "group": "Lizards",
      "photo": "media/reptiles/flap-necked-chameleon.jpg",
-     "pb": 61102,
-     "credit": "© Robert Taylor",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/104463811",
+     "pb": 136441,
+     "credit": "© olliesaunders",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/337789716",
      "f": 1,
      "page": 90
     },
@@ -11824,10 +11807,10 @@ window.AGA_DATA = {
      "sci": "Stigmochelys pardalis",
      "group": "Tortoises and terrapins",
      "photo": "media/reptiles/leopard-tortoise.jpg",
-     "pb": 228662,
-     "credit": "rianafourie",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/210065845",
+     "pb": 125455,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/258024929",
      "f": 1,
      "page": 91
     },
@@ -11865,10 +11848,10 @@ window.AGA_DATA = {
      "sci": "Pelusios bechuanicus",
      "group": "Tortoises and terrapins",
      "photo": "media/reptiles/okavango-hinged-terrapin.jpg",
-     "pb": 151155,
+     "pb": 67462,
      "credit": "© Robert Taylor",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/160836464",
+     "src": "https://www.inaturalist.org/observations/163401350",
      "f": 1,
      "page": 91
     },
@@ -11940,10 +11923,11 @@ window.AGA_DATA = {
      "sci": "Boaedon capensis",
      "group": "Non-venomous snakes",
      "photo": "media/reptiles/brown-house-snake.jpg",
-     "pb": 64128,
-     "credit": "© Wynand Uys",
+     "pb": 129560,
+     "credit": "© Sunčana Bradley",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/18630850"
+     "src": "https://www.inaturalist.org/observations/47240487",
+     "wide": 1
     },
     {
      "id": "reptiles-common-egg-eater",
@@ -11951,10 +11935,11 @@ window.AGA_DATA = {
      "sci": "Dasypeltis scabra",
      "group": "Non-venomous snakes",
      "photo": "media/reptiles/common-egg-eater.jpg",
-     "pb": 158214,
-     "credit": "© Jacques van der Merwe",
-     "license": "CC BY-SA",
-     "src": "https://www.inaturalist.org/observations/17910799"
+     "pb": 79602,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/214219483",
+     "wide": 1
     },
     {
      "id": "reptiles-bark-snake",
@@ -11962,10 +11947,10 @@ window.AGA_DATA = {
      "sci": "Hemirhagerrhis nototaenia",
      "group": "Mildly venomous snakes",
      "photo": "media/reptiles/bark-snake.jpg",
-     "pb": 267635,
-     "credit": "rosshawkins",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/137012546"
+     "pb": 40289,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/38393965"
     },
     {
      "id": "reptiles-black-headed-centipede-eater",
@@ -11973,10 +11958,10 @@ window.AGA_DATA = {
      "sci": "Aparallactus capensis",
      "group": "Mildly venomous snakes",
      "photo": "media/reptiles/black-headed-centipede-eater.jpg",
-     "pb": 44953,
-     "credit": "© Dylan Leonard",
-     "license": "CC BY-SA",
-     "src": "https://www.inaturalist.org/observations/246134183"
+     "pb": 79309,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/394209853"
     },
     {
      "id": "reptiles-olive-grass-snake",
@@ -12007,10 +11992,10 @@ window.AGA_DATA = {
      "sci": "Lygodactylus capensis",
      "group": "Lizards",
      "photo": "media/reptiles/cape-dwarf-gecko.jpg",
-     "pb": 22818,
-     "credit": "© Tony Eales",
-     "license": "CC BY-SA",
-     "src": "https://www.inaturalist.org/observations/171164434"
+     "pb": 125850,
+     "credit": "© Paul Hoekman",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/242830105"
     },
     {
      "id": "reptiles-common-barking-gecko",
@@ -12030,10 +12015,10 @@ window.AGA_DATA = {
      "sci": "Acanthocercus atricollis",
      "group": "Lizards",
      "photo": "media/reptiles/southern-tree-agama.jpg",
-     "pb": 97180,
-     "credit": "© Robert Taylor",
+     "pb": 132233,
+     "credit": "© Stefan Wolmarans",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/19683124"
+     "src": "https://www.inaturalist.org/observations/239676008"
     },
     {
      "id": "reptiles-spotted-sandveld-lizard",
@@ -12098,10 +12083,11 @@ window.AGA_DATA = {
      "sci": "Gerrhosaurus flavigularis",
      "group": "Lizards",
      "photo": "media/reptiles/yellow-throated-plated-lizard.jpg",
-     "pb": 276059,
-     "credit": "© Zizipho Mfaku",
+     "pb": 95111,
+     "credit": "© i_c_riddell",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/183057364"
+     "src": "https://www.inaturalist.org/observations/75017029",
+     "wide": 1
     }
    ]
   },
@@ -13383,12 +13369,13 @@ window.AGA_DATA = {
      "sci": "Ziziphus mucronata",
      "group": "Trees",
      "photo": "media/plants/buffalo-thorn.jpg",
-     "pb": 83294,
-     "credit": "© Wynand Uys",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/240299059",
+     "pb": 54513,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/135942005",
      "f": 1,
-     "page": 44
+     "page": 44,
+     "wide": 1
     },
     {
      "id": "plants-camel-thorn",
@@ -13396,12 +13383,13 @@ window.AGA_DATA = {
      "sci": "Vachellia erioloba",
      "group": "Trees",
      "photo": "media/plants/camel-thorn.jpg",
-     "pb": 101490,
+     "pb": 184186,
      "credit": "© Tony Rebelo",
      "license": "CC BY-SA",
-     "src": "https://www.inaturalist.org/observations/152915011",
+     "src": "https://www.inaturalist.org/observations/144876267",
      "f": 1,
-     "page": 23
+     "page": 23,
+     "wide": 1
     },
     {
      "id": "plants-jackal-berry",
@@ -13409,10 +13397,10 @@ window.AGA_DATA = {
      "sci": "Diospyros mespiliformis",
      "group": "Trees",
      "photo": "media/plants/jackal-berry.jpg",
-     "pb": 127933,
-     "credit": "© Kobus Meyer",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/172994190",
+     "pb": 156599,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/10786563",
      "f": 1,
      "page": 43
     },
@@ -13450,12 +13438,13 @@ window.AGA_DATA = {
      "sci": "Croton megalobotrys",
      "group": "Trees",
      "photo": "media/plants/large-fever-berry.jpg",
-     "pb": 206784,
-     "credit": "© Robert Taylor",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/113385012",
+     "pb": 59887,
+     "credit": "erwinsieben",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/213386326",
      "f": 1,
-     "page": 43
+     "page": 43,
+     "wide": 1
     },
     {
      "id": "plants-leadwood",
@@ -13477,12 +13466,13 @@ window.AGA_DATA = {
      "sci": "Sclerocarya birrea",
      "group": "Trees",
      "photo": "media/plants/marula.jpg",
-     "pb": 100596,
-     "credit": "© Robert Taylor",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/127231063",
+     "pb": 59790,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/135909978",
      "f": 1,
-     "page": 42
+     "page": 42,
+     "wide": 1
     },
     {
      "id": "plants-mopane",
@@ -13543,10 +13533,10 @@ window.AGA_DATA = {
      "sci": "Kigelia africana",
      "group": "Trees",
      "photo": "media/plants/sausage-tree.jpg",
-     "pb": 218534,
-     "credit": "© Tony Rebelo",
-     "license": "CC BY-SA",
-     "src": "https://www.inaturalist.org/observations/135836816",
+     "pb": 145249,
+     "credit": "© Cricket Raspet",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/107099193",
      "f": 1,
      "page": 43
     },
@@ -13556,12 +13546,13 @@ window.AGA_DATA = {
      "sci": "Vachellia nilotica",
      "group": "Trees",
      "photo": "media/plants/scented-thorn.jpg",
-     "pb": 210722,
-     "credit": "© Robert Taylor",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/113401621",
+     "pb": 162206,
+     "credit": "erwinsieben",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/213386320",
      "f": 1,
-     "page": 41
+     "page": 41,
+     "wide": 1
     },
     {
      "id": "plants-shepherd-s-tree",
@@ -13596,12 +13587,13 @@ window.AGA_DATA = {
      "sci": "Vachellia tortilis",
      "group": "Trees",
      "photo": "media/plants/umbrella-thorn.jpg",
-     "pb": 35134,
-     "credit": "rianafourie",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/237834755",
+     "pb": 62969,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/284494292",
      "f": 1,
-     "page": 23
+     "page": 23,
+     "wide": 1
     },
     {
      "id": "plants-weeping-wattle",
@@ -13663,12 +13655,13 @@ window.AGA_DATA = {
      "sci": "Cynodon dactylon",
      "group": "Grasses and sedges",
      "photo": "media/plants/couch-grass.jpg",
-     "pb": 230553,
+     "pb": 160826,
      "credit": "© Tony Rebelo",
      "license": "CC BY-SA",
-     "src": "https://www.inaturalist.org/observations/19953867",
+     "src": "https://www.inaturalist.org/observations/35944191",
      "f": 1,
-     "page": 50
+     "page": 50,
+     "wide": 1
     },
     {
      "id": "plants-curly-leaf-love-grass",
@@ -13689,10 +13682,10 @@ window.AGA_DATA = {
      "sci": "Digitaria eriantha",
      "group": "Grasses and sedges",
      "photo": "media/plants/finger-grass.jpg",
-     "pb": 42997,
-     "credit": "© Christiaan Viljoen",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/111907370",
+     "pb": 56502,
+     "credit": "tim_kirsten",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/100714492",
      "f": 1,
      "page": 49
     },
@@ -13742,12 +13735,13 @@ window.AGA_DATA = {
      "sci": "Heteropogon contortus",
      "group": "Grasses and sedges",
      "photo": "media/plants/spear-grass.jpg",
-     "pb": 163389,
-     "credit": "© Robert Taylor",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/77552014",
+     "pb": 172122,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/284359713",
      "f": 1,
-     "page": 49
+     "page": 49,
+     "wide": 1
     },
     {
      "id": "plants-tassel-three-awn",
@@ -13755,12 +13749,13 @@ window.AGA_DATA = {
      "sci": "Aristida congesta",
      "group": "Grasses and sedges",
      "photo": "media/plants/tassel-three-awn.jpg",
-     "pb": 79763,
-     "credit": "© Nicola van Berkel",
+     "pb": 59541,
+     "credit": "© Tony Rebelo",
      "license": "CC BY-SA",
-     "src": "https://www.inaturalist.org/observations/10824683",
+     "src": "https://www.inaturalist.org/observations/11274413",
      "f": 1,
-     "page": 49
+     "page": 49,
+     "wide": 1
     },
     {
      "id": "plants-yellow-thatching-grass",
@@ -13808,12 +13803,13 @@ window.AGA_DATA = {
      "sci": "Cyperus papyrus",
      "group": "Water plants",
      "photo": "media/plants/papyrus.jpg",
-     "pb": 171488,
-     "credit": "© Tony Eales",
+     "pb": 100452,
+     "credit": "© Tony Rebelo",
      "license": "CC BY-SA",
-     "src": "https://www.inaturalist.org/observations/174644051",
+     "src": "https://www.inaturalist.org/observations/135842259",
      "f": 1,
-     "page": 48
+     "page": 48,
+     "wide": 1
     },
     {
      "id": "plants-snow-flake-flower",
@@ -13896,10 +13892,10 @@ window.AGA_DATA = {
      "sci": "Strychnos madagascariensis",
      "group": "Trees",
      "photo": "media/plants/black-monkey-orange.jpg",
-     "pb": 160024,
-     "credit": "prince_za",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/265172323"
+     "pb": 200903,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/89294025"
     },
     {
      "id": "plants-grey-camel-thorn",
@@ -13930,10 +13926,11 @@ window.AGA_DATA = {
      "sci": "Combretum zeyheri",
      "group": "Trees",
      "photo": "media/plants/large-fruited-bushwillow.jpg",
-     "pb": 268513,
-     "credit": "dune_ninja",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/193286205"
+     "pb": 76395,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/77548877",
+     "wide": 1
     },
     {
      "id": "plants-long-tail-cassia",
@@ -13941,10 +13938,11 @@ window.AGA_DATA = {
      "sci": "Cassia abbreviata",
      "group": "Trees",
      "photo": "media/plants/long-tail-cassia.jpg",
-     "pb": 49286,
-     "credit": "© Nic Knott-Craig",
-     "license": "CC BY-SA",
-     "src": "https://www.inaturalist.org/observations/68592118"
+     "pb": 60472,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/11017761",
+     "wide": 1
     },
     {
      "id": "plants-monkey-orange",
@@ -14008,10 +14006,11 @@ window.AGA_DATA = {
      "sci": "Combretum apiculatum",
      "group": "Trees",
      "photo": "media/plants/red-bushwillow.jpg",
-     "pb": 166291,
+     "pb": 33966,
      "credit": "© Tony Rebelo",
      "license": "CC BY-SA",
-     "src": "https://www.inaturalist.org/observations/284501842"
+     "src": "https://www.inaturalist.org/observations/135909948",
+     "wide": 1
     },
     {
      "id": "plants-silver-terminalia",
@@ -14077,10 +14076,10 @@ window.AGA_DATA = {
      "sci": "Baikiaea plurijuga",
      "group": "Trees",
      "photo": "media/plants/zambezi-teak.jpg",
-     "pb": 51501,
-     "credit": "danielvanderpost",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/30974648"
+     "pb": 111327,
+     "credit": "© Tom Riggle",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/150197856"
     },
     {
      "id": "plants-black-thorn",
@@ -14100,10 +14099,10 @@ window.AGA_DATA = {
      "sci": "Diospyros lycioides",
      "group": "Shrubs",
      "photo": "media/plants/bluebush.jpg",
-     "pb": 285981,
-     "credit": "© Murphy Tladi",
+     "pb": 146244,
+     "credit": "© Robert Taylor",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/296444675"
+     "src": "https://www.inaturalist.org/observations/29775917"
     },
     {
      "id": "plants-candle-pod-thorn",
@@ -14122,10 +14121,11 @@ window.AGA_DATA = {
      "sci": "Grewia retinervis",
      "group": "Shrubs",
      "photo": "media/plants/kalahari-sand-raisin.jpg",
-     "pb": 60188,
-     "credit": "rianafourie",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/210087489"
+     "pb": 105294,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/77548536",
+     "wide": 1
     },
     {
      "id": "plants-lavender-fever-berry",
@@ -14156,10 +14156,11 @@ window.AGA_DATA = {
      "sci": "Ehretia rigida",
      "group": "Shrubs",
      "photo": "media/plants/puzzle-bush.jpg",
-     "pb": 64023,
-     "credit": "© Matthew Fainman",
+     "pb": 51987,
+     "credit": "© Hildegard Klein",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/103480520"
+     "src": "https://www.inaturalist.org/observations/62547576",
+     "wide": 1
     },
     {
      "id": "plants-sandpaper-raisin",
@@ -14167,10 +14168,11 @@ window.AGA_DATA = {
      "sci": "Grewia flavescens",
      "group": "Shrubs",
      "photo": "media/plants/sandpaper-raisin.jpg",
-     "pb": 78491,
-     "credit": "rianafourie",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/204874953"
+     "pb": 92012,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/66776235",
+     "wide": 1
     },
     {
      "id": "plants-shaving-brush-combretum",
@@ -14200,10 +14202,10 @@ window.AGA_DATA = {
      "sci": "Grewia flava",
      "group": "Shrubs",
      "photo": "media/plants/velvet-raisin.jpg",
-     "pb": 86847,
-     "credit": "rianafourie",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/257488240"
+     "pb": 72936,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/101602910"
     },
     {
      "id": "plants-white-raisin",
@@ -14211,10 +14213,10 @@ window.AGA_DATA = {
      "sci": "Grewia bicolor",
      "group": "Shrubs",
      "photo": "media/plants/white-raisin.jpg",
-     "pb": 117891,
-     "credit": "rianafourie",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/322803096"
+     "pb": 57904,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/133928582"
     },
     {
      "id": "plants-bulrush",
@@ -14326,10 +14328,10 @@ window.AGA_DATA = {
      "sci": "Nymphaea lotus",
      "group": "Water plants",
      "photo": "media/plants/night-waterlily.jpg",
-     "pb": 38566,
-     "credit": "© Kobus Meyer",
+     "pb": 60168,
+     "credit": "© Robert Taylor",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/173955065"
+     "src": "https://www.inaturalist.org/observations/63250785"
     },
     {
      "id": "plants-water-chestnut",
@@ -14360,10 +14362,10 @@ window.AGA_DATA = {
      "sci": "Phoenix reclinata",
      "group": "Palms",
      "photo": "media/plants/wild-date-palm.jpg",
-     "pb": 102572,
-     "credit": "© Cricket Raspet",
+     "pb": 57580,
+     "credit": "© Christiaan Viljoen",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/107100181"
+     "src": "https://www.inaturalist.org/observations/135087431"
     },
     {
      "id": "plants-devil-s-claw",
@@ -14382,10 +14384,10 @@ window.AGA_DATA = {
      "sci": "Scadoxus multiflorus",
      "group": "Succulents and others",
      "photo": "media/plants/fireball-lily.jpg",
-     "pb": 116083,
-     "credit": "benkeen",
-     "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/192200743"
+     "pb": 146089,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/18826168"
     },
     {
      "id": "plants-flame-lily",
