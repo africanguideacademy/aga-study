@@ -2,7 +2,7 @@
    - App files (html/css/js/data): network first, so students always get the latest when online; cached copy when offline.
    - Photos and calls: served from the cache when downloaded; calls are only saved when the student taps "Download".
    - Audio is served with byte-range support, which iPhones need to play cached sound. */
-const SHELL = 'aga-shell-v4';
+const SHELL = 'aga-shell-v5';
 // v2: calls re-encoded smaller and frog calls trimmed (spoken names removed) - old downloads are discarded
 const MEDIA = 'aga-media-v2';
 const SHELL_FILES = ['./', 'index.html', 'styles.css', 'app.js', 'data.js', 'manifest.webmanifest',
@@ -17,7 +17,9 @@ self.addEventListener('install', event => {
     try {
       self.window = self;
       importScripts('data.js');
-      const photos = [...new Set(self.AGA_DATA.modules.flatMap(m => m.items.map(i => i.photo)).filter(Boolean))];
+      // bird and frog photos only; the larger species sets (mammals, plants...) are saved as they are viewed or from the Offline page
+      const photos = [...new Set(self.AGA_DATA.modules.flatMap(m => m.items.map(i => i.photo)).filter(Boolean))]
+        .filter(p => /^media\/(birds|prominent40|kwapa63|frogs)\//.test(p));
       const media = await caches.open(MEDIA);
       const have = new Set((await media.keys()).map(r => r.url));
       for (const p of photos) {
@@ -67,7 +69,7 @@ self.addEventListener('fetch', event => {
       if (hit) return rangeResponse(req, hit);
       const res = await fetch(req);
       // cache photos as they are seen; calls are only cached by the Download button
-      if (res.ok && res.status === 200 && url.pathname.includes('/media/birds/')) media.put(url.href, res.clone());
+      if (res.ok && res.status === 200 && /\.jpe?g$/i.test(url.pathname)) media.put(url.href, res.clone());
       return res;
     })());
     return;

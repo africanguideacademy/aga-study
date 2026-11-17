@@ -1,0 +1,767 @@
+[
+ {
+  "name": "Elephant",
+  "size": "Bulls about 3.2 m at the shoulder and 5,500–6,000 kg; cows about 2.4 m and 3,800–4,000 kg.",
+  "habitat": "Common in northern Botswana, e.g. Chobe, Linyanti and Okavango; woodland and savanna near water.",
+  "food": "Mixed feeder that grazes when grass is good; bulls eat about 170 kg of food and drink about 160 litres a day.",
+  "breeding": "One calf after 22 months' gestation, mostly in the rains; family herds of related cows.",
+  "titbit": "Many elephant calls are infrasound, too low for people to hear.",
+  "source": "both"
+ },
+ {
+  "name": "Black Rhino",
+  "size": "Shoulder height about 1.6 m; mass about 850–880 kg.",
+  "habitat": "Reintroduced to well-protected areas of Botswana; locations are kept confidential to protect them from poachers.",
+  "food": "Browser of shrubs and trees, using a pointed, grasping upper lip; seldom more than 15 km from water.",
+  "breeding": "One calf after about 15 months' gestation; the calf stays with its mother for 2–4 years.",
+  "titbit": "The calf runs behind its mother, but a white rhino calf runs in front.",
+  "source": "both"
+ },
+ {
+  "name": "White Rhino",
+  "size": "Bulls about 1.7 m and 2,000 kg; cows about 1.6 m and 1,600 kg.",
+  "habitat": "Reintroduced to well-protected areas of Botswana; locations are kept confidential to protect them from poachers.",
+  "food": "Grazer with a wide, square lip; drinks daily when it can, mostly between 17h00 and 21h00.",
+  "breeding": "One calf after 16 months' gestation; a territorial bull lives with several cows.",
+  "titbit": "Bulls mark their territory with dung middens and by spraying urine.",
+  "source": "both"
+ },
+ {
+  "name": "Hippopotamus",
+  "size": "Bulls about 1.5 m and 1,500 kg; cows about 1.4 m and 1,300 kg.",
+  "habitat": "Rivers, lagoons and deep pools of the Okavango, Linyanti and Chobe; grazes on land at night.",
+  "food": "Grazer that feeds mostly at night, eating about 40 kg of grass a night.",
+  "breeding": "One calf of 40–50 kg after only 8 months' gestation; only about 10% of bulls ever hold territory.",
+  "titbit": "Hippo seldom mock-charge; never get between a hippo and the water.",
+  "source": "both"
+ },
+ {
+  "name": "Bushpig",
+  "size": "Shoulder height about 70 cm; mass up to about 80 kg.",
+  "habitat": "Riverine forest, thick bush and reedbeds in northern Botswana; rarely seen.",
+  "food": "Omnivore; roots up bulbs, roots and fruit, and also eats insects and carrion.",
+  "breeding": "Litters of about 3–4 striped piglets, born in a grass nest in summer.",
+  "titbit": "Mainly active at night and very shy, so it is rarely seen even where common.",
+  "source": "general"
+ },
+ {
+  "name": "Common Warthog",
+  "size": "Shoulder height about 70 cm; boars up to about 100 kg, sows about 45–70 kg.",
+  "habitat": "Open grassland, floodplains and savanna across much of Botswana.",
+  "food": "Mainly a grazer; kneels to eat short grass and digs out roots with its snout.",
+  "breeding": "Usually 2–4 piglets, born in a burrow after about 5.5 months' gestation.",
+  "titbit": "It often reverses into its burrow so it can face danger with its tusks.",
+  "source": "general"
+ },
+ {
+  "name": "Giraffe",
+  "size": "Bulls about 3 m at the shoulder and 1,200 kg; cows about 2.7 m and 820 kg.",
+  "habitat": "Dry savanna and woodland across northern and central Botswana, including the Kalahari.",
+  "food": "Browser; uses a tongue over 40 cm long to strip leaves; also chews bones for calcium.",
+  "breeding": "One calf after 15 months; it drops about 2 m at birth and is hidden for 3 weeks.",
+  "titbit": "A giraffe's heart can weigh 11 kg, as much as a full-grown steenbok.",
+  "source": "both"
+ },
+ {
+  "name": "Plains Zebra",
+  "size": "Shoulder height about 1.3 m; stallions about 320 kg, mares about 260 kg.",
+  "habitat": "Grassland and open woodland near water; many move to the Makgadikgadi and Nxai Pan area in the rains.",
+  "food": "Bulk grazer that drinks daily; sometimes browses.",
+  "breeding": "One foal born about a year after mating; a family group is one stallion with his mares.",
+  "titbit": "If a herd member is caught, the herd may attack the predator with kicks and bites.",
+  "source": "both"
+ },
+ {
+  "name": "Buffalo",
+  "size": "Bulls about 1.45 m and 600 kg; cows about 1.4 m and 450 kg.",
+  "habitat": "Northern Botswana, especially the Okavango, Linyanti and Chobe; grassland and woodland near water.",
+  "food": "Ruminant grazer that drinks at least once a day; feeds early, late and on bright nights.",
+  "breeding": "Most mating in February; one calf of about 40 kg is born after 11 months.",
+  "titbit": "Old bulls that leave the herd and live together are called 'dagga boys'.",
+  "source": "both"
+ },
+ {
+  "name": "Blue Wildebeest",
+  "size": "Bulls about 1.4 m and 240 kg; cows about 1.25 m and 200 kg.",
+  "habitat": "Open grassland and savanna, e.g. Central Kalahari, Makgadikgadi and the Okavango.",
+  "food": "Ruminant grazer of short grass; must drink at least every second day.",
+  "breeding": "Mates in March–April; calves are born together in November–December after 8.5 months.",
+  "titbit": "Cordon fences in the 1960s and 70s caused Botswana to lose about 90% of its wildebeest.",
+  "source": "both"
+ },
+ {
+  "name": "Greater Kudu",
+  "size": "Bulls about 1.4 m and 230 kg; cows about 1.25 m and 150 kg.",
+  "habitat": "Woodland and thicket across most of Botswana, including the Kalahari.",
+  "food": "Browser of leaves and pods; does not need to drink; up to 40% of feeding is at night.",
+  "breeding": "Mates at the end of the rains; one calf is born around January after 9 months.",
+  "titbit": "A bull's horns make one full spiral by age 2 and about 2½ turns by age 6.",
+  "source": "both"
+ },
+ {
+  "name": "Impala",
+  "size": "Rams about 90 cm and 60 kg; ewes about 85 cm and 50 kg.",
+  "habitat": "Woodland edges near water in northern and eastern Botswana.",
+  "food": "Mixed feeder: grazes fresh grass and switches to browse when grass is poor.",
+  "breeding": "Rut around April; lambs are born together in a short burst in November.",
+  "titbit": "No ram can hold a territory for the whole 3-week rut, so several strong rams mate the ewes.",
+  "source": "both"
+ },
+ {
+  "name": "Oryx (Gemsbok)",
+  "size": "Shoulder height about 1.25 m; bulls about 240 kg, cows about 210 kg.",
+  "habitat": "Dry Kalahari grassland and dunes, e.g. Central Kalahari and Kgalagadi.",
+  "food": "Grazer that also digs for bulbs and tubers; does not need surface water.",
+  "breeding": "Mates at the end of the rains; calves are born with the next rains and hidden for a few weeks.",
+  "titbit": "Its body can heat up to 45 °C while special blood vessels keep the brain cool.",
+  "source": "both"
+ },
+ {
+  "name": "Red Lechwe",
+  "size": "Rams about 1 m and 115 kg; ewes about 90 cm and 70 kg.",
+  "habitat": "Floodplains and shallow water of the Okavango, Linyanti and Chobe.",
+  "food": "Grazer of floodplain grasses; drinks up to 3 times a day.",
+  "breeding": "One calf after 7.5 months, hidden for 3 weeks; Okavango rut peaks in March–April.",
+  "titbit": "Big hindquarters and splayed hooves help it run through shallow water and mud.",
+  "source": "both"
+ },
+ {
+  "name": "Springbok",
+  "size": "Shoulder height about 75 cm; mass about 30–45 kg.",
+  "habitat": "Dry open plains and pans of the Kalahari and Makgadikgadi.",
+  "food": "Mixed feeder of grass and browse; can live without drinking water.",
+  "breeding": "One lamb after about 6 months; most lambs are born in the rains.",
+  "titbit": "It 'pronks', leaping stiff-legged and opening a white crest of hair on its back.",
+  "source": "general"
+ },
+ {
+  "name": "Steenbok",
+  "size": "Shoulder height about 50 cm; mass about 11 kg.",
+  "habitat": "Open grassland and lightly wooded savanna throughout Botswana, including the Kalahari.",
+  "food": "Selective browser and grazer that also digs up roots; does not need to drink.",
+  "breeding": "One lamb after about 5.5 months, kept hidden in grass.",
+  "titbit": "It scrapes soil over its dung and urine to bury them.",
+  "source": "general"
+ },
+ {
+  "name": "Waterbuck",
+  "size": "Bulls about 1.5 m and 270 kg; cows about 1.1 m and 180 kg.",
+  "habitat": "Near rivers and floodplains in northern Botswana, e.g. the Chobe and Linyanti.",
+  "food": "Grazer of coarse, high-fibre grass; must stay close to water.",
+  "breeding": "One calf (twins not rare) after 9 months, hidden for 3–4 weeks.",
+  "titbit": "Its smell is said to put off predators, but there is no evidence and they are often killed.",
+  "source": "both"
+ },
+ {
+  "name": "African Wildcat",
+  "size": "Shoulder height about 35 cm; mass about 3–6 kg.",
+  "habitat": "Found throughout Botswana in most habitats, from the Kalahari to the Okavango.",
+  "food": "Mainly rodents and birds; also insects, small antelope and sometimes fruit.",
+  "breeding": "About 3 kittens after 2 months, often in old springhare or aardvark burrows.",
+  "titbit": "Breeding with house cats is a threat; pure wildcats have reddish backs to the ears.",
+  "source": "both"
+ },
+ {
+  "name": "Caracal",
+  "size": "Shoulder height about 45 cm; mass about 8–18 kg.",
+  "habitat": "Dry savanna, woodland and Kalahari scrub across Botswana.",
+  "food": "Stalk-and-pounce hunter of medium mammals and birds; males sometimes kill impala.",
+  "breeding": "About 2 kittens after 80 days; they stay with the mother for 10–12 months.",
+  "titbit": "It can leap high into the air to knock birds down.",
+  "source": "both"
+ },
+ {
+  "name": "Cheetah",
+  "size": "Shoulder height about 85–88 cm; males about 55 kg, females about 45 kg.",
+  "habitat": "Open savanna and grassland, e.g. the Kalahari, Makgadikgadi and Okavango floodplains.",
+  "food": "Chases down medium antelope like impala and springbok in a dash of under 300 m.",
+  "breeding": "About 4 cubs after 3 months' gestation; cubs stay with the mother for over a year.",
+  "titbit": "Fastest land mammal: over 100 km/h, and 0–100 km/h in about 3 seconds.",
+  "source": "both"
+ },
+ {
+  "name": "Leopard",
+  "size": "Males about 65 cm and 60 kg; females about 60 cm and 32 kg.",
+  "habitat": "Throughout Botswana, especially riverine forest, woodland and rocky areas.",
+  "food": "Most opportunistic cat: from squirrels and birds to kudu three times its weight.",
+  "breeding": "Usually 2 cubs after 3.5 months; cubs stay with the mother for at least a year.",
+  "titbit": "Its call is a harsh rasp, like someone sawing wood.",
+  "source": "both"
+ },
+ {
+  "name": "Lion",
+  "size": "Males about 1 m and 190 kg; females about 90 cm and 130 kg.",
+  "habitat": "Northern Botswana and the Kalahari, in savanna, woodland and floodplains.",
+  "food": "Mostly hunts at night, ambushing large prey such as buffalo and zebra; also scavenges.",
+  "breeding": "Usually 2–3 cubs after 3.5 months; cubs weigh about 1.5 kg at birth.",
+  "titbit": "A roar is over 110 decibels and can be heard at least 5 km away.",
+  "source": "both"
+ },
+ {
+  "name": "Serval",
+  "size": "Shoulder height about 55–60 cm; mass about 8–13 kg.",
+  "habitat": "Long grass and reedbeds near water, mainly the Okavango, Linyanti and Chobe.",
+  "food": "Stalk-and-pounce hunter of mainly rodents and birds.",
+  "breeding": "2–3 kittens after 70 days, mostly in late summer.",
+  "titbit": "Huge ears and long legs help it hunt in tall grass and swamps.",
+  "source": "both"
+ },
+ {
+  "name": "Brown Hyaena",
+  "size": "Shoulder height about 75–80 cm; mass about 40 kg.",
+  "habitat": "Dry Kalahari areas such as Central Kalahari and Makgadikgadi; needs no surface water.",
+  "food": "Mainly a scavenger; also eats insects and fruit, and steals kills from cheetah and leopard.",
+  "breeding": "Usually 2–3 cubs after 3 months; all clan members bring food to the den.",
+  "titbit": "It walks over 30 km a night looking for food; over 70 km has been recorded.",
+  "source": "both"
+ },
+ {
+  "name": "Spotted Hyaena",
+  "size": "Shoulder height about 80 cm; females (about 68 kg) are heavier than males (about 62 kg).",
+  "habitat": "Northern Botswana and the Kalahari, in savanna and woodland.",
+  "food": "Hunter and scavenger; an endurance runner that can keep up 50 km/h for 5 km.",
+  "breeding": "About 2 cubs after 3.5 months; cubs are born with teeth and suckle for up to 15 months.",
+  "titbit": "Clans are led by females, which are bigger and more dominant than males.",
+  "source": "both"
+ },
+ {
+  "name": "African Wild Dog",
+  "size": "Shoulder height about 65 cm; mass about 25 kg.",
+  "habitat": "Northern Botswana, mainly the Okavango, Linyanti and Chobe; savanna and woodland.",
+  "food": "Coursing hunter of medium antelope like impala; can run over 60 km/h for 2 km.",
+  "breeding": "Only the alpha pair breed; about 10 pups after 2.5 months, born in winter.",
+  "titbit": "Pups are allowed to feed first at a kill, before the adults.",
+  "source": "both"
+ },
+ {
+  "name": "Bat-eared Fox",
+  "size": "Shoulder height about 35 cm; mass about 3–5 kg.",
+  "habitat": "Open dry grassland and scrub, especially the Kalahari and Makgadikgadi.",
+  "food": "Mainly insects such as termites; also rodents, birds and fruit.",
+  "breeding": "About 5 pups born in a burrow, mostly around December; pairs share a territory.",
+  "titbit": "It has about 50 small teeth, more than any other African land mammal.",
+  "source": "both"
+ },
+ {
+  "name": "Black-backed Jackal",
+  "size": "Shoulder height about 38 cm; mass about 6–10 kg.",
+  "habitat": "Throughout Botswana, from the Kalahari to the Okavango, in open savanna.",
+  "food": "Omnivore: rodents, birds, insects, fruit and melons; scavenges at kills.",
+  "breeding": "About 5 pups (1–8) born in a den and raised by both parents.",
+  "titbit": "Each jackal's wailing night call is slightly different, so individuals can be told apart.",
+  "source": "both"
+ },
+ {
+  "name": "Honey Badger (Ratel)",
+  "size": "Shoulder height about 25–30 cm; mass about 8–14 kg.",
+  "habitat": "Found throughout Botswana in almost all habitats.",
+  "food": "Digs out rodents, reptiles and insects; also raids beehives and steals prey.",
+  "breeding": "Usually 2 young, born in a burrow, mostly in early summer.",
+  "titbit": "Loose skin lets it twist round and bite an attacker that is holding its neck.",
+  "source": "both"
+ },
+ {
+  "name": "Spotted-necked Otter",
+  "size": "Mass about 3–5 kg; about 1 m long including the tail.",
+  "habitat": "Clear, deep water of the Okavango and Chobe; rare elsewhere.",
+  "food": "Mainly small fish and crabs, caught in the water.",
+  "breeding": "About 2 pups, born in a hollow or crevice on land; no clear breeding season.",
+  "titbit": "Usually alone, but family groups of up to 5, and rarely 10, are seen.",
+  "source": "both"
+ },
+ {
+  "name": "Dwarf Mongoose",
+  "size": "Smallest African mongoose; mass about 200–350 g.",
+  "habitat": "Dry savanna woodland in northern and eastern Botswana, often living in old termite mounds.",
+  "food": "Mainly insects, plus lizards, small snakes, birds and rodents.",
+  "breeding": "Usually only the alpha pair breed; 2–3 pups are raised by the whole group.",
+  "titbit": "Lives in groups of up to 30, led by a dominant female.",
+  "source": "both"
+ },
+ {
+  "name": "Slender Mongoose",
+  "size": "Mass about 400–800 g; males bigger than females.",
+  "habitat": "Most of Botswana, in savanna and woodland.",
+  "food": "Mainly insects; also lizards, birds, eggs, snakes and some fruit.",
+  "breeding": "1–3 young after about 2 months, born in a sheltered spot.",
+  "titbit": "Best climber of the mongooses; birds often mob it when it raids nests.",
+  "source": "both"
+ },
+ {
+  "name": "Chacma Baboon",
+  "size": "Males about 30–40 kg; females about half that.",
+  "habitat": "Woodland near water and rocky hills, mainly northern and eastern Botswana.",
+  "food": "Mainly plants; sometimes eats birds and small mammals up to infant impala.",
+  "breeding": "One baby after about 6 months, at any time of year.",
+  "titbit": "Females stay in their birth troop for life, while males move between troops.",
+  "source": "both"
+ },
+ {
+  "name": "Southern Lesser Galago (Bushbaby)",
+  "size": "Tiny; mass about 150 g.",
+  "habitat": "Acacia and mopane woodland in northern and eastern Botswana.",
+  "food": "Gum from acacia trees, and insects such as moths.",
+  "breeding": "Usually 1–2 young, often twice a year.",
+  "titbit": "Huge eyes for seeing at night; it can leap several metres between branches.",
+  "source": "general"
+ },
+ {
+  "name": "Vervet Monkey",
+  "size": "Males about 5.5 kg; females about 4 kg.",
+  "habitat": "Riverine woodland of northern Botswana, e.g. the Okavango and Chobe.",
+  "food": "Mainly fruit, seeds and flowers; also insects, eggs and nestlings.",
+  "breeding": "One baby after about 160 days, at any time of year.",
+  "titbit": "Has different alarm calls for ground predators, birds of prey and pythons.",
+  "source": "both"
+ },
+ {
+  "name": "Savanna Hare",
+  "size": "",
+  "habitat": "Open grassland and savanna in Botswana.",
+  "food": "Mainly grass, eaten at night; re-eats its soft green droppings to digest it better.",
+  "breeding": "Peak breeding is December to March; about 2 young, cared for by the female.",
+  "titbit": "Re-eating its soft droppings lets it get vitamin B that would otherwise be lost.",
+  "source": "both"
+ },
+ {
+  "name": "Springhare",
+  "size": "Mass about 3 kg.",
+  "habitat": "Sandy soils across Botswana, especially the Kalahari.",
+  "food": "Grass, roots and seeds, eaten at night.",
+  "breeding": "Usually a single young, born in the burrow, several times a year.",
+  "titbit": "Not a hare but a rodent; it hops on its back legs like a small kangaroo.",
+  "source": "general"
+ },
+ {
+  "name": "Southern African Hedgehog",
+  "size": "Mass about 300–400 g.",
+  "habitat": "Dry grassland and scrub in parts of Botswana.",
+  "food": "Mainly insects, worms and other small invertebrates; also small reptiles and eggs.",
+  "breeding": "About 4 young (1–9) per litter, born in summer.",
+  "titbit": "Rolls into a tight ball of spines when threatened.",
+  "source": "general"
+ },
+ {
+  "name": "Aardvark",
+  "size": "Shoulder height about 60 cm; mass about 40–70 kg.",
+  "habitat": "Throughout Botswana wherever there are termites and soft or sandy soil.",
+  "food": "Ants and termites, dug out at night and licked up with a long sticky tongue.",
+  "breeding": "One young, born in a burrow after about 7 months.",
+  "titbit": "Its old burrows give homes to many animals, such as warthog, hyaena and porcupine.",
+  "source": "general"
+ },
+ {
+  "name": "Bushbuck",
+  "size": "Shoulder height about 80 cm; rams up to about 45 kg, ewes about 30 kg.",
+  "habitat": "Dense riverine bush, mainly along the Chobe and in the Okavango.",
+  "food": "Browser of leaves, shoots, flowers and fruit.",
+  "breeding": "One lamb after about 6 months, hidden in thick cover.",
+  "titbit": "Usually shy and alone, but a cornered ram can be very dangerous.",
+  "source": "general"
+ },
+ {
+  "name": "Common Duiker",
+  "size": "Shoulder height about 50 cm; mass about 15–20 kg.",
+  "habitat": "Wooded and bushy areas throughout Botswana, including the Kalahari.",
+  "food": "Browser of leaves, shoots, fruit and seeds; can live without drinking.",
+  "breeding": "One lamb after about 6–7 months; can breed all year.",
+  "titbit": "'Duiker' means 'diver' in Afrikaans: it dives into cover when it runs.",
+  "source": "general"
+ },
+ {
+  "name": "Common Eland",
+  "size": "Bulls up to about 1.7 m at the shoulder and 900 kg; cows smaller.",
+  "habitat": "Kalahari grassland and woodland, e.g. Central Kalahari; also parts of the north.",
+  "food": "Mainly a browser; also grazes and digs up roots; can go without drinking.",
+  "breeding": "One calf after about 9 months.",
+  "titbit": "The largest African antelope; bulls' knees make a clicking sound as they walk.",
+  "source": "general"
+ },
+ {
+  "name": "Klipspringer",
+  "size": "Shoulder height about 60 cm; mass about 10–13 kg.",
+  "habitat": "Rocky hills and koppies, e.g. Tsodilo Hills and eastern Botswana.",
+  "food": "Browser of leaves, flowers and fruit; seldom drinks.",
+  "breeding": "One lamb after about 7 months; lives in pairs.",
+  "titbit": "It stands on the tips of its hooves, which grip rock like rubber.",
+  "source": "general"
+ },
+ {
+  "name": "Puku",
+  "size": "Shoulder height about 80 cm; mass about 60–75 kg.",
+  "habitat": "In Botswana found almost only on the Chobe River floodplain; grassland near water.",
+  "food": "Grazer of floodplain grasses.",
+  "breeding": "One calf after about 8 months; males hold small territories.",
+  "titbit": "Looks like a lechwe but is more golden, with no black on the legs.",
+  "source": "general"
+ },
+ {
+  "name": "Red Hartebeest",
+  "size": "Shoulder height about 1.25 m; mass about 120–150 kg.",
+  "habitat": "Open grassland in the dry Kalahari, e.g. Central Kalahari and Kgalagadi.",
+  "food": "Grazer; can go without water when the grass is green.",
+  "breeding": "One calf after about 8 months.",
+  "titbit": "Its long face and high shoulders give it a sloping back.",
+  "source": "general"
+ },
+ {
+  "name": "Roan Antelope",
+  "size": "Shoulder height about 1.4 m; mass about 250–300 kg.",
+  "habitat": "Open woodland with tall grass in northern Botswana; rare.",
+  "food": "Grazer of medium to tall grass; drinks regularly.",
+  "breeding": "One calf after about 9 months, hidden for several weeks.",
+  "titbit": "Second-largest antelope in southern Africa, after the eland.",
+  "source": "general"
+ },
+ {
+  "name": "Sable Antelope",
+  "size": "Shoulder height about 1.35 m; mass about 230 kg.",
+  "habitat": "Mopane woodland next to open grassland in northern Botswana, e.g. Chobe and Linyanti.",
+  "food": "Grazer that drinks daily; also browses some leaves.",
+  "breeding": "One calf after about 8–9 months, hidden for several weeks.",
+  "titbit": "Bulls are glossy black with long, curved horns; cows are dark brown.",
+  "source": "general"
+ },
+ {
+  "name": "Sharpe's Grysbok",
+  "size": "Shoulder height about 50 cm; mass about 7.5 kg.",
+  "habitat": "Rare in Botswana; thick bush and rocky hills in the far north-east.",
+  "food": "Mainly a browser of leaves, shoots and fruit.",
+  "breeding": "",
+  "titbit": "Shy and active at night; white hairs in its red coat make it look grizzled.",
+  "source": "general"
+ },
+ {
+  "name": "Sitatunga",
+  "size": "Rams about 90 cm at the shoulder and up to about 115 kg; ewes smaller.",
+  "habitat": "Dense papyrus and reed swamps of the Okavango Delta and Linyanti.",
+  "food": "Browses papyrus, reeds and other water plants.",
+  "breeding": "One calf after about 7.5 months, hidden on a platform of trampled reeds.",
+  "titbit": "Very long, splayed hooves stop it sinking; it can hide in water with only its nose out.",
+  "source": "general"
+ },
+ {
+  "name": "Southern Reedbuck",
+  "size": "Shoulder height about 90 cm; mass about 50–80 kg.",
+  "habitat": "Tall grass and reedbeds near water in the Okavango, Linyanti and Chobe.",
+  "food": "Grazer of grass and reed shoots; drinks regularly.",
+  "breeding": "One lamb after about 7.5 months, hidden in long grass.",
+  "titbit": "Gives a shrill whistle in alarm and runs with a rocking gait.",
+  "source": "general"
+ },
+ {
+  "name": "Tsessebe",
+  "size": "Shoulder height about 1.2 m; mass about 120–140 kg.",
+  "habitat": "Open floodplains and grassland edges in the Okavango, Linyanti and Chobe.",
+  "food": "Grazer of fresh green grass; drinks regularly.",
+  "breeding": "One calf after about 8 months, born in early summer.",
+  "titbit": "One of the fastest antelope; bulls often stand on termite mounds as lookouts.",
+  "source": "general"
+ },
+ {
+  "name": "Black-footed Cat",
+  "size": "Africa's smallest cat; mass about 1–2 kg.",
+  "habitat": "Dry open grassland and scrub in the south-western Kalahari.",
+  "food": "Hunts small rodents, birds and insects at night.",
+  "breeding": "1–3 kittens after about 2 months, often in old burrows.",
+  "titbit": "The hair under its feet is black, which gives it its name.",
+  "source": "general"
+ },
+ {
+  "name": "Aardwolf",
+  "size": "Shoulder height about 50 cm; mass about 8–10 kg.",
+  "habitat": "Open grassland and dry savanna across Botswana, including the Kalahari.",
+  "food": "Almost only harvester termites, licked off the ground at night.",
+  "breeding": "2–4 cubs born in a burrow in early summer.",
+  "titbit": "It can lick up more than 200,000 termites in one night.",
+  "source": "general"
+ },
+ {
+  "name": "Cape Fox",
+  "size": "Shoulder height about 35 cm; mass about 2.5–3 kg.",
+  "habitat": "Dry open country of central and southern Botswana, e.g. the Kalahari.",
+  "food": "Mainly insects and small rodents; also birds, reptiles and fruit.",
+  "breeding": "About 3–5 cubs born in a burrow.",
+  "titbit": "Southern Africa's only true fox, with a silver-grey back and a bushy tail.",
+  "source": "general"
+ },
+ {
+  "name": "Side-striped Jackal",
+  "size": "Shoulder height about 40 cm; mass about 8–12 kg.",
+  "habitat": "Moister woodland and floodplains of northern Botswana, e.g. the Okavango and Chobe.",
+  "food": "Omnivore: rodents, insects, fruit and carrion.",
+  "breeding": "Litter of about 4–6 pups, born in a burrow.",
+  "titbit": "Its tail usually has a white tip; the black-backed jackal's tail tip is black.",
+  "source": "general"
+ },
+ {
+  "name": "Cape Clawless Otter",
+  "size": "Mass about 10–18 kg; about 1.3 m long including the tail.",
+  "habitat": "Rivers and lagoons of the Okavango, Linyanti and Chobe.",
+  "food": "Mainly crabs, frogs and fish, found with its sensitive hands.",
+  "breeding": "Usually 2 cubs, born in a burrow or dense cover.",
+  "titbit": "It has no claws on its front feet and feels for food with its 'fingers'.",
+  "source": "general"
+ },
+ {
+  "name": "Striped Polecat",
+  "size": "Mass about 1 kg.",
+  "habitat": "Found throughout Botswana in most habitats.",
+  "food": "Insects, mice and other small animals, hunted at night.",
+  "breeding": "1–3 young born in a burrow in summer.",
+  "titbit": "It can squirt a foul-smelling fluid from glands under its tail.",
+  "source": "general"
+ },
+ {
+  "name": "African Civet",
+  "size": "Shoulder height about 40 cm; mass about 10–15 kg.",
+  "habitat": "Woodland and riverine bush with cover and water, mainly in northern Botswana.",
+  "food": "Omnivore: insects, rodents, fruit, frogs and carrion.",
+  "breeding": "1–4 young born in a burrow or dense cover.",
+  "titbit": "It uses the same dung latrines (civetries) again and again.",
+  "source": "general"
+ },
+ {
+  "name": "Large-spotted Genet",
+  "size": "Mass about 1.5–2 kg.",
+  "habitat": "Moister woodland and riverine forest, mainly in northern Botswana.",
+  "food": "Rodents, insects, birds, reptiles and fruit, hunted at night.",
+  "breeding": "2–5 kittens born in a hole or hollow tree.",
+  "titbit": "Its tail has a black tip, unlike the white tail tip of the small-spotted genet.",
+  "source": "general"
+ },
+ {
+  "name": "Small-spotted Genet",
+  "size": "Mass about 1.5–2 kg.",
+  "habitat": "Drier savanna and Kalahari scrub across most of Botswana.",
+  "food": "Rodents, insects, birds, reptiles and fruit, hunted at night.",
+  "breeding": "2–4 kittens born in a hole or old burrow.",
+  "titbit": "Has a white tail tip and a crest of dark hair along its back.",
+  "source": "general"
+ },
+ {
+  "name": "Banded Mongoose",
+  "size": "Mass about 1–1.5 kg.",
+  "habitat": "Savanna woodland near water in northern Botswana.",
+  "food": "Insects and beetle larvae; also small reptiles, eggs and fruit.",
+  "breeding": "Several females in a group breed at once; pups are raised by the whole pack.",
+  "titbit": "Lives in noisy groups of 10–30 that will mob predators together.",
+  "source": "general"
+ },
+ {
+  "name": "Large Grey Mongoose",
+  "size": "Mass about 3 kg; one of the largest mongooses.",
+  "habitat": "Reedbeds and long grass near water, mainly in the Okavango and Chobe.",
+  "food": "Rodents, reptiles, birds, frogs, insects and fruit.",
+  "breeding": "2–4 young born in a burrow or thick cover.",
+  "titbit": "Active by day; its long tail ends in a black tuft.",
+  "source": "general"
+ },
+ {
+  "name": "Meerkat (Suricate)",
+  "size": "Mass about 600–900 g.",
+  "habitat": "Open dry country of the Kalahari and Makgadikgadi.",
+  "food": "Insects, scorpions, spiders, lizards and other small animals.",
+  "breeding": "Usually only the dominant pair breed; 2–5 young are cared for by the group.",
+  "titbit": "Group members take turns as sentries on high spots, giving alarm calls.",
+  "source": "general"
+ },
+ {
+  "name": "Selous' Mongoose",
+  "size": "Mass about 1.5–2 kg.",
+  "habitat": "Sandy grassland and open woodland in Botswana.",
+  "food": "Mainly insects and larvae; also small rodents and reptiles.",
+  "breeding": "",
+  "titbit": "Active at night, with a white-tipped tail; easily confused with the white-tailed mongoose.",
+  "source": "general"
+ },
+ {
+  "name": "Water Mongoose",
+  "size": "Mass about 3–4 kg.",
+  "habitat": "Reedbeds, rivers and marsh in the Okavango, Linyanti and Chobe.",
+  "food": "Crabs, frogs, fish and other water animals.",
+  "breeding": "2–3 young born in a burrow or in reedbeds.",
+  "titbit": "Dark brown and shaggy; leaves piles of crab shells where it feeds.",
+  "source": "general"
+ },
+ {
+  "name": "White-tailed Mongoose",
+  "size": "Mass about 3.5–5 kg; one of the largest mongooses.",
+  "habitat": "Savanna woodland in northern and eastern Botswana.",
+  "food": "Mainly insects; also rodents, frogs and reptiles, hunted at night.",
+  "breeding": "1–4 young born in a burrow.",
+  "titbit": "Its long, bushy tail is mostly white and easy to see in a spotlight.",
+  "source": "general"
+ },
+ {
+  "name": "Yellow Mongoose",
+  "size": "Mass about 0.5–0.8 kg.",
+  "habitat": "Open grassland and dry Kalahari areas.",
+  "food": "Mainly insects; also rodents, birds and reptiles.",
+  "breeding": "2–4 young born in a burrow.",
+  "titbit": "Often shares burrows with meerkats and ground squirrels.",
+  "source": "general"
+ },
+ {
+  "name": "Scrub Hare",
+  "size": "Mass about 1.5–4.5 kg.",
+  "habitat": "Bush and grassland with cover throughout most of Botswana.",
+  "food": "Grass, especially fresh green shoots, eaten at night.",
+  "breeding": "1–3 young born in a shallow scrape (form) in the grass.",
+  "titbit": "Young hares are born furred with eyes open, unlike rabbits.",
+  "source": "general"
+ },
+ {
+  "name": "Bushveld Gerbil",
+  "size": "Mass about 70 g.",
+  "habitat": "Sandy soils in savanna, widespread in Botswana.",
+  "food": "Seeds, plants and insects.",
+  "breeding": "",
+  "titbit": "Active at night and lives in burrows dug in sandy soil.",
+  "source": "general"
+ },
+ {
+  "name": "Cape Porcupine",
+  "size": "Africa's largest rodent; mass about 10–24 kg.",
+  "habitat": "Found throughout Botswana wherever there is shelter.",
+  "food": "Bulbs, roots, tubers, bark and fallen fruit; also gnaws bones.",
+  "breeding": "1–4 young after about 3 months, born with soft quills.",
+  "titbit": "It cannot shoot its quills; it runs backwards into an attacker.",
+  "source": "general"
+ },
+ {
+  "name": "Four-striped Grass Mouse",
+  "size": "Mass about 40 g.",
+  "habitat": "Grassland with good ground cover.",
+  "food": "Seeds, plants and insects.",
+  "breeding": "Litters of about 5 young, mostly in summer.",
+  "titbit": "Active by day, unlike most mice; has four dark stripes down its back.",
+  "source": "general"
+ },
+ {
+  "name": "Greater Cane Rat",
+  "size": "Mass about 3–5 kg.",
+  "habitat": "Reedbeds and tall grass near water in the Okavango and Chobe.",
+  "food": "Grass and reed stems.",
+  "breeding": "About 2–4 young, born well developed.",
+  "titbit": "Not a true rat; its meat is a popular food in parts of Africa.",
+  "source": "general"
+ },
+ {
+  "name": "Ground Squirrel",
+  "size": "Mass about 600 g.",
+  "habitat": "Dry open country with hard soils, e.g. the Kalahari and pans.",
+  "food": "Grass, roots, bulbs, seeds and insects.",
+  "breeding": "1–3 young born in the burrow.",
+  "titbit": "It uses its bushy tail as a sunshade while it feeds.",
+  "source": "general"
+ },
+ {
+  "name": "Tree Squirrel",
+  "size": "Mass about 200 g.",
+  "habitat": "Mopane and acacia woodland in northern and eastern Botswana.",
+  "food": "Seeds, flowers, leaves, fruit and insects.",
+  "breeding": "1–3 young born in a tree hole lined with leaves.",
+  "titbit": "Groups mob snakes and raptors with loud clicking alarm calls.",
+  "source": "general"
+ },
+ {
+  "name": "Bushveld Sengi",
+  "size": "",
+  "habitat": "Sandy Kalahari scrub and grassland in Botswana.",
+  "food": "Insects, especially ants and termites.",
+  "breeding": "1–2 well-developed young.",
+  "titbit": "Sengis are more closely related to elephants than to shrews.",
+  "source": "general"
+ },
+ {
+  "name": "Four-toed Sengi",
+  "size": "Mass about 200 g; one of the larger sengis.",
+  "habitat": "Dense riverine thicket and forest in far northern Botswana.",
+  "food": "Insects such as ants, termites and beetles.",
+  "breeding": "Usually 1 well-developed young.",
+  "titbit": "It drums its back feet on the ground when alarmed.",
+  "source": "general"
+ },
+ {
+  "name": "Egyptian Slit-faced Bat",
+  "size": "Mass about 10 g.",
+  "habitat": "Savanna; roosts in caves, hollow trees, aardvark burrows and buildings.",
+  "food": "Insects and spiders, often picked off the ground or leaves.",
+  "breeding": "One young per year, born in summer.",
+  "titbit": "Has very long ears and a slit down the middle of its face.",
+  "source": "general"
+ },
+ {
+  "name": "Little Free-tailed Bat",
+  "size": "Mass about 10 g.",
+  "habitat": "Roosts in roofs of buildings and in trees, especially in northern Botswana.",
+  "food": "Flying insects, caught in fast flight in the open.",
+  "breeding": "",
+  "titbit": "Its tail sticks out past the wing membrane, which gives the name 'free-tailed'.",
+  "source": "general"
+ },
+ {
+  "name": "Mauritian Tomb Bat",
+  "size": "Mass about 30 g.",
+  "habitat": "Roosts on tree trunks and walls, often in the open, near water.",
+  "food": "Flying insects caught in the air.",
+  "breeding": "One young, born in summer.",
+  "titbit": "Often seen in daylight clinging flat to a tree trunk or wall, scuttling sideways if disturbed.",
+  "source": "general"
+ },
+ {
+  "name": "Sundevall's Leaf-nosed Bat",
+  "size": "Mass about 8 g.",
+  "habitat": "Roosts in caves, hollow trees and old mines in savanna woodland.",
+  "food": "Small flying insects, especially moths.",
+  "breeding": "One young per year.",
+  "titbit": "A leaf-shaped fold of skin around the nose helps aim its echolocation calls.",
+  "source": "general"
+ },
+ {
+  "name": "Wahlberg's Epauletted Fruit Bat",
+  "size": "Mass about 80–120 g.",
+  "habitat": "Riverine trees and gardens in northern Botswana where fruit trees grow.",
+  "food": "Ripe fruit, nectar and flowers, especially wild figs.",
+  "breeding": "One young, carried by the mother.",
+  "titbit": "Males have white shoulder tufts (epaulettes) and a ringing call at night.",
+  "source": "general"
+ },
+ {
+  "name": "Yellow-bellied House Bat",
+  "size": "Mass about 25 g.",
+  "habitat": "Roosts in roofs and hollow trees, common in northern Botswana.",
+  "food": "Flying insects such as beetles and moths.",
+  "breeding": "Usually twins, born in summer.",
+  "titbit": "Often roosts in lodge roofs; its belly is yellowish.",
+  "source": "general"
+ },
+ {
+  "name": "Ground Pangolin",
+  "size": "Mass about 5–15 kg.",
+  "habitat": "Savanna and woodland across most of Botswana; rarely seen.",
+  "food": "Only ants and termites, licked up with a long sticky tongue.",
+  "breeding": "A single young, which rides on its mother's tail.",
+  "titbit": "Covered in scales, it rolls into a ball when threatened; it is heavily poached.",
+  "source": "general"
+ },
+ {
+  "name": "Rock Hyrax",
+  "size": "Mass about 2.5–4.5 kg.",
+  "habitat": "Rocky hills and koppies, mainly in eastern Botswana.",
+  "food": "Grass and leaves; feeds in groups, often after sunning itself in the morning.",
+  "breeding": "2–3 young after about 7 months, born well developed.",
+  "titbit": "Its closest living relatives include elephants and dugongs.",
+  "source": "general"
+ },
+ {
+  "name": "Yellow-spotted Rock Hyrax",
+  "size": "Mass about 2–3 kg.",
+  "habitat": "Rocky hills, mainly in eastern Botswana, often with the rock hyrax.",
+  "food": "Mainly browses leaves of trees and shrubs.",
+  "breeding": "1–3 young, born well developed.",
+  "titbit": "A pale yellowish spot on its back marks a scent gland.",
+  "source": "general"
+ }
+]

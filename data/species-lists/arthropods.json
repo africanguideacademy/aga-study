@@ -1,0 +1,478 @@
+[
+  {
+    "name": "Fish moth (silverfish)",
+    "sci": "Lepismatidae",
+    "group": "Other insects",
+    "manual": true,
+    "page": 51
+  },
+  {
+    "name": "Mayfly",
+    "sci": "Ephemeroptera",
+    "group": "Other insects",
+    "manual": true,
+    "page": 51
+  },
+  {
+    "name": "Praying mantis (Mantodea)",
+    "sci": "Mantodea",
+    "group": "Other insects",
+    "manual": true,
+    "page": 54
+  },
+  {
+    "name": "Antlion (Myrmeleontidae)",
+    "sci": "Myrmeleontidae",
+    "group": "Other insects",
+    "manual": true,
+    "page": 55
+  },
+  {
+    "name": "Lacewing (Chrysopidae)",
+    "sci": "Chrysopidae",
+    "group": "Other insects",
+    "manual": true,
+    "page": 55
+  },
+  {
+    "name": "Damselfly",
+    "sci": "Zygoptera",
+    "group": "Dragonflies and damselflies",
+    "manual": true,
+    "page": 51
+  },
+  {
+    "name": "Dragonfly",
+    "sci": "Anisoptera",
+    "group": "Dragonflies and damselflies",
+    "manual": true,
+    "page": 51
+  },
+  {
+    "name": "Aphid",
+    "sci": "Aphididae",
+    "group": "Bugs and cicadas",
+    "manual": true,
+    "page": 51
+  },
+  {
+    "name": "Cicada (Cicadidae)",
+    "sci": "Cicadidae",
+    "group": "Bugs and cicadas",
+    "manual": true,
+    "page": 54
+  },
+  {
+    "name": "Horn-borer moth",
+    "sci": "Ceratophaga vastellus",
+    "group": "Butterflies and moths",
+    "manual": true,
+    "page": 52
+  },
+  {
+    "name": "African diadem",
+    "sci": "Hypolimnas misippus",
+    "group": "Butterflies and moths",
+    "manual": true,
+    "page": 58
+  },
+  {
+    "name": "African monarch",
+    "sci": "Danaus chrysippus",
+    "group": "Butterflies and moths",
+    "manual": true,
+    "page": 58
+  },
+  {
+    "name": "Brown-veined white",
+    "sci": "Belenois aurota",
+    "group": "Butterflies and moths",
+    "manual": true,
+    "page": 58
+  },
+  {
+    "name": "Mopane moth (mopane worm)",
+    "sci": "Gonimbrasia belina",
+    "group": "Butterflies and moths",
+    "manual": true,
+    "page": 58
+  },
+  {
+    "name": "Large fungus-growing termite (Macrotermes)",
+    "sci": "Macrotermes",
+    "group": "Termites",
+    "manual": true,
+    "page": 53
+  },
+  {
+    "name": "Harvester termite",
+    "sci": "Hodotermes mossambicus",
+    "group": "Termites",
+    "manual": true,
+    "page": 54
+  },
+  {
+    "name": "Fireflies and glow-worms (Lampyridae)",
+    "sci": "Lampyridae",
+    "group": "Beetles",
+    "manual": true,
+    "page": 55
+  },
+  {
+    "name": "Dung beetle (Scarabaeinae)",
+    "sci": "Scarabaeinae",
+    "group": "Beetles",
+    "manual": true,
+    "page": 56
+  },
+  {
+    "name": "Plum-coloured dung beetle",
+    "sci": "Chalconotus convexus",
+    "group": "Beetles",
+    "manual": true,
+    "page": 56
+  },
+  {
+    "name": "Malaria mosquito (Anopheles)",
+    "sci": "Anopheles",
+    "group": "Flies and mosquitoes",
+    "manual": true,
+    "page": 56
+  },
+  {
+    "name": "Midge (Chironomidae)",
+    "sci": "Chironomidae",
+    "group": "Flies and mosquitoes",
+    "manual": true,
+    "page": 56
+  },
+  {
+    "name": "Mosquito (Culicidae)",
+    "sci": "Culicidae",
+    "group": "Flies and mosquitoes",
+    "manual": true,
+    "page": 56
+  },
+  {
+    "name": "Tsetse fly (Glossina)",
+    "sci": "Glossina",
+    "group": "Flies and mosquitoes",
+    "manual": true,
+    "page": 57
+  },
+  {
+    "name": "Ant (Formicidae)",
+    "sci": "Formicidae",
+    "group": "Ants, bees and wasps",
+    "manual": true,
+    "page": 59
+  },
+  {
+    "name": "Spider-hunting wasp",
+    "sci": "Batozonellus fuliginosus",
+    "group": "Ants, bees and wasps",
+    "manual": true,
+    "page": 59
+  },
+  {
+    "name": "Sugar ant (Camponotus)",
+    "sci": "Camponotus",
+    "group": "Ants, bees and wasps",
+    "manual": true,
+    "page": 59
+  },
+  {
+    "name": "Sycamore fig wasp",
+    "sci": "Ceratosolen arabicus",
+    "group": "Ants, bees and wasps",
+    "manual": true,
+    "page": 59
+  },
+  {
+    "name": "Honey bee (African bee)",
+    "sci": "Apis mellifera",
+    "group": "Ants, bees and wasps",
+    "manual": true,
+    "page": 60
+  },
+  {
+    "name": "Paper wasp (Polistinae)",
+    "sci": "Polistinae",
+    "group": "Ants, bees and wasps",
+    "manual": true,
+    "page": 60
+  },
+  {
+    "name": "Baboon spider (Theraphosidae)",
+    "sci": "Theraphosidae",
+    "group": "Spiders",
+    "manual": true,
+    "page": 63
+  },
+  {
+    "name": "Rear-horned baboon spider",
+    "sci": "Ceratogyrus darlingi",
+    "group": "Spiders",
+    "manual": true,
+    "page": 63
+  },
+  {
+    "name": "Horned baboon spider (Ceratogyrus)",
+    "sci": "Ceratogyrus",
+    "group": "Spiders",
+    "manual": true,
+    "page": 64
+  },
+  {
+    "name": "Sac spider (Cheiracanthium)",
+    "sci": "Cheiracanthium",
+    "group": "Spiders",
+    "manual": true,
+    "page": 64
+  },
+  {
+    "name": "Six-eyed crab spider (six-eyed sand spider)",
+    "sci": "Hexophthalma hahni",
+    "group": "Spiders",
+    "manual": true,
+    "page": 64
+  },
+  {
+    "name": "Violin spider (Loxosceles)",
+    "sci": "Loxosceles",
+    "group": "Spiders",
+    "manual": true,
+    "page": 64
+  },
+  {
+    "name": "Black widow (black button spider)",
+    "sci": "Latrodectus renivulvatus",
+    "group": "Spiders",
+    "manual": true,
+    "page": 65
+  },
+  {
+    "name": "Brown widow (brown button spider)",
+    "sci": "Latrodectus geometricus",
+    "group": "Spiders",
+    "manual": true,
+    "page": 65
+  },
+  {
+    "name": "Community web spider (social spider)",
+    "sci": "Stegodyphus dumicola",
+    "group": "Spiders",
+    "manual": true,
+    "page": 65
+  },
+  {
+    "name": "Bark scorpion (Uroplectes)",
+    "sci": "Uroplectes",
+    "group": "Scorpions",
+    "manual": true,
+    "page": 67
+  },
+  {
+    "name": "Burrowing scorpion (Opistophthalmus)",
+    "sci": "Opistophthalmus",
+    "group": "Scorpions",
+    "manual": true,
+    "page": 67
+  },
+  {
+    "name": "Kalahari burrowing scorpion",
+    "sci": "Opistophthalmus wahlbergii",
+    "group": "Scorpions",
+    "manual": true,
+    "page": 67
+  },
+  {
+    "name": "Radiant burrowing scorpion",
+    "sci": "Opistophthalmus carinatus",
+    "group": "Scorpions",
+    "manual": true,
+    "page": 67
+  },
+  {
+    "name": "Thick-tailed scorpion (Parabuthus)",
+    "sci": "Parabuthus",
+    "group": "Scorpions",
+    "manual": true,
+    "page": 67
+  },
+  {
+    "name": "Granulated thick-tailed scorpion",
+    "sci": "Parabuthus granulatus",
+    "group": "Scorpions",
+    "manual": true,
+    "page": 68
+  },
+  {
+    "name": "Kalahari thick-tailed scorpion",
+    "sci": "Parabuthus raudus",
+    "group": "Scorpions",
+    "manual": true,
+    "page": 68
+  },
+  {
+    "name": "Transvaal thick-tailed scorpion",
+    "sci": "Parabuthus transvaalicus",
+    "group": "Scorpions",
+    "manual": true,
+    "page": 68
+  },
+  {
+    "name": "Solifuge (red roman, sun spider)",
+    "sci": "Solifugae",
+    "group": "Solifuges",
+    "manual": true,
+    "page": 69
+  },
+  {
+    "name": "Velvet mite",
+    "sci": "Trombidiidae",
+    "group": "Ticks and mites",
+    "manual": true,
+    "page": 69
+  },
+  {
+    "name": "Hard tick (Ixodidae)",
+    "sci": "Ixodidae",
+    "group": "Ticks and mites",
+    "manual": true,
+    "page": 70
+  },
+  {
+    "name": "Soft tick / tampan (Argasidae)",
+    "sci": "Argasidae",
+    "group": "Ticks and mites",
+    "manual": true,
+    "page": 70
+  },
+  {
+    "name": "African giant centipede",
+    "sci": "Ethmostigmus trigonopodus",
+    "group": "Centipedes and millipedes",
+    "manual": true,
+    "page": 70
+  },
+  {
+    "name": "Red-headed centipede",
+    "sci": "Scolopendra morsitans",
+    "group": "Centipedes and millipedes",
+    "manual": true,
+    "page": 70
+  },
+  {
+    "name": "Giant millipede (Spirostreptidae)",
+    "sci": "Spirostreptidae",
+    "group": "Centipedes and millipedes",
+    "manual": true,
+    "page": 71
+  },
+  {
+    "name": "African migrant",
+    "sci": "Catopsilia florella",
+    "group": "Butterflies and moths",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Citrus swallowtail",
+    "sci": "Papilio demodocus",
+    "group": "Butterflies and moths",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Death's-head hawkmoth",
+    "sci": "Acherontia atropos",
+    "group": "Butterflies and moths",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Guineafowl butterfly",
+    "sci": "Hamanumida daedalus",
+    "group": "Butterflies and moths",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Yellow pansy",
+    "sci": "Junonia hierta",
+    "group": "Butterflies and moths",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Snouted harvester termite",
+    "sci": "Trinervitermes",
+    "group": "Termites",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Ball-rolling dung beetle (Scarabaeus)",
+    "sci": "Scarabaeus",
+    "group": "Beetles",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "CMR beetle (blister beetle)",
+    "sci": "Hycleus oculatus",
+    "group": "Beetles",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Tok-tokkie (darkling beetle, Tenebrionidae)",
+    "sci": "Tenebrionidae",
+    "group": "Beetles",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Two-spotted ground beetle (Anthia)",
+    "sci": "Anthia",
+    "group": "Beetles",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Carpenter bee (Xylocopa)",
+    "sci": "Xylocopa",
+    "group": "Ants, bees and wasps",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Matabele ant",
+    "sci": "Megaponera analis",
+    "group": "Ants, bees and wasps",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Golden orb-web spider",
+    "sci": "Trichonephila senegalensis",
+    "group": "Spiders",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Bont tick",
+    "sci": "Amblyomma hebraeum",
+    "group": "Ticks and mites",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Armoured ground cricket (koringkriek)",
+    "sci": "Acanthoplus discoidalis",
+    "group": "Grasshoppers and crickets",
+    "manual": false,
+    "page": null
+  }
+]

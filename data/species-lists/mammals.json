@@ -1,0 +1,597 @@
+[
+  {
+    "name": "Elephant",
+    "sci": "Loxodonta africana",
+    "group": "Elephant",
+    "manual": true,
+    "page": 110
+  },
+  {
+    "name": "Black Rhino",
+    "sci": "Diceros bicornis",
+    "group": "Rhinos",
+    "manual": true,
+    "page": 111
+  },
+  {
+    "name": "White Rhino",
+    "sci": "Ceratotherium simum",
+    "group": "Rhinos",
+    "manual": true,
+    "page": 112
+  },
+  {
+    "name": "Hippopotamus",
+    "sci": "Hippopotamus amphibius",
+    "group": "Hippo",
+    "manual": true,
+    "page": 112
+  },
+  {
+    "name": "Bushpig",
+    "sci": "Potamochoerus larvatus",
+    "group": "Pigs",
+    "manual": true,
+    "page": 109
+  },
+  {
+    "name": "Common Warthog",
+    "sci": "Phacochoerus africanus",
+    "group": "Pigs",
+    "manual": true,
+    "page": 109
+  },
+  {
+    "name": "Giraffe",
+    "sci": "Giraffa camelopardalis",
+    "group": "Giraffe",
+    "manual": true,
+    "page": 118
+  },
+  {
+    "name": "Plains Zebra",
+    "sci": "Equus quagga",
+    "group": "Zebra",
+    "manual": true,
+    "page": 118
+  },
+  {
+    "name": "Buffalo",
+    "sci": "Syncerus caffer",
+    "group": "Buffalo",
+    "manual": true,
+    "page": 113
+  },
+  {
+    "name": "Blue Wildebeest",
+    "sci": "Connochaetes taurinus",
+    "group": "Antelope",
+    "manual": true,
+    "page": 119
+  },
+  {
+    "name": "Greater Kudu",
+    "sci": "Tragelaphus strepsiceros",
+    "group": "Antelope",
+    "manual": true,
+    "page": 121
+  },
+  {
+    "name": "Impala",
+    "sci": "Aepyceros melampus",
+    "group": "Antelope",
+    "manual": true,
+    "page": 121
+  },
+  {
+    "name": "Oryx (Gemsbok)",
+    "sci": "Oryx gazella",
+    "group": "Antelope",
+    "manual": true,
+    "page": 119
+  },
+  {
+    "name": "Red Lechwe",
+    "sci": "Kobus leche",
+    "group": "Antelope",
+    "manual": true,
+    "page": 120
+  },
+  {
+    "name": "Springbok",
+    "sci": "Antidorcas marsupialis",
+    "group": "Antelope",
+    "manual": true,
+    "page": 121
+  },
+  {
+    "name": "Steenbok",
+    "sci": "Raphicerus campestris",
+    "group": "Antelope",
+    "manual": true,
+    "page": 118
+  },
+  {
+    "name": "Waterbuck",
+    "sci": "Kobus ellipsiprymnus",
+    "group": "Antelope",
+    "manual": true,
+    "page": 120
+  },
+  {
+    "name": "African Wildcat",
+    "sci": "Felis lybica",
+    "group": "Cats",
+    "manual": true,
+    "page": 122
+  },
+  {
+    "name": "Caracal",
+    "sci": "Caracal caracal",
+    "group": "Cats",
+    "manual": true,
+    "page": 121
+  },
+  {
+    "name": "Cheetah",
+    "sci": "Acinonyx jubatus",
+    "group": "Cats",
+    "manual": true,
+    "page": 115
+  },
+  {
+    "name": "Leopard",
+    "sci": "Panthera pardus",
+    "group": "Cats",
+    "manual": true,
+    "page": 114
+  },
+  {
+    "name": "Lion",
+    "sci": "Panthera leo",
+    "group": "Cats",
+    "manual": true,
+    "page": 113
+  },
+  {
+    "name": "Serval",
+    "sci": "Leptailurus serval",
+    "group": "Cats",
+    "manual": true,
+    "page": 122
+  },
+  {
+    "name": "Brown Hyaena",
+    "sci": "Hyaena brunnea",
+    "group": "Hyaenas",
+    "manual": true,
+    "page": 117
+  },
+  {
+    "name": "Spotted Hyaena",
+    "sci": "Crocuta crocuta",
+    "group": "Hyaenas",
+    "manual": true,
+    "page": 116
+  },
+  {
+    "name": "African Wild Dog",
+    "sci": "Lycaon pictus",
+    "group": "Dogs and jackals",
+    "manual": true,
+    "page": 115
+  },
+  {
+    "name": "Bat-eared Fox",
+    "sci": "Otocyon megalotis",
+    "group": "Dogs and jackals",
+    "manual": true,
+    "page": 123
+  },
+  {
+    "name": "Black-backed Jackal",
+    "sci": "Lupulella mesomelas",
+    "group": "Dogs and jackals",
+    "manual": true,
+    "page": 123
+  },
+  {
+    "name": "Honey Badger (Ratel)",
+    "sci": "Mellivora capensis",
+    "group": "Otters and badgers",
+    "manual": true,
+    "page": 123
+  },
+  {
+    "name": "Spotted-necked Otter",
+    "sci": "Hydrictis maculicollis",
+    "group": "Otters and badgers",
+    "manual": true,
+    "page": 122
+  },
+  {
+    "name": "Dwarf Mongoose",
+    "sci": "Helogale parvula",
+    "group": "Mongooses",
+    "manual": true,
+    "page": 124
+  },
+  {
+    "name": "Slender Mongoose",
+    "sci": "Herpestes sanguineus",
+    "group": "Mongooses",
+    "manual": true,
+    "page": 124
+  },
+  {
+    "name": "Chacma Baboon",
+    "sci": "Papio ursinus",
+    "group": "Primates",
+    "manual": true,
+    "page": 125
+  },
+  {
+    "name": "Southern Lesser Galago (Bushbaby)",
+    "sci": "Galago moholi",
+    "group": "Primates",
+    "manual": true,
+    "page": 109
+  },
+  {
+    "name": "Vervet Monkey",
+    "sci": "Chlorocebus pygerythrus",
+    "group": "Primates",
+    "manual": true,
+    "page": 125
+  },
+  {
+    "name": "Savanna Hare",
+    "sci": "Lepus victoriae",
+    "group": "Hares",
+    "manual": true,
+    "page": 124
+  },
+  {
+    "name": "Springhare",
+    "sci": "Pedetes capensis",
+    "group": "Rodents",
+    "manual": true,
+    "page": 122
+  },
+  {
+    "name": "Southern African Hedgehog",
+    "sci": "Atelerix frontalis",
+    "group": "Insectivores and sengis",
+    "manual": true,
+    "page": 109
+  },
+  {
+    "name": "Aardvark",
+    "sci": "Orycteropus afer",
+    "group": "Other mammals",
+    "manual": true,
+    "page": 122
+  },
+  {
+    "name": "Bushbuck",
+    "sci": "Tragelaphus sylvaticus",
+    "group": "Antelope",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Common Duiker",
+    "sci": "Sylvicapra grimmia",
+    "group": "Antelope",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Common Eland",
+    "sci": "Tragelaphus oryx",
+    "group": "Antelope",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Klipspringer",
+    "sci": "Oreotragus oreotragus",
+    "group": "Antelope",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Puku",
+    "sci": "Kobus vardonii",
+    "group": "Antelope",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Red Hartebeest",
+    "sci": "Alcelaphus buselaphus",
+    "group": "Antelope",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Roan Antelope",
+    "sci": "Hippotragus equinus",
+    "group": "Antelope",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Sable Antelope",
+    "sci": "Hippotragus niger",
+    "group": "Antelope",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Sharpe's Grysbok",
+    "sci": "Raphicerus sharpei",
+    "group": "Antelope",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Sitatunga",
+    "sci": "Tragelaphus spekii",
+    "group": "Antelope",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Southern Reedbuck",
+    "sci": "Redunca arundinum",
+    "group": "Antelope",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Tsessebe",
+    "sci": "Damaliscus lunatus",
+    "group": "Antelope",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Black-footed Cat",
+    "sci": "Felis nigripes",
+    "group": "Cats",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Aardwolf",
+    "sci": "Proteles cristatus",
+    "group": "Hyaenas",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Cape Fox",
+    "sci": "Vulpes chama",
+    "group": "Dogs and jackals",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Side-striped Jackal",
+    "sci": "Lupulella adusta",
+    "group": "Dogs and jackals",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Cape Clawless Otter",
+    "sci": "Aonyx capensis",
+    "group": "Otters and badgers",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Striped Polecat",
+    "sci": "Ictonyx striatus",
+    "group": "Otters and badgers",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "African Civet",
+    "sci": "Civettictis civetta",
+    "group": "Genets and civets",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Large-spotted Genet",
+    "sci": "Genetta maculata",
+    "group": "Genets and civets",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Small-spotted Genet",
+    "sci": "Genetta genetta",
+    "group": "Genets and civets",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Banded Mongoose",
+    "sci": "Mungos mungo",
+    "group": "Mongooses",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Large Grey Mongoose",
+    "sci": "Herpestes ichneumon",
+    "group": "Mongooses",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Meerkat (Suricate)",
+    "sci": "Suricata suricatta",
+    "group": "Mongooses",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Selous' Mongoose",
+    "sci": "Paracynictis selousi",
+    "group": "Mongooses",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Water Mongoose",
+    "sci": "Atilax paludinosus",
+    "group": "Mongooses",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "White-tailed Mongoose",
+    "sci": "Ichneumia albicauda",
+    "group": "Mongooses",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Yellow Mongoose",
+    "sci": "Cynictis penicillata",
+    "group": "Mongooses",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Scrub Hare",
+    "sci": "Lepus saxatilis",
+    "group": "Hares",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Bushveld Gerbil",
+    "sci": "Gerbilliscus leucogaster",
+    "group": "Rodents",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Cape Porcupine",
+    "sci": "Hystrix africaeaustralis",
+    "group": "Rodents",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Four-striped Grass Mouse",
+    "sci": "Rhabdomys pumilio",
+    "group": "Rodents",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Greater Cane Rat",
+    "sci": "Thryonomys swinderianus",
+    "group": "Rodents",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Ground Squirrel",
+    "sci": "Xerus inauris",
+    "group": "Rodents",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Tree Squirrel",
+    "sci": "Paraxerus cepapi",
+    "group": "Rodents",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Bushveld Sengi",
+    "sci": "Elephantulus intufi",
+    "group": "Insectivores and sengis",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Four-toed Sengi",
+    "sci": "Petrodromus tetradactylus",
+    "group": "Insectivores and sengis",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Egyptian Slit-faced Bat",
+    "sci": "Nycteris thebaica",
+    "group": "Bats",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Little Free-tailed Bat",
+    "sci": "Mops pumilus",
+    "group": "Bats",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Mauritian Tomb Bat",
+    "sci": "Taphozous mauritianus",
+    "group": "Bats",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Sundevall's Leaf-nosed Bat",
+    "sci": "Hipposideros caffer",
+    "group": "Bats",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Wahlberg's Epauletted Fruit Bat",
+    "sci": "Epomophorus wahlbergi",
+    "group": "Bats",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Yellow-bellied House Bat",
+    "sci": "Scotophilus dinganii",
+    "group": "Bats",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Ground Pangolin",
+    "sci": "Smutsia temminckii",
+    "group": "Other mammals",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Rock Hyrax",
+    "sci": "Procavia capensis",
+    "group": "Other mammals",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Yellow-spotted Rock Hyrax",
+    "sci": "Heterohyrax brucei",
+    "group": "Other mammals",
+    "manual": false,
+    "page": null
+  }
+]

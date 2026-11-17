@@ -59,6 +59,7 @@ function doPost(e) {
   let d;
   try { d = JSON.parse(e.postData.contents); } catch (x) { return out_({ ok: false, error: 'bad json' }); }
   if (!d || d.app !== 'aga-study') return out_({ ok: false, error: 'unknown sender' });
+  if (d.type === 'photo') return out_(savePhoto_(d));
   const surname = clean_(d.surname), first = clean_(d.first), idRaw = clean_(d.idno, 40), idNorm = normId_(idRaw);
   if (!surname || !first || idNorm.length < 5) return out_({ ok: false, error: 'missing details' });
 
@@ -95,5 +96,86 @@ function doPost(e) {
   return out_({ ok: true });
 }
 
-function doGet() { return out_({ ok: true, service: 'AGA Study App progress' }); }
+// ============================================================
+// PHOTO SUBMISSIONS - students send photos for the Pocket Guide.
+// Each photo is saved in the Drive folder "AGA Pocket Guide - Photo Submissions" and listed on the
+// "Photos" tab of the progress sheet with Status = Pending. A trainer sets Status to Approved
+// (or Rejected). Approved photos are pulled into the app by tools/sync-photos.js.
+// ============================================================
+const PHOTO_HEAD = ['Submitted', 'Species', 'Scientific name', 'App list', 'Item ID', 'First names', 'Surname', 'Omang / Passport',
+  'Student ID (registry)', 'Where taken', 'Photo', 'File ID', 'Status', 'Notes'];
+const PHOTO_COL = { species: 2, sci: 3, module: 4, item: 5, first: 6, surname: 7, fileId: 12, status: 13 };
+const MAX_PHOTO_BYTES = 6 * 1024 * 1024;
+
+function photoSheet_() {
+  const ss = getBook_();
+  let sh = ss.getSheetByName('Photos');
+  if (!sh) {
+    sh = ss.insertSheet('Photos');
+    sh.getRange(1, 1, 1, PHOTO_HEAD.length).setValues([PHOTO_HEAD]).setFontWeight('bold').setBackground('#fbecd2');
+    sh.setFrozenRows(1);
+    sh.getRange(2, PHOTO_COL.status, 2000, 1).setDataValidation(
+      SpreadsheetApp.newDataValidation().requireValueInList(['Pending', 'Approved', 'Rejected'], true).build());
+  }
+  return sh;
+}
+function photoFolder_() {
+  const props = PropertiesService.getScriptProperties();
+  const id = props.getProperty('PHOTO_FOLDER_ID');
+  if (id) { try { return DriveApp.getFolderById(id); } catch (e) { /* recreate */ } }
+  const f = DriveApp.createFolder('AGA Pocket Guide - Photo Submissions');
+  props.setProperty('PHOTO_FOLDER_ID', f.getId());
+  return f;
+}
+// Run once from the editor after updating the script: authorises Drive and creates the folder + Photos tab.
+function setupPhotos() {
+  Logger.log('Photos tab: ' + photoSheet_().getParent().getUrl());
+  Logger.log('Photo folder: ' + photoFolder_().getUrl());
+}
+
+function savePhoto_(d) {
+  const first = clean_(d.first), surname = clean_(d.surname), species = clean_(d.species, 80);
+  if (!first || !surname || !species) return { ok: false, error: 'missing details' };
+  if (d.consent !== true) return { ok: false, error: 'no consent' };
+  const mime = /^image\/(jpeg|png|webp)$/.test(d.mime) ? d.mime : 'image/jpeg';
+  let bytes;
+  try { bytes = Utilities.base64Decode(String(d.image || '')); } catch (e) { return { ok: false, error: 'bad image' }; }
+  if (!bytes.length || bytes.length > MAX_PHOTO_BYTES) return { ok: false, error: 'image too large' };
+  const idRaw = clean_(d.idno, 40), idNorm = normId_(idRaw);
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    const stamp = Utilities.formatDate(new Date(), 'Africa/Gaborone', 'yyyy-MM-dd HHmm');
+    const name = `${species} - ${first} ${surname} - ${stamp}.${mime.split('/')[1].replace('jpeg', 'jpg')}`;
+    const file = photoFolder_().createFile(Utilities.newBlob(bytes, mime, name));
+    file.setDescription(`Pocket Guide photo of ${species} by ${first} ${surname}. Where: ${clean_(d.where, 120)}`);
+    photoSheet_().appendRow([new Date(), species, clean_(d.sci, 80), clean_(d.module, 40), clean_(d.itemId, 80), first, surname, idRaw,
+      idNorm ? lookupStudentId_(idNorm) : '', clean_(d.where, 120), file.getUrl(), file.getId(), 'Pending', '']);
+  } finally {
+    lock.releaseLock();
+  }
+  return { ok: true };
+}
+
+// GET ?action=photos       -> list of Approved photos (no personal details except the credit name)
+// GET ?action=photo&id=..  -> one Approved photo as base64 (Pending/Rejected photos are never served)
+function approvedPhotos_() {
+  const sh = photoSheet_();
+  if (sh.getLastRow() < 2) return [];
+  return sh.getRange(2, 1, sh.getLastRow() - 1, PHOTO_HEAD.length).getValues()
+    .filter(r => String(r[PHOTO_COL.status - 1]).trim() === 'Approved' && r[PHOTO_COL.fileId - 1])
+    .map(r => ({ fileId: String(r[PHOTO_COL.fileId - 1]), species: String(r[PHOTO_COL.species - 1]), sci: String(r[PHOTO_COL.sci - 1]),
+      module: String(r[PHOTO_COL.module - 1]), itemId: String(r[PHOTO_COL.item - 1]),
+      credit: `${r[PHOTO_COL.first - 1]} ${r[PHOTO_COL.surname - 1]}`.trim(), submitted: r[0] }));
+}
+function doGet(e) {
+  const p = (e && e.parameter) || {};
+  if (p.action === 'photos') return out_({ ok: true, photos: approvedPhotos_() });
+  if (p.action === 'photo' && p.id) {
+    if (!approvedPhotos_().some(x => x.fileId === p.id)) return out_({ ok: false, error: 'not approved' });
+    const b = DriveApp.getFileById(p.id).getBlob();
+    return out_({ ok: true, mime: b.getContentType(), b64: Utilities.base64Encode(b.getBytes()) });
+  }
+  return out_({ ok: true, service: 'AGA Study App progress' });
+}
 function out_(o) { return ContentService.createTextOutput(JSON.stringify(o)).setMimeType(ContentService.MimeType.JSON); }

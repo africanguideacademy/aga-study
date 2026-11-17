@@ -1,0 +1,532 @@
+[
+ {
+  "name": "Nile crocodile",
+  "sci": "Crocodylus niloticus",
+  "file": "media/reptiles/nile-crocodile.jpg",
+  "photoId": 567539543,
+  "license": "CC0",
+  "credit": "paulomascaretti",
+  "source": "https://www.inaturalist.org/observations/314228951",
+  "place": "Botswana"
+ },
+ {
+  "name": "Anchieta's cobra",
+  "sci": "Naja anchietae",
+  "file": "media/reptiles/anchietas-cobra.jpg",
+  "photoId": 210105922,
+  "license": "CC BY",
+  "credit": "© Pål A. Olsvik",
+  "source": "https://www.inaturalist.org/observations/123986360",
+  "place": "Botswana"
+ },
+ {
+  "name": "Black mamba",
+  "sci": "Dendroaspis polylepis",
+  "file": "media/reptiles/black-mamba.jpg",
+  "photoId": 1578446,
+  "license": "CC BY",
+  "credit": "© i_c_riddell",
+  "source": "https://www.inaturalist.org/observations/1257368",
+  "place": "Botswana"
+ },
+ {
+  "name": "Cape cobra",
+  "sci": "Naja nivea",
+  "file": "media/reptiles/cape-cobra.jpg",
+  "photoId": 462882368,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/258028295",
+  "place": "Botswana"
+ },
+ {
+  "name": "Mozambique spitting cobra",
+  "sci": "Naja mossambica",
+  "file": "media/reptiles/mozambique-spitting-cobra.jpg",
+  "photoId": 453241257,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/253155678",
+  "place": "Botswana"
+ },
+ {
+  "name": "Snouted cobra",
+  "sci": "Naja annulifera",
+  "file": "media/reptiles/snouted-cobra.jpg",
+  "photoId": 377762555,
+  "license": "CC0",
+  "credit": "spidermandan",
+  "source": "https://www.inaturalist.org/observations/213747349",
+  "place": "Africa"
+ },
+ {
+  "name": "Boomslang",
+  "sci": "Dispholidus typus",
+  "file": "media/reptiles/boomslang.jpg",
+  "photoId": 638185376,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/349817350",
+  "place": "Botswana"
+ },
+ {
+  "name": "Shield-nosed cobra",
+  "sci": "Aspidelaps scutatus",
+  "file": "media/reptiles/shield-nosed-cobra.jpg",
+  "photoId": 96904739,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/60593812",
+  "place": "Africa"
+ },
+ {
+  "name": "Southern stiletto snake (Bibron's burrowing asp)",
+  "sci": "Atractaspis bibronii",
+  "file": "media/reptiles/southern-stiletto-snake-bibrons-burrowing-asp.jpg",
+  "photoId": 46701,
+  "license": "CC BY",
+  "credit": "© 116916927065934112165",
+  "source": "https://www.inaturalist.org/observations/25940",
+  "place": "Botswana"
+ },
+ {
+  "name": "Vine snake",
+  "sci": "Thelotornis capensis",
+  "file": "media/reptiles/vine-snake.jpg",
+  "photoId": 27347517,
+  "license": "CC BY",
+  "credit": "© Wynand Uys",
+  "source": "https://www.inaturalist.org/observations/17905025",
+  "place": "Africa"
+ },
+ {
+  "name": "Puff adder",
+  "sci": "Bitis arietans",
+  "file": "media/reptiles/puff-adder.jpg",
+  "photoId": 329054712,
+  "license": "CC BY-SA",
+  "credit": "© Kevin Brix",
+  "source": "https://www.inaturalist.org/observations/188073772",
+  "place": "Botswana"
+ },
+ {
+  "name": "Mole snake",
+  "sci": "Pseudaspis cana",
+  "file": "media/reptiles/mole-snake.jpg",
+  "photoId": 462868401,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/258024932",
+  "place": "Botswana"
+ },
+ {
+  "name": "Southern African python",
+  "sci": "Python natalensis",
+  "file": "media/reptiles/southern-african-python.jpg",
+  "photoId": 585666913,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/323654079",
+  "place": "Botswana"
+ },
+ {
+  "name": "Angolan green snake",
+  "sci": "Philothamnus angolensis",
+  "file": "media/reptiles/angolan-green-snake.jpg",
+  "photoId": 355235785,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/201254886",
+  "place": "Africa"
+ },
+ {
+  "name": "Spotted bush snake",
+  "sci": "Philothamnus semivariegatus",
+  "file": "media/reptiles/spotted-bush-snake.jpg",
+  "photoId": 594335182,
+  "license": "CC0",
+  "credit": "lbcp2020",
+  "source": "https://www.inaturalist.org/observations/328029998",
+  "place": "Botswana"
+ },
+ {
+  "name": "Stripe-bellied sand snake",
+  "sci": "Psammophis subtaeniatus",
+  "file": "media/reptiles/stripe-bellied-sand-snake.jpg",
+  "photoId": 49567644,
+  "license": "CC BY",
+  "credit": "© Caroline Voget",
+  "source": "https://www.inaturalist.org/observations/31656510",
+  "place": "Botswana"
+ },
+ {
+  "name": "Common tiger snake",
+  "sci": "Telescopus semiannulatus",
+  "file": "media/reptiles/common-tiger-snake.jpg",
+  "photoId": 92387313,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/57894974",
+  "place": "Botswana"
+ },
+ {
+  "name": "Rufous-beaked snake",
+  "sci": "Rhamphiophis rostratus",
+  "file": "media/reptiles/rufous-beaked-snake.jpg",
+  "photoId": 107442021,
+  "license": "CC BY-SA",
+  "credit": "© Stephanie Dolrenry",
+  "source": "https://www.inaturalist.org/observations/66622803",
+  "place": "Africa"
+ },
+ {
+  "name": "Ground agama",
+  "sci": "Agama aculeata",
+  "file": "media/reptiles/ground-agama.jpg",
+  "photoId": 462880628,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/258028218",
+  "place": "Botswana"
+ },
+ {
+  "name": "Kalahari burrowing skink (Kalahari legless skink)",
+  "sci": "Acontias kgalagadi",
+  "file": "media/reptiles/kalahari-burrowing-skink-kalahari-legless-skink.jpg",
+  "photoId": 45638,
+  "license": "CC BY",
+  "credit": "© 116916927065934112165",
+  "source": "https://www.inaturalist.org/observations/25292",
+  "place": "Botswana"
+ },
+ {
+  "name": "Kalahari tree skink",
+  "sci": "Trachylepis spilogaster",
+  "file": "media/reptiles/kalahari-tree-skink.jpg",
+  "photoId": 232249830,
+  "license": "CC BY",
+  "credit": "© Eric Knight",
+  "source": "https://www.inaturalist.org/observations/136112705",
+  "place": "Africa"
+ },
+ {
+  "name": "Nile monitor (water leguaan)",
+  "sci": "Varanus niloticus",
+  "file": "media/reptiles/nile-monitor-water-leguaan.jpg",
+  "photoId": 4503540,
+  "license": "CC0",
+  "credit": "francescocecere",
+  "source": "https://www.inaturalist.org/observations/3846250",
+  "place": "Botswana"
+ },
+ {
+  "name": "Snake-eyed skink",
+  "sci": "Panaspis wahlbergii",
+  "file": "media/reptiles/snake-eyed-skink.jpg",
+  "photoId": 611887558,
+  "license": "CC BY",
+  "credit": "© Murray Yoko",
+  "source": "https://www.inaturalist.org/observations/336686508",
+  "place": "Africa"
+ },
+ {
+  "name": "White-throated monitor (rock leguaan)",
+  "sci": "Varanus albigularis",
+  "file": "media/reptiles/white-throated-monitor-rock-leguaan.jpg",
+  "photoId": 209586862,
+  "license": "CC0",
+  "credit": "anna22",
+  "source": "https://www.inaturalist.org/observations/123702307",
+  "place": "Botswana"
+ },
+ {
+  "name": "Gecko (tropical house gecko)",
+  "sci": "Hemidactylus mabouia",
+  "file": "media/reptiles/gecko-tropical-house-gecko.jpg",
+  "photoId": 60977232,
+  "license": "CC BY",
+  "credit": "© Murphy Tladi",
+  "source": "https://www.inaturalist.org/observations/38372247",
+  "place": "Botswana"
+ },
+ {
+  "name": "Girdled lizard (Jones' girdled lizard)",
+  "sci": "Cordylus jonesii",
+  "file": "media/reptiles/girdled-lizard-jones-girdled-lizard.jpg",
+  "photoId": 181073357,
+  "license": "CC0",
+  "credit": "kellyabram",
+  "source": "https://www.inaturalist.org/observations/107636825",
+  "place": "Africa"
+ },
+ {
+  "name": "Old World lizard (bushveld lizard)",
+  "sci": "Heliobolus lugubris",
+  "file": "media/reptiles/old-world-lizard-bushveld-lizard.jpg",
+  "photoId": 57866992,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/36595741",
+  "place": "Botswana"
+ },
+ {
+  "name": "Amphisbaenian (Kalahari round-headed worm lizard)",
+  "sci": "Zygaspis quadrifrons",
+  "file": "media/reptiles/amphisbaenian-kalahari-round-headed-worm-lizard.jpg",
+  "photoId": 47214601,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/30227319",
+  "place": "Botswana"
+ },
+ {
+  "name": "Flap-necked chameleon",
+  "sci": "Chamaeleo dilepis",
+  "file": "media/reptiles/flap-necked-chameleon.jpg",
+  "photoId": 175042309,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/104463811",
+  "place": "Botswana"
+ },
+ {
+  "name": "Leopard tortoise",
+  "sci": "Stigmochelys pardalis",
+  "file": "media/reptiles/leopard-tortoise.jpg",
+  "photoId": 371626562,
+  "license": "CC0",
+  "credit": "rianafourie",
+  "source": "https://www.inaturalist.org/observations/210065845",
+  "place": "Botswana"
+ },
+ {
+  "name": "Marsh terrapin (pan terrapin)",
+  "sci": "Pelomedusa subrufa",
+  "file": "media/reptiles/marsh-terrapin-pan-terrapin.jpg",
+  "photoId": 13424433,
+  "license": "CC0",
+  "credit": "simontonge",
+  "source": "https://www.inaturalist.org/observations/9809982",
+  "place": "Botswana"
+ },
+ {
+  "name": "Mashona hinged terrapin",
+  "sci": "Pelusios rhodesianus",
+  "file": "media/reptiles/mashona-hinged-terrapin.jpg",
+  "photoId": 159830272,
+  "license": "CC BY",
+  "credit": "© Nick Schaller",
+  "source": "https://www.inaturalist.org/observations/96223584",
+  "place": "Africa"
+ },
+ {
+  "name": "Okavango hinged terrapin",
+  "sci": "Pelusios bechuanicus",
+  "file": "media/reptiles/okavango-hinged-terrapin.jpg",
+  "photoId": 277958437,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/160836464",
+  "place": "Botswana"
+ },
+ {
+  "name": "Serrated tent tortoise (Kalahari tent tortoise)",
+  "sci": "Psammobates oculifer",
+  "file": "media/reptiles/serrated-tent-tortoise-kalahari-tent-tortoise.jpg",
+  "photoId": 126709318,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/77548557",
+  "place": "Botswana"
+ },
+ {
+  "name": "Speke's hinged tortoise",
+  "sci": "Kinixys spekii",
+  "file": "media/reptiles/spekes-hinged-tortoise.jpg",
+  "photoId": 722787604,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/394272533",
+  "place": "Africa"
+ },
+ {
+  "name": "Horned adder",
+  "sci": "Bitis caudalis",
+  "file": "media/reptiles/horned-adder.jpg",
+  "photoId": 60086893,
+  "license": "CC BY",
+  "credit": "© marius",
+  "source": "https://www.inaturalist.org/observations/37851849",
+  "place": "Africa"
+ },
+ {
+  "name": "Rhombic night adder",
+  "sci": "Causus rhombeatus",
+  "file": "media/reptiles/rhombic-night-adder.jpg",
+  "photoId": 179510714,
+  "license": "CC BY-SA",
+  "credit": "© kevin koen",
+  "source": "https://www.inaturalist.org/observations/106809111",
+  "place": "Africa"
+ },
+ {
+  "name": "Brown house snake",
+  "sci": "Boaedon capensis",
+  "file": "media/reptiles/brown-house-snake.jpg",
+  "photoId": 28516312,
+  "license": "CC BY",
+  "credit": "© Wynand Uys",
+  "source": "https://www.inaturalist.org/observations/18630850",
+  "place": "Africa"
+ },
+ {
+  "name": "Bark snake",
+  "sci": "Hemirhagerrhis nototaenia",
+  "file": "media/reptiles/bark-snake.jpg",
+  "photoId": 233928374,
+  "license": "CC0",
+  "credit": "rosshawkins",
+  "source": "https://www.inaturalist.org/observations/137012546",
+  "place": "Africa"
+ },
+ {
+  "name": "Black-headed centipede-eater",
+  "sci": "Aparallactus capensis",
+  "file": "media/reptiles/black-headed-centipede-eater.jpg",
+  "photoId": 439345135,
+  "license": "CC BY-SA",
+  "credit": "© Dylan Leonard",
+  "source": "https://www.inaturalist.org/observations/246134183",
+  "place": "Africa"
+ },
+ {
+  "name": "Olive grass snake",
+  "sci": "Psammophis mossambicus",
+  "file": "media/reptiles/olive-grass-snake.jpg",
+  "photoId": 13837454,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/10053530",
+  "place": "Botswana"
+ },
+ {
+  "name": "Red-lipped herald snake",
+  "sci": "Crotaphopeltis hotamboeia",
+  "file": "media/reptiles/red-lipped-herald-snake.jpg",
+  "photoId": 627491425,
+  "license": "CC BY-SA",
+  "credit": "© Dylan Leonard",
+  "source": "https://www.inaturalist.org/observations/344387787",
+  "place": "Africa"
+ },
+ {
+  "name": "Cape dwarf gecko",
+  "sci": "Lygodactylus capensis",
+  "file": "media/reptiles/cape-dwarf-gecko.jpg",
+  "photoId": 296984376,
+  "license": "CC BY-SA",
+  "credit": "© Tony Eales",
+  "source": "https://www.inaturalist.org/observations/171164434",
+  "place": "Botswana"
+ },
+ {
+  "name": "Common barking gecko",
+  "sci": "Ptenopus garrulus",
+  "file": "media/reptiles/common-barking-gecko.jpg",
+  "photoId": 64684999,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/40804058",
+  "place": "Botswana"
+ },
+ {
+  "name": "Southern tree agama",
+  "sci": "Acanthocercus atricollis",
+  "file": "media/reptiles/southern-tree-agama.jpg",
+  "photoId": 30311499,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/19683124",
+  "place": "Botswana"
+ },
+ {
+  "name": "Spotted sandveld lizard",
+  "sci": "Nucras intertexta",
+  "file": "media/reptiles/spotted-sandveld-lizard.jpg",
+  "photoId": 722782789,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/394270036",
+  "place": "Africa"
+ },
+ {
+  "name": "Striped skink",
+  "sci": "Trachylepis striata",
+  "file": "media/reptiles/striped-skink.jpg",
+  "photoId": 350353835,
+  "license": "CC BY",
+  "credit": "© Asher P Higgins",
+  "source": "https://www.inaturalist.org/observations/198743590",
+  "place": "Botswana"
+ },
+ {
+  "name": "Turner's thick-toed gecko",
+  "sci": "Chondrodactylus turneri",
+  "file": "media/reptiles/turners-thick-toed-gecko.jpg",
+  "photoId": 350398501,
+  "license": "CC BY",
+  "credit": "© Asher P Higgins",
+  "source": "https://www.inaturalist.org/observations/198765998",
+  "place": "Botswana"
+ },
+ {
+  "name": "Western three-striped skink",
+  "sci": "Trachylepis occidentalis",
+  "file": "media/reptiles/western-three-striped-skink.jpg",
+  "photoId": 10949197,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/8255542",
+  "place": "Africa"
+ },
+ {
+  "name": "Yellow-throated plated lizard",
+  "sci": "Gerrhosaurus flavigularis",
+  "file": "media/reptiles/yellow-throated-plated-lizard.jpg",
+  "photoId": 319299648,
+  "license": "CC BY",
+  "credit": "© Zizipho Mfaku",
+  "source": "https://www.inaturalist.org/observations/183057364",
+  "place": "Africa"
+ },
+ {
+  "name": "Snouted night adder",
+  "sci": "Causus defilippii",
+  "file": "media/reptiles/snouted-night-adder.jpg",
+  "photoId": 378944795,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/214390684",
+  "place": "Africa"
+ },
+ {
+  "name": "Common egg-eater",
+  "sci": "Dasypeltis scabra",
+  "file": "media/reptiles/common-egg-eater.jpg",
+  "photoId": 27357815,
+  "license": "CC BY-SA",
+  "credit": "© Jacques van der Merwe",
+  "source": "https://www.inaturalist.org/observations/17910799",
+  "place": "Africa"
+ },
+ {
+  "name": "Variegated skink",
+  "sci": "Trachylepis variegata",
+  "file": "media/reptiles/variegated-skink.jpg",
+  "photoId": 218530158,
+  "license": "CC BY",
+  "credit": "© nearwildhelen",
+  "source": "https://www.inaturalist.org/observations/128644662",
+  "place": "Africa"
+ }
+]

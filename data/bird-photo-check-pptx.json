@@ -1,0 +1,18 @@
+[
+  {
+    "list": "kwapa63",
+    "name": "Eurasian Golden Oriole",
+    "photo": "media/kwapa63/eurasian-golden-oriole.jpg",
+    "verdict": "wrong",
+    "shows": "African Golden Oriole (adult male)",
+    "reason": "Black eye-stripe runs through and behind the eye with yellow lores (Eurasian male has black lores only, bill to eye); wing feathers broadly edged yellow rather than solid black wings with a yellow carpal patch"
+  },
+  {
+    "list": "kwapa63",
+    "name": "Coppery-tailed Coucal",
+    "photo": "media/kwapa63/coppery-tailed-coucal.jpg",
+    "verdict": "unclear",
+    "shows": "A coucal that looks like Senegal (or Burchell's) Coucal",
+    "reason": "Black is limited to the cap and hindneck, and the mantle and wings are bright chestnut, almost identical to the Senegal Coucal photo. Coppery-tailed has a blackish mantle and darker brown wings and is larger. Can't confirm Coppery-tailed from this photo"
+  }
+]

@@ -1,0 +1,32 @@
+[
+ {
+  "name": "Eurasian Golden Oriole",
+  "sci": "Oriolus oriolus",
+  "file": "media/bird-replacements/eurasian-golden-oriole.jpg",
+  "photoId": 230484973,
+  "license": "CC BY",
+  "credit": "© Christiaan Viljoen",
+  "source": "https://www.inaturalist.org/observations/135159639",
+  "place": "Botswana"
+ },
+ {
+  "name": "Coppery-tailed Coucal",
+  "sci": "Centropus cupreicaudus",
+  "file": "media/bird-replacements/coppery-tailed-coucal.jpg",
+  "photoId": 15276346,
+  "license": "CC BY",
+  "credit": "© Wynand Uys",
+  "source": "https://www.inaturalist.org/observations/10879030",
+  "place": "Botswana"
+ },
+ {
+  "name": "Swamp Boubou",
+  "sci": "Laniarius bicolor",
+  "file": "media/bird-replacements/swamp-boubou.jpg",
+  "photoId": 116431572,
+  "license": "CC BY",
+  "credit": "© Jan Ebr &amp; Ivana Ebrová",
+  "source": "https://www.inaturalist.org/observations/71506330",
+  "place": "Botswana"
+ }
+]

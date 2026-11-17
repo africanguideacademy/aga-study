@@ -22,15 +22,20 @@ window.AGA_DATA = {
      "group": "Babbler",
      "photo": "media/birds/arrow-marked-babbler.jpg",
      "call": "media/calls/babbler-arrow-marked.mp3",
-     "bytes": 231084
+     "bytes": 231084,
+     "wide": 1
     },
     {
      "id": "tropical-boubou",
-     "name": "Tropical Boubou",
+     "name": "Swamp Boubou",
      "group": "Boubou",
-     "photo": "media/birds/tropical-boubou.jpg",
-     "call": "media/calls/boubou-tropical.mp3",
-     "bytes": 206640
+     "photo": "media/bird-replacements/swamp-boubou.jpg",
+     "call": "media/calls/boubou-swamp.mp3",
+     "bytes": 194040,
+     "credit": "© Jan Ebr &amp; Ivana Ebrová",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/71506330",
+     "wide": 1
     },
     {
      "id": "red-billed-buffalo-weaver",
@@ -38,7 +43,8 @@ window.AGA_DATA = {
      "group": "Weaver",
      "photo": "media/birds/red-billed-buffalo-weaver.jpg",
      "call": "media/calls/weaver-red-billed-buffalo.mp3",
-     "bytes": 189252
+     "bytes": 189252,
+     "wide": 1
     },
     {
      "id": "orange-breasted-bush-shrike",
@@ -46,15 +52,17 @@ window.AGA_DATA = {
      "group": "Bushshrike",
      "photo": "media/birds/orange-breasted-bush-shrike.jpg",
      "call": "media/calls/bushshrike-orange-breasted.mp3",
-     "bytes": 174132
+     "bytes": 174132,
+     "wide": 1
     },
     {
      "id": "long-legged-bustard",
-     "name": "Long-legged Bustard",
+     "name": "Black-bellied Bustard",
      "group": "Bustard",
      "photo": "media/birds/long-legged-bustard.jpg",
-     "call": "",
-     "bytes": 0
+     "call": "media/calls/b-black-bellied-bustard.mp3",
+     "bytes": 67284,
+     "wide": 1
     },
     {
      "id": "kurrichane-buttonquail",
@@ -62,7 +70,8 @@ window.AGA_DATA = {
      "group": "Buttonquail",
      "photo": "media/birds/kurrichane-buttonquail.jpg",
      "call": "media/calls/b-kurrichane-buttonquail.mp3",
-     "bytes": 40824
+     "bytes": 40824,
+     "wide": 1
     },
     {
      "id": "grey-backed-camaroptera",
@@ -70,7 +79,8 @@ window.AGA_DATA = {
      "group": "Camaroptera",
      "photo": "media/birds/grey-backed-camaroptera.jpg",
      "call": "media/calls/camaroptera-grey-backed.mp3",
-     "bytes": 186984
+     "bytes": 186984,
+     "wide": 1
     },
     {
      "id": "arnots-chat",
@@ -78,7 +88,8 @@ window.AGA_DATA = {
      "group": "Chat",
      "photo": "media/birds/arnots-chat.jpg",
      "call": "media/calls/chat-arnots.mp3",
-     "bytes": 196812
+     "bytes": 196812,
+     "wide": 1
     },
     {
      "id": "red-faced-cisticola",
@@ -86,7 +97,8 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "photo": "media/birds/red-faced-cisticola.jpg",
      "call": "media/calls/cisticola-red-faced.mp3",
-     "bytes": 192528
+     "bytes": 192528,
+     "wide": 1
     },
     {
      "id": "bronze-winged-courser",
@@ -94,7 +106,8 @@ window.AGA_DATA = {
      "group": "Courser",
      "photo": "media/birds/bronze-winged-courser.jpg",
      "call": "media/calls/courser-bronze-winged.mp3",
-     "bytes": 190512
+     "bytes": 190512,
+     "wide": 1
     },
     {
      "id": "temmincks-courser",
@@ -102,7 +115,8 @@ window.AGA_DATA = {
      "group": "Courser",
      "photo": "media/birds/temmincks-courser.jpg",
      "call": "media/calls/b-temmincks-courser.mp3",
-     "bytes": 39816
+     "bytes": 39816,
+     "wide": 1
     },
     {
      "id": "black-crake",
@@ -110,7 +124,8 @@ window.AGA_DATA = {
      "group": "Crake",
      "photo": "media/birds/black-crake.jpg",
      "call": "media/calls/crake-black.mp3",
-     "bytes": 192024
+     "bytes": 192024,
+     "wide": 1
     },
     {
      "id": "african-cuckoo",
@@ -118,7 +133,8 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "photo": "media/birds/african-cuckoo.jpg",
      "call": "media/calls/cuckoo-african.mp3",
-     "bytes": 172620
+     "bytes": 172620,
+     "wide": 1
     },
     {
      "id": "black-cuckoo",
@@ -126,7 +142,8 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "photo": "media/birds/black-cuckoo.jpg",
      "call": "media/calls/cuckoo-black.mp3",
-     "bytes": 192024
+     "bytes": 192024,
+     "wide": 1
     },
     {
      "id": "great-spotted-cuckoo",
@@ -134,7 +151,8 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "photo": "media/birds/great-spotted-cuckoo.jpg",
      "call": "media/calls/cuckoo-great-spotted.mp3",
-     "bytes": 174636
+     "bytes": 174636,
+     "wide": 1
     },
     {
      "id": "levaillants-cuckoo",
@@ -142,7 +160,8 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "photo": "media/birds/levaillants-cuckoo.jpg",
      "call": "media/calls/cuckoo-levaillants.mp3",
-     "bytes": 195300
+     "bytes": 195300,
+     "wide": 1
     },
     {
      "id": "black-cuckooshrike",
@@ -150,7 +169,8 @@ window.AGA_DATA = {
      "group": "Cuckooshrike",
      "photo": "media/birds/black-cuckooshrike.jpg",
      "call": "media/calls/cuckooshrike-black.mp3",
-     "bytes": 197820
+     "bytes": 197820,
+     "wide": 1
     },
     {
      "id": "white-breasted-cuckooshrike",
@@ -158,7 +178,8 @@ window.AGA_DATA = {
      "group": "Cuckooshrike",
      "photo": "media/birds/white-breasted-cuckooshrike.jpg",
      "call": "media/calls/cuckooshrike-white-breasted.mp3",
-     "bytes": 168588
+     "bytes": 168588,
+     "wide": 1
     },
     {
      "id": "emerald-spotted-wood-dove",
@@ -166,7 +187,8 @@ window.AGA_DATA = {
      "group": "Dove",
      "photo": "media/birds/emerald-spotted-wood-dove.jpg",
      "call": "media/calls/b-emerald-spotted-wood-dove.mp3",
-     "bytes": 97020
+     "bytes": 97020,
+     "wide": 1
     },
     {
      "id": "burnt-necked-eremomela",
@@ -174,7 +196,8 @@ window.AGA_DATA = {
      "group": "Eremomela",
      "photo": "media/birds/burnt-necked-eremomela.jpg",
      "call": "media/calls/eremomela-burnt-necked.mp3",
-     "bytes": 177660
+     "bytes": 177660,
+     "wide": 1
     },
     {
      "id": "green-capped-eremomela",
@@ -182,7 +205,8 @@ window.AGA_DATA = {
      "group": "Eremomela",
      "photo": "media/birds/green-capped-eremomela.jpg",
      "call": "media/calls/eremomela-green-capped.mp3",
-     "bytes": 194544
+     "bytes": 194544,
+     "wide": 1
     },
     {
      "id": "ashy-flycatcher",
@@ -190,7 +214,8 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "photo": "media/birds/ashy-flycatcher.jpg",
      "call": "media/calls/flycatcher-ashy.mp3",
-     "bytes": 186228
+     "bytes": 186228,
+     "wide": 1
     },
     {
      "id": "southern-black-flycatcher",
@@ -198,7 +223,8 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "photo": "media/birds/southern-black-flycatcher.jpg",
      "call": "media/calls/flycatcher-southern-black.mp3",
-     "bytes": 178920
+     "bytes": 178920,
+     "wide": 1
     },
     {
      "id": "grey-tit-flycatcher",
@@ -206,7 +232,8 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "photo": "media/birds/grey-tit-flycatcher.jpg",
      "call": "media/calls/flycatcher-grey-tit.mp3",
-     "bytes": 157248
+     "bytes": 157248,
+     "wide": 1
     },
     {
      "id": "marico-flycatcher",
@@ -214,7 +241,8 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "photo": "media/birds/marico-flycatcher.jpg",
      "call": "media/calls/flycatcher-marico.mp3",
-     "bytes": 187992
+     "bytes": 187992,
+     "wide": 1
     },
     {
      "id": "coqui-francolin",
@@ -222,7 +250,8 @@ window.AGA_DATA = {
      "group": "Francolin",
      "photo": "media/birds/coqui-francolin.jpg",
      "call": "media/calls/b-coqui-francolin.mp3",
-     "bytes": 58968
+     "bytes": 58968,
+     "wide": 1
     },
     {
      "id": "allens-gallinule",
@@ -230,7 +259,8 @@ window.AGA_DATA = {
      "group": "Gallinule",
      "photo": "media/birds/allens-gallinule.jpg",
      "call": "media/calls/gallinule-allens.mp3",
-     "bytes": 213444
+     "bytes": 213444,
+     "wide": 1
     },
     {
      "id": "african-pygmy-goose",
@@ -238,7 +268,8 @@ window.AGA_DATA = {
      "group": "Goose",
      "photo": "media/birds/african-pygmy-goose.jpg",
      "call": "media/calls/b-african-pygmy-goose.mp3",
-     "bytes": 27468
+     "bytes": 27468,
+     "wide": 1
     },
     {
      "id": "dark-chanting-goshawk",
@@ -246,15 +277,20 @@ window.AGA_DATA = {
      "group": "Goshawk",
      "photo": "media/birds/dark-chanting-goshawk.jpg",
      "call": "media/calls/b-dark-chanting-goshawk.mp3",
-     "bytes": 82152
+     "bytes": 82152,
+     "wide": 1
     },
     {
      "id": "gabar-goshawk",
      "name": "Gabar Goshawk",
      "group": "Goshawk",
-     "photo": "media/birds/gabar-goshawk.jpg",
+     "photo": "media/prominent40/gabar-goshawk.jpg",
      "call": "media/calls/goshawk-gabar.mp3",
-     "bytes": 194292
+     "bytes": 194292,
+     "credit": "",
+     "license": "AGA",
+     "src": "",
+     "wide": 1
     },
     {
      "id": "african-hawk-eagle",
@@ -262,7 +298,8 @@ window.AGA_DATA = {
      "group": "Eagle",
      "photo": "media/birds/african-hawk-eagle.jpg",
      "call": "media/calls/b-african-hawk-eagle.mp3",
-     "bytes": 48384
+     "bytes": 48384,
+     "wide": 1
     },
     {
      "id": "retzs-helmet-shrike",
@@ -270,7 +307,8 @@ window.AGA_DATA = {
      "group": "Helmetshrike",
      "photo": "media/birds/retzs-helmet-shrike.jpg",
      "call": "media/calls/helmetshrike-retzs.mp3",
-     "bytes": 218484
+     "bytes": 218484,
+     "wide": 1
     },
     {
      "id": "grey-headed-kingfisher",
@@ -278,7 +316,8 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "photo": "media/birds/grey-headed-kingfisher.jpg",
      "call": "media/calls/kingfisher-grey-headed.mp3",
-     "bytes": 121968
+     "bytes": 121968,
+     "wide": 1
     },
     {
      "id": "african-pygmy-kingfisher",
@@ -286,7 +325,8 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "photo": "media/birds/african-pygmy-kingfisher.jpg",
      "call": "media/calls/b-african-pygmy-kingfisher.mp3",
-     "bytes": 23688
+     "bytes": 23688,
+     "wide": 1
     },
     {
      "id": "dusky-lark",
@@ -294,7 +334,8 @@ window.AGA_DATA = {
      "group": "Lark",
      "photo": "media/birds/dusky-lark.jpg",
      "call": "media/calls/lark-dusky.mp3",
-     "bytes": 191268
+     "bytes": 191268,
+     "wide": 1
     },
     {
      "id": "fawn-coloured-lark",
@@ -302,7 +343,8 @@ window.AGA_DATA = {
      "group": "Lark",
      "photo": "media/birds/fawn-coloured-lark.jpg",
      "call": "media/calls/lark-fawn-coloured.mp3",
-     "bytes": 173124
+     "bytes": 173124,
+     "wide": 1
     },
     {
      "id": "monotonous-lark",
@@ -310,7 +352,8 @@ window.AGA_DATA = {
      "group": "Lark",
      "photo": "media/birds/monotonous-lark.jpg",
      "call": "media/calls/lark-monotonous.mp3",
-     "bytes": 190512
+     "bytes": 190512,
+     "wide": 1
     },
     {
      "id": "african-mourning-dove",
@@ -318,7 +361,8 @@ window.AGA_DATA = {
      "group": "Dove",
      "photo": "media/birds/african-mourning-dove.jpg",
      "call": "media/calls/b-african-mourning-dove.mp3",
-     "bytes": 60984
+     "bytes": 60984,
+     "wide": 1
     },
     {
      "id": "pennant-winged-nightjar",
@@ -326,7 +370,8 @@ window.AGA_DATA = {
      "group": "Nightjar",
      "photo": "media/birds/pennant-winged-nightjar.jpg",
      "call": "media/calls/nightjar-pennant-winged.mp3",
-     "bytes": 200088
+     "bytes": 200088,
+     "wide": 1
     },
     {
      "id": "pels-fishing-owl",
@@ -334,7 +379,8 @@ window.AGA_DATA = {
      "group": "Owl",
      "photo": "media/birds/pels-fishing-owl.jpg",
      "call": "media/calls/owl-pels-fishing.mp3",
-     "bytes": 205632
+     "bytes": 205632,
+     "wide": 1
     },
     {
      "id": "african-scops-owl",
@@ -342,7 +388,8 @@ window.AGA_DATA = {
      "group": "Owl",
      "photo": "media/birds/african-scops-owl.jpg",
      "call": "media/calls/owl-african-scops.mp3",
-     "bytes": 177156
+     "bytes": 177156,
+     "wide": 1
     },
     {
      "id": "southern-white-faced-owl",
@@ -350,7 +397,8 @@ window.AGA_DATA = {
      "group": "Owl",
      "photo": "media/birds/southern-white-faced-owl.jpg",
      "call": "media/calls/owl-southern-white-faced.mp3",
-     "bytes": 196056
+     "bytes": 196056,
+     "wide": 1
     },
     {
      "id": "african-barred-owlet",
@@ -358,7 +406,8 @@ window.AGA_DATA = {
      "group": "Owlet",
      "photo": "media/birds/african-barred-owlet.jpg",
      "call": "media/calls/owlet-african-barred.mp3",
-     "bytes": 193284
+     "bytes": 193284,
+     "wide": 1
     },
     {
      "id": "yellow-billed-oxpecker",
@@ -366,7 +415,8 @@ window.AGA_DATA = {
      "group": "Oxpecker",
      "photo": "media/birds/yellow-billed-oxpecker.jpg",
      "call": "media/calls/b-yellow-billed-oxpecker.mp3",
-     "bytes": 60228
+     "bytes": 60228,
+     "wide": 1
     },
     {
      "id": "collared-palm-thrush",
@@ -374,7 +424,8 @@ window.AGA_DATA = {
      "group": "Palm-Thrush",
      "photo": "media/birds/collared-palm-thrush.jpg",
      "call": "media/calls/palm-thrush-collared.mp3",
-     "bytes": 191268
+     "bytes": 191268,
+     "wide": 1
     },
     {
      "id": "meyers-parrot",
@@ -382,7 +433,8 @@ window.AGA_DATA = {
      "group": "Parrot",
      "photo": "media/birds/meyers-parrot.jpg",
      "call": "media/calls/b-meyers-parrot.mp3",
-     "bytes": 49140
+     "bytes": 49140,
+     "wide": 1
     },
     {
      "id": "grey-penduline-tit",
@@ -390,7 +442,8 @@ window.AGA_DATA = {
      "group": "Tit",
      "photo": "media/birds/grey-penduline-tit.jpg",
      "call": "media/calls/tit-grey-penduline.mp3",
-     "bytes": 149940
+     "bytes": 149940,
+     "wide": 1
     },
     {
      "id": "yellow-throated-petronia",
@@ -398,7 +451,8 @@ window.AGA_DATA = {
      "group": "Petronia",
      "photo": "media/birds/yellow-throated-petronia.jpg",
      "call": "media/calls/petronia-yellow-throated.mp3",
-     "bytes": 203112
+     "bytes": 203112,
+     "wide": 1
     },
     {
      "id": "african-green-pigeon",
@@ -406,7 +460,8 @@ window.AGA_DATA = {
      "group": "Pigeon",
      "photo": "media/birds/african-green-pigeon.jpg",
      "call": "media/calls/pigeon-african-green.mp3",
-     "bytes": 169344
+     "bytes": 169344,
+     "wide": 1
     },
     {
      "id": "black-winged-pratincole",
@@ -414,7 +469,8 @@ window.AGA_DATA = {
      "group": "Pratincole",
      "photo": "media/birds/black-winged-pratincole.jpg",
      "call": "",
-     "bytes": 0
+     "bytes": 0,
+     "wide": 1
     },
     {
      "id": "collared-pratincole",
@@ -422,7 +478,8 @@ window.AGA_DATA = {
      "group": "Pratincole",
      "photo": "media/birds/collared-pratincole.jpg",
      "call": "",
-     "bytes": 0
+     "bytes": 0,
+     "wide": 1
     },
     {
      "id": "green-winged-pytilia",
@@ -430,7 +487,8 @@ window.AGA_DATA = {
      "group": "Pytilia",
      "photo": "media/birds/green-winged-pytilia.jpg",
      "call": "media/calls/pytilia-green-winged.mp3",
-     "bytes": 200592
+     "bytes": 200592,
+     "wide": 1
     },
     {
      "id": "red-billed-quelea",
@@ -438,7 +496,8 @@ window.AGA_DATA = {
      "group": "Quelea",
      "photo": "media/birds/red-billed-quelea.jpg",
      "call": "media/calls/b-red-billed-quelea.mp3",
-     "bytes": 61236
+     "bytes": 61236,
+     "wide": 1
     },
     {
      "id": "eastern-bearded-scrub-robin",
@@ -446,7 +505,8 @@ window.AGA_DATA = {
      "group": "Scrub-Robin",
      "photo": "media/birds/eastern-bearded-scrub-robin.jpg",
      "call": "media/calls/scrub-robin-eastern-bearded.mp3",
-     "bytes": 187992
+     "bytes": 187992,
+     "wide": 1
     },
     {
      "id": "white-browed-robin-chat",
@@ -462,7 +522,8 @@ window.AGA_DATA = {
      "group": "Roller",
      "photo": "media/birds/broad-billed-roller.jpg",
      "call": "media/calls/roller-broad-billed.mp3",
-     "bytes": 193788
+     "bytes": 193788,
+     "wide": 1
     },
     {
      "id": "purple-roller",
@@ -470,7 +531,8 @@ window.AGA_DATA = {
      "group": "Roller",
      "photo": "media/birds/purple-roller.jpg",
      "call": "media/calls/b-purple-roller.mp3",
-     "bytes": 81144
+     "bytes": 81144,
+     "wide": 1
     },
     {
      "id": "racket-tailed-roller",
@@ -478,7 +540,8 @@ window.AGA_DATA = {
      "group": "Roller",
      "photo": "media/birds/racket-tailed-roller.jpg",
      "call": "media/calls/roller-racket-tailed.mp3",
-     "bytes": 227304
+     "bytes": 227304,
+     "wide": 1
     },
     {
      "id": "kalahari-scrub-robin",
@@ -486,7 +549,8 @@ window.AGA_DATA = {
      "group": "Scrub-Robin",
      "photo": "media/birds/kalahari-scrub-robin.jpg",
      "call": "media/calls/scrub-robin-kalahari.mp3",
-     "bytes": 217728
+     "bytes": 217728,
+     "wide": 1
     },
     {
      "id": "chestnut-backed-sparrowlark",
@@ -494,7 +558,8 @@ window.AGA_DATA = {
      "group": "Sparrowlark",
      "photo": "media/birds/chestnut-backed-sparrowlark.jpg",
      "call": "media/calls/b-chestnut-backed-sparrowlark.mp3",
-     "bytes": 57456
+     "bytes": 57456,
+     "wide": 1
     },
     {
      "id": "burchells-starling",
@@ -502,7 +567,8 @@ window.AGA_DATA = {
      "group": "Starling",
      "photo": "media/birds/burchells-starling.jpg",
      "call": "media/calls/starling-burchells.mp3",
-     "bytes": 167580
+     "bytes": 167580,
+     "wide": 1
     },
     {
      "id": "greater-blue-eared-starling",
@@ -510,7 +576,8 @@ window.AGA_DATA = {
      "group": "Starling",
      "photo": "media/birds/greater-blue-eared-starling.jpg",
      "call": "media/calls/starling-greater-blue-eared.mp3",
-     "bytes": 184968
+     "bytes": 184968,
+     "wide": 1
     },
     {
      "id": "mevess-starling",
@@ -518,7 +585,8 @@ window.AGA_DATA = {
      "group": "Starling",
      "photo": "media/birds/mevess-starling.jpg",
      "call": "media/calls/starling-mevess.mp3",
-     "bytes": 194040
+     "bytes": 194040,
+     "wide": 1
     },
     {
      "id": "violet-backed-starling",
@@ -526,7 +594,8 @@ window.AGA_DATA = {
      "group": "Starling",
      "photo": "media/birds/violet-backed-starling.jpg",
      "call": "media/calls/starling-violet-backed.mp3",
-     "bytes": 199584
+     "bytes": 199584,
+     "wide": 1
     },
     {
      "id": "purple-banded-sunbird",
@@ -534,7 +603,8 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "photo": "media/birds/purple-banded-sunbird.jpg",
      "call": "media/calls/sunbird-purple-banded.mp3",
-     "bytes": 194544
+     "bytes": 194544,
+     "wide": 1
     },
     {
      "id": "grey-rumped-swallow",
@@ -542,7 +612,8 @@ window.AGA_DATA = {
      "group": "Swallow",
      "photo": "media/birds/grey-rumped-swallow.jpg",
      "call": "media/calls/b-grey-rumped-swallow.mp3",
-     "bytes": 48384
+     "bytes": 48384,
+     "wide": 1
     },
     {
      "id": "lesser-striped-swallow",
@@ -550,7 +621,8 @@ window.AGA_DATA = {
      "group": "Swallow",
      "photo": "media/birds/lesser-striped-swallow.jpg",
      "call": "media/calls/b-lesser-striped-swallow.mp3",
-     "bytes": 60480
+     "bytes": 60480,
+     "wide": 1
     },
     {
      "id": "red-breasted-swallow",
@@ -558,7 +630,8 @@ window.AGA_DATA = {
      "group": "Swallow",
      "photo": "media/birds/red-breasted-swallow.jpg",
      "call": "media/calls/b-red-breasted-swallow.mp3",
-     "bytes": 71820
+     "bytes": 71820,
+     "wide": 1
     },
     {
      "id": "wire-tailed-swallow",
@@ -566,7 +639,8 @@ window.AGA_DATA = {
      "group": "Swallow",
      "photo": "media/birds/wire-tailed-swallow.jpg",
      "call": "media/calls/b-wire-tailed-swallow.mp3",
-     "bytes": 48636
+     "bytes": 48636,
+     "wide": 1
     },
     {
      "id": "lappet-faced-vulture",
@@ -574,7 +648,8 @@ window.AGA_DATA = {
      "group": "Vulture",
      "photo": "media/birds/lappet-faced-vulture.jpg",
      "call": "media/calls/b-lappet-faced-vulture.mp3",
-     "bytes": 44100
+     "bytes": 44100,
+     "wide": 1
     },
     {
      "id": "white-headed-vulture",
@@ -582,7 +657,8 @@ window.AGA_DATA = {
      "group": "Vulture",
      "photo": "media/birds/white-headed-vulture.jpg",
      "call": "",
-     "bytes": 0
+     "bytes": 0,
+     "wide": 1
     },
     {
      "id": "black-faced-waxbill",
@@ -590,7 +666,8 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "photo": "media/birds/black-faced-waxbill.jpg",
      "call": "media/calls/waxbill-black-faced.mp3",
-     "bytes": 193788
+     "bytes": 193788,
+     "wide": 1
     },
     {
      "id": "violet-eared-waxbill",
@@ -598,7 +675,8 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "photo": "media/birds/violet-eared-waxbill.jpg",
      "call": "media/calls/waxbill-violet-eared.mp3",
-     "bytes": 173880
+     "bytes": 173880,
+     "wide": 1
     },
     {
      "id": "red-headed-weaver",
@@ -606,7 +684,8 @@ window.AGA_DATA = {
      "group": "Weaver",
      "photo": "media/birds/red-headed-weaver.jpg",
      "call": "media/calls/b-red-headed-weaver.mp3",
-     "bytes": 76860
+     "bytes": 76860,
+     "wide": 1
     },
     {
      "id": "common-whitethroat",
@@ -614,7 +693,8 @@ window.AGA_DATA = {
      "group": "Whitethroat",
      "photo": "media/birds/common-whitethroat.jpg",
      "call": "media/calls/b-common-whitethroat.mp3",
-     "bytes": 60228
+     "bytes": 60228,
+     "wide": 1
     }
    ]
   },
@@ -630,7 +710,8 @@ window.AGA_DATA = {
      "group": "Ostrich",
      "photo": "media/prominent40/ostrich.jpg",
      "call": "media/prominent40/ostrich.mp3",
-     "bytes": 175392
+     "bytes": 175392,
+     "wide": 1
     },
     {
      "id": "prominent-swainsons-spurfowl",
@@ -638,7 +719,8 @@ window.AGA_DATA = {
      "group": "Spurfowl",
      "photo": "media/prominent40/swainsons-spurfowl.jpg",
      "call": "media/prominent40/swainsons-spurfowl.mp3",
-     "bytes": 191268
+     "bytes": 191268,
+     "wide": 1
     },
     {
      "id": "prominent-red-billed-spurfowl",
@@ -646,7 +728,8 @@ window.AGA_DATA = {
      "group": "Spurfowl",
      "photo": "media/prominent40/red-billed-spurfowl.jpg",
      "call": "media/prominent40/red-billed-spurfowl.mp3",
-     "bytes": 206640
+     "bytes": 206640,
+     "wide": 1
     },
     {
      "id": "prominent-helmeted-guineafowl",
@@ -654,7 +737,8 @@ window.AGA_DATA = {
      "group": "Guineafowl",
      "photo": "media/prominent40/helmeted-guineafowl.jpg",
      "call": "media/prominent40/helmeted-guineafowl.mp3",
-     "bytes": 195300
+     "bytes": 195300,
+     "wide": 1
     },
     {
      "id": "prominent-white-faced-duck",
@@ -662,7 +746,8 @@ window.AGA_DATA = {
      "group": "Duck",
      "photo": "media/prominent40/white-faced-duck.jpg",
      "call": "media/prominent40/white-faced-duck.mp3",
-     "bytes": 202608
+     "bytes": 202608,
+     "wide": 1
     },
     {
      "id": "prominent-spur-winged-goose",
@@ -670,7 +755,8 @@ window.AGA_DATA = {
      "group": "Goose",
      "photo": "media/prominent40/spur-winged-goose.jpg",
      "call": "media/prominent40/spur-winged-goose.mp3",
-     "bytes": 234360
+     "bytes": 234360,
+     "wide": 1
     },
     {
      "id": "prominent-egyptian-goose",
@@ -678,7 +764,8 @@ window.AGA_DATA = {
      "group": "Goose",
      "photo": "media/prominent40/egyptian-goose.jpg",
      "call": "media/prominent40/egyptian-goose.mp3",
-     "bytes": 214956
+     "bytes": 214956,
+     "wide": 1
     },
     {
      "id": "prominent-greater-honeyguide",
@@ -686,7 +773,8 @@ window.AGA_DATA = {
      "group": "Honeyguide",
      "photo": "media/prominent40/greater-honeyguide.jpg",
      "call": "media/prominent40/greater-honeyguide.mp3",
-     "bytes": 214452
+     "bytes": 214452,
+     "wide": 1
     },
     {
      "id": "prominent-bennetts-woodpecker",
@@ -694,7 +782,8 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "photo": "media/prominent40/bennetts-woodpecker.jpg",
      "call": "media/prominent40/bennetts-woodpecker.mp3",
-     "bytes": 147168
+     "bytes": 147168,
+     "wide": 1
     },
     {
      "id": "prominent-southern-yellow-billed-hornbill",
@@ -702,7 +791,8 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "photo": "media/prominent40/southern-yellow-billed-hornbill.jpg",
      "call": "media/prominent40/southern-yellow-billed-hornbill.mp3",
-     "bytes": 216216
+     "bytes": 216216,
+     "wide": 1
     },
     {
      "id": "prominent-southern-ground-hornbill",
@@ -710,7 +800,8 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "photo": "media/prominent40/southern-ground-hornbill.jpg",
      "call": "media/prominent40/southern-ground-hornbill.mp3",
-     "bytes": 227304
+     "bytes": 227304,
+     "wide": 1
     },
     {
      "id": "prominent-african-hoopoe",
@@ -718,7 +809,8 @@ window.AGA_DATA = {
      "group": "Hoopoe",
      "photo": "media/prominent40/african-hoopoe.jpg",
      "call": "media/prominent40/african-hoopoe.mp3",
-     "bytes": 197568
+     "bytes": 197568,
+     "wide": 1
     },
     {
      "id": "prominent-lilac-breasted-roller",
@@ -726,7 +818,8 @@ window.AGA_DATA = {
      "group": "Roller",
      "photo": "media/prominent40/lilac-breasted-roller.jpg",
      "call": "media/prominent40/lilac-breasted-roller.mp3",
-     "bytes": 206640
+     "bytes": 206640,
+     "wide": 1
     },
     {
      "id": "prominent-pied-kingfisher",
@@ -734,7 +827,8 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "photo": "media/prominent40/pied-kingfisher.jpg",
      "call": "media/prominent40/pied-kingfisher.mp3",
-     "bytes": 177660
+     "bytes": 177660,
+     "wide": 1
     },
     {
      "id": "prominent-southern-carmine-bee-eater",
@@ -742,7 +836,8 @@ window.AGA_DATA = {
      "group": "eater",
      "photo": "media/prominent40/southern-carmine-bee-eater.jpg",
      "call": "media/prominent40/southern-carmine-bee-eater.mp3",
-     "bytes": 198324
+     "bytes": 198324,
+     "wide": 1
     },
     {
      "id": "prominent-levaillants-cuckoo",
@@ -750,7 +845,8 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "photo": "media/prominent40/levaillants-cuckoo.jpg",
      "call": "media/prominent40/levaillants-cuckoo.mp3",
-     "bytes": 198324
+     "bytes": 198324,
+     "wide": 1
     },
     {
      "id": "prominent-senegal-coucal",
@@ -758,7 +854,8 @@ window.AGA_DATA = {
      "group": "Coucal",
      "photo": "media/prominent40/senegal-coucal.jpg",
      "call": "media/prominent40/senegal-coucal.mp3",
-     "bytes": 187236
+     "bytes": 187236,
+     "wide": 1
     },
     {
      "id": "prominent-meyers-parrot",
@@ -766,7 +863,8 @@ window.AGA_DATA = {
      "group": "Parrot",
      "photo": "media/prominent40/meyers-parrot.jpg",
      "call": "media/prominent40/meyers-parrot.mp3",
-     "bytes": 160020
+     "bytes": 160020,
+     "wide": 1
     },
     {
      "id": "prominent-palm-swift",
@@ -774,7 +872,8 @@ window.AGA_DATA = {
      "group": "Swift",
      "photo": "media/prominent40/palm-swift.jpg",
      "call": "",
-     "bytes": 0
+     "bytes": 0,
+     "wide": 1
     },
     {
      "id": "prominent-grey-go-away-bird",
@@ -782,7 +881,8 @@ window.AGA_DATA = {
      "group": "bird",
      "photo": "media/prominent40/grey-go-away-bird.jpg",
      "call": "media/prominent40/grey-go-away-bird.mp3",
-     "bytes": 185724
+     "bytes": 185724,
+     "wide": 1
     },
     {
      "id": "prominent-verreauxs-eagle-owl",
@@ -790,7 +890,8 @@ window.AGA_DATA = {
      "group": "Owl",
      "photo": "media/prominent40/verreauxs-eagle-owl.jpg",
      "call": "media/prominent40/verreauxs-eagle-owl.mp3",
-     "bytes": 197064
+     "bytes": 197064,
+     "wide": 1
     },
     {
      "id": "prominent-cape-turtle-dove",
@@ -798,7 +899,8 @@ window.AGA_DATA = {
      "group": "Dove",
      "photo": "media/prominent40/cape-turtle-dove.jpg",
      "call": "media/prominent40/cape-turtle-dove.mp3",
-     "bytes": 247212
+     "bytes": 247212,
+     "wide": 1
     },
     {
      "id": "prominent-kori-bustard",
@@ -806,7 +908,8 @@ window.AGA_DATA = {
      "group": "Bustard",
      "photo": "media/prominent40/kori-bustard.jpg",
      "call": "media/prominent40/kori-bustard.mp3",
-     "bytes": 174132
+     "bytes": 174132,
+     "wide": 1
     },
     {
      "id": "prominent-wattled-crane",
@@ -814,7 +917,8 @@ window.AGA_DATA = {
      "group": "Crane",
      "photo": "media/prominent40/wattled-crane.jpg",
      "call": "media/prominent40/wattled-crane.mp3",
-     "bytes": 183708
+     "bytes": 183708,
+     "wide": 1
     },
     {
      "id": "prominent-burchells-sandgrouse",
@@ -822,7 +926,8 @@ window.AGA_DATA = {
      "group": "Sandgrouse",
      "photo": "media/prominent40/burchells-sandgrouse.jpg",
      "call": "media/prominent40/burchells-sandgrouse.mp3",
-     "bytes": 149436
+     "bytes": 149436,
+     "wide": 1
     },
     {
      "id": "prominent-wood-sandpiper",
@@ -830,7 +935,8 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "photo": "media/prominent40/wood-sandpiper.jpg",
      "call": "media/prominent40/wood-sandpiper.mp3",
-     "bytes": 178668
+     "bytes": 178668,
+     "wide": 1
     },
     {
      "id": "prominent-african-jacana",
@@ -838,7 +944,8 @@ window.AGA_DATA = {
      "group": "Jacana",
      "photo": "media/prominent40/african-jacana.jpg",
      "call": "media/prominent40/african-jacana.mp3",
-     "bytes": 220752
+     "bytes": 220752,
+     "wide": 1
     },
     {
      "id": "prominent-water-thick-knee",
@@ -846,7 +953,8 @@ window.AGA_DATA = {
      "group": "knee",
      "photo": "media/prominent40/water-thick-knee.jpg",
      "call": "media/prominent40/water-thick-knee.mp3",
-     "bytes": 187236
+     "bytes": 187236,
+     "wide": 1
     },
     {
      "id": "prominent-gabar-goshawk",
@@ -854,7 +962,11 @@ window.AGA_DATA = {
      "group": "Goshawk",
      "photo": "media/prominent40/gabar-goshawk.jpg",
      "call": "media/prominent40/gabar-goshawk.mp3",
-     "bytes": 197820
+     "bytes": 197820,
+     "credit": "",
+     "license": "AGA",
+     "src": "",
+     "wide": 1
     },
     {
      "id": "prominent-african-fish-eagle",
@@ -862,7 +974,8 @@ window.AGA_DATA = {
      "group": "Eagle",
      "photo": "media/prominent40/african-fish-eagle.jpg",
      "call": "media/prominent40/african-fish-eagle.mp3",
-     "bytes": 171612
+     "bytes": 171612,
+     "wide": 1
     },
     {
      "id": "prominent-tawny-eagle",
@@ -870,7 +983,8 @@ window.AGA_DATA = {
      "group": "Eagle",
      "photo": "media/prominent40/tawny-eagle.jpg",
      "call": "media/prominent40/tawny-eagle.mp3",
-     "bytes": 190008
+     "bytes": 190008,
+     "wide": 1
     },
     {
      "id": "prominent-white-backed-vulture",
@@ -878,7 +992,8 @@ window.AGA_DATA = {
      "group": "Vulture",
      "photo": "media/prominent40/white-backed-vulture.jpg",
      "call": "media/prominent40/white-backed-vulture.mp3",
-     "bytes": 173628
+     "bytes": 173628,
+     "wide": 1
     },
     {
      "id": "prominent-great-egret",
@@ -886,7 +1001,8 @@ window.AGA_DATA = {
      "group": "Egret",
      "photo": "media/prominent40/great-egret.jpg",
      "call": "media/prominent40/great-egret.mp3",
-     "bytes": 193032
+     "bytes": 193032,
+     "wide": 1
     },
     {
      "id": "prominent-hamerkop",
@@ -894,7 +1010,8 @@ window.AGA_DATA = {
      "group": "Hamerkop",
      "photo": "media/prominent40/hamerkop.jpg",
      "call": "media/prominent40/hamerkop.mp3",
-     "bytes": 197568
+     "bytes": 197568,
+     "wide": 1
     },
     {
      "id": "prominent-african-spoonbill",
@@ -902,7 +1019,8 @@ window.AGA_DATA = {
      "group": "Spoonbill",
      "photo": "media/prominent40/african-spoonbill.jpg",
      "call": "media/prominent40/african-spoonbill.mp3",
-     "bytes": 155232
+     "bytes": 155232,
+     "wide": 1
     },
     {
      "id": "prominent-great-white-pelican",
@@ -910,7 +1028,8 @@ window.AGA_DATA = {
      "group": "Pelican",
      "photo": "media/prominent40/great-white-pelican.jpg",
      "call": "media/prominent40/great-white-pelican.mp3",
-     "bytes": 176904
+     "bytes": 176904,
+     "wide": 1
     },
     {
      "id": "prominent-african-openbill",
@@ -918,7 +1037,8 @@ window.AGA_DATA = {
      "group": "Openbill",
      "photo": "media/prominent40/african-openbill.jpg",
      "call": "media/prominent40/african-openbill.mp3",
-     "bytes": 197316
+     "bytes": 197316,
+     "wide": 1
     },
     {
      "id": "prominent-fork-tailed-drongo",
@@ -926,7 +1046,8 @@ window.AGA_DATA = {
      "group": "Drongo",
      "photo": "media/prominent40/fork-tailed-drongo.jpg",
      "call": "media/prominent40/fork-tailed-drongo.mp3",
-     "bytes": 282492
+     "bytes": 282492,
+     "wide": 1
     },
     {
      "id": "prominent-burchells-starling",
@@ -934,7 +1055,8 @@ window.AGA_DATA = {
      "group": "Starling",
      "photo": "media/prominent40/burchells-starling.jpg",
      "call": "media/prominent40/burchells-starling.mp3",
-     "bytes": 171108
+     "bytes": 171108,
+     "wide": 1
     },
     {
      "id": "prominent-southern-masked-weaver",
@@ -942,7 +1064,8 @@ window.AGA_DATA = {
      "group": "Weaver",
      "photo": "media/prominent40/southern-masked-weaver.jpg",
      "call": "media/prominent40/southern-masked-weaver.mp3",
-     "bytes": 186480
+     "bytes": 186480,
+     "wide": 1
     }
    ]
   },
@@ -958,7 +1081,8 @@ window.AGA_DATA = {
      "group": "Barbet",
      "photo": "media/kwapa63/black-collared-barbet.jpg",
      "call": "media/kwapa63/black-collared-barbet.mp3",
-     "bytes": 75348
+     "bytes": 75348,
+     "wide": 1
     },
     {
      "id": "kwapa-white-browed-sparrow-weaver",
@@ -966,7 +1090,8 @@ window.AGA_DATA = {
      "group": "weaver",
      "photo": "media/kwapa63/white-browed-sparrow-weaver.jpg",
      "call": "media/kwapa63/white-browed-sparrow-weaver.mp3",
-     "bytes": 71568
+     "bytes": 71568,
+     "wide": 1
     },
     {
      "id": "kwapa-red-billed-spurfowl",
@@ -974,7 +1099,8 @@ window.AGA_DATA = {
      "group": "Spurfowl",
      "photo": "media/kwapa63/red-billed-spurfowl.jpg",
      "call": "media/kwapa63/red-billed-spurfowl.mp3",
-     "bytes": 206640
+     "bytes": 206640,
+     "wide": 1
     },
     {
      "id": "kwapa-helmeted-guineafowl",
@@ -982,7 +1108,8 @@ window.AGA_DATA = {
      "group": "Guineafowl",
      "photo": "media/kwapa63/helmeted-guineafowl.jpg",
      "call": "media/kwapa63/helmeted-guineafowl.mp3",
-     "bytes": 195300
+     "bytes": 195300,
+     "wide": 1
     },
     {
      "id": "kwapa-white-faced-duck",
@@ -990,7 +1117,8 @@ window.AGA_DATA = {
      "group": "Duck",
      "photo": "media/kwapa63/white-faced-duck.jpg",
      "call": "media/kwapa63/white-faced-duck.mp3",
-     "bytes": 202608
+     "bytes": 202608,
+     "wide": 1
     },
     {
      "id": "kwapa-spur-winged-goose",
@@ -998,7 +1126,8 @@ window.AGA_DATA = {
      "group": "Goose",
      "photo": "media/kwapa63/spur-winged-goose.jpg",
      "call": "media/kwapa63/spur-winged-goose.mp3",
-     "bytes": 234360
+     "bytes": 234360,
+     "wide": 1
     },
     {
      "id": "kwapa-african-barred-owlet",
@@ -1014,7 +1143,8 @@ window.AGA_DATA = {
      "group": "Honeyguide",
      "photo": "media/kwapa63/greater-honeyguide.jpg",
      "call": "media/kwapa63/greater-honeyguide.mp3",
-     "bytes": 214452
+     "bytes": 214452,
+     "wide": 1
     },
     {
      "id": "kwapa-bennetts-woodpecker",
@@ -1022,7 +1152,8 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "photo": "media/kwapa63/bennetts-woodpecker.jpg",
      "call": "media/kwapa63/bennetts-woodpecker.mp3",
-     "bytes": 147168
+     "bytes": 147168,
+     "wide": 1
     },
     {
      "id": "kwapa-southern-yellow-billed-hornbill",
@@ -1030,7 +1161,8 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "photo": "media/kwapa63/southern-yellow-billed-hornbill.jpg",
      "call": "media/kwapa63/southern-yellow-billed-hornbill.mp3",
-     "bytes": 216216
+     "bytes": 216216,
+     "wide": 1
     },
     {
      "id": "kwapa-southern-ground-hornbill",
@@ -1038,7 +1170,8 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "photo": "media/kwapa63/southern-ground-hornbill.jpg",
      "call": "media/kwapa63/southern-ground-hornbill.mp3",
-     "bytes": 227304
+     "bytes": 227304,
+     "wide": 1
     },
     {
      "id": "kwapa-african-hoopoe",
@@ -1046,7 +1179,8 @@ window.AGA_DATA = {
      "group": "Hoopoe",
      "photo": "media/kwapa63/african-hoopoe.jpg",
      "call": "media/kwapa63/african-hoopoe.mp3",
-     "bytes": 197568
+     "bytes": 197568,
+     "wide": 1
     },
     {
      "id": "kwapa-lilac-breasted-roller",
@@ -1054,7 +1188,8 @@ window.AGA_DATA = {
      "group": "Roller",
      "photo": "media/kwapa63/lilac-breasted-roller.jpg",
      "call": "media/kwapa63/lilac-breasted-roller.mp3",
-     "bytes": 206640
+     "bytes": 206640,
+     "wide": 1
     },
     {
      "id": "kwapa-southern-red-billed-hornbill",
@@ -1070,7 +1205,8 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "photo": "media/kwapa63/levaillants-cuckoo.jpg",
      "call": "media/kwapa63/levaillants-cuckoo.mp3",
-     "bytes": 198324
+     "bytes": 198324,
+     "wide": 1
     },
     {
      "id": "kwapa-crested-barbet",
@@ -1078,7 +1214,8 @@ window.AGA_DATA = {
      "group": "Barbet",
      "photo": "media/kwapa63/crested-barbet.jpg",
      "call": "media/kwapa63/crested-barbet.mp3",
-     "bytes": 39564
+     "bytes": 39564,
+     "wide": 1
     },
     {
      "id": "kwapa-meyers-parrot",
@@ -1086,7 +1223,8 @@ window.AGA_DATA = {
      "group": "Parrot",
      "photo": "media/kwapa63/meyers-parrot.jpg",
      "call": "media/kwapa63/meyers-parrot.mp3",
-     "bytes": 160020
+     "bytes": 160020,
+     "wide": 1
     },
     {
      "id": "kwapa-chinspot-batis",
@@ -1094,7 +1232,8 @@ window.AGA_DATA = {
      "group": "Batis",
      "photo": "media/kwapa63/chinspot-batis.jpg",
      "call": "media/kwapa63/chinspot-batis.mp3",
-     "bytes": 88200
+     "bytes": 88200,
+     "wide": 1
     },
     {
      "id": "kwapa-grey-go-away-bird",
@@ -1102,7 +1241,8 @@ window.AGA_DATA = {
      "group": "bird",
      "photo": "media/kwapa63/grey-go-away-bird.jpg",
      "call": "media/kwapa63/grey-go-away-bird.mp3",
-     "bytes": 185724
+     "bytes": 185724,
+     "wide": 1
     },
     {
      "id": "kwapa-verreauxs-eagle-owl",
@@ -1110,7 +1250,8 @@ window.AGA_DATA = {
      "group": "Owl",
      "photo": "media/kwapa63/verreauxs-eagle-owl.jpg",
      "call": "media/kwapa63/verreauxs-eagle-owl.mp3",
-     "bytes": 197064
+     "bytes": 197064,
+     "wide": 1
     },
     {
      "id": "kwapa-european-bee-eater",
@@ -1118,7 +1259,8 @@ window.AGA_DATA = {
      "group": "eater",
      "photo": "media/kwapa63/european-bee-eater.jpg",
      "call": "media/kwapa63/european-bee-eater.mp3",
-     "bytes": 20160
+     "bytes": 20160,
+     "wide": 1
     },
     {
      "id": "kwapa-yellow-breasted-apalis",
@@ -1126,7 +1268,8 @@ window.AGA_DATA = {
      "group": "Apalis",
      "photo": "media/kwapa63/yellow-breasted-apalis.jpg",
      "call": "media/kwapa63/yellow-breasted-apalis.mp3",
-     "bytes": 30996
+     "bytes": 30996,
+     "wide": 1
     },
     {
      "id": "kwapa-wattled-crane",
@@ -1134,7 +1277,8 @@ window.AGA_DATA = {
      "group": "Crane",
      "photo": "media/kwapa63/wattled-crane.jpg",
      "call": "media/kwapa63/wattled-crane.mp3",
-     "bytes": 183708
+     "bytes": 183708,
+     "wide": 1
     },
     {
      "id": "kwapa-double-banded-sandgrouse",
@@ -1142,7 +1286,8 @@ window.AGA_DATA = {
      "group": "Sandgrouse",
      "photo": "media/kwapa63/double-banded-sandgrouse.jpg",
      "call": "media/kwapa63/double-banded-sandgrouse.mp3",
-     "bytes": 40068
+     "bytes": 40068,
+     "wide": 1
     },
     {
      "id": "kwapa-wood-sandpiper",
@@ -1150,7 +1295,8 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "photo": "media/kwapa63/wood-sandpiper.jpg",
      "call": "media/kwapa63/wood-sandpiper.mp3",
-     "bytes": 178668
+     "bytes": 178668,
+     "wide": 1
     },
     {
      "id": "kwapa-dark-capped-bulbul",
@@ -1158,7 +1304,8 @@ window.AGA_DATA = {
      "group": "Bulbul",
      "photo": "media/kwapa63/dark-capped-bulbul.jpg",
      "call": "media/kwapa63/dark-capped-bulbul.mp3",
-     "bytes": 94500
+     "bytes": 94500,
+     "wide": 1
     },
     {
      "id": "kwapa-brubru",
@@ -1182,7 +1329,8 @@ window.AGA_DATA = {
      "group": "Eagle",
      "photo": "media/kwapa63/african-fish-eagle.jpg",
      "call": "media/kwapa63/african-fish-eagle.mp3",
-     "bytes": 171612
+     "bytes": 171612,
+     "wide": 1
     },
     {
      "id": "kwapa-grey-backed-camaroptera",
@@ -1198,7 +1346,8 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "photo": "media/kwapa63/rattling-cisticola.jpg",
      "call": "media/kwapa63/rattling-cisticola.mp3",
-     "bytes": 74340
+     "bytes": 74340,
+     "wide": 1
     },
     {
      "id": "kwapa-zitting-cisticola",
@@ -1230,7 +1379,8 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "photo": "media/kwapa63/ashy-flycatcher.jpg",
      "call": "media/kwapa63/ashy-flycatcher.mp3",
-     "bytes": 67032
+     "bytes": 67032,
+     "wide": 1
     },
     {
      "id": "kwapa-red-billed-firefinch",
@@ -1238,15 +1388,17 @@ window.AGA_DATA = {
      "group": "Firefinch",
      "photo": "media/kwapa63/red-billed-firefinch.jpg",
      "call": "media/kwapa63/red-billed-firefinch.mp3",
-     "bytes": 41832
+     "bytes": 41832,
+     "wide": 1
     },
     {
      "id": "kwapa-crested-francolin",
-     "name": "Crested Francolin",
-     "group": "Francolin",
+     "name": "Crested Spurfowl",
+     "group": "Spurfowl",
      "photo": "media/kwapa63/crested-francolin.jpg",
      "call": "media/kwapa63/crested-francolin.mp3",
-     "bytes": 71316
+     "bytes": 71316,
+     "wide": 1
     },
     {
      "id": "kwapa-arrow-marked-babbler",
@@ -1254,15 +1406,19 @@ window.AGA_DATA = {
      "group": "Babbler",
      "photo": "media/kwapa63/arrow-marked-babbler.jpg",
      "call": "media/kwapa63/arrow-marked-babbler.mp3",
-     "bytes": 78372
+     "bytes": 78372,
+     "wide": 1
     },
     {
      "id": "kwapa-eurasian-golden-oriole",
      "name": "Eurasian Golden Oriole",
      "group": "Oriole",
-     "photo": "media/kwapa63/eurasian-golden-oriole.jpg",
+     "photo": "media/bird-replacements/eurasian-golden-oriole.jpg",
      "call": "media/kwapa63/eurasian-golden-oriole.mp3",
-     "bytes": 58464
+     "bytes": 58464,
+     "credit": "© Christiaan Viljoen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/135159639"
     },
     {
      "id": "kwapa-african-green-pigeon",
@@ -1294,7 +1450,8 @@ window.AGA_DATA = {
      "group": "Korhaan",
      "photo": "media/kwapa63/red-crested-korhaan.jpg",
      "call": "media/kwapa63/red-crested-korhaan.mp3",
-     "bytes": 81396
+     "bytes": 81396,
+     "wide": 1
     },
     {
      "id": "kwapa-red-billed-oxpecker",
@@ -1302,7 +1459,8 @@ window.AGA_DATA = {
      "group": "Oxpecker",
      "photo": "media/kwapa63/red-billed-oxpecker.jpg",
      "call": "media/kwapa63/red-billed-oxpecker.mp3",
-     "bytes": 76104
+     "bytes": 76104,
+     "wide": 1
     },
     {
      "id": "kwapa-yellow-billed-oxpecker",
@@ -1310,7 +1468,8 @@ window.AGA_DATA = {
      "group": "Oxpecker",
      "photo": "media/kwapa63/yellow-billed-oxpecker.jpg",
      "call": "media/kwapa63/yellow-billed-oxpecker.mp3",
-     "bytes": 60228
+     "bytes": 60228,
+     "wide": 1
     },
     {
      "id": "kwapa-tawny-flanked-prinia",
@@ -1318,7 +1477,8 @@ window.AGA_DATA = {
      "group": "Prinia",
      "photo": "media/kwapa63/tawny-flanked-prinia.jpg",
      "call": "media/kwapa63/tawny-flanked-prinia.mp3",
-     "bytes": 44352
+     "bytes": 44352,
+     "wide": 1
     },
     {
      "id": "kwapa-crowned-lapwing",
@@ -1326,7 +1486,8 @@ window.AGA_DATA = {
      "group": "Lapwing",
      "photo": "media/kwapa63/crowned-lapwing.jpg",
      "call": "media/kwapa63/crowned-lapwing.mp3",
-     "bytes": 76356
+     "bytes": 76356,
+     "wide": 1
     },
     {
      "id": "kwapa-pearl-spotted-owlet",
@@ -1342,7 +1503,8 @@ window.AGA_DATA = {
      "group": "Shrike",
      "photo": "media/kwapa63/crimson-breasted-shrike.jpg",
      "call": "media/kwapa63/crimson-breasted-shrike.mp3",
-     "bytes": 86184
+     "bytes": 86184,
+     "wide": 1
     },
     {
      "id": "kwapa-magpie-shrike",
@@ -1350,7 +1512,8 @@ window.AGA_DATA = {
      "group": "Shrike",
      "photo": "media/kwapa63/magpie-shrike.jpg",
      "call": "media/kwapa63/magpie-shrike.mp3",
-     "bytes": 68040
+     "bytes": 68040,
+     "wide": 1
     },
     {
      "id": "kwapa-southern-white-crowned-shrike",
@@ -1382,7 +1545,8 @@ window.AGA_DATA = {
      "group": "Tchagra",
      "photo": "media/kwapa63/black-crowned-tchagra.jpg",
      "call": "media/kwapa63/black-crowned-tchagra.mp3",
-     "bytes": 128016
+     "bytes": 128016,
+     "wide": 1
     },
     {
      "id": "kwapa-southern-black-tit",
@@ -1390,7 +1554,8 @@ window.AGA_DATA = {
      "group": "Tit",
      "photo": "media/kwapa63/southern-black-tit.jpg",
      "call": "media/kwapa63/southern-black-tit.mp3",
-     "bytes": 67788
+     "bytes": 67788,
+     "wide": 1
     },
     {
      "id": "kwapa-blue-waxbill",
@@ -1398,7 +1563,8 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "photo": "media/kwapa63/blue-waxbill.jpg",
      "call": "media/kwapa63/blue-waxbill.mp3",
-     "bytes": 75096
+     "bytes": 75096,
+     "wide": 1
     },
     {
      "id": "kwapa-bearded-woodpecker",
@@ -1418,11 +1584,12 @@ window.AGA_DATA = {
     },
     {
      "id": "kwapa-diederik-cuckoo",
-     "name": "Diederik Cuckoo",
+     "name": "Dideric Cuckoo",
      "group": "Cuckoo",
      "photo": "media/kwapa63/diederik-cuckoo.jpg",
      "call": "media/kwapa63/diederik-cuckoo.mp3",
-     "bytes": 28980
+     "bytes": 28980,
+     "wide": 1
     },
     {
      "id": "kwapa-golden-tailed-woodpecker",
@@ -1430,7 +1597,8 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "photo": "media/kwapa63/golden-tailed-woodpecker.jpg",
      "call": "media/kwapa63/golden-tailed-woodpecker.mp3",
-     "bytes": 27468
+     "bytes": 27468,
+     "wide": 1
     },
     {
      "id": "kwapa-blacksmith-lapwing",
@@ -1444,9 +1612,12 @@ window.AGA_DATA = {
      "id": "kwapa-coppery-tailed-coucal",
      "name": "Coppery-tailed Coucal",
      "group": "Coucal",
-     "photo": "media/kwapa63/coppery-tailed-coucal.jpg",
+     "photo": "media/bird-replacements/coppery-tailed-coucal.jpg",
      "call": "media/kwapa63/coppery-tailed-coucal.mp3",
-     "bytes": 43344
+     "bytes": 43344,
+     "credit": "© Wynand Uys",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/10879030"
     }
    ]
   },
@@ -1521,7 +1692,8 @@ window.AGA_DATA = {
      "call": "media/calls/babbler-arrow-marked.mp3",
      "photo": "media/birds/arrow-marked-babbler.jpg",
      "bytes": 231084,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "babbler-bare-cheeked",
@@ -1712,17 +1884,18 @@ window.AGA_DATA = {
      "name": "Swamp Boubou",
      "group": "Boubou",
      "call": "media/calls/boubou-swamp.mp3",
-     "photo": "",
-     "bytes": 194040
+     "photo": "media/birds/tropical-boubou.jpg",
+     "bytes": 194040,
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "boubou-tropical",
      "name": "Tropical Boubou",
      "group": "Boubou",
      "call": "media/calls/boubou-tropical.mp3",
-     "photo": "media/birds/tropical-boubou.jpg",
-     "bytes": 206640,
-     "f": 1
+     "photo": "",
+     "bytes": 206640
     },
     {
      "id": "broadbill-african",
@@ -1843,7 +2016,8 @@ window.AGA_DATA = {
      "call": "media/calls/bushshrike-orange-breasted.mp3",
      "photo": "media/birds/orange-breasted-bush-shrike.jpg",
      "bytes": 174132,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "bustard-barrows",
@@ -1916,7 +2090,8 @@ window.AGA_DATA = {
      "call": "media/calls/camaroptera-grey-backed.mp3",
      "photo": "media/birds/grey-backed-camaroptera.jpg",
      "bytes": 186984,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "canary-black-eared",
@@ -2021,7 +2196,8 @@ window.AGA_DATA = {
      "call": "media/calls/chat-arnots.mp3",
      "photo": "media/birds/arnots-chat.jpg",
      "bytes": 196812,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "chat-boulder",
@@ -2166,7 +2342,8 @@ window.AGA_DATA = {
      "call": "media/calls/cisticola-red-faced.mp3",
      "photo": "media/birds/red-faced-cisticola.jpg",
      "bytes": 192528,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "cisticola-rufous-winged",
@@ -2271,7 +2448,8 @@ window.AGA_DATA = {
      "call": "media/calls/courser-bronze-winged.mp3",
      "photo": "media/birds/bronze-winged-courser.jpg",
      "bytes": 190512,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "courser-three-banded",
@@ -2304,7 +2482,8 @@ window.AGA_DATA = {
      "call": "media/calls/crake-black.mp3",
      "photo": "media/birds/black-crake.jpg",
      "bytes": 192024,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "crake-spotted",
@@ -2369,7 +2548,8 @@ window.AGA_DATA = {
      "call": "media/calls/cuckoo-african.mp3",
      "photo": "media/birds/african-cuckoo.jpg",
      "bytes": 172620,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "cuckoo-barred",
@@ -2386,7 +2566,8 @@ window.AGA_DATA = {
      "call": "media/calls/cuckoo-black.mp3",
      "photo": "media/birds/black-cuckoo.jpg",
      "bytes": 192024,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "cuckoo-dideric",
@@ -2411,7 +2592,8 @@ window.AGA_DATA = {
      "call": "media/calls/cuckoo-great-spotted.mp3",
      "photo": "media/birds/great-spotted-cuckoo.jpg",
      "bytes": 174636,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "cuckoo-indian-lesser",
@@ -2444,7 +2626,8 @@ window.AGA_DATA = {
      "call": "media/calls/cuckoo-levaillants.mp3",
      "photo": "media/birds/levaillants-cuckoo.jpg",
      "bytes": 195300,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "cuckoo-madagascar",
@@ -2477,7 +2660,8 @@ window.AGA_DATA = {
      "call": "media/calls/cuckooshrike-black.mp3",
      "photo": "media/birds/black-cuckooshrike.jpg",
      "bytes": 197820,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "cuckooshrike-grey",
@@ -2494,7 +2678,8 @@ window.AGA_DATA = {
      "call": "media/calls/cuckooshrike-white-breasted.mp3",
      "photo": "media/birds/white-breasted-cuckooshrike.jpg",
      "bytes": 168588,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "dove-lemon",
@@ -2535,7 +2720,8 @@ window.AGA_DATA = {
      "call": "media/calls/eremomela-burnt-necked.mp3",
      "photo": "media/birds/burnt-necked-eremomela.jpg",
      "bytes": 177660,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "eremomela-green-capped",
@@ -2544,7 +2730,8 @@ window.AGA_DATA = {
      "call": "media/calls/eremomela-green-capped.mp3",
      "photo": "media/birds/green-capped-eremomela.jpg",
      "bytes": 194544,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "eremomela-karoo",
@@ -2697,7 +2884,8 @@ window.AGA_DATA = {
      "call": "media/calls/flycatcher-ashy.mp3",
      "photo": "media/birds/ashy-flycatcher.jpg",
      "bytes": 186228,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "flycatcher-black-and-white-shrike",
@@ -2746,7 +2934,8 @@ window.AGA_DATA = {
      "call": "media/calls/flycatcher-grey-tit.mp3",
      "photo": "media/birds/grey-tit-flycatcher.jpg",
      "bytes": 157248,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "flycatcher-livingstones",
@@ -2763,7 +2952,8 @@ window.AGA_DATA = {
      "call": "media/calls/flycatcher-marico.mp3",
      "photo": "media/birds/marico-flycatcher.jpg",
      "bytes": 187992,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "flycatcher-southern-black",
@@ -2772,7 +2962,8 @@ window.AGA_DATA = {
      "call": "media/calls/flycatcher-southern-black.mp3",
      "photo": "media/birds/southern-black-flycatcher.jpg",
      "bytes": 178920,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "flycatcher-white-tailed-crested",
@@ -2853,7 +3044,8 @@ window.AGA_DATA = {
      "call": "media/calls/gallinule-allens.mp3",
      "photo": "media/birds/allens-gallinule.jpg",
      "bytes": 213444,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "gallinule-purple",
@@ -2876,9 +3068,13 @@ window.AGA_DATA = {
      "name": "Gabar Goshawk",
      "group": "Goshawk",
      "call": "media/calls/goshawk-gabar.mp3",
-     "photo": "media/birds/gabar-goshawk.jpg",
+     "photo": "media/prominent40/gabar-goshawk.jpg",
      "bytes": 194292,
-     "f": 1
+     "f": 1,
+     "credit": "",
+     "license": "AGA",
+     "src": "",
+     "wide": 1
     },
     {
      "id": "grassbird-cape",
@@ -2959,7 +3155,8 @@ window.AGA_DATA = {
      "call": "media/calls/helmetshrike-retzs.mp3",
      "photo": "media/birds/retzs-helmet-shrike.jpg",
      "bytes": 218484,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "helmetshrike-white-crested",
@@ -3128,7 +3325,8 @@ window.AGA_DATA = {
      "call": "media/calls/kingfisher-grey-headed.mp3",
      "photo": "media/birds/grey-headed-kingfisher.jpg",
      "bytes": 121968,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "kingfisher-mangrove",
@@ -3177,7 +3375,8 @@ window.AGA_DATA = {
      "call": "media/calls/lark-dusky.mp3",
      "photo": "media/birds/dusky-lark.jpg",
      "bytes": 191268,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "lark-eastern-clapper",
@@ -3194,7 +3393,8 @@ window.AGA_DATA = {
      "call": "media/calls/lark-fawn-coloured.mp3",
      "photo": "media/birds/fawn-coloured-lark.jpg",
      "bytes": 173124,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "lark-fawncoloured-2",
@@ -3243,7 +3443,8 @@ window.AGA_DATA = {
      "call": "media/calls/lark-monotonous.mp3",
      "photo": "media/birds/monotonous-lark.jpg",
      "bytes": 190512,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "lark-pink-billed",
@@ -3452,7 +3653,8 @@ window.AGA_DATA = {
      "call": "media/calls/nightjar-pennant-winged.mp3",
      "photo": "media/birds/pennant-winged-nightjar.jpg",
      "bytes": 200088,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "nightjar-rufous-cheeked",
@@ -3509,7 +3711,8 @@ window.AGA_DATA = {
      "call": "media/calls/owl-african-scops.mp3",
      "photo": "media/birds/african-scops-owl.jpg",
      "bytes": 177156,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "owl-african-wood",
@@ -3558,7 +3761,8 @@ window.AGA_DATA = {
      "call": "media/calls/owl-pels-fishing.mp3",
      "photo": "media/birds/pels-fishing-owl.jpg",
      "bytes": 205632,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "owl-southern-white-faced",
@@ -3567,7 +3771,8 @@ window.AGA_DATA = {
      "call": "media/calls/owl-southern-white-faced.mp3",
      "photo": "media/birds/southern-white-faced-owl.jpg",
      "bytes": 196056,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "owl-spotted-eagle",
@@ -3592,7 +3797,8 @@ window.AGA_DATA = {
      "call": "media/calls/owlet-african-barred.mp3",
      "photo": "media/birds/african-barred-owlet.jpg",
      "bytes": 193284,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "owlet-pearl-spotted",
@@ -3617,7 +3823,8 @@ window.AGA_DATA = {
      "call": "media/calls/palm-thrush-collared.mp3",
      "photo": "media/birds/collared-palm-thrush.jpg",
      "bytes": 191268,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "palm-thrush-rufous-tailed",
@@ -3658,7 +3865,8 @@ window.AGA_DATA = {
      "call": "media/calls/petronia-yellow-throated.mp3",
      "photo": "media/birds/yellow-throated-petronia.jpg",
      "bytes": 203112,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "pigeon-african-green",
@@ -3667,7 +3875,8 @@ window.AGA_DATA = {
      "call": "media/calls/pigeon-african-green.mp3",
      "photo": "media/birds/african-green-pigeon.jpg",
      "bytes": 169344,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "pigeon-eastern-bronze-naped",
@@ -3828,7 +4037,8 @@ window.AGA_DATA = {
      "call": "media/calls/pytilia-green-winged.mp3",
      "photo": "media/birds/green-winged-pytilia.jpg",
      "bytes": 200592,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "pytilia-orange-winged",
@@ -3942,7 +4152,8 @@ window.AGA_DATA = {
      "call": "media/calls/roller-broad-billed.mp3",
      "photo": "media/birds/broad-billed-roller.jpg",
      "bytes": 193788,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "roller-racket-tailed",
@@ -3951,7 +4162,8 @@ window.AGA_DATA = {
      "call": "media/calls/roller-racket-tailed.mp3",
      "photo": "media/birds/racket-tailed-roller.jpg",
      "bytes": 227304,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "scimitarbill-common",
@@ -3976,7 +4188,8 @@ window.AGA_DATA = {
      "call": "media/calls/scrub-robin-eastern-bearded.mp3",
      "photo": "media/birds/eastern-bearded-scrub-robin.jpg",
      "bytes": 187992,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "scrub-robin-kalahari",
@@ -3985,7 +4198,8 @@ window.AGA_DATA = {
      "call": "media/calls/scrub-robin-kalahari.mp3",
      "photo": "media/birds/kalahari-scrub-robin.jpg",
      "bytes": 217728,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "scrub-robin-white-browed",
@@ -4146,7 +4360,8 @@ window.AGA_DATA = {
      "call": "media/calls/starling-burchells.mp3",
      "photo": "media/birds/burchells-starling.jpg",
      "bytes": 167580,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "starling-greater-blue-eared",
@@ -4155,7 +4370,8 @@ window.AGA_DATA = {
      "call": "media/calls/starling-greater-blue-eared.mp3",
      "photo": "media/birds/greater-blue-eared-starling.jpg",
      "bytes": 184968,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "starling-lesser-blue-eared",
@@ -4172,7 +4388,8 @@ window.AGA_DATA = {
      "call": "media/calls/starling-mevess.mp3",
      "photo": "media/birds/mevess-starling.jpg",
      "bytes": 194040,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "starling-pale-winged",
@@ -4197,7 +4414,8 @@ window.AGA_DATA = {
      "call": "media/calls/starling-violet-backed.mp3",
      "photo": "media/birds/violet-backed-starling.jpg",
      "bytes": 199584,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "sugarbird-gurneys",
@@ -4294,7 +4512,8 @@ window.AGA_DATA = {
      "call": "media/calls/sunbird-purple-banded.mp3",
      "photo": "media/birds/purple-banded-sunbird.jpg",
      "bytes": 194544,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "sunbird-shelleys",
@@ -4503,7 +4722,8 @@ window.AGA_DATA = {
      "call": "media/calls/tit-grey-penduline.mp3",
      "photo": "media/birds/grey-penduline-tit.jpg",
      "bytes": 149940,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "tit-grey",
@@ -4880,7 +5100,8 @@ window.AGA_DATA = {
      "call": "media/calls/waxbill-black-faced.mp3",
      "photo": "media/birds/black-faced-waxbill.jpg",
      "bytes": 193788,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "waxbill-cinderella",
@@ -4921,7 +5142,8 @@ window.AGA_DATA = {
      "call": "media/calls/waxbill-violet-eared.mp3",
      "photo": "media/birds/violet-eared-waxbill.jpg",
      "bytes": 173880,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "waxbill-yellow-bellied",
@@ -4954,7 +5176,8 @@ window.AGA_DATA = {
      "call": "media/calls/weaver-red-billed-buffalo.mp3",
      "photo": "media/birds/red-billed-buffalo-weaver.jpg",
      "bytes": 189252,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "weaver-spectacled",
@@ -5139,7 +5362,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-african-hawk-eagle.mp3",
      "photo": "media/birds/african-hawk-eagle.jpg",
      "bytes": 48384,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-african-hobby",
@@ -5164,7 +5388,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-african-mourning-dove.mp3",
      "photo": "media/birds/african-mourning-dove.jpg",
      "bytes": 60984,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-african-pied-wagtail",
@@ -5277,7 +5502,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-african-pygmy-goose.mp3",
      "photo": "media/birds/african-pygmy-goose.jpg",
      "bytes": 27468,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-african-pygmy-kingfisher",
@@ -5286,7 +5512,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-african-pygmy-kingfisher.mp3",
      "photo": "media/birds/african-pygmy-kingfisher.jpg",
      "bytes": 23688,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-african-skimmer",
@@ -5999,7 +6226,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-chestnut-backed-sparrowlark.mp3",
      "photo": "media/birds/chestnut-backed-sparrowlark.jpg",
      "bytes": 57456,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-chestnut-banded-plover",
@@ -6192,7 +6420,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-common-whitethroat.mp3",
      "photo": "media/birds/common-whitethroat.jpg",
      "bytes": 60228,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-coqui-francolin",
@@ -6201,7 +6430,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-coqui-francolin.mp3",
      "photo": "media/birds/coqui-francolin.jpg",
      "bytes": 58968,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-corn-crake",
@@ -6229,8 +6459,8 @@ window.AGA_DATA = {
     },
     {
      "id": "b-crested-francolin",
-     "name": "Crested Francolin",
-     "group": "Francolin",
+     "name": "Crested Spurfowl",
+     "group": "Spurfowl",
      "call": "media/calls/b-crested-francolin.mp3",
      "photo": "",
      "bytes": 71316
@@ -6290,7 +6520,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-dark-chanting-goshawk.mp3",
      "photo": "media/birds/dark-chanting-goshawk.jpg",
      "bytes": 82152,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-dark-capped-bulbul",
@@ -6371,7 +6602,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-emerald-spotted-wood-dove.mp3",
      "photo": "media/birds/emerald-spotted-wood-dove.jpg",
      "bytes": 97020,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-eurasian-blackcap",
@@ -6788,7 +7020,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-grey-rumped-swallow.mp3",
      "photo": "media/birds/grey-rumped-swallow.jpg",
      "bytes": 48384,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-gull-billed-tern",
@@ -6973,7 +7206,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-kurrichane-buttonquail.mp3",
      "photo": "media/birds/kurrichane-buttonquail.jpg",
      "bytes": 40824,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-lanner-falcon",
@@ -6990,7 +7224,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-lappet-faced-vulture.mp3",
      "photo": "media/birds/lappet-faced-vulture.jpg",
      "bytes": 44100,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-laughing-dove",
@@ -7079,7 +7314,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-lesser-striped-swallow.mp3",
      "photo": "media/birds/lesser-striped-swallow.jpg",
      "bytes": 60480,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-lesser-flamingo",
@@ -7352,7 +7588,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-meyers-parrot.mp3",
      "photo": "media/birds/meyers-parrot.jpg",
      "bytes": 49140,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-miombo-blue-eared-starling",
@@ -7625,7 +7862,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-purple-roller.mp3",
      "photo": "media/birds/purple-roller.jpg",
      "bytes": 81144,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-pygmy-falcon",
@@ -7674,7 +7912,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-red-billed-quelea.mp3",
      "photo": "media/birds/red-billed-quelea.jpg",
      "bytes": 61236,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-red-billed-spurfowl",
@@ -7707,7 +7946,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-red-breasted-swallow.mp3",
      "photo": "media/birds/red-breasted-swallow.jpg",
      "bytes": 71820,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-red-collared-widowbird",
@@ -7756,7 +7996,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-red-headed-weaver.mp3",
      "photo": "media/birds/red-headed-weaver.jpg",
      "bytes": 76860,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-red-knobbed-coot",
@@ -8253,7 +8494,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-temmincks-courser.mp3",
      "photo": "media/birds/temmincks-courser.jpg",
      "bytes": 39816,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-temmincks-stint",
@@ -8566,7 +8808,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-wire-tailed-swallow.mp3",
      "photo": "media/birds/wire-tailed-swallow.jpg",
      "bytes": 48636,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-wood-sandpiper",
@@ -8639,7 +8882,8 @@ window.AGA_DATA = {
      "call": "media/calls/b-yellow-billed-oxpecker.mp3",
      "photo": "media/birds/yellow-billed-oxpecker.jpg",
      "bytes": 60228,
-     "f": 1
+     "f": 1,
+     "wide": 1
     },
     {
      "id": "b-yellow-billed-stork",
@@ -8747,8 +8991,11 @@ window.AGA_DATA = {
      "sci": "L. bocagii",
      "group": "Tree frogs",
      "call": "media/frogs/f-bocages-tree-frog.mp3",
-     "photo": "",
-     "bytes": 98532
+     "photo": "media/amphibians/bocages-tree-frog.jpg",
+     "bytes": 98532,
+     "credit": "© Tom Field",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/268068700"
     },
     {
      "id": "f-broadleys-tree-frog",
@@ -8954,8 +9201,11 @@ window.AGA_DATA = {
      "sci": "A. garmani",
      "group": "Toads",
      "call": "media/frogs/f-eastern-olive-toad.mp3",
-     "photo": "",
-     "bytes": 122472
+     "photo": "media/amphibians/eastern-olive-toad.jpg",
+     "bytes": 122472,
+     "credit": "© Emma Walker",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/290553248"
     },
     {
      "id": "f-guttural-toad",
@@ -8963,9 +9213,12 @@ window.AGA_DATA = {
      "sci": "A. gutturalis",
      "group": "Toads",
      "call": "media/frogs/f-guttural-toad.mp3",
-     "photo": "",
+     "photo": "media/amphibians/guttural-toad.jpg",
      "bytes": 113904,
-     "f": 1
+     "f": 1,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/103478889"
     },
     {
      "id": "f-flat-backed-toad",
@@ -8973,8 +9226,11 @@ window.AGA_DATA = {
      "sci": "A. maculatus",
      "group": "Toads",
      "call": "media/frogs/f-flat-backed-toad.mp3",
-     "photo": "",
-     "bytes": 100296
+     "photo": "media/amphibians/flat-backed-toad.jpg",
+     "bytes": 100296,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/63250831"
     },
     {
      "id": "f-western-leopard-toad",
@@ -9000,8 +9256,12 @@ window.AGA_DATA = {
      "sci": "A. poweri",
      "group": "Toads",
      "call": "media/frogs/f-western-olive-toad.mp3",
-     "photo": "",
-     "bytes": 162540
+     "photo": "media/amphibians/western-olive-toad.jpg",
+     "bytes": 162540,
+     "credit": "© Murphy Tladi",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/326464979",
+     "wide": 1
     },
     {
      "id": "f-raucous-toad",
@@ -9108,8 +9368,11 @@ window.AGA_DATA = {
      "sci": "S. carens",
      "group": "Toads",
      "call": "media/frogs/f-red-toad.mp3",
-     "photo": "",
-     "bytes": 152712
+     "photo": "media/amphibians/red-toad.jpg",
+     "bytes": 152712,
+     "credit": "kingfisher14",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/316001120"
     },
     {
      "id": "f-natal-cascade-frog",
@@ -9189,8 +9452,12 @@ window.AGA_DATA = {
      "sci": "H. marmoratus",
      "group": "Shovel-nosed frogs",
      "call": "media/frogs/f-mottled-shovel-nosed-frog.mp3",
-     "photo": "",
-     "bytes": 130284
+     "photo": "media/amphibians/mottled-shovel-nosed-frog.jpg",
+     "bytes": 130284,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/41370364",
+     "wide": 1
     },
     {
      "id": "f-golden-leaf-folding-frog",
@@ -9297,8 +9564,12 @@ window.AGA_DATA = {
      "sci": "H. marmoratus",
      "group": "Reed frogs",
      "call": "media/frogs/f-painted-reed-frog.mp3",
-     "photo": "",
-     "bytes": 87192
+     "photo": "media/amphibians/painted-reed-frog.jpg",
+     "bytes": 87192,
+     "credit": "© Wynand Uys",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/11111363",
+     "wide": 1
     },
     {
      "id": "f-mitchells-reed-frog",
@@ -9315,8 +9586,12 @@ window.AGA_DATA = {
      "sci": "H. nasutus",
      "group": "Reed frogs",
      "call": "media/frogs/f-long-reed-frog.mp3",
-     "photo": "",
-     "bytes": 126000
+     "photo": "media/amphibians/long-reed-frog.jpg",
+     "bytes": 126000,
+     "credit": "erwinsieben",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/216456236",
+     "wide": 1
     },
     {
      "id": "f-angolan-reed-frog",
@@ -9397,8 +9672,12 @@ window.AGA_DATA = {
      "sci": "K. senegalensis",
      "group": "Kassinas",
      "call": "media/frogs/f-bubbling-kassina.mp3",
-     "photo": "",
-     "bytes": 68544
+     "photo": "media/amphibians/bubbling-kassina.jpg",
+     "bytes": 68544,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/41370216",
+     "wide": 1
     },
     {
      "id": "f-rattling-frog",
@@ -9443,8 +9722,11 @@ window.AGA_DATA = {
      "sci": "P. mababiensis",
      "group": "Puddle frogs",
      "call": "media/frogs/f-dwarf-puddle-frog.mp3",
-     "photo": "",
-     "bytes": 137844
+     "photo": "media/amphibians/dwarf-puddle-frog.jpg",
+     "bytes": 137844,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/41370219"
     },
     {
      "id": "f-snoring-puddle-frog",
@@ -9452,8 +9734,11 @@ window.AGA_DATA = {
      "sci": "P. natalensis",
      "group": "Puddle frogs",
      "call": "media/frogs/f-snoring-puddle-frog.mp3",
-     "photo": "",
-     "bytes": 119448
+     "photo": "media/amphibians/snoring-puddle-frog.jpg",
+     "bytes": 119448,
+     "credit": "benkeen",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/191782600"
     },
     {
      "id": "f-ornate-frog",
@@ -9461,8 +9746,12 @@ window.AGA_DATA = {
      "sci": "H. ornata",
      "group": "Ornate frogs",
      "call": "media/frogs/f-ornate-frog.mp3",
-     "photo": "",
-     "bytes": 113148
+     "photo": "media/amphibians/ornate-frog.jpg",
+     "bytes": 113148,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/146781796",
+     "wide": 1
     },
     {
      "id": "f-plain-grass-frog",
@@ -9470,8 +9759,11 @@ window.AGA_DATA = {
      "sci": "P. anchietae",
      "group": "Grass frogs",
      "call": "media/frogs/f-plain-grass-frog.mp3",
-     "photo": "",
-     "bytes": 83916
+     "photo": "media/amphibians/plain-grass-frog.jpg",
+     "bytes": 83916,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/40637992"
     },
     {
      "id": "f-guibes-grass-frog",
@@ -9497,8 +9789,12 @@ window.AGA_DATA = {
      "sci": "P. mascareniensis",
      "group": "Grass frogs",
      "call": "media/frogs/f-mascarene-grass-frog.mp3",
-     "photo": "",
-     "bytes": 120204
+     "photo": "media/amphibians/mascarene-grass-frog.jpg",
+     "bytes": 120204,
+     "credit": "© Manuel Schwarz",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/44238530",
+     "wide": 1
     },
     {
      "id": "f-broad-banded-grass-frog",
@@ -9506,8 +9802,11 @@ window.AGA_DATA = {
      "sci": "P. mossambica",
      "group": "Grass frogs",
      "call": "media/frogs/f-broad-banded-grass-frog.mp3",
-     "photo": "",
-     "bytes": 114408
+     "photo": "media/amphibians/broad-banded-grass-frog.jpg",
+     "bytes": 114408,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/196510514"
     },
     {
      "id": "f-sharp-nosed-grass-frog",
@@ -9515,8 +9814,12 @@ window.AGA_DATA = {
      "sci": "P. oxyrhynchus",
      "group": "Grass frogs",
      "call": "media/frogs/f-sharp-nosed-grass-frog.mp3",
-     "photo": "",
-     "bytes": 108108
+     "photo": "media/amphibians/sharp-nosed-grass-frog.jpg",
+     "bytes": 108108,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/319517946",
+     "wide": 1
     },
     {
      "id": "f-striped-grass-frog",
@@ -9551,8 +9854,12 @@ window.AGA_DATA = {
      "sci": "P. tanioscelis",
      "group": "Grass frogs",
      "call": "media/frogs/f-dwarf-grass-frog.mp3",
-     "photo": "",
-     "bytes": 146412
+     "photo": "media/amphibians/dwarf-grass-frog.jpg",
+     "bytes": 146412,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/31173459",
+     "wide": 1
     },
     {
      "id": "f-udzungwa-grass-frog",
@@ -9578,8 +9885,11 @@ window.AGA_DATA = {
      "sci": "X. laevis",
      "group": "Platannas",
      "call": "media/frogs/f-common-platanna.mp3",
-     "photo": "",
-     "bytes": 169848
+     "photo": "media/amphibians/common-platanna.jpg",
+     "bytes": 169848,
+     "credit": "m_burger",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/104920916"
     },
     {
      "id": "f-mullers-platanna",
@@ -9695,8 +10005,12 @@ window.AGA_DATA = {
      "sci": "C. boettgeri",
      "group": "Cacos",
      "call": "media/frogs/f-boettgers-caco.mp3",
-     "photo": "",
-     "bytes": 117936
+     "photo": "media/amphibians/boettgers-caco.jpg",
+     "bytes": 117936,
+     "credit": "m_burger",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/54748018",
+     "wide": 1
     },
     {
      "id": "f-cape-caco",
@@ -9812,8 +10126,11 @@ window.AGA_DATA = {
      "sci": "A. angolensis",
      "group": "River frogs",
      "call": "media/frogs/f-common-river-frog.mp3",
-     "photo": "",
-     "bytes": 165816
+     "photo": "media/amphibians/common-river-frog.jpg",
+     "bytes": 165816,
+     "credit": "© Andrew Hankey",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/19800234"
     },
     {
      "id": "f-drakensberg-river-frog",
@@ -9876,8 +10193,12 @@ window.AGA_DATA = {
      "sci": "P. edulis",
      "group": "Bullfrogs",
      "call": "media/frogs/f-african-bullfrog.mp3",
-     "photo": "",
-     "bytes": 156996
+     "photo": "media/amphibians/african-bullfrog.jpg",
+     "bytes": 156996,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/71484828",
+     "wide": 1
     },
     {
      "id": "f-banded-stream-frog",
@@ -9966,8 +10287,12 @@ window.AGA_DATA = {
      "sci": "T. krugerensis",
      "group": "Sand frogs",
      "call": "media/frogs/f-knocking-sand-frog.mp3",
-     "photo": "",
-     "bytes": 83412
+     "photo": "media/amphibians/knocking-sand-frog.jpg",
+     "bytes": 83412,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/56516357",
+     "wide": 1
     },
     {
      "id": "f-russet-backed-sand-frog",
@@ -10031,6 +10356,4082 @@ window.AGA_DATA = {
      "call": "media/frogs/f-southern-foam-nest-frog.mp3",
      "photo": "media/frogs/f-southern-foam-nest-frog.jpg",
      "bytes": 91224
+    }
+   ]
+  },
+  {
+   "id": "mammals-photos",
+   "title": "Mammals photos",
+   "short": "Mammals",
+   "subtitle": "85 mammals of Botswana",
+   "featured": "In the manual",
+   "defaultScope": "all",
+   "items": [
+    {
+     "id": "mammals-elephant",
+     "name": "Elephant",
+     "sci": "Loxodonta africana",
+     "group": "Elephant",
+     "photo": "media/mammals/elephant.jpg",
+     "pb": 95065,
+     "credit": "© Wynand Uys",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/14133230",
+     "f": 1,
+     "page": 110,
+     "wide": 1
+    },
+    {
+     "id": "mammals-black-rhino",
+     "name": "Black Rhino",
+     "sci": "Diceros bicornis",
+     "group": "Rhinos",
+     "photo": "media/mammals/black-rhino.jpg",
+     "pb": 113025,
+     "credit": "© martin ingemansson",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/264152942",
+     "f": 1,
+     "page": 111,
+     "wide": 1
+    },
+    {
+     "id": "mammals-white-rhino",
+     "name": "White Rhino",
+     "sci": "Ceratotherium simum",
+     "group": "Rhinos",
+     "photo": "media/mammals/white-rhino.jpg",
+     "pb": 39799,
+     "credit": "sardinemachine",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/302994198",
+     "f": 1,
+     "page": 112
+    },
+    {
+     "id": "mammals-hippopotamus",
+     "name": "Hippopotamus",
+     "sci": "Hippopotamus amphibius",
+     "group": "Hippo",
+     "photo": "media/mammals/hippopotamus.jpg",
+     "pb": 69983,
+     "credit": "© Morten Ross",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/111237080",
+     "f": 1,
+     "page": 112,
+     "wide": 1
+    },
+    {
+     "id": "mammals-bushpig",
+     "name": "Bushpig",
+     "sci": "Potamochoerus larvatus",
+     "group": "Pigs",
+     "photo": "media/mammals/bushpig.jpg",
+     "pb": 153041,
+     "credit": "© Luc Strydom",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/67630446",
+     "f": 1,
+     "page": 109,
+     "wide": 1
+    },
+    {
+     "id": "mammals-common-warthog",
+     "name": "Common Warthog",
+     "sci": "Phacochoerus africanus",
+     "group": "Pigs",
+     "photo": "media/mammals/common-warthog.jpg",
+     "pb": 138272,
+     "credit": "francescocecere",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/3849829",
+     "f": 1,
+     "page": 109
+    },
+    {
+     "id": "mammals-giraffe",
+     "name": "Giraffe",
+     "sci": "Giraffa camelopardalis",
+     "group": "Giraffe",
+     "photo": "media/mammals/giraffe.jpg",
+     "pb": 29943,
+     "credit": "© B Pulman005",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/330772102",
+     "f": 1,
+     "page": 118,
+     "wide": 1
+    },
+    {
+     "id": "mammals-plains-zebra",
+     "name": "Plains Zebra",
+     "sci": "Equus quagga",
+     "group": "Zebra",
+     "photo": "media/mammals/plains-zebra.jpg",
+     "pb": 117597,
+     "credit": "© Robert Webster",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/315741095",
+     "f": 1,
+     "page": 118,
+     "wide": 1
+    },
+    {
+     "id": "mammals-buffalo",
+     "name": "Buffalo",
+     "sci": "Syncerus caffer",
+     "group": "Buffalo",
+     "photo": "media/mammals/buffalo.jpg",
+     "pb": 119653,
+     "credit": "sardinemachine",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/302994260",
+     "f": 1,
+     "page": 113
+    },
+    {
+     "id": "mammals-blue-wildebeest",
+     "name": "Blue Wildebeest",
+     "sci": "Connochaetes taurinus",
+     "group": "Antelope",
+     "photo": "media/mammals/blue-wildebeest.jpg",
+     "pb": 71281,
+     "credit": "phiro",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/87163145",
+     "f": 1,
+     "page": 119,
+     "wide": 1
+    },
+    {
+     "id": "mammals-greater-kudu",
+     "name": "Greater Kudu",
+     "sci": "Tragelaphus strepsiceros",
+     "group": "Antelope",
+     "photo": "media/mammals/greater-kudu.jpg",
+     "pb": 185970,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/133905806",
+     "f": 1,
+     "page": 121
+    },
+    {
+     "id": "mammals-impala",
+     "name": "Impala",
+     "sci": "Aepyceros melampus",
+     "group": "Antelope",
+     "photo": "media/mammals/impala.jpg",
+     "pb": 58975,
+     "credit": "sardinemachine",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/302994244",
+     "f": 1,
+     "page": 121
+    },
+    {
+     "id": "mammals-oryx-gemsbok",
+     "name": "Oryx (Gemsbok)",
+     "sci": "Oryx gazella",
+     "group": "Antelope",
+     "photo": "media/mammals/oryx-gemsbok.jpg",
+     "pb": 128715,
+     "credit": "© Kara M White",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/37682443",
+     "f": 1,
+     "page": 119,
+     "wide": 1
+    },
+    {
+     "id": "mammals-red-lechwe",
+     "name": "Red Lechwe",
+     "sci": "Kobus leche",
+     "group": "Antelope",
+     "photo": "media/mammals/red-lechwe.jpg",
+     "pb": 119737,
+     "credit": "© olliesaunders",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/338347813",
+     "f": 1,
+     "page": 120
+    },
+    {
+     "id": "mammals-springbok",
+     "name": "Springbok",
+     "sci": "Antidorcas marsupialis",
+     "group": "Antelope",
+     "photo": "media/mammals/springbok.jpg",
+     "pb": 106156,
+     "credit": "phiro",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/87113683",
+     "f": 1,
+     "page": 121,
+     "wide": 1
+    },
+    {
+     "id": "mammals-steenbok",
+     "name": "Steenbok",
+     "sci": "Raphicerus campestris",
+     "group": "Antelope",
+     "photo": "media/mammals/steenbok.jpg",
+     "pb": 55275,
+     "credit": "simontonge",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/8803861",
+     "f": 1,
+     "page": 118,
+     "wide": 1
+    },
+    {
+     "id": "mammals-waterbuck",
+     "name": "Waterbuck",
+     "sci": "Kobus ellipsiprymnus",
+     "group": "Antelope",
+     "photo": "media/mammals/waterbuck.jpg",
+     "pb": 131164,
+     "credit": "© Charlie Barber",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/141057184",
+     "f": 1,
+     "page": 120
+    },
+    {
+     "id": "mammals-african-wildcat",
+     "name": "African Wildcat",
+     "sci": "Felis lybica",
+     "group": "Cats",
+     "photo": "media/mammals/african-wildcat.jpg",
+     "pb": 85555,
+     "credit": "© Matt Muir",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/34269874",
+     "f": 1,
+     "page": 122,
+     "wide": 1
+    },
+    {
+     "id": "mammals-caracal",
+     "name": "Caracal",
+     "sci": "Caracal caracal",
+     "group": "Cats",
+     "photo": "media/mammals/caracal.jpg",
+     "pb": 66226,
+     "credit": "© Justin Ponder",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/46086851",
+     "f": 1,
+     "page": 121,
+     "wide": 1
+    },
+    {
+     "id": "mammals-cheetah",
+     "name": "Cheetah",
+     "sci": "Acinonyx jubatus",
+     "group": "Cats",
+     "photo": "media/mammals/cheetah.jpg",
+     "pb": 107117,
+     "credit": "© Morten Ross",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/68706937",
+     "f": 1,
+     "page": 115,
+     "wide": 1
+    },
+    {
+     "id": "mammals-leopard",
+     "name": "Leopard",
+     "sci": "Panthera pardus",
+     "group": "Cats",
+     "photo": "media/mammals/leopard.jpg",
+     "pb": 75323,
+     "credit": "© Brian Gratwicke",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/7861111",
+     "f": 1,
+     "page": 114,
+     "wide": 1
+    },
+    {
+     "id": "mammals-lion",
+     "name": "Lion",
+     "sci": "Panthera leo",
+     "group": "Cats",
+     "photo": "media/mammals/lion.jpg",
+     "pb": 81450,
+     "credit": "hurlbert",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/252556891",
+     "f": 1,
+     "page": 113
+    },
+    {
+     "id": "mammals-serval",
+     "name": "Serval",
+     "sci": "Leptailurus serval",
+     "group": "Cats",
+     "photo": "media/mammals/serval.jpg",
+     "pb": 54157,
+     "credit": "© Morten Ross",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/68706943",
+     "f": 1,
+     "page": 122,
+     "wide": 1
+    },
+    {
+     "id": "mammals-brown-hyaena",
+     "name": "Brown Hyaena",
+     "sci": "Hyaena brunnea",
+     "group": "Hyaenas",
+     "photo": "media/mammals/brown-hyaena.jpg",
+     "pb": 81512,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/10847897",
+     "f": 1,
+     "page": 117,
+     "wide": 1
+    },
+    {
+     "id": "mammals-spotted-hyaena",
+     "name": "Spotted Hyaena",
+     "sci": "Crocuta crocuta",
+     "group": "Hyaenas",
+     "photo": "media/mammals/spotted-hyaena.jpg",
+     "pb": 80630,
+     "credit": "© Anil Madhavapeddy",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/308716304",
+     "f": 1,
+     "page": 116,
+     "wide": 1
+    },
+    {
+     "id": "mammals-african-wild-dog",
+     "name": "African Wild Dog",
+     "sci": "Lycaon pictus",
+     "group": "Dogs and jackals",
+     "photo": "media/mammals/african-wild-dog.jpg",
+     "pb": 73355,
+     "credit": "© Per Arne Slotte",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/4155737",
+     "f": 1,
+     "page": 115,
+     "wide": 1
+    },
+    {
+     "id": "mammals-bat-eared-fox",
+     "name": "Bat-eared Fox",
+     "sci": "Otocyon megalotis",
+     "group": "Dogs and jackals",
+     "photo": "media/mammals/bat-eared-fox.jpg",
+     "pb": 177983,
+     "credit": "© Peter Archdale",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/16580930",
+     "f": 1,
+     "page": 123
+    },
+    {
+     "id": "mammals-black-backed-jackal",
+     "name": "Black-backed Jackal",
+     "sci": "Lupulella mesomelas",
+     "group": "Dogs and jackals",
+     "photo": "media/mammals/black-backed-jackal.jpg",
+     "pb": 123073,
+     "credit": "© Cael Marquard",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/401811694",
+     "f": 1,
+     "page": 123
+    },
+    {
+     "id": "mammals-honey-badger-ratel",
+     "name": "Honey Badger (Ratel)",
+     "sci": "Mellivora capensis",
+     "group": "Otters and badgers",
+     "photo": "media/mammals/honey-badger-ratel.jpg",
+     "pb": 181759,
+     "credit": "© Lukas Zangl",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/258019033",
+     "f": 1,
+     "page": 123,
+     "wide": 1
+    },
+    {
+     "id": "mammals-spotted-necked-otter",
+     "name": "Spotted-necked Otter",
+     "sci": "Hydrictis maculicollis",
+     "group": "Otters and badgers",
+     "photo": "media/mammals/spotted-necked-otter.jpg",
+     "pb": 292228,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/132117078",
+     "f": 1,
+     "page": 122
+    },
+    {
+     "id": "mammals-dwarf-mongoose",
+     "name": "Dwarf Mongoose",
+     "sci": "Helogale parvula",
+     "group": "Mongooses",
+     "photo": "media/mammals/dwarf-mongoose.jpg",
+     "pb": 155701,
+     "credit": "© Peter Archdale",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/132512625",
+     "f": 1,
+     "page": 124
+    },
+    {
+     "id": "mammals-slender-mongoose",
+     "name": "Slender Mongoose",
+     "sci": "Herpestes sanguineus",
+     "group": "Mongooses",
+     "photo": "media/mammals/slender-mongoose.jpg",
+     "pb": 109175,
+     "credit": "© Lukas Zangl",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/258019053",
+     "f": 1,
+     "page": 124,
+     "wide": 1
+    },
+    {
+     "id": "mammals-chacma-baboon",
+     "name": "Chacma Baboon",
+     "sci": "Papio ursinus",
+     "group": "Primates",
+     "photo": "media/mammals/chacma-baboon.jpg",
+     "pb": 67004,
+     "credit": "© datadan",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/39560987",
+     "f": 1,
+     "page": 125
+    },
+    {
+     "id": "mammals-southern-lesser-galago-bushbaby",
+     "name": "Southern Lesser Galago (Bushbaby)",
+     "sci": "Galago moholi",
+     "group": "Primates",
+     "photo": "media/mammals/southern-lesser-galago-bushbaby.jpg",
+     "pb": 45166,
+     "credit": "erwinsieben",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/219044674",
+     "f": 1,
+     "page": 109,
+     "wide": 1
+    },
+    {
+     "id": "mammals-vervet-monkey",
+     "name": "Vervet Monkey",
+     "sci": "Chlorocebus pygerythrus",
+     "group": "Primates",
+     "photo": "media/mammals/vervet-monkey.jpg",
+     "pb": 107843,
+     "credit": "lallen",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/33106509",
+     "f": 1,
+     "page": 125,
+     "wide": 1
+    },
+    {
+     "id": "mammals-savanna-hare",
+     "name": "Savanna Hare",
+     "sci": "Lepus victoriae",
+     "group": "Hares",
+     "photo": "media/mammals/savanna-hare.jpg",
+     "pb": 109189,
+     "credit": "© Anil Madhavapeddy",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/307081664",
+     "f": 1,
+     "page": 124,
+     "wide": 1
+    },
+    {
+     "id": "mammals-springhare",
+     "name": "Springhare",
+     "sci": "Pedetes capensis",
+     "group": "Rodents",
+     "photo": "media/mammals/springhare.jpg",
+     "pb": 87442,
+     "credit": "© Matt Muir",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/34269875",
+     "f": 1,
+     "page": 122,
+     "wide": 1
+    },
+    {
+     "id": "mammals-southern-african-hedgehog",
+     "name": "Southern African Hedgehog",
+     "sci": "Atelerix frontalis",
+     "group": "Insectivores and sengis",
+     "photo": "media/mammals/southern-african-hedgehog.jpg",
+     "pb": 211299,
+     "credit": "simontonge",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/9207360",
+     "f": 1,
+     "page": 109
+    },
+    {
+     "id": "mammals-aardvark",
+     "name": "Aardvark",
+     "sci": "Orycteropus afer",
+     "group": "Other mammals",
+     "photo": "media/mammals/aardvark.jpg",
+     "pb": 26058,
+     "credit": "© Jan Ebr &amp; Ivana Ebrová",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/70248698",
+     "f": 1,
+     "page": 122,
+     "wide": 1
+    },
+    {
+     "id": "mammals-bushbuck",
+     "name": "Bushbuck",
+     "sci": "Tragelaphus sylvaticus",
+     "group": "Antelope",
+     "photo": "media/mammals/bushbuck.jpg",
+     "pb": 83647,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/135842198"
+    },
+    {
+     "id": "mammals-common-duiker",
+     "name": "Common Duiker",
+     "sci": "Sylvicapra grimmia",
+     "group": "Antelope",
+     "photo": "media/mammals/common-duiker.jpg",
+     "pb": 99696,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/77548392",
+     "wide": 1
+    },
+    {
+     "id": "mammals-common-eland",
+     "name": "Common Eland",
+     "sci": "Tragelaphus oryx",
+     "group": "Antelope",
+     "photo": "media/mammals/common-eland.jpg",
+     "pb": 124937,
+     "credit": "andrewdeacon",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/10813050"
+    },
+    {
+     "id": "mammals-klipspringer",
+     "name": "Klipspringer",
+     "sci": "Oreotragus oreotragus",
+     "group": "Antelope",
+     "photo": "media/mammals/klipspringer.jpg",
+     "pb": 67842,
+     "credit": "© gwar",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/255038412",
+     "wide": 1
+    },
+    {
+     "id": "mammals-puku",
+     "name": "Puku",
+     "sci": "Kobus vardonii",
+     "group": "Antelope",
+     "photo": "media/mammals/puku.jpg",
+     "pb": 55836,
+     "credit": "© Daniel S. Katz",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/68158202",
+     "wide": 1
+    },
+    {
+     "id": "mammals-red-hartebeest",
+     "name": "Red Hartebeest",
+     "sci": "Alcelaphus buselaphus",
+     "group": "Antelope",
+     "photo": "media/mammals/red-hartebeest.jpg",
+     "pb": 47543,
+     "credit": "© Lukas Zangl",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/257225586",
+     "wide": 1
+    },
+    {
+     "id": "mammals-roan-antelope",
+     "name": "Roan Antelope",
+     "sci": "Hippotragus equinus",
+     "group": "Antelope",
+     "photo": "media/mammals/roan-antelope.jpg",
+     "pb": 86890,
+     "credit": "© Peter Archdale",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/132512606"
+    },
+    {
+     "id": "mammals-sable-antelope",
+     "name": "Sable Antelope",
+     "sci": "Hippotragus niger",
+     "group": "Antelope",
+     "photo": "media/mammals/sable-antelope.jpg",
+     "pb": 52571,
+     "credit": "phiro",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/87181608",
+     "wide": 1
+    },
+    {
+     "id": "mammals-sharpes-grysbok",
+     "name": "Sharpe's Grysbok",
+     "sci": "Raphicerus sharpei",
+     "group": "Antelope",
+     "photo": "media/mammals/sharpes-grysbok.jpg",
+     "pb": 131638,
+     "credit": "© Mark Bolnik",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/99587612",
+     "wide": 1
+    },
+    {
+     "id": "mammals-sitatunga",
+     "name": "Sitatunga",
+     "sci": "Tragelaphus spekii",
+     "group": "Antelope",
+     "photo": "media/mammals/sitatunga.jpg",
+     "pb": 239428,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/323653877"
+    },
+    {
+     "id": "mammals-southern-reedbuck",
+     "name": "Southern Reedbuck",
+     "sci": "Redunca arundinum",
+     "group": "Antelope",
+     "photo": "media/mammals/southern-reedbuck.jpg",
+     "pb": 90791,
+     "credit": "© Morten Ross",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/111237081",
+     "wide": 1
+    },
+    {
+     "id": "mammals-tsessebe",
+     "name": "Tsessebe",
+     "sci": "Damaliscus lunatus",
+     "group": "Antelope",
+     "photo": "media/mammals/tsessebe.jpg",
+     "pb": 64606,
+     "credit": "© Tony Eales",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/173566136"
+    },
+    {
+     "id": "mammals-black-footed-cat",
+     "name": "Black-footed Cat",
+     "sci": "Felis nigripes",
+     "group": "Cats",
+     "photo": "media/mammals/black-footed-cat.jpg",
+     "pb": 27206,
+     "credit": "© Christiaan Viljoen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/92228758"
+    },
+    {
+     "id": "mammals-aardwolf",
+     "name": "Aardwolf",
+     "sci": "Proteles cristatus",
+     "group": "Hyaenas",
+     "photo": "media/mammals/aardwolf.jpg",
+     "pb": 14225,
+     "credit": "© 116916927065934112165",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/20744"
+    },
+    {
+     "id": "mammals-cape-fox",
+     "name": "Cape Fox",
+     "sci": "Vulpes chama",
+     "group": "Dogs and jackals",
+     "photo": "media/mammals/cape-fox.jpg",
+     "pb": 74997,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/35037098"
+    },
+    {
+     "id": "mammals-side-striped-jackal",
+     "name": "Side-striped Jackal",
+     "sci": "Lupulella adusta",
+     "group": "Dogs and jackals",
+     "photo": "media/mammals/side-striped-jackal.jpg",
+     "pb": 42680,
+     "credit": "© Tony Eales",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/173520003"
+    },
+    {
+     "id": "mammals-cape-clawless-otter",
+     "name": "Cape Clawless Otter",
+     "sci": "Aonyx capensis",
+     "group": "Otters and badgers",
+     "photo": "media/mammals/cape-clawless-otter.jpg",
+     "pb": 109132,
+     "credit": "© Jeremy Gilmore",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/35984676"
+    },
+    {
+     "id": "mammals-striped-polecat",
+     "name": "Striped Polecat",
+     "sci": "Ictonyx striatus",
+     "group": "Otters and badgers",
+     "photo": "media/mammals/striped-polecat.jpg",
+     "pb": 79072,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/135950746"
+    },
+    {
+     "id": "mammals-african-civet",
+     "name": "African Civet",
+     "sci": "Civettictis civetta",
+     "group": "Genets and civets",
+     "photo": "media/mammals/african-civet.jpg",
+     "pb": 30194,
+     "credit": "© Lucky Atabo",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/200489417"
+    },
+    {
+     "id": "mammals-large-spotted-genet",
+     "name": "Large-spotted Genet",
+     "sci": "Genetta maculata",
+     "group": "Genets and civets",
+     "photo": "media/mammals/large-spotted-genet.jpg",
+     "pb": 108885,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/135950741"
+    },
+    {
+     "id": "mammals-small-spotted-genet",
+     "name": "Small-spotted Genet",
+     "sci": "Genetta genetta",
+     "group": "Genets and civets",
+     "photo": "media/mammals/small-spotted-genet.jpg",
+     "pb": 153230,
+     "credit": "© Lucy Keith-Diagne",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/65986931"
+    },
+    {
+     "id": "mammals-banded-mongoose",
+     "name": "Banded Mongoose",
+     "sci": "Mungos mungo",
+     "group": "Mongooses",
+     "photo": "media/mammals/banded-mongoose.jpg",
+     "pb": 114199,
+     "credit": "© Dirk Froebel",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/168507088",
+     "wide": 1
+    },
+    {
+     "id": "mammals-large-grey-mongoose",
+     "name": "Large Grey Mongoose",
+     "sci": "Herpestes ichneumon",
+     "group": "Mongooses",
+     "photo": "media/mammals/large-grey-mongoose.jpg",
+     "pb": 136167,
+     "credit": "© Karen Eichholz",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/34535566",
+     "wide": 1
+    },
+    {
+     "id": "mammals-meerkat-suricate",
+     "name": "Meerkat (Suricate)",
+     "sci": "Suricata suricatta",
+     "group": "Mongooses",
+     "photo": "media/mammals/meerkat-suricate.jpg",
+     "pb": 81446,
+     "credit": "© Lukas Zangl",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/257225579",
+     "wide": 1
+    },
+    {
+     "id": "mammals-selous-mongoose",
+     "name": "Selous' Mongoose",
+     "sci": "Paracynictis selousi",
+     "group": "Mongooses",
+     "photo": "media/mammals/selous-mongoose.jpg",
+     "pb": 271886,
+     "credit": "© Peter Archdale",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/8778165"
+    },
+    {
+     "id": "mammals-water-mongoose",
+     "name": "Water Mongoose",
+     "sci": "Atilax paludinosus",
+     "group": "Mongooses",
+     "photo": "media/mammals/water-mongoose.jpg",
+     "pb": 53572,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/10680000",
+     "wide": 1
+    },
+    {
+     "id": "mammals-white-tailed-mongoose",
+     "name": "White-tailed Mongoose",
+     "sci": "Ichneumia albicauda",
+     "group": "Mongooses",
+     "photo": "media/mammals/white-tailed-mongoose.jpg",
+     "pb": 280360,
+     "credit": "© tlaloc27",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/9821991"
+    },
+    {
+     "id": "mammals-yellow-mongoose",
+     "name": "Yellow Mongoose",
+     "sci": "Cynictis penicillata",
+     "group": "Mongooses",
+     "photo": "media/mammals/yellow-mongoose.jpg",
+     "pb": 63879,
+     "credit": "danielvanderpost",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/32613529"
+    },
+    {
+     "id": "mammals-scrub-hare",
+     "name": "Scrub Hare",
+     "sci": "Lepus saxatilis",
+     "group": "Hares",
+     "photo": "media/mammals/scrub-hare.jpg",
+     "pb": 301516,
+     "credit": "© olliesaunders",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/339060078"
+    },
+    {
+     "id": "mammals-bushveld-gerbil",
+     "name": "Bushveld Gerbil",
+     "sci": "Gerbilliscus leucogaster",
+     "group": "Rodents",
+     "photo": "media/mammals/bushveld-gerbil.jpg",
+     "pb": 52427,
+     "credit": "© Jan Ebr &amp; Ivana Ebrová",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/70248212",
+     "wide": 1
+    },
+    {
+     "id": "mammals-cape-porcupine",
+     "name": "Cape Porcupine",
+     "sci": "Hystrix africaeaustralis",
+     "group": "Rodents",
+     "photo": "media/mammals/cape-porcupine.jpg",
+     "pb": 215531,
+     "credit": "rianafourie",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/322803080"
+    },
+    {
+     "id": "mammals-four-striped-grass-mouse",
+     "name": "Four-striped Grass Mouse",
+     "sci": "Rhabdomys pumilio",
+     "group": "Rodents",
+     "photo": "media/mammals/four-striped-grass-mouse.jpg",
+     "pb": 120583,
+     "credit": "© Timothy Whitehead",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/62588149",
+     "wide": 1
+    },
+    {
+     "id": "mammals-greater-cane-rat",
+     "name": "Greater Cane Rat",
+     "sci": "Thryonomys swinderianus",
+     "group": "Rodents",
+     "photo": "media/mammals/greater-cane-rat.jpg",
+     "pb": 113794,
+     "credit": "© Rosemary Harrison",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/162108888"
+    },
+    {
+     "id": "mammals-ground-squirrel",
+     "name": "Ground Squirrel",
+     "sci": "Xerus inauris",
+     "group": "Rodents",
+     "photo": "media/mammals/ground-squirrel.jpg",
+     "pb": 120246,
+     "credit": "© Morten Ross",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/68706941",
+     "wide": 1
+    },
+    {
+     "id": "mammals-tree-squirrel",
+     "name": "Tree Squirrel",
+     "sci": "Paraxerus cepapi",
+     "group": "Rodents",
+     "photo": "media/mammals/tree-squirrel.jpg",
+     "pb": 49619,
+     "credit": "© Peter Archdale",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/91949685"
+    },
+    {
+     "id": "mammals-bushveld-sengi",
+     "name": "Bushveld Sengi",
+     "sci": "Elephantulus intufi",
+     "group": "Insectivores and sengis",
+     "photo": "media/mammals/bushveld-sengi.jpg",
+     "pb": 69235,
+     "credit": "© Petra Holland",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/147128966",
+     "wide": 1
+    },
+    {
+     "id": "mammals-four-toed-sengi",
+     "name": "Four-toed Sengi",
+     "sci": "Petrodromus tetradactylus",
+     "group": "Insectivores and sengis",
+     "photo": "media/mammals/four-toed-sengi.jpg",
+     "pb": 45056,
+     "credit": "© Nicole Kearney",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/326018581",
+     "wide": 1
+    },
+    {
+     "id": "mammals-egyptian-slit-faced-bat",
+     "name": "Egyptian Slit-faced Bat",
+     "sci": "Nycteris thebaica",
+     "group": "Bats",
+     "photo": "media/mammals/egyptian-slit-faced-bat.jpg",
+     "pb": 83610,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/39041314",
+     "wide": 1
+    },
+    {
+     "id": "mammals-little-free-tailed-bat",
+     "name": "Little Free-tailed Bat",
+     "sci": "Mops pumilus",
+     "group": "Bats",
+     "photo": "media/mammals/little-free-tailed-bat.jpg",
+     "pb": 49154,
+     "credit": "© Nick Schaller",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/1747983"
+    },
+    {
+     "id": "mammals-mauritian-tomb-bat",
+     "name": "Mauritian Tomb Bat",
+     "sci": "Taphozous mauritianus",
+     "group": "Bats",
+     "photo": "media/mammals/mauritian-tomb-bat.jpg",
+     "pb": 66869,
+     "credit": "© 116916927065934112165",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/17070"
+    },
+    {
+     "id": "mammals-sundevalls-leaf-nosed-bat",
+     "name": "Sundevall's Leaf-nosed Bat",
+     "sci": "Hipposideros caffer",
+     "group": "Bats",
+     "photo": "media/mammals/sundevalls-leaf-nosed-bat.jpg",
+     "pb": 47734,
+     "credit": "© Valentin Moser",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/191499661"
+    },
+    {
+     "id": "mammals-wahlbergs-epauletted-fruit-bat",
+     "name": "Wahlberg's Epauletted Fruit Bat",
+     "sci": "Epomophorus wahlbergi",
+     "group": "Bats",
+     "photo": "media/mammals/wahlbergs-epauletted-fruit-bat.jpg",
+     "pb": 74252,
+     "credit": "© Jo Roberts",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/242857062"
+    },
+    {
+     "id": "mammals-yellow-bellied-house-bat",
+     "name": "Yellow-bellied House Bat",
+     "sci": "Scotophilus dinganii",
+     "group": "Bats",
+     "photo": "media/mammals/yellow-bellied-house-bat.jpg",
+     "pb": 24219,
+     "credit": "© Valentin Moser",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/197090185",
+     "wide": 1
+    },
+    {
+     "id": "mammals-ground-pangolin",
+     "name": "Ground Pangolin",
+     "sci": "Smutsia temminckii",
+     "group": "Other mammals",
+     "photo": "media/mammals/ground-pangolin.jpg",
+     "pb": 117386,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/30739881",
+     "wide": 1
+    },
+    {
+     "id": "mammals-rock-hyrax",
+     "name": "Rock Hyrax",
+     "sci": "Procavia capensis",
+     "group": "Other mammals",
+     "photo": "media/mammals/rock-hyrax.jpg",
+     "pb": 167033,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/147630064"
+    },
+    {
+     "id": "mammals-yellow-spotted-rock-hyrax",
+     "name": "Yellow-spotted Rock Hyrax",
+     "sci": "Heterohyrax brucei",
+     "group": "Other mammals",
+     "photo": "media/mammals/yellow-spotted-rock-hyrax.jpg",
+     "pb": 110782,
+     "credit": "© Summer J. Smentek",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/151372007"
+    }
+   ]
+  },
+  {
+   "id": "reptiles-photos",
+   "title": "Reptiles photos",
+   "short": "Reptiles",
+   "subtitle": "53 reptiles of Botswana",
+   "featured": "In the manual",
+   "defaultScope": "all",
+   "items": [
+    {
+     "id": "reptiles-nile-crocodile",
+     "name": "Nile crocodile",
+     "sci": "Crocodylus niloticus",
+     "group": "Crocodiles",
+     "photo": "media/reptiles/nile-crocodile.jpg",
+     "pb": 184885,
+     "credit": "paulomascaretti",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/314228951",
+     "f": 1,
+     "page": 78
+    },
+    {
+     "id": "reptiles-anchietas-cobra",
+     "name": "Anchieta's cobra",
+     "sci": "Naja anchietae",
+     "group": "Venomous snakes",
+     "photo": "media/reptiles/anchietas-cobra.jpg",
+     "pb": 189028,
+     "credit": "© Pål A. Olsvik",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/123986360",
+     "f": 1,
+     "page": 84,
+     "wide": 1
+    },
+    {
+     "id": "reptiles-black-mamba",
+     "name": "Black mamba",
+     "sci": "Dendroaspis polylepis",
+     "group": "Venomous snakes",
+     "photo": "media/reptiles/black-mamba.jpg",
+     "pb": 78633,
+     "credit": "© i_c_riddell",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/1257368",
+     "f": 1,
+     "page": 84,
+     "wide": 1
+    },
+    {
+     "id": "reptiles-cape-cobra",
+     "name": "Cape cobra",
+     "sci": "Naja nivea",
+     "group": "Venomous snakes",
+     "photo": "media/reptiles/cape-cobra.jpg",
+     "pb": 154607,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/258028295",
+     "f": 1,
+     "page": 84
+    },
+    {
+     "id": "reptiles-mozambique-spitting-cobra",
+     "name": "Mozambique spitting cobra",
+     "sci": "Naja mossambica",
+     "group": "Venomous snakes",
+     "photo": "media/reptiles/mozambique-spitting-cobra.jpg",
+     "pb": 108579,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/253155678",
+     "f": 1,
+     "page": 84,
+     "wide": 1
+    },
+    {
+     "id": "reptiles-snouted-cobra",
+     "name": "Snouted cobra",
+     "sci": "Naja annulifera",
+     "group": "Venomous snakes",
+     "photo": "media/reptiles/snouted-cobra.jpg",
+     "pb": 59766,
+     "credit": "spidermandan",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/213747349",
+     "f": 1,
+     "page": 84
+    },
+    {
+     "id": "reptiles-boomslang",
+     "name": "Boomslang",
+     "sci": "Dispholidus typus",
+     "group": "Venomous snakes",
+     "photo": "media/reptiles/boomslang.jpg",
+     "pb": 139005,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/349817350",
+     "f": 1,
+     "page": 85
+    },
+    {
+     "id": "reptiles-shield-nosed-cobra",
+     "name": "Shield-nosed cobra",
+     "sci": "Aspidelaps scutatus",
+     "group": "Venomous snakes",
+     "photo": "media/reptiles/shield-nosed-cobra.jpg",
+     "pb": 61338,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/60593812",
+     "f": 1,
+     "page": 85,
+     "wide": 1
+    },
+    {
+     "id": "reptiles-southern-stiletto-snake-bibrons-burrowing-asp",
+     "name": "Southern stiletto snake (Bibron's burrowing asp)",
+     "sci": "Atractaspis bibronii",
+     "group": "Venomous snakes",
+     "photo": "media/reptiles/southern-stiletto-snake-bibrons-burrowing-asp.jpg",
+     "pb": 54933,
+     "credit": "© 116916927065934112165",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/25940",
+     "f": 1,
+     "page": 85
+    },
+    {
+     "id": "reptiles-vine-snake",
+     "name": "Vine snake",
+     "sci": "Thelotornis capensis",
+     "group": "Venomous snakes",
+     "photo": "media/reptiles/vine-snake.jpg",
+     "pb": 34909,
+     "credit": "© Wynand Uys",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/17905025",
+     "f": 1,
+     "page": 85
+    },
+    {
+     "id": "reptiles-puff-adder",
+     "name": "Puff adder",
+     "sci": "Bitis arietans",
+     "group": "Venomous snakes",
+     "photo": "media/reptiles/puff-adder.jpg",
+     "pb": 206990,
+     "credit": "© Kevin Brix",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/188073772",
+     "f": 1,
+     "page": 86
+    },
+    {
+     "id": "reptiles-mole-snake",
+     "name": "Mole snake",
+     "sci": "Pseudaspis cana",
+     "group": "Non-venomous snakes",
+     "photo": "media/reptiles/mole-snake.jpg",
+     "pb": 143489,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/258024932",
+     "f": 1,
+     "page": 86
+    },
+    {
+     "id": "reptiles-southern-african-python",
+     "name": "Southern African python",
+     "sci": "Python natalensis",
+     "group": "Non-venomous snakes",
+     "photo": "media/reptiles/southern-african-python.jpg",
+     "pb": 109019,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/323654079",
+     "f": 1,
+     "page": 86,
+     "wide": 1
+    },
+    {
+     "id": "reptiles-angolan-green-snake",
+     "name": "Angolan green snake",
+     "sci": "Philothamnus angolensis",
+     "group": "Non-venomous snakes",
+     "photo": "media/reptiles/angolan-green-snake.jpg",
+     "pb": 57316,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/201254886",
+     "f": 1,
+     "page": 87,
+     "wide": 1
+    },
+    {
+     "id": "reptiles-spotted-bush-snake",
+     "name": "Spotted bush snake",
+     "sci": "Philothamnus semivariegatus",
+     "group": "Non-venomous snakes",
+     "photo": "media/reptiles/spotted-bush-snake.jpg",
+     "pb": 119252,
+     "credit": "lbcp2020",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/328029998",
+     "f": 1,
+     "page": 87
+    },
+    {
+     "id": "reptiles-stripe-bellied-sand-snake",
+     "name": "Stripe-bellied sand snake",
+     "sci": "Psammophis subtaeniatus",
+     "group": "Mildly venomous snakes",
+     "photo": "media/reptiles/stripe-bellied-sand-snake.jpg",
+     "pb": 90080,
+     "credit": "© Caroline Voget",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/31656510",
+     "f": 1,
+     "page": 83
+    },
+    {
+     "id": "reptiles-common-tiger-snake",
+     "name": "Common tiger snake",
+     "sci": "Telescopus semiannulatus",
+     "group": "Mildly venomous snakes",
+     "photo": "media/reptiles/common-tiger-snake.jpg",
+     "pb": 50803,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/57894974",
+     "f": 1,
+     "page": 86
+    },
+    {
+     "id": "reptiles-rufous-beaked-snake",
+     "name": "Rufous-beaked snake",
+     "sci": "Rhamphiophis rostratus",
+     "group": "Mildly venomous snakes",
+     "photo": "media/reptiles/rufous-beaked-snake.jpg",
+     "pb": 120832,
+     "credit": "© Stephanie Dolrenry",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/66622803",
+     "f": 1,
+     "page": 86
+    },
+    {
+     "id": "reptiles-ground-agama",
+     "name": "Ground agama",
+     "sci": "Agama aculeata",
+     "group": "Lizards",
+     "photo": "media/reptiles/ground-agama.jpg",
+     "pb": 76502,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/258028218",
+     "f": 1,
+     "page": 88
+    },
+    {
+     "id": "reptiles-kalahari-burrowing-skink-kalahari-legless-skink",
+     "name": "Kalahari burrowing skink (Kalahari legless skink)",
+     "sci": "Acontias kgalagadi",
+     "group": "Lizards",
+     "photo": "media/reptiles/kalahari-burrowing-skink-kalahari-legless-skink.jpg",
+     "pb": 54461,
+     "credit": "© 116916927065934112165",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/25292",
+     "f": 1,
+     "page": 88
+    },
+    {
+     "id": "reptiles-kalahari-tree-skink",
+     "name": "Kalahari tree skink",
+     "sci": "Trachylepis spilogaster",
+     "group": "Lizards",
+     "photo": "media/reptiles/kalahari-tree-skink.jpg",
+     "pb": 145125,
+     "credit": "© Eric Knight",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/136112705",
+     "f": 1,
+     "page": 88
+    },
+    {
+     "id": "reptiles-nile-monitor-water-leguaan",
+     "name": "Nile monitor (water leguaan)",
+     "sci": "Varanus niloticus",
+     "group": "Lizards",
+     "photo": "media/reptiles/nile-monitor-water-leguaan.jpg",
+     "pb": 195461,
+     "credit": "francescocecere",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/3846250",
+     "f": 1,
+     "page": 88
+    },
+    {
+     "id": "reptiles-snake-eyed-skink",
+     "name": "Snake-eyed skink",
+     "sci": "Panaspis wahlbergii",
+     "group": "Lizards",
+     "photo": "media/reptiles/snake-eyed-skink.jpg",
+     "pb": 138168,
+     "credit": "© Murray Yoko",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/336686508",
+     "f": 1,
+     "page": 88
+    },
+    {
+     "id": "reptiles-white-throated-monitor-rock-leguaan",
+     "name": "White-throated monitor (rock leguaan)",
+     "sci": "Varanus albigularis",
+     "group": "Lizards",
+     "photo": "media/reptiles/white-throated-monitor-rock-leguaan.jpg",
+     "pb": 99507,
+     "credit": "anna22",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/123702307",
+     "f": 1,
+     "page": 88
+    },
+    {
+     "id": "reptiles-gecko-tropical-house-gecko",
+     "name": "Gecko (tropical house gecko)",
+     "sci": "Hemidactylus mabouia",
+     "group": "Lizards",
+     "photo": "media/reptiles/gecko-tropical-house-gecko.jpg",
+     "pb": 75294,
+     "credit": "© Murphy Tladi",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/38372247",
+     "f": 1,
+     "page": 89
+    },
+    {
+     "id": "reptiles-girdled-lizard-jones-girdled-lizard",
+     "name": "Girdled lizard (Jones' girdled lizard)",
+     "sci": "Cordylus jonesii",
+     "group": "Lizards",
+     "photo": "media/reptiles/girdled-lizard-jones-girdled-lizard.jpg",
+     "pb": 137085,
+     "credit": "kellyabram",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/107636825",
+     "f": 1,
+     "page": 89
+    },
+    {
+     "id": "reptiles-old-world-lizard-bushveld-lizard",
+     "name": "Old World lizard (bushveld lizard)",
+     "sci": "Heliobolus lugubris",
+     "group": "Lizards",
+     "photo": "media/reptiles/old-world-lizard-bushveld-lizard.jpg",
+     "pb": 29747,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/36595741",
+     "f": 1,
+     "page": 89,
+     "wide": 1
+    },
+    {
+     "id": "reptiles-amphisbaenian-kalahari-round-headed-worm-lizard",
+     "name": "Amphisbaenian (Kalahari round-headed worm lizard)",
+     "sci": "Zygaspis quadrifrons",
+     "group": "Lizards",
+     "photo": "media/reptiles/amphisbaenian-kalahari-round-headed-worm-lizard.jpg",
+     "pb": 36239,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/30227319",
+     "f": 1,
+     "page": 90
+    },
+    {
+     "id": "reptiles-flap-necked-chameleon",
+     "name": "Flap-necked chameleon",
+     "sci": "Chamaeleo dilepis",
+     "group": "Lizards",
+     "photo": "media/reptiles/flap-necked-chameleon.jpg",
+     "pb": 61102,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/104463811",
+     "f": 1,
+     "page": 90
+    },
+    {
+     "id": "reptiles-leopard-tortoise",
+     "name": "Leopard tortoise",
+     "sci": "Stigmochelys pardalis",
+     "group": "Tortoises and terrapins",
+     "photo": "media/reptiles/leopard-tortoise.jpg",
+     "pb": 228662,
+     "credit": "rianafourie",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/210065845",
+     "f": 1,
+     "page": 91
+    },
+    {
+     "id": "reptiles-marsh-terrapin-pan-terrapin",
+     "name": "Marsh terrapin (pan terrapin)",
+     "sci": "Pelomedusa subrufa",
+     "group": "Tortoises and terrapins",
+     "photo": "media/reptiles/marsh-terrapin-pan-terrapin.jpg",
+     "pb": 37826,
+     "credit": "simontonge",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/9809982",
+     "f": 1,
+     "page": 91,
+     "wide": 1
+    },
+    {
+     "id": "reptiles-mashona-hinged-terrapin",
+     "name": "Mashona hinged terrapin",
+     "sci": "Pelusios rhodesianus",
+     "group": "Tortoises and terrapins",
+     "photo": "media/reptiles/mashona-hinged-terrapin.jpg",
+     "pb": 79091,
+     "credit": "© Nick Schaller",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/96223584",
+     "f": 1,
+     "page": 91,
+     "wide": 1
+    },
+    {
+     "id": "reptiles-okavango-hinged-terrapin",
+     "name": "Okavango hinged terrapin",
+     "sci": "Pelusios bechuanicus",
+     "group": "Tortoises and terrapins",
+     "photo": "media/reptiles/okavango-hinged-terrapin.jpg",
+     "pb": 151155,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/160836464",
+     "f": 1,
+     "page": 91
+    },
+    {
+     "id": "reptiles-serrated-tent-tortoise-kalahari-tent-tortoise",
+     "name": "Serrated tent tortoise (Kalahari tent tortoise)",
+     "sci": "Psammobates oculifer",
+     "group": "Tortoises and terrapins",
+     "photo": "media/reptiles/serrated-tent-tortoise-kalahari-tent-tortoise.jpg",
+     "pb": 106994,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/77548557",
+     "f": 1,
+     "page": 91,
+     "wide": 1
+    },
+    {
+     "id": "reptiles-spekes-hinged-tortoise",
+     "name": "Speke's hinged tortoise",
+     "sci": "Kinixys spekii",
+     "group": "Tortoises and terrapins",
+     "photo": "media/reptiles/spekes-hinged-tortoise.jpg",
+     "pb": 70840,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/394272533",
+     "f": 1,
+     "page": 91,
+     "wide": 1
+    },
+    {
+     "id": "reptiles-horned-adder",
+     "name": "Horned adder",
+     "sci": "Bitis caudalis",
+     "group": "Venomous snakes",
+     "photo": "media/reptiles/horned-adder.jpg",
+     "pb": 187708,
+     "credit": "© marius",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/37851849"
+    },
+    {
+     "id": "reptiles-rhombic-night-adder",
+     "name": "Rhombic night adder",
+     "sci": "Causus rhombeatus",
+     "group": "Venomous snakes",
+     "photo": "media/reptiles/rhombic-night-adder.jpg",
+     "pb": 140582,
+     "credit": "© kevin koen",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/106809111"
+    },
+    {
+     "id": "reptiles-snouted-night-adder",
+     "name": "Snouted night adder",
+     "sci": "Causus defilippii",
+     "group": "Venomous snakes",
+     "photo": "media/reptiles/snouted-night-adder.jpg",
+     "pb": 85025,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/214390684",
+     "wide": 1
+    },
+    {
+     "id": "reptiles-brown-house-snake",
+     "name": "Brown house snake",
+     "sci": "Boaedon capensis",
+     "group": "Non-venomous snakes",
+     "photo": "media/reptiles/brown-house-snake.jpg",
+     "pb": 64128,
+     "credit": "© Wynand Uys",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/18630850"
+    },
+    {
+     "id": "reptiles-common-egg-eater",
+     "name": "Common egg-eater",
+     "sci": "Dasypeltis scabra",
+     "group": "Non-venomous snakes",
+     "photo": "media/reptiles/common-egg-eater.jpg",
+     "pb": 158214,
+     "credit": "© Jacques van der Merwe",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/17910799"
+    },
+    {
+     "id": "reptiles-bark-snake",
+     "name": "Bark snake",
+     "sci": "Hemirhagerrhis nototaenia",
+     "group": "Mildly venomous snakes",
+     "photo": "media/reptiles/bark-snake.jpg",
+     "pb": 267635,
+     "credit": "rosshawkins",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/137012546"
+    },
+    {
+     "id": "reptiles-black-headed-centipede-eater",
+     "name": "Black-headed centipede-eater",
+     "sci": "Aparallactus capensis",
+     "group": "Mildly venomous snakes",
+     "photo": "media/reptiles/black-headed-centipede-eater.jpg",
+     "pb": 44953,
+     "credit": "© Dylan Leonard",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/246134183"
+    },
+    {
+     "id": "reptiles-olive-grass-snake",
+     "name": "Olive grass snake",
+     "sci": "Psammophis mossambicus",
+     "group": "Mildly venomous snakes",
+     "photo": "media/reptiles/olive-grass-snake.jpg",
+     "pb": 56311,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/10053530",
+     "wide": 1
+    },
+    {
+     "id": "reptiles-red-lipped-herald-snake",
+     "name": "Red-lipped herald snake",
+     "sci": "Crotaphopeltis hotamboeia",
+     "group": "Mildly venomous snakes",
+     "photo": "media/reptiles/red-lipped-herald-snake.jpg",
+     "pb": 135545,
+     "credit": "© Dylan Leonard",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/344387787"
+    },
+    {
+     "id": "reptiles-cape-dwarf-gecko",
+     "name": "Cape dwarf gecko",
+     "sci": "Lygodactylus capensis",
+     "group": "Lizards",
+     "photo": "media/reptiles/cape-dwarf-gecko.jpg",
+     "pb": 22818,
+     "credit": "© Tony Eales",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/171164434"
+    },
+    {
+     "id": "reptiles-common-barking-gecko",
+     "name": "Common barking gecko",
+     "sci": "Ptenopus garrulus",
+     "group": "Lizards",
+     "photo": "media/reptiles/common-barking-gecko.jpg",
+     "pb": 54088,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/40804058",
+     "wide": 1
+    },
+    {
+     "id": "reptiles-southern-tree-agama",
+     "name": "Southern tree agama",
+     "sci": "Acanthocercus atricollis",
+     "group": "Lizards",
+     "photo": "media/reptiles/southern-tree-agama.jpg",
+     "pb": 97180,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/19683124"
+    },
+    {
+     "id": "reptiles-spotted-sandveld-lizard",
+     "name": "Spotted sandveld lizard",
+     "sci": "Nucras intertexta",
+     "group": "Lizards",
+     "photo": "media/reptiles/spotted-sandveld-lizard.jpg",
+     "pb": 131375,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/394270036",
+     "wide": 1
+    },
+    {
+     "id": "reptiles-striped-skink",
+     "name": "Striped skink",
+     "sci": "Trachylepis striata",
+     "group": "Lizards",
+     "photo": "media/reptiles/striped-skink.jpg",
+     "pb": 78130,
+     "credit": "© Asher P Higgins",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/198743590"
+    },
+    {
+     "id": "reptiles-turners-thick-toed-gecko",
+     "name": "Turner's thick-toed gecko",
+     "sci": "Chondrodactylus turneri",
+     "group": "Lizards",
+     "photo": "media/reptiles/turners-thick-toed-gecko.jpg",
+     "pb": 246705,
+     "credit": "© Asher P Higgins",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/198765998"
+    },
+    {
+     "id": "reptiles-variegated-skink",
+     "name": "Variegated skink",
+     "sci": "Trachylepis variegata",
+     "group": "Lizards",
+     "photo": "media/reptiles/variegated-skink.jpg",
+     "pb": 45012,
+     "credit": "© nearwildhelen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/128644662",
+     "wide": 1
+    },
+    {
+     "id": "reptiles-western-three-striped-skink",
+     "name": "Western three-striped skink",
+     "sci": "Trachylepis occidentalis",
+     "group": "Lizards",
+     "photo": "media/reptiles/western-three-striped-skink.jpg",
+     "pb": 116190,
+     "credit": "© Peter Archdale",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/8255542"
+    },
+    {
+     "id": "reptiles-yellow-throated-plated-lizard",
+     "name": "Yellow-throated plated lizard",
+     "sci": "Gerrhosaurus flavigularis",
+     "group": "Lizards",
+     "photo": "media/reptiles/yellow-throated-plated-lizard.jpg",
+     "pb": 276059,
+     "credit": "© Zizipho Mfaku",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/183057364"
+    }
+   ]
+  },
+  {
+   "id": "amphibians-photos",
+   "title": "Amphibians photos",
+   "short": "Amphibians",
+   "subtitle": "30 amphibians of Botswana",
+   "featured": "In the manual",
+   "defaultScope": "all",
+   "items": [
+    {
+     "id": "amphibians-angolan-reed-frog",
+     "name": "Angolan Reed Frog",
+     "sci": "Hyperolius parallelus",
+     "group": "Reed frogs",
+     "photo": "media/amphibians/angolan-reed-frog.jpg",
+     "pb": 47813,
+     "credit": "© David Maxwell Braun",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/16798433",
+     "f": 1,
+     "page": 72
+    },
+    {
+     "id": "amphibians-bubbling-kassina",
+     "name": "Bubbling Kassina",
+     "sci": "Kassina senegalensis",
+     "group": "Kassinas",
+     "photo": "media/amphibians/bubbling-kassina.jpg",
+     "pb": 61959,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/41370216",
+     "f": 1,
+     "page": 73,
+     "wide": 1
+    },
+    {
+     "id": "amphibians-southern-foam-nest-frog",
+     "name": "Southern Foam Nest Frog",
+     "sci": "Chiromantis xerampelina",
+     "group": "Tree frogs",
+     "photo": "media/amphibians/southern-foam-nest-frog.jpg",
+     "pb": 55265,
+     "credit": "kingfisher14",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/311706102",
+     "f": 1,
+     "page": 74,
+     "wide": 1
+    },
+    {
+     "id": "amphibians-african-bullfrog",
+     "name": "African Bullfrog",
+     "sci": "Pyxicephalus edulis",
+     "group": "Bullfrogs",
+     "photo": "media/amphibians/african-bullfrog.jpg",
+     "pb": 82967,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/71484828",
+     "f": 1,
+     "page": 75,
+     "wide": 1
+    },
+    {
+     "id": "amphibians-giant-bullfrog",
+     "name": "Giant Bullfrog",
+     "sci": "Pyxicephalus adspersus",
+     "group": "Bullfrogs",
+     "photo": "media/amphibians/giant-bullfrog.jpg",
+     "pb": 71065,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/38358047",
+     "f": 1,
+     "page": 75,
+     "wide": 1
+    },
+    {
+     "id": "amphibians-flat-backed-toad",
+     "name": "Flat-backed Toad",
+     "sci": "Sclerophrys pusilla",
+     "group": "Toads",
+     "photo": "media/amphibians/flat-backed-toad.jpg",
+     "pb": 130969,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/63250831",
+     "f": 1,
+     "page": 75
+    },
+    {
+     "id": "amphibians-guttural-toad",
+     "name": "Guttural Toad",
+     "sci": "Sclerophrys gutturalis",
+     "group": "Toads",
+     "photo": "media/amphibians/guttural-toad.jpg",
+     "pb": 91640,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/103478889",
+     "f": 1,
+     "page": 75
+    },
+    {
+     "id": "amphibians-western-olive-toad",
+     "name": "Western Olive Toad",
+     "sci": "Sclerophrys poweri",
+     "group": "Toads",
+     "photo": "media/amphibians/western-olive-toad.jpg",
+     "pb": 30794,
+     "credit": "© Murphy Tladi",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/326464979",
+     "f": 1,
+     "page": 75,
+     "wide": 1
+    },
+    {
+     "id": "amphibians-broad-banded-grass-frog",
+     "name": "Broad-banded Grass Frog",
+     "sci": "Ptychadena mossambica",
+     "group": "Grass frogs",
+     "photo": "media/amphibians/broad-banded-grass-frog.jpg",
+     "pb": 180793,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/196510514",
+     "f": 1,
+     "page": 74
+    },
+    {
+     "id": "amphibians-common-river-frog",
+     "name": "Common River Frog",
+     "sci": "Amietia angolensis",
+     "group": "River frogs",
+     "photo": "media/amphibians/common-river-frog.jpg",
+     "pb": 43520,
+     "credit": "© Andrew Hankey",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/19800234",
+     "f": 1,
+     "page": 74
+    },
+    {
+     "id": "amphibians-common-platanna",
+     "name": "Common Platanna",
+     "sci": "Xenopus laevis",
+     "group": "Platannas",
+     "photo": "media/amphibians/common-platanna.jpg",
+     "pb": 64327,
+     "credit": "m_burger",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/104920916",
+     "f": 1,
+     "page": 73
+    },
+    {
+     "id": "amphibians-banded-rubber-frog",
+     "name": "Banded Rubber Frog",
+     "sci": "Phrynomantis bifasciatus",
+     "group": "Rubber and rain frogs",
+     "photo": "media/amphibians/banded-rubber-frog.jpg",
+     "pb": 93707,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/196370559",
+     "f": 1,
+     "page": 74
+    },
+    {
+     "id": "amphibians-bushveld-rain-frog",
+     "name": "Bushveld Rain Frog",
+     "sci": "Breviceps adspersus",
+     "group": "Rubber and rain frogs",
+     "photo": "media/amphibians/bushveld-rain-frog.jpg",
+     "pb": 53355,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/39834229",
+     "f": 1,
+     "page": 73,
+     "wide": 1
+    },
+    {
+     "id": "amphibians-mottled-shovel-nosed-frog",
+     "name": "Mottled Shovel-nosed Frog",
+     "sci": "Hemisus marmoratus",
+     "group": "Shovel-nosed frogs",
+     "photo": "media/amphibians/mottled-shovel-nosed-frog.jpg",
+     "pb": 70292,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/41370364",
+     "f": 1,
+     "page": 73,
+     "wide": 1
+    },
+    {
+     "id": "amphibians-long-reed-frog",
+     "name": "Long Reed Frog",
+     "sci": "Hyperolius nasutus",
+     "group": "Reed frogs",
+     "photo": "media/amphibians/long-reed-frog.jpg",
+     "pb": 19385,
+     "credit": "erwinsieben",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/216456236",
+     "wide": 1
+    },
+    {
+     "id": "amphibians-painted-reed-frog",
+     "name": "Painted Reed Frog",
+     "sci": "Hyperolius marmoratus",
+     "group": "Reed frogs",
+     "photo": "media/amphibians/painted-reed-frog.jpg",
+     "pb": 62612,
+     "credit": "© Wynand Uys",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/11111363",
+     "wide": 1
+    },
+    {
+     "id": "amphibians-bocages-tree-frog",
+     "name": "Bocage's Tree Frog",
+     "sci": "Leptopelis bocagii",
+     "group": "Tree frogs",
+     "photo": "media/amphibians/bocages-tree-frog.jpg",
+     "pb": 147461,
+     "credit": "© Tom Field",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/268068700"
+    },
+    {
+     "id": "amphibians-eastern-olive-toad",
+     "name": "Eastern Olive Toad",
+     "sci": "Sclerophrys garmani",
+     "group": "Toads",
+     "photo": "media/amphibians/eastern-olive-toad.jpg",
+     "pb": 50847,
+     "credit": "© Emma Walker",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/290553248"
+    },
+    {
+     "id": "amphibians-red-toad",
+     "name": "Red Toad",
+     "sci": "Schismaderma carens",
+     "group": "Toads",
+     "photo": "media/amphibians/red-toad.jpg",
+     "pb": 104676,
+     "credit": "kingfisher14",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/316001120"
+    },
+    {
+     "id": "amphibians-dwarf-grass-frog",
+     "name": "Dwarf Grass Frog",
+     "sci": "Ptychadena taenioscelis",
+     "group": "Grass frogs",
+     "photo": "media/amphibians/dwarf-grass-frog.jpg",
+     "pb": 53821,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/31173459",
+     "wide": 1
+    },
+    {
+     "id": "amphibians-guib-s-grass-frog",
+     "name": "Guibé's Grass Frog",
+     "sci": "Ptychadena guibei",
+     "group": "Grass frogs",
+     "photo": "media/amphibians/guib-s-grass-frog.jpg",
+     "pb": 102222,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/71077847"
+    },
+    {
+     "id": "amphibians-mascarene-grass-frog",
+     "name": "Mascarene Grass Frog",
+     "sci": "Ptychadena mascareniensis",
+     "group": "Grass frogs",
+     "photo": "media/amphibians/mascarene-grass-frog.jpg",
+     "pb": 57596,
+     "credit": "© Manuel Schwarz",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/44238530",
+     "wide": 1
+    },
+    {
+     "id": "amphibians-plain-grass-frog",
+     "name": "Plain Grass Frog",
+     "sci": "Ptychadena anchietae",
+     "group": "Grass frogs",
+     "photo": "media/amphibians/plain-grass-frog.jpg",
+     "pb": 70788,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/40637992"
+    },
+    {
+     "id": "amphibians-sharp-nosed-grass-frog",
+     "name": "Sharp-nosed Grass Frog",
+     "sci": "Ptychadena oxyrhynchus",
+     "group": "Grass frogs",
+     "photo": "media/amphibians/sharp-nosed-grass-frog.jpg",
+     "pb": 99263,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/319517946",
+     "wide": 1
+    },
+    {
+     "id": "amphibians-tropical-platanna",
+     "name": "Tropical Platanna",
+     "sci": "Xenopus muelleri",
+     "group": "Platannas",
+     "photo": "media/amphibians/tropical-platanna.jpg",
+     "pb": 45061,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/30231139"
+    },
+    {
+     "id": "amphibians-dwarf-puddle-frog",
+     "name": "Dwarf Puddle Frog",
+     "sci": "Phrynobatrachus mababiensis",
+     "group": "Puddle frogs",
+     "photo": "media/amphibians/dwarf-puddle-frog.jpg",
+     "pb": 59492,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/41370219"
+    },
+    {
+     "id": "amphibians-snoring-puddle-frog",
+     "name": "Snoring Puddle Frog",
+     "sci": "Phrynobatrachus natalensis",
+     "group": "Puddle frogs",
+     "photo": "media/amphibians/snoring-puddle-frog.jpg",
+     "pb": 94778,
+     "credit": "benkeen",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/191782600"
+    },
+    {
+     "id": "amphibians-knocking-sand-frog",
+     "name": "Knocking Sand Frog",
+     "sci": "Tomopterna krugerensis",
+     "group": "Sand frogs",
+     "photo": "media/amphibians/knocking-sand-frog.jpg",
+     "pb": 69614,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/56516357",
+     "wide": 1
+    },
+    {
+     "id": "amphibians-boettgers-caco",
+     "name": "Boettger's Caco",
+     "sci": "Cacosternum boettgeri",
+     "group": "Other frogs",
+     "photo": "media/amphibians/boettgers-caco.jpg",
+     "pb": 38607,
+     "credit": "m_burger",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/54748018",
+     "wide": 1
+    },
+    {
+     "id": "amphibians-ornate-frog",
+     "name": "Ornate Frog",
+     "sci": "Hildebrandtia ornata",
+     "group": "Other frogs",
+     "photo": "media/amphibians/ornate-frog.jpg",
+     "pb": 74666,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/146781796",
+     "wide": 1
+    }
+   ]
+  },
+  {
+   "id": "arthropods-photos",
+   "title": "Arthropods photos",
+   "short": "Arthropods",
+   "subtitle": "66 arthropods of Botswana",
+   "featured": "In the manual",
+   "defaultScope": "all",
+   "items": [
+    {
+     "id": "arthropods-fish-moth-silverfish",
+     "name": "Fish moth (silverfish)",
+     "sci": "Lepismatidae",
+     "group": "Other insects",
+     "photo": "media/arthropods/fish-moth-silverfish.jpg",
+     "pb": 14594,
+     "credit": "© Tommy Andriollo",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/258081965",
+     "f": 1,
+     "page": 51,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-mayfly",
+     "name": "Mayfly",
+     "sci": "Ephemeroptera",
+     "group": "Other insects",
+     "photo": "media/arthropods/mayfly.jpg",
+     "pb": 108447,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/114842084",
+     "f": 1,
+     "page": 51
+    },
+    {
+     "id": "arthropods-praying-mantis-mantodea",
+     "name": "Praying mantis (Mantodea)",
+     "sci": "Mantodea",
+     "group": "Other insects",
+     "photo": "media/arthropods/praying-mantis-mantodea.jpg",
+     "pb": 35365,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/13578344",
+     "f": 1,
+     "page": 54,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-antlion-myrmeleontidae",
+     "name": "Antlion (Myrmeleontidae)",
+     "sci": "Myrmeleontidae",
+     "group": "Other insects",
+     "photo": "media/arthropods/antlion-myrmeleontidae.jpg",
+     "pb": 86457,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/40750168",
+     "f": 1,
+     "page": 55
+    },
+    {
+     "id": "arthropods-lacewing-chrysopidae",
+     "name": "Lacewing (Chrysopidae)",
+     "sci": "Chrysopidae",
+     "group": "Other insects",
+     "photo": "media/arthropods/lacewing-chrysopidae.jpg",
+     "pb": 88827,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/324820136",
+     "f": 1,
+     "page": 55,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-damselfly",
+     "name": "Damselfly",
+     "sci": "Zygoptera",
+     "group": "Dragonflies and damselflies",
+     "photo": "media/arthropods/damselfly.jpg",
+     "pb": 25271,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/34161373",
+     "f": 1,
+     "page": 51
+    },
+    {
+     "id": "arthropods-dragonfly",
+     "name": "Dragonfly",
+     "sci": "Anisoptera",
+     "group": "Dragonflies and damselflies",
+     "photo": "media/arthropods/dragonfly.jpg",
+     "pb": 76562,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/352760149",
+     "f": 1,
+     "page": 51,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-aphid",
+     "name": "Aphid",
+     "sci": "Aphididae",
+     "group": "Bugs and cicadas",
+     "photo": "media/arthropods/aphid.jpg",
+     "pb": 79195,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/77550550",
+     "f": 1,
+     "page": 51
+    },
+    {
+     "id": "arthropods-cicada-cicadidae",
+     "name": "Cicada (Cicadidae)",
+     "sci": "Cicadidae",
+     "group": "Bugs and cicadas",
+     "photo": "media/arthropods/cicada-cicadidae.jpg",
+     "pb": 70894,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/18920155",
+     "f": 1,
+     "page": 54,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-horn-borer-moth",
+     "name": "Horn-borer moth",
+     "sci": "Ceratophaga vastellus",
+     "group": "Butterflies and moths",
+     "photo": "media/arthropods/horn-borer-moth.jpg",
+     "pb": 158698,
+     "credit": "© Tony Eales",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/171277496",
+     "f": 1,
+     "page": 52
+    },
+    {
+     "id": "arthropods-african-diadem",
+     "name": "African diadem",
+     "sci": "Hypolimnas misippus",
+     "group": "Butterflies and moths",
+     "photo": "media/arthropods/african-diadem.jpg",
+     "pb": 63472,
+     "credit": "© Line Juul Nielsen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/259740973",
+     "f": 1,
+     "page": 58,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-african-monarch",
+     "name": "African monarch",
+     "sci": "Danaus chrysippus",
+     "group": "Butterflies and moths",
+     "photo": "media/arthropods/african-monarch.jpg",
+     "pb": 154678,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/148259987",
+     "f": 1,
+     "page": 58
+    },
+    {
+     "id": "arthropods-brown-veined-white",
+     "name": "Brown-veined white",
+     "sci": "Belenois aurota",
+     "group": "Butterflies and moths",
+     "photo": "media/arthropods/brown-veined-white.jpg",
+     "pb": 66792,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/105205247",
+     "f": 1,
+     "page": 58
+    },
+    {
+     "id": "arthropods-mopane-moth-mopane-worm",
+     "name": "Mopane moth (mopane worm)",
+     "sci": "Gonimbrasia belina",
+     "group": "Butterflies and moths",
+     "photo": "media/arthropods/mopane-moth-mopane-worm.jpg",
+     "pb": 47709,
+     "credit": "© Murphy Tladi",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/230347647",
+     "f": 1,
+     "page": 58
+    },
+    {
+     "id": "arthropods-large-fungus-growing-termite-macrotermes",
+     "name": "Large fungus-growing termite (Macrotermes)",
+     "sci": "Macrotermes",
+     "group": "Termites",
+     "photo": "media/arthropods/large-fungus-growing-termite-macrotermes.jpg",
+     "pb": 42274,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/30797706",
+     "f": 1,
+     "page": 53
+    },
+    {
+     "id": "arthropods-harvester-termite",
+     "name": "Harvester termite",
+     "sci": "Hodotermes mossambicus",
+     "group": "Termites",
+     "photo": "media/arthropods/harvester-termite.jpg",
+     "pb": 177816,
+     "credit": "© Caroline Voget",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/31195456",
+     "f": 1,
+     "page": 54
+    },
+    {
+     "id": "arthropods-fireflies-and-glow-worms-lampyridae",
+     "name": "Fireflies and glow-worms (Lampyridae)",
+     "sci": "Lampyridae",
+     "group": "Beetles",
+     "photo": "media/arthropods/fireflies-and-glow-worms-lampyridae.jpg",
+     "pb": 160262,
+     "credit": "© Karim Haddad",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/41235855",
+     "f": 1,
+     "page": 55
+    },
+    {
+     "id": "arthropods-dung-beetle-scarabaeinae",
+     "name": "Dung beetle (Scarabaeinae)",
+     "sci": "Scarabaeinae",
+     "group": "Beetles",
+     "photo": "media/arthropods/dung-beetle-scarabaeinae.jpg",
+     "pb": 81220,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/36524884",
+     "f": 1,
+     "page": 56
+    },
+    {
+     "id": "arthropods-plum-coloured-dung-beetle",
+     "name": "Plum-coloured dung beetle",
+     "sci": "Chalconotus convexus",
+     "group": "Beetles",
+     "photo": "media/arthropods/plum-coloured-dung-beetle.jpg",
+     "pb": 69392,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/40179137",
+     "f": 1,
+     "page": 56,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-malaria-mosquito-anopheles",
+     "name": "Malaria mosquito (Anopheles)",
+     "sci": "Anopheles",
+     "group": "Flies and mosquitoes",
+     "photo": "media/arthropods/malaria-mosquito-anopheles.jpg",
+     "pb": 28552,
+     "credit": "© agujaceratops",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/135375392",
+     "f": 1,
+     "page": 56
+    },
+    {
+     "id": "arthropods-midge-chironomidae",
+     "name": "Midge (Chironomidae)",
+     "sci": "Chironomidae",
+     "group": "Flies and mosquitoes",
+     "photo": "media/arthropods/midge-chironomidae.jpg",
+     "pb": 68702,
+     "credit": "© Rudolph Steenkamp",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/253606282",
+     "f": 1,
+     "page": 56,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-mosquito-culicidae",
+     "name": "Mosquito (Culicidae)",
+     "sci": "Culicidae",
+     "group": "Flies and mosquitoes",
+     "photo": "media/arthropods/mosquito-culicidae.jpg",
+     "pb": 33403,
+     "credit": "© Nicola van Berkel",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/68649566",
+     "f": 1,
+     "page": 56,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-ant-formicidae",
+     "name": "Ant (Formicidae)",
+     "sci": "Formicidae",
+     "group": "Ants, bees and wasps",
+     "photo": "media/arthropods/ant-formicidae.jpg",
+     "pb": 76556,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/10137190",
+     "f": 1,
+     "page": 59,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-spider-hunting-wasp",
+     "name": "Spider-hunting wasp",
+     "sci": "Batozonellus fuliginosus",
+     "group": "Ants, bees and wasps",
+     "photo": "media/arthropods/spider-hunting-wasp.jpg",
+     "pb": 107737,
+     "credit": "© Dr. Thomas Dörner",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/112848366",
+     "f": 1,
+     "page": 59,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-sugar-ant-camponotus",
+     "name": "Sugar ant (Camponotus)",
+     "sci": "Camponotus",
+     "group": "Ants, bees and wasps",
+     "photo": "media/arthropods/sugar-ant-camponotus.jpg",
+     "pb": 51390,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/30739327",
+     "f": 1,
+     "page": 59,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-honey-bee-african-bee",
+     "name": "Honey bee (African bee)",
+     "sci": "Apis mellifera",
+     "group": "Ants, bees and wasps",
+     "photo": "media/arthropods/honey-bee-african-bee.jpg",
+     "pb": 42588,
+     "credit": "© Wynand Uys",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/11104364",
+     "f": 1,
+     "page": 60
+    },
+    {
+     "id": "arthropods-paper-wasp-polistinae",
+     "name": "Paper wasp (Polistinae)",
+     "sci": "Polistinae",
+     "group": "Ants, bees and wasps",
+     "photo": "media/arthropods/paper-wasp-polistinae.jpg",
+     "pb": 68081,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/38706369",
+     "f": 1,
+     "page": 60,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-baboon-spider-theraphosidae",
+     "name": "Baboon spider (Theraphosidae)",
+     "sci": "Theraphosidae",
+     "group": "Spiders",
+     "photo": "media/arthropods/baboon-spider-theraphosidae.jpg",
+     "pb": 130362,
+     "credit": "kingfisher14",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/331425500",
+     "f": 1,
+     "page": 63
+    },
+    {
+     "id": "arthropods-rear-horned-baboon-spider",
+     "name": "Rear-horned baboon spider",
+     "sci": "Ceratogyrus darlingi",
+     "group": "Spiders",
+     "photo": "media/arthropods/rear-horned-baboon-spider.jpg",
+     "pb": 130362,
+     "credit": "kingfisher14",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/331425500",
+     "f": 1,
+     "page": 63
+    },
+    {
+     "id": "arthropods-horned-baboon-spider-ceratogyrus",
+     "name": "Horned baboon spider (Ceratogyrus)",
+     "sci": "Ceratogyrus",
+     "group": "Spiders",
+     "photo": "media/arthropods/horned-baboon-spider-ceratogyrus.jpg",
+     "pb": 130362,
+     "credit": "kingfisher14",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/331425500",
+     "f": 1,
+     "page": 64
+    },
+    {
+     "id": "arthropods-sac-spider-cheiracanthium",
+     "name": "Sac spider (Cheiracanthium)",
+     "sci": "Cheiracanthium",
+     "group": "Spiders",
+     "photo": "media/arthropods/sac-spider-cheiracanthium.jpg",
+     "pb": 118424,
+     "credit": "© Ansie Dippenaar-Schoeman",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/298113624",
+     "f": 1,
+     "page": 64,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-six-eyed-crab-spider-six-eyed-sand-spider",
+     "name": "Six-eyed crab spider (six-eyed sand spider)",
+     "sci": "Hexophthalma hahni",
+     "group": "Spiders",
+     "photo": "media/arthropods/six-eyed-crab-spider-six-eyed-sand-spider.jpg",
+     "pb": 162883,
+     "credit": "© Ansie Dippenaar-Schoeman",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/305451503",
+     "f": 1,
+     "page": 64
+    },
+    {
+     "id": "arthropods-violin-spider-loxosceles",
+     "name": "Violin spider (Loxosceles)",
+     "sci": "Loxosceles",
+     "group": "Spiders",
+     "photo": "media/arthropods/violin-spider-loxosceles.jpg",
+     "pb": 85709,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/77549108",
+     "f": 1,
+     "page": 64
+    },
+    {
+     "id": "arthropods-black-widow-black-button-spider",
+     "name": "Black widow (black button spider)",
+     "sci": "Latrodectus renivulvatus",
+     "group": "Spiders",
+     "photo": "media/arthropods/black-widow-black-button-spider.jpg",
+     "pb": 143484,
+     "credit": "© Rudolph Steenkamp",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/331513628",
+     "f": 1,
+     "page": 65,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-brown-widow-brown-button-spider",
+     "name": "Brown widow (brown button spider)",
+     "sci": "Latrodectus geometricus",
+     "group": "Spiders",
+     "photo": "media/arthropods/brown-widow-brown-button-spider.jpg",
+     "pb": 89163,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/205675138",
+     "f": 1,
+     "page": 65,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-community-web-spider-social-spider",
+     "name": "Community web spider (social spider)",
+     "sci": "Stegodyphus dumicola",
+     "group": "Spiders",
+     "photo": "media/arthropods/community-web-spider-social-spider.jpg",
+     "pb": 120108,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/133928528",
+     "f": 1,
+     "page": 65
+    },
+    {
+     "id": "arthropods-bark-scorpion-uroplectes",
+     "name": "Bark scorpion (Uroplectes)",
+     "sci": "Uroplectes",
+     "group": "Scorpions",
+     "photo": "media/arthropods/bark-scorpion-uroplectes.jpg",
+     "pb": 59043,
+     "credit": "© Tony Eales",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/171117404",
+     "f": 1,
+     "page": 67,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-burrowing-scorpion-opistophthalmus",
+     "name": "Burrowing scorpion (Opistophthalmus)",
+     "sci": "Opistophthalmus",
+     "group": "Scorpions",
+     "photo": "media/arthropods/burrowing-scorpion-opistophthalmus.jpg",
+     "pb": 69534,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/33067862",
+     "f": 1,
+     "page": 67,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-kalahari-burrowing-scorpion",
+     "name": "Kalahari burrowing scorpion",
+     "sci": "Opistophthalmus wahlbergii",
+     "group": "Scorpions",
+     "photo": "media/arthropods/kalahari-burrowing-scorpion.jpg",
+     "pb": 150462,
+     "credit": "© Peter Archdale",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/92885645",
+     "f": 1,
+     "page": 67
+    },
+    {
+     "id": "arthropods-radiant-burrowing-scorpion",
+     "name": "Radiant burrowing scorpion",
+     "sci": "Opistophthalmus carinatus",
+     "group": "Scorpions",
+     "photo": "media/arthropods/radiant-burrowing-scorpion.jpg",
+     "pb": 69534,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/33067862",
+     "f": 1,
+     "page": 67,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-thick-tailed-scorpion-parabuthus",
+     "name": "Thick-tailed scorpion (Parabuthus)",
+     "sci": "Parabuthus",
+     "group": "Scorpions",
+     "photo": "media/arthropods/thick-tailed-scorpion-parabuthus.jpg",
+     "pb": 106646,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/133928594",
+     "f": 1,
+     "page": 67
+    },
+    {
+     "id": "arthropods-granulated-thick-tailed-scorpion",
+     "name": "Granulated thick-tailed scorpion",
+     "sci": "Parabuthus granulatus",
+     "group": "Scorpions",
+     "photo": "media/arthropods/granulated-thick-tailed-scorpion.jpg",
+     "pb": 113893,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/18826248",
+     "f": 1,
+     "page": 68,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-kalahari-thick-tailed-scorpion",
+     "name": "Kalahari thick-tailed scorpion",
+     "sci": "Parabuthus raudus",
+     "group": "Scorpions",
+     "photo": "media/arthropods/kalahari-thick-tailed-scorpion.jpg",
+     "pb": 102969,
+     "credit": "© Emma Walker",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/290561708",
+     "f": 1,
+     "page": 68
+    },
+    {
+     "id": "arthropods-transvaal-thick-tailed-scorpion",
+     "name": "Transvaal thick-tailed scorpion",
+     "sci": "Parabuthus transvaalicus",
+     "group": "Scorpions",
+     "photo": "media/arthropods/transvaal-thick-tailed-scorpion.jpg",
+     "pb": 106646,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/133928594",
+     "f": 1,
+     "page": 68
+    },
+    {
+     "id": "arthropods-solifuge-red-roman-sun-spider",
+     "name": "Solifuge (red roman, sun spider)",
+     "sci": "Solifugae",
+     "group": "Solifuges",
+     "photo": "media/arthropods/solifuge-red-roman-sun-spider.jpg",
+     "pb": 40170,
+     "credit": "© 116916927065934112165",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/25908",
+     "f": 1,
+     "page": 69
+    },
+    {
+     "id": "arthropods-velvet-mite",
+     "name": "Velvet mite",
+     "sci": "Trombidiidae",
+     "group": "Ticks and mites",
+     "photo": "media/arthropods/velvet-mite.jpg",
+     "pb": 138114,
+     "credit": "© Kym Nicolson",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/41664638",
+     "f": 1,
+     "page": 69,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-hard-tick-ixodidae",
+     "name": "Hard tick (Ixodidae)",
+     "sci": "Ixodidae",
+     "group": "Ticks and mites",
+     "photo": "media/arthropods/hard-tick-ixodidae.jpg",
+     "pb": 203426,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/133909336",
+     "f": 1,
+     "page": 70
+    },
+    {
+     "id": "arthropods-soft-tick-tampan-argasidae",
+     "name": "Soft tick / tampan (Argasidae)",
+     "sci": "Argasidae",
+     "group": "Ticks and mites",
+     "photo": "media/arthropods/soft-tick-tampan-argasidae.jpg",
+     "pb": 92529,
+     "credit": "© Gilles San Martin",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/254358771",
+     "f": 1,
+     "page": 70,
+     "wide": 1
+    },
+    {
+     "id": "arthropods-african-giant-centipede",
+     "name": "African giant centipede",
+     "sci": "Ethmostigmus trigonopodus",
+     "group": "Centipedes and millipedes",
+     "photo": "media/arthropods/african-giant-centipede.jpg",
+     "pb": 131328,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/211519834",
+     "f": 1,
+     "page": 70
+    },
+    {
+     "id": "arthropods-red-headed-centipede",
+     "name": "Red-headed centipede",
+     "sci": "Scolopendra morsitans",
+     "group": "Centipedes and millipedes",
+     "photo": "media/arthropods/red-headed-centipede.jpg",
+     "pb": 217525,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/133928535",
+     "f": 1,
+     "page": 70
+    },
+    {
+     "id": "arthropods-giant-millipede-spirostreptidae",
+     "name": "Giant millipede (Spirostreptidae)",
+     "sci": "Spirostreptidae",
+     "group": "Centipedes and millipedes",
+     "photo": "media/arthropods/giant-millipede-spirostreptidae.jpg",
+     "pb": 76967,
+     "credit": "© Christiaan Viljoen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/360265962",
+     "f": 1,
+     "page": 71
+    },
+    {
+     "id": "arthropods-african-migrant",
+     "name": "African migrant",
+     "sci": "Catopsilia florella",
+     "group": "Butterflies and moths",
+     "photo": "media/arthropods/african-migrant.jpg",
+     "pb": 81985,
+     "credit": "© Line Juul Nielsen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/259740964",
+     "wide": 1
+    },
+    {
+     "id": "arthropods-citrus-swallowtail",
+     "name": "Citrus swallowtail",
+     "sci": "Papilio demodocus",
+     "group": "Butterflies and moths",
+     "photo": "media/arthropods/citrus-swallowtail.jpg",
+     "pb": 97373,
+     "credit": "© Line Juul Nielsen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/259462839"
+    },
+    {
+     "id": "arthropods-deaths-head-hawkmoth",
+     "name": "Death's-head hawkmoth",
+     "sci": "Acherontia atropos",
+     "group": "Butterflies and moths",
+     "photo": "media/arthropods/deaths-head-hawkmoth.jpg",
+     "pb": 107565,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/268708487"
+    },
+    {
+     "id": "arthropods-guineafowl-butterfly",
+     "name": "Guineafowl butterfly",
+     "sci": "Hamanumida daedalus",
+     "group": "Butterflies and moths",
+     "photo": "media/arthropods/guineafowl-butterfly.jpg",
+     "pb": 94704,
+     "credit": "© Mark Clarke",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/393722878"
+    },
+    {
+     "id": "arthropods-yellow-pansy",
+     "name": "Yellow pansy",
+     "sci": "Junonia hierta",
+     "group": "Butterflies and moths",
+     "photo": "media/arthropods/yellow-pansy.jpg",
+     "pb": 98479,
+     "credit": "© Murphy Tladi",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/35448201"
+    },
+    {
+     "id": "arthropods-snouted-harvester-termite",
+     "name": "Snouted harvester termite",
+     "sci": "Trinervitermes",
+     "group": "Termites",
+     "photo": "media/arthropods/snouted-harvester-termite.jpg",
+     "pb": 68228,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/32915349",
+     "wide": 1
+    },
+    {
+     "id": "arthropods-ball-rolling-dung-beetle-scarabaeus",
+     "name": "Ball-rolling dung beetle (Scarabaeus)",
+     "sci": "Scarabaeus",
+     "group": "Beetles",
+     "photo": "media/arthropods/ball-rolling-dung-beetle-scarabaeus.jpg",
+     "pb": 127574,
+     "credit": "© Skjold Søndergaard",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/258853891",
+     "wide": 1
+    },
+    {
+     "id": "arthropods-cmr-beetle-blister-beetle",
+     "name": "CMR beetle (blister beetle)",
+     "sci": "Hycleus oculatus",
+     "group": "Beetles",
+     "photo": "media/arthropods/cmr-beetle-blister-beetle.jpg",
+     "pb": 74839,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/20306166",
+     "wide": 1
+    },
+    {
+     "id": "arthropods-tok-tokkie-darkling-beetle-tenebrionidae",
+     "name": "Tok-tokkie (darkling beetle, Tenebrionidae)",
+     "sci": "Tenebrionidae",
+     "group": "Beetles",
+     "photo": "media/arthropods/tok-tokkie-darkling-beetle-tenebrionidae.jpg",
+     "pb": 179853,
+     "credit": "© Michael Meiring",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/27374478",
+     "wide": 1
+    },
+    {
+     "id": "arthropods-two-spotted-ground-beetle-anthia",
+     "name": "Two-spotted ground beetle (Anthia)",
+     "sci": "Anthia",
+     "group": "Beetles",
+     "photo": "media/arthropods/two-spotted-ground-beetle-anthia.jpg",
+     "pb": 37525,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/36072264",
+     "wide": 1
+    },
+    {
+     "id": "arthropods-carpenter-bee-xylocopa",
+     "name": "Carpenter bee (Xylocopa)",
+     "sci": "Xylocopa",
+     "group": "Ants, bees and wasps",
+     "photo": "media/arthropods/carpenter-bee-xylocopa.jpg",
+     "pb": 83973,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/66410100",
+     "wide": 1
+    },
+    {
+     "id": "arthropods-matabele-ant",
+     "name": "Matabele ant",
+     "sci": "Megaponera analis",
+     "group": "Ants, bees and wasps",
+     "photo": "media/arthropods/matabele-ant.jpg",
+     "pb": 231568,
+     "credit": "© Asher P Higgins",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/198765983"
+    },
+    {
+     "id": "arthropods-golden-orb-web-spider",
+     "name": "Golden orb-web spider",
+     "sci": "Trichonephila senegalensis",
+     "group": "Spiders",
+     "photo": "media/arthropods/golden-orb-web-spider.jpg",
+     "pb": 39159,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/71484829",
+     "wide": 1
+    },
+    {
+     "id": "arthropods-bont-tick",
+     "name": "Bont tick",
+     "sci": "Amblyomma hebraeum",
+     "group": "Ticks and mites",
+     "photo": "media/arthropods/bont-tick.jpg",
+     "pb": 203426,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/133909336"
+    },
+    {
+     "id": "arthropods-armoured-ground-cricket-koringkriek",
+     "name": "Armoured ground cricket (koringkriek)",
+     "sci": "Acanthoplus discoidalis",
+     "group": "Grasshoppers and crickets",
+     "photo": "media/arthropods/armoured-ground-cricket-koringkriek.jpg",
+     "pb": 141742,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/200184919"
+    }
+   ]
+  },
+  {
+   "id": "plants-photos",
+   "title": "Plants photos",
+   "short": "Plants",
+   "subtitle": "88 plants of Botswana",
+   "featured": "In the manual",
+   "defaultScope": "all",
+   "items": [
+    {
+     "id": "plants-african-mangosteen",
+     "name": "African mangosteen",
+     "sci": "Garcinia livingstonei",
+     "group": "Trees",
+     "photo": "media/plants/african-mangosteen.jpg",
+     "pb": 216852,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/29775675",
+     "f": 1,
+     "page": 46
+    },
+    {
+     "id": "plants-buffalo-thorn",
+     "name": "Buffalo thorn",
+     "sci": "Ziziphus mucronata",
+     "group": "Trees",
+     "photo": "media/plants/buffalo-thorn.jpg",
+     "pb": 83294,
+     "credit": "© Wynand Uys",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/240299059",
+     "f": 1,
+     "page": 44
+    },
+    {
+     "id": "plants-camel-thorn",
+     "name": "Camel thorn",
+     "sci": "Vachellia erioloba",
+     "group": "Trees",
+     "photo": "media/plants/camel-thorn.jpg",
+     "pb": 101490,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/152915011",
+     "f": 1,
+     "page": 23
+    },
+    {
+     "id": "plants-jackal-berry",
+     "name": "Jackal-berry",
+     "sci": "Diospyros mespiliformis",
+     "group": "Trees",
+     "photo": "media/plants/jackal-berry.jpg",
+     "pb": 127933,
+     "credit": "© Kobus Meyer",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/172994190",
+     "f": 1,
+     "page": 43
+    },
+    {
+     "id": "plants-kalahari-apple-leaf",
+     "name": "Kalahari apple-leaf",
+     "sci": "Philenoptera nelsii",
+     "group": "Trees",
+     "photo": "media/plants/kalahari-apple-leaf.jpg",
+     "pb": 210782,
+     "credit": "lallen",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/33404068",
+     "f": 1,
+     "page": 23,
+     "wide": 1
+    },
+    {
+     "id": "plants-knob-thorn",
+     "name": "Knob-thorn",
+     "sci": "Senegalia nigrescens",
+     "group": "Trees",
+     "photo": "media/plants/knob-thorn.jpg",
+     "pb": 98470,
+     "credit": "erwinsieben",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/215249836",
+     "f": 1,
+     "page": 43,
+     "wide": 1
+    },
+    {
+     "id": "plants-large-fever-berry",
+     "name": "Large fever-berry",
+     "sci": "Croton megalobotrys",
+     "group": "Trees",
+     "photo": "media/plants/large-fever-berry.jpg",
+     "pb": 206784,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/113385012",
+     "f": 1,
+     "page": 43
+    },
+    {
+     "id": "plants-leadwood",
+     "name": "Leadwood",
+     "sci": "Combretum imberbe",
+     "group": "Trees",
+     "photo": "media/plants/leadwood.jpg",
+     "pb": 73319,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/135909946",
+     "f": 1,
+     "page": 42,
+     "wide": 1
+    },
+    {
+     "id": "plants-marula",
+     "name": "Marula",
+     "sci": "Sclerocarya birrea",
+     "group": "Trees",
+     "photo": "media/plants/marula.jpg",
+     "pb": 100596,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/127231063",
+     "f": 1,
+     "page": 42
+    },
+    {
+     "id": "plants-mopane",
+     "name": "Mopane",
+     "sci": "Colophospermum mopane",
+     "group": "Trees",
+     "photo": "media/plants/mopane.jpg",
+     "pb": 136407,
+     "credit": "simontonge",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/123583509",
+     "f": 1,
+     "page": 45
+    },
+    {
+     "id": "plants-natal-mahogany",
+     "name": "Natal mahogany",
+     "sci": "Trichilia emetica",
+     "group": "Trees",
+     "photo": "media/plants/natal-mahogany.jpg",
+     "pb": 75566,
+     "credit": "lallen",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/33557029",
+     "f": 1,
+     "page": 42
+    },
+    {
+     "id": "plants-rock-splitting-fig",
+     "name": "Rock-splitting fig",
+     "sci": "Ficus abutilifolia",
+     "group": "Trees",
+     "photo": "media/plants/rock-splitting-fig.jpg",
+     "pb": 164127,
+     "credit": "© Asher P Higgins",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/198743835",
+     "f": 1,
+     "page": 22
+    },
+    {
+     "id": "plants-russet-bushwillow",
+     "name": "Russet bushwillow",
+     "sci": "Combretum hereroense",
+     "group": "Trees",
+     "photo": "media/plants/russet-bushwillow.jpg",
+     "pb": 69781,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/135954797",
+     "f": 1,
+     "page": 23,
+     "wide": 1
+    },
+    {
+     "id": "plants-sausage-tree",
+     "name": "Sausage tree",
+     "sci": "Kigelia africana",
+     "group": "Trees",
+     "photo": "media/plants/sausage-tree.jpg",
+     "pb": 218534,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/135836816",
+     "f": 1,
+     "page": 43
+    },
+    {
+     "id": "plants-scented-thorn",
+     "name": "Scented thorn",
+     "sci": "Vachellia nilotica",
+     "group": "Trees",
+     "photo": "media/plants/scented-thorn.jpg",
+     "pb": 210722,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/113401621",
+     "f": 1,
+     "page": 41
+    },
+    {
+     "id": "plants-shepherd-s-tree",
+     "name": "Shepherd’s tree",
+     "sci": "Boscia albitrunca",
+     "group": "Trees",
+     "photo": "media/plants/shepherds-tree.jpg",
+     "pb": 57035,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/135909930",
+     "f": 1,
+     "page": 23,
+     "wide": 1
+    },
+    {
+     "id": "plants-sweet-thorn",
+     "name": "Sweet thorn",
+     "sci": "Vachellia karroo",
+     "group": "Trees",
+     "photo": "media/plants/sweet-thorn.jpg",
+     "pb": 86277,
+     "credit": "sardinemachine",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/297948805",
+     "f": 1,
+     "page": 50
+    },
+    {
+     "id": "plants-umbrella-thorn",
+     "name": "Umbrella thorn",
+     "sci": "Vachellia tortilis",
+     "group": "Trees",
+     "photo": "media/plants/umbrella-thorn.jpg",
+     "pb": 35134,
+     "credit": "rianafourie",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/237834755",
+     "f": 1,
+     "page": 23
+    },
+    {
+     "id": "plants-weeping-wattle",
+     "name": "Weeping wattle",
+     "sci": "Peltophorum africanum",
+     "group": "Trees",
+     "photo": "media/plants/weeping-wattle.jpg",
+     "pb": 59191,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/284495747",
+     "f": 1,
+     "page": 42,
+     "wide": 1
+    },
+    {
+     "id": "plants-milkweed",
+     "name": "Milkweed",
+     "sci": "Gomphocarpus fruticosus",
+     "group": "Shrubs",
+     "photo": "media/plants/milkweed.jpg",
+     "pb": 55973,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/10288148",
+     "f": 1,
+     "page": 46
+    },
+    {
+     "id": "plants-sickle-bush",
+     "name": "Sickle bush",
+     "sci": "Dichrostachys cinerea",
+     "group": "Shrubs",
+     "photo": "media/plants/sickle-bush.jpg",
+     "pb": 54579,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/284495738",
+     "f": 1,
+     "page": 50,
+     "wide": 1
+    },
+    {
+     "id": "plants-sour-plum",
+     "name": "Sour plum",
+     "sci": "Ximenia caffra",
+     "group": "Shrubs",
+     "photo": "media/plants/sour-plum.jpg",
+     "pb": 97557,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/114634703",
+     "f": 1,
+     "page": 33
+    },
+    {
+     "id": "plants-couch-grass",
+     "name": "Couch grass",
+     "sci": "Cynodon dactylon",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/couch-grass.jpg",
+     "pb": 230553,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/19953867",
+     "f": 1,
+     "page": 50
+    },
+    {
+     "id": "plants-curly-leaf-love-grass",
+     "name": "Curly-leaf love grass",
+     "sci": "Eragrostis rigidior",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/curly-leaf-love-grass.jpg",
+     "pb": 84817,
+     "credit": "© Manuel R Popp",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/104650852",
+     "f": 1,
+     "page": 49
+    },
+    {
+     "id": "plants-finger-grass",
+     "name": "Finger grass",
+     "sci": "Digitaria eriantha",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/finger-grass.jpg",
+     "pb": 42997,
+     "credit": "© Christiaan Viljoen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/111907370",
+     "f": 1,
+     "page": 49
+    },
+    {
+     "id": "plants-giant-spear-grass",
+     "name": "Giant spear grass",
+     "sci": "Trachypogon spicatus",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/giant-spear-grass.jpg",
+     "pb": 139153,
+     "credit": "vorontsovams",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/66481438",
+     "f": 1,
+     "page": 49
+    },
+    {
+     "id": "plants-herring-bone-grass",
+     "name": "Herring-bone grass",
+     "sci": "Pogonarthria squarrosa",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/herring-bone-grass.jpg",
+     "pb": 83359,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/77548247",
+     "f": 1,
+     "page": 50
+    },
+    {
+     "id": "plants-red-grass",
+     "name": "Red grass",
+     "sci": "Themeda triandra",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/red-grass.jpg",
+     "pb": 97786,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/69102950",
+     "f": 1,
+     "page": 49,
+     "wide": 1
+    },
+    {
+     "id": "plants-spear-grass",
+     "name": "Spear grass",
+     "sci": "Heteropogon contortus",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/spear-grass.jpg",
+     "pb": 163389,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/77552014",
+     "f": 1,
+     "page": 49
+    },
+    {
+     "id": "plants-tassel-three-awn",
+     "name": "Tassel three-awn",
+     "sci": "Aristida congesta",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/tassel-three-awn.jpg",
+     "pb": 79763,
+     "credit": "© Nicola van Berkel",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/10824683",
+     "f": 1,
+     "page": 49
+    },
+    {
+     "id": "plants-yellow-thatching-grass",
+     "name": "Yellow thatching grass",
+     "sci": "Hyperthelia dissoluta",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/yellow-thatching-grass.jpg",
+     "pb": 220664,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/77550559",
+     "f": 1,
+     "page": 50,
+     "wide": 1
+    },
+    {
+     "id": "plants-bladderwort",
+     "name": "Bladderwort",
+     "sci": "Utricularia gibba",
+     "group": "Water plants",
+     "photo": "media/plants/bladderwort.jpg",
+     "pb": 38640,
+     "credit": "© National Geographic Okavango Wilderness Project",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/98224010",
+     "f": 1,
+     "page": 47
+    },
+    {
+     "id": "plants-duckweed",
+     "name": "Duckweed",
+     "sci": "Lemna aequinoctialis",
+     "group": "Water plants",
+     "photo": "media/plants/duckweed.jpg",
+     "pb": 149278,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/36594458",
+     "f": 1,
+     "page": 48
+    },
+    {
+     "id": "plants-papyrus",
+     "name": "Papyrus",
+     "sci": "Cyperus papyrus",
+     "group": "Water plants",
+     "photo": "media/plants/papyrus.jpg",
+     "pb": 171488,
+     "credit": "© Tony Eales",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/174644051",
+     "f": 1,
+     "page": 48
+    },
+    {
+     "id": "plants-snow-flake-flower",
+     "name": "Snow-flake flower",
+     "sci": "Nymphoides indica",
+     "group": "Water plants",
+     "photo": "media/plants/snow-flake-flower.jpg",
+     "pb": 132586,
+     "credit": "© Scott W. Gavins",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/185658177",
+     "f": 1,
+     "page": 48
+    },
+    {
+     "id": "plants-real-fan-palm",
+     "name": "Real fan palm",
+     "sci": "Hyphaene petersiana",
+     "group": "Palms",
+     "photo": "media/plants/real-fan-palm.jpg",
+     "pb": 89544,
+     "credit": "© alanbedfordshaw",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/311702161",
+     "f": 1,
+     "page": 45
+    },
+    {
+     "id": "plants-leopard-orchid",
+     "name": "Leopard orchid",
+     "sci": "Ansellia africana",
+     "group": "Succulents and others",
+     "photo": "media/plants/leopard-orchid.jpg",
+     "pb": 58481,
+     "credit": "© Riana Fourie",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/414895435",
+     "f": 1,
+     "page": 47
+    },
+    {
+     "id": "plants-mistletoe",
+     "name": "Mistletoe",
+     "sci": "Plicosepalus kalachariensis",
+     "group": "Succulents and others",
+     "photo": "media/plants/mistletoe.jpg",
+     "pb": 32226,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/135842271",
+     "f": 1,
+     "page": 47
+    },
+    {
+     "id": "plants-baobab",
+     "name": "Baobab",
+     "sci": "Adansonia digitata",
+     "group": "Trees",
+     "photo": "media/plants/baobab.jpg",
+     "pb": 147391,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/11011121"
+    },
+    {
+     "id": "plants-bird-plum",
+     "name": "Bird plum",
+     "sci": "Berchemia discolor",
+     "group": "Trees",
+     "photo": "media/plants/bird-plum.jpg",
+     "pb": 99502,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/11097098",
+     "wide": 1
+    },
+    {
+     "id": "plants-black-monkey-orange",
+     "name": "Black monkey orange",
+     "sci": "Strychnos madagascariensis",
+     "group": "Trees",
+     "photo": "media/plants/black-monkey-orange.jpg",
+     "pb": 160024,
+     "credit": "prince_za",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/265172323"
+    },
+    {
+     "id": "plants-grey-camel-thorn",
+     "name": "Grey camel thorn",
+     "sci": "Vachellia haematoxylon",
+     "group": "Trees",
+     "photo": "media/plants/grey-camel-thorn.jpg",
+     "pb": 92948,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/9293085",
+     "wide": 1
+    },
+    {
+     "id": "plants-kiaat",
+     "name": "Kiaat",
+     "sci": "Pterocarpus angolensis",
+     "group": "Trees",
+     "photo": "media/plants/kiaat.jpg",
+     "pb": 133134,
+     "credit": "© National Geographic Okavango Wilderness Project",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/1727880"
+    },
+    {
+     "id": "plants-large-fruited-bushwillow",
+     "name": "Large-fruited bushwillow",
+     "sci": "Combretum zeyheri",
+     "group": "Trees",
+     "photo": "media/plants/large-fruited-bushwillow.jpg",
+     "pb": 268513,
+     "credit": "dune_ninja",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/193286205"
+    },
+    {
+     "id": "plants-long-tail-cassia",
+     "name": "Long-tail cassia",
+     "sci": "Cassia abbreviata",
+     "group": "Trees",
+     "photo": "media/plants/long-tail-cassia.jpg",
+     "pb": 49286,
+     "credit": "© Nic Knott-Craig",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/68592118"
+    },
+    {
+     "id": "plants-monkey-orange",
+     "name": "Monkey orange",
+     "sci": "Strychnos spinosa",
+     "group": "Trees",
+     "photo": "media/plants/monkey-orange.jpg",
+     "pb": 177627,
+     "credit": "© Brian du Preez",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/10854426",
+     "wide": 1
+    },
+    {
+     "id": "plants-paperbark-thorn",
+     "name": "Paperbark thorn",
+     "sci": "Vachellia sieberiana",
+     "group": "Trees",
+     "photo": "media/plants/paperbark-thorn.jpg",
+     "pb": 106660,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/77551382"
+    },
+    {
+     "id": "plants-pod-mahogany",
+     "name": "Pod mahogany",
+     "sci": "Afzelia quanzensis",
+     "group": "Trees",
+     "photo": "media/plants/pod-mahogany.jpg",
+     "pb": 192320,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/84418303"
+    },
+    {
+     "id": "plants-purple-pod-terminalia",
+     "name": "Purple-pod terminalia",
+     "sci": "Terminalia prunioides",
+     "group": "Trees",
+     "photo": "media/plants/purple-pod-terminalia.jpg",
+     "pb": 112116,
+     "credit": "simontonge",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/123581605"
+    },
+    {
+     "id": "plants-rain-tree",
+     "name": "Rain tree",
+     "sci": "Philenoptera violacea",
+     "group": "Trees",
+     "photo": "media/plants/rain-tree.jpg",
+     "pb": 94756,
+     "credit": "© Murphy Tladi",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/35522234"
+    },
+    {
+     "id": "plants-red-bushwillow",
+     "name": "Red bushwillow",
+     "sci": "Combretum apiculatum",
+     "group": "Trees",
+     "photo": "media/plants/red-bushwillow.jpg",
+     "pb": 166291,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/284501842"
+    },
+    {
+     "id": "plants-silver-terminalia",
+     "name": "Silver terminalia",
+     "sci": "Terminalia sericea",
+     "group": "Trees",
+     "photo": "media/plants/silver-terminalia.jpg",
+     "pb": 79779,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/135888623",
+     "wide": 1
+    },
+    {
+     "id": "plants-sycamore-fig",
+     "name": "Sycamore fig",
+     "sci": "Ficus sycomorus",
+     "group": "Trees",
+     "photo": "media/plants/sycamore-fig.jpg",
+     "pb": 162307,
+     "credit": "danielvanderpost",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/31050218"
+    },
+    {
+     "id": "plants-tamboti",
+     "name": "Tamboti",
+     "sci": "Spirostachys africana",
+     "group": "Trees",
+     "photo": "media/plants/tamboti.jpg",
+     "pb": 96925,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/284495576",
+     "wide": 1
+    },
+    {
+     "id": "plants-water-pear",
+     "name": "Water pear",
+     "sci": "Syzygium guineense",
+     "group": "Trees",
+     "photo": "media/plants/water-pear.jpg",
+     "pb": 76482,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/138405452"
+    },
+    {
+     "id": "plants-wild-seringa",
+     "name": "Wild seringa",
+     "sci": "Burkea africana",
+     "group": "Trees",
+     "photo": "media/plants/wild-seringa.jpg",
+     "pb": 31406,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/284495753",
+     "wide": 1
+    },
+    {
+     "id": "plants-zambezi-teak",
+     "name": "Zambezi teak",
+     "sci": "Baikiaea plurijuga",
+     "group": "Trees",
+     "photo": "media/plants/zambezi-teak.jpg",
+     "pb": 51501,
+     "credit": "danielvanderpost",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/30974648"
+    },
+    {
+     "id": "plants-black-thorn",
+     "name": "Black thorn",
+     "sci": "Senegalia mellifera",
+     "group": "Shrubs",
+     "photo": "media/plants/black-thorn.jpg",
+     "pb": 70171,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/135947610",
+     "wide": 1
+    },
+    {
+     "id": "plants-bluebush",
+     "name": "Bluebush",
+     "sci": "Diospyros lycioides",
+     "group": "Shrubs",
+     "photo": "media/plants/bluebush.jpg",
+     "pb": 285981,
+     "credit": "© Murphy Tladi",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/296444675"
+    },
+    {
+     "id": "plants-candle-pod-thorn",
+     "name": "Candle-pod thorn",
+     "sci": "Vachellia hebeclada",
+     "group": "Shrubs",
+     "photo": "media/plants/candle-pod-thorn.jpg",
+     "pb": 264606,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/247793879"
+    },
+    {
+     "id": "plants-kalahari-sand-raisin",
+     "name": "Kalahari sand raisin",
+     "sci": "Grewia retinervis",
+     "group": "Shrubs",
+     "photo": "media/plants/kalahari-sand-raisin.jpg",
+     "pb": 60188,
+     "credit": "rianafourie",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/210087489"
+    },
+    {
+     "id": "plants-lavender-fever-berry",
+     "name": "Lavender fever-berry",
+     "sci": "Croton gratissimus",
+     "group": "Shrubs",
+     "photo": "media/plants/lavender-fever-berry.jpg",
+     "pb": 159073,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/71484803",
+     "wide": 1
+    },
+    {
+     "id": "plants-magic-guarri",
+     "name": "Magic guarri",
+     "sci": "Euclea divinorum",
+     "group": "Shrubs",
+     "photo": "media/plants/magic-guarri.jpg",
+     "pb": 67326,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/132116788"
+    },
+    {
+     "id": "plants-puzzle-bush",
+     "name": "Puzzle bush",
+     "sci": "Ehretia rigida",
+     "group": "Shrubs",
+     "photo": "media/plants/puzzle-bush.jpg",
+     "pb": 64023,
+     "credit": "© Matthew Fainman",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/103480520"
+    },
+    {
+     "id": "plants-sandpaper-raisin",
+     "name": "Sandpaper raisin",
+     "sci": "Grewia flavescens",
+     "group": "Shrubs",
+     "photo": "media/plants/sandpaper-raisin.jpg",
+     "pb": 78491,
+     "credit": "rianafourie",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/204874953"
+    },
+    {
+     "id": "plants-shaving-brush-combretum",
+     "name": "Shaving-brush combretum",
+     "sci": "Combretum mossambicense",
+     "group": "Shrubs",
+     "photo": "media/plants/shaving-brush-combretum.jpg",
+     "pb": 60971,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/138406998"
+    },
+    {
+     "id": "plants-trumpet-thorn",
+     "name": "Trumpet thorn",
+     "sci": "Catophractes alexandri",
+     "group": "Shrubs",
+     "photo": "media/plants/trumpet-thorn.jpg",
+     "pb": 54262,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/10675468"
+    },
+    {
+     "id": "plants-velvet-raisin",
+     "name": "Velvet raisin",
+     "sci": "Grewia flava",
+     "group": "Shrubs",
+     "photo": "media/plants/velvet-raisin.jpg",
+     "pb": 86847,
+     "credit": "rianafourie",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/257488240"
+    },
+    {
+     "id": "plants-white-raisin",
+     "name": "White raisin",
+     "sci": "Grewia bicolor",
+     "group": "Shrubs",
+     "photo": "media/plants/white-raisin.jpg",
+     "pb": 117891,
+     "credit": "rianafourie",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/322803096"
+    },
+    {
+     "id": "plants-bulrush",
+     "name": "Bulrush",
+     "sci": "Typha capensis",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/bulrush.jpg",
+     "pb": 97907,
+     "credit": "lallen",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/32373920",
+     "wide": 1
+    },
+    {
+     "id": "plants-common-reed",
+     "name": "Common reed",
+     "sci": "Phragmites australis",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/common-reed.jpg",
+     "pb": 252402,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/158578617"
+    },
+    {
+     "id": "plants-guinea-grass",
+     "name": "Guinea grass",
+     "sci": "Megathyrsus maximus",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/guinea-grass.jpg",
+     "pb": 52049,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/284359777",
+     "wide": 1
+    },
+    {
+     "id": "plants-hippo-grass",
+     "name": "Hippo grass",
+     "sci": "Vossia cuspidata",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/hippo-grass.jpg",
+     "pb": 68196,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/65474988",
+     "wide": 1
+    },
+    {
+     "id": "plants-okavango-miscanthus",
+     "name": "Okavango miscanthus",
+     "sci": "Miscanthus junceus",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/okavango-miscanthus.jpg",
+     "pb": 127478,
+     "credit": "lallen",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/32375883"
+    },
+    {
+     "id": "plants-silky-bushman-grass",
+     "name": "Silky bushman grass",
+     "sci": "Stipagrostis uniplumis",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/silky-bushman-grass.jpg",
+     "pb": 44094,
+     "credit": "© Mahomed Desai",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/133928583"
+    },
+    {
+     "id": "plants-wild-rice",
+     "name": "Wild rice",
+     "sci": "Oryza longistaminata",
+     "group": "Grasses and sedges",
+     "photo": "media/plants/wild-rice.jpg",
+     "pb": 30387,
+     "credit": "erwinsieben",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/216360040",
+     "wide": 1
+    },
+    {
+     "id": "plants-day-waterlily",
+     "name": "Day waterlily",
+     "sci": "Nymphaea nouchali",
+     "group": "Water plants",
+     "photo": "media/plants/day-waterlily.jpg",
+     "pb": 65469,
+     "credit": "© National Geographic Okavango Wilderness Project",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/97772331"
+    },
+    {
+     "id": "plants-kariba-weed",
+     "name": "Kariba weed",
+     "sci": "Salvinia molesta",
+     "group": "Water plants",
+     "photo": "media/plants/kariba-weed.jpg",
+     "pb": 109495,
+     "credit": "erwinsieben",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/217903764",
+     "wide": 1
+    },
+    {
+     "id": "plants-night-waterlily",
+     "name": "Night waterlily",
+     "sci": "Nymphaea lotus",
+     "group": "Water plants",
+     "photo": "media/plants/night-waterlily.jpg",
+     "pb": 38566,
+     "credit": "© Kobus Meyer",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/173955065"
+    },
+    {
+     "id": "plants-water-chestnut",
+     "name": "Water chestnut",
+     "sci": "Trapa natans",
+     "group": "Water plants",
+     "photo": "media/plants/water-chestnut.jpg",
+     "pb": 82273,
+     "credit": "© Wilderness Safaris Botswana - Conservation Team",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/34626007"
+    },
+    {
+     "id": "plants-water-lettuce",
+     "name": "Water lettuce",
+     "sci": "Pistia stratiotes",
+     "group": "Water plants",
+     "photo": "media/plants/water-lettuce.jpg",
+     "pb": 77342,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/13575724",
+     "wide": 1
+    },
+    {
+     "id": "plants-wild-date-palm",
+     "name": "Wild date palm",
+     "sci": "Phoenix reclinata",
+     "group": "Palms",
+     "photo": "media/plants/wild-date-palm.jpg",
+     "pb": 102572,
+     "credit": "© Cricket Raspet",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/107100181"
+    },
+    {
+     "id": "plants-devil-s-claw",
+     "name": "Devil’s claw",
+     "sci": "Harpagophytum procumbens",
+     "group": "Succulents and others",
+     "photo": "media/plants/devils-claw.jpg",
+     "pb": 161852,
+     "credit": "© Ryan van Huyssteen",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/258028291"
+    },
+    {
+     "id": "plants-fireball-lily",
+     "name": "Fireball lily",
+     "sci": "Scadoxus multiflorus",
+     "group": "Succulents and others",
+     "photo": "media/plants/fireball-lily.jpg",
+     "pb": 116083,
+     "credit": "benkeen",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/192200743"
+    },
+    {
+     "id": "plants-flame-lily",
+     "name": "Flame lily",
+     "sci": "Gloriosa superba",
+     "group": "Succulents and others",
+     "photo": "media/plants/flame-lily.jpg",
+     "pb": 94488,
+     "credit": "© Peter Archdale",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/91952209"
+    },
+    {
+     "id": "plants-gemsbok-cucumber",
+     "name": "Gemsbok cucumber",
+     "sci": "Acanthosicyos naudinianus",
+     "group": "Succulents and others",
+     "photo": "media/plants/gemsbok-cucumber.jpg",
+     "pb": 151467,
+     "credit": "© Tony Rebelo",
+     "license": "CC BY-SA",
+     "src": "https://www.inaturalist.org/observations/135954964",
+     "wide": 1
+    },
+    {
+     "id": "plants-mopane-aloe",
+     "name": "Mopane aloe",
+     "sci": "Aloe littoralis",
+     "group": "Succulents and others",
+     "photo": "media/plants/mopane-aloe.jpg",
+     "pb": 131995,
+     "credit": "© Robert Taylor",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/79901898",
+     "wide": 1
+    },
+    {
+     "id": "plants-tsamma-melon",
+     "name": "Tsamma melon",
+     "sci": "Citrullus lanatus",
+     "group": "Succulents and others",
+     "photo": "media/plants/tsamma-melon.jpg",
+     "pb": 221689,
+     "credit": "eugenemarais",
+     "license": "CC0",
+     "src": "https://www.inaturalist.org/observations/271433449"
     }
    ]
   },
@@ -23582,7 +27983,7 @@ window.AGA_DATA = {
    "titbit": "Named after the white ring around its black cap; it is noisy and often calls at night.",
    "draft": true
   },
-  "Diederik Cuckoo": {
+  "Dideric Cuckoo": {
    "size": "About 19 cm long.",
    "habitat": "Common summer visitor (intra-African migrant) to woodland, savannah and reedbeds.",
    "food": "Eats insects, especially caterpillars, including hairy ones.",
@@ -23790,9 +28191,9 @@ window.AGA_DATA = {
    "titbit": "Young birds take 3-4 years to reach adult plumage; the female is larger and usually darker.",
    "draft": true
   },
-  "Tropical Boubou": {
+  "Swamp Boubou": {
    "size": "About 22 cm long.",
-   "habitat": "Resident of riverine thickets in far northern Botswana.",
+   "habitat": "Resident of dense riverine thickets and reedbeds in the Okavango Delta, Linyanti and Chobe.",
    "food": "Eats insects and other invertebrates, mostly found low in thick cover.",
    "breeding": "Builds a shallow cup nest in a thicket.",
    "titbit": "Pairs sing in a duet so well timed that it sounds like one bird.",
@@ -23966,12 +28367,12 @@ window.AGA_DATA = {
    "titbit": "The largest coucal in southern Africa, with a deep bubbling 'doo-doo-doo' call.",
    "draft": true
   },
-  "Crested Francolin": {
+  "Crested Spurfowl": {
    "size": "About 32-35 cm long.",
    "habitat": "Resident of woodland and savanna with thickets in northern and eastern Botswana.",
    "food": "Seeds, bulbs, berries, insects and termites scratched from the ground.",
    "breeding": "Lays its eggs in a shallow scrape on the ground under a bush.",
-   "titbit": "Often runs with its tail cocked like a bantam chicken; pairs duet loudly at dawn.",
+   "titbit": "Also called Crested Francolin. Often runs with its tail cocked like a bantam chicken; pairs duet loudly at dawn.",
    "draft": true
   },
   "Dark Chanting Goshawk": {
@@ -24462,6 +28863,14 @@ window.AGA_DATA = {
    "titbit": "Its chick is raised by a whole group of babblers, and it begs with calls like a babbler chick.",
    "draft": true
   },
+  "Black-bellied Bustard": {
+   "size": "About 60 cm tall; a slender bustard with long legs and neck.",
+   "habitat": "Resident of tall grassland and open savanna in northern Botswana.",
+   "food": "Insects, seeds, shoots and small animals taken from the ground.",
+   "breeding": "Lays 1-2 eggs on bare ground; the female alone incubates.",
+   "titbit": "Formerly called Long-legged Bustard. The male's display call is a croak followed by a loud 'pop'.",
+   "draft": true
+  },
   "Meves's Starling": {
    "size": "About 34 cm long, about half of which is tail.",
    "habitat": "Resident of mopane and riverine woodland in northern Botswana, e.g. along the Chobe.",
@@ -24620,6 +29029,2531 @@ window.AGA_DATA = {
    "food": "Seeds and insects.",
    "breeding": "Nests in a hole in a tree.",
    "titbit": "The small yellow throat spot is hard to see; look for the pale eyebrow instead.",
+   "draft": true
+  },
+  "Angolan Reed Frog": {
+   "size": "Small, about 2.5-3.5 cm long.",
+   "habitat": "Reeds, bulrushes and sedges in permanent water of the Okavango and northern rivers.",
+   "food": "Small insects such as midges and mosquitoes.",
+   "breeding": "Males call from reeds in summer; eggs are attached to submerged plant stems.",
+   "titbit": "Call is a single high note like a small bell; turns white in the midday sun to reflect heat.",
+   "draft": true
+  },
+  "Bubbling Kassina": {
+   "size": "Medium-small, about 3.5-5 cm long.",
+   "habitat": "Grassland and savanna near pans, vleis and floodplains.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Breeds in summer in pans and vleis; eggs are attached to plants under water.",
+   "titbit": "Usually walks or runs rather than hops; its 'quoip' call sounds like a bubble popping.",
+   "draft": true
+  },
+  "Southern Foam Nest Frog": {
+   "size": "About 6-9 cm long.",
+   "habitat": "Savanna woodland near pans; rests on branches, even in hot dry weather.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Pairs whip mucus into a foam nest on branches over water; tadpoles drop into the pool.",
+   "titbit": "Turns almost white in the sun to reduce heat and water loss; often seen on lodge walls.",
+   "draft": true
+  },
+  "African Bullfrog": {
+   "size": "Large, usually 8-12 cm long.",
+   "habitat": "Savanna with sandy soil; breeds in shallow temporary pans.",
+   "food": "Insects, other frogs, small reptiles, rodents and small birds.",
+   "breeding": "Breeds after the first heavy summer rains; males guard tadpoles in shallow pans.",
+   "titbit": "Smaller than the giant bullfrog; told apart by broken bands on the upper jaw.",
+   "draft": true
+  },
+  "Giant Bullfrog": {
+   "size": "Very large; males up to about 24 cm and over 1 kg.",
+   "habitat": "Grassland and savanna with sandy soils; breeds in temporary pans.",
+   "food": "Almost anything it can swallow: insects, frogs, reptiles, rodents and small birds.",
+   "breeding": "Breeds after heavy summer rains; egg to froglet takes under 5 weeks.",
+   "titbit": "Males guard tadpoles and dig channels to deeper water; can lie buried for years in a cocoon.",
+   "draft": true
+  },
+  "Flat-backed Toad": {
+   "size": "About 6-9 cm long.",
+   "habitat": "Savanna and grassland near water in the north and east.",
+   "food": "Insects, especially beetles and ants.",
+   "breeding": "Breeds in shallow still water in summer; eggs are laid in long jelly strings.",
+   "titbit": "Lacks the red on the back of the thighs that the guttural toad has.",
+   "draft": true
+  },
+  "Guttural Toad": {
+   "size": "Medium-large, about 7-10 cm long.",
+   "habitat": "Grassland, savanna and gardens near water; hides under rocks or logs by day.",
+   "food": "Insects and other invertebrates, often caught under lights at night.",
+   "breeding": "Calls from early spring; eggs laid in paired jelly strings in shallow pans and still water.",
+   "titbit": "Deep, snoring 'kwaa' call. Red on the back of the thighs; neck glands give off a toxin.",
+   "draft": true
+  },
+  "Western Olive Toad": {
+   "size": "Medium-large, about 7-11 cm long.",
+   "habitat": "Dry savanna and the Kalahari; breeds in pans and dams.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Breeds after summer rains in pans and dams; eggs laid in jelly strings.",
+   "titbit": "Has no dark patches on the snout, unlike the guttural toad.",
+   "draft": true
+  },
+  "Broad-banded Grass Frog": {
+   "size": "About 4-5 cm long.",
+   "habitat": "Grassy floodplains and pan edges; common in the Okavango.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Breeds in shallow flooded grassland and pans in summer.",
+   "titbit": "A pale broad band runs down the middle of its back; a very strong jumper.",
+   "draft": true
+  },
+  "Common River Frog": {
+   "size": "About 5-8 cm long.",
+   "habitat": "Permanent streams, rivers and dams with plant cover along the edge.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Breeds in permanent water; eggs are laid in shallow water.",
+   "titbit": "Tadpoles can take up to two years to become froglets if water is cold or food is short.",
+   "draft": true
+  },
+  "Common Platanna": {
+   "size": "About 6-10 cm; females larger than males.",
+   "habitat": "Fully aquatic in pans, dams and pools; may cross land on wet nights.",
+   "food": "Almost anything in the water: insects, tadpoles, fish and carrion.",
+   "breeding": "Breeds in water; eggs are stuck one by one to plants or objects under water.",
+   "titbit": "No tongue; uses its hands to push food into its mouth. Hind toes have black claws.",
+   "draft": true
+  },
+  "Banded Rubber Frog": {
+   "size": "Medium, about 4-6 cm long.",
+   "habitat": "Bushveld and savanna in north and east; hides in burrows and termite mounds.",
+   "food": "Mainly ants and termites.",
+   "breeding": "Breeds in pans and permanent water after good early-summer rains.",
+   "titbit": "Black with red stripes as a warning; its skin toxin affects the heart, so avoid handling it.",
+   "draft": true
+  },
+  "Bushveld Rain Frog": {
+   "size": "Small and round, about 3-4 cm long.",
+   "habitat": "Sandy savanna; lives underground and comes out on rainy nights.",
+   "food": "Ants, termites and other small invertebrates.",
+   "breeding": "Eggs are laid in an underground chamber and hatch as tiny froglets, with no tadpole.",
+   "titbit": "Too round for a normal grip, so mating pairs glue themselves together.",
+   "draft": true
+  },
+  "Mottled Shovel-nosed Frog": {
+   "size": "Small, about 3-4 cm long.",
+   "habitat": "Savanna near pans and floodplains; lives underground.",
+   "food": "Mainly termites and ants, found underground.",
+   "breeding": "Eggs laid in an underground nest near water; the female digs a path to lead tadpoles out.",
+   "titbit": "Digs head-first with its hard pointed snout, unlike most frogs that dig backwards.",
+   "draft": true
+  },
+  "Long Reed Frog": {
+   "size": "Tiny and slender, about 2-2.5 cm long.",
+   "habitat": "Reeds and grassy edges of permanent water in the north.",
+   "food": "Tiny insects.",
+   "breeding": "Males call from grass and reeds in summer; eggs laid on plants in water.",
+   "titbit": "Very long pointed snout and green see-through skin.",
+   "draft": true
+  },
+  "Painted Reed Frog": {
+   "size": "About 2.5-3.5 cm long.",
+   "habitat": "Reeds and plants around pans, dams and rivers.",
+   "food": "Small insects.",
+   "breeding": "Males call from plants in summer; eggs laid in clumps under water.",
+   "titbit": "Very colourful and variable; its loud, piercing whistle can be deafening in a chorus.",
+   "draft": true
+  },
+  "Bocage's Tree Frog": {
+   "size": "About 4-6 cm long.",
+   "habitat": "Savanna grassland and floodplains in the north.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Breeds after summer rains; eggs are laid in a burrow near water.",
+   "titbit": "Despite the name it lives on the ground and burrows; it has large dark eyes.",
+   "draft": true
+  },
+  "Eastern Olive Toad": {
+   "size": "Medium-large, about 7-11 cm long.",
+   "habitat": "Savanna in eastern and north-eastern Botswana.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Breeds in pans and slow water in summer; eggs laid in jelly strings.",
+   "titbit": "Has a pair of dark patches on the snout, unlike the western olive toad.",
+   "draft": true
+  },
+  "Red Toad": {
+   "size": "About 6-9 cm long.",
+   "habitat": "Savanna; shelters in burrows, termite mounds and buildings.",
+   "food": "Insects such as ants, termites and beetles.",
+   "breeding": "Breeds in deep pools and dams in summer; tadpoles swim in big schools.",
+   "titbit": "Reddish-brown with fairly smooth skin; often found in buildings and around camps.",
+   "draft": true
+  },
+  "Dwarf Grass Frog": {
+   "size": "Small, about 2.5-3 cm long.",
+   "habitat": "Flooded grassland and pan edges in the north.",
+   "food": "Small insects.",
+   "breeding": "Breeds in shallow flooded grass in summer.",
+   "titbit": "One of the smallest grass frogs; calls from hidden spots in wet grass.",
+   "draft": true
+  },
+  "Guibé's Grass Frog": {
+   "size": "About 3-4 cm long.",
+   "habitat": "Grassy floodplains in northern Botswana.",
+   "food": "Small insects.",
+   "breeding": "Breeds in shallow flooded grassland in summer.",
+   "draft": true
+  },
+  "Mascarene Grass Frog": {
+   "size": "About 4-5 cm long.",
+   "habitat": "Floodplains, marshes and pan edges in the north.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Breeds in shallow water in summer.",
+   "titbit": "Long, pointed snout and powerful legs for big leaps.",
+   "draft": true
+  },
+  "Plain Grass Frog": {
+   "size": "About 4-5 cm long.",
+   "habitat": "Savanna near pans and vleis.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Breeds in temporary pans and flooded grass in summer.",
+   "titbit": "Back is fairly plain, without the bold stripes of other grass frogs.",
+   "draft": true
+  },
+  "Sharp-nosed Grass Frog": {
+   "size": "About 4-6 cm long.",
+   "habitat": "Savanna near pans, vleis and floodplains.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Breeds in temporary pans and flooded grass in summer.",
+   "titbit": "Very pointed snout and long legs; a champion jumper.",
+   "draft": true
+  },
+  "Tropical Platanna": {
+   "size": "About 5-8 cm long.",
+   "habitat": "Fully aquatic in pools, pans and swamps in the north.",
+   "food": "Insects, tadpoles, small fish and carrion in the water.",
+   "breeding": "Breeds in water in summer; eggs are stuck to plants.",
+   "titbit": "Has a short tentacle under each eye, unlike the common platanna.",
+   "draft": true
+  },
+  "Dwarf Puddle Frog": {
+   "size": "Tiny, about 1.5-2 cm long.",
+   "habitat": "Edges of pans, puddles and floodplains.",
+   "food": "Tiny insects.",
+   "breeding": "Breeds in shallow water and puddles after rain.",
+   "titbit": "Named after Mababe in northern Botswana, where it was first described.",
+   "draft": true
+  },
+  "Snoring Puddle Frog": {
+   "size": "Small, about 3-4 cm long.",
+   "habitat": "Edges of pans, pools and dams.",
+   "food": "Small insects and other invertebrates.",
+   "breeding": "Breeds in shallow water; eggs float as a thin film on the surface.",
+   "titbit": "Its call sounds like a quiet snore.",
+   "draft": true
+  },
+  "Knocking Sand Frog": {
+   "size": "About 4-5 cm long.",
+   "habitat": "Sandy savanna near pans; burrows into sand.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Breeds in shallow pans after summer rains.",
+   "titbit": "Call is a fast 'knock-knock-knock', like tapping on wood.",
+   "draft": true
+  },
+  "Tremolo Sand Frog": {
+   "size": "About 4-5 cm long.",
+   "habitat": "Sandy savanna near pans; burrows into sand.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Breeds in shallow pans after summer rains.",
+   "titbit": "Call is a fast, high, trembling 'tremolo' of notes.",
+   "draft": true
+  },
+  "Boettger's Caco": {
+   "size": "Tiny, about 1.5-2.5 cm long.",
+   "habitat": "Flooded grassland and shallow pans.",
+   "food": "Tiny insects.",
+   "breeding": "Breeds in shallow flooded grass after rain; small clumps of eggs laid on plants.",
+   "titbit": "Its fast clicking call sounds like water dripping.",
+   "draft": true
+  },
+  "Ornate Frog": {
+   "size": "About 5-7 cm long.",
+   "habitat": "Savanna near temporary pans in the north; burrows in the dry season.",
+   "food": "Insects and other frogs.",
+   "breeding": "Breeds in temporary pans after summer rains.",
+   "titbit": "Boldly patterned in green, brown and cream; it eats other frogs.",
+   "draft": true
+  },
+  "Fish moth (silverfish)": {
+   "size": "About 10-12 mm long, not counting the tail filaments.",
+   "habitat": "Homes, and under bark, stones and leaf litter; likes dark, damp places.",
+   "food": "Starchy material, plant debris, paper and book bindings.",
+   "breeding": "No metamorphosis: young hatch looking like small adults and moult as they grow.",
+   "titbit": "One of the most primitive insects; wingless, and adults keep moulting all their lives.",
+   "draft": true
+  },
+  "Mayfly": {
+   "size": "Body about 5-25 mm, with two or three long tail filaments.",
+   "habitat": "Near clean rivers, lagoons and pools, such as in the Okavango Delta.",
+   "food": "Nymphs eat algae and plant debris in water; adults do not feed.",
+   "breeding": "Incomplete metamorphosis: nymphs live in water, then become winged adults.",
+   "titbit": "The only insects that moult again after getting wings; adults live only hours to a few days.",
+   "draft": true
+  },
+  "Praying mantis (Mantodea)": {
+   "size": "About 2-10 cm long, depending on the species.",
+   "habitat": "Grass, shrubs, trees and flowers in all habitats; often very well camouflaged.",
+   "food": "Live insects and other small animals, caught with spiked front legs.",
+   "breeding": "Female lays about 60 eggs at night in a foam case; young hatch after about a month.",
+   "titbit": "Can swivel its triangular head; in some species the female eats the male during mating.",
+   "draft": true
+  },
+  "Antlion (Myrmeleontidae)": {
+   "habitat": "Larvae live in dry, loose sand, often sheltered under trees, rocks or buildings.",
+   "food": "Larvae catch ants in cone-shaped sand pits and suck out their juices.",
+   "breeding": "Larva lives up to three years, then pupates in a silk cocoon underground for about four weeks.",
+   "titbit": "Larvae have no anus: all waste is stored and passed as one pellet at the end of the larval stage.",
+   "draft": true
+  },
+  "Lacewing (Chrysopidae)": {
+   "size": "About 1-2.5 cm long, with delicate green, see-through wings.",
+   "habitat": "Gardens, grassland and woodland; often comes to lights at night.",
+   "food": "Larvae eat aphids and other soft insects; adults eat aphids, pollen, nectar or honeydew.",
+   "breeding": "Complete metamorphosis; eggs are laid on thin silk stalks, out of reach of predators.",
+   "titbit": "The larvae, called aphid lions, are useful natural controllers of crop pests.",
+   "draft": true
+  },
+  "Damselfly": {
+   "size": "About 2.5-5 cm long, with a very slender body.",
+   "habitat": "Near water: rivers, lagoons and floodplains; very common in the Okavango.",
+   "food": "Adults catch small flying insects; nymphs eat small animals in the water.",
+   "breeding": "Incomplete metamorphosis: nymphs live in water and breathe with gills at the tail tip.",
+   "titbit": "Most rest with their wings closed above the body, unlike dragonflies.",
+   "draft": true
+  },
+  "Dragonfly": {
+   "size": "Body about 3-8 cm long.",
+   "habitat": "Near water, but strong fliers that also hunt over woodland and grassland.",
+   "food": "Adults catch flying insects in the air; nymphs eat insects, tadpoles and small fish.",
+   "breeding": "Eggs laid in or near water; the nymph climbs out and the adult emerges from its skin.",
+   "titbit": "Fast, precise fliers with huge eyes; they rest with their wings spread out flat.",
+   "draft": true
+  },
+  "Aphid": {
+   "size": "Tiny, about 1-4 mm long.",
+   "habitat": "On new shoots and leaves of plants, often in large colonies.",
+   "food": "They suck sap from plants.",
+   "breeding": "Females can give birth to live young without mating, so numbers grow very fast.",
+   "titbit": "They give off sweet honeydew, so ants often guard them and collect it.",
+   "draft": true
+  },
+  "Cicada (Cicadidae)": {
+   "size": "Body about 2-5 cm long.",
+   "habitat": "Trees in woodland and savanna, clinging to the bark.",
+   "food": "Adults suck sap from trees; nymphs suck sap from roots underground.",
+   "breeding": "Eggs laid in slits in twigs; nymphs live underground for a couple of years up to 17 years.",
+   "titbit": "The shrill summer noise is made by clicking membranes on the sides of the body.",
+   "draft": true
+  },
+  "Horn-borer moth": {
+   "habitat": "Wherever horns and hooves of dead antelope and cattle lie in the veld.",
+   "food": "Larvae eat the horns and hooves of dead animals.",
+   "breeding": "Larvae tunnel into horns and make silk tubes that stick out from the horn surface.",
+   "titbit": "One of very few animals that can digest keratin, the tough protein in horn.",
+   "draft": true
+  },
+  "African diadem": {
+   "size": "Wingspan about 6-8 cm.",
+   "habitat": "Widespread in open woodland, gardens and grassland.",
+   "food": "Adults drink nectar; caterpillars eat low herbs such as purslane.",
+   "breeding": "Complete metamorphosis; the male looks very different: black with large white spots.",
+   "titbit": "The harmless female copies the poisonous African monarch, so predators leave her alone.",
+   "draft": true
+  },
+  "African monarch": {
+   "size": "Wingspan about 6-8 cm.",
+   "habitat": "Common almost everywhere, especially where milkweeds grow.",
+   "food": "Adults drink nectar; caterpillars eat poisonous milkweed leaves.",
+   "breeding": "Eggs laid under milkweed leaves; caterpillar moults five times before pupating.",
+   "titbit": "Poison from milkweed makes caterpillar and butterfly bad-tasting to predators.",
+   "draft": true
+  },
+  "Brown-veined white": {
+   "size": "Wingspan about 4-5 cm.",
+   "habitat": "Widespread, especially in dry savanna and the Kalahari.",
+   "food": "Adults drink nectar; caterpillars eat caper-family shrubs such as shepherd's tree.",
+   "breeding": "Numbers build up in spring; by about December huge numbers migrate north-east.",
+   "titbit": "Famous for mass migrations, flying in endless streams across southern Africa.",
+   "draft": true
+  },
+  "Mopane moth (mopane worm)": {
+   "size": "Large moth; wingspan about 10-12 cm.",
+   "habitat": "Mopane woodland in northern and eastern Botswana.",
+   "food": "Caterpillars eat mainly mopane leaves; adults do not feed.",
+   "breeding": "Caterpillars appear after the rains, then pupate underground.",
+   "titbit": "The caterpillars are collected, dried or fried and eaten; an important food in Botswana.",
+   "draft": true
+  },
+  "Large fungus-growing termite (Macrotermes)": {
+   "size": "Workers and soldiers are small; the egg-laying queen is many times bigger.",
+   "habitat": "Large mounds in woodland and the Okavango, where mounds help to form new islands.",
+   "food": "Dead plant material, broken down by fungus that they grow inside the mound.",
+   "breeding": "Winged alates fly out to start new colonies; a queen may live over 45 years.",
+   "titbit": "A big mound can hold about a million termites and leans north to reduce heat.",
+   "draft": true
+  },
+  "Harvester termite": {
+   "habitat": "Grassland and pastures; underground chambers marked by small heaps of loose sand.",
+   "food": "Grass, shrubs and small trees; they can badly damage pastures.",
+   "breeding": "Winged males and females leave the nest in summer to start new colonies.",
+   "titbit": "Unlike most termites, workers have eyes and forage above ground in cool times and at night.",
+   "draft": true
+  },
+  "Fireflies and glow-worms (Lampyridae)": {
+   "habitat": "Damp grassland and areas near water; seen on warm summer nights.",
+   "food": "Larvae kill small invertebrates with venom and suck up the juice; adults do not feed.",
+   "breeding": "Eggs laid in soil; glow-worm females are wingless and look like larvae.",
+   "titbit": "They are beetles, not flies or worms; they make light with a chemical called luciferin.",
+   "draft": true
+  },
+  "Dung beetle (Scarabaeinae)": {
+   "size": "From a few millimetres to about 5 cm long.",
+   "habitat": "Wherever there is dung; most active in the wet summer months.",
+   "food": "Adults and larvae feed on dung; a few species eat other foods.",
+   "breeding": "Many bury dung balls and lay an egg in each; the larva eats the ball, then pupates.",
+   "titbit": "Without dung beetles only about 3% of the nitrates in dung would reach the soil.",
+   "draft": true
+  },
+  "Plum-coloured dung beetle": {
+   "habitat": "Savanna and woodland wherever there is dung.",
+   "food": "Dung.",
+   "titbit": "Named for its shiny plum colour; dung beetles come in many colours.",
+   "draft": true
+  },
+  "Malaria mosquito (Anopheles)": {
+   "size": "About 4-6 mm long.",
+   "habitat": "Near standing water; malaria risk is highest in northern Botswana in the rainy season.",
+   "food": "Females suck blood; males drink nectar and fruit juices.",
+   "breeding": "Eggs laid on water; larvae and pupae live in the water.",
+   "titbit": "Only females bite; they spread malaria, which usually shows 10-14 days after the bite.",
+   "draft": true
+  },
+  "Midge (Chironomidae)": {
+   "size": "Small, about 2-10 mm long.",
+   "habitat": "Near water; often swarms over lagoons and rivers at dusk.",
+   "food": "Larvae eat debris and algae in water; adults eat little or nothing.",
+   "breeding": "Larvae, some red and called bloodworms, live in mud at the bottom of water.",
+   "titbit": "These midges look like mosquitoes but do not bite people.",
+   "draft": true
+  },
+  "Mosquito (Culicidae)": {
+   "size": "About 3-6 mm long.",
+   "habitat": "Near any still water, even puddles and water in containers.",
+   "food": "Females suck blood and also take nectar; males drink nectar and fruit juices.",
+   "breeding": "All breed in water; in many species the female needs blood to make her eggs.",
+   "titbit": "Males have feathery antennae and cannot pierce skin, so only females bite.",
+   "draft": true
+  },
+  "Tsetse fly (Glossina)": {
+   "size": "About 6-14 mm long.",
+   "habitat": "Shady woodland near water; largely wiped out in the Okavango by spraying in the early 2000s.",
+   "food": "Both males and females feed only on blood.",
+   "breeding": "Female gives birth to one larva at a time, only about 10-20 in her life.",
+   "titbit": "Spreads sleeping sickness to people and nagana to cattle; wings fold like closed scissors.",
+   "draft": true
+  },
+  "Ant (Formicidae)": {
+   "size": "From about 1 mm to over 2 cm long.",
+   "habitat": "All habitats; nests in soil, wood, trees and termite mounds.",
+   "food": "Most are carnivorous; some eat seeds, plants or honeydew.",
+   "breeding": "Winged males and queens make a nuptial flight; the male dies soon after mating.",
+   "titbit": "Alarm smells: a little calls other ants to help, a lot makes the colony flee.",
+   "draft": true
+  },
+  "Spider-hunting wasp": {
+   "habitat": "Woodland and gardens; females search under bark, rocks and fallen plants.",
+   "food": "Larvae eat a paralysed spider; adults drink nectar.",
+   "breeding": "Female paralyses a spider, puts it in a nest with one egg and seals it; the larva eats it alive.",
+   "titbit": "Commonly seen and heard in Botswana; females have glossy blue-black wings.",
+   "draft": true
+  },
+  "Sugar ant (Camponotus)": {
+   "size": "About 5-15 mm long.",
+   "habitat": "Woodland, homes and gardens; nests in wood, soil or trees.",
+   "food": "Honeydew, nectar, sweet foods and small insects.",
+   "breeding": "Winged queens and males fly out to mate, often after rain.",
+   "titbit": "They cannot sting but may bite and spray acid; often come into kitchens for sugar.",
+   "draft": true
+  },
+  "Sycamore fig wasp": {
+   "size": "Tiny, only a few millimetres long.",
+   "habitat": "Inside the figs of the sycamore fig, which grows along rivers and in the Okavango.",
+   "food": "Larvae feed inside the fig flowers.",
+   "breeding": "Female enters a fig through a tiny hole, pollinates the flowers and lays eggs inside.",
+   "titbit": "Fig and wasp cannot survive without each other; this is called obligate mutualism.",
+   "draft": true
+  },
+  "Honey bee (African bee)": {
+   "size": "Workers about 12-15 mm long.",
+   "habitat": "All habitats; hives in hollow trees, rocks, termite mounds and buildings.",
+   "food": "Nectar and pollen; larvae are fed by worker bees.",
+   "breeding": "One queen lays the eggs; drones come from unfertilised eggs; workers are sterile females.",
+   "titbit": "Many stings or an allergy can kill; scrape stings out, never squeeze them.",
+   "draft": true
+  },
+  "Paper wasp (Polistinae)": {
+   "size": "About 1.5-2.5 cm long.",
+   "habitat": "Nests hang from roofs, branches, grass stalks and rock overhangs.",
+   "food": "Adults take nectar; larvae are fed chewed-up caterpillars.",
+   "breeding": "Live together in a 'paper' nest made from chewed wood pulp and spit.",
+   "titbit": "They sting painfully if the nest is disturbed; never approach a wasp nest.",
+   "draft": true
+  },
+  "Baboon spider (Theraphosidae)": {
+   "size": "Large and hairy; leg span up to about 15 cm.",
+   "habitat": "Silk-lined burrows up to 30 cm deep in the ground.",
+   "food": "Insects and other small animals, hunted close to the burrow at night.",
+   "breeding": "Females keep their eggs in a silk sac inside the burrow.",
+   "titbit": "Bite gives nasty puncture wounds but is only mildly venomous; rears up to threaten.",
+   "draft": true
+  },
+  "Rear-horned baboon spider": {
+   "habitat": "Burrows in savanna and woodland.",
+   "food": "Insects and other small animals, hunted at night near the burrow.",
+   "titbit": "Has a horn on the top of its body that points backwards; bite is painful but mild.",
+   "draft": true
+  },
+  "Horned baboon spider (Ceratogyrus)": {
+   "size": "Up to about 10 cm.",
+   "habitat": "Burrows in savanna and woodland.",
+   "food": "Arthropods, reptiles and even small mammals and birds.",
+   "titbit": "Each species is told apart by where the horn sits on its back; nocturnal.",
+   "draft": true
+  },
+  "Sac spider (Cheiracanthium)": {
+   "size": "Body about 1 cm long.",
+   "habitat": "Many habitats; often in homes, on curtains and in garden sheds.",
+   "food": "Insects and other small arthropods, hunted at night.",
+   "breeding": "Eggs kept in a white silk sac flat against a surface, often on curtains.",
+   "titbit": "Bite is cytotoxic and can turn into a slow-healing sore; clean it and see a doctor.",
+   "draft": true
+  },
+  "Six-eyed crab spider (six-eyed sand spider)": {
+   "size": "Body 8-15 mm; legs span up to 50 mm.",
+   "habitat": "Deserts and other sandy places.",
+   "food": "Ambushes passing insects and other small animals from under the sand.",
+   "titbit": "Venom was very strong in lab tests, but no human bite has ever been recorded.",
+   "draft": true
+  },
+  "Violin spider (Loxosceles)": {
+   "habitat": "Under rocks and logs, in burrows, and often in and around buildings.",
+   "food": "Soft-bodied arthropods such as fish moths, hunted at night.",
+   "breeding": "Female lays up to 15 eggs on a silk sheet and covers them with sand.",
+   "titbit": "Six eyes and a violin mark; bite is painless at first but cytotoxic, causing deep sores.",
+   "draft": true
+  },
+  "Black widow (black button spider)": {
+   "size": "Female body about 1-1.5 cm; male much smaller.",
+   "habitat": "Long grass, rocks and low bushes; less often near houses.",
+   "food": "Insects and other arthropods caught in a messy web.",
+   "breeding": "Egg sacs are whitish, smooth and round.",
+   "titbit": "Neurotoxic bite can be dangerous to people; get medical help quickly.",
+   "draft": true
+  },
+  "Brown widow (brown button spider)": {
+   "size": "Female body about 1 cm; male much smaller.",
+   "habitat": "Common in and around houses, sheds and outbuildings.",
+   "food": "Insects and other arthropods caught in a messy web.",
+   "breeding": "Egg sacs are whitish balls covered in small spikes.",
+   "titbit": "Orange-red hourglass under the body; bite is milder than black widow's but needs a doctor.",
+   "draft": true
+  },
+  "Community web spider (social spider)": {
+   "size": "Small, under 1 cm long.",
+   "habitat": "Thorn trees in savanna, in big messy nests of silk, leaves and twigs.",
+   "food": "Insects caught in the web, shared by the whole group.",
+   "breeding": "Mothers feed their young and are finally eaten by them.",
+   "titbit": "Hundreds of spiders share one nest and attack trapped insects together.",
+   "draft": true
+  },
+  "Bark scorpion (Uroplectes)": {
+   "size": "Small, mostly under 6 cm long.",
+   "habitat": "Under bark, rocks and logs in savanna and woodland.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "Sting is extremely painful but not medically serious; check firewood before handling.",
+   "draft": true
+  },
+  "Burrowing scorpion (Opistophthalmus)": {
+   "size": "Medium to large, with a thin tail and big pincers.",
+   "habitat": "Burrows in all types of soil; prey remains often lie outside the burrow.",
+   "food": "Insects and other invertebrates, held with strong pincers rather than the sting.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "Sting causes burning pain, a bit worse than a bee sting; not dangerous, but watch the patient.",
+   "draft": true
+  },
+  "Kalahari burrowing scorpion": {
+   "habitat": "Burrows in Kalahari sand.",
+   "food": "Insects and other invertebrates, caught with strong pincers.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "One of the two most common burrowing scorpions; painful but mild sting.",
+   "draft": true
+  },
+  "Radiant burrowing scorpion": {
+   "habitat": "Burrows in the ground, often in open areas.",
+   "food": "Insects and other invertebrates, caught with strong pincers.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "One of the two most common burrowing scorpions; painful but mild sting.",
+   "draft": true
+  },
+  "Thick-tailed scorpion (Parabuthus)": {
+   "habitat": "Burrows in sand, often at the base of bushes; dry savanna and Kalahari.",
+   "food": "Insects, spiders and other invertebrates.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "Potentially deadly sting; thick tail and thin pincers are warning signs. Get help fast.",
+   "draft": true
+  },
+  "Granulated thick-tailed scorpion": {
+   "habitat": "Throughout Botswana, burrowing in thick sand at the base of plants.",
+   "food": "Insects and other invertebrates; hunts on warm nights, especially after rain.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "The most venomous scorpion in southern Africa; it has its own special anti-venom.",
+   "draft": true
+  },
+  "Kalahari thick-tailed scorpion": {
+   "habitat": "Sandy soil at the base of plants in the Kalahari.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "The largest Kalahari scorpion; can spray venom. Any sting needs urgent medical help.",
+   "draft": true
+  },
+  "Transvaal thick-tailed scorpion": {
+   "habitat": "Dry savanna; burrows in sand and under rocks.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "Highly venomous and can spray venom; a sting needs urgent medical help.",
+   "draft": true
+  },
+  "Solifuge (red roman, sun spider)": {
+   "habitat": "Open, dry, sandy areas; rests by day in shallow scrapes.",
+   "food": "Insects, other arthropods, reptiles and rodents.",
+   "breeding": "Female lays about 20 eggs in late summer and guards eggs and young.",
+   "titbit": "Not a true spider and has no venom, but big jaws can give a painful bite.",
+   "draft": true
+  },
+  "Velvet mite": {
+   "size": "About 5 mm long.",
+   "habitat": "Sandy ground, seen mainly after summer thunderstorms.",
+   "food": "Adults eat small, soft-bodied invertebrates such as termites.",
+   "breeding": "Young stages live as parasites on other invertebrates before becoming adults.",
+   "titbit": "The biggest mite; bright red and soft like a velvet cushion. Harmless to people.",
+   "draft": true
+  },
+  "Hard tick (Ixodidae)": {
+   "size": "From about 3 mm; fed females swell much bigger.",
+   "habitat": "Grass and bush where animals pass; they wait on plants for a host.",
+   "food": "Blood of mammals, birds and reptiles.",
+   "breeding": "Fed female drops off, lays thousands of eggs and dies; tiny 6-legged larvae hatch.",
+   "titbit": "Hard shield on the back; they spread tick-bite fever and Congo fever to people.",
+   "draft": true
+  },
+  "Soft tick / tampan (Argasidae)": {
+   "habitat": "Hide in cracks, burrows, nests and resting places of their hosts.",
+   "food": "Blood of their hosts.",
+   "breeding": "Have more than one nymph stage, feeding on a host between moults.",
+   "titbit": "Leathery body; the mouthparts are underneath and cannot be seen from above.",
+   "draft": true
+  },
+  "African giant centipede": {
+   "habitat": "Under logs, rocks and leaf litter; active at dusk and at night.",
+   "food": "Insects and other invertebrates; large ones also take frogs and other small animals.",
+   "breeding": "Eggs are laid in the soil.",
+   "titbit": "One of Botswana's two centipedes with fairly strong venom; the bite is very painful.",
+   "draft": true
+  },
+  "Red-headed centipede": {
+   "habitat": "Under logs, stones and debris; active at dusk and at night.",
+   "food": "Insects and other invertebrates; large ones also take frogs and other small animals.",
+   "breeding": "Eggs are laid in the soil.",
+   "titbit": "Bright warning colours; the bite is very painful but usually needs no medical treatment.",
+   "draft": true
+  },
+  "Giant millipede (Spirostreptidae)": {
+   "habitat": "Woodland and savanna; most often seen on the ground in the rainy season.",
+   "food": "Fungi, rotting plant material and new shoots.",
+   "breeding": "Female lays eggs, which are guarded by the parents.",
+   "titbit": "Harmless, with no bite or sting, but gives off a foul chemical; wash hands after touching.",
+   "draft": true
+  },
+  "African migrant": {
+   "size": "Wingspan about 5-6 cm.",
+   "habitat": "Widespread in savanna, woodland and gardens.",
+   "food": "Adults drink nectar; caterpillars eat leaves of cassia (Senna) plants.",
+   "breeding": "Several generations each warm season.",
+   "titbit": "Large pale white-green butterfly famous for mass migrations.",
+   "draft": true
+  },
+  "Citrus swallowtail": {
+   "size": "Wingspan about 9-12 cm.",
+   "habitat": "Widespread in woodland, riverine areas and gardens.",
+   "food": "Adults drink nectar; caterpillars eat citrus leaves and wild relatives.",
+   "breeding": "Young caterpillars look like bird droppings; older ones are green.",
+   "titbit": "Caterpillars push out a red forked organ that smells bad to scare off predators.",
+   "draft": true
+  },
+  "Death's-head hawkmoth": {
+   "size": "Wingspan about 10-12 cm.",
+   "habitat": "Widespread; often comes to lights at night.",
+   "food": "Adults steal honey from beehives; caterpillars eat leaves of potato-family and other plants.",
+   "breeding": "Large caterpillars pupate underground.",
+   "titbit": "Has a skull-like mark on its back and squeaks loudly when handled.",
+   "draft": true
+  },
+  "Guineafowl butterfly": {
+   "size": "Wingspan about 5-6 cm.",
+   "habitat": "Dry savanna and woodland; often settles on the ground.",
+   "food": "Adults feed on rotting fruit and tree sap; caterpillars eat bushwillow leaves.",
+   "titbit": "Grey wings with white dots look like guineafowl feathers.",
+   "draft": true
+  },
+  "Yellow pansy": {
+   "size": "Wingspan about 4-5 cm.",
+   "habitat": "Open grassland and savanna, often on bare ground.",
+   "food": "Adults drink nectar from small flowers.",
+   "titbit": "Bright yellow wings with a blue spot on each hindwing.",
+   "draft": true
+  },
+  "Snouted harvester termite": {
+   "habitat": "Grassland and savanna; builds small dome-shaped mounds.",
+   "food": "Grass and dry plant material, stored in the mound.",
+   "breeding": "Winged alates fly out to start new colonies, usually after rain.",
+   "titbit": "Soldiers squirt sticky defensive liquid from a snout; main food of the aardwolf.",
+   "draft": true
+  },
+  "Ball-rolling dung beetle (Scarabaeus)": {
+   "size": "About 1.5-4 cm long.",
+   "habitat": "Savanna and Kalahari sand wherever there is dung.",
+   "food": "Dung.",
+   "breeding": "They roll a dung ball away, bury it and lay an egg in it.",
+   "titbit": "Some species steer using the sun, moon and even the Milky Way.",
+   "draft": true
+  },
+  "CMR beetle (blister beetle)": {
+   "size": "About 2-3 cm long.",
+   "habitat": "Savanna and gardens, often on flowers in summer.",
+   "food": "Adults eat flowers and pollen; larvae eat grasshopper eggs in the soil.",
+   "breeding": "Larvae develop in the soil, feeding on grasshopper egg pods.",
+   "titbit": "Contains a chemical that blisters skin and is poisonous if eaten; wash after touching.",
+   "draft": true
+  },
+  "Tok-tokkie (darkling beetle, Tenebrionidae)": {
+   "size": "From a few millimetres to about 4 cm long.",
+   "habitat": "Dry areas, especially Kalahari sand.",
+   "food": "Dead plant matter and other debris.",
+   "breeding": "Larvae, like mealworms, live in the soil.",
+   "titbit": "Some tap their bodies on the ground to call a mate, giving the name tok-tokkie.",
+   "draft": true
+  },
+  "Two-spotted ground beetle (Anthia)": {
+   "size": "About 4-6 cm long.",
+   "habitat": "Dry sandy savanna and the Kalahari.",
+   "food": "Insects and other invertebrates; fast-running hunters.",
+   "titbit": "Can spray a burning acid that hurts eyes and skin; do not pick them up.",
+   "draft": true
+  },
+  "Carpenter bee (Xylocopa)": {
+   "size": "About 2-3 cm long.",
+   "habitat": "Woodland and gardens; nests in dead wood.",
+   "food": "Nectar and pollen.",
+   "breeding": "Females bore tunnels in dead wood and lay eggs in cells stocked with pollen.",
+   "titbit": "Big, noisy bees; females can sting but seldom do, and males cannot sting.",
+   "draft": true
+  },
+  "Matabele ant": {
+   "size": "Workers about 1-2 cm long.",
+   "habitat": "Savanna and woodland; nests underground.",
+   "food": "Termites only, caught in raids.",
+   "titbit": "Raid termites in columns; painful sting. They carry injured nestmates home and treat them.",
+   "draft": true
+  },
+  "Golden orb-web spider": {
+   "size": "Female body about 2.5-3 cm; male much smaller.",
+   "habitat": "Woodland and savanna; large webs between trees and bushes.",
+   "food": "Flying insects caught in the web.",
+   "breeding": "Tiny males live in the female's web.",
+   "titbit": "The web silk shines golden in the sun; harmless to people.",
+   "draft": true
+  },
+  "Bont tick": {
+   "habitat": "Savanna with livestock and large wild animals.",
+   "food": "Blood; adults feed on large mammals, young stages also on smaller animals.",
+   "breeding": "Three-host tick: larva, nymph and adult each feed on a different host.",
+   "titbit": "Colourful banded legs; spreads heartwater to livestock and tick-bite fever to people.",
+   "draft": true
+  },
+  "Armoured ground cricket (koringkriek)": {
+   "size": "About 4-5 cm long.",
+   "habitat": "Dry savanna and the Kalahari; common in summer.",
+   "food": "Plants, seeds, dead animals and other insects, including each other.",
+   "titbit": "Flightless; squirts foul yellow blood from its body when disturbed.",
+   "draft": true
+  },
+  "Elephant": {
+   "size": "Bulls about 3.2 m at the shoulder and 5,500–6,000 kg; cows about 2.4 m and 3,800–4,000 kg.",
+   "habitat": "Common in northern Botswana, e.g. Chobe, Linyanti and Okavango; woodland and savanna near water.",
+   "food": "Mixed feeder that grazes when grass is good; bulls eat about 170 kg of food and drink about 160 litres a day.",
+   "breeding": "One calf after 22 months' gestation, mostly in the rains; family herds of related cows.",
+   "titbit": "Many elephant calls are infrasound, too low for people to hear.",
+   "draft": true
+  },
+  "Black Rhino": {
+   "size": "Shoulder height about 1.6 m; mass about 850–880 kg.",
+   "habitat": "Reintroduced to well-protected areas of Botswana; locations are kept confidential to protect them from poachers.",
+   "food": "Browser of shrubs and trees, using a pointed, grasping upper lip; seldom more than 15 km from water.",
+   "breeding": "One calf after about 15 months' gestation; the calf stays with its mother for 2–4 years.",
+   "titbit": "The calf runs behind its mother, but a white rhino calf runs in front.",
+   "draft": true
+  },
+  "White Rhino": {
+   "size": "Bulls about 1.7 m and 2,000 kg; cows about 1.6 m and 1,600 kg.",
+   "habitat": "Reintroduced to well-protected areas of Botswana; locations are kept confidential to protect them from poachers.",
+   "food": "Grazer with a wide, square lip; drinks daily when it can, mostly between 17h00 and 21h00.",
+   "breeding": "One calf after 16 months' gestation; a territorial bull lives with several cows.",
+   "titbit": "Bulls mark their territory with dung middens and by spraying urine.",
+   "draft": true
+  },
+  "Hippopotamus": {
+   "size": "Bulls about 1.5 m and 1,500 kg; cows about 1.4 m and 1,300 kg.",
+   "habitat": "Rivers, lagoons and deep pools of the Okavango, Linyanti and Chobe; grazes on land at night.",
+   "food": "Grazer that feeds mostly at night, eating about 40 kg of grass a night.",
+   "breeding": "One calf of 40–50 kg after only 8 months' gestation; only about 10% of bulls ever hold territory.",
+   "titbit": "Hippo seldom mock-charge; never get between a hippo and the water.",
+   "draft": true
+  },
+  "Bushpig": {
+   "size": "Shoulder height about 70 cm; mass up to about 80 kg.",
+   "habitat": "Riverine forest, thick bush and reedbeds in northern Botswana; rarely seen.",
+   "food": "Omnivore; roots up bulbs, roots and fruit, and also eats insects and carrion.",
+   "breeding": "Litters of about 3–4 striped piglets, born in a grass nest in summer.",
+   "titbit": "Mainly active at night and very shy, so it is rarely seen even where common.",
+   "draft": true
+  },
+  "Common Warthog": {
+   "size": "Shoulder height about 70 cm; boars up to about 100 kg, sows about 45–70 kg.",
+   "habitat": "Open grassland, floodplains and savanna across much of Botswana.",
+   "food": "Mainly a grazer; kneels to eat short grass and digs out roots with its snout.",
+   "breeding": "Usually 2–4 piglets, born in a burrow after about 5.5 months' gestation.",
+   "titbit": "It often reverses into its burrow so it can face danger with its tusks.",
+   "draft": true
+  },
+  "Giraffe": {
+   "size": "Bulls about 3 m at the shoulder and 1,200 kg; cows about 2.7 m and 820 kg.",
+   "habitat": "Dry savanna and woodland across northern and central Botswana, including the Kalahari.",
+   "food": "Browser; uses a tongue over 40 cm long to strip leaves; also chews bones for calcium.",
+   "breeding": "One calf after 15 months; it drops about 2 m at birth and is hidden for 3 weeks.",
+   "titbit": "A giraffe's heart can weigh 11 kg, as much as a full-grown steenbok.",
+   "draft": true
+  },
+  "Plains Zebra": {
+   "size": "Shoulder height about 1.3 m; stallions about 320 kg, mares about 260 kg.",
+   "habitat": "Grassland and open woodland near water; many move to the Makgadikgadi and Nxai Pan area in the rains.",
+   "food": "Bulk grazer that drinks daily; sometimes browses.",
+   "breeding": "One foal born about a year after mating; a family group is one stallion with his mares.",
+   "titbit": "If a herd member is caught, the herd may attack the predator with kicks and bites.",
+   "draft": true
+  },
+  "Buffalo": {
+   "size": "Bulls about 1.45 m and 600 kg; cows about 1.4 m and 450 kg.",
+   "habitat": "Northern Botswana, especially the Okavango, Linyanti and Chobe; grassland and woodland near water.",
+   "food": "Ruminant grazer that drinks at least once a day; feeds early, late and on bright nights.",
+   "breeding": "Most mating in February; one calf of about 40 kg is born after 11 months.",
+   "titbit": "Old bulls that leave the herd and live together are called 'dagga boys'.",
+   "draft": true
+  },
+  "Blue Wildebeest": {
+   "size": "Bulls about 1.4 m and 240 kg; cows about 1.25 m and 200 kg.",
+   "habitat": "Open grassland and savanna, e.g. Central Kalahari, Makgadikgadi and the Okavango.",
+   "food": "Ruminant grazer of short grass; must drink at least every second day.",
+   "breeding": "Mates in March–April; calves are born together in November–December after 8.5 months.",
+   "titbit": "Cordon fences in the 1960s and 70s caused Botswana to lose about 90% of its wildebeest.",
+   "draft": true
+  },
+  "Greater Kudu": {
+   "size": "Bulls about 1.4 m and 230 kg; cows about 1.25 m and 150 kg.",
+   "habitat": "Woodland and thicket across most of Botswana, including the Kalahari.",
+   "food": "Browser of leaves and pods; does not need to drink; up to 40% of feeding is at night.",
+   "breeding": "Mates at the end of the rains; one calf is born around January after 9 months.",
+   "titbit": "A bull's horns make one full spiral by age 2 and about 2½ turns by age 6.",
+   "draft": true
+  },
+  "Impala": {
+   "size": "Rams about 90 cm and 60 kg; ewes about 85 cm and 50 kg.",
+   "habitat": "Woodland edges near water in northern and eastern Botswana.",
+   "food": "Mixed feeder: grazes fresh grass and switches to browse when grass is poor.",
+   "breeding": "Rut around April; lambs are born together in a short burst in November.",
+   "titbit": "No ram can hold a territory for the whole 3-week rut, so several strong rams mate the ewes.",
+   "draft": true
+  },
+  "Oryx (Gemsbok)": {
+   "size": "Shoulder height about 1.25 m; bulls about 240 kg, cows about 210 kg.",
+   "habitat": "Dry Kalahari grassland and dunes, e.g. Central Kalahari and Kgalagadi.",
+   "food": "Grazer that also digs for bulbs and tubers; does not need surface water.",
+   "breeding": "Mates at the end of the rains; calves are born with the next rains and hidden for a few weeks.",
+   "titbit": "Its body can heat up to 45 °C while special blood vessels keep the brain cool.",
+   "draft": true
+  },
+  "Red Lechwe": {
+   "size": "Rams about 1 m and 115 kg; ewes about 90 cm and 70 kg.",
+   "habitat": "Floodplains and shallow water of the Okavango, Linyanti and Chobe.",
+   "food": "Grazer of floodplain grasses; drinks up to 3 times a day.",
+   "breeding": "One calf after 7.5 months, hidden for 3 weeks; Okavango rut peaks in March–April.",
+   "titbit": "Big hindquarters and splayed hooves help it run through shallow water and mud.",
+   "draft": true
+  },
+  "Springbok": {
+   "size": "Shoulder height about 75 cm; mass about 30–45 kg.",
+   "habitat": "Dry open plains and pans of the Kalahari and Makgadikgadi.",
+   "food": "Mixed feeder of grass and browse; can live without drinking water.",
+   "breeding": "One lamb after about 6 months; most lambs are born in the rains.",
+   "titbit": "It 'pronks', leaping stiff-legged and opening a white crest of hair on its back.",
+   "draft": true
+  },
+  "Steenbok": {
+   "size": "Shoulder height about 50 cm; mass about 11 kg.",
+   "habitat": "Open grassland and lightly wooded savanna throughout Botswana, including the Kalahari.",
+   "food": "Selective browser and grazer that also digs up roots; does not need to drink.",
+   "breeding": "One lamb after about 5.5 months, kept hidden in grass.",
+   "titbit": "It scrapes soil over its dung and urine to bury them.",
+   "draft": true
+  },
+  "Waterbuck": {
+   "size": "Bulls about 1.5 m and 270 kg; cows about 1.1 m and 180 kg.",
+   "habitat": "Near rivers and floodplains in northern Botswana, e.g. the Chobe and Linyanti.",
+   "food": "Grazer of coarse, high-fibre grass; must stay close to water.",
+   "breeding": "One calf (twins not rare) after 9 months, hidden for 3–4 weeks.",
+   "titbit": "Its smell is said to put off predators, but there is no evidence and they are often killed.",
+   "draft": true
+  },
+  "African Wildcat": {
+   "size": "Shoulder height about 35 cm; mass about 3–6 kg.",
+   "habitat": "Found throughout Botswana in most habitats, from the Kalahari to the Okavango.",
+   "food": "Mainly rodents and birds; also insects, small antelope and sometimes fruit.",
+   "breeding": "About 3 kittens after 2 months, often in old springhare or aardvark burrows.",
+   "titbit": "Breeding with house cats is a threat; pure wildcats have reddish backs to the ears.",
+   "draft": true
+  },
+  "Caracal": {
+   "size": "Shoulder height about 45 cm; mass about 8–18 kg.",
+   "habitat": "Dry savanna, woodland and Kalahari scrub across Botswana.",
+   "food": "Stalk-and-pounce hunter of medium mammals and birds; males sometimes kill impala.",
+   "breeding": "About 2 kittens after 80 days; they stay with the mother for 10–12 months.",
+   "titbit": "It can leap high into the air to knock birds down.",
+   "draft": true
+  },
+  "Cheetah": {
+   "size": "Shoulder height about 85–88 cm; males about 55 kg, females about 45 kg.",
+   "habitat": "Open savanna and grassland, e.g. the Kalahari, Makgadikgadi and Okavango floodplains.",
+   "food": "Chases down medium antelope like impala and springbok in a dash of under 300 m.",
+   "breeding": "About 4 cubs after 3 months' gestation; cubs stay with the mother for over a year.",
+   "titbit": "Fastest land mammal: over 100 km/h, and 0–100 km/h in about 3 seconds.",
+   "draft": true
+  },
+  "Leopard": {
+   "size": "Males about 65 cm and 60 kg; females about 60 cm and 32 kg.",
+   "habitat": "Throughout Botswana, especially riverine forest, woodland and rocky areas.",
+   "food": "Most opportunistic cat: from squirrels and birds to kudu three times its weight.",
+   "breeding": "Usually 2 cubs after 3.5 months; cubs stay with the mother for at least a year.",
+   "titbit": "Its call is a harsh rasp, like someone sawing wood.",
+   "draft": true
+  },
+  "Lion": {
+   "size": "Males about 1 m and 190 kg; females about 90 cm and 130 kg.",
+   "habitat": "Northern Botswana and the Kalahari, in savanna, woodland and floodplains.",
+   "food": "Mostly hunts at night, ambushing large prey such as buffalo and zebra; also scavenges.",
+   "breeding": "Usually 2–3 cubs after 3.5 months; cubs weigh about 1.5 kg at birth.",
+   "titbit": "A roar is over 110 decibels and can be heard at least 5 km away.",
+   "draft": true
+  },
+  "Serval": {
+   "size": "Shoulder height about 55–60 cm; mass about 8–13 kg.",
+   "habitat": "Long grass and reedbeds near water, mainly the Okavango, Linyanti and Chobe.",
+   "food": "Stalk-and-pounce hunter of mainly rodents and birds.",
+   "breeding": "2–3 kittens after 70 days, mostly in late summer.",
+   "titbit": "Huge ears and long legs help it hunt in tall grass and swamps.",
+   "draft": true
+  },
+  "Brown Hyaena": {
+   "size": "Shoulder height about 75–80 cm; mass about 40 kg.",
+   "habitat": "Dry Kalahari areas such as Central Kalahari and Makgadikgadi; needs no surface water.",
+   "food": "Mainly a scavenger; also eats insects and fruit, and steals kills from cheetah and leopard.",
+   "breeding": "Usually 2–3 cubs after 3 months; all clan members bring food to the den.",
+   "titbit": "It walks over 30 km a night looking for food; over 70 km has been recorded.",
+   "draft": true
+  },
+  "Spotted Hyaena": {
+   "size": "Shoulder height about 80 cm; females (about 68 kg) are heavier than males (about 62 kg).",
+   "habitat": "Northern Botswana and the Kalahari, in savanna and woodland.",
+   "food": "Hunter and scavenger; an endurance runner that can keep up 50 km/h for 5 km.",
+   "breeding": "About 2 cubs after 3.5 months; cubs are born with teeth and suckle for up to 15 months.",
+   "titbit": "Clans are led by females, which are bigger and more dominant than males.",
+   "draft": true
+  },
+  "African Wild Dog": {
+   "size": "Shoulder height about 65 cm; mass about 25 kg.",
+   "habitat": "Northern Botswana, mainly the Okavango, Linyanti and Chobe; savanna and woodland.",
+   "food": "Coursing hunter of medium antelope like impala; can run over 60 km/h for 2 km.",
+   "breeding": "Only the alpha pair breed; about 10 pups after 2.5 months, born in winter.",
+   "titbit": "Pups are allowed to feed first at a kill, before the adults.",
+   "draft": true
+  },
+  "Bat-eared Fox": {
+   "size": "Shoulder height about 35 cm; mass about 3–5 kg.",
+   "habitat": "Open dry grassland and scrub, especially the Kalahari and Makgadikgadi.",
+   "food": "Mainly insects such as termites; also rodents, birds and fruit.",
+   "breeding": "About 5 pups born in a burrow, mostly around December; pairs share a territory.",
+   "titbit": "It has about 50 small teeth, more than any other African land mammal.",
+   "draft": true
+  },
+  "Black-backed Jackal": {
+   "size": "Shoulder height about 38 cm; mass about 6–10 kg.",
+   "habitat": "Throughout Botswana, from the Kalahari to the Okavango, in open savanna.",
+   "food": "Omnivore: rodents, birds, insects, fruit and melons; scavenges at kills.",
+   "breeding": "About 5 pups (1–8) born in a den and raised by both parents.",
+   "titbit": "Each jackal's wailing night call is slightly different, so individuals can be told apart.",
+   "draft": true
+  },
+  "Honey Badger (Ratel)": {
+   "size": "Shoulder height about 25–30 cm; mass about 8–14 kg.",
+   "habitat": "Found throughout Botswana in almost all habitats.",
+   "food": "Digs out rodents, reptiles and insects; also raids beehives and steals prey.",
+   "breeding": "Usually 2 young, born in a burrow, mostly in early summer.",
+   "titbit": "Loose skin lets it twist round and bite an attacker that is holding its neck.",
+   "draft": true
+  },
+  "Spotted-necked Otter": {
+   "size": "Mass about 3–5 kg; about 1 m long including the tail.",
+   "habitat": "Clear, deep water of the Okavango and Chobe; rare elsewhere.",
+   "food": "Mainly small fish and crabs, caught in the water.",
+   "breeding": "About 2 pups, born in a hollow or crevice on land; no clear breeding season.",
+   "titbit": "Usually alone, but family groups of up to 5, and rarely 10, are seen.",
+   "draft": true
+  },
+  "Dwarf Mongoose": {
+   "size": "Smallest African mongoose; mass about 200–350 g.",
+   "habitat": "Dry savanna woodland in northern and eastern Botswana, often living in old termite mounds.",
+   "food": "Mainly insects, plus lizards, small snakes, birds and rodents.",
+   "breeding": "Usually only the alpha pair breed; 2–3 pups are raised by the whole group.",
+   "titbit": "Lives in groups of up to 30, led by a dominant female.",
+   "draft": true
+  },
+  "Slender Mongoose": {
+   "size": "Mass about 400–800 g; males bigger than females.",
+   "habitat": "Most of Botswana, in savanna and woodland.",
+   "food": "Mainly insects; also lizards, birds, eggs, snakes and some fruit.",
+   "breeding": "1–3 young after about 2 months, born in a sheltered spot.",
+   "titbit": "Best climber of the mongooses; birds often mob it when it raids nests.",
+   "draft": true
+  },
+  "Chacma Baboon": {
+   "size": "Males about 30–40 kg; females about half that.",
+   "habitat": "Woodland near water and rocky hills, mainly northern and eastern Botswana.",
+   "food": "Mainly plants; sometimes eats birds and small mammals up to infant impala.",
+   "breeding": "One baby after about 6 months, at any time of year.",
+   "titbit": "Females stay in their birth troop for life, while males move between troops.",
+   "draft": true
+  },
+  "Southern Lesser Galago (Bushbaby)": {
+   "size": "Tiny; mass about 150 g.",
+   "habitat": "Acacia and mopane woodland in northern and eastern Botswana.",
+   "food": "Gum from acacia trees, and insects such as moths.",
+   "breeding": "Usually 1–2 young, often twice a year.",
+   "titbit": "Huge eyes for seeing at night; it can leap several metres between branches.",
+   "draft": true
+  },
+  "Vervet Monkey": {
+   "size": "Males about 5.5 kg; females about 4 kg.",
+   "habitat": "Riverine woodland of northern Botswana, e.g. the Okavango and Chobe.",
+   "food": "Mainly fruit, seeds and flowers; also insects, eggs and nestlings.",
+   "breeding": "One baby after about 160 days, at any time of year.",
+   "titbit": "Has different alarm calls for ground predators, birds of prey and pythons.",
+   "draft": true
+  },
+  "Savanna Hare": {
+   "habitat": "Open grassland and savanna in Botswana.",
+   "food": "Mainly grass, eaten at night; re-eats its soft green droppings to digest it better.",
+   "breeding": "Peak breeding is December to March; about 2 young, cared for by the female.",
+   "titbit": "Re-eating its soft droppings lets it get vitamin B that would otherwise be lost.",
+   "draft": true
+  },
+  "Springhare": {
+   "size": "Mass about 3 kg.",
+   "habitat": "Sandy soils across Botswana, especially the Kalahari.",
+   "food": "Grass, roots and seeds, eaten at night.",
+   "breeding": "Usually a single young, born in the burrow, several times a year.",
+   "titbit": "Not a hare but a rodent; it hops on its back legs like a small kangaroo.",
+   "draft": true
+  },
+  "Southern African Hedgehog": {
+   "size": "Mass about 300–400 g.",
+   "habitat": "Dry grassland and scrub in parts of Botswana.",
+   "food": "Mainly insects, worms and other small invertebrates; also small reptiles and eggs.",
+   "breeding": "About 4 young (1–9) per litter, born in summer.",
+   "titbit": "Rolls into a tight ball of spines when threatened.",
+   "draft": true
+  },
+  "Aardvark": {
+   "size": "Shoulder height about 60 cm; mass about 40–70 kg.",
+   "habitat": "Throughout Botswana wherever there are termites and soft or sandy soil.",
+   "food": "Ants and termites, dug out at night and licked up with a long sticky tongue.",
+   "breeding": "One young, born in a burrow after about 7 months.",
+   "titbit": "Its old burrows give homes to many animals, such as warthog, hyaena and porcupine.",
+   "draft": true
+  },
+  "Bushbuck": {
+   "size": "Shoulder height about 80 cm; rams up to about 45 kg, ewes about 30 kg.",
+   "habitat": "Dense riverine bush, mainly along the Chobe and in the Okavango.",
+   "food": "Browser of leaves, shoots, flowers and fruit.",
+   "breeding": "One lamb after about 6 months, hidden in thick cover.",
+   "titbit": "Usually shy and alone, but a cornered ram can be very dangerous.",
+   "draft": true
+  },
+  "Common Duiker": {
+   "size": "Shoulder height about 50 cm; mass about 15–20 kg.",
+   "habitat": "Wooded and bushy areas throughout Botswana, including the Kalahari.",
+   "food": "Browser of leaves, shoots, fruit and seeds; can live without drinking.",
+   "breeding": "One lamb after about 6–7 months; can breed all year.",
+   "titbit": "'Duiker' means 'diver' in Afrikaans: it dives into cover when it runs.",
+   "draft": true
+  },
+  "Common Eland": {
+   "size": "Bulls up to about 1.7 m at the shoulder and 900 kg; cows smaller.",
+   "habitat": "Kalahari grassland and woodland, e.g. Central Kalahari; also parts of the north.",
+   "food": "Mainly a browser; also grazes and digs up roots; can go without drinking.",
+   "breeding": "One calf after about 9 months.",
+   "titbit": "The largest African antelope; bulls' knees make a clicking sound as they walk.",
+   "draft": true
+  },
+  "Klipspringer": {
+   "size": "Shoulder height about 60 cm; mass about 10–13 kg.",
+   "habitat": "Rocky hills and koppies, e.g. Tsodilo Hills and eastern Botswana.",
+   "food": "Browser of leaves, flowers and fruit; seldom drinks.",
+   "breeding": "One lamb after about 7 months; lives in pairs.",
+   "titbit": "It stands on the tips of its hooves, which grip rock like rubber.",
+   "draft": true
+  },
+  "Puku": {
+   "size": "Shoulder height about 80 cm; mass about 60–75 kg.",
+   "habitat": "In Botswana found almost only on the Chobe River floodplain; grassland near water.",
+   "food": "Grazer of floodplain grasses.",
+   "breeding": "One calf after about 8 months; males hold small territories.",
+   "titbit": "Looks like a lechwe but is more golden, with no black on the legs.",
+   "draft": true
+  },
+  "Red Hartebeest": {
+   "size": "Shoulder height about 1.25 m; mass about 120–150 kg.",
+   "habitat": "Open grassland in the dry Kalahari, e.g. Central Kalahari and Kgalagadi.",
+   "food": "Grazer; can go without water when the grass is green.",
+   "breeding": "One calf after about 8 months.",
+   "titbit": "Its long face and high shoulders give it a sloping back.",
+   "draft": true
+  },
+  "Roan Antelope": {
+   "size": "Shoulder height about 1.4 m; mass about 250–300 kg.",
+   "habitat": "Open woodland with tall grass in northern Botswana; rare.",
+   "food": "Grazer of medium to tall grass; drinks regularly.",
+   "breeding": "One calf after about 9 months, hidden for several weeks.",
+   "titbit": "Second-largest antelope in southern Africa, after the eland.",
+   "draft": true
+  },
+  "Sable Antelope": {
+   "size": "Shoulder height about 1.35 m; mass about 230 kg.",
+   "habitat": "Mopane woodland next to open grassland in northern Botswana, e.g. Chobe and Linyanti.",
+   "food": "Grazer that drinks daily; also browses some leaves.",
+   "breeding": "One calf after about 8–9 months, hidden for several weeks.",
+   "titbit": "Bulls are glossy black with long, curved horns; cows are dark brown.",
+   "draft": true
+  },
+  "Sharpe's Grysbok": {
+   "size": "Shoulder height about 50 cm; mass about 7.5 kg.",
+   "habitat": "Rare in Botswana; thick bush and rocky hills in the far north-east.",
+   "food": "Mainly a browser of leaves, shoots and fruit.",
+   "titbit": "Shy and active at night; white hairs in its red coat make it look grizzled.",
+   "draft": true
+  },
+  "Sitatunga": {
+   "size": "Rams about 90 cm at the shoulder and up to about 115 kg; ewes smaller.",
+   "habitat": "Dense papyrus and reed swamps of the Okavango Delta and Linyanti.",
+   "food": "Browses papyrus, reeds and other water plants.",
+   "breeding": "One calf after about 7.5 months, hidden on a platform of trampled reeds.",
+   "titbit": "Very long, splayed hooves stop it sinking; it can hide in water with only its nose out.",
+   "draft": true
+  },
+  "Southern Reedbuck": {
+   "size": "Shoulder height about 90 cm; mass about 50–80 kg.",
+   "habitat": "Tall grass and reedbeds near water in the Okavango, Linyanti and Chobe.",
+   "food": "Grazer of grass and reed shoots; drinks regularly.",
+   "breeding": "One lamb after about 7.5 months, hidden in long grass.",
+   "titbit": "Gives a shrill whistle in alarm and runs with a rocking gait.",
+   "draft": true
+  },
+  "Tsessebe": {
+   "size": "Shoulder height about 1.2 m; mass about 120–140 kg.",
+   "habitat": "Open floodplains and grassland edges in the Okavango, Linyanti and Chobe.",
+   "food": "Grazer of fresh green grass; drinks regularly.",
+   "breeding": "One calf after about 8 months, born in early summer.",
+   "titbit": "One of the fastest antelope; bulls often stand on termite mounds as lookouts.",
+   "draft": true
+  },
+  "Black-footed Cat": {
+   "size": "Africa's smallest cat; mass about 1–2 kg.",
+   "habitat": "Dry open grassland and scrub in the south-western Kalahari.",
+   "food": "Hunts small rodents, birds and insects at night.",
+   "breeding": "1–3 kittens after about 2 months, often in old burrows.",
+   "titbit": "The hair under its feet is black, which gives it its name.",
+   "draft": true
+  },
+  "Aardwolf": {
+   "size": "Shoulder height about 50 cm; mass about 8–10 kg.",
+   "habitat": "Open grassland and dry savanna across Botswana, including the Kalahari.",
+   "food": "Almost only harvester termites, licked off the ground at night.",
+   "breeding": "2–4 cubs born in a burrow in early summer.",
+   "titbit": "It can lick up more than 200,000 termites in one night.",
+   "draft": true
+  },
+  "Cape Fox": {
+   "size": "Shoulder height about 35 cm; mass about 2.5–3 kg.",
+   "habitat": "Dry open country of central and southern Botswana, e.g. the Kalahari.",
+   "food": "Mainly insects and small rodents; also birds, reptiles and fruit.",
+   "breeding": "About 3–5 cubs born in a burrow.",
+   "titbit": "Southern Africa's only true fox, with a silver-grey back and a bushy tail.",
+   "draft": true
+  },
+  "Side-striped Jackal": {
+   "size": "Shoulder height about 40 cm; mass about 8–12 kg.",
+   "habitat": "Moister woodland and floodplains of northern Botswana, e.g. the Okavango and Chobe.",
+   "food": "Omnivore: rodents, insects, fruit and carrion.",
+   "breeding": "Litter of about 4–6 pups, born in a burrow.",
+   "titbit": "Its tail usually has a white tip; the black-backed jackal's tail tip is black.",
+   "draft": true
+  },
+  "Cape Clawless Otter": {
+   "size": "Mass about 10–18 kg; about 1.3 m long including the tail.",
+   "habitat": "Rivers and lagoons of the Okavango, Linyanti and Chobe.",
+   "food": "Mainly crabs, frogs and fish, found with its sensitive hands.",
+   "breeding": "Usually 2 cubs, born in a burrow or dense cover.",
+   "titbit": "It has no claws on its front feet and feels for food with its 'fingers'.",
+   "draft": true
+  },
+  "Striped Polecat": {
+   "size": "Mass about 1 kg.",
+   "habitat": "Found throughout Botswana in most habitats.",
+   "food": "Insects, mice and other small animals, hunted at night.",
+   "breeding": "1–3 young born in a burrow in summer.",
+   "titbit": "It can squirt a foul-smelling fluid from glands under its tail.",
+   "draft": true
+  },
+  "African Civet": {
+   "size": "Shoulder height about 40 cm; mass about 10–15 kg.",
+   "habitat": "Woodland and riverine bush with cover and water, mainly in northern Botswana.",
+   "food": "Omnivore: insects, rodents, fruit, frogs and carrion.",
+   "breeding": "1–4 young born in a burrow or dense cover.",
+   "titbit": "It uses the same dung latrines (civetries) again and again.",
+   "draft": true
+  },
+  "Large-spotted Genet": {
+   "size": "Mass about 1.5–2 kg.",
+   "habitat": "Moister woodland and riverine forest, mainly in northern Botswana.",
+   "food": "Rodents, insects, birds, reptiles and fruit, hunted at night.",
+   "breeding": "2–5 kittens born in a hole or hollow tree.",
+   "titbit": "Its tail has a black tip, unlike the white tail tip of the small-spotted genet.",
+   "draft": true
+  },
+  "Small-spotted Genet": {
+   "size": "Mass about 1.5–2 kg.",
+   "habitat": "Drier savanna and Kalahari scrub across most of Botswana.",
+   "food": "Rodents, insects, birds, reptiles and fruit, hunted at night.",
+   "breeding": "2–4 kittens born in a hole or old burrow.",
+   "titbit": "Has a white tail tip and a crest of dark hair along its back.",
+   "draft": true
+  },
+  "Banded Mongoose": {
+   "size": "Mass about 1–1.5 kg.",
+   "habitat": "Savanna woodland near water in northern Botswana.",
+   "food": "Insects and beetle larvae; also small reptiles, eggs and fruit.",
+   "breeding": "Several females in a group breed at once; pups are raised by the whole pack.",
+   "titbit": "Lives in noisy groups of 10–30 that will mob predators together.",
+   "draft": true
+  },
+  "Large Grey Mongoose": {
+   "size": "Mass about 3 kg; one of the largest mongooses.",
+   "habitat": "Reedbeds and long grass near water, mainly in the Okavango and Chobe.",
+   "food": "Rodents, reptiles, birds, frogs, insects and fruit.",
+   "breeding": "2–4 young born in a burrow or thick cover.",
+   "titbit": "Active by day; its long tail ends in a black tuft.",
+   "draft": true
+  },
+  "Meerkat (Suricate)": {
+   "size": "Mass about 600–900 g.",
+   "habitat": "Open dry country of the Kalahari and Makgadikgadi.",
+   "food": "Insects, scorpions, spiders, lizards and other small animals.",
+   "breeding": "Usually only the dominant pair breed; 2–5 young are cared for by the group.",
+   "titbit": "Group members take turns as sentries on high spots, giving alarm calls.",
+   "draft": true
+  },
+  "Selous' Mongoose": {
+   "size": "Mass about 1.5–2 kg.",
+   "habitat": "Sandy grassland and open woodland in Botswana.",
+   "food": "Mainly insects and larvae; also small rodents and reptiles.",
+   "titbit": "Active at night, with a white-tipped tail; easily confused with the white-tailed mongoose.",
+   "draft": true
+  },
+  "Water Mongoose": {
+   "size": "Mass about 3–4 kg.",
+   "habitat": "Reedbeds, rivers and marsh in the Okavango, Linyanti and Chobe.",
+   "food": "Crabs, frogs, fish and other water animals.",
+   "breeding": "2–3 young born in a burrow or in reedbeds.",
+   "titbit": "Dark brown and shaggy; leaves piles of crab shells where it feeds.",
+   "draft": true
+  },
+  "White-tailed Mongoose": {
+   "size": "Mass about 3.5–5 kg; one of the largest mongooses.",
+   "habitat": "Savanna woodland in northern and eastern Botswana.",
+   "food": "Mainly insects; also rodents, frogs and reptiles, hunted at night.",
+   "breeding": "1–4 young born in a burrow.",
+   "titbit": "Its long, bushy tail is mostly white and easy to see in a spotlight.",
+   "draft": true
+  },
+  "Yellow Mongoose": {
+   "size": "Mass about 0.5–0.8 kg.",
+   "habitat": "Open grassland and dry Kalahari areas.",
+   "food": "Mainly insects; also rodents, birds and reptiles.",
+   "breeding": "2–4 young born in a burrow.",
+   "titbit": "Often shares burrows with meerkats and ground squirrels.",
+   "draft": true
+  },
+  "Scrub Hare": {
+   "size": "Mass about 1.5–4.5 kg.",
+   "habitat": "Bush and grassland with cover throughout most of Botswana.",
+   "food": "Grass, especially fresh green shoots, eaten at night.",
+   "breeding": "1–3 young born in a shallow scrape (form) in the grass.",
+   "titbit": "Young hares are born furred with eyes open, unlike rabbits.",
+   "draft": true
+  },
+  "Bushveld Gerbil": {
+   "size": "Mass about 70 g.",
+   "habitat": "Sandy soils in savanna, widespread in Botswana.",
+   "food": "Seeds, plants and insects.",
+   "titbit": "Active at night and lives in burrows dug in sandy soil.",
+   "draft": true
+  },
+  "Cape Porcupine": {
+   "size": "Africa's largest rodent; mass about 10–24 kg.",
+   "habitat": "Found throughout Botswana wherever there is shelter.",
+   "food": "Bulbs, roots, tubers, bark and fallen fruit; also gnaws bones.",
+   "breeding": "1–4 young after about 3 months, born with soft quills.",
+   "titbit": "It cannot shoot its quills; it runs backwards into an attacker.",
+   "draft": true
+  },
+  "Four-striped Grass Mouse": {
+   "size": "Mass about 40 g.",
+   "habitat": "Grassland with good ground cover.",
+   "food": "Seeds, plants and insects.",
+   "breeding": "Litters of about 5 young, mostly in summer.",
+   "titbit": "Active by day, unlike most mice; has four dark stripes down its back.",
+   "draft": true
+  },
+  "Greater Cane Rat": {
+   "size": "Mass about 3–5 kg.",
+   "habitat": "Reedbeds and tall grass near water in the Okavango and Chobe.",
+   "food": "Grass and reed stems.",
+   "breeding": "About 2–4 young, born well developed.",
+   "titbit": "Not a true rat; its meat is a popular food in parts of Africa.",
+   "draft": true
+  },
+  "Ground Squirrel": {
+   "size": "Mass about 600 g.",
+   "habitat": "Dry open country with hard soils, e.g. the Kalahari and pans.",
+   "food": "Grass, roots, bulbs, seeds and insects.",
+   "breeding": "1–3 young born in the burrow.",
+   "titbit": "It uses its bushy tail as a sunshade while it feeds.",
+   "draft": true
+  },
+  "Tree Squirrel": {
+   "size": "Mass about 200 g.",
+   "habitat": "Mopane and acacia woodland in northern and eastern Botswana.",
+   "food": "Seeds, flowers, leaves, fruit and insects.",
+   "breeding": "1–3 young born in a tree hole lined with leaves.",
+   "titbit": "Groups mob snakes and raptors with loud clicking alarm calls.",
+   "draft": true
+  },
+  "Bushveld Sengi": {
+   "habitat": "Sandy Kalahari scrub and grassland in Botswana.",
+   "food": "Insects, especially ants and termites.",
+   "breeding": "1–2 well-developed young.",
+   "titbit": "Sengis are more closely related to elephants than to shrews.",
+   "draft": true
+  },
+  "Four-toed Sengi": {
+   "size": "Mass about 200 g; one of the larger sengis.",
+   "habitat": "Dense riverine thicket and forest in far northern Botswana.",
+   "food": "Insects such as ants, termites and beetles.",
+   "breeding": "Usually 1 well-developed young.",
+   "titbit": "It drums its back feet on the ground when alarmed.",
+   "draft": true
+  },
+  "Egyptian Slit-faced Bat": {
+   "size": "Mass about 10 g.",
+   "habitat": "Savanna; roosts in caves, hollow trees, aardvark burrows and buildings.",
+   "food": "Insects and spiders, often picked off the ground or leaves.",
+   "breeding": "One young per year, born in summer.",
+   "titbit": "Has very long ears and a slit down the middle of its face.",
+   "draft": true
+  },
+  "Little Free-tailed Bat": {
+   "size": "Mass about 10 g.",
+   "habitat": "Roosts in roofs of buildings and in trees, especially in northern Botswana.",
+   "food": "Flying insects, caught in fast flight in the open.",
+   "titbit": "Its tail sticks out past the wing membrane, which gives the name 'free-tailed'.",
+   "draft": true
+  },
+  "Mauritian Tomb Bat": {
+   "size": "Mass about 30 g.",
+   "habitat": "Roosts on tree trunks and walls, often in the open, near water.",
+   "food": "Flying insects caught in the air.",
+   "breeding": "One young, born in summer.",
+   "titbit": "Often seen in daylight clinging flat to a tree trunk or wall, scuttling sideways if disturbed.",
+   "draft": true
+  },
+  "Sundevall's Leaf-nosed Bat": {
+   "size": "Mass about 8 g.",
+   "habitat": "Roosts in caves, hollow trees and old mines in savanna woodland.",
+   "food": "Small flying insects, especially moths.",
+   "breeding": "One young per year.",
+   "titbit": "A leaf-shaped fold of skin around the nose helps aim its echolocation calls.",
+   "draft": true
+  },
+  "Wahlberg's Epauletted Fruit Bat": {
+   "size": "Mass about 80–120 g.",
+   "habitat": "Riverine trees and gardens in northern Botswana where fruit trees grow.",
+   "food": "Ripe fruit, nectar and flowers, especially wild figs.",
+   "breeding": "One young, carried by the mother.",
+   "titbit": "Males have white shoulder tufts (epaulettes) and a ringing call at night.",
+   "draft": true
+  },
+  "Yellow-bellied House Bat": {
+   "size": "Mass about 25 g.",
+   "habitat": "Roosts in roofs and hollow trees, common in northern Botswana.",
+   "food": "Flying insects such as beetles and moths.",
+   "breeding": "Usually twins, born in summer.",
+   "titbit": "Often roosts in lodge roofs; its belly is yellowish.",
+   "draft": true
+  },
+  "Ground Pangolin": {
+   "size": "Mass about 5–15 kg.",
+   "habitat": "Savanna and woodland across most of Botswana; rarely seen.",
+   "food": "Only ants and termites, licked up with a long sticky tongue.",
+   "breeding": "A single young, which rides on its mother's tail.",
+   "titbit": "Covered in scales, it rolls into a ball when threatened; it is heavily poached.",
+   "draft": true
+  },
+  "Rock Hyrax": {
+   "size": "Mass about 2.5–4.5 kg.",
+   "habitat": "Rocky hills and koppies, mainly in eastern Botswana.",
+   "food": "Grass and leaves; feeds in groups, often after sunning itself in the morning.",
+   "breeding": "2–3 young after about 7 months, born well developed.",
+   "titbit": "Its closest living relatives include elephants and dugongs.",
+   "draft": true
+  },
+  "Yellow-spotted Rock Hyrax": {
+   "size": "Mass about 2–3 kg.",
+   "habitat": "Rocky hills, mainly in eastern Botswana, often with the rock hyrax.",
+   "food": "Mainly browses leaves of trees and shrubs.",
+   "breeding": "1–3 young, born well developed.",
+   "titbit": "A pale yellowish spot on its back marks a scent gland.",
+   "draft": true
+  },
+  "African mangosteen": {
+   "size": "Tall, dense evergreen tree with a rounded crown.",
+   "habitat": "Woodland, especially near rivers, in northern Botswana.",
+   "food": "People, fruit bats and many animals eat the fruit; elephants strip and eat the bark all year.",
+   "breeding": "Flowers in early spring; orange-red fleshy fruit ripens in summer. Separate male and female trees.",
+   "titbit": "Its dark, leathery leaves grow in whorls, and young trees have stiff branches that block browsers.",
+   "draft": true
+  },
+  "Buffalo thorn": {
+   "size": "Small tree with a sparse, rounded crown.",
+   "habitat": "Grows in most habitats but prefers riverine areas with good alluvial soil.",
+   "food": "Many mammals browse the leaves; the fruit was once roasted as a coffee substitute.",
+   "breeding": "Small creamy-yellow flowers in summer; round reddish-brown berries are eaten by birds and animals.",
+   "titbit": "It has one straight and one hooked thorn; in Botswana it is believed to be safe from lightning.",
+   "draft": true
+  },
+  "Camel thorn": {
+   "size": "Large tree up to about 16 m with a wide, spreading crown.",
+   "habitat": "Deep Kalahari sands across much of Botswana.",
+   "food": "Giraffe browse the leaves and many animals eat the fallen pods; the wood is used as firewood.",
+   "breeding": "Yellow ball-shaped flowers in late winter and spring; thick grey velvety pods are eaten by animals.",
+   "titbit": "Its very deep tap root reaches underground water, so it stays green in the driest areas.",
+   "draft": true
+  },
+  "Jackal-berry": {
+   "size": "Tall tree up to 20 m with a dense crown and almost black bark.",
+   "habitat": "Riverine forest, often growing on termite mounds.",
+   "food": "The fruit is eaten fresh or made into beer; the trunks are used to make mekoro.",
+   "breeding": "Creamy-white flowers in October and November; small yellowish fruit is eaten by birds and mammals.",
+   "titbit": "Its leaves keep their nutrients in winter, so they are browsed throughout the year.",
+   "draft": true
+  },
+  "Kalahari apple-leaf": {
+   "size": "Small tree with a rounded crown.",
+   "habitat": "Deep Kalahari sand; forms thickets between mopane and camel thorn woodland.",
+   "breeding": "Mauve to purple pea-shaped flowers in spring; flat pods.",
+   "titbit": "Like other legumes, its roots hold bacteria that fix nitrogen into the soil.",
+   "draft": true
+  },
+  "Knob-thorn": {
+   "size": "Large deciduous tree with dark brown bark.",
+   "habitat": "Riverbanks, where water is easy to reach.",
+   "food": "Elephants eat the leaves, roots and bark; the wood makes fence posts and the bark makes rope.",
+   "breeding": "Creamy-white flower spikes from August to November; seeds are in short, flat pods.",
+   "titbit": "Its shallow roots mean it is often blown over in storms; the thorns sit on raised knobs.",
+   "draft": true
+  },
+  "Large fever-berry": {
+   "size": "Small to medium evergreen tree with dense foliage and smooth light-grey bark.",
+   "habitat": "Forest fringes and watercourses on alluvial soils.",
+   "food": "Bark and seeds were used against malaria and as a strong purgative; elephants browse it.",
+   "breeding": "Small greenish-yellow flower spikes from September to November; fruit is a three-lobed capsule.",
+   "titbit": "Although it is poisonous, elephants often browse it, which is said to clear their stomachs.",
+   "draft": true
+  },
+  "Leadwood": {
+   "size": "Tall, upright tree with a rounded crown and pale grey, strip-like bark.",
+   "habitat": "Common along riverbanks on alluvial soils.",
+   "food": "Excellent firewood; the ash can be used as a toothpaste substitute.",
+   "breeding": "Sweet-smelling, creamy-yellow flowers in late summer; four-winged fruit spread by the wind.",
+   "titbit": "The oldest recorded leadwood was over 1 000 years old.",
+   "draft": true
+  },
+  "Marula": {
+   "size": "Medium to tall deciduous tree with sparse leaves and peeling bark.",
+   "habitat": "Woodland and grassland; it is sensitive to frost.",
+   "food": "The fruit makes a potent drink; elephants eat the bark and fruit; trunks are used for mekoro.",
+   "breeding": "Small yellow flowers from September to November; juicy yellow fruit is eaten by people and animals.",
+   "titbit": "Elephants love its soft bark, and the trees are disappearing where elephant numbers are high.",
+   "draft": true
+  },
+  "Mopane": {
+   "size": "From 2-3 m scrub mopane to 30 m tall cathedral mopane.",
+   "habitat": "Poorly drained alluvial soils, mainly in northern Botswana.",
+   "food": "Elephants and buffalo eat leaves and bark; mopane worms are eaten by people; good building wood.",
+   "breeding": "Small light-green flowers in summer; seeds are in flat pods.",
+   "titbit": "Dead leaves keep up to 12% protein, so they are valuable food in the dry season.",
+   "draft": true
+  },
+  "Natal mahogany": {
+   "size": "Medium to large evergreen tree with a dense, dark-green crown.",
+   "habitat": "Riverine forest and river banks in northern Botswana.",
+   "food": "Birds and monkeys eat the seed coverings; oil from the seeds is used in soap and cosmetics.",
+   "breeding": "Greenish-cream flowers in spring; capsules split to show black seeds with red coverings, spread by birds.",
+   "titbit": "It gives deep shade, so it is often chosen as a shade tree at camps and villages.",
+   "draft": true
+  },
+  "Rock-splitting fig": {
+   "size": "Small to medium tree, often with pale roots spread over rock.",
+   "habitat": "Rocky outcrops and hills.",
+   "food": "Birds, bats, monkeys and baboons eat the figs.",
+   "breeding": "Flowers are hidden inside the fig and pollinated by tiny fig wasps; figs are spread by animals.",
+   "titbit": "Its roots grow into cracks in rock and slowly split it apart (biotic weathering).",
+   "draft": true
+  },
+  "Russet bushwillow": {
+   "size": "Shrub or small tree.",
+   "habitat": "Mopane scrub on alluvial soils.",
+   "food": "Browsed by animals such as kudu, giraffe and elephants.",
+   "breeding": "Creamy flowers in spring; four-winged reddish-brown fruit spread by the wind.",
+   "titbit": "It is named for the rusty-coloured hairs on the underside of its leaves.",
+   "draft": true
+  },
+  "Sausage tree": {
+   "size": "Medium-sized tree with a rounded crown and smooth grey bark.",
+   "habitat": "Along rivers and in savanna.",
+   "food": "Fallen flowers are eaten by antelope; trunks make mekoro; fruit is used to treat skin conditions.",
+   "breeding": "Large wine-red flowers in spring, mostly pollinated by bats; heavy sausage-shaped fruit.",
+   "titbit": "The huge fruits can weigh several kilograms, so never park under the tree.",
+   "draft": true
+  },
+  "Scented thorn": {
+   "size": "Small tree with a rounded or flat crown and long white paired thorns.",
+   "habitat": "Bushveld, often on clay or alluvial soils.",
+   "food": "Animals and livestock eat the pods; the pods were used for tanning leather.",
+   "breeding": "Sweet-scented, bright yellow ball flowers in spring and summer; pods look like a string of beads.",
+   "titbit": "The pods smell fruity when broken and do not split open; animals spread the seeds.",
+   "draft": true
+  },
+  "Shepherd’s tree": {
+   "size": "Small evergreen tree with a dense crown and pale whitish trunk.",
+   "habitat": "Kalahari sandveld and mopane scrub.",
+   "food": "Animals browse the leaves; the roots have been used to make a coffee substitute.",
+   "breeding": "Small greenish-yellow flowers in late winter and spring; small round berries eaten by birds.",
+   "titbit": "A shepherd’s tree root was recorded about 68 m deep, one of the deepest roots known.",
+   "draft": true
+  },
+  "Sweet thorn": {
+   "size": "Small to medium tree with long, paired white thorns.",
+   "habitat": "Many habitats, often along rivers; it can invade overgrazed land.",
+   "food": "Animals browse the leaves and pods; the gum is eaten by people and bushbabies.",
+   "breeding": "Bright yellow ball flowers in summer; sickle-shaped pods split open.",
+   "titbit": "Fire helps control it where it invades grassland.",
+   "draft": true
+  },
+  "Umbrella thorn": {
+   "size": "Small to medium tree with a flat, umbrella-shaped crown.",
+   "habitat": "Floodplains and alluvial soils.",
+   "food": "Elephants, giraffe and antelope eat the leaves and the fallen pods.",
+   "breeding": "Creamy-white ball flowers in early summer; coiled pods are eaten and the seeds spread in dung.",
+   "titbit": "It is one of the first trees to grow on dry floodplains of the Delta.",
+   "draft": true
+  },
+  "Weeping wattle": {
+   "size": "Small to medium tree with a spreading crown and feathery leaves.",
+   "habitat": "Woodland and bushveld, often on sandy soils.",
+   "food": "Browsed by giraffe and kudu.",
+   "breeding": "Masses of bright yellow flowers in spring and summer; flat, winged pods spread by the wind.",
+   "titbit": "Spittle bugs on the branches drip liquid, making the tree seem to weep.",
+   "draft": true
+  },
+  "Milkweed": {
+   "size": "Small to medium shrub with sparse foliage.",
+   "habitat": "Open grassland and overgrazed areas.",
+   "food": "Caterpillars of the African monarch butterfly eat the leaves; browsers avoid its poisonous sap.",
+   "breeding": "Creamy-yellow flowers; balloon-shaped hairy fruit releases fluffy seeds carried by the wind.",
+   "titbit": "Monarch caterpillars store its poisons, making the butterfly poisonous to predators.",
+   "draft": true
+  },
+  "Sickle bush": {
+   "size": "Thorny shrub or small tree.",
+   "habitat": "Many habitats; it invades overgrazed land and is controlled by fire.",
+   "food": "Animals browse the leaves and pods; the hard wood makes good firewood.",
+   "breeding": "Pink and yellow hanging flowers in spring and summer; twisted pods in clusters.",
+   "titbit": "Its two-coloured flowers look like Chinese lanterns.",
+   "draft": true
+  },
+  "Sour plum": {
+   "size": "Shrub or small tree with spines.",
+   "habitat": "Woodland and grassland.",
+   "food": "People, birds and animals eat the sour fruit; oil from the seed is used on skin.",
+   "breeding": "Small greenish-white flowers; red plum-like fruit is eaten by birds and animals.",
+   "titbit": "It is a partial parasite: its roots take nutrients from the roots of nearby grasses.",
+   "draft": true
+  },
+  "Couch grass": {
+   "size": "Low, creeping grass that spreads with runners.",
+   "habitat": "Any soil, especially disturbed areas; a pioneer grass.",
+   "food": "Highly palatable to grazers, but produces little leaf.",
+   "breeding": "Seedheads are thin finger-like spikes; it also spreads by runners.",
+   "titbit": "It is a common lawn and sports-field grass around the world.",
+   "draft": true
+  },
+  "Curly-leaf love grass": {
+   "size": "Tufted grass.",
+   "habitat": "Lower rainfall areas; it increases when veld is overgrazed.",
+   "food": "Grazed, but not a very valuable grass.",
+   "breeding": "Open, spreading seedheads.",
+   "titbit": "An Increaser 2 grass: a sign of overgrazing. Old leaves curl like wood shavings.",
+   "draft": true
+  },
+  "Finger grass": {
+   "size": "Tufted grass.",
+   "habitat": "Good veld; it decreases when the veld is overgrazed.",
+   "food": "Very palatable and valuable grazing; also used for hay.",
+   "breeding": "Seedheads are finger-like spikes at the top of the stem.",
+   "titbit": "A Decreaser grass: plenty of it shows the veld is in good condition.",
+   "draft": true
+  },
+  "Giant spear grass": {
+   "size": "Tall tufted grass.",
+   "habitat": "Under-used veld that is seldom grazed or burned.",
+   "food": "Unpalatable, with high lignin content.",
+   "breeding": "Seeds have long, twisted awns.",
+   "titbit": "An Increaser 1 grass: it takes over when veld is under-used.",
+   "draft": true
+  },
+  "Herring-bone grass": {
+   "size": "Tufted grass.",
+   "habitat": "Well-drained soils; it increases with overgrazing.",
+   "food": "Low palatability and low leaf production.",
+   "breeding": "Seedheads have side branches like a fish skeleton.",
+   "titbit": "Its name comes from seedheads that look like the bones of a herring.",
+   "draft": true
+  },
+  "Red grass": {
+   "size": "Tufted grass.",
+   "habitat": "Good veld; it decreases when the veld is overgrazed.",
+   "food": "Palatable grazing, especially when green.",
+   "breeding": "Seeds have long, twisted awns that help them drill into the soil.",
+   "titbit": "A Decreaser grass that turns reddish in the dry season.",
+   "draft": true
+  },
+  "Spear grass": {
+   "size": "Tufted grass.",
+   "habitat": "Well-drained soils.",
+   "food": "Average palatability, mostly when young.",
+   "breeding": "Dark seeds with long twisted awns stick in animal fur and drill into the soil.",
+   "titbit": "Its sharp seeds can pierce animal skin and clothing.",
+   "draft": true
+  },
+  "Tassel three-awn": {
+   "size": "Short tufted grass.",
+   "habitat": "Lower rainfall areas and overgrazed, trampled ground.",
+   "food": "Low grazing value.",
+   "breeding": "Each seed has three awns, helping it spread.",
+   "titbit": "An Increaser 2 grass: a sign that the veld is overgrazed.",
+   "draft": true
+  },
+  "Yellow thatching grass": {
+   "size": "Tall tufted grass.",
+   "habitat": "Sandy soils; a climax grass.",
+   "food": "Low palatability, but used for thatching roofs.",
+   "titbit": "An Increaser 1 grass that produces a lot of leaf.",
+   "draft": true
+  },
+  "Bladderwort": {
+   "size": "Small water plant with thin underwater stems.",
+   "habitat": "Nutrient-poor wetlands such as the Okavango Delta.",
+   "breeding": "Golden-yellow or bluish-purple flowers held above the water all year.",
+   "titbit": "It is carnivorous: tiny bladders suck in small animals in a split second.",
+   "draft": true
+  },
+  "Duckweed": {
+   "size": "Tiny free-floating plant with two or three small leaves.",
+   "habitat": "Still, nutrient-rich water, where it forms dense mats.",
+   "food": "Its mats give shelter to many small water animals.",
+   "breeding": "Spreads to new water by sticking to the feathers of birds.",
+   "titbit": "It is one of the smallest flowering plants in the world.",
+   "draft": true
+  },
+  "Papyrus": {
+   "size": "Tall sedge, often more than 2 m high.",
+   "habitat": "Edges of permanent water channels, often as floating mats.",
+   "food": "Stems are woven into mats; the Wayeyi people eat the tender young stems.",
+   "breeding": "Large, mop-like heads of small spikelets at the top of each stem.",
+   "titbit": "Ancient Egyptians made the first paper from papyrus stems.",
+   "draft": true
+  },
+  "Snow-flake flower": {
+   "size": "Floating plant with round, lily-like leaves.",
+   "habitat": "Lagoons and slow-moving water of the Okavango.",
+   "breeding": "Small white star-shaped flowers with fringed, feathery petals.",
+   "titbit": "Its fringed white flowers look like snowflakes on the water.",
+   "draft": true
+  },
+  "Real fan palm": {
+   "size": "Tall palm with a crown of fan-shaped leaves.",
+   "habitat": "Salty soils, such as on islands in the Okavango Delta.",
+   "food": "Leaves are used for baskets; sap makes palm wine; baboons and elephants eat the fruit.",
+   "breeding": "Greenish-yellow flowers; large round shiny brown fruit, mainly spread by elephants.",
+   "titbit": "Young palms are now rare because elephants browse and push them over.",
+   "draft": true
+  },
+  "Leopard orchid": {
+   "size": "Large orchid that grows on trees.",
+   "habitat": "High in trees and on palm stems.",
+   "food": "Some people grow it in their gardens for good luck.",
+   "breeding": "Golden-yellow flowers with brown spots from June to November.",
+   "titbit": "It uses the tree only for support (commensalism) and does not harm it.",
+   "draft": true
+  },
+  "Mistletoe": {
+   "size": "Dense cluster of branches and leaves in a tree's canopy.",
+   "habitat": "High in host trees, mainly acacias.",
+   "food": "Sunbirds drink the nectar and birds eat the fruit; people make birdlime from the fruit.",
+   "breeding": "Red tubular flowers in winter; sticky seeds are wiped off birds' bills onto branches.",
+   "titbit": "It is a hemi-parasite: it makes its own food but takes water and nutrients from its host.",
+   "draft": true
+  },
+  "Baobab": {
+   "size": "Massive tree with a very thick trunk, up to about 25 m tall.",
+   "habitat": "Hot, dry areas such as the Makgadikgadi edges and north-east Botswana.",
+   "food": "People eat the vitamin-rich fruit pulp; elephants gouge the trunk for its moist wood.",
+   "breeding": "Large white flowers open at night in early summer and are pollinated by bats.",
+   "titbit": "Baobabs can live for well over 1 000 years.",
+   "draft": true
+  },
+  "Bird plum": {
+   "size": "Medium to large tree with a dense crown.",
+   "habitat": "Riverine areas, often on termite mounds.",
+   "food": "People, birds and monkeys eat the sweet fruit.",
+   "breeding": "Small greenish flowers; small yellow to orange fruit is eaten by birds and animals.",
+   "draft": true
+  },
+  "Black monkey orange": {
+   "size": "Small tree.",
+   "habitat": "Woodland and bushveld.",
+   "food": "People and baboons eat the fruit pulp.",
+   "breeding": "Round, hard-shelled fruit turns from blue-green to yellow-orange when ripe.",
+   "titbit": "The pulp is edible, but the seeds should not be eaten.",
+   "draft": true
+  },
+  "Grey camel thorn": {
+   "size": "Shrub or small tree with grey, feathery leaves.",
+   "habitat": "Deep Kalahari sand in the south-west.",
+   "food": "Animals and livestock eat the pods.",
+   "breeding": "Yellow ball-shaped flowers; slender, grey velvety pods.",
+   "titbit": "Its leaves are much finer and greyer than those of the camel thorn.",
+   "draft": true
+  },
+  "Kiaat": {
+   "size": "Medium to large deciduous tree with a spreading crown.",
+   "habitat": "Woodland on deep sand in northern Botswana.",
+   "food": "Its fine timber is used for furniture; the red sap is used as a dye and medicine.",
+   "breeding": "Yellow flowers in spring; round pods with a wide papery wing are spread by the wind.",
+   "titbit": "Cut bark bleeds a blood-red sap.",
+   "draft": true
+  },
+  "Large-fruited bushwillow": {
+   "size": "Small to medium tree.",
+   "habitat": "Woodland on sandy soils.",
+   "food": "Browsed by animals.",
+   "breeding": "Greenish-yellow flowers in spring; very large four-winged fruit spread by the wind.",
+   "titbit": "It has the largest winged fruit of all the bushwillows.",
+   "draft": true
+  },
+  "Long-tail cassia": {
+   "size": "Small to medium tree.",
+   "habitat": "Woodland and bushveld.",
+   "food": "The bark and roots are used in traditional medicine.",
+   "breeding": "Bright yellow flowers in spring; very long, dark brown, sausage-like pods.",
+   "titbit": "Its pods can be longer than a man's arm.",
+   "draft": true
+  },
+  "Monkey orange": {
+   "size": "Small tree.",
+   "habitat": "Woodland, often on sandy soils.",
+   "food": "People, baboons and monkeys eat the fruit pulp.",
+   "breeding": "Large round fruit with a hard shell turns from green to yellow when ripe.",
+   "titbit": "The pulp is edible, but the seeds are said to be poisonous.",
+   "draft": true
+  },
+  "Paperbark thorn": {
+   "size": "Medium to large tree with a flat crown.",
+   "habitat": "Near rivers and floodplains in northern Botswana.",
+   "food": "Animals eat the leaves and fallen pods.",
+   "breeding": "Creamy-white ball flowers in spring; thick, woody pods.",
+   "titbit": "Its yellowish bark peels off in thin papery flakes.",
+   "draft": true
+  },
+  "Pod mahogany": {
+   "size": "Large deciduous tree.",
+   "habitat": "Woodland on sandy soils in the far north-east.",
+   "food": "Valuable timber; the seeds are used to make jewellery.",
+   "breeding": "Woody pods split to show black seeds with a bright red cap, spread by birds.",
+   "titbit": "Its black-and-red seeds are popular as beads and lucky charms.",
+   "draft": true
+  },
+  "Purple-pod terminalia": {
+   "size": "Small tree.",
+   "habitat": "Hot, low-lying areas, often in mopane woodland.",
+   "food": "Browsed by animals; its hard wood is used for poles.",
+   "breeding": "White, unpleasant-smelling flower spikes; winged pods are purple-red.",
+   "titbit": "The clusters of wine-red pods make it easy to spot.",
+   "draft": true
+  },
+  "Rain tree": {
+   "size": "Medium-sized tree.",
+   "habitat": "Riverine areas and floodplains in northern Botswana.",
+   "food": "Browsed by animals such as giraffe and kudu.",
+   "breeding": "Purple, sweet-scented pea-shaped flowers in spring; flat pods.",
+   "titbit": "Spittle bugs on the branches drip liquid, so it seems to rain under the tree.",
+   "draft": true
+  },
+  "Red bushwillow": {
+   "size": "Small tree.",
+   "habitat": "Rocky hills and well-drained soils.",
+   "food": "Animals browse the leaves, even after they fall; good firewood.",
+   "breeding": "Yellow flower spikes in spring; four-winged reddish fruit spread by the wind.",
+   "titbit": "Its leaves turn red and yellow in autumn.",
+   "draft": true
+  },
+  "Silver terminalia": {
+   "size": "Small to medium tree with silvery leaves.",
+   "habitat": "Deep sand, very common in Kalahari woodland.",
+   "food": "Browsed by animals; the wood is used for poles.",
+   "breeding": "Creamy flower spikes in spring; pinkish-red winged pods turn brown.",
+   "titbit": "Its leaves have silky silver hairs that shine in the sun.",
+   "draft": true
+  },
+  "Sycamore fig": {
+   "size": "Large tree with a wide, spreading crown.",
+   "habitat": "Riverbanks and river islands, such as in the Okavango and Chobe.",
+   "food": "Birds, bats, monkeys and baboons eat the figs.",
+   "breeding": "Figs grow in clusters on the trunk and branches; flowers inside are pollinated by fig wasps.",
+   "titbit": "The fig and its wasp cannot survive without each other (obligate mutualism).",
+   "draft": true
+  },
+  "Tamboti": {
+   "size": "Small to medium tree with dark, blocky bark.",
+   "habitat": "Low-lying areas along rivers, often on clay soils.",
+   "food": "Its beautiful wood is used for furniture, but its sap is poisonous.",
+   "breeding": "Small catkin-like flower spikes in spring; small three-lobed capsules.",
+   "titbit": "Seeds containing moth larvae jump about: the famous jumping beans.",
+   "draft": true
+  },
+  "Water pear": {
+   "size": "Medium to large evergreen tree.",
+   "habitat": "Channels and islands of the Okavango Delta.",
+   "food": "People, birds and monkeys eat the fruit.",
+   "breeding": "Fluffy white flowers; oval purple-black fruit.",
+   "titbit": "It is related to the clove tree.",
+   "draft": true
+  },
+  "Wild seringa": {
+   "size": "Medium-sized tree with a flat crown.",
+   "habitat": "Woodland on deep sand.",
+   "food": "Browsed by animals; edible caterpillars feed on the leaves.",
+   "breeding": "Drooping sprays of white flowers in spring; thin, flat pods.",
+   "draft": true
+  },
+  "Zambezi teak": {
+   "size": "Medium to large tree.",
+   "habitat": "Kalahari sand woodland in the Chobe area.",
+   "food": "Its hard timber is valued and was used for railway sleepers.",
+   "breeding": "Large pinkish-mauve flowers in summer; woody pods burst open to throw out the seeds.",
+   "draft": true
+  },
+  "Black thorn": {
+   "size": "Thorny shrub or small tree that forms thickets.",
+   "habitat": "Kalahari areas; it invades overgrazed land.",
+   "food": "Browsed by animals; it is a good bee plant.",
+   "breeding": "Creamy-white ball flowers in spring; thin, papery pods.",
+   "titbit": "Its paired hooked thorns form thickets that are very hard to get through.",
+   "draft": true
+  },
+  "Bluebush": {
+   "size": "Shrub or small tree.",
+   "habitat": "Many habitats, often near watercourses.",
+   "food": "People and birds eat the fruit; the twigs are used as toothbrushes.",
+   "breeding": "Sweet-scented creamy flowers in spring; small reddish fruit.",
+   "titbit": "Its twigs are used as natural toothbrushes.",
+   "draft": true
+  },
+  "Candle-pod thorn": {
+   "size": "Low, spreading shrub.",
+   "habitat": "Kalahari sand.",
+   "food": "Browsed by animals.",
+   "breeding": "Creamy ball flowers; thick pods stand upright on the branches.",
+   "titbit": "Its upright pods look like candles on a candlestick.",
+   "draft": true
+  },
+  "Kalahari sand raisin": {
+   "size": "Small shrub.",
+   "habitat": "Kalahari sand.",
+   "food": "People and animals eat the small fruit.",
+   "breeding": "Yellow flowers; small reddish-brown fruit.",
+   "draft": true
+  },
+  "Lavender fever-berry": {
+   "size": "Shrub or small tree.",
+   "habitat": "Rocky hills and slopes.",
+   "food": "The leaves are used in traditional medicine.",
+   "breeding": "Creamy flower spikes in spring; small three-lobed capsules.",
+   "titbit": "Crushed leaves smell of lavender; leaf undersides are silvery with brown dots.",
+   "draft": true
+  },
+  "Magic guarri": {
+   "size": "Shrub or small tree.",
+   "habitat": "Common on islands in the Okavango Delta.",
+   "food": "Twigs are used as toothbrushes; the roots give a dye used in basket weaving.",
+   "breeding": "Small creamy flowers; small round purple-black berries eaten by birds.",
+   "draft": true
+  },
+  "Puzzle bush": {
+   "size": "Shrub with tangled branches.",
+   "habitat": "Woodland and bushveld.",
+   "food": "Birds eat the fruit.",
+   "breeding": "Pale lilac flowers in spring; small orange-red berries.",
+   "titbit": "Its tangled branches make it hard to see where one ends and the next begins.",
+   "draft": true
+  },
+  "Sandpaper raisin": {
+   "size": "Shrub.",
+   "habitat": "Woodland and bushveld.",
+   "food": "People and animals eat the fruit.",
+   "breeding": "Yellow flowers; brown lobed fruit.",
+   "titbit": "Its leaves are rough like sandpaper.",
+   "draft": true
+  },
+  "Shaving-brush combretum": {
+   "size": "Scrambling shrub or climber.",
+   "habitat": "Woodland and riverine areas.",
+   "food": "Browsed by animals.",
+   "breeding": "White flowers before the leaves; four-winged fruit spread by the wind.",
+   "titbit": "Its fluffy white flowers look like shaving brushes.",
+   "draft": true
+  },
+  "Trumpet thorn": {
+   "size": "Spiny shrub.",
+   "habitat": "Dry areas, often on limestone (calcrete).",
+   "breeding": "White trumpet-shaped flowers.",
+   "draft": true
+  },
+  "Velvet raisin": {
+   "size": "Small shrub.",
+   "habitat": "Kalahari sand; very common.",
+   "food": "People eat the fruit and use it to make a traditional brew.",
+   "breeding": "Yellow star-shaped flowers in summer; small brown fruit.",
+   "draft": true
+  },
+  "White raisin": {
+   "size": "Shrub or small tree.",
+   "habitat": "Woodland and bushveld.",
+   "food": "People and animals eat the fruit.",
+   "breeding": "Yellow flowers; small orange-brown fruit.",
+   "titbit": "The undersides of its leaves are white.",
+   "draft": true
+  },
+  "Bulrush": {
+   "size": "Tall water plant, often 2 m or more.",
+   "habitat": "Marshes, pools and edges of slow water.",
+   "food": "The leaves are woven into mats.",
+   "breeding": "Brown, cigar-shaped flower heads release fluffy seeds carried by the wind.",
+   "titbit": "One flower head holds a huge number of tiny seeds.",
+   "draft": true
+  },
+  "Common reed": {
+   "size": "Tall reed up to about 4 m.",
+   "habitat": "River banks and wetlands.",
+   "food": "People use the stems for building, fences and mats.",
+   "breeding": "Feathery purple-brown seed plumes; it also spreads by underground stems.",
+   "titbit": "It is one of the most widespread plants in the world.",
+   "draft": true
+  },
+  "Guinea grass": {
+   "size": "Tall tufted grass.",
+   "habitat": "Fertile soils, often in the shade of trees and bushes.",
+   "food": "Highly palatable to grazers.",
+   "breeding": "Large, open seedheads.",
+   "titbit": "It grows well in shade where few other grasses do.",
+   "draft": true
+  },
+  "Hippo grass": {
+   "size": "Tall water grass.",
+   "habitat": "Edges of channels and lagoons in the Okavango.",
+   "food": "Grazed by hippos.",
+   "draft": true
+  },
+  "Okavango miscanthus": {
+   "size": "Tall grass.",
+   "habitat": "Seasonal floodplains of the Okavango.",
+   "draft": true
+  },
+  "Silky bushman grass": {
+   "size": "Tufted grass.",
+   "habitat": "Kalahari sand.",
+   "food": "Good grazing in the Kalahari.",
+   "breeding": "Seeds have feathery awns that are carried by the wind.",
+   "titbit": "Its silky white seedheads shine in the sun.",
+   "draft": true
+  },
+  "Wild rice": {
+   "size": "Tall water grass.",
+   "habitat": "Floodplains and shallow water of the Okavango.",
+   "food": "Grazed by animals; birds and people eat the grain.",
+   "titbit": "It is a wild relative of cultivated rice.",
+   "draft": true
+  },
+  "Day waterlily": {
+   "size": "Water plant with round floating leaves.",
+   "habitat": "Lagoons and quiet channels of the Okavango.",
+   "food": "People eat the stems and tubers.",
+   "breeding": "Blue or white flowers open in the day; the fruit ripens under water.",
+   "titbit": "Its flowers open in the morning and close in the afternoon.",
+   "draft": true
+  },
+  "Kariba weed": {
+   "size": "Small floating fern that forms thick mats.",
+   "habitat": "Still or slow water; an invasive plant from South America.",
+   "breeding": "Spreads by broken pieces.",
+   "titbit": "A small weevil was released to control it in the Kwando-Linyanti and Okavango.",
+   "draft": true
+  },
+  "Night waterlily": {
+   "size": "Water plant with large floating leaves with toothed edges.",
+   "habitat": "Lagoons and quiet channels of the Okavango.",
+   "breeding": "White flowers open at night.",
+   "titbit": "Its flowers open at night and close the next morning.",
+   "draft": true
+  },
+  "Water chestnut": {
+   "size": "Floating water plant with a rosette of leaves.",
+   "habitat": "Lagoons and quiet water of the Okavango.",
+   "breeding": "Small white flowers; hard fruit with sharp horns.",
+   "titbit": "Its fruit has sharp horns.",
+   "draft": true
+  },
+  "Water lettuce": {
+   "size": "Small floating plant with a rosette of leaves.",
+   "habitat": "Still or slow water.",
+   "titbit": "Its rosette of soft leaves looks like a floating lettuce.",
+   "draft": true
+  },
+  "Wild date palm": {
+   "size": "Palm, often growing in clumps.",
+   "habitat": "River banks and swampy areas.",
+   "food": "People, baboons and elephants eat the fruit; leaves are used for weaving.",
+   "breeding": "Separate male and female plants; small orange-brown dates.",
+   "draft": true
+  },
+  "Devil’s claw": {
+   "size": "Low creeping plant.",
+   "habitat": "Kalahari sand.",
+   "food": "Its tuber is used as a medicine for arthritis and joint pain.",
+   "breeding": "Pink to purple trumpet flowers in summer; hooked fruit sticks to animals' feet.",
+   "titbit": "The hooked fruit can catch on animals' feet and so spread its seeds.",
+   "draft": true
+  },
+  "Fireball lily": {
+   "size": "Bulb with a ball-shaped flower head.",
+   "habitat": "Shady woodland.",
+   "breeding": "Red ball of flowers appears with the first rains; red berries.",
+   "titbit": "The bulb is poisonous.",
+   "draft": true
+  },
+  "Flame lily": {
+   "size": "Climbing lily.",
+   "habitat": "Woodland and bushveld.",
+   "breeding": "Red and yellow flowers in summer.",
+   "titbit": "All parts, especially the tuber, are very poisonous; it is Zimbabwe's national flower.",
+   "draft": true
+  },
+  "Gemsbok cucumber": {
+   "size": "Creeping plant.",
+   "habitat": "Kalahari sand.",
+   "food": "People and animals such as gemsbok eat the juicy fruit for water.",
+   "breeding": "Yellow flowers; spiny yellow-orange fruit.",
+   "draft": true
+  },
+  "Mopane aloe": {
+   "size": "Single-stemmed aloe.",
+   "draft": true
+  },
+  "Tsamma melon": {
+   "size": "Trailing plant.",
+   "habitat": "Kalahari sand.",
+   "food": "People and animals eat the fruit for water; the seeds are roasted and eaten.",
+   "breeding": "Yellow flowers; round green melons.",
+   "titbit": "It is a wild form of the same species as the garden watermelon.",
+   "draft": true
+  },
+  "Nile crocodile": {
+   "size": "Adults usually 2.5-4 m; can exceed 6 m and weigh up to 1,000 kg.",
+   "habitat": "Deep rivers and lagoons with sandbanks: Okavango, Chobe, Zambezi, Kwando and the Limpopo.",
+   "food": "Young eat insects and frogs, sub-adults mainly fish, large adults mainly mammals.",
+   "breeding": "Lays 15-90 eggs in a sandbank hole in Oct-Nov; the female guards the nest for about 90 days.",
+   "titbit": "Nest temperature decides the sex of the young; the mother carries hatchlings to water in her mouth.",
+   "draft": true
+  },
+  "Anchieta's cobra": {
+   "size": "Large cobra, usually 1.2-1.8 m; can exceed 2 m.",
+   "habitat": "Savanna and woodland of northern Botswana.",
+   "food": "Rodents, frogs, reptiles (including other snakes) and young birds.",
+   "breeding": "Lays eggs in mid-summer and does not guard them.",
+   "titbit": "Does not spit. Venom is a deadly neurotoxin: a bite is a medical emergency.",
+   "draft": true
+  },
+  "Black mamba": {
+   "size": "Usually 2.5-3 m; can exceed 4 m.",
+   "habitat": "Savanna, thickets and woodland, especially rocky hillsides; often uses a termite mound or hole.",
+   "food": "Mainly warm-blooded prey such as rodents, dassies and birds; also other reptiles.",
+   "breeding": "Lays up to about 17 eggs in summer.",
+   "titbit": "Fast-acting, deadly neurotoxic venom. Black inside the mouth; the body is grey to brown, never black.",
+   "draft": true
+  },
+  "Cape cobra": {
+   "size": "Usually 1.2-1.4 m; up to about 1.6 m.",
+   "habitat": "Drier western and southern Botswana, including the Kalahari.",
+   "food": "Rodents, frogs, lizards, other snakes and nestling birds; often climbs into weaver nests.",
+   "breeding": "Lays up to about 20 eggs in mid-summer and does not guard the nest.",
+   "titbit": "Does not spit. Has one of the most potent neurotoxic venoms of any African cobra; bites can kill.",
+   "draft": true
+  },
+  "Mozambique spitting cobra": {
+   "size": "Usually 0.9-1.2 m; up to about 1.5 m.",
+   "habitat": "Savanna in north and east Botswana, often near water.",
+   "food": "Rodents, frogs, toads, lizards, birds, eggs and other snakes, even puff adders.",
+   "breeding": "Lays 10-22 eggs in summer.",
+   "titbit": "Spits venom over 2 m into the eyes. Cytotoxic venom causes bad tissue damage; flush eyes with water.",
+   "draft": true
+  },
+  "Snouted cobra": {
+   "size": "Usually 1.2-1.8 m; can reach about 2.5 m.",
+   "habitat": "Savanna and bushveld in eastern Botswana; often uses termite mounds as a home.",
+   "food": "Rodents, toads, birds and eggs, and other snakes; often raids chicken runs.",
+   "breeding": "Lays 8-33 eggs in early summer.",
+   "titbit": "Does not spit. Deadly neurotoxic venom; a banded colour form has yellow and dark bands.",
+   "draft": true
+  },
+  "Boomslang": {
+   "size": "Usually 1.2-1.6 m; up to 2 m.",
+   "habitat": "Trees and bushes in savanna and woodland across most of Botswana.",
+   "food": "Chameleons, lizards, birds and their eggs, and frogs, hunted by day.",
+   "breeding": "Lays 8-25 eggs, left buried and unguarded.",
+   "titbit": "Shy, but its haemotoxic venom stops blood clotting and can kill. Symptoms may take hours to show.",
+   "draft": true
+  },
+  "Shield-nosed cobra": {
+   "size": "Short and thick-set, usually 30-60 cm; up to about 75 cm.",
+   "habitat": "Sandy savanna and arid areas; mostly under the ground or in burrows.",
+   "food": "Frogs, lizards, small snakes and rodents.",
+   "breeding": "Lays up to about 14 eggs.",
+   "titbit": "Big shield-shaped nose scale for digging. Venom is neurotoxic; bites are rare but serious.",
+   "draft": true
+  },
+  "Southern stiletto snake (Bibron's burrowing asp)": {
+   "size": "Usually 30-50 cm; up to about 70 cm.",
+   "habitat": "Lives underground in sandy savanna, under logs, rocks and in termite mounds.",
+   "food": "Burrowing reptiles, frogs and nestling rodents.",
+   "breeding": "Lays small batches of fewer than 10 eggs.",
+   "titbit": "Can stab sideways with one fang even when held behind the head. Cytotoxic venom; never handle it.",
+   "draft": true
+  },
+  "Vine snake": {
+   "size": "Thin snake, usually 0.8-1.2 m; up to 1.4 m.",
+   "habitat": "Trees and shrubs in savanna and riverine woodland in north and east Botswana.",
+   "food": "Mainly lizards, especially chameleons; also frogs, birds and snakes.",
+   "breeding": "Lays up to about 20 eggs in mid-summer, left unguarded.",
+   "titbit": "Haemotoxic venom stops blood clotting and can kill, and there is no antivenom for it.",
+   "draft": true
+  },
+  "Puff adder": {
+   "size": "Thick-set, usually about 0.9-1 m; up to about 1.4 m.",
+   "habitat": "Every habitat except true desert; often lies on paths in the sun.",
+   "food": "Mainly rodents; also birds, lizards, frogs and toads.",
+   "breeding": "Gives birth to live young, usually 20-40 per litter, each 15-20 cm long.",
+   "titbit": "Causes the most serious snakebites in Africa. Cytotoxic venom destroys tissue; relies on camouflage.",
+   "draft": true
+  },
+  "Mole snake": {
+   "size": "Robust, usually 1-1.4 m; up to about 2 m.",
+   "habitat": "Sandy and grassy areas over most of southern Africa; spends much time underground.",
+   "food": "Moles, rodents and other small mammals, killed by constriction.",
+   "breeding": "Gives birth to 25-50 live young; exceptionally 90 or more.",
+   "titbit": "Not venomous, but can give a painful bite. Young are spotted and look very different from adults.",
+   "draft": true
+  },
+  "Southern African python": {
+   "size": "Usually 3-4 m; up to 5 m in southern Africa.",
+   "habitat": "Savanna and riverine areas, often near water; absent from much of the central and southern Kalahari.",
+   "food": "Mammals up to impala size; also birds, monitor lizards and small crocodiles.",
+   "breeding": "Lays up to 100 eggs in a burrow or termite mound and coils around them for about 3 months.",
+   "titbit": "Not venomous. Kills by constriction, which stops the heart and breathing rather than breaking bones.",
+   "draft": true
+  },
+  "Angolan green snake": {
+   "size": "Usually 0.8-1 m; up to 1.2 m.",
+   "habitat": "Reeds and riverine vegetation in the Okavango and along northern rivers.",
+   "food": "Frogs, chameleons, lizards and small birds.",
+   "breeding": "Lays up to 16 eggs in summer.",
+   "titbit": "Not venomous and seldom bites; often mistaken for a green mamba or boomslang.",
+   "draft": true
+  },
+  "Spotted bush snake": {
+   "size": "Slender, usually 70-100 cm; a little over 1 m at most.",
+   "habitat": "Trees and bushes in savanna, woodland and gardens.",
+   "food": "Mainly geckos and chameleons; also frogs.",
+   "breeding": "Lays up to 12 eggs in summer.",
+   "titbit": "Harmless to people. Green with black spots on the front of the body; climbs fast using keeled belly scales.",
+   "draft": true
+  },
+  "Stripe-bellied sand snake": {
+   "size": "Slender, usually 60-90 cm; up to about 1.4 m.",
+   "habitat": "Savanna and dry woodland across most of Botswana.",
+   "food": "Mainly lizards; also frogs and rodents.",
+   "breeding": "Lays a small clutch of eggs in summer.",
+   "titbit": "One of our fastest snakes, active in the heat of the day. Mild venom, not dangerous to people.",
+   "draft": true
+  },
+  "Common tiger snake": {
+   "size": "Slender, usually 60-80 cm; up to about 1 m.",
+   "habitat": "Woodland and savanna throughout Botswana; climbs well.",
+   "food": "Lizards, especially geckos; also small birds and rodents.",
+   "breeding": "Lays up to 25 eggs in early to mid-summer; they hatch after about 3 months.",
+   "titbit": "Orange with dark bands and cat-like pupils. Bites readily but the mild venom is harmless to people.",
+   "draft": true
+  },
+  "Rufous-beaked snake": {
+   "size": "Usually 1-1.2 m; up to about 1.4 m.",
+   "habitat": "Sandy savanna in northern and eastern Botswana.",
+   "food": "Rodents, lizards, frogs and other snakes.",
+   "breeding": "Lays eggs in burrows in summer.",
+   "titbit": "Hooked, rufous snout helps it dig. Mildly venomous but harmless to people.",
+   "draft": true
+  },
+  "Ground agama": {
+   "size": "Usually 15-20 cm long, including the tail.",
+   "habitat": "Open sandy ground in savanna and the Kalahari.",
+   "food": "Mainly ants; also termites and other insects.",
+   "breeding": "Lays eggs in a hole dug in the soil.",
+   "titbit": "Breeding males get a bright blue head; agamas cannot shed their tails.",
+   "draft": true
+  },
+  "Kalahari burrowing skink (Kalahari legless skink)": {
+   "habitat": "Loose Kalahari sand, where it swims below the surface.",
+   "food": "Insects and other small invertebrates found underground.",
+   "breeding": "Gives birth to live young.",
+   "titbit": "Has no legs and is often mistaken for a snake, but it has movable eyelids.",
+   "draft": true
+  },
+  "Kalahari tree skink": {
+   "size": "Usually 15-20 cm long, including the tail.",
+   "habitat": "Tree trunks in dry savanna and the Kalahari.",
+   "food": "Insects such as beetles, termites and grasshoppers.",
+   "titbit": "Often seen basking on dead trees; like most skinks it can shed its tail to escape.",
+   "draft": true
+  },
+  "Nile monitor (water leguaan)": {
+   "size": "Usually 1.2-1.8 m; up to about 2 m.",
+   "habitat": "Rivers, lagoons and floodplains; never far from water.",
+   "food": "Crabs, mussels, frogs, fish, birds' eggs and chicks, and crocodile eggs.",
+   "breeding": "Lays eggs in a hole in a termite mound; the termites seal it and keep the eggs warm.",
+   "titbit": "Africa's largest lizard; in some areas it is the main threat to crocodile eggs.",
+   "draft": true
+  },
+  "Snake-eyed skink": {
+   "size": "Tiny, usually 8-10 cm including the tail.",
+   "habitat": "Leaf litter under trees and bushes in savanna.",
+   "food": "Small insects and spiders.",
+   "breeding": "Lays a few small eggs.",
+   "titbit": "Its eyelids are fused into a clear 'window', so it cannot blink, like a snake.",
+   "draft": true
+  },
+  "White-throated monitor (rock leguaan)": {
+   "size": "Usually 0.8-1.2 m; up to about 1.5 m.",
+   "habitat": "Dry savanna and rocky areas, often in trees; very seldom found near water.",
+   "food": "Millipedes, beetles, snails, eggs, chicks, reptiles and small mammals.",
+   "breeding": "Lays eggs in rock cracks, old burrows or tree holes.",
+   "titbit": "Lashes its tail, bites and scratches hard when cornered; it cannot shed its tail.",
+   "draft": true
+  },
+  "Gecko (tropical house gecko)": {
+   "size": "Usually 12-15 cm long, including the tail.",
+   "habitat": "Buildings, trees and rocks; common around lights in camps.",
+   "food": "Insects attracted to lights, such as moths.",
+   "breeding": "Lays two hard-shelled eggs at a time.",
+   "titbit": "Toe pads with tiny hairs let it run up walls; it licks its eyes clean as it has no movable eyelids.",
+   "draft": true
+  },
+  "Girdled lizard (Jones' girdled lizard)": {
+   "habitat": "Rock cracks and tree bark in north-eastern Botswana.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Gives birth to live young.",
+   "titbit": "Spiny scales and tail; it wedges itself into a crack when disturbed. The tail cannot be shed.",
+   "draft": true
+  },
+  "Old World lizard (bushveld lizard)": {
+   "size": "Usually 15-20 cm long, including the tail.",
+   "habitat": "Sandy savanna and the Kalahari.",
+   "food": "Small insects such as termites.",
+   "breeding": "Lays a small clutch of eggs.",
+   "titbit": "Young are black and white and walk stiffly, mimicking a bad-tasting oogpister beetle.",
+   "draft": true
+  },
+  "Amphisbaenian (Kalahari round-headed worm lizard)": {
+   "habitat": "Underground in sandy soils; usually only seen after heavy rain.",
+   "food": "Mainly termites and other soft-bodied invertebrates.",
+   "breeding": "Lays eggs.",
+   "titbit": "Legless with rings of scales; it waves its short tail like a head to fool predators.",
+   "draft": true
+  },
+  "Flap-necked chameleon": {
+   "size": "Usually 20-25 cm; up to about 35 cm.",
+   "habitat": "Trees and bushes in savanna; the only chameleon in Botswana.",
+   "food": "Insects such as grasshoppers and beetles, caught with its long sticky tongue.",
+   "breeding": "Lays up to 50 eggs in a hole in the ground; they take about a year to hatch.",
+   "titbit": "Eyes move separately. It can change colour, and puffs up and hisses when threatened.",
+   "draft": true
+  },
+  "Leopard tortoise": {
+   "size": "Shell usually 30-45 cm; can exceed 60 cm.",
+   "habitat": "Savanna and grassland across Botswana.",
+   "food": "Grasses, succulents and other plants; also chews old bones for calcium.",
+   "breeding": "Lays eggs in a hole dug in the ground; nest temperature affects the sex of the young.",
+   "titbit": "The largest tortoise in southern Africa and the only one that can swim.",
+   "draft": true
+  },
+  "Marsh terrapin (pan terrapin)": {
+   "size": "Shell usually 20-30 cm long.",
+   "habitat": "Pans, pools and slow water; buries itself in mud when pans dry.",
+   "food": "Frogs, tadpoles, insects and carrion; also catches doves that come to drink.",
+   "breeding": "Lays eggs in a hole dug near water.",
+   "titbit": "Has no hinge on the belly shell, unlike hinged terrapins; it gives off a bad smell when handled.",
+   "draft": true
+  },
+  "Mashona hinged terrapin": {
+   "habitat": "Permanent rivers, lagoons and swamps of northern Botswana.",
+   "food": "Fish, frogs, snails and insects; some plant matter.",
+   "titbit": "Like the Okavango hinged terrapin but with a double hook on the upper beak and usually two chin tentacles.",
+   "draft": true
+  },
+  "Okavango hinged terrapin": {
+   "size": "Shell can reach 33 cm long.",
+   "habitat": "Permanent water in the Okavango Delta and northern rivers.",
+   "food": "Fish, frogs and tadpoles; also carrion and a little plant matter.",
+   "breeding": "Lays 20-40 eggs in October in a hole about 12 cm deep; young hatch in late summer.",
+   "titbit": "Large black head with yellow patterns; hinged belly shell lets it close up.",
+   "draft": true
+  },
+  "Serrated tent tortoise (Kalahari tent tortoise)": {
+   "size": "Small; shell usually 10-14 cm long.",
+   "habitat": "Dry sandy savanna and the Kalahari.",
+   "food": "Grasses, succulents and other plants.",
+   "breeding": "Lays only a few eggs at a time.",
+   "titbit": "Shell edge is strongly serrated (saw-toothed) and shields rise like little tents.",
+   "draft": true
+  },
+  "Speke's hinged tortoise": {
+   "size": "Shell usually 15-20 cm long.",
+   "habitat": "Savanna and woodland in northern and eastern Botswana.",
+   "food": "Plants and fungi, plus millipedes, snails and other invertebrates.",
+   "breeding": "Lays a few eggs in a hole in the ground.",
+   "titbit": "A hinge in the back of the top shell lets it close over the back legs.",
+   "draft": true
+  },
+  "Horned adder": {
+   "size": "Small adder, usually 30-40 cm; up to about 50 cm.",
+   "habitat": "Sandy arid areas, especially the Kalahari; buries itself in sand.",
+   "food": "Mainly lizards; also rodents and frogs.",
+   "breeding": "Gives birth to live young, usually 4-20.",
+   "titbit": "Has a horn above each eye. Cytotoxic venom causes pain and swelling; no confirmed human deaths.",
+   "draft": true
+  },
+  "Rhombic night adder": {
+   "size": "Usually 40-60 cm; up to about 90 cm.",
+   "habitat": "Moist savanna near water, marshes and gardens in the east and north.",
+   "food": "Almost only toads and frogs.",
+   "breeding": "Lays eggs, unusual for an adder; usually 15-25.",
+   "titbit": "Mild cytotoxic venom causes pain and swelling but no recorded deaths. Has a V on the head.",
+   "draft": true
+  },
+  "Snouted night adder": {
+   "size": "Small, usually 20-35 cm.",
+   "habitat": "Moist savanna in northern Botswana.",
+   "food": "Mainly frogs and toads.",
+   "breeding": "Lays a small clutch of eggs.",
+   "titbit": "Upturned snout; mild venom causes pain and swelling but is not dangerous to life.",
+   "draft": true
+  },
+  "Brown house snake": {
+   "size": "Usually 60-90 cm; females up to about 1.5 m.",
+   "habitat": "Almost everywhere, including around houses and camps.",
+   "food": "Mainly rodents, killed by constriction; also lizards.",
+   "breeding": "Lays 8-16 eggs in summer.",
+   "titbit": "Not venomous; a useful rat-catcher. Two pale lines run on each side of the head.",
+   "draft": true
+  },
+  "Common egg-eater": {
+   "size": "Usually 50-75 cm; up to about 1 m.",
+   "habitat": "Most habitats except true desert; often climbs into nests.",
+   "food": "Only birds' eggs, swallowed whole; the shell is crushed and spat out.",
+   "breeding": "Lays 6-25 eggs.",
+   "titbit": "Has no proper teeth and no venom; rasps its scales and strikes to bluff like an adder.",
+   "draft": true
+  },
+  "Bark snake": {
+   "size": "Small, usually 25-35 cm.",
+   "habitat": "Tree trunks and branches in savanna woodland, especially mopane.",
+   "food": "Mainly geckos and small lizards.",
+   "breeding": "Lays a small clutch of eggs.",
+   "titbit": "Grey and well camouflaged on bark. Mildly venomous but harmless to people.",
+   "draft": true
+  },
+  "Black-headed centipede-eater": {
+   "size": "Small, usually 25-35 cm.",
+   "habitat": "Under stones, logs and in termite mounds in savanna.",
+   "food": "Almost only centipedes.",
+   "breeding": "Lays 2-4 eggs.",
+   "titbit": "Has small grooved fangs to subdue centipedes; harmless to people.",
+   "draft": true
+  },
+  "Olive grass snake": {
+   "size": "Usually 1-1.4 m; up to about 1.8 m.",
+   "habitat": "Grassland and savanna, often near water.",
+   "food": "Rodents, lizards, frogs, birds and other snakes.",
+   "breeding": "Lays 10-30 eggs in summer.",
+   "titbit": "Fast and active by day. Mild venom may cause pain and swelling but is not dangerous.",
+   "draft": true
+  },
+  "Red-lipped herald snake": {
+   "size": "Usually 50-75 cm.",
+   "habitat": "Moist savanna, marshes and gardens, near water.",
+   "food": "Mainly frogs and toads.",
+   "breeding": "Lays 6-19 eggs.",
+   "titbit": "Flattens its head and shows red lips when threatened. Mild venom, harmless to people.",
+   "draft": true
+  },
+  "Cape dwarf gecko": {
+   "size": "Tiny, usually 6-8 cm including the tail.",
+   "habitat": "Trees, fences and walls in savanna and around camps.",
+   "food": "Small insects such as ants and termites.",
+   "breeding": "Lays two hard-shelled eggs, often in shared sites under bark.",
+   "titbit": "Active by day, unlike most geckos, and has round pupils.",
+   "draft": true
+  },
+  "Common barking gecko": {
+   "size": "Usually 8-10 cm long, including the tail.",
+   "habitat": "Flat Kalahari sands, living in burrows.",
+   "food": "Termites and other small insects.",
+   "breeding": "Lays one or two eggs.",
+   "titbit": "Males call 'click-click-click' from burrow entrances at dusk, a classic Kalahari sound.",
+   "draft": true
+  },
+  "Southern tree agama": {
+   "size": "Usually 25-35 cm long, including the tail.",
+   "habitat": "Large trees in savanna and woodland.",
+   "food": "Mainly ants and beetles.",
+   "breeding": "Lays eggs in a hole in damp soil.",
+   "titbit": "Breeding males have a bright blue head; it bites hard if handled.",
+   "draft": true
+  },
+  "Spotted sandveld lizard": {
+   "size": "Usually 20-30 cm long, including the tail.",
+   "habitat": "Sandy savanna and the Kalahari.",
+   "food": "Scorpions, spiders and large insects, often dug out of burrows.",
+   "breeding": "Lays a small clutch of eggs.",
+   "titbit": "Active, fast hunter that eats scorpions, even ones with strong venom.",
+   "draft": true
+  },
+  "Striped skink": {
+   "size": "Usually 18-25 cm long, including the tail.",
+   "habitat": "Trees, rocks, walls and buildings; common around camps.",
+   "food": "Insects such as flies, beetles and grasshoppers.",
+   "breeding": "Gives birth to live young, usually 3-9.",
+   "titbit": "Two pale stripes down the back; very used to people and basks on lodge walls.",
+   "draft": true
+  },
+  "Turner's thick-toed gecko": {
+   "size": "Usually 15-20 cm long, including the tail.",
+   "habitat": "Rocks, tree trunks and buildings in savanna.",
+   "food": "Insects and spiders.",
+   "breeding": "Lays two hard-shelled eggs.",
+   "titbit": "A large, sturdy gecko that squeaks and bites when caught.",
+   "draft": true
+  },
+  "Variegated skink": {
+   "size": "Usually 12-15 cm long, including the tail.",
+   "habitat": "Dry rocky and sandy areas in the west and south-west.",
+   "food": "Small insects.",
+   "titbit": "Small, speckled ground skink that dashes between bushes and stones.",
+   "draft": true
+  },
+  "Western three-striped skink": {
+   "size": "Usually 20-25 cm long, including the tail.",
+   "habitat": "Kalahari sands and dry savanna; often digs under bushes.",
+   "food": "Insects such as beetles, termites and grasshoppers.",
+   "breeding": "Gives birth to live young.",
+   "titbit": "Lives on the ground and digs burrows at the base of bushes.",
+   "draft": true
+  },
+  "Yellow-throated plated lizard": {
+   "size": "Usually 30-45 cm long, including the tail.",
+   "habitat": "Savanna and grassland; shelters in burrows and under rocks.",
+   "food": "Insects; also some fruit and flowers.",
+   "breeding": "Lays eggs.",
+   "titbit": "Has a fold of skin along each side; breeding males get a bright yellow or orange throat.",
    "draft": true
   }
  }

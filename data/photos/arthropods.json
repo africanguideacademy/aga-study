@@ -1,0 +1,662 @@
+[
+ {
+  "name": "Fish moth (silverfish)",
+  "sci": "Lepismatidae",
+  "file": "media/arthropods/fish-moth-silverfish.jpg",
+  "photoId": 462990951,
+  "license": "CC BY",
+  "credit": "© Tommy Andriollo",
+  "source": "https://www.inaturalist.org/observations/258081965",
+  "place": "Africa"
+ },
+ {
+  "name": "Mayfly",
+  "sci": "Ephemeroptera",
+  "file": "media/arthropods/mayfly.jpg",
+  "photoId": 193881332,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/114842084",
+  "place": "Botswana"
+ },
+ {
+  "name": "Praying mantis (Mantodea)",
+  "sci": "Mantodea",
+  "file": "media/arthropods/praying-mantis-mantodea.jpg",
+  "photoId": 19968707,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/13578344",
+  "place": "Botswana"
+ },
+ {
+  "name": "Antlion (Myrmeleontidae)",
+  "sci": "Myrmeleontidae",
+  "file": "media/arthropods/antlion-myrmeleontidae.jpg",
+  "photoId": 64595849,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/40750168",
+  "place": "Botswana"
+ },
+ {
+  "name": "Lacewing (Chrysopidae)",
+  "sci": "Chrysopidae",
+  "file": "media/arthropods/lacewing-chrysopidae.jpg",
+  "photoId": 587998429,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/324820136",
+  "place": "Botswana"
+ },
+ {
+  "name": "Damselfly",
+  "sci": "Zygoptera",
+  "file": "media/arthropods/damselfly.jpg",
+  "photoId": 53729175,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/34161373",
+  "place": "Botswana"
+ },
+ {
+  "name": "Dragonfly",
+  "sci": "Anisoptera",
+  "file": "media/arthropods/dragonfly.jpg",
+  "photoId": 643758442,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/352760149",
+  "place": "Botswana"
+ },
+ {
+  "name": "Aphid",
+  "sci": "Aphididae",
+  "file": "media/arthropods/aphid.jpg",
+  "photoId": 126730621,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/77550550",
+  "place": "Botswana"
+ },
+ {
+  "name": "Cicada (Cicadidae)",
+  "sci": "Cicadidae",
+  "file": "media/arthropods/cicada-cicadidae.jpg",
+  "photoId": 29000036,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/18920155",
+  "place": "Botswana"
+ },
+ {
+  "name": "Horn-borer moth",
+  "sci": "Ceratophaga vastellus",
+  "file": "media/arthropods/horn-borer-moth.jpg",
+  "photoId": 297190412,
+  "license": "CC BY-SA",
+  "credit": "© Tony Eales",
+  "source": "https://www.inaturalist.org/observations/171277496",
+  "place": "Botswana"
+ },
+ {
+  "name": "African diadem",
+  "sci": "Hypolimnas misippus",
+  "file": "media/arthropods/african-diadem.jpg",
+  "photoId": 466324278,
+  "license": "CC BY",
+  "credit": "© Line Juul Nielsen",
+  "source": "https://www.inaturalist.org/observations/259740973",
+  "place": "Botswana"
+ },
+ {
+  "name": "African monarch",
+  "sci": "Danaus chrysippus",
+  "file": "media/arthropods/african-monarch.jpg",
+  "photoId": 255276799,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/148259987",
+  "place": "Botswana"
+ },
+ {
+  "name": "Brown-veined white",
+  "sci": "Belenois aurota",
+  "file": "media/arthropods/brown-veined-white.jpg",
+  "photoId": 176467215,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/105205247",
+  "place": "Botswana"
+ },
+ {
+  "name": "Mopane moth (mopane worm)",
+  "sci": "Gonimbrasia belina",
+  "file": "media/arthropods/mopane-moth-mopane-worm.jpg",
+  "photoId": 408992160,
+  "license": "CC BY",
+  "credit": "© Murphy Tladi",
+  "source": "https://www.inaturalist.org/observations/230347647",
+  "place": "Botswana"
+ },
+ {
+  "name": "Large fungus-growing termite (Macrotermes)",
+  "sci": "Macrotermes",
+  "file": "media/arthropods/large-fungus-growing-termite-macrotermes.jpg",
+  "photoId": 48137066,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/30797706",
+  "place": "Botswana"
+ },
+ {
+  "name": "Harvester termite",
+  "sci": "Hodotermes mossambicus",
+  "file": "media/arthropods/harvester-termite.jpg",
+  "photoId": 48800015,
+  "license": "CC BY",
+  "credit": "© Caroline Voget",
+  "source": "https://www.inaturalist.org/observations/31195456",
+  "place": "Botswana"
+ },
+ {
+  "name": "Fireflies and glow-worms (Lampyridae)",
+  "sci": "Lampyridae",
+  "file": "media/arthropods/fireflies-and-glow-worms-lampyridae.jpg",
+  "photoId": 65398222,
+  "license": "CC BY",
+  "credit": "© Karim Haddad",
+  "source": "https://www.inaturalist.org/observations/41235855",
+  "place": "Africa"
+ },
+ {
+  "name": "Dung beetle (Scarabaeinae)",
+  "sci": "Scarabaeinae",
+  "file": "media/arthropods/dung-beetle-scarabaeinae.jpg",
+  "photoId": 57748006,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/36524884",
+  "place": "Botswana"
+ },
+ {
+  "name": "Plum-coloured dung beetle",
+  "sci": "Chalconotus convexus",
+  "file": "media/arthropods/plum-coloured-dung-beetle.jpg",
+  "photoId": 63818736,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/40179137",
+  "place": "Botswana"
+ },
+ {
+  "name": "Malaria mosquito (Anopheles)",
+  "sci": "Anopheles",
+  "file": "media/arthropods/malaria-mosquito-anopheles.jpg",
+  "photoId": 230883614,
+  "license": "CC BY",
+  "credit": "© agujaceratops",
+  "source": "https://www.inaturalist.org/observations/135375392",
+  "place": "Africa"
+ },
+ {
+  "name": "Midge (Chironomidae)",
+  "sci": "Chironomidae",
+  "file": "media/arthropods/midge-chironomidae.jpg",
+  "photoId": 454129777,
+  "license": "CC BY-SA",
+  "credit": "© Rudolph Steenkamp",
+  "source": "https://www.inaturalist.org/observations/253606282",
+  "place": "Africa"
+ },
+ {
+  "name": "Mosquito (Culicidae)",
+  "sci": "Culicidae",
+  "file": "media/arthropods/mosquito-culicidae.jpg",
+  "photoId": 111213380,
+  "license": "CC BY-SA",
+  "credit": "© Nicola van Berkel",
+  "source": "https://www.inaturalist.org/observations/68649566",
+  "place": "Africa"
+ },
+ {
+  "name": "Ant (Formicidae)",
+  "sci": "Formicidae",
+  "file": "media/arthropods/ant-formicidae.jpg",
+  "photoId": 13983539,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/10137190",
+  "place": "Botswana"
+ },
+ {
+  "name": "Sugar ant (Camponotus)",
+  "sci": "Camponotus",
+  "file": "media/arthropods/sugar-ant-camponotus.jpg",
+  "photoId": 48041145,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/30739327",
+  "place": "Botswana"
+ },
+ {
+  "name": "Honey bee (African bee)",
+  "sci": "Apis mellifera",
+  "file": "media/arthropods/honey-bee-african-bee.jpg",
+  "photoId": 15690137,
+  "license": "CC BY",
+  "credit": "© Wynand Uys",
+  "source": "https://www.inaturalist.org/observations/11104364",
+  "place": "Botswana"
+ },
+ {
+  "name": "Paper wasp (Polistinae)",
+  "sci": "Polistinae",
+  "file": "media/arthropods/paper-wasp-polistinae.jpg",
+  "photoId": 61558378,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/38706369",
+  "place": "Botswana"
+ },
+ {
+  "name": "Baboon spider (Theraphosidae)",
+  "sci": "Theraphosidae",
+  "file": "media/arthropods/baboon-spider-theraphosidae.jpg",
+  "photoId": 601236852,
+  "license": "CC0",
+  "credit": "kingfisher14",
+  "source": "https://www.inaturalist.org/observations/331425500",
+  "place": "Botswana"
+ },
+ {
+  "name": "Rear-horned baboon spider",
+  "sci": "Ceratogyrus darlingi",
+  "file": "media/arthropods/rear-horned-baboon-spider.jpg",
+  "photoId": 601236852,
+  "license": "CC0",
+  "credit": "kingfisher14",
+  "source": "https://www.inaturalist.org/observations/331425500",
+  "place": "Botswana"
+ },
+ {
+  "name": "Horned baboon spider (Ceratogyrus)",
+  "sci": "Ceratogyrus",
+  "file": "media/arthropods/horned-baboon-spider-ceratogyrus.jpg",
+  "photoId": 601236852,
+  "license": "CC0",
+  "credit": "kingfisher14",
+  "source": "https://www.inaturalist.org/observations/331425500",
+  "place": "Botswana"
+ },
+ {
+  "name": "Sac spider (Cheiracanthium)",
+  "sci": "Cheiracanthium",
+  "file": "media/arthropods/sac-spider-cheiracanthium.jpg",
+  "photoId": 536952050,
+  "license": "CC BY",
+  "credit": "© Ansie Dippenaar-Schoeman",
+  "source": "https://www.inaturalist.org/observations/298113624",
+  "place": "Africa"
+ },
+ {
+  "name": "Six-eyed crab spider (six-eyed sand spider)",
+  "sci": "Hexophthalma hahni",
+  "file": "media/arthropods/six-eyed-crab-spider-six-eyed-sand-spider.jpg",
+  "photoId": 550742892,
+  "license": "CC BY",
+  "credit": "© Ansie Dippenaar-Schoeman",
+  "source": "https://www.inaturalist.org/observations/305451503",
+  "place": "Africa"
+ },
+ {
+  "name": "Violin spider (Loxosceles)",
+  "sci": "Loxosceles",
+  "file": "media/arthropods/violin-spider-loxosceles.jpg",
+  "photoId": 126717688,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/77549108",
+  "place": "Botswana"
+ },
+ {
+  "name": "Black widow (black button spider)",
+  "sci": "Latrodectus renivulvatus",
+  "file": "media/arthropods/black-widow-black-button-spider.jpg",
+  "photoId": 601418099,
+  "license": "CC BY-SA",
+  "credit": "© Rudolph Steenkamp",
+  "source": "https://www.inaturalist.org/observations/331513628",
+  "place": "Africa"
+ },
+ {
+  "name": "Brown widow (brown button spider)",
+  "sci": "Latrodectus geometricus",
+  "file": "media/arthropods/brown-widow-brown-button-spider.jpg",
+  "photoId": 363699263,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/205675138",
+  "place": "Botswana"
+ },
+ {
+  "name": "Community web spider (social spider)",
+  "sci": "Stegodyphus dumicola",
+  "file": "media/arthropods/community-web-spider-social-spider.jpg",
+  "photoId": 228172259,
+  "license": "CC BY",
+  "credit": "© Mahomed Desai",
+  "source": "https://www.inaturalist.org/observations/133928528",
+  "place": "Botswana"
+ },
+ {
+  "name": "Burrowing scorpion (Opistophthalmus)",
+  "sci": "Opistophthalmus",
+  "file": "media/arthropods/burrowing-scorpion-opistophthalmus.jpg",
+  "photoId": 51906793,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/33067862",
+  "place": "Botswana"
+ },
+ {
+  "name": "Kalahari burrowing scorpion",
+  "sci": "Opistophthalmus wahlbergii",
+  "file": "media/arthropods/kalahari-burrowing-scorpion.jpg",
+  "photoId": 153865072,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/92885645",
+  "place": "Botswana"
+ },
+ {
+  "name": "Radiant burrowing scorpion",
+  "sci": "Opistophthalmus carinatus",
+  "file": "media/arthropods/radiant-burrowing-scorpion.jpg",
+  "photoId": 51906793,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/33067862",
+  "place": "Botswana"
+ },
+ {
+  "name": "Thick-tailed scorpion (Parabuthus)",
+  "sci": "Parabuthus",
+  "file": "media/arthropods/thick-tailed-scorpion-parabuthus.jpg",
+  "photoId": 228182478,
+  "license": "CC BY",
+  "credit": "© Mahomed Desai",
+  "source": "https://www.inaturalist.org/observations/133928594",
+  "place": "Botswana"
+ },
+ {
+  "name": "Granulated thick-tailed scorpion",
+  "sci": "Parabuthus granulatus",
+  "file": "media/arthropods/granulated-thick-tailed-scorpion.jpg",
+  "photoId": 28836472,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/18826248",
+  "place": "Botswana"
+ },
+ {
+  "name": "Kalahari thick-tailed scorpion",
+  "sci": "Parabuthus raudus",
+  "file": "media/arthropods/kalahari-thick-tailed-scorpion.jpg",
+  "photoId": 522716498,
+  "license": "CC BY",
+  "credit": "© Emma Walker",
+  "source": "https://www.inaturalist.org/observations/290561708",
+  "place": "Botswana"
+ },
+ {
+  "name": "Transvaal thick-tailed scorpion",
+  "sci": "Parabuthus transvaalicus",
+  "file": "media/arthropods/transvaal-thick-tailed-scorpion.jpg",
+  "photoId": 228182478,
+  "license": "CC BY",
+  "credit": "© Mahomed Desai",
+  "source": "https://www.inaturalist.org/observations/133928594",
+  "place": "Botswana"
+ },
+ {
+  "name": "Solifuge (red roman, sun spider)",
+  "sci": "Solifugae",
+  "file": "media/arthropods/solifuge-red-roman-sun-spider.jpg",
+  "photoId": 46665,
+  "license": "CC BY",
+  "credit": "© 116916927065934112165",
+  "source": "https://www.inaturalist.org/observations/25908",
+  "place": "Botswana"
+ },
+ {
+  "name": "Velvet mite",
+  "sci": "Trombidiidae",
+  "file": "media/arthropods/velvet-mite.jpg",
+  "photoId": 66098309,
+  "license": "CC BY",
+  "credit": "© Kym Nicolson",
+  "source": "https://www.inaturalist.org/observations/41664638",
+  "place": "elsewhere"
+ },
+ {
+  "name": "Hard tick (Ixodidae)",
+  "sci": "Ixodidae",
+  "file": "media/arthropods/hard-tick-ixodidae.jpg",
+  "photoId": 228166347,
+  "license": "CC BY",
+  "credit": "© Mahomed Desai",
+  "source": "https://www.inaturalist.org/observations/133909336",
+  "place": "Botswana"
+ },
+ {
+  "name": "Soft tick / tampan (Argasidae)",
+  "sci": "Argasidae",
+  "file": "media/arthropods/soft-tick-tampan-argasidae.jpg",
+  "photoId": 455580254,
+  "license": "CC BY-SA",
+  "credit": "© Gilles San Martin",
+  "source": "https://www.inaturalist.org/observations/254358771",
+  "place": "elsewhere"
+ },
+ {
+  "name": "African giant centipede",
+  "sci": "Ethmostigmus trigonopodus",
+  "file": "media/arthropods/african-giant-centipede.jpg",
+  "photoId": 373945290,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/211519834",
+  "place": "Botswana"
+ },
+ {
+  "name": "Red-headed centipede",
+  "sci": "Scolopendra morsitans",
+  "file": "media/arthropods/red-headed-centipede.jpg",
+  "photoId": 228179058,
+  "license": "CC BY",
+  "credit": "© Mahomed Desai",
+  "source": "https://www.inaturalist.org/observations/133928535",
+  "place": "Botswana"
+ },
+ {
+  "name": "Giant millipede (Spirostreptidae)",
+  "sci": "Spirostreptidae",
+  "file": "media/arthropods/giant-millipede-spirostreptidae.jpg",
+  "photoId": 657369273,
+  "license": "CC BY",
+  "credit": "© Christiaan Viljoen",
+  "source": "https://www.inaturalist.org/observations/360265962",
+  "place": "Botswana"
+ },
+ {
+  "name": "African migrant",
+  "sci": "Catopsilia florella",
+  "file": "media/arthropods/african-migrant.jpg",
+  "photoId": 466324215,
+  "license": "CC BY",
+  "credit": "© Line Juul Nielsen",
+  "source": "https://www.inaturalist.org/observations/259740964",
+  "place": "Botswana"
+ },
+ {
+  "name": "Citrus swallowtail",
+  "sci": "Papilio demodocus",
+  "file": "media/arthropods/citrus-swallowtail.jpg",
+  "photoId": 465775930,
+  "license": "CC BY",
+  "credit": "© Line Juul Nielsen",
+  "source": "https://www.inaturalist.org/observations/259462839",
+  "place": "Botswana"
+ },
+ {
+  "name": "Death's-head hawkmoth",
+  "sci": "Acherontia atropos",
+  "file": "media/arthropods/deaths-head-hawkmoth.jpg",
+  "photoId": 483039595,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/268708487",
+  "place": "Botswana"
+ },
+ {
+  "name": "Guineafowl butterfly",
+  "sci": "Hamanumida daedalus",
+  "file": "media/arthropods/guineafowl-butterfly.jpg",
+  "photoId": 721703489,
+  "license": "CC BY",
+  "credit": "© Mark Clarke",
+  "source": "https://www.inaturalist.org/observations/393722878",
+  "place": "Botswana"
+ },
+ {
+  "name": "Yellow pansy",
+  "sci": "Junonia hierta",
+  "file": "media/arthropods/yellow-pansy.jpg",
+  "photoId": 55894180,
+  "license": "CC BY",
+  "credit": "© Murphy Tladi",
+  "source": "https://www.inaturalist.org/observations/35448201",
+  "place": "Botswana"
+ },
+ {
+  "name": "Snouted harvester termite",
+  "sci": "Trinervitermes",
+  "file": "media/arthropods/snouted-harvester-termite.jpg",
+  "photoId": 51657260,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/32915349",
+  "place": "Africa"
+ },
+ {
+  "name": "Ball-rolling dung beetle (Scarabaeus)",
+  "sci": "Scarabaeus",
+  "file": "media/arthropods/ball-rolling-dung-beetle-scarabaeus.jpg",
+  "photoId": 464527630,
+  "license": "CC BY",
+  "credit": "© Skjold Søndergaard",
+  "source": "https://www.inaturalist.org/observations/258853891",
+  "place": "Botswana"
+ },
+ {
+  "name": "CMR beetle (blister beetle)",
+  "sci": "Hycleus oculatus",
+  "file": "media/arthropods/cmr-beetle-blister-beetle.jpg",
+  "photoId": 31348274,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/20306166",
+  "place": "Botswana"
+ },
+ {
+  "name": "Tok-tokkie (darkling beetle, Tenebrionidae)",
+  "sci": "Tenebrionidae",
+  "file": "media/arthropods/tok-tokkie-darkling-beetle-tenebrionidae.jpg",
+  "photoId": 42586286,
+  "license": "CC BY",
+  "credit": "© Michael Meiring",
+  "source": "https://www.inaturalist.org/observations/27374478",
+  "place": "Botswana"
+ },
+ {
+  "name": "Two-spotted ground beetle (Anthia)",
+  "sci": "Anthia",
+  "file": "media/arthropods/two-spotted-ground-beetle-anthia.jpg",
+  "photoId": 56972681,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/36072264",
+  "place": "Botswana"
+ },
+ {
+  "name": "Carpenter bee (Xylocopa)",
+  "sci": "Xylocopa",
+  "file": "media/arthropods/carpenter-bee-xylocopa.jpg",
+  "photoId": 107051989,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/66410100",
+  "place": "Botswana"
+ },
+ {
+  "name": "Matabele ant",
+  "sci": "Megaponera analis",
+  "file": "media/arthropods/matabele-ant.jpg",
+  "photoId": 350398453,
+  "license": "CC BY",
+  "credit": "© Asher P Higgins",
+  "source": "https://www.inaturalist.org/observations/198765983",
+  "place": "Botswana"
+ },
+ {
+  "name": "Golden orb-web spider",
+  "sci": "Trichonephila senegalensis",
+  "file": "media/arthropods/golden-orb-web-spider.jpg",
+  "photoId": 116393938,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/71484829",
+  "place": "Botswana"
+ },
+ {
+  "name": "Bont tick",
+  "sci": "Amblyomma hebraeum",
+  "file": "media/arthropods/bont-tick.jpg",
+  "photoId": 228166347,
+  "license": "CC BY",
+  "credit": "© Mahomed Desai",
+  "source": "https://www.inaturalist.org/observations/133909336",
+  "place": "Botswana"
+ },
+ {
+  "name": "Armoured ground cricket (koringkriek)",
+  "sci": "Acanthoplus discoidalis",
+  "file": "media/arthropods/armoured-ground-cricket-koringkriek.jpg",
+  "photoId": 353139942,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/200184919",
+  "place": "Botswana"
+ },
+ {
+  "name": "Spider-hunting wasp",
+  "sci": "Batozonellus fuliginosus",
+  "file": "media/arthropods/spider-hunting-wasp.jpg",
+  "photoId": 190642031,
+  "license": "CC BY-SA",
+  "credit": "© Dr. Thomas Dörner",
+  "source": "https://www.inaturalist.org/observations/112848366",
+  "place": "Africa"
+ },
+ {
+  "name": "Bark scorpion (Uroplectes)",
+  "sci": "Uroplectes",
+  "file": "media/arthropods/bark-scorpion-uroplectes.jpg",
+  "photoId": 296949393,
+  "license": "CC BY-SA",
+  "credit": "© Tony Eales",
+  "source": "https://www.inaturalist.org/observations/171117404",
+  "place": "Botswana"
+ }
+]

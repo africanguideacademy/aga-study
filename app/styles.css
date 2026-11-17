@@ -359,6 +359,17 @@ a.btn { text-decoration: none; }
 .fact + .fact { border-top: 1px solid var(--line); padding-top: 12px; }
 .draft-note { margin-top: 16px; }
 .draft-note .draft { margin: 0 6px 0 0; }
+.credit { margin-top: 14px; color: var(--muted); font-size: 12.5px; }
+.credit a, .credits a, .foot-links a { color: inherit; }
+.foot-links { margin-top: 6px; font-size: 13px; }
+.credits { list-style: none; margin: 0; font-size: 13.5px; line-height: 1.5; }
+.credits li + li { border-top: 1px solid var(--line); padding-top: 6px; margin-top: 6px; }
+.share-now { display: flex; gap: 12px; align-items: center; padding: 10px; margin-bottom: 12px; }
+.share-now img { width: 72px; height: 54px; object-fit: cover; border-radius: 8px; }
+.share-now div { display: flex; flex-direction: column; }
+.share-prev { width: 100%; max-height: 40vh; object-fit: contain; border-radius: 10px; margin: 0 0 12px; background: var(--surface-2); }
+.form label.check { display: flex; gap: 10px; align-items: flex-start; font-weight: 500; font-size: 14px; }
+.form label.check input { width: auto; margin-top: 3px; flex: none; }
 .sp-pager { display: flex; justify-content: space-between; gap: 10px; margin-top: 12px; }
 .sp-nav { flex: 0 1 48%; padding: 10px 12px; font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-decoration: none; }
 .sp-nav.nx { margin-left: auto; }

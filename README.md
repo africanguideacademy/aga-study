@@ -101,6 +101,24 @@ Tap a photo in **Browse** to open the species page. It shows the photo, the call
 - Status works the same way as for questions: only Approved cards are public, unless the app is built with `DRAFTS_LIVE=1`, in which case Draft cards show with a Draft label.
 - To sync Grant's edits: read the tab into `data/species-info.csv`, then run build-data and publish.
 
+## Species photos (mammals, reptiles, frogs, arthropods, plants)
+
+- **Species lists:** `data/species-lists/<group>.json`, one entry per species: name, scientific name, group, and whether it's in the manual (with page). Each list starts with the manual's species, then adds common Botswana species.
+- **Getting photos:** `node tools/fetch-photos.js [group]` downloads one free-licence photo per species from iNaturalist.
+  - Only CC0, CC BY and CC BY-SA photos are used.
+  - Research-grade observations from Botswana are tried first, then the rest of Africa.
+  - Photos are saved to `app/media/<group>/`, with the credits in `data/photos/<group>.json`.
+  - It only fetches species that have no photo yet, so it's safe to rerun after adding names.
+  - To get a different photo for one species: `node tools/fetch-photos.js mammals --redo "Impala"`.
+- **Credits:** each photo's credit shows on its species page, and all credits are listed on `#/credits` (linked in the footer). The licences require this.
+- **Student photos:**
+  - The **Send a photo** button on a species page, or **Share a photo** in the footer, uploads a photo. The phone shrinks it to 1600 px first.
+  - The upload goes to the Apps Script. It saves the file in the Drive folder "AGA Pocket Guide - Photo Submissions" and adds a row to the **Photos** tab of the Student Progress sheet with Status = Pending.
+  - A trainer sets Status to **Approved** or **Rejected**.
+  - `node tools/sync-photos.js` pulls the approved photos into `app/media/user/` and records them in `data/photo-overrides.json`. They then replace that species' photo in every list, credited "Name Surname (AGA student)". Rebuild and publish afterwards.
+  - Any photo can be replaced by hand the same way: add an entry to `data/photo-overrides.json`.
+  - Drive access needs a one-time authorisation: run `setupPhotos` in the Apps Script editor.
+
 ## Navigation
 - On a phone, the tab bar at the bottom has three tabs: Home, Progress and Offline.
 - Quizzes and flashcards use a full-screen mode with ✕ to quit. The Next and grading buttons sit at the bottom of the screen, within reach of your thumb.

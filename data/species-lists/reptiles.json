@@ -1,0 +1,373 @@
+[
+  {
+    "name": "Nile crocodile",
+    "sci": "Crocodylus niloticus",
+    "group": "Crocodiles",
+    "manual": true,
+    "page": 78
+  },
+  {
+    "name": "Anchieta's cobra",
+    "sci": "Naja anchietae",
+    "group": "Venomous snakes",
+    "manual": true,
+    "page": 84
+  },
+  {
+    "name": "Black mamba",
+    "sci": "Dendroaspis polylepis",
+    "group": "Venomous snakes",
+    "manual": true,
+    "page": 84
+  },
+  {
+    "name": "Cape cobra",
+    "sci": "Naja nivea",
+    "group": "Venomous snakes",
+    "manual": true,
+    "page": 84
+  },
+  {
+    "name": "Mozambique spitting cobra",
+    "sci": "Naja mossambica",
+    "group": "Venomous snakes",
+    "manual": true,
+    "page": 84
+  },
+  {
+    "name": "Snouted cobra",
+    "sci": "Naja annulifera",
+    "group": "Venomous snakes",
+    "manual": true,
+    "page": 84
+  },
+  {
+    "name": "Boomslang",
+    "sci": "Dispholidus typus",
+    "group": "Venomous snakes",
+    "manual": true,
+    "page": 85
+  },
+  {
+    "name": "Shield-nosed cobra",
+    "sci": "Aspidelaps scutatus",
+    "group": "Venomous snakes",
+    "manual": true,
+    "page": 85
+  },
+  {
+    "name": "Southern stiletto snake (Bibron's burrowing asp)",
+    "sci": "Atractaspis bibronii",
+    "group": "Venomous snakes",
+    "manual": true,
+    "page": 85
+  },
+  {
+    "name": "Vine snake",
+    "sci": "Thelotornis capensis",
+    "group": "Venomous snakes",
+    "manual": true,
+    "page": 85
+  },
+  {
+    "name": "Puff adder",
+    "sci": "Bitis arietans",
+    "group": "Venomous snakes",
+    "manual": true,
+    "page": 86
+  },
+  {
+    "name": "Mole snake",
+    "sci": "Pseudaspis cana",
+    "group": "Non-venomous snakes",
+    "manual": true,
+    "page": 86
+  },
+  {
+    "name": "Southern African python",
+    "sci": "Python natalensis",
+    "group": "Non-venomous snakes",
+    "manual": true,
+    "page": 86
+  },
+  {
+    "name": "Angolan green snake",
+    "sci": "Philothamnus angolensis",
+    "group": "Non-venomous snakes",
+    "manual": true,
+    "page": 87
+  },
+  {
+    "name": "Spotted bush snake",
+    "sci": "Philothamnus semivariegatus",
+    "group": "Non-venomous snakes",
+    "manual": true,
+    "page": 87
+  },
+  {
+    "name": "Stripe-bellied sand snake",
+    "sci": "Psammophis subtaeniatus",
+    "group": "Mildly venomous snakes",
+    "manual": true,
+    "page": 83
+  },
+  {
+    "name": "Common tiger snake",
+    "sci": "Telescopus semiannulatus",
+    "group": "Mildly venomous snakes",
+    "manual": true,
+    "page": 86
+  },
+  {
+    "name": "Rufous-beaked snake",
+    "sci": "Rhamphiophis rostratus",
+    "group": "Mildly venomous snakes",
+    "manual": true,
+    "page": 86
+  },
+  {
+    "name": "Ground agama",
+    "sci": "Agama aculeata",
+    "group": "Lizards",
+    "manual": true,
+    "page": 88
+  },
+  {
+    "name": "Kalahari burrowing skink (Kalahari legless skink)",
+    "sci": "Acontias kgalagadi",
+    "group": "Lizards",
+    "manual": true,
+    "page": 88
+  },
+  {
+    "name": "Kalahari tree skink",
+    "sci": "Trachylepis spilogaster",
+    "group": "Lizards",
+    "manual": true,
+    "page": 88
+  },
+  {
+    "name": "Nile monitor (water leguaan)",
+    "sci": "Varanus niloticus",
+    "group": "Lizards",
+    "manual": true,
+    "page": 88
+  },
+  {
+    "name": "Snake-eyed skink",
+    "sci": "Panaspis wahlbergii",
+    "group": "Lizards",
+    "manual": true,
+    "page": 88
+  },
+  {
+    "name": "White-throated monitor (rock leguaan)",
+    "sci": "Varanus albigularis",
+    "group": "Lizards",
+    "manual": true,
+    "page": 88
+  },
+  {
+    "name": "Gecko (tropical house gecko)",
+    "sci": "Hemidactylus mabouia",
+    "group": "Lizards",
+    "manual": true,
+    "page": 89
+  },
+  {
+    "name": "Girdled lizard (Jones' girdled lizard)",
+    "sci": "Cordylus jonesii",
+    "group": "Lizards",
+    "manual": true,
+    "page": 89
+  },
+  {
+    "name": "Old World lizard (bushveld lizard)",
+    "sci": "Heliobolus lugubris",
+    "group": "Lizards",
+    "manual": true,
+    "page": 89
+  },
+  {
+    "name": "Amphisbaenian (Kalahari round-headed worm lizard)",
+    "sci": "Zygaspis quadrifrons",
+    "group": "Lizards",
+    "manual": true,
+    "page": 90
+  },
+  {
+    "name": "Flap-necked chameleon",
+    "sci": "Chamaeleo dilepis",
+    "group": "Lizards",
+    "manual": true,
+    "page": 90
+  },
+  {
+    "name": "Leopard tortoise",
+    "sci": "Stigmochelys pardalis",
+    "group": "Tortoises and terrapins",
+    "manual": true,
+    "page": 91
+  },
+  {
+    "name": "Marsh terrapin (pan terrapin)",
+    "sci": "Pelomedusa subrufa",
+    "group": "Tortoises and terrapins",
+    "manual": true,
+    "page": 91
+  },
+  {
+    "name": "Mashona hinged terrapin",
+    "sci": "Pelusios rhodesianus",
+    "group": "Tortoises and terrapins",
+    "manual": true,
+    "page": 91
+  },
+  {
+    "name": "Okavango hinged terrapin",
+    "sci": "Pelusios bechuanicus",
+    "group": "Tortoises and terrapins",
+    "manual": true,
+    "page": 91
+  },
+  {
+    "name": "Serrated tent tortoise (Kalahari tent tortoise)",
+    "sci": "Psammobates oculifer",
+    "group": "Tortoises and terrapins",
+    "manual": true,
+    "page": 91
+  },
+  {
+    "name": "Speke's hinged tortoise",
+    "sci": "Kinixys spekii",
+    "group": "Tortoises and terrapins",
+    "manual": true,
+    "page": 91
+  },
+  {
+    "name": "Horned adder",
+    "sci": "Bitis caudalis",
+    "group": "Venomous snakes",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Rhombic night adder",
+    "sci": "Causus rhombeatus",
+    "group": "Venomous snakes",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Snouted night adder",
+    "sci": "Causus defilippii",
+    "group": "Venomous snakes",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Brown house snake",
+    "sci": "Boaedon capensis",
+    "group": "Non-venomous snakes",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Common egg-eater",
+    "sci": "Dasypeltis scabra",
+    "group": "Non-venomous snakes",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Bark snake",
+    "sci": "Hemirhagerrhis nototaenia",
+    "group": "Mildly venomous snakes",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Black-headed centipede-eater",
+    "sci": "Aparallactus capensis",
+    "group": "Mildly venomous snakes",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Olive grass snake",
+    "sci": "Psammophis mossambicus",
+    "group": "Mildly venomous snakes",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Red-lipped herald snake",
+    "sci": "Crotaphopeltis hotamboeia",
+    "group": "Mildly venomous snakes",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Cape dwarf gecko",
+    "sci": "Lygodactylus capensis",
+    "group": "Lizards",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Common barking gecko",
+    "sci": "Ptenopus garrulus",
+    "group": "Lizards",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Southern tree agama",
+    "sci": "Acanthocercus atricollis",
+    "group": "Lizards",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Spotted sandveld lizard",
+    "sci": "Nucras intertexta",
+    "group": "Lizards",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Striped skink",
+    "sci": "Trachylepis striata",
+    "group": "Lizards",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Turner's thick-toed gecko",
+    "sci": "Chondrodactylus turneri",
+    "group": "Lizards",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Variegated skink",
+    "sci": "Trachylepis variegata",
+    "group": "Lizards",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Western three-striped skink",
+    "sci": "Trachylepis occidentalis",
+    "group": "Lizards",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Yellow-throated plated lizard",
+    "sci": "Gerrhosaurus flavigularis",
+    "group": "Lizards",
+    "manual": false,
+    "page": null
+  }
+]

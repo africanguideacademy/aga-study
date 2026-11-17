@@ -1,0 +1,219 @@
+﻿[
+  {
+    "name": "Angolan Reed Frog",
+    "sci": "Hyperolius parallelus",
+    "group": "Reed frogs",
+    "manual": true,
+    "page": 72
+  },
+  {
+    "name": "Bubbling Kassina",
+    "sci": "Kassina senegalensis",
+    "group": "Kassinas",
+    "manual": true,
+    "page": 73
+  },
+  {
+    "name": "Southern Foam Nest Frog",
+    "sci": "Chiromantis xerampelina",
+    "group": "Tree frogs",
+    "manual": true,
+    "page": 74
+  },
+  {
+    "name": "African Bullfrog",
+    "sci": "Pyxicephalus edulis",
+    "group": "Bullfrogs",
+    "manual": true,
+    "page": 75
+  },
+  {
+    "name": "Giant Bullfrog",
+    "sci": "Pyxicephalus adspersus",
+    "group": "Bullfrogs",
+    "manual": true,
+    "page": 75
+  },
+  {
+    "name": "Flat-backed Toad",
+    "sci": "Sclerophrys pusilla",
+    "group": "Toads",
+    "manual": true,
+    "page": 75
+  },
+  {
+    "name": "Guttural Toad",
+    "sci": "Sclerophrys gutturalis",
+    "group": "Toads",
+    "manual": true,
+    "page": 75
+  },
+  {
+    "name": "Western Olive Toad",
+    "sci": "Sclerophrys poweri",
+    "group": "Toads",
+    "manual": true,
+    "page": 75
+  },
+  {
+    "name": "Broad-banded Grass Frog",
+    "sci": "Ptychadena mossambica",
+    "group": "Grass frogs",
+    "manual": true,
+    "page": 74
+  },
+  {
+    "name": "Common River Frog",
+    "sci": "Amietia angolensis",
+    "group": "River frogs",
+    "manual": true,
+    "page": 74
+  },
+  {
+    "name": "Common Platanna",
+    "sci": "Xenopus laevis",
+    "group": "Platannas",
+    "manual": true,
+    "page": 73
+  },
+  {
+    "name": "Banded Rubber Frog",
+    "sci": "Phrynomantis bifasciatus",
+    "group": "Rubber and rain frogs",
+    "manual": true,
+    "page": 74
+  },
+  {
+    "name": "Bushveld Rain Frog",
+    "sci": "Breviceps adspersus",
+    "group": "Rubber and rain frogs",
+    "manual": true,
+    "page": 73
+  },
+  {
+    "name": "Mottled Shovel-nosed Frog",
+    "sci": "Hemisus marmoratus",
+    "group": "Shovel-nosed frogs",
+    "manual": true,
+    "page": 73
+  },
+  {
+    "name": "Long Reed Frog",
+    "sci": "Hyperolius nasutus",
+    "group": "Reed frogs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Painted Reed Frog",
+    "sci": "Hyperolius marmoratus",
+    "group": "Reed frogs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Bocage's Tree Frog",
+    "sci": "Leptopelis bocagii",
+    "group": "Tree frogs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Eastern Olive Toad",
+    "sci": "Sclerophrys garmani",
+    "group": "Toads",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Red Toad",
+    "sci": "Schismaderma carens",
+    "group": "Toads",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Dwarf Grass Frog",
+    "sci": "Ptychadena taenioscelis",
+    "group": "Grass frogs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Guibé's Grass Frog",
+    "sci": "Ptychadena guibei",
+    "group": "Grass frogs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Mascarene Grass Frog",
+    "sci": "Ptychadena mascareniensis",
+    "group": "Grass frogs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Plain Grass Frog",
+    "sci": "Ptychadena anchietae",
+    "group": "Grass frogs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Sharp-nosed Grass Frog",
+    "sci": "Ptychadena oxyrhynchus",
+    "group": "Grass frogs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Tropical Platanna",
+    "sci": "Xenopus muelleri",
+    "group": "Platannas",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Dwarf Puddle Frog",
+    "sci": "Phrynobatrachus mababiensis",
+    "group": "Puddle frogs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Snoring Puddle Frog",
+    "sci": "Phrynobatrachus natalensis",
+    "group": "Puddle frogs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Knocking Sand Frog",
+    "sci": "Tomopterna krugerensis",
+    "group": "Sand frogs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Tremolo Sand Frog",
+    "sci": "Tomopterna cryptotis",
+    "group": "Sand frogs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Boettger's Caco",
+    "sci": "Cacosternum boettgeri",
+    "group": "Other frogs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Ornate Frog",
+    "sci": "Hildebrandtia ornata",
+    "group": "Other frogs",
+    "manual": false,
+    "page": null
+  }
+]

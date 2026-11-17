@@ -1,0 +1,302 @@
+[
+ {
+  "name": "Bubbling Kassina",
+  "sci": "Kassina senegalensis",
+  "file": "media/amphibians/bubbling-kassina.jpg",
+  "photoId": 65606239,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/41370216",
+  "place": "Botswana"
+ },
+ {
+  "name": "Southern Foam Nest Frog",
+  "sci": "Chiromantis xerampelina",
+  "file": "media/amphibians/southern-foam-nest-frog.jpg",
+  "photoId": 562709299,
+  "license": "CC0",
+  "credit": "kingfisher14",
+  "source": "https://www.inaturalist.org/observations/311706102",
+  "place": "Botswana"
+ },
+ {
+  "name": "African Bullfrog",
+  "sci": "Pyxicephalus edulis",
+  "file": "media/amphibians/african-bullfrog.jpg",
+  "photoId": 116393889,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/71484828",
+  "place": "Botswana"
+ },
+ {
+  "name": "Giant Bullfrog",
+  "sci": "Pyxicephalus adspersus",
+  "file": "media/amphibians/giant-bullfrog.jpg",
+  "photoId": 60952055,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/38358047",
+  "place": "Botswana"
+ },
+ {
+  "name": "Flat-backed Toad",
+  "sci": "Sclerophrys pusilla",
+  "file": "media/amphibians/flat-backed-toad.jpg",
+  "photoId": 101479310,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/63250831",
+  "place": "Botswana"
+ },
+ {
+  "name": "Guttural Toad",
+  "sci": "Sclerophrys gutturalis",
+  "file": "media/amphibians/guttural-toad.jpg",
+  "photoId": 173196787,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/103478889",
+  "place": "Botswana"
+ },
+ {
+  "name": "Western Olive Toad",
+  "sci": "Sclerophrys poweri",
+  "file": "media/amphibians/western-olive-toad.jpg",
+  "photoId": 591270631,
+  "license": "CC BY",
+  "credit": "© Murphy Tladi",
+  "source": "https://www.inaturalist.org/observations/326464979",
+  "place": "Botswana"
+ },
+ {
+  "name": "Broad-banded Grass Frog",
+  "sci": "Ptychadena mossambica",
+  "file": "media/amphibians/broad-banded-grass-frog.jpg",
+  "photoId": 345992772,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/196510514",
+  "place": "Botswana"
+ },
+ {
+  "name": "Common River Frog",
+  "sci": "Amietia angolensis",
+  "file": "media/amphibians/common-river-frog.jpg",
+  "photoId": 30519111,
+  "license": "CC BY-SA",
+  "credit": "© Andrew Hankey",
+  "source": "https://www.inaturalist.org/observations/19800234",
+  "place": "Africa"
+ },
+ {
+  "name": "Common Platanna",
+  "sci": "Xenopus laevis",
+  "file": "media/amphibians/common-platanna.jpg",
+  "photoId": 175919235,
+  "license": "CC0",
+  "credit": "m_burger",
+  "source": "https://www.inaturalist.org/observations/104920916",
+  "place": "Africa"
+ },
+ {
+  "name": "Banded Rubber Frog",
+  "sci": "Phrynomantis bifasciatus",
+  "file": "media/amphibians/banded-rubber-frog.jpg",
+  "photoId": 345705927,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/196370559",
+  "place": "Botswana"
+ },
+ {
+  "name": "Bushveld Rain Frog",
+  "sci": "Breviceps adspersus",
+  "file": "media/amphibians/bushveld-rain-frog.jpg",
+  "photoId": 63238481,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/39834229",
+  "place": "Botswana"
+ },
+ {
+  "name": "Mottled Shovel-nosed Frog",
+  "sci": "Hemisus marmoratus",
+  "file": "media/amphibians/mottled-shovel-nosed-frog.jpg",
+  "photoId": 65614828,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/41370364",
+  "place": "Botswana"
+ },
+ {
+  "name": "Long Reed Frog",
+  "sci": "Hyperolius nasutus",
+  "file": "media/amphibians/long-reed-frog.jpg",
+  "photoId": 382814528,
+  "license": "CC0",
+  "credit": "erwinsieben",
+  "source": "https://www.inaturalist.org/observations/216456236",
+  "place": "Botswana"
+ },
+ {
+  "name": "Painted Reed Frog",
+  "sci": "Hyperolius marmoratus",
+  "file": "media/amphibians/painted-reed-frog.jpg",
+  "photoId": 15704381,
+  "license": "CC BY",
+  "credit": "© Wynand Uys",
+  "source": "https://www.inaturalist.org/observations/11111363",
+  "place": "Africa"
+ },
+ {
+  "name": "Bocage's Tree Frog",
+  "sci": "Leptopelis bocagii",
+  "file": "media/amphibians/bocages-tree-frog.jpg",
+  "photoId": 481799022,
+  "license": "CC BY",
+  "credit": "© Tom Field",
+  "source": "https://www.inaturalist.org/observations/268068700",
+  "place": "Africa"
+ },
+ {
+  "name": "Eastern Olive Toad",
+  "sci": "Sclerophrys garmani",
+  "file": "media/amphibians/eastern-olive-toad.jpg",
+  "photoId": 522700879,
+  "license": "CC BY",
+  "credit": "© Emma Walker",
+  "source": "https://www.inaturalist.org/observations/290553248",
+  "place": "Botswana"
+ },
+ {
+  "name": "Red Toad",
+  "sci": "Schismaderma carens",
+  "file": "media/amphibians/red-toad.jpg",
+  "photoId": 570906661,
+  "license": "CC0",
+  "credit": "kingfisher14",
+  "source": "https://www.inaturalist.org/observations/316001120",
+  "place": "Botswana"
+ },
+ {
+  "name": "Dwarf Grass Frog",
+  "sci": "Ptychadena taenioscelis",
+  "file": "media/amphibians/dwarf-grass-frog.jpg",
+  "photoId": 48763215,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/31173459",
+  "place": "Botswana"
+ },
+ {
+  "name": "Guibé's Grass Frog",
+  "sci": "Ptychadena guibei",
+  "file": "media/amphibians/guib-s-grass-frog.jpg",
+  "photoId": 115640174,
+  "license": "CC BY",
+  "credit": "© Mahomed Desai",
+  "source": "https://www.inaturalist.org/observations/71077847",
+  "place": "Africa"
+ },
+ {
+  "name": "Mascarene Grass Frog",
+  "sci": "Ptychadena mascareniensis",
+  "file": "media/amphibians/mascarene-grass-frog.jpg",
+  "photoId": 70139735,
+  "license": "CC BY",
+  "credit": "© Manuel Schwarz",
+  "source": "https://www.inaturalist.org/observations/44238530",
+  "place": "Africa"
+ },
+ {
+  "name": "Plain Grass Frog",
+  "sci": "Ptychadena anchietae",
+  "file": "media/amphibians/plain-grass-frog.jpg",
+  "photoId": 64415010,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/40637992",
+  "place": "Botswana"
+ },
+ {
+  "name": "Sharp-nosed Grass Frog",
+  "sci": "Ptychadena oxyrhynchus",
+  "file": "media/amphibians/sharp-nosed-grass-frog.jpg",
+  "photoId": 577580784,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/319517946",
+  "place": "Africa"
+ },
+ {
+  "name": "Tropical Platanna",
+  "sci": "Xenopus muelleri",
+  "file": "media/amphibians/tropical-platanna.jpg",
+  "photoId": 47220511,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/30231139",
+  "place": "Botswana"
+ },
+ {
+  "name": "Dwarf Puddle Frog",
+  "sci": "Phrynobatrachus mababiensis",
+  "file": "media/amphibians/dwarf-puddle-frog.jpg",
+  "photoId": 65606389,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/41370219",
+  "place": "Botswana"
+ },
+ {
+  "name": "Snoring Puddle Frog",
+  "sci": "Phrynobatrachus natalensis",
+  "file": "media/amphibians/snoring-puddle-frog.jpg",
+  "photoId": 336528657,
+  "license": "CC0",
+  "credit": "benkeen",
+  "source": "https://www.inaturalist.org/observations/191782600",
+  "place": "Botswana"
+ },
+ {
+  "name": "Knocking Sand Frog",
+  "sci": "Tomopterna krugerensis",
+  "file": "media/amphibians/knocking-sand-frog.jpg",
+  "photoId": 90065786,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/56516357",
+  "place": "Africa"
+ },
+ {
+  "name": "Boettger's Caco",
+  "sci": "Cacosternum boettgeri",
+  "file": "media/amphibians/boettgers-caco.jpg",
+  "photoId": 87132977,
+  "license": "CC0",
+  "credit": "m_burger",
+  "source": "https://www.inaturalist.org/observations/54748018",
+  "place": "Africa"
+ },
+ {
+  "name": "Ornate Frog",
+  "sci": "Hildebrandtia ornata",
+  "file": "media/amphibians/ornate-frog.jpg",
+  "photoId": 252901291,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/146781796",
+  "place": "Africa"
+ },
+ {
+  "name": "Angolan Reed Frog",
+  "sci": "Hyperolius parallelus",
+  "file": "media/amphibians/angolan-reed-frog.jpg",
+  "photoId": 25358911,
+  "license": "CC BY",
+  "credit": "© David Maxwell Braun",
+  "source": "https://www.inaturalist.org/observations/16798433",
+  "place": "Botswana"
+ }
+]

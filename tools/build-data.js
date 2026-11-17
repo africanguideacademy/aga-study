@@ -219,6 +219,58 @@ const appData = {
   ],
 };
 
+// ---------------- current bird names (Grant/Bernard 2026-11-17) ----------------
+// Item ids stay the same so students keep their progress.
+// The FGASA "Tropical Boubou" is the Swamp Boubou of the Okavango Delta, so its call moves to the Swamp Boubou recording.
+const NAME_UPDATES = { 'Diederik Cuckoo': ['Dideric Cuckoo', 'Cuckoo'], 'Crested Francolin': ['Crested Spurfowl', 'Spurfowl'], 'Tropical Boubou': ['Swamp Boubou', 'Boubou'],
+  'Long-legged Bustard': ['Black-bellied Bustard', 'Bustard'] }; // old name; the photo shows a male Black-bellied Bustard
+const callById = id => appData.modules.find(m => m.id === 'calls').items.find(i => i.id === id);
+appData.modules.forEach(m => m.items.forEach(i => {
+  const u = NAME_UPDATES[i.name];
+  if (!u) return;
+  if (m.id === 'calls' && i.name === 'Tropical Boubou') return; // a real, separate species in the call library
+  [i.name, i.group] = u;
+  if (u[0] === 'Swamp Boubou' && m.id !== 'calls') { const c = callById('boubou-swamp'); if (c) { i.call = c.call; i.bytes = c.bytes; } }
+  if (!i.call && m.id !== 'calls') { const c = appData.modules.find(x => x.id === 'calls').items.find(x => x.name === i.name); if (c) { i.call = c.call; i.bytes = c.bytes; } }
+}));
+// ---------------- species photo sets (tools/fetch-photos.js: free-licence iNaturalist photos) ----------------
+// data/species-lists/<group>.json = the species, data/photos/<group>.json = the photo fetched for each one.
+const PHOTO_GROUPS = { mammals: 'Mammals', reptiles: 'Reptiles', amphibians: 'Amphibians', arthropods: 'Arthropods', plants: 'Plants' };
+for (const [g, title] of Object.entries(PHOTO_GROUPS)) {
+  const lf = path.join(ROOT, 'data', 'species-lists', g + '.json'), pf = path.join(ROOT, 'data', 'photos', g + '.json');
+  if (!fs.existsSync(lf) || !fs.existsSync(pf)) continue;
+  const photos = new Map(JSON.parse(fs.readFileSync(pf, 'utf8')).map(p => [p.name, p]));
+  const items = JSON.parse(fs.readFileSync(lf, 'utf8').replace(/^﻿/, '')).map(s => {
+    const p = photos.get(s.name);
+    if (!p || !p.file || !fs.existsSync(path.join(ROOT, 'app', p.file))) return null;
+    const o = { id: g + '-' + slug(s.name), name: s.name, sci: s.sci, group: s.group, photo: p.file, pb: fs.statSync(path.join(ROOT, 'app', p.file)).size,
+      credit: p.credit, license: p.license, src: p.source };
+    if (s.manual) { o.f = 1; if (s.page) o.page = s.page; }
+    return o;
+  }).filter(Boolean);
+  if (items.length) appData.modules.push({ id: g + '-photos', title: title + ' photos', short: title, subtitle: `${items.length} ${title.toLowerCase()} of Botswana`,
+    featured: 'In the manual', defaultScope: 'all', items });
+}
+// frog calls without a photo borrow the frog's species photo
+{
+  const fp = appData.modules.find(m => m.id === 'amphibians-photos'), fc = appData.modules.find(m => m.id === 'frog-calls');
+  if (fp && fc) fc.items.forEach(i => { if (i.photo) return; const p = fp.items.find(x => norm(x.name) === norm(i.name)); if (p) Object.assign(i, { photo: p.photo, credit: p.credit, license: p.license, src: p.src }); });
+}
+// Replacement photos (students' approved photos via tools/sync-photos.js, or any photo AGA wants to use instead).
+// data/photo-overrides.json: { "<species name>": { "photo": "media/user/...jpg", "credit": "Name Surname", "license": "AGA" } }
+{
+  const of = path.join(ROOT, 'data', 'photo-overrides.json');
+  const ov = fs.existsSync(of) ? JSON.parse(fs.readFileSync(of, 'utf8').replace(/^﻿/, '')) : {};
+  appData.modules.forEach(m => m.items.forEach(i => {
+    const o = ov[i.name];
+    if (o && o.photo && fs.existsSync(path.join(ROOT, 'app', o.photo)) && (i.photo || m.id !== 'calls')) Object.assign(i, { photo: o.photo, credit: o.credit, license: o.license || 'AGA', src: o.src || '' });
+  }));
+}
+{ // in the call library the FGASA flag and photo move from Tropical to Swamp Boubou
+  const t = callById('boubou-tropical'), s = callById('boubou-swamp');
+  if (t && s && t.f) { s.f = 1; s.photo = t.photo; delete t.f; t.photo = ''; }
+}
+
 // manual questions (data/questions.csv = export of the sheet's "Questions" tab)
 function parseCsv(text) {
   const rows = []; let row = [], cell = '', q = false;
@@ -258,6 +310,26 @@ function questionModules(includeDrafts) {
       subtitle: `${items.length} questions from the Botswana Guide Training Manual`, items };
   });
 }
+// Landscape photos (wider than about 3:2) are flagged "wide" so the app can use them for banners and subject tiles
+// without cutting off heads (a tall or square photo cropped to a wide banner looks bad).
+function jpegSize(file) {
+  try {
+    const b = fs.readFileSync(file);
+    for (let i = 2; i < b.length - 9;) {
+      if (b[i] !== 0xFF) return null;
+      const m = b[i + 1], len = b.readUInt16BE(i + 2);
+      if (m >= 0xC0 && m <= 0xCF && ![0xC4, 0xC8, 0xCC].includes(m)) return { h: b.readUInt16BE(i + 5), w: b.readUInt16BE(i + 7) };
+      i += 2 + len;
+    }
+  } catch (e) { /* not a readable jpeg */ }
+  return null;
+}
+const sizeCache = {};
+appData.modules.forEach(m => m.items.forEach(i => {
+  if (!i.photo) return;
+  const s = sizeCache[i.photo] || (sizeCache[i.photo] = jpegSize(path.join(ROOT, 'app', i.photo)));
+  if (s && s.w / s.h >= 1.45) i.wide = 1;
+}));
 // Download sizes shown in the app = the re-encoded files in app/media (tools/encode-audio.ps1), not the originals
 appData.modules.forEach(m => m.items.forEach(i => {
   if (!i.call) return;

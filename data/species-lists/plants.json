@@ -1,0 +1,618 @@
+[
+  {
+    "name": "African mangosteen",
+    "sci": "Garcinia livingstonei",
+    "group": "Trees",
+    "manual": true,
+    "page": 46
+  },
+  {
+    "name": "Buffalo thorn",
+    "sci": "Ziziphus mucronata",
+    "group": "Trees",
+    "manual": true,
+    "page": 44
+  },
+  {
+    "name": "Camel thorn",
+    "sci": "Vachellia erioloba",
+    "group": "Trees",
+    "manual": true,
+    "page": 23
+  },
+  {
+    "name": "Jackal-berry",
+    "sci": "Diospyros mespiliformis",
+    "group": "Trees",
+    "manual": true,
+    "page": 43
+  },
+  {
+    "name": "Kalahari apple-leaf",
+    "sci": "Philenoptera nelsii",
+    "group": "Trees",
+    "manual": true,
+    "page": 23
+  },
+  {
+    "name": "Knob-thorn",
+    "sci": "Senegalia nigrescens",
+    "group": "Trees",
+    "manual": true,
+    "page": 43
+  },
+  {
+    "name": "Large fever-berry",
+    "sci": "Croton megalobotrys",
+    "group": "Trees",
+    "manual": true,
+    "page": 43
+  },
+  {
+    "name": "Leadwood",
+    "sci": "Combretum imberbe",
+    "group": "Trees",
+    "manual": true,
+    "page": 42
+  },
+  {
+    "name": "Marula",
+    "sci": "Sclerocarya birrea",
+    "group": "Trees",
+    "manual": true,
+    "page": 42
+  },
+  {
+    "name": "Mopane",
+    "sci": "Colophospermum mopane",
+    "group": "Trees",
+    "manual": true,
+    "page": 45
+  },
+  {
+    "name": "Natal mahogany",
+    "sci": "Trichilia emetica",
+    "group": "Trees",
+    "manual": true,
+    "page": 42
+  },
+  {
+    "name": "Rock-splitting fig",
+    "sci": "Ficus abutilifolia",
+    "group": "Trees",
+    "manual": true,
+    "page": 22
+  },
+  {
+    "name": "Russet bushwillow",
+    "sci": "Combretum hereroense",
+    "group": "Trees",
+    "manual": true,
+    "page": 23
+  },
+  {
+    "name": "Sausage tree",
+    "sci": "Kigelia africana",
+    "group": "Trees",
+    "manual": true,
+    "page": 43
+  },
+  {
+    "name": "Scented thorn",
+    "sci": "Vachellia nilotica",
+    "group": "Trees",
+    "manual": true,
+    "page": 41
+  },
+  {
+    "name": "Shepherd’s tree",
+    "sci": "Boscia albitrunca",
+    "group": "Trees",
+    "manual": true,
+    "page": 23
+  },
+  {
+    "name": "Sweet thorn",
+    "sci": "Vachellia karroo",
+    "group": "Trees",
+    "manual": true,
+    "page": 50
+  },
+  {
+    "name": "Umbrella thorn",
+    "sci": "Vachellia tortilis",
+    "group": "Trees",
+    "manual": true,
+    "page": 23
+  },
+  {
+    "name": "Weeping wattle",
+    "sci": "Peltophorum africanum",
+    "group": "Trees",
+    "manual": true,
+    "page": 42
+  },
+  {
+    "name": "Milkweed",
+    "sci": "Gomphocarpus fruticosus",
+    "group": "Shrubs",
+    "manual": true,
+    "page": 46
+  },
+  {
+    "name": "Sickle bush",
+    "sci": "Dichrostachys cinerea",
+    "group": "Shrubs",
+    "manual": true,
+    "page": 50
+  },
+  {
+    "name": "Sour plum",
+    "sci": "Ximenia caffra",
+    "group": "Shrubs",
+    "manual": true,
+    "page": 33
+  },
+  {
+    "name": "Couch grass",
+    "sci": "Cynodon dactylon",
+    "group": "Grasses and sedges",
+    "manual": true,
+    "page": 50
+  },
+  {
+    "name": "Curly-leaf love grass",
+    "sci": "Eragrostis rigidior",
+    "group": "Grasses and sedges",
+    "manual": true,
+    "page": 49
+  },
+  {
+    "name": "Finger grass",
+    "sci": "Digitaria eriantha",
+    "group": "Grasses and sedges",
+    "manual": true,
+    "page": 49
+  },
+  {
+    "name": "Giant spear grass",
+    "sci": "Trachypogon spicatus",
+    "group": "Grasses and sedges",
+    "manual": true,
+    "page": 49
+  },
+  {
+    "name": "Herring-bone grass",
+    "sci": "Pogonarthria squarrosa",
+    "group": "Grasses and sedges",
+    "manual": true,
+    "page": 50
+  },
+  {
+    "name": "Red grass",
+    "sci": "Themeda triandra",
+    "group": "Grasses and sedges",
+    "manual": true,
+    "page": 49
+  },
+  {
+    "name": "Spear grass",
+    "sci": "Heteropogon contortus",
+    "group": "Grasses and sedges",
+    "manual": true,
+    "page": 49
+  },
+  {
+    "name": "Tassel three-awn",
+    "sci": "Aristida congesta",
+    "group": "Grasses and sedges",
+    "manual": true,
+    "page": 49
+  },
+  {
+    "name": "Yellow thatching grass",
+    "sci": "Hyperthelia dissoluta",
+    "group": "Grasses and sedges",
+    "manual": true,
+    "page": 50
+  },
+  {
+    "name": "Bladderwort",
+    "sci": "Utricularia gibba",
+    "group": "Water plants",
+    "manual": true,
+    "page": 47
+  },
+  {
+    "name": "Duckweed",
+    "sci": "Lemna aequinoctialis",
+    "group": "Water plants",
+    "manual": true,
+    "page": 48
+  },
+  {
+    "name": "Papyrus",
+    "sci": "Cyperus papyrus",
+    "group": "Water plants",
+    "manual": true,
+    "page": 48
+  },
+  {
+    "name": "Snow-flake flower",
+    "sci": "Nymphoides indica",
+    "group": "Water plants",
+    "manual": true,
+    "page": 48
+  },
+  {
+    "name": "Real fan palm",
+    "sci": "Hyphaene petersiana",
+    "group": "Palms",
+    "manual": true,
+    "page": 45
+  },
+  {
+    "name": "Leopard orchid",
+    "sci": "Ansellia africana",
+    "group": "Succulents and others",
+    "manual": true,
+    "page": 47
+  },
+  {
+    "name": "Mistletoe",
+    "sci": "Plicosepalus kalachariensis",
+    "group": "Succulents and others",
+    "manual": true,
+    "page": 47
+  },
+  {
+    "name": "Baobab",
+    "sci": "Adansonia digitata",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Bird plum",
+    "sci": "Berchemia discolor",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Black monkey orange",
+    "sci": "Strychnos madagascariensis",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Grey camel thorn",
+    "sci": "Vachellia haematoxylon",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Kiaat",
+    "sci": "Pterocarpus angolensis",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Large-fruited bushwillow",
+    "sci": "Combretum zeyheri",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Long-tail cassia",
+    "sci": "Cassia abbreviata",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Monkey orange",
+    "sci": "Strychnos spinosa",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Paperbark thorn",
+    "sci": "Vachellia sieberiana",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Pod mahogany",
+    "sci": "Afzelia quanzensis",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Purple-pod terminalia",
+    "sci": "Terminalia prunioides",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Rain tree",
+    "sci": "Philenoptera violacea",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Red bushwillow",
+    "sci": "Combretum apiculatum",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Silver terminalia",
+    "sci": "Terminalia sericea",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Sycamore fig",
+    "sci": "Ficus sycomorus",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Tamboti",
+    "sci": "Spirostachys africana",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Water pear",
+    "sci": "Syzygium guineense",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Wild seringa",
+    "sci": "Burkea africana",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Zambezi teak",
+    "sci": "Baikiaea plurijuga",
+    "group": "Trees",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Black thorn",
+    "sci": "Senegalia mellifera",
+    "group": "Shrubs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Bluebush",
+    "sci": "Diospyros lycioides",
+    "group": "Shrubs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Candle-pod thorn",
+    "sci": "Vachellia hebeclada",
+    "group": "Shrubs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Kalahari sand raisin",
+    "sci": "Grewia retinervis",
+    "group": "Shrubs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Lavender fever-berry",
+    "sci": "Croton gratissimus",
+    "group": "Shrubs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Magic guarri",
+    "sci": "Euclea divinorum",
+    "group": "Shrubs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Puzzle bush",
+    "sci": "Ehretia rigida",
+    "group": "Shrubs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Sandpaper raisin",
+    "sci": "Grewia flavescens",
+    "group": "Shrubs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Shaving-brush combretum",
+    "sci": "Combretum mossambicense",
+    "group": "Shrubs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Trumpet thorn",
+    "sci": "Catophractes alexandri",
+    "group": "Shrubs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Velvet raisin",
+    "sci": "Grewia flava",
+    "group": "Shrubs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "White raisin",
+    "sci": "Grewia bicolor",
+    "group": "Shrubs",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Bulrush",
+    "sci": "Typha capensis",
+    "group": "Grasses and sedges",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Common reed",
+    "sci": "Phragmites australis",
+    "group": "Grasses and sedges",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Guinea grass",
+    "sci": "Megathyrsus maximus",
+    "group": "Grasses and sedges",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Hippo grass",
+    "sci": "Vossia cuspidata",
+    "group": "Grasses and sedges",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Okavango miscanthus",
+    "sci": "Miscanthus junceus",
+    "group": "Grasses and sedges",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Silky bushman grass",
+    "sci": "Stipagrostis uniplumis",
+    "group": "Grasses and sedges",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Wild rice",
+    "sci": "Oryza longistaminata",
+    "group": "Grasses and sedges",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Day waterlily",
+    "sci": "Nymphaea nouchali",
+    "group": "Water plants",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Kariba weed",
+    "sci": "Salvinia molesta",
+    "group": "Water plants",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Night waterlily",
+    "sci": "Nymphaea lotus",
+    "group": "Water plants",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Water chestnut",
+    "sci": "Trapa natans",
+    "group": "Water plants",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Water lettuce",
+    "sci": "Pistia stratiotes",
+    "group": "Water plants",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Wild date palm",
+    "sci": "Phoenix reclinata",
+    "group": "Palms",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Devil’s claw",
+    "sci": "Harpagophytum procumbens",
+    "group": "Succulents and others",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Fireball lily",
+    "sci": "Scadoxus multiflorus",
+    "group": "Succulents and others",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Flame lily",
+    "sci": "Gloriosa superba",
+    "group": "Succulents and others",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Gemsbok cucumber",
+    "sci": "Acanthosicyos naudinianus",
+    "group": "Succulents and others",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Mopane aloe",
+    "sci": "Aloe littoralis",
+    "group": "Succulents and others",
+    "manual": false,
+    "page": null
+  },
+  {
+    "name": "Tsamma melon",
+    "sci": "Citrullus lanatus",
+    "group": "Succulents and others",
+    "manual": false,
+    "page": null
+  }
+]

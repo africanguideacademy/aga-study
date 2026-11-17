@@ -1,0 +1,852 @@
+[
+ {
+  "name": "Elephant",
+  "sci": "Loxodonta africana",
+  "file": "media/mammals/elephant.jpg",
+  "photoId": 20939941,
+  "license": "CC BY",
+  "credit": "© Wynand Uys",
+  "source": "https://www.inaturalist.org/observations/14133230",
+  "place": "Botswana"
+ },
+ {
+  "name": "Black Rhino",
+  "sci": "Diceros bicornis",
+  "file": "media/mammals/black-rhino.jpg",
+  "photoId": 474635786,
+  "license": "CC BY",
+  "credit": "© martin ingemansson",
+  "source": "https://www.inaturalist.org/observations/264152942",
+  "place": "Africa"
+ },
+ {
+  "name": "White Rhino",
+  "sci": "Ceratotherium simum",
+  "file": "media/mammals/white-rhino.jpg",
+  "photoId": 546067612,
+  "license": "CC0",
+  "credit": "sardinemachine",
+  "source": "https://www.inaturalist.org/observations/302994198",
+  "place": "Botswana"
+ },
+ {
+  "name": "Hippopotamus",
+  "sci": "Hippopotamus amphibius",
+  "file": "media/mammals/hippopotamus.jpg",
+  "photoId": 187733006,
+  "license": "CC BY",
+  "credit": "© Morten Ross",
+  "source": "https://www.inaturalist.org/observations/111237080",
+  "place": "Botswana"
+ },
+ {
+  "name": "Bushpig",
+  "sci": "Potamochoerus larvatus",
+  "file": "media/mammals/bushpig.jpg",
+  "photoId": 109312057,
+  "license": "CC BY",
+  "credit": "© Luc Strydom",
+  "source": "https://www.inaturalist.org/observations/67630446",
+  "place": "Africa"
+ },
+ {
+  "name": "Common Warthog",
+  "sci": "Phacochoerus africanus",
+  "file": "media/mammals/common-warthog.jpg",
+  "photoId": 4508625,
+  "license": "CC0",
+  "credit": "francescocecere",
+  "source": "https://www.inaturalist.org/observations/3849829",
+  "place": "Botswana"
+ },
+ {
+  "name": "Giraffe",
+  "sci": "Giraffa camelopardalis",
+  "file": "media/mammals/giraffe.jpg",
+  "photoId": 599886814,
+  "license": "CC BY",
+  "credit": "© B Pulman005",
+  "source": "https://www.inaturalist.org/observations/330772102",
+  "place": "Africa"
+ },
+ {
+  "name": "Plains Zebra",
+  "sci": "Equus quagga",
+  "file": "media/mammals/plains-zebra.jpg",
+  "photoId": 570414413,
+  "license": "CC BY-SA",
+  "credit": "© Robert Webster",
+  "source": "https://www.inaturalist.org/observations/315741095",
+  "place": "Botswana"
+ },
+ {
+  "name": "Buffalo",
+  "sci": "Syncerus caffer",
+  "file": "media/mammals/buffalo.jpg",
+  "photoId": 546068976,
+  "license": "CC0",
+  "credit": "sardinemachine",
+  "source": "https://www.inaturalist.org/observations/302994260",
+  "place": "Botswana"
+ },
+ {
+  "name": "Blue Wildebeest",
+  "sci": "Connochaetes taurinus",
+  "file": "media/mammals/blue-wildebeest.jpg",
+  "photoId": 143660497,
+  "license": "CC0",
+  "credit": "phiro",
+  "source": "https://www.inaturalist.org/observations/87163145",
+  "place": "Botswana"
+ },
+ {
+  "name": "Oryx (Gemsbok)",
+  "sci": "Oryx gazella",
+  "file": "media/mammals/oryx-gemsbok.jpg",
+  "photoId": 59787526,
+  "license": "CC BY",
+  "credit": "© Kara M White",
+  "source": "https://www.inaturalist.org/observations/37682443",
+  "place": "Botswana"
+ },
+ {
+  "name": "Red Lechwe",
+  "sci": "Kobus leche",
+  "file": "media/mammals/red-lechwe.jpg",
+  "photoId": 615288569,
+  "license": "CC BY-SA",
+  "credit": "© olliesaunders",
+  "source": "https://www.inaturalist.org/observations/338347813",
+  "place": "Botswana"
+ },
+ {
+  "name": "Springbok",
+  "sci": "Antidorcas marsupialis",
+  "file": "media/mammals/springbok.jpg",
+  "photoId": 143587236,
+  "license": "CC0",
+  "credit": "phiro",
+  "source": "https://www.inaturalist.org/observations/87113683",
+  "place": "Botswana"
+ },
+ {
+  "name": "Steenbok",
+  "sci": "Raphicerus campestris",
+  "file": "media/mammals/steenbok.jpg",
+  "photoId": 11822819,
+  "license": "CC0",
+  "credit": "simontonge",
+  "source": "https://www.inaturalist.org/observations/8803861",
+  "place": "Botswana"
+ },
+ {
+  "name": "Waterbuck",
+  "sci": "Kobus ellipsiprymnus",
+  "file": "media/mammals/waterbuck.jpg",
+  "photoId": 241558902,
+  "license": "CC BY",
+  "credit": "© Charlie Barber",
+  "source": "https://www.inaturalist.org/observations/141057184",
+  "place": "Botswana"
+ },
+ {
+  "name": "African Wildcat",
+  "sci": "Felis lybica",
+  "file": "media/mammals/african-wildcat.jpg",
+  "photoId": 53911641,
+  "license": "CC BY",
+  "credit": "© Matt Muir",
+  "source": "https://www.inaturalist.org/observations/34269874",
+  "place": "Botswana"
+ },
+ {
+  "name": "Caracal",
+  "sci": "Caracal caracal",
+  "file": "media/mammals/caracal.jpg",
+  "photoId": 73094645,
+  "license": "CC BY",
+  "credit": "© Justin Ponder",
+  "source": "https://www.inaturalist.org/observations/46086851",
+  "place": "Botswana"
+ },
+ {
+  "name": "Cheetah",
+  "sci": "Acinonyx jubatus",
+  "file": "media/mammals/cheetah.jpg",
+  "photoId": 111319390,
+  "license": "CC BY",
+  "credit": "© Morten Ross",
+  "source": "https://www.inaturalist.org/observations/68706937",
+  "place": "Botswana"
+ },
+ {
+  "name": "Leopard",
+  "sci": "Panthera pardus",
+  "file": "media/mammals/leopard.jpg",
+  "photoId": 10355594,
+  "license": "CC BY",
+  "credit": "© Brian Gratwicke",
+  "source": "https://www.inaturalist.org/observations/7861111",
+  "place": "Botswana"
+ },
+ {
+  "name": "Lion",
+  "sci": "Panthera leo",
+  "file": "media/mammals/lion.jpg",
+  "photoId": 452124133,
+  "license": "CC0",
+  "credit": "hurlbert",
+  "source": "https://www.inaturalist.org/observations/252556891",
+  "place": "Botswana"
+ },
+ {
+  "name": "Serval",
+  "sci": "Leptailurus serval",
+  "file": "media/mammals/serval.jpg",
+  "photoId": 111320699,
+  "license": "CC BY",
+  "credit": "© Morten Ross",
+  "source": "https://www.inaturalist.org/observations/68706943",
+  "place": "Botswana"
+ },
+ {
+  "name": "Spotted Hyaena",
+  "sci": "Crocuta crocuta",
+  "file": "media/mammals/spotted-hyaena.jpg",
+  "photoId": 556996117,
+  "license": "CC BY",
+  "credit": "© Anil Madhavapeddy",
+  "source": "https://www.inaturalist.org/observations/308716304",
+  "place": "Botswana"
+ },
+ {
+  "name": "African Wild Dog",
+  "sci": "Lycaon pictus",
+  "file": "media/mammals/african-wild-dog.jpg",
+  "photoId": 4949165,
+  "license": "CC BY-SA",
+  "credit": "© Per Arne Slotte",
+  "source": "https://www.inaturalist.org/observations/4155737",
+  "place": "Botswana"
+ },
+ {
+  "name": "Bat-eared Fox",
+  "sci": "Otocyon megalotis",
+  "file": "media/mammals/bat-eared-fox.jpg",
+  "photoId": 24976146,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/16580930",
+  "place": "Botswana"
+ },
+ {
+  "name": "Black-backed Jackal",
+  "sci": "Lupulella mesomelas",
+  "file": "media/mammals/black-backed-jackal.jpg",
+  "photoId": 737541489,
+  "license": "CC BY",
+  "credit": "© Cael Marquard",
+  "source": "https://www.inaturalist.org/observations/401811694",
+  "place": "Botswana"
+ },
+ {
+  "name": "Honey Badger (Ratel)",
+  "sci": "Mellivora capensis",
+  "file": "media/mammals/honey-badger-ratel.jpg",
+  "photoId": 462859415,
+  "license": "CC BY",
+  "credit": "© Lukas Zangl",
+  "source": "https://www.inaturalist.org/observations/258019033",
+  "place": "Botswana"
+ },
+ {
+  "name": "Spotted-necked Otter",
+  "sci": "Hydrictis maculicollis",
+  "file": "media/mammals/spotted-necked-otter.jpg",
+  "photoId": 224941153,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/132117078",
+  "place": "Botswana"
+ },
+ {
+  "name": "Dwarf Mongoose",
+  "sci": "Helogale parvula",
+  "file": "media/mammals/dwarf-mongoose.jpg",
+  "photoId": 225648041,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/132512625",
+  "place": "Botswana"
+ },
+ {
+  "name": "Slender Mongoose",
+  "sci": "Herpestes sanguineus",
+  "file": "media/mammals/slender-mongoose.jpg",
+  "photoId": 462859533,
+  "license": "CC BY",
+  "credit": "© Lukas Zangl",
+  "source": "https://www.inaturalist.org/observations/258019053",
+  "place": "Botswana"
+ },
+ {
+  "name": "Chacma Baboon",
+  "sci": "Papio ursinus",
+  "file": "media/mammals/chacma-baboon.jpg",
+  "photoId": 62775511,
+  "license": "CC BY",
+  "credit": "© datadan",
+  "source": "https://www.inaturalist.org/observations/39560987",
+  "place": "Botswana"
+ },
+ {
+  "name": "Southern Lesser Galago (Bushbaby)",
+  "sci": "Galago moholi",
+  "file": "media/mammals/southern-lesser-galago-bushbaby.jpg",
+  "photoId": 387675241,
+  "license": "CC0",
+  "credit": "erwinsieben",
+  "source": "https://www.inaturalist.org/observations/219044674",
+  "place": "Botswana"
+ },
+ {
+  "name": "Vervet Monkey",
+  "sci": "Chlorocebus pygerythrus",
+  "file": "media/mammals/vervet-monkey.jpg",
+  "photoId": 51966184,
+  "license": "CC0",
+  "credit": "lallen",
+  "source": "https://www.inaturalist.org/observations/33106509",
+  "place": "Botswana"
+ },
+ {
+  "name": "Springhare",
+  "sci": "Pedetes capensis",
+  "file": "media/mammals/springhare.jpg",
+  "photoId": 53911648,
+  "license": "CC BY",
+  "credit": "© Matt Muir",
+  "source": "https://www.inaturalist.org/observations/34269875",
+  "place": "Botswana"
+ },
+ {
+  "name": "Southern African Hedgehog",
+  "sci": "Atelerix frontalis",
+  "file": "media/mammals/southern-african-hedgehog.jpg",
+  "photoId": 12456784,
+  "license": "CC0",
+  "credit": "simontonge",
+  "source": "https://www.inaturalist.org/observations/9207360",
+  "place": "Africa"
+ },
+ {
+  "name": "Aardvark",
+  "sci": "Orycteropus afer",
+  "file": "media/mammals/aardvark.jpg",
+  "photoId": 114160628,
+  "license": "CC BY",
+  "credit": "© Jan Ebr &amp; Ivana Ebrová",
+  "source": "https://www.inaturalist.org/observations/70248698",
+  "place": "Botswana"
+ },
+ {
+  "name": "Bushbuck",
+  "sci": "Tragelaphus sylvaticus",
+  "file": "media/mammals/bushbuck.jpg",
+  "photoId": 231733807,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/135842198",
+  "place": "Botswana"
+ },
+ {
+  "name": "Common Duiker",
+  "sci": "Sylvicapra grimmia",
+  "file": "media/mammals/common-duiker.jpg",
+  "photoId": 126704696,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/77548392",
+  "place": "Botswana"
+ },
+ {
+  "name": "Common Eland",
+  "sci": "Tragelaphus oryx",
+  "file": "media/mammals/common-eland.jpg",
+  "photoId": 15143773,
+  "license": "CC0",
+  "credit": "andrewdeacon",
+  "source": "https://www.inaturalist.org/observations/10813050",
+  "place": "Botswana"
+ },
+ {
+  "name": "Klipspringer",
+  "sci": "Oreotragus oreotragus",
+  "file": "media/mammals/klipspringer.jpg",
+  "photoId": 456959292,
+  "license": "CC BY",
+  "credit": "© gwar",
+  "source": "https://www.inaturalist.org/observations/255038412",
+  "place": "Botswana"
+ },
+ {
+  "name": "Puku",
+  "sci": "Kobus vardonii",
+  "file": "media/mammals/puku.jpg",
+  "photoId": 110293001,
+  "license": "CC BY",
+  "credit": "© Daniel S. Katz",
+  "source": "https://www.inaturalist.org/observations/68158202",
+  "place": "Botswana"
+ },
+ {
+  "name": "Red Hartebeest",
+  "sci": "Alcelaphus buselaphus",
+  "file": "media/mammals/red-hartebeest.jpg",
+  "photoId": 461382719,
+  "license": "CC BY",
+  "credit": "© Lukas Zangl",
+  "source": "https://www.inaturalist.org/observations/257225586",
+  "place": "Botswana"
+ },
+ {
+  "name": "Roan Antelope",
+  "sci": "Hippotragus equinus",
+  "file": "media/mammals/roan-antelope.jpg",
+  "photoId": 225647940,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/132512606",
+  "place": "Botswana"
+ },
+ {
+  "name": "Sable Antelope",
+  "sci": "Hippotragus niger",
+  "file": "media/mammals/sable-antelope.jpg",
+  "photoId": 143691523,
+  "license": "CC0",
+  "credit": "phiro",
+  "source": "https://www.inaturalist.org/observations/87181608",
+  "place": "Botswana"
+ },
+ {
+  "name": "Sharpe's Grysbok",
+  "sci": "Raphicerus sharpei",
+  "file": "media/mammals/sharpes-grysbok.jpg",
+  "photoId": 166044697,
+  "license": "CC BY",
+  "credit": "© Mark Bolnik",
+  "source": "https://www.inaturalist.org/observations/99587612",
+  "place": "Africa"
+ },
+ {
+  "name": "Sitatunga",
+  "sci": "Tragelaphus spekii",
+  "file": "media/mammals/sitatunga.jpg",
+  "photoId": 585666630,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/323653877",
+  "place": "Botswana"
+ },
+ {
+  "name": "Southern Reedbuck",
+  "sci": "Redunca arundinum",
+  "file": "media/mammals/southern-reedbuck.jpg",
+  "photoId": 187733049,
+  "license": "CC BY",
+  "credit": "© Morten Ross",
+  "source": "https://www.inaturalist.org/observations/111237081",
+  "place": "Botswana"
+ },
+ {
+  "name": "Tsessebe",
+  "sci": "Damaliscus lunatus",
+  "file": "media/mammals/tsessebe.jpg",
+  "photoId": 301429593,
+  "license": "CC BY-SA",
+  "credit": "© Tony Eales",
+  "source": "https://www.inaturalist.org/observations/173566136",
+  "place": "Botswana"
+ },
+ {
+  "name": "Black-footed Cat",
+  "sci": "Felis nigripes",
+  "file": "media/mammals/black-footed-cat.jpg",
+  "photoId": 152676360,
+  "license": "CC BY",
+  "credit": "© Christiaan Viljoen",
+  "source": "https://www.inaturalist.org/observations/92228758",
+  "place": "Africa"
+ },
+ {
+  "name": "Aardwolf",
+  "sci": "Proteles cristatus",
+  "file": "media/mammals/aardwolf.jpg",
+  "photoId": 36701,
+  "license": "CC BY",
+  "credit": "© 116916927065934112165",
+  "source": "https://www.inaturalist.org/observations/20744",
+  "place": "Botswana"
+ },
+ {
+  "name": "Cape Fox",
+  "sci": "Vulpes chama",
+  "file": "media/mammals/cape-fox.jpg",
+  "photoId": 55229694,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/35037098",
+  "place": "Botswana"
+ },
+ {
+  "name": "Side-striped Jackal",
+  "sci": "Lupulella adusta",
+  "file": "media/mammals/side-striped-jackal.jpg",
+  "photoId": 301329066,
+  "license": "CC BY-SA",
+  "credit": "© Tony Eales",
+  "source": "https://www.inaturalist.org/observations/173520003",
+  "place": "Botswana"
+ },
+ {
+  "name": "Striped Polecat",
+  "sci": "Ictonyx striatus",
+  "file": "media/mammals/striped-polecat.jpg",
+  "photoId": 231949695,
+  "license": "CC BY",
+  "credit": "© Mahomed Desai",
+  "source": "https://www.inaturalist.org/observations/135950746",
+  "place": "Botswana"
+ },
+ {
+  "name": "African Civet",
+  "sci": "Civettictis civetta",
+  "file": "media/mammals/african-civet.jpg",
+  "photoId": 353739024,
+  "license": "CC BY",
+  "credit": "© Lucky Atabo",
+  "source": "https://www.inaturalist.org/observations/200489417",
+  "place": "Africa"
+ },
+ {
+  "name": "Small-spotted Genet",
+  "sci": "Genetta genetta",
+  "file": "media/mammals/small-spotted-genet.jpg",
+  "photoId": 106281854,
+  "license": "CC BY",
+  "credit": "© Lucy Keith-Diagne",
+  "source": "https://www.inaturalist.org/observations/65986931",
+  "place": "Africa"
+ },
+ {
+  "name": "Banded Mongoose",
+  "sci": "Mungos mungo",
+  "file": "media/mammals/banded-mongoose.jpg",
+  "photoId": 292036191,
+  "license": "CC BY",
+  "credit": "© Dirk Froebel",
+  "source": "https://www.inaturalist.org/observations/168507088",
+  "place": "Botswana"
+ },
+ {
+  "name": "Large Grey Mongoose",
+  "sci": "Herpestes ichneumon",
+  "file": "media/mammals/large-grey-mongoose.jpg",
+  "photoId": 54362562,
+  "license": "CC BY",
+  "credit": "© Karen Eichholz",
+  "source": "https://www.inaturalist.org/observations/34535566",
+  "place": "Africa"
+ },
+ {
+  "name": "Meerkat (Suricate)",
+  "sci": "Suricata suricatta",
+  "file": "media/mammals/meerkat-suricate.jpg",
+  "photoId": 461382679,
+  "license": "CC BY",
+  "credit": "© Lukas Zangl",
+  "source": "https://www.inaturalist.org/observations/257225579",
+  "place": "Botswana"
+ },
+ {
+  "name": "Selous' Mongoose",
+  "sci": "Paracynictis selousi",
+  "file": "media/mammals/selous-mongoose.jpg",
+  "photoId": 11781660,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/8778165",
+  "place": "Africa"
+ },
+ {
+  "name": "Water Mongoose",
+  "sci": "Atilax paludinosus",
+  "file": "media/mammals/water-mongoose.jpg",
+  "photoId": 14910238,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/10680000",
+  "place": "Africa"
+ },
+ {
+  "name": "White-tailed Mongoose",
+  "sci": "Ichneumia albicauda",
+  "file": "media/mammals/white-tailed-mongoose.jpg",
+  "photoId": 13445351,
+  "license": "CC BY",
+  "credit": "© tlaloc27",
+  "source": "https://www.inaturalist.org/observations/9821991",
+  "place": "Africa"
+ },
+ {
+  "name": "Yellow Mongoose",
+  "sci": "Cynictis penicillata",
+  "file": "media/mammals/yellow-mongoose.jpg",
+  "photoId": 51165768,
+  "license": "CC0",
+  "credit": "danielvanderpost",
+  "source": "https://www.inaturalist.org/observations/32613529",
+  "place": "Botswana"
+ },
+ {
+  "name": "Bushveld Gerbil",
+  "sci": "Gerbilliscus leucogaster",
+  "file": "media/mammals/bushveld-gerbil.jpg",
+  "photoId": 114158984,
+  "license": "CC BY",
+  "credit": "© Jan Ebr &amp; Ivana Ebrová",
+  "source": "https://www.inaturalist.org/observations/70248212",
+  "place": "Botswana"
+ },
+ {
+  "name": "Cape Porcupine",
+  "sci": "Hystrix africaeaustralis",
+  "file": "media/mammals/cape-porcupine.jpg",
+  "photoId": 584019803,
+  "license": "CC0",
+  "credit": "rianafourie",
+  "source": "https://www.inaturalist.org/observations/322803080",
+  "place": "Botswana"
+ },
+ {
+  "name": "Four-striped Grass Mouse",
+  "sci": "Rhabdomys pumilio",
+  "file": "media/mammals/four-striped-grass-mouse.jpg",
+  "photoId": 100302045,
+  "license": "CC BY",
+  "credit": "© Timothy Whitehead",
+  "source": "https://www.inaturalist.org/observations/62588149",
+  "place": "Africa"
+ },
+ {
+  "name": "Greater Cane Rat",
+  "sci": "Thryonomys swinderianus",
+  "file": "media/mammals/greater-cane-rat.jpg",
+  "photoId": 280274330,
+  "license": "CC BY-SA",
+  "credit": "© Rosemary Harrison",
+  "source": "https://www.inaturalist.org/observations/162108888",
+  "place": "Africa"
+ },
+ {
+  "name": "Tree Squirrel",
+  "sci": "Paraxerus cepapi",
+  "file": "media/mammals/tree-squirrel.jpg",
+  "photoId": 152172473,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/91949685",
+  "place": "Botswana"
+ },
+ {
+  "name": "Bushveld Sengi",
+  "sci": "Elephantulus intufi",
+  "file": "media/mammals/bushveld-sengi.jpg",
+  "photoId": 253113876,
+  "license": "CC BY",
+  "credit": "© Petra Holland",
+  "source": "https://www.inaturalist.org/observations/147128966",
+  "place": "Africa"
+ },
+ {
+  "name": "Four-toed Sengi",
+  "sci": "Petrodromus tetradactylus",
+  "file": "media/mammals/four-toed-sengi.jpg",
+  "photoId": 590383483,
+  "license": "CC BY",
+  "credit": "© Nicole Kearney",
+  "source": "https://www.inaturalist.org/observations/326018581",
+  "place": "Africa"
+ },
+ {
+  "name": "Egyptian Slit-faced Bat",
+  "sci": "Nycteris thebaica",
+  "file": "media/mammals/egyptian-slit-faced-bat.jpg",
+  "photoId": 61943124,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/39041314",
+  "place": "Botswana"
+ },
+ {
+  "name": "Little Free-tailed Bat",
+  "sci": "Mops pumilus",
+  "file": "media/mammals/little-free-tailed-bat.jpg",
+  "photoId": 2121063,
+  "license": "CC BY",
+  "credit": "© Nick Schaller",
+  "source": "https://www.inaturalist.org/observations/1747983",
+  "place": "Africa"
+ },
+ {
+  "name": "Mauritian Tomb Bat",
+  "sci": "Taphozous mauritianus",
+  "file": "media/mammals/mauritian-tomb-bat.jpg",
+  "photoId": 31791,
+  "license": "CC BY",
+  "credit": "© 116916927065934112165",
+  "source": "https://www.inaturalist.org/observations/17070",
+  "place": "Botswana"
+ },
+ {
+  "name": "Sundevall's Leaf-nosed Bat",
+  "sci": "Hipposideros caffer",
+  "file": "media/mammals/sundevalls-leaf-nosed-bat.jpg",
+  "photoId": 335959112,
+  "license": "CC BY",
+  "credit": "© Valentin Moser",
+  "source": "https://www.inaturalist.org/observations/191499661",
+  "place": "Africa"
+ },
+ {
+  "name": "Wahlberg's Epauletted Fruit Bat",
+  "sci": "Epomophorus wahlbergi",
+  "file": "media/mammals/wahlbergs-epauletted-fruit-bat.jpg",
+  "photoId": 432986993,
+  "license": "CC BY",
+  "credit": "© Jo Roberts",
+  "source": "https://www.inaturalist.org/observations/242857062",
+  "place": "Africa"
+ },
+ {
+  "name": "Yellow-bellied House Bat",
+  "sci": "Scotophilus dinganii",
+  "file": "media/mammals/yellow-bellied-house-bat.jpg",
+  "photoId": 347036528,
+  "license": "CC BY",
+  "credit": "© Valentin Moser",
+  "source": "https://www.inaturalist.org/observations/197090185",
+  "place": "Africa"
+ },
+ {
+  "name": "Ground Pangolin",
+  "sci": "Smutsia temminckii",
+  "file": "media/mammals/ground-pangolin.jpg",
+  "photoId": 48042026,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/30739881",
+  "place": "Botswana"
+ },
+ {
+  "name": "Rock Hyrax",
+  "sci": "Procavia capensis",
+  "file": "media/mammals/rock-hyrax.jpg",
+  "photoId": 254065797,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/147630064",
+  "place": "Botswana"
+ },
+ {
+  "name": "Yellow-spotted Rock Hyrax",
+  "sci": "Heterohyrax brucei",
+  "file": "media/mammals/yellow-spotted-rock-hyrax.jpg",
+  "photoId": 261172688,
+  "license": "CC BY",
+  "credit": "© Summer J. Smentek",
+  "source": "https://www.inaturalist.org/observations/151372007",
+  "place": "Africa"
+ },
+ {
+  "name": "Greater Kudu",
+  "sci": "Tragelaphus strepsiceros",
+  "file": "media/mammals/greater-kudu.jpg",
+  "photoId": 228140334,
+  "license": "CC BY",
+  "credit": "© Mahomed Desai",
+  "source": "https://www.inaturalist.org/observations/133905806",
+  "place": "Botswana"
+ },
+ {
+  "name": "Impala",
+  "sci": "Aepyceros melampus",
+  "file": "media/mammals/impala.jpg",
+  "photoId": 546068752,
+  "license": "CC0",
+  "credit": "sardinemachine",
+  "source": "https://www.inaturalist.org/observations/302994244",
+  "place": "Botswana"
+ },
+ {
+  "name": "Brown Hyaena",
+  "sci": "Hyaena brunnea",
+  "file": "media/mammals/brown-hyaena.jpg",
+  "photoId": 15213008,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/10847897",
+  "place": "Botswana"
+ },
+ {
+  "name": "Savanna Hare",
+  "sci": "Lepus victoriae",
+  "file": "media/mammals/savanna-hare.jpg",
+  "photoId": 553840469,
+  "license": "CC BY",
+  "credit": "© Anil Madhavapeddy",
+  "source": "https://www.inaturalist.org/observations/307081664",
+  "place": "Botswana"
+ },
+ {
+  "name": "Cape Clawless Otter",
+  "sci": "Aonyx capensis",
+  "file": "media/mammals/cape-clawless-otter.jpg",
+  "photoId": 56819210,
+  "license": "CC BY",
+  "credit": "© Jeremy Gilmore",
+  "source": "https://www.inaturalist.org/observations/35984676",
+  "place": "Africa"
+ },
+ {
+  "name": "Large-spotted Genet",
+  "sci": "Genetta maculata",
+  "file": "media/mammals/large-spotted-genet.jpg",
+  "photoId": 231949440,
+  "license": "CC BY",
+  "credit": "© Mahomed Desai",
+  "source": "https://www.inaturalist.org/observations/135950741",
+  "place": "Botswana"
+ },
+ {
+  "name": "Scrub Hare",
+  "sci": "Lepus saxatilis",
+  "file": "media/mammals/scrub-hare.jpg",
+  "photoId": 616709948,
+  "license": "CC BY-SA",
+  "credit": "© olliesaunders",
+  "source": "https://www.inaturalist.org/observations/339060078",
+  "place": "Botswana"
+ },
+ {
+  "name": "Ground Squirrel",
+  "sci": "Xerus inauris",
+  "file": "media/mammals/ground-squirrel.jpg",
+  "photoId": 111321568,
+  "license": "CC BY",
+  "credit": "© Morten Ross",
+  "source": "https://www.inaturalist.org/observations/68706941",
+  "place": "Botswana"
+ }
+]

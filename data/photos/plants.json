@@ -1,0 +1,882 @@
+[
+ {
+  "name": "African mangosteen",
+  "sci": "Garcinia livingstonei",
+  "file": "media/plants/african-mangosteen.jpg",
+  "photoId": 46529300,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/29775675",
+  "place": "Botswana"
+ },
+ {
+  "name": "Buffalo thorn",
+  "sci": "Ziziphus mucronata",
+  "file": "media/plants/buffalo-thorn.jpg",
+  "photoId": 428102612,
+  "license": "CC BY",
+  "credit": "© Wynand Uys",
+  "source": "https://www.inaturalist.org/observations/240299059",
+  "place": "Botswana"
+ },
+ {
+  "name": "Camel thorn",
+  "sci": "Vachellia erioloba",
+  "file": "media/plants/camel-thorn.jpg",
+  "photoId": 231847324,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/152915011",
+  "place": "Botswana"
+ },
+ {
+  "name": "Jackal-berry",
+  "sci": "Diospyros mespiliformis",
+  "file": "media/plants/jackal-berry.jpg",
+  "photoId": 300382893,
+  "license": "CC BY",
+  "credit": "© Kobus Meyer",
+  "source": "https://www.inaturalist.org/observations/172994190",
+  "place": "Botswana"
+ },
+ {
+  "name": "Kalahari apple-leaf",
+  "sci": "Philenoptera nelsii",
+  "file": "media/plants/kalahari-apple-leaf.jpg",
+  "photoId": 52458362,
+  "license": "CC0",
+  "credit": "lallen",
+  "source": "https://www.inaturalist.org/observations/33404068",
+  "place": "Botswana"
+ },
+ {
+  "name": "Knob-thorn",
+  "sci": "Senegalia nigrescens",
+  "file": "media/plants/knob-thorn.jpg",
+  "photoId": 380540416,
+  "license": "CC0",
+  "credit": "erwinsieben",
+  "source": "https://www.inaturalist.org/observations/215249836",
+  "place": "Botswana"
+ },
+ {
+  "name": "Large fever-berry",
+  "sci": "Croton megalobotrys",
+  "file": "media/plants/large-fever-berry.jpg",
+  "photoId": 191577240,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/113385012",
+  "place": "Botswana"
+ },
+ {
+  "name": "Leadwood",
+  "sci": "Combretum imberbe",
+  "file": "media/plants/leadwood.jpg",
+  "photoId": 231878158,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/135909946",
+  "place": "Botswana"
+ },
+ {
+  "name": "Marula",
+  "sci": "Sclerocarya birrea",
+  "file": "media/plants/marula.jpg",
+  "photoId": 215976518,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/127231063",
+  "place": "Botswana"
+ },
+ {
+  "name": "Mopane",
+  "sci": "Colophospermum mopane",
+  "file": "media/plants/mopane.jpg",
+  "photoId": 209369298,
+  "license": "CC0",
+  "credit": "simontonge",
+  "source": "https://www.inaturalist.org/observations/123583509",
+  "place": "Botswana"
+ },
+ {
+  "name": "Natal mahogany",
+  "sci": "Trichilia emetica",
+  "file": "media/plants/natal-mahogany.jpg",
+  "photoId": 52710363,
+  "license": "CC0",
+  "credit": "lallen",
+  "source": "https://www.inaturalist.org/observations/33557029",
+  "place": "Botswana"
+ },
+ {
+  "name": "Rock-splitting fig",
+  "sci": "Ficus abutilifolia",
+  "file": "media/plants/rock-splitting-fig.jpg",
+  "photoId": 350354203,
+  "license": "CC BY",
+  "credit": "© Asher P Higgins",
+  "source": "https://www.inaturalist.org/observations/198743835",
+  "place": "Botswana"
+ },
+ {
+  "name": "Russet bushwillow",
+  "sci": "Combretum hereroense",
+  "file": "media/plants/russet-bushwillow.jpg",
+  "photoId": 231952869,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/135954797",
+  "place": "Botswana"
+ },
+ {
+  "name": "Sausage tree",
+  "sci": "Kigelia africana",
+  "file": "media/plants/sausage-tree.jpg",
+  "photoId": 231732793,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/135836816",
+  "place": "Botswana"
+ },
+ {
+  "name": "Scented thorn",
+  "sci": "Vachellia nilotica",
+  "file": "media/plants/scented-thorn.jpg",
+  "photoId": 191600555,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/113401621",
+  "place": "Botswana"
+ },
+ {
+  "name": "Shepherd’s tree",
+  "sci": "Boscia albitrunca",
+  "file": "media/plants/shepherds-tree.jpg",
+  "photoId": 231877863,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/135909930",
+  "place": "Botswana"
+ },
+ {
+  "name": "Sweet thorn",
+  "sci": "Vachellia karroo",
+  "file": "media/plants/sweet-thorn.jpg",
+  "photoId": 536633662,
+  "license": "CC0",
+  "credit": "sardinemachine",
+  "source": "https://www.inaturalist.org/observations/297948805",
+  "place": "Botswana"
+ },
+ {
+  "name": "Umbrella thorn",
+  "sci": "Vachellia tortilis",
+  "file": "media/plants/umbrella-thorn.jpg",
+  "photoId": 423333886,
+  "license": "CC0",
+  "credit": "rianafourie",
+  "source": "https://www.inaturalist.org/observations/237834755",
+  "place": "Botswana"
+ },
+ {
+  "name": "Weeping wattle",
+  "sci": "Peltophorum africanum",
+  "file": "media/plants/weeping-wattle.jpg",
+  "photoId": 511298701,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/284495747",
+  "place": "Botswana"
+ },
+ {
+  "name": "Milkweed",
+  "sci": "Gomphocarpus fruticosus",
+  "file": "media/plants/milkweed.jpg",
+  "photoId": 14245423,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/10288148",
+  "place": "Botswana"
+ },
+ {
+  "name": "Sickle bush",
+  "sci": "Dichrostachys cinerea",
+  "file": "media/plants/sickle-bush.jpg",
+  "photoId": 511298680,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/284495738",
+  "place": "Botswana"
+ },
+ {
+  "name": "Couch grass",
+  "sci": "Cynodon dactylon",
+  "file": "media/plants/couch-grass.jpg",
+  "photoId": 30785407,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/19953867",
+  "place": "Africa"
+ },
+ {
+  "name": "Curly-leaf love grass",
+  "sci": "Eragrostis rigidior",
+  "file": "media/plants/curly-leaf-love-grass.jpg",
+  "photoId": 175399626,
+  "license": "CC BY",
+  "credit": "© Manuel R Popp",
+  "source": "https://www.inaturalist.org/observations/104650852",
+  "place": "Africa"
+ },
+ {
+  "name": "Finger grass",
+  "sci": "Digitaria eriantha",
+  "file": "media/plants/finger-grass.jpg",
+  "photoId": 188972092,
+  "license": "CC BY",
+  "credit": "© Christiaan Viljoen",
+  "source": "https://www.inaturalist.org/observations/111907370",
+  "place": "Africa"
+ },
+ {
+  "name": "Giant spear grass",
+  "sci": "Trachypogon spicatus",
+  "file": "media/plants/giant-spear-grass.jpg",
+  "photoId": 107181197,
+  "license": "CC0",
+  "credit": "vorontsovams",
+  "source": "https://www.inaturalist.org/observations/66481438",
+  "place": "Africa"
+ },
+ {
+  "name": "Herring-bone grass",
+  "sci": "Pogonarthria squarrosa",
+  "file": "media/plants/herring-bone-grass.jpg",
+  "photoId": 126693858,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/77548247",
+  "place": "Botswana"
+ },
+ {
+  "name": "Red grass",
+  "sci": "Themeda triandra",
+  "file": "media/plants/red-grass.jpg",
+  "photoId": 112054271,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/69102950",
+  "place": "Africa"
+ },
+ {
+  "name": "Spear grass",
+  "sci": "Heteropogon contortus",
+  "file": "media/plants/spear-grass.jpg",
+  "photoId": 126771583,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/77552014",
+  "place": "Botswana"
+ },
+ {
+  "name": "Tassel three-awn",
+  "sci": "Aristida congesta",
+  "file": "media/plants/tassel-three-awn.jpg",
+  "photoId": 15165874,
+  "license": "CC BY-SA",
+  "credit": "© Nicola van Berkel",
+  "source": "https://www.inaturalist.org/observations/10824683",
+  "place": "Africa"
+ },
+ {
+  "name": "Yellow thatching grass",
+  "sci": "Hyperthelia dissoluta",
+  "file": "media/plants/yellow-thatching-grass.jpg",
+  "photoId": 126732240,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/77550559",
+  "place": "Botswana"
+ },
+ {
+  "name": "Bladderwort",
+  "sci": "Utricularia gibba",
+  "file": "media/plants/bladderwort.jpg",
+  "photoId": 163486651,
+  "license": "CC BY",
+  "credit": "© National Geographic Okavango Wilderness Project",
+  "source": "https://www.inaturalist.org/observations/98224010",
+  "place": "Botswana"
+ },
+ {
+  "name": "Duckweed",
+  "sci": "Lemna aequinoctialis",
+  "file": "media/plants/duckweed.jpg",
+  "photoId": 57864127,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/36594458",
+  "place": "Botswana"
+ },
+ {
+  "name": "Papyrus",
+  "sci": "Cyperus papyrus",
+  "file": "media/plants/papyrus.jpg",
+  "photoId": 303425602,
+  "license": "CC BY-SA",
+  "credit": "© Tony Eales",
+  "source": "https://www.inaturalist.org/observations/174644051",
+  "place": "Botswana"
+ },
+ {
+  "name": "Snow-flake flower",
+  "sci": "Nymphoides indica",
+  "file": "media/plants/snow-flake-flower.jpg",
+  "photoId": 324276782,
+  "license": "CC BY",
+  "credit": "© Scott W. Gavins",
+  "source": "https://www.inaturalist.org/observations/185658177",
+  "place": "elsewhere"
+ },
+ {
+  "name": "Leopard orchid",
+  "sci": "Ansellia africana",
+  "file": "media/plants/leopard-orchid.jpg",
+  "photoId": 763875346,
+  "license": "CC BY",
+  "credit": "© Riana Fourie",
+  "source": "https://www.inaturalist.org/observations/414895435",
+  "place": "Botswana"
+ },
+ {
+  "name": "Mistletoe",
+  "sci": "Plicosepalus kalachariensis",
+  "file": "media/plants/mistletoe.jpg",
+  "photoId": 231741541,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/135842271",
+  "place": "Botswana"
+ },
+ {
+  "name": "Baobab",
+  "sci": "Adansonia digitata",
+  "file": "media/plants/baobab.jpg",
+  "photoId": 15521975,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/11011121",
+  "place": "Botswana"
+ },
+ {
+  "name": "Black monkey orange",
+  "sci": "Strychnos madagascariensis",
+  "file": "media/plants/black-monkey-orange.jpg",
+  "photoId": 476260289,
+  "license": "CC0",
+  "credit": "prince_za",
+  "source": "https://www.inaturalist.org/observations/265172323",
+  "place": "Africa"
+ },
+ {
+  "name": "Grey camel thorn",
+  "sci": "Vachellia haematoxylon",
+  "file": "media/plants/grey-camel-thorn.jpg",
+  "photoId": 12598554,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/9293085",
+  "place": "Botswana"
+ },
+ {
+  "name": "Kiaat",
+  "sci": "Pterocarpus angolensis",
+  "file": "media/plants/kiaat.jpg",
+  "photoId": 2093685,
+  "license": "CC BY",
+  "credit": "© National Geographic Okavango Wilderness Project",
+  "source": "https://www.inaturalist.org/observations/1727880",
+  "place": "Africa"
+ },
+ {
+  "name": "Large-fruited bushwillow",
+  "sci": "Combretum zeyheri",
+  "file": "media/plants/large-fruited-bushwillow.jpg",
+  "photoId": 339520178,
+  "license": "CC0",
+  "credit": "dune_ninja",
+  "source": "https://www.inaturalist.org/observations/193286205",
+  "place": "Botswana"
+ },
+ {
+  "name": "Long-tail cassia",
+  "sci": "Cassia abbreviata",
+  "file": "media/plants/long-tail-cassia.jpg",
+  "photoId": 111108156,
+  "license": "CC BY-SA",
+  "credit": "© Nic Knott-Craig",
+  "source": "https://www.inaturalist.org/observations/68592118",
+  "place": "Africa"
+ },
+ {
+  "name": "Monkey orange",
+  "sci": "Strychnos spinosa",
+  "file": "media/plants/monkey-orange.jpg",
+  "photoId": 15226647,
+  "license": "CC BY-SA",
+  "credit": "© Brian du Preez",
+  "source": "https://www.inaturalist.org/observations/10854426",
+  "place": "Africa"
+ },
+ {
+  "name": "Paperbark thorn",
+  "sci": "Vachellia sieberiana",
+  "file": "media/plants/paperbark-thorn.jpg",
+  "photoId": 126760610,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/77551382",
+  "place": "Botswana"
+ },
+ {
+  "name": "Purple-pod terminalia",
+  "sci": "Terminalia prunioides",
+  "file": "media/plants/purple-pod-terminalia.jpg",
+  "photoId": 209365668,
+  "license": "CC0",
+  "credit": "simontonge",
+  "source": "https://www.inaturalist.org/observations/123581605",
+  "place": "Botswana"
+ },
+ {
+  "name": "Rain tree",
+  "sci": "Philenoptera violacea",
+  "file": "media/plants/rain-tree.jpg",
+  "photoId": 56021174,
+  "license": "CC BY",
+  "credit": "© Murphy Tladi",
+  "source": "https://www.inaturalist.org/observations/35522234",
+  "place": "Botswana"
+ },
+ {
+  "name": "Red bushwillow",
+  "sci": "Combretum apiculatum",
+  "file": "media/plants/red-bushwillow.jpg",
+  "photoId": 511304983,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/284501842",
+  "place": "Botswana"
+ },
+ {
+  "name": "Silver terminalia",
+  "sci": "Terminalia sericea",
+  "file": "media/plants/silver-terminalia.jpg",
+  "photoId": 231841338,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/135888623",
+  "place": "Botswana"
+ },
+ {
+  "name": "Sycamore fig",
+  "sci": "Ficus sycomorus",
+  "file": "media/plants/sycamore-fig.jpg",
+  "photoId": 48556797,
+  "license": "CC0",
+  "credit": "danielvanderpost",
+  "source": "https://www.inaturalist.org/observations/31050218",
+  "place": "Botswana"
+ },
+ {
+  "name": "Tamboti",
+  "sci": "Spirostachys africana",
+  "file": "media/plants/tamboti.jpg",
+  "photoId": 511298382,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/284495576",
+  "place": "Botswana"
+ },
+ {
+  "name": "Water pear",
+  "sci": "Syzygium guineense",
+  "file": "media/plants/water-pear.jpg",
+  "photoId": 236556224,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/138405452",
+  "place": "Botswana"
+ },
+ {
+  "name": "Wild seringa",
+  "sci": "Burkea africana",
+  "file": "media/plants/wild-seringa.jpg",
+  "photoId": 511298720,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/284495753",
+  "place": "Botswana"
+ },
+ {
+  "name": "Zambezi teak",
+  "sci": "Baikiaea plurijuga",
+  "file": "media/plants/zambezi-teak.jpg",
+  "photoId": 48431526,
+  "license": "CC0",
+  "credit": "danielvanderpost",
+  "source": "https://www.inaturalist.org/observations/30974648",
+  "place": "Botswana"
+ },
+ {
+  "name": "Black thorn",
+  "sci": "Senegalia mellifera",
+  "file": "media/plants/black-thorn.jpg",
+  "photoId": 231939561,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/135947610",
+  "place": "Botswana"
+ },
+ {
+  "name": "Bluebush",
+  "sci": "Diospyros lycioides",
+  "file": "media/plants/bluebush.jpg",
+  "photoId": 533786104,
+  "license": "CC BY",
+  "credit": "© Murphy Tladi",
+  "source": "https://www.inaturalist.org/observations/296444675",
+  "place": "Botswana"
+ },
+ {
+  "name": "Candle-pod thorn",
+  "sci": "Vachellia hebeclada",
+  "file": "media/plants/candle-pod-thorn.jpg",
+  "photoId": 442633512,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/247793879",
+  "place": "Botswana"
+ },
+ {
+  "name": "Kalahari sand raisin",
+  "sci": "Grewia retinervis",
+  "file": "media/plants/kalahari-sand-raisin.jpg",
+  "photoId": 371659196,
+  "license": "CC0",
+  "credit": "rianafourie",
+  "source": "https://www.inaturalist.org/observations/210087489",
+  "place": "Botswana"
+ },
+ {
+  "name": "Lavender fever-berry",
+  "sci": "Croton gratissimus",
+  "file": "media/plants/lavender-fever-berry.jpg",
+  "photoId": 116392269,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/71484803",
+  "place": "Botswana"
+ },
+ {
+  "name": "Magic guarri",
+  "sci": "Euclea divinorum",
+  "file": "media/plants/magic-guarri.jpg",
+  "photoId": 224940363,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/132116788",
+  "place": "Botswana"
+ },
+ {
+  "name": "Puzzle bush",
+  "sci": "Ehretia rigida",
+  "file": "media/plants/puzzle-bush.jpg",
+  "photoId": 173200366,
+  "license": "CC BY",
+  "credit": "© Matthew Fainman",
+  "source": "https://www.inaturalist.org/observations/103480520",
+  "place": "Africa"
+ },
+ {
+  "name": "Sandpaper raisin",
+  "sci": "Grewia flavescens",
+  "file": "media/plants/sandpaper-raisin.jpg",
+  "photoId": 362180654,
+  "license": "CC0",
+  "credit": "rianafourie",
+  "source": "https://www.inaturalist.org/observations/204874953",
+  "place": "Botswana"
+ },
+ {
+  "name": "Shaving-brush combretum",
+  "sci": "Combretum mossambicense",
+  "file": "media/plants/shaving-brush-combretum.jpg",
+  "photoId": 236559101,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/138406998",
+  "place": "Botswana"
+ },
+ {
+  "name": "Trumpet thorn",
+  "sci": "Catophractes alexandri",
+  "file": "media/plants/trumpet-thorn.jpg",
+  "photoId": 14903790,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/10675468",
+  "place": "Botswana"
+ },
+ {
+  "name": "Velvet raisin",
+  "sci": "Grewia flava",
+  "file": "media/plants/velvet-raisin.jpg",
+  "photoId": 461915562,
+  "license": "CC0",
+  "credit": "rianafourie",
+  "source": "https://www.inaturalist.org/observations/257488240",
+  "place": "Botswana"
+ },
+ {
+  "name": "White raisin",
+  "sci": "Grewia bicolor",
+  "file": "media/plants/white-raisin.jpg",
+  "photoId": 584019925,
+  "license": "CC0",
+  "credit": "rianafourie",
+  "source": "https://www.inaturalist.org/observations/322803096",
+  "place": "Botswana"
+ },
+ {
+  "name": "Bulrush",
+  "sci": "Typha capensis",
+  "file": "media/plants/bulrush.jpg",
+  "photoId": 50765129,
+  "license": "CC0",
+  "credit": "lallen",
+  "source": "https://www.inaturalist.org/observations/32373920",
+  "place": "Botswana"
+ },
+ {
+  "name": "Common reed",
+  "sci": "Phragmites australis",
+  "file": "media/plants/common-reed.jpg",
+  "photoId": 274045646,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/158578617",
+  "place": "Botswana"
+ },
+ {
+  "name": "Guinea grass",
+  "sci": "Megathyrsus maximus",
+  "file": "media/plants/guinea-grass.jpg",
+  "photoId": 511004817,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/284359777",
+  "place": "Botswana"
+ },
+ {
+  "name": "Hippo grass",
+  "sci": "Vossia cuspidata",
+  "file": "media/plants/hippo-grass.jpg",
+  "photoId": 105389910,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/65474988",
+  "place": "Botswana"
+ },
+ {
+  "name": "Okavango miscanthus",
+  "sci": "Miscanthus junceus",
+  "file": "media/plants/okavango-miscanthus.jpg",
+  "photoId": 50769451,
+  "license": "CC0",
+  "credit": "lallen",
+  "source": "https://www.inaturalist.org/observations/32375883",
+  "place": "Botswana"
+ },
+ {
+  "name": "Silky bushman grass",
+  "sci": "Stipagrostis uniplumis",
+  "file": "media/plants/silky-bushman-grass.jpg",
+  "photoId": 228181002,
+  "license": "CC BY",
+  "credit": "© Mahomed Desai",
+  "source": "https://www.inaturalist.org/observations/133928583",
+  "place": "Botswana"
+ },
+ {
+  "name": "Wild rice",
+  "sci": "Oryza longistaminata",
+  "file": "media/plants/wild-rice.jpg",
+  "photoId": 382632197,
+  "license": "CC0",
+  "credit": "erwinsieben",
+  "source": "https://www.inaturalist.org/observations/216360040",
+  "place": "Botswana"
+ },
+ {
+  "name": "Day waterlily",
+  "sci": "Nymphaea nouchali",
+  "file": "media/plants/day-waterlily.jpg",
+  "photoId": 162654605,
+  "license": "CC BY",
+  "credit": "© National Geographic Okavango Wilderness Project",
+  "source": "https://www.inaturalist.org/observations/97772331",
+  "place": "Botswana"
+ },
+ {
+  "name": "Kariba weed",
+  "sci": "Salvinia molesta",
+  "file": "media/plants/kariba-weed.jpg",
+  "photoId": 385531937,
+  "license": "CC0",
+  "credit": "erwinsieben",
+  "source": "https://www.inaturalist.org/observations/217903764",
+  "place": "Botswana"
+ },
+ {
+  "name": "Night waterlily",
+  "sci": "Nymphaea lotus",
+  "file": "media/plants/night-waterlily.jpg",
+  "photoId": 302150022,
+  "license": "CC BY",
+  "credit": "© Kobus Meyer",
+  "source": "https://www.inaturalist.org/observations/173955065",
+  "place": "Botswana"
+ },
+ {
+  "name": "Water chestnut",
+  "sci": "Trapa natans",
+  "file": "media/plants/water-chestnut.jpg",
+  "photoId": 54513316,
+  "license": "CC BY",
+  "credit": "© Wilderness Safaris Botswana - Conservation Team",
+  "source": "https://www.inaturalist.org/observations/34626007",
+  "place": "Botswana"
+ },
+ {
+  "name": "Water lettuce",
+  "sci": "Pistia stratiotes",
+  "file": "media/plants/water-lettuce.jpg",
+  "photoId": 19965538,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/13575724",
+  "place": "Botswana"
+ },
+ {
+  "name": "Wild date palm",
+  "sci": "Phoenix reclinata",
+  "file": "media/plants/wild-date-palm.jpg",
+  "photoId": 180062699,
+  "license": "CC BY",
+  "credit": "© Cricket Raspet",
+  "source": "https://www.inaturalist.org/observations/107100181",
+  "place": "Botswana"
+ },
+ {
+  "name": "Devil’s claw",
+  "sci": "Harpagophytum procumbens",
+  "file": "media/plants/devils-claw.jpg",
+  "photoId": 462882192,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/258028291",
+  "place": "Africa"
+ },
+ {
+  "name": "Fireball lily",
+  "sci": "Scadoxus multiflorus",
+  "file": "media/plants/fireball-lily.jpg",
+  "photoId": 337354423,
+  "license": "CC0",
+  "credit": "benkeen",
+  "source": "https://www.inaturalist.org/observations/192200743",
+  "place": "Botswana"
+ },
+ {
+  "name": "Flame lily",
+  "sci": "Gloriosa superba",
+  "file": "media/plants/flame-lily.jpg",
+  "photoId": 152176747,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/91952209",
+  "place": "Botswana"
+ },
+ {
+  "name": "Mopane aloe",
+  "sci": "Aloe littoralis",
+  "file": "media/plants/mopane-aloe.jpg",
+  "photoId": 130912001,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/79901898",
+  "place": "Botswana"
+ },
+ {
+  "name": "Tsamma melon",
+  "sci": "Citrullus lanatus",
+  "file": "media/plants/tsamma-melon.jpg",
+  "photoId": 488250828,
+  "license": "CC0",
+  "credit": "eugenemarais",
+  "source": "https://www.inaturalist.org/observations/271433449",
+  "place": "Africa"
+ },
+ {
+  "name": "Sour plum",
+  "sci": "Ximenia caffra",
+  "file": "media/plants/sour-plum.jpg",
+  "photoId": 193562273,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/114634703",
+  "place": "Botswana"
+ },
+ {
+  "name": "Real fan palm",
+  "sci": "Hyphaene petersiana",
+  "file": "media/plants/real-fan-palm.jpg",
+  "photoId": 562702749,
+  "license": "CC BY-SA",
+  "credit": "© alanbedfordshaw",
+  "source": "https://www.inaturalist.org/observations/311702161",
+  "place": "Botswana"
+ },
+ {
+  "name": "Bird plum",
+  "sci": "Berchemia discolor",
+  "file": "media/plants/bird-plum.jpg",
+  "photoId": 15675465,
+  "license": "CC BY",
+  "credit": "© Robert Taylor",
+  "source": "https://www.inaturalist.org/observations/11097098",
+  "place": "Botswana"
+ },
+ {
+  "name": "Pod mahogany",
+  "sci": "Afzelia quanzensis",
+  "file": "media/plants/pod-mahogany.jpg",
+  "photoId": 138745078,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/84418303",
+  "place": "Africa"
+ },
+ {
+  "name": "Gemsbok cucumber",
+  "sci": "Acanthosicyos naudinianus",
+  "file": "media/plants/gemsbok-cucumber.jpg",
+  "photoId": 231953497,
+  "license": "CC BY-SA",
+  "credit": "© Tony Rebelo",
+  "source": "https://www.inaturalist.org/observations/135954964",
+  "place": "Botswana"
+ }
+]
