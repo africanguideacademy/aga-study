@@ -214,6 +214,8 @@
     if (p[0] === 'offline') return renderOffline();
     if (p[0] === 'progress') return renderProgress();
     if (p[0] === 'submit') return renderSubmit();
+    if (p[0] === 'credits') return renderCredits();
+    if (p[0] === 'photo') { const m = modById(p[1]); return renderSharePhoto(m, m && m.items.find(i => i.id === p[2])); }
     if (p[0] === 's' && SUBJECTS.find(x => x.id === p[1])) return renderSubject(SUBJECTS.find(x => x.id === p[1]));
     if (p[0] === 'm' && modById(p[1])) {
       const mod = modById(p[1]);
@@ -234,22 +236,46 @@
     document.body.appendChild(s);
     return s;
   }
-  const footer = () => `<div class="foot"><img src="brand/logo-colour.png" alt="African Guide Academy">Study app &middot; for AGA students</div>`;
+  const footer = () => `<div class="foot"><img src="brand/logo-colour.png" alt="African Guide Academy">Pocket Guide &middot; for AGA students
+    <div class="foot-links"><a href="#/photo">Share a photo</a> &middot; <a href="#/credits">Photo credits</a></div></div>`;
 
   // ---------- subjects (one per manual chapter; each groups a photo, a call and a manual-question module) ----------
   const SUBJECTS = [
     { id: 'birds', title: 'Birds', noun: 'bird', blurb: 'Photos, calls and manual questions', photo: 'media/birds/racket-tailed-roller.jpg',
       photoSets: ['fgasa80', 'prominent40', 'kwapa63'], calls: 'calls', manual: 'q-birds' },
     { id: 'amphibians', title: 'Amphibians', noun: 'frog', blurb: 'Frogs - calls and manual questions', photo: 'media/frogs/f-angolan-reed-frog.jpg',
-      calls: 'frog-calls', manual: 'q-amphibians' },
+      photoSets: ['amphibians-photos'], calls: 'frog-calls', manual: 'q-amphibians' },
   ];
+  if (modById('amphibians-photos')) SUBJECTS[1].blurb = 'Frogs - photos, calls and manual questions';
+  const PHOTO_NOUN = { mammals: 'mammal', reptiles: 'reptile', arthropods: 'creature', plants: 'plant' };
   // Every other manual chapter that has questions becomes its own (manual-only) subject automatically.
   const CHAPTER_ICON = { 'Guiding Principles': 'compass', 'Astronomy': 'star', 'Geology': 'mountain', 'Weather and Climate': 'cloud', 'Ecology': 'cycle',
     'Plants': 'leaf', 'Arthropods': 'bug', 'Reptiles': 'snake', 'Mammals': 'paw', 'Tourism and Legislation': 'scale' };
   DATA.modules.filter(m => m.kind === 'questions' && !SUBJECTS.some(s => s.manual === m.id)).forEach(m => {
     const ch = m.chapter || m.title.replace(/ - manual$/, '');
-    SUBJECTS.push({ id: m.id.replace(/^q-/, ''), title: ch, noun: 'answer', blurb: `${m.items.length} questions from the manual`, photo: m.photo || '',
+    const id = m.id.replace(/^q-/, ''), pm = modById(id + '-photos');
+    if (pm) { // chapters with a species photo set get the full subject page (photo quizzes, photo cards, browse)
+      const manualPics = pm.items.filter(i => i.f && i.photo);
+      SUBJECTS.push({ id, title: ch, noun: PHOTO_NOUN[id] || 'species', blurb: `${pm.items.length} photos and ${m.items.length} manual questions`,
+        photo: (manualPics[0] || pm.items[0]).photo, icon: CHAPTER_ICON[ch] || 'book', photoSets: [pm.id], manual: m.id });
+      return;
+    }
+    SUBJECTS.push({ id, title: ch, noun: 'answer', blurb: `${m.items.length} questions from the manual`, photo: m.photo || '',
       icon: CHAPTER_ICON[ch] || 'book', manual: m.id, compact: true });
+  });
+  // Banner photos must be landscape ("wide") so they fit the wide tile without cutting the animal off.
+  // Keep the chosen photo if it is wide; otherwise use the first wide photo of a manual species, then any wide photo.
+  // Preferred banner species per subject (used if its photo is landscape).
+  const BANNER = { amphibians: ['Painted Reed Frog', 'Long Reed Frog', 'Bubbling Kassina'], mammals: ['Elephant', 'Leopard', 'African Wild Dog'],
+    reptiles: ['Southern African python', 'Black mamba'], arthropods: ['Golden orb-web spider', 'Ball-rolling dung beetle (Scarabaeus)', 'Praying mantis (Mantodea)'],
+    plants: ['Leadwood', 'Knob-thorn', 'Kalahari apple-leaf'] };
+  SUBJECTS.forEach(s => {
+    const items = (s.photoSets || []).map(modById).filter(Boolean).flatMap(m => m.items).filter(i => i.photo);
+    if (!items.length) return;
+    const cur = items.find(i => i.photo === s.photo);
+    const pick = (BANNER[s.id] || []).map(n => items.find(i => i.name === n && i.wide)).find(Boolean)
+      || (cur && cur.wide ? cur : null) || items.find(i => i.wide && i.f) || items.find(i => i.wide);
+    if (pick) s.photo = pick.photo;
   });
   const ALL_CHAPTERS = ['Guiding Principles', 'Astronomy', 'Geology', 'Weather and Climate', 'Ecology', 'Plants', 'Arthropods', 'Reptiles', 'Mammals', 'Tourism and Legislation'];
   const COMING_SOON = ALL_CHAPTERS.filter(c => !SUBJECTS.some(s => s.title === c));
@@ -276,7 +302,8 @@
   function renderHome() {
     chrome({ tab: 'home' });
     const fg = modById('fgasa80');
-    const heroPhoto = shuffle(fg.items.filter(i => i.photo))[0].photo;
+    const wide = fg.items.filter(i => i.photo && i.wide);
+    const heroPhoto = shuffle(wide.length ? wide : fg.items.filter(i => i.photo))[0].photo;
     // big photo tiles for the media subjects (Birds, Amphibians); compact icon tiles for manual-only chapters
     const compactTiles = SUBJECTS.filter(s => s.compact && subjectMods(s).length).map(s => {
       const { d, n, pr } = subjectProgress(s);
@@ -313,7 +340,15 @@
     chrome({ tab: 'home', back: '#/' });
     const pm = currentPhotoMod(s), cm = modById(s.calls), qm = modById(s.manual);
     const sets = photoSetsOf(s).map(modById);
-    const setSel = sets.length > 1 ? `<div class="setting-row"><label for="photoSet">Bird list</label><select class="select" id="photoSet">
+    // photo sets with a "featured" subset (species in the manual) get a Show setting: in the manual / all / one group
+    const psc = pm ? (settings.scope[pm.id] || pm.defaultScope || 'all') : 'all';
+    const pgroups = pm && pm.featured ? [...new Set(pm.items.map(i => i.group).filter(Boolean))].sort() : [];
+    const showSel = pm && pm.featured ? `<div class="setting-row"><label for="photoScope">Show</label><select class="select" id="photoScope">
+        <option value="all"${psc === 'all' ? ' selected' : ''}>All ${pm.items.length} ${esc(pm.short ? pm.short.toLowerCase() : 'species')}</option>
+        <option value="featured"${psc === 'featured' ? ' selected' : ''}>${esc(pm.featured)} (${pm.items.filter(i => i.f).length})</option>
+        <optgroup label="One group">${pgroups.map(g => `<option value="${esc(g)}"${psc === g ? ' selected' : ''}>${esc(g)} (${pm.items.filter(i => i.group === g).length})</option>`).join('')}</optgroup>
+      </select></div>` : '';
+    const setSel = sets.length > 1 ? `<div class="setting-row"><label for="photoSet">${esc((s.noun || 'bird').replace(/^./, c => c.toUpperCase()))} list</label><select class="select" id="photoSet">
         ${sets.map(m => `<option value="${esc(m.id)}"${pm && pm.id === m.id ? ' selected' : ''}>${esc(m.short || m.title)} (${m.items.length})</option>`).join('')}
       </select></div>` : '';
     const { d, n, pr } = subjectProgress(s);
@@ -339,7 +374,9 @@
     // "12 practised · 3 mastered" for a section header (or "0 of 40" before starting)
     const mp = m => { if (!m) return ''; const p = practisedCount(m, m.items), x = masteredCount(m, m.items); return p ? `${p} practised &middot; ${x} mastered` : `0 of ${m.items.length} practised`; };
     const section = (title, sub, tiles) => tiles ? `<div class="section-title">${title}${sub ? `<span class="sec-sub">${sub}</span>` : ''}</div><div class="act-grid">${tiles}</div>` : '';
-    const matchMod = pm || cm; // call-to-photo uses the photo module if there is one, else calls that have photos
+    // call-to-photo uses the photo module if its items have calls (birds), else the call library's items that have photos (frogs)
+    const both = m => m ? m.items.filter(i => i.call && i.photo).length : 0;
+    const matchMod = both(pm) >= 4 ? pm : both(cm) >= 4 ? cm : (pm || cm);
     const noun = s.noun || 'bird';
 
     show(`<section class="mod-head${s.photo ? '' : ' plain'}" style="${s.photo ? `background-image:url('${esc(s.photo)}')` : ''}">
@@ -349,7 +386,7 @@
         <div class="bar-label"><span>${pr} of ${n} practised &middot; ${d} mastered</span><span>${pct(d, n)}%</span></div>
       </section>
       <div class="section-title">Settings</div>
-      <div class="card"><div class="setting-row"><label>Questions per round</label><div class="seg">${lens}</div></div>${setSel}${callSel}${topicSel}</div>
+      <div class="card"><div class="setting-row"><label>Questions per round</label><div class="seg">${lens}</div></div>${setSel}${showSel}${callSel}${topicSel}</div>
       ${pm ? section('By sight', mp(pm),
         tile(`#/m/${pm.id}/quiz/photo2name`, 'camera', `Name the ${noun}`, 'See a photo, pick the name') +
         tile(`#/m/${pm.id}/quiz/name2photo`, 'search', `Find the ${noun}`, 'Read a name, tap the photo')) : ''}
@@ -364,13 +401,14 @@
         (pm ? tile(`#/m/${pm.id}/flash`, 'camera', 'Photo cards', 'Who is this?') : '') +
         (cm ? tile(`#/m/${cm.id}/flash`, 'sound', 'Call cards', 'Whose call?') : '') +
         (qm ? tile(`#/m/${qm.id}/flash`, 'cards', 'Question cards', 'From the manual') : '') +
-        ((pm || cm) ? tile(`#/m/${(pm || cm).id}/browse`, 'grid', `Browse ${s.title.toLowerCase()}`, pm ? 'Photos and calls' : 'Listen to every call') : ''))}
+        ((pm || cm) ? tile(`#/m/${(pm || cm).id}/browse`, 'grid', `Browse ${s.title.toLowerCase()}`, pm ? (cm || pm.items.some(i => i.call) ? 'Photos and calls' : 'Photos and facts') : 'Listen to every call') : ''))}
       <p class="small" style="margin:14px 4px 0">An item counts as mastered after 3 right answers in a row. Anything you get wrong comes up more often.</p>`);
     view.querySelectorAll('[data-len]').forEach(b => b.addEventListener('click', () => {
       settings.length = +b.dataset.len; save(SETTINGS_KEY, settings);
       view.querySelectorAll('[data-len]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
     }));
     const ps = $('photoSet'); if (ps) ps.addEventListener('change', () => { settings.photoSet = Object.assign({}, settings.photoSet, { [s.id]: ps.value }); save(SETTINGS_KEY, settings); renderSubject(s); });
+    const pss = $('photoScope'); if (pss) pss.addEventListener('change', () => { settings.scope[pm.id] = pss.value; save(SETTINGS_KEY, settings); renderSubject(s); });
     const cs = $('callScope'); if (cs) cs.addEventListener('change', () => { settings.scope[cm.id] = cs.value; save(SETTINGS_KEY, settings); renderSubject(s); });
     const qs = $('qScope'); if (qs) qs.addEventListener('change', () => { settings.scope[qm.id] = qs.value; save(SETTINGS_KEY, settings); renderSubject(s); });
   }
@@ -604,7 +642,8 @@
     if (isQ(mod)) return renderStudyList(mod);
     const items = scopedItems(mod).slice().sort((a, b) => a.name.localeCompare(b.name));
     show(`<div class="search-wrap" style="position:sticky">${icon('search')}<input class="search" id="q" type="search" placeholder="Search ${items.length} ${esc(subj.title.toLowerCase())}" autocomplete="off" aria-label="Search"></div>
-      <div class="grid" id="grid"></div>`);
+      <div class="grid" id="grid"></div>
+      <p class="small" style="margin:16px 4px 0">Tap a photo for facts. Missing a species, or have a better photo? <a href="#/photo/${mod.id}">Share a photo</a>.</p>`);
     const grid = $('grid');
     function draw(filter) {
       const f = (filter || '').toLowerCase();
@@ -638,7 +677,8 @@
     const info = INFO[it.name];
     chrome({ tab: 'home', back: `#/m/${mod.id}/browse`, title: it.name });
     const nav = (j, dir) => j >= 0 && j < items.length ? `<a class="btn ghost sp-nav ${dir > 0 ? 'nx' : ''}" href="#/m/${mod.id}/sp/${esc(items[j].id)}">${dir < 0 ? '&lsaquo; ' : ''}${esc(items[j].name)}${dir > 0 ? ' &rsaquo;' : ''}</a>` : '<span></span>';
-    const facts = info ? FACTS.filter(([f]) => info[f]).map(([f, label]) => `<div class="fact"><div class="fl">${label}</div><div class="fv">${esc(info[f])}</div></div>`).join('') : '';
+    const label = (f, l) => subj.id === 'plants' ? ({ size: 'Size and form', food: 'Uses', breeding: 'Flowers and fruit' })[f] || l : l;
+    const facts = info ? FACTS.filter(([f]) => info[f]).map(([f, l]) => `<div class="fact"><div class="fl">${label(f, l)}</div><div class="fv">${esc(info[f])}</div></div>`).join('') : '';
     show(`<div class="card species">
         ${it.photo ? `<img class="sp-photo" src="${esc(it.photo)}" alt="${esc(it.name)}">` : ''}
         <div class="sp-body">
@@ -649,6 +689,8 @@
           ${facts ? `<div class="facts">${facts}</div>` : ''}
           ${!info ? `<p class="small" style="margin-top:14px">No fact card for this ${esc(subj.noun || 'species')} yet.</p>` : ''}
           ${info && info.draft ? `<p class="small draft-note"><span class="draft">Draft</span> Facts still being checked by AGA trainers.</p>` : ''}
+          ${it.photo && it.credit ? `<p class="small credit">Photo: ${esc(it.credit)}${it.license ? ` (${esc(it.license)})` : ''}${it.src ? ` &middot; <a href="${esc(it.src)}" target="_blank" rel="noopener">source</a>` : ''}</p>` : ''}
+          <a class="btn ghost block" style="margin-top:14px" href="#/photo/${mod.id}/${esc(it.id)}">${icon('camera')} ${it.photo ? 'Send a better photo' : 'Send a photo'}</a>
         </div></div>
       ${k >= 0 ? `<div class="sp-pager">${nav(k - 1, -1)}${nav(k + 1, 1)}</div>` : ''}`);
     const b = $('spPlay');
@@ -762,6 +804,87 @@
   }
   window.addEventListener('online', () => flushQueue());
   setInterval(() => flushQueue(), 5 * 60 * 1000); // retry waiting submissions every 5 minutes while the app is open
+  // ---------- share a photo (students send photos for the Pocket Guide; a trainer approves them first) ----------
+  // Shrinks the photo on the phone (max 1600 px, JPEG) before sending, so it uploads quickly on a weak signal.
+  function shrinkPhoto(file) {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.onload = () => {
+        const k = Math.min(1, 1600 / Math.max(img.naturalWidth, img.naturalHeight));
+        const c = document.createElement('canvas');
+        c.width = Math.round(img.naturalWidth * k); c.height = Math.round(img.naturalHeight * k);
+        c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+        URL.revokeObjectURL(img.src);
+        resolve(c.toDataURL('image/jpeg', 0.85));
+      };
+      img.onerror = () => reject(new Error('not an image'));
+      img.src = URL.createObjectURL(file);
+    });
+  }
+  function renderSharePhoto(mod, it) {
+    const back = it ? `#/m/${mod.id}/sp/${it.id}` : '#/';
+    chrome({ tab: 'home', back, title: 'Share a photo' });
+    const st = load(STUDENT_KEY, {});
+    show(`<h1>Share a photo</h1>
+      <p class="sub">Took a good photo${it ? ` of ${/^[aeiou]/i.test(it.name) ? 'an' : 'a'} ${esc(it.name)}` : ''}? Send it to African Guide Academy. If a trainer approves it, it can be used in the Pocket Guide with your name as the credit.</p>
+      ${it && it.photo ? `<div class="card share-now"><img src="${esc(it.photo)}" alt=""><div><strong>${esc(it.name)}</strong><span class="small">Current photo${it.credit ? ` &middot; ${esc(it.credit)}` : ''}</span></div></div>` : ''}
+      <form class="card pad form" id="pform">
+        ${it ? '' : `<label>What is in the photo? (species name)<input name="species" required maxlength="80" placeholder="e.g. Red lechwe"></label>`}
+        <label>Photo<input type="file" name="photo" accept="image/*" required id="pfile"></label>
+        <img id="pprev" class="share-prev" alt="" hidden>
+        <label>Where was it taken? (optional)<input name="where" maxlength="120" placeholder="e.g. Khwai, Moremi Game Reserve"></label>
+        <label>First name(s)<input name="first" required maxlength="80" autocomplete="given-name" value="${esc(st.first || '')}"></label>
+        <label>Surname<input name="surname" required maxlength="80" autocomplete="family-name" value="${esc(st.surname || '')}"></label>
+        <label>Omang / Passport number (optional, links it to your student profile)<input name="idno" maxlength="40" autocomplete="off" value="${esc(st.idno || '')}"></label>
+        <label class="check"><input type="checkbox" name="consent" required> I took this photo myself, and AGA may use it in its study materials with my name as the credit.</label>
+        <button class="btn block" type="submit" id="pbtn">${icon('camera')} Send photo</button>
+        <p class="small" style="margin:10px 0 0">You need signal to send a photo. Photos are checked by a trainer before they appear in the app.</p>
+      </form>`);
+    let dataUrl = '';
+    $('pfile').addEventListener('change', async e => {
+      const f = e.target.files[0]; const prev = $('pprev');
+      if (!f) { prev.hidden = true; dataUrl = ''; return; }
+      try { dataUrl = await shrinkPhoto(f); prev.src = dataUrl; prev.hidden = false; }
+      catch (x) { dataUrl = ''; prev.hidden = true; alert('That file could not be opened as a photo. Please choose a JPG or PNG photo.'); }
+    });
+    $('pform').addEventListener('submit', async e => {
+      e.preventDefault();
+      const f = new FormData(e.target);
+      const first = String(f.get('first')).trim(), surname = String(f.get('surname')).trim(), idno = String(f.get('idno') || '').trim();
+      const species = it ? it.name : String(f.get('species') || '').trim();
+      if (!dataUrl) { alert('Please choose a photo first.'); return; }
+      if (!navigator.onLine) { alert('No signal right now. Please send the photo when you are back online.'); return; }
+      Object.assign(st, { first, surname }); if (idno) st.idno = idno; save(STUDENT_KEY, st);
+      const btn = $('pbtn'); btn.disabled = true; btn.textContent = 'Sending...';
+      const payload = { app: 'aga-study', type: 'photo', version: DATA.generated, device: deviceId(), first, surname, idno, species,
+        sci: it && it.sci || '', module: mod ? mod.id : '', itemId: it ? it.id : '', where: String(f.get('where') || '').trim(),
+        consent: true, mime: 'image/jpeg', image: dataUrl.split(',')[1] };
+      const res = await postProgress(payload);
+      if (res === 'ok') {
+        show(`<div class="card pad done-card"><span class="done">${icon('check')} Photo sent - thank you, ${esc(first)}!</span>
+          <p class="small" style="margin:8px 0 0">A trainer will look at it. If it is approved, it will appear in the Pocket Guide with your name.</p></div>
+          <div class="btn-stack"><a class="btn" href="${back}">Done</a><button class="btn ghost" id="another">Send another photo</button></div>`);
+        $('another').addEventListener('click', () => renderSharePhoto(mod, it));
+      } else {
+        btn.disabled = false; btn.innerHTML = icon('camera') + ' Send photo';
+        alert(res === 'offline' ? 'Could not reach AGA. Please check your signal and try again.' : 'Sorry, the photo was not accepted. Please check your details and try again.');
+      }
+    });
+  }
+
+  // ---------- photo credits (free-licence photos must name the photographer) ----------
+  function renderCredits() {
+    chrome({ tab: 'home', back: '#/', title: 'Photo credits' });
+    const seen = new Set(), rows = [];
+    DATA.modules.forEach(m => m.items.forEach(i => {
+      if (!i.credit || seen.has(i.photo)) return; seen.add(i.photo);
+      rows.push(`<li><strong>${esc(i.name)}</strong> &middot; ${esc(i.credit)}${i.license ? ` &middot; ${esc(i.license)}` : ''}${i.src ? ` &middot; <a href="${esc(i.src)}" target="_blank" rel="noopener">source</a>` : ''}</li>`);
+    }));
+    show(`<h1>Photo credits</h1>
+      <p class="sub">Bird photos are AGA's own. Other species photos come from <a href="https://www.inaturalist.org" target="_blank" rel="noopener">iNaturalist</a> photographers who share them under free licences (CC0, CC BY, CC BY-SA), and from AGA students. Thank you!</p>
+      <ul class="card pad credits">${rows.join('')}</ul>`);
+  }
+
   function renderSubmit(message) {
     chrome({ tab: 'progress', back: '#/progress', title: 'Submit progress' });
     const st = load(STUDENT_KEY, {});
@@ -808,7 +931,7 @@
   // ---------- offline page ----------
   function bytesOf(urls) {
     const size = {};
-    DATA.modules.forEach(m => m.items.forEach(i => { if (i.call) size[i.call] = i.bytes || 0; }));
+    DATA.modules.forEach(m => m.items.forEach(i => { if (i.call) size[i.call] = i.bytes || 0; if (i.photo && i.pb) size[i.photo] = i.pb; }));
     return urls.reduce((s, u) => s + (size[u] || 0), 0);
   }
   async function download(key, urls) {
@@ -857,6 +980,8 @@
       { key: 'kwapa', title: 'Birds - Kwapa list', urls: callList([modById('kwapa63')].filter(Boolean)) },
       { key: 'frogs', title: 'Amphibians - frog calls', urls: callList([modById('frog-calls')].filter(Boolean)) },
       { key: 'all', title: 'Birds - full call library', urls: callList([modById('calls')].filter(Boolean)) },
+      ...DATA.modules.filter(m => /-photos$/.test(m.id)).map(m => ({ key: m.id, title: `${m.short || m.title} - photos`, photos: true,
+        urls: [...new Set(m.items.map(i => i.photo).filter(Boolean))] })),
     ];
     const photos = [...new Set(DATA.modules.flatMap(m => m.items.map(i => i.photo)).filter(Boolean))];
     const photosSaved = photos.filter(u => cachedSet.has(abs(u))).length;
@@ -869,7 +994,7 @@
           <div class="bar-label"><span id="dlText">Downloading... ${downloading.done} of ${downloading.total}</span><button class="linkish" id="dlCancel" style="padding:0">Cancel</button></div>`;
       else if (!left.length) action = `<span class="done">${icon('check')} Saved on this device</span>`;
       else action = `<button class="btn" data-dl="${p.key}"${downloading || !navigator.onLine ? ' disabled' : ''}>${icon('download')} ${have ? 'Download the rest' : 'Download'} (${mb(bytesOf(left))})</button>`;
-      return `<div class="pad"><h3>${esc(p.title)}</h3><p>${p.urls.length} calls &middot; ${mb(bytesOf(p.urls))}${have ? ` &middot; ${have} saved` : ''}</p>${action}</div>`;
+      return `<div class="pad"><h3>${esc(p.title)}</h3><p>${p.urls.length} ${p.photos ? 'photos' : 'calls'} &middot; ${mb(bytesOf(p.urls))}${have ? ` &middot; ${have} saved` : ''}</p>${action}</div>`;
     }).join('');
 
     let install;
