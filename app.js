@@ -247,7 +247,7 @@
       photoSets: ['amphibians-photos'], calls: 'frog-calls', manual: 'q-amphibians' },
   ];
   if (modById('amphibians-photos')) SUBJECTS[1].blurb = 'Frogs - photos, calls and manual questions';
-  const PHOTO_NOUN = { mammals: 'mammal', reptiles: 'reptile', arthropods: 'creature', plants: 'plant' };
+  const PHOTO_NOUN = { mammals: 'mammal', reptiles: 'reptile', arthropods: 'creature', plants: 'plant', astronomy: 'sky object' };
   // Every other manual chapter that has questions becomes its own (manual-only) subject automatically.
   const CHAPTER_ICON = { 'Guiding Principles': 'compass', 'Astronomy': 'star', 'Geology': 'mountain', 'Weather and Climate': 'cloud', 'Ecology': 'cycle',
     'Plants': 'leaf', 'Arthropods': 'bug', 'Reptiles': 'snake', 'Mammals': 'paw', 'Tourism and Legislation': 'scale' };
@@ -268,7 +268,7 @@
   // Preferred banner species per subject (used if its photo is landscape).
   const BANNER = { amphibians: ['Painted Reed Frog', 'Long Reed Frog', 'Bubbling Kassina'], mammals: ['Elephant', 'Leopard', 'African Wild Dog'],
     reptiles: ['Southern African python', 'Black mamba'], arthropods: ['Golden orb-web spider', 'Ball-rolling dung beetle (Scarabaeus)', 'Praying mantis (Mantodea)'],
-    plants: ['Leadwood', 'Knob-thorn', 'Kalahari apple-leaf'] };
+    plants: ['Leadwood', 'Knob-thorn', 'Kalahari apple-leaf'], astronomy: ['Milky Way', 'The Milky Way', 'Southern Cross', 'Orion'] };
   SUBJECTS.forEach(s => {
     const items = (s.photoSets || []).map(modById).filter(Boolean).flatMap(m => m.items).filter(i => i.photo);
     if (!items.length) return;
@@ -677,7 +677,9 @@
     const info = INFO[it.name];
     chrome({ tab: 'home', back: `#/m/${mod.id}/browse`, title: it.name });
     const nav = (j, dir) => j >= 0 && j < items.length ? `<a class="btn ghost sp-nav ${dir > 0 ? 'nx' : ''}" href="#/m/${mod.id}/sp/${esc(items[j].id)}">${dir < 0 ? '&lsaquo; ' : ''}${esc(items[j].name)}${dir > 0 ? ' &rsaquo;' : ''}</a>` : '<span></span>';
-    const label = (f, l) => subj.id === 'plants' ? ({ size: 'Size and form', food: 'Uses', breeding: 'Flowers and fruit' })[f] || l : l;
+    const LABELS = { plants: { size: 'Size and form', food: 'Uses', breeding: 'Flowers and fruit' },
+      astronomy: { size: 'What it is', habitat: 'Where and when to look', food: 'How to find it', breeding: 'Stories and beliefs' } };
+    const label = (f, l) => (LABELS[subj.id] || {})[f] || l;
     const facts = info ? FACTS.filter(([f]) => info[f]).map(([f, l]) => `<div class="fact"><div class="fl">${label(f, l)}</div><div class="fv">${esc(info[f])}</div></div>`).join('') : '';
     show(`<div class="card species">
         ${it.photo ? `<img class="sp-photo" src="${esc(it.photo)}" alt="${esc(it.name)}">` : ''}
