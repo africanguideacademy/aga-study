@@ -32,7 +32,7 @@ window.AGA_DATA = {
      "photo": "media/bird-replacements/swamp-boubou-116431572.jpg",
      "call": "media/calls/boubou-swamp.mp3",
      "bytes": 194040,
-     "credit": "Â© Jan Ebr &amp; Ivana EbrovÃ¡",
+     "credit": "© Jan Ebr &amp; Ivana Ebrová",
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/71506330",
      "wide": 1
@@ -1416,7 +1416,7 @@ window.AGA_DATA = {
      "photo": "media/bird-replacements/eurasian-golden-oriole-230484973.jpg",
      "call": "media/kwapa63/eurasian-golden-oriole.mp3",
      "bytes": 58464,
-     "credit": "Â© Christiaan Viljoen",
+     "credit": "© Christiaan Viljoen",
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/135159639"
     },
@@ -1615,7 +1615,7 @@ window.AGA_DATA = {
      "photo": "media/bird-replacements/coppery-tailed-coucal-15276346.jpg",
      "call": "media/kwapa63/coppery-tailed-coucal.mp3",
      "bytes": 43344,
-     "credit": "Â© Wynand Uys",
+     "credit": "© Wynand Uys",
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/10879030"
     }

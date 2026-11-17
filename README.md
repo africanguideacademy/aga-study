@@ -1,4 +1,4 @@
-﻿# AGA Study App (pilot)
+# AGA Study App (pilot)
 
 A study and quiz web app for African Guide Academy students. It's built from AGA's own photos and call recordings.
 
@@ -46,7 +46,7 @@ powershell -ExecutionPolicy Bypass -File tools/copy-media.ps1
 - Browse
 
 ## Offline / install on phone
-- The "Use offline & install" page explains how to install the app on a phone. On Android, Chrome shows an Install button; on iPhone, the page gives Safari's Share â†’ Add to Home Screen steps.
+- The "Use offline & install" page explains how to install the app on a phone. On Android, Chrome shows an Install button; on iPhone, the page gives Safari's Share → Add to Home Screen steps.
 - The service worker (`app/sw.js`) saves the app files and all photos (about 6 MB) the first time the app opens.
 - Calls are only saved when the student taps Download: FGASA 80 calls (21 MB) or the full library (185 MB).
 - With no signal, quizzes only use calls that have been downloaded.
@@ -121,7 +121,7 @@ Tap a photo in **Browse** to open the species page. It shows the photo, the call
 
 ## Navigation
 - On a phone, the tab bar at the bottom has three tabs: Home, Progress and Offline.
-- Quizzes and flashcards use a full-screen mode with âœ• to quit. The Next and grading buttons sit at the bottom of the screen, within reach of your thumb.
+- Quizzes and flashcards use a full-screen mode with ✕ to quit. The Next and grading buttons sit at the bottom of the screen, within reach of your thumb.
 
 Birds a student keeps getting wrong come up more often. A bird counts as "mastered" after 3 right answers in a row.
 Progress is saved in the student's own browser.
