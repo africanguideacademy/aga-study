@@ -1,0 +1,1422 @@
+[
+ [
+  "Common features",
+  108,
+  "Which feature is shared by all mammals?",
+  "Females have mammary glands that produce milk",
+  "The body is covered in scales",
+  "The heart has three chambers",
+  "They are cold-blooded",
+  "Female mammals have mammary glands which produce milk for the young to suckle."
+ ],
+ [
+  "Common features",
+  108,
+  "How many chambers does a mammal's heart have?",
+  "4",
+  "2",
+  "3",
+  "5",
+  "The manual states that the mammal heart is 4 chambered."
+ ],
+ [
+  "Common features",
+  108,
+  "How many specialised hearing bones are found in the inner ear of a mammal?",
+  "3",
+  "1",
+  "2",
+  "5",
+  "The inner ear of a mammal has a system of 3 highly specialised bones for hearing."
+ ],
+ [
+  "Common features",
+  108,
+  "Mammals are described as endothermic. What does this mean?",
+  "They are warm-blooded",
+  "They are cold-blooded",
+  "They lay eggs",
+  "They only eat plants",
+  "Mammals are endothermic (warm-blooded) and have hair at some stage of development."
+ ],
+ [
+  "Common features",
+  108,
+  "In the manual's taxonomic example, to which family does the African wild dog belong?",
+  "Canidae",
+  "Felidae",
+  "Hyaenidae",
+  "Herpestidae",
+  "The taxonomic breakdown of the wild dog lists Order Carnivora, Family Canidae."
+ ],
+ [
+  "Common features",
+  108,
+  "What is the scientific name (genus and species) of the African wild dog?",
+  "Lycaon pictus",
+  "Crocuta crocuta",
+  "Canis mesomelas",
+  "Otocyon megalotis",
+  "The manual's taxonomic example gives the wild dog's genus and species as Lycaon pictus."
+ ],
+ [
+  "Breeding",
+  108,
+  "What is oestrus in female mammals?",
+  "The stage when oestrogen peaks before ovulation",
+  "The stage when the young are weaned",
+  "The period when milk is produced",
+  "The time the egg is fertilised",
+  "Oestrus is the stage when the oestrogen (female hormone) level peaks before ovulation."
+ ],
+ [
+  "Breeding",
+  108,
+  "What is ovulation?",
+  "When the egg is released, ready to be fertilised",
+  "When the young are born",
+  "When the female produces milk",
+  "When the male tests the female's scent",
+  "Ovulation is when the egg is released, ready to be fertilised."
+ ],
+ [
+  "Breeding",
+  108,
+  "The word 'flehmen' comes from German. What does it mean?",
+  "Exposing teeth",
+  "Smelling the wind",
+  "Raising the head",
+  "Calling a mate",
+  "Flehmen comes from the German word meaning \"exposing teeth\"."
+ ],
+ [
+  "Breeding",
+  108,
+  "What is another name for the vomeronasal organ?",
+  "Jacobson's organ",
+  "Herbst corpuscle",
+  "Rete mirabilis",
+  "Inter-digital gland",
+  "The vomeronasal organ (Jacobson's organ) is an extra smell sense designed to interpret pheromones."
+ ],
+ [
+  "Breeding",
+  108,
+  "In which two species does the manual say females have synchronised oestrus?",
+  "Wild dog and hyaena",
+  "Lion and leopard",
+  "Elephant and rhino",
+  "Impala and kudu",
+  "Synchronised oestrus takes place in cooperative breeders such as wild dog and hyaena."
+ ],
+ [
+  "Breeding",
+  108,
+  "What is the benefit of synchronised oestrus to the alpha female?",
+  "Less time spent guarding against other females mating",
+  "Her young are born in the dry season",
+  "She can mate with more males",
+  "Her cubs grow faster",
+  "It reduces the time alpha females spend guarding against other females mating and producing unwanted young."
+ ],
+ [
+  "Breeding",
+  108,
+  "What is induced ovulation?",
+  "The female only ovulates through sustained mating",
+  "The female ovulates once a year",
+  "The male controls when the female is in oestrus",
+  "The female ovulates only after giving birth",
+  "With induced ovulation the female only ovulates through sustained sexual intercourse, often 3-5 days after mating begins."
+ ],
+ [
+  "Breeding",
+  108,
+  "In which group of animals does the manual say induced ovulation occurs?",
+  "Elephant, lion and leopard",
+  "Impala, kudu and zebra",
+  "Wild dog, jackal and fox",
+  "Hippo, buffalo and giraffe",
+  "Induced ovulation occurs, inter alia, amongst elephant, lion and leopard."
+ ],
+ [
+  "Breeding",
+  108,
+  "What is the process of producing milk for newborn mammals called?",
+  "Lactation",
+  "Ovulation",
+  "Rumination",
+  "Oestrus",
+  "Newborn mammals depend on milk which is produced in a process called lactation."
+ ],
+ [
+  "Elephant",
+  110,
+  "According to the manual's table, what is the average weight of a male elephant?",
+  "5500-6000kg",
+  "3800-4000kg",
+  "2000-2500kg",
+  "7500-8000kg",
+  "The table gives male elephant weight as 5500-6000kg (females 3800-4000kg)."
+ ],
+ [
+  "Hyaenas",
+  110,
+  "According to the table, which of these animals has females that are heavier than males?",
+  "Spotted hyaena",
+  "Lion",
+  "Leopard",
+  "Buffalo",
+  "The table gives spotted hyaena males as 62kg and females as 68kg."
+ ],
+ [
+  "Lion",
+  110,
+  "According to the table, what is the average shoulder height of a male lion?",
+  "1m",
+  "65cm",
+  "1,45m",
+  "1,6m",
+  "The table lists the male lion at 190kg and 1m shoulder height."
+ ],
+ [
+  "Elephant",
+  110,
+  "About how much food does a bull elephant need each day?",
+  "170kg",
+  "40kg",
+  "70kg",
+  "300kg",
+  "Bulls need about 170kg of food a day and only digest about 40% of it."
+ ],
+ [
+  "Elephant",
+  110,
+  "Approximately how much water does a bull elephant drink per day?",
+  "160 litres",
+  "40 litres",
+  "80 litres",
+  "300 litres",
+  "Bulls drink approximately 160 litres of water per day."
+ ],
+ [
+  "Elephant",
+  110,
+  "Why are elephants active both by day and at night?",
+  "They feed for up to 18 hours a day",
+  "They avoid lions during the day",
+  "They only drink at night",
+  "Bulls search for females at night",
+  "Because of the large amount of food needed, elephant feed for up to 18 hours a day."
+ ],
+ [
+  "Elephant",
+  110,
+  "An elephant that is alert to a threat may stop, listen and raise its trunk. What else may it do while identifying the disturbance?",
+  "Mock-feed",
+  "Lie down",
+  "Dust-bath",
+  "Roll in mud",
+  "Alert elephant may \"mock-feed\" while trying to identify the disturbance."
+ ],
+ [
+  "Elephant",
+  110,
+  "What does a serious elephant charge usually look like?",
+  "Head down, ears back, little noise, maximum speed",
+  "Head high, ears spread, loud trumpeting",
+  "Head shaking with loud ear flaps",
+  "Walking backwards with the tail held sideways",
+  "A serious charge is usually head down, ears back, minimum noise and maximum speed."
+ ],
+ [
+  "Elephant",
+  110,
+  "An elephant runs at you with head held high, ears spread and trumpeting. What must a guide remember?",
+  "It can turn into a serious charge with no warning",
+  "It will never follow through with the charge",
+  "It is a submissive display",
+  "It means the elephant is in musth",
+  "Although it may be a mock-charge, the elephant can change its mind in a split second and charge seriously."
+ ],
+ [
+  "Elephant",
+  110,
+  "You are on foot and a bull elephant has detected you. You cannot reach cover. What should you do?",
+  "Stand your ground",
+  "Run away with the guests",
+  "Lie flat on the ground",
+  "Climb the nearest small tree",
+  "If detected by a bull and you cannot get to safety, stand your ground and tell guests to stay calm."
+ ],
+ [
+  "Elephant",
+  110,
+  "If a bull elephant approaches a guide standing his ground, what does the manual advise?",
+  "Hold arms up and out and step towards it",
+  "Turn your back and walk away slowly",
+  "Crouch down and stay silent",
+  "Throw something at its head",
+  "Hold your arms up and out to look bigger and take a step towards the elephant."
+ ],
+ [
+  "Dangerous mammals (general)",
+  110,
+  "Why is standing your ground less effective with a breeding herd?",
+  "Cows with calves are not easily bluffed",
+  "Cows cannot see well",
+  "Breeding herds never charge",
+  "Cows only charge at vehicles",
+  "The manual states that cows with calves are not as easily bluffed by standing your ground."
+ ],
+ [
+  "Elephant",
+  110,
+  "How does a submissive elephant behave?",
+  "Keeps its head down and does not face the other elephant",
+  "Faces the other elephant with ears spread",
+  "Trumpets loudly and shakes its head",
+  "Raises its trunk and charges",
+  "A submissive elephant keeps its head down and will not face the other elephant head on."
+ ],
+ [
+  "Elephant",
+  111,
+  "What is the gestation period of an elephant?",
+  "22 months",
+  "15 months",
+  "11 months",
+  "8 months",
+  "Elephant are born after a gestation of 22 months, mostly in the rainy season."
+ ],
+ [
+  "Elephant",
+  111,
+  "What is musth in bull elephants?",
+  "A state of raised testosterone, aggression and sexual desire",
+  "The time when young bulls leave the herd",
+  "A skin disease of older bulls",
+  "The period when cows give birth",
+  "Musth is a state of elevated testosterone causing more aggression and sexual desire."
+ ],
+ [
+  "Elephant",
+  111,
+  "From what age do bull elephants come into full-blown musth lasting several months?",
+  "After 35 years",
+  "From 12-15 years",
+  "From 20-25 years",
+  "After 50 years",
+  "Musth is weak from about 20-25 up to 35; after 35, bulls come into full-blown musth."
+ ],
+ [
+  "Elephant",
+  111,
+  "At what age do young bull elephants usually leave the breeding herd?",
+  "12-15 years",
+  "2-3 years",
+  "5-7 years",
+  "30-35 years",
+  "Young bulls leave between 12-15 years of age and join other bulls."
+ ],
+ [
+  "Elephant",
+  111,
+  "Who makes up an elephant family unit?",
+  "Grandmothers, daughters and granddaughters",
+  "One dominant bull and his cows",
+  "Young bulls of the same age",
+  "Unrelated cows and their calves",
+  "Breeding herds are made up of family units of grandmothers, their daughters and granddaughters."
+ ],
+ [
+  "Elephant",
+  111,
+  "Many elephant calls are in 'infra-sound'. What does this mean?",
+  "The sound is too low for humans to hear",
+  "The sound is very loud",
+  "The sound is made only underwater",
+  "The sound is made through the trunk",
+  "Infra-sound is below the frequency that humans can hear."
+ ],
+ [
+  "Rhinos",
+  111,
+  "Which feature helps to identify a black rhino?",
+  "A prehensile lip for browsing",
+  "A large nuchal hump on the neck",
+  "A large head held low",
+  "Calves that run in front of the mother",
+  "Black rhino are smaller, hold a smaller head high, have a prehensile lip and no large nuchal hump."
+ ],
+ [
+  "Rhinos",
+  111,
+  "How do black rhino calves run in relation to their mothers?",
+  "Behind the mother",
+  "In front of the mother",
+  "Beside the mother",
+  "Far away from the mother",
+  "Black rhino calves run behind their mothers, while white rhino calves run in front."
+ ],
+ [
+  "Rhinos",
+  111,
+  "Black rhino are seldom more than how far from water?",
+  "15km",
+  "5km",
+  "30km",
+  "50km",
+  "Black rhino are water-dependent and seldom more than 15km from water."
+ ],
+ [
+  "Rhinos",
+  111,
+  "What is the best sense of a rhino?",
+  "Smell",
+  "Sight",
+  "Hearing",
+  "Touch",
+  "Rhino may run into the down-wind position to use their best sense - smell."
+ ],
+ [
+  "Rhinos",
+  111,
+  "If a black rhino charge comes your way on foot, what does the manual advise?",
+  "Clap and shout to try to break the charge",
+  "Stand silently and freeze",
+  "Run along the nearest path",
+  "Lie down flat on the ground",
+  "Try to get behind cover or up high; if the charge comes your way, clap and shout at the rhino."
+ ],
+ [
+  "Rhinos",
+  111,
+  "Why should you stay off paths when black rhino are around?",
+  "Some charges are misdirected attempts to escape",
+  "Rhino mark paths with urine",
+  "Rhino cannot see paths",
+  "Paths lead to rhino middens",
+  "Black rhino may charge repeatedly; some charges are misdirected escapes, so stay off paths."
+ ],
+ [
+  "Rhinos",
+  111,
+  "What is the gestation period of a black rhino?",
+  "15 months",
+  "8 months",
+  "11 months",
+  "22 months",
+  "Black rhino are born after a gestation period of 15 months."
+ ],
+ [
+  "Rhinos",
+  111,
+  "What are black rhino 'middens' actually used for?",
+  "Shared latrines that show who is in the area",
+  "Marking a strictly defended territory",
+  "Hiding calves from predators",
+  "Feeding sites shared by the group",
+  "Middens are shared latrines that tell other rhino who is around and advertise breeding condition."
+ ],
+ [
+  "Rhinos",
+  112,
+  "At what time of day does most white rhino drinking take place?",
+  "Between 17h00 and 21h00",
+  "Between 05h00 and 08h00",
+  "Between 11h00 and 14h00",
+  "Between 22h00 and 02h00",
+  "Most white rhino drinking is between 17h00 and 21h00."
+ ],
+ [
+  "Rhinos",
+  112,
+  "What is the gestation period of a white rhino?",
+  "16 months",
+  "11 months",
+  "15 months",
+  "22 months",
+  "White rhino are born after a gestation of 16 months."
+ ],
+ [
+  "Rhinos",
+  112,
+  "How do white rhino bulls mark territory?",
+  "Dung middens and urine spraying",
+  "Thrashing dung on bushes",
+  "Pasting on grass stems",
+  "Paw scrapings with a gland",
+  "White rhino bulls mark territory with dung middens and urine spraying; cows are not territorial."
+ ],
+ [
+  "Hyaenas",
+  112,
+  "Why are white rhino calves seldom preyed upon by hyaena?",
+  "They are protected by the other rhino in the group",
+  "They hide in thick bush",
+  "They stay in the water",
+  "They are born in winter",
+  "Unlike black rhino, white rhino calves are protected by the rest of the rhino in the group."
+ ],
+ [
+  "Hippo",
+  112,
+  "How much grass does a hippo graze each night?",
+  "About 40kg",
+  "About 10kg",
+  "About 100kg",
+  "About 170kg",
+  "Hippo feed mainly at night and graze about 40kg of grass every night."
+ ],
+ [
+  "Hippo",
+  112,
+  "Which statement about hippo digestion is correct?",
+  "They are the only large non-ruminant foregut fermenters",
+  "They are hindgut fermenters like zebra",
+  "They are ruminants that chew the cud",
+  "They have a simple acid stomach",
+  "Hippo are the only large non-ruminant foregut fermenters found in Botswana."
+ ],
+ [
+  "Hippo",
+  112,
+  "Which hippo behaviours are serious warning signs, often followed by a charge?",
+  "Taking a few steps towards you and opening the mouth",
+  "Turning towards you and listening",
+  "Diving under the water",
+  "Grunting from deep water",
+  "Taking a few steps towards you and opening the mouth are serious warning signs."
+ ],
+ [
+  "Hippo",
+  112,
+  "A hippo charges while you are moving guests away on foot. What should you do?",
+  "Get to cover fast and keep clear of its path to water",
+  "Stand your ground and shout",
+  "Move between the hippo and the water",
+  "Freeze and avoid eye contact",
+  "There is no point standing your ground; get to cover and never block its path to the water."
+ ],
+ [
+  "Hippo",
+  112,
+  "According to the manual, up to how many people are killed by hippo in Africa each year?",
+  "2900",
+  "290",
+  "900",
+  "9000",
+  "Hippo kill more people than any other wild mammal, with up to 2900 killed each year in Africa."
+ ],
+ [
+  "Hippo",
+  112,
+  "What is the gestation period of a hippo?",
+  "8 months",
+  "11 months",
+  "15 months",
+  "3,5 months",
+  "Hippo calves are born after a very short gestation of only 8 months."
+ ],
+ [
+  "Hippo",
+  112,
+  "About what percentage of hippo bulls will ever hold a territory?",
+  "10%",
+  "25%",
+  "50%",
+  "80%",
+  "Only about 10% of hippo bulls will ever hold territory."
+ ],
+ [
+  "Hyaenas",
+  113,
+  "What is the major predator of buffalo?",
+  "Lion",
+  "Spotted hyaena",
+  "Crocodile",
+  "Leopard",
+  "The major predator of buffalo is lion; hyaena occasionally kill them and crocodiles take young."
+ ],
+ [
+  "Buffalo",
+  113,
+  "A serious buffalo charge often begins with which sound?",
+  "A guttural growl",
+  "A loud trumpet",
+  "A cattle-like lowing",
+  "A high-pitched squeal",
+  "Often the serious charge begins with a guttural growl."
+ ],
+ [
+  "Buffalo",
+  113,
+  "A buffalo begins a serious charge towards you and your guests. What does the manual advise?",
+  "Do not stand your ground; get your guests out",
+  "Stand your ground and clap",
+  "Lie down and stay still",
+  "Walk slowly towards it",
+  "Once a buffalo charge begins it is rarely a mock charge, so get your guests out of there."
+ ],
+ [
+  "Buffalo",
+  113,
+  "What is the gestation period of a buffalo?",
+  "11 months",
+  "8 months",
+  "15 months",
+  "22 months",
+  "Most mating is in February and a single calf is born after 11 months."
+ ],
+ [
+  "Buffalo",
+  113,
+  "What are 'dagga boys'?",
+  "Old buffalo bulls that stay together",
+  "Young buffalo calves",
+  "Dominant bulls in the breeding herd",
+  "Female buffalo without calves",
+  "Old bulls, or \"dagga boys\", tend to stay with other old bulls."
+ ],
+ [
+  "Buffalo",
+  113,
+  "How can the age of a buffalo be estimated?",
+  "By horn growth and how sparse the coat is",
+  "By counting rings on the hooves",
+  "By the colour of the eyes",
+  "By the length of the tail",
+  "Horns keep growing and the coat becomes sparser with age, so these features can be used to estimate age."
+ ],
+ [
+  "Lion",
+  113,
+  "What is a lion's best sense?",
+  "Sight",
+  "Smell",
+  "Hearing",
+  "Touch",
+  "A lion's best sense is its sight and it will immediately stare at any disturbance."
+ ],
+ [
+  "Lion",
+  113,
+  "Which are early warning signs from a lion?",
+  "Body flattened, ears back and tail flicking",
+  "Head high and ears forward",
+  "Ears spread and trumpeting",
+  "Bobbing and jumping while growling",
+  "Early warning signs include flattening the body in a crouch, ears back and tail flicking."
+ ],
+ [
+  "Lion",
+  113,
+  "On foot, a lion becomes aware of you. What should you do first?",
+  "Stand your ground and let the lion react",
+  "Move away immediately",
+  "Run to the nearest tree",
+  "Point it out to the guests",
+  "Do not move away immediately; stand your ground and allow the lion to react."
+ ],
+ [
+  "Lion",
+  113,
+  "When should you retreat during a lion encounter on foot?",
+  "After the lion's reaction is over and it has settled",
+  "As soon as you see the lion",
+  "While the lion is charging",
+  "When the lion turns its back on you",
+  "Wait until the lion's initial reaction is over and it has settled down before retreating."
+ ],
+ [
+  "Lion",
+  113,
+  "What is the gestation period of a lion?",
+  "3,5 months",
+  "2,5 months",
+  "6 months",
+  "8 months",
+  "Lionesses usually have 2-3 cubs after a gestation of 3,5 months."
+ ],
+ [
+  "Lion",
+  114,
+  "At what age are male lions evicted from the pride?",
+  "2-4 years",
+  "6-8 years",
+  "10-12 years",
+  "Under 1 year",
+  "Males are evicted from the pride between 2-4 years of age."
+ ],
+ [
+  "Lion",
+  114,
+  "Why do male lions often form coalitions?",
+  "Two medium-strength males can beat one strong male",
+  "They hunt only large prey",
+  "Females prefer large groups",
+  "It stops cubs being killed by hyaena",
+  "Two medium-strength lions can often defeat one very powerful and experienced lion."
+ ],
+ [
+  "Lion",
+  114,
+  "Which statement about lion vocalisation is correct?",
+  "Lions cannot purr",
+  "The roar is heard up to 1km away",
+  "Lions only roar alone",
+  "Lions make a bird-like chirp",
+  "The roar is over 110 decibels and heard from at least 5km; lions grunt, growl and snarl but cannot purr."
+ ],
+ [
+  "Leopard",
+  114,
+  "You are on foot and close to a leopard that your guests have not seen. What should you do?",
+  "Do not point it out and quietly leave",
+  "Point it out so guests can watch",
+  "Walk closer for a better view",
+  "Stare at it to keep it calm",
+  "If guests may not spot it, do not point it out; a leopard that feels unseen will not react aggressively."
+ ],
+ [
+  "Leopard",
+  114,
+  "If a leopard charges, what does the manual advise?",
+  "Stand still and avoid direct eye contact",
+  "Run diagonally away",
+  "Stare at it and shout",
+  "Lie flat on the ground",
+  "If a charge results, stand still and avoid direct eye contact until it is over, then continue retreating."
+ ],
+ [
+  "Leopard",
+  114,
+  "How should you retreat from a leopard giving warning signs?",
+  "Back off, preferably at an angle",
+  "Turn and run in a straight line",
+  "Walk directly towards it",
+  "Stay still until it leaves",
+  "Immediately begin backing off, preferably at an angle (diagonally away from the cat)."
+ ],
+ [
+  "Leopard",
+  114,
+  "How long are a leopard cub's eyes closed after birth?",
+  "The first 10 days",
+  "The first 2 days",
+  "The first month",
+  "The first 3 months",
+  "Cubs weigh about 300-500g at birth and their eyes are closed for the first 10 days."
+ ],
+ [
+  "Leopard",
+  114,
+  "Leopard territorial calling is described as sounding like what?",
+  "Someone cutting wood with a rough saw",
+  "A bird-like chirp",
+  "A whooping call",
+  "Cattle lowing",
+  "Leopard vocalise with a harsh rasping sound like someone cutting wood with a rough saw."
+ ],
+ [
+  "Cheetah",
+  115,
+  "What top speed can a cheetah reach?",
+  "Over 100km/hr",
+  "About 60km/hr",
+  "About 80km/hr",
+  "About 50km/hr",
+  "Cheetah reach over 100km/hr and accelerate from 0-100km/hr in 3 seconds."
+ ],
+ [
+  "Cheetah",
+  115,
+  "How does a cheetah usually react to people on foot if it has an escape route?",
+  "It runs away",
+  "It charges",
+  "It stalks them",
+  "It stands its ground",
+  "Unless cornered, a cheetah will never attack a human and will run if it has an escape route."
+ ],
+ [
+  "Cheetah",
+  115,
+  "What is the gestation period of a cheetah?",
+  "3 months",
+  "2 months",
+  "4,5 months",
+  "6 months",
+  "A litter of about 4 kittens is born after 3 months, weighing about 250g."
+ ],
+ [
+  "Cheetah",
+  115,
+  "Which call is typical of the cheetah?",
+  "A bird-like chirp",
+  "A rasping cough",
+  "A whooping call",
+  "A loud HOOO HOOO",
+  "Cheetah make a bird-like chirp heard for several hundred metres."
+ ],
+ [
+  "Wild dog",
+  115,
+  "What is the hunting style of the wild dog called?",
+  "Coursing",
+  "Ambushing",
+  "Stalk and pounce",
+  "Pasting",
+  "Wild dog hunting is called coursing: they walk towards prey and run it down when it flees."
+ ],
+ [
+  "Wild dog",
+  115,
+  "What is the average wild dog pack size in Botswana?",
+  "8-10",
+  "2-3",
+  "20-30",
+  "Over 50",
+  "Wild dog are gregarious and pack size in Botswana is on average 8-10."
+ ],
+ [
+  "Wild dog",
+  115,
+  "Which statement about wild dog and people on foot is correct?",
+  "They always flee and pose no threat",
+  "They often charge people",
+  "They stalk people at night",
+  "They attack if you stand still",
+  "Wild dog will always flee from humans and pose no threat to people on foot."
+ ],
+ [
+  "Wild dog",
+  115,
+  "When do wild dogs breed in Botswana?",
+  "In winter",
+  "In summer",
+  "In spring",
+  "All year round",
+  "In Botswana wild dog breed in winter, mating around April and denning around June."
+ ],
+ [
+  "Wild dog",
+  116,
+  "On average, how many pups does a wild dog female give birth to?",
+  "10",
+  "2",
+  "5",
+  "15",
+  "After a gestation of 2,5 months the female gives birth to an average of 10 pups."
+ ],
+ [
+  "Wild dog",
+  116,
+  "Which wild dog call is used to regroup after a hunt?",
+  "A loud HOOO HOOO",
+  "An excited twitter",
+  "A rasping cough",
+  "A bird-like chirp",
+  "The loud HOOO HOOO call is given when trying to regroup after a hunt."
+ ],
+ [
+  "Hyaenas",
+  116,
+  "When is the peak breeding time for spotted hyaena?",
+  "December/January",
+  "June/July",
+  "March/April",
+  "September/October",
+  "Hyaena breed all year but peak in December/January when young antelope are abundant."
+ ],
+ [
+  "Hyaenas",
+  116,
+  "What colour are spotted hyaena cubs?",
+  "Black",
+  "Spotted",
+  "Brown with stripes",
+  "Grey",
+  "Cubs are black; spotting begins to emerge on the flanks by 4 months."
+ ],
+ [
+  "Hyaenas",
+  116,
+  "Spotted hyaena use 'pasting' to mark territory. What is pasted, and where?",
+  "Anal pouch scent on grass stems",
+  "Urine on tree trunks",
+  "Dung on bushes",
+  "Saliva on rocks",
+  "Pasting is done on grass stems using the anal pouch."
+ ],
+ [
+  "Hyaenas",
+  117,
+  "Which statement about brown hyaena is correct?",
+  "They are totally independent of surface water",
+  "They hunt more than they scavenge",
+  "They live in a matriarchal clan",
+  "They are active mainly by day",
+  "Brown hyaena are totally independent of surface water and are nocturnal scavengers that seldom hunt."
+ ],
+ [
+  "Hyaenas",
+  117,
+  "Why does brown hyaena breeding suit the Kalahari's harshest time?",
+  "Many animals die then, giving plenty of food",
+  "There is more water at that time",
+  "Predators are less active then",
+  "Grass is greenest at that time",
+  "Births coincide with the harshest time, when many animals die, providing plentiful food for scavengers."
+ ],
+ [
+  "Hyaenas",
+  117,
+  "With whom do brown hyaena females frequently breed?",
+  "Nomadic males",
+  "Only the dominant clan male",
+  "Males from spotted hyaena clans",
+  "Their own brothers",
+  "Breeding is frequently not with males of the clan but with nomadic males."
+ ],
+ [
+  "Large herbivores",
+  117,
+  "According to the large herbivore table, what does a male giraffe weigh on average?",
+  "1200kg",
+  "820kg",
+  "320kg",
+  "2000kg",
+  "The table gives giraffe males 1200kg and females 820kg."
+ ],
+ [
+  "Large herbivores",
+  118,
+  "What is the gestation period of a giraffe?",
+  "15 months",
+  "8,5 months",
+  "11 months",
+  "22 months",
+  "A single giraffe calf is born after a 15 month gestation, with a birth drop of about 2 metres."
+ ],
+ [
+  "Large herbivores",
+  118,
+  "Why is a young giraffe moved after almost every feed?",
+  "So the scent of lactation does not attract predators",
+  "So it learns to walk",
+  "So it can find better browse",
+  "So the herd can find it",
+  "The calf is moved so that the scent of lactation does not linger and attract predators."
+ ],
+ [
+  "Large herbivores",
+  118,
+  "How do male giraffe change with age?",
+  "They become darker and develop lumps on the head",
+  "They become paler and lose their ossicones",
+  "Their spots become larger and rounder",
+  "Their necks become shorter",
+  "Males become darker with age and develop lumps on the head from calcium deposits."
+ ],
+ [
+  "Large herbivores",
+  118,
+  "When fleeing from predators, where does the zebra stallion position himself?",
+  "At the back, between the group and the predator",
+  "At the front, leading the group",
+  "In the middle, among the foals",
+  "Far away from the group",
+  "The stallion drops to the back and stays between the group and the predator, kicking out."
+ ],
+ [
+  "Large herbivores",
+  118,
+  "How does a young zebra stallion start his own harem?",
+  "He steals a filly on heat from another herd",
+  "He fights the old stallion to the death",
+  "He waits for his mother's herd",
+  "Mares choose him at a lek",
+  "A stallion ready to compete steals a filly on heat from another male's herd."
+ ],
+ [
+  "Large herbivores",
+  118,
+  "What percentage of zebra oestrus happens in summer?",
+  "80%",
+  "25%",
+  "50%",
+  "100%",
+  "Mares come into oestrus all year but 80% of the time it happens in summer."
+ ],
+ [
+  "Large herbivores",
+  119,
+  "What is the typical call of the plains zebra?",
+  "HWO-HWHOOOP",
+  "HOOO HOOO",
+  "Nyaaa-aa-aa",
+  "A rasping cough",
+  "Zebra give the typical call \"HWO-HWHOOOP\" repeated several times, and a horse-like snort."
+ ],
+ [
+  "Large herbivores",
+  119,
+  "How often must blue wildebeest drink?",
+  "At least every second day",
+  "Once a week",
+  "Three times a day",
+  "Only in the wet season",
+  "Blue wildebeest are water dependent and must drink at least every second day."
+ ],
+ [
+  "Large herbivores",
+  119,
+  "What is a 'pulse-birth', as seen in wildebeest?",
+  "All calves are born in a very short space of time",
+  "Calves are born every month",
+  "Calves are born at night only",
+  "Each cow has twins",
+  "In a pulse-birth all calves are born in a short time so predators cannot eat them all."
+ ],
+ [
+  "Large herbivores",
+  119,
+  "What is the gestation period of the blue wildebeest?",
+  "8,5 months",
+  "7,5 months",
+  "9 months",
+  "11 months",
+  "Mating is in March/April and a calf is born in November/December after 8,5 months."
+ ],
+ [
+  "Large herbivores",
+  119,
+  "What is the wildebeest's only defence against lions?",
+  "Their speed",
+  "Their horns",
+  "Forming a circle",
+  "Hiding in thickets",
+  "Wildebeest can defend against smaller predators in a group, but speed (up to 80km/hr) is their only defence against lions."
+ ],
+ [
+  "Large herbivores",
+  119,
+  "How does a lone oryx defend itself?",
+  "Backs into a thorn-bush and lowers its horns",
+  "Runs into deep water",
+  "Lies flat in long grass",
+  "Climbs onto a termite mound",
+  "When alone, oryx reverse into a thorn-bush and lower the head, facing horns at the attacker."
+ ],
+ [
+  "Large herbivores",
+  119,
+  "What do oryx often dig for?",
+  "Bulbs and tubers",
+  "Insects",
+  "Salt",
+  "Water",
+  "Oryx are ruminant grazers but frequently dig for bulbs and tubers and occasionally browse."
+ ],
+ [
+  "Large herbivores",
+  120,
+  "What is the main defence of waterbuck when attacked?",
+  "Running through water",
+  "Climbing rocky hills",
+  "Hiding in thick bush",
+  "Forming a circle",
+  "Their main defence is running through water; males also use their horns."
+ ],
+ [
+  "Large herbivores",
+  120,
+  "What does the manual say about the idea that waterbuck smell makes their meat distasteful?",
+  "There is no evidence to support it",
+  "It has been proven true",
+  "It only applies to males",
+  "It only protects the calves",
+  "There is no evidence for this, and waterbuck are often victims of predation."
+ ],
+ [
+  "Large herbivores",
+  120,
+  "In large, highly mobile herds, what breeding system do red lechwe males use?",
+  "A lek",
+  "A harem",
+  "Synchronised oestrus",
+  "Cooperative breeding",
+  "In small sedentary herds males are territorial, but in large mobile herds males use a lek."
+ ],
+ [
+  "Large herbivores",
+  120,
+  "When is the peak breeding season for red lechwe in the Okavango?",
+  "March/April",
+  "January/February",
+  "June/July",
+  "October/November",
+  "Peak breeding is January/February in Linyanti and March/April in the Okavango."
+ ],
+ [
+  "Large herbivores",
+  120,
+  "Up to how many times a day do red lechwe drink?",
+  "3",
+  "1",
+  "5",
+  "10",
+  "Lechwe are water dependent and drink up to 3 times a day."
+ ],
+ [
+  "Large herbivores",
+  121,
+  "Up to what percentage of kudu browsing may be done at night?",
+  "40%",
+  "10%",
+  "60%",
+  "80%",
+  "Kudu are mainly diurnal browsers but up to 40% of browsing may be done at night."
+ ],
+ [
+  "Large herbivores",
+  121,
+  "How are most disputes between kudu bulls settled?",
+  "By posturing",
+  "By serious fighting",
+  "By roaring",
+  "By scent marking",
+  "Fighting between kudu bulls is rare and most disputes over cows are settled by posturing."
+ ],
+ [
+  "Large herbivores",
+  121,
+  "By what age have a kudu bull's horns reached about 2½ turns?",
+  "6 years",
+  "6 months",
+  "2 years",
+  "12 years",
+  "The horn completes its first spiral at 2 years and has 2½ turns by 6."
+ ],
+ [
+  "Large herbivores",
+  121,
+  "What does the kudu alarm call sound like?",
+  "A loud, almost baboon-like bark",
+  "A soft whistle",
+  "A deep roar",
+  "A high squeal",
+  "The kudu alarm bark is loud and almost baboon-like."
+ ],
+ [
+  "Large herbivores",
+  121,
+  "Impala are described as 'intermediate feeders'. What does this mean?",
+  "They prefer fresh grass but switch to browse",
+  "They only browse",
+  "They only graze",
+  "They eat both meat and plants",
+  "Impala prefer grass when fresh and switch to browse when crude protein in the grass gets low."
+ ],
+ [
+  "Large herbivores",
+  121,
+  "Why are a herd's impala ewes covered by 3 or 4 strong males during the rut?",
+  "One ram cannot keep up the effort for 3 weeks",
+  "Ewes reject territorial rams",
+  "Rams share territories",
+  "Only bachelor males mate",
+  "A ram cannot sustain the energy needed for the full 3 week rut, so the 3 or 4 strongest males cover the ewes."
+ ],
+ [
+  "Large herbivores",
+  121,
+  "When are impala fawns dropped in a pulse-birth?",
+  "November",
+  "April",
+  "July",
+  "February",
+  "Impala fawns are dropped in a pulse-birth in November."
+ ],
+ [
+  "Medium to small mammals",
+  121,
+  "What method of hunting does the caracal use?",
+  "Stalk and pounce",
+  "Coursing",
+  "Endurance running",
+  "Digging prey out",
+  "Caracal are solitary, mainly nocturnal predators with a stalk and pounce method of hunting."
+ ],
+ [
+  "Medium to small mammals",
+  121,
+  "What is the gestation period of a caracal?",
+  "80 days",
+  "70 days",
+  "2 months",
+  "160 days",
+  "After a gestation of 80 days an average of 2 cubs are born."
+ ],
+ [
+  "Medium to small mammals",
+  122,
+  "What are the serval's massive ears adapted for?",
+  "Hunting in long grass and swamps",
+  "Keeping the body cool",
+  "Hearing distant lions",
+  "Signalling to other servals",
+  "The massive ears are adapted for hunting in long grass and swampy habitats where visibility is poor."
+ ],
+ [
+  "Medium to small mammals",
+  122,
+  "What is the gestation period of a serval?",
+  "70 days",
+  "80 days",
+  "3 months",
+  "6 months",
+  "Peak breeding is in late summer, when 2-3 kittens are born after a gestation of 70 days."
+ ],
+ [
+  "Medium to small mammals",
+  122,
+  "What is a major threat to the African wildcat?",
+  "Inter-breeding with feral cats",
+  "Poaching for skins",
+  "Competition with lions",
+  "Loss of water sources",
+  "Genetic pollution through inter-breeding with feral cats is a major threat."
+ ],
+ [
+  "Medium to small mammals",
+  122,
+  "What is the first sign that an African wildcat population has been affected by inter-breeding?",
+  "Loss of the reddish colour behind the ears",
+  "A longer tail",
+  "Loss of spots on the legs",
+  "A larger body size",
+  "The first sign is when they lose the reddish colour behind the ears."
+ ],
+ [
+  "Medium to small mammals",
+  122,
+  "Where are African wildcat kittens usually born?",
+  "In disused springhare or aardvark burrows",
+  "In termite mounds",
+  "In tree hollows",
+  "In reed beds",
+  "An average of 3 kittens are usually born in disused springhare or aardvark burrows."
+ ],
+ [
+  "Medium to small mammals",
+  122,
+  "What do spotted-necked otters mainly feed on?",
+  "Small fish and crabs",
+  "Frogs and snails",
+  "Birds and eggs",
+  "Rodents and insects",
+  "Spotted-necked otter are aquatic predators feeding mainly on small fish and crabs."
+ ],
+ [
+  "Medium to small mammals",
+  122,
+  "Under which CITES appendix is the spotted-necked otter protected?",
+  "Appendix 2",
+  "Appendix 1",
+  "Appendix 3",
+  "Appendix 4",
+  "The spotted-necked otter is protected under CITES Appendix 2."
+ ],
+ [
+  "Medium to small mammals",
+  123,
+  "What does the black and white colouring of the honey badger signal?",
+  "A warning not to attack it (aposematic)",
+  "Camouflage at night",
+  "Its breeding condition",
+  "Its rank in the group",
+  "The black and white colouring is aposematic - a warning to other animals not to engage."
+ ],
+ [
+  "Medium to small mammals",
+  123,
+  "How does loose skin help a honey badger in a fight?",
+  "It can turn and bite an attacker holding its neck",
+  "It stops thorns cutting it",
+  "It keeps it cool",
+  "It lets it squeeze into burrows",
+  "The loose skin lets the badger turn in its skin and bite the face and neck of the attacker."
+ ],
+ [
+  "Medium to small mammals",
+  123,
+  "What does the honey badger use as a secondary defence?",
+  "Bad-smelling fluid from anal pouches",
+  "Loud screaming calls",
+  "Spines on its back",
+  "Playing dead",
+  "A pair of anal pouches release a very unpleasant-smelling fluid used as a secondary defence."
+ ],
+ [
+  "Medium to small mammals",
+  123,
+  "How do black-backed jackal live?",
+  "In pairs that share a territory",
+  "In large packs of 8-10",
+  "Alone with no territory",
+  "In matriarchal clans",
+  "Jackals live in pairs and share a territory, chasing other jackal away."
+ ],
+ [
+  "Medium to small mammals",
+  123,
+  "How long does a black-backed jackal live in the wild?",
+  "About 6 years",
+  "About 12 years",
+  "About 20 years",
+  "About 2 years",
+  "Jackal pups disperse before one year old and live to about 6 years in the wild."
+ ],
+ [
+  "Medium to small mammals",
+  123,
+  "What is special about the bat-eared fox's diet?",
+  "It is the only mainly insectivorous canid",
+  "It only eats fruit",
+  "It mostly eats carrion",
+  "It mainly hunts birds",
+  "Bat-eared fox are the only primarily insectivorous canid."
+ ],
+ [
+  "Medium to small mammals",
+  123,
+  "How many teeth can a bat-eared fox have?",
+  "Over 50",
+  "About 20",
+  "About 32",
+  "About 42",
+  "The bat-eared fox can have in excess of 50 teeth, more than any other African land mammal."
+ ],
+ [
+  "Medium to small mammals",
+  123,
+  "When is the bat-eared fox mostly active?",
+  "By day in winter and by night in summer",
+  "By night all year",
+  "By day all year",
+  "Only at dawn and dusk",
+  "They are predominantly diurnal in winter and nocturnal in summer."
+ ],
+ [
+  "Medium to small mammals",
+  124,
+  "Why is the slender mongoose often mobbed by starlings and other birds?",
+  "It climbs trees to forage for nesting birds",
+  "It steals food from bird feeders",
+  "It hunts in large groups",
+  "It lives in bird nests",
+  "It is the best climber of the mongooses and forages in trees for nesting birds."
+ ],
+ [
+  "Medium to small mammals",
+  124,
+  "Where do groups of dwarf mongoose usually live?",
+  "In disused termite mounds",
+  "In hollow trees",
+  "In rocky caves",
+  "In reed beds",
+  "Dwarf mongoose groups usually live in disused termite mounds."
+ ],
+ [
+  "Medium to small mammals",
+  124,
+  "In dwarf mongoose groups, what is 'allo parenting'?",
+  "Group members other than the parents baby-sit the young",
+  "Both parents feeding the young",
+  "Young being raised by another species",
+  "Parents leaving the young alone",
+  "Often it is not the parents that baby-sit the young while the group forages - this is allo parenting."
+ ],
+ [
+  "Medium to small mammals",
+  124,
+  "What is the maximum group size given for dwarf mongoose?",
+  "Up to 30",
+  "Up to 5",
+  "Up to 10",
+  "Up to 100",
+  "Dwarf mongoose are social and live in groups of up to 30 members."
+ ],
+ [
+  "Medium to small mammals",
+  124,
+  "Hares re-eat soft green pellets to help digest grass. What is this called?",
+  "Coprophagy",
+  "Osteophagy",
+  "Rumination",
+  "Lactation",
+  "Re-eating soft pellets is called coprophagy; it lets hares extract elements such as vitamin B."
+ ],
+ [
+  "Medium to small mammals",
+  124,
+  "When is the peak breeding season of the savanna (scrub) hare?",
+  "December to March",
+  "June to August",
+  "April to May",
+  "September to October",
+  "Peak breeding is December to March and an average of 2 young are born."
+ ],
+ [
+  "Medium to small mammals",
+  125,
+  "Vervet monkeys have different alarm calls for different threats. Which three does the manual list?",
+  "Terrestrial predator, bird of prey and python",
+  "Lion, leopard and hyaena",
+  "Humans, dogs and snakes",
+  "Eagles, owls and vultures",
+  "Vervets give different alarm calls for a terrestrial predator, a bird of prey or a python."
+ ],
+ [
+  "Medium to small mammals",
+  125,
+  "What is the gestation period of a vervet monkey?",
+  "About 160 days",
+  "About 70 days",
+  "About 80 days",
+  "About 9 months",
+  "Vervets have a single young at any time of year after about 160 days."
+ ],
+ [
+  "Medium to small mammals",
+  125,
+  "In vervet and baboon troops, which animals stay in their troop of birth?",
+  "Females",
+  "Males",
+  "Only dominant males",
+  "Only juveniles",
+  "Troops are female-bonded; males disperse from troop to troop and females stay in their birth troop."
+ ],
+ [
+  "Medium to small mammals",
+  125,
+  "When a chacma baboon troop is feeding, where do dominant males tend to move?",
+  "Near the front of the troop",
+  "In the middle of the troop",
+  "At the back of the troop",
+  "On the outer edges",
+  "Dominant males move near the front, dominant females in the middle and low-ranking males at the back."
+ ],
+ [
+  "Medium to small mammals",
+  125,
+  "What is the gestation period of the chacma baboon?",
+  "6 months",
+  "3 months",
+  "9 months",
+  "11 months",
+  "Baboon gestation is 6 months and a single young is born; breeding is all year."
+ ]
+]

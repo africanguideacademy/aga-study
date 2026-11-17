@@ -29,6 +29,17 @@
     stop: '<rect x="7" y="7" width="10" height="10" rx="1.5" fill="currentColor" stroke="none"/>',
     phone: '<rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M11 18.5h2"/>',
     bolt: '<path d="M13 2.5 5 13.5h6l-1 8 8-11h-6z"/>',
+    // subject icons for the manual chapters
+    compass: '<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/>',
+    star: '<path d="m12 3 2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.4 6.7 19.4l1.2-6L3.4 9.3l6-.7z"/>',
+    mountain: '<path d="m3 20 6.5-11 4 6.5 2.5-4L21 20z"/>',
+    cloud: '<path d="M7 18h10a4 4 0 0 0 .5-8A6 6 0 0 0 6 9.5 4.3 4.3 0 0 0 7 18z"/>',
+    cycle: '<path d="M20 12a8 8 0 0 1-14 5.3M4 12A8 8 0 0 1 18 6.7"/><path d="M18 3v4h-4M6 21v-4h4"/>',
+    leaf: '<path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19 14 10"/>',
+    bug: '<ellipse cx="12" cy="13" rx="5" ry="7"/><path d="M12 6V3M9 4 7 2M15 4l2-2M7 10H3M17 10h4M7 15H3M17 15h4M12 6v14"/>',
+    snake: '<path d="M4 18c3 0 3-4 6-4s3 4 6 4 4-2 4-5-2-5-5-5H9a3 3 0 0 1 0-6h7"/>',
+    paw: '<circle cx="7" cy="9" r="2"/><circle cx="12" cy="6" r="2"/><circle cx="17" cy="9" r="2"/><path d="M8 17c0-3 2-5 4-5s4 2 4 5a2.5 2.5 0 0 1-4 2 2.5 2.5 0 0 1-4-2z"/>',
+    scale: '<path d="M12 3v18M5 7h14M7 7l-3 7a3 3 0 0 0 6 0zM17 7l-3 7a3 3 0 0 0 6 0zM8 21h8"/>',
     book: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/>',
     list: '<path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/>',
   };
@@ -231,7 +242,16 @@
     { id: 'amphibians', title: 'Amphibians', noun: 'frog', blurb: 'Frogs - calls and manual questions', photo: 'media/frogs/f-angolan-reed-frog.jpg',
       calls: 'frog-calls', manual: 'q-amphibians' },
   ];
-  const COMING_SOON = ['Mammals', 'Plants', 'Reptiles', 'Arthropods', 'Ecology', 'Geology', 'Astronomy', 'Guiding principles'];
+  // Every other manual chapter that has questions becomes its own (manual-only) subject automatically.
+  const CHAPTER_ICON = { 'Guiding Principles': 'compass', 'Astronomy': 'star', 'Geology': 'mountain', 'Weather and Climate': 'cloud', 'Ecology': 'cycle',
+    'Plants': 'leaf', 'Arthropods': 'bug', 'Reptiles': 'snake', 'Mammals': 'paw', 'Tourism and Legislation': 'scale' };
+  DATA.modules.filter(m => m.kind === 'questions' && !SUBJECTS.some(s => s.manual === m.id)).forEach(m => {
+    const ch = m.chapter || m.title.replace(/ - manual$/, '');
+    SUBJECTS.push({ id: m.id.replace(/^q-/, ''), title: ch, noun: 'answer', blurb: `${m.items.length} questions from the manual`, photo: m.photo || '',
+      icon: CHAPTER_ICON[ch] || 'book', manual: m.id, compact: true });
+  });
+  const ALL_CHAPTERS = ['Guiding Principles', 'Astronomy', 'Geology', 'Weather and Climate', 'Ecology', 'Plants', 'Arthropods', 'Reptiles', 'Mammals', 'Tourism and Legislation'];
+  const COMING_SOON = ALL_CHAPTERS.filter(c => !SUBJECTS.some(s => s.title === c));
   const photoSetsOf = s => (s.photoSets || [s.photos]).filter(id => id && modById(id) && modById(id).items.length);
   // the photo set chosen in the subject's "Bird list" setting (first one by default)
   const currentPhotoMod = s => { const ids = photoSetsOf(s); const want = (settings.photoSet || {})[s.id]; return modById(ids.includes(want) ? want : ids[0]); };
@@ -256,7 +276,13 @@
     chrome({ tab: 'home' });
     const fg = modById('fgasa80');
     const heroPhoto = shuffle(fg.items.filter(i => i.photo))[0].photo;
-    const tiles = SUBJECTS.filter(s => subjectMods(s).length).map(s => {
+    // big photo tiles for the media subjects (Birds, Amphibians); compact icon tiles for manual-only chapters
+    const compactTiles = SUBJECTS.filter(s => s.compact && subjectMods(s).length).map(s => {
+      const { d, n, pr } = subjectProgress(s);
+      return `<a class="card subject-sm" href="#/s/${s.id}"><div class="tile-ico">${icon(s.icon || 'book')}</div>
+        <strong>${esc(s.title)}</strong>${progBar(pr, d, n)}<span class="small">${pr ? `${pr}/${n} practised` : `${n} questions`}</span></a>`;
+    }).join('');
+    const tiles = SUBJECTS.filter(s => !s.compact && subjectMods(s).length).map(s => {
       const { d, n, pr } = subjectProgress(s);
       return `<a class="card subject" href="#/s/${s.id}">
         <div class="subject-img" style="background-image:url('${esc(s.photo)}')"></div>
@@ -276,7 +302,8 @@
       </section>
       <div class="section-title">Subjects</div>
       <div class="subject-list">${tiles}</div>
-      <div class="card coming"><div class="small" style="margin-bottom:8px">Coming soon</div><div class="soon-wrap">${soon}</div></div>
+      ${compactTiles ? `<div class="section-title">Manual chapters</div><div class="subject-grid">${compactTiles}</div>` : ''}
+      ${COMING_SOON.length ? `<div class="card coming"><div class="small" style="margin-bottom:8px">Coming soon</div><div class="soon-wrap">${soon}</div></div>` : ''}
       ${nudge}${footer()}`);
   }
 
@@ -314,7 +341,8 @@
     const matchMod = pm || cm; // call-to-photo uses the photo module if there is one, else calls that have photos
     const noun = s.noun || 'bird';
 
-    show(`<section class="mod-head" style="background-image:url('${esc(s.photo)}')">
+    show(`<section class="mod-head${s.photo ? '' : ' plain'}" style="${s.photo ? `background-image:url('${esc(s.photo)}')` : ''}">
+        ${s.photo ? '' : `<div class="head-ico">${icon(s.icon || 'book')}</div>`}
         <h1>${esc(s.title)}</h1><p>${esc(s.blurb)}</p>
         ${progBar(pr, d, n)}
         <div class="bar-label"><span>${pr} of ${n} practised &middot; ${d} mastered</span><span>${pct(d, n)}%</span></div>

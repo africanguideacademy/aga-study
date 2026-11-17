@@ -245,13 +245,16 @@ function questionModules(includeDrafts) {
     ex: r[col('Explanation')], status: (r[col('Status')] || 'Draft').trim(),
   })).filter(x => x.id && x.q && x.a && x.w.length >= 1)
     .filter(x => x.status === 'Approved' || (includeDrafts && x.status !== 'Rejected'));
-  return [...new Set(qs.map(x => x.chapter))].map(ch => {
+  // manual chapter order (Birds/Amphibians first as they have their own subjects)
+  const ORDER = ['Birds', 'Amphibians', 'Guiding Principles', 'Astronomy', 'Geology', 'Weather and Climate', 'Ecology', 'Plants', 'Arthropods', 'Reptiles', 'Mammals', 'Tourism and Legislation'];
+  const rank = c => { const i = ORDER.indexOf(c); return i < 0 ? 99 : i; };
+  return [...new Set(qs.map(x => x.chapter))].sort((a, b) => rank(a) - rank(b)).map(ch => {
     const items = qs.filter(x => x.chapter === ch).map(x => {
       const o = { id: x.id, q: x.q, a: x.a, w: x.w, ex: x.ex, group: x.group, page: x.page };
       if (x.status !== 'Approved') o.draft = true;
       return o;
     });
-    return { id: 'q-' + slug(ch), kind: 'questions', title: ch + ' - manual', photo: CHAPTER_PHOTO[ch] || '',
+    return { id: 'q-' + slug(ch), kind: 'questions', chapter: ch, title: ch + ' - manual', photo: CHAPTER_PHOTO[ch] || '',
       subtitle: `${items.length} questions from the Botswana Guide Training Manual`, items };
   });
 }
