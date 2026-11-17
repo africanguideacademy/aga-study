@@ -5,6 +5,7 @@ window.AGA_DATA = {
   {
    "id": "fgasa80",
    "title": "Bird photos (FGASA 80)",
+   "short": "FGASA 80 savanna birds",
    "subtitle": "Photos and calls of the 80 core savanna birds",
    "items": [
     {
@@ -614,6 +615,838 @@ window.AGA_DATA = {
      "photo": "media/birds/common-whitethroat.jpg",
      "call": "media/calls/b-common-whitethroat.mp3",
      "bytes": 141731
+    }
+   ]
+  },
+  {
+   "id": "prominent40",
+   "title": "40 Prominent Birds (manual)",
+   "short": "40 Prominent (manual)",
+   "subtitle": "The 40 prominent birds from the BQA presentation and manual",
+   "items": [
+    {
+     "id": "prominent-ostrich",
+     "name": "Ostrich",
+     "group": "Ostrich",
+     "photo": "media/prominent40/ostrich.jpg",
+     "call": "media/prominent40/ostrich.mp3",
+     "bytes": 78938
+    },
+    {
+     "id": "prominent-swainsons-spurfowl",
+     "name": "Swainson's Spurfowl",
+     "group": "Spurfowl",
+     "photo": "media/prominent40/swainsons-spurfowl.jpg",
+     "call": "media/prominent40/swainsons-spurfowl.mp3",
+     "bytes": 166922
+    },
+    {
+     "id": "prominent-red-billed-spurfowl",
+     "name": "Red-billed Spurfowl",
+     "group": "Spurfowl",
+     "photo": "media/prominent40/red-billed-spurfowl.jpg",
+     "call": "media/prominent40/red-billed-spurfowl.mp3",
+     "bytes": 121578
+    },
+    {
+     "id": "prominent-helmeted-guineafowl",
+     "name": "Helmeted Guineafowl",
+     "group": "Guineafowl",
+     "photo": "media/prominent40/helmeted-guineafowl.jpg",
+     "call": "media/prominent40/helmeted-guineafowl.mp3",
+     "bytes": 115130
+    },
+    {
+     "id": "prominent-white-faced-duck",
+     "name": "White-faced Duck",
+     "group": "Duck",
+     "photo": "media/prominent40/white-faced-duck.jpg",
+     "call": "media/prominent40/white-faced-duck.mp3",
+     "bytes": 125428
+    },
+    {
+     "id": "prominent-spur-winged-goose",
+     "name": "Spur-winged Goose",
+     "group": "Goose",
+     "photo": "media/prominent40/spur-winged-goose.jpg",
+     "call": "media/prominent40/spur-winged-goose.mp3",
+     "bytes": 137282
+    },
+    {
+     "id": "prominent-egyptian-goose",
+     "name": "Egyptian Goose",
+     "group": "Goose",
+     "photo": "media/prominent40/egyptian-goose.jpg",
+     "call": "media/prominent40/egyptian-goose.mp3",
+     "bytes": 95786
+    },
+    {
+     "id": "prominent-greater-honeyguide",
+     "name": "Greater Honeyguide",
+     "group": "Honeyguide",
+     "photo": "media/prominent40/greater-honeyguide.jpg",
+     "call": "media/prominent40/greater-honeyguide.mp3",
+     "bytes": 126050
+    },
+    {
+     "id": "prominent-bennetts-woodpecker",
+     "name": "Bennett's Woodpecker",
+     "group": "Woodpecker",
+     "photo": "media/prominent40/bennetts-woodpecker.jpg",
+     "call": "media/prominent40/bennetts-woodpecker.mp3",
+     "bytes": 83554
+    },
+    {
+     "id": "prominent-southern-yellow-billed-hornbill",
+     "name": "Southern Yellow-billed Hornbill",
+     "group": "Hornbill",
+     "photo": "media/prominent40/southern-yellow-billed-hornbill.jpg",
+     "call": "media/prominent40/southern-yellow-billed-hornbill.mp3",
+     "bytes": 126986
+    },
+    {
+     "id": "prominent-southern-ground-hornbill",
+     "name": "Southern Ground Hornbill",
+     "group": "Hornbill",
+     "photo": "media/prominent40/southern-ground-hornbill.jpg",
+     "call": "media/prominent40/southern-ground-hornbill.mp3",
+     "bytes": 133226
+    },
+    {
+     "id": "prominent-african-hoopoe",
+     "name": "African Hoopoe",
+     "group": "Hoopoe",
+     "photo": "media/prominent40/african-hoopoe.jpg",
+     "call": "media/prominent40/african-hoopoe.mp3",
+     "bytes": 116378
+    },
+    {
+     "id": "prominent-lilac-breasted-roller",
+     "name": "Lilac-breasted Roller",
+     "group": "Roller",
+     "photo": "media/prominent40/lilac-breasted-roller.jpg",
+     "call": "media/prominent40/lilac-breasted-roller.mp3",
+     "bytes": 121578
+    },
+    {
+     "id": "prominent-pied-kingfisher",
+     "name": "Pied Kingfisher",
+     "group": "Kingfisher",
+     "photo": "media/prominent40/pied-kingfisher.jpg",
+     "call": "media/prominent40/pied-kingfisher.mp3",
+     "bytes": 155378
+    },
+    {
+     "id": "prominent-southern-carmine-bee-eater",
+     "name": "Southern Carmine Bee-eater",
+     "group": "eater",
+     "photo": "media/prominent40/southern-carmine-bee-eater.jpg",
+     "call": "media/prominent40/southern-carmine-bee-eater.mp3",
+     "bytes": 112884
+    },
+    {
+     "id": "prominent-levaillants-cuckoo",
+     "name": "Levaillant's Cuckoo",
+     "group": "Cuckoo",
+     "photo": "media/prominent40/levaillants-cuckoo.jpg",
+     "call": "media/prominent40/levaillants-cuckoo.mp3",
+     "bytes": 169096
+    },
+    {
+     "id": "prominent-senegal-coucal",
+     "name": "Senegal Coucal",
+     "group": "Coucal",
+     "photo": "media/prominent40/senegal-coucal.jpg",
+     "call": "media/prominent40/senegal-coucal.mp3",
+     "bytes": 106540
+    },
+    {
+     "id": "prominent-meyers-parrot",
+     "name": "Meyer's Parrot",
+     "group": "Parrot",
+     "photo": "media/prominent40/meyers-parrot.jpg",
+     "call": "media/prominent40/meyers-parrot.mp3",
+     "bytes": 94954
+    },
+    {
+     "id": "prominent-palm-swift",
+     "name": "Palm Swift",
+     "group": "Swift",
+     "photo": "media/prominent40/palm-swift.jpg",
+     "call": "",
+     "bytes": 0
+    },
+    {
+     "id": "prominent-grey-go-away-bird",
+     "name": "Grey Go-away-bird",
+     "group": "bird",
+     "photo": "media/prominent40/grey-go-away-bird.jpg",
+     "call": "media/prominent40/grey-go-away-bird.mp3",
+     "bytes": 109618
+    },
+    {
+     "id": "prominent-verreauxs-eagle-owl",
+     "name": "Verreaux's Eagle-Owl",
+     "group": "Owl",
+     "photo": "media/prominent40/verreauxs-eagle-owl.jpg",
+     "call": "media/prominent40/verreauxs-eagle-owl.mp3",
+     "bytes": 116066
+    },
+    {
+     "id": "prominent-cape-turtle-dove",
+     "name": "Cape Turtle Dove",
+     "group": "Dove",
+     "photo": "media/prominent40/cape-turtle-dove.jpg",
+     "call": "media/prominent40/cape-turtle-dove.mp3",
+     "bytes": 140652
+    },
+    {
+     "id": "prominent-kori-bustard",
+     "name": "Kori Bustard",
+     "group": "Bustard",
+     "photo": "media/prominent40/kori-bustard.jpg",
+     "call": "media/prominent40/kori-bustard.mp3",
+     "bytes": 109308
+    },
+    {
+     "id": "prominent-wattled-crane",
+     "name": "Wattled Crane",
+     "group": "Crane",
+     "photo": "media/prominent40/wattled-crane.jpg",
+     "call": "media/prominent40/wattled-crane.mp3",
+     "bytes": 114707
+    },
+    {
+     "id": "prominent-burchells-sandgrouse",
+     "name": "Burchell's Sandgrouse",
+     "group": "Sandgrouse",
+     "photo": "media/prominent40/burchells-sandgrouse.jpg",
+     "call": "media/prominent40/burchells-sandgrouse.mp3",
+     "bytes": 89026
+    },
+    {
+     "id": "prominent-wood-sandpiper",
+     "name": "Wood Sandpiper",
+     "group": "Sandpiper",
+     "photo": "media/prominent40/wood-sandpiper.jpg",
+     "call": "media/prominent40/wood-sandpiper.mp3",
+     "bytes": 105666
+    },
+    {
+     "id": "prominent-african-jacana",
+     "name": "African Jacana",
+     "group": "Jacana",
+     "photo": "media/prominent40/african-jacana.jpg",
+     "call": "media/prominent40/african-jacana.mp3",
+     "bytes": 129586
+    },
+    {
+     "id": "prominent-water-thick-knee",
+     "name": "Water Thick-knee",
+     "group": "knee",
+     "photo": "media/prominent40/water-thick-knee.jpg",
+     "call": "media/prominent40/water-thick-knee.mp3",
+     "bytes": 110380
+    },
+    {
+     "id": "prominent-gabar-goshawk",
+     "name": "Gabar Goshawk",
+     "group": "Goshawk",
+     "photo": "media/prominent40/gabar-goshawk.jpg",
+     "call": "media/prominent40/gabar-goshawk.mp3",
+     "bytes": 116586
+    },
+    {
+     "id": "prominent-african-fish-eagle",
+     "name": "African Fish Eagle",
+     "group": "Eagle",
+     "photo": "media/prominent40/african-fish-eagle.jpg",
+     "call": "media/prominent40/african-fish-eagle.mp3",
+     "bytes": 101610
+    },
+    {
+     "id": "prominent-tawny-eagle",
+     "name": "Tawny Eagle",
+     "group": "Eagle",
+     "photo": "media/prominent40/tawny-eagle.jpg",
+     "call": "media/prominent40/tawny-eagle.mp3",
+     "bytes": 85178
+    },
+    {
+     "id": "prominent-white-backed-vulture",
+     "name": "White-backed Vulture",
+     "group": "Vulture",
+     "photo": "media/prominent40/white-backed-vulture.jpg",
+     "call": "media/prominent40/white-backed-vulture.mp3",
+     "bytes": 151876
+    },
+    {
+     "id": "prominent-great-egret",
+     "name": "Great Egret",
+     "group": "Egret",
+     "photo": "media/prominent40/great-egret.jpg",
+     "call": "media/prominent40/great-egret.mp3",
+     "bytes": 86426
+    },
+    {
+     "id": "prominent-hamerkop",
+     "name": "Hamerkop",
+     "group": "Hamerkop",
+     "photo": "media/prominent40/hamerkop.jpg",
+     "call": "media/prominent40/hamerkop.mp3",
+     "bytes": 88376
+    },
+    {
+     "id": "prominent-african-spoonbill",
+     "name": "African Spoonbill",
+     "group": "Spoonbill",
+     "photo": "media/prominent40/african-spoonbill.jpg",
+     "call": "media/prominent40/african-spoonbill.mp3",
+     "bytes": 70358
+    },
+    {
+     "id": "prominent-great-white-pelican",
+     "name": "Great White Pelican",
+     "group": "Pelican",
+     "photo": "media/prominent40/great-white-pelican.jpg",
+     "call": "media/prominent40/great-white-pelican.mp3",
+     "bytes": 154948
+    },
+    {
+     "id": "prominent-african-openbill",
+     "name": "African Openbill",
+     "group": "Openbill",
+     "photo": "media/prominent40/african-openbill.jpg",
+     "call": "media/prominent40/african-openbill.mp3",
+     "bytes": 84074
+    },
+    {
+     "id": "prominent-fork-tailed-drongo",
+     "name": "Fork-tailed Drongo",
+     "group": "Drongo",
+     "photo": "media/prominent40/fork-tailed-drongo.jpg",
+     "call": "media/prominent40/fork-tailed-drongo.mp3",
+     "bytes": 160724
+    },
+    {
+     "id": "prominent-burchells-starling",
+     "name": "Burchell's Starling",
+     "group": "Starling",
+     "photo": "media/prominent40/burchells-starling.jpg",
+     "call": "media/prominent40/burchells-starling.mp3",
+     "bytes": 97074
+    },
+    {
+     "id": "prominent-southern-masked-weaver",
+     "name": "Southern Masked Weaver",
+     "group": "Weaver",
+     "photo": "media/prominent40/southern-masked-weaver.jpg",
+     "call": "media/prominent40/southern-masked-weaver.mp3",
+     "bytes": 110068
+    }
+   ]
+  },
+  {
+   "id": "kwapa63",
+   "title": "Common Birds of Kwapa",
+   "short": "Kwapa birds",
+   "subtitle": "Birds of the Kwapa camp area, from the Kwapa bird call list",
+   "items": [
+    {
+     "id": "kwapa-black-collared-barbet",
+     "name": "Black-collared Barbet",
+     "group": "Barbet",
+     "photo": "media/kwapa63/black-collared-barbet.jpg",
+     "call": "media/kwapa63/black-collared-barbet.mp3",
+     "bytes": 176422
+    },
+    {
+     "id": "kwapa-white-browed-sparrow-weaver",
+     "name": "White-browed Sparrow-weaver",
+     "group": "weaver",
+     "photo": "media/kwapa63/white-browed-sparrow-weaver.jpg",
+     "call": "media/kwapa63/white-browed-sparrow-weaver.mp3",
+     "bytes": 167645
+    },
+    {
+     "id": "kwapa-red-billed-spurfowl",
+     "name": "Red-billed Spurfowl",
+     "group": "Spurfowl",
+     "photo": "media/kwapa63/red-billed-spurfowl.jpg",
+     "call": "media/kwapa63/red-billed-spurfowl.mp3",
+     "bytes": 121578
+    },
+    {
+     "id": "kwapa-helmeted-guineafowl",
+     "name": "Helmeted Guineafowl",
+     "group": "Guineafowl",
+     "photo": "media/kwapa63/helmeted-guineafowl.jpg",
+     "call": "media/kwapa63/helmeted-guineafowl.mp3",
+     "bytes": 115130
+    },
+    {
+     "id": "kwapa-white-faced-duck",
+     "name": "White-faced Duck",
+     "group": "Duck",
+     "photo": "media/kwapa63/white-faced-duck.jpg",
+     "call": "media/kwapa63/white-faced-duck.mp3",
+     "bytes": 125428
+    },
+    {
+     "id": "kwapa-spur-winged-goose",
+     "name": "Spur-winged Goose",
+     "group": "Goose",
+     "photo": "media/kwapa63/spur-winged-goose.jpg",
+     "call": "media/kwapa63/spur-winged-goose.mp3",
+     "bytes": 137282
+    },
+    {
+     "id": "kwapa-african-barred-owlet",
+     "name": "African Barred Owlet",
+     "group": "Owlet",
+     "photo": "media/kwapa63/african-barred-owlet.jpg",
+     "call": "media/kwapa63/african-barred-owlet.mp3",
+     "bytes": 244131
+    },
+    {
+     "id": "kwapa-greater-honeyguide",
+     "name": "Greater Honeyguide",
+     "group": "Honeyguide",
+     "photo": "media/kwapa63/greater-honeyguide.jpg",
+     "call": "media/kwapa63/greater-honeyguide.mp3",
+     "bytes": 126050
+    },
+    {
+     "id": "kwapa-bennetts-woodpecker",
+     "name": "Bennett's Woodpecker",
+     "group": "Woodpecker",
+     "photo": "media/kwapa63/bennetts-woodpecker.jpg",
+     "call": "media/kwapa63/bennetts-woodpecker.mp3",
+     "bytes": 83554
+    },
+    {
+     "id": "kwapa-southern-yellow-billed-hornbill",
+     "name": "Southern Yellow-billed Hornbill",
+     "group": "Hornbill",
+     "photo": "media/kwapa63/southern-yellow-billed-hornbill.jpg",
+     "call": "media/kwapa63/southern-yellow-billed-hornbill.mp3",
+     "bytes": 126986
+    },
+    {
+     "id": "kwapa-southern-ground-hornbill",
+     "name": "Southern Ground Hornbill",
+     "group": "Hornbill",
+     "photo": "media/kwapa63/southern-ground-hornbill.jpg",
+     "call": "media/kwapa63/southern-ground-hornbill.mp3",
+     "bytes": 133226
+    },
+    {
+     "id": "kwapa-african-hoopoe",
+     "name": "African Hoopoe",
+     "group": "Hoopoe",
+     "photo": "media/kwapa63/african-hoopoe.jpg",
+     "call": "media/kwapa63/african-hoopoe.mp3",
+     "bytes": 116378
+    },
+    {
+     "id": "kwapa-lilac-breasted-roller",
+     "name": "Lilac-breasted Roller",
+     "group": "Roller",
+     "photo": "media/kwapa63/lilac-breasted-roller.jpg",
+     "call": "media/kwapa63/lilac-breasted-roller.mp3",
+     "bytes": 121578
+    },
+    {
+     "id": "kwapa-southern-red-billed-hornbill",
+     "name": "Southern Red-billed Hornbill",
+     "group": "Hornbill",
+     "photo": "media/kwapa63/southern-red-billed-hornbill.jpg",
+     "call": "media/kwapa63/southern-red-billed-hornbill.mp3",
+     "bytes": 201917
+    },
+    {
+     "id": "kwapa-levaillants-cuckoo",
+     "name": "Levaillant's Cuckoo",
+     "group": "Cuckoo",
+     "photo": "media/kwapa63/levaillants-cuckoo.jpg",
+     "call": "media/kwapa63/levaillants-cuckoo.mp3",
+     "bytes": 169096
+    },
+    {
+     "id": "kwapa-crested-barbet",
+     "name": "Crested Barbet",
+     "group": "Barbet",
+     "photo": "media/kwapa63/crested-barbet.jpg",
+     "call": "media/kwapa63/crested-barbet.mp3",
+     "bytes": 94920
+    },
+    {
+     "id": "kwapa-meyers-parrot",
+     "name": "Meyer's Parrot",
+     "group": "Parrot",
+     "photo": "media/kwapa63/meyers-parrot.jpg",
+     "call": "media/kwapa63/meyers-parrot.mp3",
+     "bytes": 94954
+    },
+    {
+     "id": "kwapa-chinspot-batis",
+     "name": "Chinspot Batis",
+     "group": "Batis",
+     "photo": "media/kwapa63/chinspot-batis.jpg",
+     "call": "media/kwapa63/chinspot-batis.mp3",
+     "bytes": 205679
+    },
+    {
+     "id": "kwapa-grey-go-away-bird",
+     "name": "Grey Go-away-bird",
+     "group": "bird",
+     "photo": "media/kwapa63/grey-go-away-bird.jpg",
+     "call": "media/kwapa63/grey-go-away-bird.mp3",
+     "bytes": 109618
+    },
+    {
+     "id": "kwapa-verreauxs-eagle-owl",
+     "name": "Verreaux's Eagle-Owl",
+     "group": "Owl",
+     "photo": "media/kwapa63/verreauxs-eagle-owl.jpg",
+     "call": "media/kwapa63/verreauxs-eagle-owl.mp3",
+     "bytes": 116066
+    },
+    {
+     "id": "kwapa-european-bee-eater",
+     "name": "European Bee-eater",
+     "group": "eater",
+     "photo": "media/kwapa63/european-bee-eater.jpg",
+     "call": "media/kwapa63/european-bee-eater.mp3",
+     "bytes": 49780
+    },
+    {
+     "id": "kwapa-yellow-breasted-apalis",
+     "name": "Yellow-breasted Apalis",
+     "group": "Apalis",
+     "photo": "media/kwapa63/yellow-breasted-apalis.jpg",
+     "call": "media/kwapa63/yellow-breasted-apalis.mp3",
+     "bytes": 75276
+    },
+    {
+     "id": "kwapa-wattled-crane",
+     "name": "Wattled Crane",
+     "group": "Crane",
+     "photo": "media/kwapa63/wattled-crane.jpg",
+     "call": "media/kwapa63/wattled-crane.mp3",
+     "bytes": 114707
+    },
+    {
+     "id": "kwapa-double-banded-sandgrouse",
+     "name": "Double-banded Sandgrouse",
+     "group": "Sandgrouse",
+     "photo": "media/kwapa63/double-banded-sandgrouse.jpg",
+     "call": "media/kwapa63/double-banded-sandgrouse.mp3",
+     "bytes": 95756
+    },
+    {
+     "id": "kwapa-wood-sandpiper",
+     "name": "Wood Sandpiper",
+     "group": "Sandpiper",
+     "photo": "media/kwapa63/wood-sandpiper.jpg",
+     "call": "media/kwapa63/wood-sandpiper.mp3",
+     "bytes": 105666
+    },
+    {
+     "id": "kwapa-dark-capped-bulbul",
+     "name": "Dark-capped Bulbul",
+     "group": "Bulbul",
+     "photo": "media/kwapa63/dark-capped-bulbul.jpg",
+     "call": "media/kwapa63/dark-capped-bulbul.mp3",
+     "bytes": 219890
+    },
+    {
+     "id": "kwapa-brubru",
+     "name": "Brubru",
+     "group": "Brubru",
+     "photo": "media/kwapa63/brubru.jpg",
+     "call": "media/kwapa63/brubru.mp3",
+     "bytes": 225323
+    },
+    {
+     "id": "kwapa-black-backed-puffback",
+     "name": "Black-backed Puffback",
+     "group": "Puffback",
+     "photo": "media/kwapa63/black-backed-puffback.jpg",
+     "call": "media/kwapa63/black-backed-puffback.mp3",
+     "bytes": 251654
+    },
+    {
+     "id": "kwapa-african-fish-eagle",
+     "name": "African Fish Eagle",
+     "group": "Eagle",
+     "photo": "media/kwapa63/african-fish-eagle.jpg",
+     "call": "media/kwapa63/african-fish-eagle.mp3",
+     "bytes": 101610
+    },
+    {
+     "id": "kwapa-grey-backed-camaroptera",
+     "name": "Grey-backed Camaroptera",
+     "group": "Camaroptera",
+     "photo": "media/kwapa63/grey-backed-camaroptera.jpg",
+     "call": "media/kwapa63/grey-backed-camaroptera.mp3",
+     "bytes": 204843
+    },
+    {
+     "id": "kwapa-rattling-cisticola",
+     "name": "Rattling Cisticola",
+     "group": "Cisticola",
+     "photo": "media/kwapa63/rattling-cisticola.jpg",
+     "call": "media/kwapa63/rattling-cisticola.mp3",
+     "bytes": 173914
+    },
+    {
+     "id": "kwapa-zitting-cisticola",
+     "name": "Zitting Cisticola",
+     "group": "Cisticola",
+     "photo": "media/kwapa63/zitting-cisticola.jpg",
+     "call": "media/kwapa63/zitting-cisticola.mp3",
+     "bytes": 68170
+    },
+    {
+     "id": "kwapa-long-billed-crombec",
+     "name": "Long-billed Crombec",
+     "group": "Crombec",
+     "photo": "media/kwapa63/long-billed-crombec.jpg",
+     "call": "media/kwapa63/long-billed-crombec.mp3",
+     "bytes": 262521
+    },
+    {
+     "id": "kwapa-emerald-spotted-wood-dove",
+     "name": "Emerald-spotted Wood-Dove",
+     "group": "Dove",
+     "photo": "media/kwapa63/emerald-spotted-wood-dove.jpg",
+     "call": "media/kwapa63/emerald-spotted-wood-dove.mp3",
+     "bytes": 225741
+    },
+    {
+     "id": "kwapa-ashy-flycatcher",
+     "name": "Ashy Flycatcher",
+     "group": "Flycatcher",
+     "photo": "media/kwapa63/ashy-flycatcher.jpg",
+     "call": "media/kwapa63/ashy-flycatcher.mp3",
+     "bytes": 157196
+    },
+    {
+     "id": "kwapa-red-billed-firefinch",
+     "name": "Red-billed Firefinch",
+     "group": "Firefinch",
+     "photo": "media/kwapa63/red-billed-firefinch.jpg",
+     "call": "media/kwapa63/red-billed-firefinch.mp3",
+     "bytes": 99517
+    },
+    {
+     "id": "kwapa-crested-francolin",
+     "name": "Crested Francolin",
+     "group": "Francolin",
+     "photo": "media/kwapa63/crested-francolin.jpg",
+     "call": "media/kwapa63/crested-francolin.mp3",
+     "bytes": 166809
+    },
+    {
+     "id": "kwapa-arrow-marked-babbler",
+     "name": "Arrow-marked Babbler",
+     "group": "Babbler",
+     "photo": "media/kwapa63/arrow-marked-babbler.jpg",
+     "call": "media/kwapa63/arrow-marked-babbler.mp3",
+     "bytes": 183527
+    },
+    {
+     "id": "kwapa-eurasian-golden-oriole",
+     "name": "Eurasian Golden Oriole",
+     "group": "Oriole",
+     "photo": "media/kwapa63/eurasian-golden-oriole.jpg",
+     "call": "media/kwapa63/eurasian-golden-oriole.mp3",
+     "bytes": 137552
+    },
+    {
+     "id": "kwapa-african-green-pigeon",
+     "name": "African Green Pigeon",
+     "group": "Pigeon",
+     "photo": "media/kwapa63/african-green-pigeon.jpg",
+     "call": "media/kwapa63/african-green-pigeon.mp3",
+     "bytes": 157196
+    },
+    {
+     "id": "kwapa-striped-kingfisher",
+     "name": "Striped Kingfisher",
+     "group": "Kingfisher",
+     "photo": "media/kwapa63/striped-kingfisher.jpg",
+     "call": "media/kwapa63/striped-kingfisher.mp3",
+     "bytes": 209441
+    },
+    {
+     "id": "kwapa-woodland-kingfisher",
+     "name": "Woodland Kingfisher",
+     "group": "Kingfisher",
+     "photo": "media/kwapa63/woodland-kingfisher.jpg",
+     "call": "media/kwapa63/woodland-kingfisher.mp3",
+     "bytes": 157614
+    },
+    {
+     "id": "kwapa-red-crested-korhaan",
+     "name": "Red-crested Korhaan",
+     "group": "Korhaan",
+     "photo": "media/kwapa63/red-crested-korhaan.jpg",
+     "call": "media/kwapa63/red-crested-korhaan.mp3",
+     "bytes": 189796
+    },
+    {
+     "id": "kwapa-red-billed-oxpecker",
+     "name": "Red-billed Oxpecker",
+     "group": "Oxpecker",
+     "photo": "media/kwapa63/red-billed-oxpecker.jpg",
+     "call": "media/kwapa63/red-billed-oxpecker.mp3",
+     "bytes": 177676
+    },
+    {
+     "id": "kwapa-yellow-billed-oxpecker",
+     "name": "Yellow-billed Oxpecker",
+     "group": "Oxpecker",
+     "photo": "media/kwapa63/yellow-billed-oxpecker.jpg",
+     "call": "media/kwapa63/yellow-billed-oxpecker.mp3",
+     "bytes": 141731
+    },
+    {
+     "id": "kwapa-tawny-flanked-prinia",
+     "name": "Tawny-flanked Prinia",
+     "group": "Prinia",
+     "photo": "media/kwapa63/tawny-flanked-prinia.jpg",
+     "call": "media/kwapa63/tawny-flanked-prinia.mp3",
+     "bytes": 105787
+    },
+    {
+     "id": "kwapa-crowned-lapwing",
+     "name": "Crowned Lapwing",
+     "group": "Lapwing",
+     "photo": "media/kwapa63/crowned-lapwing.jpg",
+     "call": "media/kwapa63/crowned-lapwing.mp3",
+     "bytes": 178512
+    },
+    {
+     "id": "kwapa-pearl-spotted-owlet",
+     "name": "Pearl-spotted Owlet",
+     "group": "Owlet",
+     "photo": "media/kwapa63/pearl-spotted-owlet.jpg",
+     "call": "media/kwapa63/pearl-spotted-owlet.mp3",
+     "bytes": 222397
+    },
+    {
+     "id": "kwapa-crimson-breasted-shrike",
+     "name": "Crimson-breasted Shrike",
+     "group": "Shrike",
+     "photo": "media/kwapa63/crimson-breasted-shrike.jpg",
+     "call": "media/kwapa63/crimson-breasted-shrike.mp3",
+     "bytes": 201081
+    },
+    {
+     "id": "kwapa-magpie-shrike",
+     "name": "Magpie Shrike",
+     "group": "Shrike",
+     "photo": "media/kwapa63/magpie-shrike.jpg",
+     "call": "media/kwapa63/magpie-shrike.mp3",
+     "bytes": 159703
+    },
+    {
+     "id": "kwapa-southern-white-crowned-shrike",
+     "name": "Southern White-crowned Shrike",
+     "group": "Shrike",
+     "photo": "media/kwapa63/southern-white-crowned-shrike.jpg",
+     "call": "media/kwapa63/southern-white-crowned-shrike.mp3",
+     "bytes": 142149
+    },
+    {
+     "id": "kwapa-swainsons-spurfowl",
+     "name": "Swainson's Spurfowl",
+     "group": "Spurfowl",
+     "photo": "media/kwapa63/swainsons-spurfowl.jpg",
+     "call": "media/kwapa63/swainsons-spurfowl.mp3",
+     "bytes": 185617
+    },
+    {
+     "id": "kwapa-brown-crowned-tchagra",
+     "name": "Brown-crowned Tchagra",
+     "group": "Tchagra",
+     "photo": "media/kwapa63/brown-crowned-tchagra.jpg",
+     "call": "media/kwapa63/brown-crowned-tchagra.mp3",
+     "bytes": 113310
+    },
+    {
+     "id": "kwapa-black-crowned-tchagra",
+     "name": "Black-crowned Tchagra",
+     "group": "Tchagra",
+     "photo": "media/kwapa63/black-crowned-tchagra.jpg",
+     "call": "media/kwapa63/black-crowned-tchagra.mp3",
+     "bytes": 296376
+    },
+    {
+     "id": "kwapa-southern-black-tit",
+     "name": "Southern Black Tit",
+     "group": "Tit",
+     "photo": "media/kwapa63/southern-black-tit.jpg",
+     "call": "media/kwapa63/southern-black-tit.mp3",
+     "bytes": 165064
+    },
+    {
+     "id": "kwapa-blue-waxbill",
+     "name": "Blue Waxbill",
+     "group": "Waxbill",
+     "photo": "media/kwapa63/blue-waxbill.jpg",
+     "call": "media/kwapa63/blue-waxbill.mp3",
+     "bytes": 175586
+    },
+    {
+     "id": "kwapa-bearded-woodpecker",
+     "name": "Bearded Woodpecker",
+     "group": "Woodpecker",
+     "photo": "media/kwapa63/bearded-woodpecker.jpg",
+     "call": "media/kwapa63/bearded-woodpecker.mp3",
+     "bytes": 93666
+    },
+    {
+     "id": "kwapa-cardinal-woodpecker",
+     "name": "Cardinal Woodpecker",
+     "group": "Woodpecker",
+     "photo": "media/kwapa63/cardinal-woodpecker.jpg",
+     "call": "media/kwapa63/cardinal-woodpecker.mp3",
+     "bytes": 158450
+    },
+    {
+     "id": "kwapa-diederik-cuckoo",
+     "name": "Diederik Cuckoo",
+     "group": "Cuckoo",
+     "photo": "media/kwapa63/diederik-cuckoo.jpg",
+     "call": "media/kwapa63/diederik-cuckoo.mp3",
+     "bytes": 70260
+    },
+    {
+     "id": "kwapa-golden-tailed-woodpecker",
+     "name": "Golden-tailed Woodpecker",
+     "group": "Woodpecker",
+     "photo": "media/kwapa63/golden-tailed-woodpecker.jpg",
+     "call": "media/kwapa63/golden-tailed-woodpecker.mp3",
+     "bytes": 66916
+    },
+    {
+     "id": "kwapa-blacksmith-lapwing",
+     "name": "Blacksmith Lapwing",
+     "group": "Lapwing",
+     "photo": "media/kwapa63/blacksmith-lapwing.jpg",
+     "call": "media/kwapa63/blacksmith-lapwing.mp3",
+     "bytes": 274642
+    },
+    {
+     "id": "kwapa-coppery-tailed-coucal",
+     "name": "Coppery-tailed Coucal",
+     "group": "Coucal",
+     "photo": "media/kwapa63/coppery-tailed-coucal.jpg",
+     "call": "media/kwapa63/coppery-tailed-coucal.mp3",
+     "bytes": 102861
     }
    ]
   },
@@ -9219,8 +10052,7 @@ window.AGA_DATA = {
      ],
      "ex": "Birds have a single excretory and reproductive orifice called the cloaca.",
      "group": "Features",
-     "page": "92",
-     "draft": true
+     "page": "92"
     },
     {
      "id": "BIRD-002",
@@ -9233,8 +10065,7 @@ window.AGA_DATA = {
      ],
      "ex": "Kingdom Animalia, Phylum Chordata, Class Aves, Order Falconiformes, Family Accipitridae.",
      "group": "Features",
-     "page": "92",
-     "draft": true
+     "page": "92"
     },
     {
      "id": "BIRD-003",
@@ -9247,8 +10078,7 @@ window.AGA_DATA = {
      ],
      "ex": "Birds are endothermic (warm-blooded) vertebrates with internal fertilisation; the body is covered in feathers.",
      "group": "Features",
-     "page": "92",
-     "draft": true
+     "page": "92"
     },
     {
      "id": "BIRD-004",
@@ -9261,8 +10091,7 @@ window.AGA_DATA = {
      ],
      "ex": "Flight feathers, contour feathers, down feathers and filoplumes.",
      "group": "Feathers",
-     "page": "92",
-     "draft": true
+     "page": "92"
     },
     {
      "id": "BIRD-005",
@@ -9275,8 +10104,7 @@ window.AGA_DATA = {
      ],
      "ex": "Down feathers are fluffy feathers under the contour feathers that trap body heat and maximise insulation.",
      "group": "Feathers",
-     "page": "92",
-     "draft": true
+     "page": "92"
     },
     {
      "id": "BIRD-006",
@@ -9289,8 +10117,7 @@ window.AGA_DATA = {
      ],
      "ex": "Filoplumes are hair-like feathers thought to act as small sensory organs.",
      "group": "Feathers",
-     "page": "92",
-     "draft": true
+     "page": "92"
     },
     {
      "id": "BIRD-007",
@@ -9303,8 +10130,7 @@ window.AGA_DATA = {
      ],
      "ex": "Each barb has barbules that interlock with those of the adjoining barbs, giving strength and a solid flight surface.",
      "group": "Feathers",
-     "page": "92",
-     "draft": true
+     "page": "92"
     },
     {
      "id": "BIRD-008",
@@ -9317,8 +10143,7 @@ window.AGA_DATA = {
      ],
      "ex": "Contour feathers overlap to give an aerodynamic form and insulate the body against heat loss.",
      "group": "Feathers",
-     "page": "92",
-     "draft": true
+     "page": "92"
     },
     {
      "id": "BIRD-009",
@@ -9331,8 +10156,7 @@ window.AGA_DATA = {
      ],
      "ex": "Preening oil makes feathers water resistant, reduces fungal growth and keeps them flexible.",
      "group": "Feather care",
-     "page": "92",
-     "draft": true
+     "page": "92"
     },
     {
      "id": "BIRD-010",
@@ -9345,8 +10169,7 @@ window.AGA_DATA = {
      ],
      "ex": "They are constantly diving for prey and oil would increase unwanted buoyancy.",
      "group": "Feather care",
-     "page": "93",
-     "draft": true
+     "page": "93"
     },
     {
      "id": "BIRD-011",
@@ -9359,8 +10182,7 @@ window.AGA_DATA = {
      ],
      "ex": "Birds crouch over ants with feathers puffed out (or drag ants over their feathers) to rid themselves of parasites and sticky substances.",
      "group": "Feather care",
-     "page": "93",
-     "draft": true
+     "page": "93"
     },
     {
      "id": "BIRD-012",
@@ -9373,8 +10195,7 @@ window.AGA_DATA = {
      ],
      "ex": "Most birds moult once a year; birds with a breeding plumage moult twice, but flight feathers are normally only moulted once a year.",
      "group": "Feather care",
-     "page": "93",
-     "draft": true
+     "page": "93"
     },
     {
      "id": "BIRD-013",
@@ -9387,8 +10208,7 @@ window.AGA_DATA = {
      ],
      "ex": "Most birds moult incrementally, losing one flight feather on each wing at the same time so flight is not affected.",
      "group": "Feather care",
-     "page": "93",
-     "draft": true
+     "page": "93"
     },
     {
      "id": "BIRD-014",
@@ -9401,8 +10221,7 @@ window.AGA_DATA = {
      ],
      "ex": "Hornbills moult all their feathers at the same time while the female incubates in a partially sealed nest.",
      "group": "Feather care",
-     "page": "93",
-     "draft": true
+     "page": "93"
     },
     {
      "id": "BIRD-015",
@@ -9415,8 +10234,7 @@ window.AGA_DATA = {
      ],
      "ex": "Bulbuls, white-eyes and sunbirds use rain collected in leaves; babblers, robins, starlings and weavers bathe in shallow pools.",
      "group": "Feather care",
-     "page": "93",
-     "draft": true
+     "page": "93"
     },
     {
      "id": "BIRD-016",
@@ -9429,8 +10247,7 @@ window.AGA_DATA = {
      ],
      "ex": "Soaring uses thermal updrafts or wind forced upward by obstacles. Gliding also has no flapping but the bird gradually loses height.",
      "group": "Flight",
-     "page": "93",
-     "draft": true
+     "page": "93"
     },
     {
      "id": "BIRD-017",
@@ -9443,8 +10260,7 @@ window.AGA_DATA = {
      ],
      "ex": "Hovering is the most expensive form of flight and is only used where hunting success is likely and perches are scarce.",
      "group": "Flight",
-     "page": "93",
-     "draft": true
+     "page": "93"
     },
     {
      "id": "BIRD-018",
@@ -9457,8 +10273,7 @@ window.AGA_DATA = {
      ],
      "ex": "Hovering is commonly practised by pied kingfishers and black-winged kites.",
      "group": "Flight",
-     "page": "93",
-     "draft": true
+     "page": "93"
     },
     {
      "id": "BIRD-019",
@@ -9471,8 +10286,7 @@ window.AGA_DATA = {
      ],
      "ex": "Soaring is typical of large, broad-winged and broad-tailed birds such as vultures and storks.",
      "group": "Flight",
-     "page": "93",
-     "draft": true
+     "page": "93"
     },
     {
      "id": "BIRD-020",
@@ -9485,8 +10299,7 @@ window.AGA_DATA = {
      ],
      "ex": "Bird bones are hollow with a thin set of criss-crossing struts for strength.",
      "group": "Bones and lungs",
-     "page": "93",
-     "draft": true
+     "page": "93"
     },
     {
      "id": "BIRD-021",
@@ -9499,8 +10312,7 @@ window.AGA_DATA = {
      ],
      "ex": "The beak is mostly hollow, with bony struts covered in keratin.",
      "group": "Bones and lungs",
-     "page": "93",
-     "draft": true
+     "page": "93"
     },
     {
      "id": "BIRD-022",
@@ -9513,8 +10325,7 @@ window.AGA_DATA = {
      ],
      "ex": "Air sacs let the bird store more air, absorb oxygen on both the in- and out-breath, and lose excess body heat.",
      "group": "Bones and lungs",
-     "page": "93",
-     "draft": true
+     "page": "93"
     },
     {
      "id": "BIRD-023",
@@ -9527,8 +10338,7 @@ window.AGA_DATA = {
      ],
      "ex": "Short, broad wings and longer, broader tails help them manoeuvre through gaps in the canopy.",
      "group": "Wing and tail design",
-     "page": "94",
-     "draft": true
+     "page": "94"
     },
     {
      "id": "BIRD-024",
@@ -9541,8 +10351,7 @@ window.AGA_DATA = {
      ],
      "ex": "Long, thin-winged water birds use the cushion of air trapped over water; albatrosses are masters of it and the African skimmer uses it too.",
      "group": "Wing and tail design",
-     "page": "94",
-     "draft": true
+     "page": "94"
     },
     {
      "id": "BIRD-025",
@@ -9555,8 +10364,7 @@ window.AGA_DATA = {
      ],
      "ex": "Falcons rely on fast flight over open terrain - they are built purely for speed.",
      "group": "Wing and tail design",
-     "page": "94",
-     "draft": true
+     "page": "94"
     },
     {
      "id": "BIRD-026",
@@ -9569,8 +10377,7 @@ window.AGA_DATA = {
      ],
      "ex": "Yellow-billed kites, terns and fork-tailed drongos have forked tails that maximise steering.",
      "group": "Wing and tail design",
-     "page": "94",
-     "draft": true
+     "page": "94"
     },
     {
      "id": "BIRD-027",
@@ -9583,8 +10390,7 @@ window.AGA_DATA = {
      ],
      "ex": "Having very little tail makes it unstable, so a small change of one wing's angle turns it instantly.",
      "group": "Wing and tail design",
-     "page": "94",
-     "draft": true
+     "page": "94"
     },
     {
      "id": "BIRD-028",
@@ -9597,8 +10403,7 @@ window.AGA_DATA = {
      ],
      "ex": "Passerines have 3 toes forward and 1 back, adapted for perching.",
      "group": "Shapes of birds",
-     "page": "94",
-     "draft": true
+     "page": "94"
     },
     {
      "id": "BIRD-029",
@@ -9611,8 +10416,7 @@ window.AGA_DATA = {
      ],
      "ex": "Zygodactyl: 2 toes forward and 2 back.",
      "group": "Shapes of birds",
-     "page": "94",
-     "draft": true
+     "page": "94"
     },
     {
      "id": "BIRD-030",
@@ -9625,8 +10429,7 @@ window.AGA_DATA = {
      ],
      "ex": "Seed-eaters have short, conical bills with good crushing ability.",
      "group": "Shapes of birds",
-     "page": "94",
-     "draft": true
+     "page": "94"
     },
     {
      "id": "BIRD-031",
@@ -9639,8 +10442,7 @@ window.AGA_DATA = {
      ],
      "ex": "Waders have relatively long legs and necks, long probing bills and small, unspecialised 3-toed feet.",
      "group": "Shapes of birds",
-     "page": "94",
-     "draft": true
+     "page": "94"
     },
     {
      "id": "BIRD-032",
@@ -9653,8 +10455,7 @@ window.AGA_DATA = {
      ],
      "ex": "Birds produce sound from the syrinx, similar to human vocal cords.",
      "group": "Vocalisation",
-     "page": "95",
-     "draft": true
+     "page": "95"
     },
     {
      "id": "BIRD-033",
@@ -9667,8 +10468,7 @@ window.AGA_DATA = {
      ],
      "ex": "Song defines territory and attracts mates; contact calls keep pairs/flocks together and alarm calls warn of danger.",
      "group": "Vocalisation",
-     "page": "95",
-     "draft": true
+     "page": "95"
     },
     {
      "id": "BIRD-034",
@@ -9681,8 +10481,7 @@ window.AGA_DATA = {
      ],
      "ex": "The asymmetry allows better triangulation of sound to find the exact position of prey.",
      "group": "Hearing",
-     "page": "95",
-     "draft": true
+     "page": "95"
     },
     {
      "id": "BIRD-035",
@@ -9695,8 +10494,7 @@ window.AGA_DATA = {
      ],
      "ex": "The facial disc acts as a parabolic dish, making the whole face one large \"ear\".",
      "group": "Hearing",
-     "page": "95",
-     "draft": true
+     "page": "95"
     },
     {
      "id": "BIRD-036",
@@ -9709,8 +10507,7 @@ window.AGA_DATA = {
      ],
      "ex": "The moveable ear flap is most pronounced in barn and grass owls.",
      "group": "Hearing",
-     "page": "95",
-     "draft": true
+     "page": "95"
     },
     {
      "id": "BIRD-037",
@@ -9723,8 +10520,7 @@ window.AGA_DATA = {
      ],
      "ex": "The droplets act like filters, highlighting colours related to the bird's diet.",
      "group": "Sight",
-     "page": "95",
-     "draft": true
+     "page": "95"
     },
     {
      "id": "BIRD-038",
@@ -9737,8 +10533,7 @@ window.AGA_DATA = {
      ],
      "ex": "A raptor has 5 times more cells in the foveal pit, giving much higher visual acuity.",
      "group": "Sight",
-     "page": "95",
-     "draft": true
+     "page": "95"
     },
     {
      "id": "BIRD-039",
@@ -9751,8 +10546,7 @@ window.AGA_DATA = {
      ],
      "ex": "This transparent third eyelid protects the eye when feeding, helps underwater vision and stops the eye drying out.",
      "group": "Sight",
-     "page": "95",
-     "draft": true
+     "page": "95"
     },
     {
      "id": "BIRD-040",
@@ -9765,8 +10559,7 @@ window.AGA_DATA = {
      ],
      "ex": "Probe-feeders such as yellow-billed storks, spoonbills and African skimmers have bills packed with Herbst corpuscles.",
      "group": "Taste, touch and smell",
-     "page": "96",
-     "draft": true
+     "page": "96"
     },
     {
      "id": "BIRD-041",
@@ -9779,8 +10572,7 @@ window.AGA_DATA = {
      ],
      "ex": "Smell is detected by the olfactory bulbs; petrels can pick up scent from 8 km away.",
      "group": "Taste, touch and smell",
-     "page": "96",
-     "draft": true
+     "page": "96"
     },
     {
      "id": "BIRD-042",
@@ -9793,8 +10585,7 @@ window.AGA_DATA = {
      ],
      "ex": "The talons grip and often kill prey - be more wary of them than of the beak.",
      "group": "Feeding habits",
-     "page": "96",
-     "draft": true
+     "page": "96"
     },
     {
      "id": "BIRD-043",
@@ -9807,8 +10598,7 @@ window.AGA_DATA = {
      ],
      "ex": "Swifts have a wide gape with bristles to catch insects in flight, swept-back wings, and short legs with needle-like claws.",
      "group": "Feeding habits",
-     "page": "96",
-     "draft": true
+     "page": "96"
     },
     {
      "id": "BIRD-044",
@@ -9821,8 +10611,7 @@ window.AGA_DATA = {
      ],
      "ex": "Fish-eaters include the stabbers (herons and darters) and grabbers (cormorants).",
      "group": "Feeding habits",
-     "page": "96",
-     "draft": true
+     "page": "96"
     },
     {
      "id": "BIRD-045",
@@ -9835,8 +10624,7 @@ window.AGA_DATA = {
      ],
      "ex": "Without the oil gland their feathers get wet, so they sit with wings spread to dry them.",
      "group": "Feeding habits",
-     "page": "96",
-     "draft": true
+     "page": "96"
     },
     {
      "id": "BIRD-046",
@@ -9849,8 +10637,7 @@ window.AGA_DATA = {
      ],
      "ex": "The manual notes that sunbirds are parasitised by Klaas's cuckoo.",
      "group": "Feeding habits",
-     "page": "96",
-     "draft": true
+     "page": "96"
     },
     {
      "id": "BIRD-047",
@@ -9863,8 +10650,7 @@ window.AGA_DATA = {
      ],
      "ex": "Nectar feeders eat plant products, making them primary consumers. Fish-eaters such as cormorants are secondary consumers.",
      "group": "Feeding habits",
-     "page": "96",
-     "draft": true
+     "page": "96"
     },
     {
      "id": "BIRD-048",
@@ -9877,8 +10663,7 @@ window.AGA_DATA = {
      ],
      "ex": "The crop stores food and keeps it moist before it moves on to be ground down.",
      "group": "Digestion",
-     "page": "97",
-     "draft": true
+     "page": "97"
     },
     {
      "id": "BIRD-049",
@@ -9891,8 +10676,7 @@ window.AGA_DATA = {
      ],
      "ex": "Grit stays in the gizzard and helps crush food, compensating for the lack of teeth.",
      "group": "Digestion",
-     "page": "97",
-     "draft": true
+     "page": "97"
     },
     {
      "id": "BIRD-050",
@@ -9905,8 +10689,7 @@ window.AGA_DATA = {
      ],
      "ex": "Birds lack separate organs for urine and faeces; both pass out together, the white part being uric acid.",
      "group": "Digestion",
-     "page": "97",
-     "draft": true
+     "page": "97"
     },
     {
      "id": "BIRD-051",
@@ -9919,8 +10702,7 @@ window.AGA_DATA = {
      ],
      "ex": "The area defended depends mainly on food availability; the more food, the smaller the territory needed.",
      "group": "Territorial behaviour",
-     "page": "97",
-     "draft": true
+     "page": "97"
     },
     {
      "id": "BIRD-052",
@@ -9933,8 +10715,7 @@ window.AGA_DATA = {
      ],
      "ex": "Birds advertise territory with calls and displays; as a rule they do not scent-mark (unlike mammals).",
      "group": "Territorial behaviour",
-     "page": "97",
-     "draft": true
+     "page": "97"
     },
     {
      "id": "BIRD-053",
@@ -9947,8 +10728,7 @@ window.AGA_DATA = {
      ],
      "ex": "In babblers, territorial exchanges are loud and often end in fights between dominant birds of each flock.",
      "group": "Territorial behaviour",
-     "page": "97",
-     "draft": true
+     "page": "97"
     },
     {
      "id": "BIRD-054",
@@ -9961,8 +10741,7 @@ window.AGA_DATA = {
      ],
      "ex": "Altitudinal migrants move up mountains in summer; Botswana is too flat to have any.",
      "group": "Migration",
-     "page": "97",
-     "draft": true
+     "page": "97"
     },
     {
      "id": "BIRD-055",
@@ -9975,8 +10754,7 @@ window.AGA_DATA = {
      ],
      "ex": "Intra-African migrants go to tropical Africa for our winter and visit southern Africa in summer.",
      "group": "Migration",
-     "page": "97",
-     "draft": true
+     "page": "97"
     },
     {
      "id": "BIRD-056",
@@ -9989,8 +10767,7 @@ window.AGA_DATA = {
      ],
      "ex": "Palaearctic migrants come from Europe and Asia, e.g. black kites, steppe buzzards and barn swallows.",
      "group": "Migration",
-     "page": "97",
-     "draft": true
+     "page": "97"
     },
     {
      "id": "BIRD-057",
@@ -10003,8 +10780,7 @@ window.AGA_DATA = {
      ],
      "ex": "Routes have few long water crossings because there is no thermal updraft over water.",
      "group": "Migration",
-     "page": "97",
-     "draft": true
+     "page": "97"
     },
     {
      "id": "BIRD-058",
@@ -10017,8 +10793,7 @@ window.AGA_DATA = {
      ],
      "ex": "First-year birds tend to follow others on migration to learn the route.",
      "group": "Migration",
-     "page": "97",
-     "draft": true
+     "page": "97"
     },
     {
      "id": "BIRD-059",
@@ -10031,8 +10806,7 @@ window.AGA_DATA = {
      ],
      "ex": "Mud nests are built under overhangs using clay and are typical of swallows and martins.",
      "group": "Breeding",
-     "page": "98",
-     "draft": true
+     "page": "98"
     },
     {
      "id": "BIRD-060",
@@ -10045,8 +10819,7 @@ window.AGA_DATA = {
      ],
      "ex": "Woven ball nests are enclosed, with the entrance below or at the side - e.g. southern masked weaver.",
      "group": "Breeding",
-     "page": "98",
-     "draft": true
+     "page": "98"
     },
     {
      "id": "BIRD-061",
@@ -10059,8 +10832,7 @@ window.AGA_DATA = {
      ],
      "ex": "Scrapes are a patch of bare earth; the well-camouflaged eggs are laid straight on the ground.",
      "group": "Breeding",
-     "page": "98",
-     "draft": true
+     "page": "98"
     },
     {
      "id": "BIRD-062",
@@ -10073,8 +10845,7 @@ window.AGA_DATA = {
      ],
      "ex": "Grey-rumped swallows and carmine bee-eaters nest in holes they excavate in the ground.",
      "group": "Breeding",
-     "page": "98",
-     "draft": true
+     "page": "98"
     },
     {
      "id": "BIRD-063",
@@ -10087,8 +10858,7 @@ window.AGA_DATA = {
      ],
      "ex": "Incubating birds lose some breast feathers so body heat passes directly to the eggs.",
      "group": "Breeding",
-     "page": "98",
-     "draft": true
+     "page": "98"
     },
     {
      "id": "BIRD-064",
@@ -10101,8 +10871,7 @@ window.AGA_DATA = {
      ],
      "ex": "Polyandry: one female, several males - e.g. African jacana, black coucal and small buttonquail.",
      "group": "Breeding",
-     "page": "98",
-     "draft": true
+     "page": "98"
     },
     {
      "id": "BIRD-065",
@@ -10115,8 +10884,7 @@ window.AGA_DATA = {
      ],
      "ex": "In polygynous birds a male has multiple females, as in weavers and whydahs.",
      "group": "Breeding",
-     "page": "98",
-     "draft": true
+     "page": "98"
     },
     {
      "id": "BIRD-066",
@@ -10129,8 +10897,7 @@ window.AGA_DATA = {
      ],
      "ex": "In polyandrous birds like the greater painted-snipe the female is more attractive. In eagles, females are larger than males.",
      "group": "Breeding",
-     "page": "98",
-     "draft": true
+     "page": "98"
     },
     {
      "id": "BIRD-067",
@@ -10143,8 +10910,7 @@ window.AGA_DATA = {
      ],
      "ex": "Cuckoos eject host eggs; honeyguides kill the host chicks.",
      "group": "Parasitism",
-     "page": "99",
-     "draft": true
+     "page": "99"
     },
     {
      "id": "BIRD-068",
@@ -10157,8 +10923,7 @@ window.AGA_DATA = {
      ],
      "ex": "The host is usually a hole-nesting species and cannot see any difference in colour.",
      "group": "Parasitism",
-     "page": "99",
-     "draft": true
+     "page": "99"
     },
     {
      "id": "BIRD-069",
@@ -10171,8 +10936,7 @@ window.AGA_DATA = {
      ],
      "ex": "Whydahs and indigobirds use firefinches, waxbills and mannikins, and the host chicks are not attacked.",
      "group": "Parasitism",
-     "page": "99",
-     "draft": true
+     "page": "99"
     },
     {
      "id": "BIRD-070",
@@ -10185,8 +10949,7 @@ window.AGA_DATA = {
      ],
      "ex": "A shorter incubation lets the cuckoo chick evict host eggs or get a size advantage.",
      "group": "Parasitism",
-     "page": "99",
-     "draft": true
+     "page": "99"
     },
     {
      "id": "BIRD-071",
@@ -10199,8 +10962,7 @@ window.AGA_DATA = {
      ],
      "ex": "Precocial chicks are advanced at hatching, which needs a longer incubation than for helpless young.",
      "group": "Chicks",
-     "page": "99",
-     "draft": true
+     "page": "99"
     },
     {
      "id": "BIRD-072",
@@ -10213,8 +10975,7 @@ window.AGA_DATA = {
      ],
      "ex": "All passerine species have altricial (naked, blind and helpless) young.",
      "group": "Taxonomy",
-     "page": "99",
-     "draft": true
+     "page": "99"
     },
     {
      "id": "BIRD-073",
@@ -10227,8 +10988,7 @@ window.AGA_DATA = {
      ],
      "ex": "Bending the legs pulls a tendon tight, locking the toes on the branch.",
      "group": "Taxonomy",
-     "page": "99",
-     "draft": true
+     "page": "99"
     },
     {
      "id": "BIRD-074",
@@ -10241,8 +11001,7 @@ window.AGA_DATA = {
      ],
      "ex": "Most passerines are small, with the exception of ravens and crows.",
      "group": "Taxonomy",
-     "page": "99",
-     "draft": true
+     "page": "99"
     },
     {
      "id": "BIRD-075",
@@ -10255,8 +11014,7 @@ window.AGA_DATA = {
      ],
      "ex": "The loud KAK! KAK! KAK! of the red-billed spurfowl alerts animals to cats, large snakes and raptors.",
      "group": "Prominent birds",
-     "page": "100",
-     "draft": true
+     "page": "100"
     },
     {
      "id": "BIRD-076",
@@ -10269,8 +11027,7 @@ window.AGA_DATA = {
      ],
      "ex": "Ostriches kick, using the large toenail as a weapon.",
      "group": "Prominent birds",
-     "page": "100",
-     "draft": true
+     "page": "100"
     },
     {
      "id": "BIRD-077",
@@ -10283,8 +11040,7 @@ window.AGA_DATA = {
      ],
      "ex": "They may hiss and use the substantial spurs on the wing to gash a threatening animal.",
      "group": "Prominent birds",
-     "page": "101",
-     "draft": true
+     "page": "101"
     },
     {
      "id": "BIRD-078",
@@ -10297,8 +11053,7 @@ window.AGA_DATA = {
      ],
      "ex": "Honeyguides are among the few vertebrates that digest beeswax, thanks to symbiotic gut bacteria.",
      "group": "Prominent birds",
-     "page": "101",
-     "draft": true
+     "page": "101"
     },
     {
      "id": "BIRD-079",
@@ -10311,8 +11066,7 @@ window.AGA_DATA = {
      ],
      "ex": "Males have a dark head and white ear patch; the female's ear coverts are unmarked.",
      "group": "Prominent birds",
-     "page": "101",
-     "draft": true
+     "page": "101"
     },
     {
      "id": "BIRD-080",
@@ -10325,8 +11079,7 @@ window.AGA_DATA = {
      ],
      "ex": "It gives a \"krrrrr\" call and flies over and circles above the predator.",
      "group": "Prominent birds",
-     "page": "101",
-     "draft": true
+     "page": "101"
     },
     {
      "id": "BIRD-081",
@@ -10339,8 +11092,7 @@ window.AGA_DATA = {
      ],
      "ex": "The eye turns yellow at 2 years; the red throat and face are only complete at 4-6 years.",
      "group": "Prominent birds",
-     "page": "102",
-     "draft": true
+     "page": "102"
     },
     {
      "id": "BIRD-082",
@@ -10353,8 +11105,7 @@ window.AGA_DATA = {
      ],
      "ex": "They are cooperative breeders: the dominant male and female raise chicks with helpers. Groups are usually 5-6 birds.",
      "group": "Prominent birds",
-     "page": "102",
-     "draft": true
+     "page": "102"
     },
     {
      "id": "BIRD-083",
@@ -10367,8 +11118,7 @@ window.AGA_DATA = {
      ],
      "ex": "Males have two chest bands; the female has a single, broad, incomplete band.",
      "group": "Prominent birds",
-     "page": "102",
-     "draft": true
+     "page": "102"
     },
     {
      "id": "BIRD-084",
@@ -10381,8 +11131,7 @@ window.AGA_DATA = {
      ],
      "ex": "They feed on insects disturbed by vehicles and herds.",
      "group": "Prominent birds",
-     "page": "102",
-     "draft": true
+     "page": "102"
     },
     {
      "id": "BIRD-085",
@@ -10395,8 +11144,7 @@ window.AGA_DATA = {
      ],
      "ex": "Levaillant's cuckoo parasitises the babblers. It is an intra-African migrant.",
      "group": "Prominent birds",
-     "page": "102",
-     "draft": true
+     "page": "102"
     },
     {
      "id": "BIRD-086",
@@ -10409,8 +11157,7 @@ window.AGA_DATA = {
      ],
      "ex": "Wattled cranes keep calling while following leopards and other predators.",
      "group": "Prominent birds",
-     "page": "103",
-     "draft": true
+     "page": "103"
     },
     {
      "id": "BIRD-087",
@@ -10423,8 +11170,7 @@ window.AGA_DATA = {
      ],
      "ex": "African jacana females are much larger than males (they are polyandrous).",
      "group": "Prominent birds",
-     "page": "103",
-     "draft": true
+     "page": "103"
     },
     {
      "id": "BIRD-088",
@@ -10437,8 +11183,7 @@ window.AGA_DATA = {
      ],
      "ex": "Parents may lead predators away by walking slowly away rather than flying.",
      "group": "Prominent birds",
-     "page": "103",
-     "draft": true
+     "page": "103"
     },
     {
      "id": "BIRD-089",
@@ -10451,8 +11196,7 @@ window.AGA_DATA = {
      ],
      "ex": "They feed almost only on birds caught in flight; doves are the most popular.",
      "group": "Prominent birds",
-     "page": "104",
-     "draft": true
+     "page": "104"
     },
     {
      "id": "BIRD-090",
@@ -10465,8 +11209,7 @@ window.AGA_DATA = {
      ],
      "ex": "Adult colours start in the 3rd year; full adult colour is reached by the 5th year.",
      "group": "Prominent birds",
-     "page": "104",
-     "draft": true
+     "page": "104"
     },
     {
      "id": "BIRD-091",
@@ -10479,8 +11222,7 @@ window.AGA_DATA = {
      ],
      "ex": "They take 6 years; the brown, furry head turns white in the fifth year.",
      "group": "Prominent birds",
-     "page": "104",
-     "draft": true
+     "page": "104"
     },
     {
      "id": "BIRD-092",
@@ -10493,8 +11235,7 @@ window.AGA_DATA = {
      ],
      "ex": "Hamerkops feed mostly on frogs and tadpoles; fish and invertebrates are less important.",
      "group": "Prominent birds",
-     "page": "105",
-     "draft": true
+     "page": "105"
     },
     {
      "id": "BIRD-093",
@@ -10507,8 +11248,7 @@ window.AGA_DATA = {
      ],
      "ex": "Openbills feed mostly on water snails and also take fresh-water mussels.",
      "group": "Prominent birds",
-     "page": "105",
-     "draft": true
+     "page": "105"
     },
     {
      "id": "BIRD-094",
@@ -10521,8 +11261,7 @@ window.AGA_DATA = {
      ],
      "ex": "Drongos mimic the alarm call; when the meerkats dash for cover, they swoop down and take the prey.",
      "group": "Prominent birds",
-     "page": "105",
-     "draft": true
+     "page": "105"
     },
     {
      "id": "BIRD-095",
@@ -10535,8 +11274,7 @@ window.AGA_DATA = {
      ],
      "ex": "They prefer to feed cooperatively, which is more successful than feeding alone.",
      "group": "Prominent birds",
-     "page": "105",
-     "draft": true
+     "page": "105"
     },
     {
      "id": "BIRD-096",
@@ -10549,8 +11287,7 @@ window.AGA_DATA = {
      ],
      "ex": "The peregrine falcon reaches speeds of over 300 km/h.",
      "group": "Exceptional birds",
-     "page": "106",
-     "draft": true
+     "page": "106"
     },
     {
      "id": "BIRD-097",
@@ -10563,8 +11300,7 @@ window.AGA_DATA = {
      ],
      "ex": "Male kori bustards weigh up to 12.5 kg (some sources say the mute swan is heavier).",
      "group": "Exceptional birds",
-     "page": "106",
-     "draft": true
+     "page": "106"
     },
     {
      "id": "BIRD-098",
@@ -10577,8 +11313,7 @@ window.AGA_DATA = {
      ],
      "ex": "The wandering albatross reaches a wingspan of 3.6 m.",
      "group": "Exceptional birds",
-     "page": "106",
-     "draft": true
+     "page": "106"
     },
     {
      "id": "BIRD-099",
@@ -10591,8 +11326,7 @@ window.AGA_DATA = {
      ],
      "ex": "The common tern migrates just over 16 000 km one way.",
      "group": "Exceptional birds",
-     "page": "106",
-     "draft": true
+     "page": "106"
     },
     {
      "id": "BIRD-100",
@@ -10605,8 +11339,7 @@ window.AGA_DATA = {
      ],
      "ex": "White-backed, lappet-faced, white-headed and hooded vultures are listed as threatened by poisoning.",
      "group": "Birds of concern",
-     "page": "106",
-     "draft": true
+     "page": "106"
     },
     {
      "id": "BIRD-101",
@@ -10619,8 +11352,7 @@ window.AGA_DATA = {
      ],
      "ex": "White-backed vulture: threat poisoning - CE.",
      "group": "Birds of concern",
-     "page": "106",
-     "draft": true
+     "page": "106"
     },
     {
      "id": "BIRD-102",
@@ -10633,8 +11365,7 @@ window.AGA_DATA = {
      ],
      "ex": "Both are migrants threatened by extreme pesticide use in Europe/Asia (NT).",
      "group": "Birds of concern",
-     "page": "106",
-     "draft": true
+     "page": "106"
     },
     {
      "id": "BIRD-103",
@@ -10647,8 +11378,7 @@ window.AGA_DATA = {
      ],
      "ex": "Botswana has 12 IBAs.",
      "group": "Important bird areas",
-     "page": "107",
-     "draft": true
+     "page": "107"
     },
     {
      "id": "BIRD-104",
@@ -10661,8 +11391,7 @@ window.AGA_DATA = {
      ],
      "ex": "The Okavango Delta has the largest diversity of wetland habitats; flagship species - wattled crane.",
      "group": "Important bird areas",
-     "page": "107",
-     "draft": true
+     "page": "107"
     },
     {
      "id": "BIRD-105",
@@ -10675,8 +11404,7 @@ window.AGA_DATA = {
      ],
      "ex": "When flooded, the pans hold southern Africa's largest breeding colony of lesser and greater flamingo and great white pelican.",
      "group": "Important bird areas",
-     "page": "107",
-     "draft": true
+     "page": "107"
     },
     {
      "id": "BIRD-106",
@@ -10689,8 +11417,7 @@ window.AGA_DATA = {
      ],
      "ex": "Many raptors have their highest populations here; flagship species - bateleur.",
      "group": "Important bird areas",
-     "page": "107",
-     "draft": true
+     "page": "107"
     },
     {
      "id": "BIRD-107",
@@ -10703,8 +11430,7 @@ window.AGA_DATA = {
      ],
      "ex": "Linyanti Swamp - wetland threatened by poaching, fires and boat behaviour; flagship species - slaty egret.",
      "group": "Important bird areas",
-     "page": "107",
-     "draft": true
+     "page": "107"
     },
     {
      "id": "BIRD-108",
@@ -10717,8 +11443,7 @@ window.AGA_DATA = {
      ],
      "ex": "CKGR protects a huge area of Kalahari pans and sandveld; flagship species - Burchell's sandgrouse.",
      "group": "Important bird areas",
-     "page": "107",
-     "draft": true
+     "page": "107"
     }
    ]
   },
