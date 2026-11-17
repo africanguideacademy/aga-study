@@ -84,7 +84,10 @@ const LICENSE = { 'cc0': 'CC0', 'cc-by': 'CC BY', 'cc-by-sa': 'CC BY-SA' };
     let got = 0, missing = [];
     for (const s of list) {
       const prev = byName.get(s.name);
-      if (prev && prev.file && s.name !== redo && !args.includes('--refresh')) continue;
+      // --refresh refetches every species; with --resume it skips photos already fetched in the last 40 minutes
+      const fresh = prev && prev.file && args.includes('--resume') && fs.existsSync(path.join(ROOT, 'app', prev.file))
+        && Date.now() - fs.statSync(path.join(ROOT, 'app', prev.file)).mtimeMs < 40 * 60e3;
+      if (prev && prev.file && s.name !== redo && (!args.includes('--refresh') || fresh)) continue;
       try {
         const tid = await taxonId(s.sci);
         if (!tid) { missing.push(`${s.name} (${s.sci}): not found on iNaturalist`); continue; }

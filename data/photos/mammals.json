@@ -253,10 +253,10 @@
   "name": "Honey Badger (Ratel)",
   "sci": "Mellivora capensis",
   "file": "media/mammals/honey-badger-ratel.jpg",
-  "photoId": 462859415,
+  "photoId": 187657109,
   "license": "CC BY",
-  "credit": "© Lukas Zangl",
-  "source": "https://www.inaturalist.org/observations/258019033",
+  "credit": "© Morten Ross",
+  "source": "https://www.inaturalist.org/observations/111180980",
   "place": "Botswana"
  },
  {
@@ -363,10 +363,10 @@
   "name": "Common Duiker",
   "sci": "Sylvicapra grimmia",
   "file": "media/mammals/common-duiker.jpg",
-  "photoId": 126704696,
+  "photoId": 462304827,
   "license": "CC BY",
-  "credit": "© Robert Taylor",
-  "source": "https://www.inaturalist.org/observations/77548392",
+  "credit": "© Lukas Zangl",
+  "source": "https://www.inaturalist.org/observations/257687337",
   "place": "Botswana"
  },
  {
@@ -593,10 +593,10 @@
   "name": "White-tailed Mongoose",
   "sci": "Ichneumia albicauda",
   "file": "media/mammals/white-tailed-mongoose.jpg",
-  "photoId": 13445351,
-  "license": "CC BY",
-  "credit": "© tlaloc27",
-  "source": "https://www.inaturalist.org/observations/9821991",
+  "photoId": 167401436,
+  "license": "CC0",
+  "credit": "simontonge",
+  "source": "https://www.inaturalist.org/observations/100310326",
   "place": "Africa"
  },
  {
@@ -623,10 +623,10 @@
   "name": "Cape Porcupine",
   "sci": "Hystrix africaeaustralis",
   "file": "media/mammals/cape-porcupine.jpg",
-  "photoId": 584019803,
-  "license": "CC0",
-  "credit": "rianafourie",
-  "source": "https://www.inaturalist.org/observations/322803080",
+  "photoId": 114160639,
+  "license": "CC BY",
+  "credit": "© Jan Ebr &amp; Ivana Ebrová",
+  "source": "https://www.inaturalist.org/observations/70248702",
   "place": "Botswana"
  },
  {
@@ -643,10 +643,10 @@
   "name": "Greater Cane Rat",
   "sci": "Thryonomys swinderianus",
   "file": "media/mammals/greater-cane-rat.jpg",
-  "photoId": 280274330,
+  "photoId": 69837358,
   "license": "CC BY-SA",
-  "credit": "© Rosemary Harrison",
-  "source": "https://www.inaturalist.org/observations/162108888",
+  "credit": "© Brendan Smith",
+  "source": "https://www.inaturalist.org/observations/44044858",
   "place": "Africa"
  },
  {
@@ -683,20 +683,20 @@
   "name": "Egyptian Slit-faced Bat",
   "sci": "Nycteris thebaica",
   "file": "media/mammals/egyptian-slit-faced-bat.jpg",
-  "photoId": 61943124,
+  "photoId": 184674,
   "license": "CC BY",
-  "credit": "© Robert Taylor",
-  "source": "https://www.inaturalist.org/observations/39041314",
+  "credit": "© Bernard DUPONT",
+  "source": "https://www.inaturalist.org/observations/131170",
   "place": "Botswana"
  },
  {
   "name": "Little Free-tailed Bat",
   "sci": "Mops pumilus",
   "file": "media/mammals/little-free-tailed-bat.jpg",
-  "photoId": 2121063,
+  "photoId": 15846584,
   "license": "CC BY",
   "credit": "© Nick Schaller",
-  "source": "https://www.inaturalist.org/observations/1747983",
+  "source": "https://www.inaturalist.org/observations/11184456",
   "place": "Africa"
  },
  {
@@ -730,16 +730,6 @@
   "place": "Africa"
  },
  {
-  "name": "Yellow-bellied House Bat",
-  "sci": "Scotophilus dinganii",
-  "file": "media/mammals/yellow-bellied-house-bat.jpg",
-  "photoId": 347036528,
-  "license": "CC BY",
-  "credit": "© Valentin Moser",
-  "source": "https://www.inaturalist.org/observations/197090185",
-  "place": "Africa"
- },
- {
   "name": "Ground Pangolin",
   "sci": "Smutsia temminckii",
   "file": "media/mammals/ground-pangolin.jpg",
@@ -753,10 +743,10 @@
   "name": "Rock Hyrax",
   "sci": "Procavia capensis",
   "file": "media/mammals/rock-hyrax.jpg",
-  "photoId": 254065797,
-  "license": "CC BY",
-  "credit": "© Robert Taylor",
-  "source": "https://www.inaturalist.org/observations/147630064",
+  "photoId": 546065187,
+  "license": "CC0",
+  "credit": "sardinemachine",
+  "source": "https://www.inaturalist.org/observations/302994126",
   "place": "Botswana"
  },
  {
@@ -773,10 +763,10 @@
   "name": "Greater Kudu",
   "sci": "Tragelaphus strepsiceros",
   "file": "media/mammals/greater-kudu.jpg",
-  "photoId": 228140334,
+  "photoId": 368502653,
   "license": "CC BY",
-  "credit": "© Mahomed Desai",
-  "source": "https://www.inaturalist.org/observations/133905806",
+  "credit": "© Brook",
+  "source": "https://www.inaturalist.org/observations/208267397",
   "place": "Botswana"
  },
  {
@@ -808,16 +798,6 @@
   "credit": "© Anil Madhavapeddy",
   "source": "https://www.inaturalist.org/observations/307081664",
   "place": "Botswana"
- },
- {
-  "name": "Cape Clawless Otter",
-  "sci": "Aonyx capensis",
-  "file": "media/mammals/cape-clawless-otter.jpg",
-  "photoId": 56819210,
-  "license": "CC BY",
-  "credit": "© Jeremy Gilmore",
-  "source": "https://www.inaturalist.org/observations/35984676",
-  "place": "Africa"
  },
  {
   "name": "Large-spotted Genet",
