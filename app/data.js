@@ -10645,14 +10645,13 @@ window.AGA_DATA = {
      "name": "Leopard",
      "sci": "Panthera pardus",
      "group": "Cats",
-     "photo": "media/mammals/leopard-10355594.jpg",
+     "photo": "media/user/leopard-1PZn8RZ8.jpg",
      "pb": 75323,
-     "credit": "© Brian Gratwicke",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/7861111",
+     "credit": "Bernard Loots (AGA student)",
+     "license": "AGA",
+     "src": "",
      "f": 1,
-     "page": 114,
-     "wide": 1
+     "page": 114
     },
     {
      "id": "mammals-lion",
@@ -10714,14 +10713,13 @@ window.AGA_DATA = {
      "name": "African Wild Dog",
      "sci": "Lycaon pictus",
      "group": "Dogs and jackals",
-     "photo": "media/mammals/african-wild-dog-4949165.jpg",
+     "photo": "media/user/african-wild-dog-1Bh6C5tE.jpg",
      "pb": 73355,
-     "credit": "© Per Arne Slotte",
-     "license": "CC BY-SA",
-     "src": "https://www.inaturalist.org/observations/4155737",
+     "credit": "Bernard Loots (AGA student)",
+     "license": "AGA",
+     "src": "",
      "f": 1,
-     "page": 115,
-     "wide": 1
+     "page": 115
     },
     {
      "id": "mammals-bat-eared-fox",
@@ -11097,11 +11095,11 @@ window.AGA_DATA = {
      "name": "African Civet",
      "sci": "Civettictis civetta",
      "group": "Genets and civets",
-     "photo": "media/mammals/african-civet-353739024.jpg",
+     "photo": "media/user/african-civet-1j6M9ZHL.jpg",
      "pb": 30194,
-     "credit": "© Lucky Atabo",
-     "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/200489417"
+     "credit": "Bernard Loots (AGA student)",
+     "license": "AGA",
+     "src": ""
     },
     {
      "id": "mammals-large-spotted-genet",

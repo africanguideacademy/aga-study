@@ -235,7 +235,7 @@ appData.modules.forEach(m => m.items.forEach(i => {
 }));
 // ---------------- species photo sets (tools/fetch-photos.js: free-licence iNaturalist photos) ----------------
 // data/species-lists/<group>.json = the species, data/photos/<group>.json = the photo fetched for each one.
-const PHOTO_GROUPS = { mammals: 'Mammals', reptiles: 'Reptiles', amphibians: 'Amphibians', arthropods: 'Arthropods', plants: 'Plants' };
+const PHOTO_GROUPS = { mammals: 'Mammals', reptiles: 'Reptiles', amphibians: 'Amphibians', arthropods: 'Arthropods', plants: 'Plants', astronomy: 'Night sky' };
 for (const [g, title] of Object.entries(PHOTO_GROUPS)) {
   const lf = path.join(ROOT, 'data', 'species-lists', g + '.json'), pf = path.join(ROOT, 'data', 'photos', g + '.json');
   if (!fs.existsSync(lf) || !fs.existsSync(pf)) continue;
@@ -243,7 +243,7 @@ for (const [g, title] of Object.entries(PHOTO_GROUPS)) {
   const items = JSON.parse(fs.readFileSync(lf, 'utf8').replace(/^﻿/, '')).map(s => {
     const p = photos.get(s.name);
     if (!p || !p.file || !fs.existsSync(path.join(ROOT, 'app', p.file))) return null;
-    const o = { id: g + '-' + slug(s.name), name: s.name, sci: s.sci, group: s.group, photo: p.file, pb: fs.statSync(path.join(ROOT, 'app', p.file)).size,
+    const o = { id: g + '-' + slug(s.name), name: s.name, sci: s.sci || undefined, group: s.group, photo: p.file, pb: fs.statSync(path.join(ROOT, 'app', p.file)).size,
       credit: p.credit, license: p.license, src: p.source };
     if (s.manual) { o.f = 1; if (s.page) o.page = s.page; }
     return o;
