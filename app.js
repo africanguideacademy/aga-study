@@ -49,6 +49,9 @@
     save(STORE_KEY, progress);
   }
   const masteredCount = (mod, items) => items.filter(i => rec(mod.id, i.id).box >= MASTERED).length;
+  const practisedCount = (mod, items) => items.filter(i => { const r = rec(mod.id, i.id); return r.right + r.wrong > 0; }).length;
+  // Two-tone bar: light = practised at least once, green = mastered (3 right in a row)
+  const progBar = (pr, ms, n) => `<div class="bar bar2"><span class="pr" style="width:${n ? 100 * pr / n : 0}%"></span><span class="ms" style="width:${n ? 100 * ms / n : 0}%"></span></div>`;
 
   // ---------- helpers ----------
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -226,8 +229,9 @@
   const subjectMods = s => subjectModIds(s).map(modById).filter(Boolean);
   function subjectProgress(s) {
     let d = 0, n = 0;
-    subjectMods(s).forEach(m => { d += masteredCount(m, m.items); n += m.items.length; });
-    return { d, n };
+    let pr = 0;
+    subjectMods(s).forEach(m => { d += masteredCount(m, m.items); pr += practisedCount(m, m.items); n += m.items.length; });
+    return { d, n, pr };
   }
   // Quiz wording per subject ("Name the bird" / "Name the frog")
   const modeTitle = (k, mod) => {
@@ -241,12 +245,12 @@
     const fg = modById('fgasa80');
     const heroPhoto = shuffle(fg.items.filter(i => i.photo))[0].photo;
     const tiles = SUBJECTS.filter(s => subjectMods(s).length).map(s => {
-      const { d, n } = subjectProgress(s);
+      const { d, n, pr } = subjectProgress(s);
       return `<a class="card subject" href="#/s/${s.id}">
         <div class="subject-img" style="background-image:url('${esc(s.photo)}')"></div>
         <div class="subject-body"><h3>${esc(s.title)}</h3><p>${esc(s.blurb)}</p>
-          <div class="bar"><span style="width:${pct(d, n)}%"></span></div>
-          <div class="bar-label"><span>${pct(d, n)}% mastered</span><span class="go">Open ${icon('chev')}</span></div></div></a>`;
+          ${progBar(pr, d, n)}
+          <div class="bar-label"><span>${pr ? `${pr} practised &middot; ${d} mastered` : 'Not started yet'}</span><span class="go">Open ${icon('chev')}</span></div></div></a>`;
     }).join('');
     const soon = COMING_SOON.map(t => `<span class="soon">${esc(t)}</span>`).join('');
     const savedCalls = callList(DATA.modules).filter(u => cachedSet.has(abs(u))).length;
@@ -272,7 +276,7 @@
     const setSel = sets.length > 1 ? `<div class="setting-row"><label for="photoSet">Bird list</label><select class="select" id="photoSet">
         ${sets.map(m => `<option value="${esc(m.id)}"${pm && pm.id === m.id ? ' selected' : ''}>${esc(m.short || m.title)} (${m.items.length})</option>`).join('')}
       </select></div>` : '';
-    const { d, n } = subjectProgress(s);
+    const { d, n, pr } = subjectProgress(s);
     const lens = [10, 20, 0].map(x => `<button data-len="${x}" aria-pressed="${settings.length === x}">${x || 'All'}</button>`).join('');
     // calls setting: featured set / all / one group
     const csc = cm ? (settings.scope[cm.id] || cm.defaultScope || 'all') : 'all';
@@ -292,26 +296,27 @@
       ? `<a class="card act" href="${href}"><div class="tile-ico">${icon(ic)}</div><strong>${title}</strong><span>${sub}</span></a>`
       : `<div class="card act off"><div class="tile-ico">${icon(ic)}</div><strong>${title}</strong><span>${navigator.onLine ? 'Not enough in this selection' : 'Download calls to use offline'}</span></div>`;
     const has = (m, k) => m && modesFor(m).includes(k);
-    const mp = m => m ? `${masteredCount(m, m.items)}/${m.items.length}` : '';
+    // "12 practised · 3 mastered" for a section header (or "0 of 40" before starting)
+    const mp = m => { if (!m) return ''; const p = practisedCount(m, m.items), x = masteredCount(m, m.items); return p ? `${p} practised &middot; ${x} mastered` : `0 of ${m.items.length} practised`; };
     const section = (title, sub, tiles) => tiles ? `<div class="section-title">${title}${sub ? `<span class="sec-sub">${sub}</span>` : ''}</div><div class="act-grid">${tiles}</div>` : '';
     const matchMod = pm || cm; // call-to-photo uses the photo module if there is one, else calls that have photos
     const noun = s.noun || 'bird';
 
     show(`<section class="mod-head" style="background-image:url('${esc(s.photo)}')">
         <h1>${esc(s.title)}</h1><p>${esc(s.blurb)}</p>
-        <div class="bar"><span style="width:${pct(d, n)}%"></span></div>
-        <div class="bar-label"><span>${d} of ${n} items mastered</span><span>${pct(d, n)}%</span></div>
+        ${progBar(pr, d, n)}
+        <div class="bar-label"><span>${pr} of ${n} practised &middot; ${d} mastered</span><span>${pct(d, n)}%</span></div>
       </section>
       <div class="section-title">Settings</div>
       <div class="card"><div class="setting-row"><label>Questions per round</label><div class="seg">${lens}</div></div>${setSel}${callSel}${topicSel}</div>
-      ${pm ? section('By sight', `${mp(pm)} mastered`,
+      ${pm ? section('By sight', mp(pm),
         tile(`#/m/${pm.id}/quiz/photo2name`, 'camera', `Name the ${noun}`, 'See a photo, pick the name') +
         tile(`#/m/${pm.id}/quiz/name2photo`, 'search', `Find the ${noun}`, 'Read a name, tap the photo')) : ''}
-      ${cm ? section('By sound', `${mp(cm)} mastered`,
+      ${cm ? section('By sound', mp(cm),
         tile(`#/m/${cm.id}/quiz/call2name`, 'sound', 'Whose call is this?', `Listen, pick the ${noun}`, has(cm, 'call2name')) +
         (matchMod && matchMod.items.filter(i => i.call && i.photo).length >= 4
           ? tile(`#/m/${matchMod.id}/quiz/call2photo`, 'match', 'Match call to photo', 'Listen, tap the photo', has(matchMod, 'call2photo')) : '')) : ''}
-      ${qm ? section('Manual knowledge', `${mp(qm)} mastered`,
+      ${qm ? section('Manual knowledge', mp(qm),
         tile(`#/m/${qm.id}/quiz/mcq`, 'book', 'Manual quiz', 'Multiple choice with explanations') +
         tile(`#/m/${qm.id}/browse`, 'list', 'Study list', 'Every question and answer')) : ''}
       ${section('Flashcards', '',
@@ -596,28 +601,41 @@
   // ---------- progress ----------
   function renderProgress() {
     chrome({ tab: 'progress' });
-    let answered = 0, right = 0, mastered = 0;
-    DATA.modules.forEach(m => Object.values(progress[m.id] || {}).forEach(r => { answered += r.right + r.wrong; right += r.right; if (r.box >= MASTERED) mastered++; }));
+    let answered = 0, right = 0, mastered = 0, practised = 0, last = 0;
+    DATA.modules.forEach(m => Object.values(progress[m.id] || {}).forEach(r => {
+      answered += r.right + r.wrong; right += r.right; if (r.right + r.wrong) practised++; if (r.box >= MASTERED) mastered++; if (r.last > last) last = r.last;
+    }));
     const modRows = DATA.modules.map(m => {
       const recs = m.items.map(i => ({ i, r: rec(m.id, i.id) }));
       const d = recs.filter(x => x.r.box >= MASTERED).length;
+      const pr = recs.filter(x => x.r.right + x.r.wrong > 0).length;
       const weak = recs.filter(x => x.r.wrong > 0 && x.r.box < MASTERED).sort((a, b) => (b.r.wrong - b.r.right) - (a.r.wrong - a.r.right)).slice(0, 10).map(x => x.i);
       const mode = isQ(m) ? 'mcq' : weak.every(i => i.photo) ? 'photo2name' : 'call2name';
-      return { m, d, weak, mode };
+      return { m, d, pr, weak, mode };
     });
-    const cards = modRows.map(({ m, d, weak, mode }) => `<div class="pad">
-        <h3>${esc(m.title)}</h3>
-        <div class="bar"><span style="width:${pct(d, m.items.length)}%"></span></div>
-        <div class="bar-label"><span>${d} of ${m.items.length} mastered</span><span>${pct(d, m.items.length)}%</span></div>
-        ${weak.length ? `<p style="margin:12px 0 8px">${isQ(m) ? `${plural(weak.length, 'question')} to work on, e.g. "${esc(weak[0].q)}"` : `Birds to work on: ${weak.slice(0, 5).map(i => esc(i.name)).join(', ')}${weak.length > 5 ? '...' : ''}`}</p>
+    const ago = t => { const mins = Math.round((Date.now() - t) / 60000); return mins < 1 ? 'just now' : mins < 60 ? `${mins} min ago` : mins < 1440 ? `${Math.round(mins / 60)} h ago` : `${Math.round(mins / 1440)} days ago`; };
+    // group the lists under their subject (Birds, Amphibians)
+    const cards = SUBJECTS.map(s => {
+      const rows = modRows.filter(x => subjectModIds(s).includes(x.m.id));
+      if (!rows.length) return '';
+      return `<div class="section-title">${esc(s.title)}</div><div class="card">${rows.map(({ m, d, pr, weak, mode }) => `<div class="pad">
+        <h3>${esc(m.short || m.title)}</h3>
+        ${progBar(pr, d, m.items.length)}
+        <div class="bar-label"><span>${pr} of ${m.items.length} practised &middot; ${d} mastered</span><span>${pct(d, m.items.length)}%</span></div>
+        ${weak.length ? `<p style="margin:12px 0 8px">${isQ(m) ? `${plural(weak.length, 'question')} to work on, e.g. "${esc(weak[0].q)}"` : `To work on: ${weak.slice(0, 5).map(i => esc(i.name)).join(', ')}${weak.length > 5 ? '...' : ''}`}</p>
           <button class="btn ghost" data-weak="${m.id}" data-mode="${mode}">Practise these ${weak.length}</button>` : ''}
-      </div>`).join('');
-    show(`<h1>Your progress</h1><p class="sub">Saved on this device.</p>
-      <div class="stat-grid"><div class="card stat"><b>${mastered}</b><span>mastered</span></div>
+      </div>`).join('')}</div>`;
+    }).join('');
+    show(`<h1>Your progress</h1><p class="sub">${last ? `Last studied ${ago(last)}.` : 'You have not started yet.'}</p>
+      <div class="stat-grid four"><div class="card stat"><b>${practised}</b><span>practised</span></div>
+        <div class="card stat"><b>${mastered}</b><span>mastered</span></div>
         <div class="card stat"><b>${answered}</b><span>answers</span></div>
         <div class="card stat"><b>${answered ? pct(right, answered) + '%' : '-'}</b><span>accuracy</span></div></div>
-      <div class="section-title">By module</div><div class="card">${cards}</div>
-      ${answered ? '<button class="linkish" id="reset">Reset all progress on this device</button>' : '<p class="small" style="margin-top:14px">Do a quiz or some flashcards and your progress will show here.</p>'}
+      <p class="small" style="margin:10px 4px 0"><span class="legend pr"></span> practised &nbsp; <span class="legend ms"></span> mastered (right 3 times in a row)</p>
+      ${cards}
+      <div class="card pad" style="margin-top:16px"><h3>Where is my progress saved?</h3>
+        <p style="margin:0">On this phone, in this browser. The installed app, Safari/Chrome and links opened inside WhatsApp each keep their own progress - so always study from the same place (the installed app is best).</p></div>
+      ${answered ? '<button class="linkish" id="reset">Reset all progress on this device</button>' : ''}
       ${footer()}`);
     view.querySelectorAll('[data-weak]').forEach(b => b.addEventListener('click', () => {
       const r = modRows.find(x => x.m.id === b.dataset.weak);
