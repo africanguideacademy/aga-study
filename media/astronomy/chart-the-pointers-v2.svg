@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<defs><radialGradient id="sky" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#132a4f"/><stop offset="1" stop-color="#050b18"/></radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>
+.ln{fill:none;stroke:#e8b65a;stroke-width:2.2;stroke-linecap:round;opacity:.55;stroke-dasharray:1;stroke-dashoffset:0;animation:draw 2.6s ease-out backwards}
+.ln.bold{stroke-width:3.4;opacity:.9}
+.tw{animation:tw 3.4s ease-in-out infinite}
+.ring{fill:none;stroke:#ffd27a;stroke-width:3;transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite;opacity:0;animation-delay:2s}
+.lb{font:700 36px system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;fill:#f3e3c3;animation:fade 1s ease-out 2.2s backwards}
+.lb.sm{font-size:30px;fill:#c9d6ee}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes tw{0%,100%{opacity:1}50%{opacity:.55}}
+@keyframes pulse{0%{opacity:.95;transform:scale(1)}100%{opacity:0;transform:scale(1.9)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+</style>
+<rect width="1200" height="800" fill="url(#sky)"/>
+<path class="ln" d="M855.1 363.5L1090.0 342.3" pathLength="1" style="animation-delay:0.00s"/>
+<path class="ln" d="M972.9 565.9L988.5 234.1" pathLength="1" style="animation-delay:0.15s"/>
+<path class="ln" d="M1554.4 235.5L1232.5 -83.7L1065.2 -140.9L952.2 -225.1L449.5 32.4L260.6 -287.4L274.9 -565.1L269.4 -609.4L27.1 -876.6L-199.9 -472.3L-438.3 -388.1" pathLength="1" style="animation-delay:0.30s"/>
+<path class="ln" d="M269.4 -609.4L560.4 -924.0" pathLength="1" style="animation-delay:0.45s"/>
+<path class="ln" d="M110.2 533.3L449.5 32.4L336.4 439.6" pathLength="1" style="animation-delay:0.60s"/>
+<path class="ln" d="M1065.2 -140.9L1185.9 0.4L1376.8 463.2" pathLength="1" style="animation-delay:0.75s"/>
+<circle cx="1159.4" cy="568.6" r="1.4" fill="rgb(177,197,255)"/>
+<circle cx="1125.4" cy="668.1" r="1.4" fill="rgb(221,229,255)"/>
+<circle cx="181.0" cy="93.9" r="1.4" fill="rgb(255,192,135)"/>
+<circle cx="968.2" cy="360.2" r="1.4" fill="rgb(252,241,224)"/>
+<circle cx="715.4" cy="669.0" r="1.5" fill="rgb(195,211,255)"/>
+<circle cx="1045.4" cy="274.0" r="1.6" fill="rgb(185,204,255)"/>
+<circle cx="1000.8" cy="340.6" r="1.6" fill="rgb(255,186,129)"/>
+<circle cx="471.2" cy="326.5" r="1.6" fill="rgb(196,212,255)"/>
+<circle cx="116.3" cy="652.8" r="1.7" fill="rgb(237,240,255)"/>
+<circle cx="803.9" cy="203.0" r="1.7" fill="rgb(201,216,255)"/>
+<circle cx="613.4" cy="627.8" r="1.8" fill="rgb(248,247,253)"/>
+<circle cx="872.4" cy="551.4" r="1.9" fill="rgb(223,231,255)"/>
+<circle cx="343.8" cy="11.1" r="1.9" fill="rgb(187,205,255)"/>
+<circle cx="243.8" cy="514.7" r="2.0" fill="rgb(234,237,255)"/>
+<circle cx="-6.8" cy="537.4" r="2.2" fill="rgb(255,208,155)"/>
+<circle cx="31.5" cy="761.5" r="2.2" fill="rgb(255,226,183)"/>
+<circle cx="958.7" cy="811.7" r="2.2" fill="rgb(223,231,255)"/>
+<circle cx="813.2" cy="221.8" r="2.4" fill="rgb(187,205,255)"/>
+<circle cx="47.1" cy="676.6" r="2.4" fill="rgb(197,212,255)"/>
+<circle cx="215.5" cy="281.4" r="2.5" fill="rgb(189,206,255)"/>
+<circle cx="1216.8" cy="757.8" r="2.6" fill="rgb(255,236,200)"/>
+<circle cx="1097.9" cy="140.6" r="2.6" fill="rgb(255,183,125)"/>
+<circle cx="442.2" cy="94.4" r="2.7" fill="rgb(192,209,255)"/>
+<circle cx="895.2" cy="366.6" r="2.9" fill="rgb(193,210,255)"/>
+<circle cx="669.5" cy="327.5" r="2.9" fill="rgb(250,245,243)"/>
+<circle cx="1151.9" cy="725.5" r="2.9" fill="rgb(182,201,255)"/>
+<circle cx="666.4" cy="751.9" r="3.0" fill="rgb(255,189,133)"/>
+<circle cx="679.3" cy="812.9" r="3.2" fill="rgb(188,206,255)"/>
+<circle cx="181.4" cy="370.2" r="3.3" fill="rgb(255,236,201)"/>
+<circle cx="1145.1" cy="817.0" r="3.3" fill="rgb(255,187,130)"/>
+<circle cx="204.9" cy="75.0" r="3.3" fill="rgb(255,225,183)"/>
+<circle cx="1108.7" cy="596.6" r="3.4" fill="rgb(188,206,255)"/>
+<circle cx="413.6" cy="610.7" r="3.4" fill="rgb(255,215,166)"/>
+<circle cx="864.0" cy="435.7" r="3.4" fill="rgb(255,217,169)"/>
+<circle cx="877.5" cy="188.0" r="3.6" fill="rgb(178,198,255)"/>
+<circle cx="808.2" cy="330.8" r="3.6" fill="rgb(177,197,255)"/>
+<circle cx="684.4" cy="372.2" r="3.7" fill="rgb(189,206,255)"/>
+<circle cx="616.7" cy="434.1" r="3.9" fill="rgb(179,199,255)"/>
+<circle cx="620.9" cy="630.0" r="3.9" fill="rgb(255,234,197)"/>
+<circle cx="1114.6" cy="606.5" r="4.4" fill="rgb(234,237,255)"/>
+<circle cx="1187.0" cy="653.9" r="4.5" fill="rgb(178,198,255)"/>
+<circle cx="165.8" cy="254.7" r="4.5" fill="rgb(210,222,255)"/>
+<circle cx="1074.9" cy="671.0" r="4.9" fill="rgb(242,243,255)"/>
+<circle cx="1014.0" cy="623.7" r="5.1" fill="rgb(175,195,255)"/>
+<circle cx="813.4" cy="222.3" r="5.2" fill="rgb(173,194,255)"/>
+<circle cx="1185.9" cy="0.4" r="5.3" fill="rgb(177,197,255)"/>
+<circle cx="1160.3" cy="816.8" r="6.2" fill="rgb(219,228,255)"/>
+<circle cx="1030.7" cy="424.3" r="6.3" fill="rgb(255,194,138)"/>
+<circle cx="175.4" cy="755.2" r="7.4" fill="rgb(231,235,255)"/>
+<circle cx="1090.0" cy="342.3" r="8.4" fill="rgb(171,192,255)" filter="url(#glow)"/>
+<circle cx="449.5" cy="32.4" r="9.7" fill="rgb(174,195,255)" filter="url(#glow)" class="tw" style="animation-delay:0.45s"/>
+<circle cx="988.5" cy="234.1" r="11.6" fill="rgb(255,183,125)" filter="url(#glow)" class="tw" style="animation-delay:0.9s"/>
+<circle cx="110.2" cy="533.3" r="12.2" fill="rgb(255,228,188)" filter="url(#glow)" class="tw" style="animation-delay:1.35s"/>
+<circle cx="855.1" cy="363.5" r="12.5" fill="rgb(164,187,255)" filter="url(#glow)" class="tw" style="animation-delay:1.8s"/>
+<circle cx="972.9" cy="565.9" r="13.7" fill="rgb(164,187,255)" filter="url(#glow)" class="tw" style="animation-delay:2.25s"/>
+<circle cx="336.4" cy="439.6" r="14.1" fill="rgb(165,188,255)" filter="url(#glow)" class="tw" style="animation-delay:2.7s"/>
+<circle cx="110.0" cy="533.2" r="15.8" fill="rgb(253,238,212)" filter="url(#glow)" class="tw" style="animation-delay:0s"/>
+<circle cx="110.0" cy="533.2" r="31.8" fill="none" stroke="#ffd27a" stroke-width="2.5" opacity=".9"/>
+<circle class="ring" cx="110.0" cy="533.2" r="31.8"/>
+<circle cx="336.4" cy="439.6" r="30.1" fill="none" stroke="#ffd27a" stroke-width="2.5" opacity=".9"/>
+<circle class="ring" cx="336.4" cy="439.6" r="30.1"/>
+<text class="lb" x="949" y="578" text-anchor="end">Acrux</text>
+<text class="lb" x="967" y="246" text-anchor="end">Gacrux</text>
+<text x="18" y="784" style="font:600 24px system-ui,sans-serif;fill:#a9bbdc">As seen from Botswana, looking south</text>
+<text x="1182" y="784" text-anchor="end" style="font:15px system-ui,sans-serif;fill:#7f93b8">AGA star chart · star data: Hipparcos / d3-celestial</text>
+</svg>
