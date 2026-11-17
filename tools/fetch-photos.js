@@ -94,8 +94,10 @@ const LICENSE = { 'cc0': 'CC0', 'cc-by': 'CC BY', 'cc-by-sa': 'CC BY-SA' };
         const skip = new Set(prev && prev.photoId && s.name === redo ? [prev.photoId] : []);
         const hit = await findPhoto(tid, skip);
         if (!hit) { missing.push(`${s.name} (${s.sci}): no CC0/CC BY photo`); continue; }
-        const file = `media/${g}/${slug(s.name)}.jpg`;
+        // the photo id is part of the file name: a new photo gets a new address, so phones that saved the old one show the new one
+        const file = `media/${g}/${slug(s.name)}-${hit.p.id}.jpg`;
         await download(hit.p.url.replace(/\/square\./, '/large.'), path.join(ROOT, 'app', file));
+        if (prev && prev.file && prev.file !== file) { try { fs.unlinkSync(path.join(ROOT, 'app', prev.file)); } catch (e) { /* already gone */ } }
         byName.set(s.name, {
           name: s.name, sci: s.sci, file, photoId: hit.p.id, license: LICENSE[hit.p.license_code],
           credit: (hit.p.attribution || '').replace(/^\(c\)\s*/i, '© ').replace(/,? ?(some|all) rights reserved.*$|,? ?no rights reserved.*$/i, '').trim() || hit.o.user.login,
