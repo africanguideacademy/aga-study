@@ -14,7 +14,7 @@ window.AGA_DATA = {
      "group": "Apalis",
      "photo": "media/birds/yellow-breasted-apalis.jpg",
      "call": "media/calls/apalis-yellow-breasted.mp3",
-     "bytes": 413862
+     "bytes": 181692
     },
     {
      "id": "arrow-marked-babbler",
@@ -22,7 +22,7 @@ window.AGA_DATA = {
      "group": "Babbler",
      "photo": "media/birds/arrow-marked-babbler.jpg",
      "call": "media/calls/babbler-arrow-marked.mp3",
-     "bytes": 526711
+     "bytes": 231084
     },
     {
      "id": "tropical-boubou",
@@ -30,7 +30,7 @@ window.AGA_DATA = {
      "group": "Boubou",
      "photo": "media/birds/tropical-boubou.jpg",
      "call": "media/calls/boubou-tropical.mp3",
-     "bytes": 470705
+     "bytes": 206640
     },
     {
      "id": "red-billed-buffalo-weaver",
@@ -38,7 +38,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "photo": "media/birds/red-billed-buffalo-weaver.jpg",
      "call": "media/calls/weaver-red-billed-buffalo.mp3",
-     "bytes": 430998
+     "bytes": 189252
     },
     {
      "id": "orange-breasted-bush-shrike",
@@ -46,7 +46,7 @@ window.AGA_DATA = {
      "group": "Bushshrike",
      "photo": "media/birds/orange-breasted-bush-shrike.jpg",
      "call": "media/calls/bushshrike-orange-breasted.mp3",
-     "bytes": 396766
+     "bytes": 174132
     },
     {
      "id": "long-legged-bustard",
@@ -62,7 +62,7 @@ window.AGA_DATA = {
      "group": "Buttonquail",
      "photo": "media/birds/kurrichane-buttonquail.jpg",
      "call": "media/calls/b-kurrichane-buttonquail.mp3",
-     "bytes": 97427
+     "bytes": 40824
     },
     {
      "id": "grey-backed-camaroptera",
@@ -70,7 +70,7 @@ window.AGA_DATA = {
      "group": "Camaroptera",
      "photo": "media/birds/grey-backed-camaroptera.jpg",
      "call": "media/calls/camaroptera-grey-backed.mp3",
-     "bytes": 425983
+     "bytes": 186984
     },
     {
      "id": "arnots-chat",
@@ -78,7 +78,7 @@ window.AGA_DATA = {
      "group": "Chat",
      "photo": "media/birds/arnots-chat.jpg",
      "call": "media/calls/chat-arnots.mp3",
-     "bytes": 448553
+     "bytes": 196812
     },
     {
      "id": "red-faced-cisticola",
@@ -86,7 +86,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "photo": "media/birds/red-faced-cisticola.jpg",
      "call": "media/calls/cisticola-red-faced.mp3",
-     "bytes": 438522
+     "bytes": 192528
     },
     {
      "id": "bronze-winged-courser",
@@ -94,7 +94,7 @@ window.AGA_DATA = {
      "group": "Courser",
      "photo": "media/birds/bronze-winged-courser.jpg",
      "call": "media/calls/courser-bronze-winged.mp3",
-     "bytes": 434643
+     "bytes": 190512
     },
     {
      "id": "temmincks-courser",
@@ -102,7 +102,7 @@ window.AGA_DATA = {
      "group": "Courser",
      "photo": "media/birds/temmincks-courser.jpg",
      "call": "media/calls/b-temmincks-courser.mp3",
-     "bytes": 95338
+     "bytes": 39816
     },
     {
      "id": "black-crake",
@@ -110,7 +110,7 @@ window.AGA_DATA = {
      "group": "Crake",
      "photo": "media/birds/black-crake.jpg",
      "call": "media/calls/crake-black.mp3",
-     "bytes": 437686
+     "bytes": 192024
     },
     {
      "id": "african-cuckoo",
@@ -118,7 +118,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "photo": "media/birds/african-cuckoo.jpg",
      "call": "media/calls/cuckoo-african.mp3",
-     "bytes": 393265
+     "bytes": 172620
     },
     {
      "id": "black-cuckoo",
@@ -126,7 +126,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "photo": "media/birds/black-cuckoo.jpg",
      "call": "media/calls/cuckoo-black.mp3",
-     "bytes": 437686
+     "bytes": 192024
     },
     {
      "id": "great-spotted-cuckoo",
@@ -134,7 +134,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "photo": "media/birds/great-spotted-cuckoo.jpg",
      "call": "media/calls/cuckoo-great-spotted.mp3",
-     "bytes": 397863
+     "bytes": 174636
     },
     {
      "id": "levaillants-cuckoo",
@@ -142,7 +142,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "photo": "media/birds/levaillants-cuckoo.jpg",
      "call": "media/calls/cuckoo-levaillants.mp3",
-     "bytes": 444791
+     "bytes": 195300
     },
     {
      "id": "black-cuckooshrike",
@@ -150,7 +150,7 @@ window.AGA_DATA = {
      "group": "Cuckooshrike",
      "photo": "media/birds/black-cuckooshrike.jpg",
      "call": "media/calls/cuckooshrike-black.mp3",
-     "bytes": 450674
+     "bytes": 197820
     },
     {
      "id": "white-breasted-cuckooshrike",
@@ -158,7 +158,7 @@ window.AGA_DATA = {
      "group": "Cuckooshrike",
      "photo": "media/birds/white-breasted-cuckooshrike.jpg",
      "call": "media/calls/cuckooshrike-white-breasted.mp3",
-     "bytes": 384070
+     "bytes": 168588
     },
     {
      "id": "emerald-spotted-wood-dove",
@@ -166,7 +166,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "photo": "media/birds/emerald-spotted-wood-dove.jpg",
      "call": "media/calls/b-emerald-spotted-wood-dove.mp3",
-     "bytes": 225741
+     "bytes": 97020
     },
     {
      "id": "burnt-necked-eremomela",
@@ -174,7 +174,7 @@ window.AGA_DATA = {
      "group": "Eremomela",
      "photo": "media/birds/burnt-necked-eremomela.jpg",
      "call": "media/calls/eremomela-burnt-necked.mp3",
-     "bytes": 404968
+     "bytes": 177660
     },
     {
      "id": "green-capped-eremomela",
@@ -182,7 +182,7 @@ window.AGA_DATA = {
      "group": "Eremomela",
      "photo": "media/birds/green-capped-eremomela.jpg",
      "call": "media/calls/eremomela-green-capped.mp3",
-     "bytes": 443119
+     "bytes": 194544
     },
     {
      "id": "ashy-flycatcher",
@@ -190,7 +190,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "photo": "media/birds/ashy-flycatcher.jpg",
      "call": "media/calls/flycatcher-ashy.mp3",
-     "bytes": 424311
+     "bytes": 186228
     },
     {
      "id": "southern-black-flycatcher",
@@ -198,7 +198,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "photo": "media/birds/southern-black-flycatcher.jpg",
      "call": "media/calls/flycatcher-southern-black.mp3",
-     "bytes": 407593
+     "bytes": 178920
     },
     {
      "id": "grey-tit-flycatcher",
@@ -206,7 +206,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "photo": "media/birds/grey-tit-flycatcher.jpg",
      "call": "media/calls/flycatcher-grey-tit.mp3",
-     "bytes": 358157
+     "bytes": 157248
     },
     {
      "id": "marico-flycatcher",
@@ -214,7 +214,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "photo": "media/birds/marico-flycatcher.jpg",
      "call": "media/calls/flycatcher-marico.mp3",
-     "bytes": 428073
+     "bytes": 187992
     },
     {
      "id": "coqui-francolin",
@@ -222,7 +222,7 @@ window.AGA_DATA = {
      "group": "Francolin",
      "photo": "media/birds/coqui-francolin.jpg",
      "call": "media/calls/b-coqui-francolin.mp3",
-     "bytes": 138805
+     "bytes": 58968
     },
     {
      "id": "allens-gallinule",
@@ -230,7 +230,7 @@ window.AGA_DATA = {
      "group": "Gallinule",
      "photo": "media/birds/allens-gallinule.jpg",
      "call": "media/calls/gallinule-allens.mp3",
-     "bytes": 486587
+     "bytes": 213444
     },
     {
      "id": "african-pygmy-goose",
@@ -238,7 +238,7 @@ window.AGA_DATA = {
      "group": "Goose",
      "photo": "media/birds/african-pygmy-goose.jpg",
      "call": "media/calls/b-african-pygmy-goose.mp3",
-     "bytes": 66498
+     "bytes": 27468
     },
     {
      "id": "dark-chanting-goshawk",
@@ -246,7 +246,7 @@ window.AGA_DATA = {
      "group": "Goshawk",
      "photo": "media/birds/dark-chanting-goshawk.jpg",
      "call": "media/calls/b-dark-chanting-goshawk.mp3",
-     "bytes": 191886
+     "bytes": 82152
     },
     {
      "id": "gabar-goshawk",
@@ -254,7 +254,7 @@ window.AGA_DATA = {
      "group": "Goshawk",
      "photo": "media/birds/gabar-goshawk.jpg",
      "call": "media/calls/goshawk-gabar.mp3",
-     "bytes": 442701
+     "bytes": 194292
     },
     {
      "id": "african-hawk-eagle",
@@ -262,7 +262,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "photo": "media/birds/african-hawk-eagle.jpg",
      "call": "media/calls/b-african-hawk-eagle.mp3",
-     "bytes": 114564
+     "bytes": 48384
     },
     {
      "id": "retzs-helmet-shrike",
@@ -270,7 +270,7 @@ window.AGA_DATA = {
      "group": "Helmetshrike",
      "photo": "media/birds/retzs-helmet-shrike.jpg",
      "call": "media/calls/helmetshrike-retzs.mp3",
-     "bytes": 498290
+     "bytes": 218484
     },
     {
      "id": "grey-headed-kingfisher",
@@ -278,7 +278,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "photo": "media/birds/grey-headed-kingfisher.jpg",
      "call": "media/calls/kingfisher-grey-headed.mp3",
-     "bytes": 277189
+     "bytes": 121968
     },
     {
      "id": "african-pygmy-kingfisher",
@@ -286,7 +286,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "photo": "media/birds/african-pygmy-kingfisher.jpg",
      "call": "media/calls/b-african-pygmy-kingfisher.mp3",
-     "bytes": 58139
+     "bytes": 23688
     },
     {
      "id": "dusky-lark",
@@ -294,7 +294,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "photo": "media/birds/dusky-lark.jpg",
      "call": "media/calls/lark-dusky.mp3",
-     "bytes": 436014
+     "bytes": 191268
     },
     {
      "id": "fawn-coloured-lark",
@@ -302,7 +302,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "photo": "media/birds/fawn-coloured-lark.jpg",
      "call": "media/calls/lark-fawn-coloured.mp3",
-     "bytes": 394636
+     "bytes": 173124
     },
     {
      "id": "monotonous-lark",
@@ -310,7 +310,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "photo": "media/birds/monotonous-lark.jpg",
      "call": "media/calls/lark-monotonous.mp3",
-     "bytes": 434342
+     "bytes": 190512
     },
     {
      "id": "african-mourning-dove",
@@ -318,7 +318,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "photo": "media/birds/african-mourning-dove.jpg",
      "call": "media/calls/b-african-mourning-dove.mp3",
-     "bytes": 143403
+     "bytes": 60984
     },
     {
      "id": "pennant-winged-nightjar",
@@ -326,7 +326,7 @@ window.AGA_DATA = {
      "group": "Nightjar",
      "photo": "media/birds/pennant-winged-nightjar.jpg",
      "call": "media/calls/nightjar-pennant-winged.mp3",
-     "bytes": 456076
+     "bytes": 200088
     },
     {
      "id": "pels-fishing-owl",
@@ -334,7 +334,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "photo": "media/birds/pels-fishing-owl.jpg",
      "call": "media/calls/owl-pels-fishing.mp3",
-     "bytes": 468615
+     "bytes": 205632
     },
     {
      "id": "african-scops-owl",
@@ -342,7 +342,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "photo": "media/birds/african-scops-owl.jpg",
      "call": "media/calls/owl-african-scops.mp3",
-     "bytes": 403413
+     "bytes": 177156
     },
     {
      "id": "southern-white-faced-owl",
@@ -350,7 +350,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "photo": "media/birds/southern-white-faced-owl.jpg",
      "call": "media/calls/owl-southern-white-faced.mp3",
-     "bytes": 446881
+     "bytes": 196056
     },
     {
      "id": "african-barred-owlet",
@@ -358,7 +358,7 @@ window.AGA_DATA = {
      "group": "Owlet",
      "photo": "media/birds/african-barred-owlet.jpg",
      "call": "media/calls/owlet-african-barred.mp3",
-     "bytes": 440612
+     "bytes": 193284
     },
     {
      "id": "yellow-billed-oxpecker",
@@ -366,7 +366,7 @@ window.AGA_DATA = {
      "group": "Oxpecker",
      "photo": "media/birds/yellow-billed-oxpecker.jpg",
      "call": "media/calls/b-yellow-billed-oxpecker.mp3",
-     "bytes": 141731
+     "bytes": 60228
     },
     {
      "id": "collared-palm-thrush",
@@ -374,7 +374,7 @@ window.AGA_DATA = {
      "group": "Palm-Thrush",
      "photo": "media/birds/collared-palm-thrush.jpg",
      "call": "media/calls/palm-thrush-collared.mp3",
-     "bytes": 436014
+     "bytes": 191268
     },
     {
      "id": "meyers-parrot",
@@ -382,7 +382,7 @@ window.AGA_DATA = {
      "group": "Parrot",
      "photo": "media/birds/meyers-parrot.jpg",
      "call": "media/calls/b-meyers-parrot.mp3",
-     "bytes": 116654
+     "bytes": 49140
     },
     {
      "id": "grey-penduline-tit",
@@ -390,7 +390,7 @@ window.AGA_DATA = {
      "group": "Tit",
      "photo": "media/birds/grey-penduline-tit.jpg",
      "call": "media/calls/tit-grey-penduline.mp3",
-     "bytes": 341555
+     "bytes": 149940
     },
     {
      "id": "yellow-throated-petronia",
@@ -398,7 +398,7 @@ window.AGA_DATA = {
      "group": "Petronia",
      "photo": "media/birds/yellow-throated-petronia.jpg",
      "call": "media/calls/petronia-yellow-throated.mp3",
-     "bytes": 462763
+     "bytes": 203112
     },
     {
      "id": "african-green-pigeon",
@@ -406,7 +406,7 @@ window.AGA_DATA = {
      "group": "Pigeon",
      "photo": "media/birds/african-green-pigeon.jpg",
      "call": "media/calls/pigeon-african-green.mp3",
-     "bytes": 385859
+     "bytes": 169344
     },
     {
      "id": "black-winged-pratincole",
@@ -430,7 +430,7 @@ window.AGA_DATA = {
      "group": "Pytilia",
      "photo": "media/birds/green-winged-pytilia.jpg",
      "call": "media/calls/pytilia-green-winged.mp3",
-     "bytes": 457330
+     "bytes": 200592
     },
     {
      "id": "red-billed-quelea",
@@ -438,7 +438,7 @@ window.AGA_DATA = {
      "group": "Quelea",
      "photo": "media/birds/red-billed-quelea.jpg",
      "call": "media/calls/b-red-billed-quelea.mp3",
-     "bytes": 143821
+     "bytes": 61236
     },
     {
      "id": "eastern-bearded-scrub-robin",
@@ -446,7 +446,7 @@ window.AGA_DATA = {
      "group": "Scrub-Robin",
      "photo": "media/birds/eastern-bearded-scrub-robin.jpg",
      "call": "media/calls/scrub-robin-eastern-bearded.mp3",
-     "bytes": 428073
+     "bytes": 187992
     },
     {
      "id": "white-browed-robin-chat",
@@ -454,7 +454,7 @@ window.AGA_DATA = {
      "group": "Robin-Chat",
      "photo": "media/birds/white-browed-robin-chat.jpg",
      "call": "media/calls/robin-chat-white-browed.mp3",
-     "bytes": 524086
+     "bytes": 229824
     },
     {
      "id": "broad-billed-roller",
@@ -462,7 +462,7 @@ window.AGA_DATA = {
      "group": "Roller",
      "photo": "media/birds/broad-billed-roller.jpg",
      "call": "media/calls/roller-broad-billed.mp3",
-     "bytes": 441865
+     "bytes": 193788
     },
     {
      "id": "purple-roller",
@@ -470,7 +470,7 @@ window.AGA_DATA = {
      "group": "Roller",
      "photo": "media/birds/purple-roller.jpg",
      "call": "media/calls/b-purple-roller.mp3",
-     "bytes": 189796
+     "bytes": 81144
     },
     {
      "id": "racket-tailed-roller",
@@ -478,7 +478,7 @@ window.AGA_DATA = {
      "group": "Roller",
      "photo": "media/birds/racket-tailed-roller.jpg",
      "call": "media/calls/roller-racket-tailed.mp3",
-     "bytes": 518352
+     "bytes": 227304
     },
     {
      "id": "kalahari-scrub-robin",
@@ -486,7 +486,7 @@ window.AGA_DATA = {
      "group": "Scrub-Robin",
      "photo": "media/birds/kalahari-scrub-robin.jpg",
      "call": "media/calls/scrub-robin-kalahari.mp3",
-     "bytes": 496200
+     "bytes": 217728
     },
     {
      "id": "chestnut-backed-sparrowlark",
@@ -494,7 +494,7 @@ window.AGA_DATA = {
      "group": "Sparrowlark",
      "photo": "media/birds/chestnut-backed-sparrowlark.jpg",
      "call": "media/calls/b-chestnut-backed-sparrowlark.mp3",
-     "bytes": 135044
+     "bytes": 57456
     },
     {
      "id": "burchells-starling",
@@ -502,7 +502,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "photo": "media/birds/burchells-starling.jpg",
      "call": "media/calls/starling-burchells.mp3",
-     "bytes": 381679
+     "bytes": 167580
     },
     {
      "id": "greater-blue-eared-starling",
@@ -510,7 +510,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "photo": "media/birds/greater-blue-eared-starling.jpg",
      "call": "media/calls/starling-greater-blue-eared.mp3",
-     "bytes": 421385
+     "bytes": 184968
     },
     {
      "id": "mevess-starling",
@@ -518,7 +518,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "photo": "media/birds/mevess-starling.jpg",
      "call": "media/calls/starling-mevess.mp3",
-     "bytes": 442283
+     "bytes": 194040
     },
     {
      "id": "violet-backed-starling",
@@ -526,7 +526,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "photo": "media/birds/violet-backed-starling.jpg",
      "call": "media/calls/starling-violet-backed.mp3",
-     "bytes": 454822
+     "bytes": 199584
     },
     {
      "id": "purple-banded-sunbird",
@@ -534,7 +534,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "photo": "media/birds/purple-banded-sunbird.jpg",
      "call": "media/calls/sunbird-purple-banded.mp3",
-     "bytes": 443119
+     "bytes": 194544
     },
     {
      "id": "grey-rumped-swallow",
@@ -542,7 +542,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "photo": "media/birds/grey-rumped-swallow.jpg",
      "call": "media/calls/b-grey-rumped-swallow.mp3",
-     "bytes": 114564
+     "bytes": 48384
     },
     {
      "id": "lesser-striped-swallow",
@@ -550,7 +550,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "photo": "media/birds/lesser-striped-swallow.jpg",
      "call": "media/calls/b-lesser-striped-swallow.mp3",
-     "bytes": 148764
+     "bytes": 60480
     },
     {
      "id": "red-breasted-swallow",
@@ -558,7 +558,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "photo": "media/birds/red-breasted-swallow.jpg",
      "call": "media/calls/b-red-breasted-swallow.mp3",
-     "bytes": 168063
+     "bytes": 71820
     },
     {
      "id": "wire-tailed-swallow",
@@ -566,7 +566,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "photo": "media/birds/wire-tailed-swallow.jpg",
      "call": "media/calls/b-wire-tailed-swallow.mp3",
-     "bytes": 115400
+     "bytes": 48636
     },
     {
      "id": "lappet-faced-vulture",
@@ -574,7 +574,7 @@ window.AGA_DATA = {
      "group": "Vulture",
      "photo": "media/birds/lappet-faced-vulture.jpg",
      "call": "media/calls/b-lappet-faced-vulture.mp3",
-     "bytes": 104951
+     "bytes": 44100
     },
     {
      "id": "white-headed-vulture",
@@ -590,7 +590,7 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "photo": "media/birds/black-faced-waxbill.jpg",
      "call": "media/calls/waxbill-black-faced.mp3",
-     "bytes": 441447
+     "bytes": 193788
     },
     {
      "id": "violet-eared-waxbill",
@@ -598,7 +598,7 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "photo": "media/birds/violet-eared-waxbill.jpg",
      "call": "media/calls/waxbill-violet-eared.mp3",
-     "bytes": 395890
+     "bytes": 173880
     },
     {
      "id": "red-headed-weaver",
@@ -606,7 +606,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "photo": "media/birds/red-headed-weaver.jpg",
      "call": "media/calls/b-red-headed-weaver.mp3",
-     "bytes": 179765
+     "bytes": 76860
     },
     {
      "id": "common-whitethroat",
@@ -614,7 +614,7 @@ window.AGA_DATA = {
      "group": "Whitethroat",
      "photo": "media/birds/common-whitethroat.jpg",
      "call": "media/calls/b-common-whitethroat.mp3",
-     "bytes": 141731
+     "bytes": 60228
     }
    ]
   },
@@ -630,7 +630,7 @@ window.AGA_DATA = {
      "group": "Ostrich",
      "photo": "media/prominent40/ostrich.jpg",
      "call": "media/prominent40/ostrich.mp3",
-     "bytes": 78938
+     "bytes": 175392
     },
     {
      "id": "prominent-swainsons-spurfowl",
@@ -638,7 +638,7 @@ window.AGA_DATA = {
      "group": "Spurfowl",
      "photo": "media/prominent40/swainsons-spurfowl.jpg",
      "call": "media/prominent40/swainsons-spurfowl.mp3",
-     "bytes": 166922
+     "bytes": 191268
     },
     {
      "id": "prominent-red-billed-spurfowl",
@@ -646,7 +646,7 @@ window.AGA_DATA = {
      "group": "Spurfowl",
      "photo": "media/prominent40/red-billed-spurfowl.jpg",
      "call": "media/prominent40/red-billed-spurfowl.mp3",
-     "bytes": 121578
+     "bytes": 206640
     },
     {
      "id": "prominent-helmeted-guineafowl",
@@ -654,7 +654,7 @@ window.AGA_DATA = {
      "group": "Guineafowl",
      "photo": "media/prominent40/helmeted-guineafowl.jpg",
      "call": "media/prominent40/helmeted-guineafowl.mp3",
-     "bytes": 115130
+     "bytes": 195300
     },
     {
      "id": "prominent-white-faced-duck",
@@ -662,7 +662,7 @@ window.AGA_DATA = {
      "group": "Duck",
      "photo": "media/prominent40/white-faced-duck.jpg",
      "call": "media/prominent40/white-faced-duck.mp3",
-     "bytes": 125428
+     "bytes": 202608
     },
     {
      "id": "prominent-spur-winged-goose",
@@ -670,7 +670,7 @@ window.AGA_DATA = {
      "group": "Goose",
      "photo": "media/prominent40/spur-winged-goose.jpg",
      "call": "media/prominent40/spur-winged-goose.mp3",
-     "bytes": 137282
+     "bytes": 234360
     },
     {
      "id": "prominent-egyptian-goose",
@@ -678,7 +678,7 @@ window.AGA_DATA = {
      "group": "Goose",
      "photo": "media/prominent40/egyptian-goose.jpg",
      "call": "media/prominent40/egyptian-goose.mp3",
-     "bytes": 95786
+     "bytes": 214956
     },
     {
      "id": "prominent-greater-honeyguide",
@@ -686,7 +686,7 @@ window.AGA_DATA = {
      "group": "Honeyguide",
      "photo": "media/prominent40/greater-honeyguide.jpg",
      "call": "media/prominent40/greater-honeyguide.mp3",
-     "bytes": 126050
+     "bytes": 214452
     },
     {
      "id": "prominent-bennetts-woodpecker",
@@ -694,7 +694,7 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "photo": "media/prominent40/bennetts-woodpecker.jpg",
      "call": "media/prominent40/bennetts-woodpecker.mp3",
-     "bytes": 83554
+     "bytes": 147168
     },
     {
      "id": "prominent-southern-yellow-billed-hornbill",
@@ -702,7 +702,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "photo": "media/prominent40/southern-yellow-billed-hornbill.jpg",
      "call": "media/prominent40/southern-yellow-billed-hornbill.mp3",
-     "bytes": 126986
+     "bytes": 216216
     },
     {
      "id": "prominent-southern-ground-hornbill",
@@ -710,7 +710,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "photo": "media/prominent40/southern-ground-hornbill.jpg",
      "call": "media/prominent40/southern-ground-hornbill.mp3",
-     "bytes": 133226
+     "bytes": 227304
     },
     {
      "id": "prominent-african-hoopoe",
@@ -718,7 +718,7 @@ window.AGA_DATA = {
      "group": "Hoopoe",
      "photo": "media/prominent40/african-hoopoe.jpg",
      "call": "media/prominent40/african-hoopoe.mp3",
-     "bytes": 116378
+     "bytes": 197568
     },
     {
      "id": "prominent-lilac-breasted-roller",
@@ -726,7 +726,7 @@ window.AGA_DATA = {
      "group": "Roller",
      "photo": "media/prominent40/lilac-breasted-roller.jpg",
      "call": "media/prominent40/lilac-breasted-roller.mp3",
-     "bytes": 121578
+     "bytes": 206640
     },
     {
      "id": "prominent-pied-kingfisher",
@@ -734,7 +734,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "photo": "media/prominent40/pied-kingfisher.jpg",
      "call": "media/prominent40/pied-kingfisher.mp3",
-     "bytes": 155378
+     "bytes": 177660
     },
     {
      "id": "prominent-southern-carmine-bee-eater",
@@ -742,7 +742,7 @@ window.AGA_DATA = {
      "group": "eater",
      "photo": "media/prominent40/southern-carmine-bee-eater.jpg",
      "call": "media/prominent40/southern-carmine-bee-eater.mp3",
-     "bytes": 112884
+     "bytes": 198324
     },
     {
      "id": "prominent-levaillants-cuckoo",
@@ -750,7 +750,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "photo": "media/prominent40/levaillants-cuckoo.jpg",
      "call": "media/prominent40/levaillants-cuckoo.mp3",
-     "bytes": 169096
+     "bytes": 198324
     },
     {
      "id": "prominent-senegal-coucal",
@@ -758,7 +758,7 @@ window.AGA_DATA = {
      "group": "Coucal",
      "photo": "media/prominent40/senegal-coucal.jpg",
      "call": "media/prominent40/senegal-coucal.mp3",
-     "bytes": 106540
+     "bytes": 187236
     },
     {
      "id": "prominent-meyers-parrot",
@@ -766,7 +766,7 @@ window.AGA_DATA = {
      "group": "Parrot",
      "photo": "media/prominent40/meyers-parrot.jpg",
      "call": "media/prominent40/meyers-parrot.mp3",
-     "bytes": 94954
+     "bytes": 160020
     },
     {
      "id": "prominent-palm-swift",
@@ -782,7 +782,7 @@ window.AGA_DATA = {
      "group": "bird",
      "photo": "media/prominent40/grey-go-away-bird.jpg",
      "call": "media/prominent40/grey-go-away-bird.mp3",
-     "bytes": 109618
+     "bytes": 185724
     },
     {
      "id": "prominent-verreauxs-eagle-owl",
@@ -790,7 +790,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "photo": "media/prominent40/verreauxs-eagle-owl.jpg",
      "call": "media/prominent40/verreauxs-eagle-owl.mp3",
-     "bytes": 116066
+     "bytes": 197064
     },
     {
      "id": "prominent-cape-turtle-dove",
@@ -798,7 +798,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "photo": "media/prominent40/cape-turtle-dove.jpg",
      "call": "media/prominent40/cape-turtle-dove.mp3",
-     "bytes": 140652
+     "bytes": 247212
     },
     {
      "id": "prominent-kori-bustard",
@@ -806,7 +806,7 @@ window.AGA_DATA = {
      "group": "Bustard",
      "photo": "media/prominent40/kori-bustard.jpg",
      "call": "media/prominent40/kori-bustard.mp3",
-     "bytes": 109308
+     "bytes": 174132
     },
     {
      "id": "prominent-wattled-crane",
@@ -814,7 +814,7 @@ window.AGA_DATA = {
      "group": "Crane",
      "photo": "media/prominent40/wattled-crane.jpg",
      "call": "media/prominent40/wattled-crane.mp3",
-     "bytes": 114707
+     "bytes": 183708
     },
     {
      "id": "prominent-burchells-sandgrouse",
@@ -822,7 +822,7 @@ window.AGA_DATA = {
      "group": "Sandgrouse",
      "photo": "media/prominent40/burchells-sandgrouse.jpg",
      "call": "media/prominent40/burchells-sandgrouse.mp3",
-     "bytes": 89026
+     "bytes": 149436
     },
     {
      "id": "prominent-wood-sandpiper",
@@ -830,7 +830,7 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "photo": "media/prominent40/wood-sandpiper.jpg",
      "call": "media/prominent40/wood-sandpiper.mp3",
-     "bytes": 105666
+     "bytes": 178668
     },
     {
      "id": "prominent-african-jacana",
@@ -838,7 +838,7 @@ window.AGA_DATA = {
      "group": "Jacana",
      "photo": "media/prominent40/african-jacana.jpg",
      "call": "media/prominent40/african-jacana.mp3",
-     "bytes": 129586
+     "bytes": 220752
     },
     {
      "id": "prominent-water-thick-knee",
@@ -846,7 +846,7 @@ window.AGA_DATA = {
      "group": "knee",
      "photo": "media/prominent40/water-thick-knee.jpg",
      "call": "media/prominent40/water-thick-knee.mp3",
-     "bytes": 110380
+     "bytes": 187236
     },
     {
      "id": "prominent-gabar-goshawk",
@@ -854,7 +854,7 @@ window.AGA_DATA = {
      "group": "Goshawk",
      "photo": "media/prominent40/gabar-goshawk.jpg",
      "call": "media/prominent40/gabar-goshawk.mp3",
-     "bytes": 116586
+     "bytes": 197820
     },
     {
      "id": "prominent-african-fish-eagle",
@@ -862,7 +862,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "photo": "media/prominent40/african-fish-eagle.jpg",
      "call": "media/prominent40/african-fish-eagle.mp3",
-     "bytes": 101610
+     "bytes": 171612
     },
     {
      "id": "prominent-tawny-eagle",
@@ -870,7 +870,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "photo": "media/prominent40/tawny-eagle.jpg",
      "call": "media/prominent40/tawny-eagle.mp3",
-     "bytes": 85178
+     "bytes": 190008
     },
     {
      "id": "prominent-white-backed-vulture",
@@ -878,7 +878,7 @@ window.AGA_DATA = {
      "group": "Vulture",
      "photo": "media/prominent40/white-backed-vulture.jpg",
      "call": "media/prominent40/white-backed-vulture.mp3",
-     "bytes": 151876
+     "bytes": 173628
     },
     {
      "id": "prominent-great-egret",
@@ -886,7 +886,7 @@ window.AGA_DATA = {
      "group": "Egret",
      "photo": "media/prominent40/great-egret.jpg",
      "call": "media/prominent40/great-egret.mp3",
-     "bytes": 86426
+     "bytes": 193032
     },
     {
      "id": "prominent-hamerkop",
@@ -894,7 +894,7 @@ window.AGA_DATA = {
      "group": "Hamerkop",
      "photo": "media/prominent40/hamerkop.jpg",
      "call": "media/prominent40/hamerkop.mp3",
-     "bytes": 88376
+     "bytes": 197568
     },
     {
      "id": "prominent-african-spoonbill",
@@ -902,7 +902,7 @@ window.AGA_DATA = {
      "group": "Spoonbill",
      "photo": "media/prominent40/african-spoonbill.jpg",
      "call": "media/prominent40/african-spoonbill.mp3",
-     "bytes": 70358
+     "bytes": 155232
     },
     {
      "id": "prominent-great-white-pelican",
@@ -910,7 +910,7 @@ window.AGA_DATA = {
      "group": "Pelican",
      "photo": "media/prominent40/great-white-pelican.jpg",
      "call": "media/prominent40/great-white-pelican.mp3",
-     "bytes": 154948
+     "bytes": 176904
     },
     {
      "id": "prominent-african-openbill",
@@ -918,7 +918,7 @@ window.AGA_DATA = {
      "group": "Openbill",
      "photo": "media/prominent40/african-openbill.jpg",
      "call": "media/prominent40/african-openbill.mp3",
-     "bytes": 84074
+     "bytes": 197316
     },
     {
      "id": "prominent-fork-tailed-drongo",
@@ -926,7 +926,7 @@ window.AGA_DATA = {
      "group": "Drongo",
      "photo": "media/prominent40/fork-tailed-drongo.jpg",
      "call": "media/prominent40/fork-tailed-drongo.mp3",
-     "bytes": 160724
+     "bytes": 282492
     },
     {
      "id": "prominent-burchells-starling",
@@ -934,7 +934,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "photo": "media/prominent40/burchells-starling.jpg",
      "call": "media/prominent40/burchells-starling.mp3",
-     "bytes": 97074
+     "bytes": 171108
     },
     {
      "id": "prominent-southern-masked-weaver",
@@ -942,7 +942,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "photo": "media/prominent40/southern-masked-weaver.jpg",
      "call": "media/prominent40/southern-masked-weaver.mp3",
-     "bytes": 110068
+     "bytes": 186480
     }
    ]
   },
@@ -958,7 +958,7 @@ window.AGA_DATA = {
      "group": "Barbet",
      "photo": "media/kwapa63/black-collared-barbet.jpg",
      "call": "media/kwapa63/black-collared-barbet.mp3",
-     "bytes": 176422
+     "bytes": 75348
     },
     {
      "id": "kwapa-white-browed-sparrow-weaver",
@@ -966,7 +966,7 @@ window.AGA_DATA = {
      "group": "weaver",
      "photo": "media/kwapa63/white-browed-sparrow-weaver.jpg",
      "call": "media/kwapa63/white-browed-sparrow-weaver.mp3",
-     "bytes": 167645
+     "bytes": 71568
     },
     {
      "id": "kwapa-red-billed-spurfowl",
@@ -974,7 +974,7 @@ window.AGA_DATA = {
      "group": "Spurfowl",
      "photo": "media/kwapa63/red-billed-spurfowl.jpg",
      "call": "media/kwapa63/red-billed-spurfowl.mp3",
-     "bytes": 121578
+     "bytes": 206640
     },
     {
      "id": "kwapa-helmeted-guineafowl",
@@ -982,7 +982,7 @@ window.AGA_DATA = {
      "group": "Guineafowl",
      "photo": "media/kwapa63/helmeted-guineafowl.jpg",
      "call": "media/kwapa63/helmeted-guineafowl.mp3",
-     "bytes": 115130
+     "bytes": 195300
     },
     {
      "id": "kwapa-white-faced-duck",
@@ -990,7 +990,7 @@ window.AGA_DATA = {
      "group": "Duck",
      "photo": "media/kwapa63/white-faced-duck.jpg",
      "call": "media/kwapa63/white-faced-duck.mp3",
-     "bytes": 125428
+     "bytes": 202608
     },
     {
      "id": "kwapa-spur-winged-goose",
@@ -998,7 +998,7 @@ window.AGA_DATA = {
      "group": "Goose",
      "photo": "media/kwapa63/spur-winged-goose.jpg",
      "call": "media/kwapa63/spur-winged-goose.mp3",
-     "bytes": 137282
+     "bytes": 234360
     },
     {
      "id": "kwapa-african-barred-owlet",
@@ -1006,7 +1006,7 @@ window.AGA_DATA = {
      "group": "Owlet",
      "photo": "media/kwapa63/african-barred-owlet.jpg",
      "call": "media/kwapa63/african-barred-owlet.mp3",
-     "bytes": 244131
+     "bytes": 105084
     },
     {
      "id": "kwapa-greater-honeyguide",
@@ -1014,7 +1014,7 @@ window.AGA_DATA = {
      "group": "Honeyguide",
      "photo": "media/kwapa63/greater-honeyguide.jpg",
      "call": "media/kwapa63/greater-honeyguide.mp3",
-     "bytes": 126050
+     "bytes": 214452
     },
     {
      "id": "kwapa-bennetts-woodpecker",
@@ -1022,7 +1022,7 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "photo": "media/kwapa63/bennetts-woodpecker.jpg",
      "call": "media/kwapa63/bennetts-woodpecker.mp3",
-     "bytes": 83554
+     "bytes": 147168
     },
     {
      "id": "kwapa-southern-yellow-billed-hornbill",
@@ -1030,7 +1030,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "photo": "media/kwapa63/southern-yellow-billed-hornbill.jpg",
      "call": "media/kwapa63/southern-yellow-billed-hornbill.mp3",
-     "bytes": 126986
+     "bytes": 216216
     },
     {
      "id": "kwapa-southern-ground-hornbill",
@@ -1038,7 +1038,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "photo": "media/kwapa63/southern-ground-hornbill.jpg",
      "call": "media/kwapa63/southern-ground-hornbill.mp3",
-     "bytes": 133226
+     "bytes": 227304
     },
     {
      "id": "kwapa-african-hoopoe",
@@ -1046,7 +1046,7 @@ window.AGA_DATA = {
      "group": "Hoopoe",
      "photo": "media/kwapa63/african-hoopoe.jpg",
      "call": "media/kwapa63/african-hoopoe.mp3",
-     "bytes": 116378
+     "bytes": 197568
     },
     {
      "id": "kwapa-lilac-breasted-roller",
@@ -1054,7 +1054,7 @@ window.AGA_DATA = {
      "group": "Roller",
      "photo": "media/kwapa63/lilac-breasted-roller.jpg",
      "call": "media/kwapa63/lilac-breasted-roller.mp3",
-     "bytes": 121578
+     "bytes": 206640
     },
     {
      "id": "kwapa-southern-red-billed-hornbill",
@@ -1062,7 +1062,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "photo": "media/kwapa63/southern-red-billed-hornbill.jpg",
      "call": "media/kwapa63/southern-red-billed-hornbill.mp3",
-     "bytes": 201917
+     "bytes": 86436
     },
     {
      "id": "kwapa-levaillants-cuckoo",
@@ -1070,7 +1070,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "photo": "media/kwapa63/levaillants-cuckoo.jpg",
      "call": "media/kwapa63/levaillants-cuckoo.mp3",
-     "bytes": 169096
+     "bytes": 198324
     },
     {
      "id": "kwapa-crested-barbet",
@@ -1078,7 +1078,7 @@ window.AGA_DATA = {
      "group": "Barbet",
      "photo": "media/kwapa63/crested-barbet.jpg",
      "call": "media/kwapa63/crested-barbet.mp3",
-     "bytes": 94920
+     "bytes": 39564
     },
     {
      "id": "kwapa-meyers-parrot",
@@ -1086,7 +1086,7 @@ window.AGA_DATA = {
      "group": "Parrot",
      "photo": "media/kwapa63/meyers-parrot.jpg",
      "call": "media/kwapa63/meyers-parrot.mp3",
-     "bytes": 94954
+     "bytes": 160020
     },
     {
      "id": "kwapa-chinspot-batis",
@@ -1094,7 +1094,7 @@ window.AGA_DATA = {
      "group": "Batis",
      "photo": "media/kwapa63/chinspot-batis.jpg",
      "call": "media/kwapa63/chinspot-batis.mp3",
-     "bytes": 205679
+     "bytes": 88200
     },
     {
      "id": "kwapa-grey-go-away-bird",
@@ -1102,7 +1102,7 @@ window.AGA_DATA = {
      "group": "bird",
      "photo": "media/kwapa63/grey-go-away-bird.jpg",
      "call": "media/kwapa63/grey-go-away-bird.mp3",
-     "bytes": 109618
+     "bytes": 185724
     },
     {
      "id": "kwapa-verreauxs-eagle-owl",
@@ -1110,7 +1110,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "photo": "media/kwapa63/verreauxs-eagle-owl.jpg",
      "call": "media/kwapa63/verreauxs-eagle-owl.mp3",
-     "bytes": 116066
+     "bytes": 197064
     },
     {
      "id": "kwapa-european-bee-eater",
@@ -1118,7 +1118,7 @@ window.AGA_DATA = {
      "group": "eater",
      "photo": "media/kwapa63/european-bee-eater.jpg",
      "call": "media/kwapa63/european-bee-eater.mp3",
-     "bytes": 49780
+     "bytes": 20160
     },
     {
      "id": "kwapa-yellow-breasted-apalis",
@@ -1126,7 +1126,7 @@ window.AGA_DATA = {
      "group": "Apalis",
      "photo": "media/kwapa63/yellow-breasted-apalis.jpg",
      "call": "media/kwapa63/yellow-breasted-apalis.mp3",
-     "bytes": 75276
+     "bytes": 30996
     },
     {
      "id": "kwapa-wattled-crane",
@@ -1134,7 +1134,7 @@ window.AGA_DATA = {
      "group": "Crane",
      "photo": "media/kwapa63/wattled-crane.jpg",
      "call": "media/kwapa63/wattled-crane.mp3",
-     "bytes": 114707
+     "bytes": 183708
     },
     {
      "id": "kwapa-double-banded-sandgrouse",
@@ -1142,7 +1142,7 @@ window.AGA_DATA = {
      "group": "Sandgrouse",
      "photo": "media/kwapa63/double-banded-sandgrouse.jpg",
      "call": "media/kwapa63/double-banded-sandgrouse.mp3",
-     "bytes": 95756
+     "bytes": 40068
     },
     {
      "id": "kwapa-wood-sandpiper",
@@ -1150,7 +1150,7 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "photo": "media/kwapa63/wood-sandpiper.jpg",
      "call": "media/kwapa63/wood-sandpiper.mp3",
-     "bytes": 105666
+     "bytes": 178668
     },
     {
      "id": "kwapa-dark-capped-bulbul",
@@ -1158,7 +1158,7 @@ window.AGA_DATA = {
      "group": "Bulbul",
      "photo": "media/kwapa63/dark-capped-bulbul.jpg",
      "call": "media/kwapa63/dark-capped-bulbul.mp3",
-     "bytes": 219890
+     "bytes": 94500
     },
     {
      "id": "kwapa-brubru",
@@ -1166,7 +1166,7 @@ window.AGA_DATA = {
      "group": "Brubru",
      "photo": "media/kwapa63/brubru.jpg",
      "call": "media/kwapa63/brubru.mp3",
-     "bytes": 225323
+     "bytes": 96768
     },
     {
      "id": "kwapa-black-backed-puffback",
@@ -1174,7 +1174,7 @@ window.AGA_DATA = {
      "group": "Puffback",
      "photo": "media/kwapa63/black-backed-puffback.jpg",
      "call": "media/kwapa63/black-backed-puffback.mp3",
-     "bytes": 251654
+     "bytes": 108360
     },
     {
      "id": "kwapa-african-fish-eagle",
@@ -1182,7 +1182,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "photo": "media/kwapa63/african-fish-eagle.jpg",
      "call": "media/kwapa63/african-fish-eagle.mp3",
-     "bytes": 101610
+     "bytes": 171612
     },
     {
      "id": "kwapa-grey-backed-camaroptera",
@@ -1190,7 +1190,7 @@ window.AGA_DATA = {
      "group": "Camaroptera",
      "photo": "media/kwapa63/grey-backed-camaroptera.jpg",
      "call": "media/kwapa63/grey-backed-camaroptera.mp3",
-     "bytes": 204843
+     "bytes": 87948
     },
     {
      "id": "kwapa-rattling-cisticola",
@@ -1198,7 +1198,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "photo": "media/kwapa63/rattling-cisticola.jpg",
      "call": "media/kwapa63/rattling-cisticola.mp3",
-     "bytes": 173914
+     "bytes": 74340
     },
     {
      "id": "kwapa-zitting-cisticola",
@@ -1206,7 +1206,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "photo": "media/kwapa63/zitting-cisticola.jpg",
      "call": "media/kwapa63/zitting-cisticola.mp3",
-     "bytes": 68170
+     "bytes": 28224
     },
     {
      "id": "kwapa-long-billed-crombec",
@@ -1214,7 +1214,7 @@ window.AGA_DATA = {
      "group": "Crombec",
      "photo": "media/kwapa63/long-billed-crombec.jpg",
      "call": "media/kwapa63/long-billed-crombec.mp3",
-     "bytes": 262521
+     "bytes": 113148
     },
     {
      "id": "kwapa-emerald-spotted-wood-dove",
@@ -1222,7 +1222,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "photo": "media/kwapa63/emerald-spotted-wood-dove.jpg",
      "call": "media/kwapa63/emerald-spotted-wood-dove.mp3",
-     "bytes": 225741
+     "bytes": 97020
     },
     {
      "id": "kwapa-ashy-flycatcher",
@@ -1230,7 +1230,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "photo": "media/kwapa63/ashy-flycatcher.jpg",
      "call": "media/kwapa63/ashy-flycatcher.mp3",
-     "bytes": 157196
+     "bytes": 67032
     },
     {
      "id": "kwapa-red-billed-firefinch",
@@ -1238,7 +1238,7 @@ window.AGA_DATA = {
      "group": "Firefinch",
      "photo": "media/kwapa63/red-billed-firefinch.jpg",
      "call": "media/kwapa63/red-billed-firefinch.mp3",
-     "bytes": 99517
+     "bytes": 41832
     },
     {
      "id": "kwapa-crested-francolin",
@@ -1246,7 +1246,7 @@ window.AGA_DATA = {
      "group": "Francolin",
      "photo": "media/kwapa63/crested-francolin.jpg",
      "call": "media/kwapa63/crested-francolin.mp3",
-     "bytes": 166809
+     "bytes": 71316
     },
     {
      "id": "kwapa-arrow-marked-babbler",
@@ -1254,7 +1254,7 @@ window.AGA_DATA = {
      "group": "Babbler",
      "photo": "media/kwapa63/arrow-marked-babbler.jpg",
      "call": "media/kwapa63/arrow-marked-babbler.mp3",
-     "bytes": 183527
+     "bytes": 78372
     },
     {
      "id": "kwapa-eurasian-golden-oriole",
@@ -1262,7 +1262,7 @@ window.AGA_DATA = {
      "group": "Oriole",
      "photo": "media/kwapa63/eurasian-golden-oriole.jpg",
      "call": "media/kwapa63/eurasian-golden-oriole.mp3",
-     "bytes": 137552
+     "bytes": 58464
     },
     {
      "id": "kwapa-african-green-pigeon",
@@ -1270,7 +1270,7 @@ window.AGA_DATA = {
      "group": "Pigeon",
      "photo": "media/kwapa63/african-green-pigeon.jpg",
      "call": "media/kwapa63/african-green-pigeon.mp3",
-     "bytes": 157196
+     "bytes": 67032
     },
     {
      "id": "kwapa-striped-kingfisher",
@@ -1278,7 +1278,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "photo": "media/kwapa63/striped-kingfisher.jpg",
      "call": "media/kwapa63/striped-kingfisher.mp3",
-     "bytes": 209441
+     "bytes": 89964
     },
     {
      "id": "kwapa-woodland-kingfisher",
@@ -1286,7 +1286,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "photo": "media/kwapa63/woodland-kingfisher.jpg",
      "call": "media/kwapa63/woodland-kingfisher.mp3",
-     "bytes": 157614
+     "bytes": 67284
     },
     {
      "id": "kwapa-red-crested-korhaan",
@@ -1294,7 +1294,7 @@ window.AGA_DATA = {
      "group": "Korhaan",
      "photo": "media/kwapa63/red-crested-korhaan.jpg",
      "call": "media/kwapa63/red-crested-korhaan.mp3",
-     "bytes": 189796
+     "bytes": 81396
     },
     {
      "id": "kwapa-red-billed-oxpecker",
@@ -1302,7 +1302,7 @@ window.AGA_DATA = {
      "group": "Oxpecker",
      "photo": "media/kwapa63/red-billed-oxpecker.jpg",
      "call": "media/kwapa63/red-billed-oxpecker.mp3",
-     "bytes": 177676
+     "bytes": 76104
     },
     {
      "id": "kwapa-yellow-billed-oxpecker",
@@ -1310,7 +1310,7 @@ window.AGA_DATA = {
      "group": "Oxpecker",
      "photo": "media/kwapa63/yellow-billed-oxpecker.jpg",
      "call": "media/kwapa63/yellow-billed-oxpecker.mp3",
-     "bytes": 141731
+     "bytes": 60228
     },
     {
      "id": "kwapa-tawny-flanked-prinia",
@@ -1318,7 +1318,7 @@ window.AGA_DATA = {
      "group": "Prinia",
      "photo": "media/kwapa63/tawny-flanked-prinia.jpg",
      "call": "media/kwapa63/tawny-flanked-prinia.mp3",
-     "bytes": 105787
+     "bytes": 44352
     },
     {
      "id": "kwapa-crowned-lapwing",
@@ -1326,7 +1326,7 @@ window.AGA_DATA = {
      "group": "Lapwing",
      "photo": "media/kwapa63/crowned-lapwing.jpg",
      "call": "media/kwapa63/crowned-lapwing.mp3",
-     "bytes": 178512
+     "bytes": 76356
     },
     {
      "id": "kwapa-pearl-spotted-owlet",
@@ -1334,7 +1334,7 @@ window.AGA_DATA = {
      "group": "Owlet",
      "photo": "media/kwapa63/pearl-spotted-owlet.jpg",
      "call": "media/kwapa63/pearl-spotted-owlet.mp3",
-     "bytes": 222397
+     "bytes": 95508
     },
     {
      "id": "kwapa-crimson-breasted-shrike",
@@ -1342,7 +1342,7 @@ window.AGA_DATA = {
      "group": "Shrike",
      "photo": "media/kwapa63/crimson-breasted-shrike.jpg",
      "call": "media/kwapa63/crimson-breasted-shrike.mp3",
-     "bytes": 201081
+     "bytes": 86184
     },
     {
      "id": "kwapa-magpie-shrike",
@@ -1350,7 +1350,7 @@ window.AGA_DATA = {
      "group": "Shrike",
      "photo": "media/kwapa63/magpie-shrike.jpg",
      "call": "media/kwapa63/magpie-shrike.mp3",
-     "bytes": 159703
+     "bytes": 68040
     },
     {
      "id": "kwapa-southern-white-crowned-shrike",
@@ -1358,7 +1358,7 @@ window.AGA_DATA = {
      "group": "Shrike",
      "photo": "media/kwapa63/southern-white-crowned-shrike.jpg",
      "call": "media/kwapa63/southern-white-crowned-shrike.mp3",
-     "bytes": 142149
+     "bytes": 60480
     },
     {
      "id": "kwapa-swainsons-spurfowl",
@@ -1366,7 +1366,7 @@ window.AGA_DATA = {
      "group": "Spurfowl",
      "photo": "media/kwapa63/swainsons-spurfowl.jpg",
      "call": "media/kwapa63/swainsons-spurfowl.mp3",
-     "bytes": 185617
+     "bytes": 79380
     },
     {
      "id": "kwapa-brown-crowned-tchagra",
@@ -1374,7 +1374,7 @@ window.AGA_DATA = {
      "group": "Tchagra",
      "photo": "media/kwapa63/brown-crowned-tchagra.jpg",
      "call": "media/kwapa63/brown-crowned-tchagra.mp3",
-     "bytes": 113310
+     "bytes": 47880
     },
     {
      "id": "kwapa-black-crowned-tchagra",
@@ -1382,7 +1382,7 @@ window.AGA_DATA = {
      "group": "Tchagra",
      "photo": "media/kwapa63/black-crowned-tchagra.jpg",
      "call": "media/kwapa63/black-crowned-tchagra.mp3",
-     "bytes": 296376
+     "bytes": 128016
     },
     {
      "id": "kwapa-southern-black-tit",
@@ -1390,7 +1390,7 @@ window.AGA_DATA = {
      "group": "Tit",
      "photo": "media/kwapa63/southern-black-tit.jpg",
      "call": "media/kwapa63/southern-black-tit.mp3",
-     "bytes": 165064
+     "bytes": 67788
     },
     {
      "id": "kwapa-blue-waxbill",
@@ -1398,7 +1398,7 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "photo": "media/kwapa63/blue-waxbill.jpg",
      "call": "media/kwapa63/blue-waxbill.mp3",
-     "bytes": 175586
+     "bytes": 75096
     },
     {
      "id": "kwapa-bearded-woodpecker",
@@ -1406,7 +1406,7 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "photo": "media/kwapa63/bearded-woodpecker.jpg",
      "call": "media/kwapa63/bearded-woodpecker.mp3",
-     "bytes": 93666
+     "bytes": 39312
     },
     {
      "id": "kwapa-cardinal-woodpecker",
@@ -1414,7 +1414,7 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "photo": "media/kwapa63/cardinal-woodpecker.jpg",
      "call": "media/kwapa63/cardinal-woodpecker.mp3",
-     "bytes": 158450
+     "bytes": 67536
     },
     {
      "id": "kwapa-diederik-cuckoo",
@@ -1422,7 +1422,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "photo": "media/kwapa63/diederik-cuckoo.jpg",
      "call": "media/kwapa63/diederik-cuckoo.mp3",
-     "bytes": 70260
+     "bytes": 28980
     },
     {
      "id": "kwapa-golden-tailed-woodpecker",
@@ -1430,7 +1430,7 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "photo": "media/kwapa63/golden-tailed-woodpecker.jpg",
      "call": "media/kwapa63/golden-tailed-woodpecker.mp3",
-     "bytes": 66916
+     "bytes": 27468
     },
     {
      "id": "kwapa-blacksmith-lapwing",
@@ -1438,7 +1438,7 @@ window.AGA_DATA = {
      "group": "Lapwing",
      "photo": "media/kwapa63/blacksmith-lapwing.jpg",
      "call": "media/kwapa63/blacksmith-lapwing.mp3",
-     "bytes": 274642
+     "bytes": 118188
     },
     {
      "id": "kwapa-coppery-tailed-coucal",
@@ -1446,7 +1446,7 @@ window.AGA_DATA = {
      "group": "Coucal",
      "photo": "media/kwapa63/coppery-tailed-coucal.jpg",
      "call": "media/kwapa63/coppery-tailed-coucal.mp3",
-     "bytes": 102861
+     "bytes": 43344
     }
    ]
   },
@@ -1463,7 +1463,7 @@ window.AGA_DATA = {
      "group": "Akalat",
      "call": "media/calls/akalat-east-coast.mp3",
      "photo": "",
-     "bytes": 368723
+     "bytes": 161784
     },
     {
      "id": "alethe-white-breasted",
@@ -1471,7 +1471,7 @@ window.AGA_DATA = {
      "group": "Alethe",
      "call": "media/calls/alethe-white-breasted.mp3",
      "photo": "",
-     "bytes": 337794
+     "bytes": 148428
     },
     {
      "id": "apalis-bar-throated",
@@ -1479,7 +1479,7 @@ window.AGA_DATA = {
      "group": "Apalis",
      "call": "media/calls/apalis-bar-throated.mp3",
      "photo": "",
-     "bytes": 422639
+     "bytes": 185472
     },
     {
      "id": "apalis-black-headed",
@@ -1487,7 +1487,7 @@ window.AGA_DATA = {
      "group": "Apalis",
      "call": "media/calls/apalis-black-headed.mp3",
      "photo": "",
-     "bytes": 430163
+     "bytes": 188748
     },
     {
      "id": "apalis-chirinda",
@@ -1495,7 +1495,7 @@ window.AGA_DATA = {
      "group": "Apalis",
      "call": "media/calls/apalis-chirinda.mp3",
      "photo": "",
-     "bytes": 392964
+     "bytes": 172620
     },
     {
      "id": "apalis-rudds",
@@ -1503,7 +1503,7 @@ window.AGA_DATA = {
      "group": "Apalis",
      "call": "media/calls/apalis-rudds.mp3",
      "photo": "",
-     "bytes": 387531
+     "bytes": 170100
     },
     {
      "id": "apalis-yellow-breasted",
@@ -1511,7 +1511,7 @@ window.AGA_DATA = {
      "group": "Apalis",
      "call": "media/calls/apalis-yellow-breasted.mp3",
      "photo": "media/birds/yellow-breasted-apalis.jpg",
-     "bytes": 413862,
+     "bytes": 181692,
      "f": 1
     },
     {
@@ -1520,7 +1520,7 @@ window.AGA_DATA = {
      "group": "Babbler",
      "call": "media/calls/babbler-arrow-marked.mp3",
      "photo": "media/birds/arrow-marked-babbler.jpg",
-     "bytes": 526711,
+     "bytes": 231084,
      "f": 1
     },
     {
@@ -1529,7 +1529,7 @@ window.AGA_DATA = {
      "group": "Babbler",
      "call": "media/calls/babbler-bare-cheeked.mp3",
      "photo": "",
-     "bytes": 433506
+     "bytes": 190260
     },
     {
      "id": "babbler-black-faced",
@@ -1537,7 +1537,7 @@ window.AGA_DATA = {
      "group": "Babbler",
      "call": "media/calls/babbler-black-faced.mp3",
      "photo": "",
-     "bytes": 428491
+     "bytes": 187992
     },
     {
      "id": "babbler-hartlaubs",
@@ -1545,7 +1545,7 @@ window.AGA_DATA = {
      "group": "Babbler",
      "call": "media/calls/babbler-hartlaubs.mp3",
      "photo": "",
-     "bytes": 270920
+     "bytes": 119196
     },
     {
      "id": "babbler-southern-pied",
@@ -1553,7 +1553,7 @@ window.AGA_DATA = {
      "group": "Babbler",
      "call": "media/calls/babbler-southern-pied.mp3",
      "photo": "",
-     "bytes": 347825
+     "bytes": 152712
     },
     {
      "id": "barbet-acacia-pied",
@@ -1561,7 +1561,7 @@ window.AGA_DATA = {
      "group": "Barbet",
      "call": "media/calls/barbet-acacia-pied.mp3",
      "photo": "",
-     "bytes": 433088
+     "bytes": 190008
     },
     {
      "id": "barbet-black-collared",
@@ -1569,7 +1569,7 @@ window.AGA_DATA = {
      "group": "Barbet",
      "call": "media/calls/barbet-black-collared.mp3",
      "photo": "",
-     "bytes": 448553
+     "bytes": 196812
     },
     {
      "id": "barbet-crested",
@@ -1577,7 +1577,7 @@ window.AGA_DATA = {
      "group": "Barbet",
      "call": "media/calls/barbet-crested.mp3",
      "photo": "",
-     "bytes": 471958
+     "bytes": 207144
     },
     {
      "id": "barbet-white-eared",
@@ -1585,7 +1585,7 @@ window.AGA_DATA = {
      "group": "Barbet",
      "call": "media/calls/barbet-white-eared.mp3",
      "photo": "",
-     "bytes": 387113
+     "bytes": 169848
     },
     {
      "id": "barbet-whytes",
@@ -1593,7 +1593,7 @@ window.AGA_DATA = {
      "group": "Barbet",
      "call": "media/calls/barbet-whytes.mp3",
      "photo": "",
-     "bytes": 399234
+     "bytes": 175140
     },
     {
      "id": "barbet-woodwards",
@@ -1601,7 +1601,7 @@ window.AGA_DATA = {
      "group": "Barbet",
      "call": "media/calls/barbet-woodwards.mp3",
      "photo": "",
-     "bytes": 468916
+     "bytes": 205632
     },
     {
      "id": "barbet-yellow-fronted-tinker",
@@ -1609,7 +1609,7 @@ window.AGA_DATA = {
      "group": "Barbet",
      "call": "media/calls/barbet-yellow-fronted-tinker.mp3",
      "photo": "",
-     "bytes": 455658
+     "bytes": 199836
     },
     {
      "id": "barbet-yellow-rumped-tinker",
@@ -1617,7 +1617,7 @@ window.AGA_DATA = {
      "group": "Barbet",
      "call": "media/calls/barbet-yellow-rumped-tinker.mp3",
      "photo": "",
-     "bytes": 578120
+     "bytes": 253512
     },
     {
      "id": "batis-cape",
@@ -1625,7 +1625,7 @@ window.AGA_DATA = {
      "group": "Batis",
      "call": "media/calls/batis-cape.mp3",
      "photo": "",
-     "bytes": 449389
+     "bytes": 197316
     },
     {
      "id": "batis-chinspot",
@@ -1633,7 +1633,7 @@ window.AGA_DATA = {
      "group": "Batis",
      "call": "media/calls/batis-chinspot.mp3",
      "photo": "",
-     "bytes": 442701
+     "bytes": 194292
     },
     {
      "id": "batis-pale",
@@ -1641,7 +1641,7 @@ window.AGA_DATA = {
      "group": "Batis",
      "call": "media/calls/batis-pale.mp3",
      "photo": "",
-     "bytes": 411772
+     "bytes": 180684
     },
     {
      "id": "batis-pririt",
@@ -1649,7 +1649,7 @@ window.AGA_DATA = {
      "group": "Batis",
      "call": "media/calls/batis-pririt.mp3",
      "photo": "",
-     "bytes": 432252
+     "bytes": 189756
     },
     {
      "id": "batis-woodwards",
@@ -1657,7 +1657,7 @@ window.AGA_DATA = {
      "group": "Batis",
      "call": "media/calls/batis-woodwards.mp3",
      "photo": "",
-     "bytes": 395890
+     "bytes": 173880
     },
     {
      "id": "bittern-dwarf",
@@ -1665,7 +1665,7 @@ window.AGA_DATA = {
      "group": "Bittern",
      "call": "media/calls/bittern-dwarf.mp3",
      "photo": "",
-     "bytes": 385859
+     "bytes": 169344
     },
     {
      "id": "bittern-little",
@@ -1673,7 +1673,7 @@ window.AGA_DATA = {
      "group": "Bittern",
      "call": "media/calls/bittern-little.mp3",
      "photo": "",
-     "bytes": 432670
+     "bytes": 190008
     },
     {
      "id": "bittern",
@@ -1681,7 +1681,7 @@ window.AGA_DATA = {
      "group": "Bittern",
      "call": "media/calls/bittern.mp3",
      "photo": "",
-     "bytes": 473513
+     "bytes": 207648
     },
     {
      "id": "blackcap-bush",
@@ -1689,7 +1689,7 @@ window.AGA_DATA = {
      "group": "Blackcap",
      "call": "media/calls/blackcap-bush.mp3",
      "photo": "",
-     "bytes": 397980
+     "bytes": 174636
     },
     {
      "id": "bokmakierie",
@@ -1697,7 +1697,7 @@ window.AGA_DATA = {
      "group": "Bokmakierie",
      "call": "media/calls/bokmakierie.mp3",
      "photo": "",
-     "bytes": 461927
+     "bytes": 202608
     },
     {
      "id": "boubou-southern",
@@ -1705,7 +1705,7 @@ window.AGA_DATA = {
      "group": "Boubou",
      "call": "media/calls/boubou-southern.mp3",
      "photo": "",
-     "bytes": 695985
+     "bytes": 305172
     },
     {
      "id": "boubou-swamp",
@@ -1713,7 +1713,7 @@ window.AGA_DATA = {
      "group": "Boubou",
      "call": "media/calls/boubou-swamp.mp3",
      "photo": "",
-     "bytes": 442283
+     "bytes": 194040
     },
     {
      "id": "boubou-tropical",
@@ -1721,7 +1721,7 @@ window.AGA_DATA = {
      "group": "Boubou",
      "call": "media/calls/boubou-tropical.mp3",
      "photo": "media/birds/tropical-boubou.jpg",
-     "bytes": 470705,
+     "bytes": 206640,
      "f": 1
     },
     {
@@ -1730,7 +1730,7 @@ window.AGA_DATA = {
      "group": "Broadbill",
      "call": "media/calls/broadbill-african.mp3",
      "photo": "",
-     "bytes": 444402
+     "bytes": 195048
     },
     {
      "id": "brownbul-terrestrial",
@@ -1738,7 +1738,7 @@ window.AGA_DATA = {
      "group": "Brownbul",
      "call": "media/calls/brownbul-terrestrial.mp3",
      "photo": "",
-     "bytes": 365797
+     "bytes": 160524
     },
     {
      "id": "brubru",
@@ -1746,7 +1746,7 @@ window.AGA_DATA = {
      "group": "Brubru",
      "call": "media/calls/brubru.mp3",
      "photo": "",
-     "bytes": 517934
+     "bytes": 227304
     },
     {
      "id": "bulbul-african-red-eyed",
@@ -1754,7 +1754,7 @@ window.AGA_DATA = {
      "group": "Bulbul",
      "call": "media/calls/bulbul-african-red-eyed.mp3",
      "photo": "",
-     "bytes": 456076
+     "bytes": 200088
     },
     {
      "id": "bulbul-cape",
@@ -1762,7 +1762,7 @@ window.AGA_DATA = {
      "group": "Bulbul",
      "call": "media/calls/bulbul-cape.mp3",
      "photo": "",
-     "bytes": 460975
+     "bytes": 202104
     },
     {
      "id": "bunting-cabaniss",
@@ -1770,7 +1770,7 @@ window.AGA_DATA = {
      "group": "Bunting",
      "call": "media/calls/bunting-cabaniss.mp3",
      "photo": "",
-     "bytes": 342391
+     "bytes": 150444
     },
     {
      "id": "bunting-cape",
@@ -1778,7 +1778,7 @@ window.AGA_DATA = {
      "group": "Bunting",
      "call": "media/calls/bunting-cape.mp3",
      "photo": "",
-     "bytes": 424311
+     "bytes": 186228
     },
     {
      "id": "bunting-cinnamon-breasted",
@@ -1786,7 +1786,7 @@ window.AGA_DATA = {
      "group": "Bunting",
      "call": "media/calls/bunting-cinnamon-breasted.mp3",
      "photo": "",
-     "bytes": 447299
+     "bytes": 196308
     },
     {
      "id": "bunting-golden-breasted",
@@ -1794,7 +1794,7 @@ window.AGA_DATA = {
      "group": "Bunting",
      "call": "media/calls/bunting-golden-breasted.mp3",
      "photo": "",
-     "bytes": 494946
+     "bytes": 217224
     },
     {
      "id": "bunting-lark-like",
@@ -1802,7 +1802,7 @@ window.AGA_DATA = {
      "group": "Bunting",
      "call": "media/calls/bunting-lark-like.mp3",
      "photo": "",
-     "bytes": 457748
+     "bytes": 200844
     },
     {
      "id": "bushshrike-black-fronted",
@@ -1810,7 +1810,7 @@ window.AGA_DATA = {
      "group": "Bushshrike",
      "call": "media/calls/bushshrike-black-fronted.mp3",
      "photo": "",
-     "bytes": 424311
+     "bytes": 186228
     },
     {
      "id": "bushshrike-gorgeous",
@@ -1818,7 +1818,7 @@ window.AGA_DATA = {
      "group": "Bushshrike",
      "call": "media/calls/bushshrike-gorgeous.mp3",
      "photo": "",
-     "bytes": 398816
+     "bytes": 175140
     },
     {
      "id": "bushshrike-grey-headed",
@@ -1826,7 +1826,7 @@ window.AGA_DATA = {
      "group": "Bushshrike",
      "call": "media/calls/bushshrike-grey-headed.mp3",
      "photo": "",
-     "bytes": 397144
+     "bytes": 174384
     },
     {
      "id": "bushshrike-olive",
@@ -1834,7 +1834,7 @@ window.AGA_DATA = {
      "group": "Bushshrike",
      "call": "media/calls/bushshrike-olive.mp3",
      "photo": "",
-     "bytes": 536324
+     "bytes": 235116
     },
     {
      "id": "bushshrike-orange-breasted",
@@ -1842,7 +1842,7 @@ window.AGA_DATA = {
      "group": "Bushshrike",
      "call": "media/calls/bushshrike-orange-breasted.mp3",
      "photo": "media/birds/orange-breasted-bush-shrike.jpg",
-     "bytes": 396766,
+     "bytes": 174132,
      "f": 1
     },
     {
@@ -1851,7 +1851,7 @@ window.AGA_DATA = {
      "group": "Bustard",
      "call": "media/calls/bustard-barrows.mp3",
      "photo": "",
-     "bytes": 500798
+     "bytes": 219744
     },
     {
      "id": "bustard-blue",
@@ -1859,7 +1859,7 @@ window.AGA_DATA = {
      "group": "Bustard",
      "call": "media/calls/bustard-blue.mp3",
      "photo": "",
-     "bytes": 466943
+     "bytes": 204876
     },
     {
      "id": "bustard-karoo",
@@ -1867,7 +1867,7 @@ window.AGA_DATA = {
      "group": "Bustard",
      "call": "media/calls/bustard-karoo.mp3",
      "photo": "",
-     "bytes": 474349
+     "bytes": 207900
     },
     {
      "id": "bustard-red-crested",
@@ -1875,7 +1875,7 @@ window.AGA_DATA = {
      "group": "Bustard",
      "call": "media/calls/bustard-red-crested.mp3",
      "photo": "",
-     "bytes": 506231
+     "bytes": 222012
     },
     {
      "id": "bustard-ruppells",
@@ -1883,7 +1883,7 @@ window.AGA_DATA = {
      "group": "Bustard",
      "call": "media/calls/bustard-ruppells.mp3",
      "photo": "",
-     "bytes": 475302
+     "bytes": 208656
     },
     {
      "id": "bustard-southern-black",
@@ -1891,7 +1891,7 @@ window.AGA_DATA = {
      "group": "Bustard",
      "call": "media/calls/bustard-southern-black.mp3",
      "photo": "",
-     "bytes": 358274
+     "bytes": 157248
     },
     {
      "id": "buttonquail-black-rumped",
@@ -1899,7 +1899,7 @@ window.AGA_DATA = {
      "group": "Buttonquail",
      "call": "media/calls/buttonquail-black-rumped.mp3",
      "photo": "",
-     "bytes": 432135
+     "bytes": 189504
     },
     {
      "id": "camaroptera-green-backed",
@@ -1907,7 +1907,7 @@ window.AGA_DATA = {
      "group": "Camaroptera",
      "call": "media/calls/camaroptera-green-backed.mp3",
      "photo": "",
-     "bytes": 440194
+     "bytes": 193284
     },
     {
      "id": "camaroptera-grey-backed",
@@ -1915,7 +1915,7 @@ window.AGA_DATA = {
      "group": "Camaroptera",
      "call": "media/calls/camaroptera-grey-backed.mp3",
      "photo": "media/birds/grey-backed-camaroptera.jpg",
-     "bytes": 425983,
+     "bytes": 186984,
      "f": 1
     },
     {
@@ -1924,7 +1924,7 @@ window.AGA_DATA = {
      "group": "Canary",
      "call": "media/calls/canary-black-eared.mp3",
      "photo": "",
-     "bytes": 467779
+     "bytes": 205128
     },
     {
      "id": "canary-black-headed",
@@ -1932,7 +1932,7 @@ window.AGA_DATA = {
      "group": "Canary",
      "call": "media/calls/canary-black-headed.mp3",
      "photo": "",
-     "bytes": 416788
+     "bytes": 182952
     },
     {
      "id": "canary-black-throated",
@@ -1940,7 +1940,7 @@ window.AGA_DATA = {
      "group": "Canary",
      "call": "media/calls/canary-black-throated.mp3",
      "photo": "",
-     "bytes": 488677
+     "bytes": 214452
     },
     {
      "id": "canary-brimstone",
@@ -1948,7 +1948,7 @@ window.AGA_DATA = {
      "group": "Canary",
      "call": "media/calls/canary-brimstone.mp3",
      "photo": "",
-     "bytes": 471123
+     "bytes": 206640
     },
     {
      "id": "canary-cape",
@@ -1956,7 +1956,7 @@ window.AGA_DATA = {
      "group": "Canary",
      "call": "media/calls/canary-cape.mp3",
      "photo": "",
-     "bytes": 441029
+     "bytes": 193536
     },
     {
      "id": "canary-forest",
@@ -1964,7 +1964,7 @@ window.AGA_DATA = {
      "group": "Canary",
      "call": "media/calls/canary-forest.mp3",
      "photo": "",
-     "bytes": 421803
+     "bytes": 185220
     },
     {
      "id": "canary-lemon-breasted",
@@ -1972,7 +1972,7 @@ window.AGA_DATA = {
      "group": "Canary",
      "call": "media/calls/canary-lemon-breasted.mp3",
      "photo": "",
-     "bytes": 407175
+     "bytes": 178668
     },
     {
      "id": "canary-protea",
@@ -1980,7 +1980,7 @@ window.AGA_DATA = {
      "group": "Canary",
      "call": "media/calls/canary-protea.mp3",
      "photo": "",
-     "bytes": 432553
+     "bytes": 189756
     },
     {
      "id": "canary-streaky-headed",
@@ -1988,7 +1988,7 @@ window.AGA_DATA = {
      "group": "Canary",
      "call": "media/calls/canary-streaky-headed.mp3",
      "photo": "",
-     "bytes": 467779
+     "bytes": 205128
     },
     {
      "id": "canary-white-throated",
@@ -1996,7 +1996,7 @@ window.AGA_DATA = {
      "group": "Canary",
      "call": "media/calls/canary-white-throated.mp3",
      "photo": "",
-     "bytes": 396726
+     "bytes": 174132
     },
     {
      "id": "canary-yellow",
@@ -2004,7 +2004,7 @@ window.AGA_DATA = {
      "group": "Canary",
      "call": "media/calls/canary-yellow.mp3",
      "photo": "",
-     "bytes": 515426
+     "bytes": 226044
     },
     {
      "id": "chaffinch",
@@ -2012,7 +2012,7 @@ window.AGA_DATA = {
      "group": "Chaffinch",
      "call": "media/calls/chaffinch.mp3",
      "photo": "",
-     "bytes": 407175
+     "bytes": 178668
     },
     {
      "id": "chat-arnots",
@@ -2020,7 +2020,7 @@ window.AGA_DATA = {
      "group": "Chat",
      "call": "media/calls/chat-arnots.mp3",
      "photo": "media/birds/arnots-chat.jpg",
-     "bytes": 448553,
+     "bytes": 196812,
      "f": 1
     },
     {
@@ -2029,7 +2029,7 @@ window.AGA_DATA = {
      "group": "Chat",
      "call": "media/calls/chat-boulder.mp3",
      "photo": "",
-     "bytes": 401323
+     "bytes": 176148
     },
     {
      "id": "chat-buff-streaked",
@@ -2037,7 +2037,7 @@ window.AGA_DATA = {
      "group": "Chat",
      "call": "media/calls/chat-buff-streaked.mp3",
      "photo": "",
-     "bytes": 423893
+     "bytes": 185976
     },
     {
      "id": "chat-familiar",
@@ -2045,7 +2045,7 @@ window.AGA_DATA = {
      "group": "Chat",
      "call": "media/calls/chat-familiar.mp3",
      "photo": "",
-     "bytes": 394636
+     "bytes": 173124
     },
     {
      "id": "chat-herero",
@@ -2053,7 +2053,7 @@ window.AGA_DATA = {
      "group": "Chat",
      "call": "media/calls/chat-herero.mp3",
      "photo": "",
-     "bytes": 363707
+     "bytes": 159768
     },
     {
      "id": "chat-karoo",
@@ -2061,7 +2061,7 @@ window.AGA_DATA = {
      "group": "Chat",
      "call": "media/calls/chat-karoo.mp3",
      "photo": "",
-     "bytes": 432252
+     "bytes": 189756
     },
     {
      "id": "chat-mocking-cliff",
@@ -2069,7 +2069,7 @@ window.AGA_DATA = {
      "group": "Chat",
      "call": "media/calls/chat-mocking-cliff.mp3",
      "photo": "",
-     "bytes": 580628
+     "bytes": 254520
     },
     {
      "id": "chat-sickle-winged",
@@ -2077,7 +2077,7 @@ window.AGA_DATA = {
      "group": "Chat",
      "call": "media/calls/chat-sickle-winged.mp3",
      "photo": "",
-     "bytes": 450643
+     "bytes": 197820
     },
     {
      "id": "chat-tractrac",
@@ -2085,7 +2085,7 @@ window.AGA_DATA = {
      "group": "Chat",
      "call": "media/calls/chat-tractrac.mp3",
      "photo": "",
-     "bytes": 397980
+     "bytes": 174636
     },
     {
      "id": "cisticola-chirping",
@@ -2093,7 +2093,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-chirping.mp3",
      "photo": "",
-     "bytes": 440194
+     "bytes": 193284
     },
     {
      "id": "cisticola-cloud",
@@ -2101,7 +2101,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-cloud.mp3",
      "photo": "",
-     "bytes": 430580
+     "bytes": 189000
     },
     {
      "id": "cisticola-croaking",
@@ -2109,7 +2109,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-croaking.mp3",
      "photo": "",
-     "bytes": 420967
+     "bytes": 184716
     },
     {
      "id": "cisticola-desert",
@@ -2117,7 +2117,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-desert.mp3",
      "photo": "",
-     "bytes": 441029
+     "bytes": 193536
     },
     {
      "id": "cisticola-grey-backed",
@@ -2125,7 +2125,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-grey-backed.mp3",
      "photo": "",
-     "bytes": 387531
+     "bytes": 170100
     },
     {
      "id": "cisticola-lazy",
@@ -2133,7 +2133,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-lazy.mp3",
      "photo": "",
-     "bytes": 434760
+     "bytes": 190764
     },
     {
      "id": "cisticola-levaillants",
@@ -2141,7 +2141,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-levaillants.mp3",
      "photo": "",
-     "bytes": 423893
+     "bytes": 185976
     },
     {
      "id": "cisticola-pale-crowned",
@@ -2149,7 +2149,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-pale-crowned.mp3",
      "photo": "",
-     "bytes": 432252
+     "bytes": 189756
     },
     {
      "id": "cisticola-rattling",
@@ -2157,7 +2157,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-rattling.mp3",
      "photo": "",
-     "bytes": 493274
+     "bytes": 216468
     },
     {
      "id": "cisticola-red-faced",
@@ -2165,7 +2165,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-red-faced.mp3",
      "photo": "media/birds/red-faced-cisticola.jpg",
-     "bytes": 438522,
+     "bytes": 192528,
      "f": 1
     },
     {
@@ -2174,7 +2174,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-rufous-winged.mp3",
      "photo": "",
-     "bytes": 430580
+     "bytes": 189000
     },
     {
      "id": "cisticola-short-winged",
@@ -2182,7 +2182,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-short-winged.mp3",
      "photo": "",
-     "bytes": 430580
+     "bytes": 189000
     },
     {
      "id": "cisticola-singing",
@@ -2190,7 +2190,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-singing.mp3",
      "photo": "",
-     "bytes": 433506
+     "bytes": 190260
     },
     {
      "id": "cisticola-tinkling",
@@ -2198,7 +2198,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-tinkling.mp3",
      "photo": "",
-     "bytes": 411354
+     "bytes": 180684
     },
     {
      "id": "cisticola-wailing",
@@ -2206,7 +2206,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-wailing.mp3",
      "photo": "",
-     "bytes": 431416
+     "bytes": 189252
     },
     {
      "id": "cisticola-wing-snapping",
@@ -2214,7 +2214,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-wing-snapping.mp3",
      "photo": "",
-     "bytes": 414698
+     "bytes": 181944
     },
     {
      "id": "cisticola-zitting",
@@ -2222,7 +2222,7 @@ window.AGA_DATA = {
      "group": "Cisticola",
      "call": "media/calls/cisticola-zitting.mp3",
      "photo": "",
-     "bytes": 411772
+     "bytes": 180684
     },
     {
      "id": "coucal-black",
@@ -2230,7 +2230,7 @@ window.AGA_DATA = {
      "group": "Coucal",
      "call": "media/calls/coucal-black.mp3",
      "photo": "",
-     "bytes": 380843
+     "bytes": 167328
     },
     {
      "id": "coucal-burchells",
@@ -2238,7 +2238,7 @@ window.AGA_DATA = {
      "group": "Coucal",
      "call": "media/calls/coucal-burchells.mp3",
      "photo": "",
-     "bytes": 420967
+     "bytes": 184716
     },
     {
      "id": "coucal-coppery-tailed",
@@ -2246,7 +2246,7 @@ window.AGA_DATA = {
      "group": "Coucal",
      "call": "media/calls/coucal-coppery-tailed.mp3",
      "photo": "",
-     "bytes": 406339
+     "bytes": 178416
     },
     {
      "id": "coucal-senegal",
@@ -2254,7 +2254,7 @@ window.AGA_DATA = {
      "group": "Coucal",
      "call": "media/calls/coucal-senegal.mp3",
      "photo": "",
-     "bytes": 424755
+     "bytes": 186480
     },
     {
      "id": "coucal-white-browed",
@@ -2262,7 +2262,7 @@ window.AGA_DATA = {
      "group": "Coucal",
      "call": "media/calls/coucal-white-browed.mp3",
      "photo": "",
-     "bytes": 374156
+     "bytes": 164304
     },
     {
      "id": "courser-bronze-winged",
@@ -2270,7 +2270,7 @@ window.AGA_DATA = {
      "group": "Courser",
      "call": "media/calls/courser-bronze-winged.mp3",
      "photo": "media/birds/bronze-winged-courser.jpg",
-     "bytes": 434643,
+     "bytes": 190512,
      "f": 1
     },
     {
@@ -2279,7 +2279,7 @@ window.AGA_DATA = {
      "group": "Courser",
      "call": "media/calls/courser-three-banded.mp3",
      "photo": "",
-     "bytes": 407593
+     "bytes": 178920
     },
     {
      "id": "crake-african",
@@ -2287,7 +2287,7 @@ window.AGA_DATA = {
      "group": "Crake",
      "call": "media/calls/crake-african.mp3",
      "photo": "",
-     "bytes": 436850
+     "bytes": 191772
     },
     {
      "id": "crake-baillons",
@@ -2295,7 +2295,7 @@ window.AGA_DATA = {
      "group": "Crake",
      "call": "media/calls/crake-baillons.mp3",
      "photo": "",
-     "bytes": 455240
+     "bytes": 199836
     },
     {
      "id": "crake-black",
@@ -2303,7 +2303,7 @@ window.AGA_DATA = {
      "group": "Crake",
      "call": "media/calls/crake-black.mp3",
      "photo": "media/birds/black-crake.jpg",
-     "bytes": 437686,
+     "bytes": 192024,
      "f": 1
     },
     {
@@ -2312,7 +2312,7 @@ window.AGA_DATA = {
      "group": "Crake",
      "call": "media/calls/crake-spotted.mp3",
      "photo": "",
-     "bytes": 378637
+     "bytes": 166068
     },
     {
      "id": "crake-striped",
@@ -2320,7 +2320,7 @@ window.AGA_DATA = {
      "group": "Crake",
      "call": "media/calls/crake-striped.mp3",
      "photo": "",
-     "bytes": 456494
+     "bytes": 200340
     },
     {
      "id": "creeper-spotted",
@@ -2328,7 +2328,7 @@ window.AGA_DATA = {
      "group": "Creeper",
      "call": "media/calls/creeper-spotted.mp3",
      "photo": "",
-     "bytes": 369558
+     "bytes": 162288
     },
     {
      "id": "crimsonwing-red-faced",
@@ -2336,7 +2336,7 @@ window.AGA_DATA = {
      "group": "Crimsonwing",
      "call": "media/calls/crimsonwing-red-faced.mp3",
      "photo": "",
-     "bytes": 438522
+     "bytes": 192528
     },
     {
      "id": "crombec-long-billed",
@@ -2344,7 +2344,7 @@ window.AGA_DATA = {
      "group": "Crombec",
      "call": "media/calls/crombec-long-billed.mp3",
      "photo": "",
-     "bytes": 442283
+     "bytes": 194040
     },
     {
      "id": "crombec-red-capped",
@@ -2352,7 +2352,7 @@ window.AGA_DATA = {
      "group": "Crombec",
      "call": "media/calls/crombec-red-capped.mp3",
      "photo": "",
-     "bytes": 394218
+     "bytes": 173124
     },
     {
      "id": "crombec-red-faced",
@@ -2360,7 +2360,7 @@ window.AGA_DATA = {
      "group": "Crombec",
      "call": "media/calls/crombec-red-faced.mp3",
      "photo": "",
-     "bytes": 413862
+     "bytes": 181692
     },
     {
      "id": "cuckoo-african",
@@ -2368,7 +2368,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-african.mp3",
      "photo": "media/birds/african-cuckoo.jpg",
-     "bytes": 393265,
+     "bytes": 172620,
      "f": 1
     },
     {
@@ -2377,7 +2377,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-barred.mp3",
      "photo": "",
-     "bytes": 408011
+     "bytes": 179172
     },
     {
      "id": "cuckoo-black",
@@ -2385,7 +2385,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-black.mp3",
      "photo": "media/birds/black-cuckoo.jpg",
-     "bytes": 437686,
+     "bytes": 192024,
      "f": 1
     },
     {
@@ -2394,7 +2394,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-dideric.mp3",
      "photo": "",
-     "bytes": 417624
+     "bytes": 183204
     },
     {
      "id": "cuckoo-emerald",
@@ -2402,7 +2402,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-emerald.mp3",
      "photo": "",
-     "bytes": 461961
+     "bytes": 202608
     },
     {
      "id": "cuckoo-great-spotted",
@@ -2410,7 +2410,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-great-spotted.mp3",
      "photo": "media/birds/great-spotted-cuckoo.jpg",
-     "bytes": 397863,
+     "bytes": 174636,
      "f": 1
     },
     {
@@ -2419,7 +2419,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-indian-lesser.mp3",
      "photo": "",
-     "bytes": 414999
+     "bytes": 181944
     },
     {
      "id": "cuckoo-jacobin",
@@ -2427,7 +2427,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-jacobin.mp3",
      "photo": "",
-     "bytes": 393800
+     "bytes": 172872
     },
     {
      "id": "cuckoo-klaass",
@@ -2435,7 +2435,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-klaass.mp3",
      "photo": "",
-     "bytes": 443119
+     "bytes": 194544
     },
     {
      "id": "cuckoo-levaillants",
@@ -2443,7 +2443,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-levaillants.mp3",
      "photo": "media/birds/levaillants-cuckoo.jpg",
-     "bytes": 444791,
+     "bytes": 195300,
      "f": 1
     },
     {
@@ -2452,7 +2452,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-madagascar.mp3",
      "photo": "",
-     "bytes": 369140
+     "bytes": 162036
     },
     {
      "id": "cuckoo-red-chested",
@@ -2460,7 +2460,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-red-chested.mp3",
      "photo": "",
-     "bytes": 413026
+     "bytes": 181188
     },
     {
      "id": "cuckoo-thick-billed",
@@ -2468,7 +2468,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/cuckoo-thick-billed.mp3",
      "photo": "",
-     "bytes": 384605
+     "bytes": 168840
     },
     {
      "id": "cuckooshrike-black",
@@ -2476,7 +2476,7 @@ window.AGA_DATA = {
      "group": "Cuckooshrike",
      "call": "media/calls/cuckooshrike-black.mp3",
      "photo": "media/birds/black-cuckooshrike.jpg",
-     "bytes": 450674,
+     "bytes": 197820,
      "f": 1
     },
     {
@@ -2485,7 +2485,7 @@ window.AGA_DATA = {
      "group": "Cuckooshrike",
      "call": "media/calls/cuckooshrike-grey.mp3",
      "photo": "",
-     "bytes": 454852
+     "bytes": 199584
     },
     {
      "id": "cuckooshrike-white-breasted",
@@ -2493,7 +2493,7 @@ window.AGA_DATA = {
      "group": "Cuckooshrike",
      "call": "media/calls/cuckooshrike-white-breasted.mp3",
      "photo": "media/birds/white-breasted-cuckooshrike.jpg",
-     "bytes": 384070,
+     "bytes": 168588,
      "f": 1
     },
     {
@@ -2502,7 +2502,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "call": "media/calls/dove-lemon.mp3",
      "photo": "",
-     "bytes": 407593
+     "bytes": 178920
     },
     {
      "id": "dove-tambourine",
@@ -2510,7 +2510,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "call": "media/calls/dove-tambourine.mp3",
      "photo": "",
-     "bytes": 615318
+     "bytes": 269892
     },
     {
      "id": "drongo-square-tailed",
@@ -2518,7 +2518,7 @@ window.AGA_DATA = {
      "group": "Drongo",
      "call": "media/calls/drongo-square-tailed.mp3",
      "photo": "",
-     "bytes": 342391
+     "bytes": 150444
     },
     {
      "id": "eagle-crowned",
@@ -2526,7 +2526,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "call": "media/calls/eagle-crowned.mp3",
      "photo": "",
-     "bytes": 377918
+     "bytes": 165816
     },
     {
      "id": "eremomela-burnt-necked",
@@ -2534,7 +2534,7 @@ window.AGA_DATA = {
      "group": "Eremomela",
      "call": "media/calls/eremomela-burnt-necked.mp3",
      "photo": "media/birds/burnt-necked-eremomela.jpg",
-     "bytes": 404968,
+     "bytes": 177660,
      "f": 1
     },
     {
@@ -2543,7 +2543,7 @@ window.AGA_DATA = {
      "group": "Eremomela",
      "call": "media/calls/eremomela-green-capped.mp3",
      "photo": "media/birds/green-capped-eremomela.jpg",
-     "bytes": 443119,
+     "bytes": 194544,
      "f": 1
     },
     {
@@ -2552,7 +2552,7 @@ window.AGA_DATA = {
      "group": "Eremomela",
      "call": "media/calls/eremomela-karoo.mp3",
      "photo": "",
-     "bytes": 368188
+     "bytes": 161532
     },
     {
      "id": "eremomela-yellow-bellied",
@@ -2560,7 +2560,7 @@ window.AGA_DATA = {
      "group": "Eremomela",
      "call": "media/calls/eremomela-yellow-bellied.mp3",
      "photo": "",
-     "bytes": 437268
+     "bytes": 192024
     },
     {
      "id": "falcon-taita",
@@ -2568,7 +2568,7 @@ window.AGA_DATA = {
      "group": "Falcon",
      "call": "media/calls/falcon-taita.mp3",
      "photo": "",
-     "bytes": 316896
+     "bytes": 139356
     },
     {
      "id": "finch-cut-throat",
@@ -2576,7 +2576,7 @@ window.AGA_DATA = {
      "group": "Finch",
      "call": "media/calls/finch-cut-throat.mp3",
      "photo": "",
-     "bytes": 442701
+     "bytes": 194292
     },
     {
      "id": "finch-locust",
@@ -2584,7 +2584,7 @@ window.AGA_DATA = {
      "group": "Finch",
      "call": "media/calls/finch-locust.mp3",
      "photo": "",
-     "bytes": 319403
+     "bytes": 140364
     },
     {
      "id": "finch-red-headed",
@@ -2592,7 +2592,7 @@ window.AGA_DATA = {
      "group": "Finch",
      "call": "media/calls/finch-red-headed.mp3",
      "photo": "",
-     "bytes": 408429
+     "bytes": 179172
     },
     {
      "id": "finch-scaly-feathered",
@@ -2600,7 +2600,7 @@ window.AGA_DATA = {
      "group": "Finch",
      "call": "media/calls/finch-scaly-feathered.mp3",
      "photo": "",
-     "bytes": 383769
+     "bytes": 168588
     },
     {
      "id": "firefinch-african",
@@ -2608,7 +2608,7 @@ window.AGA_DATA = {
      "group": "Firefinch",
      "call": "media/calls/firefinch-african.mp3",
      "photo": "",
-     "bytes": 406369
+     "bytes": 178416
     },
     {
      "id": "firefinch-brown",
@@ -2616,7 +2616,7 @@ window.AGA_DATA = {
      "group": "Firefinch",
      "call": "media/calls/firefinch-brown.mp3",
      "photo": "",
-     "bytes": 419324
+     "bytes": 183960
     },
     {
      "id": "firefinch-jamesons",
@@ -2624,7 +2624,7 @@ window.AGA_DATA = {
      "group": "Firefinch",
      "call": "media/calls/firefinch-jamesons.mp3",
      "photo": "",
-     "bytes": 506681
+     "bytes": 222264
     },
     {
      "id": "firefinch-red-billed",
@@ -2632,7 +2632,7 @@ window.AGA_DATA = {
      "group": "Firefinch",
      "call": "media/calls/firefinch-red-billed.mp3",
      "photo": "",
-     "bytes": 423090
+     "bytes": 185724
     },
     {
      "id": "flufftail-buff-spotted",
@@ -2640,7 +2640,7 @@ window.AGA_DATA = {
      "group": "Flufftail",
      "call": "media/calls/flufftail-buff-spotted.mp3",
      "photo": "",
-     "bytes": 483243
+     "bytes": 211932
     },
     {
      "id": "flufftail-chestnut-headed",
@@ -2648,7 +2648,7 @@ window.AGA_DATA = {
      "group": "Flufftail",
      "call": "media/calls/flufftail-chestnut-headed.mp3",
      "photo": "",
-     "bytes": 506649
+     "bytes": 222264
     },
     {
      "id": "flufftail-red-chested",
@@ -2656,7 +2656,7 @@ window.AGA_DATA = {
      "group": "Flufftail",
      "call": "media/calls/flufftail-red-chested.mp3",
      "photo": "",
-     "bytes": 657950
+     "bytes": 288540
     },
     {
      "id": "flufftail-streaky-breasted",
@@ -2664,7 +2664,7 @@ window.AGA_DATA = {
      "group": "Flufftail",
      "call": "media/calls/flufftail-streaky-breasted.mp3",
      "photo": "",
-     "bytes": 498708
+     "bytes": 218736
     },
     {
      "id": "flufftail-striped",
@@ -2672,7 +2672,7 @@ window.AGA_DATA = {
      "group": "Flufftail",
      "call": "media/calls/flufftail-striped.mp3",
      "photo": "",
-     "bytes": 503305
+     "bytes": 220752
     },
     {
      "id": "flufftail-white-winged",
@@ -2680,7 +2680,7 @@ window.AGA_DATA = {
      "group": "Flufftail",
      "call": "media/calls/flufftail-white-winged.mp3",
      "photo": "",
-     "bytes": 448553
+     "bytes": 196812
     },
     {
      "id": "flycatcher-african-paradise",
@@ -2688,7 +2688,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-african-paradise.mp3",
      "photo": "",
-     "bytes": 444373
+     "bytes": 195048
     },
     {
      "id": "flycatcher-ashy",
@@ -2696,7 +2696,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-ashy.mp3",
      "photo": "media/birds/ashy-flycatcher.jpg",
-     "bytes": 424311,
+     "bytes": 186228,
      "f": 1
     },
     {
@@ -2705,7 +2705,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-black-and-white-shrike.mp3",
      "photo": "",
-     "bytes": 405130
+     "bytes": 177912
     },
     {
      "id": "flycatcher-blue-mantled-crested",
@@ -2713,7 +2713,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-blue-mantled-crested.mp3",
      "photo": "",
-     "bytes": 414741
+     "bytes": 181944
     },
     {
      "id": "flycatcher-chat",
@@ -2721,7 +2721,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-chat.mp3",
      "photo": "",
-     "bytes": 395054
+     "bytes": 173376
     },
     {
      "id": "flycatcher-collared",
@@ -2729,7 +2729,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-collared.mp3",
      "photo": "",
-     "bytes": 366633
+     "bytes": 161028
     },
     {
      "id": "flycatcher-fiscal",
@@ -2737,7 +2737,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-fiscal.mp3",
      "photo": "",
-     "bytes": 395890
+     "bytes": 173880
     },
     {
      "id": "flycatcher-grey-tit",
@@ -2745,7 +2745,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-grey-tit.mp3",
      "photo": "media/birds/grey-tit-flycatcher.jpg",
-     "bytes": 358157,
+     "bytes": 157248,
      "f": 1
     },
     {
@@ -2754,7 +2754,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-livingstones.mp3",
      "photo": "",
-     "bytes": 413444
+     "bytes": 181440
     },
     {
      "id": "flycatcher-marico",
@@ -2762,7 +2762,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-marico.mp3",
      "photo": "media/birds/marico-flycatcher.jpg",
-     "bytes": 428073,
+     "bytes": 187992,
      "f": 1
     },
     {
@@ -2771,7 +2771,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-southern-black.mp3",
      "photo": "media/birds/southern-black-flycatcher.jpg",
-     "bytes": 407593,
+     "bytes": 178920,
      "f": 1
     },
     {
@@ -2780,7 +2780,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/flycatcher-white-tailed-crested.mp3",
      "photo": "",
-     "bytes": 431416
+     "bytes": 189252
     },
     {
      "id": "francolin-grey-winged",
@@ -2788,7 +2788,7 @@ window.AGA_DATA = {
      "group": "Francolin",
      "call": "media/calls/francolin-grey-winged.mp3",
      "photo": "",
-     "bytes": 397144
+     "bytes": 174384
     },
     {
      "id": "francolin-hartlaubs",
@@ -2796,7 +2796,7 @@ window.AGA_DATA = {
      "group": "Francolin",
      "call": "media/calls/francolin-hartlaubs.mp3",
      "photo": "",
-     "bytes": 441029
+     "bytes": 193536
     },
     {
      "id": "francolin-natal",
@@ -2804,7 +2804,7 @@ window.AGA_DATA = {
      "group": "Francolin",
      "call": "media/calls/francolin-natal.mp3",
      "photo": "",
-     "bytes": 477810
+     "bytes": 209664
     },
     {
      "id": "francolin-orange-river",
@@ -2812,7 +2812,7 @@ window.AGA_DATA = {
      "group": "Francolin",
      "call": "media/calls/francolin-orange-river.mp3",
      "photo": "",
-     "bytes": 492438
+     "bytes": 215964
     },
     {
      "id": "francolin-red-necked",
@@ -2820,7 +2820,7 @@ window.AGA_DATA = {
      "group": "Francolin",
      "call": "media/calls/francolin-red-necked.mp3",
      "photo": "",
-     "bytes": 426819
+     "bytes": 187236
     },
     {
      "id": "francolin-red-winged",
@@ -2828,7 +2828,7 @@ window.AGA_DATA = {
      "group": "Francolin",
      "call": "media/calls/francolin-red-winged.mp3",
      "photo": "",
-     "bytes": 437151
+     "bytes": 191772
     },
     {
      "id": "francolin-shelleys",
@@ -2836,7 +2836,7 @@ window.AGA_DATA = {
      "group": "Francolin",
      "call": "media/calls/francolin-shelleys.mp3",
      "photo": "",
-     "bytes": 460674
+     "bytes": 202104
     },
     {
      "id": "francolin-swainsons",
@@ -2844,7 +2844,7 @@ window.AGA_DATA = {
      "group": "Francolin",
      "call": "media/calls/francolin-swainsons.mp3",
      "photo": "",
-     "bytes": 424311
+     "bytes": 186228
     },
     {
      "id": "gallinule-allens",
@@ -2852,7 +2852,7 @@ window.AGA_DATA = {
      "group": "Gallinule",
      "call": "media/calls/gallinule-allens.mp3",
      "photo": "media/birds/allens-gallinule.jpg",
-     "bytes": 486587,
+     "bytes": 213444,
      "f": 1
     },
     {
@@ -2861,7 +2861,7 @@ window.AGA_DATA = {
      "group": "Gallinule",
      "call": "media/calls/gallinule-purple.mp3",
      "photo": "",
-     "bytes": 492892
+     "bytes": 216216
     },
     {
      "id": "goshawk-african",
@@ -2869,7 +2869,7 @@ window.AGA_DATA = {
      "group": "Goshawk",
      "call": "media/calls/goshawk-african.mp3",
      "photo": "",
-     "bytes": 368723
+     "bytes": 161784
     },
     {
      "id": "goshawk-gabar",
@@ -2877,7 +2877,7 @@ window.AGA_DATA = {
      "group": "Goshawk",
      "call": "media/calls/goshawk-gabar.mp3",
      "photo": "media/birds/gabar-goshawk.jpg",
-     "bytes": 442701,
+     "bytes": 194292,
      "f": 1
     },
     {
@@ -2886,7 +2886,7 @@ window.AGA_DATA = {
      "group": "Grassbird",
      "call": "media/calls/grassbird-cape.mp3",
      "photo": "",
-     "bytes": 454822
+     "bytes": 199584
     },
     {
      "id": "grassbird-fan-tailed",
@@ -2894,7 +2894,7 @@ window.AGA_DATA = {
      "group": "Grassbird",
      "call": "media/calls/grassbird-fan-tailed.mp3",
      "photo": "",
-     "bytes": 432670
+     "bytes": 190008
     },
     {
      "id": "greenbul-sombre",
@@ -2902,7 +2902,7 @@ window.AGA_DATA = {
      "group": "Greenbul",
      "call": "media/calls/greenbul-sombre.mp3",
      "photo": "",
-     "bytes": 589823
+     "bytes": 258552
     },
     {
      "id": "greenbul-stripe-cheeked",
@@ -2910,7 +2910,7 @@ window.AGA_DATA = {
      "group": "Greenbul",
      "call": "media/calls/greenbul-stripe-cheeked.mp3",
      "photo": "",
-     "bytes": 450225
+     "bytes": 197568
     },
     {
      "id": "greenbul-tiny",
@@ -2918,7 +2918,7 @@ window.AGA_DATA = {
      "group": "Greenbul",
      "call": "media/calls/greenbul-tiny.mp3",
      "photo": "",
-     "bytes": 401741
+     "bytes": 176400
     },
     {
      "id": "greenbul-yellow-bellied",
@@ -2926,7 +2926,7 @@ window.AGA_DATA = {
      "group": "Greenbul",
      "call": "media/calls/greenbul-yellow-bellied.mp3",
      "photo": "",
-     "bytes": 511247
+     "bytes": 224280
     },
     {
      "id": "greenbul-yellow-streaked",
@@ -2934,7 +2934,7 @@ window.AGA_DATA = {
      "group": "Greenbul",
      "call": "media/calls/greenbul-yellow-streaked.mp3",
      "photo": "",
-     "bytes": 456076
+     "bytes": 200088
     },
     {
      "id": "hawk-cuckoo",
@@ -2942,7 +2942,7 @@ window.AGA_DATA = {
      "group": "Hawk",
      "call": "media/calls/hawk-cuckoo.mp3",
      "photo": "",
-     "bytes": 478259
+     "bytes": 209916
     },
     {
      "id": "helmetshrike-chestnut-fronted",
@@ -2950,7 +2950,7 @@ window.AGA_DATA = {
      "group": "Helmetshrike",
      "call": "media/calls/helmetshrike-chestnut-fronted.mp3",
      "photo": "",
-     "bytes": 397144
+     "bytes": 174384
     },
     {
      "id": "helmetshrike-retzs",
@@ -2958,7 +2958,7 @@ window.AGA_DATA = {
      "group": "Helmetshrike",
      "call": "media/calls/helmetshrike-retzs.mp3",
      "photo": "media/birds/retzs-helmet-shrike.jpg",
-     "bytes": 498290,
+     "bytes": 218484,
      "f": 1
     },
     {
@@ -2967,7 +2967,7 @@ window.AGA_DATA = {
      "group": "Helmetshrike",
      "call": "media/calls/helmetshrike-white-crested.mp3",
      "photo": "",
-     "bytes": 460674
+     "bytes": 202104
     },
     {
      "id": "honeybird-brown-backed",
@@ -2975,7 +2975,7 @@ window.AGA_DATA = {
      "group": "Honeybird",
      "call": "media/calls/honeybird-brown-backed.mp3",
      "photo": "",
-     "bytes": 344481
+     "bytes": 151200
     },
     {
      "id": "honeybird-green-backed",
@@ -2983,7 +2983,7 @@ window.AGA_DATA = {
      "group": "Honeybird",
      "call": "media/calls/honeybird-green-backed.mp3",
      "photo": "",
-     "bytes": 373738
+     "bytes": 164052
     },
     {
      "id": "honeyguide-eastern",
@@ -2991,7 +2991,7 @@ window.AGA_DATA = {
      "group": "Honeyguide",
      "call": "media/calls/honeyguide-eastern.mp3",
      "photo": "",
-     "bytes": 439776
+     "bytes": 193032
     },
     {
      "id": "honeyguide-greater",
@@ -2999,7 +2999,7 @@ window.AGA_DATA = {
      "group": "Honeyguide",
      "call": "media/calls/honeyguide-greater.mp3",
      "photo": "",
-     "bytes": 481989
+     "bytes": 211428
     },
     {
      "id": "honeyguide-lesser",
@@ -3007,7 +3007,7 @@ window.AGA_DATA = {
      "group": "Honeyguide",
      "call": "media/calls/honeyguide-lesser.mp3",
      "photo": "",
-     "bytes": 428909
+     "bytes": 188244
     },
     {
      "id": "honeyguide-scaly-throated",
@@ -3015,7 +3015,7 @@ window.AGA_DATA = {
      "group": "Honeyguide",
      "call": "media/calls/honeyguide-scaly-throated.mp3",
      "photo": "",
-     "bytes": 443537
+     "bytes": 194544
     },
     {
      "id": "hornbill-bradfields",
@@ -3023,7 +3023,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "call": "media/calls/hornbill-bradfields.mp3",
      "photo": "",
-     "bytes": 357438
+     "bytes": 156996
     },
     {
      "id": "hornbill-crowned",
@@ -3031,7 +3031,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "call": "media/calls/hornbill-crowned.mp3",
      "photo": "",
-     "bytes": 433088
+     "bytes": 190008
     },
     {
      "id": "hornbill-grey",
@@ -3039,7 +3039,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "call": "media/calls/hornbill-grey.mp3",
      "photo": "",
-     "bytes": 405954
+     "bytes": 178164
     },
     {
      "id": "hornbill-monteiros",
@@ -3047,7 +3047,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "call": "media/calls/hornbill-monteiros.mp3",
      "photo": "",
-     "bytes": 524203
+     "bytes": 229824
     },
     {
      "id": "hornbill-red-billed",
@@ -3055,7 +3055,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "call": "media/calls/hornbill-red-billed.mp3",
      "photo": "",
-     "bytes": 385859
+     "bytes": 169344
     },
     {
      "id": "hornbill-silvery-cheeked",
@@ -3063,7 +3063,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "call": "media/calls/hornbill-silvery-cheeked.mp3",
      "photo": "",
-     "bytes": 415534
+     "bytes": 182448
     },
     {
      "id": "hornbill-trumpeter",
@@ -3071,7 +3071,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "call": "media/calls/hornbill-trumpeter.mp3",
      "photo": "",
-     "bytes": 422221
+     "bytes": 185220
     },
     {
      "id": "hyliota-southern",
@@ -3079,7 +3079,7 @@ window.AGA_DATA = {
      "group": "Hyliota",
      "call": "media/calls/hyliota-southern.mp3",
      "photo": "",
-     "bytes": 418460
+     "bytes": 183708
     },
     {
      "id": "hyliota-yellow-bellied",
@@ -3087,7 +3087,7 @@ window.AGA_DATA = {
      "group": "Hyliota",
      "call": "media/calls/hyliota-yellow-bellied.mp3",
      "photo": "",
-     "bytes": 362453
+     "bytes": 159264
     },
     {
      "id": "indigobird-dusky",
@@ -3095,7 +3095,7 @@ window.AGA_DATA = {
      "group": "Indigobird",
      "call": "media/calls/indigobird-dusky.mp3",
      "photo": "",
-     "bytes": 455689
+     "bytes": 199836
     },
     {
      "id": "indigobird-purple",
@@ -3103,7 +3103,7 @@ window.AGA_DATA = {
      "group": "Indigobird",
      "call": "media/calls/indigobird-purple.mp3",
      "photo": "",
-     "bytes": 392546
+     "bytes": 172368
     },
     {
      "id": "indigobird-village",
@@ -3111,7 +3111,7 @@ window.AGA_DATA = {
      "group": "Indigobird",
      "call": "media/calls/indigobird-village.mp3",
      "photo": "",
-     "bytes": 438522
+     "bytes": 192528
     },
     {
      "id": "kingfisher-brown-hooded",
@@ -3119,7 +3119,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "call": "media/calls/kingfisher-brown-hooded.mp3",
      "photo": "",
-     "bytes": 288892
+     "bytes": 127008
     },
     {
      "id": "kingfisher-grey-headed",
@@ -3127,7 +3127,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "call": "media/calls/kingfisher-grey-headed.mp3",
      "photo": "media/birds/grey-headed-kingfisher.jpg",
-     "bytes": 277189,
+     "bytes": 121968,
      "f": 1
     },
     {
@@ -3136,7 +3136,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "call": "media/calls/kingfisher-mangrove.mp3",
      "photo": "",
-     "bytes": 443119
+     "bytes": 194544
     },
     {
      "id": "kingfisher-striped",
@@ -3144,7 +3144,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "call": "media/calls/kingfisher-striped.mp3",
      "photo": "",
-     "bytes": 512083
+     "bytes": 224532
     },
     {
      "id": "kingfisher-woodland",
@@ -3152,7 +3152,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "call": "media/calls/kingfisher-woodland.mp3",
      "photo": "",
-     "bytes": 562656
+     "bytes": 246708
     },
     {
      "id": "lark-bothas",
@@ -3160,7 +3160,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-bothas.mp3",
      "photo": "",
-     "bytes": 402577
+     "bytes": 176652
     },
     {
      "id": "lark-dune",
@@ -3168,7 +3168,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-dune.mp3",
      "photo": "",
-     "bytes": 448135
+     "bytes": 196560
     },
     {
      "id": "lark-dusky",
@@ -3176,7 +3176,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-dusky.mp3",
      "photo": "media/birds/dusky-lark.jpg",
-     "bytes": 436014,
+     "bytes": 191268,
      "f": 1
     },
     {
@@ -3185,7 +3185,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-eastern-clapper.mp3",
      "photo": "",
-     "bytes": 498290
+     "bytes": 218484
     },
     {
      "id": "lark-fawn-coloured",
@@ -3193,7 +3193,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-fawn-coloured.mp3",
      "photo": "media/birds/fawn-coloured-lark.jpg",
-     "bytes": 394636,
+     "bytes": 173124,
      "f": 1
     },
     {
@@ -3202,7 +3202,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-fawncoloured-2.mp3",
      "photo": "",
-     "bytes": 456076
+     "bytes": 200088
     },
     {
      "id": "lark-karoo-long-billed",
@@ -3210,7 +3210,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-karoo-long-billed.mp3",
      "photo": "",
-     "bytes": 454287
+     "bytes": 199332
     },
     {
      "id": "lark-karoo",
@@ -3218,7 +3218,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-karoo.mp3",
      "photo": "",
-     "bytes": 443420
+     "bytes": 194544
     },
     {
      "id": "lark-large-billed",
@@ -3226,7 +3226,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-large-billed.mp3",
      "photo": "",
-     "bytes": 423893
+     "bytes": 185976
     },
     {
      "id": "lark-melodious",
@@ -3234,7 +3234,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-melodious.mp3",
      "photo": "",
-     "bytes": 558476
+     "bytes": 244944
     },
     {
      "id": "lark-monotonous",
@@ -3242,7 +3242,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-monotonous.mp3",
      "photo": "media/birds/monotonous-lark.jpg",
-     "bytes": 434342,
+     "bytes": 190512,
      "f": 1
     },
     {
@@ -3251,7 +3251,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-pink-billed.mp3",
      "photo": "",
-     "bytes": 357020
+     "bytes": 156744
     },
     {
      "id": "lark-red-capped",
@@ -3259,7 +3259,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-red-capped.mp3",
      "photo": "",
-     "bytes": 437686
+     "bytes": 192024
     },
     {
      "id": "lark-red",
@@ -3267,7 +3267,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-red.mp3",
      "photo": "",
-     "bytes": 447182
+     "bytes": 196056
     },
     {
      "id": "lark-rudds",
@@ -3275,7 +3275,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-rudds.mp3",
      "photo": "",
-     "bytes": 477810
+     "bytes": 209664
     },
     {
      "id": "lark-rufous-naped",
@@ -3283,7 +3283,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-rufous-naped.mp3",
      "photo": "",
-     "bytes": 547492
+     "bytes": 239904
     },
     {
      "id": "lark-sabota",
@@ -3291,7 +3291,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-sabota.mp3",
      "photo": "",
-     "bytes": 409265
+     "bytes": 179676
     },
     {
      "id": "lark-sclaters",
@@ -3299,7 +3299,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-sclaters.mp3",
      "photo": "",
-     "bytes": 451779
+     "bytes": 198072
     },
     {
      "id": "lark-short-clawed",
@@ -3307,7 +3307,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-short-clawed.mp3",
      "photo": "",
-     "bytes": 402577
+     "bytes": 176652
     },
     {
      "id": "lark-spike-heeled",
@@ -3315,7 +3315,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-spike-heeled.mp3",
      "photo": "",
-     "bytes": 444373
+     "bytes": 195048
     },
     {
      "id": "lark-starks",
@@ -3323,7 +3323,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/lark-starks.mp3",
      "photo": "",
-     "bytes": 456912
+     "bytes": 200592
     },
     {
      "id": "longclaw-fulleborns",
@@ -3331,7 +3331,7 @@ window.AGA_DATA = {
      "group": "Longclaw",
      "call": "media/calls/longclaw-fulleborns.mp3",
      "photo": "",
-     "bytes": 414280
+     "bytes": 181944
     },
     {
      "id": "longclaw-orange-throated",
@@ -3339,7 +3339,7 @@ window.AGA_DATA = {
      "group": "Longclaw",
      "call": "media/calls/longclaw-orange-throated.mp3",
      "photo": "",
-     "bytes": 443119
+     "bytes": 194544
     },
     {
      "id": "longclaw-rosy-throated",
@@ -3347,7 +3347,7 @@ window.AGA_DATA = {
      "group": "Longclaw",
      "call": "media/calls/longclaw-rosy-throated.mp3",
      "photo": "",
-     "bytes": 425147
+     "bytes": 186480
     },
     {
      "id": "longclaw-yellow-throated",
@@ -3355,7 +3355,7 @@ window.AGA_DATA = {
      "group": "Longclaw",
      "call": "media/calls/longclaw-yellow-throated.mp3",
      "photo": "",
-     "bytes": 415952
+     "bytes": 182448
     },
     {
      "id": "lovebird-black-cheeked",
@@ -3363,7 +3363,7 @@ window.AGA_DATA = {
      "group": "Lovebird",
      "call": "media/calls/lovebird-black-cheeked.mp3",
      "photo": "",
-     "bytes": 510411
+     "bytes": 223776
     },
     {
      "id": "malkoha-green",
@@ -3371,7 +3371,7 @@ window.AGA_DATA = {
      "group": "Malkoha",
      "call": "media/calls/malkoha-green.mp3",
      "photo": "",
-     "bytes": 402159
+     "bytes": 176652
     },
     {
      "id": "mannikin-magpie",
@@ -3379,7 +3379,7 @@ window.AGA_DATA = {
      "group": "Mannikin",
      "call": "media/calls/mannikin-magpie.mp3",
      "photo": "",
-     "bytes": 411772
+     "bytes": 180684
     },
     {
      "id": "mannikin-red-backed",
@@ -3387,7 +3387,7 @@ window.AGA_DATA = {
      "group": "Mannikin",
      "call": "media/calls/mannikin-red-backed.mp3",
      "photo": "",
-     "bytes": 403413
+     "bytes": 177156
     },
     {
      "id": "moorhen-lesser",
@@ -3395,7 +3395,7 @@ window.AGA_DATA = {
      "group": "Moorhen",
      "call": "media/calls/moorhen-lesser.mp3",
      "photo": "",
-     "bytes": 456076
+     "bytes": 200088
     },
     {
      "id": "neddicky",
@@ -3403,7 +3403,7 @@ window.AGA_DATA = {
      "group": "Neddicky",
      "call": "media/calls/neddicky.mp3",
      "photo": "",
-     "bytes": 433924
+     "bytes": 190512
     },
     {
      "id": "nicator-eastern",
@@ -3411,7 +3411,7 @@ window.AGA_DATA = {
      "group": "Nicator",
      "call": "media/calls/nicator-eastern.mp3",
      "photo": "",
-     "bytes": 501634
+     "bytes": 219996
     },
     {
      "id": "nightingale-thrush",
@@ -3419,7 +3419,7 @@ window.AGA_DATA = {
      "group": "Nightingale",
      "call": "media/calls/nightingale-thrush.mp3",
      "photo": "",
-     "bytes": 443119
+     "bytes": 194544
     },
     {
      "id": "nightjar-fiery-necked",
@@ -3427,7 +3427,7 @@ window.AGA_DATA = {
      "group": "Nightjar",
      "call": "media/calls/nightjar-fiery-necked.mp3",
      "photo": "",
-     "bytes": 476556
+     "bytes": 209160
     },
     {
      "id": "nightjar-freckled",
@@ -3435,7 +3435,7 @@ window.AGA_DATA = {
      "group": "Nightjar",
      "call": "media/calls/nightjar-freckled.mp3",
      "photo": "",
-     "bytes": 424729
+     "bytes": 186480
     },
     {
      "id": "nightjar-natal",
@@ -3443,7 +3443,7 @@ window.AGA_DATA = {
      "group": "Nightjar",
      "call": "media/calls/nightjar-natal.mp3",
      "photo": "",
-     "bytes": 377944
+     "bytes": 165816
     },
     {
      "id": "nightjar-pennant-winged",
@@ -3451,7 +3451,7 @@ window.AGA_DATA = {
      "group": "Nightjar",
      "call": "media/calls/nightjar-pennant-winged.mp3",
      "photo": "media/birds/pennant-winged-nightjar.jpg",
-     "bytes": 456076,
+     "bytes": 200088,
      "f": 1
     },
     {
@@ -3460,7 +3460,7 @@ window.AGA_DATA = {
      "group": "Nightjar",
      "call": "media/calls/nightjar-rufous-cheeked.mp3",
      "photo": "",
-     "bytes": 501216
+     "bytes": 219996
     },
     {
      "id": "nightjar-square-tailed",
@@ -3468,7 +3468,7 @@ window.AGA_DATA = {
      "group": "Nightjar",
      "call": "media/calls/nightjar-square-tailed.mp3",
      "photo": "",
-     "bytes": 393382
+     "bytes": 172620
     },
     {
      "id": "oriole-african-golden",
@@ -3476,7 +3476,7 @@ window.AGA_DATA = {
      "group": "Oriole",
      "call": "media/calls/oriole-african-golden.mp3",
      "photo": "",
-     "bytes": 590241
+     "bytes": 258804
     },
     {
      "id": "oriole-black-headed",
@@ -3484,7 +3484,7 @@ window.AGA_DATA = {
      "group": "Oriole",
      "call": "media/calls/oriole-black-headed.mp3",
      "photo": "",
-     "bytes": 546812
+     "bytes": 239904
     },
     {
      "id": "oriole-eurasian-golden",
@@ -3492,7 +3492,7 @@ window.AGA_DATA = {
      "group": "Oriole",
      "call": "media/calls/oriole-eurasian-golden.mp3",
      "photo": "",
-     "bytes": 383769
+     "bytes": 168588
     },
     {
      "id": "oriole-green-headed",
@@ -3500,7 +3500,7 @@ window.AGA_DATA = {
      "group": "Oriole",
      "call": "media/calls/oriole-green-headed.mp3",
      "photo": "",
-     "bytes": 436014
+     "bytes": 191268
     },
     {
      "id": "owl-african-scops",
@@ -3508,7 +3508,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "call": "media/calls/owl-african-scops.mp3",
      "photo": "media/birds/african-scops-owl.jpg",
-     "bytes": 403413,
+     "bytes": 177156,
      "f": 1
     },
     {
@@ -3517,7 +3517,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "call": "media/calls/owl-african-wood.mp3",
      "photo": "",
-     "bytes": 349078
+     "bytes": 153216
     },
     {
      "id": "owl-barn",
@@ -3525,7 +3525,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "call": "media/calls/owl-barn.mp3",
      "photo": "",
-     "bytes": 429745
+     "bytes": 188496
     },
     {
      "id": "owl-cape-eagle",
@@ -3533,7 +3533,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "call": "media/calls/owl-cape-eagle.mp3",
      "photo": "",
-     "bytes": 429745
+     "bytes": 188496
     },
     {
      "id": "owl-grass",
@@ -3541,7 +3541,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "call": "media/calls/owl-grass.mp3",
      "photo": "",
-     "bytes": 247543
+     "bytes": 108864
     },
     {
      "id": "owl-marsh",
@@ -3549,7 +3549,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "call": "media/calls/owl-marsh.mp3",
      "photo": "",
-     "bytes": 364572
+     "bytes": 160020
     },
     {
      "id": "owl-pels-fishing",
@@ -3557,7 +3557,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "call": "media/calls/owl-pels-fishing.mp3",
      "photo": "media/birds/pels-fishing-owl.jpg",
-     "bytes": 468615,
+     "bytes": 205632,
      "f": 1
     },
     {
@@ -3566,7 +3566,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "call": "media/calls/owl-southern-white-faced.mp3",
      "photo": "media/birds/southern-white-faced-owl.jpg",
-     "bytes": 446881,
+     "bytes": 196056,
      "f": 1
     },
     {
@@ -3575,7 +3575,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "call": "media/calls/owl-spotted-eagle.mp3",
      "photo": "",
-     "bytes": 515844
+     "bytes": 226296
     },
     {
      "id": "owl-verreauxs-eagle",
@@ -3583,7 +3583,7 @@ window.AGA_DATA = {
      "group": "Owl",
      "call": "media/calls/owl-verreauxs-eagle.mp3",
      "photo": "",
-     "bytes": 445209
+     "bytes": 195300
     },
     {
      "id": "owlet-african-barred",
@@ -3591,7 +3591,7 @@ window.AGA_DATA = {
      "group": "Owlet",
      "call": "media/calls/owlet-african-barred.mp3",
      "photo": "media/birds/african-barred-owlet.jpg",
-     "bytes": 440612,
+     "bytes": 193284,
      "f": 1
     },
     {
@@ -3600,7 +3600,7 @@ window.AGA_DATA = {
      "group": "Owlet",
      "call": "media/calls/owlet-pearl-spotted.mp3",
      "photo": "",
-     "bytes": 464435
+     "bytes": 203868
     },
     {
      "id": "painted-snipe-greater",
@@ -3608,7 +3608,7 @@ window.AGA_DATA = {
      "group": "Painted-snipe",
      "call": "media/calls/painted-snipe-greater.mp3",
      "photo": "",
-     "bytes": 535906
+     "bytes": 235116
     },
     {
      "id": "palm-thrush-collared",
@@ -3616,7 +3616,7 @@ window.AGA_DATA = {
      "group": "Palm-Thrush",
      "call": "media/calls/palm-thrush-collared.mp3",
      "photo": "media/birds/collared-palm-thrush.jpg",
-     "bytes": 436014,
+     "bytes": 191268,
      "f": 1
     },
     {
@@ -3625,7 +3625,7 @@ window.AGA_DATA = {
      "group": "Palm-Thrush",
      "call": "media/calls/palm-thrush-rufous-tailed.mp3",
      "photo": "",
-     "bytes": 423893
+     "bytes": 185976
     },
     {
      "id": "parrot-brown-headed",
@@ -3633,7 +3633,7 @@ window.AGA_DATA = {
      "group": "Parrot",
      "call": "media/calls/parrot-brown-headed.mp3",
      "photo": "",
-     "bytes": 455658
+     "bytes": 199836
     },
     {
      "id": "parrot-cape",
@@ -3641,7 +3641,7 @@ window.AGA_DATA = {
      "group": "Parrot",
      "call": "media/calls/parrot-cape.mp3",
      "photo": "",
-     "bytes": 329016
+     "bytes": 144648
     },
     {
      "id": "parrot-ruppells",
@@ -3649,7 +3649,7 @@ window.AGA_DATA = {
      "group": "Parrot",
      "call": "media/calls/parrot-ruppells.mp3",
      "photo": "",
-     "bytes": 394218
+     "bytes": 173124
     },
     {
      "id": "petronia-yellow-throated",
@@ -3657,7 +3657,7 @@ window.AGA_DATA = {
      "group": "Petronia",
      "call": "media/calls/petronia-yellow-throated.mp3",
      "photo": "media/birds/yellow-throated-petronia.jpg",
-     "bytes": 462763,
+     "bytes": 203112,
      "f": 1
     },
     {
@@ -3666,7 +3666,7 @@ window.AGA_DATA = {
      "group": "Pigeon",
      "call": "media/calls/pigeon-african-green.mp3",
      "photo": "media/birds/african-green-pigeon.jpg",
-     "bytes": 385859,
+     "bytes": 169344,
      "f": 1
     },
     {
@@ -3675,7 +3675,7 @@ window.AGA_DATA = {
      "group": "Pigeon",
      "call": "media/calls/pigeon-eastern-bronze-naped.mp3",
      "photo": "",
-     "bytes": 341137
+     "bytes": 149940
     },
     {
      "id": "pipit-african-rock",
@@ -3683,7 +3683,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/pipit-african-rock.mp3",
      "photo": "",
-     "bytes": 442584
+     "bytes": 194040
     },
     {
      "id": "pipit-buffy",
@@ -3691,7 +3691,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/pipit-buffy.mp3",
      "photo": "",
-     "bytes": 408429
+     "bytes": 179172
     },
     {
      "id": "pipit-bushveld",
@@ -3699,7 +3699,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/pipit-bushveld.mp3",
      "photo": "",
-     "bytes": 397562
+     "bytes": 174636
     },
     {
      "id": "pipit-golden",
@@ -3707,7 +3707,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/pipit-golden.mp3",
      "photo": "",
-     "bytes": 437268
+     "bytes": 192024
     },
     {
      "id": "pipit-long-billed",
@@ -3715,7 +3715,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/pipit-long-billed.mp3",
      "photo": "",
-     "bytes": 443537
+     "bytes": 194544
     },
     {
      "id": "pipit-mountain",
@@ -3723,7 +3723,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/pipit-mountain.mp3",
      "photo": "",
-     "bytes": 398816
+     "bytes": 175140
     },
     {
      "id": "pipit-plain-backed",
@@ -3731,7 +3731,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/pipit-plain-backed.mp3",
      "photo": "",
-     "bytes": 436014
+     "bytes": 191268
     },
     {
      "id": "pipit-short-tailed",
@@ -3739,7 +3739,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/pipit-short-tailed.mp3",
      "photo": "",
-     "bytes": 432670
+     "bytes": 190008
     },
     {
      "id": "pipit-striped",
@@ -3747,7 +3747,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/pipit-striped.mp3",
      "photo": "",
-     "bytes": 464017
+     "bytes": 203616
     },
     {
      "id": "pipit-tree",
@@ -3755,7 +3755,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/pipit-tree.mp3",
      "photo": "",
-     "bytes": 393800
+     "bytes": 172872
     },
     {
      "id": "pipit-wood",
@@ -3763,7 +3763,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/pipit-wood.mp3",
      "photo": "",
-     "bytes": 430580
+     "bytes": 189000
     },
     {
      "id": "pipit-yellow-breasted",
@@ -3771,7 +3771,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/pipit-yellow-breasted.mp3",
      "photo": "",
-     "bytes": 439358
+     "bytes": 192780
     },
     {
      "id": "pitta-african",
@@ -3779,7 +3779,7 @@ window.AGA_DATA = {
      "group": "Pitta",
      "call": "media/calls/pitta-african.mp3",
      "photo": "",
-     "bytes": 552207
+     "bytes": 242172
     },
     {
      "id": "prinia-black-chested",
@@ -3787,7 +3787,7 @@ window.AGA_DATA = {
      "group": "Prinia",
      "call": "media/calls/prinia-black-chested.mp3",
      "photo": "",
-     "bytes": 442283
+     "bytes": 194040
     },
     {
      "id": "prinia-drakensberg",
@@ -3795,7 +3795,7 @@ window.AGA_DATA = {
      "group": "Prinia",
      "call": "media/calls/prinia-drakensberg.mp3",
      "photo": "",
-     "bytes": 428073
+     "bytes": 187992
     },
     {
      "id": "prinia-karoo",
@@ -3803,7 +3803,7 @@ window.AGA_DATA = {
      "group": "Prinia",
      "call": "media/calls/prinia-karoo.mp3",
      "photo": "",
-     "bytes": 440194
+     "bytes": 193284
     },
     {
      "id": "prinia-tawny-flanked",
@@ -3811,7 +3811,7 @@ window.AGA_DATA = {
      "group": "Prinia",
      "call": "media/calls/prinia-tawny-flanked.mp3",
      "photo": "",
-     "bytes": 442283
+     "bytes": 194040
     },
     {
      "id": "puffback-black-backed",
@@ -3819,7 +3819,7 @@ window.AGA_DATA = {
      "group": "Puffback",
      "call": "media/calls/puffback-black-backed.mp3",
      "photo": "",
-     "bytes": 543429
+     "bytes": 238392
     },
     {
      "id": "pytilia-green-winged",
@@ -3827,7 +3827,7 @@ window.AGA_DATA = {
      "group": "Pytilia",
      "call": "media/calls/pytilia-green-winged.mp3",
      "photo": "media/birds/green-winged-pytilia.jpg",
-     "bytes": 457330,
+     "bytes": 200592,
      "f": 1
     },
     {
@@ -3836,7 +3836,7 @@ window.AGA_DATA = {
      "group": "Pytilia",
      "call": "media/calls/pytilia-orange-winged.mp3",
      "photo": "",
-     "bytes": 452732
+     "bytes": 198576
     },
     {
      "id": "quailfinch-african",
@@ -3844,7 +3844,7 @@ window.AGA_DATA = {
      "group": "Quailfinch",
      "call": "media/calls/quailfinch-african.mp3",
      "photo": "",
-     "bytes": 450643
+     "bytes": 197820
     },
     {
      "id": "rail-african",
@@ -3852,7 +3852,7 @@ window.AGA_DATA = {
      "group": "Rail",
      "call": "media/calls/rail-african.mp3",
      "photo": "",
-     "bytes": 440077
+     "bytes": 193032
     },
     {
      "id": "robin-swynnertons",
@@ -3860,7 +3860,7 @@ window.AGA_DATA = {
      "group": "Robin",
      "call": "media/calls/robin-swynnertons.mp3",
      "photo": "",
-     "bytes": 385023
+     "bytes": 169092
     },
     {
      "id": "robin-white-starred",
@@ -3868,7 +3868,7 @@ window.AGA_DATA = {
      "group": "Robin",
      "call": "media/calls/robin-white-starred.mp3",
      "photo": "",
-     "bytes": 441748
+     "bytes": 193788
     },
     {
      "id": "robin-chat-cape",
@@ -3876,7 +3876,7 @@ window.AGA_DATA = {
      "group": "Robin-Chat",
      "call": "media/calls/robin-chat-cape.mp3",
      "photo": "",
-     "bytes": 474048
+     "bytes": 207900
     },
     {
      "id": "robin-chat-chorister",
@@ -3884,7 +3884,7 @@ window.AGA_DATA = {
      "group": "Robin-Chat",
      "call": "media/calls/robin-chat-chorister.mp3",
      "photo": "",
-     "bytes": 552508
+     "bytes": 242172
     },
     {
      "id": "robin-chat-red-capped",
@@ -3892,7 +3892,7 @@ window.AGA_DATA = {
      "group": "Robin-Chat",
      "call": "media/calls/robin-chat-red-capped.mp3",
      "photo": "",
-     "bytes": 769545
+     "bytes": 337176
     },
     {
      "id": "robin-chat-white-browed",
@@ -3900,7 +3900,7 @@ window.AGA_DATA = {
      "group": "Robin-Chat",
      "call": "media/calls/robin-chat-white-browed.mp3",
      "photo": "media/birds/white-browed-robin-chat.jpg",
-     "bytes": 524086,
+     "bytes": 229824,
      "f": 1
     },
     {
@@ -3909,7 +3909,7 @@ window.AGA_DATA = {
      "group": "Robin-Chat",
      "call": "media/calls/robin-chat-white-throated.mp3",
      "photo": "",
-     "bytes": 405921
+     "bytes": 178164
     },
     {
      "id": "rockjumper-cape",
@@ -3917,7 +3917,7 @@ window.AGA_DATA = {
      "group": "Rockjumper",
      "call": "media/calls/rockjumper-cape.mp3",
      "photo": "",
-     "bytes": 436432
+     "bytes": 191520
     },
     {
      "id": "rockjumper-drakensberg",
@@ -3925,7 +3925,7 @@ window.AGA_DATA = {
      "group": "Rockjumper",
      "call": "media/calls/rockjumper-drakensberg.mp3",
      "photo": "",
-     "bytes": 359109
+     "bytes": 157752
     },
     {
      "id": "rockrunner",
@@ -3933,7 +3933,7 @@ window.AGA_DATA = {
      "group": "Rockrunner",
      "call": "media/calls/rockrunner.mp3",
      "photo": "",
-     "bytes": 431717
+     "bytes": 189252
     },
     {
      "id": "roller-broad-billed",
@@ -3941,7 +3941,7 @@ window.AGA_DATA = {
      "group": "Roller",
      "call": "media/calls/roller-broad-billed.mp3",
      "photo": "media/birds/broad-billed-roller.jpg",
-     "bytes": 441865,
+     "bytes": 193788,
      "f": 1
     },
     {
@@ -3950,7 +3950,7 @@ window.AGA_DATA = {
      "group": "Roller",
      "call": "media/calls/roller-racket-tailed.mp3",
      "photo": "media/birds/racket-tailed-roller.jpg",
-     "bytes": 518352,
+     "bytes": 227304,
      "f": 1
     },
     {
@@ -3959,7 +3959,7 @@ window.AGA_DATA = {
      "group": "Scimitarbill",
      "call": "media/calls/scimitarbill-common.mp3",
      "photo": "",
-     "bytes": 463599
+     "bytes": 203364
     },
     {
      "id": "scrub-robin-brown",
@@ -3967,7 +3967,7 @@ window.AGA_DATA = {
      "group": "Scrub-Robin",
      "call": "media/calls/scrub-robin-brown.mp3",
      "photo": "",
-     "bytes": 464017
+     "bytes": 203616
     },
     {
      "id": "scrub-robin-eastern-bearded",
@@ -3975,7 +3975,7 @@ window.AGA_DATA = {
      "group": "Scrub-Robin",
      "call": "media/calls/scrub-robin-eastern-bearded.mp3",
      "photo": "media/birds/eastern-bearded-scrub-robin.jpg",
-     "bytes": 428073,
+     "bytes": 187992,
      "f": 1
     },
     {
@@ -3984,7 +3984,7 @@ window.AGA_DATA = {
      "group": "Scrub-Robin",
      "call": "media/calls/scrub-robin-kalahari.mp3",
      "photo": "media/birds/kalahari-scrub-robin.jpg",
-     "bytes": 496200,
+     "bytes": 217728,
      "f": 1
     },
     {
@@ -3993,7 +3993,7 @@ window.AGA_DATA = {
      "group": "Scrub-Robin",
      "call": "media/calls/scrub-robin-white-browed.mp3",
      "photo": "",
-     "bytes": 483277
+     "bytes": 211932
     },
     {
      "id": "seedcracker-lesser",
@@ -4001,7 +4001,7 @@ window.AGA_DATA = {
      "group": "Seedcracker",
      "call": "media/calls/seedcracker-lesser.mp3",
      "photo": "",
-     "bytes": 361199
+     "bytes": 158508
     },
     {
      "id": "shikra",
@@ -4009,7 +4009,7 @@ window.AGA_DATA = {
      "group": "Shikra",
      "call": "media/calls/shikra.mp3",
      "photo": "",
-     "bytes": 453568
+     "bytes": 199080
     },
     {
      "id": "shrike-crimson-breasted",
@@ -4017,7 +4017,7 @@ window.AGA_DATA = {
      "group": "Shrike",
      "call": "media/calls/shrike-crimson-breasted.mp3",
      "photo": "",
-     "bytes": 372066
+     "bytes": 163296
     },
     {
      "id": "shrike-magpie",
@@ -4025,7 +4025,7 @@ window.AGA_DATA = {
      "group": "Shrike",
      "call": "media/calls/shrike-magpie.mp3",
      "photo": "",
-     "bytes": 423893
+     "bytes": 185976
     },
     {
      "id": "shrike-sousas",
@@ -4033,7 +4033,7 @@ window.AGA_DATA = {
      "group": "Shrike",
      "call": "media/calls/shrike-sousas.mp3",
      "photo": "",
-     "bytes": 399652
+     "bytes": 175392
     },
     {
      "id": "shrike-southern-white-crowned",
@@ -4041,7 +4041,7 @@ window.AGA_DATA = {
      "group": "Shrike",
      "call": "media/calls/shrike-southern-white-crowned.mp3",
      "photo": "",
-     "bytes": 425983
+     "bytes": 186984
     },
     {
      "id": "shrike-white-tailed",
@@ -4049,7 +4049,7 @@ window.AGA_DATA = {
      "group": "Shrike",
      "call": "media/calls/shrike-white-tailed.mp3",
      "photo": "",
-     "bytes": 440612
+     "bytes": 193284
     },
     {
      "id": "siskin-cape",
@@ -4057,7 +4057,7 @@ window.AGA_DATA = {
      "group": "Siskin",
      "call": "media/calls/siskin-cape.mp3",
      "photo": "",
-     "bytes": 457330
+     "bytes": 200592
     },
     {
      "id": "siskin-drakensberg",
@@ -4065,7 +4065,7 @@ window.AGA_DATA = {
      "group": "Siskin",
      "call": "media/calls/siskin-drakensberg.mp3",
      "photo": "",
-     "bytes": 448971
+     "bytes": 197064
     },
     {
      "id": "snake-eagle-southern-banded",
@@ -4073,7 +4073,7 @@ window.AGA_DATA = {
      "group": "Snake-Eagle",
      "call": "media/calls/snake-eagle-southern-banded.mp3",
      "photo": "",
-     "bytes": 439358
+     "bytes": 192780
     },
     {
      "id": "snake-eagle-western-banded",
@@ -4081,7 +4081,7 @@ window.AGA_DATA = {
      "group": "Snake-Eagle",
      "call": "media/calls/snake-eagle-western-banded.mp3",
      "photo": "",
-     "bytes": 388785
+     "bytes": 170604
     },
     {
      "id": "sparrow-great",
@@ -4089,7 +4089,7 @@ window.AGA_DATA = {
      "group": "Sparrow",
      "call": "media/calls/sparrow-great.mp3",
      "photo": "",
-     "bytes": 415534
+     "bytes": 182448
     },
     {
      "id": "sparrow-weaver-white-browed",
@@ -4097,7 +4097,7 @@ window.AGA_DATA = {
      "group": "Sparrow-Weaver",
      "call": "media/calls/sparrow-weaver-white-browed.mp3",
      "photo": "",
-     "bytes": 423893
+     "bytes": 185976
     },
     {
      "id": "sparrowhawk-black",
@@ -4105,7 +4105,7 @@ window.AGA_DATA = {
      "group": "Sparrowhawk",
      "call": "media/calls/sparrowhawk-black.mp3",
      "photo": "",
-     "bytes": 413862
+     "bytes": 181692
     },
     {
      "id": "sparrowhawk-little",
@@ -4113,7 +4113,7 @@ window.AGA_DATA = {
      "group": "Sparrowhawk",
      "call": "media/calls/sparrowhawk-little.mp3",
      "photo": "",
-     "bytes": 426401
+     "bytes": 187236
     },
     {
      "id": "sparrowhawk-ovambo",
@@ -4121,7 +4121,7 @@ window.AGA_DATA = {
      "group": "Sparrowhawk",
      "call": "media/calls/sparrowhawk-ovambo.mp3",
      "photo": "",
-     "bytes": 334868
+     "bytes": 147168
     },
     {
      "id": "sparrowhawk-red-breasted",
@@ -4129,7 +4129,7 @@ window.AGA_DATA = {
      "group": "Sparrowhawk",
      "call": "media/calls/sparrowhawk-red-breasted.mp3",
      "photo": "",
-     "bytes": 440194
+     "bytes": 193284
     },
     {
      "id": "starling-black-bellied",
@@ -4137,7 +4137,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/starling-black-bellied.mp3",
      "photo": "",
-     "bytes": 443537
+     "bytes": 194544
     },
     {
      "id": "starling-burchells",
@@ -4145,7 +4145,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/starling-burchells.mp3",
      "photo": "media/birds/burchells-starling.jpg",
-     "bytes": 381679,
+     "bytes": 167580,
      "f": 1
     },
     {
@@ -4154,7 +4154,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/starling-greater-blue-eared.mp3",
      "photo": "media/birds/greater-blue-eared-starling.jpg",
-     "bytes": 421385,
+     "bytes": 184968,
      "f": 1
     },
     {
@@ -4163,7 +4163,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/starling-lesser-blue-eared.mp3",
      "photo": "",
-     "bytes": 451896
+     "bytes": 198324
     },
     {
      "id": "starling-mevess",
@@ -4171,7 +4171,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/starling-mevess.mp3",
      "photo": "media/birds/mevess-starling.jpg",
-     "bytes": 442283,
+     "bytes": 194040,
      "f": 1
     },
     {
@@ -4180,7 +4180,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/starling-pale-winged.mp3",
      "photo": "",
-     "bytes": 425983
+     "bytes": 186984
     },
     {
      "id": "starling-sharp-tailed",
@@ -4188,7 +4188,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/starling-sharp-tailed.mp3",
      "photo": "",
-     "bytes": 429745
+     "bytes": 188496
     },
     {
      "id": "starling-violet-backed",
@@ -4196,7 +4196,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/starling-violet-backed.mp3",
      "photo": "media/birds/violet-backed-starling.jpg",
-     "bytes": 454822,
+     "bytes": 199584,
      "f": 1
     },
     {
@@ -4205,7 +4205,7 @@ window.AGA_DATA = {
      "group": "Sugarbird",
      "call": "media/calls/sugarbird-gurneys.mp3",
      "photo": "",
-     "bytes": 415116
+     "bytes": 182196
     },
     {
      "id": "sunbird-collared",
@@ -4213,7 +4213,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-collared.mp3",
      "photo": "",
-     "bytes": 603198
+     "bytes": 264600
     },
     {
      "id": "sunbird-copper",
@@ -4221,7 +4221,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-copper.mp3",
      "photo": "",
-     "bytes": 413026
+     "bytes": 181188
     },
     {
      "id": "sunbird-dusky",
@@ -4229,7 +4229,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-dusky.mp3",
      "photo": "",
-     "bytes": 469033
+     "bytes": 205884
     },
     {
      "id": "sunbird-greater-double-collared",
@@ -4237,7 +4237,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-greater-double-collared.mp3",
      "photo": "",
-     "bytes": 381679
+     "bytes": 167580
     },
     {
      "id": "sunbird-grey",
@@ -4245,7 +4245,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-grey.mp3",
      "photo": "",
-     "bytes": 437686
+     "bytes": 192024
     },
     {
      "id": "sunbird-marico",
@@ -4253,7 +4253,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-marico.mp3",
      "photo": "",
-     "bytes": 433924
+     "bytes": 190512
     },
     {
      "id": "sunbird-miombo-double-collared",
@@ -4261,7 +4261,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-miombo-double-collared.mp3",
      "photo": "",
-     "bytes": 422639
+     "bytes": 185472
     },
     {
      "id": "sunbird-neergaards",
@@ -4269,7 +4269,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-neergaards.mp3",
      "photo": "",
-     "bytes": 416788
+     "bytes": 182952
     },
     {
      "id": "sunbird-olive",
@@ -4277,7 +4277,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-olive.mp3",
      "photo": "",
-     "bytes": 437686
+     "bytes": 192024
     },
     {
      "id": "sunbird-plain-backed",
@@ -4285,7 +4285,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-plain-backed.mp3",
      "photo": "",
-     "bytes": 482407
+     "bytes": 211680
     },
     {
      "id": "sunbird-purple-banded",
@@ -4293,7 +4293,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-purple-banded.mp3",
      "photo": "media/birds/purple-banded-sunbird.jpg",
-     "bytes": 443119,
+     "bytes": 194544,
      "f": 1
     },
     {
@@ -4302,7 +4302,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-shelleys.mp3",
      "photo": "",
-     "bytes": 406339
+     "bytes": 178416
     },
     {
      "id": "sunbird-southern-double-collared",
@@ -4310,7 +4310,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-southern-double-collared.mp3",
      "photo": "",
-     "bytes": 433924
+     "bytes": 190512
     },
     {
      "id": "sunbird-variable",
@@ -4318,7 +4318,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-variable.mp3",
      "photo": "",
-     "bytes": 428073
+     "bytes": 187992
     },
     {
      "id": "sunbird-western-violet-backed",
@@ -4326,7 +4326,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-western-violet-backed.mp3",
      "photo": "",
-     "bytes": 410518
+     "bytes": 180180
     },
     {
      "id": "sunbird-white-bellied",
@@ -4334,7 +4334,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/sunbird-white-bellied.mp3",
      "photo": "",
-     "bytes": 459838
+     "bytes": 201852
     },
     {
      "id": "tchagra-anchietas",
@@ -4342,7 +4342,7 @@ window.AGA_DATA = {
      "group": "Tchagra",
      "call": "media/calls/tchagra-anchietas.mp3",
      "photo": "",
-     "bytes": 421385
+     "bytes": 184968
     },
     {
      "id": "tchagra-black-crowned",
@@ -4350,7 +4350,7 @@ window.AGA_DATA = {
      "group": "Tchagra",
      "call": "media/calls/tchagra-black-crowned.mp3",
      "photo": "",
-     "bytes": 443119
+     "bytes": 194544
     },
     {
      "id": "tchagra-brown-crowned",
@@ -4358,7 +4358,7 @@ window.AGA_DATA = {
      "group": "Tchagra",
      "call": "media/calls/tchagra-brown-crowned.mp3",
      "photo": "",
-     "bytes": 424311
+     "bytes": 186228
     },
     {
      "id": "tchagra-southern",
@@ -4366,7 +4366,7 @@ window.AGA_DATA = {
      "group": "Tchagra",
      "call": "media/calls/tchagra-southern.mp3",
      "photo": "",
-     "bytes": 451060
+     "bytes": 197820
     },
     {
      "id": "thick-knee-spotted",
@@ -4374,7 +4374,7 @@ window.AGA_DATA = {
      "group": "Thick-knee",
      "call": "media/calls/thick-knee-spotted.mp3",
      "photo": "",
-     "bytes": 495364
+     "bytes": 217224
     },
     {
      "id": "thick-knee-water",
@@ -4382,7 +4382,7 @@ window.AGA_DATA = {
      "group": "Thick-knee",
      "call": "media/calls/thick-knee-water.mp3",
      "photo": "",
-     "bytes": 417624
+     "bytes": 183204
     },
     {
      "id": "thrush-cape-rock",
@@ -4390,7 +4390,7 @@ window.AGA_DATA = {
      "group": "Thrush",
      "call": "media/calls/thrush-cape-rock.mp3",
      "photo": "",
-     "bytes": 419296
+     "bytes": 183960
     },
     {
      "id": "thrush-groundscraper",
@@ -4398,7 +4398,7 @@ window.AGA_DATA = {
      "group": "Thrush",
      "call": "media/calls/thrush-groundscraper.mp3",
      "photo": "",
-     "bytes": 380843
+     "bytes": 167328
     },
     {
      "id": "thrush-kurrichane",
@@ -4406,7 +4406,7 @@ window.AGA_DATA = {
      "group": "Thrush",
      "call": "media/calls/thrush-kurrichane.mp3",
      "photo": "",
-     "bytes": 527965
+     "bytes": 231588
     },
     {
      "id": "thrush-miombo-rock",
@@ -4414,7 +4414,7 @@ window.AGA_DATA = {
      "group": "Thrush",
      "call": "media/calls/thrush-miombo-rock.mp3",
      "photo": "",
-     "bytes": 397980
+     "bytes": 174636
     },
     {
      "id": "thrush-olive",
@@ -4422,7 +4422,7 @@ window.AGA_DATA = {
      "group": "Thrush",
      "call": "media/calls/thrush-olive.mp3",
      "photo": "",
-     "bytes": 499544
+     "bytes": 219240
     },
     {
      "id": "thrush-orange-ground",
@@ -4430,7 +4430,7 @@ window.AGA_DATA = {
      "group": "Thrush",
      "call": "media/calls/thrush-orange-ground.mp3",
      "photo": "",
-     "bytes": 534234
+     "bytes": 234360
     },
     {
      "id": "thrush-sentinel-rock",
@@ -4438,7 +4438,7 @@ window.AGA_DATA = {
      "group": "Thrush",
      "call": "media/calls/thrush-sentinel-rock.mp3",
      "photo": "",
-     "bytes": 395472
+     "bytes": 173628
     },
     {
      "id": "thrush-short-toed-rock",
@@ -4446,7 +4446,7 @@ window.AGA_DATA = {
      "group": "Thrush",
      "call": "media/calls/thrush-short-toed-rock.mp3",
      "photo": "",
-     "bytes": 391710
+     "bytes": 171864
     },
     {
      "id": "thrush-spotted-ground",
@@ -4454,7 +4454,7 @@ window.AGA_DATA = {
      "group": "Thrush",
      "call": "media/calls/thrush-spotted-ground.mp3",
      "photo": "",
-     "bytes": 435596
+     "bytes": 191268
     },
     {
      "id": "tinkerbird-green",
@@ -4462,7 +4462,7 @@ window.AGA_DATA = {
      "group": "Tinkerbird",
      "call": "media/calls/tinkerbird-green.mp3",
      "photo": "",
-     "bytes": 450643
+     "bytes": 197820
     },
     {
      "id": "tinkerbird-red-fronted",
@@ -4470,7 +4470,7 @@ window.AGA_DATA = {
      "group": "Tinkerbird",
      "call": "media/calls/tinkerbird-red-fronted.mp3",
      "photo": "",
-     "bytes": 589405
+     "bytes": 258552
     },
     {
      "id": "tit-ashy",
@@ -4478,7 +4478,7 @@ window.AGA_DATA = {
      "group": "Tit",
      "call": "media/calls/tit-ashy.mp3",
      "photo": "",
-     "bytes": 413862
+     "bytes": 181692
     },
     {
      "id": "tit-cape-penduline",
@@ -4486,7 +4486,7 @@ window.AGA_DATA = {
      "group": "Tit",
      "call": "media/calls/tit-cape-penduline.mp3",
      "photo": "",
-     "bytes": 424311
+     "bytes": 186228
     },
     {
      "id": "tit-carps-black",
@@ -4494,7 +4494,7 @@ window.AGA_DATA = {
      "group": "Tit",
      "call": "media/calls/tit-carps-black.mp3",
      "photo": "",
-     "bytes": 369558
+     "bytes": 162288
     },
     {
      "id": "tit-grey-penduline",
@@ -4502,7 +4502,7 @@ window.AGA_DATA = {
      "group": "Tit",
      "call": "media/calls/tit-grey-penduline.mp3",
      "photo": "media/birds/grey-penduline-tit.jpg",
-     "bytes": 341555,
+     "bytes": 149940,
      "f": 1
     },
     {
@@ -4511,7 +4511,7 @@ window.AGA_DATA = {
      "group": "Tit",
      "call": "media/calls/tit-grey.mp3",
      "photo": "",
-     "bytes": 370394
+     "bytes": 162540
     },
     {
      "id": "tit-miombo",
@@ -4519,7 +4519,7 @@ window.AGA_DATA = {
      "group": "Tit",
      "call": "media/calls/tit-miombo.mp3",
      "photo": "",
-     "bytes": 366215
+     "bytes": 160776
     },
     {
      "id": "tit-rufous-bellied",
@@ -4527,7 +4527,7 @@ window.AGA_DATA = {
      "group": "Tit",
      "call": "media/calls/tit-rufous-bellied.mp3",
      "photo": "",
-     "bytes": 297669
+     "bytes": 130788
     },
     {
      "id": "tit-southern-black",
@@ -4535,7 +4535,7 @@ window.AGA_DATA = {
      "group": "Tit",
      "call": "media/calls/tit-southern-black.mp3",
      "photo": "",
-     "bytes": 428491
+     "bytes": 187992
     },
     {
      "id": "tit-babbler-chestnut-vented",
@@ -4543,7 +4543,7 @@ window.AGA_DATA = {
      "group": "Tit-babbler",
      "call": "media/calls/tit-babbler-chestnut-vented.mp3",
      "photo": "",
-     "bytes": 451060
+     "bytes": 197820
     },
     {
      "id": "tit-babbler-layards",
@@ -4551,7 +4551,7 @@ window.AGA_DATA = {
      "group": "Tit-babbler",
      "call": "media/calls/tit-babbler-layards.mp3",
      "photo": "",
-     "bytes": 417624
+     "bytes": 183204
     },
     {
      "id": "trogon-narina",
@@ -4559,7 +4559,7 @@ window.AGA_DATA = {
      "group": "Trogon",
      "call": "media/calls/trogon-narina.mp3",
      "photo": "",
-     "bytes": 494528
+     "bytes": 216972
     },
     {
      "id": "turaco-knysna",
@@ -4567,7 +4567,7 @@ window.AGA_DATA = {
      "group": "Turaco",
      "call": "media/calls/turaco-knysna.mp3",
      "photo": "",
-     "bytes": 549699
+     "bytes": 241164
     },
     {
      "id": "turaco-livingstones",
@@ -4575,7 +4575,7 @@ window.AGA_DATA = {
      "group": "Turaco",
      "call": "media/calls/turaco-livingstones.mp3",
      "photo": "",
-     "bytes": 442701
+     "bytes": 194292
     },
     {
      "id": "turaco-purple-crested",
@@ -4583,7 +4583,7 @@ window.AGA_DATA = {
      "group": "Turaco",
      "call": "media/calls/turaco-purple-crested.mp3",
      "photo": "",
-     "bytes": 507485
+     "bytes": 222516
     },
     {
      "id": "turaco-rosss",
@@ -4591,7 +4591,7 @@ window.AGA_DATA = {
      "group": "Turaco",
      "call": "media/calls/turaco-rosss.mp3",
      "photo": "",
-     "bytes": 430998
+     "bytes": 189252
     },
     {
      "id": "turaco-shalows",
@@ -4599,7 +4599,7 @@ window.AGA_DATA = {
      "group": "Turaco",
      "call": "media/calls/turaco-shalows.mp3",
      "photo": "",
-     "bytes": 423893
+     "bytes": 185976
     },
     {
      "id": "twinspot-green",
@@ -4607,7 +4607,7 @@ window.AGA_DATA = {
      "group": "Twinspot",
      "call": "media/calls/twinspot-green.mp3",
      "photo": "",
-     "bytes": 436432
+     "bytes": 191520
     },
     {
      "id": "twinspot-pink-throated",
@@ -4615,7 +4615,7 @@ window.AGA_DATA = {
      "group": "Twinspot",
      "call": "media/calls/twinspot-pink-throated.mp3",
      "photo": "",
-     "bytes": 412190
+     "bytes": 180936
     },
     {
      "id": "twinspot-red-throated",
@@ -4623,7 +4623,7 @@ window.AGA_DATA = {
      "group": "Twinspot",
      "call": "media/calls/twinspot-red-throated.mp3",
      "photo": "",
-     "bytes": 426401
+     "bytes": 187236
     },
     {
      "id": "wagtail-mountain",
@@ -4631,7 +4631,7 @@ window.AGA_DATA = {
      "group": "Wagtail",
      "call": "media/calls/wagtail-mountain.mp3",
      "photo": "",
-     "bytes": 402159
+     "bytes": 176652
     },
     {
      "id": "warbler-african-reed",
@@ -4639,7 +4639,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-african-reed.mp3",
      "photo": "",
-     "bytes": 414698
+     "bytes": 181944
     },
     {
      "id": "warbler-barratts",
@@ -4647,7 +4647,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-barratts.mp3",
      "photo": "",
-     "bytes": 504559
+     "bytes": 221256
     },
     {
      "id": "warbler-barred-wren",
@@ -4655,7 +4655,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-barred-wren.mp3",
      "photo": "",
-     "bytes": 451478
+     "bytes": 198072
     },
     {
      "id": "warbler-basra-reed",
@@ -4663,7 +4663,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-basra-reed.mp3",
      "photo": "",
-     "bytes": 433506
+     "bytes": 190260
     },
     {
      "id": "warbler-cinnamon-reed",
@@ -4671,7 +4671,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-cinnamon-reed.mp3",
      "photo": "",
-     "bytes": 349496
+     "bytes": 153468
     },
     {
      "id": "warbler-cinnamon-breasted",
@@ -4679,7 +4679,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-cinnamon-breasted.mp3",
      "photo": "",
-     "bytes": 440495
+     "bytes": 193284
     },
     {
      "id": "warbler-eurasian-reed",
@@ -4687,7 +4687,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-eurasian-reed.mp3",
      "photo": "",
-     "bytes": 421385
+     "bytes": 184968
     },
     {
      "id": "warbler-fairy",
@@ -4695,7 +4695,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-fairy.mp3",
      "photo": "",
-     "bytes": 428491
+     "bytes": 187992
     },
     {
      "id": "warbler-garden",
@@ -4703,7 +4703,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-garden.mp3",
      "photo": "",
-     "bytes": 415952
+     "bytes": 182448
     },
     {
      "id": "warbler-great-reed",
@@ -4711,7 +4711,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-great-reed.mp3",
      "photo": "",
-     "bytes": 427655
+     "bytes": 187740
     },
     {
      "id": "warbler-greater-swamp",
@@ -4719,7 +4719,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-greater-swamp.mp3",
      "photo": "",
-     "bytes": 471540
+     "bytes": 206892
     },
     {
      "id": "warbler-icterine",
@@ -4727,7 +4727,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-icterine.mp3",
      "photo": "",
-     "bytes": 425983
+     "bytes": 186984
     },
     {
      "id": "warbler-knysna",
@@ -4735,7 +4735,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-knysna.mp3",
      "photo": "",
-     "bytes": 425448
+     "bytes": 186480
     },
     {
      "id": "warbler-lesser-swamp",
@@ -4743,7 +4743,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-lesser-swamp.mp3",
      "photo": "",
-     "bytes": 411772
+     "bytes": 180684
     },
     {
      "id": "warbler-little-rush",
@@ -4751,7 +4751,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-little-rush.mp3",
      "photo": "",
-     "bytes": 419296
+     "bytes": 183960
     },
     {
      "id": "warbler-marsh",
@@ -4759,7 +4759,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-marsh.mp3",
      "photo": "",
-     "bytes": 428909
+     "bytes": 188244
     },
     {
      "id": "warbler-moustached-grass",
@@ -4767,7 +4767,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-moustached-grass.mp3",
      "photo": "",
-     "bytes": 434342
+     "bytes": 190512
     },
     {
      "id": "warbler-namaqua",
@@ -4775,7 +4775,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-namaqua.mp3",
      "photo": "",
-     "bytes": 442283
+     "bytes": 194040
     },
     {
      "id": "warbler-olive-tree",
@@ -4783,7 +4783,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-olive-tree.mp3",
      "photo": "",
-     "bytes": 423893
+     "bytes": 185976
     },
     {
      "id": "warbler-red-winged",
@@ -4791,7 +4791,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-red-winged.mp3",
      "photo": "",
-     "bytes": 424729
+     "bytes": 186480
     },
     {
      "id": "warbler-river",
@@ -4799,7 +4799,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-river.mp3",
      "photo": "",
-     "bytes": 469869
+     "bytes": 206136
     },
     {
      "id": "warbler-roberts",
@@ -4807,7 +4807,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-roberts.mp3",
      "photo": "",
-     "bytes": 423057
+     "bytes": 185724
     },
     {
      "id": "warbler-rufous-eared",
@@ -4815,7 +4815,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-rufous-eared.mp3",
      "photo": "",
-     "bytes": 366633
+     "bytes": 161028
     },
     {
      "id": "warbler-sedge",
@@ -4823,7 +4823,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-sedge.mp3",
      "photo": "",
-     "bytes": 435178
+     "bytes": 191016
     },
     {
      "id": "warbler-stierlings-wren",
@@ -4831,7 +4831,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-stierlings-wren.mp3",
      "photo": "",
-     "bytes": 364961
+     "bytes": 160272
     },
     {
      "id": "warbler-victorins",
@@ -4839,7 +4839,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-victorins.mp3",
      "photo": "",
-     "bytes": 389504
+     "bytes": 170856
     },
     {
      "id": "warbler-willow",
@@ -4847,7 +4847,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-willow.mp3",
      "photo": "",
-     "bytes": 422639
+     "bytes": 185472
     },
     {
      "id": "warbler-yellow-throated-woodland",
@@ -4855,7 +4855,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-yellow-throated-woodland.mp3",
      "photo": "",
-     "bytes": 397562
+     "bytes": 174636
     },
     {
      "id": "warbler-yellow",
@@ -4863,7 +4863,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/warbler-yellow.mp3",
      "photo": "",
-     "bytes": 419330
+     "bytes": 183960
     },
     {
      "id": "wattle-eye-black-throated",
@@ -4871,7 +4871,7 @@ window.AGA_DATA = {
      "group": "Wattle-eye",
      "call": "media/calls/wattle-eye-black-throated.mp3",
      "photo": "",
-     "bytes": 436014
+     "bytes": 191268
     },
     {
      "id": "waxbill-black-faced",
@@ -4879,7 +4879,7 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "call": "media/calls/waxbill-black-faced.mp3",
      "photo": "media/birds/black-faced-waxbill.jpg",
-     "bytes": 441447,
+     "bytes": 193788,
      "f": 1
     },
     {
@@ -4888,7 +4888,7 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "call": "media/calls/waxbill-cinderella.mp3",
      "photo": "",
-     "bytes": 424311
+     "bytes": 186228
     },
     {
      "id": "waxbill-grey",
@@ -4896,7 +4896,7 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "call": "media/calls/waxbill-grey.mp3",
      "photo": "",
-     "bytes": 406339
+     "bytes": 178416
     },
     {
      "id": "waxbill-orange-breasted",
@@ -4904,7 +4904,7 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "call": "media/calls/waxbill-orange-breasted.mp3",
      "photo": "",
-     "bytes": 446070
+     "bytes": 195804
     },
     {
      "id": "waxbill-swee",
@@ -4912,7 +4912,7 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "call": "media/calls/waxbill-swee.mp3",
      "photo": "",
-     "bytes": 438522
+     "bytes": 192528
     },
     {
      "id": "waxbill-violet-eared",
@@ -4920,7 +4920,7 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "call": "media/calls/waxbill-violet-eared.mp3",
      "photo": "media/birds/violet-eared-waxbill.jpg",
-     "bytes": 395890,
+     "bytes": 173880,
      "f": 1
     },
     {
@@ -4929,7 +4929,7 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "call": "media/calls/waxbill-yellow-bellied.mp3",
      "photo": "",
-     "bytes": 449807
+     "bytes": 197316
     },
     {
      "id": "weaver-dark-backed",
@@ -4937,7 +4937,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "call": "media/calls/weaver-dark-backed.mp3",
      "photo": "",
-     "bytes": 394636
+     "bytes": 173124
     },
     {
      "id": "weaver-golden",
@@ -4945,7 +4945,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "call": "media/calls/weaver-golden.mp3",
      "photo": "",
-     "bytes": 445660
+     "bytes": 195552
     },
     {
      "id": "weaver-red-billed-buffalo",
@@ -4953,7 +4953,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "call": "media/calls/weaver-red-billed-buffalo.mp3",
      "photo": "media/birds/red-billed-buffalo-weaver.jpg",
-     "bytes": 430998,
+     "bytes": 189252,
      "f": 1
     },
     {
@@ -4962,7 +4962,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "call": "media/calls/weaver-spectacled.mp3",
      "photo": "",
-     "bytes": 478228
+     "bytes": 209916
     },
     {
      "id": "wheatear-capped",
@@ -4970,7 +4970,7 @@ window.AGA_DATA = {
      "group": "Wheatear",
      "call": "media/calls/wheatear-capped.mp3",
      "photo": "",
-     "bytes": 498290
+     "bytes": 218484
     },
     {
      "id": "wheatear-mountain",
@@ -4978,7 +4978,7 @@ window.AGA_DATA = {
      "group": "Wheatear",
      "call": "media/calls/wheatear-mountain.mp3",
      "photo": "",
-     "bytes": 436850
+     "bytes": 191772
     },
     {
      "id": "white-eye-yellow",
@@ -4986,7 +4986,7 @@ window.AGA_DATA = {
      "group": "White-eye",
      "call": "media/calls/white-eye-yellow.mp3",
      "photo": "",
-     "bytes": 471994
+     "bytes": 207144
     },
     {
      "id": "whitethroat-greater",
@@ -4994,7 +4994,7 @@ window.AGA_DATA = {
      "group": "Whitethroat",
      "call": "media/calls/whitethroat-greater.mp3",
      "photo": "",
-     "bytes": 372902
+     "bytes": 163800
     },
     {
      "id": "whydah-broad-tailed-paradise",
@@ -5002,7 +5002,7 @@ window.AGA_DATA = {
      "group": "Whydah",
      "call": "media/calls/whydah-broad-tailed-paradise.mp3",
      "photo": "",
-     "bytes": 406339
+     "bytes": 178416
     },
     {
      "id": "wood-hoopoe-violet",
@@ -5010,7 +5010,7 @@ window.AGA_DATA = {
      "group": "Wood",
      "call": "media/calls/wood-hoopoe-violet.mp3",
      "photo": "",
-     "bytes": 462763
+     "bytes": 203112
     },
     {
      "id": "woodpecker-bearded",
@@ -5018,7 +5018,7 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-bearded.mp3",
      "photo": "",
-     "bytes": 330688
+     "bytes": 145152
     },
     {
      "id": "woodpecker-bennetts",
@@ -5026,7 +5026,7 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-bennetts.mp3",
      "photo": "",
-     "bytes": 326091
+     "bytes": 143136
     },
     {
      "id": "woodpecker-cardinal",
@@ -5034,7 +5034,7 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-cardinal.mp3",
      "photo": "",
-     "bytes": 355766
+     "bytes": 156240
     },
     {
      "id": "woodpecker-golden-tailed",
@@ -5042,7 +5042,7 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-golden-tailed.mp3",
      "photo": "",
-     "bytes": 440194
+     "bytes": 193284
     },
     {
      "id": "woodpecker-green-backed",
@@ -5050,7 +5050,7 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-green-backed.mp3",
      "photo": "",
-     "bytes": 349914
+     "bytes": 153720
     },
     {
      "id": "woodpecker-ground",
@@ -5058,7 +5058,7 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-ground.mp3",
      "photo": "",
-     "bytes": 430998
+     "bytes": 189252
     },
     {
      "id": "woodpecker-knysna",
@@ -5066,7 +5066,7 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-knysna.mp3",
      "photo": "",
-     "bytes": 242081
+     "bytes": 106596
     },
     {
      "id": "woodpecker-olive",
@@ -5074,7 +5074,7 @@ window.AGA_DATA = {
      "group": "Woodpecker",
      "call": "media/calls/woodpecker-olive.mp3",
      "photo": "",
-     "bytes": 380843
+     "bytes": 167328
     },
     {
      "id": "wryneck-red-throated",
@@ -5082,7 +5082,7 @@ window.AGA_DATA = {
      "group": "Wryneck",
      "call": "media/calls/wryneck-red-throated.mp3",
      "photo": "",
-     "bytes": 427655
+     "bytes": 187740
     },
     {
      "id": "b-abdims-stork",
@@ -5090,7 +5090,7 @@ window.AGA_DATA = {
      "group": "Stork",
      "call": "media/calls/b-abdims-stork.mp3",
      "photo": "",
-     "bytes": 163047
+     "bytes": 69552
     },
     {
      "id": "b-african-black-duck",
@@ -5098,7 +5098,7 @@ window.AGA_DATA = {
      "group": "Duck",
      "call": "media/calls/b-african-black-duck.mp3",
      "photo": "",
-     "bytes": 134626
+     "bytes": 57204
     },
     {
      "id": "b-african-black-oystercatcher",
@@ -5106,7 +5106,7 @@ window.AGA_DATA = {
      "group": "Oystercatcher",
      "call": "media/calls/b-african-black-oystercatcher.mp3",
      "photo": "",
-     "bytes": 146747
+     "bytes": 62496
     },
     {
      "id": "b-african-black-swift",
@@ -5114,7 +5114,7 @@ window.AGA_DATA = {
      "group": "Swift",
      "call": "media/calls/b-african-black-swift.mp3",
      "photo": "",
-     "bytes": 113728
+     "bytes": 48132
     },
     {
      "id": "b-african-dusky-flycatcher",
@@ -5122,7 +5122,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/b-african-dusky-flycatcher.mp3",
      "photo": "",
-     "bytes": 238280
+     "bytes": 102564
     },
     {
      "id": "b-african-harrier-hawk",
@@ -5130,7 +5130,7 @@ window.AGA_DATA = {
      "group": "Hawk",
      "call": "media/calls/b-african-harrier-hawk.mp3",
      "photo": "",
-     "bytes": 184781
+     "bytes": 79128
     },
     {
      "id": "b-african-hawk-eagle",
@@ -5138,7 +5138,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "call": "media/calls/b-african-hawk-eagle.mp3",
      "photo": "media/birds/african-hawk-eagle.jpg",
-     "bytes": 114564,
+     "bytes": 48384,
      "f": 1
     },
     {
@@ -5147,7 +5147,7 @@ window.AGA_DATA = {
      "group": "Hobby",
      "call": "media/calls/b-african-hobby.mp3",
      "photo": "",
-     "bytes": 175168
+     "bytes": 74844
     },
     {
      "id": "b-african-jacana",
@@ -5155,7 +5155,7 @@ window.AGA_DATA = {
      "group": "Jacana",
      "call": "media/calls/b-african-jacana.mp3",
      "photo": "",
-     "bytes": 179347
+     "bytes": 76608
     },
     {
      "id": "b-african-mourning-dove",
@@ -5163,7 +5163,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "call": "media/calls/b-african-mourning-dove.mp3",
      "photo": "media/birds/african-mourning-dove.jpg",
-     "bytes": 143403,
+     "bytes": 60984,
      "f": 1
     },
     {
@@ -5172,7 +5172,7 @@ window.AGA_DATA = {
      "group": "Wagtail",
      "call": "media/calls/b-african-pied-wagtail.mp3",
      "photo": "",
-     "bytes": 182619
+     "bytes": 75600
     },
     {
      "id": "b-african-sacred-ibis",
@@ -5180,7 +5180,7 @@ window.AGA_DATA = {
      "group": "Ibis",
      "call": "media/calls/b-african-sacred-ibis.mp3",
      "photo": "",
-     "bytes": 124177
+     "bytes": 52416
     },
     {
      "id": "b-african-wattled-lapwing",
@@ -5188,7 +5188,7 @@ window.AGA_DATA = {
      "group": "Lapwing",
      "call": "media/calls/b-african-wattled-lapwing.mp3",
      "photo": "",
-     "bytes": 148836
+     "bytes": 63252
     },
     {
      "id": "b-african-darter",
@@ -5196,7 +5196,7 @@ window.AGA_DATA = {
      "group": "Darter",
      "call": "media/calls/b-african-darter.mp3",
      "photo": "",
-     "bytes": 137970
+     "bytes": 58464
     },
     {
      "id": "b-african-finfoot",
@@ -5204,7 +5204,7 @@ window.AGA_DATA = {
      "group": "Finfoot",
      "call": "media/calls/b-african-finfoot.mp3",
      "photo": "",
-     "bytes": 101189
+     "bytes": 42588
     },
     {
      "id": "b-african-fish-eagle",
@@ -5212,7 +5212,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "call": "media/calls/b-african-fish-eagle.mp3",
      "photo": "",
-     "bytes": 86561
+     "bytes": 36036
     },
     {
      "id": "b-african-hoopoe",
@@ -5220,7 +5220,7 @@ window.AGA_DATA = {
      "group": "Hoopoe",
      "call": "media/calls/b-african-hoopoe.mp3",
      "photo": "",
-     "bytes": 89486
+     "bytes": 37296
     },
     {
      "id": "b-african-marsh-harrier",
@@ -5228,7 +5228,7 @@ window.AGA_DATA = {
      "group": "harrier",
      "call": "media/calls/b-african-marsh-harrier.mp3",
      "photo": "",
-     "bytes": 93248
+     "bytes": 39060
     },
     {
      "id": "b-african-olive-pigeon",
@@ -5236,7 +5236,7 @@ window.AGA_DATA = {
      "group": "pigeon",
      "call": "media/calls/b-african-olive-pigeon.mp3",
      "photo": "",
-     "bytes": 119161
+     "bytes": 50400
     },
     {
      "id": "b-african-openbill",
@@ -5244,7 +5244,7 @@ window.AGA_DATA = {
      "group": "Openbill",
      "call": "media/calls/b-african-openbill.mp3",
      "photo": "",
-     "bytes": 116654
+     "bytes": 49392
     },
     {
      "id": "b-african-palm-swift",
@@ -5252,7 +5252,7 @@ window.AGA_DATA = {
      "group": "Swift",
      "call": "media/calls/b-african-palm-swift.mp3",
      "photo": "",
-     "bytes": 74440
+     "bytes": 30744
     },
     {
      "id": "b-african-penguin",
@@ -5260,7 +5260,7 @@ window.AGA_DATA = {
      "group": "Penguin",
      "call": "media/calls/b-african-penguin.mp3",
      "photo": "",
-     "bytes": 132536
+     "bytes": 56196
     },
     {
      "id": "b-african-pipit",
@@ -5268,7 +5268,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/b-african-pipit.mp3",
      "photo": "",
-     "bytes": 145075
+     "bytes": 61740
     },
     {
      "id": "b-african-pygmy-goose",
@@ -5276,7 +5276,7 @@ window.AGA_DATA = {
      "group": "Goose",
      "call": "media/calls/b-african-pygmy-goose.mp3",
      "photo": "media/birds/african-pygmy-goose.jpg",
-     "bytes": 66498,
+     "bytes": 27468,
      "f": 1
     },
     {
@@ -5285,7 +5285,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "call": "media/calls/b-african-pygmy-kingfisher.mp3",
      "photo": "media/birds/african-pygmy-kingfisher.jpg",
-     "bytes": 58139,
+     "bytes": 23688,
      "f": 1
     },
     {
@@ -5294,7 +5294,7 @@ window.AGA_DATA = {
      "group": "Skimmer",
      "call": "media/calls/b-african-skimmer.mp3",
      "photo": "",
-     "bytes": 111220
+     "bytes": 46872
     },
     {
      "id": "b-african-snipe",
@@ -5302,7 +5302,7 @@ window.AGA_DATA = {
      "group": "Snipe",
      "call": "media/calls/b-african-snipe.mp3",
      "photo": "",
-     "bytes": 161793
+     "bytes": 69048
     },
     {
      "id": "b-african-spoonbill",
@@ -5310,7 +5310,7 @@ window.AGA_DATA = {
      "group": "Spoonbill",
      "call": "media/calls/b-african-spoonbill.mp3",
      "photo": "",
-     "bytes": 97355
+     "bytes": 38052
     },
     {
      "id": "b-african-stonechat",
@@ -5318,7 +5318,7 @@ window.AGA_DATA = {
      "group": "Stonechat",
      "call": "media/calls/b-african-stonechat.mp3",
      "photo": "",
-     "bytes": 163883
+     "bytes": 70056
     },
     {
      "id": "b-alpine-swift",
@@ -5326,7 +5326,7 @@ window.AGA_DATA = {
      "group": "Swift",
      "call": "media/calls/b-alpine-swift.mp3",
      "photo": "",
-     "bytes": 127938
+     "bytes": 54180
     },
     {
      "id": "b-american-purple-gallinule",
@@ -5334,7 +5334,7 @@ window.AGA_DATA = {
      "group": "Gallinule",
      "call": "media/calls/b-american-purple-gallinule.mp3",
      "photo": "",
-     "bytes": 387200
+     "bytes": 168840
     },
     {
      "id": "b-amethyst-sunbird",
@@ -5342,7 +5342,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/b-amethyst-sunbird.mp3",
      "photo": "",
-     "bytes": 175586
+     "bytes": 75096
     },
     {
      "id": "b-amur-falcon",
@@ -5350,7 +5350,7 @@ window.AGA_DATA = {
      "group": "Falcon",
      "call": "media/calls/b-amur-falcon.mp3",
      "photo": "",
-     "bytes": 93666
+     "bytes": 39312
     },
     {
      "id": "b-angola-swallow",
@@ -5358,7 +5358,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "call": "media/calls/b-angola-swallow.mp3",
      "photo": "",
-     "bytes": 75276
+     "bytes": 31248
     },
     {
      "id": "b-ant-eating-chat",
@@ -5366,7 +5366,7 @@ window.AGA_DATA = {
      "group": "Chat",
      "call": "media/calls/b-ant-eating-chat.mp3",
      "photo": "",
-     "bytes": 131282
+     "bytes": 55692
     },
     {
      "id": "b-arctic-tern",
@@ -5374,7 +5374,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-arctic-tern.mp3",
      "photo": "",
-     "bytes": 117072
+     "bytes": 49392
     },
     {
      "id": "b-augur-buzzard",
@@ -5382,7 +5382,7 @@ window.AGA_DATA = {
      "group": "Buzzard",
      "call": "media/calls/b-augur-buzzard.mp3",
      "photo": "",
-     "bytes": 119579
+     "bytes": 50652
     },
     {
      "id": "b-australian-gannet",
@@ -5390,7 +5390,7 @@ window.AGA_DATA = {
      "group": "Gannet",
      "call": "media/calls/b-australian-gannet.mp3",
      "photo": "",
-     "bytes": 436352
+     "bytes": 189756
     },
     {
      "id": "b-ayress-hawk-eagle",
@@ -5398,7 +5398,7 @@ window.AGA_DATA = {
      "group": "eagle",
      "call": "media/calls/b-ayress-hawk-eagle.mp3",
      "photo": "",
-     "bytes": 176840
+     "bytes": 75600
     },
     {
      "id": "b-bairds-sandpiper",
@@ -5406,7 +5406,7 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "call": "media/calls/b-bairds-sandpiper.mp3",
      "photo": "",
-     "bytes": 66081
+     "bytes": 26964
     },
     {
      "id": "b-banded-martin",
@@ -5414,7 +5414,7 @@ window.AGA_DATA = {
      "group": "Martin",
      "call": "media/calls/b-banded-martin.mp3",
      "photo": "",
-     "bytes": 155106
+     "bytes": 66024
     },
     {
      "id": "b-bank-cormorant",
@@ -5422,7 +5422,7 @@ window.AGA_DATA = {
      "group": "Cormorant",
      "call": "media/calls/b-bank-cormorant.mp3",
      "photo": "",
-     "bytes": 123759
+     "bytes": 52416
     },
     {
      "id": "b-bar-tailed-godwit",
@@ -5430,7 +5430,7 @@ window.AGA_DATA = {
      "group": "Godwit",
      "call": "media/calls/b-bar-tailed-godwit.mp3",
      "photo": "",
-     "bytes": 112056
+     "bytes": 47124
     },
     {
      "id": "b-barn-swallow",
@@ -5438,7 +5438,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "call": "media/calls/b-barn-swallow.mp3",
      "photo": "",
-     "bytes": 109966
+     "bytes": 46368
     },
     {
      "id": "b-bat-hawk",
@@ -5446,7 +5446,7 @@ window.AGA_DATA = {
      "group": "Hawk",
      "call": "media/calls/b-bat-hawk.mp3",
      "photo": "",
-     "bytes": 172660
+     "bytes": 73584
     },
     {
      "id": "b-bateleur",
@@ -5454,7 +5454,7 @@ window.AGA_DATA = {
      "group": "Bateleur",
      "call": "media/calls/b-bateleur.mp3",
      "photo": "",
-     "bytes": 199827
+     "bytes": 85680
     },
     {
      "id": "b-bearded-scrub-robin",
@@ -5462,7 +5462,7 @@ window.AGA_DATA = {
      "group": "robin",
      "call": "media/calls/b-bearded-scrub-robin.mp3",
      "photo": "",
-     "bytes": 168408
+     "bytes": 69300
     },
     {
      "id": "b-bearded-vulture",
@@ -5470,7 +5470,7 @@ window.AGA_DATA = {
      "group": "Vulture",
      "call": "media/calls/b-bearded-vulture.mp3",
      "photo": "",
-     "bytes": 106205
+     "bytes": 44856
     },
     {
      "id": "b-black-harrier",
@@ -5478,7 +5478,7 @@ window.AGA_DATA = {
      "group": "Harrier",
      "call": "media/calls/b-black-harrier.mp3",
      "photo": "",
-     "bytes": 145075
+     "bytes": 61740
     },
     {
      "id": "b-black-heron",
@@ -5486,7 +5486,7 @@ window.AGA_DATA = {
      "group": "Heron",
      "call": "media/calls/b-black-heron.mp3",
      "photo": "",
-     "bytes": 165137
+     "bytes": 70308
     },
     {
      "id": "b-black-kite",
@@ -5494,7 +5494,7 @@ window.AGA_DATA = {
      "group": "Kite",
      "call": "media/calls/b-black-kite.mp3",
      "photo": "",
-     "bytes": 173078
+     "bytes": 73836
     },
     {
      "id": "b-black-saw-wing",
@@ -5502,7 +5502,7 @@ window.AGA_DATA = {
      "group": "wing",
      "call": "media/calls/b-black-saw-wing.mp3",
      "photo": "",
-     "bytes": 133372
+     "bytes": 56700
     },
     {
      "id": "b-black-stork",
@@ -5510,7 +5510,7 @@ window.AGA_DATA = {
      "group": "Stork",
      "call": "media/calls/b-black-stork.mp3",
      "photo": "",
-     "bytes": 90322
+     "bytes": 37548
     },
     {
      "id": "b-black-tern",
@@ -5518,7 +5518,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-black-tern.mp3",
      "photo": "",
-     "bytes": 127521
+     "bytes": 53928
     },
     {
      "id": "b-black-and-white-flycatcher",
@@ -5526,7 +5526,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/b-black-and-white-flycatcher.mp3",
      "photo": "",
-     "bytes": 154270
+     "bytes": 65772
     },
     {
      "id": "b-black-bellied-bustard",
@@ -5534,7 +5534,7 @@ window.AGA_DATA = {
      "group": "Bustard",
      "call": "media/calls/b-black-bellied-bustard.mp3",
      "photo": "",
-     "bytes": 158032
+     "bytes": 67284
     },
     {
      "id": "b-black-bellied-storm-petrel",
@@ -5542,7 +5542,7 @@ window.AGA_DATA = {
      "group": "petrel",
      "call": "media/calls/b-black-bellied-storm-petrel.mp3",
      "photo": "",
-     "bytes": 103697
+     "bytes": 43596
     },
     {
      "id": "b-black-browed-albatross",
@@ -5550,7 +5550,7 @@ window.AGA_DATA = {
      "group": "Albatross",
      "call": "media/calls/b-black-browed-albatross.mp3",
      "photo": "",
-     "bytes": 403584
+     "bytes": 175644
     },
     {
      "id": "b-black-chested-snake-eagle",
@@ -5558,7 +5558,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "call": "media/calls/b-black-chested-snake-eagle.mp3",
      "photo": "",
-     "bytes": 160885
+     "bytes": 65772
     },
     {
      "id": "b-black-crowned-night-heron",
@@ -5566,7 +5566,7 @@ window.AGA_DATA = {
      "group": "heron",
      "call": "media/calls/b-black-crowned-night-heron.mp3",
      "photo": "",
-     "bytes": 129610
+     "bytes": 54936
     },
     {
      "id": "b-black-eared-sparrowlark",
@@ -5574,7 +5574,7 @@ window.AGA_DATA = {
      "group": "Sparrowlark",
      "call": "media/calls/b-black-eared-sparrowlark.mp3",
      "photo": "",
-     "bytes": 107041
+     "bytes": 45108
     },
     {
      "id": "b-black-headed-heron",
@@ -5582,7 +5582,7 @@ window.AGA_DATA = {
      "group": "Heron",
      "call": "media/calls/b-black-headed-heron.mp3",
      "photo": "",
-     "bytes": 155106
+     "bytes": 66024
     },
     {
      "id": "b-black-legged-kittiwake",
@@ -5590,7 +5590,7 @@ window.AGA_DATA = {
      "group": "Kittiwake",
      "call": "media/calls/b-black-legged-kittiwake.mp3",
      "photo": "",
-     "bytes": 96174
+     "bytes": 40320
     },
     {
      "id": "b-black-naped-tern",
@@ -5598,7 +5598,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-black-naped-tern.mp3",
      "photo": "",
-     "bytes": 142985
+     "bytes": 60732
     },
     {
      "id": "b-black-necked-grebe",
@@ -5606,7 +5606,7 @@ window.AGA_DATA = {
      "group": "Grebe",
      "call": "media/calls/b-black-necked-grebe.mp3",
      "photo": "",
-     "bytes": 53960
+     "bytes": 21924
     },
     {
      "id": "b-black-shouldered-kite",
@@ -5614,7 +5614,7 @@ window.AGA_DATA = {
      "group": "Kite",
      "call": "media/calls/b-black-shouldered-kite.mp3",
      "photo": "",
-     "bytes": 106205
+     "bytes": 44856
     },
     {
      "id": "b-black-tailed-godwit",
@@ -5622,7 +5622,7 @@ window.AGA_DATA = {
      "group": "Godwit",
      "call": "media/calls/b-black-tailed-godwit.mp3",
      "photo": "",
-     "bytes": 113728
+     "bytes": 48132
     },
     {
      "id": "b-black-winged-bishop",
@@ -5630,7 +5630,7 @@ window.AGA_DATA = {
      "group": "Bishop",
      "call": "media/calls/b-black-winged-bishop.mp3",
      "photo": "",
-     "bytes": 122923
+     "bytes": 52164
     },
     {
      "id": "b-black-winged-lapwing",
@@ -5638,7 +5638,7 @@ window.AGA_DATA = {
      "group": "Lapwing",
      "call": "media/calls/b-black-winged-lapwing.mp3",
      "photo": "",
-     "bytes": 150508
+     "bytes": 64008
     },
     {
      "id": "b-black-winged-pranticole",
@@ -5646,7 +5646,7 @@ window.AGA_DATA = {
      "group": "Pranticole",
      "call": "media/calls/b-black-winged-pranticole.mp3",
      "photo": "",
-     "bytes": 78201
+     "bytes": 32508
     },
     {
      "id": "b-black-winged-stilt",
@@ -5654,7 +5654,7 @@ window.AGA_DATA = {
      "group": "Stilt",
      "call": "media/calls/b-black-winged-stilt.mp3",
      "photo": "",
-     "bytes": 162629
+     "bytes": 69300
     },
     {
      "id": "b-blacksmith-lapwing",
@@ -5662,7 +5662,7 @@ window.AGA_DATA = {
      "group": "Lapwing",
      "call": "media/calls/b-blacksmith-lapwing.mp3",
      "photo": "",
-     "bytes": 274642
+     "bytes": 118188
     },
     {
      "id": "b-blue-crane",
@@ -5670,7 +5670,7 @@ window.AGA_DATA = {
      "group": "Crane",
      "call": "media/calls/b-blue-crane.mp3",
      "photo": "",
-     "bytes": 124522
+     "bytes": 50148
     },
     {
      "id": "b-blue-swallow",
@@ -5678,7 +5678,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "call": "media/calls/b-blue-swallow.mp3",
      "photo": "",
-     "bytes": 84053
+     "bytes": 35028
     },
     {
      "id": "b-blue-waxbill",
@@ -5686,7 +5686,7 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "call": "media/calls/b-blue-waxbill.mp3",
      "photo": "",
-     "bytes": 175586
+     "bytes": 75096
     },
     {
      "id": "b-blue-cheeked-bee-eater",
@@ -5694,7 +5694,7 @@ window.AGA_DATA = {
      "group": "eater",
      "call": "media/calls/b-blue-cheeked-bee-eater.mp3",
      "photo": "",
-     "bytes": 87396
+     "bytes": 36540
     },
     {
      "id": "b-blue-spotted-wood-dove",
@@ -5702,7 +5702,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "call": "media/calls/b-blue-spotted-wood-dove.mp3",
      "photo": "",
-     "bytes": 214038
+     "bytes": 91728
     },
     {
      "id": "b-bohms-bee-eater",
@@ -5710,7 +5710,7 @@ window.AGA_DATA = {
      "group": "eater",
      "call": "media/calls/b-bohms-bee-eater.mp3",
      "photo": "",
-     "bytes": 119997
+     "bytes": 50652
     },
     {
      "id": "b-bohms-spinetail",
@@ -5718,7 +5718,7 @@ window.AGA_DATA = {
      "group": "Spinetail",
      "call": "media/calls/b-bohms-spinetail.mp3",
      "photo": "",
-     "bytes": 47690
+     "bytes": 19152
     },
     {
      "id": "b-booted-eagle",
@@ -5726,7 +5726,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "call": "media/calls/b-booted-eagle.mp3",
      "photo": "",
-     "bytes": 116236
+     "bytes": 49140
     },
     {
      "id": "b-bradfields-swift",
@@ -5734,7 +5734,7 @@ window.AGA_DATA = {
      "group": "Swift",
      "call": "media/calls/b-bradfields-swift.mp3",
      "photo": "",
-     "bytes": 96592
+     "bytes": 40572
     },
     {
      "id": "b-bridled-tern",
@@ -5742,7 +5742,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-bridled-tern.mp3",
      "photo": "",
-     "bytes": 81963
+     "bytes": 34020
     },
     {
      "id": "b-broad-billed-prion",
@@ -5750,7 +5750,7 @@ window.AGA_DATA = {
      "group": "Prion",
      "call": "media/calls/b-broad-billed-prion.mp3",
      "photo": "",
-     "bytes": 69006
+     "bytes": 28476
     },
     {
      "id": "b-broad-billed-sandpiper",
@@ -5758,7 +5758,7 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "call": "media/calls/b-broad-billed-sandpiper.mp3",
      "photo": "",
-     "bytes": 75694
+     "bytes": 31500
     },
     {
      "id": "b-broad-tailed-warbler",
@@ -5766,7 +5766,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/b-broad-tailed-warbler.mp3",
      "photo": "",
-     "bytes": 132118
+     "bytes": 55944
     },
     {
      "id": "b-bronze-mannikin",
@@ -5774,7 +5774,7 @@ window.AGA_DATA = {
      "group": "Mannikin",
      "call": "media/calls/b-bronze-mannikin.mp3",
      "photo": "",
-     "bytes": 79455
+     "bytes": 33012
     },
     {
      "id": "b-bronzy-sunbird",
@@ -5782,7 +5782,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/b-bronzy-sunbird.mp3",
      "photo": "",
-     "bytes": 184363
+     "bytes": 78876
     },
     {
      "id": "b-brown-noddy",
@@ -5790,7 +5790,7 @@ window.AGA_DATA = {
      "group": "Noddy",
      "call": "media/calls/b-brown-noddy.mp3",
      "photo": "",
-     "bytes": 134626
+     "bytes": 56952
     },
     {
      "id": "b-brown-snake-eagle",
@@ -5798,7 +5798,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "call": "media/calls/b-brown-snake-eagle.mp3",
      "photo": "",
-     "bytes": 106623
+     "bytes": 44856
     },
     {
      "id": "b-brown-throated-martin",
@@ -5806,7 +5806,7 @@ window.AGA_DATA = {
      "group": "Martin",
      "call": "media/calls/b-brown-throated-martin.mp3",
      "photo": "",
-     "bytes": 109548
+     "bytes": 46116
     },
     {
      "id": "b-bulwers-petrel",
@@ -5814,7 +5814,7 @@ window.AGA_DATA = {
      "group": "Petrel",
      "call": "media/calls/b-bulwers-petrel.mp3",
      "photo": "",
-     "bytes": 132954
+     "bytes": 56448
     },
     {
      "id": "b-burchells-courser",
@@ -5822,7 +5822,7 @@ window.AGA_DATA = {
      "group": "Courser",
      "call": "media/calls/b-burchells-courser.mp3",
      "photo": "",
-     "bytes": 77365
+     "bytes": 32004
     },
     {
      "id": "b-burchells-sandgrouse",
@@ -5830,7 +5830,7 @@ window.AGA_DATA = {
      "group": "Sandgrouse",
      "call": "media/calls/b-burchells-sandgrouse.mp3",
      "photo": "",
-     "bytes": 64409
+     "bytes": 26460
     },
     {
      "id": "b-cape-cormorant",
@@ -5838,7 +5838,7 @@ window.AGA_DATA = {
      "group": "Cormorant",
      "call": "media/calls/b-cape-cormorant.mp3",
      "photo": "",
-     "bytes": 97845
+     "bytes": 41076
     },
     {
      "id": "b-cape-crow",
@@ -5846,7 +5846,7 @@ window.AGA_DATA = {
      "group": "Crow",
      "call": "media/calls/b-cape-crow.mp3",
      "photo": "",
-     "bytes": 150926
+     "bytes": 64260
     },
     {
      "id": "b-cape-glossy-starling",
@@ -5854,7 +5854,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/b-cape-glossy-starling.mp3",
      "photo": "",
-     "bytes": 190214
+     "bytes": 81396
     },
     {
      "id": "b-cape-gannet",
@@ -5862,7 +5862,7 @@ window.AGA_DATA = {
      "group": "Gannet",
      "call": "media/calls/b-cape-gannet.mp3",
      "photo": "",
-     "bytes": 86561
+     "bytes": 36036
     },
     {
      "id": "b-cape-longclaw",
@@ -5870,7 +5870,7 @@ window.AGA_DATA = {
      "group": "Longclaw",
      "call": "media/calls/b-cape-longclaw.mp3",
      "photo": "",
-     "bytes": 153016
+     "bytes": 65268
     },
     {
      "id": "b-cape-shoveler",
@@ -5878,7 +5878,7 @@ window.AGA_DATA = {
      "group": "Shoveler",
      "call": "media/calls/b-cape-shoveler.mp3",
      "photo": "",
-     "bytes": 135044
+     "bytes": 57204
     },
     {
      "id": "b-cape-sparrow",
@@ -5886,7 +5886,7 @@ window.AGA_DATA = {
      "group": "Sparrow",
      "call": "media/calls/b-cape-sparrow.mp3",
      "photo": "",
-     "bytes": 157614
+     "bytes": 67284
     },
     {
      "id": "b-cape-spurfowl",
@@ -5894,7 +5894,7 @@ window.AGA_DATA = {
      "group": "Spurfowl",
      "call": "media/calls/b-cape-spurfowl.mp3",
      "photo": "",
-     "bytes": 109548
+     "bytes": 46116
     },
     {
      "id": "b-cape-sugarbird",
@@ -5902,7 +5902,7 @@ window.AGA_DATA = {
      "group": "Sugarbird",
      "call": "media/calls/b-cape-sugarbird.mp3",
      "photo": "",
-     "bytes": 131282
+     "bytes": 55692
     },
     {
      "id": "b-cape-teal",
@@ -5910,7 +5910,7 @@ window.AGA_DATA = {
      "group": "Teal",
      "call": "media/calls/b-cape-teal.mp3",
      "photo": "",
-     "bytes": 148001
+     "bytes": 63000
     },
     {
      "id": "b-cape-turtle-dove",
@@ -5918,7 +5918,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "call": "media/calls/b-cape-turtle-dove.mp3",
      "photo": "",
-     "bytes": 89486
+     "bytes": 37548
     },
     {
      "id": "b-cape-vulture",
@@ -5926,7 +5926,7 @@ window.AGA_DATA = {
      "group": "Vulture",
      "call": "media/calls/b-cape-vulture.mp3",
      "photo": "",
-     "bytes": 128774
+     "bytes": 54684
     },
     {
      "id": "b-cape-wagtail",
@@ -5934,7 +5934,7 @@ window.AGA_DATA = {
      "group": "Wagtail",
      "call": "media/calls/b-cape-wagtail.mp3",
      "photo": "",
-     "bytes": 191468
+     "bytes": 81900
     },
     {
      "id": "b-cape-weaver",
@@ -5942,7 +5942,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "call": "media/calls/b-cape-weaver.mp3",
      "photo": "",
-     "bytes": 163883
+     "bytes": 70056
     },
     {
      "id": "b-cape-white-eye",
@@ -5950,7 +5950,7 @@ window.AGA_DATA = {
      "group": "eye",
      "call": "media/calls/b-cape-white-eye.mp3",
      "photo": "",
-     "bytes": 189378
+     "bytes": 81144
     },
     {
      "id": "b-cardinal-quelea",
@@ -5958,7 +5958,7 @@ window.AGA_DATA = {
      "group": "Quelea",
      "call": "media/calls/b-cardinal-quelea.mp3",
      "photo": "",
-     "bytes": 119579
+     "bytes": 50652
     },
     {
      "id": "b-caspian-plover",
@@ -5966,7 +5966,7 @@ window.AGA_DATA = {
      "group": "Plover",
      "call": "media/calls/b-caspian-plover.mp3",
      "photo": "",
-     "bytes": 51452
+     "bytes": 20664
     },
     {
      "id": "b-caspian-tern",
@@ -5974,7 +5974,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-caspian-tern.mp3",
      "photo": "",
-     "bytes": 113310
+     "bytes": 47880
     },
     {
      "id": "b-cattle-egret",
@@ -5982,7 +5982,7 @@ window.AGA_DATA = {
      "group": "Egret",
      "call": "media/calls/b-cattle-egret.mp3",
      "photo": "",
-     "bytes": 198083
+     "bytes": 82152
     },
     {
      "id": "b-chestnut-weaver",
@@ -5990,7 +5990,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "call": "media/calls/b-chestnut-weaver.mp3",
      "photo": "",
-     "bytes": 142149
+     "bytes": 60480
     },
     {
      "id": "b-chestnut-backed-sparrowlark",
@@ -5998,7 +5998,7 @@ window.AGA_DATA = {
      "group": "Sparrowlark",
      "call": "media/calls/b-chestnut-backed-sparrowlark.mp3",
      "photo": "media/birds/chestnut-backed-sparrowlark.jpg",
-     "bytes": 135044,
+     "bytes": 57456,
      "f": 1
     },
     {
@@ -6007,7 +6007,7 @@ window.AGA_DATA = {
      "group": "Plover",
      "call": "media/calls/b-chestnut-banded-plover.mp3",
      "photo": "",
-     "bytes": 96174
+     "bytes": 40320
     },
     {
      "id": "b-chukar-partridge",
@@ -6015,7 +6015,7 @@ window.AGA_DATA = {
      "group": "Partridge",
      "call": "media/calls/b-chukar-partridge.mp3",
      "photo": "",
-     "bytes": 171824
+     "bytes": 73332
     },
     {
      "id": "b-clapper-2-species-lark",
@@ -6023,7 +6023,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/b-clapper-2-species-lark.mp3",
      "photo": "",
-     "bytes": 143403
+     "bytes": 60984
     },
     {
      "id": "b-collared-pranticole",
@@ -6031,7 +6031,7 @@ window.AGA_DATA = {
      "group": "Pranticole",
      "call": "media/calls/b-collared-pranticole.mp3",
      "photo": "",
-     "bytes": 101189
+     "bytes": 42588
     },
     {
      "id": "b-comb-duck",
@@ -6039,7 +6039,7 @@ window.AGA_DATA = {
      "group": "Duck",
      "call": "media/calls/b-comb-duck.mp3",
      "photo": "",
-     "bytes": 93666
+     "bytes": 39312
     },
     {
      "id": "b-common-black-headed-gull",
@@ -6047,7 +6047,7 @@ window.AGA_DATA = {
      "group": "Gull",
      "call": "media/calls/b-common-black-headed-gull.mp3",
      "photo": "",
-     "bytes": 112474
+     "bytes": 47376
     },
     {
      "id": "b-common-cuckoo",
@@ -6055,7 +6055,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/b-common-cuckoo.mp3",
      "photo": "",
-     "bytes": 105787
+     "bytes": 44604
     },
     {
      "id": "b-common-ringed-plover",
@@ -6063,7 +6063,7 @@ window.AGA_DATA = {
      "group": "Plover",
      "call": "media/calls/b-common-ringed-plover.mp3",
      "photo": "",
-     "bytes": 147583
+     "bytes": 62748
     },
     {
      "id": "b-common-fiscal",
@@ -6071,7 +6071,7 @@ window.AGA_DATA = {
      "group": "Fiscal",
      "call": "media/calls/b-common-fiscal.mp3",
      "photo": "",
-     "bytes": 144239
+     "bytes": 61236
     },
     {
      "id": "b-common-greenshank",
@@ -6079,7 +6079,7 @@ window.AGA_DATA = {
      "group": "Greenshank",
      "call": "media/calls/b-common-greenshank.mp3",
      "photo": "",
-     "bytes": 89904
+     "bytes": 37548
     },
     {
      "id": "b-common-house-martin",
@@ -6087,7 +6087,7 @@ window.AGA_DATA = {
      "group": "Martin",
      "call": "media/calls/b-common-house-martin.mp3",
      "photo": "",
-     "bytes": 64827
+     "bytes": 26712
     },
     {
      "id": "b-common-moorhen",
@@ -6095,7 +6095,7 @@ window.AGA_DATA = {
      "group": "Moorhen",
      "call": "media/calls/b-common-moorhen.mp3",
      "photo": "",
-     "bytes": 237026
+     "bytes": 101808
     },
     {
      "id": "b-common-myna",
@@ -6103,7 +6103,7 @@ window.AGA_DATA = {
      "group": "Myna",
      "call": "media/calls/b-common-myna.mp3",
      "photo": "",
-     "bytes": 168481
+     "bytes": 71820
     },
     {
      "id": "b-common-ostrich",
@@ -6111,7 +6111,7 @@ window.AGA_DATA = {
      "group": "Ostrich",
      "call": "media/calls/b-common-ostrich.mp3",
      "photo": "",
-     "bytes": 76947
+     "bytes": 32004
     },
     {
      "id": "b-common-quail",
@@ -6119,7 +6119,7 @@ window.AGA_DATA = {
      "group": "Quail",
      "call": "media/calls/b-common-quail.mp3",
      "photo": "",
-     "bytes": 111220
+     "bytes": 46872
     },
     {
      "id": "b-common-redshank",
@@ -6127,7 +6127,7 @@ window.AGA_DATA = {
      "group": "Redshank",
      "call": "media/calls/b-common-redshank.mp3",
      "photo": "",
-     "bytes": 116654
+     "bytes": 49392
     },
     {
      "id": "b-common-redstart",
@@ -6135,7 +6135,7 @@ window.AGA_DATA = {
      "group": "Redstart",
      "call": "media/calls/b-common-redstart.mp3",
      "photo": "",
-     "bytes": 205679
+     "bytes": 88200
     },
     {
      "id": "b-common-sandpiper",
@@ -6143,7 +6143,7 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "call": "media/calls/b-common-sandpiper.mp3",
      "photo": "",
-     "bytes": 116654
+     "bytes": 49392
     },
     {
      "id": "b-common-starling",
@@ -6151,7 +6151,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/b-common-starling.mp3",
      "photo": "",
-     "bytes": 160121
+     "bytes": 68292
     },
     {
      "id": "b-common-swift",
@@ -6159,7 +6159,7 @@ window.AGA_DATA = {
      "group": "Swift",
      "call": "media/calls/b-common-swift.mp3",
      "photo": "",
-     "bytes": 104951
+     "bytes": 44100
     },
     {
      "id": "b-common-tern",
@@ -6167,7 +6167,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-common-tern.mp3",
      "photo": "",
-     "bytes": 55214
+     "bytes": 22428
     },
     {
      "id": "b-common-waxbill",
@@ -6175,7 +6175,7 @@ window.AGA_DATA = {
      "group": "Waxbill",
      "call": "media/calls/b-common-waxbill.mp3",
      "photo": "",
-     "bytes": 179765
+     "bytes": 76860
     },
     {
      "id": "b-common-whimbrel",
@@ -6183,7 +6183,7 @@ window.AGA_DATA = {
      "group": "Whimbrel",
      "call": "media/calls/b-common-whimbrel.mp3",
      "photo": "",
-     "bytes": 211530
+     "bytes": 90720
     },
     {
      "id": "b-common-whitethroat",
@@ -6191,7 +6191,7 @@ window.AGA_DATA = {
      "group": "Whitethroat",
      "call": "media/calls/b-common-whitethroat.mp3",
      "photo": "media/birds/common-whitethroat.jpg",
-     "bytes": 141731,
+     "bytes": 60228,
      "f": 1
     },
     {
@@ -6200,7 +6200,7 @@ window.AGA_DATA = {
      "group": "Francolin",
      "call": "media/calls/b-coqui-francolin.mp3",
      "photo": "media/birds/coqui-francolin.jpg",
-     "bytes": 138805,
+     "bytes": 58968,
      "f": 1
     },
     {
@@ -6209,7 +6209,7 @@ window.AGA_DATA = {
      "group": "Crake",
      "call": "media/calls/b-corn-crake.mp3",
      "photo": "",
-     "bytes": 53542
+     "bytes": 21672
     },
     {
      "id": "b-corys-shearwater",
@@ -6217,7 +6217,7 @@ window.AGA_DATA = {
      "group": "Shearwater",
      "call": "media/calls/b-corys-shearwater.mp3",
      "photo": "",
-     "bytes": 107041
+     "bytes": 45108
     },
     {
      "id": "b-crab-plover",
@@ -6225,7 +6225,7 @@ window.AGA_DATA = {
      "group": "Plover",
      "call": "media/calls/b-crab-plover.mp3",
      "photo": "",
-     "bytes": 154270
+     "bytes": 65772
     },
     {
      "id": "b-crested-francolin",
@@ -6233,7 +6233,7 @@ window.AGA_DATA = {
      "group": "Francolin",
      "call": "media/calls/b-crested-francolin.mp3",
      "photo": "",
-     "bytes": 166809
+     "bytes": 71316
     },
     {
      "id": "b-crested-guineafowl",
@@ -6241,7 +6241,7 @@ window.AGA_DATA = {
      "group": "Guineafowl",
      "call": "media/calls/b-crested-guineafowl.mp3",
      "photo": "",
-     "bytes": 208187
+     "bytes": 89208
     },
     {
      "id": "b-crowned-cormorant",
@@ -6249,7 +6249,7 @@ window.AGA_DATA = {
      "group": "Cormorant",
      "call": "media/calls/b-crowned-cormorant.mp3",
      "photo": "",
-     "bytes": 45183
+     "bytes": 17892
     },
     {
      "id": "b-crowned-lapwing",
@@ -6257,7 +6257,7 @@ window.AGA_DATA = {
      "group": "Lapwing",
      "call": "media/calls/b-crowned-lapwing.mp3",
      "photo": "",
-     "bytes": 178512
+     "bytes": 76356
     },
     {
      "id": "b-cuckoo-finch",
@@ -6265,7 +6265,7 @@ window.AGA_DATA = {
      "group": "Finch",
      "call": "media/calls/b-cuckoo-finch.mp3",
      "photo": "",
-     "bytes": 103389
+     "bytes": 43344
     },
     {
      "id": "b-curlew-sandpiper",
@@ -6273,7 +6273,7 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "call": "media/calls/b-curlew-sandpiper.mp3",
      "photo": "",
-     "bytes": 120833
+     "bytes": 51156
     },
     {
      "id": "b-damara-tern",
@@ -6281,7 +6281,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-damara-tern.mp3",
      "photo": "",
-     "bytes": 110802
+     "bytes": 46872
     },
     {
      "id": "b-dark-chanting-goshawk",
@@ -6289,7 +6289,7 @@ window.AGA_DATA = {
      "group": "Goshawk",
      "call": "media/calls/b-dark-chanting-goshawk.mp3",
      "photo": "media/birds/dark-chanting-goshawk.jpg",
-     "bytes": 191886,
+     "bytes": 82152,
      "f": 1
     },
     {
@@ -6298,7 +6298,7 @@ window.AGA_DATA = {
      "group": "Bulbul",
      "call": "media/calls/b-dark-capped-bulbul.mp3",
      "photo": "",
-     "bytes": 219890
+     "bytes": 94500
     },
     {
      "id": "b-dickinsons-kestrel",
@@ -6306,7 +6306,7 @@ window.AGA_DATA = {
      "group": "Kestrel",
      "call": "media/calls/b-dickinsons-kestrel.mp3",
      "photo": "",
-     "bytes": 180601
+     "bytes": 77364
     },
     {
      "id": "b-double-banded-courser",
@@ -6314,7 +6314,7 @@ window.AGA_DATA = {
      "group": "Courser",
      "call": "media/calls/b-double-banded-courser.mp3",
      "photo": "",
-     "bytes": 246639
+     "bytes": 106092
     },
     {
      "id": "b-double-banded-sandgrouse",
@@ -6322,7 +6322,7 @@ window.AGA_DATA = {
      "group": "Sandgrouse",
      "call": "media/calls/b-double-banded-sandgrouse.mp3",
      "photo": "",
-     "bytes": 95756
+     "bytes": 40068
     },
     {
      "id": "b-dunlin",
@@ -6330,7 +6330,7 @@ window.AGA_DATA = {
      "group": "Dunlin",
      "call": "media/calls/b-dunlin.mp3",
      "photo": "",
-     "bytes": 140895
+     "bytes": 59976
     },
     {
      "id": "b-eastern-saw-wing",
@@ -6338,7 +6338,7 @@ window.AGA_DATA = {
      "group": "wing",
      "call": "media/calls/b-eastern-saw-wing.mp3",
      "photo": "",
-     "bytes": 97427
+     "bytes": 40824
     },
     {
      "id": "b-egyptian-goose",
@@ -6346,7 +6346,7 @@ window.AGA_DATA = {
      "group": "Goose",
      "call": "media/calls/b-egyptian-goose.mp3",
      "photo": "",
-     "bytes": 137552
+     "bytes": 58464
     },
     {
      "id": "b-egyptian-vulture",
@@ -6354,7 +6354,7 @@ window.AGA_DATA = {
      "group": "Vulture",
      "call": "media/calls/b-egyptian-vulture.mp3",
      "photo": "",
-     "bytes": 63573
+     "bytes": 25956
     },
     {
      "id": "b-eleonoras-falcon",
@@ -6362,7 +6362,7 @@ window.AGA_DATA = {
      "group": "Falcon",
      "call": "media/calls/b-eleonoras-falcon.mp3",
      "photo": "",
-     "bytes": 397440
+     "bytes": 172872
     },
     {
      "id": "b-emerald-spotted-wood-dove",
@@ -6370,7 +6370,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "call": "media/calls/b-emerald-spotted-wood-dove.mp3",
      "photo": "media/birds/emerald-spotted-wood-dove.jpg",
-     "bytes": 225741,
+     "bytes": 97020,
      "f": 1
     },
     {
@@ -6379,7 +6379,7 @@ window.AGA_DATA = {
      "group": "Blackcap",
      "call": "media/calls/b-eurasian-blackcap.mp3",
      "photo": "",
-     "bytes": 137552
+     "bytes": 58464
     },
     {
      "id": "b-eurasian-curlew",
@@ -6387,7 +6387,7 @@ window.AGA_DATA = {
      "group": "Curlew",
      "call": "media/calls/b-eurasian-curlew.mp3",
      "photo": "",
-     "bytes": 164719
+     "bytes": 70308
     },
     {
      "id": "b-eurasian-hobby",
@@ -6395,7 +6395,7 @@ window.AGA_DATA = {
      "group": "Hobby",
      "call": "media/calls/b-eurasian-hobby.mp3",
      "photo": "",
-     "bytes": 144657
+     "bytes": 61488
     },
     {
      "id": "b-eurasian-oystercatcher",
@@ -6403,7 +6403,7 @@ window.AGA_DATA = {
      "group": "Oystercatcher",
      "call": "media/calls/b-eurasian-oystercatcher.mp3",
      "photo": "",
-     "bytes": 121669
+     "bytes": 51408
     },
     {
      "id": "b-european-bee-eater",
@@ -6411,7 +6411,7 @@ window.AGA_DATA = {
      "group": "eater",
      "call": "media/calls/b-european-bee-eater.mp3",
      "photo": "",
-     "bytes": 49780
+     "bytes": 20160
     },
     {
      "id": "b-european-honey-buzzard",
@@ -6419,7 +6419,7 @@ window.AGA_DATA = {
      "group": "Buzzard",
      "call": "media/calls/b-european-honey-buzzard.mp3",
      "photo": "",
-     "bytes": 74440
+     "bytes": 30744
     },
     {
      "id": "b-european-nightjar",
@@ -6427,7 +6427,7 @@ window.AGA_DATA = {
      "group": "Nightjar",
      "call": "media/calls/b-european-nightjar.mp3",
      "photo": "",
-     "bytes": 129192
+     "bytes": 54684
     },
     {
      "id": "b-european-roller",
@@ -6435,7 +6435,7 @@ window.AGA_DATA = {
      "group": "Roller",
      "call": "media/calls/b-european-roller.mp3",
      "photo": "",
-     "bytes": 111220
+     "bytes": 46872
     },
     {
      "id": "b-european-storm-petrel",
@@ -6443,7 +6443,7 @@ window.AGA_DATA = {
      "group": "petrel",
      "call": "media/calls/b-european-storm-petrel.mp3",
      "photo": "",
-     "bytes": 419968
+     "bytes": 182700
     },
     {
      "id": "b-european-turtle-dove",
@@ -6451,7 +6451,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "call": "media/calls/b-european-turtle-dove.mp3",
      "photo": "",
-     "bytes": 144657
+     "bytes": 61488
     },
     {
      "id": "b-fan-tailed-widowbird",
@@ -6459,7 +6459,7 @@ window.AGA_DATA = {
      "group": "Widowbird",
      "call": "media/calls/b-fan-tailed-widowbird.mp3",
      "photo": "",
-     "bytes": 188961
+     "bytes": 80892
     },
     {
      "id": "b-flappet-lark",
@@ -6467,7 +6467,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/b-flappet-lark.mp3",
      "photo": "",
-     "bytes": 85307
+     "bytes": 35532
     },
     {
      "id": "b-flesh-footed-shearwater",
@@ -6475,7 +6475,7 @@ window.AGA_DATA = {
      "group": "Shearwater",
      "call": "media/calls/b-flesh-footed-shearwater.mp3",
      "photo": "",
-     "bytes": 126685
+     "bytes": 53676
     },
     {
      "id": "b-forest-buzzard",
@@ -6483,7 +6483,7 @@ window.AGA_DATA = {
      "group": "Buzzard",
      "call": "media/calls/b-forest-buzzard.mp3",
      "photo": "",
-     "bytes": 76112
+     "bytes": 31500
     },
     {
      "id": "b-fork-tailed-drongo",
@@ -6491,7 +6491,7 @@ window.AGA_DATA = {
      "group": "Drongo",
      "call": "media/calls/b-fork-tailed-drongo.mp3",
      "photo": "",
-     "bytes": 205261
+     "bytes": 87948
     },
     {
      "id": "b-franklins-gull",
@@ -6499,7 +6499,7 @@ window.AGA_DATA = {
      "group": "Gull",
      "call": "media/calls/b-franklins-gull.mp3",
      "photo": "",
-     "bytes": 163047
+     "bytes": 69552
     },
     {
      "id": "b-fulvous-duck",
@@ -6507,7 +6507,7 @@ window.AGA_DATA = {
      "group": "Duck",
      "call": "media/calls/b-fulvous-duck.mp3",
      "photo": "",
-     "bytes": 91994
+     "bytes": 38304
     },
     {
      "id": "b-garganey",
@@ -6515,7 +6515,7 @@ window.AGA_DATA = {
      "group": "Garganey",
      "call": "media/calls/b-garganey.mp3",
      "photo": "",
-     "bytes": 112056
+     "bytes": 47376
     },
     {
      "id": "b-georgeous-bush-shrike",
@@ -6523,7 +6523,7 @@ window.AGA_DATA = {
      "group": "shrike",
      "call": "media/calls/b-georgeous-bush-shrike.mp3",
      "photo": "",
-     "bytes": 208187
+     "bytes": 89208
     },
     {
      "id": "b-giant-kingfisher",
@@ -6531,7 +6531,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "call": "media/calls/b-giant-kingfisher.mp3",
      "photo": "",
-     "bytes": 133790
+     "bytes": 56952
     },
     {
      "id": "b-glossy-ibis",
@@ -6539,7 +6539,7 @@ window.AGA_DATA = {
      "group": "Ibis",
      "call": "media/calls/b-glossy-ibis.mp3",
      "photo": "",
-     "bytes": 91994
+     "bytes": 38556
     },
     {
      "id": "b-goliath-heron",
@@ -6547,7 +6547,7 @@ window.AGA_DATA = {
      "group": "Heron",
      "call": "media/calls/b-goliath-heron.mp3",
      "photo": "",
-     "bytes": 119161
+     "bytes": 50400
     },
     {
      "id": "b-grays-lark",
@@ -6555,7 +6555,7 @@ window.AGA_DATA = {
      "group": "Lark",
      "call": "media/calls/b-grays-lark.mp3",
      "photo": "",
-     "bytes": 154270
+     "bytes": 65772
     },
     {
      "id": "b-great-crested-grebe",
@@ -6563,7 +6563,7 @@ window.AGA_DATA = {
      "group": "Grebe",
      "call": "media/calls/b-great-crested-grebe.mp3",
      "photo": "",
-     "bytes": 193558
+     "bytes": 82908
     },
     {
      "id": "b-great-egret",
@@ -6571,7 +6571,7 @@ window.AGA_DATA = {
      "group": "Egret",
      "call": "media/calls/b-great-egret.mp3",
      "photo": "",
-     "bytes": 141313
+     "bytes": 59976
     },
     {
      "id": "b-great-shearwater",
@@ -6579,7 +6579,7 @@ window.AGA_DATA = {
      "group": "Shearwater",
      "call": "media/calls/b-great-shearwater.mp3",
      "photo": "",
-     "bytes": 154688
+     "bytes": 66024
     },
     {
      "id": "b-great-snipe",
@@ -6587,7 +6587,7 @@ window.AGA_DATA = {
      "group": "Snipe",
      "call": "media/calls/b-great-snipe.mp3",
      "photo": "",
-     "bytes": 443498
+     "bytes": 192276
     },
     {
      "id": "b-great-white-pelican",
@@ -6595,7 +6595,7 @@ window.AGA_DATA = {
      "group": "Pelican",
      "call": "media/calls/b-great-white-pelican.mp3",
      "photo": "",
-     "bytes": 80709
+     "bytes": 33516
     },
     {
      "id": "b-greater-kestrel",
@@ -6603,7 +6603,7 @@ window.AGA_DATA = {
      "group": "Kestrel",
      "call": "media/calls/b-greater-kestrel.mp3",
      "photo": "",
-     "bytes": 93666
+     "bytes": 39060
     },
     {
      "id": "b-greater-sand-plover",
@@ -6611,7 +6611,7 @@ window.AGA_DATA = {
      "group": "Plover",
      "call": "media/calls/b-greater-sand-plover.mp3",
      "photo": "",
-     "bytes": 91994
+     "bytes": 38556
     },
     {
      "id": "b-greater-striped-swallow",
@@ -6619,7 +6619,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "call": "media/calls/b-greater-striped-swallow.mp3",
      "photo": "",
-     "bytes": 165137
+     "bytes": 70308
     },
     {
      "id": "b-greater-flamingo",
@@ -6627,7 +6627,7 @@ window.AGA_DATA = {
      "group": "Flamingo",
      "call": "media/calls/b-greater-flamingo.mp3",
      "photo": "",
-     "bytes": 107876
+     "bytes": 45360
     },
     {
      "id": "b-greater-frigatebird",
@@ -6635,7 +6635,7 @@ window.AGA_DATA = {
      "group": "Frigatebird",
      "call": "media/calls/b-greater-frigatebird.mp3",
      "photo": "",
-     "bytes": 403584
+     "bytes": 175644
     },
     {
      "id": "b-greater-pained-snipe",
@@ -6643,7 +6643,7 @@ window.AGA_DATA = {
      "group": "Snipe",
      "call": "media/calls/b-greater-pained-snipe.mp3",
      "photo": "",
-     "bytes": 162211
+     "bytes": 69300
     },
     {
      "id": "b-greater-sheathbill",
@@ -6651,7 +6651,7 @@ window.AGA_DATA = {
      "group": "Sheathbill",
      "call": "media/calls/b-greater-sheathbill.mp3",
      "photo": "",
-     "bytes": 63991
+     "bytes": 26208
     },
     {
      "id": "b-greater-yellowlegs",
@@ -6659,7 +6659,7 @@ window.AGA_DATA = {
      "group": "Yellowlegs",
      "call": "media/calls/b-greater-yellowlegs.mp3",
      "photo": "",
-     "bytes": 145493
+     "bytes": 61740
     },
     {
      "id": "b-green-barbet",
@@ -6667,7 +6667,7 @@ window.AGA_DATA = {
      "group": "Barbet",
      "call": "media/calls/b-green-barbet.mp3",
      "photo": "",
-     "bytes": 102861
+     "bytes": 43344
     },
     {
      "id": "b-green-wood-hoopoe",
@@ -6675,7 +6675,7 @@ window.AGA_DATA = {
      "group": "Hoopoe",
      "call": "media/calls/b-green-wood-hoopoe.mp3",
      "photo": "",
-     "bytes": 135880
+     "bytes": 57708
     },
     {
      "id": "b-green-sandpiper",
@@ -6683,7 +6683,7 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "call": "media/calls/b-green-sandpiper.mp3",
      "photo": "",
-     "bytes": 118325
+     "bytes": 49896
     },
     {
      "id": "b-green-backed-heron",
@@ -6691,7 +6691,7 @@ window.AGA_DATA = {
      "group": "Heron",
      "call": "media/calls/b-green-backed-heron.mp3",
      "photo": "",
-     "bytes": 93248
+     "bytes": 39060
     },
     {
      "id": "b-grey-crowned-crane",
@@ -6699,7 +6699,7 @@ window.AGA_DATA = {
      "group": "Crane",
      "call": "media/calls/b-grey-crowned-crane.mp3",
      "photo": "",
-     "bytes": 242459
+     "bytes": 104328
     },
     {
      "id": "b-grey-heron",
@@ -6707,7 +6707,7 @@ window.AGA_DATA = {
      "group": "Heron",
      "call": "media/calls/b-grey-heron.mp3",
      "photo": "",
-     "bytes": 60575
+     "bytes": 21924
     },
     {
      "id": "b-grey-kestrel",
@@ -6715,7 +6715,7 @@ window.AGA_DATA = {
      "group": "Kestrel",
      "call": "media/calls/b-grey-kestrel.mp3",
      "photo": "",
-     "bytes": 151344
+     "bytes": 64512
     },
     {
      "id": "b-grey-go-away-bird",
@@ -6723,7 +6723,7 @@ window.AGA_DATA = {
      "group": "Bird",
      "call": "media/calls/b-grey-go-away-bird.mp3",
      "photo": "",
-     "bytes": 133790
+     "bytes": 56700
     },
     {
      "id": "b-grey-petrel",
@@ -6731,7 +6731,7 @@ window.AGA_DATA = {
      "group": "Petrel",
      "call": "media/calls/b-grey-petrel.mp3",
      "photo": "",
-     "bytes": 223233
+     "bytes": 96012
     },
     {
      "id": "b-grey-plover",
@@ -6739,7 +6739,7 @@ window.AGA_DATA = {
      "group": "Plover",
      "call": "media/calls/b-grey-plover.mp3",
      "photo": "",
-     "bytes": 108294
+     "bytes": 45612
     },
     {
      "id": "b-grey-wagtail",
@@ -6747,7 +6747,7 @@ window.AGA_DATA = {
      "group": "Wagtail",
      "call": "media/calls/b-grey-wagtail.mp3",
      "photo": "",
-     "bytes": 125849
+     "bytes": 53424
     },
     {
      "id": "b-grey-backed-sparrowlark",
@@ -6755,7 +6755,7 @@ window.AGA_DATA = {
      "group": "Sparrowlark",
      "call": "media/calls/b-grey-backed-sparrowlark.mp3",
      "photo": "",
-     "bytes": 127103
+     "bytes": 53928
     },
     {
      "id": "b-grey-headed-albatross",
@@ -6763,7 +6763,7 @@ window.AGA_DATA = {
      "group": "Albatross",
      "call": "media/calls/b-grey-headed-albatross.mp3",
      "photo": "",
-     "bytes": 403584
+     "bytes": 175644
     },
     {
      "id": "b-grey-headed-gull",
@@ -6771,7 +6771,7 @@ window.AGA_DATA = {
      "group": "Gull",
      "call": "media/calls/b-grey-headed-gull.mp3",
      "photo": "",
-     "bytes": 135044
+     "bytes": 57456
     },
     {
      "id": "b-grey-headed-parrot",
@@ -6779,7 +6779,7 @@ window.AGA_DATA = {
      "group": "Parrot",
      "call": "media/calls/b-grey-headed-parrot.mp3",
      "photo": "",
-     "bytes": 116236
+     "bytes": 49140
     },
     {
      "id": "b-grey-rumped-swallow",
@@ -6787,7 +6787,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "call": "media/calls/b-grey-rumped-swallow.mp3",
      "photo": "media/birds/grey-rumped-swallow.jpg",
-     "bytes": 114564,
+     "bytes": 48384,
      "f": 1
     },
     {
@@ -6796,7 +6796,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-gull-billed-tern.mp3",
      "photo": "",
-     "bytes": 108294
+     "bytes": 45612
     },
     {
      "id": "b-hadeda-ibis",
@@ -6804,7 +6804,7 @@ window.AGA_DATA = {
      "group": "Ibis",
      "call": "media/calls/b-hadeda-ibis.mp3",
      "photo": "",
-     "bytes": 101189
+     "bytes": 42588
     },
     {
      "id": "b-half-collared-kingfisher",
@@ -6812,7 +6812,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "call": "media/calls/b-half-collared-kingfisher.mp3",
      "photo": "",
-     "bytes": 57303
+     "bytes": 23184
     },
     {
      "id": "b-hamerkop",
@@ -6820,7 +6820,7 @@ window.AGA_DATA = {
      "group": "Hamerkop",
      "call": "media/calls/b-hamerkop.mp3",
      "photo": "",
-     "bytes": 173914
+     "bytes": 74340
     },
     {
      "id": "b-harlequin-quail",
@@ -6828,7 +6828,7 @@ window.AGA_DATA = {
      "group": "Quail",
      "call": "media/calls/b-harlequin-quail.mp3",
      "photo": "",
-     "bytes": 130446
+     "bytes": 55440
     },
     {
      "id": "b-hartlaubs-gull",
@@ -6836,7 +6836,7 @@ window.AGA_DATA = {
      "group": "Gull",
      "call": "media/calls/b-hartlaubs-gull.mp3",
      "photo": "",
-     "bytes": 216128
+     "bytes": 92736
     },
     {
      "id": "b-helmeted-guineafowl",
@@ -6844,7 +6844,7 @@ window.AGA_DATA = {
      "group": "Guineafowl",
      "call": "media/calls/b-helmeted-guineafowl.mp3",
      "photo": "",
-     "bytes": 241205
+     "bytes": 103824
     },
     {
      "id": "b-hooded-vulture",
@@ -6852,7 +6852,7 @@ window.AGA_DATA = {
      "group": "Vulture",
      "call": "media/calls/b-hooded-vulture.mp3",
      "photo": "",
-     "bytes": 112056
+     "bytes": 47376
     },
     {
      "id": "b-horus-swift",
@@ -6860,7 +6860,7 @@ window.AGA_DATA = {
      "group": "Swift",
      "call": "media/calls/b-horus-swift.mp3",
      "photo": "",
-     "bytes": 79455
+     "bytes": 33012
     },
     {
      "id": "b-hottentot-teal",
@@ -6868,7 +6868,7 @@ window.AGA_DATA = {
      "group": "Teal",
      "call": "media/calls/b-hottentot-teal.mp3",
      "photo": "",
-     "bytes": 62737
+     "bytes": 25704
     },
     {
      "id": "b-house-crow",
@@ -6876,7 +6876,7 @@ window.AGA_DATA = {
      "group": "Crow",
      "call": "media/calls/b-house-crow.mp3",
      "photo": "",
-     "bytes": 83635
+     "bytes": 35028
     },
     {
      "id": "b-house-sparrow",
@@ -6884,7 +6884,7 @@ window.AGA_DATA = {
      "group": "Sparrow",
      "call": "media/calls/b-house-sparrow.mp3",
      "photo": "",
-     "bytes": 159285
+     "bytes": 68040
     },
     {
      "id": "b-isabelline-wheatear",
@@ -6892,7 +6892,7 @@ window.AGA_DATA = {
      "group": "Wheatear",
      "call": "media/calls/b-isabelline-wheatear.mp3",
      "photo": "",
-     "bytes": 204843
+     "bytes": 87696
     },
     {
      "id": "b-jackal-buzzard",
@@ -6900,7 +6900,7 @@ window.AGA_DATA = {
      "group": "Buzzard",
      "call": "media/calls/b-jackal-buzzard.mp3",
      "photo": "",
-     "bytes": 90740
+     "bytes": 37800
     },
     {
      "id": "b-karoo-scrub-robin",
@@ -6908,7 +6908,7 @@ window.AGA_DATA = {
      "group": "robin",
      "call": "media/calls/b-karoo-scrub-robin.mp3",
      "photo": "",
-     "bytes": 163883
+     "bytes": 69804
     },
     {
      "id": "b-karoo-thrush",
@@ -6916,7 +6916,7 @@ window.AGA_DATA = {
      "group": "Thrush",
      "call": "media/calls/b-karoo-thrush.mp3",
      "photo": "",
-     "bytes": 237862
+     "bytes": 102312
     },
     {
      "id": "b-kelp-gull",
@@ -6924,7 +6924,7 @@ window.AGA_DATA = {
      "group": "Gull",
      "call": "media/calls/b-kelp-gull.mp3",
      "photo": "",
-     "bytes": 178512
+     "bytes": 76356
     },
     {
      "id": "b-kentish-plover",
@@ -6932,7 +6932,7 @@ window.AGA_DATA = {
      "group": "Plover",
      "call": "media/calls/b-kentish-plover.mp3",
      "photo": "",
-     "bytes": 150508
+     "bytes": 64008
     },
     {
      "id": "b-kerguelen-petrel",
@@ -6940,7 +6940,7 @@ window.AGA_DATA = {
      "group": "Petrel",
      "call": "media/calls/b-kerguelen-petrel.mp3",
      "photo": "",
-     "bytes": 105787
+     "bytes": 44604
     },
     {
      "id": "b-king-penguin",
@@ -6948,7 +6948,7 @@ window.AGA_DATA = {
      "group": "Penguin",
      "call": "media/calls/b-king-penguin.mp3",
      "photo": "",
-     "bytes": 105369
+     "bytes": 44352
     },
     {
      "id": "b-kittlitzs-plover",
@@ -6956,7 +6956,7 @@ window.AGA_DATA = {
      "group": "Plover",
      "call": "media/calls/b-kittlitzs-plover.mp3",
      "photo": "",
-     "bytes": 146329
+     "bytes": 62244
     },
     {
      "id": "b-kori-bustard",
@@ -6964,7 +6964,7 @@ window.AGA_DATA = {
      "group": "Bustard",
      "call": "media/calls/b-kori-bustard.mp3",
      "photo": "",
-     "bytes": 88650
+     "bytes": 37044
     },
     {
      "id": "b-kurrichane-buttonquail",
@@ -6972,7 +6972,7 @@ window.AGA_DATA = {
      "group": "Buttonquail",
      "call": "media/calls/b-kurrichane-buttonquail.mp3",
      "photo": "media/birds/kurrichane-buttonquail.jpg",
-     "bytes": 97427,
+     "bytes": 40824,
      "f": 1
     },
     {
@@ -6981,7 +6981,7 @@ window.AGA_DATA = {
      "group": "Falcon",
      "call": "media/calls/b-lanner-falcon.mp3",
      "photo": "",
-     "bytes": 114146
+     "bytes": 48132
     },
     {
      "id": "b-lappet-faced-vulture",
@@ -6989,7 +6989,7 @@ window.AGA_DATA = {
      "group": "Vulture",
      "call": "media/calls/b-lappet-faced-vulture.mp3",
      "photo": "media/birds/lappet-faced-vulture.jpg",
-     "bytes": 104951,
+     "bytes": 44100,
      "f": 1
     },
     {
@@ -6998,7 +6998,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "call": "media/calls/b-laughing-dove.mp3",
      "photo": "",
-     "bytes": 99099
+     "bytes": 41580
     },
     {
      "id": "b-leachs-storm-petrel",
@@ -7006,7 +7006,7 @@ window.AGA_DATA = {
      "group": "petrel",
      "call": "media/calls/b-leachs-storm-petrel.mp3",
      "photo": "",
-     "bytes": 403584
+     "bytes": 175644
     },
     {
      "id": "b-lesser-black-backed-gull",
@@ -7014,7 +7014,7 @@ window.AGA_DATA = {
      "group": "Gull",
      "call": "media/calls/b-lesser-black-backed-gull.mp3",
      "photo": "",
-     "bytes": 91158
+     "bytes": 38052
     },
     {
      "id": "b-lesser-crested-tern",
@@ -7022,7 +7022,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-lesser-crested-tern.mp3",
      "photo": "",
-     "bytes": 86143
+     "bytes": 36036
     },
     {
      "id": "b-lesser-cuckoo",
@@ -7030,7 +7030,7 @@ window.AGA_DATA = {
      "group": "Cuckoo",
      "call": "media/calls/b-lesser-cuckoo.mp3",
      "photo": "",
-     "bytes": 45601
+     "bytes": 18144
     },
     {
      "id": "b-lesser-grey-shrike",
@@ -7038,7 +7038,7 @@ window.AGA_DATA = {
      "group": "Shrike",
      "call": "media/calls/b-lesser-grey-shrike.mp3",
      "photo": "",
-     "bytes": 125849
+     "bytes": 53424
     },
     {
      "id": "b-lesser-jacana",
@@ -7046,7 +7046,7 @@ window.AGA_DATA = {
      "group": "Jacana",
      "call": "media/calls/b-lesser-jacana.mp3",
      "photo": "",
-     "bytes": 94920
+     "bytes": 39816
     },
     {
      "id": "b-lesser-kestrel",
@@ -7054,7 +7054,7 @@ window.AGA_DATA = {
      "group": "Kestrel",
      "call": "media/calls/b-lesser-kestrel.mp3",
      "photo": "",
-     "bytes": 40585
+     "bytes": 15876
     },
     {
      "id": "b-lesser-sand-plover",
@@ -7062,7 +7062,7 @@ window.AGA_DATA = {
      "group": "Plover",
      "call": "media/calls/b-lesser-sand-plover.mp3",
      "photo": "",
-     "bytes": 64827
+     "bytes": 26460
     },
     {
      "id": "b-lesser-spotted-eagle",
@@ -7070,7 +7070,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "call": "media/calls/b-lesser-spotted-eagle.mp3",
      "photo": "",
-     "bytes": 152180
+     "bytes": 64764
     },
     {
      "id": "b-lesser-striped-swallow",
@@ -7078,7 +7078,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "call": "media/calls/b-lesser-striped-swallow.mp3",
      "photo": "media/birds/lesser-striped-swallow.jpg",
-     "bytes": 148764,
+     "bytes": 60480,
      "f": 1
     },
     {
@@ -7087,7 +7087,7 @@ window.AGA_DATA = {
      "group": "Flamingo",
      "call": "media/calls/b-lesser-flamingo.mp3",
      "photo": "",
-     "bytes": 143821
+     "bytes": 60984
     },
     {
      "id": "b-lesser-masked-weaver",
@@ -7095,7 +7095,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "call": "media/calls/b-lesser-masked-weaver.mp3",
      "photo": "",
-     "bytes": 133372
+     "bytes": 56700
     },
     {
      "id": "b-lesser-noddy",
@@ -7103,7 +7103,7 @@ window.AGA_DATA = {
      "group": "Noddy",
      "call": "media/calls/b-lesser-noddy.mp3",
      "photo": "",
-     "bytes": 135880
+     "bytes": 57708
     },
     {
      "id": "b-lesser-yellowlegs",
@@ -7111,7 +7111,7 @@ window.AGA_DATA = {
      "group": "Yellowlegs",
      "call": "media/calls/b-lesser-yellowlegs.mp3",
      "photo": "",
-     "bytes": 94084
+     "bytes": 39564
     },
     {
      "id": "b-lilac-breasted-roller",
@@ -7119,7 +7119,7 @@ window.AGA_DATA = {
      "group": "Roller",
      "call": "media/calls/b-lilac-breasted-roller.mp3",
      "photo": "",
-     "bytes": 225741
+     "bytes": 97020
     },
     {
      "id": "b-lilians-lovebird",
@@ -7127,7 +7127,7 @@ window.AGA_DATA = {
      "group": "Lovebird",
      "call": "media/calls/b-lilians-lovebird.mp3",
      "photo": "",
-     "bytes": 81963
+     "bytes": 34272
     },
     {
      "id": "b-little-bee-eater",
@@ -7135,7 +7135,7 @@ window.AGA_DATA = {
      "group": "eater",
      "call": "media/calls/b-little-bee-eater.mp3",
      "photo": "",
-     "bytes": 139223
+     "bytes": 59220
     },
     {
      "id": "b-little-egret",
@@ -7143,7 +7143,7 @@ window.AGA_DATA = {
      "group": "Egret",
      "call": "media/calls/b-little-egret.mp3",
      "photo": "",
-     "bytes": 132118
+     "bytes": 55944
     },
     {
      "id": "b-little-grebe",
@@ -7151,7 +7151,7 @@ window.AGA_DATA = {
      "group": "Grebe",
      "call": "media/calls/b-little-grebe.mp3",
      "photo": "",
-     "bytes": 140059
+     "bytes": 59472
     },
     {
      "id": "b-little-shearwater",
@@ -7159,7 +7159,7 @@ window.AGA_DATA = {
      "group": "Shearwater",
      "call": "media/calls/b-little-shearwater.mp3",
      "photo": "",
-     "bytes": 125849
+     "bytes": 53172
     },
     {
      "id": "b-little-stint",
@@ -7167,7 +7167,7 @@ window.AGA_DATA = {
      "group": "Stint",
      "call": "media/calls/b-little-stint.mp3",
      "photo": "",
-     "bytes": 120415
+     "bytes": 50904
     },
     {
      "id": "b-little-swift",
@@ -7175,7 +7175,7 @@ window.AGA_DATA = {
      "group": "Swift",
      "call": "media/calls/b-little-swift.mp3",
      "photo": "",
-     "bytes": 78619
+     "bytes": 32760
     },
     {
      "id": "b-little-tern",
@@ -7183,7 +7183,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-little-tern.mp3",
      "photo": "",
-     "bytes": 100353
+     "bytes": 42084
     },
     {
      "id": "b-lizard-buzzard",
@@ -7191,7 +7191,7 @@ window.AGA_DATA = {
      "group": "Buzzard",
      "call": "media/calls/b-lizard-buzzard.mp3",
      "photo": "",
-     "bytes": 182691
+     "bytes": 78120
     },
     {
      "id": "b-long-crested-eagle",
@@ -7199,7 +7199,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "call": "media/calls/b-long-crested-eagle.mp3",
      "photo": "",
-     "bytes": 132118
+     "bytes": 55944
     },
     {
      "id": "b-long-legged-buzzard",
@@ -7207,7 +7207,7 @@ window.AGA_DATA = {
      "group": "Buzzard",
      "call": "media/calls/b-long-legged-buzzard.mp3",
      "photo": "",
-     "bytes": 83217
+     "bytes": 34524
     },
     {
      "id": "b-long-tailed-jaeger",
@@ -7215,7 +7215,7 @@ window.AGA_DATA = {
      "group": "Jaeger",
      "call": "media/calls/b-long-tailed-jaeger.mp3",
      "photo": "",
-     "bytes": 102443
+     "bytes": 43092
     },
     {
      "id": "b-long-tailed-paradise-whydah",
@@ -7223,7 +7223,7 @@ window.AGA_DATA = {
      "group": "Whydah",
      "call": "media/calls/b-long-tailed-paradise-whydah.mp3",
      "photo": "",
-     "bytes": 209023
+     "bytes": 89712
     },
     {
      "id": "b-long-tailed-widowbird",
@@ -7231,7 +7231,7 @@ window.AGA_DATA = {
      "group": "Widowbird",
      "call": "media/calls/b-long-tailed-widowbird.mp3",
      "photo": "",
-     "bytes": 206097
+     "bytes": 88452
     },
     {
      "id": "b-long-toed-lapwing",
@@ -7239,7 +7239,7 @@ window.AGA_DATA = {
      "group": "Lapwing",
      "call": "media/calls/b-long-toed-lapwing.mp3",
      "photo": "",
-     "bytes": 139223
+     "bytes": 58968
     },
     {
      "id": "b-long-toed-stint",
@@ -7247,7 +7247,7 @@ window.AGA_DATA = {
      "group": "Stint",
      "call": "media/calls/b-long-toed-stint.mp3",
      "photo": "",
-     "bytes": 118325
+     "bytes": 49896
     },
     {
      "id": "b-ludwigs-bustard",
@@ -7255,7 +7255,7 @@ window.AGA_DATA = {
      "group": "Bustard",
      "call": "media/calls/b-ludwigs-bustard.mp3",
      "photo": "",
-     "bytes": 184363
+     "bytes": 78876
     },
     {
      "id": "b-macaroni-penguin",
@@ -7263,7 +7263,7 @@ window.AGA_DATA = {
      "group": "Penguin",
      "call": "media/calls/b-macaroni-penguin.mp3",
      "photo": "",
-     "bytes": 97010
+     "bytes": 40572
     },
     {
      "id": "b-maccoa-duck",
@@ -7271,7 +7271,7 @@ window.AGA_DATA = {
      "group": "Duck",
      "call": "media/calls/b-maccoa-duck.mp3",
      "photo": "",
-     "bytes": 67334
+     "bytes": 27720
     },
     {
      "id": "b-madagascar-bee-eater",
@@ -7279,7 +7279,7 @@ window.AGA_DATA = {
      "group": "eater",
      "call": "media/calls/b-madagascar-bee-eater.mp3",
      "photo": "",
-     "bytes": 68588
+     "bytes": 28224
     },
     {
      "id": "b-malachite-kingfisher",
@@ -7287,7 +7287,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "call": "media/calls/b-malachite-kingfisher.mp3",
      "photo": "",
-     "bytes": 46436
+     "bytes": 18396
     },
     {
      "id": "b-malachite-sunbird",
@@ -7295,7 +7295,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/b-malachite-sunbird.mp3",
      "photo": "",
-     "bytes": 130864
+     "bytes": 55440
     },
     {
      "id": "b-malagasy-pond-heron",
@@ -7303,7 +7303,7 @@ window.AGA_DATA = {
      "group": "heron",
      "call": "media/calls/b-malagasy-pond-heron.mp3",
      "photo": "",
-     "bytes": 105787
+     "bytes": 44604
     },
     {
      "id": "b-manx-shearwater",
@@ -7311,7 +7311,7 @@ window.AGA_DATA = {
      "group": "Shearwater",
      "call": "media/calls/b-manx-shearwater.mp3",
      "photo": "",
-     "bytes": 307328
+     "bytes": 133812
     },
     {
      "id": "b-marabou-stork",
@@ -7319,7 +7319,7 @@ window.AGA_DATA = {
      "group": "Stork",
      "call": "media/calls/b-marabou-stork.mp3",
      "photo": "",
-     "bytes": 152598
+     "bytes": 65016
     },
     {
      "id": "b-marsh-sandpiper",
@@ -7327,7 +7327,7 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "call": "media/calls/b-marsh-sandpiper.mp3",
      "photo": "",
-     "bytes": 106623
+     "bytes": 44856
     },
     {
      "id": "b-martial-eagle",
@@ -7335,7 +7335,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "call": "media/calls/b-martial-eagle.mp3",
      "photo": "",
-     "bytes": 487383
+     "bytes": 211428
     },
     {
      "id": "b-mascarene-martin",
@@ -7343,7 +7343,7 @@ window.AGA_DATA = {
      "group": "Martin",
      "call": "media/calls/b-mascarene-martin.mp3",
      "photo": "",
-     "bytes": 88232
+     "bytes": 36792
     },
     {
      "id": "b-meyers-parrot",
@@ -7351,7 +7351,7 @@ window.AGA_DATA = {
      "group": "Parrot",
      "call": "media/calls/b-meyers-parrot.mp3",
      "photo": "media/birds/meyers-parrot.jpg",
-     "bytes": 116654,
+     "bytes": 49140,
      "f": 1
     },
     {
@@ -7360,7 +7360,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/b-miombo-blue-eared-starling.mp3",
      "photo": "",
-     "bytes": 140895
+     "bytes": 59976
     },
     {
      "id": "b-montagus-harrier",
@@ -7368,7 +7368,7 @@ window.AGA_DATA = {
      "group": "Harrier",
      "call": "media/calls/b-montagus-harrier.mp3",
      "photo": "",
-     "bytes": 138387
+     "bytes": 58968
     },
     {
      "id": "b-mosque-swallow",
@@ -7376,7 +7376,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "call": "media/calls/b-mosque-swallow.mp3",
      "photo": "",
-     "bytes": 159703
+     "bytes": 68040
     },
     {
      "id": "b-mottled-swift",
@@ -7384,7 +7384,7 @@ window.AGA_DATA = {
      "group": "Swift",
      "call": "media/calls/b-mottled-swift.mp3",
      "photo": "",
-     "bytes": 32226
+     "bytes": 12348
     },
     {
      "id": "b-mute-swan",
@@ -7392,7 +7392,7 @@ window.AGA_DATA = {
      "group": "Swan",
      "call": "media/calls/b-mute-swan.mp3",
      "photo": "",
-     "bytes": 403584
+     "bytes": 175644
     },
     {
      "id": "b-namaqua-dove",
@@ -7400,7 +7400,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "call": "media/calls/b-namaqua-dove.mp3",
      "photo": "",
-     "bytes": 107986
+     "bytes": 45612
     },
     {
      "id": "b-namaqua-sandgrouse",
@@ -7408,7 +7408,7 @@ window.AGA_DATA = {
      "group": "Sandgrouse",
      "call": "media/calls/b-namaqua-sandgrouse.mp3",
      "photo": "",
-     "bytes": 135462
+     "bytes": 57456
     },
     {
      "id": "b-northern-black-korhaan",
@@ -7416,7 +7416,7 @@ window.AGA_DATA = {
      "group": "Korhaan",
      "call": "media/calls/b-northern-black-korhaan.mp3",
      "photo": "",
-     "bytes": 220307
+     "bytes": 94500
     },
     {
      "id": "b-northern-giant-petrel",
@@ -7424,7 +7424,7 @@ window.AGA_DATA = {
      "group": "Petrel",
      "call": "media/calls/b-northern-giant-petrel.mp3",
      "photo": "",
-     "bytes": 148418
+     "bytes": 63000
     },
     {
      "id": "b-northern-pintail",
@@ -7432,7 +7432,7 @@ window.AGA_DATA = {
      "group": "Pintail",
      "call": "media/calls/b-northern-pintail.mp3",
      "photo": "",
-     "bytes": 138805
+     "bytes": 58968
     },
     {
      "id": "b-northern-shoveler",
@@ -7440,7 +7440,7 @@ window.AGA_DATA = {
      "group": "Shoveler",
      "call": "media/calls/b-northern-shoveler.mp3",
      "photo": "",
-     "bytes": 103279
+     "bytes": 43596
     },
     {
      "id": "b-northern-wheatear",
@@ -7448,7 +7448,7 @@ window.AGA_DATA = {
      "group": "Wheatear",
      "call": "media/calls/b-northern-wheatear.mp3",
      "photo": "",
-     "bytes": 122923
+     "bytes": 52164
     },
     {
      "id": "b-orange-breasted-sunbird",
@@ -7456,7 +7456,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/b-orange-breasted-sunbird.mp3",
      "photo": "",
-     "bytes": 96592
+     "bytes": 40572
     },
     {
      "id": "b-osprey",
@@ -7464,7 +7464,7 @@ window.AGA_DATA = {
      "group": "Osprey",
      "call": "media/calls/b-osprey.mp3",
      "photo": "",
-     "bytes": 116236
+     "bytes": 49140
     },
     {
      "id": "b-pacific-golden-plover",
@@ -7472,7 +7472,7 @@ window.AGA_DATA = {
      "group": "Plover",
      "call": "media/calls/b-pacific-golden-plover.mp3",
      "photo": "",
-     "bytes": 416330
+     "bytes": 180180
     },
     {
      "id": "b-pale-flycatcher",
@@ -7480,7 +7480,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/b-pale-flycatcher.mp3",
      "photo": "",
-     "bytes": 77365
+     "bytes": 32004
     },
     {
      "id": "b-pallid-harrier",
@@ -7488,7 +7488,7 @@ window.AGA_DATA = {
      "group": "Harrier",
      "call": "media/calls/b-pallid-harrier.mp3",
      "photo": "",
-     "bytes": 450688
+     "bytes": 197064
     },
     {
      "id": "b-pallid-honeyguide",
@@ -7496,7 +7496,7 @@ window.AGA_DATA = {
      "group": "Honeyguide",
      "call": "media/calls/b-pallid-honeyguide.mp3",
      "photo": "",
-     "bytes": 422600
+     "bytes": 183204
     },
     {
      "id": "b-pallid-swift",
@@ -7504,7 +7504,7 @@ window.AGA_DATA = {
      "group": "Swift",
      "call": "media/calls/b-pallid-swift.mp3",
      "photo": "",
-     "bytes": 292614
+     "bytes": 126252
     },
     {
      "id": "b-palm-nut-vulture",
@@ -7512,7 +7512,7 @@ window.AGA_DATA = {
      "group": "Vulture",
      "call": "media/calls/b-palm-nut-vulture.mp3",
      "photo": "",
-     "bytes": 450688
+     "bytes": 196812
     },
     {
      "id": "b-parasitic-jaeger",
@@ -7520,7 +7520,7 @@ window.AGA_DATA = {
      "group": "Jaeger",
      "call": "media/calls/b-parasitic-jaeger.mp3",
      "photo": "",
-     "bytes": 94502
+     "bytes": 39564
     },
     {
      "id": "b-pearl-breasted-swallow",
@@ -7528,7 +7528,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "call": "media/calls/b-pearl-breasted-swallow.mp3",
      "photo": "",
-     "bytes": 106205
+     "bytes": 44604
     },
     {
      "id": "b-pectoral-sandpiper",
@@ -7536,7 +7536,7 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "call": "media/calls/b-pectoral-sandpiper.mp3",
      "photo": "",
-     "bytes": 119997
+     "bytes": 50652
     },
     {
      "id": "b-peregrine-falcon",
@@ -7544,7 +7544,7 @@ window.AGA_DATA = {
      "group": "Falcon",
      "call": "media/calls/b-peregrine-falcon.mp3",
      "photo": "",
-     "bytes": 147583
+     "bytes": 62748
     },
     {
      "id": "b-pied-avocet",
@@ -7552,7 +7552,7 @@ window.AGA_DATA = {
      "group": "Avocet",
      "call": "media/calls/b-pied-avocet.mp3",
      "photo": "",
-     "bytes": 112474
+     "bytes": 47376
     },
     {
      "id": "b-pied-crow",
@@ -7560,7 +7560,7 @@ window.AGA_DATA = {
      "group": "Crow",
      "call": "media/calls/b-pied-crow.mp3",
      "photo": "",
-     "bytes": 199755
+     "bytes": 82908
     },
     {
      "id": "b-pied-kingfisher",
@@ -7568,7 +7568,7 @@ window.AGA_DATA = {
      "group": "Kingfisher",
      "call": "media/calls/b-pied-kingfisher.mp3",
      "photo": "",
-     "bytes": 143821
+     "bytes": 61236
     },
     {
      "id": "b-pied-starling",
@@ -7576,7 +7576,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/b-pied-starling.mp3",
      "photo": "",
-     "bytes": 80291
+     "bytes": 33516
     },
     {
      "id": "b-pied-wheatear",
@@ -7584,7 +7584,7 @@ window.AGA_DATA = {
      "group": "Wheatear",
      "call": "media/calls/b-pied-wheatear.mp3",
      "photo": "",
-     "bytes": 220725
+     "bytes": 94752
     },
     {
      "id": "b-pin-tailed-whydah",
@@ -7592,7 +7592,7 @@ window.AGA_DATA = {
      "group": "Whydah",
      "call": "media/calls/b-pin-tailed-whydah.mp3",
      "photo": "",
-     "bytes": 107458
+     "bytes": 45360
     },
     {
      "id": "b-pink-backed-pelican",
@@ -7600,7 +7600,7 @@ window.AGA_DATA = {
      "group": "Pelican",
      "call": "media/calls/b-pink-backed-pelican.mp3",
      "photo": "",
-     "bytes": 123341
+     "bytes": 52164
     },
     {
      "id": "b-pomarine-jaeger",
@@ -7608,7 +7608,7 @@ window.AGA_DATA = {
      "group": "Jaeger",
      "call": "media/calls/b-pomarine-jaeger.mp3",
      "photo": "",
-     "bytes": 125013
+     "bytes": 52920
     },
     {
      "id": "b-purple-heron",
@@ -7616,7 +7616,7 @@ window.AGA_DATA = {
      "group": "Heron",
      "call": "media/calls/b-purple-heron.mp3",
      "photo": "",
-     "bytes": 87396
+     "bytes": 36540
     },
     {
      "id": "b-purple-roller",
@@ -7624,7 +7624,7 @@ window.AGA_DATA = {
      "group": "Roller",
      "call": "media/calls/b-purple-roller.mp3",
      "photo": "media/birds/purple-roller.jpg",
-     "bytes": 189796,
+     "bytes": 81144,
      "f": 1
     },
     {
@@ -7633,7 +7633,7 @@ window.AGA_DATA = {
      "group": "Falcon",
      "call": "media/calls/b-pygmy-falcon.mp3",
      "photo": "",
-     "bytes": 199827
+     "bytes": 85680
     },
     {
      "id": "b-red-knot",
@@ -7641,7 +7641,7 @@ window.AGA_DATA = {
      "group": "Knot",
      "call": "media/calls/b-red-knot.mp3",
      "photo": "",
-     "bytes": 128774
+     "bytes": 54684
     },
     {
      "id": "b-red-phalarope",
@@ -7649,7 +7649,7 @@ window.AGA_DATA = {
      "group": "Phalarope",
      "call": "media/calls/b-red-phalarope.mp3",
      "photo": "",
-     "bytes": 61483
+     "bytes": 25200
     },
     {
      "id": "b-red-backed-shrike",
@@ -7657,7 +7657,7 @@ window.AGA_DATA = {
      "group": "Shrike",
      "call": "media/calls/b-red-backed-shrike.mp3",
      "photo": "",
-     "bytes": 183109
+     "bytes": 78372
     },
     {
      "id": "b-red-billed-oxpecker",
@@ -7665,7 +7665,7 @@ window.AGA_DATA = {
      "group": "Oxpecker",
      "call": "media/calls/b-red-billed-oxpecker.mp3",
      "photo": "",
-     "bytes": 177676
+     "bytes": 76104
     },
     {
      "id": "b-red-billed-quelea",
@@ -7673,7 +7673,7 @@ window.AGA_DATA = {
      "group": "Quelea",
      "call": "media/calls/b-red-billed-quelea.mp3",
      "photo": "media/birds/red-billed-quelea.jpg",
-     "bytes": 143821,
+     "bytes": 61236,
      "f": 1
     },
     {
@@ -7682,7 +7682,7 @@ window.AGA_DATA = {
      "group": "Spurfowl",
      "call": "media/calls/b-red-billed-spurfowl.mp3",
      "photo": "",
-     "bytes": 214874
+     "bytes": 92232
     },
     {
      "id": "b-red-billed-teal",
@@ -7690,7 +7690,7 @@ window.AGA_DATA = {
      "group": "Teal",
      "call": "media/calls/b-red-billed-teal.mp3",
      "photo": "",
-     "bytes": 79037
+     "bytes": 32760
     },
     {
      "id": "b-red-billed-tropicbird",
@@ -7698,7 +7698,7 @@ window.AGA_DATA = {
      "group": "Tropicbird",
      "call": "media/calls/b-red-billed-tropicbird.mp3",
      "photo": "",
-     "bytes": 112056
+     "bytes": 47124
     },
     {
      "id": "b-red-breasted-swallow",
@@ -7706,7 +7706,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "call": "media/calls/b-red-breasted-swallow.mp3",
      "photo": "media/birds/red-breasted-swallow.jpg",
-     "bytes": 168063,
+     "bytes": 71820,
      "f": 1
     },
     {
@@ -7715,7 +7715,7 @@ window.AGA_DATA = {
      "group": "Widowbird",
      "call": "media/calls/b-red-collared-widowbird.mp3",
      "photo": "",
-     "bytes": 286763
+     "bytes": 123732
     },
     {
      "id": "b-red-eyed-dove",
@@ -7723,7 +7723,7 @@ window.AGA_DATA = {
      "group": "Dove",
      "call": "media/calls/b-red-eyed-dove.mp3",
      "photo": "",
-     "bytes": 147583
+     "bytes": 62748
     },
     {
      "id": "b-red-faced-mousebird",
@@ -7731,7 +7731,7 @@ window.AGA_DATA = {
      "group": "Mousebird",
      "call": "media/calls/b-red-faced-mousebird.mp3",
      "photo": "",
-     "bytes": 100353
+     "bytes": 42336
     },
     {
      "id": "b-red-footed-falcon",
@@ -7739,7 +7739,7 @@ window.AGA_DATA = {
      "group": "Falcon",
      "call": "media/calls/b-red-footed-falcon.mp3",
      "photo": "",
-     "bytes": 409728
+     "bytes": 178920
     },
     {
      "id": "b-red-headed-quelea",
@@ -7747,7 +7747,7 @@ window.AGA_DATA = {
      "group": "Quelea",
      "call": "media/calls/b-red-headed-quelea.mp3",
      "photo": "",
-     "bytes": 65663
+     "bytes": 26964
     },
     {
      "id": "b-red-headed-weaver",
@@ -7755,7 +7755,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "call": "media/calls/b-red-headed-weaver.mp3",
      "photo": "media/birds/red-headed-weaver.jpg",
-     "bytes": 179765,
+     "bytes": 76860,
      "f": 1
     },
     {
@@ -7764,7 +7764,7 @@ window.AGA_DATA = {
      "group": "Coot",
      "call": "media/calls/b-red-knobbed-coot.mp3",
      "photo": "",
-     "bytes": 216128
+     "bytes": 92736
     },
     {
      "id": "b-red-necked-falcon",
@@ -7772,7 +7772,7 @@ window.AGA_DATA = {
      "group": "Falcon",
      "call": "media/calls/b-red-necked-falcon.mp3",
      "photo": "",
-     "bytes": 108294
+     "bytes": 45612
     },
     {
      "id": "b-red-necked-phalarope",
@@ -7780,7 +7780,7 @@ window.AGA_DATA = {
      "group": "Phalarope",
      "call": "media/calls/b-red-necked-phalarope.mp3",
      "photo": "",
-     "bytes": 94502
+     "bytes": 39564
     },
     {
      "id": "b-red-necked-stint",
@@ -7788,7 +7788,7 @@ window.AGA_DATA = {
      "group": "Stint",
      "call": "media/calls/b-red-necked-stint.mp3",
      "photo": "",
-     "bytes": 84053
+     "bytes": 35028
     },
     {
      "id": "b-red-rumped-swallow",
@@ -7796,7 +7796,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "call": "media/calls/b-red-rumped-swallow.mp3",
      "photo": "",
-     "bytes": 90322
+     "bytes": 37800
     },
     {
      "id": "b-red-throated-pipit",
@@ -7804,7 +7804,7 @@ window.AGA_DATA = {
      "group": "Pipit",
      "call": "media/calls/b-red-throated-pipit.mp3",
      "photo": "",
-     "bytes": 119997
+     "bytes": 50652
     },
     {
      "id": "b-red-winged-starling",
@@ -7812,7 +7812,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/b-red-winged-starling.mp3",
      "photo": "",
-     "bytes": 217800
+     "bytes": 93492
     },
     {
      "id": "b-reed-cormorant",
@@ -7820,7 +7820,7 @@ window.AGA_DATA = {
      "group": "Cormorant",
      "call": "media/calls/b-reed-cormorant.mp3",
      "photo": "",
-     "bytes": 122505
+     "bytes": 51660
     },
     {
      "id": "b-robertss-warbler",
@@ -7828,7 +7828,7 @@ window.AGA_DATA = {
      "group": "Warbler",
      "call": "media/calls/b-robertss-warbler.mp3",
      "photo": "",
-     "bytes": 51870
+     "bytes": 20916
     },
     {
      "id": "b-rock-kestrel",
@@ -7836,7 +7836,7 @@ window.AGA_DATA = {
      "group": "Kestrel",
      "call": "media/calls/b-rock-kestrel.mp3",
      "photo": "",
-     "bytes": 145075
+     "bytes": 61740
     },
     {
      "id": "b-rock-martin",
@@ -7844,7 +7844,7 @@ window.AGA_DATA = {
      "group": "Martin",
      "call": "media/calls/b-rock-martin.mp3",
      "photo": "",
-     "bytes": 124595
+     "bytes": 52668
     },
     {
      "id": "b-rock-pranticole",
@@ -7852,7 +7852,7 @@ window.AGA_DATA = {
      "group": "Pranticole",
      "call": "media/calls/b-rock-pranticole.mp3",
      "photo": "",
-     "bytes": 182691
+     "bytes": 78120
     },
     {
      "id": "b-rockhopper-penguin",
@@ -7860,7 +7860,7 @@ window.AGA_DATA = {
      "group": "Penguin",
      "call": "media/calls/b-rockhopper-penguin.mp3",
      "photo": "",
-     "bytes": 125849
+     "bytes": 53172
     },
     {
      "id": "b-rose-ringed-parakeet",
@@ -7868,7 +7868,7 @@ window.AGA_DATA = {
      "group": "Parakeet",
      "call": "media/calls/b-rose-ringed-parakeet.mp3",
      "photo": "",
-     "bytes": 89904
+     "bytes": 37548
     },
     {
      "id": "b-roseate-tern",
@@ -7876,7 +7876,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-roseate-tern.mp3",
      "photo": "",
-     "bytes": 166391
+     "bytes": 71064
     },
     {
      "id": "b-rosy-faced-lovebird",
@@ -7884,7 +7884,7 @@ window.AGA_DATA = {
      "group": "Lovebird",
      "call": "media/calls/b-rosy-faced-lovebird.mp3",
      "photo": "",
-     "bytes": 96592
+     "bytes": 40572
     },
     {
      "id": "b-ruddy-turnstone",
@@ -7892,7 +7892,7 @@ window.AGA_DATA = {
      "group": "Turnstone",
      "call": "media/calls/b-ruddy-turnstone.mp3",
      "photo": "",
-     "bytes": 171406
+     "bytes": 73332
     },
     {
      "id": "b-ruff",
@@ -7900,7 +7900,7 @@ window.AGA_DATA = {
      "group": "Ruff",
      "call": "media/calls/b-ruff.mp3",
      "photo": "",
-     "bytes": 77365
+     "bytes": 32256
     },
     {
      "id": "b-rufous-chested-sparrowhawk",
@@ -7908,7 +7908,7 @@ window.AGA_DATA = {
      "group": "Sparrowhawk",
      "call": "media/calls/b-rufous-chested-sparrowhawk.mp3",
      "photo": "",
-     "bytes": 200245
+     "bytes": 85680
     },
     {
      "id": "b-saddle-billed-stork",
@@ -7916,7 +7916,7 @@ window.AGA_DATA = {
      "group": "Stork",
      "call": "media/calls/b-saddle-billed-stork.mp3",
      "photo": "",
-     "bytes": 91576
+     "bytes": 38304
     },
     {
      "id": "b-sand-martin",
@@ -7924,7 +7924,7 @@ window.AGA_DATA = {
      "group": "Martin",
      "call": "media/calls/b-sand-martin.mp3",
      "photo": "",
-     "bytes": 103279
+     "bytes": 43344
     },
     {
      "id": "b-sanderling",
@@ -7932,7 +7932,7 @@ window.AGA_DATA = {
      "group": "Sanderling",
      "call": "media/calls/b-sanderling.mp3",
      "photo": "",
-     "bytes": 83635
+     "bytes": 34776
     },
     {
      "id": "b-sandwich-tern",
@@ -7940,7 +7940,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-sandwich-tern.mp3",
      "photo": "",
-     "bytes": 89486
+     "bytes": 37548
     },
     {
      "id": "b-scarce-swift",
@@ -7948,7 +7948,7 @@ window.AGA_DATA = {
      "group": "Swift",
      "call": "media/calls/b-scarce-swift.mp3",
      "photo": "",
-     "bytes": 97845
+     "bytes": 41076
     },
     {
      "id": "b-scarlet-chested-sunbird",
@@ -7956,7 +7956,7 @@ window.AGA_DATA = {
      "group": "Sunbird",
      "call": "media/calls/b-scarlet-chested-sunbird.mp3",
      "photo": "",
-     "bytes": 127521
+     "bytes": 53928
     },
     {
      "id": "b-schalows-turaco",
@@ -7964,7 +7964,7 @@ window.AGA_DATA = {
      "group": "Turaco",
      "call": "media/calls/b-schalows-turaco.mp3",
      "photo": "",
-     "bytes": 95756
+     "bytes": 40068
     },
     {
      "id": "b-secretarybird",
@@ -7972,7 +7972,7 @@ window.AGA_DATA = {
      "group": "Secretarybird",
      "call": "media/calls/b-secretarybird.mp3",
      "photo": "",
-     "bytes": 158795
+     "bytes": 65016
     },
     {
      "id": "b-senegal-lapwing",
@@ -7980,7 +7980,7 @@ window.AGA_DATA = {
      "group": "Lapwing",
      "call": "media/calls/b-senegal-lapwing.mp3",
      "photo": "",
-     "bytes": 132118
+     "bytes": 55944
     },
     {
      "id": "b-shaft-tailed-whydah",
@@ -7988,7 +7988,7 @@ window.AGA_DATA = {
      "group": "Whydah",
      "call": "media/calls/b-shaft-tailed-whydah.mp3",
      "photo": "",
-     "bytes": 163883
+     "bytes": 70056
     },
     {
      "id": "b-shoebill",
@@ -7996,7 +7996,7 @@ window.AGA_DATA = {
      "group": "Shoebill",
      "call": "media/calls/b-shoebill.mp3",
      "photo": "",
-     "bytes": 356480
+     "bytes": 154728
     },
     {
      "id": "b-sociable-weaver",
@@ -8004,7 +8004,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "call": "media/calls/b-sociable-weaver.mp3",
      "photo": "",
-     "bytes": 74022
+     "bytes": 30492
     },
     {
      "id": "b-soft-plumaged-petrel",
@@ -8012,7 +8012,7 @@ window.AGA_DATA = {
      "group": "Petrel",
      "call": "media/calls/b-soft-plumaged-petrel.mp3",
      "photo": "",
-     "bytes": 144239
+     "bytes": 61488
     },
     {
      "id": "b-soot-albatross",
@@ -8020,7 +8020,7 @@ window.AGA_DATA = {
      "group": "Albatross",
      "call": "media/calls/b-soot-albatross.mp3",
      "photo": "",
-     "bytes": 83635
+     "bytes": 34776
     },
     {
      "id": "b-sooty-falcon",
@@ -8028,7 +8028,7 @@ window.AGA_DATA = {
      "group": "Falcon",
      "call": "media/calls/b-sooty-falcon.mp3",
      "photo": "",
-     "bytes": 85725
+     "bytes": 35784
     },
     {
      "id": "b-south-african-cliff-swallow",
@@ -8036,7 +8036,7 @@ window.AGA_DATA = {
      "group": "swallow",
      "call": "media/calls/b-south-african-cliff-swallow.mp3",
      "photo": "",
-     "bytes": 115400
+     "bytes": 48636
     },
     {
      "id": "b-south-african-shelduck",
@@ -8044,7 +8044,7 @@ window.AGA_DATA = {
      "group": "Shelduck",
      "call": "media/calls/b-south-african-shelduck.mp3",
      "photo": "",
-     "bytes": 56885
+     "bytes": 23184
     },
     {
      "id": "b-southern-bald-ibis",
@@ -8052,7 +8052,7 @@ window.AGA_DATA = {
      "group": "Ibis",
      "call": "media/calls/b-southern-bald-ibis.mp3",
      "photo": "",
-     "bytes": 86143
+     "bytes": 36036
     },
     {
      "id": "b-southern-brown-throated",
@@ -8060,7 +8060,7 @@ window.AGA_DATA = {
      "group": "throated",
      "call": "media/calls/b-southern-brown-throated.mp3",
      "photo": "",
-     "bytes": 113310
+     "bytes": 47880
     },
     {
      "id": "b-southern-carmine-bee-eater",
@@ -8068,7 +8068,7 @@ window.AGA_DATA = {
      "group": "eater",
      "call": "media/calls/b-southern-carmine-bee-eater.mp3",
      "photo": "",
-     "bytes": 95265
+     "bytes": 37296
     },
     {
      "id": "b-southern-grey-headed-sparrow",
@@ -8076,7 +8076,7 @@ window.AGA_DATA = {
      "group": "Sparrow",
      "call": "media/calls/b-southern-grey-headed-sparrow.mp3",
      "photo": "",
-     "bytes": 159703
+     "bytes": 68040
     },
     {
      "id": "b-southern-pale-chanting-goshawk",
@@ -8084,7 +8084,7 @@ window.AGA_DATA = {
      "group": "Goshawk",
      "call": "media/calls/b-southern-pale-chanting-goshawk.mp3",
      "photo": "",
-     "bytes": 176840
+     "bytes": 75600
     },
     {
      "id": "b-southern-red-bishop",
@@ -8092,7 +8092,7 @@ window.AGA_DATA = {
      "group": "Bishop",
      "call": "media/calls/b-southern-red-bishop.mp3",
      "photo": "",
-     "bytes": 248729
+     "bytes": 106848
     },
     {
      "id": "b-southern-white-faced-scops-owl",
@@ -8100,7 +8100,7 @@ window.AGA_DATA = {
      "group": "owl",
      "call": "media/calls/b-southern-white-faced-scops-owl.mp3",
      "photo": "",
-     "bytes": 102025
+     "bytes": 42840
     },
     {
      "id": "b-southern-yellow-billed-hornbill",
@@ -8108,7 +8108,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "call": "media/calls/b-southern-yellow-billed-hornbill.mp3",
      "photo": "",
-     "bytes": 258342
+     "bytes": 111384
     },
     {
      "id": "b-southern-ground-hornbill",
@@ -8116,7 +8116,7 @@ window.AGA_DATA = {
      "group": "Hornbill",
      "call": "media/calls/b-southern-ground-hornbill.mp3",
      "photo": "",
-     "bytes": 77783
+     "bytes": 32256
     },
     {
      "id": "b-southern-masked-weaver",
@@ -8124,7 +8124,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "call": "media/calls/b-southern-masked-weaver.mp3",
      "photo": "",
-     "bytes": 214802
+     "bytes": 89460
     },
     {
      "id": "b-southern-pochard",
@@ -8132,7 +8132,7 @@ window.AGA_DATA = {
      "group": "Pochard",
      "call": "media/calls/b-southern-pochard.mp3",
      "photo": "",
-     "bytes": 122505
+     "bytes": 51912
     },
     {
      "id": "b-souzas-shrike",
@@ -8140,7 +8140,7 @@ window.AGA_DATA = {
      "group": "Shrike",
      "call": "media/calls/b-souzas-shrike.mp3",
      "photo": "",
-     "bytes": 176422
+     "bytes": 75600
     },
     {
      "id": "b-speckled-mousebird",
@@ -8148,7 +8148,7 @@ window.AGA_DATA = {
      "group": "Mousebird",
      "call": "media/calls/b-speckled-mousebird.mp3",
      "photo": "",
-     "bytes": 84471
+     "bytes": 35280
     },
     {
      "id": "b-speckled-pigeon",
@@ -8156,7 +8156,7 @@ window.AGA_DATA = {
      "group": "Pigeon",
      "call": "media/calls/b-speckled-pigeon.mp3",
      "photo": "",
-     "bytes": 234518
+     "bytes": 100800
     },
     {
      "id": "b-spotted-flycatcher",
@@ -8164,7 +8164,7 @@ window.AGA_DATA = {
      "group": "Flycatcher",
      "call": "media/calls/b-spotted-flycatcher.mp3",
      "photo": "",
-     "bytes": 174332
+     "bytes": 74592
     },
     {
      "id": "b-spotted-redshank",
@@ -8172,7 +8172,7 @@ window.AGA_DATA = {
      "group": "Redshank",
      "call": "media/calls/b-spotted-redshank.mp3",
      "photo": "",
-     "bytes": 80709
+     "bytes": 33516
     },
     {
      "id": "b-spur-winged-goose",
@@ -8180,7 +8180,7 @@ window.AGA_DATA = {
      "group": "Goose",
      "call": "media/calls/b-spur-winged-goose.mp3",
      "photo": "",
-     "bytes": 93666
+     "bytes": 39312
     },
     {
      "id": "b-spur-winged-lapwing",
@@ -8188,7 +8188,7 @@ window.AGA_DATA = {
      "group": "Lapwing",
      "call": "media/calls/b-spur-winged-lapwing.mp3",
      "photo": "",
-     "bytes": 167227
+     "bytes": 71568
     },
     {
      "id": "b-squacco-heron",
@@ -8196,7 +8196,7 @@ window.AGA_DATA = {
      "group": "Heron",
      "call": "media/calls/b-squacco-heron.mp3",
      "photo": "",
-     "bytes": 102443
+     "bytes": 43092
     },
     {
      "id": "b-steppe-buzzard",
@@ -8204,7 +8204,7 @@ window.AGA_DATA = {
      "group": "Buzzard",
      "call": "media/calls/b-steppe-buzzard.mp3",
      "photo": "",
-     "bytes": 356480
+     "bytes": 154728
     },
     {
      "id": "b-sub-antarctic-skua",
@@ -8212,7 +8212,7 @@ window.AGA_DATA = {
      "group": "Skua",
      "call": "media/calls/b-sub-antarctic-skua.mp3",
      "photo": "",
-     "bytes": 124595
+     "bytes": 52668
     },
     {
      "id": "b-swallow-tailed-bee-eater",
@@ -8220,7 +8220,7 @@ window.AGA_DATA = {
      "group": "eater",
      "call": "media/calls/b-swallow-tailed-bee-eater.mp3",
      "photo": "",
-     "bytes": 94920
+     "bytes": 39816
     },
     {
      "id": "b-swamp-nightjar",
@@ -8228,7 +8228,7 @@ window.AGA_DATA = {
      "group": "Nightjar",
      "call": "media/calls/b-swamp-nightjar.mp3",
      "photo": "",
-     "bytes": 97845
+     "bytes": 41076
     },
     {
      "id": "b-swift-tern",
@@ -8236,7 +8236,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-swift-tern.mp3",
      "photo": "",
-     "bytes": 129192
+     "bytes": 54684
     },
     {
      "id": "b-tawny-eagle",
@@ -8244,7 +8244,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "call": "media/calls/b-tawny-eagle.mp3",
      "photo": "",
-     "bytes": 105787
+     "bytes": 44604
     },
     {
      "id": "b-temmincks-courser",
@@ -8252,7 +8252,7 @@ window.AGA_DATA = {
      "group": "Courser",
      "call": "media/calls/b-temmincks-courser.mp3",
      "photo": "media/birds/temmincks-courser.jpg",
-     "bytes": 95338,
+     "bytes": 39816,
      "f": 1
     },
     {
@@ -8261,7 +8261,7 @@ window.AGA_DATA = {
      "group": "Stint",
      "call": "media/calls/b-temmincks-stint.mp3",
      "photo": "",
-     "bytes": 79873
+     "bytes": 33012
     },
     {
      "id": "b-terek-sandpiper",
@@ -8269,7 +8269,7 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "call": "media/calls/b-terek-sandpiper.mp3",
      "photo": "",
-     "bytes": 115400
+     "bytes": 48636
     },
     {
      "id": "b-thick-billed-weaver",
@@ -8277,7 +8277,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "call": "media/calls/b-thick-billed-weaver.mp3",
      "photo": "",
-     "bytes": 83635
+     "bytes": 34776
     },
     {
      "id": "b-three-banded-plover",
@@ -8285,7 +8285,7 @@ window.AGA_DATA = {
      "group": "Plover",
      "call": "media/calls/b-three-banded-plover.mp3",
      "photo": "",
-     "bytes": 195230
+     "bytes": 83664
     },
     {
      "id": "b-tropical-shearwater",
@@ -8293,7 +8293,7 @@ window.AGA_DATA = {
      "group": "Shearwater",
      "call": "media/calls/b-tropical-shearwater.mp3",
      "photo": "",
-     "bytes": 419968
+     "bytes": 182700
     },
     {
      "id": "b-verreauxs-eagle",
@@ -8301,7 +8301,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "call": "media/calls/b-verreauxs-eagle.mp3",
      "photo": "",
-     "bytes": 70260
+     "bytes": 28980
     },
     {
      "id": "b-village-weaver",
@@ -8309,7 +8309,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "call": "media/calls/b-village-weaver.mp3",
      "photo": "",
-     "bytes": 181437
+     "bytes": 77616
     },
     {
      "id": "b-wahlbergs-eagle",
@@ -8317,7 +8317,7 @@ window.AGA_DATA = {
      "group": "Eagle",
      "call": "media/calls/b-wahlbergs-eagle.mp3",
      "photo": "",
-     "bytes": 225741
+     "bytes": 97020
     },
     {
      "id": "b-wandering-albatross",
@@ -8325,7 +8325,7 @@ window.AGA_DATA = {
      "group": "Albatross",
      "call": "media/calls/b-wandering-albatross.mp3",
      "photo": "",
-     "bytes": 182273
+     "bytes": 78120
     },
     {
      "id": "b-wattled-crane",
@@ -8333,7 +8333,7 @@ window.AGA_DATA = {
      "group": "Crane",
      "call": "media/calls/b-wattled-crane.mp3",
      "photo": "",
-     "bytes": 114146
+     "bytes": 48132
     },
     {
      "id": "b-wattled-starling",
@@ -8341,7 +8341,7 @@ window.AGA_DATA = {
      "group": "Starling",
      "call": "media/calls/b-wattled-starling.mp3",
      "photo": "",
-     "bytes": 203171
+     "bytes": 86940
     },
     {
      "id": "b-wedge-tailed-shearwater",
@@ -8349,7 +8349,7 @@ window.AGA_DATA = {
      "group": "Shearwater",
      "call": "media/calls/b-wedge-tailed-shearwater.mp3",
      "photo": "",
-     "bytes": 436352
+     "bytes": 189756
     },
     {
      "id": "b-western-march-harrier",
@@ -8357,7 +8357,7 @@ window.AGA_DATA = {
      "group": "harrier",
      "call": "media/calls/b-western-march-harrier.mp3",
      "photo": "",
-     "bytes": 131700
+     "bytes": 55944
     },
     {
      "id": "b-whinchat",
@@ -8365,7 +8365,7 @@ window.AGA_DATA = {
      "group": "Whinchat",
      "call": "media/calls/b-whinchat.mp3",
      "photo": "",
-     "bytes": 154688
+     "bytes": 66024
     },
     {
      "id": "b-whiskered-tern",
@@ -8373,7 +8373,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-whiskered-tern.mp3",
      "photo": "",
-     "bytes": 110384
+     "bytes": 46620
     },
     {
      "id": "b-white-stork",
@@ -8381,7 +8381,7 @@ window.AGA_DATA = {
      "group": "Stork",
      "call": "media/calls/b-white-stork.mp3",
      "photo": "",
-     "bytes": 96174
+     "bytes": 40320
     },
     {
      "id": "b-white-backed-duck",
@@ -8389,7 +8389,7 @@ window.AGA_DATA = {
      "group": "Duck",
      "call": "media/calls/b-white-backed-duck.mp3",
      "photo": "",
-     "bytes": 103697
+     "bytes": 43596
     },
     {
      "id": "b-white-backed-mousebird",
@@ -8397,7 +8397,7 @@ window.AGA_DATA = {
      "group": "Mousebird",
      "call": "media/calls/b-white-backed-mousebird.mp3",
      "photo": "",
-     "bytes": 120415
+     "bytes": 50904
     },
     {
      "id": "b-white-backed-night-heron",
@@ -8405,7 +8405,7 @@ window.AGA_DATA = {
      "group": "heron",
      "call": "media/calls/b-white-backed-night-heron.mp3",
      "photo": "",
-     "bytes": 90740
+     "bytes": 37800
     },
     {
      "id": "b-white-backed-vulture",
@@ -8413,7 +8413,7 @@ window.AGA_DATA = {
      "group": "Vulture",
      "call": "media/calls/b-white-backed-vulture.mp3",
      "photo": "",
-     "bytes": 173914
+     "bytes": 74340
     },
     {
      "id": "b-white-bellied-storm-petrel",
@@ -8421,7 +8421,7 @@ window.AGA_DATA = {
      "group": "petrel",
      "call": "media/calls/b-white-bellied-storm-petrel.mp3",
      "photo": "",
-     "bytes": 450688
+     "bytes": 196812
     },
     {
      "id": "b-white-breasted-cormorant",
@@ -8429,7 +8429,7 @@ window.AGA_DATA = {
      "group": "Cormorant",
      "call": "media/calls/b-white-breasted-cormorant.mp3",
      "photo": "",
-     "bytes": 157541
+     "bytes": 64260
     },
     {
      "id": "b-white-chested-alethe",
@@ -8437,7 +8437,7 @@ window.AGA_DATA = {
      "group": "Alethe",
      "call": "media/calls/b-white-chested-alethe.mp3",
      "photo": "",
-     "bytes": 86978
+     "bytes": 36288
     },
     {
      "id": "b-white-chinned-petrel",
@@ -8445,7 +8445,7 @@ window.AGA_DATA = {
      "group": "Petrel",
      "call": "media/calls/b-white-chinned-petrel.mp3",
      "photo": "",
-     "bytes": 55214
+     "bytes": 22428
     },
     {
      "id": "b-white-crowned-lapwing",
@@ -8453,7 +8453,7 @@ window.AGA_DATA = {
      "group": "Lapwing",
      "call": "media/calls/b-white-crowned-lapwing.mp3",
      "photo": "",
-     "bytes": 161793
+     "bytes": 69048
     },
     {
      "id": "b-white-faced-whistling-duck",
@@ -8461,7 +8461,7 @@ window.AGA_DATA = {
      "group": "Duck",
      "call": "media/calls/b-white-faced-whistling-duck.mp3",
      "photo": "",
-     "bytes": 137970
+     "bytes": 58464
     },
     {
      "id": "b-white-fronted-bee-eater",
@@ -8469,7 +8469,7 @@ window.AGA_DATA = {
      "group": "eater",
      "call": "media/calls/b-white-fronted-bee-eater.mp3",
      "photo": "",
-     "bytes": 119161
+     "bytes": 50400
     },
     {
      "id": "b-white-fronted-plover",
@@ -8477,7 +8477,7 @@ window.AGA_DATA = {
      "group": "Plover",
      "call": "media/calls/b-white-fronted-plover.mp3",
      "photo": "",
-     "bytes": 176422
+     "bytes": 75348
     },
     {
      "id": "b-white-necked-raven",
@@ -8485,7 +8485,7 @@ window.AGA_DATA = {
      "group": "Raven",
      "call": "media/calls/b-white-necked-raven.mp3",
      "photo": "",
-     "bytes": 74858
+     "bytes": 30996
     },
     {
      "id": "b-white-rumped-sandpiper",
@@ -8493,7 +8493,7 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "call": "media/calls/b-white-rumped-sandpiper.mp3",
      "photo": "",
-     "bytes": 104951
+     "bytes": 44100
     },
     {
      "id": "b-white-rumped-swift",
@@ -8501,7 +8501,7 @@ window.AGA_DATA = {
      "group": "Swift",
      "call": "media/calls/b-white-rumped-swift.mp3",
      "photo": "",
-     "bytes": 123759
+     "bytes": 52416
     },
     {
      "id": "b-white-tailed-tropicbird",
@@ -8509,7 +8509,7 @@ window.AGA_DATA = {
      "group": "Tropicbird",
      "call": "media/calls/b-white-tailed-tropicbird.mp3",
      "photo": "",
-     "bytes": 86143
+     "bytes": 36036
     },
     {
      "id": "b-white-throated-bee-eater",
@@ -8517,7 +8517,7 @@ window.AGA_DATA = {
      "group": "eater",
      "call": "media/calls/b-white-throated-bee-eater.mp3",
      "photo": "",
-     "bytes": 123341
+     "bytes": 52164
     },
     {
      "id": "b-white-throated-swallow",
@@ -8525,7 +8525,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "call": "media/calls/b-white-throated-swallow.mp3",
      "photo": "",
-     "bytes": 82381
+     "bytes": 34272
     },
     {
      "id": "b-white-winged-tern",
@@ -8533,7 +8533,7 @@ window.AGA_DATA = {
      "group": "Tern",
      "call": "media/calls/b-white-winged-tern.mp3",
      "photo": "",
-     "bytes": 132954
+     "bytes": 56448
     },
     {
      "id": "b-white-winged-wiowbird",
@@ -8541,7 +8541,7 @@ window.AGA_DATA = {
      "group": "Wiowbird",
      "call": "media/calls/b-white-winged-wiowbird.mp3",
      "photo": "",
-     "bytes": 166391
+     "bytes": 71064
     },
     {
      "id": "b-wilsons-phalarope",
@@ -8549,7 +8549,7 @@ window.AGA_DATA = {
      "group": "Phalarope",
      "call": "media/calls/b-wilsons-phalarope.mp3",
      "photo": "",
-     "bytes": 98681
+     "bytes": 41328
     },
     {
      "id": "b-wilsons-storm-petrel",
@@ -8557,7 +8557,7 @@ window.AGA_DATA = {
      "group": "petrel",
      "call": "media/calls/b-wilsons-storm-petrel.mp3",
      "photo": "",
-     "bytes": 370816
+     "bytes": 161784
     },
     {
      "id": "b-wire-tailed-swallow",
@@ -8565,7 +8565,7 @@ window.AGA_DATA = {
      "group": "Swallow",
      "call": "media/calls/b-wire-tailed-swallow.mp3",
      "photo": "media/birds/wire-tailed-swallow.jpg",
-     "bytes": 115400,
+     "bytes": 48636,
      "f": 1
     },
     {
@@ -8574,7 +8574,7 @@ window.AGA_DATA = {
      "group": "Sandpiper",
      "call": "media/calls/b-wood-sandpiper.mp3",
      "photo": "",
-     "bytes": 131282
+     "bytes": 55692
     },
     {
      "id": "b-woolly-necked-stork",
@@ -8582,7 +8582,7 @@ window.AGA_DATA = {
      "group": "Stork",
      "call": "media/calls/b-woolly-necked-stork.mp3",
      "photo": "",
-     "bytes": 63155
+     "bytes": 25704
     },
     {
      "id": "b-yellow-bishop",
@@ -8590,7 +8590,7 @@ window.AGA_DATA = {
      "group": "Bishop",
      "call": "media/calls/b-yellow-bishop.mp3",
      "photo": "",
-     "bytes": 258760
+     "bytes": 111384
     },
     {
      "id": "b-yellow-wagtail",
@@ -8598,7 +8598,7 @@ window.AGA_DATA = {
      "group": "Wagtail",
      "call": "media/calls/b-yellow-wagtail.mp3",
      "photo": "",
-     "bytes": 122087
+     "bytes": 51660
     },
     {
      "id": "b-yellow-weaver",
@@ -8606,7 +8606,7 @@ window.AGA_DATA = {
      "group": "Weaver",
      "call": "media/calls/b-yellow-weaver.mp3",
      "photo": "",
-     "bytes": 209858
+     "bytes": 90216
     },
     {
      "id": "b-yellow-billed-kite",
@@ -8614,7 +8614,7 @@ window.AGA_DATA = {
      "group": "Kite",
      "call": "media/calls/b-yellow-billed-kite.mp3",
      "photo": "",
-     "bytes": 223651
+     "bytes": 96012
     },
     {
      "id": "b-yellow-billed-duck",
@@ -8622,7 +8622,7 @@ window.AGA_DATA = {
      "group": "Duck",
      "call": "media/calls/b-yellow-billed-duck.mp3",
      "photo": "",
-     "bytes": 135462
+     "bytes": 57456
     },
     {
      "id": "b-yellow-billed-egret",
@@ -8630,7 +8630,7 @@ window.AGA_DATA = {
      "group": "Egret",
      "call": "media/calls/b-yellow-billed-egret.mp3",
      "photo": "",
-     "bytes": 436352
+     "bytes": 189756
     },
     {
      "id": "b-yellow-billed-oxpecker",
@@ -8638,7 +8638,7 @@ window.AGA_DATA = {
      "group": "Oxpecker",
      "call": "media/calls/b-yellow-billed-oxpecker.mp3",
      "photo": "media/birds/yellow-billed-oxpecker.jpg",
-     "bytes": 141731,
+     "bytes": 60228,
      "f": 1
     },
     {
@@ -8647,7 +8647,7 @@ window.AGA_DATA = {
      "group": "Stork",
      "call": "media/calls/b-yellow-billed-stork.mp3",
      "photo": "",
-     "bytes": 145493
+     "bytes": 61992
     },
     {
      "id": "b-yellow-crowned-bishop",
@@ -8655,7 +8655,7 @@ window.AGA_DATA = {
      "group": "Bishop",
      "call": "media/calls/b-yellow-crowned-bishop.mp3",
      "photo": "",
-     "bytes": 190632
+     "bytes": 81648
     },
     {
      "id": "b-yellow-fronted-canary",
@@ -8663,7 +8663,7 @@ window.AGA_DATA = {
      "group": "Canary",
      "call": "media/calls/b-yellow-fronted-canary.mp3",
      "photo": "",
-     "bytes": 144657
+     "bytes": 61488
     },
     {
      "id": "b-yellow-mantled-widowbird",
@@ -8671,7 +8671,7 @@ window.AGA_DATA = {
      "group": "Widowbird",
      "call": "media/calls/b-yellow-mantled-widowbird.mp3",
      "photo": "",
-     "bytes": 174750
+     "bytes": 74844
     },
     {
      "id": "b-yellow-nosed-albatross",
@@ -8679,7 +8679,7 @@ window.AGA_DATA = {
      "group": "Albatross",
      "call": "media/calls/b-yellow-nosed-albatross.mp3",
      "photo": "",
-     "bytes": 143821
+     "bytes": 61236
     },
     {
      "id": "b-yellow-throated-sandgrouse",
@@ -8687,7 +8687,7 @@ window.AGA_DATA = {
      "group": "Sandgrouse",
      "call": "media/calls/b-yellow-throated-sandgrouse.mp3",
      "photo": "",
-     "bytes": 84889
+     "bytes": 35280
     },
     {
      "id": "b-blue-quail",
@@ -8695,7 +8695,7 @@ window.AGA_DATA = {
      "group": "Quail",
      "call": "media/calls/b-blue-quail.mp3",
      "photo": "",
-     "bytes": 419968
+     "bytes": 182700
     },
     {
      "id": "b-mottled-spinetail",
@@ -8703,7 +8703,7 @@ window.AGA_DATA = {
      "group": "Spinetail",
      "call": "media/calls/b-mottled-spinetail.mp3",
      "photo": "",
-     "bytes": 114982
+     "bytes": 48384
     }
    ]
   },
@@ -8721,7 +8721,7 @@ window.AGA_DATA = {
      "group": "Squeakers",
      "call": "media/frogs/f-shovel-footed-squeaker.mp3",
      "photo": "",
-     "bytes": 591599
+     "bytes": 92232
     },
     {
      "id": "f-bush-squeaker",
@@ -8730,7 +8730,7 @@ window.AGA_DATA = {
      "group": "Squeakers",
      "call": "media/frogs/f-bush-squeaker.mp3",
      "photo": "",
-     "bytes": 610394
+     "bytes": 104580
     },
     {
      "id": "f-dwarf-squeaker",
@@ -8739,7 +8739,7 @@ window.AGA_DATA = {
      "group": "Squeakers",
      "call": "media/frogs/f-dwarf-squeaker.mp3",
      "photo": "",
-     "bytes": 760239
+     "bytes": 141372
     },
     {
      "id": "f-bocages-tree-frog",
@@ -8748,7 +8748,7 @@ window.AGA_DATA = {
      "group": "Tree frogs",
      "call": "media/frogs/f-bocages-tree-frog.mp3",
      "photo": "",
-     "bytes": 613531
+     "bytes": 98532
     },
     {
      "id": "f-broadleys-tree-frog",
@@ -8757,7 +8757,7 @@ window.AGA_DATA = {
      "group": "Tree frogs",
      "call": "media/frogs/f-broadleys-tree-frog.mp3",
      "photo": "",
-     "bytes": 771524
+     "bytes": 144648
     },
     {
      "id": "f-yellow-spotted-tree-frog",
@@ -8766,7 +8766,7 @@ window.AGA_DATA = {
      "group": "Tree frogs",
      "call": "media/frogs/f-yellow-spotted-tree-frog.mp3",
      "photo": "",
-     "bytes": 472734
+     "bytes": 101556
     },
     {
      "id": "f-brown-backed-tree-frog",
@@ -8775,7 +8775,7 @@ window.AGA_DATA = {
      "group": "Tree frogs",
      "call": "media/frogs/f-brown-backed-tree-frog.mp3",
      "photo": "",
-     "bytes": 750212
+     "bytes": 138348
     },
     {
      "id": "f-natal-tree-frog",
@@ -8784,7 +8784,7 @@ window.AGA_DATA = {
      "group": "Tree frogs",
      "call": "media/frogs/f-natal-tree-frog.mp3",
      "photo": "",
-     "bytes": 554599
+     "bytes": 88452
     },
     {
      "id": "f-long-toed-tree-frog",
@@ -8793,7 +8793,7 @@ window.AGA_DATA = {
      "group": "Tree frogs",
      "call": "media/frogs/f-long-toed-tree-frog.mp3",
      "photo": "",
-     "bytes": 674351
+     "bytes": 109368
     },
     {
      "id": "f-strawberry-rain-frog",
@@ -8802,7 +8802,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-strawberry-rain-frog.mp3",
      "photo": "",
-     "bytes": 780932
+     "bytes": 147420
     },
     {
      "id": "f-bushveld-rain-frog-b-a-adspersus",
@@ -8811,7 +8811,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-bushveld-rain-frog-b-a-adspersus.mp3",
      "photo": "media/frogs/f-bushveld-rain-frog-b-a-adspersus.jpg",
-     "bytes": 547709
+     "bytes": 65268
     },
     {
      "id": "f-bushveld-rain-frog-b-a-pentheri",
@@ -8820,7 +8820,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-bushveld-rain-frog-b-a-pentheri.mp3",
      "photo": "",
-     "bytes": 859296
+     "bytes": 156240
     },
     {
      "id": "f-bilbos-rain-frog",
@@ -8829,7 +8829,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-bilbos-rain-frog.mp3",
      "photo": "",
-     "bytes": 889386
+     "bytes": 178920
     },
     {
      "id": "f-plain-rain-frog",
@@ -8838,7 +8838,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-plain-rain-frog.mp3",
      "photo": "",
-     "bytes": 709450
+     "bytes": 126504
     },
     {
      "id": "f-cape-rain-frog",
@@ -8847,7 +8847,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-cape-rain-frog.mp3",
      "photo": "",
-     "bytes": 762741
+     "bytes": 149184
     },
     {
      "id": "f-desert-rain-frog",
@@ -8856,7 +8856,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-desert-rain-frog.mp3",
      "photo": "",
-     "bytes": 743307
+     "bytes": 136332
     },
     {
      "id": "f-cape-mountain-rain-frog",
@@ -8865,7 +8865,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-cape-mountain-rain-frog.mp3",
      "photo": "",
-     "bytes": 696921
+     "bytes": 122976
     },
     {
      "id": "f-mozambique-rain-frog",
@@ -8874,7 +8874,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-mozambique-rain-frog.mp3",
      "photo": "",
-     "bytes": 603002
+     "bytes": 151704
     },
     {
      "id": "f-namaqua-rain-frog",
@@ -8883,7 +8883,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-namaqua-rain-frog.mp3",
      "photo": "",
-     "bytes": 685007
+     "bytes": 119448
     },
     {
      "id": "f-powers-rain-frog",
@@ -8892,7 +8892,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-powers-rain-frog.mp3",
      "photo": "",
-     "bytes": 705064
+     "bytes": 125244
     },
     {
      "id": "f-sand-rain-frog-b-r-rosei",
@@ -8901,7 +8901,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-sand-rain-frog-b-r-rosei.mp3",
      "photo": "",
-     "bytes": 764622
+     "bytes": 135576
     },
     {
      "id": "f-sand-rain-frog-b-r-vansoni",
@@ -8910,7 +8910,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-sand-rain-frog-b-r-vansoni.mp3",
      "photo": "",
-     "bytes": 611024
+     "bytes": 90720
     },
     {
      "id": "f-whistling-rain-frog",
@@ -8919,7 +8919,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-whistling-rain-frog.mp3",
      "photo": "",
-     "bytes": 780300
+     "bytes": 147168
     },
     {
      "id": "f-northern-forest-rain-frog-b-s-sylvestris",
@@ -8928,7 +8928,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-northern-forest-rain-frog-b-s-sylvestris.mp3",
      "photo": "",
-     "bytes": 453283
+     "bytes": 74088
     },
     {
      "id": "f-northern-forest-rain-frog-b-s-taeniatus",
@@ -8937,7 +8937,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-northern-forest-rain-frog-b-s-taeniatus.mp3",
      "photo": "",
-     "bytes": 646145
+     "bytes": 93996
     },
     {
      "id": "f-plaintive-rain-frog",
@@ -8946,7 +8946,7 @@ window.AGA_DATA = {
      "group": "Rain frogs",
      "call": "media/frogs/f-plaintive-rain-frog.mp3",
      "photo": "",
-     "bytes": 671215
+     "bytes": 115416
     },
     {
      "id": "f-eastern-olive-toad",
@@ -8955,7 +8955,7 @@ window.AGA_DATA = {
      "group": "Toads",
      "call": "media/frogs/f-eastern-olive-toad.mp3",
      "photo": "",
-     "bytes": 695661
+     "bytes": 122472
     },
     {
      "id": "f-guttural-toad",
@@ -8964,7 +8964,7 @@ window.AGA_DATA = {
      "group": "Toads",
      "call": "media/frogs/f-guttural-toad.mp3",
      "photo": "",
-     "bytes": 666193,
+     "bytes": 113904,
      "f": 1
     },
     {
@@ -8974,7 +8974,7 @@ window.AGA_DATA = {
      "group": "Toads",
      "call": "media/frogs/f-flat-backed-toad.mp3",
      "photo": "",
-     "bytes": 619802
+     "bytes": 100296
     },
     {
      "id": "f-western-leopard-toad",
@@ -8983,7 +8983,7 @@ window.AGA_DATA = {
      "group": "Toads",
      "call": "media/frogs/f-western-leopard-toad.mp3",
      "photo": "",
-     "bytes": 825444
+     "bytes": 160272
     },
     {
      "id": "f-eastern-leopard-toad",
@@ -8992,7 +8992,7 @@ window.AGA_DATA = {
      "group": "Toads",
      "call": "media/frogs/f-eastern-leopard-toad.mp3",
      "photo": "",
-     "bytes": 750835
+     "bytes": 138600
     },
     {
      "id": "f-western-olive-toad",
@@ -9001,7 +9001,7 @@ window.AGA_DATA = {
      "group": "Toads",
      "call": "media/frogs/f-western-olive-toad.mp3",
      "photo": "",
-     "bytes": 856784
+     "bytes": 162540
     },
     {
      "id": "f-raucous-toad",
@@ -9010,7 +9010,7 @@ window.AGA_DATA = {
      "group": "Toads",
      "call": "media/frogs/f-raucous-toad.mp3",
      "photo": "",
-     "bytes": 696909
+     "bytes": 122976
     },
     {
      "id": "f-beira-pygmy-toad",
@@ -9019,7 +9019,7 @@ window.AGA_DATA = {
      "group": "Pygmy toads",
      "call": "media/frogs/f-beira-pygmy-toad.mp3",
      "photo": "",
-     "bytes": 523252
+     "bytes": 72324
     },
     {
      "id": "f-dombe-pygmy-toad",
@@ -9028,7 +9028,7 @@ window.AGA_DATA = {
      "group": "Pygmy toads",
      "call": "media/frogs/f-dombe-pygmy-toad.mp3",
      "photo": "",
-     "bytes": 516357
+     "bytes": 70308
     },
     {
      "id": "f-northern-pygmy-toad",
@@ -9037,7 +9037,7 @@ window.AGA_DATA = {
      "group": "Pygmy toads",
      "call": "media/frogs/f-northern-pygmy-toad.mp3",
      "photo": "",
-     "bytes": 654914
+     "bytes": 110628
     },
     {
      "id": "f-hoeschs-pygmy-toad",
@@ -9046,7 +9046,7 @@ window.AGA_DATA = {
      "group": "Pygmy toads",
      "call": "media/frogs/f-hoeschs-pygmy-toad.mp3",
      "photo": "",
-     "bytes": 851770
+     "bytes": 168084
     },
     {
      "id": "f-southern-pygmy-toad",
@@ -9055,7 +9055,7 @@ window.AGA_DATA = {
      "group": "Pygmy toads",
      "call": "media/frogs/f-southern-pygmy-toad.mp3",
      "photo": "",
-     "bytes": 592222
+     "bytes": 92232
     },
     {
      "id": "f-amatola-toad",
@@ -9064,7 +9064,7 @@ window.AGA_DATA = {
      "group": "Toads",
      "call": "media/frogs/f-amatola-toad.mp3",
      "photo": "",
-     "bytes": 596602
+     "bytes": 93744
     },
     {
      "id": "f-cape-sand-toad",
@@ -9073,7 +9073,7 @@ window.AGA_DATA = {
      "group": "Toads",
      "call": "media/frogs/f-cape-sand-toad.mp3",
      "photo": "",
-     "bytes": 690646
+     "bytes": 114156
     },
     {
      "id": "f-karoo-toad",
@@ -9082,7 +9082,7 @@ window.AGA_DATA = {
      "group": "Toads",
      "call": "media/frogs/f-karoo-toad.mp3",
      "photo": "",
-     "bytes": 654906
+     "bytes": 110628
     },
     {
      "id": "f-paradise-toad",
@@ -9091,7 +9091,7 @@ window.AGA_DATA = {
      "group": "Toads",
      "call": "media/frogs/f-paradise-toad.mp3",
      "photo": "",
-     "bytes": 479365
+     "bytes": 59472
     },
     {
      "id": "f-tradouw-mountain-toad",
@@ -9100,7 +9100,7 @@ window.AGA_DATA = {
      "group": "Toads",
      "call": "media/frogs/f-tradouw-mountain-toad.mp3",
      "photo": "",
-     "bytes": 708831
+     "bytes": 119448
     },
     {
      "id": "f-red-toad",
@@ -9109,7 +9109,7 @@ window.AGA_DATA = {
      "group": "Toads",
      "call": "media/frogs/f-red-toad.mp3",
      "photo": "",
-     "bytes": 799095
+     "bytes": 152712
     },
     {
      "id": "f-natal-cascade-frog",
@@ -9118,7 +9118,7 @@ window.AGA_DATA = {
      "group": "Cascade frogs",
      "call": "media/frogs/f-natal-cascade-frog.mp3",
      "photo": "",
-     "bytes": 609147
+     "bytes": 90216
     },
     {
      "id": "f-cederberg-ghost-frog",
@@ -9127,7 +9127,7 @@ window.AGA_DATA = {
      "group": "Ghost frogs",
      "call": "media/frogs/f-cederberg-ghost-frog.mp3",
      "photo": "",
-     "bytes": 990953
+     "bytes": 208656
     },
     {
      "id": "f-hewitts-ghost-frog",
@@ -9136,7 +9136,7 @@ window.AGA_DATA = {
      "group": "Ghost frogs",
      "call": "media/frogs/f-hewitts-ghost-frog.mp3",
      "photo": "",
-     "bytes": 668704
+     "bytes": 114660
     },
     {
      "id": "f-eastern-ghost-frog",
@@ -9145,7 +9145,7 @@ window.AGA_DATA = {
      "group": "Ghost frogs",
      "call": "media/frogs/f-eastern-ghost-frog.mp3",
      "photo": "",
-     "bytes": 545826
+     "bytes": 78876
     },
     {
      "id": "f-cape-ghost-frog",
@@ -9154,7 +9154,7 @@ window.AGA_DATA = {
      "group": "Ghost frogs",
      "call": "media/frogs/f-cape-ghost-frog.mp3",
      "photo": "",
-     "bytes": 555852
+     "bytes": 81648
     },
     {
      "id": "f-southern-ghost-frog",
@@ -9163,7 +9163,7 @@ window.AGA_DATA = {
      "group": "Ghost frogs",
      "call": "media/frogs/f-southern-ghost-frog.mp3",
      "photo": "",
-     "bytes": 793463
+     "bytes": 150948
     },
     {
      "id": "f-table-mountain-ghost-frog",
@@ -9172,7 +9172,7 @@ window.AGA_DATA = {
      "group": "Ghost frogs",
      "call": "media/frogs/f-table-mountain-ghost-frog.mp3",
      "photo": "",
-     "bytes": 412917
+     "bytes": 40068
     },
     {
      "id": "f-spotted-shovel-nosed-frog",
@@ -9181,7 +9181,7 @@ window.AGA_DATA = {
      "group": "Shovel-nosed frogs",
      "call": "media/frogs/f-spotted-shovel-nosed-frog.mp3",
      "photo": "",
-     "bytes": 851150
+     "bytes": 167832
     },
     {
      "id": "f-mottled-shovel-nosed-frog",
@@ -9190,7 +9190,7 @@ window.AGA_DATA = {
      "group": "Shovel-nosed frogs",
      "call": "media/frogs/f-mottled-shovel-nosed-frog.mp3",
      "photo": "",
-     "bytes": 722630
+     "bytes": 130284
     },
     {
      "id": "f-golden-leaf-folding-frog",
@@ -9199,7 +9199,7 @@ window.AGA_DATA = {
      "group": "Leaf-folding frogs",
      "call": "media/frogs/f-golden-leaf-folding-frog.mp3",
      "photo": "",
-     "bytes": 955846
+     "bytes": 198324
     },
     {
      "id": "f-snoring-leaf-folding-frog",
@@ -9208,7 +9208,7 @@ window.AGA_DATA = {
      "group": "Leaf-folding frogs",
      "call": "media/frogs/f-snoring-leaf-folding-frog.mp3",
      "photo": "",
-     "bytes": 472479
+     "bytes": 58464
     },
     {
      "id": "f-delicate-leaf-folding-frog",
@@ -9217,7 +9217,7 @@ window.AGA_DATA = {
      "group": "Leaf-folding frogs",
      "call": "media/frogs/f-delicate-leaf-folding-frog.mp3",
      "photo": "",
-     "bytes": 918862
+     "bytes": 194544
     },
     {
      "id": "f-greater-leaf-folding-frog",
@@ -9226,7 +9226,7 @@ window.AGA_DATA = {
      "group": "Leaf-folding frogs",
      "call": "media/frogs/f-greater-leaf-folding-frog.mp3",
      "photo": "",
-     "bytes": 760873
+     "bytes": 141624
     },
     {
      "id": "f-knysna-leaf-folding-frog",
@@ -9235,7 +9235,7 @@ window.AGA_DATA = {
      "group": "Leaf-folding frogs",
      "call": "media/frogs/f-knysna-leaf-folding-frog.mp3",
      "photo": "",
-     "bytes": 753973
+     "bytes": 139608
     },
     {
      "id": "f-natal-leaf-folding-frog",
@@ -9244,7 +9244,7 @@ window.AGA_DATA = {
      "group": "Leaf-folding frogs",
      "call": "media/frogs/f-natal-leaf-folding-frog.mp3",
      "photo": "",
-     "bytes": 749586
+     "bytes": 131292
     },
     {
      "id": "f-sharp-nosed-reed-frog",
@@ -9253,7 +9253,7 @@ window.AGA_DATA = {
      "group": "Reed frogs",
      "call": "media/frogs/f-sharp-nosed-reed-frog.mp3",
      "photo": "",
-     "bytes": 641123
+     "bytes": 106596
     },
     {
      "id": "f-argus-reed-frog",
@@ -9262,7 +9262,7 @@ window.AGA_DATA = {
      "group": "Reed frogs",
      "call": "media/frogs/f-argus-reed-frog.mp3",
      "photo": "",
-     "bytes": 611647
+     "bytes": 98028
     },
     {
      "id": "f-bocages-sharp-nosed-reed-frog",
@@ -9271,7 +9271,7 @@ window.AGA_DATA = {
      "group": "Reed frogs",
      "call": "media/frogs/f-bocages-sharp-nosed-reed-frog.mp3",
      "photo": "",
-     "bytes": 626716
+     "bytes": 102312
     },
     {
      "id": "f-arum-lily-frog",
@@ -9280,7 +9280,7 @@ window.AGA_DATA = {
      "group": "Lily frogs",
      "call": "media/frogs/f-arum-lily-frog.mp3",
      "photo": "",
-     "bytes": 631713
+     "bytes": 103824
     },
     {
      "id": "f-marginated-reed-frog",
@@ -9289,7 +9289,7 @@ window.AGA_DATA = {
      "group": "Reed frogs",
      "call": "media/frogs/f-marginated-reed-frog.mp3",
      "photo": "",
-     "bytes": 473103
+     "bytes": 57708
     },
     {
      "id": "f-painted-reed-frog",
@@ -9298,7 +9298,7 @@ window.AGA_DATA = {
      "group": "Reed frogs",
      "call": "media/frogs/f-painted-reed-frog.mp3",
      "photo": "",
-     "bytes": 574664
+     "bytes": 87192
     },
     {
      "id": "f-mitchells-reed-frog",
@@ -9307,7 +9307,7 @@ window.AGA_DATA = {
      "group": "Reed frogs",
      "call": "media/frogs/f-mitchells-reed-frog.mp3",
      "photo": "",
-     "bytes": 492537
+     "bytes": 63252
     },
     {
      "id": "f-long-reed-frog",
@@ -9316,7 +9316,7 @@ window.AGA_DATA = {
      "group": "Reed frogs",
      "call": "media/frogs/f-long-reed-frog.mp3",
      "photo": "",
-     "bytes": 707569
+     "bytes": 126000
     },
     {
      "id": "f-angolan-reed-frog",
@@ -9325,7 +9325,7 @@ window.AGA_DATA = {
      "group": "Reed frogs",
      "call": "media/frogs/f-angolan-reed-frog.mp3",
      "photo": "media/frogs/f-angolan-reed-frog.jpg",
-     "bytes": 780300,
+     "bytes": 147168,
      "f": 1
     },
     {
@@ -9335,7 +9335,7 @@ window.AGA_DATA = {
      "group": "Reed frogs",
      "call": "media/frogs/f-parkers-reed-frog.mp3",
      "photo": "",
-     "bytes": 530777
+     "bytes": 74340
     },
     {
      "id": "f-pickersgills-reed-frog",
@@ -9344,7 +9344,7 @@ window.AGA_DATA = {
      "group": "Reed frogs",
      "call": "media/frogs/f-pickersgills-reed-frog.mp3",
      "photo": "",
-     "bytes": 632978
+     "bytes": 104328
     },
     {
      "id": "f-water-lily-frog",
@@ -9353,7 +9353,7 @@ window.AGA_DATA = {
      "group": "Lily frogs",
      "call": "media/frogs/f-water-lily-frog.mp3",
      "photo": "",
-     "bytes": 716348
+     "bytes": 128520
     },
     {
      "id": "f-yellow-striped-reed-frog",
@@ -9362,7 +9362,7 @@ window.AGA_DATA = {
      "group": "Reed frogs",
      "call": "media/frogs/f-yellow-striped-reed-frog.mp3",
      "photo": "",
-     "bytes": 627961
+     "bytes": 102816
     },
     {
      "id": "f-swynnertons-reed-frog",
@@ -9371,7 +9371,7 @@ window.AGA_DATA = {
      "group": "Reed frogs",
      "call": "media/frogs/f-swynnertons-reed-frog.mp3",
      "photo": "",
-     "bytes": 762752
+     "bytes": 142128
     },
     {
      "id": "f-tinker-reed-frog",
@@ -9380,7 +9380,7 @@ window.AGA_DATA = {
      "group": "Reed frogs",
      "call": "media/frogs/f-tinker-reed-frog.mp3",
      "photo": "",
-     "bytes": 735163
+     "bytes": 134064
     },
     {
      "id": "f-red-legged-kassina",
@@ -9389,7 +9389,7 @@ window.AGA_DATA = {
      "group": "Kassinas",
      "call": "media/frogs/f-red-legged-kassina.mp3",
      "photo": "",
-     "bytes": 711336
+     "bytes": 127008
     },
     {
      "id": "f-bubbling-kassina",
@@ -9398,7 +9398,7 @@ window.AGA_DATA = {
      "group": "Kassinas",
      "call": "media/frogs/f-bubbling-kassina.mp3",
      "photo": "",
-     "bytes": 486894
+     "bytes": 68544
     },
     {
      "id": "f-rattling-frog",
@@ -9407,7 +9407,7 @@ window.AGA_DATA = {
      "group": "Rattling frogs",
      "call": "media/frogs/f-rattling-frog.mp3",
      "photo": "",
-     "bytes": 613526
+     "bytes": 105588
     },
     {
      "id": "f-marbled-rubber-frog",
@@ -9416,7 +9416,7 @@ window.AGA_DATA = {
      "group": "Rubber frogs",
      "call": "media/frogs/f-marbled-rubber-frog.mp3",
      "photo": "",
-     "bytes": 826068
+     "bytes": 153468
     },
     {
      "id": "f-banded-rubber-frog",
@@ -9425,7 +9425,7 @@ window.AGA_DATA = {
      "group": "Rubber frogs",
      "call": "media/frogs/f-banded-rubber-frog.mp3",
      "photo": "media/frogs/f-banded-rubber-frog.jpg",
-     "bytes": 719489,
+     "bytes": 129528,
      "f": 1
     },
     {
@@ -9435,7 +9435,7 @@ window.AGA_DATA = {
      "group": "Puddle frogs",
      "call": "media/frogs/f-east-african-puddle-frog.mp3",
      "photo": "",
-     "bytes": 839239
+     "bytes": 157500
     },
     {
      "id": "f-dwarf-puddle-frog",
@@ -9444,7 +9444,7 @@ window.AGA_DATA = {
      "group": "Puddle frogs",
      "call": "media/frogs/f-dwarf-puddle-frog.mp3",
      "photo": "",
-     "bytes": 748327
+     "bytes": 137844
     },
     {
      "id": "f-snoring-puddle-frog",
@@ -9453,7 +9453,7 @@ window.AGA_DATA = {
      "group": "Puddle frogs",
      "call": "media/frogs/f-snoring-puddle-frog.mp3",
      "photo": "",
-     "bytes": 708831
+     "bytes": 119448
     },
     {
      "id": "f-ornate-frog",
@@ -9462,7 +9462,7 @@ window.AGA_DATA = {
      "group": "Ornate frogs",
      "call": "media/frogs/f-ornate-frog.mp3",
      "photo": "",
-     "bytes": 639229
+     "bytes": 113148
     },
     {
      "id": "f-plain-grass-frog",
@@ -9471,7 +9471,7 @@ window.AGA_DATA = {
      "group": "Grass frogs",
      "call": "media/frogs/f-plain-grass-frog.mp3",
      "photo": "",
-     "bytes": 539554
+     "bytes": 83916
     },
     {
      "id": "f-guibes-grass-frog",
@@ -9480,7 +9480,7 @@ window.AGA_DATA = {
      "group": "Grass frogs",
      "call": "media/frogs/f-guibes-grass-frog.mp3",
      "photo": "",
-     "bytes": 717603
+     "bytes": 129024
     },
     {
      "id": "f-mapacha-grass-frog",
@@ -9489,7 +9489,7 @@ window.AGA_DATA = {
      "group": "Grass frogs",
      "call": "media/frogs/f-mapacha-grass-frog.mp3",
      "photo": "",
-     "bytes": 569647
+     "bytes": 85680
     },
     {
      "id": "f-mascarene-grass-frog",
@@ -9498,7 +9498,7 @@ window.AGA_DATA = {
      "group": "Grass frogs",
      "call": "media/frogs/f-mascarene-grass-frog.mp3",
      "photo": "",
-     "bytes": 711344
+     "bytes": 120204
     },
     {
      "id": "f-broad-banded-grass-frog",
@@ -9507,7 +9507,7 @@ window.AGA_DATA = {
      "group": "Grass frogs",
      "call": "media/frogs/f-broad-banded-grass-frog.mp3",
      "photo": "",
-     "bytes": 667457
+     "bytes": 114408
     },
     {
      "id": "f-sharp-nosed-grass-frog",
@@ -9516,7 +9516,7 @@ window.AGA_DATA = {
      "group": "Grass frogs",
      "call": "media/frogs/f-sharp-nosed-grass-frog.mp3",
      "photo": "",
-     "bytes": 646141
+     "bytes": 108108
     },
     {
      "id": "f-striped-grass-frog",
@@ -9525,7 +9525,7 @@ window.AGA_DATA = {
      "group": "Grass frogs",
      "call": "media/frogs/f-striped-grass-frog.mp3",
      "photo": "",
-     "bytes": 580936
+     "bytes": 82152
     },
     {
      "id": "f-schilluk-grass-frog",
@@ -9534,7 +9534,7 @@ window.AGA_DATA = {
      "group": "Grass frogs",
      "call": "media/frogs/f-schilluk-grass-frog.mp3",
      "photo": "",
-     "bytes": 767765
+     "bytes": 143640
     },
     {
      "id": "f-speckled-bellied-grass-frog",
@@ -9543,7 +9543,7 @@ window.AGA_DATA = {
      "group": "Grass frogs",
      "call": "media/frogs/f-speckled-bellied-grass-frog.mp3",
      "photo": "",
-     "bytes": 386594
+     "bytes": 32256
     },
     {
      "id": "f-dwarf-grass-frog",
@@ -9552,7 +9552,7 @@ window.AGA_DATA = {
      "group": "Grass frogs",
      "call": "media/frogs/f-dwarf-grass-frog.mp3",
      "photo": "",
-     "bytes": 777792
+     "bytes": 146412
     },
     {
      "id": "f-udzungwa-grass-frog",
@@ -9561,7 +9561,7 @@ window.AGA_DATA = {
      "group": "Grass frogs",
      "call": "media/frogs/f-udzungwa-grass-frog.mp3",
      "photo": "",
-     "bytes": 442383
+     "bytes": 48636
     },
     {
      "id": "f-cape-platanna",
@@ -9570,7 +9570,7 @@ window.AGA_DATA = {
      "group": "Platannas",
      "call": "media/frogs/f-cape-platanna.mp3",
      "photo": "",
-     "bytes": 516350
+     "bytes": 77112
     },
     {
      "id": "f-common-platanna",
@@ -9579,7 +9579,7 @@ window.AGA_DATA = {
      "group": "Platannas",
      "call": "media/frogs/f-common-platanna.mp3",
      "photo": "",
-     "bytes": 834211
+     "bytes": 169848
     },
     {
      "id": "f-mullers-platanna",
@@ -9588,7 +9588,7 @@ window.AGA_DATA = {
      "group": "Platannas",
      "call": "media/frogs/f-mullers-platanna.mp3",
      "photo": "media/frogs/f-mullers-platanna.jpg",
-     "bytes": 592844
+     "bytes": 99540
     },
     {
      "id": "f-peters-platanna",
@@ -9597,7 +9597,7 @@ window.AGA_DATA = {
      "group": "Platannas",
      "call": "media/frogs/f-peters-platanna.mp3",
      "photo": "",
-     "bytes": 357113
+     "bytes": 30744
     },
     {
      "id": "f-natal-chirping-frog",
@@ -9606,7 +9606,7 @@ window.AGA_DATA = {
      "group": "Chirping frogs",
      "call": "media/frogs/f-natal-chirping-frog.mp3",
      "photo": "",
-     "bytes": 765880
+     "bytes": 142884
     },
     {
      "id": "f-mistbelt-chirping-frog",
@@ -9615,7 +9615,7 @@ window.AGA_DATA = {
      "group": "Chirping frogs",
      "call": "media/frogs/f-mistbelt-chirping-frog.mp3",
      "photo": "",
-     "bytes": 659310
+     "bytes": 104832
     },
     {
      "id": "f-hogsback-chirping-frog",
@@ -9624,7 +9624,7 @@ window.AGA_DATA = {
      "group": "Chirping frogs",
      "call": "media/frogs/f-hogsback-chirping-frog.mp3",
      "photo": "",
-     "bytes": 554606
+     "bytes": 81396
     },
     {
      "id": "f-bainskloof-moss-frog",
@@ -9633,7 +9633,7 @@ window.AGA_DATA = {
      "group": "Moss frogs",
      "call": "media/frogs/f-bainskloof-moss-frog.mp3",
      "photo": "",
-     "bytes": 862430
+     "bytes": 171108
     },
     {
      "id": "f-drewess-moss-frog",
@@ -9642,7 +9642,7 @@ window.AGA_DATA = {
      "group": "Moss frogs",
      "call": "media/frogs/f-drewess-moss-frog.mp3",
      "photo": "",
-     "bytes": 814782
+     "bytes": 157248
     },
     {
      "id": "f-landdroskop-moss-frog",
@@ -9651,7 +9651,7 @@ window.AGA_DATA = {
      "group": "Moss frogs",
      "call": "media/frogs/f-landdroskop-moss-frog.mp3",
      "photo": "",
-     "bytes": 810398
+     "bytes": 148932
     },
     {
      "id": "f-cape-peninsula-moss-frog",
@@ -9660,7 +9660,7 @@ window.AGA_DATA = {
      "group": "Moss frogs",
      "call": "media/frogs/f-cape-peninsula-moss-frog.mp3",
      "photo": "",
-     "bytes": 821059
+     "bytes": 152208
     },
     {
      "id": "f-rough-moss-frog",
@@ -9669,7 +9669,7 @@ window.AGA_DATA = {
      "group": "Moss frogs",
      "call": "media/frogs/f-rough-moss-frog.mp3",
      "photo": "",
-     "bytes": 814777
+     "bytes": 157248
     },
     {
      "id": "f-northern-moss-frog",
@@ -9678,7 +9678,7 @@ window.AGA_DATA = {
      "group": "Moss frogs",
      "call": "media/frogs/f-northern-moss-frog.mp3",
      "photo": "",
-     "bytes": 1054898
+     "bytes": 220248
     },
     {
      "id": "f-de-villierss-moss-frog",
@@ -9687,7 +9687,7 @@ window.AGA_DATA = {
      "group": "Moss frogs",
      "call": "media/frogs/f-de-villierss-moss-frog.mp3",
      "photo": "",
-     "bytes": 872466
+     "bytes": 174132
     },
     {
      "id": "f-boettgers-caco",
@@ -9696,7 +9696,7 @@ window.AGA_DATA = {
      "group": "Cacos",
      "call": "media/frogs/f-boettgers-caco.mp3",
      "photo": "",
-     "bytes": 656164
+     "bytes": 117936
     },
     {
      "id": "f-cape-caco",
@@ -9705,7 +9705,7 @@ window.AGA_DATA = {
      "group": "Cacos",
      "call": "media/frogs/f-cape-caco.mp3",
      "photo": "",
-     "bytes": 755213
+     "bytes": 146916
     },
     {
      "id": "f-karoo-caco",
@@ -9714,7 +9714,7 @@ window.AGA_DATA = {
      "group": "Cacos",
      "call": "media/frogs/f-karoo-caco.mp3",
      "photo": "",
-     "bytes": 840479
+     "bytes": 164808
     },
     {
      "id": "f-namaqua-caco",
@@ -9723,7 +9723,7 @@ window.AGA_DATA = {
      "group": "Cacos",
      "call": "media/frogs/f-namaqua-caco.mp3",
      "photo": "",
-     "bytes": 861171
+     "bytes": 170856
     },
     {
      "id": "f-bronze-caco",
@@ -9732,7 +9732,7 @@ window.AGA_DATA = {
      "group": "Cacos",
      "call": "media/frogs/f-bronze-caco.mp3",
      "photo": "",
-     "bytes": 825430
+     "bytes": 167328
     },
     {
      "id": "f-mountain-caco",
@@ -9741,7 +9741,7 @@ window.AGA_DATA = {
      "group": "Cacos",
      "call": "media/frogs/f-mountain-caco.mp3",
      "photo": "",
-     "bytes": 1023545
+     "bytes": 218232
     },
     {
      "id": "f-flat-caco",
@@ -9750,7 +9750,7 @@ window.AGA_DATA = {
      "group": "Cacos",
      "call": "media/frogs/f-flat-caco.mp3",
      "photo": "",
-     "bytes": 751450
+     "bytes": 138852
     },
     {
      "id": "f-striped-caco",
@@ -9759,7 +9759,7 @@ window.AGA_DATA = {
      "group": "Cacos",
      "call": "media/frogs/f-striped-caco.mp3",
      "photo": "",
-     "bytes": 607886
+     "bytes": 97020
     },
     {
      "id": "f-rhythmic-caco",
@@ -9768,7 +9768,7 @@ window.AGA_DATA = {
      "group": "Cacos",
      "call": "media/frogs/f-rhythmic-caco.mp3",
      "photo": "",
-     "bytes": 622929
+     "bytes": 101304
     },
     {
      "id": "f-kwazulu-caco",
@@ -9777,7 +9777,7 @@ window.AGA_DATA = {
      "group": "Cacos",
      "call": "media/frogs/f-kwazulu-caco.mp3",
      "photo": "",
-     "bytes": 863673
+     "bytes": 171612
     },
     {
      "id": "f-micro-frog",
@@ -9786,7 +9786,7 @@ window.AGA_DATA = {
      "group": "Micro frogs",
      "call": "media/frogs/f-micro-frog.mp3",
      "photo": "",
-     "bytes": 887499
+     "bytes": 178416
     },
     {
      "id": "f-kloof-frog",
@@ -9795,7 +9795,7 @@ window.AGA_DATA = {
      "group": "Kloof frogs",
      "call": "media/frogs/f-kloof-frog.mp3",
      "photo": "",
-     "bytes": 546445
+     "bytes": 78876
     },
     {
      "id": "f-montane-marsh-frog",
@@ -9804,7 +9804,7 @@ window.AGA_DATA = {
      "group": "Marsh frogs",
      "call": "media/frogs/f-montane-marsh-frog.mp3",
      "photo": "",
-     "bytes": 764629
+     "bytes": 142632
     },
     {
      "id": "f-common-river-frog",
@@ -9813,7 +9813,7 @@ window.AGA_DATA = {
      "group": "River frogs",
      "call": "media/frogs/f-common-river-frog.mp3",
      "photo": "",
-     "bytes": 820425
+     "bytes": 165816
     },
     {
      "id": "f-drakensberg-river-frog",
@@ -9822,7 +9822,7 @@ window.AGA_DATA = {
      "group": "River frogs",
      "call": "media/frogs/f-drakensberg-river-frog.mp3",
      "photo": "",
-     "bytes": 510100
+     "bytes": 68292
     },
     {
      "id": "f-cape-river-frog",
@@ -9831,7 +9831,7 @@ window.AGA_DATA = {
      "group": "River frogs",
      "call": "media/frogs/f-cape-river-frog.mp3",
      "photo": "",
-     "bytes": 859292
+     "bytes": 177156
     },
     {
      "id": "f-maluti-river-frog",
@@ -9840,7 +9840,7 @@ window.AGA_DATA = {
      "group": "River frogs",
      "call": "media/frogs/f-maluti-river-frog.mp3",
      "photo": "",
-     "bytes": 629837
+     "bytes": 103320
     },
     {
      "id": "f-van-dijks-river-frog",
@@ -9849,7 +9849,7 @@ window.AGA_DATA = {
      "group": "River frogs",
      "call": "media/frogs/f-van-dijks-river-frog.mp3",
      "photo": "",
-     "bytes": 652407
+     "bytes": 109872
     },
     {
      "id": "f-phofung-river-frog",
@@ -9858,7 +9858,7 @@ window.AGA_DATA = {
      "group": "River frogs",
      "call": "media/frogs/f-phofung-river-frog.mp3",
      "photo": "",
-     "bytes": 549433
+     "bytes": 137088
     },
     {
      "id": "f-giant-bullfrog",
@@ -9867,7 +9867,7 @@ window.AGA_DATA = {
      "group": "Bullfrogs",
      "call": "media/frogs/f-giant-bullfrog.mp3",
      "photo": "media/frogs/f-giant-bullfrog.jpg",
-     "bytes": 678106,
+     "bytes": 117432,
      "f": 1
     },
     {
@@ -9877,7 +9877,7 @@ window.AGA_DATA = {
      "group": "Bullfrogs",
      "call": "media/frogs/f-african-bullfrog.mp3",
      "photo": "",
-     "bytes": 813524
+     "bytes": 156996
     },
     {
      "id": "f-banded-stream-frog",
@@ -9886,7 +9886,7 @@ window.AGA_DATA = {
      "group": "Stream frogs",
      "call": "media/frogs/f-banded-stream-frog.mp3",
      "photo": "",
-     "bytes": 715727
+     "bytes": 128268
     },
     {
      "id": "f-striped-stream-frog",
@@ -9895,7 +9895,7 @@ window.AGA_DATA = {
      "group": "Stream frogs",
      "call": "media/frogs/f-striped-stream-frog.mp3",
      "photo": "",
-     "bytes": 658049
+     "bytes": 111636
     },
     {
      "id": "f-clicking-stream-frog",
@@ -9904,7 +9904,7 @@ window.AGA_DATA = {
      "group": "Stream frogs",
      "call": "media/frogs/f-clicking-stream-frog.mp3",
      "photo": "",
-     "bytes": 636731
+     "bytes": 105336
     },
     {
      "id": "f-chimanimani-stream-frog",
@@ -9913,7 +9913,7 @@ window.AGA_DATA = {
      "group": "Stream frogs",
      "call": "media/frogs/f-chimanimani-stream-frog.mp3",
      "photo": "",
-     "bytes": 843629
+     "bytes": 158760
     },
     {
      "id": "f-namaqua-stream-frog",
@@ -9922,7 +9922,7 @@ window.AGA_DATA = {
      "group": "Stream frogs",
      "call": "media/frogs/f-namaqua-stream-frog.mp3",
      "photo": "",
-     "bytes": 632350
+     "bytes": 97020
     },
     {
      "id": "f-plain-stream-frog",
@@ -9931,7 +9931,7 @@ window.AGA_DATA = {
      "group": "Stream frogs",
      "call": "media/frogs/f-plain-stream-frog.mp3",
      "photo": "",
-     "bytes": 614785
+     "bytes": 99036
     },
     {
      "id": "f-tremolo-sand-frog",
@@ -9940,7 +9940,7 @@ window.AGA_DATA = {
      "group": "Sand frogs",
      "call": "media/frogs/f-tremolo-sand-frog.mp3",
      "photo": "media/frogs/f-tremolo-sand-frog.jpg",
-     "bytes": 773404
+     "bytes": 145152
     },
     {
      "id": "f-damaraland-sand-frog",
@@ -9949,7 +9949,7 @@ window.AGA_DATA = {
      "group": "Sand frogs",
      "call": "media/frogs/f-damaraland-sand-frog.mp3",
      "photo": "",
-     "bytes": 539560
+     "bytes": 77112
     },
     {
      "id": "f-cape-sand-frog",
@@ -9958,7 +9958,7 @@ window.AGA_DATA = {
      "group": "Sand frogs",
      "call": "media/frogs/f-cape-sand-frog.mp3",
      "photo": "",
-     "bytes": 654909
+     "bytes": 110628
     },
     {
      "id": "f-knocking-sand-frog",
@@ -9967,7 +9967,7 @@ window.AGA_DATA = {
      "group": "Sand frogs",
      "call": "media/frogs/f-knocking-sand-frog.mp3",
      "photo": "",
-     "bytes": 561502
+     "bytes": 83412
     },
     {
      "id": "f-russet-backed-sand-frog",
@@ -9976,7 +9976,7 @@ window.AGA_DATA = {
      "group": "Sand frogs",
      "call": "media/frogs/f-russet-backed-sand-frog.mp3",
      "photo": "",
-     "bytes": 881243
+     "bytes": 176652
     },
     {
      "id": "f-natal-sand-frog",
@@ -9985,7 +9985,7 @@ window.AGA_DATA = {
      "group": "Sand frogs",
      "call": "media/frogs/f-natal-sand-frog.mp3",
      "photo": "",
-     "bytes": 569648
+     "bytes": 85680
     },
     {
      "id": "f-tandys-sand-frog",
@@ -9994,7 +9994,7 @@ window.AGA_DATA = {
      "group": "Sand frogs",
      "call": "media/frogs/f-tandys-sand-frog.mp3",
      "photo": "",
-     "bytes": 713842
+     "bytes": 127764
     },
     {
      "id": "f-beaded-sand-frog",
@@ -10003,7 +10003,7 @@ window.AGA_DATA = {
      "group": "Sand frogs",
      "call": "media/frogs/f-beaded-sand-frog.mp3",
      "photo": "",
-     "bytes": 459309
+     "bytes": 53676
     },
     {
      "id": "f-darlings-golden-backed-frog",
@@ -10012,7 +10012,7 @@ window.AGA_DATA = {
      "group": "Golden-backed frogs",
      "call": "media/frogs/f-darlings-golden-backed-frog.mp3",
      "photo": "",
-     "bytes": 703824
+     "bytes": 124992
     },
     {
      "id": "f-galam-golden-backed-frog",
@@ -10021,7 +10021,7 @@ window.AGA_DATA = {
      "group": "Golden-backed frogs",
      "call": "media/frogs/f-galam-golden-backed-frog.mp3",
      "photo": "",
-     "bytes": 834852
+     "bytes": 163044
     },
     {
      "id": "f-southern-foam-nest-frog",
@@ -10030,7 +10030,7 @@ window.AGA_DATA = {
      "group": "Foam nest frogs",
      "call": "media/frogs/f-southern-foam-nest-frog.mp3",
      "photo": "media/frogs/f-southern-foam-nest-frog.jpg",
-     "bytes": 612289
+     "bytes": 91224
     }
    ]
   },

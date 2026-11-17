@@ -2,8 +2,9 @@
    - App files (html/css/js/data): network first, so students always get the latest when online; cached copy when offline.
    - Photos and calls: served from the cache when downloaded; calls are only saved when the student taps "Download".
    - Audio is served with byte-range support, which iPhones need to play cached sound. */
-const SHELL = 'aga-shell-v3';
-const MEDIA = 'aga-media-v1';
+const SHELL = 'aga-shell-v4';
+// v2: calls re-encoded smaller and frog calls trimmed (spoken names removed) - old downloads are discarded
+const MEDIA = 'aga-media-v2';
 const SHELL_FILES = ['./', 'index.html', 'styles.css', 'app.js', 'data.js', 'manifest.webmanifest',
   'brand/logo-white.png', 'brand/logo-colour.png', 'brand/emblem.png',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-64.png'];
@@ -30,7 +31,7 @@ self.addEventListener('install', event => {
 
 self.addEventListener('activate', event => {
   event.waitUntil((async () => {
-    for (const k of await caches.keys()) if (k.startsWith('aga-shell-') && k !== SHELL) await caches.delete(k);
+    for (const k of await caches.keys()) if ((k.startsWith('aga-shell-') && k !== SHELL) || (k.startsWith('aga-media-') && k !== MEDIA)) await caches.delete(k);
     await self.clients.claim();
   })());
 });
