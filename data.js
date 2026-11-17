@@ -14436,6 +14436,553 @@ window.AGA_DATA = {
    ]
   },
   {
+   "id": "astronomy-photos",
+   "title": "Sky objects photos",
+   "short": "Sky objects",
+   "subtitle": "41 sky objects of Botswana",
+   "featured": "In the manual",
+   "defaultScope": "all",
+   "items": [
+    {
+     "id": "astronomy-southern-cross-crux",
+     "name": "Southern Cross (Crux)",
+     "sci": "Crux",
+     "group": "Constellations",
+     "photo": "media/astronomy/southern-cross-crux-166492898.jpg",
+     "pb": 317378,
+     "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Crux_(Annotated)_(crux-ann).jpg",
+     "f": 1,
+     "page": 14
+    },
+    {
+     "id": "astronomy-orion",
+     "name": "Orion",
+     "sci": "Orion",
+     "group": "Constellations",
+     "photo": "media/astronomy/orion-157022936.jpg",
+     "pb": 303959,
+     "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Orion_(Annotated)_(orion-ann).jpg",
+     "f": 1,
+     "page": 14
+    },
+    {
+     "id": "astronomy-orions-belt-three-kings",
+     "name": "Orion's Belt (Three Kings)",
+     "sci": "Alnitak, Alnilam, Mintaka",
+     "group": "Constellations",
+     "photo": "media/astronomy/orions-belt-three-kings-69387153.jpg",
+     "pb": 158912,
+     "credit": "Keesscherer",
+     "license": "CC BY-SA 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Orion%27s_Belt,_Alnitak,_Alnilam,_Mintaka.jpg",
+     "f": 1,
+     "page": 14,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-canis-major",
+     "name": "Canis Major",
+     "sci": "Canis Major",
+     "group": "Constellations",
+     "photo": "media/astronomy/canis-major-166494059.jpg",
+     "pb": 313910,
+     "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Canis_Major_(Annotated)_(canis-major-ann).jpg",
+     "f": 1,
+     "page": 14
+    },
+    {
+     "id": "astronomy-scorpius",
+     "name": "Scorpius",
+     "sci": "Scorpius",
+     "group": "Constellations",
+     "photo": "media/astronomy/scorpius-156994402.jpg",
+     "pb": 276081,
+     "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Scorpius_(Annotated)_(scorpius-ann).jpg",
+     "f": 1,
+     "page": 14
+    },
+    {
+     "id": "astronomy-carina",
+     "name": "Carina",
+     "sci": "Carina",
+     "group": "Constellations",
+     "photo": "media/astronomy/carina-166493738.jpg",
+     "pb": 298747,
+     "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Carina_(Annotated)_(carina-ann).jpg",
+     "f": 1,
+     "page": 15
+    },
+    {
+     "id": "astronomy-taurus",
+     "name": "Taurus",
+     "sci": "Taurus",
+     "group": "Constellations",
+     "photo": "media/astronomy/taurus-156994117.jpg",
+     "pb": 271647,
+     "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Taurus_(Annotated)_(taurus-ann).jpg",
+     "f": 1,
+     "page": 15
+    },
+    {
+     "id": "astronomy-leo",
+     "name": "Leo",
+     "sci": "Leo",
+     "group": "Constellations",
+     "photo": "media/astronomy/leo-157023450.jpg",
+     "pb": 227080,
+     "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Leo_(Annotated)_(leo-ann).jpg"
+    },
+    {
+     "id": "astronomy-the-pointers",
+     "name": "The Pointers",
+     "sci": "Alpha & Beta Centauri",
+     "group": "Stars",
+     "photo": "media/astronomy/the-pointers-46833562.jpg",
+     "pb": 145155,
+     "credit": "Skatebiker",
+     "license": "CC BY-SA 3.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Alpha,_Beta_and_Proxima_Centauri_(1).jpg",
+     "f": 1,
+     "page": 14,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-alpha-centauri",
+     "name": "Alpha Centauri",
+     "sci": "Alpha Centauri (Rigil Kentaurus)",
+     "group": "Stars",
+     "photo": "media/astronomy/alpha-centauri-170570589.jpg",
+     "pb": 266571,
+     "credit": "Digitized Sky Survey 2. Acknowledgement: Davide De Martin/Mahdi Zamani",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:The_sky_around_Alpha_Centauri_and_Proxima_Centauri_(annotated)_(eso1629f).jpg",
+     "f": 1,
+     "page": 14
+    },
+    {
+     "id": "astronomy-sirius",
+     "name": "Sirius",
+     "sci": "Alpha Canis Majoris",
+     "group": "Stars",
+     "photo": "media/astronomy/sirius-45103188.jpg",
+     "pb": 101186,
+     "credit": "Christos Doudoulakis",
+     "license": "CC BY-SA 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Sirius_Mirzam_M41.jpg",
+     "f": 1,
+     "page": 15,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-canopus",
+     "name": "Canopus",
+     "sci": "Alpha Carinae",
+     "group": "Stars",
+     "photo": "media/astronomy/canopus-2158924.jpg",
+     "pb": 135742,
+     "credit": "NASA",
+     "license": "Public domain",
+     "src": "https://commons.wikimedia.org/wiki/File:Canopus.jpg",
+     "f": 1,
+     "page": 15,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-betelgeuse",
+     "name": "Betelgeuse",
+     "sci": "Alpha Orionis",
+     "group": "Stars",
+     "photo": "media/astronomy/betelgeuse-18421128.jpg",
+     "pb": 46701,
+     "credit": "ESO, P.Kervella, Digitized Sky Survey 2 and A. Fujii",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Betelgeuse_in_Orion_(with_annotations).jpg",
+     "f": 1,
+     "page": 15,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-rigel",
+     "name": "Rigel",
+     "sci": "Beta Orionis",
+     "group": "Stars",
+     "photo": "media/astronomy/rigel-20793252.jpg",
+     "pb": 201660,
+     "credit": "Rogelio Bernal Andreo",
+     "license": "CC BY-SA 3.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Orion_Head_to_Toe.jpg",
+     "f": 1,
+     "page": 14
+    },
+    {
+     "id": "astronomy-antares",
+     "name": "Antares",
+     "sci": "Alpha Scorpii",
+     "group": "Stars",
+     "photo": "media/astronomy/antares-182534801.jpg",
+     "pb": 82376,
+     "credit": "Astrobond",
+     "license": "CC BY-SA 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Assy-Turgen_Observatory_against_the_backdrop_of_the_center_of_the_Milky_Way_and_the_star-forming_region_around_Antares.jpg",
+     "f": 1,
+     "page": 15,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-aldebaran",
+     "name": "Aldebaran",
+     "sci": "Alpha Tauri",
+     "group": "Stars",
+     "photo": "media/astronomy/aldebaran-109886037.jpg",
+     "pb": 82748,
+     "credit": "Giuseppe Donatiello from Oria (Brindisi), Italy",
+     "license": "CC0",
+     "src": "https://commons.wikimedia.org/wiki/File:Aldebaran_and_the_Hyades_-_Flickr_-_gjdonatiello.jpg",
+     "f": 1,
+     "page": 15,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-procyon",
+     "name": "Procyon",
+     "sci": "Alpha Canis Minoris",
+     "group": "Stars",
+     "photo": "media/astronomy/procyon-126902042.jpg",
+     "pb": 38122,
+     "credit": "Kjmiller84",
+     "license": "CC BY-SA 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Procyon_-_through_a_small_telescope.jpg",
+     "f": 1,
+     "page": 15
+    },
+    {
+     "id": "astronomy-polaris-north-star",
+     "name": "Polaris (North Star)",
+     "sci": "Alpha Ursae Minoris",
+     "group": "Stars",
+     "photo": "media/astronomy/polaris-north-star-17535645.jpg",
+     "pb": 13590,
+     "credit": "Heyzeuss",
+     "license": "CC BY-SA 3.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Circumpolar_star_trails.jpg",
+     "f": 1,
+     "page": 14,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-the-sun",
+     "name": "The Sun",
+     "sci": "Sol",
+     "group": "Stars",
+     "photo": "media/astronomy/the-sun-11348381.jpg",
+     "pb": 123074,
+     "credit": "NASA/SDO (AIA)",
+     "license": "Public domain",
+     "src": "https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg",
+     "f": 1,
+     "page": 15
+    },
+    {
+     "id": "astronomy-mercury",
+     "name": "Mercury",
+     "sci": "Mercury",
+     "group": "Planets",
+     "photo": "media/astronomy/mercury-24301424.jpg",
+     "pb": 39424,
+     "credit": "National Aeronautics and Space Administration/Johns Hopkins University Applied P",
+     "license": "Public domain",
+     "src": "https://commons.wikimedia.org/wiki/File:Mercury_in_color_-_Prockter07-edit1.jpg",
+     "f": 1,
+     "page": 15
+    },
+    {
+     "id": "astronomy-venus",
+     "name": "Venus",
+     "sci": "Venus",
+     "group": "Planets",
+     "photo": "media/astronomy/venus-110707598.jpg",
+     "pb": 13972,
+     "credit": "Great Sand Dunes National Park and Preserve",
+     "license": "Public domain",
+     "src": "https://commons.wikimedia.org/wiki/File:Venus_Over_Dunes_(39916414910).jpg",
+     "f": 1,
+     "page": 16
+    },
+    {
+     "id": "astronomy-mars",
+     "name": "Mars",
+     "sci": "Mars",
+     "group": "Planets",
+     "photo": "media/astronomy/mars-56489423.jpg",
+     "pb": 28819,
+     "credit": "ESA &amp; MPS for OSIRIS Team MPS/UPD/LAM/IAA/RSSD/INTA/UPM/DASP/IDA, CC BY-SA 3",
+     "license": "CC BY-SA 3.0 igo",
+     "src": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
+     "f": 1,
+     "page": 15
+    },
+    {
+     "id": "astronomy-jupiter",
+     "name": "Jupiter",
+     "sci": "Jupiter",
+     "group": "Planets",
+     "photo": "media/astronomy/jupiter-32799232.jpg",
+     "pb": 42057,
+     "credit": "NASA, ESA, and A. Simon (Goddard Space Flight Center)",
+     "license": "Public domain",
+     "src": "https://commons.wikimedia.org/wiki/File:Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+     "f": 1,
+     "page": 16
+    },
+    {
+     "id": "astronomy-saturn",
+     "name": "Saturn",
+     "sci": "Saturn",
+     "group": "Planets",
+     "photo": "media/astronomy/saturn-7228953.jpg",
+     "pb": 12130,
+     "credit": "NASA / JPL / Space Science Institute",
+     "license": "Public domain",
+     "src": "https://commons.wikimedia.org/wiki/File:Saturn_during_Equinox.jpg",
+     "f": 1,
+     "page": 15,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-full-moon",
+     "name": "Full moon",
+     "sci": "Luna",
+     "group": "Moon",
+     "photo": "media/astronomy/full-moon-11901243.jpg",
+     "pb": 100790,
+     "credit": "Gregory H. Revera",
+     "license": "CC BY-SA 3.0",
+     "src": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+     "f": 1,
+     "page": 16
+    },
+    {
+     "id": "astronomy-crescent-moon",
+     "name": "Crescent moon",
+     "sci": "Luna",
+     "group": "Moon",
+     "photo": "media/astronomy/crescent-moon-174035694.jpg",
+     "pb": 9895,
+     "credit": "gjdonatiello",
+     "license": "CC0",
+     "src": "https://commons.wikimedia.org/wiki/File:Crescent_moon_2025.jpg",
+     "f": 1,
+     "page": 16,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-gibbous-moon",
+     "name": "Gibbous moon",
+     "sci": "Luna",
+     "group": "Moon",
+     "photo": "media/astronomy/gibbous-moon-123827238.jpg",
+     "pb": 10336,
+     "credit": "Cbaile19",
+     "license": "CC0",
+     "src": "https://commons.wikimedia.org/wiki/File:Waxing_gibbous_moon,_2022-10-04.jpg",
+     "f": 1,
+     "page": 16
+    },
+    {
+     "id": "astronomy-milky-way",
+     "name": "Milky Way",
+     "group": "Deep sky",
+     "photo": "media/astronomy/milky-way-175134222.jpg",
+     "pb": 140810,
+     "credit": "Eric Kilby",
+     "license": "CC BY-SA 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Milky_Way_Over_Mababe_Depression.jpg",
+     "f": 1,
+     "page": 13,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-large-magellanic-cloud",
+     "name": "Large Magellanic Cloud",
+     "sci": "LMC",
+     "group": "Deep sky",
+     "photo": "media/astronomy/large-magellanic-cloud-83165272.jpg",
+     "pb": 86332,
+     "credit": "Astro.sin",
+     "license": "CC BY-SA 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Large_Magellanic_Cloud_from_Hobart.jpg",
+     "f": 1,
+     "page": 13,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-small-magellanic-cloud",
+     "name": "Small Magellanic Cloud",
+     "sci": "SMC",
+     "group": "Deep sky",
+     "photo": "media/astronomy/small-magellanic-cloud-93681352.jpg",
+     "pb": 104259,
+     "credit": "Martin Bernardi",
+     "license": "CC BY-SA 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Small_Magellanic_Cloud.jpg",
+     "f": 1,
+     "page": 13,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-andromeda-galaxy",
+     "name": "Andromeda Galaxy",
+     "sci": "M31",
+     "group": "Deep sky",
+     "photo": "media/astronomy/andromeda-galaxy-12654493.jpg",
+     "pb": 132650,
+     "credit": "Adam Evans",
+     "license": "CC BY 2.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Andromeda_Galaxy_(with_h-alpha).jpg",
+     "f": 1,
+     "page": 13,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-pleiades-seven-sisters",
+     "name": "Pleiades (Seven Sisters)",
+     "sci": "M45",
+     "group": "Deep sky",
+     "photo": "media/astronomy/pleiades-seven-sisters-7805481.jpg",
+     "pb": 51166,
+     "credit": "NASA, ESA, AURA/Caltech, Palomar Observatory The science team consists of: D. So",
+     "license": "Public domain",
+     "src": "https://commons.wikimedia.org/wiki/File:Pleiades_large.jpg",
+     "f": 1,
+     "page": 15
+    },
+    {
+     "id": "astronomy-coalsack",
+     "name": "Coalsack",
+     "group": "Deep sky",
+     "photo": "media/astronomy/coalsack-23923653.jpg",
+     "pb": 208516,
+     "credit": "Fedaro",
+     "license": "CC BY-SA 3.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Southern_Cross_and_Coalsack_Dark_Nebula.jpg"
+    },
+    {
+     "id": "astronomy-jewel-box",
+     "name": "Jewel Box",
+     "sci": "NGC 4755",
+     "group": "Deep sky",
+     "photo": "media/astronomy/jewel-box-137748190.jpg",
+     "pb": 37416,
+     "credit": "NOIRLab/NSF/AURA",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:The_%22Jewel_Box%22,_NGC_4755_(noao-6053).jpg",
+     "wide": 1
+    },
+    {
+     "id": "astronomy-omega-centauri",
+     "name": "Omega Centauri",
+     "sci": "NGC 5139",
+     "group": "Deep sky",
+     "photo": "media/astronomy/omega-centauri-139413939.jpg",
+     "pb": 53970,
+     "credit": "KPNO/NOIRLab/NSF/AURA/Blythe Guvenen",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:NGC_5139-_Omega_Centauri_Widefield_(noao-n5139guvenen).jpg",
+     "wide": 1
+    },
+    {
+     "id": "astronomy-orion-nebula",
+     "name": "Orion Nebula",
+     "sci": "M42",
+     "group": "Deep sky",
+     "photo": "media/astronomy/orion-nebula-1164360.jpg",
+     "pb": 44175,
+     "credit": "NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Sp",
+     "license": "Public domain",
+     "src": "https://commons.wikimedia.org/wiki/File:Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg"
+    },
+    {
+     "id": "astronomy-lunar-eclipse",
+     "name": "Lunar eclipse",
+     "group": "Phenomena",
+     "photo": "media/astronomy/lunar-eclipse-162211673.jpg",
+     "pb": 14005,
+     "credit": "Brucewaters",
+     "license": "CC BY-SA 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Total_Lunar_Eclipse_Totality_-_large_image.jpg",
+     "f": 1,
+     "page": 16,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-solar-eclipse",
+     "name": "Solar eclipse",
+     "group": "Phenomena",
+     "photo": "media/astronomy/solar-eclipse-147408259.jpg",
+     "pb": 12234,
+     "credit": "Brucewaters",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:2024_Total_Solar_Eclipse_Corona.jpg",
+     "f": 1,
+     "page": 16,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-meteor-shooting-star",
+     "name": "Meteor (shooting star)",
+     "group": "Phenomena",
+     "photo": "media/astronomy/meteor-shooting-star-32084731.jpg",
+     "pb": 75820,
+     "credit": "ESO/C. Malin",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Cosmic_Fireball_Falling_Over_ALMA.jpg",
+     "f": 1,
+     "page": 17,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-meteor-shower",
+     "name": "Meteor shower",
+     "group": "Phenomena",
+     "photo": "media/astronomy/meteor-shower-143005230.jpg",
+     "pb": 100456,
+     "credit": "KPNO/NOIRLab/NSF/AURA/R. Sparks (NSF’s NOIRLab)",
+     "license": "CC BY 4.0",
+     "src": "https://commons.wikimedia.org/wiki/File:Geminids_Over_Kitt_Peak_National_Observatory_(iotw2352a).jpg",
+     "f": 1,
+     "page": 17,
+     "wide": 1
+    },
+    {
+     "id": "astronomy-meteorite",
+     "name": "Meteorite",
+     "group": "Phenomena",
+     "photo": "media/astronomy/meteorite-1093677.jpg",
+     "pb": 102813,
+     "credit": "No machine-readable author provided. Calips assumed (based on copyright claims).",
+     "license": "CC BY 2.5",
+     "src": "https://commons.wikimedia.org/wiki/File:Namibie_Hoba_Meteorite_05.JPG",
+     "f": 1,
+     "page": 17,
+     "wide": 1
+    }
+   ]
+  },
+  {
    "id": "q-birds",
    "kind": "questions",
    "chapter": "Birds",
@@ -31554,6 +32101,320 @@ window.AGA_DATA = {
    "food": "Insects; also some fruit and flowers.",
    "breeding": "Lays eggs.",
    "titbit": "Has a fold of skin along each side; breeding males get a bright yellow or orange throat.",
+   "draft": true
+  },
+  "Southern Cross (Crux)": {
+   "size": "The smallest constellation, a kite-shaped cross of four bright stars in the Milky Way.",
+   "habitat": "High in the south on autumn and winter evenings (April to July); low in the south-east or south-west at other times.",
+   "food": "Look for the two bright Pointers; they point straight at the cross. A fainter fifth star sits off-centre.",
+   "breeding": "Tswana and Sotho see the Pointers and two brightest Cross stars as four giraffes; the /Xam saw lionesses.",
+   "titbit": "Extend the long axis of the cross 4.5 times to find celestial south, then drop straight down to the horizon.",
+   "draft": true
+  },
+  "Orion": {
+   "size": "The great hunter, one of the brightest constellations, with red Betelgeuse and blue-white Rigel.",
+   "habitat": "Summer evenings (December to March), high in the north; from Botswana the hunter appears upside down.",
+   "food": "Find the three equal stars in a short straight row (the Belt); the four bright stars around them form the body.",
+   "breeding": "Greek myth: Apollo sent a scorpion to sting Orion, so Orion sets in the west as Scorpius rises in the east.",
+   "titbit": "Orion and Scorpius are never seen high in the sky together; they sit on opposite sides of the sky.",
+   "draft": true
+  },
+  "Orion's Belt (Three Kings)": {
+   "size": "An asterism: three bright stars in a neat row that form the belt of Orion.",
+   "habitat": "Summer evenings (December to March), rising in the east after sunset and later high in the north.",
+   "food": "Three equal, bright stars in a short straight line; follow the line one way to Sirius.",
+   "breeding": "Tswana and Sotho call these stars Dikolobe, the three pigs; Khoikhoi saw three zebras.",
+   "titbit": "Follow the Belt one way to brilliant Sirius and the other way to orange Aldebaran.",
+   "draft": true
+  },
+  "Canis Major": {
+   "size": "The Great Dog constellation, home of Sirius, the brightest star in the night sky.",
+   "habitat": "Summer evenings (December to April), high overhead, just east of Orion.",
+   "food": "Follow Orion's Belt east (away from Aldebaran) to the very bright star Sirius, the dog's nose.",
+   "breeding": "In Greek stories it is one of Orion's hunting dogs following its master across the sky.",
+   "titbit": "Sirius is only about 8.6 light years away, one of the closest stars to us.",
+   "draft": true
+  },
+  "Scorpius": {
+   "size": "The scorpion, a large hook-shaped constellation with the red giant Antares as its heart.",
+   "habitat": "Winter evenings (May to September); in mid-winter it is almost overhead in the early evening.",
+   "food": "Look for a long curved line of stars like a fish-hook, with bright red Antares near the top.",
+   "breeding": "Greek myth: the gods sent the scorpion to sting Orion; now Scorpius rises as Orion sets.",
+   "titbit": "Astronomical Scorpius is not the same as astrological Scorpio, which today falls in Libra.",
+   "draft": true
+  },
+  "Carina": {
+   "size": "The keel of a ship, home of Canopus, the second-brightest star in the night sky.",
+   "habitat": "Best on summer and autumn evenings (January to May), in the south and south-west.",
+   "food": "Find Canopus, the bright star far south of Sirius; the rest of Carina runs towards the Southern Cross.",
+   "breeding": "Once part of a giant ship constellation, Argo Navis, the ship of Jason and the Argonauts.",
+   "titbit": "Carina holds the Carina Nebula and the False Cross, which guests often confuse with the real Southern Cross.",
+   "draft": true
+  },
+  "Taurus": {
+   "size": "The bull, with orange Aldebaran as the bull's eye and the Pleiades on its shoulder.",
+   "habitat": "Summer evenings (December to February), low in the north, to the left of Orion as you face north.",
+   "food": "Follow Orion's Belt away from Sirius to a V-shape of stars (the Hyades) with orange Aldebaran.",
+   "breeding": "In Greek myth Zeus turned himself into a white bull to carry off Princess Europa.",
+   "titbit": "Taurus is one of the 12 zodiac constellations, so planets and the Moon pass through it.",
+   "draft": true
+  },
+  "Leo": {
+   "size": "The lion, a zodiac constellation with the bright star Regulus.",
+   "habitat": "Autumn evenings (March to May), in the north.",
+   "food": "Look for a backwards question mark of stars (the Sickle) ending in bright Regulus, the lion's heart.",
+   "breeding": "Greek myth: the Nemean lion, killed by Hercules as the first of his twelve labours.",
+   "titbit": "A good one for a lion-loving safari crowd; the Leonid meteor shower comes from this area in November.",
+   "draft": true
+  },
+  "The Pointers": {
+   "size": "Two bright stars of Centaurus, Alpha and Beta Centauri, that point to the Southern Cross.",
+   "habitat": "Autumn and winter evenings (April to August), high in the south, beside the Southern Cross.",
+   "food": "Find the two brightest stars near the Cross; a line from them points at the cross.",
+   "breeding": "Tswana and Sotho saw them as two giraffes; the /Xam (San) saw two male lions.",
+   "titbit": "They look like twins but are not: Alpha is about 4.3 light years away, Beta is over 300 light years away.",
+   "draft": true
+  },
+  "Alpha Centauri": {
+   "size": "The nearest star system to the Sun: three stars, Alpha Centauri A and B and faint Proxima Centauri.",
+   "habitat": "Autumn and winter evenings, high in the south; it is the brighter of the two Pointers.",
+   "food": "Find the Southern Cross, then the brighter Pointer, the one further from the Cross.",
+   "breeding": "One of the four giraffes (Tswana and Sotho) or one of the two male lions (/Xam).",
+   "titbit": "Light from Alpha Centauri takes over 4 years to reach us; Proxima is the closest star to Earth after the Sun.",
+   "draft": true
+  },
+  "Sirius": {
+   "size": "The brightest star in the night sky, a white star with a tiny white dwarf companion.",
+   "habitat": "Summer evenings (December to April), high in the east and later almost overhead.",
+   "food": "Follow Orion's Belt to the south-east to the brightest, twinkling star in the sky.",
+   "breeding": "Ancient Egyptians used the first dawn rising of Sirius to predict the yearly Nile flood.",
+   "titbit": "Sirius often flashes many colours when it is low, because our air bends and splits its light.",
+   "draft": true
+  },
+  "Canopus": {
+   "size": "The second-brightest star in the night sky, a white giant in the constellation Carina.",
+   "habitat": "Summer evenings high in the south (January to April); in winter it rises before dawn in the south-east.",
+   "food": "Look far to the south of Sirius for a second, almost as bright, white star.",
+   "breeding": "Sotho and Tswana call Canopus Naka (the horn); its dawn rising in winter was a sign of the new season.",
+   "titbit": "Canopus is much further away than Sirius (over 300 light years) but gives out thousands of times more light.",
+   "draft": true
+  },
+  "Betelgeuse": {
+   "size": "A huge red supergiant star in Orion; if it replaced our Sun it would swallow Mars.",
+   "habitat": "Summer evenings (December to March) in the north; the orange-red star in Orion.",
+   "food": "Find Orion's Belt; Betelgeuse is the bright orange-red star on one side of it, opposite blue Rigel.",
+   "breeding": "In a Khoikhoi story Betelgeuse is a lion watching the three zebras of the Belt.",
+   "titbit": "Betelgeuse is near the end of its life and will one day explode as a supernova.",
+   "draft": true
+  },
+  "Rigel": {
+   "size": "A very bright blue-white supergiant star in Orion, many thousands of times brighter than the Sun.",
+   "habitat": "Summer evenings (December to March); in Orion, high in the north.",
+   "food": "Find Orion's Belt; Rigel is the bright blue-white star on the opposite side from red Betelgeuse.",
+   "titbit": "Compare Rigel and Betelgeuse with guests: star colour shows temperature, blue is hot and red is cooler.",
+   "draft": true
+  },
+  "Antares": {
+   "size": "A red supergiant star, the bright red heart of Scorpius.",
+   "habitat": "Winter evenings (May to September), almost overhead in mid-winter.",
+   "food": "Find the hook-shaped Scorpius; Antares is the bright red star in the body of the scorpion.",
+   "breeding": "Its name means \"rival of Mars\" because its red colour looks like the planet Mars.",
+   "titbit": "Antares is so big that it would reach past the orbit of Mars if it sat where our Sun is.",
+   "draft": true
+  },
+  "Aldebaran": {
+   "size": "An orange giant star, the bright eye of Taurus the bull.",
+   "habitat": "Summer evenings (December to February), low in the north.",
+   "food": "Follow Orion's Belt away from Sirius to a bright orange star at the tip of a V of stars.",
+   "breeding": "In a Khoikhoi story Aldebaran is the hunter whose arrow (Orion's sword) fell short of the three zebras.",
+   "titbit": "Aldebaran is not part of the V-shaped Hyades cluster; it lies about half as far away.",
+   "draft": true
+  },
+  "Procyon": {
+   "size": "A bright white star in Canis Minor, the Little Dog, with a white dwarf companion.",
+   "habitat": "Summer evenings (December to April), in the north-east, east of Orion.",
+   "food": "Make a triangle with Sirius and Betelgeuse; Procyon is the bright star at the third corner.",
+   "titbit": "Its name means \"before the dog\" because it rises just before Sirius, the Dog Star, in northern lands.",
+   "draft": true
+  },
+  "Polaris (North Star)": {
+   "size": "The North Star, which sits almost exactly above the Earth's North Pole.",
+   "habitat": "Not visible from Botswana: it is always below our northern horizon; guests from the north know it well.",
+   "food": "In the northern hemisphere, draw a line from Polaris straight down to the horizon to find true north.",
+   "titbit": "The south has no bright pole star, which is why we use the Southern Cross and Pointers to find south.",
+   "draft": true
+  },
+  "The Sun": {
+   "size": "Our own star, about 70% hydrogen and 28% helium, at the centre of the solar system.",
+   "habitat": "Never look at the Sun directly or through binoculars; it can blind you.",
+   "titbit": "Sunlight takes about 8 minutes to cross the 150 million km to Earth.",
+   "draft": true
+  },
+  "Mercury": {
+   "size": "The smallest planet and the closest to the Sun, a rocky world covered in craters.",
+   "habitat": "Only low in the west just after sunset or low in the east just before sunrise, for a few weeks at a time.",
+   "food": "Look low near the horizon in bright twilight for a steady, star-like dot that does not twinkle.",
+   "breeding": "Named after the fast messenger of the Roman gods, because it moves quickly around the Sun.",
+   "titbit": "Mercury goes around the Sun in only 88 days.",
+   "draft": true
+  },
+  "Venus": {
+   "size": "The brightest planet, about the size of Earth, wrapped in thick white clouds.",
+   "habitat": "Only in the west after sunset (evening star) or in the east before sunrise (morning star).",
+   "food": "The brightest point of light in the sky after the Moon; it shines steadily and does not twinkle.",
+   "breeding": "Named after the Roman goddess of love; many cultures thought the evening and morning stars were different objects.",
+   "titbit": "Venus is so bright it can cast a shadow on a dark night, far from lights.",
+   "draft": true
+  },
+  "Mars": {
+   "size": "The red planet, a small rocky world with iron-rich red dust.",
+   "habitat": "Varies year to year; it moves along the zodiac line, and is brightest about every 26 months.",
+   "food": "Look along the zodiac line for a steady orange-red point that does not twinkle.",
+   "breeding": "Named after the Roman god of war because of its blood-red colour.",
+   "titbit": "Mars has the largest volcano in the solar system, Olympus Mons, about three times as high as Everest.",
+   "draft": true
+  },
+  "Jupiter": {
+   "size": "The largest planet, a gas giant more than 11 times wider than Earth.",
+   "habitat": "Moves slowly along the zodiac line; it can be seen through the whole night when well placed.",
+   "food": "Very bright and steady; binoculars show up to four tiny moons (the Galilean moons) in a line.",
+   "breeding": "Named after the king of the Roman gods.",
+   "titbit": "Jupiter's four big moons were discovered by Galileo in 1610 and can be seen with binoculars.",
+   "draft": true
+  },
+  "Saturn": {
+   "size": "A gas giant planet with beautiful bright rings of ice and rock.",
+   "habitat": "Moves slowly along the zodiac line; it stays in roughly the same constellation for about two years.",
+   "food": "A steady, creamy-yellow point on the zodiac line; a small telescope shows the rings.",
+   "breeding": "Named after the Roman god of farming and time.",
+   "titbit": "Saturn is so light for its size that it would float in a big enough bath of water.",
+   "draft": true
+  },
+  "Full moon": {
+   "size": "The Moon fully lit by the Sun, when the Earth lies between the Sun and the Moon.",
+   "habitat": "Rises in the east at sunset and sets in the west at sunrise.",
+   "food": "A full moon makes the sky bright, so stars and the Milky Way are hard to see.",
+   "breeding": "Some San believed eclipses happened when a lion covered the full moon with its paw so it could hunt.",
+   "titbit": "Only at full moon can a lunar eclipse happen.",
+   "draft": true
+  },
+  "Crescent moon": {
+   "size": "A thin, less-than-half lit Moon; seen after new moon (waxing) or before new moon (waning).",
+   "habitat": "A waxing crescent is in the west after sunset; a waning crescent is in the east before sunrise.",
+   "food": "Look low in the west just after sunset a few days after new moon.",
+   "breeding": "Some San said the Sun's sharp rays cut pieces off the Moon-man until he begged for mercy and grew again.",
+   "titbit": "The faint glow on the dark part is earthshine: sunlight reflected from Earth onto the Moon.",
+   "draft": true
+  },
+  "Gibbous moon": {
+   "size": "A more-than-half lit Moon, between first quarter and full moon or between full and third quarter.",
+   "habitat": "A waxing gibbous moon is high in the east in the early evening.",
+   "food": "Waxing means growing (new to full); waning means shrinking (full to new).",
+   "titbit": "Along the line between light and dark, binoculars show craters and mountains in sharp shadow.",
+   "draft": true
+  },
+  "Milky Way": {
+   "size": "Our home galaxy, a spiral of up to 400 billion stars, about 100 000 light years across.",
+   "habitat": "Best on dark, moonless winter evenings (June to August), stretching overhead through Scorpius.",
+   "food": "Look for the band of misty light across a dark sky; it is brightest towards Scorpius and Sagittarius.",
+   "breeding": "San say a girl threw wood ashes into the sky to light the way home; Tswana call it Molalatladi.",
+   "titbit": "The band is our flat galaxy seen edge-on from inside; we see more stars when we look along the disc.",
+   "draft": true
+  },
+  "Large Magellanic Cloud": {
+   "size": "A small galaxy close to our own, about 160 000 light years away.",
+   "habitat": "Best on summer evenings (November to March), high in the south.",
+   "food": "Looks like a detached piece of the Milky Way; find it about halfway between Canopus and the south pole.",
+   "breeding": "Named after the explorer Magellan, whose crew described the clouds on their voyage around the world.",
+   "titbit": "One of only three galaxies (besides our own) that you can see with the naked eye.",
+   "draft": true
+  },
+  "Small Magellanic Cloud": {
+   "size": "A small galaxy close to our own, about 200 000 light years away.",
+   "habitat": "Best on spring and summer evenings (October to February), high in the south.",
+   "food": "A smaller misty patch than the Large Cloud, near the bright star Achernar.",
+   "breeding": "Named after the explorer Magellan, whose crew described the clouds on their voyage around the world.",
+   "titbit": "Light from the Small Cloud left it about 200 000 years ago, when modern humans first appeared in Africa.",
+   "draft": true
+  },
+  "Andromeda Galaxy": {
+   "size": "A giant spiral galaxy, the nearest large galaxy to the Milky Way.",
+   "habitat": "Low in the north on spring evenings (October to December); needs a very dark sky.",
+   "food": "A faint oval smudge low in the north; easier to find with binoculars.",
+   "breeding": "Named after the princess Andromeda of Greek myth.",
+   "titbit": "At about 2.5 million light years, it is the most distant object most people can see with the naked eye.",
+   "draft": true
+  },
+  "Pleiades (Seven Sisters)": {
+   "size": "A cluster of young, hot blue stars, the Seven Sisters, in Taurus.",
+   "habitat": "Summer evenings (November to February), low in the north; it disappears for a few weeks in May.",
+   "food": "Follow Orion's Belt past Aldebaran to a small, tight group of stars like a tiny dipper.",
+   "breeding": "Xhosa and Zulu call it Isilimela, Tswana Selemela; its return before dawn in June is the sign to plough.",
+   "titbit": "Most people see six or seven stars; binoculars show dozens.",
+   "draft": true
+  },
+  "Coalsack": {
+   "size": "A dark cloud of dust that blocks the light of the stars behind it.",
+   "habitat": "Autumn and winter evenings (April to July), beside the Southern Cross.",
+   "food": "Look for the dark hole in the Milky Way just next to the bottom-left of the Southern Cross.",
+   "breeding": "Aboriginal Australians see it as the head of a great Emu in the sky, whose body is dark dust lanes.",
+   "titbit": "It is about 600 light years away and contains material for new stars.",
+   "draft": true
+  },
+  "Jewel Box": {
+   "size": "A small, bright cluster of young stars in the Southern Cross.",
+   "habitat": "Autumn and winter evenings (April to July), in the Southern Cross.",
+   "food": "Look just next to Beta Crux (the left-hand star of the Cross); binoculars show a fuzzy little group.",
+   "breeding": "John Herschel, observing from the Cape in the 1830s, compared it to a box of coloured jewels.",
+   "titbit": "Through a telescope one orange star stands out among the blue-white ones.",
+   "draft": true
+  },
+  "Omega Centauri": {
+   "size": "The biggest globular cluster of the Milky Way, a ball of about 10 million old stars.",
+   "habitat": "Autumn and winter evenings (April to July), high in the south-east to south.",
+   "food": "From the Southern Cross go up towards Centaurus; it looks like a fuzzy star to the naked eye.",
+   "titbit": "Early astronomers thought it was a single star, which is why it has a star name.",
+   "draft": true
+  },
+  "Orion Nebula": {
+   "size": "A huge glowing cloud of gas where new stars are being born, about 1 300 light years away.",
+   "habitat": "Summer evenings (December to March), in Orion.",
+   "food": "Just next to Orion's Belt is a short line of stars (the sword); the middle 'star' is a misty patch.",
+   "titbit": "It is the brightest star nursery in the sky and easy to see in binoculars.",
+   "draft": true
+  },
+  "Lunar eclipse": {
+   "size": "The Earth's shadow covers the full moon, turning it a dull reddish-brown.",
+   "habitat": "Only at full moon; can be seen from anywhere on Earth where the Moon is up.",
+   "food": "Safe to watch with naked eyes or binoculars; check eclipse dates in advance.",
+   "breeding": "Some San believed a lion put his paw over the full moon because it was too light to hunt.",
+   "titbit": "Lunar eclipses are much more common to see than solar eclipses.",
+   "draft": true
+  },
+  "Solar eclipse": {
+   "size": "The Moon passes between the Sun and the Earth and blocks the Sun.",
+   "habitat": "Only at new moon, and only in a narrow path on Earth; rare at any one place.",
+   "food": "Never look at the Sun with naked eyes, binoculars or a telescope; use proper eclipse glasses.",
+   "titbit": "In a total eclipse the Sun's glowing outer atmosphere, the corona, becomes visible.",
+   "draft": true
+  },
+  "Meteor (shooting star)": {
+   "size": "A streak of light made when a small space rock (meteoroid) burns up in our air.",
+   "habitat": "Any clear, dark night; more are seen after midnight.",
+   "food": "Lie back, let your eyes adjust to the dark for 20 minutes and watch a wide area of sky.",
+   "titbit": "Most shooting stars come from grains no bigger than a grain of sand.",
+   "draft": true
+  },
+  "Meteor shower": {
+   "size": "Many meteors in one night, when Earth passes through dust left behind by a comet.",
+   "habitat": "Fixed dates each year; the manual names the Perseids (mid-August), Geminids (mid-December) are good from Botswana.",
+   "food": "The meteors seem to come from one point in the sky, which gives the shower its name.",
+   "titbit": "The Perseids sit low in the north from Botswana, so northern-hemisphere guests see more of them at home.",
+   "draft": true
+  },
+  "Meteorite": {
+   "size": "A space rock that survives its fall through the air and lands on Earth.",
+   "titbit": "The world's largest known meteorite, Hoba (about 60 tonnes), lies in Namibia.",
    "draft": true
   }
  }
