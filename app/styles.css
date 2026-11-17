@@ -172,6 +172,16 @@ body.focus .tabbar { display: none; }
 
 .bar { height: 8px; background: var(--line); border-radius: 99px; overflow: hidden; }
 .bar > span { display: block; height: 100%; background: var(--good); border-radius: 99px; transition: width .4s; }
+.bar2 { position: relative; }
+.bar2 > span { position: absolute; left: 0; top: 0; bottom: 0; }
+.bar2 > .pr { background: #e2b77a; }
+.bar2 > .ms { background: var(--good); }
+.mod-head .bar2 > .pr { background: rgba(242,196,141,.55); }
+.mod-head .bar2 > .ms { background: #f2c48d; }
+.legend { display: inline-block; width: 12px; height: 8px; border-radius: 4px; vertical-align: middle; }
+.legend.pr { background: #e2b77a; } .legend.ms { background: var(--good); }
+.stat-grid.four { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 420px) { .stat-grid.four { grid-template-columns: repeat(2, 1fr); } }
 .bar-label { font-size: 13px; color: var(--muted); margin-top: 6px; display: flex; justify-content: space-between; gap: 8px; }
 
 .nudge { display: flex; align-items: center; gap: 14px; padding: 14px 16px; margin-top: 14px; text-decoration: none; color: inherit; }
