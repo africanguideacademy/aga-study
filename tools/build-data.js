@@ -186,13 +186,32 @@ const frogRows = [['ID', 'Common name', 'Scientific name', 'Group', 'Prominent (
 frogs.forEach(f => frogRows.push([f.id, f.name, f.sci, f.group, f.prominent ? 'Yes' : '', f.file, f.call, f.photoFile, f.photo]));
 fs.writeFileSync(path.join(ROOT, 'data', 'frogs.csv'), csv(frogRows));
 
+// ---------------- bird sets extracted from the presentations (tools/extract-pptx.ps1) ----------------
+// One bird per slide: name + photo + call. A bird without a call on its slide gets one from the call library.
+function pptxSet(id) {
+  const file = path.join(ROOT, 'data', id + '.json');
+  if (!fs.existsSync(file)) return [];
+  const seen = new Set();
+  return JSON.parse(fs.readFileSync(file, 'utf8').replace(/^﻿/, '')).filter(s => {
+    const k = norm(s.name); if (seen.has(k)) return false; seen.add(k); return true; // e.g. Red-billed Spurfowl appears twice
+  }).map(s => {
+    let call = s.call, bytes = s.bytes || 0;
+    if (!call) { const c = findCall(s.name) || findCall(s.name.replace(/^(African|Common) /, '')); if (c) { call = c.appPath; bytes = c.bytes; } }
+    return { id: id.replace(/\d+$/, '') + '-' + slug(s.name), name: s.name, group: s.name.split(/\s+/).pop().replace(/^.*-/, ''), photo: s.photo, call, bytes };
+  });
+}
+const prominent40 = pptxSet('prominent40');
+const kwapa63 = pptxSet('kwapa63');
+
 // ---------------- app data ----------------
 // Item fields: id, name, group, photo, call, bytes, f (1 = in the module's "featured" set, e.g. FGASA 80 / prominent frogs)
 const appData = {
   generated: new Date().toISOString().slice(0, 10),
   modules: [
-    { id: 'fgasa80', title: 'Bird photos (FGASA 80)', subtitle: 'Photos and calls of the 80 core savanna birds',
+    { id: 'fgasa80', title: 'Bird photos (FGASA 80)', short: 'FGASA 80 savanna birds', subtitle: 'Photos and calls of the 80 core savanna birds',
       items: birds.filter(b => b.active === 'Yes').map(b => ({ id: b.id, name: b.name, group: b.group, photo: b.photo, call: b.call, bytes: b.bytes })) },
+    { id: 'prominent40', title: '40 Prominent Birds (manual)', short: '40 Prominent (manual)', subtitle: 'The 40 prominent birds from the BQA presentation and manual', items: prominent40 },
+    { id: 'kwapa63', title: 'Common Birds of Kwapa', short: 'Kwapa birds', subtitle: 'Birds of the Kwapa camp area, from the Kwapa bird call list', items: kwapa63 },
     { id: 'calls', title: 'Bird calls', subtitle: calls.length + ' calls - the full call library', featured: 'FGASA 80 birds only', defaultScope: 'featured',
       items: calls.map(c => { const o = { id: c.id, name: c.name, group: c.group, call: c.appPath, photo: c.photo, bytes: c.bytes }; if (c.fgasa80) o.f = 1; return o; }) },
     { id: 'frog-calls', title: 'Frog calls', subtitle: frogs.length + ' frog calls of southern Africa', featured: 'Prominent frogs (manual)', defaultScope: 'all',
@@ -253,6 +272,7 @@ fs.writeFileSync(path.join(ROOT, 'data', 'media-plan.json'), JSON.stringify({
 console.log(`Birds: ${birds.length} photos (active ${birds.filter(b => b.active === 'Yes').length}), with call: ${birds.filter(b => b.call).length}`);
 console.log(`Bird calls: ${calls.length} (${originalCount} original + ${calls.length - originalCount} added from trainer library), FGASA-linked: ${calls.filter(c => c.fgasa80).length}`);
 console.log('FGASA birds still without a call:', birds.filter(b => !b.call && b.active === 'Yes').map(b => b.name).join('; '));
+console.log(`40 Prominent: ${prominent40.length} birds (${prominent40.filter(b => b.call).length} with call); Kwapa: ${kwapa63.length} birds (${kwapa63.filter(b => b.call).length} with call)`);
 console.log(`Frogs: ${frogs.length} calls, ${frogs.filter(f => f.photo).length} with photo, prominent: ${frogs.filter(f => f.prominent).map(f => f.name).join(', ')}`);
 publicData.modules.filter(m => m.kind === 'questions').forEach(m => console.log(`Questions ${m.id}: ${m.items.length} public`));
 const ids = publicData.modules.flatMap(m => m.items.map(i => m.id + '/' + i.id));

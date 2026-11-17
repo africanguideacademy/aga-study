@@ -212,12 +212,15 @@
   // ---------- subjects (one per manual chapter; each groups a photo, a call and a manual-question module) ----------
   const SUBJECTS = [
     { id: 'birds', title: 'Birds', noun: 'bird', blurb: 'Photos, calls and manual questions', photo: 'media/birds/racket-tailed-roller.jpg',
-      photos: 'fgasa80', calls: 'calls', manual: 'q-birds' },
-    { id: 'frogs', title: 'Frogs', noun: 'frog', blurb: 'Frog calls and manual questions', photo: 'media/frogs/f-angolan-reed-frog.jpg',
+      photoSets: ['fgasa80', 'prominent40', 'kwapa63'], calls: 'calls', manual: 'q-birds' },
+    { id: 'amphibians', title: 'Amphibians', noun: 'frog', blurb: 'Frogs - calls and manual questions', photo: 'media/frogs/f-angolan-reed-frog.jpg',
       calls: 'frog-calls', manual: 'q-amphibians' },
   ];
   const COMING_SOON = ['Mammals', 'Plants', 'Reptiles', 'Arthropods', 'Ecology', 'Geology', 'Astronomy', 'Guiding principles'];
-  const subjectModIds = s => [s.photos, s.calls, s.manual].filter(Boolean);
+  const photoSetsOf = s => (s.photoSets || [s.photos]).filter(id => id && modById(id) && modById(id).items.length);
+  // the photo set chosen in the subject's "Bird list" setting (first one by default)
+  const currentPhotoMod = s => { const ids = photoSetsOf(s); const want = (settings.photoSet || {})[s.id]; return modById(ids.includes(want) ? want : ids[0]); };
+  const subjectModIds = s => [...photoSetsOf(s), s.calls, s.manual].filter(Boolean);
   const subjectOf = mod => SUBJECTS.find(s => subjectModIds(s).includes(mod.id)) || SUBJECTS[0];
   const homeOf = mod => '#/s/' + subjectOf(mod).id;
   const subjectMods = s => subjectModIds(s).map(modById).filter(Boolean);
@@ -264,7 +267,11 @@
   // ---------- subject page: every quiz and study tool for one subject ----------
   function renderSubject(s) {
     chrome({ tab: 'home', back: '#/' });
-    const pm = modById(s.photos), cm = modById(s.calls), qm = modById(s.manual);
+    const pm = currentPhotoMod(s), cm = modById(s.calls), qm = modById(s.manual);
+    const sets = photoSetsOf(s).map(modById);
+    const setSel = sets.length > 1 ? `<div class="setting-row"><label for="photoSet">Bird list</label><select class="select" id="photoSet">
+        ${sets.map(m => `<option value="${esc(m.id)}"${pm && pm.id === m.id ? ' selected' : ''}>${esc(m.short || m.title)} (${m.items.length})</option>`).join('')}
+      </select></div>` : '';
     const { d, n } = subjectProgress(s);
     const lens = [10, 20, 0].map(x => `<button data-len="${x}" aria-pressed="${settings.length === x}">${x || 'All'}</button>`).join('');
     // calls setting: featured set / all / one group
@@ -296,7 +303,7 @@
         <div class="bar-label"><span>${d} of ${n} items mastered</span><span>${pct(d, n)}%</span></div>
       </section>
       <div class="section-title">Settings</div>
-      <div class="card"><div class="setting-row"><label>Questions per round</label><div class="seg">${lens}</div></div>${callSel}${topicSel}</div>
+      <div class="card"><div class="setting-row"><label>Questions per round</label><div class="seg">${lens}</div></div>${setSel}${callSel}${topicSel}</div>
       ${pm ? section('By sight', `${mp(pm)} mastered`,
         tile(`#/m/${pm.id}/quiz/photo2name`, 'camera', `Name the ${noun}`, 'See a photo, pick the name') +
         tile(`#/m/${pm.id}/quiz/name2photo`, 'search', `Find the ${noun}`, 'Read a name, tap the photo')) : ''}
@@ -317,6 +324,7 @@
       settings.length = +b.dataset.len; save(SETTINGS_KEY, settings);
       view.querySelectorAll('[data-len]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
     }));
+    const ps = $('photoSet'); if (ps) ps.addEventListener('change', () => { settings.photoSet = Object.assign({}, settings.photoSet, { [s.id]: ps.value }); save(SETTINGS_KEY, settings); renderSubject(s); });
     const cs = $('callScope'); if (cs) cs.addEventListener('change', () => { settings.scope[cm.id] = cs.value; save(SETTINGS_KEY, settings); renderSubject(s); });
     const qs = $('qScope'); if (qs) qs.addEventListener('change', () => { settings.scope[qm.id] = qs.value; save(SETTINGS_KEY, settings); renderSubject(s); });
   }
@@ -667,7 +675,9 @@
     if (!hasCaches) { show(`<h1>Use offline</h1><p class="sub">This browser can't save content for offline use. Try Chrome on Android or Safari on iPhone.</p>`); return; }
     const packs = [
       { key: 'fgasa', title: 'Birds - FGASA 80 calls', urls: callList([modById('fgasa80')]) },
-      { key: 'frogs', title: 'Frogs - all calls', urls: callList([modById('frog-calls')].filter(Boolean)) },
+      { key: 'prominent', title: 'Birds - 40 prominent (manual)', urls: callList([modById('prominent40')].filter(Boolean)) },
+      { key: 'kwapa', title: 'Birds - Kwapa list', urls: callList([modById('kwapa63')].filter(Boolean)) },
+      { key: 'frogs', title: 'Amphibians - frog calls', urls: callList([modById('frog-calls')].filter(Boolean)) },
       { key: 'all', title: 'Birds - full call library', urls: callList([modById('calls')].filter(Boolean)) },
     ];
     const photos = [...new Set(DATA.modules.flatMap(m => m.items.map(i => i.photo)).filter(Boolean))];

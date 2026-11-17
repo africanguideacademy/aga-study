@@ -1,0 +1,282 @@
+﻿[
+    {
+        "slide":  1,
+        "name":  "Ostrich",
+        "photo":  "media/prominent40/ostrich.jpg",
+        "call":  "media/prominent40/ostrich.mp3",
+        "bytes":  78938
+    },
+    {
+        "slide":  2,
+        "name":  "Swainson\u0027s Spurfowl",
+        "photo":  "media/prominent40/swainsons-spurfowl.jpg",
+        "call":  "media/prominent40/swainsons-spurfowl.mp3",
+        "bytes":  166922
+    },
+    {
+        "slide":  3,
+        "name":  "Red-billed Spurfowl",
+        "photo":  "media/prominent40/red-billed-spurfowl.jpg",
+        "call":  "media/prominent40/red-billed-spurfowl.mp3",
+        "bytes":  121578
+    },
+    {
+        "slide":  4,
+        "name":  "Helmeted Guineafowl",
+        "photo":  "media/prominent40/helmeted-guineafowl.jpg",
+        "call":  "media/prominent40/helmeted-guineafowl.mp3",
+        "bytes":  115130
+    },
+    {
+        "slide":  5,
+        "name":  "White-faced Duck",
+        "photo":  "media/prominent40/white-faced-duck.jpg",
+        "call":  "media/prominent40/white-faced-duck.mp3",
+        "bytes":  125428
+    },
+    {
+        "slide":  6,
+        "name":  "Spur-winged Goose",
+        "photo":  "media/prominent40/spur-winged-goose.jpg",
+        "call":  "media/prominent40/spur-winged-goose.mp3",
+        "bytes":  137282
+    },
+    {
+        "slide":  7,
+        "name":  "Egyptian Goose",
+        "photo":  "media/prominent40/egyptian-goose.jpg",
+        "call":  "media/prominent40/egyptian-goose.mp3",
+        "bytes":  95786
+    },
+    {
+        "slide":  8,
+        "name":  "Greater Honeyguide",
+        "photo":  "media/prominent40/greater-honeyguide.jpg",
+        "call":  "media/prominent40/greater-honeyguide.mp3",
+        "bytes":  126050
+    },
+    {
+        "slide":  9,
+        "name":  "Bennett\u0027s Woodpecker",
+        "photo":  "media/prominent40/bennetts-woodpecker.jpg",
+        "call":  "media/prominent40/bennetts-woodpecker.mp3",
+        "bytes":  83554
+    },
+    {
+        "slide":  10,
+        "name":  "Southern Yellow-billed Hornbill",
+        "photo":  "media/prominent40/southern-yellow-billed-hornbill.jpg",
+        "call":  "media/prominent40/southern-yellow-billed-hornbill.mp3",
+        "bytes":  126986
+    },
+    {
+        "slide":  11,
+        "name":  "Southern Ground Hornbill",
+        "photo":  "media/prominent40/southern-ground-hornbill.jpg",
+        "call":  "media/prominent40/southern-ground-hornbill.mp3",
+        "bytes":  133226
+    },
+    {
+        "slide":  12,
+        "name":  "African Hoopoe",
+        "photo":  "media/prominent40/african-hoopoe.jpg",
+        "call":  "media/prominent40/african-hoopoe.mp3",
+        "bytes":  116378
+    },
+    {
+        "slide":  13,
+        "name":  "Lilac-breasted Roller",
+        "photo":  "media/prominent40/lilac-breasted-roller.jpg",
+        "call":  "media/prominent40/lilac-breasted-roller.mp3",
+        "bytes":  121578
+    },
+    {
+        "slide":  14,
+        "name":  "Pied Kingfisher",
+        "photo":  "media/prominent40/pied-kingfisher.jpg",
+        "call":  "media/prominent40/pied-kingfisher.mp3",
+        "bytes":  155378
+    },
+    {
+        "slide":  15,
+        "name":  "Southern Carmine Bee-eater",
+        "photo":  "media/prominent40/southern-carmine-bee-eater.jpg",
+        "call":  "media/prominent40/southern-carmine-bee-eater.mp3",
+        "bytes":  112884
+    },
+    {
+        "slide":  16,
+        "name":  "Levaillant\u0027s Cuckoo",
+        "photo":  "media/prominent40/levaillants-cuckoo.jpg",
+        "call":  "media/prominent40/levaillants-cuckoo.mp3",
+        "bytes":  169096
+    },
+    {
+        "slide":  17,
+        "name":  "Senegal Coucal",
+        "photo":  "media/prominent40/senegal-coucal.jpg",
+        "call":  "media/prominent40/senegal-coucal.mp3",
+        "bytes":  106540
+    },
+    {
+        "slide":  18,
+        "name":  "Meyer\u0027s Parrot",
+        "photo":  "media/prominent40/meyers-parrot.jpg",
+        "call":  "media/prominent40/meyers-parrot.mp3",
+        "bytes":  94954
+    },
+    {
+        "slide":  19,
+        "name":  "Palm Swift",
+        "photo":  "media/prominent40/palm-swift.jpg",
+        "call":  "",
+        "bytes":  0
+    },
+    {
+        "slide":  20,
+        "name":  "Grey Go-away-bird",
+        "photo":  "media/prominent40/grey-go-away-bird.jpg",
+        "call":  "media/prominent40/grey-go-away-bird.mp3",
+        "bytes":  109618
+    },
+    {
+        "slide":  21,
+        "name":  "Verreaux\u0027s Eagle-Owl",
+        "photo":  "media/prominent40/verreauxs-eagle-owl.jpg",
+        "call":  "media/prominent40/verreauxs-eagle-owl.mp3",
+        "bytes":  116066
+    },
+    {
+        "slide":  22,
+        "name":  "Cape Turtle Dove",
+        "photo":  "media/prominent40/cape-turtle-dove.jpg",
+        "call":  "media/prominent40/cape-turtle-dove.mp3",
+        "bytes":  140652
+    },
+    {
+        "slide":  23,
+        "name":  "Kori Bustard",
+        "photo":  "media/prominent40/kori-bustard.jpg",
+        "call":  "media/prominent40/kori-bustard.mp3",
+        "bytes":  109308
+    },
+    {
+        "slide":  24,
+        "name":  "Wattled Crane",
+        "photo":  "media/prominent40/wattled-crane.jpg",
+        "call":  "media/prominent40/wattled-crane.mp3",
+        "bytes":  114707
+    },
+    {
+        "slide":  25,
+        "name":  "Burchell\u0027s Sandgrouse",
+        "photo":  "media/prominent40/burchells-sandgrouse.jpg",
+        "call":  "media/prominent40/burchells-sandgrouse.mp3",
+        "bytes":  89026
+    },
+    {
+        "slide":  26,
+        "name":  "Wood Sandpiper",
+        "photo":  "media/prominent40/wood-sandpiper.jpg",
+        "call":  "media/prominent40/wood-sandpiper.mp3",
+        "bytes":  105666
+    },
+    {
+        "slide":  27,
+        "name":  "African Jacana",
+        "photo":  "media/prominent40/african-jacana.jpg",
+        "call":  "media/prominent40/african-jacana.mp3",
+        "bytes":  129586
+    },
+    {
+        "slide":  28,
+        "name":  "Water Thick-knee",
+        "photo":  "media/prominent40/water-thick-knee.jpg",
+        "call":  "media/prominent40/water-thick-knee.mp3",
+        "bytes":  110380
+    },
+    {
+        "slide":  29,
+        "name":  "Gabar Goshawk",
+        "photo":  "media/prominent40/gabar-goshawk.jpg",
+        "call":  "media/prominent40/gabar-goshawk.mp3",
+        "bytes":  116586
+    },
+    {
+        "slide":  30,
+        "name":  "African Fish Eagle",
+        "photo":  "media/prominent40/african-fish-eagle.jpg",
+        "call":  "media/prominent40/african-fish-eagle.mp3",
+        "bytes":  101610
+    },
+    {
+        "slide":  31,
+        "name":  "Tawny Eagle",
+        "photo":  "media/prominent40/tawny-eagle.jpg",
+        "call":  "media/prominent40/tawny-eagle.mp3",
+        "bytes":  85178
+    },
+    {
+        "slide":  32,
+        "name":  "White-backed Vulture",
+        "photo":  "media/prominent40/white-backed-vulture.jpg",
+        "call":  "media/prominent40/white-backed-vulture.mp3",
+        "bytes":  151876
+    },
+    {
+        "slide":  33,
+        "name":  "Great Egret",
+        "photo":  "media/prominent40/great-egret.jpg",
+        "call":  "media/prominent40/great-egret.mp3",
+        "bytes":  86426
+    },
+    {
+        "slide":  34,
+        "name":  "Hamerkop",
+        "photo":  "media/prominent40/hamerkop.jpg",
+        "call":  "media/prominent40/hamerkop.mp3",
+        "bytes":  88376
+    },
+    {
+        "slide":  35,
+        "name":  "African Spoonbill",
+        "photo":  "media/prominent40/african-spoonbill.jpg",
+        "call":  "media/prominent40/african-spoonbill.mp3",
+        "bytes":  70358
+    },
+    {
+        "slide":  36,
+        "name":  "Great White Pelican",
+        "photo":  "media/prominent40/great-white-pelican.jpg",
+        "call":  "media/prominent40/great-white-pelican.mp3",
+        "bytes":  154948
+    },
+    {
+        "slide":  37,
+        "name":  "African Openbill",
+        "photo":  "media/prominent40/african-openbill.jpg",
+        "call":  "media/prominent40/african-openbill.mp3",
+        "bytes":  84074
+    },
+    {
+        "slide":  38,
+        "name":  "Fork-tailed Drongo",
+        "photo":  "media/prominent40/fork-tailed-drongo.jpg",
+        "call":  "media/prominent40/fork-tailed-drongo.mp3",
+        "bytes":  160724
+    },
+    {
+        "slide":  39,
+        "name":  "Burchell\u0027s Starling",
+        "photo":  "media/prominent40/burchells-starling.jpg",
+        "call":  "media/prominent40/burchells-starling.mp3",
+        "bytes":  97074
+    },
+    {
+        "slide":  40,
+        "name":  "Southern Masked Weaver",
+        "photo":  "media/prominent40/southern-masked-weaver.jpg",
+        "call":  "media/prominent40/southern-masked-weaver.mp3",
+        "bytes":  110068
+    }
+]

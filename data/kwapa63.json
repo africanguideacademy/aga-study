@@ -1,0 +1,443 @@
+﻿[
+    {
+        "slide":  1,
+        "name":  "Black-collared Barbet",
+        "photo":  "media/kwapa63/black-collared-barbet.jpg",
+        "call":  "media/kwapa63/black-collared-barbet.mp3",
+        "bytes":  176422
+    },
+    {
+        "slide":  2,
+        "name":  "White-browed Sparrow-weaver",
+        "photo":  "media/kwapa63/white-browed-sparrow-weaver.jpg",
+        "call":  "media/kwapa63/white-browed-sparrow-weaver.mp3",
+        "bytes":  167645
+    },
+    {
+        "slide":  3,
+        "name":  "Red-billed Spurfowl",
+        "photo":  "media/kwapa63/red-billed-spurfowl.jpg",
+        "call":  "media/kwapa63/red-billed-spurfowl.mp3",
+        "bytes":  121578
+    },
+    {
+        "slide":  4,
+        "name":  "Helmeted Guineafowl",
+        "photo":  "media/kwapa63/helmeted-guineafowl.jpg",
+        "call":  "media/kwapa63/helmeted-guineafowl.mp3",
+        "bytes":  115130
+    },
+    {
+        "slide":  5,
+        "name":  "White-faced Duck",
+        "photo":  "media/kwapa63/white-faced-duck.jpg",
+        "call":  "media/kwapa63/white-faced-duck.mp3",
+        "bytes":  125428
+    },
+    {
+        "slide":  6,
+        "name":  "Spur-winged Goose",
+        "photo":  "media/kwapa63/spur-winged-goose.jpg",
+        "call":  "media/kwapa63/spur-winged-goose.mp3",
+        "bytes":  137282
+    },
+    {
+        "slide":  7,
+        "name":  "African Barred Owlet",
+        "photo":  "media/kwapa63/african-barred-owlet.jpg",
+        "call":  "media/kwapa63/african-barred-owlet.mp3",
+        "bytes":  244131
+    },
+    {
+        "slide":  8,
+        "name":  "Greater Honeyguide",
+        "photo":  "media/kwapa63/greater-honeyguide.jpg",
+        "call":  "media/kwapa63/greater-honeyguide.mp3",
+        "bytes":  126050
+    },
+    {
+        "slide":  9,
+        "name":  "Bennett\u0027s Woodpecker",
+        "photo":  "media/kwapa63/bennetts-woodpecker.jpg",
+        "call":  "media/kwapa63/bennetts-woodpecker.mp3",
+        "bytes":  83554
+    },
+    {
+        "slide":  10,
+        "name":  "Southern Yellow-billed Hornbill",
+        "photo":  "media/kwapa63/southern-yellow-billed-hornbill.jpg",
+        "call":  "media/kwapa63/southern-yellow-billed-hornbill.mp3",
+        "bytes":  126986
+    },
+    {
+        "slide":  11,
+        "name":  "Southern Ground Hornbill",
+        "photo":  "media/kwapa63/southern-ground-hornbill.jpg",
+        "call":  "media/kwapa63/southern-ground-hornbill.mp3",
+        "bytes":  133226
+    },
+    {
+        "slide":  12,
+        "name":  "African Hoopoe",
+        "photo":  "media/kwapa63/african-hoopoe.jpg",
+        "call":  "media/kwapa63/african-hoopoe.mp3",
+        "bytes":  116378
+    },
+    {
+        "slide":  13,
+        "name":  "Lilac-breasted Roller",
+        "photo":  "media/kwapa63/lilac-breasted-roller.jpg",
+        "call":  "media/kwapa63/lilac-breasted-roller.mp3",
+        "bytes":  121578
+    },
+    {
+        "slide":  14,
+        "name":  "Southern Red-billed Hornbill",
+        "photo":  "media/kwapa63/southern-red-billed-hornbill.jpg",
+        "call":  "media/kwapa63/southern-red-billed-hornbill.mp3",
+        "bytes":  201917
+    },
+    {
+        "slide":  15,
+        "name":  "Levaillant\u0027s Cuckoo",
+        "photo":  "media/kwapa63/levaillants-cuckoo.jpg",
+        "call":  "media/kwapa63/levaillants-cuckoo.mp3",
+        "bytes":  169096
+    },
+    {
+        "slide":  16,
+        "name":  "Crested Barbet",
+        "photo":  "media/kwapa63/crested-barbet.jpg",
+        "call":  "media/kwapa63/crested-barbet.mp3",
+        "bytes":  94920
+    },
+    {
+        "slide":  17,
+        "name":  "Meyer\u0027s Parrot",
+        "photo":  "media/kwapa63/meyers-parrot.jpg",
+        "call":  "media/kwapa63/meyers-parrot.mp3",
+        "bytes":  94954
+    },
+    {
+        "slide":  18,
+        "name":  "Chinspot Batis",
+        "photo":  "media/kwapa63/chinspot-batis.jpg",
+        "call":  "media/kwapa63/chinspot-batis.mp3",
+        "bytes":  205679
+    },
+    {
+        "slide":  19,
+        "name":  "Grey Go-away-bird",
+        "photo":  "media/kwapa63/grey-go-away-bird.jpg",
+        "call":  "media/kwapa63/grey-go-away-bird.mp3",
+        "bytes":  109618
+    },
+    {
+        "slide":  20,
+        "name":  "Verreaux\u0027s Eagle-Owl",
+        "photo":  "media/kwapa63/verreauxs-eagle-owl.jpg",
+        "call":  "media/kwapa63/verreauxs-eagle-owl.mp3",
+        "bytes":  116066
+    },
+    {
+        "slide":  21,
+        "name":  "European Bee-eater",
+        "photo":  "media/kwapa63/european-bee-eater.jpg",
+        "call":  "media/kwapa63/european-bee-eater.mp3",
+        "bytes":  49780
+    },
+    {
+        "slide":  22,
+        "name":  "Yellow-breasted Apalis",
+        "photo":  "media/kwapa63/yellow-breasted-apalis.jpg",
+        "call":  "media/kwapa63/yellow-breasted-apalis.mp3",
+        "bytes":  75276
+    },
+    {
+        "slide":  23,
+        "name":  "Wattled Crane",
+        "photo":  "media/kwapa63/wattled-crane.jpg",
+        "call":  "media/kwapa63/wattled-crane.mp3",
+        "bytes":  114707
+    },
+    {
+        "slide":  24,
+        "name":  "Double-banded Sandgrouse",
+        "photo":  "media/kwapa63/double-banded-sandgrouse.jpg",
+        "call":  "media/kwapa63/double-banded-sandgrouse.mp3",
+        "bytes":  95756
+    },
+    {
+        "slide":  25,
+        "name":  "Wood Sandpiper",
+        "photo":  "media/kwapa63/wood-sandpiper.jpg",
+        "call":  "media/kwapa63/wood-sandpiper.mp3",
+        "bytes":  105666
+    },
+    {
+        "slide":  26,
+        "name":  "Dark-capped Bulbul",
+        "photo":  "media/kwapa63/dark-capped-bulbul.jpg",
+        "call":  "media/kwapa63/dark-capped-bulbul.mp3",
+        "bytes":  219890
+    },
+    {
+        "slide":  27,
+        "name":  "Brubru",
+        "photo":  "media/kwapa63/brubru.jpg",
+        "call":  "media/kwapa63/brubru.mp3",
+        "bytes":  225323
+    },
+    {
+        "slide":  28,
+        "name":  "Black-backed Puffback",
+        "photo":  "media/kwapa63/black-backed-puffback.jpg",
+        "call":  "media/kwapa63/black-backed-puffback.mp3",
+        "bytes":  251654
+    },
+    {
+        "slide":  29,
+        "name":  "African Fish Eagle",
+        "photo":  "media/kwapa63/african-fish-eagle.jpg",
+        "call":  "media/kwapa63/african-fish-eagle.mp3",
+        "bytes":  101610
+    },
+    {
+        "slide":  30,
+        "name":  "Grey-backed Camaroptera",
+        "photo":  "media/kwapa63/grey-backed-camaroptera.jpg",
+        "call":  "media/kwapa63/grey-backed-camaroptera.mp3",
+        "bytes":  204843
+    },
+    {
+        "slide":  31,
+        "name":  "Rattling Cisticola",
+        "photo":  "media/kwapa63/rattling-cisticola.jpg",
+        "call":  "media/kwapa63/rattling-cisticola.mp3",
+        "bytes":  173914
+    },
+    {
+        "slide":  32,
+        "name":  "Zitting Cisticola",
+        "photo":  "media/kwapa63/zitting-cisticola.jpg",
+        "call":  "media/kwapa63/zitting-cisticola.mp3",
+        "bytes":  68170
+    },
+    {
+        "slide":  33,
+        "name":  "Long-billed Crombec",
+        "photo":  "media/kwapa63/long-billed-crombec.jpg",
+        "call":  "media/kwapa63/long-billed-crombec.mp3",
+        "bytes":  262521
+    },
+    {
+        "slide":  34,
+        "name":  "Emerald-spotted Wood-Dove",
+        "photo":  "media/kwapa63/emerald-spotted-wood-dove.jpg",
+        "call":  "media/kwapa63/emerald-spotted-wood-dove.mp3",
+        "bytes":  225741
+    },
+    {
+        "slide":  35,
+        "name":  "Ashy Flycatcher",
+        "photo":  "media/kwapa63/ashy-flycatcher.jpg",
+        "call":  "media/kwapa63/ashy-flycatcher.mp3",
+        "bytes":  157196
+    },
+    {
+        "slide":  36,
+        "name":  "Red-billed Firefinch",
+        "photo":  "media/kwapa63/red-billed-firefinch.jpg",
+        "call":  "media/kwapa63/red-billed-firefinch.mp3",
+        "bytes":  99517
+    },
+    {
+        "slide":  37,
+        "name":  "Crested Francolin",
+        "photo":  "media/kwapa63/crested-francolin.jpg",
+        "call":  "media/kwapa63/crested-francolin.mp3",
+        "bytes":  166809
+    },
+    {
+        "slide":  38,
+        "name":  "Arrow-marked Babbler",
+        "photo":  "media/kwapa63/arrow-marked-babbler.jpg",
+        "call":  "media/kwapa63/arrow-marked-babbler.mp3",
+        "bytes":  183527
+    },
+    {
+        "slide":  39,
+        "name":  "Eurasian Golden Oriole",
+        "photo":  "media/kwapa63/eurasian-golden-oriole.jpg",
+        "call":  "media/kwapa63/eurasian-golden-oriole.mp3",
+        "bytes":  137552
+    },
+    {
+        "slide":  40,
+        "name":  "African Green Pigeon",
+        "photo":  "media/kwapa63/african-green-pigeon.jpg",
+        "call":  "media/kwapa63/african-green-pigeon.mp3",
+        "bytes":  157196
+    },
+    {
+        "slide":  41,
+        "name":  "Striped Kingfisher",
+        "photo":  "media/kwapa63/striped-kingfisher.jpg",
+        "call":  "media/kwapa63/striped-kingfisher.mp3",
+        "bytes":  209441
+    },
+    {
+        "slide":  42,
+        "name":  "Woodland Kingfisher",
+        "photo":  "media/kwapa63/woodland-kingfisher.jpg",
+        "call":  "media/kwapa63/woodland-kingfisher.mp3",
+        "bytes":  157614
+    },
+    {
+        "slide":  43,
+        "name":  "Red-crested Korhaan",
+        "photo":  "media/kwapa63/red-crested-korhaan.jpg",
+        "call":  "media/kwapa63/red-crested-korhaan.mp3",
+        "bytes":  189796
+    },
+    {
+        "slide":  44,
+        "name":  "Red-billed Oxpecker",
+        "photo":  "media/kwapa63/red-billed-oxpecker.jpg",
+        "call":  "media/kwapa63/red-billed-oxpecker.mp3",
+        "bytes":  177676
+    },
+    {
+        "slide":  45,
+        "name":  "Yellow-billed Oxpecker",
+        "photo":  "media/kwapa63/yellow-billed-oxpecker.jpg",
+        "call":  "media/kwapa63/yellow-billed-oxpecker.mp3",
+        "bytes":  141731
+    },
+    {
+        "slide":  46,
+        "name":  "Tawny-flanked Prinia",
+        "photo":  "media/kwapa63/tawny-flanked-prinia.jpg",
+        "call":  "media/kwapa63/tawny-flanked-prinia.mp3",
+        "bytes":  105787
+    },
+    {
+        "slide":  47,
+        "name":  "Crowned Lapwing",
+        "photo":  "media/kwapa63/crowned-lapwing.jpg",
+        "call":  "media/kwapa63/crowned-lapwing.mp3",
+        "bytes":  178512
+    },
+    {
+        "slide":  48,
+        "name":  "Pearl-spotted Owlet",
+        "photo":  "media/kwapa63/pearl-spotted-owlet.jpg",
+        "call":  "media/kwapa63/pearl-spotted-owlet.mp3",
+        "bytes":  222397
+    },
+    {
+        "slide":  49,
+        "name":  "Crimson-breasted Shrike",
+        "photo":  "media/kwapa63/crimson-breasted-shrike.jpg",
+        "call":  "media/kwapa63/crimson-breasted-shrike.mp3",
+        "bytes":  201081
+    },
+    {
+        "slide":  50,
+        "name":  "Magpie Shrike",
+        "photo":  "media/kwapa63/magpie-shrike.jpg",
+        "call":  "media/kwapa63/magpie-shrike.mp3",
+        "bytes":  159703
+    },
+    {
+        "slide":  51,
+        "name":  "Southern White-crowned Shrike",
+        "photo":  "media/kwapa63/southern-white-crowned-shrike.jpg",
+        "call":  "media/kwapa63/southern-white-crowned-shrike.mp3",
+        "bytes":  142149
+    },
+    {
+        "slide":  52,
+        "name":  "Red-billed Spurfowl",
+        "photo":  "media/kwapa63/red-billed-spurfowl.jpg",
+        "call":  "media/kwapa63/red-billed-spurfowl.mp3",
+        "bytes":  121578
+    },
+    {
+        "slide":  53,
+        "name":  "Swainson\u0027s Spurfowl",
+        "photo":  "media/kwapa63/swainsons-spurfowl.jpg",
+        "call":  "media/kwapa63/swainsons-spurfowl.mp3",
+        "bytes":  185617
+    },
+    {
+        "slide":  54,
+        "name":  "Brown-crowned Tchagra",
+        "photo":  "media/kwapa63/brown-crowned-tchagra.jpg",
+        "call":  "media/kwapa63/brown-crowned-tchagra.mp3",
+        "bytes":  113310
+    },
+    {
+        "slide":  55,
+        "name":  "Black-crowned Tchagra",
+        "photo":  "media/kwapa63/black-crowned-tchagra.jpg",
+        "call":  "media/kwapa63/black-crowned-tchagra.mp3",
+        "bytes":  296376
+    },
+    {
+        "slide":  56,
+        "name":  "Southern Black Tit",
+        "photo":  "media/kwapa63/southern-black-tit.jpg",
+        "call":  "media/kwapa63/southern-black-tit.mp3",
+        "bytes":  165064
+    },
+    {
+        "slide":  57,
+        "name":  "Blue Waxbill",
+        "photo":  "media/kwapa63/blue-waxbill.jpg",
+        "call":  "media/kwapa63/blue-waxbill.mp3",
+        "bytes":  175586
+    },
+    {
+        "slide":  58,
+        "name":  "Bearded Woodpecker",
+        "photo":  "media/kwapa63/bearded-woodpecker.jpg",
+        "call":  "media/kwapa63/bearded-woodpecker.mp3",
+        "bytes":  93666
+    },
+    {
+        "slide":  59,
+        "name":  "Cardinal Woodpecker",
+        "photo":  "media/kwapa63/cardinal-woodpecker.jpg",
+        "call":  "media/kwapa63/cardinal-woodpecker.mp3",
+        "bytes":  158450
+    },
+    {
+        "slide":  60,
+        "name":  "Diederik Cuckoo",
+        "photo":  "media/kwapa63/diederik-cuckoo.jpg",
+        "call":  "media/kwapa63/diederik-cuckoo.mp3",
+        "bytes":  70260
+    },
+    {
+        "slide":  61,
+        "name":  "Golden-tailed Woodpecker",
+        "photo":  "media/kwapa63/golden-tailed-woodpecker.jpg",
+        "call":  "media/kwapa63/golden-tailed-woodpecker.mp3",
+        "bytes":  66916
+    },
+    {
+        "slide":  62,
+        "name":  "Blacksmith Lapwing",
+        "photo":  "media/kwapa63/blacksmith-lapwing.jpg",
+        "call":  "media/kwapa63/blacksmith-lapwing.mp3",
+        "bytes":  274642
+    },
+    {
+        "slide":  63,
+        "name":  "Coppery-tailed Coucal",
+        "photo":  "media/kwapa63/coppery-tailed-coucal.jpg",
+        "call":  "media/kwapa63/coppery-tailed-coucal.mp3",
+        "bytes":  102861
+    }
+]
