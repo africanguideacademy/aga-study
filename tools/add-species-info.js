@@ -13,7 +13,7 @@ const have = new Set(existing.split(/\r?\n/).slice(1).map(l => (l.match(/^"((?:[
 const dir = path.join(ROOT, 'data', 'species-info');
 const rows = [];
 for (const f of fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort()) {
-  const group = f.replace(/-part\d+\.json$|\.json$/, '');
+  const group = /^birds/.test(f) ? 'birds' : f.replace(/-part\d+\.json$|\.json$/, '');
   const list = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8').replace(/^﻿/, ''));
   list.forEach(x => {
     if (!x.name || have.has(x.name)) return;

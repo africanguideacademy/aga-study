@@ -1,0 +1,3020 @@
+[
+ {
+  "count": 1271,
+  "sci": "Icthyophaga vocifer",
+  "common": "African Fish-Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 1068,
+  "sci": "Coracias caudatus",
+  "common": "Lilac-breasted Roller",
+  "rank": "species"
+ },
+ {
+  "count": 893,
+  "sci": "Gyps africanus",
+  "common": "White-backed Vulture",
+  "rank": "species"
+ },
+ {
+  "count": 781,
+  "sci": "Actophilornis africanus",
+  "common": "African Jacana",
+  "rank": "species"
+ },
+ {
+  "count": 743,
+  "sci": "Vanellus armatus",
+  "common": "Blacksmith Lapwing",
+  "rank": "species"
+ },
+ {
+  "count": 732,
+  "sci": "Tockus rufirostris",
+  "common": "Southern Red-billed Hornbill",
+  "rank": "species"
+ },
+ {
+  "count": 721,
+  "sci": "Anhinga rufa",
+  "common": "African Darter",
+  "rank": "species"
+ },
+ {
+  "count": 698,
+  "sci": "Ceryle rudis",
+  "common": "Pied Kingfisher",
+  "rank": "species"
+ },
+ {
+  "count": 659,
+  "sci": "Mycteria ibis",
+  "common": "Yellow-billed Stork",
+  "rank": "species"
+ },
+ {
+  "count": 638,
+  "sci": "Leptoptilos crumenifer",
+  "common": "Marabou Stork",
+  "rank": "species"
+ },
+ {
+  "count": 606,
+  "sci": "Struthio camelus",
+  "common": "Common Ostrich",
+  "rank": "species"
+ },
+ {
+  "count": 590,
+  "sci": "Anastomus lamelligerus",
+  "common": "African Openbill",
+  "rank": "species"
+ },
+ {
+  "count": 589,
+  "sci": "Merops pusillus",
+  "common": "Little Bee-eater",
+  "rank": "species"
+ },
+ {
+  "count": 581,
+  "sci": "Pternistis adspersus",
+  "common": "Red-billed Spurfowl",
+  "rank": "species"
+ },
+ {
+  "count": 570,
+  "sci": "Tockus leucomelas",
+  "common": "Southern Yellow-billed Hornbill",
+  "rank": "species"
+ },
+ {
+  "count": 563,
+  "sci": "Aquila rapax",
+  "common": "Tawny Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 552,
+  "sci": "Crinifer concolor",
+  "common": "Grey Go-away-bird",
+  "rank": "species"
+ },
+ {
+  "count": 549,
+  "sci": "Dicrurus adsimilis",
+  "common": "Fork-tailed Drongo",
+  "rank": "species"
+ },
+ {
+  "count": 546,
+  "sci": "Ardeotis kori",
+  "common": "Kori Bustard",
+  "rank": "species"
+ },
+ {
+  "count": 527,
+  "sci": "Numida meleagris",
+  "common": "Helmeted Guineafowl",
+  "rank": "species"
+ },
+ {
+  "count": 523,
+  "sci": "Plectropterus gambensis",
+  "common": "Spur-winged Goose",
+  "rank": "species"
+ },
+ {
+  "count": 506,
+  "sci": "Alopochen aegyptiaca",
+  "common": "Egyptian Goose",
+  "rank": "species"
+ },
+ {
+  "count": 492,
+  "sci": "Ardeola ralloides",
+  "common": "Squacco Heron",
+  "rank": "species"
+ },
+ {
+  "count": 481,
+  "sci": "Plocepasser mahali",
+  "common": "White-browed Sparrow-Weaver",
+  "rank": "species"
+ },
+ {
+  "count": 461,
+  "sci": "Ardea cinerea",
+  "common": "Grey Heron",
+  "rank": "species"
+ },
+ {
+  "count": 446,
+  "sci": "Ardea alba",
+  "common": "Great Egret",
+  "rank": "species"
+ },
+ {
+  "count": 444,
+  "sci": "Ephippiorhynchus senegalensis",
+  "common": "Saddle-billed Stork",
+  "rank": "species"
+ },
+ {
+  "count": 427,
+  "sci": "Streptopelia capicola",
+  "common": "Cape Turtle Dove",
+  "rank": "species"
+ },
+ {
+  "count": 427,
+  "sci": "Terathopius ecaudatus",
+  "common": "Bateleur",
+  "rank": "species"
+ },
+ {
+  "count": 407,
+  "sci": "Threskiornis aethiopicus",
+  "common": "African Sacred Ibis",
+  "rank": "species"
+ },
+ {
+  "count": 404,
+  "sci": "Bucorvus leadbeateri",
+  "common": "Southern Ground Hornbill",
+  "rank": "species"
+ },
+ {
+  "count": 398,
+  "sci": "Microcarbo africanus",
+  "common": "Reed Cormorant",
+  "rank": "species"
+ },
+ {
+  "count": 395,
+  "sci": "Dendrocygna viduata",
+  "common": "White-faced Whistling-Duck",
+  "rank": "species"
+ },
+ {
+  "count": 394,
+  "sci": "Lamprotornis australis",
+  "common": "Burchell's Starling",
+  "rank": "species"
+ },
+ {
+  "count": 391,
+  "sci": "Platalea alba",
+  "common": "African Spoonbill",
+  "rank": "species"
+ },
+ {
+  "count": 379,
+  "sci": "Merops nubicoides",
+  "common": "Southern Carmine Bee-eater",
+  "rank": "species"
+ },
+ {
+  "count": 371,
+  "sci": "Uraeginthus angolensis",
+  "common": "Southern Cordonbleu",
+  "rank": "species"
+ },
+ {
+  "count": 369,
+  "sci": "Trachyphonus vaillantii",
+  "common": "Crested Barbet",
+  "rank": "species"
+ },
+ {
+  "count": 367,
+  "sci": "Turdoides jardineii",
+  "common": "Arrow-marked Babbler",
+  "rank": "species"
+ },
+ {
+  "count": 357,
+  "sci": "Urolestes melanoleucus",
+  "common": "Magpie Shrike",
+  "rank": "species"
+ },
+ {
+  "count": 355,
+  "sci": "Scopus umbretta",
+  "common": "Hamerkop",
+  "rank": "species"
+ },
+ {
+  "count": 340,
+  "sci": "Buphagus erythroryncha",
+  "common": "Red-billed Oxpecker",
+  "rank": "species"
+ },
+ {
+  "count": 339,
+  "sci": "Grus carunculata",
+  "common": "Wattled Crane",
+  "rank": "species"
+ },
+ {
+  "count": 335,
+  "sci": "Ardea ibis",
+  "common": "Western Cattle-Egret",
+  "rank": "species"
+ },
+ {
+  "count": 328,
+  "sci": "Egretta garzetta",
+  "common": "Little Egret",
+  "rank": "species"
+ },
+ {
+  "count": 325,
+  "sci": "Vanellus crassirostris",
+  "common": "Long-toed Lapwing",
+  "rank": "species"
+ },
+ {
+  "count": 302,
+  "sci": "Burhinus vermiculatus",
+  "common": "Water Thick-knee",
+  "rank": "species"
+ },
+ {
+  "count": 299,
+  "sci": "Merops bullockoides",
+  "common": "White-fronted Bee-eater",
+  "rank": "species"
+ },
+ {
+  "count": 292,
+  "sci": "Laniarius atrococcineus",
+  "common": "Crimson-breasted Gonolek",
+  "rank": "species"
+ },
+ {
+  "count": 292,
+  "sci": "Lamprotornis mevesii",
+  "common": "Meves's Starling",
+  "rank": "species"
+ },
+ {
+  "count": 291,
+  "sci": "Pycnonotus barbatus",
+  "common": "Common Bulbul",
+  "rank": "species"
+ },
+ {
+  "count": 287,
+  "sci": "Lamprotornis nitens",
+  "common": "Cape Starling",
+  "rank": "species"
+ },
+ {
+  "count": 286,
+  "sci": "Corythornis cristatus",
+  "common": "Malachite Kingfisher",
+  "rank": "species"
+ },
+ {
+  "count": 282,
+  "sci": "Ardea goliath",
+  "common": "Goliath Heron",
+  "rank": "species"
+ },
+ {
+  "count": 280,
+  "sci": "Lophoceros nasutus",
+  "common": "African Gray Hornbill",
+  "rank": "species"
+ },
+ {
+  "count": 279,
+  "sci": "Milvus migrans",
+  "common": "Black Kite",
+  "rank": "species"
+ },
+ {
+  "count": 278,
+  "sci": "Melierax canorus",
+  "common": "Pale Chanting-Goshawk",
+  "rank": "species"
+ },
+ {
+  "count": 274,
+  "sci": "Himantopus himantopus",
+  "common": "Black-winged Stilt",
+  "rank": "species"
+ },
+ {
+  "count": 267,
+  "sci": "Merops hirundineus",
+  "common": "Swallow-tailed Bee-eater",
+  "rank": "species"
+ },
+ {
+  "count": 260,
+  "sci": "Necrosyrtes monachus",
+  "common": "Hooded Vulture",
+  "rank": "species"
+ },
+ {
+  "count": 254,
+  "sci": "Vanellus coronatus",
+  "common": "Crowned Lapwing",
+  "rank": "species"
+ },
+ {
+  "count": 254,
+  "sci": "Pycnonotus nigricans",
+  "common": "African Red-eyed Bulbul",
+  "rank": "species"
+ },
+ {
+  "count": 253,
+  "sci": "Ploceus velatus",
+  "common": "Southern Masked Weaver",
+  "rank": "species"
+ },
+ {
+  "count": 252,
+  "sci": "Rynchops flavirostris",
+  "common": "African Skimmer",
+  "rank": "species"
+ },
+ {
+  "count": 252,
+  "sci": "Passer diffusus",
+  "common": "Southern Grey-headed Sparrow",
+  "rank": "species"
+ },
+ {
+  "count": 248,
+  "sci": "Upupa epops",
+  "common": "Common Hoopoe",
+  "rank": "species"
+ },
+ {
+  "count": 247,
+  "sci": "Spilopelia senegalensis",
+  "common": "Laughing Dove",
+  "rank": "species"
+ },
+ {
+  "count": 241,
+  "sci": "Ortygornis sephaena",
+  "common": "Crested Francolin",
+  "rank": "species"
+ },
+ {
+  "count": 240,
+  "sci": "Centropus cupreicaudus",
+  "common": "Coppery-tailed Coucal",
+  "rank": "species"
+ },
+ {
+  "count": 240,
+  "sci": "Plegadis falcinellus",
+  "common": "Glossy Ibis",
+  "rank": "species"
+ },
+ {
+  "count": 239,
+  "sci": "Lamprotornis chalybaeus",
+  "common": "Greater Blue-eared Starling",
+  "rank": "species"
+ },
+ {
+  "count": 239,
+  "sci": "Ketupa lactea",
+  "common": "Verreaux's Eagle-Owl",
+  "rank": "species"
+ },
+ {
+  "count": 235,
+  "sci": "Buphagus africanus",
+  "common": "Yellow-billed Oxpecker",
+  "rank": "species"
+ },
+ {
+  "count": 229,
+  "sci": "Vanellus albiceps",
+  "common": "White-crowned Lapwing",
+  "rank": "species"
+ },
+ {
+  "count": 226,
+  "sci": "Pterocles bicinctus",
+  "common": "Double-banded Sandgrouse",
+  "rank": "species"
+ },
+ {
+  "count": 221,
+  "sci": "Bradornis mariquensis",
+  "common": "Marico Flycatcher",
+  "rank": "species"
+ },
+ {
+  "count": 219,
+  "sci": "Pterocles burchelli",
+  "common": "Burchell's Sandgrouse",
+  "rank": "species"
+ },
+ {
+  "count": 218,
+  "sci": "Cossypha heuglini",
+  "common": "White-browed Robin-Chat",
+  "rank": "species"
+ },
+ {
+  "count": 217,
+  "sci": "Pternistis swainsonii",
+  "common": "Swainson's Spurfowl",
+  "rank": "species"
+ },
+ {
+  "count": 216,
+  "sci": "Phoeniculus purpureus",
+  "common": "Green Woodhoopoe",
+  "rank": "species"
+ },
+ {
+  "count": 212,
+  "sci": "Lophoceros bradfieldi",
+  "common": "Bradfield's Hornbill",
+  "rank": "species"
+ },
+ {
+  "count": 211,
+  "sci": "Sagittarius serpentarius",
+  "common": "Secretarybird",
+  "rank": "species"
+ },
+ {
+  "count": 209,
+  "sci": "Poicephalus meyeri",
+  "common": "Meyer's Parrot",
+  "rank": "species"
+ },
+ {
+  "count": 208,
+  "sci": "Afrotis afraoides",
+  "common": "Northern Black Korhaan",
+  "rank": "species"
+ },
+ {
+  "count": 205,
+  "sci": "Bostrychia hagedash",
+  "common": "Hadada Ibis",
+  "rank": "species"
+ },
+ {
+  "count": 200,
+  "sci": "Turtur chalcospilos",
+  "common": "Emerald-spotted Wood-Dove",
+  "rank": "species"
+ },
+ {
+  "count": 199,
+  "sci": "Polemaetus bellicosus",
+  "common": "Martial Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 199,
+  "sci": "Chlorocichla flaviventris",
+  "common": "Yellow-bellied Greenbul",
+  "rank": "species"
+ },
+ {
+  "count": 196,
+  "sci": "Laniarius bicolor",
+  "common": "Swamp Boubou",
+  "rank": "species"
+ },
+ {
+  "count": 190,
+  "sci": "Glaucidium perlatum",
+  "common": "Pearl-spotted Owlet",
+  "rank": "species"
+ },
+ {
+  "count": 189,
+  "sci": "Ploceus xanthops",
+  "common": "Holub's Golden-Weaver",
+  "rank": "species"
+ },
+ {
+  "count": 189,
+  "sci": "Lybius torquatus",
+  "common": "Black-collared Barbet",
+  "rank": "species"
+ },
+ {
+  "count": 183,
+  "sci": "Streptopelia semitorquata",
+  "common": "Red-eyed Dove",
+  "rank": "species"
+ },
+ {
+  "count": 183,
+  "sci": "Bubalornis niger",
+  "common": "Red-billed Buffalo-Weaver",
+  "rank": "species"
+ },
+ {
+  "count": 182,
+  "sci": "Halcyon albiventris",
+  "common": "Brown-hooded Kingfisher",
+  "rank": "species"
+ },
+ {
+  "count": 182,
+  "sci": "Camaroptera brachyura",
+  "common": "Green-backed Camaroptera",
+  "rank": "species"
+ },
+ {
+  "count": 181,
+  "sci": "Egretta ardesiaca",
+  "common": "Black Heron",
+  "rank": "species"
+ },
+ {
+  "count": 181,
+  "sci": "Lophotis ruficrista",
+  "common": "Red-crested Bustard",
+  "rank": "species"
+ },
+ {
+  "count": 181,
+  "sci": "Butorides atricapilla",
+  "common": "Little Heron",
+  "rank": "species"
+ },
+ {
+  "count": 180,
+  "sci": "Circaetus cinereus",
+  "common": "Brown Snake-Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 178,
+  "sci": "Torgos tracheliotos",
+  "common": "Lappet-faced Vulture",
+  "rank": "species"
+ },
+ {
+  "count": 175,
+  "sci": "Sarkidiornis melanotos",
+  "common": "Knob-billed Duck",
+  "rank": "species"
+ },
+ {
+  "count": 167,
+  "sci": "Anas erythrorhyncha",
+  "common": "Red-billed Teal",
+  "rank": "species"
+ },
+ {
+  "count": 167,
+  "sci": "Hirundo smithii",
+  "common": "Wire-tailed Swallow",
+  "rank": "species"
+ },
+ {
+  "count": 163,
+  "sci": "Quelea quelea",
+  "common": "Red-billed Quelea",
+  "rank": "species"
+ },
+ {
+  "count": 162,
+  "sci": "Lagonosticta senegala",
+  "common": "Red-billed Firefinch",
+  "rank": "species"
+ },
+ {
+  "count": 162,
+  "sci": "Campethera bennettii",
+  "common": "Bennett's Woodpecker",
+  "rank": "species"
+ },
+ {
+  "count": 158,
+  "sci": "Turdoides hartlaubii",
+  "common": "Hartlaub's Babbler",
+  "rank": "species"
+ },
+ {
+  "count": 156,
+  "sci": "Halcyon senegalensis",
+  "common": "Woodland Kingfisher",
+  "rank": "species"
+ },
+ {
+  "count": 156,
+  "sci": "Oena capensis",
+  "common": "Namaqua Dove",
+  "rank": "species"
+ },
+ {
+  "count": 153,
+  "sci": "Cinnyris talatala",
+  "common": "White-bellied Sunbird",
+  "rank": "species"
+ },
+ {
+  "count": 151,
+  "sci": "Cecropis abyssinica",
+  "common": "Lesser Striped Swallow",
+  "rank": "species"
+ },
+ {
+  "count": 151,
+  "sci": "Cinnyris mariquensis",
+  "common": "Marico Sunbird",
+  "rank": "species"
+ },
+ {
+  "count": 150,
+  "sci": "Centropus senegalensis",
+  "common": "Senegal Coucal",
+  "rank": "species"
+ },
+ {
+  "count": 147,
+  "sci": "Turdus libonyana",
+  "common": "Kurrichane Thrush",
+  "rank": "species"
+ },
+ {
+  "count": 146,
+  "sci": "Tringa glareola",
+  "common": "Wood Sandpiper",
+  "rank": "species"
+ },
+ {
+  "count": 146,
+  "sci": "Pelecanus onocrotalus",
+  "common": "Great White Pelican",
+  "rank": "species"
+ },
+ {
+  "count": 145,
+  "sci": "Eurocephalus anguitimens",
+  "common": "Southern White-crowned Shrike",
+  "rank": "species"
+ },
+ {
+  "count": 145,
+  "sci": "Turdoides bicolor",
+  "common": "Southern Pied-Babbler",
+  "rank": "species"
+ },
+ {
+  "count": 144,
+  "sci": "Dryoscopus cubla",
+  "common": "Black-backed Puffback",
+  "rank": "species"
+ },
+ {
+  "count": 139,
+  "sci": "Elanus caeruleus",
+  "common": "Black-winged Kite",
+  "rank": "species"
+ },
+ {
+  "count": 139,
+  "sci": "Aquila spilogaster",
+  "common": "African Hawk-Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 132,
+  "sci": "Acridotheres tristis",
+  "common": "Common Myna",
+  "rank": "species"
+ },
+ {
+  "count": 131,
+  "sci": "Glareola pratincola",
+  "common": "Collared Pratincole",
+  "rank": "species"
+ },
+ {
+  "count": 131,
+  "sci": "Micronisus gabar",
+  "common": "Gabar Goshawk",
+  "rank": "species"
+ },
+ {
+  "count": 130,
+  "sci": "Egretta vinaceigula",
+  "common": "Slaty Egret",
+  "rank": "species"
+ },
+ {
+  "count": 123,
+  "sci": "Nettapus auritus",
+  "common": "African Pygmy-Goose",
+  "rank": "species"
+ },
+ {
+  "count": 121,
+  "sci": "Actitis hypoleucos",
+  "common": "Common Sandpiper",
+  "rank": "species"
+ },
+ {
+  "count": 121,
+  "sci": "Falco biarmicus",
+  "common": "Lanner Falcon",
+  "rank": "species"
+ },
+ {
+  "count": 121,
+  "sci": "Lanius collurio",
+  "common": "Red-backed Shrike",
+  "rank": "species"
+ },
+ {
+  "count": 121,
+  "sci": "Scotopelia peli",
+  "common": "Pel's Fishing-Owl",
+  "rank": "species"
+ },
+ {
+  "count": 120,
+  "sci": "Circaetus pectoralis",
+  "common": "Black-chested Snake-Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 120,
+  "sci": "Pytilia melba",
+  "common": "Green-winged Pytilia",
+  "rank": "species"
+ },
+ {
+  "count": 119,
+  "sci": "Prionops plumatus",
+  "common": "White-crested Helmetshrike",
+  "rank": "species"
+ },
+ {
+  "count": 117,
+  "sci": "Sporopipes squamifrons",
+  "common": "Scaly Weaver",
+  "rank": "species"
+ },
+ {
+  "count": 116,
+  "sci": "Cisticola chiniana",
+  "common": "Rattling Cisticola",
+  "rank": "species"
+ },
+ {
+  "count": 116,
+  "sci": "Megaceryle maxima",
+  "common": "Giant Kingfisher",
+  "rank": "species"
+ },
+ {
+  "count": 115,
+  "sci": "Corvus albus",
+  "common": "Pied Crow",
+  "rank": "species"
+ },
+ {
+  "count": 113,
+  "sci": "Ardea brachyrhyncha",
+  "common": "Yellow-billed Egret",
+  "rank": "species"
+ },
+ {
+  "count": 112,
+  "sci": "Treron calvus",
+  "common": "African Green-Pigeon",
+  "rank": "species"
+ },
+ {
+  "count": 112,
+  "sci": "Motacilla aguimp",
+  "common": "African Pied Wagtail",
+  "rank": "species"
+ },
+ {
+  "count": 112,
+  "sci": "Granatina granatina",
+  "common": "Violet-eared Waxbill",
+  "rank": "species"
+ },
+ {
+  "count": 108,
+  "sci": "Halcyon chelicuti",
+  "common": "Striped Kingfisher",
+  "rank": "species"
+ },
+ {
+  "count": 108,
+  "sci": "Burhinus capensis",
+  "common": "Spotted Thick-knee",
+  "rank": "species"
+ },
+ {
+  "count": 108,
+  "sci": "Creatophora cinerea",
+  "common": "Wattled Starling",
+  "rank": "species"
+ },
+ {
+  "count": 104,
+  "sci": "Zapornia flavirostra",
+  "common": "Black Crake",
+  "rank": "species"
+ },
+ {
+  "count": 102,
+  "sci": "Glaucidium capense",
+  "common": "African Barred Owlet",
+  "rank": "species"
+ },
+ {
+  "count": 100,
+  "sci": "Pelecanus rufescens",
+  "common": "Pink-backed Pelican",
+  "rank": "species"
+ },
+ {
+  "count": 100,
+  "sci": "Tchagra australis",
+  "common": "Brown-crowned Tchagra",
+  "rank": "species"
+ },
+ {
+  "count": 99,
+  "sci": "Merops persicus",
+  "common": "Blue-cheeked Bee-eater",
+  "rank": "species"
+ },
+ {
+  "count": 99,
+  "sci": "Laniarius major",
+  "common": "Tropical Boubou",
+  "rank": "species"
+ },
+ {
+  "count": 98,
+  "sci": "Calidris pugnax",
+  "common": "Ruff",
+  "rank": "species"
+ },
+ {
+  "count": 97,
+  "sci": "Polyboroides typus",
+  "common": "African Harrier-Hawk",
+  "rank": "species"
+ },
+ {
+  "count": 97,
+  "sci": "Vidua regia",
+  "common": "Shaft-tailed Whydah",
+  "rank": "species"
+ },
+ {
+  "count": 95,
+  "sci": "Columba guinea",
+  "common": "Speckled Pigeon",
+  "rank": "species"
+ },
+ {
+  "count": 94,
+  "sci": "Ardea purpurea",
+  "common": "Purple Heron",
+  "rank": "species"
+ },
+ {
+  "count": 94,
+  "sci": "Oriolus larvatus",
+  "common": "Black-headed Oriole",
+  "rank": "species"
+ },
+ {
+  "count": 91,
+  "sci": "Saxicola torquatus",
+  "common": "African Stonechat",
+  "rank": "species"
+ },
+ {
+  "count": 91,
+  "sci": "Cercotrichas paena",
+  "common": "Kalahari Scrub-Robin",
+  "rank": "species"
+ },
+ {
+  "count": 91,
+  "sci": "Thinornis tricollaris",
+  "common": "Three-banded Plover",
+  "rank": "species"
+ },
+ {
+  "count": 89,
+  "sci": "Urocolius indicus",
+  "common": "Red-faced Mousebird",
+  "rank": "species"
+ },
+ {
+  "count": 89,
+  "sci": "Vidua paradisaea",
+  "common": "Eastern Paradise-Whydah",
+  "rank": "species"
+ },
+ {
+  "count": 89,
+  "sci": "Chloropicus namaquus",
+  "common": "Bearded Woodpecker",
+  "rank": "species"
+ },
+ {
+  "count": 88,
+  "sci": "Centropus superciliosus",
+  "common": "White-browed Coucal",
+  "rank": "species"
+ },
+ {
+  "count": 85,
+  "sci": "Turdus litsitsirupa",
+  "common": "Groundscraper Thrush",
+  "rank": "species"
+ },
+ {
+  "count": 84,
+  "sci": "Prinia subflava",
+  "common": "Tawny-flanked Prinia",
+  "rank": "species"
+ },
+ {
+  "count": 84,
+  "sci": "Terpsiphone viridis",
+  "common": "African Paradise-Flycatcher",
+  "rank": "species"
+ },
+ {
+  "count": 83,
+  "sci": "Calendulauda africanoides",
+  "common": "Fawn-colored Lark",
+  "rank": "species"
+ },
+ {
+  "count": 82,
+  "sci": "Ardeola rufiventris",
+  "common": "Rufous-bellied Heron",
+  "rank": "species"
+ },
+ {
+  "count": 81,
+  "sci": "Anthus cinnamomeus",
+  "common": "African Pipit",
+  "rank": "species"
+ },
+ {
+  "count": 79,
+  "sci": "Ploceus intermedius",
+  "common": "Lesser Masked Weaver",
+  "rank": "species"
+ },
+ {
+  "count": 79,
+  "sci": "Sylvietta rufescens",
+  "common": "Long-billed Crombec",
+  "rank": "species"
+ },
+ {
+  "count": 78,
+  "sci": "Cercotrichas leucophrys",
+  "common": "White-browed Scrub-Robin",
+  "rank": "species"
+ },
+ {
+  "count": 78,
+  "sci": "Brunhilda erythronotos",
+  "common": "Black-faced Waxbill",
+  "rank": "species"
+ },
+ {
+  "count": 77,
+  "sci": "Chroicocephalus cirrocephalus",
+  "common": "Gray-hooded Gull",
+  "rank": "species"
+ },
+ {
+  "count": 77,
+  "sci": "Corypha africana",
+  "common": "Rufous-naped Lark",
+  "rank": "species"
+ },
+ {
+  "count": 75,
+  "sci": "Campethera abingoni",
+  "common": "Golden-tailed Woodpecker",
+  "rank": "species"
+ },
+ {
+  "count": 71,
+  "sci": "Tachyspiza minulla",
+  "common": "Little Sparrowhawk",
+  "rank": "species"
+ },
+ {
+  "count": 70,
+  "sci": "Bubo africanus",
+  "common": "Spotted Eagle-Owl",
+  "rank": "species"
+ },
+ {
+  "count": 69,
+  "sci": "Oenanthe pileata",
+  "common": "Capped Wheatear",
+  "rank": "species"
+ },
+ {
+  "count": 68,
+  "sci": "Trigonoceps occipitalis",
+  "common": "White-headed Vulture",
+  "rank": "species"
+ },
+ {
+  "count": 66,
+  "sci": "Vanellus senegallus",
+  "common": "Wattled Lapwing",
+  "rank": "species"
+ },
+ {
+  "count": 66,
+  "sci": "Phyllastrephus terrestris",
+  "common": "Terrestrial Brownbul",
+  "rank": "species"
+ },
+ {
+  "count": 66,
+  "sci": "Spatula hottentota",
+  "common": "Blue-billed Teal",
+  "rank": "species"
+ },
+ {
+  "count": 65,
+  "sci": "Eurystomus glaucurus",
+  "common": "Broad-billed Roller",
+  "rank": "species"
+ },
+ {
+  "count": 65,
+  "sci": "Batis molitor",
+  "common": "Chinspot Batis",
+  "rank": "species"
+ },
+ {
+  "count": 65,
+  "sci": "Anaplectes rubriceps",
+  "common": "Red-headed Weaver",
+  "rank": "species"
+ },
+ {
+  "count": 65,
+  "sci": "Turdus smithi",
+  "common": "Karoo Thrush",
+  "rank": "species"
+ },
+ {
+  "count": 64,
+  "sci": "Circus ranivorus",
+  "common": "African Marsh Harrier",
+  "rank": "species"
+ },
+ {
+  "count": 64,
+  "sci": "Coracias naevius",
+  "common": "Purple Roller",
+  "rank": "species"
+ },
+ {
+  "count": 64,
+  "sci": "Anarhynchus pecuarius",
+  "common": "Kittlitz's Plover",
+  "rank": "species"
+ },
+ {
+  "count": 63,
+  "sci": "Prinia flavicans",
+  "common": "Black-chested Prinia",
+  "rank": "species"
+ },
+ {
+  "count": 62,
+  "sci": "Myrmecocichla formicivora",
+  "common": "Southern Anteater-Chat",
+  "rank": "species"
+ },
+ {
+  "count": 62,
+  "sci": "Amadina erythrocephala",
+  "common": "Red-headed Finch",
+  "rank": "species"
+ },
+ {
+  "count": 61,
+  "sci": "Passer domesticus",
+  "common": "House Sparrow",
+  "rank": "species"
+ },
+ {
+  "count": 61,
+  "sci": "Fringillaria flaviventris",
+  "common": "Golden-breasted Bunting",
+  "rank": "species"
+ },
+ {
+  "count": 60,
+  "sci": "Streptopelia decipiens",
+  "common": "Mourning Collared Dove",
+  "rank": "species"
+ },
+ {
+  "count": 60,
+  "sci": "Malaconotus blanchoti",
+  "common": "Grey-headed Bushshrike",
+  "rank": "species"
+ },
+ {
+  "count": 58,
+  "sci": "Merops apiaster",
+  "common": "European Bee-eater",
+  "rank": "species"
+ },
+ {
+  "count": 58,
+  "sci": "Tringa nebularia",
+  "common": "Common Greenshank",
+  "rank": "species"
+ },
+ {
+  "count": 58,
+  "sci": "Cichladusa arquata",
+  "common": "Collared Palm-Thrush",
+  "rank": "species"
+ },
+ {
+  "count": 58,
+  "sci": "Passer melanurus",
+  "common": "Cape Sparrow",
+  "rank": "species"
+ },
+ {
+  "count": 57,
+  "sci": "Nycticorax nycticorax",
+  "common": "Black-crowned Night Heron",
+  "rank": "species"
+ },
+ {
+  "count": 56,
+  "sci": "Tachybaptus ruficollis",
+  "common": "Little Grebe",
+  "rank": "species"
+ },
+ {
+  "count": 56,
+  "sci": "Pternistis natalensis",
+  "common": "Natal Spurfowl",
+  "rank": "species"
+ },
+ {
+  "count": 55,
+  "sci": "Ploceus xanthopterus",
+  "common": "Southern Brown-throated Weaver",
+  "rank": "species"
+ },
+ {
+  "count": 55,
+  "sci": "Tyto alba",
+  "common": "Western Barn Owl",
+  "rank": "species"
+ },
+ {
+  "count": 54,
+  "sci": "Falco dickinsoni",
+  "common": "Dickinson's Kestrel",
+  "rank": "species"
+ },
+ {
+  "count": 54,
+  "sci": "Falco rupicoloides",
+  "common": "Greater Kestrel",
+  "rank": "species"
+ },
+ {
+  "count": 54,
+  "sci": "Anthus leucophrys",
+  "common": "Plain-backed Pipit",
+  "rank": "species"
+ },
+ {
+  "count": 54,
+  "sci": "Philetairus socius",
+  "common": "Sociable Weaver",
+  "rank": "species"
+ },
+ {
+  "count": 54,
+  "sci": "Dendropicos fuscescens",
+  "common": "Cardinal Woodpecker",
+  "rank": "species"
+ },
+ {
+  "count": 53,
+  "sci": "Ciconia abdimii",
+  "common": "Abdim's Stork",
+  "rank": "species"
+ },
+ {
+  "count": 53,
+  "sci": "Tricholaema leucomelas",
+  "common": "Acacia Pied Barbet",
+  "rank": "species"
+ },
+ {
+  "count": 52,
+  "sci": "Halcyon leucocephala",
+  "common": "Gray-headed Kingfisher",
+  "rank": "species"
+ },
+ {
+  "count": 51,
+  "sci": "Ardea melanocephala",
+  "common": "Black-headed Heron",
+  "rank": "species"
+ },
+ {
+  "count": 51,
+  "sci": "Lagonosticta rhodopareia",
+  "common": "Jameson's Firefinch",
+  "rank": "species"
+ },
+ {
+  "count": 51,
+  "sci": "Gymnoris superciliaris",
+  "common": "Yellow-throated Bush Sparrow",
+  "rank": "species"
+ },
+ {
+  "count": 50,
+  "sci": "Crithagra flaviventris",
+  "common": "Yellow Canary",
+  "rank": "species"
+ },
+ {
+  "count": 48,
+  "sci": "Hieraaetus wahlbergi",
+  "common": "Wahlberg's Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 48,
+  "sci": "Smutsornis africanus",
+  "common": "Double-banded Courser",
+  "rank": "species"
+ },
+ {
+  "count": 47,
+  "sci": "Microparra capensis",
+  "common": "Lesser Jacana",
+  "rank": "species"
+ },
+ {
+  "count": 47,
+  "sci": "Eremopterix verticalis",
+  "common": "Grey-backed Sparrow-Lark",
+  "rank": "species"
+ },
+ {
+  "count": 46,
+  "sci": "Clamator levaillantii",
+  "common": "Levaillant's Cuckoo",
+  "rank": "species"
+ },
+ {
+  "count": 46,
+  "sci": "Falco chicquera",
+  "common": "Red-necked Falcon",
+  "rank": "species"
+ },
+ {
+  "count": 46,
+  "sci": "Cinnyricinclus leucogaster",
+  "common": "Violet-backed Starling",
+  "rank": "species"
+ },
+ {
+  "count": 46,
+  "sci": "Myrmecocichla arnotti",
+  "common": "Arnot's Chat",
+  "rank": "species"
+ },
+ {
+  "count": 45,
+  "sci": "Motacilla capensis",
+  "common": "Cape Wagtail",
+  "rank": "species"
+ },
+ {
+  "count": 44,
+  "sci": "Calendulauda sabota",
+  "common": "Sabota Lark",
+  "rank": "species"
+ },
+ {
+  "count": 43,
+  "sci": "Corvus capensis",
+  "common": "Cape Crow",
+  "rank": "species"
+ },
+ {
+  "count": 43,
+  "sci": "Hirundo rustica",
+  "common": "Barn Swallow",
+  "rank": "species"
+ },
+ {
+  "count": 42,
+  "sci": "Rhinopomastus cyanomelas",
+  "common": "Common Scimitarbill",
+  "rank": "species"
+ },
+ {
+  "count": 42,
+  "sci": "Chlidonias hybrida",
+  "common": "Whiskered Tern",
+  "rank": "species"
+ },
+ {
+  "count": 42,
+  "sci": "Melaniparus niger",
+  "common": "Southern Black Tit",
+  "rank": "species"
+ },
+ {
+  "count": 41,
+  "sci": "Lagonosticta nitidula",
+  "common": "Brown Firefinch",
+  "rank": "species"
+ },
+ {
+  "count": 40,
+  "sci": "Rostratula benghalensis",
+  "common": "Greater Painted-Snipe",
+  "rank": "species"
+ },
+ {
+  "count": 40,
+  "sci": "Ptilopsis granti",
+  "common": "Southern White-faced Owl",
+  "rank": "species"
+ },
+ {
+  "count": 39,
+  "sci": "Colius striatus",
+  "common": "Speckled Mousebird",
+  "rank": "species"
+ },
+ {
+  "count": 39,
+  "sci": "Ploceus cucullatus",
+  "common": "Village Weaver",
+  "rank": "species"
+ },
+ {
+  "count": 39,
+  "sci": "Indicator indicator",
+  "common": "Greater Honeyguide",
+  "rank": "species"
+ },
+ {
+  "count": 38,
+  "sci": "Curruca subcoerulea",
+  "common": "Chestnut-vented Warbler",
+  "rank": "species"
+ },
+ {
+  "count": 37,
+  "sci": "Muscicapa striata",
+  "common": "Spotted Flycatcher",
+  "rank": "species"
+ },
+ {
+  "count": 37,
+  "sci": "Otus senegalensis",
+  "common": "African Scops-Owl",
+  "rank": "species"
+ },
+ {
+  "count": 36,
+  "sci": "Lanius minor",
+  "common": "Lesser Grey Shrike",
+  "rank": "species"
+ },
+ {
+  "count": 36,
+  "sci": "Euplectes orix",
+  "common": "Southern Red Bishop",
+  "rank": "species"
+ },
+ {
+  "count": 36,
+  "sci": "Hedydipna collaris",
+  "common": "Collared Sunbird",
+  "rank": "species"
+ },
+ {
+  "count": 36,
+  "sci": "Agricola infuscatus",
+  "common": "Chat Flycatcher",
+  "rank": "species"
+ },
+ {
+  "count": 35,
+  "sci": "Vidua chalybeata",
+  "common": "Village Indigobird",
+  "rank": "species"
+ },
+ {
+  "count": 35,
+  "sci": "Crithagra atrogularis",
+  "common": "Black-throated Canary",
+  "rank": "species"
+ },
+ {
+  "count": 35,
+  "sci": "Dessonornis humeralis",
+  "common": "White-throated Robin-Chat",
+  "rank": "species"
+ },
+ {
+  "count": 35,
+  "sci": "Fringillaria impetuani",
+  "common": "Lark-like Bunting",
+  "rank": "species"
+ },
+ {
+  "count": 33,
+  "sci": "Pterocles namaqua",
+  "common": "Namaqua Sandgrouse",
+  "rank": "species"
+ },
+ {
+  "count": 33,
+  "sci": "Neophedina cincta",
+  "common": "Banded Martin",
+  "rank": "species"
+ },
+ {
+  "count": 33,
+  "sci": "Chlorophoneus sulfureopectus",
+  "common": "Sulphur-breasted Bushshrike",
+  "rank": "species"
+ },
+ {
+  "count": 32,
+  "sci": "Phalacrocorax carbo",
+  "common": "Great Cormorant",
+  "rank": "species"
+ },
+ {
+  "count": 32,
+  "sci": "Buteo buteo",
+  "common": "Common Buzzard",
+  "rank": "species"
+ },
+ {
+  "count": 32,
+  "sci": "Calandrella cinerea",
+  "common": "Red-capped Lark",
+  "rank": "species"
+ },
+ {
+  "count": 31,
+  "sci": "Anas capensis",
+  "common": "Cape Teal",
+  "rank": "species"
+ },
+ {
+  "count": 31,
+  "sci": "Caprimulgus fossii",
+  "common": "Square-tailed Nightjar",
+  "rank": "species"
+ },
+ {
+  "count": 31,
+  "sci": "Centropus burchellii",
+  "common": "Burchell's Coucal",
+  "rank": "species"
+ },
+ {
+  "count": 30,
+  "sci": "Chalcomitra senegalensis",
+  "common": "Scarlet-chested Sunbird",
+  "rank": "species"
+ },
+ {
+  "count": 30,
+  "sci": "Indicator minor",
+  "common": "Lesser Honeyguide",
+  "rank": "species"
+ },
+ {
+  "count": 30,
+  "sci": "Oenanthe familiaris",
+  "common": "Familiar Chat",
+  "rank": "species"
+ },
+ {
+  "count": 30,
+  "sci": "Calherodius leuconotus",
+  "common": "White-backed Night Heron",
+  "rank": "species"
+ },
+ {
+  "count": 29,
+  "sci": "Amblyospiza albifrons",
+  "common": "Grosbeak Weaver",
+  "rank": "species"
+ },
+ {
+  "count": 29,
+  "sci": "Strix woodfordii",
+  "common": "African Wood-Owl",
+  "rank": "species"
+ },
+ {
+  "count": 29,
+  "sci": "Phoenicopterus roseus",
+  "common": "Greater Flamingo",
+  "rank": "species"
+ },
+ {
+  "count": 29,
+  "sci": "Lissotis melanogaster",
+  "common": "Black-bellied Bustard",
+  "rank": "species"
+ },
+ {
+  "count": 29,
+  "sci": "Fraseria caerulescens",
+  "common": "Ashy Flycatcher",
+  "rank": "species"
+ },
+ {
+  "count": 28,
+  "sci": "Cypsiurus parvus",
+  "common": "African Palm Swift",
+  "rank": "species"
+ },
+ {
+  "count": 28,
+  "sci": "Oriolus auratus",
+  "common": "African Golden Oriole",
+  "rank": "species"
+ },
+ {
+  "count": 27,
+  "sci": "Clamator jacobinus",
+  "common": "Pied Cuckoo",
+  "rank": "species"
+ },
+ {
+  "count": 27,
+  "sci": "Cursorius temminckii",
+  "common": "Temminck's Courser",
+  "rank": "species"
+ },
+ {
+  "count": 27,
+  "sci": "Glareola nordmanni",
+  "common": "Black-winged Pratincole",
+  "rank": "species"
+ },
+ {
+  "count": 27,
+  "sci": "Passer motitensis",
+  "common": "Great Rufous Sparrow",
+  "rank": "species"
+ },
+ {
+  "count": 27,
+  "sci": "Tachyspiza badia",
+  "common": "Shikra",
+  "rank": "species"
+ },
+ {
+  "count": 26,
+  "sci": "Phoeniconaias minor",
+  "common": "Lesser Flamingo",
+  "rank": "species"
+ },
+ {
+  "count": 26,
+  "sci": "Euplectes axillaris",
+  "common": "Fan-tailed Widowbird",
+  "rank": "species"
+ },
+ {
+  "count": 26,
+  "sci": "Vidua macroura",
+  "common": "Pin-tailed Whydah",
+  "rank": "species"
+ },
+ {
+  "count": 26,
+  "sci": "Amadina fasciata",
+  "common": "Cut-throat Finch",
+  "rank": "species"
+ },
+ {
+  "count": 26,
+  "sci": "Ciconia microscelis",
+  "common": "African Woolly-necked Stork",
+  "rank": "species"
+ },
+ {
+  "count": 24,
+  "sci": "Porphyrio alleni",
+  "common": "Allen's Gallinule",
+  "rank": "species"
+ },
+ {
+  "count": 24,
+  "sci": "Recurvirostra avosetta",
+  "common": "Pied Avocet",
+  "rank": "species"
+ },
+ {
+  "count": 24,
+  "sci": "Lophaetus occipitalis",
+  "common": "Long-crested Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 24,
+  "sci": "Melierax metabates",
+  "common": "Dark Chanting-Goshawk",
+  "rank": "species"
+ },
+ {
+  "count": 24,
+  "sci": "Nilaus afer",
+  "common": "Brubru",
+  "rank": "species"
+ },
+ {
+  "count": 24,
+  "sci": "Pandion haliaetus",
+  "common": "Osprey",
+  "rank": "species"
+ },
+ {
+  "count": 24,
+  "sci": "Fringillaria tahapisi",
+  "common": "Cinnamon-breasted Bunting",
+  "rank": "species"
+ },
+ {
+  "count": 23,
+  "sci": "Coracias garrulus",
+  "common": "European Roller",
+  "rank": "species"
+ },
+ {
+  "count": 23,
+  "sci": "Colius colius",
+  "common": "White-backed Mousebird",
+  "rank": "species"
+ },
+ {
+  "count": 23,
+  "sci": "Calidris minuta",
+  "common": "Little Stint",
+  "rank": "species"
+ },
+ {
+  "count": 23,
+  "sci": "Falco amurensis",
+  "common": "Amur Falcon",
+  "rank": "species"
+ },
+ {
+  "count": 23,
+  "sci": "Gyps coprotheres",
+  "common": "Cape Griffon",
+  "rank": "species"
+ },
+ {
+  "count": 23,
+  "sci": "Eremopterix leucotis",
+  "common": "Chestnut-backed Sparrow-Lark",
+  "rank": "species"
+ },
+ {
+  "count": 23,
+  "sci": "Bycanistes bucinator",
+  "common": "Trumpeter Hornbill",
+  "rank": "species"
+ },
+ {
+  "count": 23,
+  "sci": "Zosterops anderssoni",
+  "common": "Southern Yellow White-eye",
+  "rank": "species"
+ },
+ {
+  "count": 22,
+  "sci": "Circaetus cinerascens",
+  "common": "Western Banded Snake-Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 22,
+  "sci": "Batis pririt",
+  "common": "Pririt Batis",
+  "rank": "species"
+ },
+ {
+  "count": 22,
+  "sci": "Gallinula chloropus",
+  "common": "Eurasian Moorhen",
+  "rank": "species"
+ },
+ {
+  "count": 22,
+  "sci": "Botaurus sturmii",
+  "common": "Dwarf Bittern",
+  "rank": "species"
+ },
+ {
+  "count": 21,
+  "sci": "Chrysococcyx caprius",
+  "common": "Diederik Cuckoo",
+  "rank": "species"
+ },
+ {
+  "count": 21,
+  "sci": "Chlidonias leucopterus",
+  "common": "White-winged Tern",
+  "rank": "species"
+ },
+ {
+  "count": 21,
+  "sci": "Polihierax semitorquatus",
+  "common": "Pygmy Falcon",
+  "rank": "species"
+ },
+ {
+  "count": 21,
+  "sci": "Pinarocorys nigricans",
+  "common": "Dusky Lark",
+  "rank": "species"
+ },
+ {
+  "count": 21,
+  "sci": "Asio capensis",
+  "common": "Marsh Owl",
+  "rank": "species"
+ },
+ {
+  "count": 21,
+  "sci": "Tchagra senegalus",
+  "common": "Black-crowned Tchagra",
+  "rank": "species"
+ },
+ {
+  "count": 20,
+  "sci": "Balearica regulorum",
+  "common": "Gray Crowned-Crane",
+  "rank": "species"
+ },
+ {
+  "count": 20,
+  "sci": "Tringa stagnatilis",
+  "common": "Marsh Sandpiper",
+  "rank": "species"
+ },
+ {
+  "count": 20,
+  "sci": "Gallinago nigripennis",
+  "common": "African Snipe",
+  "rank": "species"
+ },
+ {
+  "count": 20,
+  "sci": "Apalis flavida",
+  "common": "Yellow-breasted Apalis",
+  "rank": "species"
+ },
+ {
+  "count": 20,
+  "sci": "Phylloscopus trochilus",
+  "common": "Willow Warbler",
+  "rank": "species"
+ },
+ {
+  "count": 20,
+  "sci": "Falco rupicolus",
+  "common": "Rock Kestrel",
+  "rank": "species"
+ },
+ {
+  "count": 19,
+  "sci": "Clamator glandarius",
+  "common": "Great Spotted Cuckoo",
+  "rank": "species"
+ },
+ {
+  "count": 19,
+  "sci": "Hirundo albigularis",
+  "common": "White-throated Swallow",
+  "rank": "species"
+ },
+ {
+  "count": 19,
+  "sci": "Ploceus ocularis",
+  "common": "Spectacled Weaver",
+  "rank": "species"
+ },
+ {
+  "count": 19,
+  "sci": "Eremomela usticollis",
+  "common": "Burnt-necked Eremomela",
+  "rank": "species"
+ },
+ {
+  "count": 19,
+  "sci": "Motacilla flava",
+  "common": "Western Yellow Wagtail",
+  "rank": "species"
+ },
+ {
+  "count": 19,
+  "sci": "Onychognathus morio",
+  "common": "Red-winged Starling",
+  "rank": "species"
+ },
+ {
+  "count": 18,
+  "sci": "Alcedo semitorquata",
+  "common": "Half-collared Kingfisher",
+  "rank": "species"
+ },
+ {
+  "count": 18,
+  "sci": "Hieraaetus pennatus",
+  "common": "Booted Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 18,
+  "sci": "Anas undulata",
+  "common": "Yellow-billed Duck",
+  "rank": "species"
+ },
+ {
+  "count": 18,
+  "sci": "Passer griseus",
+  "common": "Northern Grey-headed Sparrow",
+  "rank": "species"
+ },
+ {
+  "count": 18,
+  "sci": "Ptyonoprogne fuligula",
+  "common": "Southern Crag-Martin",
+  "rank": "species"
+ },
+ {
+  "count": 18,
+  "sci": "Porphyrio madagascariensis",
+  "common": "African Swamphen",
+  "rank": "species"
+ },
+ {
+  "count": 17,
+  "sci": "Rhinoptilus cinctus",
+  "common": "Three-banded Courser",
+  "rank": "species"
+ },
+ {
+  "count": 17,
+  "sci": "Ciconia ciconia",
+  "common": "White Stork",
+  "rank": "species"
+ },
+ {
+  "count": 17,
+  "sci": "Cisticola pipiens",
+  "common": "Chirping Cisticola",
+  "rank": "species"
+ },
+ {
+  "count": 17,
+  "sci": "Cisticola luapula",
+  "common": "Luapula Cisticola",
+  "rank": "species"
+ },
+ {
+  "count": 16,
+  "sci": "Netta erythrophthalma",
+  "common": "Southern Pochard",
+  "rank": "species"
+ },
+ {
+  "count": 16,
+  "sci": "Riparia paludicola",
+  "common": "Brown-throated Martin",
+  "rank": "species"
+ },
+ {
+  "count": 16,
+  "sci": "Spermestes cucullata",
+  "common": "Bronze Mannikin",
+  "rank": "species"
+ },
+ {
+  "count": 15,
+  "sci": "Cisticola juncidis",
+  "common": "Zitting Cisticola",
+  "rank": "species"
+ },
+ {
+  "count": 15,
+  "sci": "Melaenornis pammelaina",
+  "common": "Southern Black-Flycatcher",
+  "rank": "species"
+ },
+ {
+  "count": 15,
+  "sci": "Anthus vaalensis",
+  "common": "Buffy Pipit",
+  "rank": "species"
+ },
+ {
+  "count": 15,
+  "sci": "Turnix sylvaticus",
+  "common": "Common Buttonquail",
+  "rank": "species"
+ },
+ {
+  "count": 15,
+  "sci": "Prionops retzii",
+  "common": "Retz's Helmetshrike",
+  "rank": "species"
+ },
+ {
+  "count": 15,
+  "sci": "Cecropis semirufa",
+  "common": "Rufous-chested Swallow",
+  "rank": "species"
+ },
+ {
+  "count": 15,
+  "sci": "Melaniparus cinerascens",
+  "common": "Ashy Tit",
+  "rank": "species"
+ },
+ {
+  "count": 15,
+  "sci": "Calamonastes fasciolatus",
+  "common": "Barred Wren-Warbler",
+  "rank": "species"
+ },
+ {
+  "count": 15,
+  "sci": "Lanius collaris",
+  "common": "Southern Fiscal",
+  "rank": "species"
+ },
+ {
+  "count": 15,
+  "sci": "Botaurus minutus",
+  "common": "Little Bittern",
+  "rank": "species"
+ },
+ {
+  "count": 14,
+  "sci": "Ciconia nigra",
+  "common": "Black Stork",
+  "rank": "species"
+ },
+ {
+  "count": 14,
+  "sci": "Estrilda astrild",
+  "common": "Common Waxbill",
+  "rank": "species"
+ },
+ {
+  "count": 14,
+  "sci": "Eremomela icteropygialis",
+  "common": "Yellow-bellied Eremomela",
+  "rank": "species"
+ },
+ {
+  "count": 14,
+  "sci": "Crithagra mozambica",
+  "common": "Yellow-fronted Canary",
+  "rank": "species"
+ },
+ {
+  "count": 13,
+  "sci": "Macheiramphus alcinus",
+  "common": "Bat Hawk",
+  "rank": "species"
+ },
+ {
+  "count": 13,
+  "sci": "Cisticola aridulus",
+  "common": "Desert Cisticola",
+  "rank": "species"
+ },
+ {
+  "count": 13,
+  "sci": "Macronyx ameliae",
+  "common": "Rosy-throated Longclaw",
+  "rank": "species"
+ },
+ {
+  "count": 13,
+  "sci": "Caprimulgus rufigena",
+  "common": "Rufous-cheeked Nightjar",
+  "rank": "species"
+ },
+ {
+  "count": 13,
+  "sci": "Falco naumanni",
+  "common": "Lesser Kestrel",
+  "rank": "species"
+ },
+ {
+  "count": 13,
+  "sci": "Clanga pomarina",
+  "common": "Lesser Spotted Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 12,
+  "sci": "Rhinoptilus chalcopterus",
+  "common": "Bronze-winged Courser",
+  "rank": "species"
+ },
+ {
+  "count": 12,
+  "sci": "Buteo rufofuscus",
+  "common": "Jackal Buzzard",
+  "rank": "species"
+ },
+ {
+  "count": 12,
+  "sci": "Thalassornis leuconotus",
+  "common": "White-backed Duck",
+  "rank": "species"
+ },
+ {
+  "count": 12,
+  "sci": "Hirundo dimidiata",
+  "common": "Pearl-breasted Swallow",
+  "rank": "species"
+ },
+ {
+  "count": 12,
+  "sci": "Anthoscopus minutus",
+  "common": "Cape Penduline-Tit",
+  "rank": "species"
+ },
+ {
+  "count": 11,
+  "sci": "Coracias spatulatus",
+  "common": "Racket-tailed Roller",
+  "rank": "species"
+ },
+ {
+  "count": 11,
+  "sci": "Tauraco schalowi",
+  "common": "Schalow's Turaco",
+  "rank": "species"
+ },
+ {
+  "count": 11,
+  "sci": "Laniarius ferrugineus",
+  "common": "Southern Boubou",
+  "rank": "species"
+ },
+ {
+  "count": 11,
+  "sci": "Campephaga flava",
+  "common": "Black Cuckooshrike",
+  "rank": "species"
+ },
+ {
+  "count": 11,
+  "sci": "Pinarornis plumosus",
+  "common": "Boulder Chat",
+  "rank": "species"
+ },
+ {
+  "count": 11,
+  "sci": "Pogoniulus chrysoconus",
+  "common": "Yellow-fronted Tinkerbird",
+  "rank": "species"
+ },
+ {
+  "count": 11,
+  "sci": "Chersomanes albofasciata",
+  "common": "Spike-heeled Lark",
+  "rank": "species"
+ },
+ {
+  "count": 11,
+  "sci": "Campocolinus coqui",
+  "common": "Coqui Francolin",
+  "rank": "species"
+ },
+ {
+  "count": 10,
+  "sci": "Centropus grillii",
+  "common": "Black Coucal",
+  "rank": "species"
+ },
+ {
+  "count": 10,
+  "sci": "Pseudhirundo griseopyga",
+  "common": "Gray-rumped Swallow",
+  "rank": "species"
+ },
+ {
+  "count": 10,
+  "sci": "Acrocephalus gracilirostris",
+  "common": "Lesser Swamp Warbler",
+  "rank": "species"
+ },
+ {
+  "count": 10,
+  "sci": "Cecropis cucullata",
+  "common": "Greater Striped Swallow",
+  "rank": "species"
+ },
+ {
+  "count": 10,
+  "sci": "Crecopsis egregia",
+  "common": "African Crake",
+  "rank": "species"
+ },
+ {
+  "count": 9,
+  "sci": "Cuculus clamosus",
+  "common": "Black Cuckoo",
+  "rank": "species"
+ },
+ {
+  "count": 9,
+  "sci": "Circus pygargus",
+  "common": "Montagu's Harrier",
+  "rank": "species"
+ },
+ {
+  "count": 9,
+  "sci": "Kaupifalco monogrammicus",
+  "common": "Lizard Buzzard",
+  "rank": "species"
+ },
+ {
+  "count": 9,
+  "sci": "Dendrocygna bicolor",
+  "common": "Fulvous Whistling-Duck",
+  "rank": "species"
+ },
+ {
+  "count": 9,
+  "sci": "Caprimulgus pectoralis",
+  "common": "Fiery-necked Nightjar",
+  "rank": "species"
+ },
+ {
+  "count": 9,
+  "sci": "Acrocephalus rufescens",
+  "common": "Greater Swamp Warbler",
+  "rank": "species"
+ },
+ {
+  "count": 9,
+  "sci": "Zosterops virens",
+  "common": "Cape White-eye",
+  "rank": "species"
+ },
+ {
+  "count": 9,
+  "sci": "Paragallinula angulata",
+  "common": "Lesser Moorhen",
+  "rank": "species"
+ },
+ {
+  "count": 8,
+  "sci": "Fulica cristata",
+  "common": "Red-knobbed Coot",
+  "rank": "species"
+ },
+ {
+  "count": 8,
+  "sci": "Cuculus gularis",
+  "common": "African Cuckoo",
+  "rank": "species"
+ },
+ {
+  "count": 8,
+  "sci": "Aquila verreauxii",
+  "common": "Verreaux's Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 8,
+  "sci": "Tadorna cana",
+  "common": "South African Shelduck",
+  "rank": "species"
+ },
+ {
+  "count": 8,
+  "sci": "Delichon urbicum",
+  "common": "Western House Martin",
+  "rank": "species"
+ },
+ {
+  "count": 7,
+  "sci": "Glareola nuchalis",
+  "common": "Rock Pratincole",
+  "rank": "species"
+ },
+ {
+  "count": 7,
+  "sci": "Apus affinis",
+  "common": "Little Swift",
+  "rank": "species"
+ },
+ {
+  "count": 7,
+  "sci": "Pterocles gutturalis",
+  "common": "Yellow-throated Sandgrouse",
+  "rank": "species"
+ },
+ {
+  "count": 7,
+  "sci": "Ortygospiza atricollis",
+  "common": "Quailfinch",
+  "rank": "species"
+ },
+ {
+  "count": 7,
+  "sci": "Aerospiza tachiro",
+  "common": "African Goshawk",
+  "rank": "species"
+ },
+ {
+  "count": 7,
+  "sci": "Tychaedon quadrivirgata",
+  "common": "Bearded Scrub-Robin",
+  "rank": "species"
+ },
+ {
+  "count": 6,
+  "sci": "Hieraaetus ayresii",
+  "common": "Ayres's Hawk-Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 6,
+  "sci": "Motacilla clara",
+  "common": "Mountain Wagtail",
+  "rank": "species"
+ },
+ {
+  "count": 6,
+  "sci": "Euplectes albonotatus",
+  "common": "White-winged Widowbird",
+  "rank": "species"
+ },
+ {
+  "count": 6,
+  "sci": "Chalcomitra amethystina",
+  "common": "Amethyst Sunbird",
+  "rank": "species"
+ },
+ {
+  "count": 6,
+  "sci": "Corypha fasciolata",
+  "common": "Eastern Clapper Lark",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Neotis denhami",
+  "common": "Denham's Bustard",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Neotis ludwigii",
+  "common": "Ludwig's Bustard",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Chrysococcyx klaas",
+  "common": "Klaas's Cuckoo",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Cuculus solitarius",
+  "common": "Red-chested Cuckoo",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Falco subbuteo",
+  "common": "Eurasian Hobby",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Charadrius hiaticula",
+  "common": "Common Ringed Plover",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Accipiter ovampensis",
+  "common": "Ovambo Sparrowhawk",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Circus maurus",
+  "common": "Black Harrier",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Circus macrourus",
+  "common": "Pallid Harrier",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Riparia riparia",
+  "common": "Bank Swallow",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Euplectes afer",
+  "common": "Yellow-crowned Bishop",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Cisticola fulvicapilla",
+  "common": "Piping Cisticola",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Anarhynchus asiaticus",
+  "common": "Caspian Plover",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Calidris alba",
+  "common": "Sanderling",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Podiceps nigricollis",
+  "common": "Eared Grebe",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Buteo auguralis",
+  "common": "Red-necked Buzzard",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Apus apus",
+  "common": "Common Swift",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Spizocorys conirostris",
+  "common": "Pink-billed Lark",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Thamnolaea cinnamomeiventris",
+  "common": "Mocking Cliff-Chat",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Acrocephalus scirpaceus",
+  "common": "Common Reed Warbler",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Fraseria plumbea",
+  "common": "Gray Tit-Flycatcher",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Spatula smithii",
+  "common": "Cape Shoveler",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Rallus caerulescens",
+  "common": "African Rail",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Chrysococcyx cupreus",
+  "common": "African Emerald Cuckoo",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Columba livia",
+  "common": "Rock Pigeon",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Podiceps cristatus",
+  "common": "Great Crested Grebe",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Falco peregrinus",
+  "common": "Peregrine Falcon",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Anas sparsa",
+  "common": "African Black Duck",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Mirafra passerina",
+  "common": "Monotonous Lark",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Apalis thoracica",
+  "common": "Bar-throated Apalis",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Pytilia afra",
+  "common": "Orange-winged Pytilia",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Apaloderma narina",
+  "common": "Narina Trogon",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Hippolais icterina",
+  "common": "Icterine Warbler",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Hydroprogne caspia",
+  "common": "Caspian Tern",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Spizocorys starki",
+  "common": "Stark's Lark",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Cinnyris bifasciatus",
+  "common": "Purple-banded Sunbird",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Cinnyris fuscus",
+  "common": "Dusky Sunbird",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Cinnyris cupreus",
+  "common": "Copper Sunbird",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Lophoceros alboterminatus",
+  "common": "Crowned Hornbill",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Scleroptila gutturalis",
+  "common": "Orange River Francolin",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Sarothrura rufa",
+  "common": "Red-chested Flufftail",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Coturnix delegorguei",
+  "common": "Harlequin Quail",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Calidris ferruginea",
+  "common": "Curlew Sandpiper",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Tringa ochropus",
+  "common": "Green Sandpiper",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Numenius phaeopus",
+  "common": "Eurasian Whimbrel",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Larus fuscus",
+  "common": "Lesser Black-backed Gull",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Pluvialis squatarola",
+  "common": "Black-bellied Plover",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Anser anser",
+  "common": "Greylag Goose",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Cisticola erythrops",
+  "common": "Red-faced Cisticola",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Vidua purpurascens",
+  "common": "Purple Indigobird",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Turdoides melanops",
+  "common": "Black-faced Babbler",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Eremomela scotops",
+  "common": "Green-capped Eremomela",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Agapornis roseicollis",
+  "common": "Rosy-faced Lovebird",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Caprimulgus tristigma",
+  "common": "Freckled Nightjar",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Cecropis senegalensis",
+  "common": "Mosque Swallow",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Oriolus oriolus",
+  "common": "Eurasian Golden Oriole",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Agricola pallidus",
+  "common": "Pale Flycatcher",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Lamprotornis chloropterus",
+  "common": "Lesser Blue-eared Starling",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Crithagra gularis",
+  "common": "Streaky-headed Seedeater",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Curruca communis",
+  "common": "Greater Whitethroat",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Anarhynchus pallidus",
+  "common": "Chestnut-banded Plover",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Anarhynchus marginatus",
+  "common": "White-fronted Plover",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Dendropicos griseocephalus",
+  "common": "Olive Woodpecker",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Amirafra rufocinnamomea",
+  "common": "Flappet Lark",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Tauraco rossae",
+  "common": "Ross's Turaco",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Podica senegalensis",
+  "common": "African Finfoot",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Gallus gallus",
+  "common": "Red Junglefowl",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Merops superciliosus",
+  "common": "Olive Bee-eater",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Columba arquatrix",
+  "common": "Rameron Pigeon",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Calidris acuminata",
+  "common": "Sharp-tailed Sandpiper",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Numenius arquata",
+  "common": "Eurasian Curlew",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Gallinago media",
+  "common": "Great Snipe",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Arenaria interpres",
+  "common": "Ruddy Turnstone",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Falco vespertinus",
+  "common": "Red-footed Falcon",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Aquila nipalensis",
+  "common": "Steppe Eagle",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Aviceda cuculoides",
+  "common": "African Cuckoo-Hawk",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Gypohierax angolensis",
+  "common": "Palm-nut Vulture",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Apus caffer",
+  "common": "White-rumped Swift",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Anas platyrhynchos",
+  "common": "Mallard",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Cairina moschata",
+  "common": "Muscovy Duck",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Certhilauda chuana",
+  "common": "Short-clawed Lark",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Mirafra cheniana",
+  "common": "Melodious Lark",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Cisticola aberrans",
+  "common": "Rock-loving Cisticola",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Luscinia luscinia",
+  "common": "Thrush Nightingale",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Sigelus silens",
+  "common": "Fiscal Flycatcher",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Anthoscopus caroli",
+  "common": "African Penduline-Tit",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Anthus lineiventris",
+  "common": "Striped Pipit",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Vidua obtusa",
+  "common": "Broad-tailed Paradise Whydah",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Hypargos niveoguttatus",
+  "common": "Red-throated Twinspot",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Anomalospiza imberbis",
+  "common": "Cuckoo-finch",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Onychognathus nabouroup",
+  "common": "Pale-winged Starling",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Sylvia borin",
+  "common": "Garden Warbler",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Prodotiscus regulus",
+  "common": "Brown-backed Honeybird",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Caprimulgus europaeus",
+  "common": "Eurasian Nightjar",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Tachymarptis melba",
+  "common": "Alpine Swift",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Phalaropus fulicarius",
+  "common": "Red Phalarope",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Acrocephalus schoenobaenus",
+  "common": "Sedge Warbler",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Bradypterus baboecala",
+  "common": "Little Rush-Warbler",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Gelochelidon nilotica",
+  "common": "Gull-billed Tern",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Ispidina picta",
+  "common": "African Pygmy Kingfisher",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Petrochelidon spilodera",
+  "common": "South African Swallow",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Acrocephalus arundinaceus",
+  "common": "Great Reed Warbler",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Calidris subruficollis",
+  "common": "Buff-breasted Sandpiper",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Caprimulgus vexillarius",
+  "common": "Pennant-winged Nightjar",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Calamonastes stierlingi",
+  "common": "Stierling's Wren-Warbler",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Amandava subflava",
+  "common": "Orange-breasted Waxbill",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Heterotetrax rueppelii",
+  "common": "Rüppell's Bustard",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Astur melanoleucus",
+  "common": "Black Goshawk",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Aenigmatolimnas marginalis",
+  "common": "Striped Crake",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Tychaedon coryphoeus",
+  "common": "Karoo Scrub-Robin",
+  "rank": "species"
+ }
+]

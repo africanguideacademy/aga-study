@@ -1,0 +1,1622 @@
+[
+ {
+  "name": "African Darter",
+  "call": "African Darter",
+  "sci": "Anhinga rufa",
+  "group": "Darter",
+  "manual": false,
+  "page": null,
+  "obs": 721
+ },
+ {
+  "name": "Yellow-billed Stork",
+  "call": "Yellow-billed Stork",
+  "sci": "Mycteria ibis",
+  "group": "Stork",
+  "manual": false,
+  "page": null,
+  "obs": 659
+ },
+ {
+  "name": "Marabou Stork",
+  "call": "Marabou Stork",
+  "sci": "Leptoptilos crumenifer",
+  "group": "Stork",
+  "manual": false,
+  "page": null,
+  "obs": 638
+ },
+ {
+  "name": "Little Bee-eater",
+  "call": "Little Bee-eater",
+  "sci": "Merops pusillus",
+  "group": "eater",
+  "manual": false,
+  "page": null,
+  "obs": 589
+ },
+ {
+  "name": "Squacco Heron",
+  "call": "Squacco Heron",
+  "sci": "Ardeola ralloides",
+  "group": "Heron",
+  "manual": false,
+  "page": null,
+  "obs": 492
+ },
+ {
+  "name": "Grey Heron",
+  "call": "Grey Heron",
+  "sci": "Ardea cinerea",
+  "group": "Heron",
+  "manual": false,
+  "page": null,
+  "obs": 461
+ },
+ {
+  "name": "Saddle-billed Stork",
+  "call": "Saddle-billed Stork",
+  "sci": "Ephippiorhynchus senegalensis",
+  "group": "Stork",
+  "manual": false,
+  "page": null,
+  "obs": 444
+ },
+ {
+  "name": "Bateleur",
+  "call": "Bateleur",
+  "sci": "Terathopius ecaudatus",
+  "group": "Bateleur",
+  "manual": false,
+  "page": null,
+  "obs": 427
+ },
+ {
+  "name": "African Sacred Ibis",
+  "call": "African Sacred Ibis",
+  "sci": "Threskiornis aethiopicus",
+  "group": "Ibis",
+  "manual": false,
+  "page": null,
+  "obs": 407
+ },
+ {
+  "name": "Reed Cormorant",
+  "call": "Reed Cormorant",
+  "sci": "Microcarbo africanus",
+  "group": "Cormorant",
+  "manual": false,
+  "page": null,
+  "obs": 398
+ },
+ {
+  "name": "White-faced Whistling Duck",
+  "call": "White-faced Whistling Duck",
+  "sci": "Dendrocygna viduata",
+  "group": "Duck",
+  "manual": false,
+  "page": null,
+  "obs": 395
+ },
+ {
+  "name": "Cattle Egret",
+  "call": "Cattle Egret",
+  "sci": "Ardea ibis",
+  "group": "Egret",
+  "manual": false,
+  "page": null,
+  "obs": 335
+ },
+ {
+  "name": "Little Egret",
+  "call": "Little Egret",
+  "sci": "Egretta garzetta",
+  "group": "Egret",
+  "manual": false,
+  "page": null,
+  "obs": 328
+ },
+ {
+  "name": "Long-toed Lapwing",
+  "call": "Long-toed Lapwing",
+  "sci": "Vanellus crassirostris",
+  "group": "Lapwing",
+  "manual": false,
+  "page": null,
+  "obs": 325
+ },
+ {
+  "name": "White-fronted Bee-eater",
+  "call": "White-fronted Bee-eater",
+  "sci": "Merops bullockoides",
+  "group": "eater",
+  "manual": false,
+  "page": null,
+  "obs": 299
+ },
+ {
+  "name": "Cape Glossy Starling",
+  "call": "Cape Glossy Starling",
+  "sci": "Lamprotornis nitens",
+  "group": "Starling",
+  "manual": false,
+  "page": null,
+  "obs": 287
+ },
+ {
+  "name": "Malachite Kingfisher",
+  "call": "Malachite Kingfisher",
+  "sci": "Corythornis cristatus",
+  "group": "Kingfisher",
+  "manual": false,
+  "page": null,
+  "obs": 286
+ },
+ {
+  "name": "Goliath Heron",
+  "call": "Goliath Heron",
+  "sci": "Ardea goliath",
+  "group": "Heron",
+  "manual": false,
+  "page": null,
+  "obs": 282
+ },
+ {
+  "name": "African Grey Hornbill",
+  "call": "Grey Hornbill",
+  "sci": "Lophoceros nasutus",
+  "group": "Hornbill",
+  "manual": false,
+  "page": null,
+  "obs": 280
+ },
+ {
+  "name": "Black Kite",
+  "call": "Black Kite",
+  "sci": "Milvus migrans",
+  "group": "Kite",
+  "manual": false,
+  "page": null,
+  "obs": 279
+ },
+ {
+  "name": "Southern Pale Chanting Goshawk",
+  "call": "Southern Pale Chanting Goshawk",
+  "sci": "Melierax canorus",
+  "group": "Goshawk",
+  "manual": false,
+  "page": null,
+  "obs": 278
+ },
+ {
+  "name": "Black-winged Stilt",
+  "call": "Black-winged Stilt",
+  "sci": "Himantopus himantopus",
+  "group": "Stilt",
+  "manual": false,
+  "page": null,
+  "obs": 274
+ },
+ {
+  "name": "Swallow-tailed Bee-eater",
+  "call": "Swallow-tailed Bee-eater",
+  "sci": "Merops hirundineus",
+  "group": "eater",
+  "manual": false,
+  "page": null,
+  "obs": 267
+ },
+ {
+  "name": "Hooded Vulture",
+  "call": "Hooded Vulture",
+  "sci": "Necrosyrtes monachus",
+  "group": "Vulture",
+  "manual": false,
+  "page": null,
+  "obs": 260
+ },
+ {
+  "name": "African Red-eyed Bulbul",
+  "call": "African Red-eyed Bulbul",
+  "sci": "Pycnonotus nigricans",
+  "group": "Bulbul",
+  "manual": false,
+  "page": null,
+  "obs": 254
+ },
+ {
+  "name": "African Skimmer",
+  "call": "African Skimmer",
+  "sci": "Rynchops flavirostris",
+  "group": "Skimmer",
+  "manual": false,
+  "page": null,
+  "obs": 252
+ },
+ {
+  "name": "Southern Grey-headed Sparrow",
+  "call": "Southern Grey-headed Sparrow",
+  "sci": "Passer diffusus",
+  "group": "Sparrow",
+  "manual": false,
+  "page": null,
+  "obs": 252
+ },
+ {
+  "name": "Laughing Dove",
+  "call": "Laughing Dove",
+  "sci": "Spilopelia senegalensis",
+  "group": "Dove",
+  "manual": false,
+  "page": null,
+  "obs": 247
+ },
+ {
+  "name": "Glossy Ibis",
+  "call": "Glossy Ibis",
+  "sci": "Plegadis falcinellus",
+  "group": "Ibis",
+  "manual": false,
+  "page": null,
+  "obs": 240
+ },
+ {
+  "name": "White-crowned Lapwing",
+  "call": "White-crowned Lapwing",
+  "sci": "Vanellus albiceps",
+  "group": "Lapwing",
+  "manual": false,
+  "page": null,
+  "obs": 229
+ },
+ {
+  "name": "Green Wood Hoopoe",
+  "call": "Green Wood Hoopoe",
+  "sci": "Phoeniculus purpureus",
+  "group": "Hoopoe",
+  "manual": false,
+  "page": null,
+  "obs": 216
+ },
+ {
+  "name": "Bradfield's Hornbill",
+  "call": "Bradfield's Hornbill",
+  "sci": "Lophoceros bradfieldi",
+  "group": "Hornbill",
+  "manual": false,
+  "page": null,
+  "obs": 212
+ },
+ {
+  "name": "Secretarybird",
+  "call": "Secretarybird",
+  "sci": "Sagittarius serpentarius",
+  "group": "Secretarybird",
+  "manual": false,
+  "page": null,
+  "obs": 211
+ },
+ {
+  "name": "Northern Black Korhaan",
+  "call": "Northern Black Korhaan",
+  "sci": "Afrotis afraoides",
+  "group": "Korhaan",
+  "manual": false,
+  "page": null,
+  "obs": 208
+ },
+ {
+  "name": "Hadeda Ibis",
+  "call": "Hadeda Ibis",
+  "sci": "Bostrychia hagedash",
+  "group": "Ibis",
+  "manual": false,
+  "page": null,
+  "obs": 205
+ },
+ {
+  "name": "Martial Eagle",
+  "call": "Martial Eagle",
+  "sci": "Polemaetus bellicosus",
+  "group": "Eagle",
+  "manual": false,
+  "page": null,
+  "obs": 199
+ },
+ {
+  "name": "Yellow-bellied Greenbul",
+  "call": "Yellow-bellied Greenbul",
+  "sci": "Chlorocichla flaviventris",
+  "group": "Greenbul",
+  "manual": false,
+  "page": null,
+  "obs": 199
+ },
+ {
+  "name": "Holub's Golden Weaver",
+  "call": "Golden Weaver",
+  "sci": "Ploceus xanthops",
+  "group": "Weaver",
+  "manual": false,
+  "page": null,
+  "obs": 189
+ },
+ {
+  "name": "Red-eyed Dove",
+  "call": "Red-eyed Dove",
+  "sci": "Streptopelia semitorquata",
+  "group": "Dove",
+  "manual": false,
+  "page": null,
+  "obs": 183
+ },
+ {
+  "name": "Brown-hooded Kingfisher",
+  "call": "Brown-hooded Kingfisher",
+  "sci": "Halcyon albiventris",
+  "group": "Kingfisher",
+  "manual": false,
+  "page": null,
+  "obs": 182
+ },
+ {
+  "name": "Green-backed Camaroptera",
+  "call": "Green-backed Camaroptera",
+  "sci": "Camaroptera brachyura",
+  "group": "Camaroptera",
+  "manual": false,
+  "page": null,
+  "obs": 182
+ },
+ {
+  "name": "Black Heron",
+  "call": "Black Heron",
+  "sci": "Egretta ardesiaca",
+  "group": "Heron",
+  "manual": false,
+  "page": null,
+  "obs": 181
+ },
+ {
+  "name": "Green-backed Heron",
+  "call": "Green-backed Heron",
+  "sci": "Butorides atricapilla",
+  "group": "Heron",
+  "manual": false,
+  "page": null,
+  "obs": 181
+ },
+ {
+  "name": "Brown Snake Eagle",
+  "call": "Brown Snake Eagle",
+  "sci": "Circaetus cinereus",
+  "group": "Eagle",
+  "manual": false,
+  "page": null,
+  "obs": 180
+ },
+ {
+  "name": "Comb Duck",
+  "call": "Comb Duck",
+  "sci": "Sarkidiornis melanotos",
+  "group": "Duck",
+  "manual": false,
+  "page": null,
+  "obs": 175
+ },
+ {
+  "name": "Red-billed Teal",
+  "call": "Red-billed Teal",
+  "sci": "Anas erythrorhyncha",
+  "group": "Teal",
+  "manual": false,
+  "page": null,
+  "obs": 167
+ },
+ {
+  "name": "Hartlaub's Babbler",
+  "call": "Hartlaub's Babbler",
+  "sci": "Turdoides hartlaubii",
+  "group": "Babbler",
+  "manual": false,
+  "page": null,
+  "obs": 158
+ },
+ {
+  "name": "Namaqua Dove",
+  "call": "Namaqua Dove",
+  "sci": "Oena capensis",
+  "group": "Dove",
+  "manual": false,
+  "page": null,
+  "obs": 156
+ },
+ {
+  "name": "White-bellied Sunbird",
+  "call": "White-bellied Sunbird",
+  "sci": "Cinnyris talatala",
+  "group": "Sunbird",
+  "manual": false,
+  "page": null,
+  "obs": 153
+ },
+ {
+  "name": "Marico Sunbird",
+  "call": "Marico Sunbird",
+  "sci": "Cinnyris mariquensis",
+  "group": "Sunbird",
+  "manual": false,
+  "page": null,
+  "obs": 151
+ },
+ {
+  "name": "Kurrichane Thrush",
+  "call": "Kurrichane Thrush",
+  "sci": "Turdus libonyana",
+  "group": "Thrush",
+  "manual": false,
+  "page": null,
+  "obs": 147
+ },
+ {
+  "name": "Southern Pied Babbler",
+  "call": "Southern Pied Babbler",
+  "sci": "Turdoides bicolor",
+  "group": "Babbler",
+  "manual": false,
+  "page": null,
+  "obs": 145
+ },
+ {
+  "name": "Black-shouldered Kite",
+  "call": "Black-shouldered Kite",
+  "sci": "Elanus caeruleus",
+  "group": "Kite",
+  "manual": false,
+  "page": null,
+  "obs": 139
+ },
+ {
+  "name": "Common Myna",
+  "call": "Common Myna",
+  "sci": "Acridotheres tristis",
+  "group": "Myna",
+  "manual": false,
+  "page": null,
+  "obs": 132
+ },
+ {
+  "name": "Common Sandpiper",
+  "call": "Common Sandpiper",
+  "sci": "Actitis hypoleucos",
+  "group": "Sandpiper",
+  "manual": false,
+  "page": null,
+  "obs": 121
+ },
+ {
+  "name": "Lanner Falcon",
+  "call": "Lanner Falcon",
+  "sci": "Falco biarmicus",
+  "group": "Falcon",
+  "manual": false,
+  "page": null,
+  "obs": 121
+ },
+ {
+  "name": "Red-backed Shrike",
+  "call": "Red-backed Shrike",
+  "sci": "Lanius collurio",
+  "group": "Shrike",
+  "manual": false,
+  "page": null,
+  "obs": 121
+ },
+ {
+  "name": "Black-chested Snake Eagle",
+  "call": "Black-chested Snake Eagle",
+  "sci": "Circaetus pectoralis",
+  "group": "Eagle",
+  "manual": false,
+  "page": null,
+  "obs": 120
+ },
+ {
+  "name": "White-crested Helmetshrike",
+  "call": "White-crested Helmetshrike",
+  "sci": "Prionops plumatus",
+  "group": "Helmetshrike",
+  "manual": false,
+  "page": null,
+  "obs": 119
+ },
+ {
+  "name": "Scaly-feathered Finch",
+  "call": "Scaly-feathered Finch",
+  "sci": "Sporopipes squamifrons",
+  "group": "Finch",
+  "manual": false,
+  "page": null,
+  "obs": 117
+ },
+ {
+  "name": "Giant Kingfisher",
+  "call": "Giant Kingfisher",
+  "sci": "Megaceryle maxima",
+  "group": "Kingfisher",
+  "manual": false,
+  "page": null,
+  "obs": 116
+ },
+ {
+  "name": "Pied Crow",
+  "call": "Pied Crow",
+  "sci": "Corvus albus",
+  "group": "Crow",
+  "manual": false,
+  "page": null,
+  "obs": 115
+ },
+ {
+  "name": "Yellow-billed Egret",
+  "call": "Yellow-billed Egret",
+  "sci": "Ardea brachyrhyncha",
+  "group": "Egret",
+  "manual": false,
+  "page": null,
+  "obs": 113
+ },
+ {
+  "name": "African Pied Wagtail",
+  "call": "African Pied Wagtail",
+  "sci": "Motacilla aguimp",
+  "group": "Wagtail",
+  "manual": false,
+  "page": null,
+  "obs": 112
+ },
+ {
+  "name": "Spotted Thick-knee",
+  "call": "Spotted Thick-knee",
+  "sci": "Burhinus capensis",
+  "group": "Thick-knee",
+  "manual": false,
+  "page": null,
+  "obs": 108
+ },
+ {
+  "name": "Wattled Starling",
+  "call": "Wattled Starling",
+  "sci": "Creatophora cinerea",
+  "group": "Starling",
+  "manual": false,
+  "page": null,
+  "obs": 108
+ },
+ {
+  "name": "Pink-backed Pelican",
+  "call": "Pink-backed Pelican",
+  "sci": "Pelecanus rufescens",
+  "group": "Pelican",
+  "manual": false,
+  "page": null,
+  "obs": 100
+ },
+ {
+  "name": "Blue-cheeked Bee-eater",
+  "call": "Blue-cheeked Bee-eater",
+  "sci": "Merops persicus",
+  "group": "eater",
+  "manual": false,
+  "page": null,
+  "obs": 99
+ },
+ {
+  "name": "Tropical Boubou",
+  "call": "Tropical Boubou",
+  "sci": "Laniarius major",
+  "group": "Boubou",
+  "manual": false,
+  "page": null,
+  "obs": 99
+ },
+ {
+  "name": "Ruff",
+  "call": "Ruff",
+  "sci": "Calidris pugnax",
+  "group": "Ruff",
+  "manual": false,
+  "page": null,
+  "obs": 98
+ },
+ {
+  "name": "African Harrier-Hawk",
+  "call": "African Harrier-Hawk",
+  "sci": "Polyboroides typus",
+  "group": "Hawk",
+  "manual": false,
+  "page": null,
+  "obs": 97
+ },
+ {
+  "name": "Shaft-tailed Whydah",
+  "call": "Shaft-tailed Whydah",
+  "sci": "Vidua regia",
+  "group": "Whydah",
+  "manual": false,
+  "page": null,
+  "obs": 97
+ },
+ {
+  "name": "Speckled Pigeon",
+  "call": "Speckled Pigeon",
+  "sci": "Columba guinea",
+  "group": "Pigeon",
+  "manual": false,
+  "page": null,
+  "obs": 95
+ },
+ {
+  "name": "Purple Heron",
+  "call": "Purple Heron",
+  "sci": "Ardea purpurea",
+  "group": "Heron",
+  "manual": false,
+  "page": null,
+  "obs": 94
+ },
+ {
+  "name": "Black-headed Oriole",
+  "call": "Black-headed Oriole",
+  "sci": "Oriolus larvatus",
+  "group": "Oriole",
+  "manual": false,
+  "page": null,
+  "obs": 94
+ },
+ {
+  "name": "African Stonechat",
+  "call": "African Stonechat",
+  "sci": "Saxicola torquatus",
+  "group": "Stonechat",
+  "manual": false,
+  "page": null,
+  "obs": 91
+ },
+ {
+  "name": "Three-banded Plover",
+  "call": "Three-banded Plover",
+  "sci": "Thinornis tricollaris",
+  "group": "Plover",
+  "manual": false,
+  "page": null,
+  "obs": 91
+ },
+ {
+  "name": "Red-faced Mousebird",
+  "call": "Red-faced Mousebird",
+  "sci": "Urocolius indicus",
+  "group": "Mousebird",
+  "manual": false,
+  "page": null,
+  "obs": 89
+ },
+ {
+  "name": "Long-tailed Paradise Whydah",
+  "call": "Long-tailed Paradise Whydah",
+  "sci": "Vidua paradisaea",
+  "group": "Whydah",
+  "manual": false,
+  "page": null,
+  "obs": 89
+ },
+ {
+  "name": "White-browed Coucal",
+  "call": "White-browed Coucal",
+  "sci": "Centropus superciliosus",
+  "group": "Coucal",
+  "manual": false,
+  "page": null,
+  "obs": 88
+ },
+ {
+  "name": "Groundscraper Thrush",
+  "call": "Groundscraper Thrush",
+  "sci": "Turdus litsitsirupa",
+  "group": "Thrush",
+  "manual": false,
+  "page": null,
+  "obs": 85
+ },
+ {
+  "name": "African Paradise Flycatcher",
+  "call": "African Paradise Flycatcher",
+  "sci": "Terpsiphone viridis",
+  "group": "Flycatcher",
+  "manual": false,
+  "page": null,
+  "obs": 84
+ },
+ {
+  "name": "African Pipit",
+  "call": "African Pipit",
+  "sci": "Anthus cinnamomeus",
+  "group": "Pipit",
+  "manual": false,
+  "page": null,
+  "obs": 81
+ },
+ {
+  "name": "Lesser Masked Weaver",
+  "call": "Lesser Masked Weaver",
+  "sci": "Ploceus intermedius",
+  "group": "Weaver",
+  "manual": false,
+  "page": null,
+  "obs": 79
+ },
+ {
+  "name": "White-browed Scrub-Robin",
+  "call": "White-browed Scrub-Robin",
+  "sci": "Cercotrichas leucophrys",
+  "group": "Scrub-Robin",
+  "manual": false,
+  "page": null,
+  "obs": 78
+ },
+ {
+  "name": "Grey-headed Gull",
+  "call": "Grey-headed Gull",
+  "sci": "Chroicocephalus cirrocephalus",
+  "group": "Gull",
+  "manual": false,
+  "page": null,
+  "obs": 77
+ },
+ {
+  "name": "Rufous-naped Lark",
+  "call": "Rufous-naped Lark",
+  "sci": "Corypha africana",
+  "group": "Lark",
+  "manual": false,
+  "page": null,
+  "obs": 77
+ },
+ {
+  "name": "Little Sparrowhawk",
+  "call": "Little Sparrowhawk",
+  "sci": "Tachyspiza minulla",
+  "group": "Sparrowhawk",
+  "manual": false,
+  "page": null,
+  "obs": 71
+ },
+ {
+  "name": "Spotted Eagle Owl",
+  "call": "Spotted Eagle Owl",
+  "sci": "Bubo africanus",
+  "group": "Owl",
+  "manual": false,
+  "page": null,
+  "obs": 70
+ },
+ {
+  "name": "Capped Wheatear",
+  "call": "Capped Wheatear",
+  "sci": "Oenanthe pileata",
+  "group": "Wheatear",
+  "manual": false,
+  "page": null,
+  "obs": 69
+ },
+ {
+  "name": "African Wattled Lapwing",
+  "call": "African Wattled Lapwing",
+  "sci": "Vanellus senegallus",
+  "group": "Lapwing",
+  "manual": false,
+  "page": null,
+  "obs": 66
+ },
+ {
+  "name": "Terrestrial Brownbul",
+  "call": "Terrestrial Brownbul",
+  "sci": "Phyllastrephus terrestris",
+  "group": "Brownbul",
+  "manual": false,
+  "page": null,
+  "obs": 66
+ },
+ {
+  "name": "Hottentot Teal",
+  "call": "Hottentot Teal",
+  "sci": "Spatula hottentota",
+  "group": "Teal",
+  "manual": false,
+  "page": null,
+  "obs": 66
+ },
+ {
+  "name": "Karoo Thrush",
+  "call": "Karoo Thrush",
+  "sci": "Turdus smithi",
+  "group": "Thrush",
+  "manual": false,
+  "page": null,
+  "obs": 65
+ },
+ {
+  "name": "African Marsh-harrier",
+  "call": "African Marsh-harrier",
+  "sci": "Circus ranivorus",
+  "group": "harrier",
+  "manual": false,
+  "page": null,
+  "obs": 64
+ },
+ {
+  "name": "Kittlitz's Plover",
+  "call": "Kittlitz's Plover",
+  "sci": "Anarhynchus pecuarius",
+  "group": "Plover",
+  "manual": false,
+  "page": null,
+  "obs": 64
+ },
+ {
+  "name": "Black-chested Prinia",
+  "call": "Black-chested Prinia",
+  "sci": "Prinia flavicans",
+  "group": "Prinia",
+  "manual": false,
+  "page": null,
+  "obs": 63
+ },
+ {
+  "name": "Ant-eating Chat",
+  "call": "Ant-eating Chat",
+  "sci": "Myrmecocichla formicivora",
+  "group": "Chat",
+  "manual": false,
+  "page": null,
+  "obs": 62
+ },
+ {
+  "name": "Red-headed Finch",
+  "call": "Red-headed Finch",
+  "sci": "Amadina erythrocephala",
+  "group": "Finch",
+  "manual": false,
+  "page": null,
+  "obs": 62
+ },
+ {
+  "name": "House Sparrow",
+  "call": "House Sparrow",
+  "sci": "Passer domesticus",
+  "group": "Sparrow",
+  "manual": false,
+  "page": null,
+  "obs": 61
+ },
+ {
+  "name": "Golden-breasted Bunting",
+  "call": "Golden-breasted Bunting",
+  "sci": "Fringillaria flaviventris",
+  "group": "Bunting",
+  "manual": false,
+  "page": null,
+  "obs": 61
+ },
+ {
+  "name": "Grey-headed Bushshrike",
+  "call": "Grey-headed Bushshrike",
+  "sci": "Malaconotus blanchoti",
+  "group": "Bushshrike",
+  "manual": false,
+  "page": null,
+  "obs": 60
+ },
+ {
+  "name": "Common Greenshank",
+  "call": "Common Greenshank",
+  "sci": "Tringa nebularia",
+  "group": "Greenshank",
+  "manual": false,
+  "page": null,
+  "obs": 58
+ },
+ {
+  "name": "Cape Sparrow",
+  "call": "Cape Sparrow",
+  "sci": "Passer melanurus",
+  "group": "Sparrow",
+  "manual": false,
+  "page": null,
+  "obs": 58
+ },
+ {
+  "name": "Black-crowned Night-heron",
+  "call": "Black-crowned Night-heron",
+  "sci": "Nycticorax nycticorax",
+  "group": "heron",
+  "manual": false,
+  "page": null,
+  "obs": 57
+ },
+ {
+  "name": "Little Grebe",
+  "call": "Little Grebe",
+  "sci": "Tachybaptus ruficollis",
+  "group": "Grebe",
+  "manual": false,
+  "page": null,
+  "obs": 56
+ },
+ {
+  "name": "Natal Francolin",
+  "call": "Natal Francolin",
+  "sci": "Pternistis natalensis",
+  "group": "Francolin",
+  "manual": false,
+  "page": null,
+  "obs": 56
+ },
+ {
+  "name": "Southern Brown-throated Weaver",
+  "call": "Southern Brown-throated",
+  "sci": "Ploceus xanthopterus",
+  "group": "throated",
+  "manual": false,
+  "page": null,
+  "obs": 55
+ },
+ {
+  "name": "Barn Owl",
+  "call": "Barn Owl",
+  "sci": "Tyto alba",
+  "group": "Owl",
+  "manual": false,
+  "page": null,
+  "obs": 55
+ },
+ {
+  "name": "Dickinson's Kestrel",
+  "call": "Dickinson's Kestrel",
+  "sci": "Falco dickinsoni",
+  "group": "Kestrel",
+  "manual": false,
+  "page": null,
+  "obs": 54
+ },
+ {
+  "name": "Greater Kestrel",
+  "call": "Greater Kestrel",
+  "sci": "Falco rupicoloides",
+  "group": "Kestrel",
+  "manual": false,
+  "page": null,
+  "obs": 54
+ },
+ {
+  "name": "Plain-backed Pipit",
+  "call": "Plain-backed Pipit",
+  "sci": "Anthus leucophrys",
+  "group": "Pipit",
+  "manual": false,
+  "page": null,
+  "obs": 54
+ },
+ {
+  "name": "Sociable Weaver",
+  "call": "Sociable Weaver",
+  "sci": "Philetairus socius",
+  "group": "Weaver",
+  "manual": false,
+  "page": null,
+  "obs": 54
+ },
+ {
+  "name": "Abdim's Stork",
+  "call": "Abdim's Stork",
+  "sci": "Ciconia abdimii",
+  "group": "Stork",
+  "manual": false,
+  "page": null,
+  "obs": 53
+ },
+ {
+  "name": "Acacia Pied Barbet",
+  "call": "Acacia Pied Barbet",
+  "sci": "Tricholaema leucomelas",
+  "group": "Barbet",
+  "manual": false,
+  "page": null,
+  "obs": 53
+ },
+ {
+  "name": "Black-headed Heron",
+  "call": "Black-headed Heron",
+  "sci": "Ardea melanocephala",
+  "group": "Heron",
+  "manual": false,
+  "page": null,
+  "obs": 51
+ },
+ {
+  "name": "Jameson's Firefinch",
+  "call": "Jameson's Firefinch",
+  "sci": "Lagonosticta rhodopareia",
+  "group": "Firefinch",
+  "manual": false,
+  "page": null,
+  "obs": 51
+ },
+ {
+  "name": "Yellow Canary",
+  "call": "Yellow Canary",
+  "sci": "Crithagra flaviventris",
+  "group": "Canary",
+  "manual": false,
+  "page": null,
+  "obs": 50
+ },
+ {
+  "name": "Wahlberg's Eagle",
+  "call": "Wahlberg's Eagle",
+  "sci": "Hieraaetus wahlbergi",
+  "group": "Eagle",
+  "manual": false,
+  "page": null,
+  "obs": 48
+ },
+ {
+  "name": "Double-banded Courser",
+  "call": "Double-banded Courser",
+  "sci": "Smutsornis africanus",
+  "group": "Courser",
+  "manual": false,
+  "page": null,
+  "obs": 48
+ },
+ {
+  "name": "Lesser Jacana",
+  "call": "Lesser Jacana",
+  "sci": "Microparra capensis",
+  "group": "Jacana",
+  "manual": false,
+  "page": null,
+  "obs": 47
+ },
+ {
+  "name": "Grey-backed Sparrowlark",
+  "call": "Grey-backed Sparrowlark",
+  "sci": "Eremopterix verticalis",
+  "group": "Sparrowlark",
+  "manual": false,
+  "page": null,
+  "obs": 47
+ },
+ {
+  "name": "Red-necked Falcon",
+  "call": "Red-necked Falcon",
+  "sci": "Falco chicquera",
+  "group": "Falcon",
+  "manual": false,
+  "page": null,
+  "obs": 46
+ },
+ {
+  "name": "Cape Wagtail",
+  "call": "Cape Wagtail",
+  "sci": "Motacilla capensis",
+  "group": "Wagtail",
+  "manual": false,
+  "page": null,
+  "obs": 45
+ },
+ {
+  "name": "Sabota Lark",
+  "call": "Sabota Lark",
+  "sci": "Calendulauda sabota",
+  "group": "Lark",
+  "manual": false,
+  "page": null,
+  "obs": 44
+ },
+ {
+  "name": "Cape Crow",
+  "call": "Cape Crow",
+  "sci": "Corvus capensis",
+  "group": "Crow",
+  "manual": false,
+  "page": null,
+  "obs": 43
+ },
+ {
+  "name": "Barn Swallow",
+  "call": "Barn Swallow",
+  "sci": "Hirundo rustica",
+  "group": "Swallow",
+  "manual": false,
+  "page": null,
+  "obs": 43
+ },
+ {
+  "name": "Common Scimitarbill",
+  "call": "Common Scimitarbill",
+  "sci": "Rhinopomastus cyanomelas",
+  "group": "Scimitarbill",
+  "manual": false,
+  "page": null,
+  "obs": 42
+ },
+ {
+  "name": "Whiskered Tern",
+  "call": "Whiskered Tern",
+  "sci": "Chlidonias hybrida",
+  "group": "Tern",
+  "manual": false,
+  "page": null,
+  "obs": 42
+ },
+ {
+  "name": "Brown Firefinch",
+  "call": "Brown Firefinch",
+  "sci": "Lagonosticta nitidula",
+  "group": "Firefinch",
+  "manual": false,
+  "page": null,
+  "obs": 41
+ },
+ {
+  "name": "Greater Painted-snipe",
+  "call": "Greater Painted-snipe",
+  "sci": "Rostratula benghalensis",
+  "group": "Painted-snipe",
+  "manual": false,
+  "page": null,
+  "obs": 40
+ },
+ {
+  "name": "Speckled Mousebird",
+  "call": "Speckled Mousebird",
+  "sci": "Colius striatus",
+  "group": "Mousebird",
+  "manual": false,
+  "page": null,
+  "obs": 39
+ },
+ {
+  "name": "Village Weaver",
+  "call": "Village Weaver",
+  "sci": "Ploceus cucullatus",
+  "group": "Weaver",
+  "manual": false,
+  "page": null,
+  "obs": 39
+ },
+ {
+  "name": "Spotted Flycatcher",
+  "call": "Spotted Flycatcher",
+  "sci": "Muscicapa striata",
+  "group": "Flycatcher",
+  "manual": false,
+  "page": null,
+  "obs": 37
+ },
+ {
+  "name": "Lesser Grey Shrike",
+  "call": "Lesser Grey Shrike",
+  "sci": "Lanius minor",
+  "group": "Shrike",
+  "manual": false,
+  "page": null,
+  "obs": 36
+ },
+ {
+  "name": "Southern Red Bishop",
+  "call": "Southern Red Bishop",
+  "sci": "Euplectes orix",
+  "group": "Bishop",
+  "manual": false,
+  "page": null,
+  "obs": 36
+ },
+ {
+  "name": "Collared Sunbird",
+  "call": "Collared Sunbird",
+  "sci": "Hedydipna collaris",
+  "group": "Sunbird",
+  "manual": false,
+  "page": null,
+  "obs": 36
+ },
+ {
+  "name": "Chat Flycatcher",
+  "call": "Chat Flycatcher",
+  "sci": "Agricola infuscatus",
+  "group": "Flycatcher",
+  "manual": false,
+  "page": null,
+  "obs": 36
+ },
+ {
+  "name": "Village Indigobird",
+  "call": "Village Indigobird",
+  "sci": "Vidua chalybeata",
+  "group": "Indigobird",
+  "manual": false,
+  "page": null,
+  "obs": 35
+ },
+ {
+  "name": "Black-throated Canary",
+  "call": "Black-throated Canary",
+  "sci": "Crithagra atrogularis",
+  "group": "Canary",
+  "manual": false,
+  "page": null,
+  "obs": 35
+ },
+ {
+  "name": "White-throated Robin-Chat",
+  "call": "White-throated Robin-Chat",
+  "sci": "Dessonornis humeralis",
+  "group": "Robin-Chat",
+  "manual": false,
+  "page": null,
+  "obs": 35
+ },
+ {
+  "name": "Lark-like Bunting",
+  "call": "Lark-like Bunting",
+  "sci": "Fringillaria impetuani",
+  "group": "Bunting",
+  "manual": false,
+  "page": null,
+  "obs": 35
+ },
+ {
+  "name": "Namaqua Sandgrouse",
+  "call": "Namaqua Sandgrouse",
+  "sci": "Pterocles namaqua",
+  "group": "Sandgrouse",
+  "manual": false,
+  "page": null,
+  "obs": 33
+ },
+ {
+  "name": "Banded Martin",
+  "call": "Banded Martin",
+  "sci": "Neophedina cincta",
+  "group": "Martin",
+  "manual": false,
+  "page": null,
+  "obs": 33
+ },
+ {
+  "name": "Red-capped Lark",
+  "call": "Red-capped Lark",
+  "sci": "Calandrella cinerea",
+  "group": "Lark",
+  "manual": false,
+  "page": null,
+  "obs": 32
+ },
+ {
+  "name": "Cape Teal",
+  "call": "Cape Teal",
+  "sci": "Anas capensis",
+  "group": "Teal",
+  "manual": false,
+  "page": null,
+  "obs": 31
+ },
+ {
+  "name": "Square-tailed Nightjar",
+  "call": "Square-tailed Nightjar",
+  "sci": "Caprimulgus fossii",
+  "group": "Nightjar",
+  "manual": false,
+  "page": null,
+  "obs": 31
+ },
+ {
+  "name": "Burchell's Coucal",
+  "call": "Burchell's Coucal",
+  "sci": "Centropus burchellii",
+  "group": "Coucal",
+  "manual": false,
+  "page": null,
+  "obs": 31
+ },
+ {
+  "name": "Scarlet-chested Sunbird",
+  "call": "Scarlet-chested Sunbird",
+  "sci": "Chalcomitra senegalensis",
+  "group": "Sunbird",
+  "manual": false,
+  "page": null,
+  "obs": 30
+ },
+ {
+  "name": "Lesser Honeyguide",
+  "call": "Lesser Honeyguide",
+  "sci": "Indicator minor",
+  "group": "Honeyguide",
+  "manual": false,
+  "page": null,
+  "obs": 30
+ },
+ {
+  "name": "Familiar Chat",
+  "call": "Familiar Chat",
+  "sci": "Oenanthe familiaris",
+  "group": "Chat",
+  "manual": false,
+  "page": null,
+  "obs": 30
+ },
+ {
+  "name": "White-backed Night-heron",
+  "call": "White-backed Night-heron",
+  "sci": "Calherodius leuconotus",
+  "group": "heron",
+  "manual": false,
+  "page": null,
+  "obs": 30
+ },
+ {
+  "name": "African Wood Owl",
+  "call": "African Wood Owl",
+  "sci": "Strix woodfordii",
+  "group": "Owl",
+  "manual": false,
+  "page": null,
+  "obs": 29
+ },
+ {
+  "name": "Greater Flamingo",
+  "call": "Greater Flamingo",
+  "sci": "Phoenicopterus roseus",
+  "group": "Flamingo",
+  "manual": false,
+  "page": null,
+  "obs": 29
+ },
+ {
+  "name": "African Golden Oriole",
+  "call": "African Golden Oriole",
+  "sci": "Oriolus auratus",
+  "group": "Oriole",
+  "manual": false,
+  "page": null,
+  "obs": 28
+ },
+ {
+  "name": "Shikra",
+  "call": "Shikra",
+  "sci": "Tachyspiza badia",
+  "group": "Shikra",
+  "manual": false,
+  "page": null,
+  "obs": 27
+ },
+ {
+  "name": "Lesser Flamingo",
+  "call": "Lesser Flamingo",
+  "sci": "Phoeniconaias minor",
+  "group": "Flamingo",
+  "manual": false,
+  "page": null,
+  "obs": 26
+ },
+ {
+  "name": "Fan-tailed Widowbird",
+  "call": "Fan-tailed Widowbird",
+  "sci": "Euplectes axillaris",
+  "group": "Widowbird",
+  "manual": false,
+  "page": null,
+  "obs": 26
+ },
+ {
+  "name": "Pin-tailed Whydah",
+  "call": "Pin-tailed Whydah",
+  "sci": "Vidua macroura",
+  "group": "Whydah",
+  "manual": false,
+  "page": null,
+  "obs": 26
+ },
+ {
+  "name": "Cut-throat Finch",
+  "call": "Cut-throat Finch",
+  "sci": "Amadina fasciata",
+  "group": "Finch",
+  "manual": false,
+  "page": null,
+  "obs": 26
+ },
+ {
+  "name": "Pied Avocet",
+  "call": "Pied Avocet",
+  "sci": "Recurvirostra avosetta",
+  "group": "Avocet",
+  "manual": false,
+  "page": null,
+  "obs": 24
+ },
+ {
+  "name": "Long-crested Eagle",
+  "call": "Long-crested Eagle",
+  "sci": "Lophaetus occipitalis",
+  "group": "Eagle",
+  "manual": false,
+  "page": null,
+  "obs": 24
+ },
+ {
+  "name": "Osprey",
+  "call": "Osprey",
+  "sci": "Pandion haliaetus",
+  "group": "Osprey",
+  "manual": false,
+  "page": null,
+  "obs": 24
+ },
+ {
+  "name": "Cinnamon-breasted Bunting",
+  "call": "Cinnamon-breasted Bunting",
+  "sci": "Fringillaria tahapisi",
+  "group": "Bunting",
+  "manual": false,
+  "page": null,
+  "obs": 24
+ },
+ {
+  "name": "European Roller",
+  "call": "European Roller",
+  "sci": "Coracias garrulus",
+  "group": "Roller",
+  "manual": false,
+  "page": null,
+  "obs": 23
+ },
+ {
+  "name": "White-backed Mousebird",
+  "call": "White-backed Mousebird",
+  "sci": "Colius colius",
+  "group": "Mousebird",
+  "manual": false,
+  "page": null,
+  "obs": 23
+ },
+ {
+  "name": "Little Stint",
+  "call": "Little Stint",
+  "sci": "Calidris minuta",
+  "group": "Stint",
+  "manual": false,
+  "page": null,
+  "obs": 23
+ },
+ {
+  "name": "Amur Falcon",
+  "call": "Amur Falcon",
+  "sci": "Falco amurensis",
+  "group": "Falcon",
+  "manual": false,
+  "page": null,
+  "obs": 23
+ },
+ {
+  "name": "Trumpeter Hornbill",
+  "call": "Trumpeter Hornbill",
+  "sci": "Bycanistes bucinator",
+  "group": "Hornbill",
+  "manual": false,
+  "page": null,
+  "obs": 23
+ },
+ {
+  "name": "Western Banded Snake-Eagle",
+  "call": "Western Banded Snake-Eagle",
+  "sci": "Circaetus cinerascens",
+  "group": "Snake-Eagle",
+  "manual": false,
+  "page": null,
+  "obs": 22
+ },
+ {
+  "name": "Pririt Batis",
+  "call": "Pririt Batis",
+  "sci": "Batis pririt",
+  "group": "Batis",
+  "manual": false,
+  "page": null,
+  "obs": 22
+ },
+ {
+  "name": "Dwarf Bittern",
+  "call": "Dwarf Bittern",
+  "sci": "Botaurus sturmii",
+  "group": "Bittern",
+  "manual": false,
+  "page": null,
+  "obs": 22
+ },
+ {
+  "name": "White-winged Tern",
+  "call": "White-winged Tern",
+  "sci": "Chlidonias leucopterus",
+  "group": "Tern",
+  "manual": false,
+  "page": null,
+  "obs": 21
+ },
+ {
+  "name": "Pygmy Falcon",
+  "call": "Pygmy Falcon",
+  "sci": "Polihierax semitorquatus",
+  "group": "Falcon",
+  "manual": false,
+  "page": null,
+  "obs": 21
+ },
+ {
+  "name": "Marsh Owl",
+  "call": "Marsh Owl",
+  "sci": "Asio capensis",
+  "group": "Owl",
+  "manual": false,
+  "page": null,
+  "obs": 21
+ },
+ {
+  "name": "Grey Crowned Crane",
+  "call": "Grey Crowned Crane",
+  "sci": "Balearica regulorum",
+  "group": "Crane",
+  "manual": false,
+  "page": null,
+  "obs": 20
+ },
+ {
+  "name": "Marsh Sandpiper",
+  "call": "Marsh Sandpiper",
+  "sci": "Tringa stagnatilis",
+  "group": "Sandpiper",
+  "manual": false,
+  "page": null,
+  "obs": 20
+ },
+ {
+  "name": "African Snipe",
+  "call": "African Snipe",
+  "sci": "Gallinago nigripennis",
+  "group": "Snipe",
+  "manual": false,
+  "page": null,
+  "obs": 20
+ },
+ {
+  "name": "Willow Warbler",
+  "call": "Willow Warbler",
+  "sci": "Phylloscopus trochilus",
+  "group": "Warbler",
+  "manual": false,
+  "page": null,
+  "obs": 20
+ },
+ {
+  "name": "Rock Kestrel",
+  "call": "Rock Kestrel",
+  "sci": "Falco rupicolus",
+  "group": "Kestrel",
+  "manual": false,
+  "page": null,
+  "obs": 20
+ }
+]

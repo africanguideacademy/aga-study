@@ -1,0 +1,230 @@
+[
+ {
+  "count": 318,
+  "sci": "Hyperolius parallelus",
+  "common": "Angolan Reed Frog",
+  "rank": "species"
+ },
+ {
+  "count": 108,
+  "sci": "Chiromantis xerampelina",
+  "common": "Grey Foam-nest Tree Frog",
+  "rank": "species"
+ },
+ {
+  "count": 44,
+  "sci": "Phrynomantis bifasciatus",
+  "common": "Red-Banded Rubber Frog",
+  "rank": "species"
+ },
+ {
+  "count": 43,
+  "sci": "Kassina senegalensis",
+  "common": "Senegal Running Frog",
+  "rank": "species"
+ },
+ {
+  "count": 40,
+  "sci": "Schismaderma carens",
+  "common": "African Red Toad",
+  "rank": "species"
+ },
+ {
+  "count": 38,
+  "sci": "Sclerophrys garmani",
+  "common": "Garman's Toad",
+  "rank": "species"
+ },
+ {
+  "count": 34,
+  "sci": "Pyxicephalus adspersus",
+  "common": "Giant African Bullfrog",
+  "rank": "species"
+ },
+ {
+  "count": 33,
+  "sci": "Pyxicephalus edulis",
+  "common": "Edible bullfrog",
+  "rank": "species"
+ },
+ {
+  "count": 32,
+  "sci": "Breviceps adspersus",
+  "common": "Common Rain Frog",
+  "rank": "species"
+ },
+ {
+  "count": 30,
+  "sci": "Sclerophrys poweri",
+  "common": "Power's Toad",
+  "rank": "species"
+ },
+ {
+  "count": 23,
+  "sci": "Sclerophrys gutturalis",
+  "common": "Guttural Toad",
+  "rank": "species"
+ },
+ {
+  "count": 19,
+  "sci": "Xenopus muelleri",
+  "common": "Müller's Clawed Frog",
+  "rank": "species"
+ },
+ {
+  "count": 19,
+  "sci": "Pyxicephalus beytelli",
+  "common": "Beytell's Bullfrog",
+  "rank": "species"
+ },
+ {
+  "count": 15,
+  "sci": "Ptychadena subpunctata",
+  "common": "Spotted ridged frog",
+  "rank": "species"
+ },
+ {
+  "count": 15,
+  "sci": "Hyperolius benguellensis",
+  "common": "Benguella Reed Frog",
+  "rank": "species"
+ },
+ {
+  "count": 15,
+  "sci": "Tomopterna adiastola",
+  "common": "Confused Sand frog",
+  "rank": "species"
+ },
+ {
+  "count": 12,
+  "sci": "Hemisus marmoratus",
+  "common": "Mottled Shovel-nosed Frog",
+  "rank": "species"
+ },
+ {
+  "count": 12,
+  "sci": "Sclerophrys pusilla",
+  "common": "Eastern Flat-backed Toad",
+  "rank": "species"
+ },
+ {
+  "count": 11,
+  "sci": "Ptychadena mossambica",
+  "common": "Mozambique ridged frog",
+  "rank": "species"
+ },
+ {
+  "count": 10,
+  "sci": "Ptychadena anchietae",
+  "common": "Anchieta's Ridged Frog",
+  "rank": "species"
+ },
+ {
+  "count": 7,
+  "sci": "Ptychadena nilotica",
+  "common": "Nile Ridged Frog",
+  "rank": "species"
+ },
+ {
+  "count": 6,
+  "sci": "Hyperolius nasutus",
+  "common": "Longnose Reed Frog",
+  "rank": "species"
+ },
+ {
+  "count": 6,
+  "sci": "Phrynobatrachus mababiensis",
+  "common": "Mababe puddle frog",
+  "rank": "species"
+ },
+ {
+  "count": 6,
+  "sci": "Xenopus poweri",
+  "common": "Powers Clawed Frog",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Hemisus guineensis",
+  "common": "Guinea Snout-burrower",
+  "rank": "species"
+ },
+ {
+  "count": 5,
+  "sci": "Tomopterna krugerensis",
+  "common": "Knocking sand frog",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Phrynobatrachus natalensis",
+  "common": "Natal Puddle Frog",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Cacosternum boettgeri",
+  "common": "Boettger's dainty frog",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Ptychadena taenioscelis",
+  "common": "Small ridged frog",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Tomopterna marmorata",
+  "common": "Marbled sand frog",
+  "rank": "species"
+ },
+ {
+  "count": 4,
+  "sci": "Hyperolius kivuensis",
+  "common": "Kivu Reed Frog",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Xenopus laevis",
+  "common": "African Clawed Frog",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Ptychadena guibei",
+  "common": "Guibe's ridged frog",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Poyntonophrynus fenoulheti",
+  "common": "Fenoulhet's Pygmy Toad",
+  "rank": "species"
+ },
+ {
+  "count": 3,
+  "sci": "Sclerophrys lemairii",
+  "common": "Lemaire's Toad",
+  "rank": "species"
+ },
+ {
+  "count": 2,
+  "sci": "Xenopus petersii",
+  "common": "Peters' Clawed Frog",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Ptychadena mascareniensis",
+  "common": "Mascarene Ridged Frog",
+  "rank": "species"
+ },
+ {
+  "count": 1,
+  "sci": "Tomopterna tandyi",
+  "common": "Tandy's sand frog",
+  "rank": "species"
+ }
+]

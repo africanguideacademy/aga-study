@@ -205,6 +205,7 @@ const kwapa63 = pptxSet('kwapa63');
 
 // ---------------- app data ----------------
 // Item fields: id, name, group, photo, call, bytes, f (1 = in the module's "featured" set, e.g. FGASA 80 / prominent frogs)
+const BW_FROGS = new Set(fs.existsSync(path.join(ROOT, 'data', 'botswana-frogs.json')) ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'botswana-frogs.json'), 'utf8')).names : []);
 const appData = {
   generated: new Date().toISOString().slice(0, 10),
   modules: [
@@ -214,8 +215,9 @@ const appData = {
     { id: 'kwapa63', title: 'Common Birds of Kwapa', short: 'Kwapa birds', subtitle: 'Birds of the Kwapa camp area, from the Kwapa bird call list', items: kwapa63 },
     { id: 'calls', title: 'Bird calls', subtitle: calls.length + ' calls - the full call library', featured: 'FGASA 80 birds only', defaultScope: 'featured',
       items: calls.map(c => { const o = { id: c.id, name: c.name, group: c.group, call: c.appPath, photo: c.photo, bytes: c.bytes }; if (c.fgasa80) o.f = 1; return o; }) },
-    { id: 'frog-calls', title: 'Frog calls', subtitle: frogs.length + ' frog calls of southern Africa', featured: 'Prominent frogs (manual)', defaultScope: 'all',
-      items: frogs.map(f => { const o = { id: f.id, name: f.name, sci: f.sci, group: f.group, call: f.call, photo: f.photo, bytes: f.bytes }; if (f.prominent) o.f = 1; return o; }) },
+    // frogs split into Botswana frogs (data/botswana-frogs.json) and other southern African frogs
+    { id: 'frog-calls', title: 'Frog calls', subtitle: frogs.length + ' frog calls of southern Africa', featured: 'Botswana frogs', notFeatured: 'Other frogs (not in Botswana)', defaultScope: 'featured',
+      items: frogs.map(f => { const o = { id: f.id, name: f.name, sci: f.sci, group: f.group, call: f.call, photo: f.photo, bytes: f.bytes }; if (BW_FROGS.has(f.name)) o.f = 1; return o; }) },
   ],
 };
 
@@ -255,6 +257,57 @@ for (const [g, title] of Object.entries(PHOTO_GROUPS)) {
 {
   const fp = appData.modules.find(m => m.id === 'amphibians-photos'), fc = appData.modules.find(m => m.id === 'frog-calls');
   if (fp && fc) fc.items.forEach(i => { if (i.photo) return; const p = fp.items.find(x => norm(x.name) === norm(i.name)); if (p) Object.assign(i, { photo: p.photo, credit: p.credit, license: p.license, src: p.src }); });
+}
+// ---------------- bird levels: Beginner / Intermediate / Botswana (tools/make-bird-levels.js) ----------------
+// They replace the separate FGASA 80 / BQA 40 / Kwapa lists in the app. Each item lists the old list items it came from
+// ("was"), so the app can carry students' progress over.
+{
+  const lf = path.join(ROOT, 'data', 'bird-levels.json');
+  if (fs.existsSync(lf)) {
+    const levels = JSON.parse(fs.readFileSync(lf, 'utf8'));
+    const old = ['prominent40', 'fgasa80', 'kwapa63'].map(id => appData.modules.find(m => m.id === id));
+    const extraList = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'species-lists', 'birds-botswana.json'), 'utf8'));
+    const pf = path.join(ROOT, 'data', 'photos', 'birds-botswana.json');
+    const extraPhotos = new Map((fs.existsSync(pf) ? JSON.parse(fs.readFileSync(pf, 'utf8')) : []).map(p => [p.name, p]));
+    const callsMod = appData.modules.find(m => m.id === 'calls');
+    const callByName = new Map(callsMod.items.map(c => [norm(c.name), c]));
+    const make = (name, order) => {
+      const k = norm(name), was = [];
+      let src = null;
+      for (const m of order.map(id => old.find(o => o.id === id))) {
+        const it = m.items.find(i => norm(i.name) === k);
+        if (it) { was.push(m.id + ':' + it.id); if (!src) src = it; }
+      }
+      for (const m of old) { const it = m.items.find(i => norm(i.name) === k); if (it && !was.includes(m.id + ':' + it.id)) was.push(m.id + ':' + it.id); }
+      if (src) {
+        const o = { id: 'b-' + slug(name), name: src.name, group: src.group, photo: src.photo, call: src.call, bytes: src.bytes, was };
+        if (!o.call) { const c = callByName.get(k); if (c) { o.call = c.call; o.bytes = c.bytes; } }
+        return o;
+      }
+      const x = extraList.find(e => e.name === name), p = extraPhotos.get(name);
+      if (!x || !p || !p.file) return null;
+      const c = callByName.get(norm(x.call));
+      return { id: 'b-' + slug(name), name, sci: x.sci, group: x.group, photo: p.file, credit: p.credit, license: p.license, src: p.source,
+        call: c ? c.call : '', bytes: c ? c.bytes : 0 };
+    };
+    const build = (names, order) => names.map(n => make(n, order)).filter(Boolean);
+    const beginner = build(levels.beginner, ['prominent40', 'fgasa80', 'kwapa63']);
+    const intermediate = build(levels.intermediate, ['fgasa80', 'kwapa63', 'prominent40']);
+    const aga = new Set([...levels.beginner, ...levels.intermediate].map(norm));
+    const botswana = build(levels.botswana, ['fgasa80', 'prominent40', 'kwapa63']).map(i => (aga.has(norm(i.name)) ? Object.assign(i, { f: 1 }) : i));
+    appData.modules.push(
+      { id: 'birds-beginner', title: 'Birds - Beginner', short: 'Beginner - BQA 40', subtitle: 'The 40 prominent birds of the BQA list and manual', items: beginner },
+      { id: 'birds-intermediate', title: 'Birds - Intermediate', short: 'Intermediate - FGASA + Kwapa', subtitle: 'FGASA 80 birds (not in Beginner) and 20 common Kwapa birds', items: intermediate },
+      { id: 'birds-botswana', title: 'Birds - Botswana', short: 'Botswana - all birds', subtitle: 'All AGA birds plus common Botswana birds with calls',
+        featured: 'Beginner + Intermediate birds', defaultScope: 'all', items: botswana });
+    // the call library's "featured" set becomes the Beginner + Intermediate birds
+    callsMod.featured = 'Beginner + Intermediate birds';
+    callsMod.items.forEach(c => { if (aga.has(norm(c.name))) c.f = 1; else delete c.f; });
+    // the old separate lists are no longer shown (saved for tools/make-bird-levels.js and the sheet)
+    fs.writeFileSync(path.join(ROOT, 'data', 'bird-lists-source.json'), JSON.stringify(old.map(m => ({ id: m.id, items: m.items.map(i => ({ id: i.id, name: i.name })) })), null, 1));
+    appData.modules = appData.modules.filter(m => !['fgasa80', 'prominent40', 'kwapa63'].includes(m.id));
+    console.log(`Bird levels: Beginner ${beginner.length}, Intermediate ${intermediate.length}, Botswana ${botswana.length}`);
+  }
 }
 // Replacement photos (students' approved photos via tools/sync-photos.js, or any photo AGA wants to use instead).
 // data/photo-overrides.json: { "<species name>": { "photo": "media/user/...jpg", "credit": "Name Surname", "license": "AGA" } }

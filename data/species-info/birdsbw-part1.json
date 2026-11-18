@@ -1,0 +1,542 @@
+[
+ {
+  "name": "African Darter",
+  "size": "About 79 cm.",
+  "habitat": "Rivers, lagoons, dams and the Okavango Delta; resident.",
+  "food": "Fish, speared underwater with its sharp, dagger-like bill.",
+  "breeding": "Breeds in colonies, often with herons, building stick nests in trees over water.",
+  "titbit": "It has no preen gland, so it sits with wings spread to dry; it swims with only its snake-like neck showing.",
+  "source": "both"
+ },
+ {
+  "name": "Grey Heron",
+  "size": "About 100 cm.",
+  "habitat": "Rivers, pans, dams and wetlands across Botswana; resident.",
+  "food": "Mainly fish and frogs; also small mammals and other small animals.",
+  "breeding": "Stick nest in tall trees or reedbeds, usually in colonies.",
+  "titbit": "Like all herons, it flies with its neck folded back in an S-shape, unlike storks and cranes.",
+  "source": "general"
+ },
+ {
+  "name": "African Sacred Ibis",
+  "size": "About 89 cm.",
+  "habitat": "Wetlands, pans, farmlands and rubbish dumps; resident and nomadic.",
+  "food": "Insects, worms, frogs, carrion and food scraps.",
+  "breeding": "Breeds in colonies, building stick nests in trees, reedbeds or on islands.",
+  "titbit": "It was worshipped in ancient Egypt, and many were mummified.",
+  "source": "general"
+ },
+ {
+  "name": "Cattle Egret",
+  "size": "About 54 cm.",
+  "habitat": "Grassland and floodplains near cattle and game; widespread, resident and nomadic.",
+  "food": "Mainly grasshoppers and other insects disturbed by grazing animals.",
+  "breeding": "Breeds in colonies with other herons; stick nests in trees or reeds over water.",
+  "titbit": "It follows buffalo and cattle to catch insects they flush; it spread naturally from Africa to the Americas.",
+  "source": "general"
+ },
+ {
+  "name": "White-fronted Bee-eater",
+  "size": "About 24 cm.",
+  "habitat": "Sandy riverbanks in the north (Chobe, Okavango) and east (Limpopo); resident.",
+  "food": "Flying insects, especially bees, caught in the air.",
+  "breeding": "Digs nest tunnels in sandy riverbanks, in colonies.",
+  "titbit": "Lives in family clans; non-breeding helpers bring food to the chicks of relatives.",
+  "source": "general"
+ },
+ {
+  "name": "Goliath Heron",
+  "size": "About 140 cm.",
+  "habitat": "Large rivers, lagoons and the Okavango and Chobe wetlands; resident.",
+  "food": "Mainly large fish; also frogs and other water animals.",
+  "breeding": "Large stick nest in reedbeds or trees, usually as a single pair.",
+  "titbit": "The largest heron in the world; it can stand still for a long time waiting for big fish.",
+  "source": "general"
+ },
+ {
+  "name": "Southern Pale Chanting Goshawk",
+  "size": "About 55-63 cm.",
+  "habitat": "Dry, open savanna and Kalahari scrub; widespread resident.",
+  "food": "Lizards, rodents, insects and small birds, often caught on the ground.",
+  "breeding": "Stick nest in a tree, often a thorn tree.",
+  "titbit": "Named for its musical piping call, sung from a perch in the breeding season.",
+  "source": "general"
+ },
+ {
+  "name": "Hooded Vulture",
+  "size": "About 70 cm.",
+  "habitat": "Savanna and woodland in the north and east; resident; Critically Endangered (poisoning).",
+  "food": "Scraps from carcasses; also insects and other small items.",
+  "breeding": "Lays a single egg in a stick nest high in a tree.",
+  "titbit": "Its thin bill cannot open a carcass, so it waits for bigger vultures; its bare face can flush red when excited.",
+  "source": "both"
+ },
+ {
+  "name": "Southern Grey-headed Sparrow",
+  "size": "About 15 cm.",
+  "habitat": "Woodland, savanna, villages and camps; resident.",
+  "food": "Seeds and insects.",
+  "breeding": "Nests in tree holes or old nests of other birds, lined with grass and feathers.",
+  "titbit": "Male and female look alike, unlike most sparrows.",
+  "source": "general"
+ },
+ {
+  "name": "White-crowned Lapwing",
+  "size": "About 30 cm.",
+  "habitat": "Sandbanks of large rivers such as the Chobe, Okavango and Limpopo; resident.",
+  "food": "Insects and other small animals at the water's edge.",
+  "breeding": "Lays eggs in a scrape on a sandbank.",
+  "titbit": "Long yellow wattles hang from the base of its bill.",
+  "source": "general"
+ },
+ {
+  "name": "Secretarybird",
+  "size": "About 125-150 cm.",
+  "habitat": "Open grassland and savanna, including the Kalahari; resident.",
+  "food": "Insects, rodents, lizards and snakes, killed by stamping.",
+  "breeding": "Large, flat stick nest on top of a thorn tree.",
+  "titbit": "It kills snakes by stamping on them; its crest is said to look like pens behind a clerk's ear.",
+  "source": "general"
+ },
+ {
+  "name": "Martial Eagle",
+  "size": "About 78-83 cm.",
+  "habitat": "Savanna and woodland; resident; Near Threatened (persecution by farmers).",
+  "food": "Game birds, monitor lizards, mongooses, hares and young antelope.",
+  "breeding": "Huge stick nest in a tall tree; usually lays one egg.",
+  "titbit": "Africa's largest eagle; it can spot prey from several kilometres away.",
+  "source": "both"
+ },
+ {
+  "name": "Red-eyed Dove",
+  "size": "About 35 cm.",
+  "habitat": "Riverine woodland, tall trees and gardens, mainly north and east; resident.",
+  "food": "Seeds and fruit.",
+  "breeding": "Flimsy platform nest of twigs in a tree.",
+  "titbit": "Its call is often remembered as 'I am a red-eyed dove'.",
+  "source": "general"
+ },
+ {
+  "name": "Black Heron",
+  "size": "About 66 cm.",
+  "habitat": "Shallow wetlands and floodplains, especially Okavango and Chobe; resident.",
+  "food": "Small fish.",
+  "breeding": "Breeds in colonies with other herons, in trees or reeds over water.",
+  "titbit": "It spreads its wings over its head like an umbrella to shade the water while fishing.",
+  "source": "general"
+ },
+ {
+  "name": "Comb Duck",
+  "size": "About 64-79 cm; the male is much larger than the female.",
+  "habitat": "Floodplains, pans and lagoons in the north; nomadic, more common in summer.",
+  "food": "Seeds, water plants and insects.",
+  "breeding": "Nests in tree holes, sometimes far from water.",
+  "titbit": "The breeding male has a large fleshy knob, or comb, on top of its bill.",
+  "source": "general"
+ },
+ {
+  "name": "Namaqua Dove",
+  "size": "About 26 cm, including the long tail.",
+  "habitat": "Dry savanna and Kalahari scrub; resident and nomadic.",
+  "food": "Small seeds picked up from the ground.",
+  "breeding": "Small, flimsy nest low in a bush.",
+  "titbit": "The smallest dove in the region; the male has a black face and throat.",
+  "source": "general"
+ },
+ {
+  "name": "Kurrichane Thrush",
+  "size": "About 22 cm.",
+  "habitat": "Woodland, riverine bush and gardens, mainly north and east; resident.",
+  "food": "Insects, worms and fruit.",
+  "breeding": "Cup nest in the fork of a tree.",
+  "titbit": "Easy to know by its bright orange bill and black stripes on the throat.",
+  "source": "general"
+ },
+ {
+  "name": "Common Myna",
+  "size": "About 25 cm.",
+  "habitat": "Towns and villages, mainly in the south-east; introduced, resident.",
+  "food": "Omnivorous: insects, fruit and food scraps.",
+  "breeding": "Nests in holes in buildings and trees.",
+  "titbit": "Introduced from Asia, it is invasive and takes nest holes from local birds.",
+  "source": "general"
+ },
+ {
+  "name": "Red-backed Shrike",
+  "size": "About 18 cm.",
+  "habitat": "Thornveld and savanna across Botswana; summer migrant from Europe and Asia.",
+  "food": "Insects, also small lizards and rodents.",
+  "breeding": "Does not breed here; it breeds in Europe and Asia.",
+  "titbit": "It stores prey by pushing it onto thorns, like a butcher's hook.",
+  "source": "general"
+ },
+ {
+  "name": "Scaly-feathered Finch",
+  "size": "About 10 cm.",
+  "habitat": "Dry thornveld and Kalahari scrub; resident.",
+  "food": "Small seeds, picked from the ground.",
+  "breeding": "Untidy ball nest of grass in a thorny tree.",
+  "titbit": "Flocks roost together in grass nests, even outside the breeding season.",
+  "source": "general"
+ },
+ {
+  "name": "Yellow-billed Egret",
+  "size": "About 68 cm.",
+  "habitat": "Floodplains, marshes and wetlands, mainly north; resident and nomadic.",
+  "food": "Fish, frogs and insects.",
+  "breeding": "Breeds in colonies with other herons, in trees or reeds over water.",
+  "titbit": "Smaller than a great egret; its gape line ends below the eye, not behind it.",
+  "source": "general"
+ },
+ {
+  "name": "Wattled Starling",
+  "size": "About 21 cm.",
+  "habitat": "Open savanna and grassland; nomadic, often in large flocks.",
+  "food": "Mainly insects, especially locusts; also fruit.",
+  "breeding": "Breeds in colonies, many stick nests packed together in thorny trees.",
+  "titbit": "The breeding male loses its head feathers, showing bare yellow and black skin and wattles.",
+  "source": "general"
+ },
+ {
+  "name": "Tropical Boubou",
+  "size": "About 21 cm.",
+  "habitat": "Dense riverine thickets in the north (Okavango, Chobe); resident.",
+  "food": "Insects and other small animals.",
+  "breeding": "Shallow cup nest in a thicket.",
+  "titbit": "Pairs sing duets so well-timed that it sounds like one bird.",
+  "source": "general"
+ },
+ {
+  "name": "Shaft-tailed Whydah",
+  "size": "Breeding male about 34 cm with tail; female about 12 cm.",
+  "habitat": "Dry thornveld and Kalahari savanna; resident.",
+  "food": "Small seeds.",
+  "breeding": "Brood parasite: lays its eggs in the nests of the violet-eared waxbill.",
+  "titbit": "The breeding male has four long, thin tail feathers with spoon-shaped tips.",
+  "source": "both"
+ },
+ {
+  "name": "Black-headed Oriole",
+  "size": "About 25 cm.",
+  "habitat": "Woodland and riverine forest; resident.",
+  "food": "Insects, fruit and nectar.",
+  "breeding": "Cup nest slung in the fork of an outer branch.",
+  "titbit": "Bright yellow with a black head and red bill; its call is a liquid whistle.",
+  "source": "general"
+ },
+ {
+  "name": "Red-faced Mousebird",
+  "size": "About 34 cm.",
+  "habitat": "Savanna, woodland and gardens; resident.",
+  "food": "Fruit, leaves, flowers and nectar.",
+  "breeding": "Untidy cup nest in a bush or tree.",
+  "titbit": "Flocks fly fast and straight, calling a whistled 'ti-ti-ti'.",
+  "source": "general"
+ },
+ {
+  "name": "Groundscraper Thrush",
+  "size": "About 22 cm.",
+  "habitat": "Open woodland, especially mopane and dry savanna; resident.",
+  "food": "Insects and other small animals found on the ground.",
+  "breeding": "Cup nest in the fork of a tree.",
+  "titbit": "It often flicks one wing up after running a short way on the ground.",
+  "source": "general"
+ },
+ {
+  "name": "Lesser Masked Weaver",
+  "size": "About 14 cm.",
+  "habitat": "Savanna and woodland near water, mainly north and east; resident.",
+  "food": "Insects, seeds and nectar.",
+  "breeding": "Colonies of woven ball nests, often hanging over water.",
+  "titbit": "Unlike the southern masked weaver, the male has a pale eye and its black mask covers the forehead.",
+  "source": "general"
+ },
+ {
+  "name": "Rufous-naped Lark",
+  "size": "About 18 cm.",
+  "habitat": "Grassland and open savanna; resident.",
+  "food": "Seeds and insects.",
+  "breeding": "Domed grass nest on the ground, hidden in a tuft of grass.",
+  "titbit": "The male whistles from a bush top and claps its wings in a short display flight.",
+  "source": "general"
+ },
+ {
+  "name": "Capped Wheatear",
+  "size": "About 18 cm.",
+  "habitat": "Bare, short-grazed or burnt ground; resident and partly migratory.",
+  "food": "Insects, caught on the ground.",
+  "breeding": "Nests in old rodent burrows.",
+  "titbit": "Its black breast band and white eyebrow make it easy to know on bare ground.",
+  "source": "general"
+ },
+ {
+  "name": "Hottentot Teal",
+  "size": "About 35 cm.",
+  "habitat": "Shallow, vegetated wetlands, especially the Okavango; resident.",
+  "food": "Seeds, water plants and small water insects.",
+  "breeding": "Nest of grass and reeds, hidden near water.",
+  "titbit": "One of our smallest ducks; its blue bill and dark cap help to identify it.",
+  "source": "general"
+ },
+ {
+  "name": "Kittlitz's Plover",
+  "size": "About 16 cm.",
+  "habitat": "Dry mud and short grass at the edges of pans and dams; resident.",
+  "food": "Insects and other small invertebrates.",
+  "breeding": "Lays eggs in a scrape on bare ground.",
+  "titbit": "When disturbed, it kicks sand over its eggs to hide them.",
+  "source": "general"
+ },
+ {
+  "name": "Red-headed Finch",
+  "size": "About 13 cm.",
+  "habitat": "Dry savanna and Kalahari; resident and nomadic.",
+  "food": "Seeds.",
+  "breeding": "Usually uses old nests of weavers or sparrows.",
+  "titbit": "Flocks gather to drink at waterholes, often with other finches.",
+  "source": "general"
+ },
+ {
+  "name": "Grey-headed Bushshrike",
+  "size": "About 26 cm.",
+  "habitat": "Woodland and riverine forest, mainly north and east; resident.",
+  "food": "Large insects, lizards, small birds and even small snakes.",
+  "breeding": "Shallow cup nest in a tree.",
+  "titbit": "Its long, sad 'hoooo' call gives it the nickname 'ghostbird'.",
+  "source": "general"
+ },
+ {
+  "name": "Black-crowned Night-heron",
+  "size": "About 56 cm.",
+  "habitat": "Reedbeds and waterways, especially the Okavango; resident.",
+  "food": "Fish, frogs and insects.",
+  "breeding": "Breeds in colonies in reeds or trees over water.",
+  "titbit": "It roosts in thick cover by day and feeds at dusk and at night.",
+  "source": "general"
+ },
+ {
+  "name": "Southern Brown-throated Weaver",
+  "size": "About 15 cm.",
+  "habitat": "Reedbeds and papyrus in the Okavango and Chobe; resident.",
+  "food": "Seeds and insects.",
+  "breeding": "Small woven nest attached to reeds over water.",
+  "titbit": "The breeding male has a chocolate-brown patch on the throat.",
+  "source": "general"
+ },
+ {
+  "name": "Greater Kestrel",
+  "size": "About 36 cm.",
+  "habitat": "Dry, open grassland and Kalahari savanna; resident.",
+  "food": "Insects, small rodents and lizards.",
+  "breeding": "Uses old nests of crows or other birds.",
+  "titbit": "Adults have a pale, whitish eye, unlike other kestrels.",
+  "source": "general"
+ },
+ {
+  "name": "Abdim's Stork",
+  "size": "About 76 cm.",
+  "habitat": "Grassland, pans and farmland; summer migrant from north of the equator.",
+  "food": "Insects, especially grasshoppers and caterpillars.",
+  "breeding": "Does not breed here; it breeds north of the equator.",
+  "titbit": "It arrives with the summer rains, often in large flocks.",
+  "source": "general"
+ },
+ {
+  "name": "Jameson's Firefinch",
+  "size": "About 11 cm.",
+  "habitat": "Thickets and dry woodland, mainly north and east; resident.",
+  "food": "Small seeds, picked from the ground.",
+  "breeding": "Ball nest of grass in a bush; host of the purple indigobird.",
+  "titbit": "Purple indigobirds lay their eggs in its nest, and the chicks grow up together.",
+  "source": "both"
+ },
+ {
+  "name": "Double-banded Courser",
+  "size": "About 22 cm.",
+  "habitat": "Bare, open plains and pans, e.g. Kalahari and Makgadikgadi; resident.",
+  "food": "Insects, especially ants and termites.",
+  "breeding": "Lays a single egg on bare ground, often among antelope dung.",
+  "titbit": "It lays only one egg, very well camouflaged among dung pellets and stones.",
+  "source": "general"
+ },
+ {
+  "name": "Red-necked Falcon",
+  "size": "About 33 cm.",
+  "habitat": "Dry savanna, often near palms; resident.",
+  "food": "Mainly small birds caught in flight.",
+  "breeding": "Often uses old crow nests or nests in palms.",
+  "titbit": "Pairs often hunt together, chasing small birds.",
+  "source": "general"
+ },
+ {
+  "name": "Cape Crow",
+  "size": "About 50 cm.",
+  "habitat": "Open grassland, farmland and pans; resident.",
+  "food": "Omnivorous: insects, seeds, eggs and carrion.",
+  "breeding": "Stick nest in a tree or on a pylon.",
+  "titbit": "An all-black crow with a long, slender bill used for digging.",
+  "source": "general"
+ },
+ {
+  "name": "Whiskered Tern",
+  "size": "About 25 cm.",
+  "habitat": "Wetlands, pans and the Okavango; resident and nomadic.",
+  "food": "Insects, small fish and frogs.",
+  "breeding": "Builds floating nests of water plants, in colonies.",
+  "titbit": "It dips to pick food from the water surface rather than diving in.",
+  "source": "general"
+ },
+ {
+  "name": "Speckled Mousebird",
+  "size": "About 33 cm.",
+  "habitat": "Thickets, riverine bush and gardens, mainly east; resident.",
+  "food": "Fruit, leaves and flowers.",
+  "breeding": "Untidy cup nest in a bush.",
+  "titbit": "Groups huddle tightly together at night to keep warm.",
+  "source": "general"
+ },
+ {
+  "name": "Lesser Grey Shrike",
+  "size": "About 22 cm.",
+  "habitat": "Thornveld and Kalahari savanna; summer migrant from Europe and Asia.",
+  "food": "Insects, especially beetles and grasshoppers.",
+  "breeding": "Does not breed here; it breeds in Europe and Asia.",
+  "titbit": "Its black mask stretches across the forehead, unlike similar shrikes.",
+  "source": "general"
+ },
+ {
+  "name": "Chat Flycatcher",
+  "size": "About 20 cm.",
+  "habitat": "Dry Kalahari scrub and open savanna; resident.",
+  "food": "Insects, often caught on the ground.",
+  "breeding": "Cup nest in a bush or small tree.",
+  "titbit": "A large, plain flycatcher that looks and behaves like a chat.",
+  "source": "general"
+ },
+ {
+  "name": "White-throated Robin-Chat",
+  "size": "About 17 cm.",
+  "habitat": "Thickets in dry woodland, mainly east and south-east; resident.",
+  "food": "Insects and other small invertebrates.",
+  "breeding": "Cup nest in a hollow or among roots.",
+  "titbit": "Found only in southern Africa.",
+  "source": "general"
+ },
+ {
+  "name": "Banded Martin",
+  "size": "About 17 cm.",
+  "habitat": "Grassland, often near water; summer migrant within Africa.",
+  "food": "Flying insects.",
+  "breeding": "Digs a burrow in a sandbank.",
+  "titbit": "Shows a white eyebrow, a brown breast band and white underwings.",
+  "source": "general"
+ },
+ {
+  "name": "Square-tailed Nightjar",
+  "size": "About 24 cm.",
+  "habitat": "Sandy areas near water, such as riverbanks; resident.",
+  "food": "Flying insects, caught at dusk and at night.",
+  "breeding": "Lays eggs on bare ground, with no nest.",
+  "titbit": "Its call is a long churring trill, like a small engine.",
+  "source": "both"
+ },
+ {
+  "name": "Lesser Honeyguide",
+  "size": "About 15 cm.",
+  "habitat": "Woodland and riverine forest; resident.",
+  "food": "Beeswax, bee larvae and insects.",
+  "breeding": "Brood parasite, mainly of barbets; the chick kills the host's chicks.",
+  "titbit": "Unlike the greater honeyguide, it does not guide people to bees' nests.",
+  "source": "both"
+ },
+ {
+  "name": "African Wood Owl",
+  "size": "About 33 cm.",
+  "habitat": "Riverine forest and dense woodland in the north; resident.",
+  "food": "Mainly insects; also small rodents.",
+  "breeding": "Nests in a hole in a tree.",
+  "titbit": "Pairs duet with a hooting call often written as 'who-are-you'.",
+  "source": "general"
+ },
+ {
+  "name": "African Golden Oriole",
+  "size": "About 24 cm.",
+  "habitat": "Woodland and riverine forest; summer migrant within Africa.",
+  "food": "Insects and fruit.",
+  "breeding": "Cup nest slung in the fork of an outer branch.",
+  "titbit": "Its black eye-stripe goes behind the eye, unlike the Eurasian golden oriole.",
+  "source": "general"
+ },
+ {
+  "name": "Fan-tailed Widowbird",
+  "size": "About 17 cm.",
+  "habitat": "Moist grassland and marshes, e.g. Okavango; resident.",
+  "food": "Seeds and insects.",
+  "breeding": "Woven nest in tall grass.",
+  "titbit": "The breeding male is black with bright red shoulders.",
+  "source": "general"
+ },
+ {
+  "name": "Pied Avocet",
+  "size": "About 43 cm.",
+  "habitat": "Shallow pans and salty water, e.g. Makgadikgadi; nomadic resident.",
+  "food": "Small water invertebrates.",
+  "breeding": "Lays eggs in a scrape near water.",
+  "titbit": "It sweeps its thin, upturned bill from side to side through the water.",
+  "source": "general"
+ },
+ {
+  "name": "Cinnamon-breasted Bunting",
+  "size": "About 15 cm.",
+  "habitat": "Rocky hills and stony slopes; resident.",
+  "food": "Seeds and insects.",
+  "breeding": "Cup nest in a rock crack or on the ground.",
+  "titbit": "A cinnamon bird with a black-and-white striped head, found on rocky ground.",
+  "source": "general"
+ },
+ {
+  "name": "Little Stint",
+  "size": "About 14 cm.",
+  "habitat": "Muddy edges of pans and dams; summer migrant from Europe and Asia.",
+  "food": "Insects and other small invertebrates.",
+  "breeding": "Does not breed here; it breeds in the Arctic.",
+  "titbit": "Our smallest common wader, yet it flies from the Arctic every year.",
+  "source": "general"
+ },
+ {
+  "name": "Western Banded Snake-Eagle",
+  "size": "About 55 cm.",
+  "habitat": "Riverine woodland, especially Okavango and Chobe; resident.",
+  "food": "Snakes, frogs and lizards.",
+  "breeding": "Stick nest hidden in the canopy of a tree.",
+  "titbit": "Its tail has a single broad white band.",
+  "source": "general"
+ },
+ {
+  "name": "White-winged Tern",
+  "size": "About 23 cm.",
+  "habitat": "Wetlands and pans; summer migrant from Europe and Asia.",
+  "food": "Insects picked from the water surface or the air.",
+  "breeding": "Does not breed here; it breeds in Europe and Asia.",
+  "titbit": "Before leaving in autumn, some moult into black breeding plumage.",
+  "source": "general"
+ },
+ {
+  "name": "Grey Crowned Crane",
+  "size": "About 105 cm.",
+  "habitat": "Floodplains and wet grassland in the north; resident; Endangered (habitat loss).",
+  "food": "Seeds, insects, frogs and other small animals.",
+  "breeding": "Large nest of grass and reeds in a marsh.",
+  "titbit": "Pairs dance with jumps and bows; it is the national bird of Uganda.",
+  "source": "both"
+ },
+ {
+  "name": "Willow Warbler",
+  "size": "About 11 cm.",
+  "habitat": "Woodland, riverine bush and gardens; summer migrant from Europe and Asia.",
+  "food": "Small insects.",
+  "breeding": "Does not breed here; it breeds in Europe and Asia.",
+  "titbit": "Weighing about 9 g, it flies thousands of kilometres each way.",
+  "source": "general"
+ }
+]

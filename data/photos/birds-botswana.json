@@ -1,0 +1,552 @@
+[
+ {
+  "name": "African Darter",
+  "sci": "Anhinga rufa",
+  "file": "media/birds-botswana/african-darter-51150482.jpg",
+  "photoId": 51150482,
+  "license": "CC0",
+  "credit": "danielvanderpost",
+  "source": "https://www.inaturalist.org/observations/32603930",
+  "place": "Botswana"
+ },
+ {
+  "name": "Yellow-billed Stork",
+  "sci": "Mycteria ibis",
+  "file": "media/birds-botswana/yellow-billed-stork-20939802.jpg",
+  "photoId": 20939802,
+  "license": "CC BY",
+  "credit": "© Wynand Uys",
+  "source": "https://www.inaturalist.org/observations/14133114",
+  "place": "Botswana"
+ },
+ {
+  "name": "Marabou Stork",
+  "sci": "Leptoptilos crumenifer",
+  "file": "media/birds-botswana/marabou-stork-52710312.jpg",
+  "photoId": 52710312,
+  "license": "CC0",
+  "credit": "lallen",
+  "source": "https://www.inaturalist.org/observations/33557028",
+  "place": "Botswana"
+ },
+ {
+  "name": "Common Ostrich",
+  "sci": "Struthio camelus",
+  "file": "media/birds-botswana/common-ostrich-228207770.jpg",
+  "photoId": 228207770,
+  "license": "CC BY",
+  "credit": "© Mahomed Desai",
+  "source": "https://www.inaturalist.org/observations/133942200",
+  "place": "Botswana"
+ },
+ {
+  "name": "Little Bee-eater",
+  "sci": "Merops pusillus",
+  "file": "media/birds-botswana/little-bee-eater-53512009.jpg",
+  "photoId": 53512009,
+  "license": "CC BY",
+  "credit": "© Sheelagh Halsey",
+  "source": "https://www.inaturalist.org/observations/34031940",
+  "place": "Botswana"
+ },
+ {
+  "name": "Squacco Heron",
+  "sci": "Ardeola ralloides",
+  "file": "media/birds-botswana/squacco-heron-230361304.jpg",
+  "photoId": 230361304,
+  "license": "CC BY",
+  "credit": "© Christiaan Viljoen",
+  "source": "https://www.inaturalist.org/observations/135087472",
+  "place": "Botswana"
+ },
+ {
+  "name": "Grey Heron",
+  "sci": "Ardea cinerea",
+  "file": "media/birds-botswana/grey-heron-554824566.jpg",
+  "photoId": 554824566,
+  "license": "CC BY",
+  "credit": "© Nicola Crockford",
+  "source": "https://www.inaturalist.org/observations/307588921",
+  "place": "Botswana"
+ },
+ {
+  "name": "Saddle-billed Stork",
+  "sci": "Ephippiorhynchus senegalensis",
+  "file": "media/birds-botswana/saddle-billed-stork-211973443.jpg",
+  "photoId": 211973443,
+  "license": "CC0",
+  "credit": "anna22",
+  "source": "https://www.inaturalist.org/observations/125019015",
+  "place": "Botswana"
+ },
+ {
+  "name": "Bateleur",
+  "sci": "Terathopius ecaudatus",
+  "file": "media/birds-botswana/bateleur-225648005.jpg",
+  "photoId": 225648005,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/132512620",
+  "place": "Botswana"
+ },
+ {
+  "name": "African Sacred Ibis",
+  "sci": "Threskiornis aethiopicus",
+  "file": "media/birds-botswana/african-sacred-ibis-110288590.jpg",
+  "photoId": 110288590,
+  "license": "CC BY",
+  "credit": "© Daniel S. Katz",
+  "source": "https://www.inaturalist.org/observations/68155650",
+  "place": "Botswana"
+ },
+ {
+  "name": "Reed Cormorant",
+  "sci": "Microcarbo africanus",
+  "file": "media/birds-botswana/reed-cormorant-297755405.jpg",
+  "photoId": 297755405,
+  "license": "CC BY-SA",
+  "credit": "© Tony Eales",
+  "source": "https://www.inaturalist.org/observations/171584006",
+  "place": "Botswana"
+ },
+ {
+  "name": "White-faced Whistling Duck",
+  "sci": "Dendrocygna viduata",
+  "file": "media/birds-botswana/white-faced-whistling-duck-575610646.jpg",
+  "photoId": 575610646,
+  "license": "CC BY-SA",
+  "credit": "© Robert Webster",
+  "source": "https://www.inaturalist.org/observations/318485037",
+  "place": "Botswana"
+ },
+ {
+  "name": "Cattle Egret",
+  "sci": "Ardea ibis",
+  "file": "media/birds-botswana/cattle-egret-152390056.jpg",
+  "photoId": 152390056,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/92072748",
+  "place": "Botswana"
+ },
+ {
+  "name": "Little Egret",
+  "sci": "Egretta garzetta",
+  "file": "media/birds-botswana/little-egret-568729297.jpg",
+  "photoId": 568729297,
+  "license": "CC BY-SA",
+  "credit": "© Robert Webster",
+  "source": "https://www.inaturalist.org/observations/314862472",
+  "place": "Botswana"
+ },
+ {
+  "name": "Long-toed Lapwing",
+  "sci": "Vanellus crassirostris",
+  "file": "media/birds-botswana/long-toed-lapwing-231632830.jpg",
+  "photoId": 231632830,
+  "license": "CC BY",
+  "credit": "© Lukas Zangl",
+  "source": "https://www.inaturalist.org/observations/135776496",
+  "place": "Botswana"
+ },
+ {
+  "name": "White-fronted Bee-eater",
+  "sci": "Merops bullockoides",
+  "file": "media/birds-botswana/white-fronted-bee-eater-568729487.jpg",
+  "photoId": 568729487,
+  "license": "CC BY-SA",
+  "credit": "© Robert Webster",
+  "source": "https://www.inaturalist.org/observations/314862531",
+  "place": "Botswana"
+ },
+ {
+  "name": "Cape Glossy Starling",
+  "sci": "Lamprotornis nitens",
+  "file": "media/birds-botswana/cape-glossy-starling-546067189.jpg",
+  "photoId": 546067189,
+  "license": "CC0",
+  "credit": "sardinemachine",
+  "source": "https://www.inaturalist.org/observations/302994186",
+  "place": "Botswana"
+ },
+ {
+  "name": "Malachite Kingfisher",
+  "sci": "Corythornis cristatus",
+  "file": "media/birds-botswana/malachite-kingfisher-209640036.jpg",
+  "photoId": 209640036,
+  "license": "CC0",
+  "credit": "anna22",
+  "source": "https://www.inaturalist.org/observations/123731392",
+  "place": "Botswana"
+ },
+ {
+  "name": "Goliath Heron",
+  "sci": "Ardea goliath",
+  "file": "media/birds-botswana/goliath-heron-554359622.jpg",
+  "photoId": 554359622,
+  "license": "CC BY",
+  "credit": "© Anil Madhavapeddy",
+  "source": "https://www.inaturalist.org/observations/307348098",
+  "place": "Botswana"
+ },
+ {
+  "name": "African Grey Hornbill",
+  "sci": "Lophoceros nasutus",
+  "file": "media/birds-botswana/african-grey-hornbill-51149248.jpg",
+  "photoId": 51149248,
+  "license": "CC0",
+  "credit": "danielvanderpost",
+  "source": "https://www.inaturalist.org/observations/32603902",
+  "place": "Botswana"
+ },
+ {
+  "name": "Black Kite",
+  "sci": "Milvus migrans",
+  "file": "media/birds-botswana/black-kite-52365549.jpg",
+  "photoId": 52365549,
+  "license": "CC0",
+  "credit": "lallen",
+  "source": "https://www.inaturalist.org/observations/33345872",
+  "place": "Botswana"
+ },
+ {
+  "name": "Southern Pale Chanting Goshawk",
+  "sci": "Melierax canorus",
+  "file": "media/birds-botswana/southern-pale-chanting-goshawk-208542905.jpg",
+  "photoId": 208542905,
+  "license": "CC0",
+  "credit": "anna22",
+  "source": "https://www.inaturalist.org/observations/123122031",
+  "place": "Botswana"
+ },
+ {
+  "name": "Black-winged Stilt",
+  "sci": "Himantopus himantopus",
+  "file": "media/birds-botswana/black-winged-stilt-570871001.jpg",
+  "photoId": 570871001,
+  "license": "CC BY-SA",
+  "credit": "© Robert Webster",
+  "source": "https://www.inaturalist.org/observations/315982076",
+  "place": "Botswana"
+ },
+ {
+  "name": "Swallow-tailed Bee-eater",
+  "sci": "Merops hirundineus",
+  "file": "media/birds-botswana/swallow-tailed-bee-eater-208012789.jpg",
+  "photoId": 208012789,
+  "license": "CC BY",
+  "credit": "© Murphy Tladi",
+  "source": "https://www.inaturalist.org/observations/122831432",
+  "place": "Botswana"
+ },
+ {
+  "name": "Hooded Vulture",
+  "sci": "Necrosyrtes monachus",
+  "file": "media/birds-botswana/hooded-vulture-53502998.jpg",
+  "photoId": 53502998,
+  "license": "CC BY",
+  "credit": "© Sheelagh Halsey",
+  "source": "https://www.inaturalist.org/observations/34026519",
+  "place": "Botswana"
+ },
+ {
+  "name": "African Red-eyed Bulbul",
+  "sci": "Pycnonotus nigricans",
+  "file": "media/birds-botswana/african-red-eyed-bulbul-382908341.jpg",
+  "photoId": 382908341,
+  "license": "CC0",
+  "credit": "erwinsieben",
+  "source": "https://www.inaturalist.org/observations/216504656",
+  "place": "Botswana"
+ },
+ {
+  "name": "African Skimmer",
+  "sci": "Rynchops flavirostris",
+  "file": "media/birds-botswana/african-skimmer-20939874.jpg",
+  "photoId": 20939874,
+  "license": "CC BY",
+  "credit": "© Wynand Uys",
+  "source": "https://www.inaturalist.org/observations/14133152",
+  "place": "Botswana"
+ },
+ {
+  "name": "Southern Grey-headed Sparrow",
+  "sci": "Passer diffusus",
+  "file": "media/birds-botswana/southern-grey-headed-sparrow-51074069.jpg",
+  "photoId": 51074069,
+  "license": "CC0",
+  "credit": "lallen",
+  "source": "https://www.inaturalist.org/observations/32557281",
+  "place": "Botswana"
+ },
+ {
+  "name": "Laughing Dove",
+  "sci": "Spilopelia senegalensis",
+  "file": "media/birds-botswana/laughing-dove-209999510.jpg",
+  "photoId": 209999510,
+  "license": "CC0",
+  "credit": "anna22",
+  "source": "https://www.inaturalist.org/observations/123928083",
+  "place": "Botswana"
+ },
+ {
+  "name": "Glossy Ibis",
+  "sci": "Plegadis falcinellus",
+  "file": "media/birds-botswana/glossy-ibis-721689302.jpg",
+  "photoId": 721689302,
+  "license": "CC BY",
+  "credit": "© Mark Clarke",
+  "source": "https://www.inaturalist.org/observations/393718187",
+  "place": "Botswana"
+ },
+ {
+  "name": "White-crowned Lapwing",
+  "sci": "Vanellus albiceps",
+  "file": "media/birds-botswana/white-crowned-lapwing-552633968.jpg",
+  "photoId": 552633968,
+  "license": "CC BY",
+  "credit": "© Nicola Crockford",
+  "source": "https://www.inaturalist.org/observations/306442648",
+  "place": "Botswana"
+ },
+ {
+  "name": "Green Wood Hoopoe",
+  "sci": "Phoeniculus purpureus",
+  "file": "media/birds-botswana/green-wood-hoopoe-116433782.jpg",
+  "photoId": 116433782,
+  "license": "CC BY",
+  "credit": "© Jan Ebr &amp; Ivana Ebrová",
+  "source": "https://www.inaturalist.org/observations/71507926",
+  "place": "Botswana"
+ },
+ {
+  "name": "Bradfield's Hornbill",
+  "sci": "Lophoceros bradfieldi",
+  "file": "media/birds-botswana/bradfields-hornbill-542721666.jpg",
+  "photoId": 542721666,
+  "license": "CC BY",
+  "credit": "© Anil Madhavapeddy",
+  "source": "https://www.inaturalist.org/observations/301185552",
+  "place": "Botswana"
+ },
+ {
+  "name": "Secretarybird",
+  "sci": "Sagittarius serpentarius",
+  "file": "media/birds-botswana/secretarybird-152394149.jpg",
+  "photoId": 152394149,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/92074763",
+  "place": "Botswana"
+ },
+ {
+  "name": "Northern Black Korhaan",
+  "sci": "Afrotis afraoides",
+  "file": "media/birds-botswana/northern-black-korhaan-172571169.jpg",
+  "photoId": 172571169,
+  "license": "CC BY",
+  "credit": "© Thomas Ebner",
+  "source": "https://www.inaturalist.org/observations/103147018",
+  "place": "Botswana"
+ },
+ {
+  "name": "Hadeda Ibis",
+  "sci": "Bostrychia hagedash",
+  "file": "media/birds-botswana/hadeda-ibis-4526235.jpg",
+  "photoId": 4526235,
+  "license": "CC0",
+  "credit": "francescocecere",
+  "source": "https://www.inaturalist.org/observations/3862700",
+  "place": "Botswana"
+ },
+ {
+  "name": "Martial Eagle",
+  "sci": "Polemaetus bellicosus",
+  "file": "media/birds-botswana/martial-eagle-225650516.jpg",
+  "photoId": 225650516,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/132515960",
+  "place": "Botswana"
+ },
+ {
+  "name": "Yellow-bellied Greenbul",
+  "sci": "Chlorocichla flaviventris",
+  "file": "media/birds-botswana/yellow-bellied-greenbul-300379579.jpg",
+  "photoId": 300379579,
+  "license": "CC BY",
+  "credit": "© Kobus Meyer",
+  "source": "https://www.inaturalist.org/observations/172994023",
+  "place": "Botswana"
+ },
+ {
+  "name": "Holub's Golden Weaver",
+  "sci": "Ploceus xanthops",
+  "file": "media/birds-botswana/holubs-golden-weaver-51164519.jpg",
+  "photoId": 51164519,
+  "license": "CC0",
+  "credit": "danielvanderpost",
+  "source": "https://www.inaturalist.org/observations/32613060",
+  "place": "Botswana"
+ },
+ {
+  "name": "Red-eyed Dove",
+  "sci": "Streptopelia semitorquata",
+  "file": "media/birds-botswana/red-eyed-dove-51164657.jpg",
+  "photoId": 51164657,
+  "license": "CC0",
+  "credit": "danielvanderpost",
+  "source": "https://www.inaturalist.org/observations/32613068",
+  "place": "Botswana"
+ },
+ {
+  "name": "Brown-hooded Kingfisher",
+  "sci": "Halcyon albiventris",
+  "file": "media/birds-botswana/brown-hooded-kingfisher-246930489.jpg",
+  "photoId": 246930489,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/143930957",
+  "place": "Botswana"
+ },
+ {
+  "name": "Green-backed Camaroptera",
+  "sci": "Camaroptera brachyura",
+  "file": "media/birds-botswana/green-backed-camaroptera-380095602.jpg",
+  "photoId": 380095602,
+  "license": "CC0",
+  "credit": "erwinsieben",
+  "source": "https://www.inaturalist.org/observations/215010337",
+  "place": "Botswana"
+ },
+ {
+  "name": "Black Heron",
+  "sci": "Egretta ardesiaca",
+  "file": "media/birds-botswana/black-heron-250873083.jpg",
+  "photoId": 250873083,
+  "license": "CC BY",
+  "credit": "© Nelson Balcar",
+  "source": "https://www.inaturalist.org/observations/145981098",
+  "place": "Botswana"
+ },
+ {
+  "name": "Green-backed Heron",
+  "sci": "Butorides atricapilla",
+  "file": "media/birds-botswana/green-backed-heron-15571590.jpg",
+  "photoId": 15571590,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/11037247",
+  "place": "Botswana"
+ },
+ {
+  "name": "Brown Snake Eagle",
+  "sci": "Circaetus cinereus",
+  "file": "media/birds-botswana/brown-snake-eagle-225644811.jpg",
+  "photoId": 225644811,
+  "license": "CC BY",
+  "credit": "© Peter Archdale",
+  "source": "https://www.inaturalist.org/observations/132508052",
+  "place": "Botswana"
+ },
+ {
+  "name": "Comb Duck",
+  "sci": "Sarkidiornis melanotos",
+  "file": "media/birds-botswana/comb-duck-286498802.jpg",
+  "photoId": 286498802,
+  "license": "CC BY",
+  "credit": "© Murphy Tladi",
+  "source": "https://www.inaturalist.org/observations/165504653",
+  "place": "Botswana"
+ },
+ {
+  "name": "Red-billed Teal",
+  "sci": "Anas erythrorhyncha",
+  "file": "media/birds-botswana/red-billed-teal-109443495.jpg",
+  "photoId": 109443495,
+  "license": "CC BY",
+  "credit": "© Manuel Schwarz",
+  "source": "https://www.inaturalist.org/observations/67697491",
+  "place": "Botswana"
+ },
+ {
+  "name": "Hartlaub's Babbler",
+  "sci": "Turdoides hartlaubii",
+  "file": "media/birds-botswana/hartlaubs-babbler-379307898.jpg",
+  "photoId": 379307898,
+  "license": "CC0",
+  "credit": "erwinsieben",
+  "source": "https://www.inaturalist.org/observations/214587976",
+  "place": "Botswana"
+ },
+ {
+  "name": "Namaqua Dove",
+  "sci": "Oena capensis",
+  "file": "media/birds-botswana/namaqua-dove-228358349.jpg",
+  "photoId": 228358349,
+  "license": "CC BY",
+  "credit": "© Mahomed Desai",
+  "source": "https://www.inaturalist.org/observations/134013749",
+  "place": "Botswana"
+ },
+ {
+  "name": "White-bellied Sunbird",
+  "sci": "Cinnyris talatala",
+  "file": "media/birds-botswana/white-bellied-sunbird-51082133.jpg",
+  "photoId": 51082133,
+  "license": "CC0",
+  "credit": "danielvanderpost",
+  "source": "https://www.inaturalist.org/observations/32561423",
+  "place": "Botswana"
+ },
+ {
+  "name": "Marico Sunbird",
+  "sci": "Cinnyris mariquensis",
+  "file": "media/birds-botswana/marico-sunbird-212634993.jpg",
+  "photoId": 212634993,
+  "license": "CC0",
+  "credit": "anna22",
+  "source": "https://www.inaturalist.org/observations/125388851",
+  "place": "Botswana"
+ },
+ {
+  "name": "Kurrichane Thrush",
+  "sci": "Turdus libonyana",
+  "file": "media/birds-botswana/kurrichane-thrush-51966278.jpg",
+  "photoId": 51966278,
+  "license": "CC0",
+  "credit": "lallen",
+  "source": "https://www.inaturalist.org/observations/33106515",
+  "place": "Botswana"
+ },
+ {
+  "name": "Southern Pied Babbler",
+  "sci": "Turdoides bicolor",
+  "file": "media/birds-botswana/southern-pied-babbler-115807716.jpg",
+  "photoId": 115807716,
+  "license": "CC BY",
+  "credit": "© Murphy Tladi",
+  "source": "https://www.inaturalist.org/observations/71162197",
+  "place": "Botswana"
+ },
+ {
+  "name": "Black-shouldered Kite",
+  "sci": "Elanus caeruleus",
+  "file": "media/birds-botswana/black-shouldered-kite-462882456.jpg",
+  "photoId": 462882456,
+  "license": "CC BY",
+  "credit": "© Ryan van Huyssteen",
+  "source": "https://www.inaturalist.org/observations/258028298",
+  "place": "Botswana"
+ },
+ {
+  "name": "Common Myna",
+  "sci": "Acridotheres tristis",
+  "file": "media/birds-botswana/common-myna-517225392.jpg",
+  "photoId": 517225392,
+  "license": "CC BY",
+  "credit": "© Bronwen Foster",
+  "source": "https://www.inaturalist.org/observations/287659444",
+  "place": "Botswana"
+ }
+]

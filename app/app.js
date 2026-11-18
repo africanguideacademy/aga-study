@@ -51,6 +51,21 @@
   let progress = load(STORE_KEY, {});
   let settings = Object.assign({ length: 10, scope: {} }, load(SETTINGS_KEY, {}));
   function rec(modId, itemId) { return (progress[modId] && progress[modId][itemId]) || { box: 0, right: 0, wrong: 0 }; }
+  // Carry progress over from lists that were merged (e.g. FGASA 80 / BQA 40 / Kwapa -> Beginner / Intermediate / Botswana):
+  // an item's "was" lists the old "list:item" it came from; the best old record is copied once.
+  (function migrate() {
+    let changed = false;
+    DATA.modules.forEach(m => m.items.forEach(i => {
+      if (!i.was || (progress[m.id] && progress[m.id][i.id])) return;
+      const olds = i.was.map(w => { const [mid, iid] = w.split(':'); return progress[mid] && progress[mid][iid]; }).filter(Boolean);
+      if (!olds.length) return;
+      const best = olds.reduce((a, b) => ((b.box || 0) > (a.box || 0) || ((b.box || 0) === (a.box || 0) && (b.last || 0) > (a.last || 0)) ? b : a));
+      progress[m.id] = progress[m.id] || {};
+      progress[m.id][i.id] = Object.assign({}, best);
+      changed = true;
+    }));
+    if (changed) save(STORE_KEY, progress);
+  })();
   // ---------- progress submission to AGA (Google Apps Script -> "AGA Study App - Student Progress" sheet) ----------
   const PROGRESS_URL = 'https://script.google.com/macros/s/AKfycbyJ3sijfiw4uparWC1Di-WnlNS7rl7-HzI6ACw2VhGJPtrzCqvwa4MiM8Wuf1iqcrWgZw/exec';
   const STUDENT_KEY = 'aga-study-student-v1', SESSION_KEY = 'aga-study-session-v1', QUEUE_KEY = 'aga-study-queue-v1', DEVICE_KEY = 'aga-study-device-v1';
@@ -78,7 +93,7 @@
   const modById = id => DATA.modules.find(m => m.id === id);
   const pct = (a, b) => b ? Math.round(100 * a / b) : 0;
   const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
-  const BANNERS = { fgasa80: 'media/birds/racket-tailed-roller.jpg', calls: 'media/birds/pels-fishing-owl.jpg' };
+  const BANNERS = { 'birds-intermediate': 'media/birds/racket-tailed-roller.jpg', calls: 'media/birds/pels-fishing-owl.jpg' };
   const isQ = mod => mod.kind === 'questions';
   function bannerFor(mod) {
     if (mod.photo) return mod.photo;
@@ -162,6 +177,7 @@
     const sc = settings.scope[mod.id] || mod.defaultScope || 'all'; // bird calls default to the FGASA 80 ("featured")
     if (sc === 'all') return mod.items;
     if (sc === 'featured' || sc === 'fgasa') { const f = mod.items.filter(i => i.f); return f.length ? f : mod.items; }
+    if (sc === 'other') { const f = mod.items.filter(i => !i.f); return f.length ? f : mod.items; } // e.g. frogs not found in Botswana
     const g = mod.items.filter(i => i.group === sc);
     return g.length ? g : mod.items;
   }
@@ -242,7 +258,7 @@
   // ---------- subjects (one per manual chapter; each groups a photo, a call and a manual-question module) ----------
   const SUBJECTS = [
     { id: 'birds', title: 'Birds', noun: 'bird', blurb: 'Photos, calls and manual questions', photo: 'media/birds/racket-tailed-roller.jpg',
-      photoSets: ['fgasa80', 'prominent40', 'kwapa63'], calls: 'calls', manual: 'q-birds' },
+      photoSets: ['birds-beginner', 'birds-intermediate', 'birds-botswana'], setLabel: 'Level', calls: 'calls', manual: 'q-birds' },
     { id: 'amphibians', title: 'Amphibians', noun: 'frog', blurb: 'Frogs - calls and manual questions', photo: 'media/frogs/f-angolan-reed-frog.jpg',
       photoSets: ['amphibians-photos'], calls: 'frog-calls', manual: 'q-amphibians' },
   ];
@@ -301,7 +317,7 @@
   // ---------- home ----------
   function renderHome() {
     chrome({ tab: 'home' });
-    const fg = modById('fgasa80');
+    const fg = modById('birds-intermediate') || DATA.modules.find(m => m.items.some(i => i.photo));
     const wide = fg.items.filter(i => i.photo && i.wide);
     const heroPhoto = shuffle(wide.length ? wide : fg.items.filter(i => i.photo))[0].photo;
     // big photo tiles for the media subjects (Birds, Amphibians); compact icon tiles for manual-only chapters
@@ -348,7 +364,7 @@
         <option value="featured"${psc === 'featured' ? ' selected' : ''}>${esc(pm.featured)} (${pm.items.filter(i => i.f).length})</option>
         <optgroup label="One group">${pgroups.map(g => `<option value="${esc(g)}"${psc === g ? ' selected' : ''}>${esc(g)} (${pm.items.filter(i => i.group === g).length})</option>`).join('')}</optgroup>
       </select></div>` : '';
-    const setSel = sets.length > 1 ? `<div class="setting-row"><label for="photoSet">${esc((s.noun || 'bird').replace(/^./, c => c.toUpperCase()))} list</label><select class="select" id="photoSet">
+    const setSel = sets.length > 1 ? `<div class="setting-row"><label for="photoSet">${esc(s.setLabel || (s.noun || 'bird').replace(/^./, c => c.toUpperCase()) + ' list')}</label><select class="select" id="photoSet">
         ${sets.map(m => `<option value="${esc(m.id)}"${pm && pm.id === m.id ? ' selected' : ''}>${esc(m.short || m.title)} (${m.items.length})</option>`).join('')}
       </select></div>` : '';
     const { d, n, pr } = subjectProgress(s);
@@ -358,6 +374,7 @@
     const cgroups = cm ? [...new Set(cm.items.map(i => i.group).filter(Boolean))].sort() : [];
     const callSel = cm ? `<div class="setting-row"><label for="callScope">Calls</label><select class="select" id="callScope">
         ${cm.featured ? `<option value="featured"${csc === 'featured' || csc === 'fgasa' ? ' selected' : ''}>${esc(cm.featured)} (${cm.items.filter(i => i.f).length})</option>` : ''}
+        ${cm.notFeatured ? `<option value="other"${csc === 'other' ? ' selected' : ''}>${esc(cm.notFeatured)} (${cm.items.filter(i => !i.f).length})</option>` : ''}
         <option value="all"${csc === 'all' ? ' selected' : ''}>All ${cm.items.length} calls</option>
         <optgroup label="One group">${cgroups.map(g => `<option value="${esc(g)}"${csc === g ? ' selected' : ''}>${esc(g)} (${cm.items.filter(i => i.group === g).length})</option>`).join('')}</optgroup>
       </select></div>` : '';
@@ -571,7 +588,7 @@
         : `<img src="${esc(c.photo)}" alt="Photo"><div class="hint">Who is this? Tap the card to check.</div>`;
       const back = `${c.photo ? `<img src="${esc(c.photo)}" alt="">` : ''}<div class="big-name">${esc(c.name)}</div>
         <div class="small" style="margin-bottom:12px">${esc(c.group || '')}</div>
-        ${c.call ? playBtnHtml('bPlay', 'Play call') : '<div class="small">No call recording in the library</div>'}
+        ${c.call ? playBtnHtml('bPlay', 'Play call') : (subjectOf(mod).calls ? '<div class="small">No call recording in the library</div>' : '')}
         ${INFO[c.name] && INFO[c.name].titbit ? `<div class="titbit small-tb">${esc(INFO[c.name].titbit)}</div>` : ''}`;
       show(`<div class="flash" id="flash"><div class="flash-inner"><div class="card face front">${front}</div><div class="card face back">${back}</div></div></div>`);
       const flash = $('flash');
@@ -977,9 +994,10 @@
     chrome({ tab: 'offline' });
     if (!hasCaches) { show(`<h1>Use offline</h1><p class="sub">This browser can't save content for offline use. Try Chrome on Android or Safari on iPhone.</p>`); return; }
     const packs = [
-      { key: 'fgasa', title: 'Birds - FGASA 80 calls', urls: callList([modById('fgasa80')]) },
-      { key: 'prominent', title: 'Birds - 40 prominent (manual)', urls: callList([modById('prominent40')].filter(Boolean)) },
-      { key: 'kwapa', title: 'Birds - Kwapa list', urls: callList([modById('kwapa63')].filter(Boolean)) },
+      { key: 'beginner', title: 'Birds - Beginner calls', urls: callList([modById('birds-beginner')].filter(Boolean)) },
+      { key: 'intermediate', title: 'Birds - Intermediate calls', urls: callList([modById('birds-intermediate')].filter(Boolean)) },
+      { key: 'botswana', title: 'Birds - Botswana calls', urls: callList([modById('birds-botswana')].filter(Boolean)) },
+      { key: 'botswana-photos', title: 'Birds - Botswana photos', photos: true, urls: [...new Set((modById('birds-botswana') || { items: [] }).items.map(i => i.photo).filter(p => p && !/^media\/(birds|prominent40|kwapa63)\//.test(p)))] },
       { key: 'frogs', title: 'Amphibians - frog calls', urls: callList([modById('frog-calls')].filter(Boolean)) },
       { key: 'all', title: 'Birds - full call library', urls: callList([modById('calls')].filter(Boolean)) },
       ...DATA.modules.filter(m => /-photos$/.test(m.id)).map(m => ({ key: m.id, title: `${m.short || m.title} - photos`, photos: true,

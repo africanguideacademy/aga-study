@@ -1,0 +1,729 @@
+[
+ {
+  "id": "prominent40",
+  "items": [
+   {
+    "id": "prominent-ostrich",
+    "name": "Ostrich"
+   },
+   {
+    "id": "prominent-swainsons-spurfowl",
+    "name": "Swainson's Spurfowl"
+   },
+   {
+    "id": "prominent-red-billed-spurfowl",
+    "name": "Red-billed Spurfowl"
+   },
+   {
+    "id": "prominent-helmeted-guineafowl",
+    "name": "Helmeted Guineafowl"
+   },
+   {
+    "id": "prominent-white-faced-duck",
+    "name": "White-faced Duck"
+   },
+   {
+    "id": "prominent-spur-winged-goose",
+    "name": "Spur-winged Goose"
+   },
+   {
+    "id": "prominent-egyptian-goose",
+    "name": "Egyptian Goose"
+   },
+   {
+    "id": "prominent-greater-honeyguide",
+    "name": "Greater Honeyguide"
+   },
+   {
+    "id": "prominent-bennetts-woodpecker",
+    "name": "Bennett's Woodpecker"
+   },
+   {
+    "id": "prominent-southern-yellow-billed-hornbill",
+    "name": "Southern Yellow-billed Hornbill"
+   },
+   {
+    "id": "prominent-southern-ground-hornbill",
+    "name": "Southern Ground Hornbill"
+   },
+   {
+    "id": "prominent-african-hoopoe",
+    "name": "African Hoopoe"
+   },
+   {
+    "id": "prominent-lilac-breasted-roller",
+    "name": "Lilac-breasted Roller"
+   },
+   {
+    "id": "prominent-pied-kingfisher",
+    "name": "Pied Kingfisher"
+   },
+   {
+    "id": "prominent-southern-carmine-bee-eater",
+    "name": "Southern Carmine Bee-eater"
+   },
+   {
+    "id": "prominent-levaillants-cuckoo",
+    "name": "Levaillant's Cuckoo"
+   },
+   {
+    "id": "prominent-senegal-coucal",
+    "name": "Senegal Coucal"
+   },
+   {
+    "id": "prominent-meyers-parrot",
+    "name": "Meyer's Parrot"
+   },
+   {
+    "id": "prominent-palm-swift",
+    "name": "Palm Swift"
+   },
+   {
+    "id": "prominent-grey-go-away-bird",
+    "name": "Grey Go-away-bird"
+   },
+   {
+    "id": "prominent-verreauxs-eagle-owl",
+    "name": "Verreaux's Eagle-Owl"
+   },
+   {
+    "id": "prominent-cape-turtle-dove",
+    "name": "Cape Turtle Dove"
+   },
+   {
+    "id": "prominent-kori-bustard",
+    "name": "Kori Bustard"
+   },
+   {
+    "id": "prominent-wattled-crane",
+    "name": "Wattled Crane"
+   },
+   {
+    "id": "prominent-burchells-sandgrouse",
+    "name": "Burchell's Sandgrouse"
+   },
+   {
+    "id": "prominent-wood-sandpiper",
+    "name": "Wood Sandpiper"
+   },
+   {
+    "id": "prominent-african-jacana",
+    "name": "African Jacana"
+   },
+   {
+    "id": "prominent-water-thick-knee",
+    "name": "Water Thick-knee"
+   },
+   {
+    "id": "prominent-gabar-goshawk",
+    "name": "Gabar Goshawk"
+   },
+   {
+    "id": "prominent-african-fish-eagle",
+    "name": "African Fish Eagle"
+   },
+   {
+    "id": "prominent-tawny-eagle",
+    "name": "Tawny Eagle"
+   },
+   {
+    "id": "prominent-white-backed-vulture",
+    "name": "White-backed Vulture"
+   },
+   {
+    "id": "prominent-great-egret",
+    "name": "Great Egret"
+   },
+   {
+    "id": "prominent-hamerkop",
+    "name": "Hamerkop"
+   },
+   {
+    "id": "prominent-african-spoonbill",
+    "name": "African Spoonbill"
+   },
+   {
+    "id": "prominent-great-white-pelican",
+    "name": "Great White Pelican"
+   },
+   {
+    "id": "prominent-african-openbill",
+    "name": "African Openbill"
+   },
+   {
+    "id": "prominent-fork-tailed-drongo",
+    "name": "Fork-tailed Drongo"
+   },
+   {
+    "id": "prominent-burchells-starling",
+    "name": "Burchell's Starling"
+   },
+   {
+    "id": "prominent-southern-masked-weaver",
+    "name": "Southern Masked Weaver"
+   }
+  ]
+ },
+ {
+  "id": "fgasa80",
+  "items": [
+   {
+    "id": "yellow-breasted-apalis",
+    "name": "Yellow-breasted Apalis"
+   },
+   {
+    "id": "arrow-marked-babbler",
+    "name": "Arrow-marked Babbler"
+   },
+   {
+    "id": "tropical-boubou",
+    "name": "Swamp Boubou"
+   },
+   {
+    "id": "red-billed-buffalo-weaver",
+    "name": "Red-billed Buffalo-Weaver"
+   },
+   {
+    "id": "orange-breasted-bush-shrike",
+    "name": "Orange-breasted Bush-Shrike"
+   },
+   {
+    "id": "long-legged-bustard",
+    "name": "Black-bellied Bustard"
+   },
+   {
+    "id": "kurrichane-buttonquail",
+    "name": "Kurrichane Buttonquail"
+   },
+   {
+    "id": "grey-backed-camaroptera",
+    "name": "Grey-backed Camaroptera"
+   },
+   {
+    "id": "arnots-chat",
+    "name": "Arnot's Chat"
+   },
+   {
+    "id": "red-faced-cisticola",
+    "name": "Red-faced Cisticola"
+   },
+   {
+    "id": "bronze-winged-courser",
+    "name": "Bronze-winged Courser"
+   },
+   {
+    "id": "temmincks-courser",
+    "name": "Temminck's Courser"
+   },
+   {
+    "id": "black-crake",
+    "name": "Black Crake"
+   },
+   {
+    "id": "african-cuckoo",
+    "name": "African Cuckoo"
+   },
+   {
+    "id": "black-cuckoo",
+    "name": "Black Cuckoo"
+   },
+   {
+    "id": "great-spotted-cuckoo",
+    "name": "Great Spotted Cuckoo"
+   },
+   {
+    "id": "levaillants-cuckoo",
+    "name": "Levaillant's Cuckoo"
+   },
+   {
+    "id": "black-cuckooshrike",
+    "name": "Black Cuckooshrike"
+   },
+   {
+    "id": "white-breasted-cuckooshrike",
+    "name": "White-breasted Cuckooshrike"
+   },
+   {
+    "id": "emerald-spotted-wood-dove",
+    "name": "Emerald-spotted Wood-Dove"
+   },
+   {
+    "id": "burnt-necked-eremomela",
+    "name": "Burnt-necked Eremomela"
+   },
+   {
+    "id": "green-capped-eremomela",
+    "name": "Green-capped Eremomela"
+   },
+   {
+    "id": "ashy-flycatcher",
+    "name": "Ashy Flycatcher"
+   },
+   {
+    "id": "southern-black-flycatcher",
+    "name": "Southern Black Flycatcher"
+   },
+   {
+    "id": "grey-tit-flycatcher",
+    "name": "Grey Tit-Flycatcher"
+   },
+   {
+    "id": "marico-flycatcher",
+    "name": "Marico Flycatcher"
+   },
+   {
+    "id": "coqui-francolin",
+    "name": "Coqui Francolin"
+   },
+   {
+    "id": "allens-gallinule",
+    "name": "Allen's Gallinule"
+   },
+   {
+    "id": "african-pygmy-goose",
+    "name": "African Pygmy Goose"
+   },
+   {
+    "id": "dark-chanting-goshawk",
+    "name": "Dark Chanting Goshawk"
+   },
+   {
+    "id": "gabar-goshawk",
+    "name": "Gabar Goshawk"
+   },
+   {
+    "id": "african-hawk-eagle",
+    "name": "African Hawk-Eagle"
+   },
+   {
+    "id": "retzs-helmet-shrike",
+    "name": "Retz's Helmet-Shrike"
+   },
+   {
+    "id": "grey-headed-kingfisher",
+    "name": "Grey-headed Kingfisher"
+   },
+   {
+    "id": "african-pygmy-kingfisher",
+    "name": "African Pygmy Kingfisher"
+   },
+   {
+    "id": "dusky-lark",
+    "name": "Dusky Lark"
+   },
+   {
+    "id": "fawn-coloured-lark",
+    "name": "Fawn-coloured Lark"
+   },
+   {
+    "id": "monotonous-lark",
+    "name": "Monotonous Lark"
+   },
+   {
+    "id": "african-mourning-dove",
+    "name": "African Mourning Dove"
+   },
+   {
+    "id": "pennant-winged-nightjar",
+    "name": "Pennant-winged Nightjar"
+   },
+   {
+    "id": "pels-fishing-owl",
+    "name": "Pel's Fishing-Owl"
+   },
+   {
+    "id": "african-scops-owl",
+    "name": "African Scops-Owl"
+   },
+   {
+    "id": "southern-white-faced-owl",
+    "name": "Southern White-faced Owl"
+   },
+   {
+    "id": "african-barred-owlet",
+    "name": "African Barred Owlet"
+   },
+   {
+    "id": "yellow-billed-oxpecker",
+    "name": "Yellow-billed Oxpecker"
+   },
+   {
+    "id": "collared-palm-thrush",
+    "name": "Collared Palm-Thrush"
+   },
+   {
+    "id": "meyers-parrot",
+    "name": "Meyer's Parrot"
+   },
+   {
+    "id": "grey-penduline-tit",
+    "name": "Grey Penduline-Tit"
+   },
+   {
+    "id": "yellow-throated-petronia",
+    "name": "Yellow-throated Petronia"
+   },
+   {
+    "id": "african-green-pigeon",
+    "name": "African Green Pigeon"
+   },
+   {
+    "id": "black-winged-pratincole",
+    "name": "Black-winged Pratincole"
+   },
+   {
+    "id": "collared-pratincole",
+    "name": "Collared Pratincole"
+   },
+   {
+    "id": "green-winged-pytilia",
+    "name": "Green-winged Pytilia"
+   },
+   {
+    "id": "red-billed-quelea",
+    "name": "Red-billed Quelea"
+   },
+   {
+    "id": "eastern-bearded-scrub-robin",
+    "name": "Eastern Bearded Scrub-Robin"
+   },
+   {
+    "id": "white-browed-robin-chat",
+    "name": "White-browed Robin-Chat"
+   },
+   {
+    "id": "broad-billed-roller",
+    "name": "Broad-billed Roller"
+   },
+   {
+    "id": "purple-roller",
+    "name": "Purple Roller"
+   },
+   {
+    "id": "racket-tailed-roller",
+    "name": "Racket-tailed Roller"
+   },
+   {
+    "id": "kalahari-scrub-robin",
+    "name": "Kalahari Scrub-Robin"
+   },
+   {
+    "id": "chestnut-backed-sparrowlark",
+    "name": "Chestnut-backed Sparrowlark"
+   },
+   {
+    "id": "burchells-starling",
+    "name": "Burchell's Starling"
+   },
+   {
+    "id": "greater-blue-eared-starling",
+    "name": "Greater Blue-eared Starling"
+   },
+   {
+    "id": "mevess-starling",
+    "name": "Meves's Starling"
+   },
+   {
+    "id": "violet-backed-starling",
+    "name": "Violet-backed Starling"
+   },
+   {
+    "id": "purple-banded-sunbird",
+    "name": "Purple-banded Sunbird"
+   },
+   {
+    "id": "grey-rumped-swallow",
+    "name": "Grey-rumped Swallow"
+   },
+   {
+    "id": "lesser-striped-swallow",
+    "name": "Lesser Striped Swallow"
+   },
+   {
+    "id": "red-breasted-swallow",
+    "name": "Red-breasted Swallow"
+   },
+   {
+    "id": "wire-tailed-swallow",
+    "name": "Wire-tailed Swallow"
+   },
+   {
+    "id": "lappet-faced-vulture",
+    "name": "Lappet-faced Vulture"
+   },
+   {
+    "id": "white-headed-vulture",
+    "name": "White-headed Vulture"
+   },
+   {
+    "id": "black-faced-waxbill",
+    "name": "Black-faced Waxbill"
+   },
+   {
+    "id": "violet-eared-waxbill",
+    "name": "Violet-eared Waxbill"
+   },
+   {
+    "id": "red-headed-weaver",
+    "name": "Red-headed Weaver"
+   },
+   {
+    "id": "common-whitethroat",
+    "name": "Common Whitethroat"
+   }
+  ]
+ },
+ {
+  "id": "kwapa63",
+  "items": [
+   {
+    "id": "kwapa-black-collared-barbet",
+    "name": "Black-collared Barbet"
+   },
+   {
+    "id": "kwapa-white-browed-sparrow-weaver",
+    "name": "White-browed Sparrow-weaver"
+   },
+   {
+    "id": "kwapa-red-billed-spurfowl",
+    "name": "Red-billed Spurfowl"
+   },
+   {
+    "id": "kwapa-helmeted-guineafowl",
+    "name": "Helmeted Guineafowl"
+   },
+   {
+    "id": "kwapa-white-faced-duck",
+    "name": "White-faced Duck"
+   },
+   {
+    "id": "kwapa-spur-winged-goose",
+    "name": "Spur-winged Goose"
+   },
+   {
+    "id": "kwapa-african-barred-owlet",
+    "name": "African Barred Owlet"
+   },
+   {
+    "id": "kwapa-greater-honeyguide",
+    "name": "Greater Honeyguide"
+   },
+   {
+    "id": "kwapa-bennetts-woodpecker",
+    "name": "Bennett's Woodpecker"
+   },
+   {
+    "id": "kwapa-southern-yellow-billed-hornbill",
+    "name": "Southern Yellow-billed Hornbill"
+   },
+   {
+    "id": "kwapa-southern-ground-hornbill",
+    "name": "Southern Ground Hornbill"
+   },
+   {
+    "id": "kwapa-african-hoopoe",
+    "name": "African Hoopoe"
+   },
+   {
+    "id": "kwapa-lilac-breasted-roller",
+    "name": "Lilac-breasted Roller"
+   },
+   {
+    "id": "kwapa-southern-red-billed-hornbill",
+    "name": "Southern Red-billed Hornbill"
+   },
+   {
+    "id": "kwapa-levaillants-cuckoo",
+    "name": "Levaillant's Cuckoo"
+   },
+   {
+    "id": "kwapa-crested-barbet",
+    "name": "Crested Barbet"
+   },
+   {
+    "id": "kwapa-meyers-parrot",
+    "name": "Meyer's Parrot"
+   },
+   {
+    "id": "kwapa-chinspot-batis",
+    "name": "Chinspot Batis"
+   },
+   {
+    "id": "kwapa-grey-go-away-bird",
+    "name": "Grey Go-away-bird"
+   },
+   {
+    "id": "kwapa-verreauxs-eagle-owl",
+    "name": "Verreaux's Eagle-Owl"
+   },
+   {
+    "id": "kwapa-european-bee-eater",
+    "name": "European Bee-eater"
+   },
+   {
+    "id": "kwapa-yellow-breasted-apalis",
+    "name": "Yellow-breasted Apalis"
+   },
+   {
+    "id": "kwapa-wattled-crane",
+    "name": "Wattled Crane"
+   },
+   {
+    "id": "kwapa-double-banded-sandgrouse",
+    "name": "Double-banded Sandgrouse"
+   },
+   {
+    "id": "kwapa-wood-sandpiper",
+    "name": "Wood Sandpiper"
+   },
+   {
+    "id": "kwapa-dark-capped-bulbul",
+    "name": "Dark-capped Bulbul"
+   },
+   {
+    "id": "kwapa-brubru",
+    "name": "Brubru"
+   },
+   {
+    "id": "kwapa-black-backed-puffback",
+    "name": "Black-backed Puffback"
+   },
+   {
+    "id": "kwapa-african-fish-eagle",
+    "name": "African Fish Eagle"
+   },
+   {
+    "id": "kwapa-grey-backed-camaroptera",
+    "name": "Grey-backed Camaroptera"
+   },
+   {
+    "id": "kwapa-rattling-cisticola",
+    "name": "Rattling Cisticola"
+   },
+   {
+    "id": "kwapa-zitting-cisticola",
+    "name": "Zitting Cisticola"
+   },
+   {
+    "id": "kwapa-long-billed-crombec",
+    "name": "Long-billed Crombec"
+   },
+   {
+    "id": "kwapa-emerald-spotted-wood-dove",
+    "name": "Emerald-spotted Wood-Dove"
+   },
+   {
+    "id": "kwapa-ashy-flycatcher",
+    "name": "Ashy Flycatcher"
+   },
+   {
+    "id": "kwapa-red-billed-firefinch",
+    "name": "Red-billed Firefinch"
+   },
+   {
+    "id": "kwapa-crested-francolin",
+    "name": "Crested Spurfowl"
+   },
+   {
+    "id": "kwapa-arrow-marked-babbler",
+    "name": "Arrow-marked Babbler"
+   },
+   {
+    "id": "kwapa-eurasian-golden-oriole",
+    "name": "Eurasian Golden Oriole"
+   },
+   {
+    "id": "kwapa-african-green-pigeon",
+    "name": "African Green Pigeon"
+   },
+   {
+    "id": "kwapa-striped-kingfisher",
+    "name": "Striped Kingfisher"
+   },
+   {
+    "id": "kwapa-woodland-kingfisher",
+    "name": "Woodland Kingfisher"
+   },
+   {
+    "id": "kwapa-red-crested-korhaan",
+    "name": "Red-crested Korhaan"
+   },
+   {
+    "id": "kwapa-red-billed-oxpecker",
+    "name": "Red-billed Oxpecker"
+   },
+   {
+    "id": "kwapa-yellow-billed-oxpecker",
+    "name": "Yellow-billed Oxpecker"
+   },
+   {
+    "id": "kwapa-tawny-flanked-prinia",
+    "name": "Tawny-flanked Prinia"
+   },
+   {
+    "id": "kwapa-crowned-lapwing",
+    "name": "Crowned Lapwing"
+   },
+   {
+    "id": "kwapa-pearl-spotted-owlet",
+    "name": "Pearl-spotted Owlet"
+   },
+   {
+    "id": "kwapa-crimson-breasted-shrike",
+    "name": "Crimson-breasted Shrike"
+   },
+   {
+    "id": "kwapa-magpie-shrike",
+    "name": "Magpie Shrike"
+   },
+   {
+    "id": "kwapa-southern-white-crowned-shrike",
+    "name": "Southern White-crowned Shrike"
+   },
+   {
+    "id": "kwapa-swainsons-spurfowl",
+    "name": "Swainson's Spurfowl"
+   },
+   {
+    "id": "kwapa-brown-crowned-tchagra",
+    "name": "Brown-crowned Tchagra"
+   },
+   {
+    "id": "kwapa-black-crowned-tchagra",
+    "name": "Black-crowned Tchagra"
+   },
+   {
+    "id": "kwapa-southern-black-tit",
+    "name": "Southern Black Tit"
+   },
+   {
+    "id": "kwapa-blue-waxbill",
+    "name": "Blue Waxbill"
+   },
+   {
+    "id": "kwapa-bearded-woodpecker",
+    "name": "Bearded Woodpecker"
+   },
+   {
+    "id": "kwapa-cardinal-woodpecker",
+    "name": "Cardinal Woodpecker"
+   },
+   {
+    "id": "kwapa-diederik-cuckoo",
+    "name": "Dideric Cuckoo"
+   },
+   {
+    "id": "kwapa-golden-tailed-woodpecker",
+    "name": "Golden-tailed Woodpecker"
+   },
+   {
+    "id": "kwapa-blacksmith-lapwing",
+    "name": "Blacksmith Lapwing"
+   },
+   {
+    "id": "kwapa-coppery-tailed-coucal",
+    "name": "Coppery-tailed Coucal"
+   }
+  ]
+ }
+]
