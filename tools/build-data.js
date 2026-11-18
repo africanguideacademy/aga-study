@@ -320,6 +320,16 @@ for (const [g, title] of Object.entries(PHOTO_GROUPS)) {
     console.log(`Bird levels: Beginner ${beginner.length}, Intermediate ${intermediate.length}, Botswana ${botswana.length}`);
   }
 }
+// Extra photos (up to 2 more per species, shown as a swipeable gallery): data/photo-gallery.json
+//   { "<species name>": [ { "photo": "media/user/...jpg", "credit": "Name Surname (AGA)", "license": "AGA", "fileId": "..." } ] }
+{
+  const gf = path.join(ROOT, 'data', 'photo-gallery.json');
+  const gal = fs.existsSync(gf) ? JSON.parse(fs.readFileSync(gf, 'utf8').replace(/^﻿/, '')) : {};
+  appData.modules.forEach(m => m.items.forEach(i => {
+    const extra = (gal[i.name] || []).filter(x => x.photo && fs.existsSync(path.join(ROOT, 'app', x.photo))).slice(-2);
+    if (extra.length && (i.photo || m.id !== 'calls')) i.photos = extra.map(x => ({ photo: x.photo, credit: x.credit, license: x.license || 'AGA', src: x.src || '' }));
+  }));
+}
 // Replacement photos (students' approved photos via tools/sync-photos.js, or any photo AGA wants to use instead).
 // data/photo-overrides.json: { "<species name>": { "photo": "media/user/...jpg", "credit": "Name Surname", "license": "AGA" } }
 {

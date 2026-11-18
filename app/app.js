@@ -96,6 +96,9 @@
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const modById = id => DATA.modules.find(m => m.id === id);
+  // a species can have up to 3 photos (main + gallery); quizzes and cards show a random one
+  const allPhotos = i => [{ photo: i.photo, credit: i.credit, license: i.license, src: i.src }].concat(i.photos || []).filter(p => p.photo);
+  const pickPhoto = i => { const a = allPhotos(i); return a.length ? a[Math.floor(Math.random() * a.length)].photo : i.photo; };
   const pct = (a, b) => b ? Math.round(100 * a / b) : 0;
   const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
   const BANNERS = { 'birds-intermediate': 'media/birds/racket-tailed-roller.jpg', calls: 'media/birds/pels-fishing-owl.jpg' };
@@ -473,7 +476,7 @@
       const pics = modeKey === 'call2photo' || modeKey === 'name2photo';
       let prompt;
       const noun = subjectOf(mod).noun || 'bird'; // "bird" / "frog"
-      if (modeKey === 'photo2name') prompt = `<img class="main" src="${esc(q.photo)}" alt="Photo"><div class="q">Which ${noun} is this?</div>`;
+      if (modeKey === 'photo2name') prompt = `<img class="main" src="${esc(pickPhoto(q))}" alt="Photo"><div class="q">Which ${noun} is this?</div>`;
       else if (modeKey === 'name2photo') prompt = `<div class="hint">Tap the photo of the</div><div class="big-name">${esc(q.name)}</div>`;
       else prompt = `${playBtnHtml('playQ', '', true)}<div class="q">${modeKey === 'call2photo' ? `Tap the ${noun} that makes this call` : 'Whose call is this?'}</div><div class="hint">Tap the button to play it again</div>`;
       const optHtml = opts.map((o, k) => pics
@@ -603,11 +606,12 @@
       topRight.textContent = `${Math.min(seen + 1, total)} / ${total}`;
       setQuizProgress(seen / total);
       const soundFront = isCallMod || !c.photo; // call cards: listen first, photo on the back
+      const cph = pickPhoto(c);
       if (c.q) { textCard(c); return; }
       const front = soundFront
         ? `${playBtnHtml('fPlay', '', true)}<div class="hint">Whose call is this? Tap the card to check.</div>`
-        : `<img src="${esc(c.photo)}" alt="Photo"><div class="hint">Who is this? Tap the card to check.</div>`;
-      const back = `${c.photo ? `<img src="${esc(c.photo)}" alt="">` : ''}<div class="big-name">${esc(c.name)}</div>
+        : `<img src="${esc(cph)}" alt="Photo"><div class="hint">Who is this? Tap the card to check.</div>`;
+      const back = `${c.photo ? `<img src="${esc(cph)}" alt="">` : ''}<div class="big-name">${esc(c.name)}</div>
         <div class="small" style="margin-bottom:12px">${esc(c.group || '')}</div>
         ${c.call ? playBtnHtml('bPlay', 'Play call') : (subjectOf(mod).calls ? '<div class="small">No call recording in the library</div>' : '')}
         ${INFO[c.name] && INFO[c.name].titbit ? `<div class="titbit small-tb">${esc(INFO[c.name].titbit)}</div>` : ''}`;
@@ -721,7 +725,8 @@
     const label = (f, l) => (LABELS[subj.id] || {})[f] || l;
     const facts = info ? FACTS.filter(([f]) => info[f]).map(([f, l]) => `<div class="fact"><div class="fl">${label(f, l)}</div><div class="fv">${esc(info[f])}</div></div>`).join('') : '';
     show(`<div class="card species">
-        ${it.photo ? `<img class="sp-photo" src="${esc(it.photo)}" alt="${esc(it.name)}">` : ''}
+        ${(() => { const ph = allPhotos(it); if (!ph.length) return ''; if (ph.length === 1) return `<img class="sp-photo" src="${esc(ph[0].photo)}" alt="${esc(it.name)}">`;
+          return `<div class="sp-gallery" id="spGal">${ph.map(p => `<img class="sp-photo" src="${esc(p.photo)}" alt="${esc(it.name)}" loading="lazy">`).join('')}</div><div class="sp-dots" id="spDots">${ph.map((p, k) => `<i class="${k ? '' : 'on'}"></i>`).join('')}</div>`; })()}
         <div class="sp-body">
           <h1 class="sp-name">${esc(it.name)}</h1>
           ${it.group ? `<div class="small">${esc(it.group)}${it.sci ? ` &middot; <i>${esc(it.sci)}</i>` : ''}</div>` : ''}
@@ -730,13 +735,17 @@
           ${facts ? `<div class="facts">${facts}</div>` : ''}
           ${!info ? `<p class="small" style="margin-top:14px">No fact card for this ${esc(subj.noun || 'species')} yet.</p>` : ''}
           ${info && info.draft ? `<p class="small draft-note"><span class="draft">Draft</span> Facts still being checked by AGA trainers.</p>` : ''}
-          ${it.photo && it.credit ? `<p class="small credit">Photo: ${esc(it.credit)}${it.license ? ` (${esc(it.license)})` : ''}${it.src ? ` &middot; <a href="${esc(it.src)}" target="_blank" rel="noopener">source</a>` : ''}</p>` : ''}
+          <p class="small credit" id="spCredit"></p>
           <button class="btn block" style="margin-top:14px" id="sawIt">${icon('eye')} I saw this</button>
           <a class="btn ghost block" style="margin-top:10px" href="#/photo/${mod.id}/${esc(it.id)}">${icon('camera')} ${it.photo ? 'Send a better photo' : 'Send a photo'}</a>
         </div></div>
       ${k >= 0 ? `<div class="sp-pager">${nav(k - 1, -1)}${nav(k + 1, 1)}</div>` : ''}`);
     const b = $('spPlay');
     if (b) b.addEventListener('click', () => playCall(it.call, b));
+    const ph = allPhotos(it), credit = k => { const p = ph[k]; const el = $('spCredit'); if (!el) return; el.innerHTML = p && p.credit ? `Photo${ph.length > 1 ? ` ${k + 1} of ${ph.length}` : ''}: ${esc(p.credit)}${p.license && p.license !== 'AGA' ? ` (${esc(p.license)})` : ''}${p.src ? ` &middot; <a href="${esc(p.src)}" target="_blank" rel="noopener">source</a>` : ''}` : (ph.length > 1 ? `Photo ${k + 1} of ${ph.length}` : ''); };
+    credit(0);
+    const gal = $('spGal');
+    if (gal) gal.addEventListener('scroll', () => { const k = Math.round(gal.scrollLeft / gal.clientWidth); credit(k); $('spDots').querySelectorAll('i').forEach((d, j) => d.classList.toggle('on', j === k)); }, { passive: true });
     $('sawIt').addEventListener('click', () => logSighting({ name: it.name, sub: subj.id, subTitle: subj.title, mod: mod.id, id: it.id, photo: it.photo }, settings.camp || 'Kwapa',
       () => { const sb = $('sawIt'); if (sb) { sb.innerHTML = icon('check') + ' Saved to your sightings'; sb.disabled = true; } }));
     keyHandler = e => {
@@ -947,7 +956,7 @@
         const pool = mod.items.filter(MODES[mode].needs);
         opts = shuffle([q].concat(distractors(q, pool, 3)));
         prompt = mode === 'photo2name'
-          ? `<div class="card prompt"><img class="main" src="${esc(q.photo)}" alt="Photo"><div class="q">Which ${esc(subj.noun || 'species')} is this?</div></div>`
+          ? `<div class="card prompt"><img class="main" src="${esc(pickPhoto(q))}" alt="Photo"><div class="q">Which ${esc(subj.noun || 'species')} is this?</div></div>`
           : `<div class="card prompt">${playBtnHtml('playQ', '', true)}<div class="q">Whose call is this?</div></div>`;
       }
       show(`${prompt}<div class="options text${mode === 'mcq' ? ' one' : ''}">${opts.map((x, k) => `<button class="opt" data-id="${esc(x.id)}"><span class="k">${'ABCD'[k]}</span><span>${esc(x.name)}</span></button>`).join('')}</div>`);

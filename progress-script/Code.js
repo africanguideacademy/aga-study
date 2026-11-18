@@ -142,9 +142,10 @@ function photoSheet_() {
     sh = ss.insertSheet('Photos');
     sh.getRange(1, 1, 1, PHOTO_HEAD.length).setValues([PHOTO_HEAD]).setFontWeight('bold').setBackground('#fbecd2');
     sh.setFrozenRows(1);
-    sh.getRange(2, PHOTO_COL.status, 2000, 1).setDataValidation(
-      SpreadsheetApp.newDataValidation().requireValueInList(['Pending', 'Approved', 'Rejected'], true).build());
   }
+  // Approved = add to the species' photo gallery; Approved (main photo) = replace its main photo
+  sh.getRange(2, PHOTO_COL.status, 2000, 1).setDataValidation(
+    SpreadsheetApp.newDataValidation().requireValueInList(['Pending', 'Approved', 'Approved (main photo)', 'Rejected'], true).build());
   return sh;
 }
 function photoFolder_() {
@@ -191,10 +192,10 @@ function approvedPhotos_() {
   const sh = photoSheet_();
   if (sh.getLastRow() < 2) return [];
   return sh.getRange(2, 1, sh.getLastRow() - 1, PHOTO_HEAD.length).getValues()
-    .filter(r => String(r[PHOTO_COL.status - 1]).trim() === 'Approved' && r[PHOTO_COL.fileId - 1])
+    .filter(r => /^Approved/.test(String(r[PHOTO_COL.status - 1]).trim()) && r[PHOTO_COL.fileId - 1])
     .map(r => ({ fileId: String(r[PHOTO_COL.fileId - 1]), species: String(r[PHOTO_COL.species - 1]), sci: String(r[PHOTO_COL.sci - 1]),
       module: String(r[PHOTO_COL.module - 1]), itemId: String(r[PHOTO_COL.item - 1]),
-      credit: `${r[PHOTO_COL.first - 1]} ${r[PHOTO_COL.surname - 1]}`.trim(), submitted: r[0] }));
+      credit: `${r[PHOTO_COL.first - 1]} ${r[PHOTO_COL.surname - 1]}`.trim(), submitted: r[0], main: /main/i.test(String(r[PHOTO_COL.status - 1])) }));
 }
 function doGet(e) {
   const p = (e && e.parameter) || {};

@@ -114,8 +114,8 @@ Tap a photo in **Browse** to open the species page. It shows the photo, the call
 - **Student photos:**
   - The **Send a photo** button on a species page, or **Share a photo** in the footer, uploads a photo. The phone shrinks it to 1600 px first.
   - The upload goes to the Apps Script. It saves the file in the Drive folder "AGA Pocket Guide - Photo Submissions" and adds a row to the **Photos** tab of the Student Progress sheet with Status = Pending.
-  - A trainer sets Status to **Approved** or **Rejected**.
-  - `node tools/sync-photos.js` pulls the approved photos into `app/media/user/` and records them in `data/photo-overrides.json`. They then replace that species' photo in every list, credited "Name Surname (AGA)". Rebuild and publish afterwards.
+  - A trainer sets Status to **Approved** (added to that species' photo gallery: main photo plus up to 2 more, which students swipe through), **Approved (main photo)** (replaces the main photo) or **Rejected**.
+  - `node tools/sync-photos.js` pulls the approved photos into `app/media/user/` and records them in `data/photo-overrides.json`. They are added to `data/photo-gallery.json` (gallery) or `data/photo-overrides.json` (main photo) and appear in every list, credited "Name Surname (AGA)". Rebuild and publish afterwards.
   - Any photo can be replaced by hand the same way: add an entry to `data/photo-overrides.json`.
   - Drive access needs a one-time authorisation: run `setupPhotos` in the Apps Script editor.
 

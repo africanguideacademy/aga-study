@@ -25,7 +25,9 @@ const FFMPEG = (() => {
   window.AGA_DATA.modules.filter(m => m.kind !== 'questions').forEach(m => m.items.forEach(i => names.set(norm(i.name), i.name)));
   const of = path.join(ROOT, 'data', 'photo-overrides.json');
   const ov = fs.existsSync(of) ? JSON.parse(fs.readFileSync(of, 'utf8').replace(/^﻿/, '')) : {};
-  const done = new Set(Object.values(ov).map(o => o.fileId).filter(Boolean));
+  const gf = path.join(ROOT, 'data', 'photo-gallery.json');
+  const gal = fs.existsSync(gf) ? JSON.parse(fs.readFileSync(gf, 'utf8')) : {};
+  const done = new Set([...Object.values(ov).map(o => o.fileId), ...Object.values(gal).flat().map(o => o.fileId)].filter(Boolean));
   const list = await (await fetch(URL_ + '?action=photos')).json();
   if (!list.ok) throw new Error('Could not read the approved photo list: ' + JSON.stringify(list));
   fs.mkdirSync(path.join(ROOT, 'app', 'media', 'user'), { recursive: true });
@@ -41,11 +43,14 @@ const FFMPEG = (() => {
     fs.writeFileSync(tmp, Buffer.from(j.b64, 'base64'));
     execFileSync(FFMPEG, ['-y', '-loglevel', 'error', '-i', tmp, '-vf', "scale='min(900,iw)':-2", '-q:v', '5', path.join(ROOT, 'app', file)]);
     fs.unlinkSync(tmp);
-    ov[name] = { photo: file, credit: `${p.credit} (AGA)`, license: 'AGA', fileId: p.fileId };
+    const entry = { photo: file, credit: `${p.credit} (AGA)`, license: 'AGA', fileId: p.fileId };
+    if (p.main) ov[name] = entry; // "Approved (main photo)": replaces the species' main photo
+    else gal[name] = (gal[name] || []).concat(entry).slice(-2); // "Approved": added to the gallery (main + up to 2 more; the oldest extra drops off)
     added++;
-    console.log(`  ${name}: photo by ${p.credit}`);
+    console.log(`  ${name}: photo by ${p.credit}${p.main ? ' (main photo)' : ' (added to gallery)'}`);
   }
   fs.writeFileSync(of, JSON.stringify(ov, null, 1));
-  console.log(`${added} new approved photo(s) added; ${Object.keys(ov).length} replacement photo(s) in total.`);
+  fs.writeFileSync(gf, JSON.stringify(gal, null, 1));
+  console.log(`${added} new approved photo(s) added; ${Object.keys(ov).length} main-photo replacement(s), ${Object.values(gal).flat().length} gallery photo(s) in total.`);
   if (unmatched.length) console.log('Not used:\n  ' + unmatched.join('\n  '));
 })().catch(e => { console.error(e.message); process.exit(1); });
