@@ -56,7 +56,8 @@ async function get(url, kind) {
     // thumbnail sizes, the largest that is smaller than the original
     const tw = [1280, 960, 800, 640, 500, 330].find(w => w < (ii.width || 0)) || 330;
     const orig = ii.url.split('?')[0], base = orig.split('/').pop();
-    const thumb = orig.replace('/wikipedia/commons/', '/wikipedia/commons/thumb/') + `/${tw}px-${base}${/\.(svg|tiff?)$/i.test(base) ? '.png' : ''}`;
+    // thumbnails come from thumb.wikimedia.org (upload.wikimedia.org rate-limits automated clients much harder)
+    const thumb = orig.replace('//upload.wikimedia.org/', '//thumb.wikimedia.org/').replace('/wikipedia/commons/', '/wikipedia/commons/thumb/') + `/${tw}px-${base}${/\.(svg|tiff?)$/i.test(base) ? '.png' : ''}`;
     fs.writeFileSync(tmp, await get(thumb, 'image'));
     execFileSync(FFMPEG, ['-y', '-loglevel', 'error', '-i', tmp, '-vf', "scale='min(900,iw)':-2", '-q:v', '5', path.join(ROOT, 'app', file)]);
     fs.unlinkSync(tmp);

@@ -1,0 +1,57 @@
+[
+ {
+  "name": "Guiding Principles",
+  "sci": "",
+  "file": "media/banners/guiding-principles-26f54f16a8.jpg",
+  "commons": "File:Sausage Tree in Botswana.JPG",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3ASausage_Tree_in_Botswana.JPG",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Geology",
+  "sci": "",
+  "file": "media/banners/geology-58a4de901d.jpg",
+  "commons": "File:Tsodilo Hills, Botswana (2625371308).jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3ATsodilo_Hills%2C_Botswana_(2625371308).jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Weather and Climate",
+  "sci": "",
+  "file": "media/banners/weather-and-climate-afbe317d35.jpg",
+  "commons": "File:Gewitter in der Kalahari.jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3AGewitter_in_der_Kalahari.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Ecology",
+  "sci": "",
+  "file": "media/banners/ecology-5ba8ae31c4.jpg",
+  "commons": "File:Cebras de Burchell (Equus quagga burchellii), vista aérea del delta del Okavango, Botsuana, 2018-08-01, DD 30.jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3ACebras_de_Burchell_(Equus_quagga_burchellii)%2C_vista_a%C3%A9rea_del_delta_del_Okavango%2C_Botsuana%2C_2018-08-01%2C_DD_30.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Tourism and Legislation",
+  "sci": "",
+  "file": "media/banners/tourism-and-legislation-8fd8998a3a.jpg",
+  "commons": "File:Mokoro travel.jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3AMokoro_travel.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ }
+]

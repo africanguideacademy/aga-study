@@ -18,5 +18,215 @@
   "credit": "Kamil Nowacki",
   "source": "https://commons.wikimedia.org/wiki/File:Cumulonimbus_incus_over_Warsaw,_Poland.jpg",
   "place": "Wikimedia Commons"
+ },
+ {
+  "name": "Stratus",
+  "sci": "",
+  "file": "media/weather-and-climate/stratus-463485.jpg",
+  "commons": "File:Stratus-Opacus-Uniformis.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "PiccoloNamek",
+  "source": "https://commons.wikimedia.org/wiki/File:Stratus-Opacus-Uniformis.jpg",
+  "place": "Wikimedia Commons"
+ },
+ {
+  "name": "Stratocumulus",
+  "sci": "",
+  "file": "media/weather-and-climate/stratocumulus-15871133.jpg",
+  "commons": "File:Stratocumulus lacunosus.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Berrucomons",
+  "source": "https://commons.wikimedia.org/wiki/File:Stratocumulus_lacunosus.jpg",
+  "place": "Wikimedia Commons"
+ },
+ {
+  "name": "Nimbostratus",
+  "sci": "",
+  "file": "media/weather-and-climate/nimbostratus-83477491.jpg",
+  "commons": "File:Nimbostratus pannus.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "GerritR",
+  "source": "https://commons.wikimedia.org/wiki/File:Nimbostratus_pannus.jpg",
+  "place": "Wikimedia Commons"
+ },
+ {
+  "name": "Altostratus",
+  "sci": "",
+  "file": "media/weather-and-climate/altostratus-121364252.jpg",
+  "commons": "File:Altostratus translucidus am 4.12.2020 in Limburg II.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "GerritR",
+  "source": "https://commons.wikimedia.org/wiki/File:Altostratus_translucidus_am_4.12.2020_in_Limburg_II.jpg",
+  "place": "Wikimedia Commons"
+ },
+ {
+  "name": "Altocumulus",
+  "sci": "",
+  "file": "media/weather-and-climate/altocumulus-73816.jpg",
+  "commons": "File:Altocumulus clouds - 2004.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Altocumulus_clouds_-_2004.jpg",
+  "place": "Wikimedia Commons"
+ },
+ {
+  "name": "Cirrus",
+  "sci": "",
+  "file": "media/weather-and-climate/cirrus-68977976.jpg",
+  "commons": "File:Cirrus uncinus und Cirrus fibratus II.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "GerritR",
+  "source": "https://commons.wikimedia.org/wiki/File:Cirrus_uncinus_und_Cirrus_fibratus_II.jpg",
+  "place": "Wikimedia Commons"
+ },
+ {
+  "name": "Cirrostratus",
+  "sci": "",
+  "file": "media/weather-and-climate/cirrostratus-113041273.jpg",
+  "commons": "File:Cs nebulosus with faint halo.jpg",
+  "license": "Public domain",
+  "credit": "Rollcloud",
+  "source": "https://commons.wikimedia.org/wiki/File:Cs_nebulosus_with_faint_halo.jpg",
+  "place": "Wikimedia Commons"
+ },
+ {
+  "name": "Cirrocumulus",
+  "sci": "",
+  "file": "media/weather-and-climate/cirrocumulus-145181078.jpg",
+  "commons": "File:Cirrocumulus Clouds at Stanford University.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Phibeatrice",
+  "source": "https://commons.wikimedia.org/wiki/File:Cirrocumulus_Clouds_at_Stanford_University.jpg",
+  "place": "Wikimedia Commons"
+ },
+ {
+  "name": "Lightning",
+  "sci": "",
+  "file": "media/weather-and-climate/lightning-7336941.jpg",
+  "commons": "File:Lightning 14.07.2009 20-42-33.JPG",
+  "license": "CC BY-SA 3.0",
+  "credit": "Hansueli Krapf",
+  "source": "https://commons.wikimedia.org/wiki/File:Lightning_14.07.2009_20-42-33.JPG",
+  "place": "Wikimedia Commons"
+ },
+ {
+  "name": "Thunderstorm",
+  "sci": "",
+  "file": "media/weather-and-climate/thunderstorm-61923314.jpg",
+  "commons": "File:Gewitter in der Kalahari.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Hp.Baumeler",
+  "source": "https://commons.wikimedia.org/wiki/File:Gewitter_in_der_Kalahari.jpg",
+  "place": "Wikimedia Commons"
+ },
+ {
+  "name": "Hail",
+  "sci": "",
+  "file": "media/weather-and-climate/hail-e8772dffe6.jpg",
+  "commons": "File:Hail on the Ground.JPG",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3AHail_on_the_Ground.JPG",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Rain gauge",
+  "sci": "",
+  "file": "media/weather-and-climate/rain-gauge-8a42e2f35e.jpg",
+  "commons": "File:Overview of rain gauge in Michle, Prague.jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3AOverview_of_rain_gauge_in_Michle%2C_Prague.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Anemometer",
+  "sci": "",
+  "file": "media/weather-and-climate/anemometer-30b871f372.jpg",
+  "commons": "File:Cup-Anemometer.jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3ACup-Anemometer.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Dust devil",
+  "sci": "",
+  "file": "media/weather-and-climate/dust-devil-f909cd5b4a.jpg",
+  "commons": "File:Dust devil (49792193506).jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3ADust_devil_(49792193506).jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Dust storm",
+  "sci": "",
+  "file": "media/weather-and-climate/dust-storm-d35f514bec.jpg",
+  "commons": "File:Haboob Ransom Canyon Texas 2009.jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3AHaboob_Ransom_Canyon_Texas_2009.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Rainbow",
+  "sci": "",
+  "file": "media/weather-and-climate/rainbow-20bad60198.jpg",
+  "commons": "File:Home in the Savannas.jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3AHome_in_the_Savannas.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Frost",
+  "sci": "",
+  "file": "media/weather-and-climate/frost-a8319425c2.jpg",
+  "commons": "File:Frost on grass and reed leaves.jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3AFrost_on_grass_and_reed_leaves.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Mirage",
+  "sci": "",
+  "file": "media/weather-and-climate/mirage-a76b49cadf.jpg",
+  "commons": "File:Desert mirage .jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3ADesert_mirage_.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Halo around the sun",
+  "sci": "",
+  "file": "media/weather-and-climate/halo-around-the-sun-15462c5366.jpg",
+  "commons": "File:Solar Eclipse 2024 - 22 degree halo (53646055136).jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3ASolar_Eclipse_2024_-_22_degree_halo_(53646055136).jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Fog and mist",
+  "sci": "",
+  "file": "media/weather-and-climate/fog-and-mist-0e64342636.jpg",
+  "commons": "File:Morning mist (53135439422).jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3AMorning_mist_(53135439422).jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
  }
 ]
