@@ -276,7 +276,8 @@
       photoSets: ['amphibians-photos'], calls: 'frog-calls', manual: 'q-amphibians' },
   ];
   if (modById('amphibians-photos')) SUBJECTS[1].blurb = 'Frogs - photos, calls and manual questions';
-  const PHOTO_NOUN = { mammals: 'mammal', reptiles: 'reptile', arthropods: 'creature', plants: 'plant', astronomy: 'sky object' };
+  const PHOTO_NOUN = { mammals: 'mammal', reptiles: 'reptile', arthropods: 'creature', plants: 'plant', astronomy: 'sky object',
+    geology: 'feature', 'weather-and-climate': 'feature', ecology: 'habitat', 'tourism-and-legislation': 'place' };
   // Every other manual chapter that has questions becomes its own (manual-only) subject automatically.
   const CHAPTER_ICON = { 'Guiding Principles': 'compass', 'Astronomy': 'star', 'Geology': 'mountain', 'Weather and Climate': 'cloud', 'Ecology': 'cycle',
     'Plants': 'leaf', 'Arthropods': 'bug', 'Reptiles': 'snake', 'Mammals': 'paw', 'Tourism and Legislation': 'scale' };
@@ -286,11 +287,11 @@
     if (pm) { // chapters with a species photo set get the full subject page (photo quizzes, photo cards, browse)
       const manualPics = pm.items.filter(i => i.f && i.photo);
       SUBJECTS.push({ id, title: ch, noun: PHOTO_NOUN[id] || 'species', blurb: `${pm.items.length} photos and ${m.items.length} manual questions`,
-        photo: (manualPics[0] || pm.items[0]).photo, icon: CHAPTER_ICON[ch] || 'book', photoSets: [pm.id], manual: m.id });
+        photo: m.photo && /banners\//.test(m.photo) ? m.photo : (manualPics[0] || pm.items[0]).photo, icon: CHAPTER_ICON[ch] || 'book', photoSets: [pm.id], manual: m.id });
       return;
     }
     SUBJECTS.push({ id, title: ch, noun: 'answer', blurb: `${m.items.length} questions from the manual`, photo: m.photo || '',
-      icon: CHAPTER_ICON[ch] || 'book', manual: m.id, compact: true });
+      icon: CHAPTER_ICON[ch] || 'book', manual: m.id, compact: !m.photo }); // a chapter with a banner photo gets a big tile
   });
   // Banner photos must be landscape ("wide") so they fit the wide tile without cutting the animal off.
   // Keep the chosen photo if it is wide; otherwise use the first wide photo of a manual species, then any wide photo.
@@ -301,6 +302,7 @@
   SUBJECTS.forEach(s => {
     const items = (s.photoSets || []).map(modById).filter(Boolean).flatMap(m => m.items).filter(i => i.photo);
     if (!items.length) return;
+    if (/media\/banners\//.test(s.photo || '')) return; // a chosen banner photo stays
     const cur = items.find(i => i.photo === s.photo);
     const pick = (BANNER[s.id] || []).map(n => items.find(i => i.name === n && i.wide)).find(Boolean)
       || (cur && cur.wide ? cur : null) || items.find(i => i.wide && i.f) || items.find(i => i.wide);
@@ -437,6 +439,7 @@
         (cm ? tile(`#/m/${cm.id}/flash${levelCalls ? '/calls' : ''}`, 'sound', 'Call cards', 'Whose call?') : '') +
         (qm ? tile(`#/m/${qm.id}/flash`, 'cards', 'Question cards', 'From the manual') : '') +
         ((pm || cm) ? tile(`#/m/${(pm || cm).id}/browse`, 'grid', `Browse ${s.title.toLowerCase()}`, pm ? (cm || pm.items.some(i => i.call) ? 'Photos and calls' : 'Photos and facts') : 'Listen to every call') : ''))}
+      ${(() => { const mc = (DATA.manual || { chapters: [] }).chapters.find(x => x.title === s.title); return mc ? `<a class="card mrow" style="margin-top:14px" href="#/manual/${mc.id}"><div class="tile-ico">${icon('book')}</div><div class="mtxt"><strong>Read the ${esc(s.title)} chapter</strong><span class="small">Manual pages ${mc.from}-${mc.to}</span></div>${icon('chev', 'chev')}</a>` : ''; })()}
       <p class="small" style="margin:14px 4px 0">An item counts as mastered after 3 right answers in a row. Anything you get wrong comes up more often.</p>`);
     view.querySelectorAll('[data-len]').forEach(b => b.addEventListener('click', () => {
       settings.length = +b.dataset.len; save(SETTINGS_KEY, settings);
@@ -714,6 +717,7 @@
     const nav = (j, dir) => j >= 0 && j < items.length ? `<a class="btn ghost sp-nav ${dir > 0 ? 'nx' : ''}" href="#/m/${mod.id}/sp/${esc(items[j].id)}">${dir < 0 ? '&lsaquo; ' : ''}${esc(items[j].name)}${dir > 0 ? ' &rsaquo;' : ''}</a>` : '<span></span>';
     const LABELS = { plants: { size: 'Size and form', food: 'Uses', breeding: 'Flowers and fruit' },
       astronomy: { size: 'What it is', habitat: 'Where and when to look', food: 'How to find it', breeding: 'Stories and beliefs' } };
+    ['geology', 'weather-and-climate', 'ecology', 'tourism-and-legislation'].forEach(k => { LABELS[k] = { size: 'What it is', habitat: k === 'tourism-and-legislation' ? 'Where it is' : 'Where to see it', food: 'Why it matters', breeding: 'Guide tip' }; });
     const label = (f, l) => (LABELS[subj.id] || {})[f] || l;
     const facts = info ? FACTS.filter(([f]) => info[f]).map(([f, l]) => `<div class="fact"><div class="fl">${label(f, l)}</div><div class="fv">${esc(info[f])}</div></div>`).join('') : '';
     show(`<div class="card species">
@@ -1151,9 +1155,12 @@
     if (!c) return renderManual();
     const i = MANUAL.chapters.indexOf(c), prev = MANUAL.chapters[i - 1], next = MANUAL.chapters[i + 1];
     chrome({ tab: 'manual', back: '#/manual', title: c.title });
-    show(`<div class="mtools"><span class="small">${c.from ? `Pages ${c.from}-${c.to}` : ''}</span>
+    const subj = SUBJECTS.find(s => s.title === c.title);
+    const practise = subj ? `<div class="mpractise"><a class="btn" href="#/s/${subj.id}">${icon('book')} Practise ${esc(c.title)}</a>${modById(subj.manual) ? `<a class="btn ghost" href="#/m/${subj.manual}/quiz/mcq">Quick quiz</a>` : ''}</div>` : '';
+    show(`${practise}<div class="mtools"><span class="small">${c.from ? `Pages ${c.from}-${c.to}` : ''}</span>
         <span><button class="icon-btn mz" data-z="-1" aria-label="Smaller">A&minus;</button><button class="icon-btn mz" data-z="1" aria-label="Bigger">A+</button></span></div>
       <div class="mpages" id="mpages"><p class="empty" id="mload">Opening ${esc(c.title)}...</p></div>
+      ${practise}
       <div class="sp-pager">${prev ? `<a class="btn ghost sp-nav" href="#/manual/${prev.id}">&lsaquo; ${esc(prev.title)}</a>` : '<span></span>'}${next ? `<a class="btn ghost sp-nav nx" href="#/manual/${next.id}">${esc(next.title)} &rsaquo;</a>` : '<span></span>'}</div>`);
     const box = $('mpages');
     let pdf;

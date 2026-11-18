@@ -237,7 +237,8 @@ appData.modules.forEach(m => m.items.forEach(i => {
 }));
 // ---------------- species photo sets (tools/fetch-photos.js: free-licence iNaturalist photos) ----------------
 // data/species-lists/<group>.json = the species, data/photos/<group>.json = the photo fetched for each one.
-const PHOTO_GROUPS = { mammals: 'Mammals', reptiles: 'Reptiles', amphibians: 'Amphibians', arthropods: 'Arthropods', plants: 'Plants', astronomy: 'Sky objects' };
+const PHOTO_GROUPS = { mammals: 'Mammals', reptiles: 'Reptiles', amphibians: 'Amphibians', arthropods: 'Arthropods', plants: 'Plants', astronomy: 'Sky objects',
+  geology: 'Rocks and landscapes', 'weather-and-climate': 'Clouds and weather', ecology: 'Habitats', 'tourism-and-legislation': 'Parks and places' };
 for (const [g, title] of Object.entries(PHOTO_GROUPS)) {
   const lf = path.join(ROOT, 'data', 'species-lists', g + '.json'), pf = path.join(ROOT, 'data', 'photos', g + '.json');
   if (!fs.existsSync(lf) || !fs.existsSync(pf)) continue;
@@ -340,6 +341,8 @@ function parseCsv(text) {
   return rows.filter(r => r.some(c => c.trim()));
 }
 const CHAPTER_PHOTO = { Birds: 'media/birds/african-scops-owl.jpg', Amphibians: 'media/frogs/f-angolan-reed-frog.jpg' };
+// banner photos for the chapter tiles (data/species-lists/banners.json, fetched by tools/fetch-commons.js banners)
+if (fs.existsSync(path.join(ROOT, 'data', 'photos', 'banners.json'))) JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'photos', 'banners.json'), 'utf8')).forEach(b => { if (b.file) CHAPTER_PHOTO[b.name] = b.file; });
 function questionModules(includeDrafts) {
   const file = path.join(ROOT, 'data', 'questions.csv');
   if (!fs.existsSync(file)) return [];

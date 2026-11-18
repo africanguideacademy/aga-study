@@ -1,0 +1,200 @@
+[
+ {
+  "name": "Cumulus",
+  "size": "Low, puffy clouds with flat bases and rounded tops, like cotton wool.",
+  "habitat": "Common on summer mornings and afternoons across Botswana.",
+  "food": "Growing cumulus can build into thunderclouds by the afternoon.",
+  "breeding": "Cumulus means \"heap\" or \"pile\" in Latin.",
+  "titbit": "Fair-weather cumulus form as warm air rises off the ground and cools.",
+  "source": "both"
+ },
+ {
+  "name": "Cumulonimbus",
+  "size": "A huge thundercloud that stretches from low level to the top of the sky, often with an anvil top.",
+  "habitat": "Summer afternoons (November to March), especially after hot, humid mornings.",
+  "food": "It brings lightning, heavy rain, strong wind and hail.",
+  "breeding": "Return to base at the first sign of thunderclouds, especially on a boat or on foot.",
+  "titbit": "Cumulonimbus is the only multi-level cloud: it covers all three cloud levels.",
+  "source": "manual"
+ },
+ {
+  "name": "Stratus",
+  "size": "A low, grey, even sheet of cloud near the ground, like high fog.",
+  "habitat": "Uncommon in Botswana; sometimes on cool, damp mornings during rainy spells.",
+  "food": "Stratus can bring drizzle but rarely heavy rain.",
+  "breeding": "Stratus means \"sheet\" in Latin.",
+  "titbit": "Stratus forms from 0 to 2 000 m and can touch the ground as fog.",
+  "source": "manual"
+ },
+ {
+  "name": "Stratocumulus",
+  "size": "Low, lumpy grey and white clouds in a layer, with gaps of blue sky.",
+  "habitat": "Common in cooler months and after cold fronts.",
+  "food": "Usually only light rain or none; often breaks up during the day.",
+  "breeding": "Lumpy like cumulus but joined in a sheet like stratus; hence the name.",
+  "titbit": "Stratocumulus is the most common cloud type on Earth.",
+  "source": "both"
+ },
+ {
+  "name": "Nimbostratus",
+  "size": "A thick, dark grey rain cloud layer that hides the sun completely.",
+  "habitat": "In summer when the ITCZ brings rain for days at a time.",
+  "food": "Brings steady, long-lasting rain that soaks into the ground.",
+  "breeding": "Nimbus means \"rain\"; no shadows on the ground, and steady rain falling.",
+  "titbit": "Nimbostratus brings soft, steady rain rather than short storms.",
+  "source": "both"
+ },
+ {
+  "name": "Altostratus",
+  "size": "A grey or blue-grey sheet of middle-level cloud through which the sun looks watery.",
+  "habitat": "Often ahead of a summer rain front.",
+  "food": "It can thicken into nimbostratus and bring rain.",
+  "breeding": "The sun shines dimly \"as through frosted glass\" and casts no clear shadows.",
+  "titbit": "Alto means \"high\" but altostratus is a middle cloud, at 2 000 to 6 000 m.",
+  "source": "manual"
+ },
+ {
+  "name": "Altocumulus",
+  "size": "Middle-level clouds in white or grey patches or rolls, often in rows.",
+  "habitat": "Common across Botswana, especially in the morning in spring and summer.",
+  "food": "Altocumulus on a humid morning can mean afternoon thunderstorms.",
+  "breeding": "Hold up your hand: each cloudlet is about the size of a thumbnail (smaller for cirrocumulus).",
+  "titbit": "Rows of altocumulus are sometimes called a \"mackerel sky\".",
+  "source": "manual"
+ },
+ {
+  "name": "Cirrus",
+  "size": "Thin, wispy high clouds made of ice crystals.",
+  "habitat": "Seen all year, especially in winter and before weather changes.",
+  "food": "Cirrus can be the first sign of an approaching front.",
+  "breeding": "Cirrus means \"a curling lock of hair\"; look for hooked, feathery streaks.",
+  "titbit": "Cirrus clouds float at 6 000 to 12 000 m where it is well below freezing.",
+  "source": "manual"
+ },
+ {
+  "name": "Cirrostratus",
+  "size": "A thin, milky sheet of high ice cloud that covers the sky.",
+  "habitat": "Often ahead of a front; look around the sun or moon.",
+  "food": "It often comes before rain within a day or two.",
+  "breeding": "The best clue is a ring (halo) around the sun or moon.",
+  "titbit": "The ice crystals in cirrostratus bend the light to make the 22-degree halo.",
+  "source": "manual"
+ },
+ {
+  "name": "Cirrocumulus",
+  "size": "High clouds made of many tiny white ripples or grains, with no shadows.",
+  "habitat": "Not common and short-lived; seen in summer and spring.",
+  "food": "It shows moisture and instability high in the atmosphere.",
+  "breeding": "Like altocumulus but higher and smaller: each cloudlet is smaller than a fingertip.",
+  "titbit": "Cirrocumulus is one of the rarest of the ten main cloud types.",
+  "source": "both"
+ },
+ {
+  "name": "Lightning",
+  "size": "A huge electric spark caused by an imbalance of charges, usually in a cumulonimbus.",
+  "habitat": "Summer thunderstorms, November to March.",
+  "food": "It forms nitric acid in the air, which fertilises the plants below.",
+  "breeding": "Count seconds from flash to thunder and divide by three to get the distance in km.",
+  "titbit": "Thunder is caused by the air expanding very fast as lightning super-heats it.",
+  "source": "both"
+ },
+ {
+  "name": "Thunderstorm",
+  "size": "A storm with lightning, thunder, strong wind and heavy rain from cumulonimbus clouds.",
+  "habitat": "Summer afternoons across Botswana, after hot, humid mornings.",
+  "food": "Storms bring most of Botswana's rain but can cause flash floods and falling trees.",
+  "breeding": "Never shelter under trees; mokoros should pole to shore; aluminium boats conduct lightning.",
+  "titbit": "Storms form as cold fronts replace the rising warm air in the afternoon.",
+  "source": "manual"
+ },
+ {
+  "name": "Hail",
+  "size": "Balls or lumps of ice that fall from cumulonimbus storm clouds.",
+  "habitat": "Summer storms, especially with the unstable air of occluded fronts.",
+  "food": "Hail can damage crops, injure animals and strip leaves from trees.",
+  "breeding": "Hail plus cold wind after a storm can cause hypothermia; carry warm clothing.",
+  "titbit": "Never use alcohol to treat hypothermia; it lowers the core body temperature.",
+  "source": "manual"
+ },
+ {
+  "name": "Rain gauge",
+  "size": "An instrument with a funnel that collects rain in a cylinder to measure rainfall.",
+  "habitat": "At weather stations, camps and lodges; set in open ground.",
+  "food": "Rainfall figures show how much grazing and surface water the bush will have.",
+  "breeding": "It must be away from trees and buildings that could affect the reading.",
+  "titbit": "Kasane gets about 650 mm of rain a year, Ghanzi only about 430 mm.",
+  "source": "manual"
+ },
+ {
+  "name": "Anemometer",
+  "size": "An instrument with spinning cups that measures wind speed.",
+  "habitat": "At airstrips and weather stations.",
+  "food": "Wind speed matters for flights, boat trips and fire risk.",
+  "breeding": "The ideal height is 10 m above open ground, away from trees and buildings.",
+  "titbit": "The faster the cups spin, the stronger the wind.",
+  "source": "manual"
+ },
+ {
+  "name": "Dust devil",
+  "size": "A spinning column of rising hot air that picks up dust and leaves.",
+  "habitat": "Hot, still days in the dry season, especially August to October, on pans and open ground.",
+  "food": "Dust devils show strong heating of the ground, the same process that builds storm clouds.",
+  "breeding": "Unlike a tornado, a dust devil forms on a clear day and is not attached to a cloud.",
+  "titbit": "Dust devils can rise hundreds of metres but usually last only a few minutes.",
+  "source": "general"
+ },
+ {
+  "name": "Dust storm",
+  "size": "A wall of dust and sand carried by strong wind, often ahead of a storm.",
+  "habitat": "Late dry season (August to October) in the Kalahari and over the Makgadikgadi pans.",
+  "food": "Dust storms cut visibility and can ground flights and close roads.",
+  "breeding": "Close vehicle windows, protect cameras and keep guests' eyes covered.",
+  "titbit": "Dust from the Makgadikgadi pans can be seen from space.",
+  "source": "general"
+ },
+ {
+  "name": "Rainbow",
+  "size": "An arc of colours made when sunlight is bent and reflected by raindrops.",
+  "habitat": "After summer afternoon storms, with the sun low behind you.",
+  "food": "Rainbows often mean the storm is moving away.",
+  "breeding": "The sun is always behind you; red is on the outside of the main bow.",
+  "titbit": "In a double rainbow the colours of the second bow are reversed.",
+  "source": "general"
+ },
+ {
+  "name": "Frost",
+  "size": "Ice crystals that form on the ground and plants when the temperature drops below freezing.",
+  "habitat": "Winter mornings (June to August), especially in the Kalahari and low-lying areas.",
+  "food": "Frost kills tender plants and grass and can shape which trees grow in an area.",
+  "breeding": "Warn guests that early winter game drives can be below 0 °C; bring blankets.",
+  "titbit": "Ghanzi has recorded temperatures as low as -8.5 °C.",
+  "source": "both"
+ },
+ {
+  "name": "Mirage",
+  "size": "An optical effect where hot air near the ground bends light, making \"water\" appear.",
+  "habitat": "Hot days on the Makgadikgadi pans, Nxai Pan and long straight roads.",
+  "food": "Mirages explain old travellers' stories of lakes that disappear.",
+  "breeding": "Distant trees or animals seem to float above a shimmering \"lake\".",
+  "titbit": "The \"water\" in a mirage is really an image of the sky.",
+  "source": "general"
+ },
+ {
+  "name": "Halo around the sun",
+  "size": "A ring of light around the sun or moon made by ice crystals in thin high cloud.",
+  "habitat": "When cirrostratus covers the sky, often before a change in weather.",
+  "food": "A halo is a traditional sign that rain may come within a day or two.",
+  "breeding": "The ring is about 22 degrees across: about the span of an outstretched hand.",
+  "titbit": "Halos are made by six-sided ice crystals bending light like tiny prisms.",
+  "source": "general"
+ },
+ {
+  "name": "Fog and mist",
+  "size": "Tiny water droplets hanging in the air near the ground; cloud at ground level.",
+  "habitat": "Cold winter mornings over the Okavango, Chobe and Linyanti waterways.",
+  "food": "Morning mist over water is a beautiful photo opportunity on early boat trips.",
+  "breeding": "Mist forms when water is warmer than the cold air above it.",
+  "titbit": "Cold Benguela current air brings fog to the Namib coast but rarely reaches Botswana.",
+  "source": "both"
+ }
+]

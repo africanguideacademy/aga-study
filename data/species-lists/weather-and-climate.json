@@ -1,0 +1,178 @@
+[
+ {
+  "name": "Cumulus",
+  "sci": "",
+  "group": "Low clouds",
+  "manual": true,
+  "page": 28,
+  "commons": "File:White Cumulus Clouds against Blue Sky (2).jpg"
+ },
+ {
+  "name": "Cumulonimbus",
+  "sci": "",
+  "group": "Storm clouds",
+  "manual": true,
+  "page": 28,
+  "commons": "File:Cumulonimbus incus over Warsaw, Poland.jpg"
+ },
+ {
+  "name": "Stratus",
+  "sci": "",
+  "group": "Low clouds",
+  "manual": true,
+  "page": 28,
+  "commons": "File:Stratus-Opacus-Uniformis.jpg"
+ },
+ {
+  "name": "Stratocumulus",
+  "sci": "",
+  "group": "Low clouds",
+  "manual": true,
+  "page": 28,
+  "commons": "File:Stratocumulus lacunosus.jpg"
+ },
+ {
+  "name": "Nimbostratus",
+  "sci": "",
+  "group": "Middle clouds",
+  "manual": true,
+  "page": 28,
+  "commons": "File:Nimbostratus pannus.jpg"
+ },
+ {
+  "name": "Altostratus",
+  "sci": "",
+  "group": "Middle clouds",
+  "manual": true,
+  "page": 28,
+  "commons": "File:Altostratus translucidus am 4.12.2020 in Limburg II.jpg"
+ },
+ {
+  "name": "Altocumulus",
+  "sci": "",
+  "group": "Middle clouds",
+  "manual": true,
+  "page": 28,
+  "commons": "File:Altocumulus clouds - 2004.jpg"
+ },
+ {
+  "name": "Cirrus",
+  "sci": "",
+  "group": "High clouds",
+  "manual": true,
+  "page": 28,
+  "commons": "File:Cirrus uncinus und Cirrus fibratus II.jpg"
+ },
+ {
+  "name": "Cirrostratus",
+  "sci": "",
+  "group": "High clouds",
+  "manual": true,
+  "page": 28,
+  "commons": "File:Cs nebulosus with faint halo.jpg"
+ },
+ {
+  "name": "Cirrocumulus",
+  "sci": "",
+  "group": "High clouds",
+  "manual": true,
+  "page": 28,
+  "commons": "File:Cirrocumulus Clouds at Stanford University.jpg"
+ },
+ {
+  "name": "Lightning",
+  "sci": "",
+  "group": "Weather",
+  "manual": true,
+  "page": 28,
+  "commons": "File:Lightning 14.07.2009 20-42-33.JPG"
+ },
+ {
+  "name": "Thunderstorm",
+  "sci": "",
+  "group": "Weather",
+  "manual": true,
+  "page": 30,
+  "commons": "File:Gewitter in der Kalahari.jpg"
+ },
+ {
+  "name": "Hail",
+  "sci": "",
+  "group": "Weather",
+  "manual": true,
+  "page": 30,
+  "commons": "File:Hail on the Ground.JPG"
+ },
+ {
+  "name": "Rain gauge",
+  "sci": "",
+  "group": "Weather",
+  "manual": true,
+  "page": 26,
+  "commons": "File:Overview of rain gauge in Michle, Prague.jpg"
+ },
+ {
+  "name": "Anemometer",
+  "sci": "",
+  "group": "Weather",
+  "manual": true,
+  "page": 26,
+  "commons": "File:Cup-Anemometer.jpg"
+ },
+ {
+  "name": "Dust devil",
+  "sci": "",
+  "group": "Weather",
+  "manual": false,
+  "page": null,
+  "commons": "File:Dust devil (49792193506).jpg"
+ },
+ {
+  "name": "Dust storm",
+  "sci": "",
+  "group": "Weather",
+  "manual": false,
+  "page": null,
+  "commons": "File:Haboob Ransom Canyon Texas 2009.jpg"
+ },
+ {
+  "name": "Rainbow",
+  "sci": "",
+  "group": "Weather",
+  "manual": false,
+  "page": null,
+  "commons": "File:Home in the Savannas.jpg"
+ },
+ {
+  "name": "Frost",
+  "sci": "",
+  "group": "Weather",
+  "manual": false,
+  "page": null,
+  "commons": "File:Frost on grass and reed leaves.jpg"
+ },
+ {
+  "name": "Mirage",
+  "sci": "",
+  "group": "Weather",
+  "manual": false,
+  "page": null,
+  "commons": "File:Desert mirage .jpg"
+ },
+ {
+  "name": "Halo around the sun",
+  "sci": "",
+  "group": "Weather",
+  "manual": false,
+  "page": null,
+  "commons": "File:Solar Eclipse 2024 - 22 degree halo (53646055136).jpg"
+ },
+ {
+  "name": "Fog and mist",
+  "sci": "",
+  "group": "Weather",
+  "manual": false,
+  "page": null,
+  "commons": "File:Morning mist (53135439422).jpg"
+ }
+]

@@ -1,0 +1,202 @@
+[
+ {
+  "name": "Granite",
+  "sci": "",
+  "group": "Rocks",
+  "manual": true,
+  "page": 21,
+  "commons": "File:Rocks - Alkali feldspar granite.JPG"
+ },
+ {
+  "name": "Basalt",
+  "sci": "",
+  "group": "Rocks",
+  "manual": true,
+  "page": 21,
+  "commons": "File:Basalt columns 22897.JPG"
+ },
+ {
+  "name": "Rhyolite",
+  "sci": "",
+  "group": "Rocks",
+  "manual": true,
+  "page": 19,
+  "commons": "File:Rhyolite (Paleocene-Eocene, 52-59 Ma; Orphan Boy Mine, Butte, Montana, USA) 5.jpg"
+ },
+ {
+  "name": "Sandstone",
+  "sci": "",
+  "group": "Rocks",
+  "manual": true,
+  "page": 21,
+  "commons": "File:Cross-bedding in quartzose sandstone (Black Hand Sandstone, Lower Mississippian; railroad cut west of Black Hand Gorge, Ohio, USA) 3 (31106110716).jpg"
+ },
+ {
+  "name": "Shale",
+  "sci": "",
+  "group": "Rocks",
+  "manual": true,
+  "page": 21,
+  "commons": "File:Cone-in-cone limestone interbed in shales (Ohio Shale, Upper Devonian; Glen Echo Ravine, Columbus, Ohio, USA) 4 (36512641002).jpg"
+ },
+ {
+  "name": "Limestone",
+  "sci": "",
+  "group": "Rocks",
+  "manual": true,
+  "page": 21,
+  "commons": "File:Limestone outcrop above Kingsdale - geograph.org.uk - 5920751.jpg"
+ },
+ {
+  "name": "Dolomite",
+  "sci": "",
+  "group": "Rocks",
+  "manual": true,
+  "page": 19,
+  "commons": "File:Put-in-Bay Dolomite over Tymochtee Dolomite (Upper Silurian; South Bass Island, Lake Erie, Ohio, USA) 7 (48628000726).jpg"
+ },
+ {
+  "name": "Quartzite",
+  "sci": "",
+  "group": "Rocks",
+  "manual": true,
+  "page": 19,
+  "commons": "File:Quartzite Pillar Formations - Garretson, South Dakota (8-30-26).jpg"
+ },
+ {
+  "name": "Schist",
+  "sci": "",
+  "group": "Rocks",
+  "manual": true,
+  "page": 21,
+  "commons": "File:Garnet-mica schist (Gassetts, Vermont, USA) 2.jpg"
+ },
+ {
+  "name": "Diamond (rough)",
+  "sci": "",
+  "group": "Rocks",
+  "manual": true,
+  "page": 21,
+  "commons": "File:Diamond crystal, 0,7 ct.jpg"
+ },
+ {
+  "name": "Kimberlite",
+  "sci": "",
+  "group": "Rocks",
+  "manual": false,
+  "page": null,
+  "commons": "File:Kimberlite (Chicken Park Kimberlite Pipe, Neoproterozoic, 614 Ma; near Red Feather Lakes, State Line Kimberlite Field, Larimer County, northern Colorado, USA) 2 (15830382092).jpg"
+ },
+ {
+  "name": "Calcrete",
+  "sci": "",
+  "group": "Rocks",
+  "manual": false,
+  "page": null,
+  "commons": "File:Caliche-5731.jpg"
+ },
+ {
+  "name": "Agate",
+  "sci": "",
+  "group": "Rocks",
+  "manual": false,
+  "page": null,
+  "commons": "File:Quartz - Agateplate, redbrown-white.jpg"
+ },
+ {
+  "name": "Tsodilo Hills",
+  "sci": "",
+  "group": "Places",
+  "manual": true,
+  "page": 19,
+  "commons": "File:Tsodilo Hills, Botswana (2625371308).jpg"
+ },
+ {
+  "name": "Makgadikgadi Pans",
+  "sci": "",
+  "group": "Places",
+  "manual": true,
+  "page": 21,
+  "commons": "File:Botswana Nxai Pan NP Salzpfanne.jpg"
+ },
+ {
+  "name": "Kubu Island",
+  "sci": "",
+  "group": "Places",
+  "manual": false,
+  "page": null,
+  "commons": "File:Baobabs on Kubu island, Botswana.jpg"
+ },
+ {
+  "name": "Kalahari sand dunes",
+  "sci": "",
+  "group": "Landforms",
+  "manual": true,
+  "page": 20,
+  "commons": "File:Kalahari Dunes, Namibia (3997934029).jpg"
+ },
+ {
+  "name": "Okavango Delta from the air",
+  "sci": "",
+  "group": "Landforms",
+  "manual": true,
+  "page": 25,
+  "commons": "File:Okavango Delta, Botswana1.jpg"
+ },
+ {
+  "name": "Termite-mound islands",
+  "sci": "",
+  "group": "Landforms",
+  "manual": false,
+  "page": null,
+  "commons": "File:Okavango Delta, Botswana4.jpg"
+ },
+ {
+  "name": "Chobe River",
+  "sci": "",
+  "group": "Places",
+  "manual": true,
+  "page": 24,
+  "commons": "File:Chobe River at Kasane.jpg"
+ },
+ {
+  "name": "Savuti Channel",
+  "sci": "",
+  "group": "Places",
+  "manual": false,
+  "page": null,
+  "commons": "File:Savuti Channel - Botswana - panoramio.jpg"
+ },
+ {
+  "name": "Weathering (exfoliation)",
+  "sci": "",
+  "group": "Processes",
+  "manual": true,
+  "page": 22,
+  "commons": "File:Edrey Mountains, Karaganda region, Kazakhstan. May 2025 01.jpg"
+ },
+ {
+  "name": "Rock-splitting fig",
+  "sci": "",
+  "group": "Processes",
+  "manual": true,
+  "page": 22,
+  "commons": "File:Large-leaved Rock Fig (Ficus abutilifolia) roots (16025195933).jpg"
+ },
+ {
+  "name": "Lichen on rock",
+  "sci": "",
+  "group": "Processes",
+  "manual": true,
+  "page": 22,
+  "commons": "File:Lichen orange pierre.jpg"
+ },
+ {
+  "name": "Water erosion (gullies)",
+  "sci": "",
+  "group": "Processes",
+  "manual": true,
+  "page": 22,
+  "commons": "File:Dongas (Soil erosion) (32403444375).jpg"
+ }
+]
