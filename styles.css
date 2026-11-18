@@ -370,6 +370,13 @@ a.btn { text-decoration: none; }
 .share-prev { width: 100%; max-height: 40vh; object-fit: contain; border-radius: 10px; margin: 0 0 12px; background: var(--surface-2); }
 .form label.check { display: flex; gap: 10px; align-items: flex-start; font-weight: 500; font-size: 14px; }
 .form label.check input { width: auto; margin-top: 3px; flex: none; }
+/* species photo gallery (swipe) */
+.sp-gallery { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+.sp-gallery::-webkit-scrollbar { display: none; }
+.sp-gallery .sp-photo { flex: 0 0 100%; scroll-snap-align: start; }
+.sp-dots { display: flex; justify-content: center; gap: 6px; margin-top: -22px; position: relative; z-index: 1; height: 22px; align-items: center; }
+.sp-dots i { width: 7px; height: 7px; border-radius: 50%; background: rgba(255,255,255,.55); box-shadow: 0 0 2px rgba(0,0,0,.5); }
+.sp-dots i.on { background: #fff; }
 /* exam practice, sightings */
 .check-row { display: flex; gap: 10px; align-items: center; padding: 12px 0 2px; font-size: 14.5px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }

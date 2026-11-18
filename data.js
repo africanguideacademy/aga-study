@@ -2181,11 +2181,19 @@ window.AGA_DATA = {
      "name": "African Civet",
      "sci": "Civettictis civetta",
      "group": "Genets and civets",
-     "photo": "media/user/african-civet-1j6M9ZHL.jpg",
+     "photo": "media/mammals/african-civet-353739024.jpg",
      "pb": 30194,
-     "credit": "Bernard Loots (AGA)",
-     "license": "AGA",
-     "src": ""
+     "credit": "© Lucky Atabo",
+     "license": "CC BY",
+     "src": "https://www.inaturalist.org/observations/200489417",
+     "photos": [
+      {
+       "photo": "media/user/african-civet-1j6M9ZHL.jpg",
+       "credit": "Bernard Loots (AGA)",
+       "license": "AGA",
+       "src": ""
+      }
+     ]
     },
     {
      "id": "mammals-large-spotted-genet",
