@@ -19,7 +19,10 @@ const cell = v => { v = v == null ? '' : String(v); return /[",\n]/.test(v) ? '"
 const rows = [['Name', 'Level', 'FGASA 80', 'BQA 40', 'Kwapa', 'Scientific name', 'Botswana sightings (iNaturalist)', 'Photo', 'Photo credit', 'Call', 'Has fact card']];
 const levelOf = k => beg.has(k) ? 'Beginner' : int.has(k) ? 'Intermediate' : 'Botswana';
 const order = { Beginner: 0, Intermediate: 1, Botswana: 2 };
-const items = mod('birds-botswana').items.slice().sort((a, b) => order[levelOf(norm(a.name))] - order[levelOf(norm(b.name))] || a.name.localeCompare(b.name));
+// every bird in the Botswana level, including any still waiting for a photo (those are not in the app yet)
+const inApp = new Map(mod('birds-botswana').items.map(i => [i.name, i]));
+const levels = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'bird-levels.json'), 'utf8'));
+const items = levels.botswana.map(n => inApp.get(n) || { name: n, photo: '(no photo yet - not in the app)', credit: '', call: (extra.get(n) || {}).call ? 'yes' : '' }).sort((a, b) => order[levelOf(norm(a.name))] - order[levelOf(norm(b.name))] || a.name.localeCompare(b.name));
 for (const i of items) {
   const k = norm(i.name), x = extra.get(i.name), n = x ? x.obs : (inat.get(k) || {}).count;
   rows.push([i.name, levelOf(k), fg.has(k) ? 'Yes' : '', bq.has(k) ? 'Yes' : '', kw.has(k) ? 'Yes' : '', i.sci || (x && x.sci) || '', n || '',

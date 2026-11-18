@@ -296,9 +296,9 @@ for (const [g, title] of Object.entries(PHOTO_GROUPS)) {
     const aga = new Set([...levels.beginner, ...levels.intermediate].map(norm));
     const botswana = build(levels.botswana, ['fgasa80', 'prominent40', 'kwapa63']).map(i => (aga.has(norm(i.name)) ? Object.assign(i, { f: 1 }) : i));
     appData.modules.push(
-      { id: 'birds-beginner', title: 'Birds - Beginner', short: 'Beginner - BQA 40', subtitle: 'The 40 prominent birds of the BQA list and manual', items: beginner },
-      { id: 'birds-intermediate', title: 'Birds - Intermediate', short: 'Intermediate - FGASA + Kwapa', subtitle: 'FGASA 80 birds (not in Beginner) and 20 common Kwapa birds', items: intermediate },
-      { id: 'birds-botswana', title: 'Birds - Botswana', short: 'Botswana - all birds', subtitle: 'All AGA birds plus common Botswana birds with calls',
+      { id: 'birds-beginner', title: 'Birds - Beginner', short: 'Beginner', subtitle: 'The 40 prominent birds of the BQA list and manual', items: beginner },
+      { id: 'birds-intermediate', title: 'Birds - Intermediate', short: 'Intermediate', subtitle: 'FGASA 80 birds (not in Beginner) and 20 common Kwapa birds', items: intermediate },
+      { id: 'birds-botswana', title: 'Birds - Botswana', short: 'Botswana', subtitle: 'All AGA birds plus common Botswana birds with calls',
         featured: 'Beginner + Intermediate birds', defaultScope: 'all', items: botswana });
     // the call library's "featured" set becomes the Beginner + Intermediate birds
     callsMod.featured = 'Beginner + Intermediate birds';
