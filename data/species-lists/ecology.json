@@ -1,13 +1,5 @@
 [
  {
-  "name": "Riverine forest",
-  "sci": "",
-  "group": "Woodlands",
-  "manual": true,
-  "page": 23,
-  "commons": "File:Chobe Riverfront, Botswana (2633821123).jpg"
- },
- {
   "name": "Mopane woodland",
   "sci": "",
   "group": "Woodlands",
@@ -21,10 +13,10 @@
   "group": "Dry lands",
   "manual": true,
   "page": 23,
-  "commons": "File:124 Single Camel Thorn tree with Plains zebra in the background in Etosha National Park Photo by Giles Laurent.jpg"
+  "commons": "File:Kalahari thunder.JPG"
  },
  {
-  "name": "Acacia (Vachellia) savanna",
+  "name": "Acacia savanna",
   "sci": "",
   "group": "Woodlands",
   "manual": true,
@@ -45,10 +37,10 @@
   "group": "Wetlands",
   "manual": true,
   "page": 33,
-  "commons": "File:Okavango Delta, Botswana4.jpg"
+  "commons": "File:Delta del Okavango, Botsuana, 2018-07-31, DD 01.jpg"
  },
  {
-  "name": "Papyrus swamp (permanent swamp)",
+  "name": "Papyrus swamp",
   "sci": "",
   "group": "Wetlands",
   "manual": true,
@@ -93,7 +85,7 @@
   "group": "Ecology in action",
   "manual": true,
   "page": 32,
-  "commons": "File:Buffaloes at Savuti Marsh - Botswana - panoramio.jpg"
+  "commons": "File:Some antelopes feeding (4613629032).jpg"
  },
  {
   "name": "Browsers",
@@ -104,7 +96,7 @@
   "commons": "File:Greater Kudu (Tragelaphus strepsiceros) male browsing ... (52959601218).jpg"
  },
  {
-  "name": "Predator and prey (food chain)",
+  "name": "Food chain",
   "sci": "",
   "group": "Ecology in action",
   "manual": true,
@@ -112,7 +104,7 @@
   "commons": "File:Lioness after hunting waterbuck- Chobe National Park - Botswana.jpg"
  },
  {
-  "name": "Scavengers at a carcass",
+  "name": "Scavengers",
   "sci": "",
   "group": "Ecology in action",
   "manual": true,
@@ -120,7 +112,7 @@
   "commons": "File:Chobe Riverfront, Botswana (2628155285).jpg"
  },
  {
-  "name": "Decomposers (fungi)",
+  "name": "Decomposers",
   "sci": "",
   "group": "Ecology in action",
   "manual": true,
@@ -128,7 +120,7 @@
   "commons": "File:Bracket fungus, 2021-05-06, Bird Park, 02.jpg"
  },
  {
-  "name": "Dung beetle (recycling)",
+  "name": "Recycling by dung beetles",
   "sci": "",
   "group": "Ecology in action",
   "manual": true,
@@ -136,7 +128,7 @@
   "commons": "File:Large Copper Dung Beetle (Kheper nigroaeneus) male rolling a big ball (bigger than a tennis ball) of elephant dung with female as passenger ... (32878095098).jpg"
  },
  {
-  "name": "Mutualism (oxpecker on buffalo)",
+  "name": "Mutualism",
   "sci": "",
   "group": "Ecology in action",
   "manual": true,
@@ -144,15 +136,7 @@
   "commons": "File:Cape Buffalo with Oxpeckers.jpg"
  },
  {
-  "name": "Seed dispersal (elephant dung)",
-  "sci": "",
-  "group": "Ecology in action",
-  "manual": true,
-  "page": 33,
-  "commons": "File:African elephant dung.jpg"
- },
- {
-  "name": "Commensalism (cattle egret)",
+  "name": "Commensalism",
   "sci": "",
   "group": "Ecology in action",
   "manual": true,
@@ -160,15 +144,15 @@
   "commons": "File:African buffalo (Syncerus caffer caffer) male with cattle egret.jpg"
  },
  {
-  "name": "Parasitism (mistletoe)",
+  "name": "Parasitism",
   "sci": "",
   "group": "Ecology in action",
   "manual": true,
   "page": 33,
-  "commons": "File:Tapinanthus rubromarginatus, blomme, a, Waterberg.jpg"
+  "commons": "File:Tapinanthus rubromarginatus, habitus, b, Waterberg.jpg"
  },
  {
-  "name": "Competition (impala rams)",
+  "name": "Competition",
   "sci": "",
   "group": "Ecology in action",
   "manual": true,
@@ -176,19 +160,11 @@
   "commons": "File:Impala Fighting (23981143519).jpg"
  },
  {
-  "name": "Fire and burnt veld",
+  "name": "Fire",
   "sci": "",
   "group": "Ecology in action",
   "manual": true,
   "page": 35,
-  "commons": "File:View after a veld fire - panoramio.jpg"
- },
- {
-  "name": "Carrying capacity (elephant impact)",
-  "sci": "",
-  "group": "Ecology in action",
-  "manual": true,
-  "page": 34,
-  "commons": "File:Elephant damage ! (19151188275).jpg"
+  "commons": "File:Savanna fire Bild1215.jpg"
  }
 ]

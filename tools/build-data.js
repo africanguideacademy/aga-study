@@ -239,6 +239,13 @@ appData.modules.forEach(m => m.items.forEach(i => {
 // data/species-lists/<group>.json = the species, data/photos/<group>.json = the photo fetched for each one.
 const PHOTO_GROUPS = { mammals: 'Mammals', reptiles: 'Reptiles', amphibians: 'Amphibians', arthropods: 'Arthropods', plants: 'Plants', astronomy: 'Sky objects',
   geology: 'Rocks and landscapes', 'weather-and-climate': 'Clouds and weather', ecology: 'Habitats', 'tourism-and-legislation': 'Parks and places' };
+const HABITAT = ['habitat', 'Which habitat is this?'], LAND = ['land', 'Which place or landform is this?'], CLOUD = ['cloud', 'Which type of cloud is this?'];
+const QUIZ_KIND = {
+  ecology: { Woodlands: HABITAT, Wetlands: HABITAT, 'Dry lands': HABITAT, 'Ecology in action': ['idea', 'Which ecological idea does this photo show?'] },
+  geology: { Rocks: ['rock', 'Which rock or mineral is this?'], Landforms: LAND, Places: LAND, Processes: ['process', 'Which process does this photo show?'] },
+  'weather-and-climate': { 'Low clouds': CLOUD, 'Middle clouds': CLOUD, 'High clouds': CLOUD, 'Storm clouds': CLOUD, Weather: ['weather', 'What is shown in this photo?'] },
+  'tourism-and-legislation': { '*': ['place', 'Which park or place is this?'] },
+};
 for (const [g, title] of Object.entries(PHOTO_GROUPS)) {
   const lf = path.join(ROOT, 'data', 'species-lists', g + '.json'), pf = path.join(ROOT, 'data', 'photos', g + '.json');
   if (!fs.existsSync(lf) || !fs.existsSync(pf)) continue;
@@ -249,6 +256,9 @@ for (const [g, title] of Object.entries(PHOTO_GROUPS)) {
     const o = { id: g + '-' + slug(s.name), name: s.name, sci: s.sci || undefined, group: s.group, photo: p.file, pb: fs.statSync(path.join(ROOT, 'app', p.file)).size,
       credit: p.credit, license: p.license, src: p.source };
     if (s.manual) { o.f = 1; if (s.page) o.page = s.page; }
+    // quiz wording per kind of item; wrong answers are taken from the same kind
+    const qk = (QUIZ_KIND[g] || {})[s.group] || (QUIZ_KIND[g] || {})['*'];
+    if (qk) { o.kind = qk[0]; o.ask = qk[1]; }
     return o;
   }).filter(Boolean);
   const listLen = JSON.parse(fs.readFileSync(lf, 'utf8').replace(/^﻿/, '')).length;
@@ -428,7 +438,9 @@ function speciesInfo(includeDrafts) {
     [['size', 'Size'], ['habitat', 'Habitat'], ['food', 'Food'], ['breeding', 'Breeding'], ['titbit', 'Did you know']].forEach(([k, c]) => { const v = (r[col(c)] || '').trim(); if (v) o[k] = v; });
     if (!Object.keys(o).length) return;
     if (status !== 'Approved') o.draft = true;
-    out[name] = o;
+    const grp = (r[col('Group')] || '').trim();
+    if (!out[name]) out[name] = o;
+    if (grp) out[grp + '|' + name] = o; // subject-specific card (e.g. Tsodilo Hills in Geology vs Tourism)
   });
   return out;
 }

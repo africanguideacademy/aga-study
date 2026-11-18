@@ -66,17 +66,6 @@
   "needsCredit": true
  },
  {
-  "name": "Dolomite",
-  "sci": "",
-  "file": "media/geology/dolomite-74bbb33809.jpg",
-  "commons": "File:Put-in-Bay Dolomite over Tymochtee Dolomite (Upper Silurian; South Bass Island, Lake Erie, Ohio, USA) 7 (48628000726).jpg",
-  "license": "see source",
-  "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3APut-in-Bay_Dolomite_over_Tymochtee_Dolomite_(Upper_Silurian%3B_South_Bass_Island%2C_Lake_Erie%2C_Ohio%2C_USA)_7_(48628000726).jpg",
-  "place": "Wikimedia Commons",
-  "needsCredit": true
- },
- {
   "name": "Quartzite",
   "sci": "",
   "file": "media/geology/quartzite-58ea1a6bb8.jpg",
@@ -95,17 +84,6 @@
   "license": "see source",
   "credit": "Wikimedia Commons (photographer named on the source page)",
   "source": "https://commons.wikimedia.org/wiki/File%3AGarnet-mica_schist_(Gassetts%2C_Vermont%2C_USA)_2.jpg",
-  "place": "Wikimedia Commons",
-  "needsCredit": true
- },
- {
-  "name": "Diamond (rough)",
-  "sci": "",
-  "file": "media/geology/diamond-rough-d8209668e2.jpg",
-  "commons": "File:Diamond crystal, 0,7 ct.jpg",
-  "license": "see source",
-  "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3ADiamond_crystal%2C_0%2C7_ct.jpg",
   "place": "Wikimedia Commons",
   "needsCredit": true
  },
@@ -167,44 +145,11 @@
  {
   "name": "Kubu Island",
   "sci": "",
-  "file": "media/geology/kubu-island-dd39663d20.jpg",
-  "commons": "File:Baobabs on Kubu island, Botswana.jpg",
+  "file": "media/geology/kubu-island-065d330323.jpg",
+  "commons": "File:KubuIsland 02.jpg",
   "license": "see source",
   "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3ABaobabs_on_Kubu_island%2C_Botswana.jpg",
-  "place": "Wikimedia Commons",
-  "needsCredit": true
- },
- {
-  "name": "Kalahari sand dunes",
-  "sci": "",
-  "file": "media/geology/kalahari-sand-dunes-af61cf6bb3.jpg",
-  "commons": "File:Kalahari Dunes, Namibia (3997934029).jpg",
-  "license": "see source",
-  "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3AKalahari_Dunes%2C_Namibia_(3997934029).jpg",
-  "place": "Wikimedia Commons",
-  "needsCredit": true
- },
- {
-  "name": "Okavango Delta from the air",
-  "sci": "",
-  "file": "media/geology/okavango-delta-from-the-air-e8fab80db3.jpg",
-  "commons": "File:Okavango Delta, Botswana1.jpg",
-  "license": "see source",
-  "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3AOkavango_Delta%2C_Botswana1.jpg",
-  "place": "Wikimedia Commons",
-  "needsCredit": true
- },
- {
-  "name": "Termite-mound islands",
-  "sci": "",
-  "file": "media/geology/termite-mound-islands-41b56be549.jpg",
-  "commons": "File:Okavango Delta, Botswana4.jpg",
-  "license": "see source",
-  "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3AOkavango_Delta%2C_Botswana4.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File%3AKubuIsland_02.jpg",
   "place": "Wikimedia Commons",
   "needsCredit": true
  },
@@ -220,28 +165,6 @@
   "needsCredit": true
  },
  {
-  "name": "Savuti Channel",
-  "sci": "",
-  "file": "media/geology/savuti-channel-710a9fc221.jpg",
-  "commons": "File:Savuti Channel - Botswana - panoramio.jpg",
-  "license": "see source",
-  "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3ASavuti_Channel_-_Botswana_-_panoramio.jpg",
-  "place": "Wikimedia Commons",
-  "needsCredit": true
- },
- {
-  "name": "Weathering (exfoliation)",
-  "sci": "",
-  "file": "media/geology/weathering-exfoliation-5a7e010cbf.jpg",
-  "commons": "File:Edrey Mountains, Karaganda region, Kazakhstan. May 2025 01.jpg",
-  "license": "see source",
-  "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3AEdrey_Mountains%2C_Karaganda_region%2C_Kazakhstan._May_2025_01.jpg",
-  "place": "Wikimedia Commons",
-  "needsCredit": true
- },
- {
   "name": "Rock-splitting fig",
   "sci": "",
   "file": "media/geology/rock-splitting-fig-2ac10b27f7.jpg",
@@ -253,9 +176,53 @@
   "needsCredit": true
  },
  {
-  "name": "Lichen on rock",
+  "name": "Rough diamond",
   "sci": "",
-  "file": "media/geology/lichen-on-rock-8a976f93a5.jpg",
+  "file": "media/geology/rough-diamond-d8209668e2.jpg",
+  "commons": "File:Diamond crystal, 0,7 ct.jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3ADiamond_crystal%2C_0%2C7_ct.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Kalahari dunes",
+  "sci": "",
+  "file": "media/geology/kalahari-dunes-af61cf6bb3.jpg",
+  "commons": "File:Kalahari Dunes, Namibia (3997934029).jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3AKalahari_Dunes%2C_Namibia_(3997934029).jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Okavango Delta",
+  "sci": "",
+  "file": "media/geology/okavango-delta-c7cb59143a.jpg",
+  "commons": "File:Okavango Delta, Botswana.jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3AOkavango_Delta%2C_Botswana.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Exfoliation",
+  "sci": "",
+  "file": "media/geology/exfoliation-be385178a8.jpg",
+  "commons": "File:GeologicalExfoliationOfGraniteRock.jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3AGeologicalExfoliationOfGraniteRock.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Lichen weathering",
+  "sci": "",
+  "file": "media/geology/lichen-weathering-8a976f93a5.jpg",
   "commons": "File:Lichen orange pierre.jpg",
   "license": "see source",
   "credit": "Wikimedia Commons (photographer named on the source page)",
@@ -264,9 +231,9 @@
   "needsCredit": true
  },
  {
-  "name": "Water erosion (gullies)",
+  "name": "Water erosion",
   "sci": "",
-  "file": "media/geology/water-erosion-gullies-eeb0e2e1d1.jpg",
+  "file": "media/geology/water-erosion-eeb0e2e1d1.jpg",
   "commons": "File:Dongas (Soil erosion) (32403444375).jpg",
   "license": "see source",
   "credit": "Wikimedia Commons (photographer named on the source page)",

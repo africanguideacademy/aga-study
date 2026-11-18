@@ -32,14 +32,6 @@
   "commons": "File:Stratocumulus lacunosus.jpg"
  },
  {
-  "name": "Nimbostratus",
-  "sci": "",
-  "group": "Middle clouds",
-  "manual": true,
-  "page": 28,
-  "commons": "File:Nimbostratus pannus.jpg"
- },
- {
   "name": "Altostratus",
   "sci": "",
   "group": "Middle clouds",
@@ -69,7 +61,7 @@
   "group": "High clouds",
   "manual": true,
   "page": 28,
-  "commons": "File:Cs nebulosus with faint halo.jpg"
+  "commons": "File:Cirrostratus fibratus with 22 degrees halo.jpg"
  },
  {
   "name": "Cirrocumulus",
@@ -101,7 +93,7 @@
   "group": "Weather",
   "manual": true,
   "page": 30,
-  "commons": "File:Hail on the Ground.JPG"
+  "commons": "File:Hand catching hailstones during a rainstorm.jpg"
  },
  {
   "name": "Rain gauge",
@@ -149,7 +141,7 @@
   "group": "Weather",
   "manual": false,
   "page": null,
-  "commons": "File:Frost on grass and reed leaves.jpg"
+  "commons": "File:Frosty grass wave.jpg"
  },
  {
   "name": "Mirage",
@@ -160,15 +152,7 @@
   "commons": "File:Desert mirage .jpg"
  },
  {
-  "name": "Halo around the sun",
-  "sci": "",
-  "group": "Weather",
-  "manual": false,
-  "page": null,
-  "commons": "File:Solar Eclipse 2024 - 22 degree halo (53646055136).jpg"
- },
- {
-  "name": "Fog and mist",
+  "name": "Mist",
   "sci": "",
   "group": "Weather",
   "manual": false,

@@ -55,17 +55,6 @@
   "needsCredit": true
  },
  {
-  "name": "Makgadikgadi Pans National Park",
-  "sci": "",
-  "file": "media/tourism-and-legislation/makgadikgadi-pans-national-park-0d2620e62e.jpg",
-  "commons": "File:Baobab (Adansonia digitata), parque nacional Makgadikgadi Pans, Botsuana, 2018-07-30, DD 03-08 PAN.jpg",
-  "license": "see source",
-  "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3ABaobab_(Adansonia_digitata)%2C_parque_nacional_Makgadikgadi_Pans%2C_Botsuana%2C_2018-07-30%2C_DD_03-08_PAN.jpg",
-  "place": "Wikimedia Commons",
-  "needsCredit": true
- },
- {
   "name": "Moremi Game Reserve",
   "sci": "",
   "file": "media/tourism-and-legislation/moremi-game-reserve-e0ed990ece.jpg",
@@ -145,22 +134,11 @@
  {
   "name": "Okavango Delta",
   "sci": "",
-  "file": "media/tourism-and-legislation/okavango-delta-e8fab80db3.jpg",
-  "commons": "File:Okavango Delta, Botswana1.jpg",
+  "file": "media/tourism-and-legislation/okavango-delta-3afc319800.jpg",
+  "commons": "File:Vista aérea del delta del Okavango, Botsuana, 2018-08-01, DD 39.jpg",
   "license": "see source",
   "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3AOkavango_Delta%2C_Botswana1.jpg",
-  "place": "Wikimedia Commons",
-  "needsCredit": true
- },
- {
-  "name": "Makgadikgadi salt pans",
-  "sci": "",
-  "file": "media/tourism-and-legislation/makgadikgadi-salt-pans-cb5a00842d.jpg",
-  "commons": "File:Wildebeest Crossing the Salt Pans.jpg",
-  "license": "see source",
-  "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3AWildebeest_Crossing_the_Salt_Pans.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File%3AVista_a%C3%A9rea_del_delta_del_Okavango%2C_Botsuana%2C_2018-08-01%2C_DD_39.jpg",
   "place": "Wikimedia Commons",
   "needsCredit": true
  },
@@ -220,28 +198,6 @@
   "needsCredit": true
  },
  {
-  "name": "Mokoro trip",
-  "sci": "",
-  "file": "media/tourism-and-legislation/mokoro-trip-0bc59761cb.jpg",
-  "commons": "File:Mokoro In the Kavango Delta Botswana.jpg",
-  "license": "see source",
-  "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3AMokoro_In_the_Kavango_Delta_Botswana.jpg",
-  "place": "Wikimedia Commons",
-  "needsCredit": true
- },
- {
-  "name": "Northern Tuli (Mashatu)",
-  "sci": "",
-  "file": "media/tourism-and-legislation/northern-tuli-mashatu-96f722c8f4.jpg",
-  "commons": "File:Mashatu Tree.JPG",
-  "license": "see source",
-  "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3AMashatu_Tree.JPG",
-  "place": "Wikimedia Commons",
-  "needsCredit": true
- },
- {
   "name": "Lake Ngami",
   "sci": "",
   "file": "media/tourism-and-legislation/lake-ngami-4cdb661f5a.jpg",
@@ -249,6 +205,28 @@
   "license": "see source",
   "credit": "Wikimedia Commons (photographer named on the source page)",
   "source": "https://commons.wikimedia.org/wiki/File%3AWestliches_Ufer_des_Ngami-Sees_in_Botswana.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Makgadikgadi Pans",
+  "sci": "",
+  "file": "media/tourism-and-legislation/makgadikgadi-pans-cb5a00842d.jpg",
+  "commons": "File:Wildebeest Crossing the Salt Pans.jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3AWildebeest_Crossing_the_Salt_Pans.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
+ },
+ {
+  "name": "Northern Tuli Game Reserve",
+  "sci": "",
+  "file": "media/tourism-and-legislation/northern-tuli-game-reserve-96f722c8f4.jpg",
+  "commons": "File:Mashatu Tree.JPG",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3AMashatu_Tree.JPG",
   "place": "Wikimedia Commons",
   "needsCredit": true
  }

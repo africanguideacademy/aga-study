@@ -40,16 +40,6 @@
   "place": "Wikimedia Commons"
  },
  {
-  "name": "Nimbostratus",
-  "sci": "",
-  "file": "media/weather-and-climate/nimbostratus-83477491.jpg",
-  "commons": "File:Nimbostratus pannus.jpg",
-  "license": "CC BY-SA 4.0",
-  "credit": "GerritR",
-  "source": "https://commons.wikimedia.org/wiki/File:Nimbostratus_pannus.jpg",
-  "place": "Wikimedia Commons"
- },
- {
   "name": "Altostratus",
   "sci": "",
   "file": "media/weather-and-climate/altostratus-121364252.jpg",
@@ -82,12 +72,13 @@
  {
   "name": "Cirrostratus",
   "sci": "",
-  "file": "media/weather-and-climate/cirrostratus-113041273.jpg",
-  "commons": "File:Cs nebulosus with faint halo.jpg",
-  "license": "Public domain",
-  "credit": "Rollcloud",
-  "source": "https://commons.wikimedia.org/wiki/File:Cs_nebulosus_with_faint_halo.jpg",
-  "place": "Wikimedia Commons"
+  "file": "media/weather-and-climate/cirrostratus-9dfb897162.jpg",
+  "commons": "File:Cirrostratus fibratus with 22 degrees halo.jpg",
+  "license": "see source",
+  "credit": "Wikimedia Commons (photographer named on the source page)",
+  "source": "https://commons.wikimedia.org/wiki/File%3ACirrostratus_fibratus_with_22_degrees_halo.jpg",
+  "place": "Wikimedia Commons",
+  "needsCredit": true
  },
  {
   "name": "Cirrocumulus",
@@ -122,11 +113,11 @@
  {
   "name": "Hail",
   "sci": "",
-  "file": "media/weather-and-climate/hail-e8772dffe6.jpg",
-  "commons": "File:Hail on the Ground.JPG",
+  "file": "media/weather-and-climate/hail-d28c968957.jpg",
+  "commons": "File:Hand catching hailstones during a rainstorm.jpg",
   "license": "see source",
   "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3AHail_on_the_Ground.JPG",
+  "source": "https://commons.wikimedia.org/wiki/File%3AHand_catching_hailstones_during_a_rainstorm.jpg",
   "place": "Wikimedia Commons",
   "needsCredit": true
  },
@@ -188,11 +179,11 @@
  {
   "name": "Frost",
   "sci": "",
-  "file": "media/weather-and-climate/frost-a8319425c2.jpg",
-  "commons": "File:Frost on grass and reed leaves.jpg",
+  "file": "media/weather-and-climate/frost-44910cbec3.jpg",
+  "commons": "File:Frosty grass wave.jpg",
   "license": "see source",
   "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3AFrost_on_grass_and_reed_leaves.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File%3AFrosty_grass_wave.jpg",
   "place": "Wikimedia Commons",
   "needsCredit": true
  },
@@ -208,20 +199,9 @@
   "needsCredit": true
  },
  {
-  "name": "Halo around the sun",
+  "name": "Mist",
   "sci": "",
-  "file": "media/weather-and-climate/halo-around-the-sun-15462c5366.jpg",
-  "commons": "File:Solar Eclipse 2024 - 22 degree halo (53646055136).jpg",
-  "license": "see source",
-  "credit": "Wikimedia Commons (photographer named on the source page)",
-  "source": "https://commons.wikimedia.org/wiki/File%3ASolar_Eclipse_2024_-_22_degree_halo_(53646055136).jpg",
-  "place": "Wikimedia Commons",
-  "needsCredit": true
- },
- {
-  "name": "Fog and mist",
-  "sci": "",
-  "file": "media/weather-and-climate/fog-and-mist-0e64342636.jpg",
+  "file": "media/weather-and-climate/mist-0e64342636.jpg",
   "commons": "File:Morning mist (53135439422).jpg",
   "license": "see source",
   "credit": "Wikimedia Commons (photographer named on the source page)",

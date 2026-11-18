@@ -12,10 +12,10 @@
   "name": "Savuti",
   "size": "A remote area of Chobe National Park with a marsh and a channel.",
   "habitat": "South-western Chobe National Park, between Linyanti and Mababe.",
-  "food": "Known as one of the best areas in Africa for predators.",
+  "food": "Known as one of the best areas in Africa for predators, such as lion and hyaena.",
   "breeding": "The Savuti Channel dries up and flows again over many years.",
   "titbit": "Savuti lions became famous for hunting elephants.",
-  "source": "both"
+  "source": "manual"
  },
  {
   "name": "Linyanti",
@@ -45,15 +45,6 @@
   "source": "manual"
  },
  {
-  "name": "Makgadikgadi Pans National Park",
-  "size": "A national park established to protect the Sua and Ntwetwe salt pans.",
-  "habitat": "Central-northern Botswana, along the Boteti River.",
-  "food": "The Boteti River is a wildlife-rich area and a main attraction.",
-  "breeding": "In the dry season zebra and wildebeest crowd the Boteti to drink.",
-  "titbit": "The Boteti carries overflow from the Okavango towards Lake Xau.",
-  "source": "both"
- },
- {
   "name": "Moremi Game Reserve",
   "size": "A game reserve set up to conserve the wildlife of the Okavango Delta.",
   "habitat": "Eastern Okavango Delta, north of Maun.",
@@ -75,7 +66,7 @@
   "name": "Khama Rhino Sanctuary",
   "size": "A community-run sanctuary declared to protect rhino.",
   "habitat": "Near Serowe in the Central District.",
-  "food": "Breeds white and black rhino to restock Botswana's wild areas.",
+  "food": "Protects white and black rhino in a safe, fenced area.",
   "breeding": "In sanctuaries access times are flexible and night drives may be allowed.",
   "titbit": "Killing a rhino can mean a P100 000 fine or 15 years in prison.",
   "source": "both"
@@ -86,23 +77,23 @@
   "habitat": "North-east corner of Sua Pan, near Nata village.",
   "food": "One of only 5 breeding sites for lesser flamingo.",
   "breeding": "As the last part of Sua Pan to dry up, it can give spectacular flamingo viewing.",
-  "titbit": "The fresh-to-salt water gradient gives good bird and plant diversity.",
+  "titbit": "It also protects great white pelicans, as well as greater and lesser flamingos.",
   "source": "manual"
  },
  {
   "name": "Kgalagadi Transfrontier Park",
-  "size": "Botswana's only transfrontier park, shared with South Africa.",
+  "size": "A huge park of red dunes and dry riverbeds, shared with South Africa.",
   "habitat": "Far south-western Botswana, along the Nossob River.",
-  "food": "Red dunes and dry riverbeds hold gemsbok, springbok and black-maned lions.",
+  "food": "Gemsbok, springbok and black-maned lions live among the dunes and riverbeds.",
   "breeding": "Look for game along the dry Nossob and Auob riverbeds.",
-  "titbit": "The planned KAZA area will be the world's largest transfrontier conservation area.",
+  "titbit": "It is Botswana's only transfrontier park; it stretches into South Africa.",
   "source": "both"
  },
  {
   "name": "Tsodilo Hills",
   "size": "A UNESCO World Heritage Site (cultural), sacred to the San.",
   "habitat": "North-west Botswana, west of the Okavango Panhandle.",
-  "food": "Protects about 4,500 San rock paintings.",
+  "food": "A spiritual place for the San, with 3 main hills: Male, Female and Child.",
   "breeding": "Activities: guided rock art walks and a sunrise climb of Male Hill.",
   "titbit": "Male Hill, at 1,400 m, is the highest point in northern Botswana.",
   "source": "manual"
@@ -111,10 +102,10 @@
   "name": "Tsodilo rock art",
   "size": "Ancient rock paintings of animals, people and patterns.",
   "habitat": "On the rock faces of the Tsodilo Hills.",
-  "food": "Shows thousands of years of human history and San beliefs.",
+  "food": "Shows thousands of years of San life and beliefs.",
   "breeding": "Never touch or wet the paintings; oil and water damage them.",
-  "titbit": "The main hills are called the Male, Female and Child.",
-  "source": "both"
+  "titbit": "About 4,500 San paintings are protected in the Tsodilo Hills.",
+  "source": "manual"
  },
  {
   "name": "Okavango Delta",
@@ -126,12 +117,12 @@
   "source": "manual"
  },
  {
-  "name": "Makgadikgadi salt pans",
+  "name": "Makgadikgadi Pans",
   "size": "One of the largest salt flats on Earth: Sua Pan and Ntwetwe Pan.",
   "habitat": "North-eastern Botswana, between Nata, Gweta and Maun.",
   "food": "A remnant of ancient Lake Makgadikgadi, which covered over 100,000 km².",
   "breeding": "Ntwetwe Pan is more broken up and vegetated than Sua Pan.",
-  "titbit": "In good rains, thousands of flamingos come to the pans.",
+  "titbit": "In the dry season zebra and wildebeest cross the pans, as in this photo.",
   "source": "both"
  },
  {
@@ -180,21 +171,12 @@
   "source": "both"
  },
  {
-  "name": "Mokoro trip",
-  "size": "A trip in a mokoro, a dugout or fibreglass canoe pushed with a pole.",
-  "habitat": "Shallow channels of the Okavango Delta.",
-  "food": "Gives local polers income and a quiet, low-impact safari.",
-  "breeding": "In a storm, pole to shore as soon as possible.",
-  "titbit": "Mokoros were carved from big tree trunks; most are now fibreglass.",
-  "source": "both"
- },
- {
-  "name": "Northern Tuli (Mashatu)",
+  "name": "Northern Tuli Game Reserve",
   "size": "Private game reserves in the Tuli Block, on freehold land.",
   "habitat": "Eastern Botswana, where the Limpopo and Shashe rivers meet.",
   "food": "Known for elephant, rocky koppies and big baobabs.",
   "breeding": "Walks, horse rides and night drives are allowed on private land.",
-  "titbit": "Tuli is one of the few freehold land areas in Botswana.",
+  "titbit": "Mashatu is the local name for the nyala berry tree, like the big tree in this photo.",
   "source": "both"
  },
  {

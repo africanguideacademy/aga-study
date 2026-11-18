@@ -9,15 +9,17 @@ const HEAD = ['Name', 'Group', 'Size', 'Habitat', 'Food', 'Breeding', 'Did you k
 const csvCell = v => { v = v == null ? '' : String(v).replace(/\s+/g, ' ').trim(); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
 const file = path.join(ROOT, 'data', 'species-info.csv');
 const existing = fs.existsSync(file) ? fs.readFileSync(file, 'utf8').replace(/^﻿/, '') : HEAD.join(',') + '\r\n';
-const have = new Set(existing.split(/\r?\n/).slice(1).map(l => (l.match(/^"((?:[^"]|"")*)"|^([^,]*)/) || []).slice(1).find(x => x != null)).filter(Boolean).map(s => s.replace(/""/g, '"')));
+const have = new Set(existing.split(/\r?\n/).slice(1).map(l => { const m = l.match(/^("(?:[^"]|"")*"|[^,]*),("(?:[^"]|"")*"|[^,]*)/); return m ? m[2].replace(/^"|"$/g, '') + '|' + m[1].replace(/^"|"$/g, '').replace(/""/g, '"') : ''; }).filter(Boolean));
+const haveOld = new Set(existing.split(/\r?\n/).slice(1).map(l => (l.match(/^"((?:[^"]|"")*)"|^([^,]*)/) || []).slice(1).find(x => x != null)).filter(Boolean).map(s => s.replace(/""/g, '"')));
 const dir = path.join(ROOT, 'data', 'species-info');
 const rows = [];
 for (const f of fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort()) {
   const group = /^birds/.test(f) ? 'birds' : f.replace(/-part\d+\.json$|\.json$/, '');
   const list = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8').replace(/^﻿/, ''));
   list.forEach(x => {
-    if (!x.name || have.has(x.name)) return;
-    have.add(x.name);
+    const grp = ({ 'weather-and-climate': 'Weather and Climate', 'tourism-and-legislation': 'Tourism and Legislation' })[group] || group.charAt(0).toUpperCase() + group.slice(1);
+    if (!x.name || have.has(grp + '|' + x.name)) return; // one card per subject + name (the same place can be in two subjects)
+    have.add(grp + '|' + x.name);
     rows.push([x.name, ({ 'weather-and-climate': 'Weather and Climate', 'tourism-and-legislation': 'Tourism and Legislation' })[group] || group.charAt(0).toUpperCase() + group.slice(1), x.size, x.habitat, x.food, x.breeding, x.titbit, x.source, 'Draft', '']);
   });
 }

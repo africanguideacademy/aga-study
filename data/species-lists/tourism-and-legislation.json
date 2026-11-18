@@ -40,14 +40,6 @@
   "commons": "File:Botswana Nxai Pan NP Baynes Baobabs.jpg"
  },
  {
-  "name": "Makgadikgadi Pans National Park",
-  "sci": "",
-  "group": "National parks",
-  "manual": true,
-  "page": 128,
-  "commons": "File:Baobab (Adansonia digitata), parque nacional Makgadikgadi Pans, Botsuana, 2018-07-30, DD 03-08 PAN.jpg"
- },
- {
   "name": "Moremi Game Reserve",
   "sci": "",
   "group": "Game reserves",
@@ -109,10 +101,10 @@
   "group": "World Heritage",
   "manual": true,
   "page": 131,
-  "commons": "File:Okavango Delta, Botswana1.jpg"
+  "commons": "File:Vista aérea del delta del Okavango, Botsuana, 2018-08-01, DD 39.jpg"
  },
  {
-  "name": "Makgadikgadi salt pans",
+  "name": "Makgadikgadi Pans",
   "sci": "",
   "group": "Places",
   "manual": true,
@@ -160,15 +152,7 @@
   "commons": "File:Letiště Maun (Airport) - Botswana - panoramio.jpg"
  },
  {
-  "name": "Mokoro trip",
-  "sci": "",
-  "group": "Places",
-  "manual": false,
-  "page": null,
-  "commons": "File:Mokoro In the Kavango Delta Botswana.jpg"
- },
- {
-  "name": "Northern Tuli (Mashatu)",
+  "name": "Northern Tuli Game Reserve",
   "sci": "",
   "group": "Game reserves",
   "manual": false,

@@ -48,14 +48,6 @@
   "commons": "File:Limestone outcrop above Kingsdale - geograph.org.uk - 5920751.jpg"
  },
  {
-  "name": "Dolomite",
-  "sci": "",
-  "group": "Rocks",
-  "manual": true,
-  "page": 19,
-  "commons": "File:Put-in-Bay Dolomite over Tymochtee Dolomite (Upper Silurian; South Bass Island, Lake Erie, Ohio, USA) 7 (48628000726).jpg"
- },
- {
   "name": "Quartzite",
   "sci": "",
   "group": "Rocks",
@@ -72,7 +64,7 @@
   "commons": "File:Garnet-mica schist (Gassetts, Vermont, USA) 2.jpg"
  },
  {
-  "name": "Diamond (rough)",
+  "name": "Rough diamond",
   "sci": "",
   "group": "Rocks",
   "manual": true,
@@ -125,10 +117,10 @@
   "group": "Places",
   "manual": false,
   "page": null,
-  "commons": "File:Baobabs on Kubu island, Botswana.jpg"
+  "commons": "File:KubuIsland 02.jpg"
  },
  {
-  "name": "Kalahari sand dunes",
+  "name": "Kalahari dunes",
   "sci": "",
   "group": "Landforms",
   "manual": true,
@@ -136,20 +128,12 @@
   "commons": "File:Kalahari Dunes, Namibia (3997934029).jpg"
  },
  {
-  "name": "Okavango Delta from the air",
+  "name": "Okavango Delta",
   "sci": "",
   "group": "Landforms",
   "manual": true,
   "page": 25,
-  "commons": "File:Okavango Delta, Botswana1.jpg"
- },
- {
-  "name": "Termite-mound islands",
-  "sci": "",
-  "group": "Landforms",
-  "manual": false,
-  "page": null,
-  "commons": "File:Okavango Delta, Botswana4.jpg"
+  "commons": "File:Okavango Delta, Botswana.jpg"
  },
  {
   "name": "Chobe River",
@@ -160,20 +144,12 @@
   "commons": "File:Chobe River at Kasane.jpg"
  },
  {
-  "name": "Savuti Channel",
-  "sci": "",
-  "group": "Places",
-  "manual": false,
-  "page": null,
-  "commons": "File:Savuti Channel - Botswana - panoramio.jpg"
- },
- {
-  "name": "Weathering (exfoliation)",
+  "name": "Exfoliation",
   "sci": "",
   "group": "Processes",
   "manual": true,
   "page": 22,
-  "commons": "File:Edrey Mountains, Karaganda region, Kazakhstan. May 2025 01.jpg"
+  "commons": "File:GeologicalExfoliationOfGraniteRock.jpg"
  },
  {
   "name": "Rock-splitting fig",
@@ -184,7 +160,7 @@
   "commons": "File:Large-leaved Rock Fig (Ficus abutilifolia) roots (16025195933).jpg"
  },
  {
-  "name": "Lichen on rock",
+  "name": "Lichen weathering",
   "sci": "",
   "group": "Processes",
   "manual": true,
@@ -192,7 +168,7 @@
   "commons": "File:Lichen orange pierre.jpg"
  },
  {
-  "name": "Water erosion (gullies)",
+  "name": "Water erosion",
   "sci": "",
   "group": "Processes",
   "manual": true,
