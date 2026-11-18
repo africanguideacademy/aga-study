@@ -40,6 +40,7 @@
     snake: '<path d="M4 18c3 0 3-4 6-4s3 4 6 4 4-2 4-5-2-5-5-5H9a3 3 0 0 1 0-6h7"/>',
     paw: '<circle cx="7" cy="9" r="2"/><circle cx="12" cy="6" r="2"/><circle cx="17" cy="9" r="2"/><path d="M8 17c0-3 2-5 4-5s4 2 4 5a2.5 2.5 0 0 1-4 2 2.5 2.5 0 0 1-4-2z"/>',
     scale: '<path d="M12 3v18M5 7h14M7 7l-3 7a3 3 0 0 0 6 0zM17 7l-3 7a3 3 0 0 0 6 0zM8 21h8"/>',
+    feather: '<path d="M20 4c-7 0-13 5-13 13"/><path d="M7 17c5 0 11-3 13-13"/><path d="M4 20l3-3"/><path d="M10 12h6"/>',
     book: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/>',
     list: '<path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/>',
   };
@@ -184,9 +185,10 @@
   const modesFor = mod => { const items = scopedItems(mod); return Object.keys(MODES).filter(k => items.filter(MODES[k].needs).length >= 4); };
 
   // ---------- chrome (header / tab bar) ----------
-  ['home', 'progress', 'offline'].forEach(t => {
+  ['home', 'manual', 'progress', 'offline'].forEach(t => {
     const a = tabbar.querySelector(`[data-tab="${t}"]`);
-    a.innerHTML = icon({ home: 'home', progress: 'chart', offline: 'download' }[t]) + `<span>${{ home: 'Home', progress: 'Progress', offline: 'Offline' }[t]}</span>`;
+    if (!a) return;
+    a.innerHTML = icon({ home: 'home', manual: 'book', progress: 'chart', offline: 'download' }[t]) + `<span>${{ home: 'Home', manual: 'Manual', progress: 'Progress', offline: 'Offline' }[t]}</span>`;
   });
   let backTarget = '#/';
   function chrome(o) {
@@ -231,6 +233,10 @@
     if (p[0] === 'progress') return renderProgress();
     if (p[0] === 'submit') return renderSubmit();
     if (p[0] === 'credits') return renderCredits();
+    if (p[0] === 'manual') {
+      if (p[1] === 'p' && p[2]) return openManualPage(+p[2]);
+      return p[1] ? renderManualChapter(p[1], +p[2] || 0) : renderManual();
+    }
     if (p[0] === 'photo') { const m = modById(p[1]); return renderSharePhoto(m, m && m.items.find(i => i.id === p[2])); }
     if (p[0] === 's' && SUBJECTS.find(x => x.id === p[1])) return renderSubject(SUBJECTS.find(x => x.id === p[1]));
     if (p[0] === 'm' && modById(p[1])) {
@@ -533,7 +539,7 @@
       const msg = p === 100 ? 'Perfect round!' : p >= 80 ? 'Great work!' : p >= 50 ? 'Getting there - keep practising.' : 'Keep at it - try the flashcards first.';
       const C = 2 * Math.PI * 64;
       const list = state.missed.map((m, k) => modeKey === 'mcq'
-        ? `<li class="qreview"><div class="nm"><span class="qq">${esc(m.item.q)}</span>${esc(m.item.a)}<span class="yours">You chose: ${esc(m.chose ? m.chose.name : '-')}</span>${m.item.page ? `<span class="pg">Manual p.${esc(m.item.page)}</span>` : ''}</div></li>`
+        ? `<li class="qreview"><div class="nm"><span class="qq">${esc(m.item.q)}</span>${esc(m.item.a)}<span class="yours">You chose: ${esc(m.chose ? m.chose.name : '-')}</span>${pageLink(m.item.page)}</div></li>`
         : `<li>${m.item.photo ? `<img src="${esc(m.item.photo)}" alt="">` : `<div class="ph">${icon('sound')}</div>`}
         <div class="nm">${esc(m.item.name)}<span class="yours">You chose: ${esc(m.chose ? m.chose.name : '-')}</span></div>
         ${m.item.call ? `<button class="mini-play" data-call="${esc(m.item.call)}" data-label="Play"><span class="pi">${icon('play')}</span><span class="lbl">Play</span></button>` : ''}</li>`).join('');
@@ -632,7 +638,7 @@
       show(`<div class="flash" id="flash"><div class="flash-inner">
           <div class="card face front qface"><div class="qmeta">${esc(c.group || '')}</div><div class="qtext">${esc(c.q)}</div><div class="hint">Think of your answer, then tap the card.</div></div>
           <div class="card face back qface"><div class="qmeta">Answer</div><div class="big-name">${esc(c.a)}</div>
-            ${c.ex ? `<div class="explain">${esc(c.ex)}</div>` : ''}${c.page ? `<div class="small" style="margin-top:8px">Manual p.${esc(c.page)}</div>` : ''}</div>
+            ${c.ex ? `<div class="explain">${esc(c.ex)}</div>` : ''}${c.page ? `<div class="small" style="margin-top:8px">${pageLink(c.page)}</div>` : ''}</div>
         </div></div>`);
       const flash = $('flash');
       let flipped = false;
@@ -643,7 +649,7 @@
       };
       const showReveal = () => { const s = sheet(`<button class="btn block" id="reveal">Show answer</button>`); s.querySelector('#reveal').addEventListener('click', flip); };
       function flip() { flipped = !flipped; flash.classList.toggle('flipped', flipped); if (flipped) showGrade(); else showReveal(); }
-      flash.addEventListener('click', flip);
+      flash.addEventListener('click', e => { if (!e.target.closest('a')) flip(); });
       showReveal();
       keyHandler = e => {
         if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flip(); }
@@ -736,7 +742,7 @@
         if (!qs.length) return '';
         return `<div class="section-title">${esc(g)}</div><div class="card list">${qs.map(i => `<details class="qa">
             <summary><span>${esc(i.q)}</span>${i.draft ? '<span class="draft">Draft</span>' : ''}</summary>
-            <div class="qa-body"><strong>${esc(i.a)}</strong>${i.ex ? `<p>${esc(i.ex)}</p>` : ''}${i.page ? `<span class="pg">Manual p.${esc(i.page)}</span>` : ''}</div></details>`).join('')}</div>`;
+            <div class="qa-body"><strong>${esc(i.a)}</strong>${i.ex ? `<p>${esc(i.ex)}</p>` : ''}${pageLink(i.page)}</div></details>`).join('')}</div>`;
       }).join('') || '<p class="empty">No questions match your search.</p>';
     }
     $('q').addEventListener('input', e => draw(e.target.value));
@@ -893,6 +899,109 @@
     });
   }
 
+  // ---------- the manual (chapter PDFs made by tools/pdf/make-manual.mjs, shown with pdf.js) ----------
+  const MANUAL = DATA.manual || { chapters: [] };
+  const manualChapterOf = n => MANUAL.chapters.find(c => c.views.some(v => v[2] === n));
+  const MANUAL_ICON = Object.assign({ Introduction: 'book', Birds: 'feather', Amphibians: 'leaf' }, CHAPTER_ICON);
+  let pdfjsLib = null;
+  async function loadPdfjs() {
+    if (!pdfjsLib) {
+      pdfjsLib = await import(new URL('media/vendor/pdfjs/pdf.min.mjs', location.href).href);
+      pdfjsLib.GlobalWorkerOptions.workerSrc = new URL('media/vendor/pdfjs/pdf.worker.min.mjs', location.href).href;
+    }
+    return pdfjsLib;
+  }
+  function renderManual() {
+    chrome({ tab: 'manual' });
+    const rows = MANUAL.chapters.map(c => {
+      const saved = cachedSet.has(abs(c.file));
+      return `<a class="card mrow" href="#/manual/${c.id}"><div class="tile-ico">${icon(MANUAL_ICON[c.title] || 'book')}</div>
+        <div class="mtxt"><strong>${esc(c.title)}</strong><span class="small">${c.from ? `Pages ${c.from}-${c.to}` : 'Cover and contents'} &middot; ${mb(c.bytes)}${saved ? ` &middot; ${icon('check')} saved` : ''}</span></div>${icon('chev', 'chev')}</a>`;
+    }).join('');
+    show(`<h1>The manual</h1>
+      <p class="sub">Botswana Guide Training Manual, ${esc(MANUAL.edition || '')}. Tap a chapter to read it. Chapters you open are saved on your phone for offline reading.</p>
+      ${rows || '<p class="empty">The manual is not available yet.</p>'}${footer()}`);
+  }
+  function openManualPage(n) {
+    const c = manualChapterOf(n);
+    if (!c) { renderManual(); return; }
+    location.replace(`#/manual/${c.id}/${n}`);
+  }
+  let manualZoom = 1;
+  async function renderManualChapter(id, goTo) {
+    const c = MANUAL.chapters.find(x => x.id === id);
+    if (!c) return renderManual();
+    const i = MANUAL.chapters.indexOf(c), prev = MANUAL.chapters[i - 1], next = MANUAL.chapters[i + 1];
+    chrome({ tab: 'manual', back: '#/manual', title: c.title });
+    show(`<div class="mtools"><span class="small">${c.from ? `Pages ${c.from}-${c.to}` : ''}</span>
+        <span><button class="icon-btn mz" data-z="-1" aria-label="Smaller">A&minus;</button><button class="icon-btn mz" data-z="1" aria-label="Bigger">A+</button></span></div>
+      <div class="mpages" id="mpages"><p class="empty" id="mload">Opening ${esc(c.title)}...</p></div>
+      <div class="sp-pager">${prev ? `<a class="btn ghost sp-nav" href="#/manual/${prev.id}">&lsaquo; ${esc(prev.title)}</a>` : '<span></span>'}${next ? `<a class="btn ghost sp-nav nx" href="#/manual/${next.id}">${esc(next.title)} &rsaquo;</a>` : '<span></span>'}</div>`);
+    const box = $('mpages');
+    let pdf;
+    try {
+      const lib = await loadPdfjs();
+      pdf = await lib.getDocument({ url: c.file, disableRange: true, disableStream: true }).promise;
+    } catch (e) {
+      const m = $('mload'); if (m) m.textContent = navigator.onLine ? 'Sorry, the manual could not be opened.' : 'This chapter is not saved on your phone yet. Open it once with signal (or download it on the Offline page).';
+      return;
+    }
+    if (!document.body.contains(box)) return; // the student moved on
+    // one placeholder per page (half a spread or a whole page), drawn when it scrolls into view
+    const first = await pdf.getPage(1);
+    const v1 = first.getViewport({ scale: 1 });
+    box.innerHTML = c.views.map(([pg, half, num], k) => `<figure class="mpage" data-k="${k}"><canvas></canvas>${num ? `<figcaption>p. ${num}</figcaption>` : ''}</figure>`).join('');
+    const figs = [...box.querySelectorAll('.mpage')];
+    const pageCache = new Map(); // pdf page number -> rendered full-page canvas (both halves of a spread use it)
+    async function renderFull(pg, width) {
+      const key = pg + '@' + width;
+      if (pageCache.has(key)) return pageCache.get(key);
+      const page = await pdf.getPage(pg);
+      const vp0 = page.getViewport({ scale: 1 });
+      const spread = vp0.width > vp0.height * 1.2;
+      const scale = width * (spread ? 2 : 1) / vp0.width;
+      const vp = page.getViewport({ scale });
+      const cv = document.createElement('canvas');
+      cv.width = Math.round(vp.width); cv.height = Math.round(vp.height);
+      await page.render({ canvasContext: cv.getContext('2d'), viewport: vp }).promise;
+      pageCache.set(key, cv);
+      if (pageCache.size > 6) pageCache.delete(pageCache.keys().next().value);
+      return cv;
+    }
+    async function draw(fig) {
+      if (fig.dataset.done === String(manualZoom)) return;
+      fig.dataset.done = String(manualZoom);
+      const [pg, half] = c.views[+fig.dataset.k];
+      const cssW = box.clientWidth * manualZoom, px = Math.round(cssW * Math.min(2, window.devicePixelRatio || 1));
+      const full = await renderFull(pg, px);
+      const w = half ? full.width / 2 : full.width, sx = half === 'R' ? full.width / 2 : 0;
+      const cv = fig.querySelector('canvas');
+      cv.width = Math.round(w); cv.height = full.height;
+      cv.style.width = cssW + 'px';
+      cv.getContext('2d').drawImage(full, sx, 0, w, full.height, 0, 0, w, full.height);
+    }
+    // placeholder heights so scrolling to a page works before it is drawn
+    const ratio = (v1.width > v1.height * 1.2 ? v1.width / 2 : v1.width) / v1.height;
+    const sizeAll = () => figs.forEach(f => { const cv = f.querySelector('canvas'); if (!f.dataset.done) { cv.style.width = box.clientWidth * manualZoom + 'px'; cv.style.height = 'auto'; cv.width = 10; cv.height = Math.round(10 / ratio); } else cv.style.width = box.clientWidth * manualZoom + 'px'; });
+    sizeAll();
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) draw(e.target).catch(() => {}); }), { rootMargin: '600px 0px' });
+    figs.forEach(f => io.observe(f));
+    view.querySelectorAll('.mz').forEach(b => b.addEventListener('click', () => {
+      manualZoom = Math.max(1, Math.min(2.5, manualZoom + 0.5 * +b.dataset.z));
+      figs.forEach(f => { delete f.dataset.done; });
+      sizeAll(); figs.forEach(f => { io.unobserve(f); io.observe(f); });
+    }));
+    refreshCached();
+    if (goTo) {
+      const k = c.views.findIndex(v => v[2] === goTo);
+      // scroll below the sticky header; again once nearby pages have been drawn (their size can shift slightly)
+      const jump = () => { if (k >= 0 && document.body.contains(figs[k])) window.scrollTo(0, figs[k].getBoundingClientRect().top + window.scrollY - 70); };
+      jump(); setTimeout(jump, 700); setTimeout(jump, 1600);
+    }
+  }
+  // "Manual p.42" in questions becomes a link to that page
+  const pageLink = p => p && manualChapterOf(+p) ? `<a class="pg" href="#/manual/p/${esc(p)}">Manual p.${esc(p)}</a>` : (p ? `<span class="pg">Manual p.${esc(p)}</span>` : '');
+
   // ---------- photo credits (free-licence photos must name the photographer) ----------
   function renderCredits() {
     chrome({ tab: 'home', back: '#/', title: 'Photo credits' });
@@ -953,6 +1062,7 @@
   function bytesOf(urls) {
     const size = {};
     DATA.modules.forEach(m => m.items.forEach(i => { if (i.call) size[i.call] = i.bytes || 0; if (i.photo && i.pb) size[i.photo] = i.pb; }));
+    if (DATA.manual) { DATA.manual.chapters.forEach(c => { size[c.file] = c.bytes; }); (DATA.manual.vendor || []).forEach(v => { size[v.file] = v.bytes; }); }
     return urls.reduce((s, u) => s + (size[u] || 0), 0);
   }
   async function download(key, urls) {
@@ -996,6 +1106,7 @@
     chrome({ tab: 'offline' });
     if (!hasCaches) { show(`<h1>Use offline</h1><p class="sub">This browser can't save content for offline use. Try Chrome on Android or Safari on iPhone.</p>`); return; }
     const packs = [
+      ...(DATA.manual ? [{ key: 'manual', title: 'The manual - all chapters', unit: 'files', urls: [...(DATA.manual.vendor || []).map(v => v.file), ...DATA.manual.chapters.map(c => c.file)] }] : []),
       { key: 'beginner', title: 'Birds - Beginner calls', urls: callList([modById('birds-beginner')].filter(Boolean)) },
       { key: 'intermediate', title: 'Birds - Intermediate calls', urls: callList([modById('birds-intermediate')].filter(Boolean)) },
       { key: 'botswana', title: 'Birds - Botswana calls', urls: callList([modById('birds-botswana')].filter(Boolean)) },
@@ -1015,7 +1126,7 @@
           <div class="bar-label"><span id="dlText">Downloading... ${downloading.done} of ${downloading.total}</span><button class="linkish" id="dlCancel" style="padding:0">Cancel</button></div>`;
       else if (!left.length) action = `<span class="done">${icon('check')} Saved on this device</span>`;
       else action = `<button class="btn" data-dl="${p.key}"${downloading || !navigator.onLine ? ' disabled' : ''}>${icon('download')} ${have ? 'Download the rest' : 'Download'} (${mb(bytesOf(left))})</button>`;
-      return `<div class="pad"><h3>${esc(p.title)}</h3><p>${p.urls.length} ${p.photos ? 'photos' : 'calls'} &middot; ${mb(bytesOf(p.urls))}${have ? ` &middot; ${have} saved` : ''}</p>${action}</div>`;
+      return `<div class="pad"><h3>${esc(p.title)}</h3><p>${p.urls.length} ${p.unit || (p.photos ? 'photos' : 'calls')} &middot; ${mb(bytesOf(p.urls))}${have ? ` &middot; ${have} saved` : ''}</p>${action}</div>`;
     }).join('');
 
     let install;

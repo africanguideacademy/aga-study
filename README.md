@@ -119,6 +119,22 @@ Tap a photo in **Browse** to open the species page. It shows the photo, the call
   - Any photo can be replaced by hand the same way: add an entry to `data/photo-overrides.json`.
   - Drive access needs a one-time authorisation: run `setupPhotos` in the Apps Script editor.
 
+## The manual (Manual tab)
+
+The manual is split into one PDF per chapter, with each two-page spread shown in the app as two phone-sized pages. The app's reader is pdf.js (`app/media/vendor/pdfjs`), with A−/A+ zoom.
+
+- **Chapters:** a chapter is only downloaded when a student opens it, and is then saved for offline reading. The Offline page can also save the whole manual (about 10 MB).
+- **Page links:** "Manual p.42" links in the study list, results and question cards open that page.
+- **New edition:** the tool reads the page headers ("92 | BIRDS") to find page numbers and chapters, so there's nothing to set up by hand:
+  ```
+  cd tools/pdf
+  npm install                     (first time only)
+  node make-manual.mjs "Y:/.../Botswana Guide Training Manual.pdf" "8th edition (2026)"
+  cd ../..
+  node tools/build-data.js        then publish
+  ```
+- **Access:** the manual is open to anyone with the link for now. A student access code can be added later.
+
 ## Bird levels (Beginner / Intermediate / Botswana)
 
 - **Beginner:** the BQA 40.
