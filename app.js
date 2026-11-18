@@ -236,7 +236,7 @@
     if (p[0] === 'm' && modById(p[1])) {
       const mod = modById(p[1]);
       if (p[2] === 'quiz' && MODES[p[3]]) return startQuiz(mod, p[3], p[4] === 'review' ? reviewItems : null);
-      if (p[2] === 'flash') return startFlash(mod);
+      if (p[2] === 'flash') return startFlash(mod, p[3] === 'calls');
       if (p[2] === 'browse') return renderBrowse(mod);
       if (p[2] === 'sp' && mod.items.find(i => i.id === p[3])) return renderSpecies(mod, p[3]);
       return renderSubject(subjectOf(mod));
@@ -258,7 +258,7 @@
   // ---------- subjects (one per manual chapter; each groups a photo, a call and a manual-question module) ----------
   const SUBJECTS = [
     { id: 'birds', title: 'Birds', noun: 'bird', blurb: 'Photos, calls and manual questions', photo: 'media/birds/racket-tailed-roller.jpg',
-      photoSets: ['birds-beginner', 'birds-intermediate', 'birds-botswana'], setLabel: 'Level', calls: 'calls', manual: 'q-birds' },
+      photoSets: ['birds-beginner', 'birds-intermediate', 'birds-botswana'], setLabel: 'Level', calls: 'level', manual: 'q-birds' }, // calls come with the chosen level
     { id: 'amphibians', title: 'Amphibians', noun: 'frog', blurb: 'Frogs - calls and manual questions', photo: 'media/frogs/f-angolan-reed-frog.jpg',
       photoSets: ['amphibians-photos'], calls: 'frog-calls', manual: 'q-amphibians' },
   ];
@@ -298,7 +298,7 @@
   const photoSetsOf = s => (s.photoSets || [s.photos]).filter(id => id && modById(id) && modById(id).items.length);
   // the photo set chosen in the subject's "Bird list" setting (first one by default)
   const currentPhotoMod = s => { const ids = photoSetsOf(s); const want = (settings.photoSet || {})[s.id]; return modById(ids.includes(want) ? want : ids[0]); };
-  const subjectModIds = s => [...photoSetsOf(s), s.calls, s.manual].filter(Boolean);
+  const subjectModIds = s => [...photoSetsOf(s), s.calls === 'level' ? null : s.calls, s.manual].filter(Boolean);
   const subjectOf = mod => SUBJECTS.find(s => subjectModIds(s).includes(mod.id)) || SUBJECTS[0];
   const homeOf = mod => '#/s/' + subjectOf(mod).id;
   const subjectMods = s => subjectModIds(s).map(modById).filter(Boolean);
@@ -354,7 +354,9 @@
   // ---------- subject page: every quiz and study tool for one subject ----------
   function renderSubject(s) {
     chrome({ tab: 'home', back: '#/' });
-    const pm = currentPhotoMod(s), cm = modById(s.calls), qm = modById(s.manual);
+    const pm = currentPhotoMod(s), qm = modById(s.manual);
+    const levelCalls = s.calls === 'level';
+    const cm = levelCalls ? (pm && pm.items.some(i => i.call) ? pm : null) : modById(s.calls);
     const sets = photoSetsOf(s).map(modById);
     // photo sets with a "featured" subset (species in the manual) get a Show setting: in the manual / all / one group
     const psc = pm ? (settings.scope[pm.id] || pm.defaultScope || 'all') : 'all';
@@ -372,7 +374,7 @@
     // calls setting: featured set / all / one group
     const csc = cm ? (settings.scope[cm.id] || cm.defaultScope || 'all') : 'all';
     const cgroups = cm ? [...new Set(cm.items.map(i => i.group).filter(Boolean))].sort() : [];
-    const callSel = cm ? `<div class="setting-row"><label for="callScope">Calls</label><select class="select" id="callScope">
+    const callSel = cm && !levelCalls ? `<div class="setting-row"><label for="callScope">Calls</label><select class="select" id="callScope">
         ${cm.featured ? `<option value="featured"${csc === 'featured' || csc === 'fgasa' ? ' selected' : ''}>${esc(cm.featured)} (${cm.items.filter(i => i.f).length})</option>` : ''}
         ${cm.notFeatured ? `<option value="other"${csc === 'other' ? ' selected' : ''}>${esc(cm.notFeatured)} (${cm.items.filter(i => !i.f).length})</option>` : ''}
         <option value="all"${csc === 'all' ? ' selected' : ''}>All ${cm.items.length} calls</option>
@@ -416,7 +418,7 @@
         tile(`#/m/${qm.id}/browse`, 'list', 'Study list', 'Every question and answer')) : ''}
       ${section('Flashcards', '',
         (pm ? tile(`#/m/${pm.id}/flash`, 'camera', 'Photo cards', 'Who is this?') : '') +
-        (cm ? tile(`#/m/${cm.id}/flash`, 'sound', 'Call cards', 'Whose call?') : '') +
+        (cm ? tile(`#/m/${cm.id}/flash${levelCalls ? '/calls' : ''}`, 'sound', 'Call cards', 'Whose call?') : '') +
         (qm ? tile(`#/m/${qm.id}/flash`, 'cards', 'Question cards', 'From the manual') : '') +
         ((pm || cm) ? tile(`#/m/${(pm || cm).id}/browse`, 'grid', `Browse ${s.title.toLowerCase()}`, pm ? (cm || pm.items.some(i => i.call) ? 'Photos and calls' : 'Photos and facts') : 'Listen to every call') : ''))}
       <p class="small" style="margin:14px 4px 0">An item counts as mastered after 3 right answers in a row. Anything you get wrong comes up more often.</p>`);
@@ -559,11 +561,11 @@
   const pickPraise = () => PRAISE[Math.floor(Math.random() * PRAISE.length)];
 
   // ---------- flashcards ----------
-  function startFlash(mod) {
-    const isCallMod = mod.id === subjectOf(mod).calls;
+  function startFlash(mod, callCards) {
+    const isCallMod = callCards || mod.id === subjectOf(mod).calls;
     const cardTitle = isQ(mod) ? 'Question cards' : isCallMod ? 'Call cards' : 'Photo cards';
     chrome({ focus: true, back: homeOf(mod), title: cardTitle, progress: true });
-    const pool = scopedItems(mod);
+    const pool = isCallMod ? scopedItems(mod).filter(i => i.call) : scopedItems(mod);
     let deck = pickItems(mod, pool, settings.length || pool.length).map(i => Object.assign({}, i));
     let seen = 0, known = 0;
     const total = deck.length;
@@ -574,7 +576,7 @@
         chrome({ focus: true, back: homeOf(mod), title: cardTitle });
         show(`<div class="card result"><div class="big-name">${known} / ${total}</div><div class="score-line">cards you knew first time</div></div>
           <div class="btn-stack"><button class="btn" id="new">Another deck</button><button class="btn ghost" id="done">Back to ${esc(subjectOf(mod).title)}</button></div>`);
-        $('new').addEventListener('click', () => startFlash(mod));
+        $('new').addEventListener('click', () => startFlash(mod, callCards));
         $('done').addEventListener('click', () => go(homeOf(mod)));
         return;
       }
@@ -999,7 +1001,6 @@
       { key: 'botswana', title: 'Birds - Botswana calls', urls: callList([modById('birds-botswana')].filter(Boolean)) },
       { key: 'botswana-photos', title: 'Birds - Botswana photos', photos: true, urls: [...new Set((modById('birds-botswana') || { items: [] }).items.map(i => i.photo).filter(p => p && !/^media\/(birds|prominent40|kwapa63)\//.test(p)))] },
       { key: 'frogs', title: 'Amphibians - frog calls', urls: callList([modById('frog-calls')].filter(Boolean)) },
-      { key: 'all', title: 'Birds - full call library', urls: callList([modById('calls')].filter(Boolean)) },
       ...DATA.modules.filter(m => /-photos$/.test(m.id)).map(m => ({ key: m.id, title: `${m.short || m.title} - photos`, photos: true,
         urls: [...new Set(m.items.map(i => i.photo).filter(Boolean))] })),
     ];
