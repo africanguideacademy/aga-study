@@ -359,10 +359,10 @@
       </section>
       <div class="section-title">Subjects</div>
       <div class="subject-list">${tiles}</div>
+      ${compactTiles ? `<div class="section-title">Manual chapters</div><div class="subject-grid">${compactTiles}</div>` : ''}
       <div class="section-title">Practise for the exam</div>
       <div class="act-grid"><a class="card act" href="#/exam"><div class="tile-ico">${icon('clock')}</div><strong>Exam practice</strong><span>Timed, mixed chapters</span></a>
         <a class="card act" href="#/weak"><div class="tile-ico">${icon('target')}</div><strong>Weak spots</strong><span>${(() => { const n = weakSpots(999).length; return n ? `${n} to practise` : 'What you keep getting wrong'; })()}</span></a></div>
-      ${compactTiles ? `<div class="section-title">Manual chapters</div><div class="subject-grid">${compactTiles}</div>` : ''}
       ${COMING_SOON.length ? `<div class="card coming"><div class="small" style="margin-bottom:8px">Coming soon</div><div class="soon-wrap">${soon}</div></div>` : ''}
       ${nudge}${footer()}`);
   }
