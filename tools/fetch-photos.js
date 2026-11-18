@@ -41,6 +41,7 @@ async function taxonId(sci) {
   return exact ? exact.id : null;
 }
 // Leave out observations annotated as dead, or as tracks, scat, bones, moults, galls, eggs, hair, leaf mines or nests
+const ANY_SHAPE = process.argv.includes('--best'); // --best: take the most-liked photo, whatever its shape (birds are often far away in wide shots)
 const NOT_ALIVE = '19,25,26,27,28,29,30,31,32,35';
 async function findPhoto(tid, skip) {
   for (const place of [BOTSWANA, AFRICA, null]) {
@@ -53,7 +54,7 @@ async function findPhoto(tid, skip) {
     if (!cands.length) continue;
     // prefer a landscape photo (fits the app's tiles and banners), else the most-voted one
     const dims = c => (c.p.original_dimensions || {});
-    const best = cands.find(c => dims(c).width >= 1.3 * dims(c).height && dims(c).width >= 800) || cands[0];
+    const best = (ANY_SHAPE ? null : cands.find(c => dims(c).width >= 1.3 * dims(c).height && dims(c).width >= 800)) || cands[0];
     return Object.assign(best, { place: place === BOTSWANA ? 'Botswana' : place === AFRICA ? 'Africa' : 'elsewhere' });
   }
   return null;

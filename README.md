@@ -119,6 +119,21 @@ Tap a photo in **Browse** to open the species page. It shows the photo, the call
   - Any photo can be replaced by hand the same way: add an entry to `data/photo-overrides.json`.
   - Drive access needs a one-time authorisation: run `setupPhotos` in the Apps Script editor.
 
+## Bird levels (Beginner / Intermediate / Botswana)
+
+- **Beginner:** the BQA 40.
+- **Intermediate:** the FGASA 80 birds that aren't in Beginner, plus the 20 Kwapa birds most often recorded in Botswana.
+- **Botswana:** all of the above, the rest of Kwapa, and every bird with 20 or more iNaturalist sightings in Botswana that has a call in the library.
+- **Calls:** each level's call quiz and call cards use only that level's birds. The 897-call library is only used as a source.
+- **Rebuilding:**
+  - `node tools/make-bird-levels.js` writes `data/bird-levels.json` and the extra-bird list.
+  - `node tools/fetch-photos.js birds-botswana` fetches photos for the extra birds; add `--best` to take the most-liked photo.
+  - Then run `build-data`.
+  - `node tools/make-bird-sheet.js` writes the sheet's **Birds** tab as `data/birds-sheet.csv`.
+- Students' progress on the old FGASA, BQA and Kwapa lists and the call library carries over automatically, through each item's `was` field.
+- **Name differences:** names that differ between iNaturalist and the call library are matched in the `ALIAS` and `SAME_AS` tables in make-bird-levels.js.
+- **Frogs:** `data/botswana-frogs.json` lists the frogs found in Botswana. The app's calls setting splits frogs into Botswana frogs and Other frogs (not in Botswana).
+
 ## Navigation
 - On a phone, the tab bar at the bottom has three tabs: Home, Progress and Offline.
 - Quizzes and flashcards use a full-screen mode with ✕ to quit. The Next and grading buttons sit at the bottom of the screen, within reach of your thumb.

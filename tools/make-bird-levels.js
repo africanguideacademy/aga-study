@@ -54,7 +54,7 @@ const calls = new Map(mod('calls').items.map(c => [norm(c.name), c]));
 const extra = [];
 for (const b of inat.filter(x => x.count >= MIN_OBS).sort((a, b) => b.count - a.count)) {
   const lib = libName(b.common), k = norm(lib);
-  if (have.has(k) || have.has(norm(SAME_AS[lib] || '')) || !calls.has(k)) continue;
+  if (have.has(k) || have.has(norm(Object.entries(SAME_AS).find(([a]) => norm(a) === k)?.[1] || '')) || !calls.has(k)) continue;
   have.add(k);
   const c = calls.get(k);
   extra.push({ name: DISPLAY[c.name] || c.name, call: c.name, sci: b.sci, group: c.group || '', manual: false, page: null, obs: b.count });
