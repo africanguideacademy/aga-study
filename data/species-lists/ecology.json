@@ -1,0 +1,194 @@
+[
+ {
+  "name": "Riverine forest",
+  "sci": "",
+  "group": "Woodlands",
+  "manual": true,
+  "page": 23,
+  "commons": "File:Chobe Riverfront, Botswana (2633821123).jpg"
+ },
+ {
+  "name": "Mopane woodland",
+  "sci": "",
+  "group": "Woodlands",
+  "manual": true,
+  "page": 23,
+  "commons": "File:Colophospermum mopane00.jpg"
+ },
+ {
+  "name": "Kalahari sandveld",
+  "sci": "",
+  "group": "Dry lands",
+  "manual": true,
+  "page": 23,
+  "commons": "File:124 Single Camel Thorn tree with Plains zebra in the background in Etosha National Park Photo by Giles Laurent.jpg"
+ },
+ {
+  "name": "Acacia (Vachellia) savanna",
+  "sci": "",
+  "group": "Woodlands",
+  "manual": true,
+  "page": 23,
+  "commons": "File:Flora of Tanzania 0617 Nevit.jpg"
+ },
+ {
+  "name": "Open grassland",
+  "sci": "",
+  "group": "Dry lands",
+  "manual": true,
+  "page": 33,
+  "commons": "File:The beauty landscape of Savuti Marsh - Botswana - panoramio.jpg"
+ },
+ {
+  "name": "Okavango floodplain",
+  "sci": "",
+  "group": "Wetlands",
+  "manual": true,
+  "page": 33,
+  "commons": "File:Okavango Delta, Botswana4.jpg"
+ },
+ {
+  "name": "Papyrus swamp (permanent swamp)",
+  "sci": "",
+  "group": "Wetlands",
+  "manual": true,
+  "page": 25,
+  "commons": "File:Okavango, Shinde Lagoon, waterlilies and papyrus.jpg"
+ },
+ {
+  "name": "Lagoon",
+  "sci": "",
+  "group": "Wetlands",
+  "manual": false,
+  "page": null,
+  "commons": "File:Okavango Delta, Shinde Lagoon (1).jpg"
+ },
+ {
+  "name": "Termite-mound island",
+  "sci": "",
+  "group": "Wetlands",
+  "manual": false,
+  "page": null,
+  "commons": "File:Okavango11.jpg"
+ },
+ {
+  "name": "Salt pan",
+  "sci": "",
+  "group": "Dry lands",
+  "manual": false,
+  "page": null,
+  "commons": "File:Salar del parque nacional Makgadikgadi Pans, Botsuana, 2018-07-30, DD 37.jpg"
+ },
+ {
+  "name": "Kalahari dunes",
+  "sci": "",
+  "group": "Dry lands",
+  "manual": false,
+  "page": null,
+  "commons": "File:Kalahari red dunes with bush.jpeg"
+ },
+ {
+  "name": "Grazers",
+  "sci": "",
+  "group": "Ecology in action",
+  "manual": true,
+  "page": 32,
+  "commons": "File:Buffaloes at Savuti Marsh - Botswana - panoramio.jpg"
+ },
+ {
+  "name": "Browsers",
+  "sci": "",
+  "group": "Ecology in action",
+  "manual": true,
+  "page": 32,
+  "commons": "File:Greater Kudu (Tragelaphus strepsiceros) male browsing ... (52959601218).jpg"
+ },
+ {
+  "name": "Predator and prey (food chain)",
+  "sci": "",
+  "group": "Ecology in action",
+  "manual": true,
+  "page": 34,
+  "commons": "File:Lioness after hunting waterbuck- Chobe National Park - Botswana.jpg"
+ },
+ {
+  "name": "Scavengers at a carcass",
+  "sci": "",
+  "group": "Ecology in action",
+  "manual": true,
+  "page": 32,
+  "commons": "File:Chobe Riverfront, Botswana (2628155285).jpg"
+ },
+ {
+  "name": "Decomposers (fungi)",
+  "sci": "",
+  "group": "Ecology in action",
+  "manual": true,
+  "page": 32,
+  "commons": "File:Bracket fungus, 2021-05-06, Bird Park, 02.jpg"
+ },
+ {
+  "name": "Dung beetle (recycling)",
+  "sci": "",
+  "group": "Ecology in action",
+  "manual": true,
+  "page": 32,
+  "commons": "File:Large Copper Dung Beetle (Kheper nigroaeneus) male rolling a big ball (bigger than a tennis ball) of elephant dung with female as passenger ... (32878095098).jpg"
+ },
+ {
+  "name": "Mutualism (oxpecker on buffalo)",
+  "sci": "",
+  "group": "Ecology in action",
+  "manual": true,
+  "page": 33,
+  "commons": "File:Cape Buffalo with Oxpeckers.jpg"
+ },
+ {
+  "name": "Seed dispersal (elephant dung)",
+  "sci": "",
+  "group": "Ecology in action",
+  "manual": true,
+  "page": 33,
+  "commons": "File:African elephant dung.jpg"
+ },
+ {
+  "name": "Commensalism (cattle egret)",
+  "sci": "",
+  "group": "Ecology in action",
+  "manual": true,
+  "page": 33,
+  "commons": "File:African buffalo (Syncerus caffer caffer) male with cattle egret.jpg"
+ },
+ {
+  "name": "Parasitism (mistletoe)",
+  "sci": "",
+  "group": "Ecology in action",
+  "manual": true,
+  "page": 33,
+  "commons": "File:Tapinanthus rubromarginatus, blomme, a, Waterberg.jpg"
+ },
+ {
+  "name": "Competition (impala rams)",
+  "sci": "",
+  "group": "Ecology in action",
+  "manual": true,
+  "page": 32,
+  "commons": "File:Impala Fighting (23981143519).jpg"
+ },
+ {
+  "name": "Fire and burnt veld",
+  "sci": "",
+  "group": "Ecology in action",
+  "manual": true,
+  "page": 35,
+  "commons": "File:View after a veld fire - panoramio.jpg"
+ },
+ {
+  "name": "Carrying capacity (elephant impact)",
+  "sci": "",
+  "group": "Ecology in action",
+  "manual": true,
+  "page": 34,
+  "commons": "File:Elephant damage ! (19151188275).jpg"
+ }
+]

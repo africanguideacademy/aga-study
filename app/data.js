@@ -3194,7 +3194,9 @@ window.AGA_DATA = {
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/16798433",
      "f": 1,
-     "page": 72
+     "page": 72,
+     "call": "media/frogs/f-angolan-reed-frog.mp3",
+     "bytes": 147168
     },
     {
      "id": "amphibians-bubbling-kassina",
@@ -3208,6 +3210,8 @@ window.AGA_DATA = {
      "src": "https://www.inaturalist.org/observations/41370216",
      "f": 1,
      "page": 73,
+     "call": "media/frogs/f-bubbling-kassina.mp3",
+     "bytes": 68544,
      "wide": 1
     },
     {
@@ -3222,6 +3226,8 @@ window.AGA_DATA = {
      "src": "https://www.inaturalist.org/observations/311706102",
      "f": 1,
      "page": 74,
+     "call": "media/frogs/f-southern-foam-nest-frog.mp3",
+     "bytes": 91224,
      "wide": 1
     },
     {
@@ -3236,6 +3242,8 @@ window.AGA_DATA = {
      "src": "https://www.inaturalist.org/observations/71484828",
      "f": 1,
      "page": 75,
+     "call": "media/frogs/f-african-bullfrog.mp3",
+     "bytes": 156996,
      "wide": 1
     },
     {
@@ -3250,6 +3258,8 @@ window.AGA_DATA = {
      "src": "https://www.inaturalist.org/observations/38358047",
      "f": 1,
      "page": 75,
+     "call": "media/frogs/f-giant-bullfrog.mp3",
+     "bytes": 117432,
      "wide": 1
     },
     {
@@ -3263,7 +3273,9 @@ window.AGA_DATA = {
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/63250831",
      "f": 1,
-     "page": 75
+     "page": 75,
+     "call": "media/frogs/f-flat-backed-toad.mp3",
+     "bytes": 100296
     },
     {
      "id": "amphibians-guttural-toad",
@@ -3276,7 +3288,9 @@ window.AGA_DATA = {
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/103478889",
      "f": 1,
-     "page": 75
+     "page": 75,
+     "call": "media/frogs/f-guttural-toad.mp3",
+     "bytes": 113904
     },
     {
      "id": "amphibians-western-olive-toad",
@@ -3290,6 +3304,8 @@ window.AGA_DATA = {
      "src": "https://www.inaturalist.org/observations/326464979",
      "f": 1,
      "page": 75,
+     "call": "media/frogs/f-western-olive-toad.mp3",
+     "bytes": 162540,
      "wide": 1
     },
     {
@@ -3303,7 +3319,9 @@ window.AGA_DATA = {
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/196510514",
      "f": 1,
-     "page": 74
+     "page": 74,
+     "call": "media/frogs/f-broad-banded-grass-frog.mp3",
+     "bytes": 114408
     },
     {
      "id": "amphibians-common-river-frog",
@@ -3316,7 +3334,9 @@ window.AGA_DATA = {
      "license": "CC BY-SA",
      "src": "https://www.inaturalist.org/observations/19800234",
      "f": 1,
-     "page": 74
+     "page": 74,
+     "call": "media/frogs/f-common-river-frog.mp3",
+     "bytes": 165816
     },
     {
      "id": "amphibians-common-platanna",
@@ -3329,7 +3349,9 @@ window.AGA_DATA = {
      "license": "CC0",
      "src": "https://www.inaturalist.org/observations/104920916",
      "f": 1,
-     "page": 73
+     "page": 73,
+     "call": "media/frogs/f-common-platanna.mp3",
+     "bytes": 169848
     },
     {
      "id": "amphibians-banded-rubber-frog",
@@ -3342,7 +3364,9 @@ window.AGA_DATA = {
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/196370559",
      "f": 1,
-     "page": 74
+     "page": 74,
+     "call": "media/frogs/f-banded-rubber-frog.mp3",
+     "bytes": 129528
     },
     {
      "id": "amphibians-bushveld-rain-frog",
@@ -3356,6 +3380,8 @@ window.AGA_DATA = {
      "src": "https://www.inaturalist.org/observations/39834229",
      "f": 1,
      "page": 73,
+     "call": "media/frogs/f-bushveld-rain-frog-b-a-adspersus.mp3",
+     "bytes": 65268,
      "wide": 1
     },
     {
@@ -3370,6 +3396,8 @@ window.AGA_DATA = {
      "src": "https://www.inaturalist.org/observations/41370364",
      "f": 1,
      "page": 73,
+     "call": "media/frogs/f-mottled-shovel-nosed-frog.mp3",
+     "bytes": 130284,
      "wide": 1
     },
     {
@@ -3382,6 +3410,8 @@ window.AGA_DATA = {
      "credit": "erwinsieben",
      "license": "CC0",
      "src": "https://www.inaturalist.org/observations/216456236",
+     "call": "media/frogs/f-long-reed-frog.mp3",
+     "bytes": 126000,
      "wide": 1
     },
     {
@@ -3394,6 +3424,8 @@ window.AGA_DATA = {
      "credit": "© Wynand Uys",
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/11111363",
+     "call": "media/frogs/f-painted-reed-frog.mp3",
+     "bytes": 87192,
      "wide": 1
     },
     {
@@ -3405,7 +3437,9 @@ window.AGA_DATA = {
      "pb": 147461,
      "credit": "© Tom Field",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/268068700"
+     "src": "https://www.inaturalist.org/observations/268068700",
+     "call": "media/frogs/f-bocages-tree-frog.mp3",
+     "bytes": 98532
     },
     {
      "id": "amphibians-eastern-olive-toad",
@@ -3416,7 +3450,9 @@ window.AGA_DATA = {
      "pb": 50847,
      "credit": "© Emma Walker",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/290553248"
+     "src": "https://www.inaturalist.org/observations/290553248",
+     "call": "media/frogs/f-eastern-olive-toad.mp3",
+     "bytes": 122472
     },
     {
      "id": "amphibians-red-toad",
@@ -3427,7 +3463,9 @@ window.AGA_DATA = {
      "pb": 104676,
      "credit": "kingfisher14",
      "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/316001120"
+     "src": "https://www.inaturalist.org/observations/316001120",
+     "call": "media/frogs/f-red-toad.mp3",
+     "bytes": 152712
     },
     {
      "id": "amphibians-dwarf-grass-frog",
@@ -3439,6 +3477,8 @@ window.AGA_DATA = {
      "credit": "© Wilderness Safaris Botswana - Conservation Team",
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/31173459",
+     "call": "media/frogs/f-dwarf-grass-frog.mp3",
+     "bytes": 146412,
      "wide": 1
     },
     {
@@ -3450,7 +3490,9 @@ window.AGA_DATA = {
      "pb": 102222,
      "credit": "© Mahomed Desai",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/71077847"
+     "src": "https://www.inaturalist.org/observations/71077847",
+     "call": "media/frogs/f-guibes-grass-frog.mp3",
+     "bytes": 129024
     },
     {
      "id": "amphibians-mascarene-grass-frog",
@@ -3462,6 +3504,8 @@ window.AGA_DATA = {
      "credit": "© Manuel Schwarz",
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/44238530",
+     "call": "media/frogs/f-mascarene-grass-frog.mp3",
+     "bytes": 120204,
      "wide": 1
     },
     {
@@ -3473,7 +3517,9 @@ window.AGA_DATA = {
      "pb": 70788,
      "credit": "© Wilderness Safaris Botswana - Conservation Team",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/40637992"
+     "src": "https://www.inaturalist.org/observations/40637992",
+     "call": "media/frogs/f-plain-grass-frog.mp3",
+     "bytes": 83916
     },
     {
      "id": "amphibians-sharp-nosed-grass-frog",
@@ -3485,6 +3531,8 @@ window.AGA_DATA = {
      "credit": "© Ryan van Huyssteen",
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/319517946",
+     "call": "media/frogs/f-sharp-nosed-grass-frog.mp3",
+     "bytes": 108108,
      "wide": 1
     },
     {
@@ -3496,7 +3544,9 @@ window.AGA_DATA = {
      "pb": 45061,
      "credit": "© Wilderness Safaris Botswana - Conservation Team",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/30231139"
+     "src": "https://www.inaturalist.org/observations/30231139",
+     "call": "media/frogs/f-mullers-platanna.mp3",
+     "bytes": 99540
     },
     {
      "id": "amphibians-dwarf-puddle-frog",
@@ -3507,7 +3557,9 @@ window.AGA_DATA = {
      "pb": 59492,
      "credit": "© Wilderness Safaris Botswana - Conservation Team",
      "license": "CC BY",
-     "src": "https://www.inaturalist.org/observations/41370219"
+     "src": "https://www.inaturalist.org/observations/41370219",
+     "call": "media/frogs/f-dwarf-puddle-frog.mp3",
+     "bytes": 137844
     },
     {
      "id": "amphibians-snoring-puddle-frog",
@@ -3518,7 +3570,9 @@ window.AGA_DATA = {
      "pb": 94778,
      "credit": "benkeen",
      "license": "CC0",
-     "src": "https://www.inaturalist.org/observations/191782600"
+     "src": "https://www.inaturalist.org/observations/191782600",
+     "call": "media/frogs/f-snoring-puddle-frog.mp3",
+     "bytes": 119448
     },
     {
      "id": "amphibians-knocking-sand-frog",
@@ -3530,6 +3584,8 @@ window.AGA_DATA = {
      "credit": "© Ryan van Huyssteen",
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/56516357",
+     "call": "media/frogs/f-knocking-sand-frog.mp3",
+     "bytes": 83412,
      "wide": 1
     },
     {
@@ -3542,6 +3598,8 @@ window.AGA_DATA = {
      "credit": "m_burger",
      "license": "CC0",
      "src": "https://www.inaturalist.org/observations/54748018",
+     "call": "media/frogs/f-boettgers-caco.mp3",
+     "bytes": 117936,
      "wide": 1
     },
     {
@@ -3554,6 +3612,8 @@ window.AGA_DATA = {
      "credit": "© Ryan van Huyssteen",
      "license": "CC BY",
      "src": "https://www.inaturalist.org/observations/146781796",
+     "call": "media/frogs/f-ornate-frog.mp3",
+     "bytes": 113148,
      "wide": 1
     }
    ]
@@ -32356,6 +32416,734 @@ window.AGA_DATA = {
    "food": "Worms and insects probed from mud.",
    "breeding": "Nest on the ground in marsh grass.",
    "titbit": "In display flight its stiff tail feathers make a drumming sound.",
+   "draft": true
+  },
+  "Riverine forest": {
+   "size": "Tall forest of big trees growing along rivers on rich alluvial soil.",
+   "habitat": "Along the Okavango, Chobe, Khwai and Boteti rivers and on Delta islands.",
+   "food": "Gives shade, fruit and cover to elephant, bushbuck, leopard and many birds.",
+   "breeding": "Look for jackal berry, sausage tree, knob thorn and African mangosteen.",
+   "titbit": "Long daylight hours and constant water explain the forests along the Delta rivers.",
+   "draft": true
+  },
+  "Mopane woodland": {
+   "size": "Woodland or scrub of mopane trees, from 2 m scrub to 30 m \"cathedral mopane\".",
+   "habitat": "Alluvial clay soils of northern Botswana, e.g. Chobe, Savuti and Moremi.",
+   "food": "Good habitat for elephant and buffalo; mopane worms feed on the leaves.",
+   "breeding": "Show the butterfly-shaped leaves; they fold together in the midday heat.",
+   "titbit": "Mopane scrub also holds russet bush-willow and shepherd's tree.",
+   "draft": true
+  },
+  "Kalahari sandveld": {
+   "size": "Dry bush savanna growing on deep, nutrient-poor Kalahari sand.",
+   "habitat": "Most of central and southern Botswana, e.g. CKGR and Kgalagadi.",
+   "food": "Supports desert-adapted animals like gemsbok, springbok and red hartebeest.",
+   "breeding": "Look for deep-rooted camel thorn and Kalahari apple-leaf trees.",
+   "titbit": "Sand holds little water, so the grasses here are poor grazing (e.g. three-awn grass).",
+   "draft": true
+  },
+  "Acacia (Vachellia) savanna": {
+   "size": "Grassland dotted with thorn trees such as the umbrella thorn.",
+   "habitat": "Poorly drained alluvial soils on the edges of floodplains and pans.",
+   "food": "Thorn pods and leaves feed giraffe, kudu, impala and elephant.",
+   "breeding": "Many \"acacias\" are now called Vachellia or Senegalia in new books.",
+   "titbit": "The umbrella thorn grows well in the alluvial soils of floodplain savanna.",
+   "draft": true
+  },
+  "Open grassland": {
+   "size": "Large open areas covered mainly by grass, with few or no trees.",
+   "habitat": "Nxai Pan, Savuti Marsh and the Makgadikgadi grasslands.",
+   "food": "Grazers such as zebra, wildebeest and springbok feed here, followed by predators.",
+   "breeding": "Open plains are good places to watch cheetah hunting.",
+   "titbit": "Habitats are usually named after their main plants, e.g. grassland.",
+   "draft": true
+  },
+  "Okavango floodplain": {
+   "size": "Grassy plains that flood each year when the Okavango water arrives.",
+   "habitat": "Seasonal swamps of the Okavango Delta, Khwai and Linyanti.",
+   "food": "Rich grazing for red lechwe, buffalo and zebra, and food for many water birds.",
+   "breeding": "The flood peaks in the dry winter months, long after the rains in Angola.",
+   "titbit": "Red lechwe have long hooves to run through shallow floodwater.",
+   "draft": true
+  },
+  "Papyrus swamp (permanent swamp)": {
+   "size": "Permanent swamp lined with tall papyrus sedge, up to about 5 m high.",
+   "habitat": "The Okavango Panhandle and the permanent channels of the Delta.",
+   "food": "Papyrus roots trap silt and help build the Delta; sitatunga hide in it.",
+   "breeding": "Look for sitatunga and listen for swamp boubou from a boat.",
+   "titbit": "The Delta drops only 60 m over 250 km, so channels wind slowly through papyrus.",
+   "draft": true
+  },
+  "Lagoon": {
+   "size": "A deep, open, permanent pool of water in the Delta.",
+   "habitat": "Permanent swamp areas, e.g. Xakanaxa and Gcodikwe in Moremi.",
+   "food": "Home to hippo, crocodile and fish, and nesting sites for herons and storks.",
+   "breeding": "Never swim in lagoons and keep boats well away from hippo.",
+   "titbit": "Gcodikwe lagoon has one of the largest heronries in southern Africa.",
+   "draft": true
+  },
+  "Termite-mound island": {
+   "size": "A Delta island that often starts as a termite mound and grows as trees take root.",
+   "habitat": "Thousands are scattered across the Okavango Delta floodplains.",
+   "food": "Gives dry ground for trees, nesting birds and animals during the flood.",
+   "breeding": "Point out the ring of trees and the bare, salty centre of older islands.",
+   "titbit": "Salts build up in island centres as water evaporates, until plants cannot grow.",
+   "draft": true
+  },
+  "Salt pan": {
+   "size": "A flat, dry lake bed covered with a white salt crust.",
+   "habitat": "Makgadikgadi (Sua and Ntwetwe) and many small Kalahari pans.",
+   "food": "After good rains pans fill and flamingos come to breed.",
+   "breeding": "Never drive on a wet pan: vehicles sink through the crust.",
+   "titbit": "Makgadikgadi is what remains of the huge ancient Lake Makgadikgadi.",
+   "draft": true
+  },
+  "Kalahari dunes": {
+   "size": "Long, low ridges of red Kalahari sand, held in place by grass.",
+   "habitat": "South-western Botswana, especially the Kgalagadi Transfrontier Park.",
+   "food": "Home to gemsbok, springbok, meerkats and many burrowing animals.",
+   "breeding": "Read the tracks in the sand early in the morning.",
+   "titbit": "The red colour comes from iron oxide coating the sand grains.",
+   "draft": true
+  },
+  "Grazers": {
+   "size": "Herbivores (primary consumers) that feed mainly on grass.",
+   "habitat": "Grasslands, floodplains and open savanna.",
+   "food": "They turn grass into food for predators, scavengers and decomposers.",
+   "breeding": "Examples: zebra, buffalo, tsessebe and wildebeest.",
+   "titbit": "Some are bulk grazers (e.g. buffalo); others are selective grazers.",
+   "draft": true
+  },
+  "Browsers": {
+   "size": "Herbivores that eat leaves, fruit, seeds and twig tips of trees and shrubs.",
+   "habitat": "Woodland and bush savanna.",
+   "food": "Browse at many heights lets many species share the same trees.",
+   "breeding": "Examples: giraffe, kudu and eland; they seldom eat grass.",
+   "titbit": "Savanna has browse at many levels plus grazing, so it supports many species.",
+   "draft": true
+  },
+  "Predator and prey (food chain)": {
+   "size": "A food chain: sun to plants to herbivores to predators to scavengers.",
+   "habitat": "Everywhere in the bush; easiest to show at a kill.",
+   "food": "Predators keep herbivore numbers healthy and in balance.",
+   "breeding": "Only about 10% of the energy passes up to the next level.",
+   "titbit": "Many food chains link together to form a food web.",
+   "draft": true
+  },
+  "Scavengers at a carcass": {
+   "size": "Animals that feed on dead animals or steal kills from predators.",
+   "habitat": "Seen at carcasses in all habitats.",
+   "food": "They clean up carcasses and help stop disease spreading.",
+   "breeding": "Circling or dropping vultures can lead you to a kill.",
+   "titbit": "Lions and leopards scavenge too, but they are not true scavengers.",
+   "draft": true
+  },
+  "Decomposers (fungi)": {
+   "size": "Fungi and bacteria that break down dead plants and animals.",
+   "habitat": "Dead wood, dung, leaf litter and termite mounds.",
+   "food": "They return nutrients to the soil so plants can grow again.",
+   "breeding": "Show guests fungi on dead logs as nature's recyclers.",
+   "titbit": "Decomposers are the essential link in the nutrient cycle.",
+   "draft": true
+  },
+  "Dung beetle (recycling)": {
+   "size": "A detritivore beetle that feeds on and breeds in animal dung.",
+   "habitat": "Common near fresh dung, mostly in the rainy season.",
+   "food": "Buries dung, which feeds the soil and plants.",
+   "breeding": "Point out the rolled ball; females lay eggs inside buried balls.",
+   "titbit": "Dung beetles can use the sun and the Milky Way to roll in a straight line.",
+   "draft": true
+  },
+  "Mutualism (oxpecker on buffalo)": {
+   "size": "A relationship where both partners benefit.",
+   "habitat": "Oxpeckers ride on buffalo, giraffe and other large mammals.",
+   "food": "Oxpeckers eat ticks, and the host gets rid of parasites.",
+   "breeding": "Other examples: honeyguide and honey badger; elephant and marula.",
+   "titbit": "Oxpeckers also feed on blood from wounds, so the benefit is sometimes debated.",
+   "draft": true
+  },
+  "Seed dispersal (elephant dung)": {
+   "size": "Elephants eat fruit such as marula and spread the seeds in their dung.",
+   "habitat": "Wherever elephants feed, especially in marula and palm woodland.",
+   "food": "Seeds land in a nitrogen-rich heap of manure, ready to grow.",
+   "breeding": "Break open old dung to show guests seeds and plant fibre.",
+   "titbit": "Elephants digest less than half of what they eat.",
+   "draft": true
+  },
+  "Commensalism (cattle egret)": {
+   "size": "A relationship where one partner benefits and the other is unaffected.",
+   "habitat": "Cattle egrets follow buffalo, lechwe and elephant in grassland.",
+   "food": "The grazers disturb insects, which the egrets catch.",
+   "breeding": "Other examples: hornbills nesting in tree holes; waxbills nesting by wasp nests.",
+   "titbit": "Cattle egrets also follow cattle and tractors.",
+   "draft": true
+  },
+  "Parasitism (mistletoe)": {
+   "size": "A relationship where the parasite benefits and the host is harmed.",
+   "habitat": "Mistletoe grows on many savanna trees, e.g. acacias.",
+   "food": "Mistletoe roots grow under the bark and take the host tree's sugars.",
+   "breeding": "Other examples: parasitic wasps in caterpillars; ticks on game.",
+   "titbit": "The sour plum is a partial parasite on the roots of grasses.",
+   "draft": true
+  },
+  "Competition (impala rams)": {
+   "size": "Intra-specific competition: animals of one species compete for something scarce.",
+   "habitat": "Seen in impala herds during the rutting season.",
+   "food": "Only the strongest rams win mates and pass on their genes.",
+   "breeding": "Inter-specific competition is between species, e.g. kingfisher and starling for nest holes.",
+   "titbit": "Impala rams fight for dominance during the rut.",
+   "draft": true
+  },
+  "Fire and burnt veld": {
+   "size": "Fire is a natural factor that shapes savanna and grassland.",
+   "habitat": "Grasslands and floodplains, mainly in the dry season.",
+   "food": "Helps some seeds germinate, controls invader plants and removes dead grass.",
+   "breeding": "Fires that are too frequent or at the wrong time harm many organisms.",
+   "titbit": "Fresh green grass after a burn quickly attracts grazers.",
+   "draft": true
+  },
+  "Carrying capacity (elephant impact)": {
+   "size": "The most animals an area can support for ever without damaging it.",
+   "habitat": "Easy to see along the Chobe riverfront and at Savuti.",
+   "food": "Too many elephants push over and debark trees, changing woodland to scrub.",
+   "breeding": "Water, temperature, sunlight, soils and fire all limit carrying capacity.",
+   "titbit": "Old, leached Kalahari sands give lower carrying capacity than East Africa.",
+   "draft": true
+  },
+  "Granite": {
+   "size": "An intrusive igneous rock that cooled slowly underground, so it has large crystals.",
+   "habitat": "Granite hills and kopjes in eastern Botswana, e.g. around Francistown and the Tswapong area.",
+   "food": "Granite weathers into sandy, nutrient-poor soils; the Kalahari sand is of granitic origin.",
+   "breeding": "Look for a speckled rock of pink or white feldspar, glassy quartz and black mica crystals.",
+   "titbit": "Granite cooled so slowly deep underground that its crystals had time to grow big enough to see.",
+   "draft": true
+  },
+  "Basalt": {
+   "size": "A dark, fine-grained extrusive igneous rock formed when lava cools quickly at the surface.",
+   "habitat": "Under parts of eastern and northern Botswana; often hidden below Kalahari sand.",
+   "food": "Basalt weathers into dark, very fertile clay soils that support good grazing.",
+   "breeding": "Dark grey to black, heavy, with crystals too small to see; may form six-sided columns.",
+   "titbit": "Basalt weathers fast, which is why basalt soils are rich and support many game animals.",
+   "draft": true
+  },
+  "Rhyolite": {
+   "size": "A pale, fine-grained extrusive igneous rock from sticky, silica-rich lava.",
+   "habitat": "The Savuti Hills (Gubatsa Hills) in Chobe National Park are made of flow-banded rhyolite.",
+   "food": "Rocky hills like Savuti give shelter and lookouts for leopard, klipspringer and rock hyrax.",
+   "breeding": "Look for fine bands or swirls in the rock, left by lava that flowed before it set.",
+   "titbit": "The Savuti rhyolite hills are more than 900 million years old.",
+   "draft": true
+  },
+  "Sandstone": {
+   "size": "A sedimentary rock made of sand grains cemented together.",
+   "habitat": "The Otse Hills in south-east Botswana are mainly sandstone.",
+   "food": "Sandstone weathers back into sand, giving light soils that drain quickly.",
+   "breeding": "Rub it: it feels gritty like sandpaper. Layers (bedding) are often visible.",
+   "titbit": "Slanting layers in sandstone show the direction of ancient wind or water currents.",
+   "draft": true
+  },
+  "Shale": {
+   "size": "A fine-grained sedimentary rock formed from compacted clay or mud.",
+   "habitat": "Found under the sand in places; seen in road cuts and quarries rather than game areas.",
+   "food": "Under heat and pressure shale changes into slate and then schist.",
+   "breeding": "Grey, thin layers that split easily into flat flakes.",
+   "titbit": "Shale is the most common sedimentary rock on Earth.",
+   "draft": true
+  },
+  "Limestone": {
+   "size": "A sedimentary rock built from shells, corals and bones, made of calcium carbonate.",
+   "habitat": "The Gcwihaba, Aha and Koanaka hills in the far north-west contain limestone, marble and dolomite.",
+   "food": "Water with carbon dioxide dissolves limestone, forming caves such as Drotsky's Cave.",
+   "breeding": "Pale grey or white; a drop of acid (or vinegar) makes it fizz.",
+   "titbit": "Rocks of organic origin like limestone are not \"true\" rocks, says the manual.",
+   "draft": true
+  },
+  "Dolomite": {
+   "size": "A sedimentary rock like limestone but rich in magnesium.",
+   "habitat": "The Gcwihaba, Aha and Koanaka hills near the Namibian border.",
+   "food": "Dolomite hills are good for cave formation, home to bats and the Gcwihaba Caves.",
+   "breeding": "Looks like grey limestone, often in layers, but fizzes only weakly with acid.",
+   "titbit": "Drotsky's Cave in the dolomite hills may be a million years old or more.",
+   "draft": true
+  },
+  "Quartzite": {
+   "size": "A very hard metamorphic rock formed when sandstone is changed by heat and pressure.",
+   "habitat": "The Tsodilo Hills in north-west Botswana are made of quartzite.",
+   "food": "Quartzite resists weathering, so it stands up as hills above the flat Kalahari sand.",
+   "breeding": "Hard, glassy and often pink, purple or grey; it breaks through the grains, not around them.",
+   "titbit": "Tsodilo's quartzite cliffs are covered in over 4 000 San rock paintings.",
+   "draft": true
+  },
+  "Schist": {
+   "size": "A metamorphic rock formed from shale under high heat and pressure.",
+   "habitat": "Found in the older rocks of eastern Botswana, but rarely seen in safari areas.",
+   "food": "It shows how one rock type can change into another in the rock cycle.",
+   "breeding": "Look for shiny flakes of mica in wavy layers; it glitters in the sun.",
+   "titbit": "The manual's table shows shale, basalt and slate can all change into schist.",
+   "draft": true
+  },
+  "Diamond (rough)": {
+   "size": "A mineral of pure carbon, the hardest natural substance, formed deep in the mantle.",
+   "habitat": "Mined at Orapa, Jwaneng, Letlhakane and Karowe; not seen in the wild.",
+   "food": "Diamonds are Botswana's main export and paid for much of the country's development.",
+   "breeding": "Rough diamonds look like greasy, eight-sided crystals, not sparkly cut gems.",
+   "titbit": "Diamond is one of the few \"rocks\" made of a single mineral, with gold, silver and platinum.",
+   "draft": true
+  },
+  "Kimberlite": {
+   "size": "A dark igneous rock from deep in the mantle that can carry diamonds to the surface.",
+   "habitat": "Kimberlite pipes lie under the Kalahari sand at Orapa, Jwaneng and Letlhakane.",
+   "food": "All of Botswana's diamonds are mined from kimberlite pipes.",
+   "breeding": "Greenish-grey to blue-grey rock with scattered rounded crystals and bits of other rock.",
+   "titbit": "Orapa, found in 1967, is one of the largest kimberlite pipes in the world.",
+   "draft": true
+  },
+  "Calcrete": {
+   "size": "A hard, pale layer of sand and gravel cemented by lime (calcium carbonate).",
+   "habitat": "Common around pans and fossil river valleys in the Kalahari, e.g. Makgadikgadi and Nxai Pan.",
+   "food": "Calcrete holds water near the surface, so pans and waterholes form on it.",
+   "breeding": "A white or cream crust under thin soil; often exposed on the edges of pans.",
+   "titbit": "Calcrete is used across Botswana as a cheap gravel for building roads.",
+   "draft": true
+  },
+  "Agate": {
+   "size": "A banded form of quartz (chalcedony) that fills holes in volcanic rock.",
+   "habitat": "Botswana agate comes from the Bobonong area in the east, mainly sold as polished stones.",
+   "food": "Botswana agate is a well-known semi-precious stone used in jewellery.",
+   "breeding": "Look for smooth curved bands of colour, often pink, grey, brown and white.",
+   "titbit": "Each band of an agate was laid down as a separate layer of silica in a gas bubble.",
+   "draft": true
+  },
+  "Tsodilo Hills": {
+   "size": "Four quartzite hills rising out of the flat Kalahari sand in north-west Botswana.",
+   "habitat": "Near Shakawe, west of the Okavango Panhandle.",
+   "food": "A UNESCO World Heritage Site with thousands of San and Bantu rock paintings.",
+   "breeding": "Name the four hills: Male, Female, Child and a small unnamed hill.",
+   "titbit": "The San call Tsodilo the \"Mountains of the Gods\" or \"Rock that Whispers\".",
+   "draft": true
+  },
+  "Makgadikgadi Pans": {
+   "size": "Huge flat salt pans left behind when a giant ancient lake dried up.",
+   "habitat": "Central Botswana, between Maun and Nata; Nxai Pan is part of the same system.",
+   "food": "In good rains the pans fill and attract thousands of flamingos; zebra migrate here.",
+   "breeding": "Explain the super-lake of 200 000 km² that dried up about 10 000 years ago.",
+   "titbit": "The Makgadikgadi is one of the largest salt pan systems in the world.",
+   "draft": true
+  },
+  "Kubu Island": {
+   "size": "A granite rocky outcrop with baobabs, rising from the Sowa Pan in the Makgadikgadi.",
+   "habitat": "South-west part of Sowa Pan; reachable only in the dry season.",
+   "food": "A national monument and sacred site with stone walls and ancient shoreline features.",
+   "breeding": "Point out wave-cut terraces and fossil beach pebbles from the old lake shore.",
+   "titbit": "Kubu means \"hippopotamus\" in Setswana, from when the area was wet.",
+   "draft": true
+  },
+  "Kalahari sand dunes": {
+   "size": "Ridges of wind-blown sand; the Kalahari is the largest continuous body of sand in the world.",
+   "habitat": "Central and southern Kalahari; old fossil dunes are found under the bush in the north.",
+   "food": "The leached sand is poor in nutrients, so it has a low carrying capacity for herbivores.",
+   "breeding": "Red sand gets its colour from iron oxide coating the grains.",
+   "titbit": "Kalahari sand stretches from the Cape to the Congo.",
+   "draft": true
+  },
+  "Okavango Delta from the air": {
+   "size": "An inland delta where the Okavango River fans out over the Kalahari and never reaches the sea.",
+   "habitat": "North-west Botswana; best seen on a scenic flight, highest water June to August.",
+   "food": "Its floodplains are the most productive habitat in the Delta for wildlife.",
+   "breeding": "Explain the faults: Gumare fault spreads the water, Thamalakane fault blocks it in the south.",
+   "titbit": "The Delta drops only 60 m over 250 km; about 97% of the water is lost to evaporation and transpiration.",
+   "draft": true
+  },
+  "Termite-mound islands": {
+   "size": "Small tree-covered islands in the Delta, many started by termite mounds.",
+   "habitat": "All over the seasonal floodplains of the Okavango Delta.",
+   "food": "Islands give dry ground for trees, nesting birds and animals in the flood season.",
+   "breeding": "From the air: round islands with trees on the edges and a bare white salty centre.",
+   "titbit": "Many Delta islands began as a single termite mound that rose above the floodwater.",
+   "draft": true
+  },
+  "Chobe River": {
+   "size": "A river that flows about 60 km along Botswana's northern border into the Zambezi.",
+   "habitat": "Chobe National Park riverfront near Kasane; best in the dry season, May to October.",
+   "food": "Huge herds of elephant and buffalo come to drink at the Chobe in the dry season.",
+   "breeding": "Tell guests it starts as the Kwando, becomes the Linyanti, then the Chobe.",
+   "titbit": "The Linyanti fault forces the Kwando's water north-east into the Chobe.",
+   "draft": true
+  },
+  "Savuti Channel": {
+   "size": "A channel that links the Linyanti system to the Savuti Marsh; it flows and dries for years at a time.",
+   "habitat": "Savuti, in Chobe National Park, between Maun and Kasane.",
+   "food": "When it flows, the channel and marsh draw large numbers of game and predators.",
+   "breeding": "Dead trees along its banks grew while it was dry and drowned when the water returned.",
+   "titbit": "The channel stopped flowing in 1982 and only started again in 2008.",
+   "draft": true
+  },
+  "Weathering (exfoliation)": {
+   "size": "The breaking down of rock where it lies, by heat, cold, water, plants and animals.",
+   "habitat": "Granite and sandstone outcrops in eastern Botswana and at the Tsodilo Hills.",
+   "food": "Weathering turns rock into soil, which decides which plants and animals live there.",
+   "breeding": "Point out rounded boulders peeling in layers like an onion from daily heating and cooling.",
+   "titbit": "Daily heating and cooling makes rock expand and shrink until it cracks.",
+   "draft": true
+  },
+  "Lichen on rock": {
+   "size": "A partnership of a fungus and an alga that grows on bare rock.",
+   "habitat": "On rocks and old tree trunks; brightest after rain.",
+   "food": "Lichens slowly break rock down chemically and start the formation of soil.",
+   "breeding": "Explain the partnership: the fungus takes minerals from the rock and the alga makes food.",
+   "titbit": "Lichens cause chemical weathering: the fungus absorbs chemicals from the rock.",
+   "draft": true
+  },
+  "Water erosion (gullies)": {
+   "size": "Erosion is the removal of soil and rock particles by moving water or wind.",
+   "habitat": "Mainly south-eastern and eastern Botswana, where there is run-off; rare on flat Kalahari sand.",
+   "food": "Erosion moves soil away and starts the formation of new sedimentary rock.",
+   "breeding": "Gullies (dongas) form where water runs off bare, overgrazed ground.",
+   "titbit": "Flat, porous Kalahari sand soaks up rain, so most of Botswana shows little erosion.",
+   "draft": true
+  },
+  "Chobe National Park": {
+   "size": "A national park famous for its huge elephant herds.",
+   "habitat": "Far north of Botswana, along the Chobe River near Kasane.",
+   "food": "Main attractions: the Chobe riverfront, Linyanti and Savuti.",
+   "breeding": "No off-road driving; summer gate times are 05:30-19:00.",
+   "titbit": "Mostly savanna, with large areas of miombo woodland in the north and east.",
+   "draft": true
+  },
+  "Savuti": {
+   "size": "A remote area of Chobe National Park with a marsh and a channel.",
+   "habitat": "South-western Chobe National Park, between Linyanti and Mababe.",
+   "food": "Known as one of the best areas in Africa for predators.",
+   "breeding": "The Savuti Channel dries up and flows again over many years.",
+   "titbit": "Savuti lions became famous for hunting elephants.",
+   "draft": true
+  },
+  "Linyanti": {
+   "size": "A river and wetland area in the north-west of Chobe National Park.",
+   "habitat": "Along the Linyanti River on the Namibian border.",
+   "food": "Large elephant herds come to drink here in the dry season.",
+   "breeding": "The Kwando River is blocked by the Linyanti fault and turns north-east.",
+   "titbit": "Much of the area is private concession land with photographic lodges.",
+   "draft": true
+  },
+  "Nxai Pan National Park": {
+   "size": "A national park of open grassland and dry Kalahari savanna.",
+   "habitat": "North of the Makgadikgadi Pans, off the Maun-Nata road.",
+   "food": "Its waterhole is a wildlife hotspot in the hot, dry months.",
+   "breeding": "Most wildlife is on the grassy Nxai Pan, north of Baines' Baobabs.",
+   "titbit": "Zebra migrate between Nxai Pan and the Makgadikgadi Pans.",
+   "draft": true
+  },
+  "Baines' Baobabs": {
+   "size": "A cluster of old baobab trees on a rocky ridge in Nxai Pan National Park.",
+   "habitat": "South of Nxai Pan, overlooking a salt pan and grassland.",
+   "food": "One of the most photographed landmarks in Botswana.",
+   "breeding": "Compare the trees with Baines' painting: they have changed very little.",
+   "titbit": "Thomas Baines painted these trees on an expedition in 1862.",
+   "draft": true
+  },
+  "Makgadikgadi Pans National Park": {
+   "size": "A national park established to protect the Sua and Ntwetwe salt pans.",
+   "habitat": "Central-northern Botswana, along the Boteti River.",
+   "food": "The Boteti River is a wildlife-rich area and a main attraction.",
+   "breeding": "In the dry season zebra and wildebeest crowd the Boteti to drink.",
+   "titbit": "The Boteti carries overflow from the Okavango towards Lake Xau.",
+   "draft": true
+  },
+  "Moremi Game Reserve": {
+   "size": "A game reserve set up to conserve the wildlife of the Okavango Delta.",
+   "habitat": "Eastern Okavango Delta, north of Maun.",
+   "food": "Public camps: South Gate, North Gate, Xakanaxa and Third Bridge.",
+   "breeding": "There is no vehicle access to Chief's Island; it has two lodges.",
+   "titbit": "Moremi was set up by the BaTawana people in 1963.",
+   "draft": true
+  },
+  "Central Kalahari Game Reserve": {
+   "size": "About 52,800 km², one of Africa's largest reserves; established in 1961.",
+   "habitat": "In the heart of the Kalahari thirstland, central Botswana.",
+   "food": "Home to the San people and desert antelope like oryx, springbok and red hartebeest.",
+   "breeding": "Walking from lodge sites is allowed here; night drives are not.",
+   "titbit": "It is more than 1.5 times larger than Belgium.",
+   "draft": true
+  },
+  "Khama Rhino Sanctuary": {
+   "size": "A community-run sanctuary declared to protect rhino.",
+   "habitat": "Near Serowe in the Central District.",
+   "food": "Breeds white and black rhino to restock Botswana's wild areas.",
+   "breeding": "In sanctuaries access times are flexible and night drives may be allowed.",
+   "titbit": "Killing a rhino can mean a P100 000 fine or 15 years in prison.",
+   "draft": true
+  },
+  "Nata Bird Sanctuary": {
+   "size": "A sanctuary established to protect flamingos.",
+   "habitat": "North-east corner of Sua Pan, near Nata village.",
+   "food": "One of only 5 breeding sites for lesser flamingo.",
+   "breeding": "As the last part of Sua Pan to dry up, it can give spectacular flamingo viewing.",
+   "titbit": "The fresh-to-salt water gradient gives good bird and plant diversity.",
+   "draft": true
+  },
+  "Kgalagadi Transfrontier Park": {
+   "size": "Botswana's only transfrontier park, shared with South Africa.",
+   "habitat": "Far south-western Botswana, along the Nossob River.",
+   "food": "Red dunes and dry riverbeds hold gemsbok, springbok and black-maned lions.",
+   "breeding": "Look for game along the dry Nossob and Auob riverbeds.",
+   "titbit": "The planned KAZA area will be the world's largest transfrontier conservation area.",
+   "draft": true
+  },
+  "Tsodilo rock art": {
+   "size": "Ancient rock paintings of animals, people and patterns.",
+   "habitat": "On the rock faces of the Tsodilo Hills.",
+   "food": "Shows thousands of years of human history and San beliefs.",
+   "breeding": "Never touch or wet the paintings; oil and water damage them.",
+   "titbit": "The main hills are called the Male, Female and Child.",
+   "draft": true
+  },
+  "Okavango Delta": {
+   "size": "A huge inland delta; a UNESCO World Heritage Site since 2014.",
+   "habitat": "North-western Botswana, fed by rivers from the Angolan highlands.",
+   "food": "Supports huge wildlife numbers, tourism and local people.",
+   "breeding": "The flood arrives in winter, months after the summer rains in Angola.",
+   "titbit": "It was the 1,000th site on the World Heritage list.",
+   "draft": true
+  },
+  "Makgadikgadi salt pans": {
+   "size": "One of the largest salt flats on Earth: Sua Pan and Ntwetwe Pan.",
+   "habitat": "North-eastern Botswana, between Nata, Gweta and Maun.",
+   "food": "A remnant of ancient Lake Makgadikgadi, which covered over 100,000 km².",
+   "breeding": "Ntwetwe Pan is more broken up and vegetated than Sua Pan.",
+   "titbit": "In good rains, thousands of flamingos come to the pans.",
+   "draft": true
+  },
+  "Chapman's Baobab": {
+   "size": "A giant baobab named after the explorer James Chapman.",
+   "habitat": "Near Ntwetwe Pan, east of Makgadikgadi Pans National Park.",
+   "food": "An old landmark where early travellers left messages.",
+   "breeding": "It is on a private concession; visit from Jack's Camp or San Camp.",
+   "titbit": "The great tree collapsed in January 2016.",
+   "draft": true
+  },
+  "Mannyelanong Game Reserve": {
+   "size": "A small game reserve declared to protect one species.",
+   "habitat": "At Otse, south of Gaborone.",
+   "food": "Protects a breeding colony of Cape griffon (Cape vulture) on the cliffs.",
+   "breeding": "All vultures are protected birds in Botswana.",
+   "titbit": "It shows that some reserves protect one species, not a whole wilderness.",
+   "draft": true
+  },
+  "Kasane": {
+   "size": "A town and the gateway to Chobe National Park.",
+   "habitat": "Far north-east Botswana, on the Chobe River.",
+   "food": "Close to Kazungula, where Botswana, Zambia, Zimbabwe and Namibia meet.",
+   "breeding": "Boat cruises on the Chobe River are the main activity.",
+   "titbit": "Victoria Falls is only about 80 km away.",
+   "draft": true
+  },
+  "Maun": {
+   "size": "Botswana's tourism capital and gateway to the Okavango Delta.",
+   "habitat": "On the Thamalakane River at the south-eastern edge of the Delta.",
+   "food": "Most fly-in safaris to Delta camps start at Maun airport.",
+   "breeding": "Scenic flights from Maun show the Delta's channels and islands.",
+   "titbit": "The Thamalakane fault stops many Delta rivers near Maun.",
+   "draft": true
+  },
+  "Mokoro trip": {
+   "size": "A trip in a mokoro, a dugout or fibreglass canoe pushed with a pole.",
+   "habitat": "Shallow channels of the Okavango Delta.",
+   "food": "Gives local polers income and a quiet, low-impact safari.",
+   "breeding": "In a storm, pole to shore as soon as possible.",
+   "titbit": "Mokoros were carved from big tree trunks; most are now fibreglass.",
+   "draft": true
+  },
+  "Northern Tuli (Mashatu)": {
+   "size": "Private game reserves in the Tuli Block, on freehold land.",
+   "habitat": "Eastern Botswana, where the Limpopo and Shashe rivers meet.",
+   "food": "Known for elephant, rocky koppies and big baobabs.",
+   "breeding": "Walks, horse rides and night drives are allowed on private land.",
+   "titbit": "Tuli is one of the few freehold land areas in Botswana.",
+   "draft": true
+  },
+  "Lake Ngami": {
+   "size": "A shallow lake that fills and dries with the Okavango flood cycles.",
+   "habitat": "South-west of Maun, at the end of the Nhabe and Kunyere rivers.",
+   "food": "When full it attracts huge numbers of water birds.",
+   "breeding": "The Thaoge, its old main feeder, has not reached the lake in over 50 years.",
+   "titbit": "David Livingstone reached the lake in 1849.",
+   "draft": true
+  },
+  "Cumulus": {
+   "size": "Low, puffy clouds with flat bases and rounded tops, like cotton wool.",
+   "habitat": "Common on summer mornings and afternoons across Botswana.",
+   "food": "Growing cumulus can build into thunderclouds by the afternoon.",
+   "breeding": "Cumulus means \"heap\" or \"pile\" in Latin.",
+   "titbit": "Fair-weather cumulus form as warm air rises off the ground and cools.",
+   "draft": true
+  },
+  "Cumulonimbus": {
+   "size": "A huge thundercloud that stretches from low level to the top of the sky, often with an anvil top.",
+   "habitat": "Summer afternoons (November to March), especially after hot, humid mornings.",
+   "food": "It brings lightning, heavy rain, strong wind and hail.",
+   "breeding": "Return to base at the first sign of thunderclouds, especially on a boat or on foot.",
+   "titbit": "Cumulonimbus is the only multi-level cloud: it covers all three cloud levels.",
+   "draft": true
+  },
+  "Stratus": {
+   "size": "A low, grey, even sheet of cloud near the ground, like high fog.",
+   "habitat": "Uncommon in Botswana; sometimes on cool, damp mornings during rainy spells.",
+   "food": "Stratus can bring drizzle but rarely heavy rain.",
+   "breeding": "Stratus means \"sheet\" in Latin.",
+   "titbit": "Stratus forms from 0 to 2 000 m and can touch the ground as fog.",
+   "draft": true
+  },
+  "Stratocumulus": {
+   "size": "Low, lumpy grey and white clouds in a layer, with gaps of blue sky.",
+   "habitat": "Common in cooler months and after cold fronts.",
+   "food": "Usually only light rain or none; often breaks up during the day.",
+   "breeding": "Lumpy like cumulus but joined in a sheet like stratus; hence the name.",
+   "titbit": "Stratocumulus is the most common cloud type on Earth.",
+   "draft": true
+  },
+  "Nimbostratus": {
+   "size": "A thick, dark grey rain cloud layer that hides the sun completely.",
+   "habitat": "In summer when the ITCZ brings rain for days at a time.",
+   "food": "Brings steady, long-lasting rain that soaks into the ground.",
+   "breeding": "Nimbus means \"rain\"; no shadows on the ground, and steady rain falling.",
+   "titbit": "Nimbostratus brings soft, steady rain rather than short storms.",
+   "draft": true
+  },
+  "Altostratus": {
+   "size": "A grey or blue-grey sheet of middle-level cloud through which the sun looks watery.",
+   "habitat": "Often ahead of a summer rain front.",
+   "food": "It can thicken into nimbostratus and bring rain.",
+   "breeding": "The sun shines dimly \"as through frosted glass\" and casts no clear shadows.",
+   "titbit": "Alto means \"high\" but altostratus is a middle cloud, at 2 000 to 6 000 m.",
+   "draft": true
+  },
+  "Altocumulus": {
+   "size": "Middle-level clouds in white or grey patches or rolls, often in rows.",
+   "habitat": "Common across Botswana, especially in the morning in spring and summer.",
+   "food": "Altocumulus on a humid morning can mean afternoon thunderstorms.",
+   "breeding": "Hold up your hand: each cloudlet is about the size of a thumbnail (smaller for cirrocumulus).",
+   "titbit": "Rows of altocumulus are sometimes called a \"mackerel sky\".",
+   "draft": true
+  },
+  "Cirrus": {
+   "size": "Thin, wispy high clouds made of ice crystals.",
+   "habitat": "Seen all year, especially in winter and before weather changes.",
+   "food": "Cirrus can be the first sign of an approaching front.",
+   "breeding": "Cirrus means \"a curling lock of hair\"; look for hooked, feathery streaks.",
+   "titbit": "Cirrus clouds float at 6 000 to 12 000 m where it is well below freezing.",
+   "draft": true
+  },
+  "Cirrostratus": {
+   "size": "A thin, milky sheet of high ice cloud that covers the sky.",
+   "habitat": "Often ahead of a front; look around the sun or moon.",
+   "food": "It often comes before rain within a day or two.",
+   "breeding": "The best clue is a ring (halo) around the sun or moon.",
+   "titbit": "The ice crystals in cirrostratus bend the light to make the 22-degree halo.",
+   "draft": true
+  },
+  "Cirrocumulus": {
+   "size": "High clouds made of many tiny white ripples or grains, with no shadows.",
+   "habitat": "Not common and short-lived; seen in summer and spring.",
+   "food": "It shows moisture and instability high in the atmosphere.",
+   "breeding": "Like altocumulus but higher and smaller: each cloudlet is smaller than a fingertip.",
+   "titbit": "Cirrocumulus is one of the rarest of the ten main cloud types.",
+   "draft": true
+  },
+  "Lightning": {
+   "size": "A huge electric spark caused by an imbalance of charges, usually in a cumulonimbus.",
+   "habitat": "Summer thunderstorms, November to March.",
+   "food": "It forms nitric acid in the air, which fertilises the plants below.",
+   "breeding": "Count seconds from flash to thunder and divide by three to get the distance in km.",
+   "titbit": "Thunder is caused by the air expanding very fast as lightning super-heats it.",
+   "draft": true
+  },
+  "Thunderstorm": {
+   "size": "A storm with lightning, thunder, strong wind and heavy rain from cumulonimbus clouds.",
+   "habitat": "Summer afternoons across Botswana, after hot, humid mornings.",
+   "food": "Storms bring most of Botswana's rain but can cause flash floods and falling trees.",
+   "breeding": "Never shelter under trees; mokoros should pole to shore; aluminium boats conduct lightning.",
+   "titbit": "Storms form as cold fronts replace the rising warm air in the afternoon.",
+   "draft": true
+  },
+  "Hail": {
+   "size": "Balls or lumps of ice that fall from cumulonimbus storm clouds.",
+   "habitat": "Summer storms, especially with the unstable air of occluded fronts.",
+   "food": "Hail can damage crops, injure animals and strip leaves from trees.",
+   "breeding": "Hail plus cold wind after a storm can cause hypothermia; carry warm clothing.",
+   "titbit": "Never use alcohol to treat hypothermia; it lowers the core body temperature.",
+   "draft": true
+  },
+  "Rain gauge": {
+   "size": "An instrument with a funnel that collects rain in a cylinder to measure rainfall.",
+   "habitat": "At weather stations, camps and lodges; set in open ground.",
+   "food": "Rainfall figures show how much grazing and surface water the bush will have.",
+   "breeding": "It must be away from trees and buildings that could affect the reading.",
+   "titbit": "Kasane gets about 650 mm of rain a year, Ghanzi only about 430 mm.",
+   "draft": true
+  },
+  "Anemometer": {
+   "size": "An instrument with spinning cups that measures wind speed.",
+   "habitat": "At airstrips and weather stations.",
+   "food": "Wind speed matters for flights, boat trips and fire risk.",
+   "breeding": "The ideal height is 10 m above open ground, away from trees and buildings.",
+   "titbit": "The faster the cups spin, the stronger the wind.",
+   "draft": true
+  },
+  "Dust devil": {
+   "size": "A spinning column of rising hot air that picks up dust and leaves.",
+   "habitat": "Hot, still days in the dry season, especially August to October, on pans and open ground.",
+   "food": "Dust devils show strong heating of the ground, the same process that builds storm clouds.",
+   "breeding": "Unlike a tornado, a dust devil forms on a clear day and is not attached to a cloud.",
+   "titbit": "Dust devils can rise hundreds of metres but usually last only a few minutes.",
+   "draft": true
+  },
+  "Dust storm": {
+   "size": "A wall of dust and sand carried by strong wind, often ahead of a storm.",
+   "habitat": "Late dry season (August to October) in the Kalahari and over the Makgadikgadi pans.",
+   "food": "Dust storms cut visibility and can ground flights and close roads.",
+   "breeding": "Close vehicle windows, protect cameras and keep guests' eyes covered.",
+   "titbit": "Dust from the Makgadikgadi pans can be seen from space.",
+   "draft": true
+  },
+  "Rainbow": {
+   "size": "An arc of colours made when sunlight is bent and reflected by raindrops.",
+   "habitat": "After summer afternoon storms, with the sun low behind you.",
+   "food": "Rainbows often mean the storm is moving away.",
+   "breeding": "The sun is always behind you; red is on the outside of the main bow.",
+   "titbit": "In a double rainbow the colours of the second bow are reversed.",
+   "draft": true
+  },
+  "Frost": {
+   "size": "Ice crystals that form on the ground and plants when the temperature drops below freezing.",
+   "habitat": "Winter mornings (June to August), especially in the Kalahari and low-lying areas.",
+   "food": "Frost kills tender plants and grass and can shape which trees grow in an area.",
+   "breeding": "Warn guests that early winter game drives can be below 0 °C; bring blankets.",
+   "titbit": "Ghanzi has recorded temperatures as low as -8.5 °C.",
+   "draft": true
+  },
+  "Mirage": {
+   "size": "An optical effect where hot air near the ground bends light, making \"water\" appear.",
+   "habitat": "Hot days on the Makgadikgadi pans, Nxai Pan and long straight roads.",
+   "food": "Mirages explain old travellers' stories of lakes that disappear.",
+   "breeding": "Distant trees or animals seem to float above a shimmering \"lake\".",
+   "titbit": "The \"water\" in a mirage is really an image of the sky.",
+   "draft": true
+  },
+  "Halo around the sun": {
+   "size": "A ring of light around the sun or moon made by ice crystals in thin high cloud.",
+   "habitat": "When cirrostratus covers the sky, often before a change in weather.",
+   "food": "A halo is a traditional sign that rain may come within a day or two.",
+   "breeding": "The ring is about 22 degrees across: about the span of an outstretched hand.",
+   "titbit": "Halos are made by six-sided ice crystals bending light like tiny prisms.",
+   "draft": true
+  },
+  "Fog and mist": {
+   "size": "Tiny water droplets hanging in the air near the ground; cloud at ground level.",
+   "habitat": "Cold winter mornings over the Okavango, Chobe and Linyanti waterways.",
+   "food": "Morning mist over water is a beautiful photo opportunity on early boat trips.",
+   "breeding": "Mist forms when water is warmer than the cold air above it.",
+   "titbit": "Cold Benguela current air brings fog to the Namib coast but rarely reaches Botswana.",
    "draft": true
   }
  }

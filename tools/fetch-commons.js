@@ -19,11 +19,13 @@ const FFMPEG = (() => {
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 // Wikimedia limits automated clients: on a "too many requests" answer, wait and try again
 async function get(url, kind) {
-  for (let i = 0; i < 6; i++) {
+  for (let i = 0; i < 12; i++) {
     const r = await fetch(url, { headers: HEAD });
     const ct = r.headers.get('content-type') || '';
     if (r.ok && (kind === 'json' ? ct.includes('json') : ct.startsWith('image/'))) return kind === 'json' ? r.json() : Buffer.from(await r.arrayBuffer());
-    await sleep(15000 * (i + 1));
+    // too many requests: wait as long as Wikimedia asks (or a minute), up to about half an hour in total
+    const ra = Number(r.headers.get('retry-after')) || 60;
+    await sleep(Math.min(300, ra) * 1000);
   }
   throw new Error('Wikimedia kept refusing: ' + url);
 }
@@ -50,7 +52,12 @@ async function get(url, kind) {
     if (!OK.test(lic)) { problems.push(`${s.name}: licence "${lic}" not allowed`); continue; }
     const file = `media/${g}/${slug(s.name)}-${page.pageid}.jpg`;
     const tmp = path.join(ROOT, 'app', file + '.tmp');
-    fs.writeFileSync(tmp, await get(ii.thumburl || ii.url, 'image'));
+    // Wikimedia refuses automated downloads of full-size originals (HTTP 429), so always take one of its standard
+    // thumbnail sizes, the largest that is smaller than the original
+    const tw = [1280, 960, 800, 640, 500, 330].find(w => w < (ii.width || 0)) || 330;
+    const orig = ii.url.split('?')[0], base = orig.split('/').pop();
+    const thumb = orig.replace('/wikipedia/commons/', '/wikipedia/commons/thumb/') + `/${tw}px-${base}${/\.(svg|tiff?)$/i.test(base) ? '.png' : ''}`;
+    fs.writeFileSync(tmp, await get(thumb, 'image'));
     execFileSync(FFMPEG, ['-y', '-loglevel', 'error', '-i', tmp, '-vf', "scale='min(900,iw)':-2", '-q:v', '5', path.join(ROOT, 'app', file)]);
     fs.unlinkSync(tmp);
     if (prev && prev.file !== file) { try { fs.unlinkSync(path.join(ROOT, 'app', prev.file)); } catch (e) { /* gone */ } }

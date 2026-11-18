@@ -1,0 +1,218 @@
+[
+ {
+  "name": "Riverine forest",
+  "size": "Tall forest of big trees growing along rivers on rich alluvial soil.",
+  "habitat": "Along the Okavango, Chobe, Khwai and Boteti rivers and on Delta islands.",
+  "food": "Gives shade, fruit and cover to elephant, bushbuck, leopard and many birds.",
+  "breeding": "Look for jackal berry, sausage tree, knob thorn and African mangosteen.",
+  "titbit": "Long daylight hours and constant water explain the forests along the Delta rivers.",
+  "source": "manual"
+ },
+ {
+  "name": "Mopane woodland",
+  "size": "Woodland or scrub of mopane trees, from 2 m scrub to 30 m \"cathedral mopane\".",
+  "habitat": "Alluvial clay soils of northern Botswana, e.g. Chobe, Savuti and Moremi.",
+  "food": "Good habitat for elephant and buffalo; mopane worms feed on the leaves.",
+  "breeding": "Show the butterfly-shaped leaves; they fold together in the midday heat.",
+  "titbit": "Mopane scrub also holds russet bush-willow and shepherd's tree.",
+  "source": "both"
+ },
+ {
+  "name": "Kalahari sandveld",
+  "size": "Dry bush savanna growing on deep, nutrient-poor Kalahari sand.",
+  "habitat": "Most of central and southern Botswana, e.g. CKGR and Kgalagadi.",
+  "food": "Supports desert-adapted animals like gemsbok, springbok and red hartebeest.",
+  "breeding": "Look for deep-rooted camel thorn and Kalahari apple-leaf trees.",
+  "titbit": "Sand holds little water, so the grasses here are poor grazing (e.g. three-awn grass).",
+  "source": "manual"
+ },
+ {
+  "name": "Acacia (Vachellia) savanna",
+  "size": "Grassland dotted with thorn trees such as the umbrella thorn.",
+  "habitat": "Poorly drained alluvial soils on the edges of floodplains and pans.",
+  "food": "Thorn pods and leaves feed giraffe, kudu, impala and elephant.",
+  "breeding": "Many \"acacias\" are now called Vachellia or Senegalia in new books.",
+  "titbit": "The umbrella thorn grows well in the alluvial soils of floodplain savanna.",
+  "source": "both"
+ },
+ {
+  "name": "Open grassland",
+  "size": "Large open areas covered mainly by grass, with few or no trees.",
+  "habitat": "Nxai Pan, Savuti Marsh and the Makgadikgadi grasslands.",
+  "food": "Grazers such as zebra, wildebeest and springbok feed here, followed by predators.",
+  "breeding": "Open plains are good places to watch cheetah hunting.",
+  "titbit": "Habitats are usually named after their main plants, e.g. grassland.",
+  "source": "both"
+ },
+ {
+  "name": "Okavango floodplain",
+  "size": "Grassy plains that flood each year when the Okavango water arrives.",
+  "habitat": "Seasonal swamps of the Okavango Delta, Khwai and Linyanti.",
+  "food": "Rich grazing for red lechwe, buffalo and zebra, and food for many water birds.",
+  "breeding": "The flood peaks in the dry winter months, long after the rains in Angola.",
+  "titbit": "Red lechwe have long hooves to run through shallow floodwater.",
+  "source": "both"
+ },
+ {
+  "name": "Papyrus swamp (permanent swamp)",
+  "size": "Permanent swamp lined with tall papyrus sedge, up to about 5 m high.",
+  "habitat": "The Okavango Panhandle and the permanent channels of the Delta.",
+  "food": "Papyrus roots trap silt and help build the Delta; sitatunga hide in it.",
+  "breeding": "Look for sitatunga and listen for swamp boubou from a boat.",
+  "titbit": "The Delta drops only 60 m over 250 km, so channels wind slowly through papyrus.",
+  "source": "manual"
+ },
+ {
+  "name": "Lagoon",
+  "size": "A deep, open, permanent pool of water in the Delta.",
+  "habitat": "Permanent swamp areas, e.g. Xakanaxa and Gcodikwe in Moremi.",
+  "food": "Home to hippo, crocodile and fish, and nesting sites for herons and storks.",
+  "breeding": "Never swim in lagoons and keep boats well away from hippo.",
+  "titbit": "Gcodikwe lagoon has one of the largest heronries in southern Africa.",
+  "source": "general"
+ },
+ {
+  "name": "Termite-mound island",
+  "size": "A Delta island that often starts as a termite mound and grows as trees take root.",
+  "habitat": "Thousands are scattered across the Okavango Delta floodplains.",
+  "food": "Gives dry ground for trees, nesting birds and animals during the flood.",
+  "breeding": "Point out the ring of trees and the bare, salty centre of older islands.",
+  "titbit": "Salts build up in island centres as water evaporates, until plants cannot grow.",
+  "source": "both"
+ },
+ {
+  "name": "Salt pan",
+  "size": "A flat, dry lake bed covered with a white salt crust.",
+  "habitat": "Makgadikgadi (Sua and Ntwetwe) and many small Kalahari pans.",
+  "food": "After good rains pans fill and flamingos come to breed.",
+  "breeding": "Never drive on a wet pan: vehicles sink through the crust.",
+  "titbit": "Makgadikgadi is what remains of the huge ancient Lake Makgadikgadi.",
+  "source": "both"
+ },
+ {
+  "name": "Kalahari dunes",
+  "size": "Long, low ridges of red Kalahari sand, held in place by grass.",
+  "habitat": "South-western Botswana, especially the Kgalagadi Transfrontier Park.",
+  "food": "Home to gemsbok, springbok, meerkats and many burrowing animals.",
+  "breeding": "Read the tracks in the sand early in the morning.",
+  "titbit": "The red colour comes from iron oxide coating the sand grains.",
+  "source": "general"
+ },
+ {
+  "name": "Grazers",
+  "size": "Herbivores (primary consumers) that feed mainly on grass.",
+  "habitat": "Grasslands, floodplains and open savanna.",
+  "food": "They turn grass into food for predators, scavengers and decomposers.",
+  "breeding": "Examples: zebra, buffalo, tsessebe and wildebeest.",
+  "titbit": "Some are bulk grazers (e.g. buffalo); others are selective grazers.",
+  "source": "manual"
+ },
+ {
+  "name": "Browsers",
+  "size": "Herbivores that eat leaves, fruit, seeds and twig tips of trees and shrubs.",
+  "habitat": "Woodland and bush savanna.",
+  "food": "Browse at many heights lets many species share the same trees.",
+  "breeding": "Examples: giraffe, kudu and eland; they seldom eat grass.",
+  "titbit": "Savanna has browse at many levels plus grazing, so it supports many species.",
+  "source": "manual"
+ },
+ {
+  "name": "Predator and prey (food chain)",
+  "size": "A food chain: sun to plants to herbivores to predators to scavengers.",
+  "habitat": "Everywhere in the bush; easiest to show at a kill.",
+  "food": "Predators keep herbivore numbers healthy and in balance.",
+  "breeding": "Only about 10% of the energy passes up to the next level.",
+  "titbit": "Many food chains link together to form a food web.",
+  "source": "manual"
+ },
+ {
+  "name": "Scavengers at a carcass",
+  "size": "Animals that feed on dead animals or steal kills from predators.",
+  "habitat": "Seen at carcasses in all habitats.",
+  "food": "They clean up carcasses and help stop disease spreading.",
+  "breeding": "Circling or dropping vultures can lead you to a kill.",
+  "titbit": "Lions and leopards scavenge too, but they are not true scavengers.",
+  "source": "manual"
+ },
+ {
+  "name": "Decomposers (fungi)",
+  "size": "Fungi and bacteria that break down dead plants and animals.",
+  "habitat": "Dead wood, dung, leaf litter and termite mounds.",
+  "food": "They return nutrients to the soil so plants can grow again.",
+  "breeding": "Show guests fungi on dead logs as nature's recyclers.",
+  "titbit": "Decomposers are the essential link in the nutrient cycle.",
+  "source": "manual"
+ },
+ {
+  "name": "Dung beetle (recycling)",
+  "size": "A detritivore beetle that feeds on and breeds in animal dung.",
+  "habitat": "Common near fresh dung, mostly in the rainy season.",
+  "food": "Buries dung, which feeds the soil and plants.",
+  "breeding": "Point out the rolled ball; females lay eggs inside buried balls.",
+  "titbit": "Dung beetles can use the sun and the Milky Way to roll in a straight line.",
+  "source": "both"
+ },
+ {
+  "name": "Mutualism (oxpecker on buffalo)",
+  "size": "A relationship where both partners benefit.",
+  "habitat": "Oxpeckers ride on buffalo, giraffe and other large mammals.",
+  "food": "Oxpeckers eat ticks, and the host gets rid of parasites.",
+  "breeding": "Other examples: honeyguide and honey badger; elephant and marula.",
+  "titbit": "Oxpeckers also feed on blood from wounds, so the benefit is sometimes debated.",
+  "source": "both"
+ },
+ {
+  "name": "Seed dispersal (elephant dung)",
+  "size": "Elephants eat fruit such as marula and spread the seeds in their dung.",
+  "habitat": "Wherever elephants feed, especially in marula and palm woodland.",
+  "food": "Seeds land in a nitrogen-rich heap of manure, ready to grow.",
+  "breeding": "Break open old dung to show guests seeds and plant fibre.",
+  "titbit": "Elephants digest less than half of what they eat.",
+  "source": "both"
+ },
+ {
+  "name": "Commensalism (cattle egret)",
+  "size": "A relationship where one partner benefits and the other is unaffected.",
+  "habitat": "Cattle egrets follow buffalo, lechwe and elephant in grassland.",
+  "food": "The grazers disturb insects, which the egrets catch.",
+  "breeding": "Other examples: hornbills nesting in tree holes; waxbills nesting by wasp nests.",
+  "titbit": "Cattle egrets also follow cattle and tractors.",
+  "source": "both"
+ },
+ {
+  "name": "Parasitism (mistletoe)",
+  "size": "A relationship where the parasite benefits and the host is harmed.",
+  "habitat": "Mistletoe grows on many savanna trees, e.g. acacias.",
+  "food": "Mistletoe roots grow under the bark and take the host tree's sugars.",
+  "breeding": "Other examples: parasitic wasps in caterpillars; ticks on game.",
+  "titbit": "The sour plum is a partial parasite on the roots of grasses.",
+  "source": "manual"
+ },
+ {
+  "name": "Competition (impala rams)",
+  "size": "Intra-specific competition: animals of one species compete for something scarce.",
+  "habitat": "Seen in impala herds during the rutting season.",
+  "food": "Only the strongest rams win mates and pass on their genes.",
+  "breeding": "Inter-specific competition is between species, e.g. kingfisher and starling for nest holes.",
+  "titbit": "Impala rams fight for dominance during the rut.",
+  "source": "manual"
+ },
+ {
+  "name": "Fire and burnt veld",
+  "size": "Fire is a natural factor that shapes savanna and grassland.",
+  "habitat": "Grasslands and floodplains, mainly in the dry season.",
+  "food": "Helps some seeds germinate, controls invader plants and removes dead grass.",
+  "breeding": "Fires that are too frequent or at the wrong time harm many organisms.",
+  "titbit": "Fresh green grass after a burn quickly attracts grazers.",
+  "source": "both"
+ },
+ {
+  "name": "Carrying capacity (elephant impact)",
+  "size": "The most animals an area can support for ever without damaging it.",
+  "habitat": "Easy to see along the Chobe riverfront and at Savuti.",
+  "food": "Too many elephants push over and debark trees, changing woodland to scrub.",
+  "breeding": "Water, temperature, sunlight, soils and fire all limit carrying capacity.",
+  "titbit": "Old, leached Kalahari sands give lower carrying capacity than East Africa.",
+  "source": "manual"
+ }
+]

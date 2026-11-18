@@ -1,0 +1,209 @@
+[
+ {
+  "name": "Chobe National Park",
+  "size": "A national park famous for its huge elephant herds.",
+  "habitat": "Far north of Botswana, along the Chobe River near Kasane.",
+  "food": "Main attractions: the Chobe riverfront, Linyanti and Savuti.",
+  "breeding": "No off-road driving; summer gate times are 05:30-19:00.",
+  "titbit": "Mostly savanna, with large areas of miombo woodland in the north and east.",
+  "source": "manual"
+ },
+ {
+  "name": "Savuti",
+  "size": "A remote area of Chobe National Park with a marsh and a channel.",
+  "habitat": "South-western Chobe National Park, between Linyanti and Mababe.",
+  "food": "Known as one of the best areas in Africa for predators.",
+  "breeding": "The Savuti Channel dries up and flows again over many years.",
+  "titbit": "Savuti lions became famous for hunting elephants.",
+  "source": "both"
+ },
+ {
+  "name": "Linyanti",
+  "size": "A river and wetland area in the north-west of Chobe National Park.",
+  "habitat": "Along the Linyanti River on the Namibian border.",
+  "food": "Large elephant herds come to drink here in the dry season.",
+  "breeding": "The Kwando River is blocked by the Linyanti fault and turns north-east.",
+  "titbit": "Much of the area is private concession land with photographic lodges.",
+  "source": "both"
+ },
+ {
+  "name": "Nxai Pan National Park",
+  "size": "A national park of open grassland and dry Kalahari savanna.",
+  "habitat": "North of the Makgadikgadi Pans, off the Maun-Nata road.",
+  "food": "Its waterhole is a wildlife hotspot in the hot, dry months.",
+  "breeding": "Most wildlife is on the grassy Nxai Pan, north of Baines' Baobabs.",
+  "titbit": "Zebra migrate between Nxai Pan and the Makgadikgadi Pans.",
+  "source": "manual"
+ },
+ {
+  "name": "Baines' Baobabs",
+  "size": "A cluster of old baobab trees on a rocky ridge in Nxai Pan National Park.",
+  "habitat": "South of Nxai Pan, overlooking a salt pan and grassland.",
+  "food": "One of the most photographed landmarks in Botswana.",
+  "breeding": "Compare the trees with Baines' painting: they have changed very little.",
+  "titbit": "Thomas Baines painted these trees on an expedition in 1862.",
+  "source": "manual"
+ },
+ {
+  "name": "Makgadikgadi Pans National Park",
+  "size": "A national park established to protect the Sua and Ntwetwe salt pans.",
+  "habitat": "Central-northern Botswana, along the Boteti River.",
+  "food": "The Boteti River is a wildlife-rich area and a main attraction.",
+  "breeding": "In the dry season zebra and wildebeest crowd the Boteti to drink.",
+  "titbit": "The Boteti carries overflow from the Okavango towards Lake Xau.",
+  "source": "both"
+ },
+ {
+  "name": "Moremi Game Reserve",
+  "size": "A game reserve set up to conserve the wildlife of the Okavango Delta.",
+  "habitat": "Eastern Okavango Delta, north of Maun.",
+  "food": "Public camps: South Gate, North Gate, Xakanaxa and Third Bridge.",
+  "breeding": "There is no vehicle access to Chief's Island; it has two lodges.",
+  "titbit": "Moremi was set up by the BaTawana people in 1963.",
+  "source": "both"
+ },
+ {
+  "name": "Central Kalahari Game Reserve",
+  "size": "About 52,800 km², one of Africa's largest reserves; established in 1961.",
+  "habitat": "In the heart of the Kalahari thirstland, central Botswana.",
+  "food": "Home to the San people and desert antelope like oryx, springbok and red hartebeest.",
+  "breeding": "Walking from lodge sites is allowed here; night drives are not.",
+  "titbit": "It is more than 1.5 times larger than Belgium.",
+  "source": "manual"
+ },
+ {
+  "name": "Khama Rhino Sanctuary",
+  "size": "A community-run sanctuary declared to protect rhino.",
+  "habitat": "Near Serowe in the Central District.",
+  "food": "Breeds white and black rhino to restock Botswana's wild areas.",
+  "breeding": "In sanctuaries access times are flexible and night drives may be allowed.",
+  "titbit": "Killing a rhino can mean a P100 000 fine or 15 years in prison.",
+  "source": "both"
+ },
+ {
+  "name": "Nata Bird Sanctuary",
+  "size": "A sanctuary established to protect flamingos.",
+  "habitat": "North-east corner of Sua Pan, near Nata village.",
+  "food": "One of only 5 breeding sites for lesser flamingo.",
+  "breeding": "As the last part of Sua Pan to dry up, it can give spectacular flamingo viewing.",
+  "titbit": "The fresh-to-salt water gradient gives good bird and plant diversity.",
+  "source": "manual"
+ },
+ {
+  "name": "Kgalagadi Transfrontier Park",
+  "size": "Botswana's only transfrontier park, shared with South Africa.",
+  "habitat": "Far south-western Botswana, along the Nossob River.",
+  "food": "Red dunes and dry riverbeds hold gemsbok, springbok and black-maned lions.",
+  "breeding": "Look for game along the dry Nossob and Auob riverbeds.",
+  "titbit": "The planned KAZA area will be the world's largest transfrontier conservation area.",
+  "source": "both"
+ },
+ {
+  "name": "Tsodilo Hills",
+  "size": "A UNESCO World Heritage Site (cultural), sacred to the San.",
+  "habitat": "North-west Botswana, west of the Okavango Panhandle.",
+  "food": "Protects about 4,500 San rock paintings.",
+  "breeding": "Activities: guided rock art walks and a sunrise climb of Male Hill.",
+  "titbit": "Male Hill, at 1,400 m, is the highest point in northern Botswana.",
+  "source": "manual"
+ },
+ {
+  "name": "Tsodilo rock art",
+  "size": "Ancient rock paintings of animals, people and patterns.",
+  "habitat": "On the rock faces of the Tsodilo Hills.",
+  "food": "Shows thousands of years of human history and San beliefs.",
+  "breeding": "Never touch or wet the paintings; oil and water damage them.",
+  "titbit": "The main hills are called the Male, Female and Child.",
+  "source": "both"
+ },
+ {
+  "name": "Okavango Delta",
+  "size": "A huge inland delta; a UNESCO World Heritage Site since 2014.",
+  "habitat": "North-western Botswana, fed by rivers from the Angolan highlands.",
+  "food": "Supports huge wildlife numbers, tourism and local people.",
+  "breeding": "The flood arrives in winter, months after the summer rains in Angola.",
+  "titbit": "It was the 1,000th site on the World Heritage list.",
+  "source": "manual"
+ },
+ {
+  "name": "Makgadikgadi salt pans",
+  "size": "One of the largest salt flats on Earth: Sua Pan and Ntwetwe Pan.",
+  "habitat": "North-eastern Botswana, between Nata, Gweta and Maun.",
+  "food": "A remnant of ancient Lake Makgadikgadi, which covered over 100,000 km².",
+  "breeding": "Ntwetwe Pan is more broken up and vegetated than Sua Pan.",
+  "titbit": "In good rains, thousands of flamingos come to the pans.",
+  "source": "both"
+ },
+ {
+  "name": "Kubu Island",
+  "size": "A rocky outcrop covered in baobab trees, rising from Sua Pan.",
+  "habitat": "South-western Sua Pan, Makgadikgadi.",
+  "food": "One of Botswana's most scenic places and a national monument.",
+  "breeding": "Only for self-sufficient campers: bring all water and fuel.",
+  "titbit": "The smaller, lesser-known Kokonje Island is also spectacular.",
+  "source": "both"
+ },
+ {
+  "name": "Chapman's Baobab",
+  "size": "A giant baobab named after the explorer James Chapman.",
+  "habitat": "Near Ntwetwe Pan, east of Makgadikgadi Pans National Park.",
+  "food": "An old landmark where early travellers left messages.",
+  "breeding": "It is on a private concession; visit from Jack's Camp or San Camp.",
+  "titbit": "The great tree collapsed in January 2016.",
+  "source": "both"
+ },
+ {
+  "name": "Mannyelanong Game Reserve",
+  "size": "A small game reserve declared to protect one species.",
+  "habitat": "At Otse, south of Gaborone.",
+  "food": "Protects a breeding colony of Cape griffon (Cape vulture) on the cliffs.",
+  "breeding": "All vultures are protected birds in Botswana.",
+  "titbit": "It shows that some reserves protect one species, not a whole wilderness.",
+  "source": "manual"
+ },
+ {
+  "name": "Kasane",
+  "size": "A town and the gateway to Chobe National Park.",
+  "habitat": "Far north-east Botswana, on the Chobe River.",
+  "food": "Close to Kazungula, where Botswana, Zambia, Zimbabwe and Namibia meet.",
+  "breeding": "Boat cruises on the Chobe River are the main activity.",
+  "titbit": "Victoria Falls is only about 80 km away.",
+  "source": "general"
+ },
+ {
+  "name": "Maun",
+  "size": "Botswana's tourism capital and gateway to the Okavango Delta.",
+  "habitat": "On the Thamalakane River at the south-eastern edge of the Delta.",
+  "food": "Most fly-in safaris to Delta camps start at Maun airport.",
+  "breeding": "Scenic flights from Maun show the Delta's channels and islands.",
+  "titbit": "The Thamalakane fault stops many Delta rivers near Maun.",
+  "source": "both"
+ },
+ {
+  "name": "Mokoro trip",
+  "size": "A trip in a mokoro, a dugout or fibreglass canoe pushed with a pole.",
+  "habitat": "Shallow channels of the Okavango Delta.",
+  "food": "Gives local polers income and a quiet, low-impact safari.",
+  "breeding": "In a storm, pole to shore as soon as possible.",
+  "titbit": "Mokoros were carved from big tree trunks; most are now fibreglass.",
+  "source": "both"
+ },
+ {
+  "name": "Northern Tuli (Mashatu)",
+  "size": "Private game reserves in the Tuli Block, on freehold land.",
+  "habitat": "Eastern Botswana, where the Limpopo and Shashe rivers meet.",
+  "food": "Known for elephant, rocky koppies and big baobabs.",
+  "breeding": "Walks, horse rides and night drives are allowed on private land.",
+  "titbit": "Tuli is one of the few freehold land areas in Botswana.",
+  "source": "both"
+ },
+ {
+  "name": "Lake Ngami",
+  "size": "A shallow lake that fills and dries with the Okavango flood cycles.",
+  "habitat": "South-west of Maun, at the end of the Nhabe and Kunyere rivers.",
+  "food": "When full it attracts huge numbers of water birds.",
+  "breeding": "The Thaoge, its old main feeder, has not reached the lake in over 50 years.",
+  "titbit": "David Livingstone reached the lake in 1849.",
+  "source": "both"
+ }
+]

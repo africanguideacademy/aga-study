@@ -251,12 +251,21 @@ for (const [g, title] of Object.entries(PHOTO_GROUPS)) {
     if (s.manual) { o.f = 1; if (s.page) o.page = s.page; }
     return o;
   }).filter(Boolean);
+  const listLen = JSON.parse(fs.readFileSync(lf, 'utf8').replace(/^﻿/, '')).length;
+  if (items.length < 0.8 * listLen) { console.log(`(${g}: only ${items.length}/${listLen} photos so far - not shown in the app yet)`); continue; }
   if (items.length) appData.modules.push({ id: g + '-photos', title: title + ' photos', short: title, subtitle: `${items.length} ${title.toLowerCase()} of Botswana`,
     featured: 'In the manual', defaultScope: 'all', items });
 }
 // frog calls without a photo borrow the frog's species photo
 {
   const fp = appData.modules.find(m => m.id === 'amphibians-photos'), fc = appData.modules.find(m => m.id === 'frog-calls');
+  // ...and frog photos get the frog's call, so Amphibians works like Birds (play the call while browsing)
+  const FROG_ALIAS = { 'bushveld rain frog': 'bushveld rain frog (b. a. adspersus)' };
+  if (fp && fc) fp.items.forEach(i => {
+    const k = norm(FROG_ALIAS[i.name.toLowerCase()] || i.name);
+    const c = fc.items.find(x => norm(x.name) === k) || fc.items.find(x => i.sci && x.sci && norm(x.sci.split(' ').pop()) === norm(i.sci.split(' ').pop()) && x.sci[0] === i.sci[0]);
+    if (c) { i.call = c.call; i.bytes = c.bytes; }
+  });
   if (fp && fc) fc.items.forEach(i => { if (i.photo) return; const p = fp.items.find(x => norm(x.name) === norm(i.name)); if (p) Object.assign(i, { photo: p.photo, credit: p.credit, license: p.license, src: p.src }); });
 }
 // ---------------- bird levels: Beginner / Intermediate / Botswana (tools/make-bird-levels.js) ----------------

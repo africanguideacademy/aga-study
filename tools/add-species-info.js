@@ -18,7 +18,7 @@ for (const f of fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort()) {
   list.forEach(x => {
     if (!x.name || have.has(x.name)) return;
     have.add(x.name);
-    rows.push([x.name, group.charAt(0).toUpperCase() + group.slice(1), x.size, x.habitat, x.food, x.breeding, x.titbit, x.source, 'Draft', '']);
+    rows.push([x.name, ({ 'weather-and-climate': 'Weather and Climate', 'tourism-and-legislation': 'Tourism and Legislation' })[group] || group.charAt(0).toUpperCase() + group.slice(1), x.size, x.habitat, x.food, x.breeding, x.titbit, x.source, 'Draft', '']);
   });
 }
 const lines = rows.map(r => r.map(csvCell).join(','));
