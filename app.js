@@ -117,7 +117,9 @@
   }
   // Wrong answers: prefer the same group (other cuckoos, other larks...), then anything.
   function distractors(answer, pool, n) {
-    const others = pool.filter(i => i.id !== answer.id && i.name !== answer.name);
+    let others = pool.filter(i => i.id !== answer.id && i.name !== answer.name);
+    // items of a kind (rocks, clouds, habitats, ideas, places...) only get wrong answers of the same kind
+    if (answer.kind) { const k = others.filter(i => i.kind === answer.kind); if (k.length >= n) others = k; }
     const same = shuffle(others.filter(i => i.group && i.group === answer.group));
     const rest = shuffle(others.filter(i => !(i.group && i.group === answer.group)));
     return same.slice(0, 2).concat(rest, same.slice(2)).slice(0, n);
@@ -476,8 +478,8 @@
       const pics = modeKey === 'call2photo' || modeKey === 'name2photo';
       let prompt;
       const noun = subjectOf(mod).noun || 'bird'; // "bird" / "frog"
-      if (modeKey === 'photo2name') prompt = `<img class="main" src="${esc(pickPhoto(q))}" alt="Photo"><div class="q">Which ${noun} is this?</div>`;
-      else if (modeKey === 'name2photo') prompt = `<div class="hint">Tap the photo of the</div><div class="big-name">${esc(q.name)}</div>`;
+      if (modeKey === 'photo2name') prompt = `<img class="main" src="${esc(pickPhoto(q))}" alt="Photo"><div class="q">${esc(q.ask || `Which ${noun} is this?`)}</div>`;
+      else if (modeKey === 'name2photo') prompt = `<div class="hint">${q.kind ? 'Tap the photo that shows' : 'Tap the photo of the'}</div><div class="big-name">${esc(q.name)}</div>`;
       else prompt = `${playBtnHtml('playQ', '', true)}<div class="q">${modeKey === 'call2photo' ? `Tap the ${noun} that makes this call` : 'Whose call is this?'}</div><div class="hint">Tap the button to play it again</div>`;
       const optHtml = opts.map((o, k) => pics
         ? `<button class="opt" data-id="${esc(o.id)}" aria-label="Option ${k + 1}"><img src="${esc(o.photo)}" alt=""><span class="cap"></span></button>`
@@ -610,11 +612,11 @@
       if (c.q) { textCard(c); return; }
       const front = soundFront
         ? `${playBtnHtml('fPlay', '', true)}<div class="hint">Whose call is this? Tap the card to check.</div>`
-        : `<img src="${esc(cph)}" alt="Photo"><div class="hint">Who is this? Tap the card to check.</div>`;
+        : `<img src="${esc(cph)}" alt="Photo"><div class="hint">${esc(c.ask || `Which ${subjectOf(mod).noun || 'species'} is this?`)} Tap the card to check.</div>`;
       const back = `${c.photo ? `<img src="${esc(cph)}" alt="">` : ''}<div class="big-name">${esc(c.name)}</div>
         <div class="small" style="margin-bottom:12px">${esc(c.group || '')}</div>
         ${c.call ? playBtnHtml('bPlay', 'Play call') : (subjectOf(mod).calls ? '<div class="small">No call recording in the library</div>' : '')}
-        ${INFO[c.name] && INFO[c.name].titbit ? `<div class="titbit small-tb">${esc(INFO[c.name].titbit)}</div>` : ''}`;
+        ${infoFor(c.name, mod) && infoFor(c.name, mod).titbit ? `<div class="titbit small-tb">${esc(infoFor(c.name, mod).titbit)}</div>` : ''}`;
       show(`<div class="flash" id="flash"><div class="flash-inner"><div class="card face front">${front}</div><div class="card face back">${back}</div></div></div>`);
       const flash = $('flash');
       const fp = $('fPlay'), bp = $('bPlay');
@@ -694,7 +696,7 @@
         const box = rec(mod.id, i.id).box;
         const dots = [0, 1, 2].map(k => `<i class="${k < box ? 'on' : ''}"></i>`).join('');
         return `<div class="card tile"><a class="tile-link" href="#/m/${mod.id}/sp/${esc(i.id)}" aria-label="About the ${esc(i.name)}">${i.photo ? `<img loading="lazy" src="${esc(i.photo)}" alt="">` : `<div class="ph">${icon('sound')}</div>`}
-          ${INFO[i.name] ? `<span class="info-dot" aria-hidden="true">i</span>` : ''}
+          ${infoFor(i.name, mod) ? `<span class="info-dot" aria-hidden="true">i</span>` : ''}
           <div class="nm">${esc(i.name)}</div></a>
           <div class="row"><span class="dots" title="Progress">${dots}</span>
           ${i.call ? `<button class="mini-play" data-call="${esc(i.call)}" data-label="Play" aria-label="Play call of ${esc(i.name)}"><span class="pi">${icon('play')}</span><span class="lbl">Play</span></button>` : ''}</div></div>`;
@@ -710,13 +712,14 @@
 
   // ---------- species page (tap a tile in Browse) ----------
   const INFO = DATA.info || {};
+  const infoFor = (name, mod) => { const s = mod && subjectOf(mod); return (s && INFO[s.title + '|' + name]) || INFO[name]; };
   const FACTS = [['size', 'Size'], ['habitat', 'Where it lives'], ['food', 'Food'], ['breeding', 'Breeding']];
   function renderSpecies(mod, id) {
     const subj = subjectOf(mod);
     const items = scopedItems(mod).slice().sort((a, b) => a.name.localeCompare(b.name));
     const k = items.findIndex(i => i.id === id);
     const it = k >= 0 ? items[k] : mod.items.find(i => i.id === id);
-    const info = INFO[it.name];
+    const info = infoFor(it.name, mod);
     chrome({ tab: 'home', back: `#/m/${mod.id}/browse`, title: it.name });
     const nav = (j, dir) => j >= 0 && j < items.length ? `<a class="btn ghost sp-nav ${dir > 0 ? 'nx' : ''}" href="#/m/${mod.id}/sp/${esc(items[j].id)}">${dir < 0 ? '&lsaquo; ' : ''}${esc(items[j].name)}${dir > 0 ? ' &rsaquo;' : ''}</a>` : '<span></span>';
     const LABELS = { plants: { size: 'Size and form', food: 'Uses', breeding: 'Flowers and fruit' },
@@ -956,7 +959,7 @@
         const pool = mod.items.filter(MODES[mode].needs);
         opts = shuffle([q].concat(distractors(q, pool, 3)));
         prompt = mode === 'photo2name'
-          ? `<div class="card prompt"><img class="main" src="${esc(pickPhoto(q))}" alt="Photo"><div class="q">Which ${esc(subj.noun || 'species')} is this?</div></div>`
+          ? `<div class="card prompt"><img class="main" src="${esc(pickPhoto(q))}" alt="Photo"><div class="q">${esc(q.ask || `Which ${subj.noun || 'species'} is this?`)}</div></div>`
           : `<div class="card prompt">${playBtnHtml('playQ', '', true)}<div class="q">Whose call is this?</div></div>`;
       }
       show(`${prompt}<div class="options text${mode === 'mcq' ? ' one' : ''}">${opts.map((x, k) => `<button class="opt" data-id="${esc(x.id)}"><span class="k">${'ABCD'[k]}</span><span>${esc(x.name)}</span></button>`).join('')}</div>`);

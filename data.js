@@ -6150,7 +6150,7 @@ window.AGA_DATA = {
    "id": "geology-photos",
    "title": "Rocks and landscapes photos",
    "short": "Rocks and landscapes",
-   "subtitle": "25 rocks and landscapes of Botswana",
+   "subtitle": "22 rocks and landscapes of Botswana",
    "featured": "In the manual",
    "defaultScope": "all",
    "items": [
@@ -6164,7 +6164,9 @@ window.AGA_DATA = {
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ARocks_-_Alkali_feldspar_granite.JPG",
      "f": 1,
-     "page": 21
+     "page": 21,
+     "kind": "rock",
+     "ask": "Which rock or mineral is this?"
     },
     {
      "id": "geology-basalt",
@@ -6176,7 +6178,9 @@ window.AGA_DATA = {
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ABasalt_columns_22897.JPG",
      "f": 1,
-     "page": 21
+     "page": 21,
+     "kind": "rock",
+     "ask": "Which rock or mineral is this?"
     },
     {
      "id": "geology-rhyolite",
@@ -6189,6 +6193,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3ARhyolite_(Paleocene-Eocene%2C_52-59_Ma%3B_Orphan_Boy_Mine%2C_Butte%2C_Montana%2C_USA)_5.jpg",
      "f": 1,
      "page": 19,
+     "kind": "rock",
+     "ask": "Which rock or mineral is this?",
      "wide": 1
     },
     {
@@ -6201,7 +6207,9 @@ window.AGA_DATA = {
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ACross-bedding_in_quartzose_sandstone_(Black_Hand_Sandstone%2C_Lower_Mississippian%3B_railroad_cut_west_of_Black_Hand_Gorge%2C_Ohio%2C_USA)_3_(31106110716).jpg",
      "f": 1,
-     "page": 21
+     "page": 21,
+     "kind": "rock",
+     "ask": "Which rock or mineral is this?"
     },
     {
      "id": "geology-shale",
@@ -6214,6 +6222,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3ACone-in-cone_limestone_interbed_in_shales_(Ohio_Shale%2C_Upper_Devonian%3B_Glen_Echo_Ravine%2C_Columbus%2C_Ohio%2C_USA)_4_(36512641002).jpg",
      "f": 1,
      "page": 21,
+     "kind": "rock",
+     "ask": "Which rock or mineral is this?",
      "wide": 1
     },
     {
@@ -6226,20 +6236,9 @@ window.AGA_DATA = {
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ALimestone_outcrop_above_Kingsdale_-_geograph.org.uk_-_5920751.jpg",
      "f": 1,
-     "page": 21
-    },
-    {
-     "id": "geology-dolomite",
-     "name": "Dolomite",
-     "group": "Rocks",
-     "photo": "media/geology/dolomite-74bbb33809.jpg",
-     "pb": 206567,
-     "credit": "Wikimedia Commons (photographer named on the source page)",
-     "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3APut-in-Bay_Dolomite_over_Tymochtee_Dolomite_(Upper_Silurian%3B_South_Bass_Island%2C_Lake_Erie%2C_Ohio%2C_USA)_7_(48628000726).jpg",
-     "f": 1,
-     "page": 19,
-     "wide": 1
+     "page": 21,
+     "kind": "rock",
+     "ask": "Which rock or mineral is this?"
     },
     {
      "id": "geology-quartzite",
@@ -6252,6 +6251,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3AQuartzite_Pillar_Formations_-_Garretson%2C_South_Dakota_(8-30-26).jpg",
      "f": 1,
      "page": 19,
+     "kind": "rock",
+     "ask": "Which rock or mineral is this?",
      "wide": 1
     },
     {
@@ -6264,19 +6265,23 @@ window.AGA_DATA = {
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AGarnet-mica_schist_(Gassetts%2C_Vermont%2C_USA)_2.jpg",
      "f": 1,
-     "page": 21
+     "page": 21,
+     "kind": "rock",
+     "ask": "Which rock or mineral is this?"
     },
     {
-     "id": "geology-diamond-rough",
-     "name": "Diamond (rough)",
+     "id": "geology-rough-diamond",
+     "name": "Rough diamond",
      "group": "Rocks",
-     "photo": "media/geology/diamond-rough-d8209668e2.jpg",
+     "photo": "media/geology/rough-diamond-d8209668e2.jpg",
      "pb": 63308,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ADiamond_crystal%2C_0%2C7_ct.jpg",
      "f": 1,
-     "page": 21
+     "page": 21,
+     "kind": "rock",
+     "ask": "Which rock or mineral is this?"
     },
     {
      "id": "geology-kimberlite",
@@ -6287,6 +6292,8 @@ window.AGA_DATA = {
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AKimberlite_(Chicken_Park_Kimberlite_Pipe%2C_Neoproterozoic%2C_614_Ma%3B_near_Red_Feather_Lakes%2C_State_Line_Kimberlite_Field%2C_Larimer_County%2C_northern_Colorado%2C_USA)_2_(15830382092).jpg",
+     "kind": "rock",
+     "ask": "Which rock or mineral is this?",
      "wide": 1
     },
     {
@@ -6298,6 +6305,8 @@ window.AGA_DATA = {
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ACaliche-5731.jpg",
+     "kind": "rock",
+     "ask": "Which rock or mineral is this?",
      "wide": 1
     },
     {
@@ -6309,6 +6318,8 @@ window.AGA_DATA = {
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AQuartz_-_Agateplate%2C_redbrown-white.jpg",
+     "kind": "rock",
+     "ask": "Which rock or mineral is this?",
      "wide": 1
     },
     {
@@ -6322,6 +6333,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3ATsodilo_Hills%2C_Botswana_(2625371308).jpg",
      "f": 1,
      "page": 19,
+     "kind": "land",
+     "ask": "Which place or landform is this?",
      "wide": 1
     },
     {
@@ -6335,53 +6348,50 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3ABotswana_Nxai_Pan_NP_Salzpfanne.jpg",
      "f": 1,
      "page": 21,
+     "kind": "land",
+     "ask": "Which place or landform is this?",
      "wide": 1
     },
     {
      "id": "geology-kubu-island",
      "name": "Kubu Island",
      "group": "Places",
-     "photo": "media/geology/kubu-island-dd39663d20.jpg",
-     "pb": 111872,
+     "photo": "media/geology/kubu-island-065d330323.jpg",
+     "pb": 106330,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3ABaobabs_on_Kubu_island%2C_Botswana.jpg",
+     "src": "https://commons.wikimedia.org/wiki/File%3AKubuIsland_02.jpg",
+     "kind": "land",
+     "ask": "Which place or landform is this?",
      "wide": 1
     },
     {
-     "id": "geology-kalahari-sand-dunes",
-     "name": "Kalahari sand dunes",
+     "id": "geology-kalahari-dunes",
+     "name": "Kalahari dunes",
      "group": "Landforms",
-     "photo": "media/geology/kalahari-sand-dunes-af61cf6bb3.jpg",
+     "photo": "media/geology/kalahari-dunes-af61cf6bb3.jpg",
      "pb": 123827,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AKalahari_Dunes%2C_Namibia_(3997934029).jpg",
      "f": 1,
-     "page": 20
+     "page": 20,
+     "kind": "land",
+     "ask": "Which place or landform is this?"
     },
     {
-     "id": "geology-okavango-delta-from-the-air",
-     "name": "Okavango Delta from the air",
+     "id": "geology-okavango-delta",
+     "name": "Okavango Delta",
      "group": "Landforms",
-     "photo": "media/geology/okavango-delta-from-the-air-e8fab80db3.jpg",
-     "pb": 103292,
+     "photo": "media/geology/okavango-delta-c7cb59143a.jpg",
+     "pb": 70830,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AOkavango_Delta%2C_Botswana1.jpg",
+     "src": "https://commons.wikimedia.org/wiki/File%3AOkavango_Delta%2C_Botswana.jpg",
      "f": 1,
      "page": 25,
-     "wide": 1
-    },
-    {
-     "id": "geology-termite-mound-islands",
-     "name": "Termite-mound islands",
-     "group": "Landforms",
-     "photo": "media/geology/termite-mound-islands-41b56be549.jpg",
-     "pb": 69827,
-     "credit": "Wikimedia Commons (photographer named on the source page)",
-     "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AOkavango_Delta%2C_Botswana4.jpg",
+     "kind": "land",
+     "ask": "Which place or landform is this?",
      "wide": 1
     },
     {
@@ -6395,30 +6405,23 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3AChobe_River_at_Kasane.jpg",
      "f": 1,
      "page": 24,
+     "kind": "land",
+     "ask": "Which place or landform is this?",
      "wide": 1
     },
     {
-     "id": "geology-savuti-channel",
-     "name": "Savuti Channel",
-     "group": "Places",
-     "photo": "media/geology/savuti-channel-710a9fc221.jpg",
-     "pb": 136427,
-     "credit": "Wikimedia Commons (photographer named on the source page)",
-     "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3ASavuti_Channel_-_Botswana_-_panoramio.jpg",
-     "wide": 1
-    },
-    {
-     "id": "geology-weathering-exfoliation",
-     "name": "Weathering (exfoliation)",
+     "id": "geology-exfoliation",
+     "name": "Exfoliation",
      "group": "Processes",
-     "photo": "media/geology/weathering-exfoliation-5a7e010cbf.jpg",
-     "pb": 142064,
+     "photo": "media/geology/exfoliation-be385178a8.jpg",
+     "pb": 144742,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AEdrey_Mountains%2C_Karaganda_region%2C_Kazakhstan._May_2025_01.jpg",
+     "src": "https://commons.wikimedia.org/wiki/File%3AGeologicalExfoliationOfGraniteRock.jpg",
      "f": 1,
      "page": 22,
+     "kind": "process",
+     "ask": "Which process does this photo show?",
      "wide": 1
     },
     {
@@ -6432,32 +6435,38 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3ALarge-leaved_Rock_Fig_(Ficus_abutilifolia)_roots_(16025195933).jpg",
      "f": 1,
      "page": 22,
+     "kind": "process",
+     "ask": "Which process does this photo show?",
      "wide": 1
     },
     {
-     "id": "geology-lichen-on-rock",
-     "name": "Lichen on rock",
+     "id": "geology-lichen-weathering",
+     "name": "Lichen weathering",
      "group": "Processes",
-     "photo": "media/geology/lichen-on-rock-8a976f93a5.jpg",
+     "photo": "media/geology/lichen-weathering-8a976f93a5.jpg",
      "pb": 153211,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ALichen_orange_pierre.jpg",
      "f": 1,
      "page": 22,
+     "kind": "process",
+     "ask": "Which process does this photo show?",
      "wide": 1
     },
     {
-     "id": "geology-water-erosion-gullies",
-     "name": "Water erosion (gullies)",
+     "id": "geology-water-erosion",
+     "name": "Water erosion",
      "group": "Processes",
-     "photo": "media/geology/water-erosion-gullies-eeb0e2e1d1.jpg",
+     "photo": "media/geology/water-erosion-eeb0e2e1d1.jpg",
      "pb": 76281,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ADongas_(Soil_erosion)_(32403444375).jpg",
      "f": 1,
      "page": 22,
+     "kind": "process",
+     "ask": "Which process does this photo show?",
      "wide": 1
     }
    ]
@@ -6466,7 +6475,7 @@ window.AGA_DATA = {
    "id": "weather-and-climate-photos",
    "title": "Clouds and weather photos",
    "short": "Clouds and weather",
-   "subtitle": "22 clouds and weather of Botswana",
+   "subtitle": "20 clouds and weather of Botswana",
    "featured": "In the manual",
    "defaultScope": "all",
    "items": [
@@ -6481,6 +6490,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File:White_Cumulus_Clouds_against_Blue_Sky_(2).jpg",
      "f": 1,
      "page": 28,
+     "kind": "cloud",
+     "ask": "Which type of cloud is this?",
      "wide": 1
     },
     {
@@ -6494,6 +6505,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File:Cumulonimbus_incus_over_Warsaw,_Poland.jpg",
      "f": 1,
      "page": 28,
+     "kind": "cloud",
+     "ask": "Which type of cloud is this?",
      "wide": 1
     },
     {
@@ -6506,7 +6519,9 @@ window.AGA_DATA = {
      "license": "CC BY-SA 3.0",
      "src": "https://commons.wikimedia.org/wiki/File:Stratus-Opacus-Uniformis.jpg",
      "f": 1,
-     "page": 28
+     "page": 28,
+     "kind": "cloud",
+     "ask": "Which type of cloud is this?"
     },
     {
      "id": "weather-and-climate-stratocumulus",
@@ -6519,19 +6534,9 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File:Stratocumulus_lacunosus.jpg",
      "f": 1,
      "page": 28,
+     "kind": "cloud",
+     "ask": "Which type of cloud is this?",
      "wide": 1
-    },
-    {
-     "id": "weather-and-climate-nimbostratus",
-     "name": "Nimbostratus",
-     "group": "Middle clouds",
-     "photo": "media/weather-and-climate/nimbostratus-83477491.jpg",
-     "pb": 21941,
-     "credit": "GerritR",
-     "license": "CC BY-SA 4.0",
-     "src": "https://commons.wikimedia.org/wiki/File:Nimbostratus_pannus.jpg",
-     "f": 1,
-     "page": 28
     },
     {
      "id": "weather-and-climate-altostratus",
@@ -6543,7 +6548,9 @@ window.AGA_DATA = {
      "license": "CC BY-SA 4.0",
      "src": "https://commons.wikimedia.org/wiki/File:Altostratus_translucidus_am_4.12.2020_in_Limburg_II.jpg",
      "f": 1,
-     "page": 28
+     "page": 28,
+     "kind": "cloud",
+     "ask": "Which type of cloud is this?"
     },
     {
      "id": "weather-and-climate-altocumulus",
@@ -6555,7 +6562,9 @@ window.AGA_DATA = {
      "license": "CC BY-SA 3.0",
      "src": "https://commons.wikimedia.org/wiki/File:Altocumulus_clouds_-_2004.jpg",
      "f": 1,
-     "page": 28
+     "page": 28,
+     "kind": "cloud",
+     "ask": "Which type of cloud is this?"
     },
     {
      "id": "weather-and-climate-cirrus",
@@ -6568,19 +6577,23 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File:Cirrus_uncinus_und_Cirrus_fibratus_II.jpg",
      "f": 1,
      "page": 28,
+     "kind": "cloud",
+     "ask": "Which type of cloud is this?",
      "wide": 1
     },
     {
      "id": "weather-and-climate-cirrostratus",
      "name": "Cirrostratus",
      "group": "High clouds",
-     "photo": "media/weather-and-climate/cirrostratus-113041273.jpg",
-     "pb": 10680,
-     "credit": "Rollcloud",
-     "license": "Public domain",
-     "src": "https://commons.wikimedia.org/wiki/File:Cs_nebulosus_with_faint_halo.jpg",
+     "photo": "media/weather-and-climate/cirrostratus-9dfb897162.jpg",
+     "pb": 24212,
+     "credit": "Wikimedia Commons (photographer named on the source page)",
+     "license": "see source",
+     "src": "https://commons.wikimedia.org/wiki/File%3ACirrostratus_fibratus_with_22_degrees_halo.jpg",
      "f": 1,
-     "page": 28
+     "page": 28,
+     "kind": "cloud",
+     "ask": "Which type of cloud is this?"
     },
     {
      "id": "weather-and-climate-cirrocumulus",
@@ -6592,7 +6605,9 @@ window.AGA_DATA = {
      "license": "CC BY 4.0",
      "src": "https://commons.wikimedia.org/wiki/File:Cirrocumulus_Clouds_at_Stanford_University.jpg",
      "f": 1,
-     "page": 28
+     "page": 28,
+     "kind": "cloud",
+     "ask": "Which type of cloud is this?"
     },
     {
      "id": "weather-and-climate-lightning",
@@ -6605,6 +6620,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File:Lightning_14.07.2009_20-42-33.JPG",
      "f": 1,
      "page": 28,
+     "kind": "weather",
+     "ask": "What is shown in this photo?",
      "wide": 1
     },
     {
@@ -6617,19 +6634,23 @@ window.AGA_DATA = {
      "license": "CC BY-SA 4.0",
      "src": "https://commons.wikimedia.org/wiki/File:Gewitter_in_der_Kalahari.jpg",
      "f": 1,
-     "page": 30
+     "page": 30,
+     "kind": "weather",
+     "ask": "What is shown in this photo?"
     },
     {
      "id": "weather-and-climate-hail",
      "name": "Hail",
      "group": "Weather",
-     "photo": "media/weather-and-climate/hail-e8772dffe6.jpg",
-     "pb": 65985,
+     "photo": "media/weather-and-climate/hail-d28c968957.jpg",
+     "pb": 25348,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AHail_on_the_Ground.JPG",
+     "src": "https://commons.wikimedia.org/wiki/File%3AHand_catching_hailstones_during_a_rainstorm.jpg",
      "f": 1,
      "page": 30,
+     "kind": "weather",
+     "ask": "What is shown in this photo?",
      "wide": 1
     },
     {
@@ -6643,6 +6664,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3AOverview_of_rain_gauge_in_Michle%2C_Prague.jpg",
      "f": 1,
      "page": 26,
+     "kind": "weather",
+     "ask": "What is shown in this photo?",
      "wide": 1
     },
     {
@@ -6655,7 +6678,9 @@ window.AGA_DATA = {
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ACup-Anemometer.jpg",
      "f": 1,
-     "page": 26
+     "page": 26,
+     "kind": "weather",
+     "ask": "What is shown in this photo?"
     },
     {
      "id": "weather-and-climate-dust-devil",
@@ -6666,6 +6691,8 @@ window.AGA_DATA = {
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ADust_devil_(49792193506).jpg",
+     "kind": "weather",
+     "ask": "What is shown in this photo?",
      "wide": 1
     },
     {
@@ -6677,6 +6704,8 @@ window.AGA_DATA = {
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AHaboob_Ransom_Canyon_Texas_2009.jpg",
+     "kind": "weather",
+     "ask": "What is shown in this photo?",
      "wide": 1
     },
     {
@@ -6688,17 +6717,21 @@ window.AGA_DATA = {
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AHome_in_the_Savannas.jpg",
+     "kind": "weather",
+     "ask": "What is shown in this photo?",
      "wide": 1
     },
     {
      "id": "weather-and-climate-frost",
      "name": "Frost",
      "group": "Weather",
-     "photo": "media/weather-and-climate/frost-a8319425c2.jpg",
-     "pb": 232788,
+     "photo": "media/weather-and-climate/frost-44910cbec3.jpg",
+     "pb": 160993,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AFrost_on_grass_and_reed_leaves.jpg",
+     "src": "https://commons.wikimedia.org/wiki/File%3AFrosty_grass_wave.jpg",
+     "kind": "weather",
+     "ask": "What is shown in this photo?",
      "wide": 1
     },
     {
@@ -6709,27 +6742,21 @@ window.AGA_DATA = {
      "pb": 25756,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3ADesert_mirage_.jpg"
+     "src": "https://commons.wikimedia.org/wiki/File%3ADesert_mirage_.jpg",
+     "kind": "weather",
+     "ask": "What is shown in this photo?"
     },
     {
-     "id": "weather-and-climate-halo-around-the-sun",
-     "name": "Halo around the sun",
+     "id": "weather-and-climate-mist",
+     "name": "Mist",
      "group": "Weather",
-     "photo": "media/weather-and-climate/halo-around-the-sun-15462c5366.jpg",
-     "pb": 14651,
-     "credit": "Wikimedia Commons (photographer named on the source page)",
-     "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3ASolar_Eclipse_2024_-_22_degree_halo_(53646055136).jpg"
-    },
-    {
-     "id": "weather-and-climate-fog-and-mist",
-     "name": "Fog and mist",
-     "group": "Weather",
-     "photo": "media/weather-and-climate/fog-and-mist-0e64342636.jpg",
+     "photo": "media/weather-and-climate/mist-0e64342636.jpg",
      "pb": 16034,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AMorning_mist_(53135439422).jpg",
+     "kind": "weather",
+     "ask": "What is shown in this photo?",
      "wide": 1
     }
    ]
@@ -6738,22 +6765,10 @@ window.AGA_DATA = {
    "id": "ecology-photos",
    "title": "Habitats photos",
    "short": "Habitats",
-   "subtitle": "24 habitats of Botswana",
+   "subtitle": "21 habitats of Botswana",
    "featured": "In the manual",
    "defaultScope": "all",
    "items": [
-    {
-     "id": "ecology-riverine-forest",
-     "name": "Riverine forest",
-     "group": "Woodlands",
-     "photo": "media/ecology/riverine-forest-305b4e79cd.jpg",
-     "pb": 133260,
-     "credit": "Wikimedia Commons (photographer named on the source page)",
-     "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AChobe_Riverfront%2C_Botswana_(2633821123).jpg",
-     "f": 1,
-     "page": 23
-    },
     {
      "id": "ecology-mopane-woodland",
      "name": "Mopane woodland",
@@ -6765,32 +6780,37 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3AColophospermum_mopane00.jpg",
      "f": 1,
      "page": 23,
+     "kind": "habitat",
+     "ask": "Which habitat is this?",
      "wide": 1
     },
     {
      "id": "ecology-kalahari-sandveld",
      "name": "Kalahari sandveld",
      "group": "Dry lands",
-     "photo": "media/ecology/kalahari-sandveld-4b09d68d04.jpg",
-     "pb": 59578,
+     "photo": "media/ecology/kalahari-sandveld-686fc57f26.jpg",
+     "pb": 65261,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3A124_Single_Camel_Thorn_tree_with_Plains_zebra_in_the_background_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+     "src": "https://commons.wikimedia.org/wiki/File%3AKalahari_thunder.JPG",
      "f": 1,
      "page": 23,
-     "wide": 1
+     "kind": "habitat",
+     "ask": "Which habitat is this?"
     },
     {
-     "id": "ecology-acacia-vachellia-savanna",
-     "name": "Acacia (Vachellia) savanna",
+     "id": "ecology-acacia-savanna",
+     "name": "Acacia savanna",
      "group": "Woodlands",
-     "photo": "media/ecology/acacia-vachellia-savanna-a44ab5534e.jpg",
+     "photo": "media/ecology/acacia-savanna-a44ab5534e.jpg",
      "pb": 101429,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AFlora_of_Tanzania_0617_Nevit.jpg",
      "f": 1,
-     "page": 23
+     "page": 23,
+     "kind": "habitat",
+     "ask": "Which habitat is this?"
     },
     {
      "id": "ecology-open-grassland",
@@ -6803,32 +6823,38 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3AThe_beauty_landscape_of_Savuti_Marsh_-_Botswana_-_panoramio.jpg",
      "f": 1,
      "page": 33,
+     "kind": "habitat",
+     "ask": "Which habitat is this?",
      "wide": 1
     },
     {
      "id": "ecology-okavango-floodplain",
      "name": "Okavango floodplain",
      "group": "Wetlands",
-     "photo": "media/ecology/okavango-floodplain-41b56be549.jpg",
-     "pb": 69827,
+     "photo": "media/ecology/okavango-floodplain-ec9761cf0d.jpg",
+     "pb": 60909,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AOkavango_Delta%2C_Botswana4.jpg",
+     "src": "https://commons.wikimedia.org/wiki/File%3ADelta_del_Okavango%2C_Botsuana%2C_2018-07-31%2C_DD_01.jpg",
      "f": 1,
      "page": 33,
+     "kind": "habitat",
+     "ask": "Which habitat is this?",
      "wide": 1
     },
     {
-     "id": "ecology-papyrus-swamp-permanent-swamp",
-     "name": "Papyrus swamp (permanent swamp)",
+     "id": "ecology-papyrus-swamp",
+     "name": "Papyrus swamp",
      "group": "Wetlands",
-     "photo": "media/ecology/papyrus-swamp-permanent-swamp-4cda8c7ff4.jpg",
+     "photo": "media/ecology/papyrus-swamp-4cda8c7ff4.jpg",
      "pb": 161944,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AOkavango%2C_Shinde_Lagoon%2C_waterlilies_and_papyrus.jpg",
      "f": 1,
-     "page": 25
+     "page": 25,
+     "kind": "habitat",
+     "ask": "Which habitat is this?"
     },
     {
      "id": "ecology-lagoon",
@@ -6839,6 +6865,8 @@ window.AGA_DATA = {
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AOkavango_Delta%2C_Shinde_Lagoon_(1).jpg",
+     "kind": "habitat",
+     "ask": "Which habitat is this?",
      "wide": 1
     },
     {
@@ -6849,7 +6877,9 @@ window.AGA_DATA = {
      "pb": 100656,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AOkavango11.jpg"
+     "src": "https://commons.wikimedia.org/wiki/File%3AOkavango11.jpg",
+     "kind": "habitat",
+     "ask": "Which habitat is this?"
     },
     {
      "id": "ecology-salt-pan",
@@ -6860,6 +6890,8 @@ window.AGA_DATA = {
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ASalar_del_parque_nacional_Makgadikgadi_Pans%2C_Botsuana%2C_2018-07-30%2C_DD_37.jpg",
+     "kind": "habitat",
+     "ask": "Which habitat is this?",
      "wide": 1
     },
     {
@@ -6870,20 +6902,23 @@ window.AGA_DATA = {
      "pb": 58326,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AKalahari_red_dunes_with_bush.jpeg"
+     "src": "https://commons.wikimedia.org/wiki/File%3AKalahari_red_dunes_with_bush.jpeg",
+     "kind": "habitat",
+     "ask": "Which habitat is this?"
     },
     {
      "id": "ecology-grazers",
      "name": "Grazers",
      "group": "Ecology in action",
-     "photo": "media/ecology/grazers-d1c77e4888.jpg",
-     "pb": 78940,
+     "photo": "media/ecology/grazers-9e25876e6d.jpg",
+     "pb": 111631,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3ABuffaloes_at_Savuti_Marsh_-_Botswana_-_panoramio.jpg",
+     "src": "https://commons.wikimedia.org/wiki/File%3ASome_antelopes_feeding_(4613629032).jpg",
      "f": 1,
      "page": 32,
-     "wide": 1
+     "kind": "idea",
+     "ask": "Which ecological idea does this photo show?"
     },
     {
      "id": "ecology-browsers",
@@ -6896,144 +6931,139 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3AGreater_Kudu_(Tragelaphus_strepsiceros)_male_browsing_..._(52959601218).jpg",
      "f": 1,
      "page": 32,
+     "kind": "idea",
+     "ask": "Which ecological idea does this photo show?",
      "wide": 1
     },
     {
-     "id": "ecology-predator-and-prey-food-chain",
-     "name": "Predator and prey (food chain)",
+     "id": "ecology-food-chain",
+     "name": "Food chain",
      "group": "Ecology in action",
-     "photo": "media/ecology/predator-and-prey-food-chain-8a28471d19.jpg",
+     "photo": "media/ecology/food-chain-8a28471d19.jpg",
      "pb": 138470,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ALioness_after_hunting_waterbuck-_Chobe_National_Park_-_Botswana.jpg",
      "f": 1,
-     "page": 34
+     "page": 34,
+     "kind": "idea",
+     "ask": "Which ecological idea does this photo show?"
     },
     {
-     "id": "ecology-scavengers-at-a-carcass",
-     "name": "Scavengers at a carcass",
+     "id": "ecology-scavengers",
+     "name": "Scavengers",
      "group": "Ecology in action",
-     "photo": "media/ecology/scavengers-at-a-carcass-e9c772b537.jpg",
+     "photo": "media/ecology/scavengers-e9c772b537.jpg",
      "pb": 137606,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AChobe_Riverfront%2C_Botswana_(2628155285).jpg",
      "f": 1,
      "page": 32,
+     "kind": "idea",
+     "ask": "Which ecological idea does this photo show?",
      "wide": 1
     },
     {
-     "id": "ecology-decomposers-fungi",
-     "name": "Decomposers (fungi)",
+     "id": "ecology-decomposers",
+     "name": "Decomposers",
      "group": "Ecology in action",
-     "photo": "media/ecology/decomposers-fungi-c3f575b236.jpg",
+     "photo": "media/ecology/decomposers-c3f575b236.jpg",
      "pb": 144898,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ABracket_fungus%2C_2021-05-06%2C_Bird_Park%2C_02.jpg",
      "f": 1,
-     "page": 32
+     "page": 32,
+     "kind": "idea",
+     "ask": "Which ecological idea does this photo show?"
     },
     {
-     "id": "ecology-dung-beetle-recycling",
-     "name": "Dung beetle (recycling)",
+     "id": "ecology-recycling-by-dung-beetles",
+     "name": "Recycling by dung beetles",
      "group": "Ecology in action",
-     "photo": "media/ecology/dung-beetle-recycling-34f11ec631.jpg",
+     "photo": "media/ecology/recycling-by-dung-beetles-34f11ec631.jpg",
      "pb": 110029,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ALarge_Copper_Dung_Beetle_(Kheper_nigroaeneus)_male_rolling_a_big_ball_(bigger_than_a_tennis_ball)_of_elephant_dung_with_female_as_passenger_..._(32878095098).jpg",
      "f": 1,
-     "page": 32
+     "page": 32,
+     "kind": "idea",
+     "ask": "Which ecological idea does this photo show?"
     },
     {
-     "id": "ecology-mutualism-oxpecker-on-buffalo",
-     "name": "Mutualism (oxpecker on buffalo)",
+     "id": "ecology-mutualism",
+     "name": "Mutualism",
      "group": "Ecology in action",
-     "photo": "media/ecology/mutualism-oxpecker-on-buffalo-218b34f37e.jpg",
+     "photo": "media/ecology/mutualism-218b34f37e.jpg",
      "pb": 66542,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ACape_Buffalo_with_Oxpeckers.jpg",
      "f": 1,
      "page": 33,
+     "kind": "idea",
+     "ask": "Which ecological idea does this photo show?",
      "wide": 1
     },
     {
-     "id": "ecology-seed-dispersal-elephant-dung",
-     "name": "Seed dispersal (elephant dung)",
+     "id": "ecology-commensalism",
+     "name": "Commensalism",
      "group": "Ecology in action",
-     "photo": "media/ecology/seed-dispersal-elephant-dung-5f5ba2aa20.jpg",
-     "pb": 148615,
-     "credit": "Wikimedia Commons (photographer named on the source page)",
-     "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AAfrican_elephant_dung.jpg",
-     "f": 1,
-     "page": 33
-    },
-    {
-     "id": "ecology-commensalism-cattle-egret",
-     "name": "Commensalism (cattle egret)",
-     "group": "Ecology in action",
-     "photo": "media/ecology/commensalism-cattle-egret-13aabccfc6.jpg",
+     "photo": "media/ecology/commensalism-13aabccfc6.jpg",
      "pb": 114082,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AAfrican_buffalo_(Syncerus_caffer_caffer)_male_with_cattle_egret.jpg",
      "f": 1,
      "page": 33,
+     "kind": "idea",
+     "ask": "Which ecological idea does this photo show?",
      "wide": 1
     },
     {
-     "id": "ecology-parasitism-mistletoe",
-     "name": "Parasitism (mistletoe)",
+     "id": "ecology-parasitism",
+     "name": "Parasitism",
      "group": "Ecology in action",
-     "photo": "media/ecology/parasitism-mistletoe-ae914ec649.jpg",
-     "pb": 168530,
+     "photo": "media/ecology/parasitism-dea267d8c5.jpg",
+     "pb": 272046,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3ATapinanthus_rubromarginatus%2C_blomme%2C_a%2C_Waterberg.jpg",
+     "src": "https://commons.wikimedia.org/wiki/File%3ATapinanthus_rubromarginatus%2C_habitus%2C_b%2C_Waterberg.jpg",
      "f": 1,
-     "page": 33
+     "page": 33,
+     "kind": "idea",
+     "ask": "Which ecological idea does this photo show?"
     },
     {
-     "id": "ecology-competition-impala-rams",
-     "name": "Competition (impala rams)",
+     "id": "ecology-competition",
+     "name": "Competition",
      "group": "Ecology in action",
-     "photo": "media/ecology/competition-impala-rams-8c5c4219bc.jpg",
+     "photo": "media/ecology/competition-8c5c4219bc.jpg",
      "pb": 120126,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AImpala_Fighting_(23981143519).jpg",
      "f": 1,
      "page": 32,
+     "kind": "idea",
+     "ask": "Which ecological idea does this photo show?",
      "wide": 1
     },
     {
-     "id": "ecology-fire-and-burnt-veld",
-     "name": "Fire and burnt veld",
+     "id": "ecology-fire",
+     "name": "Fire",
      "group": "Ecology in action",
-     "photo": "media/ecology/fire-and-burnt-veld-ecdc77238c.jpg",
-     "pb": 50254,
+     "photo": "media/ecology/fire-4431dc060f.jpg",
+     "pb": 159188,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AView_after_a_veld_fire_-_panoramio.jpg",
+     "src": "https://commons.wikimedia.org/wiki/File%3ASavanna_fire_Bild1215.jpg",
      "f": 1,
      "page": 35,
-     "wide": 1
-    },
-    {
-     "id": "ecology-carrying-capacity-elephant-impact",
-     "name": "Carrying capacity (elephant impact)",
-     "group": "Ecology in action",
-     "photo": "media/ecology/carrying-capacity-elephant-impact-b5817cbb7a.jpg",
-     "pb": 93566,
-     "credit": "Wikimedia Commons (photographer named on the source page)",
-     "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AElephant_damage_!_(19151188275).jpg",
-     "f": 1,
-     "page": 34
+     "kind": "idea",
+     "ask": "Which ecological idea does this photo show?"
     }
    ]
   },
@@ -7041,7 +7071,7 @@ window.AGA_DATA = {
    "id": "tourism-and-legislation-photos",
    "title": "Parks and places photos",
    "short": "Parks and places",
-   "subtitle": "23 parks and places of Botswana",
+   "subtitle": "21 parks and places of Botswana",
    "featured": "In the manual",
    "defaultScope": "all",
    "items": [
@@ -7056,6 +7086,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3AElephants_and_the_beauty_of_Chobe_NP_-_Botswana_-_panoramio.jpg",
      "f": 1,
      "page": 128,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7069,6 +7101,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3ASavuti_Channel_-_Botswana_-_panoramio.jpg",
      "f": 1,
      "page": 128,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7081,7 +7115,9 @@ window.AGA_DATA = {
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ANamibia_from_Linyanti_River.jpg",
      "f": 1,
-     "page": 128
+     "page": 128,
+     "kind": "place",
+     "ask": "Which park or place is this?"
     },
     {
      "id": "tourism-and-legislation-nxai-pan-national-park",
@@ -7094,6 +7130,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3ANxai_Pan_National_Park_(48593323212).jpg",
      "f": 1,
      "page": 128,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7107,19 +7145,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3ABotswana_Nxai_Pan_NP_Baynes_Baobabs.jpg",
      "f": 1,
      "page": 132,
-     "wide": 1
-    },
-    {
-     "id": "tourism-and-legislation-makgadikgadi-pans-national-park",
-     "name": "Makgadikgadi Pans National Park",
-     "group": "National parks",
-     "photo": "media/tourism-and-legislation/makgadikgadi-pans-national-park-0d2620e62e.jpg",
-     "pb": 48725,
-     "credit": "Wikimedia Commons (photographer named on the source page)",
-     "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3ABaobab_(Adansonia_digitata)%2C_parque_nacional_Makgadikgadi_Pans%2C_Botsuana%2C_2018-07-30%2C_DD_03-08_PAN.jpg",
-     "f": 1,
-     "page": 128,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7132,7 +7159,9 @@ window.AGA_DATA = {
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AMoremi_Game_Reserve_in_summer_02.jpg",
      "f": 1,
-     "page": 129
+     "page": 129,
+     "kind": "place",
+     "ask": "Which park or place is this?"
     },
     {
      "id": "tourism-and-legislation-central-kalahari-game-reserve",
@@ -7145,6 +7174,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3AOryx_running_(8025786809).jpg",
      "f": 1,
      "page": 129,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7158,6 +7189,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3ARinoceronte_blanco_(Ceratotherium_simum)%2C_Santuario_de_Rinocerontes_Khama%2C_Botsuana%2C_2018-08-02%2C_DD_06.jpg",
      "f": 1,
      "page": 129,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7171,6 +7204,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3ANata_Bird_Sanctuary%2C_Botswana_(2610623519).jpg",
      "f": 1,
      "page": 129,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7184,6 +7219,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3AKgalagadi_Transfrontier_Park_-_springbok.jpg",
      "f": 1,
      "page": 131,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7197,6 +7234,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3ATsodilo_Hills%2C_Botswana1.jpg",
      "f": 1,
      "page": 131,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7210,32 +7249,38 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3ATsodilo_Hills_rock_paintings4.jpg",
      "f": 1,
      "page": 131,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
      "id": "tourism-and-legislation-okavango-delta",
      "name": "Okavango Delta",
      "group": "World Heritage",
-     "photo": "media/tourism-and-legislation/okavango-delta-e8fab80db3.jpg",
-     "pb": 103292,
+     "photo": "media/tourism-and-legislation/okavango-delta-3afc319800.jpg",
+     "pb": 105128,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AOkavango_Delta%2C_Botswana1.jpg",
+     "src": "https://commons.wikimedia.org/wiki/File%3AVista_a%C3%A9rea_del_delta_del_Okavango%2C_Botsuana%2C_2018-08-01%2C_DD_39.jpg",
      "f": 1,
      "page": 131,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
-     "id": "tourism-and-legislation-makgadikgadi-salt-pans",
-     "name": "Makgadikgadi salt pans",
+     "id": "tourism-and-legislation-makgadikgadi-pans",
+     "name": "Makgadikgadi Pans",
      "group": "Places",
-     "photo": "media/tourism-and-legislation/makgadikgadi-salt-pans-cb5a00842d.jpg",
+     "photo": "media/tourism-and-legislation/makgadikgadi-pans-cb5a00842d.jpg",
      "pb": 90161,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AWildebeest_Crossing_the_Salt_Pans.jpg",
      "f": 1,
      "page": 131,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7249,6 +7294,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3ABaobabs_on_Kubu_island%2C_Botswana.jpg",
      "f": 1,
      "page": 131,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7262,6 +7309,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3AChapman's_baobab_(4954708191).jpg",
      "f": 1,
      "page": 131,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7275,6 +7324,8 @@ window.AGA_DATA = {
      "src": "https://commons.wikimedia.org/wiki/File%3AMannyelanong_Hill_20200721.jpg",
      "f": 1,
      "page": 128,
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7286,6 +7337,8 @@ window.AGA_DATA = {
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AKasane_aerial_view_(2019).jpg",
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7297,27 +7350,21 @@ window.AGA_DATA = {
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3ALeti%C5%A1t%C4%9B_Maun_(Airport)_-_Botswana_-_panoramio.jpg",
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
-     "id": "tourism-and-legislation-mokoro-trip",
-     "name": "Mokoro trip",
-     "group": "Places",
-     "photo": "media/tourism-and-legislation/mokoro-trip-0bc59761cb.jpg",
-     "pb": 175964,
-     "credit": "Wikimedia Commons (photographer named on the source page)",
-     "license": "see source",
-     "src": "https://commons.wikimedia.org/wiki/File%3AMokoro_In_the_Kavango_Delta_Botswana.jpg"
-    },
-    {
-     "id": "tourism-and-legislation-northern-tuli-mashatu",
-     "name": "Northern Tuli (Mashatu)",
+     "id": "tourism-and-legislation-northern-tuli-game-reserve",
+     "name": "Northern Tuli Game Reserve",
      "group": "Game reserves",
-     "photo": "media/tourism-and-legislation/northern-tuli-mashatu-96f722c8f4.jpg",
+     "photo": "media/tourism-and-legislation/northern-tuli-game-reserve-96f722c8f4.jpg",
      "pb": 134705,
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AMashatu_Tree.JPG",
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     },
     {
@@ -7329,6 +7376,8 @@ window.AGA_DATA = {
      "credit": "Wikimedia Commons (photographer named on the source page)",
      "license": "see source",
      "src": "https://commons.wikimedia.org/wiki/File%3AWestliches_Ufer_des_Ngami-Sees_in_Botswana.jpg",
+     "kind": "place",
+     "ask": "Which park or place is this?",
      "wide": 1
     }
    ]
@@ -28166,7 +28215,23 @@ window.AGA_DATA = {
    "titbit": "Told from the Pearl-spotted Owlet by its rounder head and barred (not spotted) back.",
    "draft": true
   },
+  "Birds|African Barred Owlet": {
+   "size": "About 20 cm long.",
+   "habitat": "Resident of riverine and broad-leaved woodland in northern Botswana.",
+   "food": "Mainly large insects, also small birds, rodents and lizards; often hunts by day.",
+   "breeding": "Lays its eggs in a natural hole in a tree.",
+   "titbit": "Told from the Pearl-spotted Owlet by its rounder head and barred (not spotted) back.",
+   "draft": true
+  },
   "African Green Pigeon": {
+   "size": "About 30 cm long.",
+   "habitat": "Resident of riverine forest and woodland with fruiting trees in northern and eastern Botswana.",
+   "food": "Eats fruit, especially wild figs, picked in the tree canopy.",
+   "breeding": "Builds a flimsy platform of twigs in a tree.",
+   "titbit": "Clambers through branches like a parrot, even hanging upside down, and is hard to see in the leaves.",
+   "draft": true
+  },
+  "Birds|African Green Pigeon": {
    "size": "About 30 cm long.",
    "habitat": "Resident of riverine forest and woodland with fruiting trees in northern and eastern Botswana.",
    "food": "Eats fruit, especially wild figs, picked in the tree canopy.",
@@ -28182,7 +28247,23 @@ window.AGA_DATA = {
    "titbit": "Very long toes spread its weight so it can walk on lily pads; the male carries chicks under his wings.",
    "draft": true
   },
+  "Birds|African Jacana": {
+   "size": "About 25-30 cm long; the female is much larger than the male.",
+   "habitat": "Resident of wetlands with floating plants such as water lilies.",
+   "food": "Feeds mostly on aquatic insects and other invertebrates picked from floating plants.",
+   "breeding": "Polyandrous: the female mates with several males, and each male incubates the eggs on a floating nest.",
+   "titbit": "Very long toes spread its weight so it can walk on lily pads; the male carries chicks under his wings.",
+   "draft": true
+  },
   "African Pygmy Goose": {
+   "size": "About 33 cm long; the smallest duck in southern Africa.",
+   "habitat": "Resident of quiet, clear waters with water lilies, e.g. Okavango, Linyanti and Chobe.",
+   "food": "Eats mainly the seeds of water lilies, also other plant parts and small invertebrates.",
+   "breeding": "Nests in a hole in a tree, usually close to water.",
+   "titbit": "Despite its name it is not a true goose but a tiny duck; the male has a green and white face.",
+   "draft": true
+  },
+  "Birds|African Pygmy Goose": {
    "size": "About 33 cm long; the smallest duck in southern Africa.",
    "habitat": "Resident of quiet, clear waters with water lilies, e.g. Okavango, Linyanti and Chobe.",
    "food": "Eats mainly the seeds of water lilies, also other plant parts and small invertebrates.",
@@ -28198,7 +28279,23 @@ window.AGA_DATA = {
    "titbit": "Its spoon-shaped bill is packed with touch receptors, so it can find prey by feel in muddy water.",
    "draft": true
   },
+  "Birds|African Spoonbill": {
+   "size": "About 90 cm long.",
+   "habitat": "Resident of shallow wetlands, pans and floodplains; moves around with water levels.",
+   "food": "Mostly fish but also invertebrates, caught by sweeping the bill side to side in shallow water.",
+   "breeding": "Builds a stick platform nest in trees or reeds, usually in colonies with herons.",
+   "titbit": "Its spoon-shaped bill is packed with touch receptors, so it can find prey by feel in muddy water.",
+   "draft": true
+  },
   "Arrow-marked Babbler": {
+   "size": "About 24 cm long.",
+   "habitat": "Common resident of woodland, thickets and riverine bush in northern and eastern Botswana.",
+   "food": "Eats insects and other invertebrates, foraging in groups on or near the ground.",
+   "breeding": "Cooperative breeder with helpers; a host of Levaillant's Cuckoo.",
+   "titbit": "Groups give loud chattering choruses and may fight noisily with neighbouring groups at borders.",
+   "draft": true
+  },
+  "Birds|Arrow-marked Babbler": {
    "size": "About 24 cm long.",
    "habitat": "Common resident of woodland, thickets and riverine bush in northern and eastern Botswana.",
    "food": "Eats insects and other invertebrates, foraging in groups on or near the ground.",
@@ -28214,7 +28311,23 @@ window.AGA_DATA = {
    "titbit": "Male has red on the head, nape and malar stripe; the female has a brown throat and cheek patch.",
    "draft": true
   },
+  "Birds|Bennett's Woodpecker": {
+   "size": "About 24 cm long.",
+   "habitat": "Resident of woodland and savannah, solitary or in pairs.",
+   "food": "Forages on fallen logs and on the ground for ants and termites, using its sticky tongue.",
+   "breeding": "Nests in a hole excavated in a tree.",
+   "titbit": "Male has red on the head, nape and malar stripe; the female has a brown throat and cheek patch.",
+   "draft": true
+  },
   "Black Cuckooshrike": {
+   "size": "About 22 cm long.",
+   "habitat": "Woodland in northern and eastern Botswana; seen mainly in summer.",
+   "food": "Eats insects, especially caterpillars, including hairy ones that most birds avoid.",
+   "breeding": "Builds a small, shallow cup nest on a branch, camouflaged with lichen.",
+   "titbit": "Male is all black, often with a yellow patch at the gape; the female looks different, with yellow barring.",
+   "draft": true
+  },
+  "Birds|Black Cuckooshrike": {
    "size": "About 22 cm long.",
    "habitat": "Woodland in northern and eastern Botswana; seen mainly in summer.",
    "food": "Eats insects, especially caterpillars, including hairy ones that most birds avoid.",
@@ -28230,7 +28343,23 @@ window.AGA_DATA = {
    "titbit": "Has a loud, slurred whistling song, often given in a display flight above the bush.",
    "draft": true
   },
+  "Birds|Black-crowned Tchagra": {
+   "size": "About 22 cm long.",
+   "habitat": "Resident of thickets, woodland and bushy savannah, mainly in the north and east.",
+   "food": "Eats insects and other invertebrates, mostly hunted on the ground under bushes.",
+   "breeding": "Builds a cup nest low down in a bush or small tree.",
+   "titbit": "Has a loud, slurred whistling song, often given in a display flight above the bush.",
+   "draft": true
+  },
   "Blacksmith Lapwing": {
+   "size": "About 30 cm long.",
+   "habitat": "Common resident at the edges of rivers, pans, dams and wetlands.",
+   "food": "Eats insects, worms and other invertebrates picked from mud and short grass.",
+   "breeding": "Lays well-camouflaged eggs in a scrape on the ground near water.",
+   "titbit": "Named after its metallic 'tink-tink' call, like a hammer on an anvil; boldly dive-bombs intruders.",
+   "draft": true
+  },
+  "Birds|Blacksmith Lapwing": {
    "size": "About 30 cm long.",
    "habitat": "Common resident at the edges of rivers, pans, dams and wetlands.",
    "food": "Eats insects, worms and other invertebrates picked from mud and short grass.",
@@ -28246,7 +28375,23 @@ window.AGA_DATA = {
    "titbit": "Mostly nocturnal; its large eyes shine in the spotlight on night drives.",
    "draft": true
   },
+  "Birds|Bronze-winged Courser": {
+   "size": "About 25 cm long.",
+   "habitat": "Uncommon bird of woodland in northern and eastern Botswana; partly migratory.",
+   "food": "Eats insects, mainly hunted at night.",
+   "breeding": "Lays 2-3 well-camouflaged eggs on bare ground.",
+   "titbit": "Mostly nocturnal; its large eyes shine in the spotlight on night drives.",
+   "draft": true
+  },
   "Burchell's Sandgrouse": {
+   "size": "About 25 cm long.",
+   "habitat": "Resident of grassland and dry savannah on Kalahari sand; flagship bird of the Central Kalahari IBA.",
+   "food": "Feeds almost entirely on seeds; large flocks gather at water-holes in the dry season.",
+   "breeding": "Nests on the ground; parents may walk slowly away to lead predators from the nest.",
+   "titbit": "Males soak their belly feathers at water and fly back to let the chicks drink from them.",
+   "draft": true
+  },
+  "Birds|Burchell's Sandgrouse": {
    "size": "About 25 cm long.",
    "habitat": "Resident of grassland and dry savannah on Kalahari sand; flagship bird of the Central Kalahari IBA.",
    "food": "Feeds almost entirely on seeds; large flocks gather at water-holes in the dry season.",
@@ -28262,7 +28407,23 @@ window.AGA_DATA = {
    "titbit": "Its call is often remembered as 'work harder, work harder', one of the commonest sounds in the bush.",
    "draft": true
   },
+  "Birds|Cape Turtle Dove": {
+   "size": "About 27 cm long.",
+   "habitat": "Common resident of many habitats, especially savannah and woodland.",
+   "food": "Feeds mostly on seeds, occasionally invertebrates; often feeds in flocks.",
+   "breeding": "Builds a flimsy platform nest of twigs, typical of doves.",
+   "titbit": "Its call is often remembered as 'work harder, work harder', one of the commonest sounds in the bush.",
+   "draft": true
+  },
   "Chinspot Batis": {
+   "size": "About 13 cm long.",
+   "habitat": "Common resident of acacia and broad-leaved woodland.",
+   "food": "Eats small insects gleaned from leaves and twigs or caught in short flights.",
+   "breeding": "Builds a tiny, neat cup nest bound with spider web on a branch.",
+   "titbit": "Song sounds like 'three blind mice'; the female has a chestnut chin spot, the male a black breast band.",
+   "draft": true
+  },
+  "Birds|Chinspot Batis": {
    "size": "About 13 cm long.",
    "habitat": "Common resident of acacia and broad-leaved woodland.",
    "food": "Eats small insects gleaned from leaves and twigs or caught in short flights.",
@@ -28278,7 +28439,23 @@ window.AGA_DATA = {
    "titbit": "This small warbler weighs about 15 g yet flies thousands of kilometres between Europe and Africa.",
    "draft": true
   },
+  "Birds|Common Whitethroat": {
+   "size": "About 14 cm long.",
+   "habitat": "Palaearctic summer migrant to acacia thornveld and dry scrub.",
+   "food": "Eats insects, and also berries before migrating.",
+   "breeding": "Does not breed here; it breeds in Europe and Asia.",
+   "titbit": "This small warbler weighs about 15 g yet flies thousands of kilometres between Europe and Africa.",
+   "draft": true
+  },
   "Crested Barbet": {
+   "size": "About 23 cm long.",
+   "habitat": "Resident of woodland, riverine bush and gardens, mainly in eastern and northern Botswana.",
+   "food": "Eats mainly insects, often taken on the ground, as well as fruit.",
+   "breeding": "Excavates a nest hole in a dead branch; parasitised by the Lesser Honeyguide.",
+   "titbit": "Its song is a long, steady trill that sounds like an old alarm clock ringing.",
+   "draft": true
+  },
+  "Birds|Crested Barbet": {
    "size": "About 23 cm long.",
    "habitat": "Resident of woodland, riverine bush and gardens, mainly in eastern and northern Botswana.",
    "food": "Eats mainly insects, often taken on the ground, as well as fruit.",
@@ -28294,7 +28471,23 @@ window.AGA_DATA = {
    "titbit": "Named after the white ring around its black cap; it is noisy and often calls at night.",
    "draft": true
   },
+  "Birds|Crowned Lapwing": {
+   "size": "About 30 cm long.",
+   "habitat": "Common resident of dry, short grassland and open, bare areas.",
+   "food": "Eats insects, especially termites, picked from the ground.",
+   "breeding": "Lays well-camouflaged eggs in a scrape on open ground and defends it noisily.",
+   "titbit": "Named after the white ring around its black cap; it is noisy and often calls at night.",
+   "draft": true
+  },
   "Dideric Cuckoo": {
+   "size": "About 19 cm long.",
+   "habitat": "Common summer visitor (intra-African migrant) to woodland, savannah and reedbeds.",
+   "food": "Eats insects, especially caterpillars, including hairy ones.",
+   "breeding": "Brood parasite: lays its eggs in the nests of weavers, bishops and sparrows.",
+   "titbit": "Its name comes from its call, a plaintive 'dee-dee-dee-deederik'.",
+   "draft": true
+  },
+  "Birds|Dideric Cuckoo": {
    "size": "About 19 cm long.",
    "habitat": "Common summer visitor (intra-African migrant) to woodland, savannah and reedbeds.",
    "food": "Eats insects, especially caterpillars, including hairy ones.",
@@ -28310,7 +28503,23 @@ window.AGA_DATA = {
    "titbit": "A fine songster with a loud, varied song that often includes imitations of other birds.",
    "draft": true
   },
+  "Birds|Eastern Bearded Scrub-Robin": {
+   "size": "About 17 cm long.",
+   "habitat": "Resident of riverine thickets and woodland in northern Botswana.",
+   "food": "Eats insects and other invertebrates found among leaf litter on the ground.",
+   "breeding": "Builds a cup nest in a hole in a tree or stump.",
+   "titbit": "A fine songster with a loud, varied song that often includes imitations of other birds.",
+   "draft": true
+  },
   "Eurasian Golden Oriole": {
+   "size": "About 24 cm long.",
+   "habitat": "Uncommon Palaearctic summer migrant to woodland, mainly in the north and east.",
+   "food": "Eats insects, especially caterpillars, and fruit in the tree canopy.",
+   "breeding": "Does not breed here; it breeds in Europe and Asia.",
+   "titbit": "The male is bright yellow with black wings, but it hides in the canopy and is more often heard than seen.",
+   "draft": true
+  },
+  "Birds|Eurasian Golden Oriole": {
    "size": "About 24 cm long.",
    "habitat": "Uncommon Palaearctic summer migrant to woodland, mainly in the north and east.",
    "food": "Eats insects, especially caterpillars, and fruit in the tree canopy.",
@@ -28326,7 +28535,23 @@ window.AGA_DATA = {
    "titbit": "Mimics meerkat alarm calls so they run for cover, then steals the food they drop.",
    "draft": true
   },
+  "Birds|Fork-tailed Drongo": {
+   "size": "About 25 cm long.",
+   "habitat": "Common resident of woodland and dense savannah, but found in most habitats.",
+   "food": "Mostly insects caught in the air; also robs other animals and may take nestlings.",
+   "breeding": "Builds a small, flimsy cup nest in the fork of a horizontal branch.",
+   "titbit": "Mimics meerkat alarm calls so they run for cover, then steals the food they drop.",
+   "draft": true
+  },
   "Great Egret": {
+   "size": "About 95 cm long.",
+   "habitat": "Resident of shallow water in rivers, floodplains and pans; usually solitary.",
+   "food": "Feeds mainly on fish and frogs, with invertebrates a minor part; may feed on moonlit nights.",
+   "breeding": "Nests in colonies, building stick platforms in reedbeds or trees over water.",
+   "titbit": "Our largest white egret; the line of its gape extends behind the eye and its legs are black.",
+   "draft": true
+  },
+  "Birds|Great Egret": {
    "size": "About 95 cm long.",
    "habitat": "Resident of shallow water in rivers, floodplains and pans; usually solitary.",
    "food": "Feeds mainly on fish and frogs, with invertebrates a minor part; may feed on moonlit nights.",
@@ -28342,7 +28567,23 @@ window.AGA_DATA = {
    "titbit": "Its glossy blue-green shine comes from feather structure, not pigment; note the dark blue ear patch.",
    "draft": true
   },
+  "Birds|Greater Blue-eared Starling": {
+   "size": "About 22 cm long.",
+   "habitat": "Common resident of woodland, especially mopane, in northern and eastern Botswana.",
+   "food": "Eats insects, fruit and seeds, often foraging on the ground in flocks.",
+   "breeding": "Nests in a hole in a tree.",
+   "titbit": "Its glossy blue-green shine comes from feather structure, not pigment; note the dark blue ear patch.",
+   "draft": true
+  },
   "Green-winged Pytilia": {
+   "size": "About 12 cm long.",
+   "habitat": "Resident of thornveld thickets and dry savannah.",
+   "food": "Eats grass seeds and small insects such as termites, mostly on the ground.",
+   "breeding": "Builds a ball-shaped grass nest; it is the host of the Long-tailed Paradise Whydah.",
+   "titbit": "Also called the Melba Finch; the male has a bright red face and throat.",
+   "draft": true
+  },
+  "Birds|Green-winged Pytilia": {
    "size": "About 12 cm long.",
    "habitat": "Resident of thornveld thickets and dry savannah.",
    "food": "Eats grass seeds and small insects such as termites, mostly on the ground.",
@@ -28358,7 +28599,23 @@ window.AGA_DATA = {
    "titbit": "Constantly fans and flicks its tail, showing the white outer tail feathers.",
    "draft": true
   },
+  "Birds|Grey Tit-Flycatcher": {
+   "size": "About 14 cm long.",
+   "habitat": "Uncommon resident of riverine and broad-leaved woodland in northern Botswana.",
+   "food": "Gleans small insects from leaves and branches, like a tit.",
+   "breeding": "Nests in a small hole in a tree.",
+   "titbit": "Constantly fans and flicks its tail, showing the white outer tail feathers.",
+   "draft": true
+  },
   "Grey-rumped Swallow": {
+   "size": "About 15 cm long.",
+   "habitat": "Resident of open grassland, floodplains and pan edges, often near water.",
+   "food": "Catches small flying insects in the air, often flying low over the ground.",
+   "breeding": "Nests in a hole in the ground, often an old rodent burrow.",
+   "titbit": "Unusually, it breeds in the dry winter months.",
+   "draft": true
+  },
+  "Birds|Grey-rumped Swallow": {
    "size": "About 15 cm long.",
    "habitat": "Resident of open grassland, floodplains and pan edges, often near water.",
    "food": "Catches small flying insects in the air, often flying low over the ground.",
@@ -28374,7 +28631,23 @@ window.AGA_DATA = {
    "titbit": "Often cocks and fans its rufous tail, which has a black and white tip.",
    "draft": true
   },
+  "Birds|Kalahari Scrub-Robin": {
+   "size": "About 17 cm long.",
+   "habitat": "Common resident of dry Kalahari scrub and thornveld; endemic to southern Africa.",
+   "food": "Eats insects and other invertebrates hunted on bare ground.",
+   "breeding": "Builds a cup nest low down in a bush.",
+   "titbit": "Often cocks and fans its rufous tail, which has a black and white tip.",
+   "draft": true
+  },
   "Lappet-faced Vulture": {
+   "size": "About 100 cm long, with a wingspan of about 2.7 m.",
+   "habitat": "Resident of dry savannah and the Kalahari; Critically Endangered, mainly due to poisoning.",
+   "food": "Scavenges carcasses, tearing tough skin and sinew; sometimes kills small animals.",
+   "breeding": "Builds a huge stick nest on top of a flat-topped tree and lays a single egg.",
+   "titbit": "Our largest vulture; it dominates other vultures at a carcass.",
+   "draft": true
+  },
+  "Birds|Lappet-faced Vulture": {
    "size": "About 100 cm long, with a wingspan of about 2.7 m.",
    "habitat": "Resident of dry savannah and the Kalahari; Critically Endangered, mainly due to poisoning.",
    "food": "Scavenges carcasses, tearing tough skin and sinew; sometimes kills small animals.",
@@ -28390,7 +28663,23 @@ window.AGA_DATA = {
    "titbit": "Rollers are named after their tumbling, rolling display flights; males have slightly longer streamers.",
    "draft": true
   },
+  "Birds|Lilac-breasted Roller": {
+   "size": "About 36 cm long, including tail streamers.",
+   "habitat": "Common resident of savannah and dry woodland, solitary or in pairs.",
+   "food": "Eats invertebrates and small vertebrates, caught by dropping from a perch.",
+   "breeding": "Nests in a hole in a tree.",
+   "titbit": "Rollers are named after their tumbling, rolling display flights; males have slightly longer streamers.",
+   "draft": true
+  },
   "Magpie Shrike": {
+   "size": "About 45 cm long, including the very long tail.",
+   "habitat": "Resident of acacia savannah in northern and eastern Botswana.",
+   "food": "Eats insects and small vertebrates, dropping on them from a perch.",
+   "breeding": "Breeds cooperatively; builds a cup nest in a thorny tree.",
+   "titbit": "Also called the African Long-tailed Shrike; lives in noisy groups with whistled calls.",
+   "draft": true
+  },
+  "Birds|Magpie Shrike": {
    "size": "About 45 cm long, including the very long tail.",
    "habitat": "Resident of acacia savannah in northern and eastern Botswana.",
    "food": "Eats insects and small vertebrates, dropping on them from a perch.",
@@ -28406,7 +28695,23 @@ window.AGA_DATA = {
    "titbit": "Like all parrots it has two toes forward and two back, and a powerful bill to crack hard seeds.",
    "draft": true
   },
+  "Birds|Meyer's Parrot": {
+   "size": "About 23 cm long.",
+   "habitat": "Resident of savannah, woodland and riparian forest, in pairs or small flocks of up to 30.",
+   "food": "Feeds almost entirely on seeds and fruit, rarely invertebrates.",
+   "breeding": "Nests in a hole in a tree.",
+   "titbit": "Like all parrots it has two toes forward and two back, and a powerful bill to crack hard seeds.",
+   "draft": true
+  },
   "Ostrich": {
+   "size": "Up to about 2 m tall and up to 150 kg; the largest living bird.",
+   "habitat": "Resident of dry, open country, but also savannah and broad-leaved woodland.",
+   "food": "Mostly plants; it swallows stones to help grind food in the gizzard.",
+   "breeding": "Several females lay in one ground nest; the black male incubates at night.",
+   "titbit": "The fastest running bird, reaching 95 km/h; it defends itself by kicking with its large toenail.",
+   "draft": true
+  },
+  "Birds|Ostrich": {
    "size": "Up to about 2 m tall and up to 150 kg; the largest living bird.",
    "habitat": "Resident of dry, open country, but also savannah and broad-leaved woodland.",
    "food": "Mostly plants; it swallows stones to help grind food in the gizzard.",
@@ -28422,7 +28727,23 @@ window.AGA_DATA = {
    "titbit": "Has bare legs and spiky soles for gripping slippery fish; its call is a deep, booming hoot.",
    "draft": true
   },
+  "Birds|Pel's Fishing-Owl": {
+   "size": "About 63 cm long and about 2 kg.",
+   "habitat": "Rare resident of tall riverine forest along the Okavango, Linyanti and Chobe rivers.",
+   "food": "Catches fish at night, snatching them from the water surface; also frogs.",
+   "breeding": "Nests in a large tree hollow; usually only one chick is raised.",
+   "titbit": "Has bare legs and spiky soles for gripping slippery fish; its call is a deep, booming hoot.",
+   "draft": true
+  },
   "Purple Roller": {
+   "size": "About 36-40 cm long.",
+   "habitat": "Resident of dry woodland and savannah; fairly common but moves around.",
+   "food": "Eats large insects, scorpions and lizards, dropping on them from a perch.",
+   "breeding": "Nests in a hole in a tree.",
+   "titbit": "Bulkier than other rollers, with a broad white eyebrow and no tail streamers.",
+   "draft": true
+  },
+  "Birds|Purple Roller": {
    "size": "About 36-40 cm long.",
    "habitat": "Resident of dry woodland and savannah; fairly common but moves around.",
    "food": "Eats large insects, scorpions and lizards, dropping on them from a perch.",
@@ -28438,7 +28759,23 @@ window.AGA_DATA = {
    "titbit": "Sings a harsh 'chi-chi-chi-cherrrr' from a bush top; one of the commonest songs in the bush.",
    "draft": true
   },
+  "Birds|Rattling Cisticola": {
+   "size": "About 14 cm long.",
+   "habitat": "Very common resident of savannah and woodland with grass and bushes.",
+   "food": "Eats small insects gleaned from grass and low bushes.",
+   "breeding": "Builds a ball-shaped grass nest low in a grass tuft or bush.",
+   "titbit": "Sings a harsh 'chi-chi-chi-cherrrr' from a bush top; one of the commonest songs in the bush.",
+   "draft": true
+  },
   "Red-billed Oxpecker": {
+   "size": "About 20 cm long.",
+   "habitat": "Resident of savannah wherever there are large game animals or cattle.",
+   "food": "Eats ticks and other parasites from large mammals, and also blood from wounds.",
+   "breeding": "Nests in a tree hole lined with hair plucked from mammals.",
+   "titbit": "Has a yellow ring around the eye; its hissing alarm call warns its host of danger.",
+   "draft": true
+  },
+  "Birds|Red-billed Oxpecker": {
    "size": "About 20 cm long.",
    "habitat": "Resident of savannah wherever there are large game animals or cattle.",
    "food": "Eats ticks and other parasites from large mammals, and also blood from wounds.",
@@ -28454,7 +28791,23 @@ window.AGA_DATA = {
    "titbit": "Its dark rufous underparts separate it from the similar Mosque Swallow.",
    "draft": true
   },
+  "Birds|Red-breasted Swallow": {
+   "size": "About 24 cm long.",
+   "habitat": "Summer visitor (intra-African migrant) to open grassland and savannah.",
+   "food": "Catches flying insects in the air, often flying low over grass.",
+   "breeding": "Builds a mud nest with a long entrance tunnel under bridges, culverts or in burrows.",
+   "titbit": "Its dark rufous underparts separate it from the similar Mosque Swallow.",
+   "draft": true
+  },
   "Red-headed Weaver": {
+   "size": "About 15 cm long.",
+   "habitat": "Resident of woodland, especially mopane, in northern and eastern Botswana.",
+   "food": "Eats mainly insects, also some nectar and seeds.",
+   "breeding": "Builds a nest of thin twigs and leaf stalks with an entrance tunnel, hung from a branch.",
+   "titbit": "Unlike most weavers the breeding male has a bright red head, and it weaves with twigs, not grass.",
+   "draft": true
+  },
+  "Birds|Red-headed Weaver": {
    "size": "About 15 cm long.",
    "habitat": "Resident of woodland, especially mopane, in northern and eastern Botswana.",
    "food": "Eats mainly insects, also some nectar and seeds.",
@@ -28470,7 +28823,23 @@ window.AGA_DATA = {
    "titbit": "Looks like a Fork-tailed Drongo but has a square tail, a dark eye and a quieter manner.",
    "draft": true
   },
+  "Birds|Southern Black Flycatcher": {
+   "size": "About 20 cm long.",
+   "habitat": "Resident of woodland and savannah, mainly in the north and east.",
+   "food": "Catches insects by dropping from a perch, often onto the ground.",
+   "breeding": "Builds a cup nest in a hole, crevice or old nest of another bird.",
+   "titbit": "Looks like a Fork-tailed Drongo but has a square tail, a dark eye and a quieter manner.",
+   "draft": true
+  },
   "Southern Ground Hornbill": {
+   "size": "About 90 cm long and up to about 4 kg.",
+   "habitat": "Resident of grassland, savannah and open woodland; Vulnerable.",
+   "food": "Eats invertebrates and vertebrates up to the size of young hares; groups gang up on large prey.",
+   "breeding": "Cooperative breeder; nests in a large tree hole and usually raises only one chick.",
+   "titbit": "Its deep booming call carries for kilometres; full red face skin only appears at 4-6 years old.",
+   "draft": true
+  },
+  "Birds|Southern Ground Hornbill": {
    "size": "About 90 cm long and up to about 4 kg.",
    "habitat": "Resident of grassland, savannah and open woodland; Vulnerable.",
    "food": "Eats invertebrates and vertebrates up to the size of young hares; groups gang up on large prey.",
@@ -28486,7 +28855,23 @@ window.AGA_DATA = {
    "titbit": "Lives in noisy family groups, and the helpers assist in raising the chicks.",
    "draft": true
   },
+  "Birds|Southern White-crowned Shrike": {
+   "size": "About 24 cm long.",
+   "habitat": "Resident of acacia and mopane savannah.",
+   "food": "Eats insects, dropping from a perch to catch them on the ground.",
+   "breeding": "Breeds cooperatively; builds a cup nest in a tree fork.",
+   "titbit": "Lives in noisy family groups, and the helpers assist in raising the chicks.",
+   "draft": true
+  },
   "Spur-winged Goose": {
+   "size": "Up to about 100 cm long; Africa's largest waterfowl.",
+   "habitat": "Resident around lakes, dams and lagoons, avoiding fast water; in pairs or small flocks.",
+   "food": "Mostly vegetarian, but will take invertebrates.",
+   "breeding": "Nests on the ground in thick vegetation near water, sometimes in tree holes.",
+   "titbit": "Uses the spurs on its wings to gash enemies; its flesh can be poisonous from eating blister beetles.",
+   "draft": true
+  },
+  "Birds|Spur-winged Goose": {
    "size": "Up to about 100 cm long; Africa's largest waterfowl.",
    "habitat": "Resident around lakes, dams and lagoons, avoiding fast water; in pairs or small flocks.",
    "food": "Mostly vegetarian, but will take invertebrates.",
@@ -28502,7 +28887,23 @@ window.AGA_DATA = {
    "titbit": "Young birds take 3-4 years to reach adult plumage; the female is larger and usually darker.",
    "draft": true
   },
+  "Birds|Tawny Eagle": {
+   "size": "About 70 cm long.",
+   "habitat": "Resident of open savannah, solitary or in pairs.",
+   "food": "Hunts, pirates kills from other birds and scavenges carrion; prey up to young springbok size.",
+   "breeding": "Builds a stick nest on top of a tree, often an acacia.",
+   "titbit": "Young birds take 3-4 years to reach adult plumage; the female is larger and usually darker.",
+   "draft": true
+  },
   "Swamp Boubou": {
+   "size": "About 22 cm long.",
+   "habitat": "Resident of dense riverine thickets and reedbeds in the Okavango Delta, Linyanti and Chobe.",
+   "food": "Eats insects and other invertebrates, mostly found low in thick cover.",
+   "breeding": "Builds a shallow cup nest in a thicket.",
+   "titbit": "Pairs sing in a duet so well timed that it sounds like one bird.",
+   "draft": true
+  },
+  "Birds|Swamp Boubou": {
    "size": "About 22 cm long.",
    "habitat": "Resident of dense riverine thickets and reedbeds in the Okavango Delta, Linyanti and Chobe.",
    "food": "Eats insects and other invertebrates, mostly found low in thick cover.",
@@ -28518,7 +28919,23 @@ window.AGA_DATA = {
    "titbit": "Also called the Common Grenadier; the male is rich chestnut with bright violet cheeks.",
    "draft": true
   },
+  "Birds|Violet-eared Waxbill": {
+   "size": "About 14 cm long.",
+   "habitat": "Resident of dry acacia thornveld.",
+   "food": "Eats grass seeds picked from the ground.",
+   "breeding": "Builds a ball-shaped grass nest; it is the host of the Shaft-tailed Whydah.",
+   "titbit": "Also called the Common Grenadier; the male is rich chestnut with bright violet cheeks.",
+   "draft": true
+  },
   "White-backed Vulture": {
+   "size": "About 95 cm long.",
+   "habitat": "Resident of open savannah and woodland; Critically Endangered, mainly due to poisoning.",
+   "food": "Scavenges carcasses; occasionally steals food or kills prey such as hares and young impala.",
+   "breeding": "Builds a stick nest on top of a tall tree and lays a single egg.",
+   "titbit": "Takes 6 years to reach adult plumage; when threatened it spreads its wings, hissing and snapping.",
+   "draft": true
+  },
+  "Birds|White-backed Vulture": {
    "size": "About 95 cm long.",
    "habitat": "Resident of open savannah and woodland; Critically Endangered, mainly due to poisoning.",
    "food": "Scavenges carcasses; occasionally steals food or kills prey such as hares and young impala.",
@@ -28534,7 +28951,23 @@ window.AGA_DATA = {
    "titbit": "Lives in noisy groups, and a single tree may hold many of their straw nests.",
    "draft": true
   },
+  "Birds|White-browed Sparrow-weaver": {
+   "size": "About 17 cm long.",
+   "habitat": "Common resident of dry acacia savannah.",
+   "food": "Eats seeds and insects, foraging on the ground.",
+   "breeding": "Groups build untidy grass nests; roost nests have two entrances, breeding nests one.",
+   "titbit": "Lives in noisy groups, and a single tree may hold many of their straw nests.",
+   "draft": true
+  },
   "Wire-tailed Swallow": {
+   "size": "About 13 cm long, excluding the tail wires.",
+   "habitat": "Resident near rivers and water in northern and eastern Botswana.",
+   "food": "Catches flying insects in the air, often low over water.",
+   "breeding": "Builds an open mud cup under bridges, rock overhangs or buildings.",
+   "titbit": "Named after the two wire-thin outer tail feathers; it has a bright chestnut cap.",
+   "draft": true
+  },
+  "Birds|Wire-tailed Swallow": {
    "size": "About 13 cm long, excluding the tail wires.",
    "habitat": "Resident near rivers and water in northern and eastern Botswana.",
    "food": "Catches flying insects in the air, often low over water.",
@@ -28550,7 +28983,23 @@ window.AGA_DATA = {
    "titbit": "Its yellow bill with a red tip and its pale rump separate it from the Red-billed Oxpecker.",
    "draft": true
   },
+  "Birds|Yellow-billed Oxpecker": {
+   "size": "About 22 cm long.",
+   "habitat": "Resident of savannah in northern Botswana where buffalo and other large game occur.",
+   "food": "Eats ticks and other parasites, preferring large hosts such as buffalo and giraffe.",
+   "breeding": "Nests in a tree hole lined with hair plucked from mammals.",
+   "titbit": "Its yellow bill with a red tip and its pale rump separate it from the Red-billed Oxpecker.",
+   "draft": true
+  },
   "Zitting Cisticola": {
+   "size": "About 11 cm long.",
+   "habitat": "Common resident of open grassland and floodplains.",
+   "food": "Eats small insects gleaned in grass.",
+   "breeding": "Builds a pouch-shaped nest in grass, bound together with spider web.",
+   "titbit": "Its zigzag display flight comes with a sharp 'zit' call at each dip, hence the name.",
+   "draft": true
+  },
+  "Birds|Zitting Cisticola": {
    "size": "About 11 cm long.",
    "habitat": "Common resident of open grassland and floodplains.",
    "food": "Eats small insects gleaned in grass.",
@@ -28566,7 +29015,23 @@ window.AGA_DATA = {
    "titbit": "Its 'hoop-hoop' call sounds like an African Hoopoe, unlike the 'cuck-oo' of the Common Cuckoo.",
    "draft": true
   },
+  "Birds|African Cuckoo": {
+   "size": "About 32 cm long.",
+   "habitat": "Summer migrant from tropical Africa to woodland and savanna in northern and eastern Botswana.",
+   "food": "Mainly hairy caterpillars and other insects taken in the tree canopy.",
+   "breeding": "Brood parasite; lays its eggs in the nests of the Fork-tailed Drongo.",
+   "titbit": "Its 'hoop-hoop' call sounds like an African Hoopoe, unlike the 'cuck-oo' of the Common Cuckoo.",
+   "draft": true
+  },
   "African Hawk-Eagle": {
+   "size": "About 60-65 cm long; the female is larger than the male.",
+   "habitat": "Resident of tall woodland, especially along rivers, in northern and eastern Botswana.",
+   "food": "Mostly gamebirds such as francolins and guineafowl, also hares and other small mammals.",
+   "breeding": "Builds a large stick nest high in a tall tree, lined with green leaves; lays 1-2 eggs.",
+   "titbit": "Pairs often hunt together, one bird flushing the prey for its partner.",
+   "draft": true
+  },
+  "Birds|African Hawk-Eagle": {
    "size": "About 60-65 cm long; the female is larger than the male.",
    "habitat": "Resident of tall woodland, especially along rivers, in northern and eastern Botswana.",
    "food": "Mostly gamebirds such as francolins and guineafowl, also hares and other small mammals.",
@@ -28582,7 +29047,23 @@ window.AGA_DATA = {
    "titbit": "Told from the Cape Turtle Dove by its grey head and yellow eye ringed with red skin.",
    "draft": true
   },
+  "Birds|African Mourning Dove": {
+   "size": "About 30 cm long.",
+   "habitat": "Resident of riverine woodland in northern Botswana, such as the Okavango and Chobe.",
+   "food": "Seeds picked up on the ground.",
+   "breeding": "Builds a flimsy platform nest of twigs in a tree or bush.",
+   "titbit": "Told from the Cape Turtle Dove by its grey head and yellow eye ringed with red skin.",
+   "draft": true
+  },
   "African Pygmy Kingfisher": {
+   "size": "About 12-13 cm long.",
+   "habitat": "Summer migrant from tropical Africa to woodland and savanna in northern and eastern Botswana.",
+   "food": "Insects and small lizards caught on the ground from a low perch; it does not need water.",
+   "breeding": "Digs a nest tunnel in an earth bank, the side of an aardvark burrow or a termite mound.",
+   "titbit": "Told from the Malachite Kingfisher by its violet ear patch and lack of a crest.",
+   "draft": true
+  },
+  "Birds|African Pygmy Kingfisher": {
    "size": "About 12-13 cm long.",
    "habitat": "Summer migrant from tropical Africa to woodland and savanna in northern and eastern Botswana.",
    "food": "Insects and small lizards caught on the ground from a low perch; it does not need water.",
@@ -28598,7 +29079,23 @@ window.AGA_DATA = {
    "titbit": "Breeding birds have a bright blue shield on the forehead above the red bill.",
    "draft": true
   },
+  "Birds|Allen's Gallinule": {
+   "size": "About 25 cm long.",
+   "habitat": "Summer visitor to flooded grassland and dense marsh vegetation in the Okavango and Chobe.",
+   "food": "Plant material and seeds, also insects and snails.",
+   "breeding": "Cup nest of plant stems hidden in reeds or sedges just above the water.",
+   "titbit": "Breeding birds have a bright blue shield on the forehead above the red bill.",
+   "draft": true
+  },
   "Ashy Flycatcher": {
+   "size": "About 14 cm long.",
+   "habitat": "Resident of riverine woodland in far northern Botswana, such as the Okavango and Chobe.",
+   "food": "Insects caught in short flights from a perch.",
+   "breeding": "Small cup nest placed in a tree hollow, a fork of a branch or an old nest of another bird.",
+   "titbit": "Blue-grey above and paler below, with a short white line above the eye.",
+   "draft": true
+  },
+  "Birds|Ashy Flycatcher": {
    "size": "About 14 cm long.",
    "habitat": "Resident of riverine woodland in far northern Botswana, such as the Okavango and Chobe.",
    "food": "Insects caught in short flights from a perch.",
@@ -28614,7 +29111,23 @@ window.AGA_DATA = {
    "titbit": "Walks on lily pads and has been seen picking parasites off hippos and buffalo.",
    "draft": true
   },
+  "Birds|Black Crake": {
+   "size": "About 20-23 cm long.",
+   "habitat": "Common resident of wetlands with reeds and floating plants, especially in the Okavango and Chobe.",
+   "food": "Insects, snails, worms, small fish and frogs found at the water's edge.",
+   "breeding": "Bowl-shaped nest of plant material hidden in reeds or vegetation over water.",
+   "titbit": "Walks on lily pads and has been seen picking parasites off hippos and buffalo.",
+   "draft": true
+  },
   "Black-backed Puffback": {
+   "size": "About 16-18 cm long.",
+   "habitat": "Resident of woodland and riverine forest in northern and eastern Botswana.",
+   "food": "Insects picked from leaves and branches in the tree canopy.",
+   "breeding": "Small neat cup nest bound with spider web in the fork of a tree.",
+   "titbit": "The male puffs out his white rump feathers into a fluffy ball when displaying.",
+   "draft": true
+  },
+  "Birds|Black-backed Puffback": {
    "size": "About 16-18 cm long.",
    "habitat": "Resident of woodland and riverine forest in northern and eastern Botswana.",
    "food": "Insects picked from leaves and branches in the tree canopy.",
@@ -28630,7 +29143,23 @@ window.AGA_DATA = {
    "titbit": "Easy to know by its black face, grey head and deep red rump and flanks.",
    "draft": true
   },
+  "Birds|Black-faced Waxbill": {
+   "size": "About 12-13 cm long.",
+   "habitat": "Resident of dry acacia thornveld and Kalahari scrub.",
+   "food": "Mainly grass seeds taken on or near the ground.",
+   "breeding": "Untidy ball nest of grass with a side entrance, low in a thorny bush.",
+   "titbit": "Easy to know by its black face, grey head and deep red rump and flanks.",
+   "draft": true
+  },
   "Blue Waxbill": {
+   "size": "About 13 cm long.",
+   "habitat": "Common resident of acacia savanna and woodland, often near water.",
+   "food": "Mainly grass seeds, also small insects such as termites.",
+   "breeding": "Ball nest of grass with a side entrance in a thorny tree or bush.",
+   "titbit": "Often builds its nest close to a wasp nest, which helps protect it from predators.",
+   "draft": true
+  },
+  "Birds|Blue Waxbill": {
    "size": "About 13 cm long.",
    "habitat": "Common resident of acacia savanna and woodland, often near water.",
    "food": "Mainly grass seeds, also small insects such as termites.",
@@ -28646,7 +29175,23 @@ window.AGA_DATA = {
    "titbit": "In display it flies up with rattling wings, then glides down giving a falling whistled song.",
    "draft": true
   },
+  "Birds|Brown-crowned Tchagra": {
+   "size": "About 19 cm long.",
+   "habitat": "Resident of thornveld and dry woodland with low bushes.",
+   "food": "Insects found on or near the ground under bushes.",
+   "breeding": "Neat cup nest placed low in a bush or small tree.",
+   "titbit": "In display it flies up with rattling wings, then glides down giving a falling whistled song.",
+   "draft": true
+  },
   "Burchell's Starling": {
+   "size": "About 30-34 cm long; the largest glossy starling in the region.",
+   "habitat": "Resident of savanna and open woodland; flocks of 60 or more in late winter and spring.",
+   "food": "Mostly insects, also small vertebrates and sometimes berries and flowers.",
+   "breeding": "Nests in a hole in a tree.",
+   "titbit": "Will fiercely mob slender mongooses, owls and large snakes.",
+   "draft": true
+  },
+  "Birds|Burchell's Starling": {
    "size": "About 30-34 cm long; the largest glossy starling in the region.",
    "habitat": "Resident of savanna and open woodland; flocks of 60 or more in late winter and spring.",
    "food": "Mostly insects, also small vertebrates and sometimes berries and flowers.",
@@ -28662,7 +29207,23 @@ window.AGA_DATA = {
    "titbit": "Southern Africa's smallest woodpecker; the male has a red back of the crown, the female black.",
    "draft": true
   },
+  "Birds|Cardinal Woodpecker": {
+   "size": "About 14-16 cm long.",
+   "habitat": "Resident of woodland and savanna throughout Botswana.",
+   "food": "Insect larvae dug out of thin branches and twigs by tapping.",
+   "breeding": "Excavates its own nest hole, usually in a dead branch.",
+   "titbit": "Southern Africa's smallest woodpecker; the male has a red back of the crown, the female black.",
+   "draft": true
+  },
   "Collared Palm-Thrush": {
+   "size": "About 17 cm long.",
+   "habitat": "Resident of thickets and palm groves in far northern Botswana, such as along the Chobe River.",
+   "food": "Insects and other small animals found on the ground.",
+   "breeding": "Cup nest placed in a palm or in a hollow in a tree.",
+   "titbit": "Has a thin black collar around a pale throat and is a good singer that copies other birds.",
+   "draft": true
+  },
+  "Birds|Collared Palm-Thrush": {
    "size": "About 17 cm long.",
    "habitat": "Resident of thickets and palm groves in far northern Botswana, such as along the Chobe River.",
    "food": "Insects and other small animals found on the ground.",
@@ -28678,7 +29239,23 @@ window.AGA_DATA = {
    "titbit": "The largest coucal in southern Africa, with a deep bubbling 'doo-doo-doo' call.",
    "draft": true
   },
+  "Birds|Coppery-tailed Coucal": {
+   "size": "About 44-50 cm long.",
+   "habitat": "Resident of reedbeds and papyrus in the Okavango, Linyanti and Chobe wetlands.",
+   "food": "Insects, frogs, snails, rodents and small birds.",
+   "breeding": "Builds its own ball-shaped nest of grass and reeds; it is not a brood parasite.",
+   "titbit": "The largest coucal in southern Africa, with a deep bubbling 'doo-doo-doo' call.",
+   "draft": true
+  },
   "Crested Spurfowl": {
+   "size": "About 32-35 cm long.",
+   "habitat": "Resident of woodland and savanna with thickets in northern and eastern Botswana.",
+   "food": "Seeds, bulbs, berries, insects and termites scratched from the ground.",
+   "breeding": "Lays its eggs in a shallow scrape on the ground under a bush.",
+   "titbit": "Also called Crested Francolin. Often runs with its tail cocked like a bantam chicken; pairs duet loudly at dawn.",
+   "draft": true
+  },
+  "Birds|Crested Spurfowl": {
    "size": "About 32-35 cm long.",
    "habitat": "Resident of woodland and savanna with thickets in northern and eastern Botswana.",
    "food": "Seeds, bulbs, berries, insects and termites scratched from the ground.",
@@ -28694,7 +29271,23 @@ window.AGA_DATA = {
    "titbit": "Named for its piping song; told from the Pale Chanting Goshawk by its grey, barred rump.",
    "draft": true
   },
+  "Birds|Dark Chanting Goshawk": {
+   "size": "About 50-56 cm long.",
+   "habitat": "Resident of broad-leaved woodland in northern and eastern Botswana.",
+   "food": "Lizards, rodents, birds and large insects, caught by dropping from a perch.",
+   "breeding": "Stick nest in the fork of a tree, often lined with mud or dung.",
+   "titbit": "Named for its piping song; told from the Pale Chanting Goshawk by its grey, barred rump.",
+   "draft": true
+  },
   "Double-banded Sandgrouse": {
+   "size": "About 25 cm long.",
+   "habitat": "Resident of mopane and other woodland in northern and eastern Botswana.",
+   "food": "Seeds picked up on the ground.",
+   "breeding": "Lays its eggs in a shallow scrape on the bare ground.",
+   "titbit": "Unlike other sandgrouse it comes to drink at dusk, arriving just after sunset.",
+   "draft": true
+  },
+  "Birds|Double-banded Sandgrouse": {
    "size": "About 25 cm long.",
    "habitat": "Resident of mopane and other woodland in northern and eastern Botswana.",
    "food": "Seeds picked up on the ground.",
@@ -28710,7 +29303,23 @@ window.AGA_DATA = {
    "titbit": "Not a true goose; it is related to the shelducks. Females have a thinner neck.",
    "draft": true
   },
+  "Birds|Egyptian Goose": {
+   "size": "About 63-73 cm long.",
+   "habitat": "Common resident around any slow-moving or still water; most often in pairs.",
+   "food": "Almost entirely plants such as grass and seeds; insects are eaten by accident.",
+   "breeding": "Nests on the ground, in tree holes, on cliff ledges or on top of old nests of other birds.",
+   "titbit": "Not a true goose; it is related to the shelducks. Females have a thinner neck.",
+   "draft": true
+  },
   "European Bee-eater": {
+   "size": "About 25-29 cm long.",
+   "habitat": "Summer migrant from Europe and Asia; common on passage across Botswana.",
+   "food": "Flying insects, especially bees and wasps caught in the air.",
+   "breeding": "Nests in tunnels in sand banks; most breed in Europe and Asia, a few in South Africa and Namibia.",
+   "titbit": "Flocks are often heard calling a soft 'prrrup' high overhead before they are seen.",
+   "draft": true
+  },
+  "Birds|European Bee-eater": {
    "size": "About 25-29 cm long.",
    "habitat": "Summer migrant from Europe and Asia; common on passage across Botswana.",
    "food": "Flying insects, especially bees and wasps caught in the air.",
@@ -28726,7 +29335,23 @@ window.AGA_DATA = {
    "titbit": "Young birds take two years to get full adult colours; an all-black form also occurs.",
    "draft": true
   },
+  "Birds|Gabar Goshawk": {
+   "size": "About 28-36 cm long; the female is larger than the male.",
+   "habitat": "Solitary resident of woodland and savanna, often hunting around water-holes.",
+   "food": "Almost only birds caught in flight, doves most of all; it rips open weaver and waxbill nests.",
+   "breeding": "Small stick nest in a tree, often covered with the webs of social spiders.",
+   "titbit": "Young birds take two years to get full adult colours; an all-black form also occurs.",
+   "draft": true
+  },
   "Great Spotted Cuckoo": {
+   "size": "About 38-40 cm long.",
+   "habitat": "Summer migrant from tropical Africa to savanna and open woodland.",
+   "food": "Mainly hairy caterpillars and other large insects.",
+   "breeding": "Brood parasite of crows and starlings; its chick does not throw out the host's eggs or young.",
+   "titbit": "Easy to know by its grey crest, long tail and white-spotted back.",
+   "draft": true
+  },
+  "Birds|Great Spotted Cuckoo": {
    "size": "About 38-40 cm long.",
    "habitat": "Summer migrant from tropical Africa to savanna and open woodland.",
    "food": "Mainly hairy caterpillars and other large insects.",
@@ -28742,7 +29367,23 @@ window.AGA_DATA = {
    "titbit": "Leads people to bees' nests, and can digest beeswax with the help of bacteria in its gut.",
    "draft": true
   },
+  "Birds|Greater Honeyguide": {
+   "size": "About 19-20 cm long.",
+   "habitat": "Solitary resident of riverine and broad-leaved woodland, savanna and gardens.",
+   "food": "Bee eggs, larvae and wax; also hawks flying insects such as termites.",
+   "breeding": "Brood parasite of hole-nesters like barbets; the chick kills the host chicks with its hooked bill.",
+   "titbit": "Leads people to bees' nests, and can digest beeswax with the help of bacteria in its gut.",
+   "draft": true
+  },
   "Grey Go-away-bird": {
+   "size": "About 47-50 cm long.",
+   "habitat": "Resident of dry savanna, usually in groups of 3-8 but up to 30 birds.",
+   "food": "Fruit, flowers, buds and leaves, with some insects.",
+   "breeding": "Flimsy platform nest of sticks in a thorny tree.",
+   "titbit": "Named for its loud 'go-way' alarm call; it mobs large predators and owls.",
+   "draft": true
+  },
+  "Birds|Grey Go-away-bird": {
    "size": "About 47-50 cm long.",
    "habitat": "Resident of dry savanna, usually in groups of 3-8 but up to 30 birds.",
    "food": "Fruit, flowers, buds and leaves, with some insects.",
@@ -28758,7 +29399,23 @@ window.AGA_DATA = {
    "titbit": "Its call is a loud bleat like a lamb, which gave it the old name 'Bleating Warbler'.",
    "draft": true
   },
+  "Birds|Grey-backed Camaroptera": {
+   "size": "About 12 cm long.",
+   "habitat": "Resident of thickets and dense undergrowth in northern and eastern Botswana.",
+   "food": "Small insects found in low, dense bushes.",
+   "breeding": "Builds a nest inside living leaves that it sews together with spider web.",
+   "titbit": "Its call is a loud bleat like a lamb, which gave it the old name 'Bleating Warbler'.",
+   "draft": true
+  },
   "Hamerkop": {
+   "size": "About 56 cm long.",
+   "habitat": "Resident wherever there is shallow water; usually alone or in pairs.",
+   "food": "Mostly frogs and tadpoles; fish and insects are less important.",
+   "breeding": "Builds a huge domed nest of sticks and mud with a side entrance, often used later by owls and geese.",
+   "titbit": "The name is Afrikaans for 'hammer-head', after the shape of its head and crest.",
+   "draft": true
+  },
+  "Birds|Hamerkop": {
    "size": "About 56 cm long.",
    "habitat": "Resident wherever there is shallow water; usually alone or in pairs.",
    "food": "Mostly frogs and tadpoles; fish and insects are less important.",
@@ -28774,7 +29431,23 @@ window.AGA_DATA = {
    "titbit": "One of the heaviest flying birds in the world; the flagship bird of the Kgalagadi park.",
    "draft": true
   },
+  "Birds|Kori Bustard": {
+   "size": "About 105-135 cm long; males can weigh more than 12 kg.",
+   "habitat": "Resident of dry open savanna and grassland, alone or in loose groups.",
+   "food": "Mostly insects, also small vertebrates and carrion.",
+   "breeding": "Lays 1-2 eggs on bare ground; the male displays by puffing out his white neck feathers.",
+   "titbit": "One of the heaviest flying birds in the world; the flagship bird of the Kgalagadi park.",
+   "draft": true
+  },
   "Lesser Striped Swallow": {
+   "size": "About 15-17 cm long.",
+   "habitat": "Summer migrant (some stay all year) in northern and eastern Botswana, often near buildings.",
+   "food": "Flying insects caught in the air.",
+   "breeding": "Builds a bowl-shaped mud nest with an entrance tunnel under bridges, eaves or rock ledges.",
+   "titbit": "Told from the Greater Striped Swallow by its heavy black streaks and orange head.",
+   "draft": true
+  },
+  "Birds|Lesser Striped Swallow": {
    "size": "About 15-17 cm long.",
    "habitat": "Summer migrant (some stay all year) in northern and eastern Botswana, often near buildings.",
    "food": "Flying insects caught in the air.",
@@ -28790,7 +29463,23 @@ window.AGA_DATA = {
    "titbit": "It has almost no tail, so it looks like a small round ball creeping along branches.",
    "draft": true
   },
+  "Birds|Long-billed Crombec": {
+   "size": "About 10-12 cm long.",
+   "habitat": "Common resident of woodland and thornveld throughout Botswana.",
+   "food": "Small insects picked from branches and bark.",
+   "breeding": "Hanging purse-shaped nest of grass and spider web below a twig.",
+   "titbit": "It has almost no tail, so it looks like a small round ball creeping along branches.",
+   "draft": true
+  },
   "Marico Flycatcher": {
+   "size": "About 18 cm long.",
+   "habitat": "Common resident of acacia savanna, especially in the Kalahari.",
+   "food": "Insects caught by dropping onto the ground from a low perch.",
+   "breeding": "Small cup nest in the fork of a thorny tree.",
+   "titbit": "Named after the Marico district in South Africa; brown above and clean white below.",
+   "draft": true
+  },
+  "Birds|Marico Flycatcher": {
    "size": "About 18 cm long.",
    "habitat": "Common resident of acacia savanna, especially in the Kalahari.",
    "food": "Insects caught by dropping onto the ground from a low perch.",
@@ -28806,7 +29495,23 @@ window.AGA_DATA = {
    "titbit": "Males repeat the same short song over and over, day and night, which gives the bird its name.",
    "draft": true
   },
+  "Birds|Monotonous Lark": {
+   "size": "About 14 cm long.",
+   "habitat": "Nomadic; arrives in woodland and grassy savanna in the north and east after good rains.",
+   "food": "Seeds and insects taken on the ground.",
+   "breeding": "Cup nest on the ground next to a grass tuft.",
+   "titbit": "Males repeat the same short song over and over, day and night, which gives the bird its name.",
+   "draft": true
+  },
   "Palm Swift": {
+   "size": "About 15-17 cm long.",
+   "habitat": "Resident of savanna with palm trees, usually in pairs or flocks.",
+   "food": "Small insects caught in the air.",
+   "breeding": "Glues a small pad of feathers to the underside of a palm frond with its saliva.",
+   "titbit": "It glues its eggs to the hanging nest so they do not fall out in the wind.",
+   "draft": true
+  },
+  "Birds|Palm Swift": {
    "size": "About 15-17 cm long.",
    "habitat": "Resident of savanna with palm trees, usually in pairs or flocks.",
    "food": "Small insects caught in the air.",
@@ -28822,7 +29527,23 @@ window.AGA_DATA = {
    "titbit": "Breeding males grow long white wing pennants, up to twice the length of the body.",
    "draft": true
   },
+  "Birds|Pennant-winged Nightjar": {
+   "size": "About 25-28 cm long, not counting the male's pennants.",
+   "habitat": "Summer migrant to broad-leaved woodland in northern and eastern Botswana.",
+   "food": "Flying insects such as moths and beetles caught at dusk and night.",
+   "breeding": "Lays its eggs on bare ground among leaf litter, with no nest.",
+   "titbit": "Breeding males grow long white wing pennants, up to twice the length of the body.",
+   "draft": true
+  },
   "Purple-banded Sunbird": {
+   "size": "About 11-12 cm long.",
+   "habitat": "Resident of riverine woodland in northern Botswana, such as the Okavango and Chobe.",
+   "food": "Nectar, small insects and spiders.",
+   "breeding": "Small hanging oval nest with a side entrance, decorated with lichen and bark.",
+   "titbit": "Told from the similar Marico Sunbird by its smaller size and shorter bill.",
+   "draft": true
+  },
+  "Birds|Purple-banded Sunbird": {
    "size": "About 11-12 cm long.",
    "habitat": "Resident of riverine woodland in northern Botswana, such as the Okavango and Chobe.",
    "food": "Nectar, small insects and spiders.",
@@ -28838,7 +29559,23 @@ window.AGA_DATA = {
    "titbit": "Males have an unusual false penis, a feature found in very few other birds.",
    "draft": true
   },
+  "Birds|Red-billed Buffalo-Weaver": {
+   "size": "About 22-24 cm long.",
+   "habitat": "Resident of dry acacia savanna, often near large trees such as baobabs.",
+   "food": "Seeds and insects, mostly taken on the ground, often near game.",
+   "breeding": "Groups build large untidy nests of thorny twigs in big trees; males have several females.",
+   "titbit": "Males have an unusual false penis, a feature found in very few other birds.",
+   "draft": true
+  },
   "Red-billed Quelea": {
+   "size": "About 12 cm long.",
+   "habitat": "Nomadic; moves in huge flocks through savanna and thornveld, following seed supply.",
+   "food": "Grass seeds and grain.",
+   "breeding": "Breeds in colonies of up to millions, with small woven ball nests in thorn trees.",
+   "titbit": "Thought to be the most numerous wild bird on Earth, with over a billion birds.",
+   "draft": true
+  },
+  "Birds|Red-billed Quelea": {
    "size": "About 12 cm long.",
    "habitat": "Nomadic; moves in huge flocks through savanna and thornveld, following seed supply.",
    "food": "Grass seeds and grain.",
@@ -28854,7 +29591,23 @@ window.AGA_DATA = {
    "titbit": "In display the male flies straight up, then tumbles down as if shot and opens his wings at the last moment.",
    "draft": true
   },
+  "Birds|Red-crested Korhaan": {
+   "size": "About 50 cm long.",
+   "habitat": "Common resident of Kalahari thornveld and dry woodland.",
+   "food": "Insects such as termites and beetles, also seeds and fruit.",
+   "breeding": "Lays its eggs on bare ground with no nest.",
+   "titbit": "In display the male flies straight up, then tumbles down as if shot and opens his wings at the last moment.",
+   "draft": true
+  },
   "Retz's Helmet-Shrike": {
+   "size": "About 20-22 cm long.",
+   "habitat": "Resident of broad-leaved woodland, such as mopane, in northern Botswana.",
+   "food": "Insects and caterpillars found in the tree canopy.",
+   "breeding": "Cup nest on a branch; group members help feed the chicks. Host of the Thick-billed Cuckoo.",
+   "titbit": "Lives in groups that move through the trees together; note the red bill and eye ring.",
+   "draft": true
+  },
+  "Birds|Retz's Helmet-Shrike": {
    "size": "About 20-22 cm long.",
    "habitat": "Resident of broad-leaved woodland, such as mopane, in northern Botswana.",
    "food": "Insects and caterpillars found in the tree canopy.",
@@ -28870,7 +29623,23 @@ window.AGA_DATA = {
    "titbit": "The male is glossy black with white wing markings; it often joins mixed bird parties.",
    "draft": true
   },
+  "Birds|Southern Black Tit": {
+   "size": "About 16 cm long.",
+   "habitat": "Resident of woodland and savanna in northern and eastern Botswana.",
+   "food": "Insects and their larvae picked from bark and leaves.",
+   "breeding": "Nests in a hole in a tree; other group members may help feed the chicks.",
+   "titbit": "The male is glossy black with white wing markings; it often joins mixed bird parties.",
+   "draft": true
+  },
   "Southern Masked Weaver": {
+   "size": "About 14-15 cm long.",
+   "habitat": "Common resident of savanna and dry scrub; forms large flocks, especially when breeding.",
+   "food": "Seeds, insects and nectar.",
+   "breeding": "The male weaves ball nests with the entrance below; one male has several females.",
+   "titbit": "Breeding males are bright yellow with a black mask and red eye, and mob predators.",
+   "draft": true
+  },
+  "Birds|Southern Masked Weaver": {
    "size": "About 14-15 cm long.",
    "habitat": "Common resident of savanna and dry scrub; forms large flocks, especially when breeding.",
    "food": "Seeds, insects and nectar.",
@@ -28886,7 +29655,23 @@ window.AGA_DATA = {
    "titbit": "When afraid it can make itself very thin and upright, or puff up to look much bigger.",
    "draft": true
   },
+  "Birds|Southern White-faced Owl": {
+   "size": "About 25-28 cm long.",
+   "habitat": "Resident of acacia savanna and dry woodland.",
+   "food": "Rodents, small birds, insects and scorpions.",
+   "breeding": "Uses old stick nests of other birds or a hollow in a tree.",
+   "titbit": "When afraid it can make itself very thin and upright, or puff up to look much bigger.",
+   "draft": true
+  },
   "Striped Kingfisher": {
+   "size": "About 18 cm long.",
+   "habitat": "Resident of woodland and savanna; it does not need water.",
+   "food": "Insects and small lizards caught on the ground from a perch.",
+   "breeding": "Nests in a hole in a tree, often an old barbet or woodpecker hole.",
+   "titbit": "When calling it opens its wings to flash the white underwings.",
+   "draft": true
+  },
+  "Birds|Striped Kingfisher": {
    "size": "About 18 cm long.",
    "habitat": "Resident of woodland and savanna; it does not need water.",
    "food": "Insects and small lizards caught on the ground from a perch.",
@@ -28902,7 +29687,23 @@ window.AGA_DATA = {
    "titbit": "Often holds its long tail cocked up and waves it while scolding loudly.",
    "draft": true
   },
+  "Birds|Tawny-flanked Prinia": {
+   "size": "About 11-12 cm long.",
+   "habitat": "Common resident of rank grass and thickets, especially near water.",
+   "food": "Small insects found in grass and low bushes.",
+   "breeding": "Ball nest of grass woven into living leaves; may be parasitised by the Cuckoo Finch.",
+   "titbit": "Often holds its long tail cocked up and waves it while scolding loudly.",
+   "draft": true
+  },
   "Verreaux's Eagle-Owl": {
+   "size": "About 58-66 cm long; the largest owl in Africa.",
+   "habitat": "Resident of dry savanna, woodland and riverine woodland, usually in pairs.",
+   "food": "Small to medium mammals and birds, even young vervet monkeys and warthog piglets.",
+   "breeding": "Lays its eggs in old stick nests of other birds, such as eagles or Hamerkops.",
+   "titbit": "Has bright pink eyelids, easy to see when it blinks.",
+   "draft": true
+  },
+  "Birds|Verreaux's Eagle-Owl": {
    "size": "About 58-66 cm long; the largest owl in Africa.",
    "habitat": "Resident of dry savanna, woodland and riverine woodland, usually in pairs.",
    "food": "Small to medium mammals and birds, even young vervet monkeys and warthog piglets.",
@@ -28918,7 +29719,23 @@ window.AGA_DATA = {
    "titbit": "Often nests close to nesting crocodiles; its sad whistle is heard at night.",
    "draft": true
   },
+  "Birds|Water Thick-knee": {
+   "size": "About 38-41 cm long.",
+   "habitat": "Resident of river banks and wetlands, in pairs or family groups.",
+   "food": "Insects and other invertebrates, and small vertebrates.",
+   "breeding": "Scrape on the ground near water; it will attack predators with open wings to defend the nest.",
+   "titbit": "Often nests close to nesting crocodiles; its sad whistle is heard at night.",
+   "draft": true
+  },
   "White-breasted Cuckooshrike": {
+   "size": "About 25-27 cm long.",
+   "habitat": "Resident of tall broad-leaved woodland in northern and eastern Botswana.",
+   "food": "Caterpillars and other insects in the tree canopy.",
+   "breeding": "Shallow cup nest of lichen and spider web on a horizontal branch.",
+   "titbit": "A quiet grey and white bird of the treetops that is easy to overlook.",
+   "draft": true
+  },
+  "Birds|White-breasted Cuckooshrike": {
    "size": "About 25-27 cm long.",
    "habitat": "Resident of tall broad-leaved woodland in northern and eastern Botswana.",
    "food": "Caterpillars and other insects in the tree canopy.",
@@ -28934,7 +29751,23 @@ window.AGA_DATA = {
    "titbit": "A whistling duck: its three-note whistle is often heard at night as flocks fly over.",
    "draft": true
   },
+  "Birds|White-faced Duck": {
+   "size": "About 43-48 cm long.",
+   "habitat": "Resident of lakes, dams and lagoons; groups of about 40, but flocks of thousands occur.",
+   "food": "Mostly plant matter, also invertebrates.",
+   "breeding": "Nest on the ground in grass or reeds near water.",
+   "titbit": "A whistling duck: its three-note whistle is often heard at night as flocks fly over.",
+   "draft": true
+  },
   "Wood Sandpiper": {
+   "size": "About 19-21 cm long.",
+   "habitat": "Summer migrant from Europe and Asia to shallow pans and flooded grassland; usually alone.",
+   "food": "Mostly invertebrates, also small frogs and fish.",
+   "breeding": "Breeds in northern Europe and Asia, sometimes using old songbird nests in trees.",
+   "titbit": "When flushed it flies off calling a shrill 'chiff-iff-iff'.",
+   "draft": true
+  },
+  "Birds|Wood Sandpiper": {
    "size": "About 19-21 cm long.",
    "habitat": "Summer migrant from Europe and Asia to shallow pans and flooded grassland; usually alone.",
    "food": "Mostly invertebrates, also small frogs and fish.",
@@ -28950,7 +29783,23 @@ window.AGA_DATA = {
    "titbit": "Pairs sing duets; the male usually has a small black bar on its yellow breast.",
    "draft": true
   },
+  "Birds|Yellow-breasted Apalis": {
+   "size": "About 12 cm long.",
+   "habitat": "Resident of woodland and thickets in northern and eastern Botswana.",
+   "food": "Small insects gleaned from leaves.",
+   "breeding": "Ball-shaped nest of plant down, moss and spider web with a side entrance.",
+   "titbit": "Pairs sing duets; the male usually has a small black bar on its yellow breast.",
+   "draft": true
+  },
   "African Fish Eagle": {
+   "size": "About 63–73 cm long; the female is larger than the male.",
+   "habitat": "Common resident of rivers, lakes and floodplains such as the Okavango, Chobe and Linyanti.",
+   "food": "Mostly fish, but also birds up to flamingo size, monitor lizards, young crocodiles and even vervet monkeys.",
+   "breeding": "Builds a large stick nest in a tall tree near water and often reuses it for many years.",
+   "titbit": "Young birds are untidy and blotchy; full adult colours only appear by the fifth year.",
+   "draft": true
+  },
+  "Birds|African Fish Eagle": {
    "size": "About 63–73 cm long; the female is larger than the male.",
    "habitat": "Common resident of rivers, lakes and floodplains such as the Okavango, Chobe and Linyanti.",
    "food": "Mostly fish, but also birds up to flamingo size, monitor lizards, young crocodiles and even vervet monkeys.",
@@ -28966,7 +29815,23 @@ window.AGA_DATA = {
    "titbit": "Named after its soft 'hoop-hoop' call; it raises its crest like a fan when alarmed or landing.",
    "draft": true
   },
+  "Birds|African Hoopoe": {
+   "size": "About 25–28 cm long.",
+   "habitat": "Resident of woodland and gardens, usually seen alone or in pairs.",
+   "food": "Small invertebrates caught by probing its long bill into the ground.",
+   "breeding": "Nests in a hole in a tree or wall; the nest has a foul smell that may help keep predators away.",
+   "titbit": "Named after its soft 'hoop-hoop' call; it raises its crest like a fan when alarmed or landing.",
+   "draft": true
+  },
   "African Openbill": {
+   "size": "About 80–90 cm long.",
+   "habitat": "Resident around shallow water and slow-moving rivers, common in the Okavango; alone or in large flocks.",
+   "food": "Mostly water snails, plus freshwater mussels which it may leave in the sun to open.",
+   "breeding": "Builds a stick platform nest in trees or reedbeds, usually in colonies with other waterbirds.",
+   "titbit": "The gap between the closed mandibles develops with age; young birds have a closed bill.",
+   "draft": true
+  },
+  "Birds|African Openbill": {
    "size": "About 80–90 cm long.",
    "habitat": "Resident around shallow water and slow-moving rivers, common in the Okavango; alone or in large flocks.",
    "food": "Mostly water snails, plus freshwater mussels which it may leave in the sun to open.",
@@ -28982,7 +29847,23 @@ window.AGA_DATA = {
    "titbit": "By day it stretches tall with ear tufts raised to look like a broken branch; its call is a soft 'prrrup'.",
    "draft": true
   },
+  "Birds|African Scops-Owl": {
+   "size": "About 15–17 cm long; the smallest owl in southern Africa.",
+   "habitat": "Widespread resident of dry woodland and savanna, including mopane and acacia.",
+   "food": "Mainly large insects such as moths, beetles and grasshoppers, plus spiders and scorpions.",
+   "breeding": "Lays its eggs in a natural tree hole without adding nest material.",
+   "titbit": "By day it stretches tall with ear tufts raised to look like a broken branch; its call is a soft 'prrrup'.",
+   "draft": true
+  },
   "Arnot's Chat": {
+   "size": "About 18 cm long.",
+   "habitat": "Resident of mature mopane woodland in northern Botswana, usually in pairs.",
+   "food": "Insects, mostly caught on the ground by dropping from a low perch.",
+   "breeding": "Nests in a hole in a tree, often an old barbet or woodpecker hole.",
+   "titbit": "The male is black with a white cap; the female is black with a white throat and breast.",
+   "draft": true
+  },
+  "Birds|Arnot's Chat": {
    "size": "About 18 cm long.",
    "habitat": "Resident of mature mopane woodland in northern Botswana, usually in pairs.",
    "food": "Insects, mostly caught on the ground by dropping from a low perch.",
@@ -28998,7 +29879,23 @@ window.AGA_DATA = {
    "titbit": "It drums very loudly on dead wood, and the sound carries a long way; note the bold black 'beard' stripe.",
    "draft": true
   },
+  "Birds|Bearded Woodpecker": {
+   "size": "About 23–25 cm long; one of the largest woodpeckers in the region.",
+   "habitat": "Resident of mature woodland with big trees, including mopane and riverine forest.",
+   "food": "Mainly beetle larvae dug out of dead wood with its strong chisel-like bill.",
+   "breeding": "Excavates a nest hole in a dead branch or trunk.",
+   "titbit": "It drums very loudly on dead wood, and the sound carries a long way; note the bold black 'beard' stripe.",
+   "draft": true
+  },
   "Black Cuckoo": {
+   "size": "About 30 cm long.",
+   "habitat": "Summer visitor (intra-African migrant) to woodland and riverine forest in northern and eastern Botswana.",
+   "food": "Mainly hairy caterpillars, which most other birds avoid.",
+   "breeding": "Brood parasite that lays its eggs mainly in the nests of boubous and other bush-shrikes.",
+   "titbit": "Its mournful three-note call is often remembered as 'I'm so siiick'.",
+   "draft": true
+  },
+  "Birds|Black Cuckoo": {
    "size": "About 30 cm long.",
    "habitat": "Summer visitor (intra-African migrant) to woodland and riverine forest in northern and eastern Botswana.",
    "food": "Mainly hairy caterpillars, which most other birds avoid.",
@@ -29014,7 +29911,23 @@ window.AGA_DATA = {
    "titbit": "Pairs sing a loud duet ('too-puddly') to declare their territory as they patrol its borders.",
    "draft": true
   },
+  "Birds|Black-collared Barbet": {
+   "size": "About 19–20 cm long.",
+   "habitat": "Resident of woodland, riverine forest and gardens in northern and eastern Botswana.",
+   "food": "Mainly fruit, especially figs, with some insects.",
+   "breeding": "Excavates a nest hole in a dead branch; extra group members often help raise the chicks.",
+   "titbit": "Pairs sing a loud duet ('too-puddly') to declare their territory as they patrol its borders.",
+   "draft": true
+  },
   "Black-winged Pratincole": {
+   "size": "About 23–25 cm long.",
+   "habitat": "Summer visitor from Europe and Asia to floodplains and pans, often in large flocks, e.g. at Lake Ngami.",
+   "food": "Insects, especially grasshoppers and locusts, caught in flight and on the ground.",
+   "breeding": "Does not breed in Botswana; it breeds in eastern Europe and central Asia.",
+   "titbit": "Near Threatened because of heavy pesticide use on its breeding grounds; flagship bird of the Lake Ngami IBA.",
+   "draft": true
+  },
+  "Birds|Black-winged Pratincole": {
    "size": "About 23–25 cm long.",
    "habitat": "Summer visitor from Europe and Asia to floodplains and pans, often in large flocks, e.g. at Lake Ngami.",
    "food": "Insects, especially grasshoppers and locusts, caught in flight and on the ground.",
@@ -29030,7 +29943,23 @@ window.AGA_DATA = {
    "titbit": "Most active in the late afternoon, when it gorges on emerging flying termites.",
    "draft": true
   },
+  "Birds|Broad-billed Roller": {
+   "size": "About 27–29 cm long.",
+   "habitat": "Summer visitor (intra-African migrant) to riverine forest and tall woodland in northern Botswana.",
+   "food": "Flying insects, especially swarming termites, caught in the air.",
+   "breeding": "Nests in a natural hole high in a tall tree.",
+   "titbit": "Most active in the late afternoon, when it gorges on emerging flying termites.",
+   "draft": true
+  },
   "Brubru": {
+   "size": "About 14–15 cm long.",
+   "habitat": "Common resident of acacia and broad-leaved woodland across Botswana.",
+   "food": "Insects gleaned from leaves and twigs in the tree canopy.",
+   "breeding": "Builds a small, neat cup nest in a fork, bound with spider web and covered in lichen.",
+   "titbit": "The male's call is a long trilling 'prrrrrr', like a telephone ringing; the female often answers.",
+   "draft": true
+  },
+  "Birds|Brubru": {
    "size": "About 14–15 cm long.",
    "habitat": "Common resident of acacia and broad-leaved woodland across Botswana.",
    "food": "Insects gleaned from leaves and twigs in the tree canopy.",
@@ -29046,7 +29975,23 @@ window.AGA_DATA = {
    "titbit": "Named for the narrow brown band across its throat, which looks like a burn mark.",
    "draft": true
   },
+  "Birds|Burnt-necked Eremomela": {
+   "size": "About 12 cm long.",
+   "habitat": "Resident of acacia woodland and savanna, usually in small groups.",
+   "food": "Small insects gleaned from leaves in the tree canopy.",
+   "breeding": "Builds a small cup nest in a tree.",
+   "titbit": "Named for the narrow brown band across its throat, which looks like a burn mark.",
+   "draft": true
+  },
   "Chestnut-backed Sparrowlark": {
+   "size": "About 12–13 cm long.",
+   "habitat": "Nomadic in dry, open grassland and bare ground, often near pans; usually in flocks.",
+   "food": "Seeds and some insects picked up from the ground.",
+   "breeding": "Small cup nest on the ground next to a grass tuft or stone, often after rain.",
+   "titbit": "The male is boldly black and chestnut with a white cheek; it was formerly called a finchlark.",
+   "draft": true
+  },
+  "Birds|Chestnut-backed Sparrowlark": {
    "size": "About 12–13 cm long.",
    "habitat": "Nomadic in dry, open grassland and bare ground, often near pans; usually in flocks.",
    "food": "Seeds and some insects picked up from the ground.",
@@ -29062,7 +30007,23 @@ window.AGA_DATA = {
    "titbit": "With its forked tail and pointed wings it flies like a large swallow; it fakes injury to lure intruders away.",
    "draft": true
   },
+  "Birds|Collared Pratincole": {
+   "size": "About 24–27 cm long.",
+   "habitat": "Found on open floodplains, sandbanks and pan edges in northern Botswana; numbers change with water levels.",
+   "food": "Insects caught in flight like a swallow, mostly at dawn and dusk.",
+   "breeding": "Lays eggs in a bare scrape on open ground, usually in loose colonies.",
+   "titbit": "With its forked tail and pointed wings it flies like a large swallow; it fakes injury to lure intruders away.",
+   "draft": true
+  },
   "Coqui Francolin": {
+   "size": "About 20–25 cm long; the smallest francolin in the region.",
+   "habitat": "Resident of grassland and open woodland on sandy soils in northern and eastern Botswana.",
+   "food": "Seeds, shoots and insects found on the ground.",
+   "breeding": "Nests in a scrape on the ground, lined with grass and hidden in cover.",
+   "titbit": "Its name comes from the call, a repeated 'ko-kwee, ko-kwee'.",
+   "draft": true
+  },
+  "Birds|Coqui Francolin": {
    "size": "About 20–25 cm long; the smallest francolin in the region.",
    "habitat": "Resident of grassland and open woodland on sandy soils in northern and eastern Botswana.",
    "food": "Seeds, shoots and insects found on the ground.",
@@ -29078,7 +30039,23 @@ window.AGA_DATA = {
    "titbit": "Pairs sing a fast duet; rarely, birds have a yellow instead of a crimson breast.",
    "draft": true
   },
+  "Birds|Crimson-breasted Shrike": {
+   "size": "About 22–23 cm long.",
+   "habitat": "Common resident of acacia thornveld, especially in the Kalahari.",
+   "food": "Mainly insects, mostly taken on or near the ground.",
+   "breeding": "Builds a cup nest of bark strips in a fork of a thorn tree.",
+   "titbit": "Pairs sing a fast duet; rarely, birds have a yellow instead of a crimson breast.",
+   "draft": true
+  },
   "Dark-capped Bulbul": {
+   "size": "About 20–22 cm long.",
+   "habitat": "Common resident of riverine woodland, thickets and gardens in northern and eastern Botswana.",
+   "food": "Fruit, nectar and insects.",
+   "breeding": "Builds a thin cup nest in a bush or tree; it is a host of the Jacobin Cuckoo.",
+   "titbit": "Often the first bird to give a scolding alarm at a snake or owl; it bathes by shaking in wet leaves.",
+   "draft": true
+  },
+  "Birds|Dark-capped Bulbul": {
    "size": "About 20–22 cm long.",
    "habitat": "Common resident of riverine woodland, thickets and gardens in northern and eastern Botswana.",
    "food": "Fruit, nectar and insects.",
@@ -29094,7 +30071,23 @@ window.AGA_DATA = {
    "titbit": "Looks like a small Groundscraper Thrush and flicks its wings up after landing.",
    "draft": true
   },
+  "Birds|Dusky Lark": {
+   "size": "About 19 cm long.",
+   "habitat": "Summer visitor from further north in Africa to open woodland, bare ground and burnt areas.",
+   "food": "Insects picked from the ground.",
+   "breeding": "Does not breed in Botswana; it breeds further north in central Africa.",
+   "titbit": "Looks like a small Groundscraper Thrush and flicks its wings up after landing.",
+   "draft": true
+  },
   "Emerald-spotted Wood-Dove": {
+   "size": "About 20 cm long.",
+   "habitat": "Common resident of woodland and thickets in northern and eastern Botswana.",
+   "food": "Seeds picked up from the ground.",
+   "breeding": "Builds a flimsy platform nest of twigs in a bush or low tree.",
+   "titbit": "Its sad, descending 'du du du-du-du-du' call is often told as 'my mother is dead, my father is dead...'.",
+   "draft": true
+  },
+  "Birds|Emerald-spotted Wood-Dove": {
    "size": "About 20 cm long.",
    "habitat": "Common resident of woodland and thickets in northern and eastern Botswana.",
    "food": "Seeds picked up from the ground.",
@@ -29110,7 +30103,23 @@ window.AGA_DATA = {
    "titbit": "Unlike many larks it often sings from the top of a bush; note its white eyebrow.",
    "draft": true
   },
+  "Birds|Fawn-coloured Lark": {
+   "size": "About 15–16 cm long.",
+   "habitat": "Resident of Kalahari sandveld with grass and scattered bushes.",
+   "food": "Insects and seeds taken on the ground.",
+   "breeding": "Cup nest on the ground at the base of a grass tuft or small bush.",
+   "titbit": "Unlike many larks it often sings from the top of a bush; note its white eyebrow.",
+   "draft": true
+  },
   "Golden-tailed Woodpecker": {
+   "size": "About 20–22 cm long.",
+   "habitat": "Resident of woodland and riverine forest across northern and eastern Botswana.",
+   "food": "Ants and beetle larvae taken from bark and dead wood.",
+   "breeding": "Excavates a nest hole in a tree branch.",
+   "titbit": "Gives a loud, nasal 'wheeeaa' call; the tail feather shafts are golden-yellow.",
+   "draft": true
+  },
+  "Birds|Golden-tailed Woodpecker": {
    "size": "About 20–22 cm long.",
    "habitat": "Resident of woodland and riverine forest across northern and eastern Botswana.",
    "food": "Ants and beetle larvae taken from bark and dead wood.",
@@ -29126,7 +30135,23 @@ window.AGA_DATA = {
    "titbit": "Flocks feed together, herding fish into shallows, which is more successful than feeding alone.",
    "draft": true
   },
+  "Birds|Great White Pelican": {
+   "size": "About 140–180 cm long; weighs about 7–12 kg.",
+   "habitat": "Resident but nomadic on large open water; the flooded Makgadikgadi Pans hold huge breeding colonies.",
+   "food": "Only fish, with up to 4 kg recorded; it scoops fish into its throat pouch.",
+   "breeding": "Breeds in dense colonies on the ground, such as on islands in the Makgadikgadi when flooded.",
+   "titbit": "Flocks feed together, herding fish into shallows, which is more successful than feeding alone.",
+   "draft": true
+  },
   "Green-capped Eremomela": {
+   "size": "About 11 cm long.",
+   "habitat": "Resident of broad-leaved woodland and riverine trees in northern Botswana.",
+   "food": "Small insects gleaned from leaves in the tree canopy.",
+   "breeding": "Builds a small cup nest in a tree.",
+   "titbit": "Moves through the canopy in small, chattering groups, often in mixed bird parties.",
+   "draft": true
+  },
+  "Birds|Green-capped Eremomela": {
    "size": "About 11 cm long.",
    "habitat": "Resident of broad-leaved woodland and riverine trees in northern Botswana.",
    "food": "Small insects gleaned from leaves in the tree canopy.",
@@ -29142,7 +30167,23 @@ window.AGA_DATA = {
    "titbit": "The fake entrance leads to a dead-end pocket, fooling snakes and other nest robbers.",
    "draft": true
   },
+  "Birds|Grey Penduline-Tit": {
+   "size": "About 8–9 cm long; one of the smallest birds in Africa.",
+   "habitat": "Resident of acacia savanna and dry woodland, including the Kalahari.",
+   "food": "Tiny insects and their eggs gleaned from leaves and twigs.",
+   "breeding": "Builds a soft felt nest of plant down with a false entrance; the real entrance is a spout that closes.",
+   "titbit": "The fake entrance leads to a dead-end pocket, fooling snakes and other nest robbers.",
+   "draft": true
+  },
   "Grey-headed Kingfisher": {
+   "size": "About 20 cm long.",
+   "habitat": "Summer visitor (intra-African migrant) to woodland and savanna in northern and eastern Botswana.",
+   "food": "Mainly insects such as grasshoppers, and small lizards; it seldom eats fish.",
+   "breeding": "Digs a nest tunnel into a river bank or earth bank.",
+   "titbit": "A dry-land kingfisher, recognised by its grey head, chestnut belly and red bill.",
+   "draft": true
+  },
+  "Birds|Grey-headed Kingfisher": {
    "size": "About 20 cm long.",
    "habitat": "Summer visitor (intra-African migrant) to woodland and savanna in northern and eastern Botswana.",
    "food": "Mainly insects such as grasshoppers, and small lizards; it seldom eats fish.",
@@ -29158,7 +30199,23 @@ window.AGA_DATA = {
    "titbit": "Gives a fast 'kek kek kek krrrr' alarm for raptors and cats, so it is a useful predator alarm.",
    "draft": true
   },
+  "Birds|Helmeted Guineafowl": {
+   "size": "About 53–58 cm long; weighs about 1.3 kg.",
+   "habitat": "Common resident of savanna and grassland; in pairs when breeding, otherwise in flocks.",
+   "food": "Mainly plant material and arthropods.",
+   "breeding": "Lays a large clutch in a scrape on the ground hidden in grass.",
+   "titbit": "Gives a fast 'kek kek kek krrrr' alarm for raptors and cats, so it is a useful predator alarm.",
+   "draft": true
+  },
   "Kurrichane Buttonquail": {
+   "size": "About 14–15 cm long.",
+   "habitat": "Resident and nomadic in grassland and open savanna across Botswana.",
+   "food": "Seeds and small insects found on the ground.",
+   "breeding": "The female mates with several males (polyandry); the male incubates the eggs and raises the chicks.",
+   "titbit": "Not a true quail; the larger, brighter female makes a deep hooting call to attract males.",
+   "draft": true
+  },
+  "Birds|Kurrichane Buttonquail": {
    "size": "About 14–15 cm long.",
    "habitat": "Resident and nomadic in grassland and open savanna across Botswana.",
    "food": "Seeds and small insects found on the ground.",
@@ -29174,7 +30231,23 @@ window.AGA_DATA = {
    "titbit": "Its chick is raised by a whole group of babblers, and it begs with calls like a babbler chick.",
    "draft": true
   },
+  "Birds|Levaillant's Cuckoo": {
+   "size": "About 38–40 cm long.",
+   "habitat": "Summer visitor (intra-African migrant) to savanna, woodland and riverine forest.",
+   "food": "Mostly caterpillars; often joins mixed feeding flocks.",
+   "breeding": "Brood parasite of babblers, which raise the cuckoo chick.",
+   "titbit": "Its chick is raised by a whole group of babblers, and it begs with calls like a babbler chick.",
+   "draft": true
+  },
   "Black-bellied Bustard": {
+   "size": "About 60 cm tall; a slender bustard with long legs and neck.",
+   "habitat": "Resident of tall grassland and open savanna in northern Botswana.",
+   "food": "Insects, seeds, shoots and small animals taken from the ground.",
+   "breeding": "Lays 1-2 eggs on bare ground; the female alone incubates.",
+   "titbit": "Formerly called Long-legged Bustard. The male's display call is a croak followed by a loud 'pop'.",
+   "draft": true
+  },
+  "Birds|Black-bellied Bustard": {
    "size": "About 60 cm tall; a slender bustard with long legs and neck.",
    "habitat": "Resident of tall grassland and open savanna in northern Botswana.",
    "food": "Insects, seeds, shoots and small animals taken from the ground.",
@@ -29190,7 +30263,23 @@ window.AGA_DATA = {
    "titbit": "Formerly called the Long-tailed Starling; its long, graduated tail makes it easy to identify.",
    "draft": true
   },
+  "Birds|Meves's Starling": {
+   "size": "About 34 cm long, about half of which is tail.",
+   "habitat": "Resident of mopane and riverine woodland in northern Botswana, e.g. along the Chobe.",
+   "food": "Insects taken on the ground, plus some fruit.",
+   "breeding": "Nests in a hole in a tree.",
+   "titbit": "Formerly called the Long-tailed Starling; its long, graduated tail makes it easy to identify.",
+   "draft": true
+  },
   "Orange-breasted Bush-Shrike": {
+   "size": "About 18–19 cm long.",
+   "habitat": "Resident of acacia and riverine thickets in northern and eastern Botswana.",
+   "food": "Insects gleaned from leaves in the tree canopy.",
+   "breeding": "Builds a flimsy, shallow cup nest in a tree or bush.",
+   "titbit": "Heard far more than seen; its call is a whistled 'poo-poo-poo-pooooo'.",
+   "draft": true
+  },
+  "Birds|Orange-breasted Bush-Shrike": {
    "size": "About 18–19 cm long.",
    "habitat": "Resident of acacia and riverine thickets in northern and eastern Botswana.",
    "food": "Insects gleaned from leaves in the tree canopy.",
@@ -29206,7 +30295,23 @@ window.AGA_DATA = {
    "titbit": "Two dark 'false eyes' on the back of its head make predators think it is watching them.",
    "draft": true
   },
+  "Birds|Pearl-spotted Owlet": {
+   "size": "About 18–19 cm long; weighs about 80 g.",
+   "habitat": "Common resident of woodland and savanna across Botswana.",
+   "food": "Insects, small birds, rodents and lizards; it often hunts by day.",
+   "breeding": "Nests in a tree hole, often an old barbet or woodpecker hole.",
+   "titbit": "Two dark 'false eyes' on the back of its head make predators think it is watching them.",
+   "draft": true
+  },
   "Pied Kingfisher": {
+   "size": "About 25–29 cm long.",
+   "habitat": "Common resident of slow-flowing or still open water, in pairs or close family groups.",
+   "food": "Mostly small fish, plus insects and crustaceans.",
+   "breeding": "Digs a nest tunnel into a river bank; helpers often assist the breeding pair.",
+   "titbit": "Hovers over water before diving; males have two breast bands, females one broken band.",
+   "draft": true
+  },
+  "Birds|Pied Kingfisher": {
    "size": "About 25–29 cm long.",
    "habitat": "Common resident of slow-flowing or still open water, in pairs or close family groups.",
    "food": "Mostly small fish, plus insects and crustaceans.",
@@ -29222,7 +30327,23 @@ window.AGA_DATA = {
    "titbit": "The two outer tail feathers end in small 'rackets'; it is quiet and easily overlooked.",
    "draft": true
   },
+  "Birds|Racket-tailed Roller": {
+   "size": "About 36 cm long, including the tail.",
+   "habitat": "Uncommon resident of mature broad-leaved woodland in northern Botswana.",
+   "food": "Insects, often caught by dropping from a perch to the ground.",
+   "breeding": "Nests in a natural hole in a tree.",
+   "titbit": "The two outer tail feathers end in small 'rackets'; it is quiet and easily overlooked.",
+   "draft": true
+  },
   "Red-billed Firefinch": {
+   "size": "About 10 cm long.",
+   "habitat": "Common resident of thickets and gardens near water in northern and eastern Botswana.",
+   "food": "Small grass seeds picked up from the ground.",
+   "breeding": "Builds a ball-shaped grass nest with a side entrance; host of the Village Indigobird.",
+   "titbit": "The indigobird chick is raised alongside the firefinch chicks without harming them.",
+   "draft": true
+  },
+  "Birds|Red-billed Firefinch": {
    "size": "About 10 cm long.",
    "habitat": "Common resident of thickets and gardens near water in northern and eastern Botswana.",
    "food": "Small grass seeds picked up from the ground.",
@@ -29238,7 +30359,23 @@ window.AGA_DATA = {
    "titbit": "One of the best 'predator alarms' in Botswana: its loud 'KAK! KAK! KAK!' warns of cats, snakes and raptors.",
    "draft": true
   },
+  "Birds|Red-billed Spurfowl": {
+   "size": "About 35 cm long.",
+   "habitat": "Common resident of dry savanna and woodland, in pairs or coveys of up to 12.",
+   "food": "Mainly seeds and arthropods.",
+   "breeding": "Nests in a scrape on the ground under a bush or grass tuft.",
+   "titbit": "One of the best 'predator alarms' in Botswana: its loud 'KAK! KAK! KAK!' warns of cats, snakes and raptors.",
+   "draft": true
+  },
   "Red-faced Cisticola": {
+   "size": "About 13 cm long.",
+   "habitat": "Resident of reeds and rank vegetation near water in northern Botswana.",
+   "food": "Insects gleaned from low vegetation.",
+   "breeding": "Builds a ball-shaped nest low down in rank grass or bushes.",
+   "titbit": "Has a rusty face and gives a loud, ringing whistled song from cover near water.",
+   "draft": true
+  },
+  "Birds|Red-faced Cisticola": {
    "size": "About 13 cm long.",
    "habitat": "Resident of reeds and rank vegetation near water in northern Botswana.",
    "food": "Insects gleaned from low vegetation.",
@@ -29254,7 +30391,23 @@ window.AGA_DATA = {
    "titbit": "Its bubbling 'doo-doo-doo' call sounds like water being poured from a bottle.",
    "draft": true
   },
+  "Birds|Senegal Coucal": {
+   "size": "About 36–42 cm long.",
+   "habitat": "Resident of savanna and woodland with thickets, alone or in pairs.",
+   "food": "Invertebrates and small vertebrates; it may scavenge on fish carcasses.",
+   "breeding": "Builds an untidy ball-shaped nest of grass in a thicket.",
+   "titbit": "Its bubbling 'doo-doo-doo' call sounds like water being poured from a bottle.",
+   "draft": true
+  },
   "Southern Carmine Bee-eater": {
+   "size": "About 33–38 cm long, including the tail streamers.",
+   "habitat": "Summer visitor (intra-African migrant) to savanna, grassland and river banks; very sociable.",
+   "food": "Almost only flying insects caught in the air.",
+   "breeding": "Breeds in large colonies, digging nest tunnels into river banks or flat ground.",
+   "titbit": "Follows game-drive vehicles and animal herds to catch the insects they disturb.",
+   "draft": true
+  },
+  "Birds|Southern Carmine Bee-eater": {
    "size": "About 33–38 cm long, including the tail streamers.",
    "habitat": "Summer visitor (intra-African migrant) to savanna, grassland and river banks; very sociable.",
    "food": "Almost only flying insects caught in the air.",
@@ -29270,7 +30423,23 @@ window.AGA_DATA = {
    "titbit": "Feeds on the ground more than most hornbills; the male feeds the sealed-in female through a slit.",
    "draft": true
   },
+  "Birds|Southern Red-billed Hornbill": {
+   "size": "About 35–42 cm long.",
+   "habitat": "Common resident of mopane and dry woodland in northern and eastern Botswana.",
+   "food": "Mainly insects such as beetles and termites, mostly found on the ground.",
+   "breeding": "The female seals herself into a tree hole and moults all her feathers while she incubates.",
+   "titbit": "Feeds on the ground more than most hornbills; the male feeds the sealed-in female through a slit.",
+   "draft": true
+  },
   "Southern Yellow-billed Hornbill": {
+   "size": "About 48–60 cm long.",
+   "habitat": "Common resident of dry, open savanna and woodland, in pairs or small family groups.",
+   "food": "Invertebrates and small vertebrates such as snakes, lizards and rodents, plus seeds and fruit.",
+   "breeding": "The female seals herself into a tree hole and moults all her feathers while she incubates.",
+   "titbit": "Gives a 'krrrrr' call when a predator is near and will fly over and circle above it.",
+   "draft": true
+  },
+  "Birds|Southern Yellow-billed Hornbill": {
    "size": "About 48–60 cm long.",
    "habitat": "Common resident of dry, open savanna and woodland, in pairs or small family groups.",
    "food": "Invertebrates and small vertebrates such as snakes, lizards and rodents, plus seeds and fruit.",
@@ -29286,7 +30455,23 @@ window.AGA_DATA = {
    "titbit": "Has red bare skin on the face and throat; males call loudly at dawn and dusk from a mound or log.",
    "draft": true
   },
+  "Birds|Swainson's Spurfowl": {
+   "size": "About 33–38 cm long.",
+   "habitat": "Resident of open grassland and savanna, in pairs or small family groups.",
+   "food": "Mainly plant material and arthropods.",
+   "breeding": "Nests in a scrape on the ground hidden in grass.",
+   "titbit": "Has red bare skin on the face and throat; males call loudly at dawn and dusk from a mound or log.",
+   "draft": true
+  },
   "Temminck's Courser": {
+   "size": "About 20 cm long.",
+   "habitat": "Resident and nomadic on short grassland, bare ground and recently burnt areas.",
+   "food": "Insects picked up from the ground.",
+   "breeding": "Lays its eggs directly on bare ground, often on burnt veld.",
+   "titbit": "Quickly arrives at freshly burnt areas; it runs, stops suddenly, then runs again.",
+   "draft": true
+  },
+  "Birds|Temminck's Courser": {
    "size": "About 20 cm long.",
    "habitat": "Resident and nomadic on short grassland, bare ground and recently burnt areas.",
    "food": "Insects picked up from the ground.",
@@ -29302,7 +30487,23 @@ window.AGA_DATA = {
    "titbit": "The male is shining violet and white; the female is brown and streaked, so they look like different birds.",
    "draft": true
   },
+  "Birds|Violet-backed Starling": {
+   "size": "About 17–19 cm long.",
+   "habitat": "Summer visitor (intra-African migrant) to woodland and riverine forest in northern and eastern Botswana.",
+   "food": "Fruit and insects.",
+   "breeding": "Nests in a hole in a tree, lined with leaves.",
+   "titbit": "The male is shining violet and white; the female is brown and streaked, so they look like different birds.",
+   "draft": true
+  },
   "Wattled Crane": {
+   "size": "About 120–130 cm tall; the largest crane in Africa.",
+   "habitat": "Resident of shallow floodplains; the Okavango Delta holds a key population. Vulnerable.",
+   "food": "Mostly plant matter, plus snails, frogs and fish in shallow flooded areas.",
+   "breeding": "Builds a mound nest in shallow marsh and usually lays only one egg.",
+   "titbit": "Will follow a leopard or other predator, calling 'kwarrrr' repeatedly; flagship bird of the Okavango IBA.",
+   "draft": true
+  },
+  "Birds|Wattled Crane": {
    "size": "About 120–130 cm tall; the largest crane in Africa.",
    "habitat": "Resident of shallow floodplains; the Okavango Delta holds a key population. Vulnerable.",
    "food": "Mostly plant matter, plus snails, frogs and fish in shallow flooded areas.",
@@ -29318,7 +30519,23 @@ window.AGA_DATA = {
    "titbit": "Its loud song rises in volume, repeating phrases faster and faster, often at dawn.",
    "draft": true
   },
+  "Birds|White-browed Robin-Chat": {
+   "size": "About 19–20 cm long.",
+   "habitat": "Resident of riverine thickets and gardens in northern and eastern Botswana.",
+   "food": "Insects and other invertebrates found on or near the ground.",
+   "breeding": "Builds a cup nest in a hollow stump or bank; pairs stay together for one season.",
+   "titbit": "Its loud song rises in volume, repeating phrases faster and faster, often at dawn.",
+   "draft": true
+  },
   "White-headed Vulture": {
+   "size": "About 78–85 cm long; weighs about 4–5 kg.",
+   "habitat": "Uncommon resident of savanna and woodland, usually alone or in pairs.",
+   "food": "Carrion, often arriving first at small carcasses; it also kills small animals.",
+   "breeding": "Builds a stick nest on top of a tall tree and lays one egg.",
+   "titbit": "Critically Endangered due to poisoning; the female has white inner wing feathers, the male grey.",
+   "draft": true
+  },
+  "Birds|White-headed Vulture": {
    "size": "About 78–85 cm long; weighs about 4–5 kg.",
    "habitat": "Uncommon resident of savanna and woodland, usually alone or in pairs.",
    "food": "Carrion, often arriving first at small carcasses; it also kills small animals.",
@@ -29334,7 +30551,23 @@ window.AGA_DATA = {
    "titbit": "Its loud trill 'trrp-trrrrrrrrr', with wings spread open, announces that summer has arrived.",
    "draft": true
   },
+  "Birds|Woodland Kingfisher": {
+   "size": "About 22–24 cm long.",
+   "habitat": "Summer visitor (intra-African migrant) to woodland and riverine trees in northern and eastern Botswana.",
+   "food": "Insects and small lizards caught from a perch; it seldom eats fish.",
+   "breeding": "Nests in a hole in a tree, often an old barbet or woodpecker hole.",
+   "titbit": "Its loud trill 'trrp-trrrrrrrrr', with wings spread open, announces that summer has arrived.",
+   "draft": true
+  },
   "Yellow-throated Petronia": {
+   "size": "About 15–16 cm long.",
+   "habitat": "Resident of mopane and broad-leaved woodland in northern and eastern Botswana.",
+   "food": "Seeds and insects.",
+   "breeding": "Nests in a hole in a tree.",
+   "titbit": "The small yellow throat spot is hard to see; look for the pale eyebrow instead.",
+   "draft": true
+  },
+  "Birds|Yellow-throated Petronia": {
    "size": "About 15–16 cm long.",
    "habitat": "Resident of mopane and broad-leaved woodland in northern and eastern Botswana.",
    "food": "Seeds and insects.",
@@ -29350,7 +30583,23 @@ window.AGA_DATA = {
    "titbit": "Call is a single high note like a small bell; turns white in the midday sun to reflect heat.",
    "draft": true
   },
+  "Amphibians|Angolan Reed Frog": {
+   "size": "Small, about 2.5-3.5 cm long.",
+   "habitat": "Reeds, bulrushes and sedges in permanent water of the Okavango and northern rivers.",
+   "food": "Small insects such as midges and mosquitoes.",
+   "breeding": "Males call from reeds in summer; eggs are attached to submerged plant stems.",
+   "titbit": "Call is a single high note like a small bell; turns white in the midday sun to reflect heat.",
+   "draft": true
+  },
   "Bubbling Kassina": {
+   "size": "Medium-small, about 3.5-5 cm long.",
+   "habitat": "Grassland and savanna near pans, vleis and floodplains.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Breeds in summer in pans and vleis; eggs are attached to plants under water.",
+   "titbit": "Usually walks or runs rather than hops; its 'quoip' call sounds like a bubble popping.",
+   "draft": true
+  },
+  "Amphibians|Bubbling Kassina": {
    "size": "Medium-small, about 3.5-5 cm long.",
    "habitat": "Grassland and savanna near pans, vleis and floodplains.",
    "food": "Insects and other small invertebrates.",
@@ -29366,7 +30615,23 @@ window.AGA_DATA = {
    "titbit": "Turns almost white in the sun to reduce heat and water loss; often seen on lodge walls.",
    "draft": true
   },
+  "Amphibians|Southern Foam Nest Frog": {
+   "size": "About 6-9 cm long.",
+   "habitat": "Savanna woodland near pans; rests on branches, even in hot dry weather.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Pairs whip mucus into a foam nest on branches over water; tadpoles drop into the pool.",
+   "titbit": "Turns almost white in the sun to reduce heat and water loss; often seen on lodge walls.",
+   "draft": true
+  },
   "African Bullfrog": {
+   "size": "Large, usually 8-12 cm long.",
+   "habitat": "Savanna with sandy soil; breeds in shallow temporary pans.",
+   "food": "Insects, other frogs, small reptiles, rodents and small birds.",
+   "breeding": "Breeds after the first heavy summer rains; males guard tadpoles in shallow pans.",
+   "titbit": "Smaller than the giant bullfrog; told apart by broken bands on the upper jaw.",
+   "draft": true
+  },
+  "Amphibians|African Bullfrog": {
    "size": "Large, usually 8-12 cm long.",
    "habitat": "Savanna with sandy soil; breeds in shallow temporary pans.",
    "food": "Insects, other frogs, small reptiles, rodents and small birds.",
@@ -29382,7 +30647,23 @@ window.AGA_DATA = {
    "titbit": "Males guard tadpoles and dig channels to deeper water; can lie buried for years in a cocoon.",
    "draft": true
   },
+  "Amphibians|Giant Bullfrog": {
+   "size": "Very large; males up to about 24 cm and over 1 kg.",
+   "habitat": "Grassland and savanna with sandy soils; breeds in temporary pans.",
+   "food": "Almost anything it can swallow: insects, frogs, reptiles, rodents and small birds.",
+   "breeding": "Breeds after heavy summer rains; egg to froglet takes under 5 weeks.",
+   "titbit": "Males guard tadpoles and dig channels to deeper water; can lie buried for years in a cocoon.",
+   "draft": true
+  },
   "Flat-backed Toad": {
+   "size": "About 6-9 cm long.",
+   "habitat": "Savanna and grassland near water in the north and east.",
+   "food": "Insects, especially beetles and ants.",
+   "breeding": "Breeds in shallow still water in summer; eggs are laid in long jelly strings.",
+   "titbit": "Lacks the red on the back of the thighs that the guttural toad has.",
+   "draft": true
+  },
+  "Amphibians|Flat-backed Toad": {
    "size": "About 6-9 cm long.",
    "habitat": "Savanna and grassland near water in the north and east.",
    "food": "Insects, especially beetles and ants.",
@@ -29398,7 +30679,23 @@ window.AGA_DATA = {
    "titbit": "Deep, snoring 'kwaa' call. Red on the back of the thighs; neck glands give off a toxin.",
    "draft": true
   },
+  "Amphibians|Guttural Toad": {
+   "size": "Medium-large, about 7-10 cm long.",
+   "habitat": "Grassland, savanna and gardens near water; hides under rocks or logs by day.",
+   "food": "Insects and other invertebrates, often caught under lights at night.",
+   "breeding": "Calls from early spring; eggs laid in paired jelly strings in shallow pans and still water.",
+   "titbit": "Deep, snoring 'kwaa' call. Red on the back of the thighs; neck glands give off a toxin.",
+   "draft": true
+  },
   "Western Olive Toad": {
+   "size": "Medium-large, about 7-11 cm long.",
+   "habitat": "Dry savanna and the Kalahari; breeds in pans and dams.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Breeds after summer rains in pans and dams; eggs laid in jelly strings.",
+   "titbit": "Has no dark patches on the snout, unlike the guttural toad.",
+   "draft": true
+  },
+  "Amphibians|Western Olive Toad": {
    "size": "Medium-large, about 7-11 cm long.",
    "habitat": "Dry savanna and the Kalahari; breeds in pans and dams.",
    "food": "Insects and other invertebrates.",
@@ -29414,7 +30711,23 @@ window.AGA_DATA = {
    "titbit": "A pale broad band runs down the middle of its back; a very strong jumper.",
    "draft": true
   },
+  "Amphibians|Broad-banded Grass Frog": {
+   "size": "About 4-5 cm long.",
+   "habitat": "Grassy floodplains and pan edges; common in the Okavango.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Breeds in shallow flooded grassland and pans in summer.",
+   "titbit": "A pale broad band runs down the middle of its back; a very strong jumper.",
+   "draft": true
+  },
   "Common River Frog": {
+   "size": "About 5-8 cm long.",
+   "habitat": "Permanent streams, rivers and dams with plant cover along the edge.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Breeds in permanent water; eggs are laid in shallow water.",
+   "titbit": "Tadpoles can take up to two years to become froglets if water is cold or food is short.",
+   "draft": true
+  },
+  "Amphibians|Common River Frog": {
    "size": "About 5-8 cm long.",
    "habitat": "Permanent streams, rivers and dams with plant cover along the edge.",
    "food": "Insects and other invertebrates.",
@@ -29430,7 +30743,23 @@ window.AGA_DATA = {
    "titbit": "No tongue; uses its hands to push food into its mouth. Hind toes have black claws.",
    "draft": true
   },
+  "Amphibians|Common Platanna": {
+   "size": "About 6-10 cm; females larger than males.",
+   "habitat": "Fully aquatic in pans, dams and pools; may cross land on wet nights.",
+   "food": "Almost anything in the water: insects, tadpoles, fish and carrion.",
+   "breeding": "Breeds in water; eggs are stuck one by one to plants or objects under water.",
+   "titbit": "No tongue; uses its hands to push food into its mouth. Hind toes have black claws.",
+   "draft": true
+  },
   "Banded Rubber Frog": {
+   "size": "Medium, about 4-6 cm long.",
+   "habitat": "Bushveld and savanna in north and east; hides in burrows and termite mounds.",
+   "food": "Mainly ants and termites.",
+   "breeding": "Breeds in pans and permanent water after good early-summer rains.",
+   "titbit": "Black with red stripes as a warning; its skin toxin affects the heart, so avoid handling it.",
+   "draft": true
+  },
+  "Amphibians|Banded Rubber Frog": {
    "size": "Medium, about 4-6 cm long.",
    "habitat": "Bushveld and savanna in north and east; hides in burrows and termite mounds.",
    "food": "Mainly ants and termites.",
@@ -29446,7 +30775,23 @@ window.AGA_DATA = {
    "titbit": "Too round for a normal grip, so mating pairs glue themselves together.",
    "draft": true
   },
+  "Amphibians|Bushveld Rain Frog": {
+   "size": "Small and round, about 3-4 cm long.",
+   "habitat": "Sandy savanna; lives underground and comes out on rainy nights.",
+   "food": "Ants, termites and other small invertebrates.",
+   "breeding": "Eggs are laid in an underground chamber and hatch as tiny froglets, with no tadpole.",
+   "titbit": "Too round for a normal grip, so mating pairs glue themselves together.",
+   "draft": true
+  },
   "Mottled Shovel-nosed Frog": {
+   "size": "Small, about 3-4 cm long.",
+   "habitat": "Savanna near pans and floodplains; lives underground.",
+   "food": "Mainly termites and ants, found underground.",
+   "breeding": "Eggs laid in an underground nest near water; the female digs a path to lead tadpoles out.",
+   "titbit": "Digs head-first with its hard pointed snout, unlike most frogs that dig backwards.",
+   "draft": true
+  },
+  "Amphibians|Mottled Shovel-nosed Frog": {
    "size": "Small, about 3-4 cm long.",
    "habitat": "Savanna near pans and floodplains; lives underground.",
    "food": "Mainly termites and ants, found underground.",
@@ -29462,7 +30807,23 @@ window.AGA_DATA = {
    "titbit": "Very long pointed snout and green see-through skin.",
    "draft": true
   },
+  "Amphibians|Long Reed Frog": {
+   "size": "Tiny and slender, about 2-2.5 cm long.",
+   "habitat": "Reeds and grassy edges of permanent water in the north.",
+   "food": "Tiny insects.",
+   "breeding": "Males call from grass and reeds in summer; eggs laid on plants in water.",
+   "titbit": "Very long pointed snout and green see-through skin.",
+   "draft": true
+  },
   "Painted Reed Frog": {
+   "size": "About 2.5-3.5 cm long.",
+   "habitat": "Reeds and plants around pans, dams and rivers.",
+   "food": "Small insects.",
+   "breeding": "Males call from plants in summer; eggs laid in clumps under water.",
+   "titbit": "Very colourful and variable; its loud, piercing whistle can be deafening in a chorus.",
+   "draft": true
+  },
+  "Amphibians|Painted Reed Frog": {
    "size": "About 2.5-3.5 cm long.",
    "habitat": "Reeds and plants around pans, dams and rivers.",
    "food": "Small insects.",
@@ -29478,7 +30839,23 @@ window.AGA_DATA = {
    "titbit": "Despite the name it lives on the ground and burrows; it has large dark eyes.",
    "draft": true
   },
+  "Amphibians|Bocage's Tree Frog": {
+   "size": "About 4-6 cm long.",
+   "habitat": "Savanna grassland and floodplains in the north.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Breeds after summer rains; eggs are laid in a burrow near water.",
+   "titbit": "Despite the name it lives on the ground and burrows; it has large dark eyes.",
+   "draft": true
+  },
   "Eastern Olive Toad": {
+   "size": "Medium-large, about 7-11 cm long.",
+   "habitat": "Savanna in eastern and north-eastern Botswana.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Breeds in pans and slow water in summer; eggs laid in jelly strings.",
+   "titbit": "Has a pair of dark patches on the snout, unlike the western olive toad.",
+   "draft": true
+  },
+  "Amphibians|Eastern Olive Toad": {
    "size": "Medium-large, about 7-11 cm long.",
    "habitat": "Savanna in eastern and north-eastern Botswana.",
    "food": "Insects and other invertebrates.",
@@ -29494,7 +30871,23 @@ window.AGA_DATA = {
    "titbit": "Reddish-brown with fairly smooth skin; often found in buildings and around camps.",
    "draft": true
   },
+  "Amphibians|Red Toad": {
+   "size": "About 6-9 cm long.",
+   "habitat": "Savanna; shelters in burrows, termite mounds and buildings.",
+   "food": "Insects such as ants, termites and beetles.",
+   "breeding": "Breeds in deep pools and dams in summer; tadpoles swim in big schools.",
+   "titbit": "Reddish-brown with fairly smooth skin; often found in buildings and around camps.",
+   "draft": true
+  },
   "Dwarf Grass Frog": {
+   "size": "Small, about 2.5-3 cm long.",
+   "habitat": "Flooded grassland and pan edges in the north.",
+   "food": "Small insects.",
+   "breeding": "Breeds in shallow flooded grass in summer.",
+   "titbit": "One of the smallest grass frogs; calls from hidden spots in wet grass.",
+   "draft": true
+  },
+  "Amphibians|Dwarf Grass Frog": {
    "size": "Small, about 2.5-3 cm long.",
    "habitat": "Flooded grassland and pan edges in the north.",
    "food": "Small insects.",
@@ -29509,7 +30902,22 @@ window.AGA_DATA = {
    "breeding": "Breeds in shallow flooded grassland in summer.",
    "draft": true
   },
+  "Amphibians|Guibé's Grass Frog": {
+   "size": "About 3-4 cm long.",
+   "habitat": "Grassy floodplains in northern Botswana.",
+   "food": "Small insects.",
+   "breeding": "Breeds in shallow flooded grassland in summer.",
+   "draft": true
+  },
   "Mascarene Grass Frog": {
+   "size": "About 4-5 cm long.",
+   "habitat": "Floodplains, marshes and pan edges in the north.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Breeds in shallow water in summer.",
+   "titbit": "Long, pointed snout and powerful legs for big leaps.",
+   "draft": true
+  },
+  "Amphibians|Mascarene Grass Frog": {
    "size": "About 4-5 cm long.",
    "habitat": "Floodplains, marshes and pan edges in the north.",
    "food": "Insects and other small invertebrates.",
@@ -29525,7 +30933,23 @@ window.AGA_DATA = {
    "titbit": "Back is fairly plain, without the bold stripes of other grass frogs.",
    "draft": true
   },
+  "Amphibians|Plain Grass Frog": {
+   "size": "About 4-5 cm long.",
+   "habitat": "Savanna near pans and vleis.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Breeds in temporary pans and flooded grass in summer.",
+   "titbit": "Back is fairly plain, without the bold stripes of other grass frogs.",
+   "draft": true
+  },
   "Sharp-nosed Grass Frog": {
+   "size": "About 4-6 cm long.",
+   "habitat": "Savanna near pans, vleis and floodplains.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Breeds in temporary pans and flooded grass in summer.",
+   "titbit": "Very pointed snout and long legs; a champion jumper.",
+   "draft": true
+  },
+  "Amphibians|Sharp-nosed Grass Frog": {
    "size": "About 4-6 cm long.",
    "habitat": "Savanna near pans, vleis and floodplains.",
    "food": "Insects and other small invertebrates.",
@@ -29541,7 +30965,23 @@ window.AGA_DATA = {
    "titbit": "Has a short tentacle under each eye, unlike the common platanna.",
    "draft": true
   },
+  "Amphibians|Tropical Platanna": {
+   "size": "About 5-8 cm long.",
+   "habitat": "Fully aquatic in pools, pans and swamps in the north.",
+   "food": "Insects, tadpoles, small fish and carrion in the water.",
+   "breeding": "Breeds in water in summer; eggs are stuck to plants.",
+   "titbit": "Has a short tentacle under each eye, unlike the common platanna.",
+   "draft": true
+  },
   "Dwarf Puddle Frog": {
+   "size": "Tiny, about 1.5-2 cm long.",
+   "habitat": "Edges of pans, puddles and floodplains.",
+   "food": "Tiny insects.",
+   "breeding": "Breeds in shallow water and puddles after rain.",
+   "titbit": "Named after Mababe in northern Botswana, where it was first described.",
+   "draft": true
+  },
+  "Amphibians|Dwarf Puddle Frog": {
    "size": "Tiny, about 1.5-2 cm long.",
    "habitat": "Edges of pans, puddles and floodplains.",
    "food": "Tiny insects.",
@@ -29557,7 +30997,23 @@ window.AGA_DATA = {
    "titbit": "Its call sounds like a quiet snore.",
    "draft": true
   },
+  "Amphibians|Snoring Puddle Frog": {
+   "size": "Small, about 3-4 cm long.",
+   "habitat": "Edges of pans, pools and dams.",
+   "food": "Small insects and other invertebrates.",
+   "breeding": "Breeds in shallow water; eggs float as a thin film on the surface.",
+   "titbit": "Its call sounds like a quiet snore.",
+   "draft": true
+  },
   "Knocking Sand Frog": {
+   "size": "About 4-5 cm long.",
+   "habitat": "Sandy savanna near pans; burrows into sand.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Breeds in shallow pans after summer rains.",
+   "titbit": "Call is a fast 'knock-knock-knock', like tapping on wood.",
+   "draft": true
+  },
+  "Amphibians|Knocking Sand Frog": {
    "size": "About 4-5 cm long.",
    "habitat": "Sandy savanna near pans; burrows into sand.",
    "food": "Insects and other invertebrates.",
@@ -29573,7 +31029,23 @@ window.AGA_DATA = {
    "titbit": "Call is a fast, high, trembling 'tremolo' of notes.",
    "draft": true
   },
+  "Amphibians|Tremolo Sand Frog": {
+   "size": "About 4-5 cm long.",
+   "habitat": "Sandy savanna near pans; burrows into sand.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Breeds in shallow pans after summer rains.",
+   "titbit": "Call is a fast, high, trembling 'tremolo' of notes.",
+   "draft": true
+  },
   "Boettger's Caco": {
+   "size": "Tiny, about 1.5-2.5 cm long.",
+   "habitat": "Flooded grassland and shallow pans.",
+   "food": "Tiny insects.",
+   "breeding": "Breeds in shallow flooded grass after rain; small clumps of eggs laid on plants.",
+   "titbit": "Its fast clicking call sounds like water dripping.",
+   "draft": true
+  },
+  "Amphibians|Boettger's Caco": {
    "size": "Tiny, about 1.5-2.5 cm long.",
    "habitat": "Flooded grassland and shallow pans.",
    "food": "Tiny insects.",
@@ -29589,7 +31061,23 @@ window.AGA_DATA = {
    "titbit": "Boldly patterned in green, brown and cream; it eats other frogs.",
    "draft": true
   },
+  "Amphibians|Ornate Frog": {
+   "size": "About 5-7 cm long.",
+   "habitat": "Savanna near temporary pans in the north; burrows in the dry season.",
+   "food": "Insects and other frogs.",
+   "breeding": "Breeds in temporary pans after summer rains.",
+   "titbit": "Boldly patterned in green, brown and cream; it eats other frogs.",
+   "draft": true
+  },
   "Fish moth (silverfish)": {
+   "size": "About 10-12 mm long, not counting the tail filaments.",
+   "habitat": "Homes, and under bark, stones and leaf litter; likes dark, damp places.",
+   "food": "Starchy material, plant debris, paper and book bindings.",
+   "breeding": "No metamorphosis: young hatch looking like small adults and moult as they grow.",
+   "titbit": "One of the most primitive insects; wingless, and adults keep moulting all their lives.",
+   "draft": true
+  },
+  "Arthropods|Fish moth (silverfish)": {
    "size": "About 10-12 mm long, not counting the tail filaments.",
    "habitat": "Homes, and under bark, stones and leaf litter; likes dark, damp places.",
    "food": "Starchy material, plant debris, paper and book bindings.",
@@ -29605,7 +31093,23 @@ window.AGA_DATA = {
    "titbit": "The only insects that moult again after getting wings; adults live only hours to a few days.",
    "draft": true
   },
+  "Arthropods|Mayfly": {
+   "size": "Body about 5-25 mm, with two or three long tail filaments.",
+   "habitat": "Near clean rivers, lagoons and pools, such as in the Okavango Delta.",
+   "food": "Nymphs eat algae and plant debris in water; adults do not feed.",
+   "breeding": "Incomplete metamorphosis: nymphs live in water, then become winged adults.",
+   "titbit": "The only insects that moult again after getting wings; adults live only hours to a few days.",
+   "draft": true
+  },
   "Praying mantis (Mantodea)": {
+   "size": "About 2-10 cm long, depending on the species.",
+   "habitat": "Grass, shrubs, trees and flowers in all habitats; often very well camouflaged.",
+   "food": "Live insects and other small animals, caught with spiked front legs.",
+   "breeding": "Female lays about 60 eggs at night in a foam case; young hatch after about a month.",
+   "titbit": "Can swivel its triangular head; in some species the female eats the male during mating.",
+   "draft": true
+  },
+  "Arthropods|Praying mantis (Mantodea)": {
    "size": "About 2-10 cm long, depending on the species.",
    "habitat": "Grass, shrubs, trees and flowers in all habitats; often very well camouflaged.",
    "food": "Live insects and other small animals, caught with spiked front legs.",
@@ -29620,7 +31124,22 @@ window.AGA_DATA = {
    "titbit": "Larvae have no anus: all waste is stored and passed as one pellet at the end of the larval stage.",
    "draft": true
   },
+  "Arthropods|Antlion (Myrmeleontidae)": {
+   "habitat": "Larvae live in dry, loose sand, often sheltered under trees, rocks or buildings.",
+   "food": "Larvae catch ants in cone-shaped sand pits and suck out their juices.",
+   "breeding": "Larva lives up to three years, then pupates in a silk cocoon underground for about four weeks.",
+   "titbit": "Larvae have no anus: all waste is stored and passed as one pellet at the end of the larval stage.",
+   "draft": true
+  },
   "Lacewing (Chrysopidae)": {
+   "size": "About 1-2.5 cm long, with delicate green, see-through wings.",
+   "habitat": "Gardens, grassland and woodland; often comes to lights at night.",
+   "food": "Larvae eat aphids and other soft insects; adults eat aphids, pollen, nectar or honeydew.",
+   "breeding": "Complete metamorphosis; eggs are laid on thin silk stalks, out of reach of predators.",
+   "titbit": "The larvae, called aphid lions, are useful natural controllers of crop pests.",
+   "draft": true
+  },
+  "Arthropods|Lacewing (Chrysopidae)": {
    "size": "About 1-2.5 cm long, with delicate green, see-through wings.",
    "habitat": "Gardens, grassland and woodland; often comes to lights at night.",
    "food": "Larvae eat aphids and other soft insects; adults eat aphids, pollen, nectar or honeydew.",
@@ -29636,7 +31155,23 @@ window.AGA_DATA = {
    "titbit": "Most rest with their wings closed above the body, unlike dragonflies.",
    "draft": true
   },
+  "Arthropods|Damselfly": {
+   "size": "About 2.5-5 cm long, with a very slender body.",
+   "habitat": "Near water: rivers, lagoons and floodplains; very common in the Okavango.",
+   "food": "Adults catch small flying insects; nymphs eat small animals in the water.",
+   "breeding": "Incomplete metamorphosis: nymphs live in water and breathe with gills at the tail tip.",
+   "titbit": "Most rest with their wings closed above the body, unlike dragonflies.",
+   "draft": true
+  },
   "Dragonfly": {
+   "size": "Body about 3-8 cm long.",
+   "habitat": "Near water, but strong fliers that also hunt over woodland and grassland.",
+   "food": "Adults catch flying insects in the air; nymphs eat insects, tadpoles and small fish.",
+   "breeding": "Eggs laid in or near water; the nymph climbs out and the adult emerges from its skin.",
+   "titbit": "Fast, precise fliers with huge eyes; they rest with their wings spread out flat.",
+   "draft": true
+  },
+  "Arthropods|Dragonfly": {
    "size": "Body about 3-8 cm long.",
    "habitat": "Near water, but strong fliers that also hunt over woodland and grassland.",
    "food": "Adults catch flying insects in the air; nymphs eat insects, tadpoles and small fish.",
@@ -29652,7 +31187,23 @@ window.AGA_DATA = {
    "titbit": "They give off sweet honeydew, so ants often guard them and collect it.",
    "draft": true
   },
+  "Arthropods|Aphid": {
+   "size": "Tiny, about 1-4 mm long.",
+   "habitat": "On new shoots and leaves of plants, often in large colonies.",
+   "food": "They suck sap from plants.",
+   "breeding": "Females can give birth to live young without mating, so numbers grow very fast.",
+   "titbit": "They give off sweet honeydew, so ants often guard them and collect it.",
+   "draft": true
+  },
   "Cicada (Cicadidae)": {
+   "size": "Body about 2-5 cm long.",
+   "habitat": "Trees in woodland and savanna, clinging to the bark.",
+   "food": "Adults suck sap from trees; nymphs suck sap from roots underground.",
+   "breeding": "Eggs laid in slits in twigs; nymphs live underground for a couple of years up to 17 years.",
+   "titbit": "The shrill summer noise is made by clicking membranes on the sides of the body.",
+   "draft": true
+  },
+  "Arthropods|Cicada (Cicadidae)": {
    "size": "Body about 2-5 cm long.",
    "habitat": "Trees in woodland and savanna, clinging to the bark.",
    "food": "Adults suck sap from trees; nymphs suck sap from roots underground.",
@@ -29667,7 +31218,22 @@ window.AGA_DATA = {
    "titbit": "One of very few animals that can digest keratin, the tough protein in horn.",
    "draft": true
   },
+  "Arthropods|Horn-borer moth": {
+   "habitat": "Wherever horns and hooves of dead antelope and cattle lie in the veld.",
+   "food": "Larvae eat the horns and hooves of dead animals.",
+   "breeding": "Larvae tunnel into horns and make silk tubes that stick out from the horn surface.",
+   "titbit": "One of very few animals that can digest keratin, the tough protein in horn.",
+   "draft": true
+  },
   "African diadem": {
+   "size": "Wingspan about 6-8 cm.",
+   "habitat": "Widespread in open woodland, gardens and grassland.",
+   "food": "Adults drink nectar; caterpillars eat low herbs such as purslane.",
+   "breeding": "Complete metamorphosis; the male looks very different: black with large white spots.",
+   "titbit": "The harmless female copies the poisonous African monarch, so predators leave her alone.",
+   "draft": true
+  },
+  "Arthropods|African diadem": {
    "size": "Wingspan about 6-8 cm.",
    "habitat": "Widespread in open woodland, gardens and grassland.",
    "food": "Adults drink nectar; caterpillars eat low herbs such as purslane.",
@@ -29683,7 +31249,23 @@ window.AGA_DATA = {
    "titbit": "Poison from milkweed makes caterpillar and butterfly bad-tasting to predators.",
    "draft": true
   },
+  "Arthropods|African monarch": {
+   "size": "Wingspan about 6-8 cm.",
+   "habitat": "Common almost everywhere, especially where milkweeds grow.",
+   "food": "Adults drink nectar; caterpillars eat poisonous milkweed leaves.",
+   "breeding": "Eggs laid under milkweed leaves; caterpillar moults five times before pupating.",
+   "titbit": "Poison from milkweed makes caterpillar and butterfly bad-tasting to predators.",
+   "draft": true
+  },
   "Brown-veined white": {
+   "size": "Wingspan about 4-5 cm.",
+   "habitat": "Widespread, especially in dry savanna and the Kalahari.",
+   "food": "Adults drink nectar; caterpillars eat caper-family shrubs such as shepherd's tree.",
+   "breeding": "Numbers build up in spring; by about December huge numbers migrate north-east.",
+   "titbit": "Famous for mass migrations, flying in endless streams across southern Africa.",
+   "draft": true
+  },
+  "Arthropods|Brown-veined white": {
    "size": "Wingspan about 4-5 cm.",
    "habitat": "Widespread, especially in dry savanna and the Kalahari.",
    "food": "Adults drink nectar; caterpillars eat caper-family shrubs such as shepherd's tree.",
@@ -29699,7 +31281,23 @@ window.AGA_DATA = {
    "titbit": "The caterpillars are collected, dried or fried and eaten; an important food in Botswana.",
    "draft": true
   },
+  "Arthropods|Mopane moth (mopane worm)": {
+   "size": "Large moth; wingspan about 10-12 cm.",
+   "habitat": "Mopane woodland in northern and eastern Botswana.",
+   "food": "Caterpillars eat mainly mopane leaves; adults do not feed.",
+   "breeding": "Caterpillars appear after the rains, then pupate underground.",
+   "titbit": "The caterpillars are collected, dried or fried and eaten; an important food in Botswana.",
+   "draft": true
+  },
   "Large fungus-growing termite (Macrotermes)": {
+   "size": "Workers and soldiers are small; the egg-laying queen is many times bigger.",
+   "habitat": "Large mounds in woodland and the Okavango, where mounds help to form new islands.",
+   "food": "Dead plant material, broken down by fungus that they grow inside the mound.",
+   "breeding": "Winged alates fly out to start new colonies; a queen may live over 45 years.",
+   "titbit": "A big mound can hold about a million termites and leans north to reduce heat.",
+   "draft": true
+  },
+  "Arthropods|Large fungus-growing termite (Macrotermes)": {
    "size": "Workers and soldiers are small; the egg-laying queen is many times bigger.",
    "habitat": "Large mounds in woodland and the Okavango, where mounds help to form new islands.",
    "food": "Dead plant material, broken down by fungus that they grow inside the mound.",
@@ -29714,7 +31312,21 @@ window.AGA_DATA = {
    "titbit": "Unlike most termites, workers have eyes and forage above ground in cool times and at night.",
    "draft": true
   },
+  "Arthropods|Harvester termite": {
+   "habitat": "Grassland and pastures; underground chambers marked by small heaps of loose sand.",
+   "food": "Grass, shrubs and small trees; they can badly damage pastures.",
+   "breeding": "Winged males and females leave the nest in summer to start new colonies.",
+   "titbit": "Unlike most termites, workers have eyes and forage above ground in cool times and at night.",
+   "draft": true
+  },
   "Fireflies and glow-worms (Lampyridae)": {
+   "habitat": "Damp grassland and areas near water; seen on warm summer nights.",
+   "food": "Larvae kill small invertebrates with venom and suck up the juice; adults do not feed.",
+   "breeding": "Eggs laid in soil; glow-worm females are wingless and look like larvae.",
+   "titbit": "They are beetles, not flies or worms; they make light with a chemical called luciferin.",
+   "draft": true
+  },
+  "Arthropods|Fireflies and glow-worms (Lampyridae)": {
    "habitat": "Damp grassland and areas near water; seen on warm summer nights.",
    "food": "Larvae kill small invertebrates with venom and suck up the juice; adults do not feed.",
    "breeding": "Eggs laid in soil; glow-worm females are wingless and look like larvae.",
@@ -29729,13 +31341,35 @@ window.AGA_DATA = {
    "titbit": "Without dung beetles only about 3% of the nitrates in dung would reach the soil.",
    "draft": true
   },
+  "Arthropods|Dung beetle (Scarabaeinae)": {
+   "size": "From a few millimetres to about 5 cm long.",
+   "habitat": "Wherever there is dung; most active in the wet summer months.",
+   "food": "Adults and larvae feed on dung; a few species eat other foods.",
+   "breeding": "Many bury dung balls and lay an egg in each; the larva eats the ball, then pupates.",
+   "titbit": "Without dung beetles only about 3% of the nitrates in dung would reach the soil.",
+   "draft": true
+  },
   "Plum-coloured dung beetle": {
    "habitat": "Savanna and woodland wherever there is dung.",
    "food": "Dung.",
    "titbit": "Named for its shiny plum colour; dung beetles come in many colours.",
    "draft": true
   },
+  "Arthropods|Plum-coloured dung beetle": {
+   "habitat": "Savanna and woodland wherever there is dung.",
+   "food": "Dung.",
+   "titbit": "Named for its shiny plum colour; dung beetles come in many colours.",
+   "draft": true
+  },
   "Malaria mosquito (Anopheles)": {
+   "size": "About 4-6 mm long.",
+   "habitat": "Near standing water; malaria risk is highest in northern Botswana in the rainy season.",
+   "food": "Females suck blood; males drink nectar and fruit juices.",
+   "breeding": "Eggs laid on water; larvae and pupae live in the water.",
+   "titbit": "Only females bite; they spread malaria, which usually shows 10-14 days after the bite.",
+   "draft": true
+  },
+  "Arthropods|Malaria mosquito (Anopheles)": {
    "size": "About 4-6 mm long.",
    "habitat": "Near standing water; malaria risk is highest in northern Botswana in the rainy season.",
    "food": "Females suck blood; males drink nectar and fruit juices.",
@@ -29751,7 +31385,23 @@ window.AGA_DATA = {
    "titbit": "These midges look like mosquitoes but do not bite people.",
    "draft": true
   },
+  "Arthropods|Midge (Chironomidae)": {
+   "size": "Small, about 2-10 mm long.",
+   "habitat": "Near water; often swarms over lagoons and rivers at dusk.",
+   "food": "Larvae eat debris and algae in water; adults eat little or nothing.",
+   "breeding": "Larvae, some red and called bloodworms, live in mud at the bottom of water.",
+   "titbit": "These midges look like mosquitoes but do not bite people.",
+   "draft": true
+  },
   "Mosquito (Culicidae)": {
+   "size": "About 3-6 mm long.",
+   "habitat": "Near any still water, even puddles and water in containers.",
+   "food": "Females suck blood and also take nectar; males drink nectar and fruit juices.",
+   "breeding": "All breed in water; in many species the female needs blood to make her eggs.",
+   "titbit": "Males have feathery antennae and cannot pierce skin, so only females bite.",
+   "draft": true
+  },
+  "Arthropods|Mosquito (Culicidae)": {
    "size": "About 3-6 mm long.",
    "habitat": "Near any still water, even puddles and water in containers.",
    "food": "Females suck blood and also take nectar; males drink nectar and fruit juices.",
@@ -29767,7 +31417,23 @@ window.AGA_DATA = {
    "titbit": "Spreads sleeping sickness to people and nagana to cattle; wings fold like closed scissors.",
    "draft": true
   },
+  "Arthropods|Tsetse fly (Glossina)": {
+   "size": "About 6-14 mm long.",
+   "habitat": "Shady woodland near water; largely wiped out in the Okavango by spraying in the early 2000s.",
+   "food": "Both males and females feed only on blood.",
+   "breeding": "Female gives birth to one larva at a time, only about 10-20 in her life.",
+   "titbit": "Spreads sleeping sickness to people and nagana to cattle; wings fold like closed scissors.",
+   "draft": true
+  },
   "Ant (Formicidae)": {
+   "size": "From about 1 mm to over 2 cm long.",
+   "habitat": "All habitats; nests in soil, wood, trees and termite mounds.",
+   "food": "Most are carnivorous; some eat seeds, plants or honeydew.",
+   "breeding": "Winged males and queens make a nuptial flight; the male dies soon after mating.",
+   "titbit": "Alarm smells: a little calls other ants to help, a lot makes the colony flee.",
+   "draft": true
+  },
+  "Arthropods|Ant (Formicidae)": {
    "size": "From about 1 mm to over 2 cm long.",
    "habitat": "All habitats; nests in soil, wood, trees and termite mounds.",
    "food": "Most are carnivorous; some eat seeds, plants or honeydew.",
@@ -29782,7 +31448,22 @@ window.AGA_DATA = {
    "titbit": "Commonly seen and heard in Botswana; females have glossy blue-black wings.",
    "draft": true
   },
+  "Arthropods|Spider-hunting wasp": {
+   "habitat": "Woodland and gardens; females search under bark, rocks and fallen plants.",
+   "food": "Larvae eat a paralysed spider; adults drink nectar.",
+   "breeding": "Female paralyses a spider, puts it in a nest with one egg and seals it; the larva eats it alive.",
+   "titbit": "Commonly seen and heard in Botswana; females have glossy blue-black wings.",
+   "draft": true
+  },
   "Sugar ant (Camponotus)": {
+   "size": "About 5-15 mm long.",
+   "habitat": "Woodland, homes and gardens; nests in wood, soil or trees.",
+   "food": "Honeydew, nectar, sweet foods and small insects.",
+   "breeding": "Winged queens and males fly out to mate, often after rain.",
+   "titbit": "They cannot sting but may bite and spray acid; often come into kitchens for sugar.",
+   "draft": true
+  },
+  "Arthropods|Sugar ant (Camponotus)": {
    "size": "About 5-15 mm long.",
    "habitat": "Woodland, homes and gardens; nests in wood, soil or trees.",
    "food": "Honeydew, nectar, sweet foods and small insects.",
@@ -29798,7 +31479,23 @@ window.AGA_DATA = {
    "titbit": "Fig and wasp cannot survive without each other; this is called obligate mutualism.",
    "draft": true
   },
+  "Arthropods|Sycamore fig wasp": {
+   "size": "Tiny, only a few millimetres long.",
+   "habitat": "Inside the figs of the sycamore fig, which grows along rivers and in the Okavango.",
+   "food": "Larvae feed inside the fig flowers.",
+   "breeding": "Female enters a fig through a tiny hole, pollinates the flowers and lays eggs inside.",
+   "titbit": "Fig and wasp cannot survive without each other; this is called obligate mutualism.",
+   "draft": true
+  },
   "Honey bee (African bee)": {
+   "size": "Workers about 12-15 mm long.",
+   "habitat": "All habitats; hives in hollow trees, rocks, termite mounds and buildings.",
+   "food": "Nectar and pollen; larvae are fed by worker bees.",
+   "breeding": "One queen lays the eggs; drones come from unfertilised eggs; workers are sterile females.",
+   "titbit": "Many stings or an allergy can kill; scrape stings out, never squeeze them.",
+   "draft": true
+  },
+  "Arthropods|Honey bee (African bee)": {
    "size": "Workers about 12-15 mm long.",
    "habitat": "All habitats; hives in hollow trees, rocks, termite mounds and buildings.",
    "food": "Nectar and pollen; larvae are fed by worker bees.",
@@ -29814,7 +31511,23 @@ window.AGA_DATA = {
    "titbit": "They sting painfully if the nest is disturbed; never approach a wasp nest.",
    "draft": true
   },
+  "Arthropods|Paper wasp (Polistinae)": {
+   "size": "About 1.5-2.5 cm long.",
+   "habitat": "Nests hang from roofs, branches, grass stalks and rock overhangs.",
+   "food": "Adults take nectar; larvae are fed chewed-up caterpillars.",
+   "breeding": "Live together in a 'paper' nest made from chewed wood pulp and spit.",
+   "titbit": "They sting painfully if the nest is disturbed; never approach a wasp nest.",
+   "draft": true
+  },
   "Baboon spider (Theraphosidae)": {
+   "size": "Large and hairy; leg span up to about 15 cm.",
+   "habitat": "Silk-lined burrows up to 30 cm deep in the ground.",
+   "food": "Insects and other small animals, hunted close to the burrow at night.",
+   "breeding": "Females keep their eggs in a silk sac inside the burrow.",
+   "titbit": "Bite gives nasty puncture wounds but is only mildly venomous; rears up to threaten.",
+   "draft": true
+  },
+  "Arthropods|Baboon spider (Theraphosidae)": {
    "size": "Large and hairy; leg span up to about 15 cm.",
    "habitat": "Silk-lined burrows up to 30 cm deep in the ground.",
    "food": "Insects and other small animals, hunted close to the burrow at night.",
@@ -29828,7 +31541,20 @@ window.AGA_DATA = {
    "titbit": "Has a horn on the top of its body that points backwards; bite is painful but mild.",
    "draft": true
   },
+  "Arthropods|Rear-horned baboon spider": {
+   "habitat": "Burrows in savanna and woodland.",
+   "food": "Insects and other small animals, hunted at night near the burrow.",
+   "titbit": "Has a horn on the top of its body that points backwards; bite is painful but mild.",
+   "draft": true
+  },
   "Horned baboon spider (Ceratogyrus)": {
+   "size": "Up to about 10 cm.",
+   "habitat": "Burrows in savanna and woodland.",
+   "food": "Arthropods, reptiles and even small mammals and birds.",
+   "titbit": "Each species is told apart by where the horn sits on its back; nocturnal.",
+   "draft": true
+  },
+  "Arthropods|Horned baboon spider (Ceratogyrus)": {
    "size": "Up to about 10 cm.",
    "habitat": "Burrows in savanna and woodland.",
    "food": "Arthropods, reptiles and even small mammals and birds.",
@@ -29843,7 +31569,22 @@ window.AGA_DATA = {
    "titbit": "Bite is cytotoxic and can turn into a slow-healing sore; clean it and see a doctor.",
    "draft": true
   },
+  "Arthropods|Sac spider (Cheiracanthium)": {
+   "size": "Body about 1 cm long.",
+   "habitat": "Many habitats; often in homes, on curtains and in garden sheds.",
+   "food": "Insects and other small arthropods, hunted at night.",
+   "breeding": "Eggs kept in a white silk sac flat against a surface, often on curtains.",
+   "titbit": "Bite is cytotoxic and can turn into a slow-healing sore; clean it and see a doctor.",
+   "draft": true
+  },
   "Six-eyed crab spider (six-eyed sand spider)": {
+   "size": "Body 8-15 mm; legs span up to 50 mm.",
+   "habitat": "Deserts and other sandy places.",
+   "food": "Ambushes passing insects and other small animals from under the sand.",
+   "titbit": "Venom was very strong in lab tests, but no human bite has ever been recorded.",
+   "draft": true
+  },
+  "Arthropods|Six-eyed crab spider (six-eyed sand spider)": {
    "size": "Body 8-15 mm; legs span up to 50 mm.",
    "habitat": "Deserts and other sandy places.",
    "food": "Ambushes passing insects and other small animals from under the sand.",
@@ -29857,7 +31598,22 @@ window.AGA_DATA = {
    "titbit": "Six eyes and a violin mark; bite is painless at first but cytotoxic, causing deep sores.",
    "draft": true
   },
+  "Arthropods|Violin spider (Loxosceles)": {
+   "habitat": "Under rocks and logs, in burrows, and often in and around buildings.",
+   "food": "Soft-bodied arthropods such as fish moths, hunted at night.",
+   "breeding": "Female lays up to 15 eggs on a silk sheet and covers them with sand.",
+   "titbit": "Six eyes and a violin mark; bite is painless at first but cytotoxic, causing deep sores.",
+   "draft": true
+  },
   "Black widow (black button spider)": {
+   "size": "Female body about 1-1.5 cm; male much smaller.",
+   "habitat": "Long grass, rocks and low bushes; less often near houses.",
+   "food": "Insects and other arthropods caught in a messy web.",
+   "breeding": "Egg sacs are whitish, smooth and round.",
+   "titbit": "Neurotoxic bite can be dangerous to people; get medical help quickly.",
+   "draft": true
+  },
+  "Arthropods|Black widow (black button spider)": {
    "size": "Female body about 1-1.5 cm; male much smaller.",
    "habitat": "Long grass, rocks and low bushes; less often near houses.",
    "food": "Insects and other arthropods caught in a messy web.",
@@ -29873,7 +31629,23 @@ window.AGA_DATA = {
    "titbit": "Orange-red hourglass under the body; bite is milder than black widow's but needs a doctor.",
    "draft": true
   },
+  "Arthropods|Brown widow (brown button spider)": {
+   "size": "Female body about 1 cm; male much smaller.",
+   "habitat": "Common in and around houses, sheds and outbuildings.",
+   "food": "Insects and other arthropods caught in a messy web.",
+   "breeding": "Egg sacs are whitish balls covered in small spikes.",
+   "titbit": "Orange-red hourglass under the body; bite is milder than black widow's but needs a doctor.",
+   "draft": true
+  },
   "Community web spider (social spider)": {
+   "size": "Small, under 1 cm long.",
+   "habitat": "Thorn trees in savanna, in big messy nests of silk, leaves and twigs.",
+   "food": "Insects caught in the web, shared by the whole group.",
+   "breeding": "Mothers feed their young and are finally eaten by them.",
+   "titbit": "Hundreds of spiders share one nest and attack trapped insects together.",
+   "draft": true
+  },
+  "Arthropods|Community web spider (social spider)": {
    "size": "Small, under 1 cm long.",
    "habitat": "Thorn trees in savanna, in big messy nests of silk, leaves and twigs.",
    "food": "Insects caught in the web, shared by the whole group.",
@@ -29889,7 +31661,23 @@ window.AGA_DATA = {
    "titbit": "Sting is extremely painful but not medically serious; check firewood before handling.",
    "draft": true
   },
+  "Arthropods|Bark scorpion (Uroplectes)": {
+   "size": "Small, mostly under 6 cm long.",
+   "habitat": "Under bark, rocks and logs in savanna and woodland.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "Sting is extremely painful but not medically serious; check firewood before handling.",
+   "draft": true
+  },
   "Burrowing scorpion (Opistophthalmus)": {
+   "size": "Medium to large, with a thin tail and big pincers.",
+   "habitat": "Burrows in all types of soil; prey remains often lie outside the burrow.",
+   "food": "Insects and other invertebrates, held with strong pincers rather than the sting.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "Sting causes burning pain, a bit worse than a bee sting; not dangerous, but watch the patient.",
+   "draft": true
+  },
+  "Arthropods|Burrowing scorpion (Opistophthalmus)": {
    "size": "Medium to large, with a thin tail and big pincers.",
    "habitat": "Burrows in all types of soil; prey remains often lie outside the burrow.",
    "food": "Insects and other invertebrates, held with strong pincers rather than the sting.",
@@ -29904,7 +31692,21 @@ window.AGA_DATA = {
    "titbit": "One of the two most common burrowing scorpions; painful but mild sting.",
    "draft": true
   },
+  "Arthropods|Kalahari burrowing scorpion": {
+   "habitat": "Burrows in Kalahari sand.",
+   "food": "Insects and other invertebrates, caught with strong pincers.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "One of the two most common burrowing scorpions; painful but mild sting.",
+   "draft": true
+  },
   "Radiant burrowing scorpion": {
+   "habitat": "Burrows in the ground, often in open areas.",
+   "food": "Insects and other invertebrates, caught with strong pincers.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "One of the two most common burrowing scorpions; painful but mild sting.",
+   "draft": true
+  },
+  "Arthropods|Radiant burrowing scorpion": {
    "habitat": "Burrows in the ground, often in open areas.",
    "food": "Insects and other invertebrates, caught with strong pincers.",
    "breeding": "Young ride on the mother's back until their first moult.",
@@ -29918,7 +31720,21 @@ window.AGA_DATA = {
    "titbit": "Potentially deadly sting; thick tail and thin pincers are warning signs. Get help fast.",
    "draft": true
   },
+  "Arthropods|Thick-tailed scorpion (Parabuthus)": {
+   "habitat": "Burrows in sand, often at the base of bushes; dry savanna and Kalahari.",
+   "food": "Insects, spiders and other invertebrates.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "Potentially deadly sting; thick tail and thin pincers are warning signs. Get help fast.",
+   "draft": true
+  },
   "Granulated thick-tailed scorpion": {
+   "habitat": "Throughout Botswana, burrowing in thick sand at the base of plants.",
+   "food": "Insects and other invertebrates; hunts on warm nights, especially after rain.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "The most venomous scorpion in southern Africa; it has its own special anti-venom.",
+   "draft": true
+  },
+  "Arthropods|Granulated thick-tailed scorpion": {
    "habitat": "Throughout Botswana, burrowing in thick sand at the base of plants.",
    "food": "Insects and other invertebrates; hunts on warm nights, especially after rain.",
    "breeding": "Young ride on the mother's back until their first moult.",
@@ -29932,7 +31748,21 @@ window.AGA_DATA = {
    "titbit": "The largest Kalahari scorpion; can spray venom. Any sting needs urgent medical help.",
    "draft": true
   },
+  "Arthropods|Kalahari thick-tailed scorpion": {
+   "habitat": "Sandy soil at the base of plants in the Kalahari.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "The largest Kalahari scorpion; can spray venom. Any sting needs urgent medical help.",
+   "draft": true
+  },
   "Transvaal thick-tailed scorpion": {
+   "habitat": "Dry savanna; burrows in sand and under rocks.",
+   "food": "Insects and other invertebrates.",
+   "breeding": "Young ride on the mother's back until their first moult.",
+   "titbit": "Highly venomous and can spray venom; a sting needs urgent medical help.",
+   "draft": true
+  },
+  "Arthropods|Transvaal thick-tailed scorpion": {
    "habitat": "Dry savanna; burrows in sand and under rocks.",
    "food": "Insects and other invertebrates.",
    "breeding": "Young ride on the mother's back until their first moult.",
@@ -29946,7 +31776,22 @@ window.AGA_DATA = {
    "titbit": "Not a true spider and has no venom, but big jaws can give a painful bite.",
    "draft": true
   },
+  "Arthropods|Solifuge (red roman, sun spider)": {
+   "habitat": "Open, dry, sandy areas; rests by day in shallow scrapes.",
+   "food": "Insects, other arthropods, reptiles and rodents.",
+   "breeding": "Female lays about 20 eggs in late summer and guards eggs and young.",
+   "titbit": "Not a true spider and has no venom, but big jaws can give a painful bite.",
+   "draft": true
+  },
   "Velvet mite": {
+   "size": "About 5 mm long.",
+   "habitat": "Sandy ground, seen mainly after summer thunderstorms.",
+   "food": "Adults eat small, soft-bodied invertebrates such as termites.",
+   "breeding": "Young stages live as parasites on other invertebrates before becoming adults.",
+   "titbit": "The biggest mite; bright red and soft like a velvet cushion. Harmless to people.",
+   "draft": true
+  },
+  "Arthropods|Velvet mite": {
    "size": "About 5 mm long.",
    "habitat": "Sandy ground, seen mainly after summer thunderstorms.",
    "food": "Adults eat small, soft-bodied invertebrates such as termites.",
@@ -29962,7 +31807,22 @@ window.AGA_DATA = {
    "titbit": "Hard shield on the back; they spread tick-bite fever and Congo fever to people.",
    "draft": true
   },
+  "Arthropods|Hard tick (Ixodidae)": {
+   "size": "From about 3 mm; fed females swell much bigger.",
+   "habitat": "Grass and bush where animals pass; they wait on plants for a host.",
+   "food": "Blood of mammals, birds and reptiles.",
+   "breeding": "Fed female drops off, lays thousands of eggs and dies; tiny 6-legged larvae hatch.",
+   "titbit": "Hard shield on the back; they spread tick-bite fever and Congo fever to people.",
+   "draft": true
+  },
   "Soft tick / tampan (Argasidae)": {
+   "habitat": "Hide in cracks, burrows, nests and resting places of their hosts.",
+   "food": "Blood of their hosts.",
+   "breeding": "Have more than one nymph stage, feeding on a host between moults.",
+   "titbit": "Leathery body; the mouthparts are underneath and cannot be seen from above.",
+   "draft": true
+  },
+  "Arthropods|Soft tick / tampan (Argasidae)": {
    "habitat": "Hide in cracks, burrows, nests and resting places of their hosts.",
    "food": "Blood of their hosts.",
    "breeding": "Have more than one nymph stage, feeding on a host between moults.",
@@ -29976,7 +31836,21 @@ window.AGA_DATA = {
    "titbit": "One of Botswana's two centipedes with fairly strong venom; the bite is very painful.",
    "draft": true
   },
+  "Arthropods|African giant centipede": {
+   "habitat": "Under logs, rocks and leaf litter; active at dusk and at night.",
+   "food": "Insects and other invertebrates; large ones also take frogs and other small animals.",
+   "breeding": "Eggs are laid in the soil.",
+   "titbit": "One of Botswana's two centipedes with fairly strong venom; the bite is very painful.",
+   "draft": true
+  },
   "Red-headed centipede": {
+   "habitat": "Under logs, stones and debris; active at dusk and at night.",
+   "food": "Insects and other invertebrates; large ones also take frogs and other small animals.",
+   "breeding": "Eggs are laid in the soil.",
+   "titbit": "Bright warning colours; the bite is very painful but usually needs no medical treatment.",
+   "draft": true
+  },
+  "Arthropods|Red-headed centipede": {
    "habitat": "Under logs, stones and debris; active at dusk and at night.",
    "food": "Insects and other invertebrates; large ones also take frogs and other small animals.",
    "breeding": "Eggs are laid in the soil.",
@@ -29990,7 +31864,22 @@ window.AGA_DATA = {
    "titbit": "Harmless, with no bite or sting, but gives off a foul chemical; wash hands after touching.",
    "draft": true
   },
+  "Arthropods|Giant millipede (Spirostreptidae)": {
+   "habitat": "Woodland and savanna; most often seen on the ground in the rainy season.",
+   "food": "Fungi, rotting plant material and new shoots.",
+   "breeding": "Female lays eggs, which are guarded by the parents.",
+   "titbit": "Harmless, with no bite or sting, but gives off a foul chemical; wash hands after touching.",
+   "draft": true
+  },
   "African migrant": {
+   "size": "Wingspan about 5-6 cm.",
+   "habitat": "Widespread in savanna, woodland and gardens.",
+   "food": "Adults drink nectar; caterpillars eat leaves of cassia (Senna) plants.",
+   "breeding": "Several generations each warm season.",
+   "titbit": "Large pale white-green butterfly famous for mass migrations.",
+   "draft": true
+  },
+  "Arthropods|African migrant": {
    "size": "Wingspan about 5-6 cm.",
    "habitat": "Widespread in savanna, woodland and gardens.",
    "food": "Adults drink nectar; caterpillars eat leaves of cassia (Senna) plants.",
@@ -30006,7 +31895,23 @@ window.AGA_DATA = {
    "titbit": "Caterpillars push out a red forked organ that smells bad to scare off predators.",
    "draft": true
   },
+  "Arthropods|Citrus swallowtail": {
+   "size": "Wingspan about 9-12 cm.",
+   "habitat": "Widespread in woodland, riverine areas and gardens.",
+   "food": "Adults drink nectar; caterpillars eat citrus leaves and wild relatives.",
+   "breeding": "Young caterpillars look like bird droppings; older ones are green.",
+   "titbit": "Caterpillars push out a red forked organ that smells bad to scare off predators.",
+   "draft": true
+  },
   "Death's-head hawkmoth": {
+   "size": "Wingspan about 10-12 cm.",
+   "habitat": "Widespread; often comes to lights at night.",
+   "food": "Adults steal honey from beehives; caterpillars eat leaves of potato-family and other plants.",
+   "breeding": "Large caterpillars pupate underground.",
+   "titbit": "Has a skull-like mark on its back and squeaks loudly when handled.",
+   "draft": true
+  },
+  "Arthropods|Death's-head hawkmoth": {
    "size": "Wingspan about 10-12 cm.",
    "habitat": "Widespread; often comes to lights at night.",
    "food": "Adults steal honey from beehives; caterpillars eat leaves of potato-family and other plants.",
@@ -30021,7 +31926,21 @@ window.AGA_DATA = {
    "titbit": "Grey wings with white dots look like guineafowl feathers.",
    "draft": true
   },
+  "Arthropods|Guineafowl butterfly": {
+   "size": "Wingspan about 5-6 cm.",
+   "habitat": "Dry savanna and woodland; often settles on the ground.",
+   "food": "Adults feed on rotting fruit and tree sap; caterpillars eat bushwillow leaves.",
+   "titbit": "Grey wings with white dots look like guineafowl feathers.",
+   "draft": true
+  },
   "Yellow pansy": {
+   "size": "Wingspan about 4-5 cm.",
+   "habitat": "Open grassland and savanna, often on bare ground.",
+   "food": "Adults drink nectar from small flowers.",
+   "titbit": "Bright yellow wings with a blue spot on each hindwing.",
+   "draft": true
+  },
+  "Arthropods|Yellow pansy": {
    "size": "Wingspan about 4-5 cm.",
    "habitat": "Open grassland and savanna, often on bare ground.",
    "food": "Adults drink nectar from small flowers.",
@@ -30035,7 +31954,22 @@ window.AGA_DATA = {
    "titbit": "Soldiers squirt sticky defensive liquid from a snout; main food of the aardwolf.",
    "draft": true
   },
+  "Arthropods|Snouted harvester termite": {
+   "habitat": "Grassland and savanna; builds small dome-shaped mounds.",
+   "food": "Grass and dry plant material, stored in the mound.",
+   "breeding": "Winged alates fly out to start new colonies, usually after rain.",
+   "titbit": "Soldiers squirt sticky defensive liquid from a snout; main food of the aardwolf.",
+   "draft": true
+  },
   "Ball-rolling dung beetle (Scarabaeus)": {
+   "size": "About 1.5-4 cm long.",
+   "habitat": "Savanna and Kalahari sand wherever there is dung.",
+   "food": "Dung.",
+   "breeding": "They roll a dung ball away, bury it and lay an egg in it.",
+   "titbit": "Some species steer using the sun, moon and even the Milky Way.",
+   "draft": true
+  },
+  "Arthropods|Ball-rolling dung beetle (Scarabaeus)": {
    "size": "About 1.5-4 cm long.",
    "habitat": "Savanna and Kalahari sand wherever there is dung.",
    "food": "Dung.",
@@ -30051,7 +31985,23 @@ window.AGA_DATA = {
    "titbit": "Contains a chemical that blisters skin and is poisonous if eaten; wash after touching.",
    "draft": true
   },
+  "Arthropods|CMR beetle (blister beetle)": {
+   "size": "About 2-3 cm long.",
+   "habitat": "Savanna and gardens, often on flowers in summer.",
+   "food": "Adults eat flowers and pollen; larvae eat grasshopper eggs in the soil.",
+   "breeding": "Larvae develop in the soil, feeding on grasshopper egg pods.",
+   "titbit": "Contains a chemical that blisters skin and is poisonous if eaten; wash after touching.",
+   "draft": true
+  },
   "Tok-tokkie (darkling beetle, Tenebrionidae)": {
+   "size": "From a few millimetres to about 4 cm long.",
+   "habitat": "Dry areas, especially Kalahari sand.",
+   "food": "Dead plant matter and other debris.",
+   "breeding": "Larvae, like mealworms, live in the soil.",
+   "titbit": "Some tap their bodies on the ground to call a mate, giving the name tok-tokkie.",
+   "draft": true
+  },
+  "Arthropods|Tok-tokkie (darkling beetle, Tenebrionidae)": {
    "size": "From a few millimetres to about 4 cm long.",
    "habitat": "Dry areas, especially Kalahari sand.",
    "food": "Dead plant matter and other debris.",
@@ -30066,7 +32016,22 @@ window.AGA_DATA = {
    "titbit": "Can spray a burning acid that hurts eyes and skin; do not pick them up.",
    "draft": true
   },
+  "Arthropods|Two-spotted ground beetle (Anthia)": {
+   "size": "About 4-6 cm long.",
+   "habitat": "Dry sandy savanna and the Kalahari.",
+   "food": "Insects and other invertebrates; fast-running hunters.",
+   "titbit": "Can spray a burning acid that hurts eyes and skin; do not pick them up.",
+   "draft": true
+  },
   "Carpenter bee (Xylocopa)": {
+   "size": "About 2-3 cm long.",
+   "habitat": "Woodland and gardens; nests in dead wood.",
+   "food": "Nectar and pollen.",
+   "breeding": "Females bore tunnels in dead wood and lay eggs in cells stocked with pollen.",
+   "titbit": "Big, noisy bees; females can sting but seldom do, and males cannot sting.",
+   "draft": true
+  },
+  "Arthropods|Carpenter bee (Xylocopa)": {
    "size": "About 2-3 cm long.",
    "habitat": "Woodland and gardens; nests in dead wood.",
    "food": "Nectar and pollen.",
@@ -30081,7 +32046,22 @@ window.AGA_DATA = {
    "titbit": "Raid termites in columns; painful sting. They carry injured nestmates home and treat them.",
    "draft": true
   },
+  "Arthropods|Matabele ant": {
+   "size": "Workers about 1-2 cm long.",
+   "habitat": "Savanna and woodland; nests underground.",
+   "food": "Termites only, caught in raids.",
+   "titbit": "Raid termites in columns; painful sting. They carry injured nestmates home and treat them.",
+   "draft": true
+  },
   "Golden orb-web spider": {
+   "size": "Female body about 2.5-3 cm; male much smaller.",
+   "habitat": "Woodland and savanna; large webs between trees and bushes.",
+   "food": "Flying insects caught in the web.",
+   "breeding": "Tiny males live in the female's web.",
+   "titbit": "The web silk shines golden in the sun; harmless to people.",
+   "draft": true
+  },
+  "Arthropods|Golden orb-web spider": {
    "size": "Female body about 2.5-3 cm; male much smaller.",
    "habitat": "Woodland and savanna; large webs between trees and bushes.",
    "food": "Flying insects caught in the web.",
@@ -30096,6 +32076,13 @@ window.AGA_DATA = {
    "titbit": "Colourful banded legs; spreads heartwater to livestock and tick-bite fever to people.",
    "draft": true
   },
+  "Arthropods|Bont tick": {
+   "habitat": "Savanna with livestock and large wild animals.",
+   "food": "Blood; adults feed on large mammals, young stages also on smaller animals.",
+   "breeding": "Three-host tick: larva, nymph and adult each feed on a different host.",
+   "titbit": "Colourful banded legs; spreads heartwater to livestock and tick-bite fever to people.",
+   "draft": true
+  },
   "Armoured ground cricket (koringkriek)": {
    "size": "About 4-5 cm long.",
    "habitat": "Dry savanna and the Kalahari; common in summer.",
@@ -30103,7 +32090,22 @@ window.AGA_DATA = {
    "titbit": "Flightless; squirts foul yellow blood from its body when disturbed.",
    "draft": true
   },
+  "Arthropods|Armoured ground cricket (koringkriek)": {
+   "size": "About 4-5 cm long.",
+   "habitat": "Dry savanna and the Kalahari; common in summer.",
+   "food": "Plants, seeds, dead animals and other insects, including each other.",
+   "titbit": "Flightless; squirts foul yellow blood from its body when disturbed.",
+   "draft": true
+  },
   "Elephant": {
+   "size": "Bulls about 3.2 m at the shoulder and 5,500–6,000 kg; cows about 2.4 m and 3,800–4,000 kg.",
+   "habitat": "Common in northern Botswana, e.g. Chobe, Linyanti and Okavango; woodland and savanna near water.",
+   "food": "Mixed feeder that grazes when grass is good; bulls eat about 170 kg of food and drink about 160 litres a day.",
+   "breeding": "One calf after 22 months' gestation, mostly in the rains; family herds of related cows.",
+   "titbit": "Many elephant calls are infrasound, too low for people to hear.",
+   "draft": true
+  },
+  "Mammals|Elephant": {
    "size": "Bulls about 3.2 m at the shoulder and 5,500–6,000 kg; cows about 2.4 m and 3,800–4,000 kg.",
    "habitat": "Common in northern Botswana, e.g. Chobe, Linyanti and Okavango; woodland and savanna near water.",
    "food": "Mixed feeder that grazes when grass is good; bulls eat about 170 kg of food and drink about 160 litres a day.",
@@ -30119,7 +32121,23 @@ window.AGA_DATA = {
    "titbit": "The calf runs behind its mother, but a white rhino calf runs in front.",
    "draft": true
   },
+  "Mammals|Black Rhino": {
+   "size": "Shoulder height about 1.6 m; mass about 850–880 kg.",
+   "habitat": "Reintroduced to well-protected areas of Botswana; locations are kept confidential to protect them from poachers.",
+   "food": "Browser of shrubs and trees, using a pointed, grasping upper lip; seldom more than 15 km from water.",
+   "breeding": "One calf after about 15 months' gestation; the calf stays with its mother for 2–4 years.",
+   "titbit": "The calf runs behind its mother, but a white rhino calf runs in front.",
+   "draft": true
+  },
   "White Rhino": {
+   "size": "Bulls about 1.7 m and 2,000 kg; cows about 1.6 m and 1,600 kg.",
+   "habitat": "Reintroduced to well-protected areas of Botswana; locations are kept confidential to protect them from poachers.",
+   "food": "Grazer with a wide, square lip; drinks daily when it can, mostly between 17h00 and 21h00.",
+   "breeding": "One calf after 16 months' gestation; a territorial bull lives with several cows.",
+   "titbit": "Bulls mark their territory with dung middens and by spraying urine.",
+   "draft": true
+  },
+  "Mammals|White Rhino": {
    "size": "Bulls about 1.7 m and 2,000 kg; cows about 1.6 m and 1,600 kg.",
    "habitat": "Reintroduced to well-protected areas of Botswana; locations are kept confidential to protect them from poachers.",
    "food": "Grazer with a wide, square lip; drinks daily when it can, mostly between 17h00 and 21h00.",
@@ -30135,7 +32153,23 @@ window.AGA_DATA = {
    "titbit": "Hippo seldom mock-charge; never get between a hippo and the water.",
    "draft": true
   },
+  "Mammals|Hippopotamus": {
+   "size": "Bulls about 1.5 m and 1,500 kg; cows about 1.4 m and 1,300 kg.",
+   "habitat": "Rivers, lagoons and deep pools of the Okavango, Linyanti and Chobe; grazes on land at night.",
+   "food": "Grazer that feeds mostly at night, eating about 40 kg of grass a night.",
+   "breeding": "One calf of 40–50 kg after only 8 months' gestation; only about 10% of bulls ever hold territory.",
+   "titbit": "Hippo seldom mock-charge; never get between a hippo and the water.",
+   "draft": true
+  },
   "Bushpig": {
+   "size": "Shoulder height about 70 cm; mass up to about 80 kg.",
+   "habitat": "Riverine forest, thick bush and reedbeds in northern Botswana; rarely seen.",
+   "food": "Omnivore; roots up bulbs, roots and fruit, and also eats insects and carrion.",
+   "breeding": "Litters of about 3–4 striped piglets, born in a grass nest in summer.",
+   "titbit": "Mainly active at night and very shy, so it is rarely seen even where common.",
+   "draft": true
+  },
+  "Mammals|Bushpig": {
    "size": "Shoulder height about 70 cm; mass up to about 80 kg.",
    "habitat": "Riverine forest, thick bush and reedbeds in northern Botswana; rarely seen.",
    "food": "Omnivore; roots up bulbs, roots and fruit, and also eats insects and carrion.",
@@ -30151,7 +32185,23 @@ window.AGA_DATA = {
    "titbit": "It often reverses into its burrow so it can face danger with its tusks.",
    "draft": true
   },
+  "Mammals|Common Warthog": {
+   "size": "Shoulder height about 70 cm; boars up to about 100 kg, sows about 45–70 kg.",
+   "habitat": "Open grassland, floodplains and savanna across much of Botswana.",
+   "food": "Mainly a grazer; kneels to eat short grass and digs out roots with its snout.",
+   "breeding": "Usually 2–4 piglets, born in a burrow after about 5.5 months' gestation.",
+   "titbit": "It often reverses into its burrow so it can face danger with its tusks.",
+   "draft": true
+  },
   "Giraffe": {
+   "size": "Bulls about 3 m at the shoulder and 1,200 kg; cows about 2.7 m and 820 kg.",
+   "habitat": "Dry savanna and woodland across northern and central Botswana, including the Kalahari.",
+   "food": "Browser; uses a tongue over 40 cm long to strip leaves; also chews bones for calcium.",
+   "breeding": "One calf after 15 months; it drops about 2 m at birth and is hidden for 3 weeks.",
+   "titbit": "A giraffe's heart can weigh 11 kg, as much as a full-grown steenbok.",
+   "draft": true
+  },
+  "Mammals|Giraffe": {
    "size": "Bulls about 3 m at the shoulder and 1,200 kg; cows about 2.7 m and 820 kg.",
    "habitat": "Dry savanna and woodland across northern and central Botswana, including the Kalahari.",
    "food": "Browser; uses a tongue over 40 cm long to strip leaves; also chews bones for calcium.",
@@ -30167,7 +32217,23 @@ window.AGA_DATA = {
    "titbit": "If a herd member is caught, the herd may attack the predator with kicks and bites.",
    "draft": true
   },
+  "Mammals|Plains Zebra": {
+   "size": "Shoulder height about 1.3 m; stallions about 320 kg, mares about 260 kg.",
+   "habitat": "Grassland and open woodland near water; many move to the Makgadikgadi and Nxai Pan area in the rains.",
+   "food": "Bulk grazer that drinks daily; sometimes browses.",
+   "breeding": "One foal born about a year after mating; a family group is one stallion with his mares.",
+   "titbit": "If a herd member is caught, the herd may attack the predator with kicks and bites.",
+   "draft": true
+  },
   "Buffalo": {
+   "size": "Bulls about 1.45 m and 600 kg; cows about 1.4 m and 450 kg.",
+   "habitat": "Northern Botswana, especially the Okavango, Linyanti and Chobe; grassland and woodland near water.",
+   "food": "Ruminant grazer that drinks at least once a day; feeds early, late and on bright nights.",
+   "breeding": "Most mating in February; one calf of about 40 kg is born after 11 months.",
+   "titbit": "Old bulls that leave the herd and live together are called 'dagga boys'.",
+   "draft": true
+  },
+  "Mammals|Buffalo": {
    "size": "Bulls about 1.45 m and 600 kg; cows about 1.4 m and 450 kg.",
    "habitat": "Northern Botswana, especially the Okavango, Linyanti and Chobe; grassland and woodland near water.",
    "food": "Ruminant grazer that drinks at least once a day; feeds early, late and on bright nights.",
@@ -30183,7 +32249,23 @@ window.AGA_DATA = {
    "titbit": "Cordon fences in the 1960s and 70s caused Botswana to lose about 90% of its wildebeest.",
    "draft": true
   },
+  "Mammals|Blue Wildebeest": {
+   "size": "Bulls about 1.4 m and 240 kg; cows about 1.25 m and 200 kg.",
+   "habitat": "Open grassland and savanna, e.g. Central Kalahari, Makgadikgadi and the Okavango.",
+   "food": "Ruminant grazer of short grass; must drink at least every second day.",
+   "breeding": "Mates in March–April; calves are born together in November–December after 8.5 months.",
+   "titbit": "Cordon fences in the 1960s and 70s caused Botswana to lose about 90% of its wildebeest.",
+   "draft": true
+  },
   "Greater Kudu": {
+   "size": "Bulls about 1.4 m and 230 kg; cows about 1.25 m and 150 kg.",
+   "habitat": "Woodland and thicket across most of Botswana, including the Kalahari.",
+   "food": "Browser of leaves and pods; does not need to drink; up to 40% of feeding is at night.",
+   "breeding": "Mates at the end of the rains; one calf is born around January after 9 months.",
+   "titbit": "A bull's horns make one full spiral by age 2 and about 2½ turns by age 6.",
+   "draft": true
+  },
+  "Mammals|Greater Kudu": {
    "size": "Bulls about 1.4 m and 230 kg; cows about 1.25 m and 150 kg.",
    "habitat": "Woodland and thicket across most of Botswana, including the Kalahari.",
    "food": "Browser of leaves and pods; does not need to drink; up to 40% of feeding is at night.",
@@ -30199,7 +32281,23 @@ window.AGA_DATA = {
    "titbit": "No ram can hold a territory for the whole 3-week rut, so several strong rams mate the ewes.",
    "draft": true
   },
+  "Mammals|Impala": {
+   "size": "Rams about 90 cm and 60 kg; ewes about 85 cm and 50 kg.",
+   "habitat": "Woodland edges near water in northern and eastern Botswana.",
+   "food": "Mixed feeder: grazes fresh grass and switches to browse when grass is poor.",
+   "breeding": "Rut around April; lambs are born together in a short burst in November.",
+   "titbit": "No ram can hold a territory for the whole 3-week rut, so several strong rams mate the ewes.",
+   "draft": true
+  },
   "Oryx (Gemsbok)": {
+   "size": "Shoulder height about 1.25 m; bulls about 240 kg, cows about 210 kg.",
+   "habitat": "Dry Kalahari grassland and dunes, e.g. Central Kalahari and Kgalagadi.",
+   "food": "Grazer that also digs for bulbs and tubers; does not need surface water.",
+   "breeding": "Mates at the end of the rains; calves are born with the next rains and hidden for a few weeks.",
+   "titbit": "Its body can heat up to 45 °C while special blood vessels keep the brain cool.",
+   "draft": true
+  },
+  "Mammals|Oryx (Gemsbok)": {
    "size": "Shoulder height about 1.25 m; bulls about 240 kg, cows about 210 kg.",
    "habitat": "Dry Kalahari grassland and dunes, e.g. Central Kalahari and Kgalagadi.",
    "food": "Grazer that also digs for bulbs and tubers; does not need surface water.",
@@ -30215,7 +32313,23 @@ window.AGA_DATA = {
    "titbit": "Big hindquarters and splayed hooves help it run through shallow water and mud.",
    "draft": true
   },
+  "Mammals|Red Lechwe": {
+   "size": "Rams about 1 m and 115 kg; ewes about 90 cm and 70 kg.",
+   "habitat": "Floodplains and shallow water of the Okavango, Linyanti and Chobe.",
+   "food": "Grazer of floodplain grasses; drinks up to 3 times a day.",
+   "breeding": "One calf after 7.5 months, hidden for 3 weeks; Okavango rut peaks in March–April.",
+   "titbit": "Big hindquarters and splayed hooves help it run through shallow water and mud.",
+   "draft": true
+  },
   "Springbok": {
+   "size": "Shoulder height about 75 cm; mass about 30–45 kg.",
+   "habitat": "Dry open plains and pans of the Kalahari and Makgadikgadi.",
+   "food": "Mixed feeder of grass and browse; can live without drinking water.",
+   "breeding": "One lamb after about 6 months; most lambs are born in the rains.",
+   "titbit": "It 'pronks', leaping stiff-legged and opening a white crest of hair on its back.",
+   "draft": true
+  },
+  "Mammals|Springbok": {
    "size": "Shoulder height about 75 cm; mass about 30–45 kg.",
    "habitat": "Dry open plains and pans of the Kalahari and Makgadikgadi.",
    "food": "Mixed feeder of grass and browse; can live without drinking water.",
@@ -30231,7 +32345,23 @@ window.AGA_DATA = {
    "titbit": "It scrapes soil over its dung and urine to bury them.",
    "draft": true
   },
+  "Mammals|Steenbok": {
+   "size": "Shoulder height about 50 cm; mass about 11 kg.",
+   "habitat": "Open grassland and lightly wooded savanna throughout Botswana, including the Kalahari.",
+   "food": "Selective browser and grazer that also digs up roots; does not need to drink.",
+   "breeding": "One lamb after about 5.5 months, kept hidden in grass.",
+   "titbit": "It scrapes soil over its dung and urine to bury them.",
+   "draft": true
+  },
   "Waterbuck": {
+   "size": "Bulls about 1.5 m and 270 kg; cows about 1.1 m and 180 kg.",
+   "habitat": "Near rivers and floodplains in northern Botswana, e.g. the Chobe and Linyanti.",
+   "food": "Grazer of coarse, high-fibre grass; must stay close to water.",
+   "breeding": "One calf (twins not rare) after 9 months, hidden for 3–4 weeks.",
+   "titbit": "Its smell is said to put off predators, but there is no evidence and they are often killed.",
+   "draft": true
+  },
+  "Mammals|Waterbuck": {
    "size": "Bulls about 1.5 m and 270 kg; cows about 1.1 m and 180 kg.",
    "habitat": "Near rivers and floodplains in northern Botswana, e.g. the Chobe and Linyanti.",
    "food": "Grazer of coarse, high-fibre grass; must stay close to water.",
@@ -30247,7 +32377,23 @@ window.AGA_DATA = {
    "titbit": "Breeding with house cats is a threat; pure wildcats have reddish backs to the ears.",
    "draft": true
   },
+  "Mammals|African Wildcat": {
+   "size": "Shoulder height about 35 cm; mass about 3–6 kg.",
+   "habitat": "Found throughout Botswana in most habitats, from the Kalahari to the Okavango.",
+   "food": "Mainly rodents and birds; also insects, small antelope and sometimes fruit.",
+   "breeding": "About 3 kittens after 2 months, often in old springhare or aardvark burrows.",
+   "titbit": "Breeding with house cats is a threat; pure wildcats have reddish backs to the ears.",
+   "draft": true
+  },
   "Caracal": {
+   "size": "Shoulder height about 45 cm; mass about 8–18 kg.",
+   "habitat": "Dry savanna, woodland and Kalahari scrub across Botswana.",
+   "food": "Stalk-and-pounce hunter of medium mammals and birds; males sometimes kill impala.",
+   "breeding": "About 2 kittens after 80 days; they stay with the mother for 10–12 months.",
+   "titbit": "It can leap high into the air to knock birds down.",
+   "draft": true
+  },
+  "Mammals|Caracal": {
    "size": "Shoulder height about 45 cm; mass about 8–18 kg.",
    "habitat": "Dry savanna, woodland and Kalahari scrub across Botswana.",
    "food": "Stalk-and-pounce hunter of medium mammals and birds; males sometimes kill impala.",
@@ -30263,7 +32409,23 @@ window.AGA_DATA = {
    "titbit": "Fastest land mammal: over 100 km/h, and 0–100 km/h in about 3 seconds.",
    "draft": true
   },
+  "Mammals|Cheetah": {
+   "size": "Shoulder height about 85–88 cm; males about 55 kg, females about 45 kg.",
+   "habitat": "Open savanna and grassland, e.g. the Kalahari, Makgadikgadi and Okavango floodplains.",
+   "food": "Chases down medium antelope like impala and springbok in a dash of under 300 m.",
+   "breeding": "About 4 cubs after 3 months' gestation; cubs stay with the mother for over a year.",
+   "titbit": "Fastest land mammal: over 100 km/h, and 0–100 km/h in about 3 seconds.",
+   "draft": true
+  },
   "Leopard": {
+   "size": "Males about 65 cm and 60 kg; females about 60 cm and 32 kg.",
+   "habitat": "Throughout Botswana, especially riverine forest, woodland and rocky areas.",
+   "food": "Most opportunistic cat: from squirrels and birds to kudu three times its weight.",
+   "breeding": "Usually 2 cubs after 3.5 months; cubs stay with the mother for at least a year.",
+   "titbit": "Its call is a harsh rasp, like someone sawing wood.",
+   "draft": true
+  },
+  "Mammals|Leopard": {
    "size": "Males about 65 cm and 60 kg; females about 60 cm and 32 kg.",
    "habitat": "Throughout Botswana, especially riverine forest, woodland and rocky areas.",
    "food": "Most opportunistic cat: from squirrels and birds to kudu three times its weight.",
@@ -30279,7 +32441,23 @@ window.AGA_DATA = {
    "titbit": "A roar is over 110 decibels and can be heard at least 5 km away.",
    "draft": true
   },
+  "Mammals|Lion": {
+   "size": "Males about 1 m and 190 kg; females about 90 cm and 130 kg.",
+   "habitat": "Northern Botswana and the Kalahari, in savanna, woodland and floodplains.",
+   "food": "Mostly hunts at night, ambushing large prey such as buffalo and zebra; also scavenges.",
+   "breeding": "Usually 2–3 cubs after 3.5 months; cubs weigh about 1.5 kg at birth.",
+   "titbit": "A roar is over 110 decibels and can be heard at least 5 km away.",
+   "draft": true
+  },
   "Serval": {
+   "size": "Shoulder height about 55–60 cm; mass about 8–13 kg.",
+   "habitat": "Long grass and reedbeds near water, mainly the Okavango, Linyanti and Chobe.",
+   "food": "Stalk-and-pounce hunter of mainly rodents and birds.",
+   "breeding": "2–3 kittens after 70 days, mostly in late summer.",
+   "titbit": "Huge ears and long legs help it hunt in tall grass and swamps.",
+   "draft": true
+  },
+  "Mammals|Serval": {
    "size": "Shoulder height about 55–60 cm; mass about 8–13 kg.",
    "habitat": "Long grass and reedbeds near water, mainly the Okavango, Linyanti and Chobe.",
    "food": "Stalk-and-pounce hunter of mainly rodents and birds.",
@@ -30295,7 +32473,23 @@ window.AGA_DATA = {
    "titbit": "It walks over 30 km a night looking for food; over 70 km has been recorded.",
    "draft": true
   },
+  "Mammals|Brown Hyaena": {
+   "size": "Shoulder height about 75–80 cm; mass about 40 kg.",
+   "habitat": "Dry Kalahari areas such as Central Kalahari and Makgadikgadi; needs no surface water.",
+   "food": "Mainly a scavenger; also eats insects and fruit, and steals kills from cheetah and leopard.",
+   "breeding": "Usually 2–3 cubs after 3 months; all clan members bring food to the den.",
+   "titbit": "It walks over 30 km a night looking for food; over 70 km has been recorded.",
+   "draft": true
+  },
   "Spotted Hyaena": {
+   "size": "Shoulder height about 80 cm; females (about 68 kg) are heavier than males (about 62 kg).",
+   "habitat": "Northern Botswana and the Kalahari, in savanna and woodland.",
+   "food": "Hunter and scavenger; an endurance runner that can keep up 50 km/h for 5 km.",
+   "breeding": "About 2 cubs after 3.5 months; cubs are born with teeth and suckle for up to 15 months.",
+   "titbit": "Clans are led by females, which are bigger and more dominant than males.",
+   "draft": true
+  },
+  "Mammals|Spotted Hyaena": {
    "size": "Shoulder height about 80 cm; females (about 68 kg) are heavier than males (about 62 kg).",
    "habitat": "Northern Botswana and the Kalahari, in savanna and woodland.",
    "food": "Hunter and scavenger; an endurance runner that can keep up 50 km/h for 5 km.",
@@ -30311,7 +32505,23 @@ window.AGA_DATA = {
    "titbit": "Pups are allowed to feed first at a kill, before the adults.",
    "draft": true
   },
+  "Mammals|African Wild Dog": {
+   "size": "Shoulder height about 65 cm; mass about 25 kg.",
+   "habitat": "Northern Botswana, mainly the Okavango, Linyanti and Chobe; savanna and woodland.",
+   "food": "Coursing hunter of medium antelope like impala; can run over 60 km/h for 2 km.",
+   "breeding": "Only the alpha pair breed; about 10 pups after 2.5 months, born in winter.",
+   "titbit": "Pups are allowed to feed first at a kill, before the adults.",
+   "draft": true
+  },
   "Bat-eared Fox": {
+   "size": "Shoulder height about 35 cm; mass about 3–5 kg.",
+   "habitat": "Open dry grassland and scrub, especially the Kalahari and Makgadikgadi.",
+   "food": "Mainly insects such as termites; also rodents, birds and fruit.",
+   "breeding": "About 5 pups born in a burrow, mostly around December; pairs share a territory.",
+   "titbit": "It has about 50 small teeth, more than any other African land mammal.",
+   "draft": true
+  },
+  "Mammals|Bat-eared Fox": {
    "size": "Shoulder height about 35 cm; mass about 3–5 kg.",
    "habitat": "Open dry grassland and scrub, especially the Kalahari and Makgadikgadi.",
    "food": "Mainly insects such as termites; also rodents, birds and fruit.",
@@ -30327,7 +32537,23 @@ window.AGA_DATA = {
    "titbit": "Each jackal's wailing night call is slightly different, so individuals can be told apart.",
    "draft": true
   },
+  "Mammals|Black-backed Jackal": {
+   "size": "Shoulder height about 38 cm; mass about 6–10 kg.",
+   "habitat": "Throughout Botswana, from the Kalahari to the Okavango, in open savanna.",
+   "food": "Omnivore: rodents, birds, insects, fruit and melons; scavenges at kills.",
+   "breeding": "About 5 pups (1–8) born in a den and raised by both parents.",
+   "titbit": "Each jackal's wailing night call is slightly different, so individuals can be told apart.",
+   "draft": true
+  },
   "Honey Badger (Ratel)": {
+   "size": "Shoulder height about 25–30 cm; mass about 8–14 kg.",
+   "habitat": "Found throughout Botswana in almost all habitats.",
+   "food": "Digs out rodents, reptiles and insects; also raids beehives and steals prey.",
+   "breeding": "Usually 2 young, born in a burrow, mostly in early summer.",
+   "titbit": "Loose skin lets it twist round and bite an attacker that is holding its neck.",
+   "draft": true
+  },
+  "Mammals|Honey Badger (Ratel)": {
    "size": "Shoulder height about 25–30 cm; mass about 8–14 kg.",
    "habitat": "Found throughout Botswana in almost all habitats.",
    "food": "Digs out rodents, reptiles and insects; also raids beehives and steals prey.",
@@ -30343,7 +32569,23 @@ window.AGA_DATA = {
    "titbit": "Usually alone, but family groups of up to 5, and rarely 10, are seen.",
    "draft": true
   },
+  "Mammals|Spotted-necked Otter": {
+   "size": "Mass about 3–5 kg; about 1 m long including the tail.",
+   "habitat": "Clear, deep water of the Okavango and Chobe; rare elsewhere.",
+   "food": "Mainly small fish and crabs, caught in the water.",
+   "breeding": "About 2 pups, born in a hollow or crevice on land; no clear breeding season.",
+   "titbit": "Usually alone, but family groups of up to 5, and rarely 10, are seen.",
+   "draft": true
+  },
   "Dwarf Mongoose": {
+   "size": "Smallest African mongoose; mass about 200–350 g.",
+   "habitat": "Dry savanna woodland in northern and eastern Botswana, often living in old termite mounds.",
+   "food": "Mainly insects, plus lizards, small snakes, birds and rodents.",
+   "breeding": "Usually only the alpha pair breed; 2–3 pups are raised by the whole group.",
+   "titbit": "Lives in groups of up to 30, led by a dominant female.",
+   "draft": true
+  },
+  "Mammals|Dwarf Mongoose": {
    "size": "Smallest African mongoose; mass about 200–350 g.",
    "habitat": "Dry savanna woodland in northern and eastern Botswana, often living in old termite mounds.",
    "food": "Mainly insects, plus lizards, small snakes, birds and rodents.",
@@ -30359,7 +32601,23 @@ window.AGA_DATA = {
    "titbit": "Best climber of the mongooses; birds often mob it when it raids nests.",
    "draft": true
   },
+  "Mammals|Slender Mongoose": {
+   "size": "Mass about 400–800 g; males bigger than females.",
+   "habitat": "Most of Botswana, in savanna and woodland.",
+   "food": "Mainly insects; also lizards, birds, eggs, snakes and some fruit.",
+   "breeding": "1–3 young after about 2 months, born in a sheltered spot.",
+   "titbit": "Best climber of the mongooses; birds often mob it when it raids nests.",
+   "draft": true
+  },
   "Chacma Baboon": {
+   "size": "Males about 30–40 kg; females about half that.",
+   "habitat": "Woodland near water and rocky hills, mainly northern and eastern Botswana.",
+   "food": "Mainly plants; sometimes eats birds and small mammals up to infant impala.",
+   "breeding": "One baby after about 6 months, at any time of year.",
+   "titbit": "Females stay in their birth troop for life, while males move between troops.",
+   "draft": true
+  },
+  "Mammals|Chacma Baboon": {
    "size": "Males about 30–40 kg; females about half that.",
    "habitat": "Woodland near water and rocky hills, mainly northern and eastern Botswana.",
    "food": "Mainly plants; sometimes eats birds and small mammals up to infant impala.",
@@ -30375,7 +32633,23 @@ window.AGA_DATA = {
    "titbit": "Huge eyes for seeing at night; it can leap several metres between branches.",
    "draft": true
   },
+  "Mammals|Southern Lesser Galago (Bushbaby)": {
+   "size": "Tiny; mass about 150 g.",
+   "habitat": "Acacia and mopane woodland in northern and eastern Botswana.",
+   "food": "Gum from acacia trees, and insects such as moths.",
+   "breeding": "Usually 1–2 young, often twice a year.",
+   "titbit": "Huge eyes for seeing at night; it can leap several metres between branches.",
+   "draft": true
+  },
   "Vervet Monkey": {
+   "size": "Males about 5.5 kg; females about 4 kg.",
+   "habitat": "Riverine woodland of northern Botswana, e.g. the Okavango and Chobe.",
+   "food": "Mainly fruit, seeds and flowers; also insects, eggs and nestlings.",
+   "breeding": "One baby after about 160 days, at any time of year.",
+   "titbit": "Has different alarm calls for ground predators, birds of prey and pythons.",
+   "draft": true
+  },
+  "Mammals|Vervet Monkey": {
    "size": "Males about 5.5 kg; females about 4 kg.",
    "habitat": "Riverine woodland of northern Botswana, e.g. the Okavango and Chobe.",
    "food": "Mainly fruit, seeds and flowers; also insects, eggs and nestlings.",
@@ -30390,7 +32664,22 @@ window.AGA_DATA = {
    "titbit": "Re-eating its soft droppings lets it get vitamin B that would otherwise be lost.",
    "draft": true
   },
+  "Mammals|Savanna Hare": {
+   "habitat": "Open grassland and savanna in Botswana.",
+   "food": "Mainly grass, eaten at night; re-eats its soft green droppings to digest it better.",
+   "breeding": "Peak breeding is December to March; about 2 young, cared for by the female.",
+   "titbit": "Re-eating its soft droppings lets it get vitamin B that would otherwise be lost.",
+   "draft": true
+  },
   "Springhare": {
+   "size": "Mass about 3 kg.",
+   "habitat": "Sandy soils across Botswana, especially the Kalahari.",
+   "food": "Grass, roots and seeds, eaten at night.",
+   "breeding": "Usually a single young, born in the burrow, several times a year.",
+   "titbit": "Not a hare but a rodent; it hops on its back legs like a small kangaroo.",
+   "draft": true
+  },
+  "Mammals|Springhare": {
    "size": "Mass about 3 kg.",
    "habitat": "Sandy soils across Botswana, especially the Kalahari.",
    "food": "Grass, roots and seeds, eaten at night.",
@@ -30406,7 +32695,23 @@ window.AGA_DATA = {
    "titbit": "Rolls into a tight ball of spines when threatened.",
    "draft": true
   },
+  "Mammals|Southern African Hedgehog": {
+   "size": "Mass about 300–400 g.",
+   "habitat": "Dry grassland and scrub in parts of Botswana.",
+   "food": "Mainly insects, worms and other small invertebrates; also small reptiles and eggs.",
+   "breeding": "About 4 young (1–9) per litter, born in summer.",
+   "titbit": "Rolls into a tight ball of spines when threatened.",
+   "draft": true
+  },
   "Aardvark": {
+   "size": "Shoulder height about 60 cm; mass about 40–70 kg.",
+   "habitat": "Throughout Botswana wherever there are termites and soft or sandy soil.",
+   "food": "Ants and termites, dug out at night and licked up with a long sticky tongue.",
+   "breeding": "One young, born in a burrow after about 7 months.",
+   "titbit": "Its old burrows give homes to many animals, such as warthog, hyaena and porcupine.",
+   "draft": true
+  },
+  "Mammals|Aardvark": {
    "size": "Shoulder height about 60 cm; mass about 40–70 kg.",
    "habitat": "Throughout Botswana wherever there are termites and soft or sandy soil.",
    "food": "Ants and termites, dug out at night and licked up with a long sticky tongue.",
@@ -30422,7 +32727,23 @@ window.AGA_DATA = {
    "titbit": "Usually shy and alone, but a cornered ram can be very dangerous.",
    "draft": true
   },
+  "Mammals|Bushbuck": {
+   "size": "Shoulder height about 80 cm; rams up to about 45 kg, ewes about 30 kg.",
+   "habitat": "Dense riverine bush, mainly along the Chobe and in the Okavango.",
+   "food": "Browser of leaves, shoots, flowers and fruit.",
+   "breeding": "One lamb after about 6 months, hidden in thick cover.",
+   "titbit": "Usually shy and alone, but a cornered ram can be very dangerous.",
+   "draft": true
+  },
   "Common Duiker": {
+   "size": "Shoulder height about 50 cm; mass about 15–20 kg.",
+   "habitat": "Wooded and bushy areas throughout Botswana, including the Kalahari.",
+   "food": "Browser of leaves, shoots, fruit and seeds; can live without drinking.",
+   "breeding": "One lamb after about 6–7 months; can breed all year.",
+   "titbit": "'Duiker' means 'diver' in Afrikaans: it dives into cover when it runs.",
+   "draft": true
+  },
+  "Mammals|Common Duiker": {
    "size": "Shoulder height about 50 cm; mass about 15–20 kg.",
    "habitat": "Wooded and bushy areas throughout Botswana, including the Kalahari.",
    "food": "Browser of leaves, shoots, fruit and seeds; can live without drinking.",
@@ -30438,7 +32759,23 @@ window.AGA_DATA = {
    "titbit": "The largest African antelope; bulls' knees make a clicking sound as they walk.",
    "draft": true
   },
+  "Mammals|Common Eland": {
+   "size": "Bulls up to about 1.7 m at the shoulder and 900 kg; cows smaller.",
+   "habitat": "Kalahari grassland and woodland, e.g. Central Kalahari; also parts of the north.",
+   "food": "Mainly a browser; also grazes and digs up roots; can go without drinking.",
+   "breeding": "One calf after about 9 months.",
+   "titbit": "The largest African antelope; bulls' knees make a clicking sound as they walk.",
+   "draft": true
+  },
   "Klipspringer": {
+   "size": "Shoulder height about 60 cm; mass about 10–13 kg.",
+   "habitat": "Rocky hills and koppies, e.g. Tsodilo Hills and eastern Botswana.",
+   "food": "Browser of leaves, flowers and fruit; seldom drinks.",
+   "breeding": "One lamb after about 7 months; lives in pairs.",
+   "titbit": "It stands on the tips of its hooves, which grip rock like rubber.",
+   "draft": true
+  },
+  "Mammals|Klipspringer": {
    "size": "Shoulder height about 60 cm; mass about 10–13 kg.",
    "habitat": "Rocky hills and koppies, e.g. Tsodilo Hills and eastern Botswana.",
    "food": "Browser of leaves, flowers and fruit; seldom drinks.",
@@ -30454,7 +32791,23 @@ window.AGA_DATA = {
    "titbit": "Looks like a lechwe but is more golden, with no black on the legs.",
    "draft": true
   },
+  "Mammals|Puku": {
+   "size": "Shoulder height about 80 cm; mass about 60–75 kg.",
+   "habitat": "In Botswana found almost only on the Chobe River floodplain; grassland near water.",
+   "food": "Grazer of floodplain grasses.",
+   "breeding": "One calf after about 8 months; males hold small territories.",
+   "titbit": "Looks like a lechwe but is more golden, with no black on the legs.",
+   "draft": true
+  },
   "Red Hartebeest": {
+   "size": "Shoulder height about 1.25 m; mass about 120–150 kg.",
+   "habitat": "Open grassland in the dry Kalahari, e.g. Central Kalahari and Kgalagadi.",
+   "food": "Grazer; can go without water when the grass is green.",
+   "breeding": "One calf after about 8 months.",
+   "titbit": "Its long face and high shoulders give it a sloping back.",
+   "draft": true
+  },
+  "Mammals|Red Hartebeest": {
    "size": "Shoulder height about 1.25 m; mass about 120–150 kg.",
    "habitat": "Open grassland in the dry Kalahari, e.g. Central Kalahari and Kgalagadi.",
    "food": "Grazer; can go without water when the grass is green.",
@@ -30470,7 +32823,23 @@ window.AGA_DATA = {
    "titbit": "Second-largest antelope in southern Africa, after the eland.",
    "draft": true
   },
+  "Mammals|Roan Antelope": {
+   "size": "Shoulder height about 1.4 m; mass about 250–300 kg.",
+   "habitat": "Open woodland with tall grass in northern Botswana; rare.",
+   "food": "Grazer of medium to tall grass; drinks regularly.",
+   "breeding": "One calf after about 9 months, hidden for several weeks.",
+   "titbit": "Second-largest antelope in southern Africa, after the eland.",
+   "draft": true
+  },
   "Sable Antelope": {
+   "size": "Shoulder height about 1.35 m; mass about 230 kg.",
+   "habitat": "Mopane woodland next to open grassland in northern Botswana, e.g. Chobe and Linyanti.",
+   "food": "Grazer that drinks daily; also browses some leaves.",
+   "breeding": "One calf after about 8–9 months, hidden for several weeks.",
+   "titbit": "Bulls are glossy black with long, curved horns; cows are dark brown.",
+   "draft": true
+  },
+  "Mammals|Sable Antelope": {
    "size": "Shoulder height about 1.35 m; mass about 230 kg.",
    "habitat": "Mopane woodland next to open grassland in northern Botswana, e.g. Chobe and Linyanti.",
    "food": "Grazer that drinks daily; also browses some leaves.",
@@ -30485,7 +32854,22 @@ window.AGA_DATA = {
    "titbit": "Shy and active at night; white hairs in its red coat make it look grizzled.",
    "draft": true
   },
+  "Mammals|Sharpe's Grysbok": {
+   "size": "Shoulder height about 50 cm; mass about 7.5 kg.",
+   "habitat": "Rare in Botswana; thick bush and rocky hills in the far north-east.",
+   "food": "Mainly a browser of leaves, shoots and fruit.",
+   "titbit": "Shy and active at night; white hairs in its red coat make it look grizzled.",
+   "draft": true
+  },
   "Sitatunga": {
+   "size": "Rams about 90 cm at the shoulder and up to about 115 kg; ewes smaller.",
+   "habitat": "Dense papyrus and reed swamps of the Okavango Delta and Linyanti.",
+   "food": "Browses papyrus, reeds and other water plants.",
+   "breeding": "One calf after about 7.5 months, hidden on a platform of trampled reeds.",
+   "titbit": "Very long, splayed hooves stop it sinking; it can hide in water with only its nose out.",
+   "draft": true
+  },
+  "Mammals|Sitatunga": {
    "size": "Rams about 90 cm at the shoulder and up to about 115 kg; ewes smaller.",
    "habitat": "Dense papyrus and reed swamps of the Okavango Delta and Linyanti.",
    "food": "Browses papyrus, reeds and other water plants.",
@@ -30501,7 +32885,23 @@ window.AGA_DATA = {
    "titbit": "Gives a shrill whistle in alarm and runs with a rocking gait.",
    "draft": true
   },
+  "Mammals|Southern Reedbuck": {
+   "size": "Shoulder height about 90 cm; mass about 50–80 kg.",
+   "habitat": "Tall grass and reedbeds near water in the Okavango, Linyanti and Chobe.",
+   "food": "Grazer of grass and reed shoots; drinks regularly.",
+   "breeding": "One lamb after about 7.5 months, hidden in long grass.",
+   "titbit": "Gives a shrill whistle in alarm and runs with a rocking gait.",
+   "draft": true
+  },
   "Tsessebe": {
+   "size": "Shoulder height about 1.2 m; mass about 120–140 kg.",
+   "habitat": "Open floodplains and grassland edges in the Okavango, Linyanti and Chobe.",
+   "food": "Grazer of fresh green grass; drinks regularly.",
+   "breeding": "One calf after about 8 months, born in early summer.",
+   "titbit": "One of the fastest antelope; bulls often stand on termite mounds as lookouts.",
+   "draft": true
+  },
+  "Mammals|Tsessebe": {
    "size": "Shoulder height about 1.2 m; mass about 120–140 kg.",
    "habitat": "Open floodplains and grassland edges in the Okavango, Linyanti and Chobe.",
    "food": "Grazer of fresh green grass; drinks regularly.",
@@ -30517,7 +32917,23 @@ window.AGA_DATA = {
    "titbit": "The hair under its feet is black, which gives it its name.",
    "draft": true
   },
+  "Mammals|Black-footed Cat": {
+   "size": "Africa's smallest cat; mass about 1–2 kg.",
+   "habitat": "Dry open grassland and scrub in the south-western Kalahari.",
+   "food": "Hunts small rodents, birds and insects at night.",
+   "breeding": "1–3 kittens after about 2 months, often in old burrows.",
+   "titbit": "The hair under its feet is black, which gives it its name.",
+   "draft": true
+  },
   "Aardwolf": {
+   "size": "Shoulder height about 50 cm; mass about 8–10 kg.",
+   "habitat": "Open grassland and dry savanna across Botswana, including the Kalahari.",
+   "food": "Almost only harvester termites, licked off the ground at night.",
+   "breeding": "2–4 cubs born in a burrow in early summer.",
+   "titbit": "It can lick up more than 200,000 termites in one night.",
+   "draft": true
+  },
+  "Mammals|Aardwolf": {
    "size": "Shoulder height about 50 cm; mass about 8–10 kg.",
    "habitat": "Open grassland and dry savanna across Botswana, including the Kalahari.",
    "food": "Almost only harvester termites, licked off the ground at night.",
@@ -30533,7 +32949,23 @@ window.AGA_DATA = {
    "titbit": "Southern Africa's only true fox, with a silver-grey back and a bushy tail.",
    "draft": true
   },
+  "Mammals|Cape Fox": {
+   "size": "Shoulder height about 35 cm; mass about 2.5–3 kg.",
+   "habitat": "Dry open country of central and southern Botswana, e.g. the Kalahari.",
+   "food": "Mainly insects and small rodents; also birds, reptiles and fruit.",
+   "breeding": "About 3–5 cubs born in a burrow.",
+   "titbit": "Southern Africa's only true fox, with a silver-grey back and a bushy tail.",
+   "draft": true
+  },
   "Side-striped Jackal": {
+   "size": "Shoulder height about 40 cm; mass about 8–12 kg.",
+   "habitat": "Moister woodland and floodplains of northern Botswana, e.g. the Okavango and Chobe.",
+   "food": "Omnivore: rodents, insects, fruit and carrion.",
+   "breeding": "Litter of about 4–6 pups, born in a burrow.",
+   "titbit": "Its tail usually has a white tip; the black-backed jackal's tail tip is black.",
+   "draft": true
+  },
+  "Mammals|Side-striped Jackal": {
    "size": "Shoulder height about 40 cm; mass about 8–12 kg.",
    "habitat": "Moister woodland and floodplains of northern Botswana, e.g. the Okavango and Chobe.",
    "food": "Omnivore: rodents, insects, fruit and carrion.",
@@ -30549,7 +32981,23 @@ window.AGA_DATA = {
    "titbit": "It has no claws on its front feet and feels for food with its 'fingers'.",
    "draft": true
   },
+  "Mammals|Cape Clawless Otter": {
+   "size": "Mass about 10–18 kg; about 1.3 m long including the tail.",
+   "habitat": "Rivers and lagoons of the Okavango, Linyanti and Chobe.",
+   "food": "Mainly crabs, frogs and fish, found with its sensitive hands.",
+   "breeding": "Usually 2 cubs, born in a burrow or dense cover.",
+   "titbit": "It has no claws on its front feet and feels for food with its 'fingers'.",
+   "draft": true
+  },
   "Striped Polecat": {
+   "size": "Mass about 1 kg.",
+   "habitat": "Found throughout Botswana in most habitats.",
+   "food": "Insects, mice and other small animals, hunted at night.",
+   "breeding": "1–3 young born in a burrow in summer.",
+   "titbit": "It can squirt a foul-smelling fluid from glands under its tail.",
+   "draft": true
+  },
+  "Mammals|Striped Polecat": {
    "size": "Mass about 1 kg.",
    "habitat": "Found throughout Botswana in most habitats.",
    "food": "Insects, mice and other small animals, hunted at night.",
@@ -30565,7 +33013,23 @@ window.AGA_DATA = {
    "titbit": "It uses the same dung latrines (civetries) again and again.",
    "draft": true
   },
+  "Mammals|African Civet": {
+   "size": "Shoulder height about 40 cm; mass about 10–15 kg.",
+   "habitat": "Woodland and riverine bush with cover and water, mainly in northern Botswana.",
+   "food": "Omnivore: insects, rodents, fruit, frogs and carrion.",
+   "breeding": "1–4 young born in a burrow or dense cover.",
+   "titbit": "It uses the same dung latrines (civetries) again and again.",
+   "draft": true
+  },
   "Large-spotted Genet": {
+   "size": "Mass about 1.5–2 kg.",
+   "habitat": "Moister woodland and riverine forest, mainly in northern Botswana.",
+   "food": "Rodents, insects, birds, reptiles and fruit, hunted at night.",
+   "breeding": "2–5 kittens born in a hole or hollow tree.",
+   "titbit": "Its tail has a black tip, unlike the white tail tip of the small-spotted genet.",
+   "draft": true
+  },
+  "Mammals|Large-spotted Genet": {
    "size": "Mass about 1.5–2 kg.",
    "habitat": "Moister woodland and riverine forest, mainly in northern Botswana.",
    "food": "Rodents, insects, birds, reptiles and fruit, hunted at night.",
@@ -30581,7 +33045,23 @@ window.AGA_DATA = {
    "titbit": "Has a white tail tip and a crest of dark hair along its back.",
    "draft": true
   },
+  "Mammals|Small-spotted Genet": {
+   "size": "Mass about 1.5–2 kg.",
+   "habitat": "Drier savanna and Kalahari scrub across most of Botswana.",
+   "food": "Rodents, insects, birds, reptiles and fruit, hunted at night.",
+   "breeding": "2–4 kittens born in a hole or old burrow.",
+   "titbit": "Has a white tail tip and a crest of dark hair along its back.",
+   "draft": true
+  },
   "Banded Mongoose": {
+   "size": "Mass about 1–1.5 kg.",
+   "habitat": "Savanna woodland near water in northern Botswana.",
+   "food": "Insects and beetle larvae; also small reptiles, eggs and fruit.",
+   "breeding": "Several females in a group breed at once; pups are raised by the whole pack.",
+   "titbit": "Lives in noisy groups of 10–30 that will mob predators together.",
+   "draft": true
+  },
+  "Mammals|Banded Mongoose": {
    "size": "Mass about 1–1.5 kg.",
    "habitat": "Savanna woodland near water in northern Botswana.",
    "food": "Insects and beetle larvae; also small reptiles, eggs and fruit.",
@@ -30597,7 +33077,23 @@ window.AGA_DATA = {
    "titbit": "Active by day; its long tail ends in a black tuft.",
    "draft": true
   },
+  "Mammals|Large Grey Mongoose": {
+   "size": "Mass about 3 kg; one of the largest mongooses.",
+   "habitat": "Reedbeds and long grass near water, mainly in the Okavango and Chobe.",
+   "food": "Rodents, reptiles, birds, frogs, insects and fruit.",
+   "breeding": "2–4 young born in a burrow or thick cover.",
+   "titbit": "Active by day; its long tail ends in a black tuft.",
+   "draft": true
+  },
   "Meerkat (Suricate)": {
+   "size": "Mass about 600–900 g.",
+   "habitat": "Open dry country of the Kalahari and Makgadikgadi.",
+   "food": "Insects, scorpions, spiders, lizards and other small animals.",
+   "breeding": "Usually only the dominant pair breed; 2–5 young are cared for by the group.",
+   "titbit": "Group members take turns as sentries on high spots, giving alarm calls.",
+   "draft": true
+  },
+  "Mammals|Meerkat (Suricate)": {
    "size": "Mass about 600–900 g.",
    "habitat": "Open dry country of the Kalahari and Makgadikgadi.",
    "food": "Insects, scorpions, spiders, lizards and other small animals.",
@@ -30612,7 +33108,22 @@ window.AGA_DATA = {
    "titbit": "Active at night, with a white-tipped tail; easily confused with the white-tailed mongoose.",
    "draft": true
   },
+  "Mammals|Selous' Mongoose": {
+   "size": "Mass about 1.5–2 kg.",
+   "habitat": "Sandy grassland and open woodland in Botswana.",
+   "food": "Mainly insects and larvae; also small rodents and reptiles.",
+   "titbit": "Active at night, with a white-tipped tail; easily confused with the white-tailed mongoose.",
+   "draft": true
+  },
   "Water Mongoose": {
+   "size": "Mass about 3–4 kg.",
+   "habitat": "Reedbeds, rivers and marsh in the Okavango, Linyanti and Chobe.",
+   "food": "Crabs, frogs, fish and other water animals.",
+   "breeding": "2–3 young born in a burrow or in reedbeds.",
+   "titbit": "Dark brown and shaggy; leaves piles of crab shells where it feeds.",
+   "draft": true
+  },
+  "Mammals|Water Mongoose": {
    "size": "Mass about 3–4 kg.",
    "habitat": "Reedbeds, rivers and marsh in the Okavango, Linyanti and Chobe.",
    "food": "Crabs, frogs, fish and other water animals.",
@@ -30628,7 +33139,23 @@ window.AGA_DATA = {
    "titbit": "Its long, bushy tail is mostly white and easy to see in a spotlight.",
    "draft": true
   },
+  "Mammals|White-tailed Mongoose": {
+   "size": "Mass about 3.5–5 kg; one of the largest mongooses.",
+   "habitat": "Savanna woodland in northern and eastern Botswana.",
+   "food": "Mainly insects; also rodents, frogs and reptiles, hunted at night.",
+   "breeding": "1–4 young born in a burrow.",
+   "titbit": "Its long, bushy tail is mostly white and easy to see in a spotlight.",
+   "draft": true
+  },
   "Yellow Mongoose": {
+   "size": "Mass about 0.5–0.8 kg.",
+   "habitat": "Open grassland and dry Kalahari areas.",
+   "food": "Mainly insects; also rodents, birds and reptiles.",
+   "breeding": "2–4 young born in a burrow.",
+   "titbit": "Often shares burrows with meerkats and ground squirrels.",
+   "draft": true
+  },
+  "Mammals|Yellow Mongoose": {
    "size": "Mass about 0.5–0.8 kg.",
    "habitat": "Open grassland and dry Kalahari areas.",
    "food": "Mainly insects; also rodents, birds and reptiles.",
@@ -30644,6 +33171,14 @@ window.AGA_DATA = {
    "titbit": "Young hares are born furred with eyes open, unlike rabbits.",
    "draft": true
   },
+  "Mammals|Scrub Hare": {
+   "size": "Mass about 1.5–4.5 kg.",
+   "habitat": "Bush and grassland with cover throughout most of Botswana.",
+   "food": "Grass, especially fresh green shoots, eaten at night.",
+   "breeding": "1–3 young born in a shallow scrape (form) in the grass.",
+   "titbit": "Young hares are born furred with eyes open, unlike rabbits.",
+   "draft": true
+  },
   "Bushveld Gerbil": {
    "size": "Mass about 70 g.",
    "habitat": "Sandy soils in savanna, widespread in Botswana.",
@@ -30651,7 +33186,22 @@ window.AGA_DATA = {
    "titbit": "Active at night and lives in burrows dug in sandy soil.",
    "draft": true
   },
+  "Mammals|Bushveld Gerbil": {
+   "size": "Mass about 70 g.",
+   "habitat": "Sandy soils in savanna, widespread in Botswana.",
+   "food": "Seeds, plants and insects.",
+   "titbit": "Active at night and lives in burrows dug in sandy soil.",
+   "draft": true
+  },
   "Cape Porcupine": {
+   "size": "Africa's largest rodent; mass about 10–24 kg.",
+   "habitat": "Found throughout Botswana wherever there is shelter.",
+   "food": "Bulbs, roots, tubers, bark and fallen fruit; also gnaws bones.",
+   "breeding": "1–4 young after about 3 months, born with soft quills.",
+   "titbit": "It cannot shoot its quills; it runs backwards into an attacker.",
+   "draft": true
+  },
+  "Mammals|Cape Porcupine": {
    "size": "Africa's largest rodent; mass about 10–24 kg.",
    "habitat": "Found throughout Botswana wherever there is shelter.",
    "food": "Bulbs, roots, tubers, bark and fallen fruit; also gnaws bones.",
@@ -30667,7 +33217,23 @@ window.AGA_DATA = {
    "titbit": "Active by day, unlike most mice; has four dark stripes down its back.",
    "draft": true
   },
+  "Mammals|Four-striped Grass Mouse": {
+   "size": "Mass about 40 g.",
+   "habitat": "Grassland with good ground cover.",
+   "food": "Seeds, plants and insects.",
+   "breeding": "Litters of about 5 young, mostly in summer.",
+   "titbit": "Active by day, unlike most mice; has four dark stripes down its back.",
+   "draft": true
+  },
   "Greater Cane Rat": {
+   "size": "Mass about 3–5 kg.",
+   "habitat": "Reedbeds and tall grass near water in the Okavango and Chobe.",
+   "food": "Grass and reed stems.",
+   "breeding": "About 2–4 young, born well developed.",
+   "titbit": "Not a true rat; its meat is a popular food in parts of Africa.",
+   "draft": true
+  },
+  "Mammals|Greater Cane Rat": {
    "size": "Mass about 3–5 kg.",
    "habitat": "Reedbeds and tall grass near water in the Okavango and Chobe.",
    "food": "Grass and reed stems.",
@@ -30683,7 +33249,23 @@ window.AGA_DATA = {
    "titbit": "It uses its bushy tail as a sunshade while it feeds.",
    "draft": true
   },
+  "Mammals|Ground Squirrel": {
+   "size": "Mass about 600 g.",
+   "habitat": "Dry open country with hard soils, e.g. the Kalahari and pans.",
+   "food": "Grass, roots, bulbs, seeds and insects.",
+   "breeding": "1–3 young born in the burrow.",
+   "titbit": "It uses its bushy tail as a sunshade while it feeds.",
+   "draft": true
+  },
   "Tree Squirrel": {
+   "size": "Mass about 200 g.",
+   "habitat": "Mopane and acacia woodland in northern and eastern Botswana.",
+   "food": "Seeds, flowers, leaves, fruit and insects.",
+   "breeding": "1–3 young born in a tree hole lined with leaves.",
+   "titbit": "Groups mob snakes and raptors with loud clicking alarm calls.",
+   "draft": true
+  },
+  "Mammals|Tree Squirrel": {
    "size": "Mass about 200 g.",
    "habitat": "Mopane and acacia woodland in northern and eastern Botswana.",
    "food": "Seeds, flowers, leaves, fruit and insects.",
@@ -30698,7 +33280,22 @@ window.AGA_DATA = {
    "titbit": "Sengis are more closely related to elephants than to shrews.",
    "draft": true
   },
+  "Mammals|Bushveld Sengi": {
+   "habitat": "Sandy Kalahari scrub and grassland in Botswana.",
+   "food": "Insects, especially ants and termites.",
+   "breeding": "1–2 well-developed young.",
+   "titbit": "Sengis are more closely related to elephants than to shrews.",
+   "draft": true
+  },
   "Four-toed Sengi": {
+   "size": "Mass about 200 g; one of the larger sengis.",
+   "habitat": "Dense riverine thicket and forest in far northern Botswana.",
+   "food": "Insects such as ants, termites and beetles.",
+   "breeding": "Usually 1 well-developed young.",
+   "titbit": "It drums its back feet on the ground when alarmed.",
+   "draft": true
+  },
+  "Mammals|Four-toed Sengi": {
    "size": "Mass about 200 g; one of the larger sengis.",
    "habitat": "Dense riverine thicket and forest in far northern Botswana.",
    "food": "Insects such as ants, termites and beetles.",
@@ -30714,6 +33311,14 @@ window.AGA_DATA = {
    "titbit": "Has very long ears and a slit down the middle of its face.",
    "draft": true
   },
+  "Mammals|Egyptian Slit-faced Bat": {
+   "size": "Mass about 10 g.",
+   "habitat": "Savanna; roosts in caves, hollow trees, aardvark burrows and buildings.",
+   "food": "Insects and spiders, often picked off the ground or leaves.",
+   "breeding": "One young per year, born in summer.",
+   "titbit": "Has very long ears and a slit down the middle of its face.",
+   "draft": true
+  },
   "Little Free-tailed Bat": {
    "size": "Mass about 10 g.",
    "habitat": "Roosts in roofs of buildings and in trees, especially in northern Botswana.",
@@ -30721,7 +33326,22 @@ window.AGA_DATA = {
    "titbit": "Its tail sticks out past the wing membrane, which gives the name 'free-tailed'.",
    "draft": true
   },
+  "Mammals|Little Free-tailed Bat": {
+   "size": "Mass about 10 g.",
+   "habitat": "Roosts in roofs of buildings and in trees, especially in northern Botswana.",
+   "food": "Flying insects, caught in fast flight in the open.",
+   "titbit": "Its tail sticks out past the wing membrane, which gives the name 'free-tailed'.",
+   "draft": true
+  },
   "Mauritian Tomb Bat": {
+   "size": "Mass about 30 g.",
+   "habitat": "Roosts on tree trunks and walls, often in the open, near water.",
+   "food": "Flying insects caught in the air.",
+   "breeding": "One young, born in summer.",
+   "titbit": "Often seen in daylight clinging flat to a tree trunk or wall, scuttling sideways if disturbed.",
+   "draft": true
+  },
+  "Mammals|Mauritian Tomb Bat": {
    "size": "Mass about 30 g.",
    "habitat": "Roosts on tree trunks and walls, often in the open, near water.",
    "food": "Flying insects caught in the air.",
@@ -30737,7 +33357,23 @@ window.AGA_DATA = {
    "titbit": "A leaf-shaped fold of skin around the nose helps aim its echolocation calls.",
    "draft": true
   },
+  "Mammals|Sundevall's Leaf-nosed Bat": {
+   "size": "Mass about 8 g.",
+   "habitat": "Roosts in caves, hollow trees and old mines in savanna woodland.",
+   "food": "Small flying insects, especially moths.",
+   "breeding": "One young per year.",
+   "titbit": "A leaf-shaped fold of skin around the nose helps aim its echolocation calls.",
+   "draft": true
+  },
   "Wahlberg's Epauletted Fruit Bat": {
+   "size": "Mass about 80–120 g.",
+   "habitat": "Riverine trees and gardens in northern Botswana where fruit trees grow.",
+   "food": "Ripe fruit, nectar and flowers, especially wild figs.",
+   "breeding": "One young, carried by the mother.",
+   "titbit": "Males have white shoulder tufts (epaulettes) and a ringing call at night.",
+   "draft": true
+  },
+  "Mammals|Wahlberg's Epauletted Fruit Bat": {
    "size": "Mass about 80–120 g.",
    "habitat": "Riverine trees and gardens in northern Botswana where fruit trees grow.",
    "food": "Ripe fruit, nectar and flowers, especially wild figs.",
@@ -30753,7 +33389,23 @@ window.AGA_DATA = {
    "titbit": "Often roosts in lodge roofs; its belly is yellowish.",
    "draft": true
   },
+  "Mammals|Yellow-bellied House Bat": {
+   "size": "Mass about 25 g.",
+   "habitat": "Roosts in roofs and hollow trees, common in northern Botswana.",
+   "food": "Flying insects such as beetles and moths.",
+   "breeding": "Usually twins, born in summer.",
+   "titbit": "Often roosts in lodge roofs; its belly is yellowish.",
+   "draft": true
+  },
   "Ground Pangolin": {
+   "size": "Mass about 5–15 kg.",
+   "habitat": "Savanna and woodland across most of Botswana; rarely seen.",
+   "food": "Only ants and termites, licked up with a long sticky tongue.",
+   "breeding": "A single young, which rides on its mother's tail.",
+   "titbit": "Covered in scales, it rolls into a ball when threatened; it is heavily poached.",
+   "draft": true
+  },
+  "Mammals|Ground Pangolin": {
    "size": "Mass about 5–15 kg.",
    "habitat": "Savanna and woodland across most of Botswana; rarely seen.",
    "food": "Only ants and termites, licked up with a long sticky tongue.",
@@ -30769,7 +33421,23 @@ window.AGA_DATA = {
    "titbit": "Its closest living relatives include elephants and dugongs.",
    "draft": true
   },
+  "Mammals|Rock Hyrax": {
+   "size": "Mass about 2.5–4.5 kg.",
+   "habitat": "Rocky hills and koppies, mainly in eastern Botswana.",
+   "food": "Grass and leaves; feeds in groups, often after sunning itself in the morning.",
+   "breeding": "2–3 young after about 7 months, born well developed.",
+   "titbit": "Its closest living relatives include elephants and dugongs.",
+   "draft": true
+  },
   "Yellow-spotted Rock Hyrax": {
+   "size": "Mass about 2–3 kg.",
+   "habitat": "Rocky hills, mainly in eastern Botswana, often with the rock hyrax.",
+   "food": "Mainly browses leaves of trees and shrubs.",
+   "breeding": "1–3 young, born well developed.",
+   "titbit": "A pale yellowish spot on its back marks a scent gland.",
+   "draft": true
+  },
+  "Mammals|Yellow-spotted Rock Hyrax": {
    "size": "Mass about 2–3 kg.",
    "habitat": "Rocky hills, mainly in eastern Botswana, often with the rock hyrax.",
    "food": "Mainly browses leaves of trees and shrubs.",
@@ -30785,7 +33453,23 @@ window.AGA_DATA = {
    "titbit": "Its dark, leathery leaves grow in whorls, and young trees have stiff branches that block browsers.",
    "draft": true
   },
+  "Plants|African mangosteen": {
+   "size": "Tall, dense evergreen tree with a rounded crown.",
+   "habitat": "Woodland, especially near rivers, in northern Botswana.",
+   "food": "People, fruit bats and many animals eat the fruit; elephants strip and eat the bark all year.",
+   "breeding": "Flowers in early spring; orange-red fleshy fruit ripens in summer. Separate male and female trees.",
+   "titbit": "Its dark, leathery leaves grow in whorls, and young trees have stiff branches that block browsers.",
+   "draft": true
+  },
   "Buffalo thorn": {
+   "size": "Small tree with a sparse, rounded crown.",
+   "habitat": "Grows in most habitats but prefers riverine areas with good alluvial soil.",
+   "food": "Many mammals browse the leaves; the fruit was once roasted as a coffee substitute.",
+   "breeding": "Small creamy-yellow flowers in summer; round reddish-brown berries are eaten by birds and animals.",
+   "titbit": "It has one straight and one hooked thorn; in Botswana it is believed to be safe from lightning.",
+   "draft": true
+  },
+  "Plants|Buffalo thorn": {
    "size": "Small tree with a sparse, rounded crown.",
    "habitat": "Grows in most habitats but prefers riverine areas with good alluvial soil.",
    "food": "Many mammals browse the leaves; the fruit was once roasted as a coffee substitute.",
@@ -30801,7 +33485,23 @@ window.AGA_DATA = {
    "titbit": "Its very deep tap root reaches underground water, so it stays green in the driest areas.",
    "draft": true
   },
+  "Plants|Camel thorn": {
+   "size": "Large tree up to about 16 m with a wide, spreading crown.",
+   "habitat": "Deep Kalahari sands across much of Botswana.",
+   "food": "Giraffe browse the leaves and many animals eat the fallen pods; the wood is used as firewood.",
+   "breeding": "Yellow ball-shaped flowers in late winter and spring; thick grey velvety pods are eaten by animals.",
+   "titbit": "Its very deep tap root reaches underground water, so it stays green in the driest areas.",
+   "draft": true
+  },
   "Jackal-berry": {
+   "size": "Tall tree up to 20 m with a dense crown and almost black bark.",
+   "habitat": "Riverine forest, often growing on termite mounds.",
+   "food": "The fruit is eaten fresh or made into beer; the trunks are used to make mekoro.",
+   "breeding": "Creamy-white flowers in October and November; small yellowish fruit is eaten by birds and mammals.",
+   "titbit": "Its leaves keep their nutrients in winter, so they are browsed throughout the year.",
+   "draft": true
+  },
+  "Plants|Jackal-berry": {
    "size": "Tall tree up to 20 m with a dense crown and almost black bark.",
    "habitat": "Riverine forest, often growing on termite mounds.",
    "food": "The fruit is eaten fresh or made into beer; the trunks are used to make mekoro.",
@@ -30816,7 +33516,22 @@ window.AGA_DATA = {
    "titbit": "Like other legumes, its roots hold bacteria that fix nitrogen into the soil.",
    "draft": true
   },
+  "Plants|Kalahari apple-leaf": {
+   "size": "Small tree with a rounded crown.",
+   "habitat": "Deep Kalahari sand; forms thickets between mopane and camel thorn woodland.",
+   "breeding": "Mauve to purple pea-shaped flowers in spring; flat pods.",
+   "titbit": "Like other legumes, its roots hold bacteria that fix nitrogen into the soil.",
+   "draft": true
+  },
   "Knob-thorn": {
+   "size": "Large deciduous tree with dark brown bark.",
+   "habitat": "Riverbanks, where water is easy to reach.",
+   "food": "Elephants eat the leaves, roots and bark; the wood makes fence posts and the bark makes rope.",
+   "breeding": "Creamy-white flower spikes from August to November; seeds are in short, flat pods.",
+   "titbit": "Its shallow roots mean it is often blown over in storms; the thorns sit on raised knobs.",
+   "draft": true
+  },
+  "Plants|Knob-thorn": {
    "size": "Large deciduous tree with dark brown bark.",
    "habitat": "Riverbanks, where water is easy to reach.",
    "food": "Elephants eat the leaves, roots and bark; the wood makes fence posts and the bark makes rope.",
@@ -30832,7 +33547,23 @@ window.AGA_DATA = {
    "titbit": "Although it is poisonous, elephants often browse it, which is said to clear their stomachs.",
    "draft": true
   },
+  "Plants|Large fever-berry": {
+   "size": "Small to medium evergreen tree with dense foliage and smooth light-grey bark.",
+   "habitat": "Forest fringes and watercourses on alluvial soils.",
+   "food": "Bark and seeds were used against malaria and as a strong purgative; elephants browse it.",
+   "breeding": "Small greenish-yellow flower spikes from September to November; fruit is a three-lobed capsule.",
+   "titbit": "Although it is poisonous, elephants often browse it, which is said to clear their stomachs.",
+   "draft": true
+  },
   "Leadwood": {
+   "size": "Tall, upright tree with a rounded crown and pale grey, strip-like bark.",
+   "habitat": "Common along riverbanks on alluvial soils.",
+   "food": "Excellent firewood; the ash can be used as a toothpaste substitute.",
+   "breeding": "Sweet-smelling, creamy-yellow flowers in late summer; four-winged fruit spread by the wind.",
+   "titbit": "The oldest recorded leadwood was over 1 000 years old.",
+   "draft": true
+  },
+  "Plants|Leadwood": {
    "size": "Tall, upright tree with a rounded crown and pale grey, strip-like bark.",
    "habitat": "Common along riverbanks on alluvial soils.",
    "food": "Excellent firewood; the ash can be used as a toothpaste substitute.",
@@ -30848,7 +33579,23 @@ window.AGA_DATA = {
    "titbit": "Elephants love its soft bark, and the trees are disappearing where elephant numbers are high.",
    "draft": true
   },
+  "Plants|Marula": {
+   "size": "Medium to tall deciduous tree with sparse leaves and peeling bark.",
+   "habitat": "Woodland and grassland; it is sensitive to frost.",
+   "food": "The fruit makes a potent drink; elephants eat the bark and fruit; trunks are used for mekoro.",
+   "breeding": "Small yellow flowers from September to November; juicy yellow fruit is eaten by people and animals.",
+   "titbit": "Elephants love its soft bark, and the trees are disappearing where elephant numbers are high.",
+   "draft": true
+  },
   "Mopane": {
+   "size": "From 2-3 m scrub mopane to 30 m tall cathedral mopane.",
+   "habitat": "Poorly drained alluvial soils, mainly in northern Botswana.",
+   "food": "Elephants and buffalo eat leaves and bark; mopane worms are eaten by people; good building wood.",
+   "breeding": "Small light-green flowers in summer; seeds are in flat pods.",
+   "titbit": "Dead leaves keep up to 12% protein, so they are valuable food in the dry season.",
+   "draft": true
+  },
+  "Plants|Mopane": {
    "size": "From 2-3 m scrub mopane to 30 m tall cathedral mopane.",
    "habitat": "Poorly drained alluvial soils, mainly in northern Botswana.",
    "food": "Elephants and buffalo eat leaves and bark; mopane worms are eaten by people; good building wood.",
@@ -30864,7 +33611,23 @@ window.AGA_DATA = {
    "titbit": "It gives deep shade, so it is often chosen as a shade tree at camps and villages.",
    "draft": true
   },
+  "Plants|Natal mahogany": {
+   "size": "Medium to large evergreen tree with a dense, dark-green crown.",
+   "habitat": "Riverine forest and river banks in northern Botswana.",
+   "food": "Birds and monkeys eat the seed coverings; oil from the seeds is used in soap and cosmetics.",
+   "breeding": "Greenish-cream flowers in spring; capsules split to show black seeds with red coverings, spread by birds.",
+   "titbit": "It gives deep shade, so it is often chosen as a shade tree at camps and villages.",
+   "draft": true
+  },
   "Rock-splitting fig": {
+   "size": "Small to medium tree, often with pale roots spread over rock.",
+   "habitat": "Rocky outcrops and hills.",
+   "food": "Birds, bats, monkeys and baboons eat the figs.",
+   "breeding": "Flowers are hidden inside the fig and pollinated by tiny fig wasps; figs are spread by animals.",
+   "titbit": "Its roots grow into cracks in rock and slowly split it apart (biotic weathering).",
+   "draft": true
+  },
+  "Plants|Rock-splitting fig": {
    "size": "Small to medium tree, often with pale roots spread over rock.",
    "habitat": "Rocky outcrops and hills.",
    "food": "Birds, bats, monkeys and baboons eat the figs.",
@@ -30880,7 +33643,23 @@ window.AGA_DATA = {
    "titbit": "It is named for the rusty-coloured hairs on the underside of its leaves.",
    "draft": true
   },
+  "Plants|Russet bushwillow": {
+   "size": "Shrub or small tree.",
+   "habitat": "Mopane scrub on alluvial soils.",
+   "food": "Browsed by animals such as kudu, giraffe and elephants.",
+   "breeding": "Creamy flowers in spring; four-winged reddish-brown fruit spread by the wind.",
+   "titbit": "It is named for the rusty-coloured hairs on the underside of its leaves.",
+   "draft": true
+  },
   "Sausage tree": {
+   "size": "Medium-sized tree with a rounded crown and smooth grey bark.",
+   "habitat": "Along rivers and in savanna.",
+   "food": "Fallen flowers are eaten by antelope; trunks make mekoro; fruit is used to treat skin conditions.",
+   "breeding": "Large wine-red flowers in spring, mostly pollinated by bats; heavy sausage-shaped fruit.",
+   "titbit": "The huge fruits can weigh several kilograms, so never park under the tree.",
+   "draft": true
+  },
+  "Plants|Sausage tree": {
    "size": "Medium-sized tree with a rounded crown and smooth grey bark.",
    "habitat": "Along rivers and in savanna.",
    "food": "Fallen flowers are eaten by antelope; trunks make mekoro; fruit is used to treat skin conditions.",
@@ -30896,7 +33675,23 @@ window.AGA_DATA = {
    "titbit": "The pods smell fruity when broken and do not split open; animals spread the seeds.",
    "draft": true
   },
+  "Plants|Scented thorn": {
+   "size": "Small tree with a rounded or flat crown and long white paired thorns.",
+   "habitat": "Bushveld, often on clay or alluvial soils.",
+   "food": "Animals and livestock eat the pods; the pods were used for tanning leather.",
+   "breeding": "Sweet-scented, bright yellow ball flowers in spring and summer; pods look like a string of beads.",
+   "titbit": "The pods smell fruity when broken and do not split open; animals spread the seeds.",
+   "draft": true
+  },
   "Shepherd’s tree": {
+   "size": "Small evergreen tree with a dense crown and pale whitish trunk.",
+   "habitat": "Kalahari sandveld and mopane scrub.",
+   "food": "Animals browse the leaves; the roots have been used to make a coffee substitute.",
+   "breeding": "Small greenish-yellow flowers in late winter and spring; small round berries eaten by birds.",
+   "titbit": "A shepherd’s tree root was recorded about 68 m deep, one of the deepest roots known.",
+   "draft": true
+  },
+  "Plants|Shepherd’s tree": {
    "size": "Small evergreen tree with a dense crown and pale whitish trunk.",
    "habitat": "Kalahari sandveld and mopane scrub.",
    "food": "Animals browse the leaves; the roots have been used to make a coffee substitute.",
@@ -30912,7 +33707,23 @@ window.AGA_DATA = {
    "titbit": "Fire helps control it where it invades grassland.",
    "draft": true
   },
+  "Plants|Sweet thorn": {
+   "size": "Small to medium tree with long, paired white thorns.",
+   "habitat": "Many habitats, often along rivers; it can invade overgrazed land.",
+   "food": "Animals browse the leaves and pods; the gum is eaten by people and bushbabies.",
+   "breeding": "Bright yellow ball flowers in summer; sickle-shaped pods split open.",
+   "titbit": "Fire helps control it where it invades grassland.",
+   "draft": true
+  },
   "Umbrella thorn": {
+   "size": "Small to medium tree with a flat, umbrella-shaped crown.",
+   "habitat": "Floodplains and alluvial soils.",
+   "food": "Elephants, giraffe and antelope eat the leaves and the fallen pods.",
+   "breeding": "Creamy-white ball flowers in early summer; coiled pods are eaten and the seeds spread in dung.",
+   "titbit": "It is one of the first trees to grow on dry floodplains of the Delta.",
+   "draft": true
+  },
+  "Plants|Umbrella thorn": {
    "size": "Small to medium tree with a flat, umbrella-shaped crown.",
    "habitat": "Floodplains and alluvial soils.",
    "food": "Elephants, giraffe and antelope eat the leaves and the fallen pods.",
@@ -30928,7 +33739,23 @@ window.AGA_DATA = {
    "titbit": "Spittle bugs on the branches drip liquid, making the tree seem to weep.",
    "draft": true
   },
+  "Plants|Weeping wattle": {
+   "size": "Small to medium tree with a spreading crown and feathery leaves.",
+   "habitat": "Woodland and bushveld, often on sandy soils.",
+   "food": "Browsed by giraffe and kudu.",
+   "breeding": "Masses of bright yellow flowers in spring and summer; flat, winged pods spread by the wind.",
+   "titbit": "Spittle bugs on the branches drip liquid, making the tree seem to weep.",
+   "draft": true
+  },
   "Milkweed": {
+   "size": "Small to medium shrub with sparse foliage.",
+   "habitat": "Open grassland and overgrazed areas.",
+   "food": "Caterpillars of the African monarch butterfly eat the leaves; browsers avoid its poisonous sap.",
+   "breeding": "Creamy-yellow flowers; balloon-shaped hairy fruit releases fluffy seeds carried by the wind.",
+   "titbit": "Monarch caterpillars store its poisons, making the butterfly poisonous to predators.",
+   "draft": true
+  },
+  "Plants|Milkweed": {
    "size": "Small to medium shrub with sparse foliage.",
    "habitat": "Open grassland and overgrazed areas.",
    "food": "Caterpillars of the African monarch butterfly eat the leaves; browsers avoid its poisonous sap.",
@@ -30944,7 +33771,23 @@ window.AGA_DATA = {
    "titbit": "Its two-coloured flowers look like Chinese lanterns.",
    "draft": true
   },
+  "Plants|Sickle bush": {
+   "size": "Thorny shrub or small tree.",
+   "habitat": "Many habitats; it invades overgrazed land and is controlled by fire.",
+   "food": "Animals browse the leaves and pods; the hard wood makes good firewood.",
+   "breeding": "Pink and yellow hanging flowers in spring and summer; twisted pods in clusters.",
+   "titbit": "Its two-coloured flowers look like Chinese lanterns.",
+   "draft": true
+  },
   "Sour plum": {
+   "size": "Shrub or small tree with spines.",
+   "habitat": "Woodland and grassland.",
+   "food": "People, birds and animals eat the sour fruit; oil from the seed is used on skin.",
+   "breeding": "Small greenish-white flowers; red plum-like fruit is eaten by birds and animals.",
+   "titbit": "It is a partial parasite: its roots take nutrients from the roots of nearby grasses.",
+   "draft": true
+  },
+  "Plants|Sour plum": {
    "size": "Shrub or small tree with spines.",
    "habitat": "Woodland and grassland.",
    "food": "People, birds and animals eat the sour fruit; oil from the seed is used on skin.",
@@ -30960,7 +33803,23 @@ window.AGA_DATA = {
    "titbit": "It is a common lawn and sports-field grass around the world.",
    "draft": true
   },
+  "Plants|Couch grass": {
+   "size": "Low, creeping grass that spreads with runners.",
+   "habitat": "Any soil, especially disturbed areas; a pioneer grass.",
+   "food": "Highly palatable to grazers, but produces little leaf.",
+   "breeding": "Seedheads are thin finger-like spikes; it also spreads by runners.",
+   "titbit": "It is a common lawn and sports-field grass around the world.",
+   "draft": true
+  },
   "Curly-leaf love grass": {
+   "size": "Tufted grass.",
+   "habitat": "Lower rainfall areas; it increases when veld is overgrazed.",
+   "food": "Grazed, but not a very valuable grass.",
+   "breeding": "Open, spreading seedheads.",
+   "titbit": "An Increaser 2 grass: a sign of overgrazing. Old leaves curl like wood shavings.",
+   "draft": true
+  },
+  "Plants|Curly-leaf love grass": {
    "size": "Tufted grass.",
    "habitat": "Lower rainfall areas; it increases when veld is overgrazed.",
    "food": "Grazed, but not a very valuable grass.",
@@ -30976,7 +33835,23 @@ window.AGA_DATA = {
    "titbit": "A Decreaser grass: plenty of it shows the veld is in good condition.",
    "draft": true
   },
+  "Plants|Finger grass": {
+   "size": "Tufted grass.",
+   "habitat": "Good veld; it decreases when the veld is overgrazed.",
+   "food": "Very palatable and valuable grazing; also used for hay.",
+   "breeding": "Seedheads are finger-like spikes at the top of the stem.",
+   "titbit": "A Decreaser grass: plenty of it shows the veld is in good condition.",
+   "draft": true
+  },
   "Giant spear grass": {
+   "size": "Tall tufted grass.",
+   "habitat": "Under-used veld that is seldom grazed or burned.",
+   "food": "Unpalatable, with high lignin content.",
+   "breeding": "Seeds have long, twisted awns.",
+   "titbit": "An Increaser 1 grass: it takes over when veld is under-used.",
+   "draft": true
+  },
+  "Plants|Giant spear grass": {
    "size": "Tall tufted grass.",
    "habitat": "Under-used veld that is seldom grazed or burned.",
    "food": "Unpalatable, with high lignin content.",
@@ -30992,7 +33867,23 @@ window.AGA_DATA = {
    "titbit": "Its name comes from seedheads that look like the bones of a herring.",
    "draft": true
   },
+  "Plants|Herring-bone grass": {
+   "size": "Tufted grass.",
+   "habitat": "Well-drained soils; it increases with overgrazing.",
+   "food": "Low palatability and low leaf production.",
+   "breeding": "Seedheads have side branches like a fish skeleton.",
+   "titbit": "Its name comes from seedheads that look like the bones of a herring.",
+   "draft": true
+  },
   "Red grass": {
+   "size": "Tufted grass.",
+   "habitat": "Good veld; it decreases when the veld is overgrazed.",
+   "food": "Palatable grazing, especially when green.",
+   "breeding": "Seeds have long, twisted awns that help them drill into the soil.",
+   "titbit": "A Decreaser grass that turns reddish in the dry season.",
+   "draft": true
+  },
+  "Plants|Red grass": {
    "size": "Tufted grass.",
    "habitat": "Good veld; it decreases when the veld is overgrazed.",
    "food": "Palatable grazing, especially when green.",
@@ -31008,7 +33899,23 @@ window.AGA_DATA = {
    "titbit": "Its sharp seeds can pierce animal skin and clothing.",
    "draft": true
   },
+  "Plants|Spear grass": {
+   "size": "Tufted grass.",
+   "habitat": "Well-drained soils.",
+   "food": "Average palatability, mostly when young.",
+   "breeding": "Dark seeds with long twisted awns stick in animal fur and drill into the soil.",
+   "titbit": "Its sharp seeds can pierce animal skin and clothing.",
+   "draft": true
+  },
   "Tassel three-awn": {
+   "size": "Short tufted grass.",
+   "habitat": "Lower rainfall areas and overgrazed, trampled ground.",
+   "food": "Low grazing value.",
+   "breeding": "Each seed has three awns, helping it spread.",
+   "titbit": "An Increaser 2 grass: a sign that the veld is overgrazed.",
+   "draft": true
+  },
+  "Plants|Tassel three-awn": {
    "size": "Short tufted grass.",
    "habitat": "Lower rainfall areas and overgrazed, trampled ground.",
    "food": "Low grazing value.",
@@ -31023,6 +33930,13 @@ window.AGA_DATA = {
    "titbit": "An Increaser 1 grass that produces a lot of leaf.",
    "draft": true
   },
+  "Plants|Yellow thatching grass": {
+   "size": "Tall tufted grass.",
+   "habitat": "Sandy soils; a climax grass.",
+   "food": "Low palatability, but used for thatching roofs.",
+   "titbit": "An Increaser 1 grass that produces a lot of leaf.",
+   "draft": true
+  },
   "Bladderwort": {
    "size": "Small water plant with thin underwater stems.",
    "habitat": "Nutrient-poor wetlands such as the Okavango Delta.",
@@ -31030,7 +33944,22 @@ window.AGA_DATA = {
    "titbit": "It is carnivorous: tiny bladders suck in small animals in a split second.",
    "draft": true
   },
+  "Plants|Bladderwort": {
+   "size": "Small water plant with thin underwater stems.",
+   "habitat": "Nutrient-poor wetlands such as the Okavango Delta.",
+   "breeding": "Golden-yellow or bluish-purple flowers held above the water all year.",
+   "titbit": "It is carnivorous: tiny bladders suck in small animals in a split second.",
+   "draft": true
+  },
   "Duckweed": {
+   "size": "Tiny free-floating plant with two or three small leaves.",
+   "habitat": "Still, nutrient-rich water, where it forms dense mats.",
+   "food": "Its mats give shelter to many small water animals.",
+   "breeding": "Spreads to new water by sticking to the feathers of birds.",
+   "titbit": "It is one of the smallest flowering plants in the world.",
+   "draft": true
+  },
+  "Plants|Duckweed": {
    "size": "Tiny free-floating plant with two or three small leaves.",
    "habitat": "Still, nutrient-rich water, where it forms dense mats.",
    "food": "Its mats give shelter to many small water animals.",
@@ -31046,6 +33975,14 @@ window.AGA_DATA = {
    "titbit": "Ancient Egyptians made the first paper from papyrus stems.",
    "draft": true
   },
+  "Plants|Papyrus": {
+   "size": "Tall sedge, often more than 2 m high.",
+   "habitat": "Edges of permanent water channels, often as floating mats.",
+   "food": "Stems are woven into mats; the Wayeyi people eat the tender young stems.",
+   "breeding": "Large, mop-like heads of small spikelets at the top of each stem.",
+   "titbit": "Ancient Egyptians made the first paper from papyrus stems.",
+   "draft": true
+  },
   "Snow-flake flower": {
    "size": "Floating plant with round, lily-like leaves.",
    "habitat": "Lagoons and slow-moving water of the Okavango.",
@@ -31053,7 +33990,22 @@ window.AGA_DATA = {
    "titbit": "Its fringed white flowers look like snowflakes on the water.",
    "draft": true
   },
+  "Plants|Snow-flake flower": {
+   "size": "Floating plant with round, lily-like leaves.",
+   "habitat": "Lagoons and slow-moving water of the Okavango.",
+   "breeding": "Small white star-shaped flowers with fringed, feathery petals.",
+   "titbit": "Its fringed white flowers look like snowflakes on the water.",
+   "draft": true
+  },
   "Real fan palm": {
+   "size": "Tall palm with a crown of fan-shaped leaves.",
+   "habitat": "Salty soils, such as on islands in the Okavango Delta.",
+   "food": "Leaves are used for baskets; sap makes palm wine; baboons and elephants eat the fruit.",
+   "breeding": "Greenish-yellow flowers; large round shiny brown fruit, mainly spread by elephants.",
+   "titbit": "Young palms are now rare because elephants browse and push them over.",
+   "draft": true
+  },
+  "Plants|Real fan palm": {
    "size": "Tall palm with a crown of fan-shaped leaves.",
    "habitat": "Salty soils, such as on islands in the Okavango Delta.",
    "food": "Leaves are used for baskets; sap makes palm wine; baboons and elephants eat the fruit.",
@@ -31069,7 +34021,23 @@ window.AGA_DATA = {
    "titbit": "It uses the tree only for support (commensalism) and does not harm it.",
    "draft": true
   },
+  "Plants|Leopard orchid": {
+   "size": "Large orchid that grows on trees.",
+   "habitat": "High in trees and on palm stems.",
+   "food": "Some people grow it in their gardens for good luck.",
+   "breeding": "Golden-yellow flowers with brown spots from June to November.",
+   "titbit": "It uses the tree only for support (commensalism) and does not harm it.",
+   "draft": true
+  },
   "Mistletoe": {
+   "size": "Dense cluster of branches and leaves in a tree's canopy.",
+   "habitat": "High in host trees, mainly acacias.",
+   "food": "Sunbirds drink the nectar and birds eat the fruit; people make birdlime from the fruit.",
+   "breeding": "Red tubular flowers in winter; sticky seeds are wiped off birds' bills onto branches.",
+   "titbit": "It is a hemi-parasite: it makes its own food but takes water and nutrients from its host.",
+   "draft": true
+  },
+  "Plants|Mistletoe": {
    "size": "Dense cluster of branches and leaves in a tree's canopy.",
    "habitat": "High in host trees, mainly acacias.",
    "food": "Sunbirds drink the nectar and birds eat the fruit; people make birdlime from the fruit.",
@@ -31085,6 +34053,14 @@ window.AGA_DATA = {
    "titbit": "Baobabs can live for well over 1 000 years.",
    "draft": true
   },
+  "Plants|Baobab": {
+   "size": "Massive tree with a very thick trunk, up to about 25 m tall.",
+   "habitat": "Hot, dry areas such as the Makgadikgadi edges and north-east Botswana.",
+   "food": "People eat the vitamin-rich fruit pulp; elephants gouge the trunk for its moist wood.",
+   "breeding": "Large white flowers open at night in early summer and are pollinated by bats.",
+   "titbit": "Baobabs can live for well over 1 000 years.",
+   "draft": true
+  },
   "Bird plum": {
    "size": "Medium to large tree with a dense crown.",
    "habitat": "Riverine areas, often on termite mounds.",
@@ -31092,7 +34068,22 @@ window.AGA_DATA = {
    "breeding": "Small greenish flowers; small yellow to orange fruit is eaten by birds and animals.",
    "draft": true
   },
+  "Plants|Bird plum": {
+   "size": "Medium to large tree with a dense crown.",
+   "habitat": "Riverine areas, often on termite mounds.",
+   "food": "People, birds and monkeys eat the sweet fruit.",
+   "breeding": "Small greenish flowers; small yellow to orange fruit is eaten by birds and animals.",
+   "draft": true
+  },
   "Black monkey orange": {
+   "size": "Small tree.",
+   "habitat": "Woodland and bushveld.",
+   "food": "People and baboons eat the fruit pulp.",
+   "breeding": "Round, hard-shelled fruit turns from blue-green to yellow-orange when ripe.",
+   "titbit": "The pulp is edible, but the seeds should not be eaten.",
+   "draft": true
+  },
+  "Plants|Black monkey orange": {
    "size": "Small tree.",
    "habitat": "Woodland and bushveld.",
    "food": "People and baboons eat the fruit pulp.",
@@ -31108,7 +34099,23 @@ window.AGA_DATA = {
    "titbit": "Its leaves are much finer and greyer than those of the camel thorn.",
    "draft": true
   },
+  "Plants|Grey camel thorn": {
+   "size": "Shrub or small tree with grey, feathery leaves.",
+   "habitat": "Deep Kalahari sand in the south-west.",
+   "food": "Animals and livestock eat the pods.",
+   "breeding": "Yellow ball-shaped flowers; slender, grey velvety pods.",
+   "titbit": "Its leaves are much finer and greyer than those of the camel thorn.",
+   "draft": true
+  },
   "Kiaat": {
+   "size": "Medium to large deciduous tree with a spreading crown.",
+   "habitat": "Woodland on deep sand in northern Botswana.",
+   "food": "Its fine timber is used for furniture; the red sap is used as a dye and medicine.",
+   "breeding": "Yellow flowers in spring; round pods with a wide papery wing are spread by the wind.",
+   "titbit": "Cut bark bleeds a blood-red sap.",
+   "draft": true
+  },
+  "Plants|Kiaat": {
    "size": "Medium to large deciduous tree with a spreading crown.",
    "habitat": "Woodland on deep sand in northern Botswana.",
    "food": "Its fine timber is used for furniture; the red sap is used as a dye and medicine.",
@@ -31124,7 +34131,23 @@ window.AGA_DATA = {
    "titbit": "It has the largest winged fruit of all the bushwillows.",
    "draft": true
   },
+  "Plants|Large-fruited bushwillow": {
+   "size": "Small to medium tree.",
+   "habitat": "Woodland on sandy soils.",
+   "food": "Browsed by animals.",
+   "breeding": "Greenish-yellow flowers in spring; very large four-winged fruit spread by the wind.",
+   "titbit": "It has the largest winged fruit of all the bushwillows.",
+   "draft": true
+  },
   "Long-tail cassia": {
+   "size": "Small to medium tree.",
+   "habitat": "Woodland and bushveld.",
+   "food": "The bark and roots are used in traditional medicine.",
+   "breeding": "Bright yellow flowers in spring; very long, dark brown, sausage-like pods.",
+   "titbit": "Its pods can be longer than a man's arm.",
+   "draft": true
+  },
+  "Plants|Long-tail cassia": {
    "size": "Small to medium tree.",
    "habitat": "Woodland and bushveld.",
    "food": "The bark and roots are used in traditional medicine.",
@@ -31140,7 +34163,23 @@ window.AGA_DATA = {
    "titbit": "The pulp is edible, but the seeds are said to be poisonous.",
    "draft": true
   },
+  "Plants|Monkey orange": {
+   "size": "Small tree.",
+   "habitat": "Woodland, often on sandy soils.",
+   "food": "People, baboons and monkeys eat the fruit pulp.",
+   "breeding": "Large round fruit with a hard shell turns from green to yellow when ripe.",
+   "titbit": "The pulp is edible, but the seeds are said to be poisonous.",
+   "draft": true
+  },
   "Paperbark thorn": {
+   "size": "Medium to large tree with a flat crown.",
+   "habitat": "Near rivers and floodplains in northern Botswana.",
+   "food": "Animals eat the leaves and fallen pods.",
+   "breeding": "Creamy-white ball flowers in spring; thick, woody pods.",
+   "titbit": "Its yellowish bark peels off in thin papery flakes.",
+   "draft": true
+  },
+  "Plants|Paperbark thorn": {
    "size": "Medium to large tree with a flat crown.",
    "habitat": "Near rivers and floodplains in northern Botswana.",
    "food": "Animals eat the leaves and fallen pods.",
@@ -31156,7 +34195,23 @@ window.AGA_DATA = {
    "titbit": "Its black-and-red seeds are popular as beads and lucky charms.",
    "draft": true
   },
+  "Plants|Pod mahogany": {
+   "size": "Large deciduous tree.",
+   "habitat": "Woodland on sandy soils in the far north-east.",
+   "food": "Valuable timber; the seeds are used to make jewellery.",
+   "breeding": "Woody pods split to show black seeds with a bright red cap, spread by birds.",
+   "titbit": "Its black-and-red seeds are popular as beads and lucky charms.",
+   "draft": true
+  },
   "Purple-pod terminalia": {
+   "size": "Small tree.",
+   "habitat": "Hot, low-lying areas, often in mopane woodland.",
+   "food": "Browsed by animals; its hard wood is used for poles.",
+   "breeding": "White, unpleasant-smelling flower spikes; winged pods are purple-red.",
+   "titbit": "The clusters of wine-red pods make it easy to spot.",
+   "draft": true
+  },
+  "Plants|Purple-pod terminalia": {
    "size": "Small tree.",
    "habitat": "Hot, low-lying areas, often in mopane woodland.",
    "food": "Browsed by animals; its hard wood is used for poles.",
@@ -31172,7 +34227,23 @@ window.AGA_DATA = {
    "titbit": "Spittle bugs on the branches drip liquid, so it seems to rain under the tree.",
    "draft": true
   },
+  "Plants|Rain tree": {
+   "size": "Medium-sized tree.",
+   "habitat": "Riverine areas and floodplains in northern Botswana.",
+   "food": "Browsed by animals such as giraffe and kudu.",
+   "breeding": "Purple, sweet-scented pea-shaped flowers in spring; flat pods.",
+   "titbit": "Spittle bugs on the branches drip liquid, so it seems to rain under the tree.",
+   "draft": true
+  },
   "Red bushwillow": {
+   "size": "Small tree.",
+   "habitat": "Rocky hills and well-drained soils.",
+   "food": "Animals browse the leaves, even after they fall; good firewood.",
+   "breeding": "Yellow flower spikes in spring; four-winged reddish fruit spread by the wind.",
+   "titbit": "Its leaves turn red and yellow in autumn.",
+   "draft": true
+  },
+  "Plants|Red bushwillow": {
    "size": "Small tree.",
    "habitat": "Rocky hills and well-drained soils.",
    "food": "Animals browse the leaves, even after they fall; good firewood.",
@@ -31188,7 +34259,23 @@ window.AGA_DATA = {
    "titbit": "Its leaves have silky silver hairs that shine in the sun.",
    "draft": true
   },
+  "Plants|Silver terminalia": {
+   "size": "Small to medium tree with silvery leaves.",
+   "habitat": "Deep sand, very common in Kalahari woodland.",
+   "food": "Browsed by animals; the wood is used for poles.",
+   "breeding": "Creamy flower spikes in spring; pinkish-red winged pods turn brown.",
+   "titbit": "Its leaves have silky silver hairs that shine in the sun.",
+   "draft": true
+  },
   "Sycamore fig": {
+   "size": "Large tree with a wide, spreading crown.",
+   "habitat": "Riverbanks and river islands, such as in the Okavango and Chobe.",
+   "food": "Birds, bats, monkeys and baboons eat the figs.",
+   "breeding": "Figs grow in clusters on the trunk and branches; flowers inside are pollinated by fig wasps.",
+   "titbit": "The fig and its wasp cannot survive without each other (obligate mutualism).",
+   "draft": true
+  },
+  "Plants|Sycamore fig": {
    "size": "Large tree with a wide, spreading crown.",
    "habitat": "Riverbanks and river islands, such as in the Okavango and Chobe.",
    "food": "Birds, bats, monkeys and baboons eat the figs.",
@@ -31204,7 +34291,23 @@ window.AGA_DATA = {
    "titbit": "Seeds containing moth larvae jump about: the famous jumping beans.",
    "draft": true
   },
+  "Plants|Tamboti": {
+   "size": "Small to medium tree with dark, blocky bark.",
+   "habitat": "Low-lying areas along rivers, often on clay soils.",
+   "food": "Its beautiful wood is used for furniture, but its sap is poisonous.",
+   "breeding": "Small catkin-like flower spikes in spring; small three-lobed capsules.",
+   "titbit": "Seeds containing moth larvae jump about: the famous jumping beans.",
+   "draft": true
+  },
   "Water pear": {
+   "size": "Medium to large evergreen tree.",
+   "habitat": "Channels and islands of the Okavango Delta.",
+   "food": "People, birds and monkeys eat the fruit.",
+   "breeding": "Fluffy white flowers; oval purple-black fruit.",
+   "titbit": "It is related to the clove tree.",
+   "draft": true
+  },
+  "Plants|Water pear": {
    "size": "Medium to large evergreen tree.",
    "habitat": "Channels and islands of the Okavango Delta.",
    "food": "People, birds and monkeys eat the fruit.",
@@ -31219,6 +34322,13 @@ window.AGA_DATA = {
    "breeding": "Drooping sprays of white flowers in spring; thin, flat pods.",
    "draft": true
   },
+  "Plants|Wild seringa": {
+   "size": "Medium-sized tree with a flat crown.",
+   "habitat": "Woodland on deep sand.",
+   "food": "Browsed by animals; edible caterpillars feed on the leaves.",
+   "breeding": "Drooping sprays of white flowers in spring; thin, flat pods.",
+   "draft": true
+  },
   "Zambezi teak": {
    "size": "Medium to large tree.",
    "habitat": "Kalahari sand woodland in the Chobe area.",
@@ -31226,7 +34336,22 @@ window.AGA_DATA = {
    "breeding": "Large pinkish-mauve flowers in summer; woody pods burst open to throw out the seeds.",
    "draft": true
   },
+  "Plants|Zambezi teak": {
+   "size": "Medium to large tree.",
+   "habitat": "Kalahari sand woodland in the Chobe area.",
+   "food": "Its hard timber is valued and was used for railway sleepers.",
+   "breeding": "Large pinkish-mauve flowers in summer; woody pods burst open to throw out the seeds.",
+   "draft": true
+  },
   "Black thorn": {
+   "size": "Thorny shrub or small tree that forms thickets.",
+   "habitat": "Kalahari areas; it invades overgrazed land.",
+   "food": "Browsed by animals; it is a good bee plant.",
+   "breeding": "Creamy-white ball flowers in spring; thin, papery pods.",
+   "titbit": "Its paired hooked thorns form thickets that are very hard to get through.",
+   "draft": true
+  },
+  "Plants|Black thorn": {
    "size": "Thorny shrub or small tree that forms thickets.",
    "habitat": "Kalahari areas; it invades overgrazed land.",
    "food": "Browsed by animals; it is a good bee plant.",
@@ -31242,7 +34367,23 @@ window.AGA_DATA = {
    "titbit": "Its twigs are used as natural toothbrushes.",
    "draft": true
   },
+  "Plants|Bluebush": {
+   "size": "Shrub or small tree.",
+   "habitat": "Many habitats, often near watercourses.",
+   "food": "People and birds eat the fruit; the twigs are used as toothbrushes.",
+   "breeding": "Sweet-scented creamy flowers in spring; small reddish fruit.",
+   "titbit": "Its twigs are used as natural toothbrushes.",
+   "draft": true
+  },
   "Candle-pod thorn": {
+   "size": "Low, spreading shrub.",
+   "habitat": "Kalahari sand.",
+   "food": "Browsed by animals.",
+   "breeding": "Creamy ball flowers; thick pods stand upright on the branches.",
+   "titbit": "Its upright pods look like candles on a candlestick.",
+   "draft": true
+  },
+  "Plants|Candle-pod thorn": {
    "size": "Low, spreading shrub.",
    "habitat": "Kalahari sand.",
    "food": "Browsed by animals.",
@@ -31257,7 +34398,22 @@ window.AGA_DATA = {
    "breeding": "Yellow flowers; small reddish-brown fruit.",
    "draft": true
   },
+  "Plants|Kalahari sand raisin": {
+   "size": "Small shrub.",
+   "habitat": "Kalahari sand.",
+   "food": "People and animals eat the small fruit.",
+   "breeding": "Yellow flowers; small reddish-brown fruit.",
+   "draft": true
+  },
   "Lavender fever-berry": {
+   "size": "Shrub or small tree.",
+   "habitat": "Rocky hills and slopes.",
+   "food": "The leaves are used in traditional medicine.",
+   "breeding": "Creamy flower spikes in spring; small three-lobed capsules.",
+   "titbit": "Crushed leaves smell of lavender; leaf undersides are silvery with brown dots.",
+   "draft": true
+  },
+  "Plants|Lavender fever-berry": {
    "size": "Shrub or small tree.",
    "habitat": "Rocky hills and slopes.",
    "food": "The leaves are used in traditional medicine.",
@@ -31272,7 +34428,22 @@ window.AGA_DATA = {
    "breeding": "Small creamy flowers; small round purple-black berries eaten by birds.",
    "draft": true
   },
+  "Plants|Magic guarri": {
+   "size": "Shrub or small tree.",
+   "habitat": "Common on islands in the Okavango Delta.",
+   "food": "Twigs are used as toothbrushes; the roots give a dye used in basket weaving.",
+   "breeding": "Small creamy flowers; small round purple-black berries eaten by birds.",
+   "draft": true
+  },
   "Puzzle bush": {
+   "size": "Shrub with tangled branches.",
+   "habitat": "Woodland and bushveld.",
+   "food": "Birds eat the fruit.",
+   "breeding": "Pale lilac flowers in spring; small orange-red berries.",
+   "titbit": "Its tangled branches make it hard to see where one ends and the next begins.",
+   "draft": true
+  },
+  "Plants|Puzzle bush": {
    "size": "Shrub with tangled branches.",
    "habitat": "Woodland and bushveld.",
    "food": "Birds eat the fruit.",
@@ -31288,7 +34459,23 @@ window.AGA_DATA = {
    "titbit": "Its leaves are rough like sandpaper.",
    "draft": true
   },
+  "Plants|Sandpaper raisin": {
+   "size": "Shrub.",
+   "habitat": "Woodland and bushveld.",
+   "food": "People and animals eat the fruit.",
+   "breeding": "Yellow flowers; brown lobed fruit.",
+   "titbit": "Its leaves are rough like sandpaper.",
+   "draft": true
+  },
   "Shaving-brush combretum": {
+   "size": "Scrambling shrub or climber.",
+   "habitat": "Woodland and riverine areas.",
+   "food": "Browsed by animals.",
+   "breeding": "White flowers before the leaves; four-winged fruit spread by the wind.",
+   "titbit": "Its fluffy white flowers look like shaving brushes.",
+   "draft": true
+  },
+  "Plants|Shaving-brush combretum": {
    "size": "Scrambling shrub or climber.",
    "habitat": "Woodland and riverine areas.",
    "food": "Browsed by animals.",
@@ -31302,6 +34489,12 @@ window.AGA_DATA = {
    "breeding": "White trumpet-shaped flowers.",
    "draft": true
   },
+  "Plants|Trumpet thorn": {
+   "size": "Spiny shrub.",
+   "habitat": "Dry areas, often on limestone (calcrete).",
+   "breeding": "White trumpet-shaped flowers.",
+   "draft": true
+  },
   "Velvet raisin": {
    "size": "Small shrub.",
    "habitat": "Kalahari sand; very common.",
@@ -31309,7 +34502,22 @@ window.AGA_DATA = {
    "breeding": "Yellow star-shaped flowers in summer; small brown fruit.",
    "draft": true
   },
+  "Plants|Velvet raisin": {
+   "size": "Small shrub.",
+   "habitat": "Kalahari sand; very common.",
+   "food": "People eat the fruit and use it to make a traditional brew.",
+   "breeding": "Yellow star-shaped flowers in summer; small brown fruit.",
+   "draft": true
+  },
   "White raisin": {
+   "size": "Shrub or small tree.",
+   "habitat": "Woodland and bushveld.",
+   "food": "People and animals eat the fruit.",
+   "breeding": "Yellow flowers; small orange-brown fruit.",
+   "titbit": "The undersides of its leaves are white.",
+   "draft": true
+  },
+  "Plants|White raisin": {
    "size": "Shrub or small tree.",
    "habitat": "Woodland and bushveld.",
    "food": "People and animals eat the fruit.",
@@ -31325,7 +34533,23 @@ window.AGA_DATA = {
    "titbit": "One flower head holds a huge number of tiny seeds.",
    "draft": true
   },
+  "Plants|Bulrush": {
+   "size": "Tall water plant, often 2 m or more.",
+   "habitat": "Marshes, pools and edges of slow water.",
+   "food": "The leaves are woven into mats.",
+   "breeding": "Brown, cigar-shaped flower heads release fluffy seeds carried by the wind.",
+   "titbit": "One flower head holds a huge number of tiny seeds.",
+   "draft": true
+  },
   "Common reed": {
+   "size": "Tall reed up to about 4 m.",
+   "habitat": "River banks and wetlands.",
+   "food": "People use the stems for building, fences and mats.",
+   "breeding": "Feathery purple-brown seed plumes; it also spreads by underground stems.",
+   "titbit": "It is one of the most widespread plants in the world.",
+   "draft": true
+  },
+  "Plants|Common reed": {
    "size": "Tall reed up to about 4 m.",
    "habitat": "River banks and wetlands.",
    "food": "People use the stems for building, fences and mats.",
@@ -31341,7 +34565,21 @@ window.AGA_DATA = {
    "titbit": "It grows well in shade where few other grasses do.",
    "draft": true
   },
+  "Plants|Guinea grass": {
+   "size": "Tall tufted grass.",
+   "habitat": "Fertile soils, often in the shade of trees and bushes.",
+   "food": "Highly palatable to grazers.",
+   "breeding": "Large, open seedheads.",
+   "titbit": "It grows well in shade where few other grasses do.",
+   "draft": true
+  },
   "Hippo grass": {
+   "size": "Tall water grass.",
+   "habitat": "Edges of channels and lagoons in the Okavango.",
+   "food": "Grazed by hippos.",
+   "draft": true
+  },
+  "Plants|Hippo grass": {
    "size": "Tall water grass.",
    "habitat": "Edges of channels and lagoons in the Okavango.",
    "food": "Grazed by hippos.",
@@ -31352,7 +34590,20 @@ window.AGA_DATA = {
    "habitat": "Seasonal floodplains of the Okavango.",
    "draft": true
   },
+  "Plants|Okavango miscanthus": {
+   "size": "Tall grass.",
+   "habitat": "Seasonal floodplains of the Okavango.",
+   "draft": true
+  },
   "Silky bushman grass": {
+   "size": "Tufted grass.",
+   "habitat": "Kalahari sand.",
+   "food": "Good grazing in the Kalahari.",
+   "breeding": "Seeds have feathery awns that are carried by the wind.",
+   "titbit": "Its silky white seedheads shine in the sun.",
+   "draft": true
+  },
+  "Plants|Silky bushman grass": {
    "size": "Tufted grass.",
    "habitat": "Kalahari sand.",
    "food": "Good grazing in the Kalahari.",
@@ -31367,7 +34618,22 @@ window.AGA_DATA = {
    "titbit": "It is a wild relative of cultivated rice.",
    "draft": true
   },
+  "Plants|Wild rice": {
+   "size": "Tall water grass.",
+   "habitat": "Floodplains and shallow water of the Okavango.",
+   "food": "Grazed by animals; birds and people eat the grain.",
+   "titbit": "It is a wild relative of cultivated rice.",
+   "draft": true
+  },
   "Day waterlily": {
+   "size": "Water plant with round floating leaves.",
+   "habitat": "Lagoons and quiet channels of the Okavango.",
+   "food": "People eat the stems and tubers.",
+   "breeding": "Blue or white flowers open in the day; the fruit ripens under water.",
+   "titbit": "Its flowers open in the morning and close in the afternoon.",
+   "draft": true
+  },
+  "Plants|Day waterlily": {
    "size": "Water plant with round floating leaves.",
    "habitat": "Lagoons and quiet channels of the Okavango.",
    "food": "People eat the stems and tubers.",
@@ -31382,7 +34648,21 @@ window.AGA_DATA = {
    "titbit": "A small weevil was released to control it in the Kwando-Linyanti and Okavango.",
    "draft": true
   },
+  "Plants|Kariba weed": {
+   "size": "Small floating fern that forms thick mats.",
+   "habitat": "Still or slow water; an invasive plant from South America.",
+   "breeding": "Spreads by broken pieces.",
+   "titbit": "A small weevil was released to control it in the Kwando-Linyanti and Okavango.",
+   "draft": true
+  },
   "Night waterlily": {
+   "size": "Water plant with large floating leaves with toothed edges.",
+   "habitat": "Lagoons and quiet channels of the Okavango.",
+   "breeding": "White flowers open at night.",
+   "titbit": "Its flowers open at night and close the next morning.",
+   "draft": true
+  },
+  "Plants|Night waterlily": {
    "size": "Water plant with large floating leaves with toothed edges.",
    "habitat": "Lagoons and quiet channels of the Okavango.",
    "breeding": "White flowers open at night.",
@@ -31396,13 +34676,33 @@ window.AGA_DATA = {
    "titbit": "Its fruit has sharp horns.",
    "draft": true
   },
+  "Plants|Water chestnut": {
+   "size": "Floating water plant with a rosette of leaves.",
+   "habitat": "Lagoons and quiet water of the Okavango.",
+   "breeding": "Small white flowers; hard fruit with sharp horns.",
+   "titbit": "Its fruit has sharp horns.",
+   "draft": true
+  },
   "Water lettuce": {
    "size": "Small floating plant with a rosette of leaves.",
    "habitat": "Still or slow water.",
    "titbit": "Its rosette of soft leaves looks like a floating lettuce.",
    "draft": true
   },
+  "Plants|Water lettuce": {
+   "size": "Small floating plant with a rosette of leaves.",
+   "habitat": "Still or slow water.",
+   "titbit": "Its rosette of soft leaves looks like a floating lettuce.",
+   "draft": true
+  },
   "Wild date palm": {
+   "size": "Palm, often growing in clumps.",
+   "habitat": "River banks and swampy areas.",
+   "food": "People, baboons and elephants eat the fruit; leaves are used for weaving.",
+   "breeding": "Separate male and female plants; small orange-brown dates.",
+   "draft": true
+  },
+  "Plants|Wild date palm": {
    "size": "Palm, often growing in clumps.",
    "habitat": "River banks and swampy areas.",
    "food": "People, baboons and elephants eat the fruit; leaves are used for weaving.",
@@ -31417,7 +34717,22 @@ window.AGA_DATA = {
    "titbit": "The hooked fruit can catch on animals' feet and so spread its seeds.",
    "draft": true
   },
+  "Plants|Devil’s claw": {
+   "size": "Low creeping plant.",
+   "habitat": "Kalahari sand.",
+   "food": "Its tuber is used as a medicine for arthritis and joint pain.",
+   "breeding": "Pink to purple trumpet flowers in summer; hooked fruit sticks to animals' feet.",
+   "titbit": "The hooked fruit can catch on animals' feet and so spread its seeds.",
+   "draft": true
+  },
   "Fireball lily": {
+   "size": "Bulb with a ball-shaped flower head.",
+   "habitat": "Shady woodland.",
+   "breeding": "Red ball of flowers appears with the first rains; red berries.",
+   "titbit": "The bulb is poisonous.",
+   "draft": true
+  },
+  "Plants|Fireball lily": {
    "size": "Bulb with a ball-shaped flower head.",
    "habitat": "Shady woodland.",
    "breeding": "Red ball of flowers appears with the first rains; red berries.",
@@ -31431,7 +34746,21 @@ window.AGA_DATA = {
    "titbit": "All parts, especially the tuber, are very poisonous; it is Zimbabwe's national flower.",
    "draft": true
   },
+  "Plants|Flame lily": {
+   "size": "Climbing lily.",
+   "habitat": "Woodland and bushveld.",
+   "breeding": "Red and yellow flowers in summer.",
+   "titbit": "All parts, especially the tuber, are very poisonous; it is Zimbabwe's national flower.",
+   "draft": true
+  },
   "Gemsbok cucumber": {
+   "size": "Creeping plant.",
+   "habitat": "Kalahari sand.",
+   "food": "People and animals such as gemsbok eat the juicy fruit for water.",
+   "breeding": "Yellow flowers; spiny yellow-orange fruit.",
+   "draft": true
+  },
+  "Plants|Gemsbok cucumber": {
    "size": "Creeping plant.",
    "habitat": "Kalahari sand.",
    "food": "People and animals such as gemsbok eat the juicy fruit for water.",
@@ -31442,7 +34771,19 @@ window.AGA_DATA = {
    "size": "Single-stemmed aloe.",
    "draft": true
   },
+  "Plants|Mopane aloe": {
+   "size": "Single-stemmed aloe.",
+   "draft": true
+  },
   "Tsamma melon": {
+   "size": "Trailing plant.",
+   "habitat": "Kalahari sand.",
+   "food": "People and animals eat the fruit for water; the seeds are roasted and eaten.",
+   "breeding": "Yellow flowers; round green melons.",
+   "titbit": "It is a wild form of the same species as the garden watermelon.",
+   "draft": true
+  },
+  "Plants|Tsamma melon": {
    "size": "Trailing plant.",
    "habitat": "Kalahari sand.",
    "food": "People and animals eat the fruit for water; the seeds are roasted and eaten.",
@@ -31458,7 +34799,23 @@ window.AGA_DATA = {
    "titbit": "Nest temperature decides the sex of the young; the mother carries hatchlings to water in her mouth.",
    "draft": true
   },
+  "Reptiles|Nile crocodile": {
+   "size": "Adults usually 2.5-4 m; can exceed 6 m and weigh up to 1,000 kg.",
+   "habitat": "Deep rivers and lagoons with sandbanks: Okavango, Chobe, Zambezi, Kwando and the Limpopo.",
+   "food": "Young eat insects and frogs, sub-adults mainly fish, large adults mainly mammals.",
+   "breeding": "Lays 15-90 eggs in a sandbank hole in Oct-Nov; the female guards the nest for about 90 days.",
+   "titbit": "Nest temperature decides the sex of the young; the mother carries hatchlings to water in her mouth.",
+   "draft": true
+  },
   "Anchieta's cobra": {
+   "size": "Large cobra, usually 1.2-1.8 m; can exceed 2 m.",
+   "habitat": "Savanna and woodland of northern Botswana.",
+   "food": "Rodents, frogs, reptiles (including other snakes) and young birds.",
+   "breeding": "Lays eggs in mid-summer and does not guard them.",
+   "titbit": "Does not spit. Venom is a deadly neurotoxin: a bite is a medical emergency.",
+   "draft": true
+  },
+  "Reptiles|Anchieta's cobra": {
    "size": "Large cobra, usually 1.2-1.8 m; can exceed 2 m.",
    "habitat": "Savanna and woodland of northern Botswana.",
    "food": "Rodents, frogs, reptiles (including other snakes) and young birds.",
@@ -31474,7 +34831,23 @@ window.AGA_DATA = {
    "titbit": "Fast-acting, deadly neurotoxic venom. Black inside the mouth; the body is grey to brown, never black.",
    "draft": true
   },
+  "Reptiles|Black mamba": {
+   "size": "Usually 2.5-3 m; can exceed 4 m.",
+   "habitat": "Savanna, thickets and woodland, especially rocky hillsides; often uses a termite mound or hole.",
+   "food": "Mainly warm-blooded prey such as rodents, dassies and birds; also other reptiles.",
+   "breeding": "Lays up to about 17 eggs in summer.",
+   "titbit": "Fast-acting, deadly neurotoxic venom. Black inside the mouth; the body is grey to brown, never black.",
+   "draft": true
+  },
   "Cape cobra": {
+   "size": "Usually 1.2-1.4 m; up to about 1.6 m.",
+   "habitat": "Drier western and southern Botswana, including the Kalahari.",
+   "food": "Rodents, frogs, lizards, other snakes and nestling birds; often climbs into weaver nests.",
+   "breeding": "Lays up to about 20 eggs in mid-summer and does not guard the nest.",
+   "titbit": "Does not spit. Has one of the most potent neurotoxic venoms of any African cobra; bites can kill.",
+   "draft": true
+  },
+  "Reptiles|Cape cobra": {
    "size": "Usually 1.2-1.4 m; up to about 1.6 m.",
    "habitat": "Drier western and southern Botswana, including the Kalahari.",
    "food": "Rodents, frogs, lizards, other snakes and nestling birds; often climbs into weaver nests.",
@@ -31490,7 +34863,23 @@ window.AGA_DATA = {
    "titbit": "Spits venom over 2 m into the eyes. Cytotoxic venom causes bad tissue damage; flush eyes with water.",
    "draft": true
   },
+  "Reptiles|Mozambique spitting cobra": {
+   "size": "Usually 0.9-1.2 m; up to about 1.5 m.",
+   "habitat": "Savanna in north and east Botswana, often near water.",
+   "food": "Rodents, frogs, toads, lizards, birds, eggs and other snakes, even puff adders.",
+   "breeding": "Lays 10-22 eggs in summer.",
+   "titbit": "Spits venom over 2 m into the eyes. Cytotoxic venom causes bad tissue damage; flush eyes with water.",
+   "draft": true
+  },
   "Snouted cobra": {
+   "size": "Usually 1.2-1.8 m; can reach about 2.5 m.",
+   "habitat": "Savanna and bushveld in eastern Botswana; often uses termite mounds as a home.",
+   "food": "Rodents, toads, birds and eggs, and other snakes; often raids chicken runs.",
+   "breeding": "Lays 8-33 eggs in early summer.",
+   "titbit": "Does not spit. Deadly neurotoxic venom; a banded colour form has yellow and dark bands.",
+   "draft": true
+  },
+  "Reptiles|Snouted cobra": {
    "size": "Usually 1.2-1.8 m; can reach about 2.5 m.",
    "habitat": "Savanna and bushveld in eastern Botswana; often uses termite mounds as a home.",
    "food": "Rodents, toads, birds and eggs, and other snakes; often raids chicken runs.",
@@ -31506,7 +34895,23 @@ window.AGA_DATA = {
    "titbit": "Shy, but its haemotoxic venom stops blood clotting and can kill. Symptoms may take hours to show.",
    "draft": true
   },
+  "Reptiles|Boomslang": {
+   "size": "Usually 1.2-1.6 m; up to 2 m.",
+   "habitat": "Trees and bushes in savanna and woodland across most of Botswana.",
+   "food": "Chameleons, lizards, birds and their eggs, and frogs, hunted by day.",
+   "breeding": "Lays 8-25 eggs, left buried and unguarded.",
+   "titbit": "Shy, but its haemotoxic venom stops blood clotting and can kill. Symptoms may take hours to show.",
+   "draft": true
+  },
   "Shield-nosed cobra": {
+   "size": "Short and thick-set, usually 30-60 cm; up to about 75 cm.",
+   "habitat": "Sandy savanna and arid areas; mostly under the ground or in burrows.",
+   "food": "Frogs, lizards, small snakes and rodents.",
+   "breeding": "Lays up to about 14 eggs.",
+   "titbit": "Big shield-shaped nose scale for digging. Venom is neurotoxic; bites are rare but serious.",
+   "draft": true
+  },
+  "Reptiles|Shield-nosed cobra": {
    "size": "Short and thick-set, usually 30-60 cm; up to about 75 cm.",
    "habitat": "Sandy savanna and arid areas; mostly under the ground or in burrows.",
    "food": "Frogs, lizards, small snakes and rodents.",
@@ -31522,7 +34927,23 @@ window.AGA_DATA = {
    "titbit": "Can stab sideways with one fang even when held behind the head. Cytotoxic venom; never handle it.",
    "draft": true
   },
+  "Reptiles|Southern stiletto snake (Bibron's burrowing asp)": {
+   "size": "Usually 30-50 cm; up to about 70 cm.",
+   "habitat": "Lives underground in sandy savanna, under logs, rocks and in termite mounds.",
+   "food": "Burrowing reptiles, frogs and nestling rodents.",
+   "breeding": "Lays small batches of fewer than 10 eggs.",
+   "titbit": "Can stab sideways with one fang even when held behind the head. Cytotoxic venom; never handle it.",
+   "draft": true
+  },
   "Vine snake": {
+   "size": "Thin snake, usually 0.8-1.2 m; up to 1.4 m.",
+   "habitat": "Trees and shrubs in savanna and riverine woodland in north and east Botswana.",
+   "food": "Mainly lizards, especially chameleons; also frogs, birds and snakes.",
+   "breeding": "Lays up to about 20 eggs in mid-summer, left unguarded.",
+   "titbit": "Haemotoxic venom stops blood clotting and can kill, and there is no antivenom for it.",
+   "draft": true
+  },
+  "Reptiles|Vine snake": {
    "size": "Thin snake, usually 0.8-1.2 m; up to 1.4 m.",
    "habitat": "Trees and shrubs in savanna and riverine woodland in north and east Botswana.",
    "food": "Mainly lizards, especially chameleons; also frogs, birds and snakes.",
@@ -31538,7 +34959,23 @@ window.AGA_DATA = {
    "titbit": "Causes the most serious snakebites in Africa. Cytotoxic venom destroys tissue; relies on camouflage.",
    "draft": true
   },
+  "Reptiles|Puff adder": {
+   "size": "Thick-set, usually about 0.9-1 m; up to about 1.4 m.",
+   "habitat": "Every habitat except true desert; often lies on paths in the sun.",
+   "food": "Mainly rodents; also birds, lizards, frogs and toads.",
+   "breeding": "Gives birth to live young, usually 20-40 per litter, each 15-20 cm long.",
+   "titbit": "Causes the most serious snakebites in Africa. Cytotoxic venom destroys tissue; relies on camouflage.",
+   "draft": true
+  },
   "Mole snake": {
+   "size": "Robust, usually 1-1.4 m; up to about 2 m.",
+   "habitat": "Sandy and grassy areas over most of southern Africa; spends much time underground.",
+   "food": "Moles, rodents and other small mammals, killed by constriction.",
+   "breeding": "Gives birth to 25-50 live young; exceptionally 90 or more.",
+   "titbit": "Not venomous, but can give a painful bite. Young are spotted and look very different from adults.",
+   "draft": true
+  },
+  "Reptiles|Mole snake": {
    "size": "Robust, usually 1-1.4 m; up to about 2 m.",
    "habitat": "Sandy and grassy areas over most of southern Africa; spends much time underground.",
    "food": "Moles, rodents and other small mammals, killed by constriction.",
@@ -31554,7 +34991,23 @@ window.AGA_DATA = {
    "titbit": "Not venomous. Kills by constriction, which stops the heart and breathing rather than breaking bones.",
    "draft": true
   },
+  "Reptiles|Southern African python": {
+   "size": "Usually 3-4 m; up to 5 m in southern Africa.",
+   "habitat": "Savanna and riverine areas, often near water; absent from much of the central and southern Kalahari.",
+   "food": "Mammals up to impala size; also birds, monitor lizards and small crocodiles.",
+   "breeding": "Lays up to 100 eggs in a burrow or termite mound and coils around them for about 3 months.",
+   "titbit": "Not venomous. Kills by constriction, which stops the heart and breathing rather than breaking bones.",
+   "draft": true
+  },
   "Angolan green snake": {
+   "size": "Usually 0.8-1 m; up to 1.2 m.",
+   "habitat": "Reeds and riverine vegetation in the Okavango and along northern rivers.",
+   "food": "Frogs, chameleons, lizards and small birds.",
+   "breeding": "Lays up to 16 eggs in summer.",
+   "titbit": "Not venomous and seldom bites; often mistaken for a green mamba or boomslang.",
+   "draft": true
+  },
+  "Reptiles|Angolan green snake": {
    "size": "Usually 0.8-1 m; up to 1.2 m.",
    "habitat": "Reeds and riverine vegetation in the Okavango and along northern rivers.",
    "food": "Frogs, chameleons, lizards and small birds.",
@@ -31570,7 +35023,23 @@ window.AGA_DATA = {
    "titbit": "Harmless to people. Green with black spots on the front of the body; climbs fast using keeled belly scales.",
    "draft": true
   },
+  "Reptiles|Spotted bush snake": {
+   "size": "Slender, usually 70-100 cm; a little over 1 m at most.",
+   "habitat": "Trees and bushes in savanna, woodland and gardens.",
+   "food": "Mainly geckos and chameleons; also frogs.",
+   "breeding": "Lays up to 12 eggs in summer.",
+   "titbit": "Harmless to people. Green with black spots on the front of the body; climbs fast using keeled belly scales.",
+   "draft": true
+  },
   "Stripe-bellied sand snake": {
+   "size": "Slender, usually 60-90 cm; up to about 1.4 m.",
+   "habitat": "Savanna and dry woodland across most of Botswana.",
+   "food": "Mainly lizards; also frogs and rodents.",
+   "breeding": "Lays a small clutch of eggs in summer.",
+   "titbit": "One of our fastest snakes, active in the heat of the day. Mild venom, not dangerous to people.",
+   "draft": true
+  },
+  "Reptiles|Stripe-bellied sand snake": {
    "size": "Slender, usually 60-90 cm; up to about 1.4 m.",
    "habitat": "Savanna and dry woodland across most of Botswana.",
    "food": "Mainly lizards; also frogs and rodents.",
@@ -31586,7 +35055,23 @@ window.AGA_DATA = {
    "titbit": "Orange with dark bands and cat-like pupils. Bites readily but the mild venom is harmless to people.",
    "draft": true
   },
+  "Reptiles|Common tiger snake": {
+   "size": "Slender, usually 60-80 cm; up to about 1 m.",
+   "habitat": "Woodland and savanna throughout Botswana; climbs well.",
+   "food": "Lizards, especially geckos; also small birds and rodents.",
+   "breeding": "Lays up to 25 eggs in early to mid-summer; they hatch after about 3 months.",
+   "titbit": "Orange with dark bands and cat-like pupils. Bites readily but the mild venom is harmless to people.",
+   "draft": true
+  },
   "Rufous-beaked snake": {
+   "size": "Usually 1-1.2 m; up to about 1.4 m.",
+   "habitat": "Sandy savanna in northern and eastern Botswana.",
+   "food": "Rodents, lizards, frogs and other snakes.",
+   "breeding": "Lays eggs in burrows in summer.",
+   "titbit": "Hooked, rufous snout helps it dig. Mildly venomous but harmless to people.",
+   "draft": true
+  },
+  "Reptiles|Rufous-beaked snake": {
    "size": "Usually 1-1.2 m; up to about 1.4 m.",
    "habitat": "Sandy savanna in northern and eastern Botswana.",
    "food": "Rodents, lizards, frogs and other snakes.",
@@ -31602,7 +35087,22 @@ window.AGA_DATA = {
    "titbit": "Breeding males get a bright blue head; agamas cannot shed their tails.",
    "draft": true
   },
+  "Reptiles|Ground agama": {
+   "size": "Usually 15-20 cm long, including the tail.",
+   "habitat": "Open sandy ground in savanna and the Kalahari.",
+   "food": "Mainly ants; also termites and other insects.",
+   "breeding": "Lays eggs in a hole dug in the soil.",
+   "titbit": "Breeding males get a bright blue head; agamas cannot shed their tails.",
+   "draft": true
+  },
   "Kalahari burrowing skink (Kalahari legless skink)": {
+   "habitat": "Loose Kalahari sand, where it swims below the surface.",
+   "food": "Insects and other small invertebrates found underground.",
+   "breeding": "Gives birth to live young.",
+   "titbit": "Has no legs and is often mistaken for a snake, but it has movable eyelids.",
+   "draft": true
+  },
+  "Reptiles|Kalahari burrowing skink (Kalahari legless skink)": {
    "habitat": "Loose Kalahari sand, where it swims below the surface.",
    "food": "Insects and other small invertebrates found underground.",
    "breeding": "Gives birth to live young.",
@@ -31616,7 +35116,22 @@ window.AGA_DATA = {
    "titbit": "Often seen basking on dead trees; like most skinks it can shed its tail to escape.",
    "draft": true
   },
+  "Reptiles|Kalahari tree skink": {
+   "size": "Usually 15-20 cm long, including the tail.",
+   "habitat": "Tree trunks in dry savanna and the Kalahari.",
+   "food": "Insects such as beetles, termites and grasshoppers.",
+   "titbit": "Often seen basking on dead trees; like most skinks it can shed its tail to escape.",
+   "draft": true
+  },
   "Nile monitor (water leguaan)": {
+   "size": "Usually 1.2-1.8 m; up to about 2 m.",
+   "habitat": "Rivers, lagoons and floodplains; never far from water.",
+   "food": "Crabs, mussels, frogs, fish, birds' eggs and chicks, and crocodile eggs.",
+   "breeding": "Lays eggs in a hole in a termite mound; the termites seal it and keep the eggs warm.",
+   "titbit": "Africa's largest lizard; in some areas it is the main threat to crocodile eggs.",
+   "draft": true
+  },
+  "Reptiles|Nile monitor (water leguaan)": {
    "size": "Usually 1.2-1.8 m; up to about 2 m.",
    "habitat": "Rivers, lagoons and floodplains; never far from water.",
    "food": "Crabs, mussels, frogs, fish, birds' eggs and chicks, and crocodile eggs.",
@@ -31632,7 +35147,23 @@ window.AGA_DATA = {
    "titbit": "Its eyelids are fused into a clear 'window', so it cannot blink, like a snake.",
    "draft": true
   },
+  "Reptiles|Snake-eyed skink": {
+   "size": "Tiny, usually 8-10 cm including the tail.",
+   "habitat": "Leaf litter under trees and bushes in savanna.",
+   "food": "Small insects and spiders.",
+   "breeding": "Lays a few small eggs.",
+   "titbit": "Its eyelids are fused into a clear 'window', so it cannot blink, like a snake.",
+   "draft": true
+  },
   "White-throated monitor (rock leguaan)": {
+   "size": "Usually 0.8-1.2 m; up to about 1.5 m.",
+   "habitat": "Dry savanna and rocky areas, often in trees; very seldom found near water.",
+   "food": "Millipedes, beetles, snails, eggs, chicks, reptiles and small mammals.",
+   "breeding": "Lays eggs in rock cracks, old burrows or tree holes.",
+   "titbit": "Lashes its tail, bites and scratches hard when cornered; it cannot shed its tail.",
+   "draft": true
+  },
+  "Reptiles|White-throated monitor (rock leguaan)": {
    "size": "Usually 0.8-1.2 m; up to about 1.5 m.",
    "habitat": "Dry savanna and rocky areas, often in trees; very seldom found near water.",
    "food": "Millipedes, beetles, snails, eggs, chicks, reptiles and small mammals.",
@@ -31648,7 +35179,22 @@ window.AGA_DATA = {
    "titbit": "Toe pads with tiny hairs let it run up walls; it licks its eyes clean as it has no movable eyelids.",
    "draft": true
   },
+  "Reptiles|Gecko (tropical house gecko)": {
+   "size": "Usually 12-15 cm long, including the tail.",
+   "habitat": "Buildings, trees and rocks; common around lights in camps.",
+   "food": "Insects attracted to lights, such as moths.",
+   "breeding": "Lays two hard-shelled eggs at a time.",
+   "titbit": "Toe pads with tiny hairs let it run up walls; it licks its eyes clean as it has no movable eyelids.",
+   "draft": true
+  },
   "Girdled lizard (Jones' girdled lizard)": {
+   "habitat": "Rock cracks and tree bark in north-eastern Botswana.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Gives birth to live young.",
+   "titbit": "Spiny scales and tail; it wedges itself into a crack when disturbed. The tail cannot be shed.",
+   "draft": true
+  },
+  "Reptiles|Girdled lizard (Jones' girdled lizard)": {
    "habitat": "Rock cracks and tree bark in north-eastern Botswana.",
    "food": "Insects and other small invertebrates.",
    "breeding": "Gives birth to live young.",
@@ -31663,6 +35209,14 @@ window.AGA_DATA = {
    "titbit": "Young are black and white and walk stiffly, mimicking a bad-tasting oogpister beetle.",
    "draft": true
   },
+  "Reptiles|Old World lizard (bushveld lizard)": {
+   "size": "Usually 15-20 cm long, including the tail.",
+   "habitat": "Sandy savanna and the Kalahari.",
+   "food": "Small insects such as termites.",
+   "breeding": "Lays a small clutch of eggs.",
+   "titbit": "Young are black and white and walk stiffly, mimicking a bad-tasting oogpister beetle.",
+   "draft": true
+  },
   "Amphisbaenian (Kalahari round-headed worm lizard)": {
    "habitat": "Underground in sandy soils; usually only seen after heavy rain.",
    "food": "Mainly termites and other soft-bodied invertebrates.",
@@ -31670,7 +35224,22 @@ window.AGA_DATA = {
    "titbit": "Legless with rings of scales; it waves its short tail like a head to fool predators.",
    "draft": true
   },
+  "Reptiles|Amphisbaenian (Kalahari round-headed worm lizard)": {
+   "habitat": "Underground in sandy soils; usually only seen after heavy rain.",
+   "food": "Mainly termites and other soft-bodied invertebrates.",
+   "breeding": "Lays eggs.",
+   "titbit": "Legless with rings of scales; it waves its short tail like a head to fool predators.",
+   "draft": true
+  },
   "Flap-necked chameleon": {
+   "size": "Usually 20-25 cm; up to about 35 cm.",
+   "habitat": "Trees and bushes in savanna; the only chameleon in Botswana.",
+   "food": "Insects such as grasshoppers and beetles, caught with its long sticky tongue.",
+   "breeding": "Lays up to 50 eggs in a hole in the ground; they take about a year to hatch.",
+   "titbit": "Eyes move separately. It can change colour, and puffs up and hisses when threatened.",
+   "draft": true
+  },
+  "Reptiles|Flap-necked chameleon": {
    "size": "Usually 20-25 cm; up to about 35 cm.",
    "habitat": "Trees and bushes in savanna; the only chameleon in Botswana.",
    "food": "Insects such as grasshoppers and beetles, caught with its long sticky tongue.",
@@ -31686,7 +35255,23 @@ window.AGA_DATA = {
    "titbit": "The largest tortoise in southern Africa and the only one that can swim.",
    "draft": true
   },
+  "Reptiles|Leopard tortoise": {
+   "size": "Shell usually 30-45 cm; can exceed 60 cm.",
+   "habitat": "Savanna and grassland across Botswana.",
+   "food": "Grasses, succulents and other plants; also chews old bones for calcium.",
+   "breeding": "Lays eggs in a hole dug in the ground; nest temperature affects the sex of the young.",
+   "titbit": "The largest tortoise in southern Africa and the only one that can swim.",
+   "draft": true
+  },
   "Marsh terrapin (pan terrapin)": {
+   "size": "Shell usually 20-30 cm long.",
+   "habitat": "Pans, pools and slow water; buries itself in mud when pans dry.",
+   "food": "Frogs, tadpoles, insects and carrion; also catches doves that come to drink.",
+   "breeding": "Lays eggs in a hole dug near water.",
+   "titbit": "Has no hinge on the belly shell, unlike hinged terrapins; it gives off a bad smell when handled.",
+   "draft": true
+  },
+  "Reptiles|Marsh terrapin (pan terrapin)": {
    "size": "Shell usually 20-30 cm long.",
    "habitat": "Pans, pools and slow water; buries itself in mud when pans dry.",
    "food": "Frogs, tadpoles, insects and carrion; also catches doves that come to drink.",
@@ -31700,7 +35285,21 @@ window.AGA_DATA = {
    "titbit": "Like the Okavango hinged terrapin but with a double hook on the upper beak and usually two chin tentacles.",
    "draft": true
   },
+  "Reptiles|Mashona hinged terrapin": {
+   "habitat": "Permanent rivers, lagoons and swamps of northern Botswana.",
+   "food": "Fish, frogs, snails and insects; some plant matter.",
+   "titbit": "Like the Okavango hinged terrapin but with a double hook on the upper beak and usually two chin tentacles.",
+   "draft": true
+  },
   "Okavango hinged terrapin": {
+   "size": "Shell can reach 33 cm long.",
+   "habitat": "Permanent water in the Okavango Delta and northern rivers.",
+   "food": "Fish, frogs and tadpoles; also carrion and a little plant matter.",
+   "breeding": "Lays 20-40 eggs in October in a hole about 12 cm deep; young hatch in late summer.",
+   "titbit": "Large black head with yellow patterns; hinged belly shell lets it close up.",
+   "draft": true
+  },
+  "Reptiles|Okavango hinged terrapin": {
    "size": "Shell can reach 33 cm long.",
    "habitat": "Permanent water in the Okavango Delta and northern rivers.",
    "food": "Fish, frogs and tadpoles; also carrion and a little plant matter.",
@@ -31716,7 +35315,23 @@ window.AGA_DATA = {
    "titbit": "Shell edge is strongly serrated (saw-toothed) and shields rise like little tents.",
    "draft": true
   },
+  "Reptiles|Serrated tent tortoise (Kalahari tent tortoise)": {
+   "size": "Small; shell usually 10-14 cm long.",
+   "habitat": "Dry sandy savanna and the Kalahari.",
+   "food": "Grasses, succulents and other plants.",
+   "breeding": "Lays only a few eggs at a time.",
+   "titbit": "Shell edge is strongly serrated (saw-toothed) and shields rise like little tents.",
+   "draft": true
+  },
   "Speke's hinged tortoise": {
+   "size": "Shell usually 15-20 cm long.",
+   "habitat": "Savanna and woodland in northern and eastern Botswana.",
+   "food": "Plants and fungi, plus millipedes, snails and other invertebrates.",
+   "breeding": "Lays a few eggs in a hole in the ground.",
+   "titbit": "A hinge in the back of the top shell lets it close over the back legs.",
+   "draft": true
+  },
+  "Reptiles|Speke's hinged tortoise": {
    "size": "Shell usually 15-20 cm long.",
    "habitat": "Savanna and woodland in northern and eastern Botswana.",
    "food": "Plants and fungi, plus millipedes, snails and other invertebrates.",
@@ -31732,7 +35347,23 @@ window.AGA_DATA = {
    "titbit": "Has a horn above each eye. Cytotoxic venom causes pain and swelling; no confirmed human deaths.",
    "draft": true
   },
+  "Reptiles|Horned adder": {
+   "size": "Small adder, usually 30-40 cm; up to about 50 cm.",
+   "habitat": "Sandy arid areas, especially the Kalahari; buries itself in sand.",
+   "food": "Mainly lizards; also rodents and frogs.",
+   "breeding": "Gives birth to live young, usually 4-20.",
+   "titbit": "Has a horn above each eye. Cytotoxic venom causes pain and swelling; no confirmed human deaths.",
+   "draft": true
+  },
   "Rhombic night adder": {
+   "size": "Usually 40-60 cm; up to about 90 cm.",
+   "habitat": "Moist savanna near water, marshes and gardens in the east and north.",
+   "food": "Almost only toads and frogs.",
+   "breeding": "Lays eggs, unusual for an adder; usually 15-25.",
+   "titbit": "Mild cytotoxic venom causes pain and swelling but no recorded deaths. Has a V on the head.",
+   "draft": true
+  },
+  "Reptiles|Rhombic night adder": {
    "size": "Usually 40-60 cm; up to about 90 cm.",
    "habitat": "Moist savanna near water, marshes and gardens in the east and north.",
    "food": "Almost only toads and frogs.",
@@ -31748,7 +35379,23 @@ window.AGA_DATA = {
    "titbit": "Upturned snout; mild venom causes pain and swelling but is not dangerous to life.",
    "draft": true
   },
+  "Reptiles|Snouted night adder": {
+   "size": "Small, usually 20-35 cm.",
+   "habitat": "Moist savanna in northern Botswana.",
+   "food": "Mainly frogs and toads.",
+   "breeding": "Lays a small clutch of eggs.",
+   "titbit": "Upturned snout; mild venom causes pain and swelling but is not dangerous to life.",
+   "draft": true
+  },
   "Brown house snake": {
+   "size": "Usually 60-90 cm; females up to about 1.5 m.",
+   "habitat": "Almost everywhere, including around houses and camps.",
+   "food": "Mainly rodents, killed by constriction; also lizards.",
+   "breeding": "Lays 8-16 eggs in summer.",
+   "titbit": "Not venomous; a useful rat-catcher. Two pale lines run on each side of the head.",
+   "draft": true
+  },
+  "Reptiles|Brown house snake": {
    "size": "Usually 60-90 cm; females up to about 1.5 m.",
    "habitat": "Almost everywhere, including around houses and camps.",
    "food": "Mainly rodents, killed by constriction; also lizards.",
@@ -31764,7 +35411,23 @@ window.AGA_DATA = {
    "titbit": "Has no proper teeth and no venom; rasps its scales and strikes to bluff like an adder.",
    "draft": true
   },
+  "Reptiles|Common egg-eater": {
+   "size": "Usually 50-75 cm; up to about 1 m.",
+   "habitat": "Most habitats except true desert; often climbs into nests.",
+   "food": "Only birds' eggs, swallowed whole; the shell is crushed and spat out.",
+   "breeding": "Lays 6-25 eggs.",
+   "titbit": "Has no proper teeth and no venom; rasps its scales and strikes to bluff like an adder.",
+   "draft": true
+  },
   "Bark snake": {
+   "size": "Small, usually 25-35 cm.",
+   "habitat": "Tree trunks and branches in savanna woodland, especially mopane.",
+   "food": "Mainly geckos and small lizards.",
+   "breeding": "Lays a small clutch of eggs.",
+   "titbit": "Grey and well camouflaged on bark. Mildly venomous but harmless to people.",
+   "draft": true
+  },
+  "Reptiles|Bark snake": {
    "size": "Small, usually 25-35 cm.",
    "habitat": "Tree trunks and branches in savanna woodland, especially mopane.",
    "food": "Mainly geckos and small lizards.",
@@ -31780,7 +35443,23 @@ window.AGA_DATA = {
    "titbit": "Has small grooved fangs to subdue centipedes; harmless to people.",
    "draft": true
   },
+  "Reptiles|Black-headed centipede-eater": {
+   "size": "Small, usually 25-35 cm.",
+   "habitat": "Under stones, logs and in termite mounds in savanna.",
+   "food": "Almost only centipedes.",
+   "breeding": "Lays 2-4 eggs.",
+   "titbit": "Has small grooved fangs to subdue centipedes; harmless to people.",
+   "draft": true
+  },
   "Olive grass snake": {
+   "size": "Usually 1-1.4 m; up to about 1.8 m.",
+   "habitat": "Grassland and savanna, often near water.",
+   "food": "Rodents, lizards, frogs, birds and other snakes.",
+   "breeding": "Lays 10-30 eggs in summer.",
+   "titbit": "Fast and active by day. Mild venom may cause pain and swelling but is not dangerous.",
+   "draft": true
+  },
+  "Reptiles|Olive grass snake": {
    "size": "Usually 1-1.4 m; up to about 1.8 m.",
    "habitat": "Grassland and savanna, often near water.",
    "food": "Rodents, lizards, frogs, birds and other snakes.",
@@ -31796,7 +35475,23 @@ window.AGA_DATA = {
    "titbit": "Flattens its head and shows red lips when threatened. Mild venom, harmless to people.",
    "draft": true
   },
+  "Reptiles|Red-lipped herald snake": {
+   "size": "Usually 50-75 cm.",
+   "habitat": "Moist savanna, marshes and gardens, near water.",
+   "food": "Mainly frogs and toads.",
+   "breeding": "Lays 6-19 eggs.",
+   "titbit": "Flattens its head and shows red lips when threatened. Mild venom, harmless to people.",
+   "draft": true
+  },
   "Cape dwarf gecko": {
+   "size": "Tiny, usually 6-8 cm including the tail.",
+   "habitat": "Trees, fences and walls in savanna and around camps.",
+   "food": "Small insects such as ants and termites.",
+   "breeding": "Lays two hard-shelled eggs, often in shared sites under bark.",
+   "titbit": "Active by day, unlike most geckos, and has round pupils.",
+   "draft": true
+  },
+  "Reptiles|Cape dwarf gecko": {
    "size": "Tiny, usually 6-8 cm including the tail.",
    "habitat": "Trees, fences and walls in savanna and around camps.",
    "food": "Small insects such as ants and termites.",
@@ -31812,7 +35507,23 @@ window.AGA_DATA = {
    "titbit": "Males call 'click-click-click' from burrow entrances at dusk, a classic Kalahari sound.",
    "draft": true
   },
+  "Reptiles|Common barking gecko": {
+   "size": "Usually 8-10 cm long, including the tail.",
+   "habitat": "Flat Kalahari sands, living in burrows.",
+   "food": "Termites and other small insects.",
+   "breeding": "Lays one or two eggs.",
+   "titbit": "Males call 'click-click-click' from burrow entrances at dusk, a classic Kalahari sound.",
+   "draft": true
+  },
   "Southern tree agama": {
+   "size": "Usually 25-35 cm long, including the tail.",
+   "habitat": "Large trees in savanna and woodland.",
+   "food": "Mainly ants and beetles.",
+   "breeding": "Lays eggs in a hole in damp soil.",
+   "titbit": "Breeding males have a bright blue head; it bites hard if handled.",
+   "draft": true
+  },
+  "Reptiles|Southern tree agama": {
    "size": "Usually 25-35 cm long, including the tail.",
    "habitat": "Large trees in savanna and woodland.",
    "food": "Mainly ants and beetles.",
@@ -31828,7 +35539,23 @@ window.AGA_DATA = {
    "titbit": "Active, fast hunter that eats scorpions, even ones with strong venom.",
    "draft": true
   },
+  "Reptiles|Spotted sandveld lizard": {
+   "size": "Usually 20-30 cm long, including the tail.",
+   "habitat": "Sandy savanna and the Kalahari.",
+   "food": "Scorpions, spiders and large insects, often dug out of burrows.",
+   "breeding": "Lays a small clutch of eggs.",
+   "titbit": "Active, fast hunter that eats scorpions, even ones with strong venom.",
+   "draft": true
+  },
   "Striped skink": {
+   "size": "Usually 18-25 cm long, including the tail.",
+   "habitat": "Trees, rocks, walls and buildings; common around camps.",
+   "food": "Insects such as flies, beetles and grasshoppers.",
+   "breeding": "Gives birth to live young, usually 3-9.",
+   "titbit": "Two pale stripes down the back; very used to people and basks on lodge walls.",
+   "draft": true
+  },
+  "Reptiles|Striped skink": {
    "size": "Usually 18-25 cm long, including the tail.",
    "habitat": "Trees, rocks, walls and buildings; common around camps.",
    "food": "Insects such as flies, beetles and grasshoppers.",
@@ -31844,6 +35571,14 @@ window.AGA_DATA = {
    "titbit": "A large, sturdy gecko that squeaks and bites when caught.",
    "draft": true
   },
+  "Reptiles|Turner's thick-toed gecko": {
+   "size": "Usually 15-20 cm long, including the tail.",
+   "habitat": "Rocks, tree trunks and buildings in savanna.",
+   "food": "Insects and spiders.",
+   "breeding": "Lays two hard-shelled eggs.",
+   "titbit": "A large, sturdy gecko that squeaks and bites when caught.",
+   "draft": true
+  },
   "Variegated skink": {
    "size": "Usually 12-15 cm long, including the tail.",
    "habitat": "Dry rocky and sandy areas in the west and south-west.",
@@ -31851,7 +35586,22 @@ window.AGA_DATA = {
    "titbit": "Small, speckled ground skink that dashes between bushes and stones.",
    "draft": true
   },
+  "Reptiles|Variegated skink": {
+   "size": "Usually 12-15 cm long, including the tail.",
+   "habitat": "Dry rocky and sandy areas in the west and south-west.",
+   "food": "Small insects.",
+   "titbit": "Small, speckled ground skink that dashes between bushes and stones.",
+   "draft": true
+  },
   "Western three-striped skink": {
+   "size": "Usually 20-25 cm long, including the tail.",
+   "habitat": "Kalahari sands and dry savanna; often digs under bushes.",
+   "food": "Insects such as beetles, termites and grasshoppers.",
+   "breeding": "Gives birth to live young.",
+   "titbit": "Lives on the ground and digs burrows at the base of bushes.",
+   "draft": true
+  },
+  "Reptiles|Western three-striped skink": {
    "size": "Usually 20-25 cm long, including the tail.",
    "habitat": "Kalahari sands and dry savanna; often digs under bushes.",
    "food": "Insects such as beetles, termites and grasshoppers.",
@@ -31867,7 +35617,23 @@ window.AGA_DATA = {
    "titbit": "Has a fold of skin along each side; breeding males get a bright yellow or orange throat.",
    "draft": true
   },
+  "Reptiles|Yellow-throated plated lizard": {
+   "size": "Usually 30-45 cm long, including the tail.",
+   "habitat": "Savanna and grassland; shelters in burrows and under rocks.",
+   "food": "Insects; also some fruit and flowers.",
+   "breeding": "Lays eggs.",
+   "titbit": "Has a fold of skin along each side; breeding males get a bright yellow or orange throat.",
+   "draft": true
+  },
   "Southern Cross (Crux)": {
+   "size": "The smallest constellation, a kite-shaped cross of four bright stars in the Milky Way.",
+   "habitat": "High in the south on autumn and winter evenings (April to July); low in the south-east or south-west at other times.",
+   "food": "Look for the two bright Pointers; they point straight at the cross. A fainter fifth star sits off-centre.",
+   "breeding": "Tswana and Sotho see the Pointers and two brightest Cross stars as four giraffes; the /Xam saw lionesses.",
+   "titbit": "Extend the long axis of the cross 4.5 times to find celestial south, then drop straight down to the horizon.",
+   "draft": true
+  },
+  "Astronomy|Southern Cross (Crux)": {
    "size": "The smallest constellation, a kite-shaped cross of four bright stars in the Milky Way.",
    "habitat": "High in the south on autumn and winter evenings (April to July); low in the south-east or south-west at other times.",
    "food": "Look for the two bright Pointers; they point straight at the cross. A fainter fifth star sits off-centre.",
@@ -31883,7 +35649,23 @@ window.AGA_DATA = {
    "titbit": "Orion and Scorpius are never seen high in the sky together; they sit on opposite sides of the sky.",
    "draft": true
   },
+  "Astronomy|Orion": {
+   "size": "The great hunter, one of the brightest constellations, with red Betelgeuse and blue-white Rigel.",
+   "habitat": "Summer evenings (December to March), high in the north; from Botswana the hunter appears upside down.",
+   "food": "Find the three equal stars in a short straight row (the Belt); the four bright stars around them form the body.",
+   "breeding": "Greek myth: Apollo sent a scorpion to sting Orion, so Orion sets in the west as Scorpius rises in the east.",
+   "titbit": "Orion and Scorpius are never seen high in the sky together; they sit on opposite sides of the sky.",
+   "draft": true
+  },
   "Orion's Belt (Three Kings)": {
+   "size": "An asterism: three bright stars in a neat row that form the belt of Orion.",
+   "habitat": "Summer evenings (December to March), rising in the east after sunset and later high in the north.",
+   "food": "Three equal, bright stars in a short straight line; follow the line one way to Sirius.",
+   "breeding": "Tswana and Sotho call these stars Dikolobe, the three pigs; Khoikhoi saw three zebras.",
+   "titbit": "Follow the Belt one way to brilliant Sirius and the other way to orange Aldebaran.",
+   "draft": true
+  },
+  "Astronomy|Orion's Belt (Three Kings)": {
    "size": "An asterism: three bright stars in a neat row that form the belt of Orion.",
    "habitat": "Summer evenings (December to March), rising in the east after sunset and later high in the north.",
    "food": "Three equal, bright stars in a short straight line; follow the line one way to Sirius.",
@@ -31899,7 +35681,23 @@ window.AGA_DATA = {
    "titbit": "Sirius is only about 8.6 light years away, one of the closest stars to us.",
    "draft": true
   },
+  "Astronomy|Canis Major": {
+   "size": "The Great Dog constellation, home of Sirius, the brightest star in the night sky.",
+   "habitat": "Summer evenings (December to April), high overhead, just east of Orion.",
+   "food": "Follow Orion's Belt east (away from Aldebaran) to the very bright star Sirius, the dog's nose.",
+   "breeding": "In Greek stories it is one of Orion's hunting dogs following its master across the sky.",
+   "titbit": "Sirius is only about 8.6 light years away, one of the closest stars to us.",
+   "draft": true
+  },
   "Scorpius": {
+   "size": "The scorpion, a large hook-shaped constellation with the red giant Antares as its heart.",
+   "habitat": "Winter evenings (May to September); in mid-winter it is almost overhead in the early evening.",
+   "food": "Look for a long curved line of stars like a fish-hook, with bright red Antares near the top.",
+   "breeding": "Greek myth: the gods sent the scorpion to sting Orion; now Scorpius rises as Orion sets.",
+   "titbit": "Astronomical Scorpius is not the same as astrological Scorpio, which today falls in Libra.",
+   "draft": true
+  },
+  "Astronomy|Scorpius": {
    "size": "The scorpion, a large hook-shaped constellation with the red giant Antares as its heart.",
    "habitat": "Winter evenings (May to September); in mid-winter it is almost overhead in the early evening.",
    "food": "Look for a long curved line of stars like a fish-hook, with bright red Antares near the top.",
@@ -31915,7 +35713,23 @@ window.AGA_DATA = {
    "titbit": "Carina holds the Carina Nebula and the False Cross, which guests often confuse with the real Southern Cross.",
    "draft": true
   },
+  "Astronomy|Carina": {
+   "size": "The keel of a ship, home of Canopus, the second-brightest star in the night sky.",
+   "habitat": "Best on summer and autumn evenings (January to May), in the south and south-west.",
+   "food": "Find Canopus, the bright star far south of Sirius; the rest of Carina runs towards the Southern Cross.",
+   "breeding": "Once part of a giant ship constellation, Argo Navis, the ship of Jason and the Argonauts.",
+   "titbit": "Carina holds the Carina Nebula and the False Cross, which guests often confuse with the real Southern Cross.",
+   "draft": true
+  },
   "Taurus": {
+   "size": "The bull, with orange Aldebaran as the bull's eye and the Pleiades on its shoulder.",
+   "habitat": "Summer evenings (December to February), low in the north, to the left of Orion as you face north.",
+   "food": "Follow Orion's Belt away from Sirius to a V-shape of stars (the Hyades) with orange Aldebaran.",
+   "breeding": "In Greek myth Zeus turned himself into a white bull to carry off Princess Europa.",
+   "titbit": "Taurus is one of the 12 zodiac constellations, so planets and the Moon pass through it.",
+   "draft": true
+  },
+  "Astronomy|Taurus": {
    "size": "The bull, with orange Aldebaran as the bull's eye and the Pleiades on its shoulder.",
    "habitat": "Summer evenings (December to February), low in the north, to the left of Orion as you face north.",
    "food": "Follow Orion's Belt away from Sirius to a V-shape of stars (the Hyades) with orange Aldebaran.",
@@ -31931,7 +35745,23 @@ window.AGA_DATA = {
    "titbit": "A good one for a lion-loving safari crowd; the Leonid meteor shower comes from this area in November.",
    "draft": true
   },
+  "Astronomy|Leo": {
+   "size": "The lion, a zodiac constellation with the bright star Regulus.",
+   "habitat": "Autumn evenings (March to May), in the north.",
+   "food": "Look for a backwards question mark of stars (the Sickle) ending in bright Regulus, the lion's heart.",
+   "breeding": "Greek myth: the Nemean lion, killed by Hercules as the first of his twelve labours.",
+   "titbit": "A good one for a lion-loving safari crowd; the Leonid meteor shower comes from this area in November.",
+   "draft": true
+  },
   "The Pointers": {
+   "size": "Two bright stars of Centaurus, Alpha and Beta Centauri, that point to the Southern Cross.",
+   "habitat": "Autumn and winter evenings (April to August), high in the south, beside the Southern Cross.",
+   "food": "Find the two brightest stars near the Cross; a line from them points at the cross.",
+   "breeding": "Tswana and Sotho saw them as two giraffes; the /Xam (San) saw two male lions.",
+   "titbit": "They look like twins but are not: Alpha is about 4.3 light years away, Beta is over 300 light years away.",
+   "draft": true
+  },
+  "Astronomy|The Pointers": {
    "size": "Two bright stars of Centaurus, Alpha and Beta Centauri, that point to the Southern Cross.",
    "habitat": "Autumn and winter evenings (April to August), high in the south, beside the Southern Cross.",
    "food": "Find the two brightest stars near the Cross; a line from them points at the cross.",
@@ -31947,7 +35777,23 @@ window.AGA_DATA = {
    "titbit": "Light from Alpha Centauri takes over 4 years to reach us; Proxima is the closest star to Earth after the Sun.",
    "draft": true
   },
+  "Astronomy|Alpha Centauri": {
+   "size": "The nearest star system to the Sun: three stars, Alpha Centauri A and B and faint Proxima Centauri.",
+   "habitat": "Autumn and winter evenings, high in the south; it is the brighter of the two Pointers.",
+   "food": "Find the Southern Cross, then the brighter Pointer, the one further from the Cross.",
+   "breeding": "One of the four giraffes (Tswana and Sotho) or one of the two male lions (/Xam).",
+   "titbit": "Light from Alpha Centauri takes over 4 years to reach us; Proxima is the closest star to Earth after the Sun.",
+   "draft": true
+  },
   "Sirius": {
+   "size": "The brightest star in the night sky, a white star with a tiny white dwarf companion.",
+   "habitat": "Summer evenings (December to April), high in the east and later almost overhead.",
+   "food": "Follow Orion's Belt to the south-east to the brightest, twinkling star in the sky.",
+   "breeding": "Ancient Egyptians used the first dawn rising of Sirius to predict the yearly Nile flood.",
+   "titbit": "Sirius often flashes many colours when it is low, because our air bends and splits its light.",
+   "draft": true
+  },
+  "Astronomy|Sirius": {
    "size": "The brightest star in the night sky, a white star with a tiny white dwarf companion.",
    "habitat": "Summer evenings (December to April), high in the east and later almost overhead.",
    "food": "Follow Orion's Belt to the south-east to the brightest, twinkling star in the sky.",
@@ -31963,7 +35809,23 @@ window.AGA_DATA = {
    "titbit": "Canopus is much further away than Sirius (over 300 light years) but gives out thousands of times more light.",
    "draft": true
   },
+  "Astronomy|Canopus": {
+   "size": "The second-brightest star in the night sky, a white giant in the constellation Carina.",
+   "habitat": "Summer evenings high in the south (January to April); in winter it rises before dawn in the south-east.",
+   "food": "Look far to the south of Sirius for a second, almost as bright, white star.",
+   "breeding": "Sotho and Tswana call Canopus Naka (the horn); its dawn rising in winter was a sign of the new season.",
+   "titbit": "Canopus is much further away than Sirius (over 300 light years) but gives out thousands of times more light.",
+   "draft": true
+  },
   "Betelgeuse": {
+   "size": "A huge red supergiant star in Orion; if it replaced our Sun it would swallow Mars.",
+   "habitat": "Summer evenings (December to March) in the north; the orange-red star in Orion.",
+   "food": "Find Orion's Belt; Betelgeuse is the bright orange-red star on one side of it, opposite blue Rigel.",
+   "breeding": "In a Khoikhoi story Betelgeuse is a lion watching the three zebras of the Belt.",
+   "titbit": "Betelgeuse is near the end of its life and will one day explode as a supernova.",
+   "draft": true
+  },
+  "Astronomy|Betelgeuse": {
    "size": "A huge red supergiant star in Orion; if it replaced our Sun it would swallow Mars.",
    "habitat": "Summer evenings (December to March) in the north; the orange-red star in Orion.",
    "food": "Find Orion's Belt; Betelgeuse is the bright orange-red star on one side of it, opposite blue Rigel.",
@@ -31978,7 +35840,22 @@ window.AGA_DATA = {
    "titbit": "Compare Rigel and Betelgeuse with guests: star colour shows temperature, blue is hot and red is cooler.",
    "draft": true
   },
+  "Astronomy|Rigel": {
+   "size": "A very bright blue-white supergiant star in Orion, many thousands of times brighter than the Sun.",
+   "habitat": "Summer evenings (December to March); in Orion, high in the north.",
+   "food": "Find Orion's Belt; Rigel is the bright blue-white star on the opposite side from red Betelgeuse.",
+   "titbit": "Compare Rigel and Betelgeuse with guests: star colour shows temperature, blue is hot and red is cooler.",
+   "draft": true
+  },
   "Antares": {
+   "size": "A red supergiant star, the bright red heart of Scorpius.",
+   "habitat": "Winter evenings (May to September), almost overhead in mid-winter.",
+   "food": "Find the hook-shaped Scorpius; Antares is the bright red star in the body of the scorpion.",
+   "breeding": "Its name means \"rival of Mars\" because its red colour looks like the planet Mars.",
+   "titbit": "Antares is so big that it would reach past the orbit of Mars if it sat where our Sun is.",
+   "draft": true
+  },
+  "Astronomy|Antares": {
    "size": "A red supergiant star, the bright red heart of Scorpius.",
    "habitat": "Winter evenings (May to September), almost overhead in mid-winter.",
    "food": "Find the hook-shaped Scorpius; Antares is the bright red star in the body of the scorpion.",
@@ -31994,7 +35871,22 @@ window.AGA_DATA = {
    "titbit": "Aldebaran is not part of the V-shaped Hyades cluster; it lies about half as far away.",
    "draft": true
   },
+  "Astronomy|Aldebaran": {
+   "size": "An orange giant star, the bright eye of Taurus the bull.",
+   "habitat": "Summer evenings (December to February), low in the north.",
+   "food": "Follow Orion's Belt away from Sirius to a bright orange star at the tip of a V of stars.",
+   "breeding": "In a Khoikhoi story Aldebaran is the hunter whose arrow (Orion's sword) fell short of the three zebras.",
+   "titbit": "Aldebaran is not part of the V-shaped Hyades cluster; it lies about half as far away.",
+   "draft": true
+  },
   "Procyon": {
+   "size": "A bright white star in Canis Minor, the Little Dog, with a white dwarf companion.",
+   "habitat": "Summer evenings (December to April), in the north-east, east of Orion.",
+   "food": "Make a triangle with Sirius and Betelgeuse; Procyon is the bright star at the third corner.",
+   "titbit": "Its name means \"before the dog\" because it rises just before Sirius, the Dog Star, in northern lands.",
+   "draft": true
+  },
+  "Astronomy|Procyon": {
    "size": "A bright white star in Canis Minor, the Little Dog, with a white dwarf companion.",
    "habitat": "Summer evenings (December to April), in the north-east, east of Orion.",
    "food": "Make a triangle with Sirius and Betelgeuse; Procyon is the bright star at the third corner.",
@@ -32008,13 +35900,34 @@ window.AGA_DATA = {
    "titbit": "The south has no bright pole star, which is why we use the Southern Cross and Pointers to find south.",
    "draft": true
   },
+  "Astronomy|Polaris (North Star)": {
+   "size": "The North Star, which sits almost exactly above the Earth's North Pole.",
+   "habitat": "Not visible from Botswana: it is always below our northern horizon; guests from the north know it well.",
+   "food": "In the northern hemisphere, draw a line from Polaris straight down to the horizon to find true north.",
+   "titbit": "The south has no bright pole star, which is why we use the Southern Cross and Pointers to find south.",
+   "draft": true
+  },
   "The Sun": {
    "size": "Our own star, about 70% hydrogen and 28% helium, at the centre of the solar system.",
    "habitat": "Never look at the Sun directly or through binoculars; it can blind you.",
    "titbit": "Sunlight takes about 8 minutes to cross the 150 million km to Earth.",
    "draft": true
   },
+  "Astronomy|The Sun": {
+   "size": "Our own star, about 70% hydrogen and 28% helium, at the centre of the solar system.",
+   "habitat": "Never look at the Sun directly or through binoculars; it can blind you.",
+   "titbit": "Sunlight takes about 8 minutes to cross the 150 million km to Earth.",
+   "draft": true
+  },
   "Mercury": {
+   "size": "The smallest planet and the closest to the Sun, a rocky world covered in craters.",
+   "habitat": "Only low in the west just after sunset or low in the east just before sunrise, for a few weeks at a time.",
+   "food": "Look low near the horizon in bright twilight for a steady, star-like dot that does not twinkle.",
+   "breeding": "Named after the fast messenger of the Roman gods, because it moves quickly around the Sun.",
+   "titbit": "Mercury goes around the Sun in only 88 days.",
+   "draft": true
+  },
+  "Astronomy|Mercury": {
    "size": "The smallest planet and the closest to the Sun, a rocky world covered in craters.",
    "habitat": "Only low in the west just after sunset or low in the east just before sunrise, for a few weeks at a time.",
    "food": "Look low near the horizon in bright twilight for a steady, star-like dot that does not twinkle.",
@@ -32030,7 +35943,23 @@ window.AGA_DATA = {
    "titbit": "Venus is so bright it can cast a shadow on a dark night, far from lights.",
    "draft": true
   },
+  "Astronomy|Venus": {
+   "size": "The brightest planet, about the size of Earth, wrapped in thick white clouds.",
+   "habitat": "Only in the west after sunset (evening star) or in the east before sunrise (morning star).",
+   "food": "The brightest point of light in the sky after the Moon; it shines steadily and does not twinkle.",
+   "breeding": "Named after the Roman goddess of love; many cultures thought the evening and morning stars were different objects.",
+   "titbit": "Venus is so bright it can cast a shadow on a dark night, far from lights.",
+   "draft": true
+  },
   "Mars": {
+   "size": "The red planet, a small rocky world with iron-rich red dust.",
+   "habitat": "Varies year to year; it moves along the zodiac line, and is brightest about every 26 months.",
+   "food": "Look along the zodiac line for a steady orange-red point that does not twinkle.",
+   "breeding": "Named after the Roman god of war because of its blood-red colour.",
+   "titbit": "Mars has the largest volcano in the solar system, Olympus Mons, about three times as high as Everest.",
+   "draft": true
+  },
+  "Astronomy|Mars": {
    "size": "The red planet, a small rocky world with iron-rich red dust.",
    "habitat": "Varies year to year; it moves along the zodiac line, and is brightest about every 26 months.",
    "food": "Look along the zodiac line for a steady orange-red point that does not twinkle.",
@@ -32046,7 +35975,23 @@ window.AGA_DATA = {
    "titbit": "Jupiter's four big moons were discovered by Galileo in 1610 and can be seen with binoculars.",
    "draft": true
   },
+  "Astronomy|Jupiter": {
+   "size": "The largest planet, a gas giant more than 11 times wider than Earth.",
+   "habitat": "Moves slowly along the zodiac line; it can be seen through the whole night when well placed.",
+   "food": "Very bright and steady; binoculars show up to four tiny moons (the Galilean moons) in a line.",
+   "breeding": "Named after the king of the Roman gods.",
+   "titbit": "Jupiter's four big moons were discovered by Galileo in 1610 and can be seen with binoculars.",
+   "draft": true
+  },
   "Saturn": {
+   "size": "A gas giant planet with beautiful bright rings of ice and rock.",
+   "habitat": "Moves slowly along the zodiac line; it stays in roughly the same constellation for about two years.",
+   "food": "A steady, creamy-yellow point on the zodiac line; a small telescope shows the rings.",
+   "breeding": "Named after the Roman god of farming and time.",
+   "titbit": "Saturn is so light for its size that it would float in a big enough bath of water.",
+   "draft": true
+  },
+  "Astronomy|Saturn": {
    "size": "A gas giant planet with beautiful bright rings of ice and rock.",
    "habitat": "Moves slowly along the zodiac line; it stays in roughly the same constellation for about two years.",
    "food": "A steady, creamy-yellow point on the zodiac line; a small telescope shows the rings.",
@@ -32062,7 +36007,23 @@ window.AGA_DATA = {
    "titbit": "Only at full moon can a lunar eclipse happen.",
    "draft": true
   },
+  "Astronomy|Full moon": {
+   "size": "The Moon fully lit by the Sun, when the Earth lies between the Sun and the Moon.",
+   "habitat": "Rises in the east at sunset and sets in the west at sunrise.",
+   "food": "A full moon makes the sky bright, so stars and the Milky Way are hard to see.",
+   "breeding": "Some San believed eclipses happened when a lion covered the full moon with its paw so it could hunt.",
+   "titbit": "Only at full moon can a lunar eclipse happen.",
+   "draft": true
+  },
   "Crescent moon": {
+   "size": "A thin, less-than-half lit Moon; seen after new moon (waxing) or before new moon (waning).",
+   "habitat": "A waxing crescent is in the west after sunset; a waning crescent is in the east before sunrise.",
+   "food": "Look low in the west just after sunset a few days after new moon.",
+   "breeding": "Some San said the Sun's sharp rays cut pieces off the Moon-man until he begged for mercy and grew again.",
+   "titbit": "The faint glow on the dark part is earthshine: sunlight reflected from Earth onto the Moon.",
+   "draft": true
+  },
+  "Astronomy|Crescent moon": {
    "size": "A thin, less-than-half lit Moon; seen after new moon (waxing) or before new moon (waning).",
    "habitat": "A waxing crescent is in the west after sunset; a waning crescent is in the east before sunrise.",
    "food": "Look low in the west just after sunset a few days after new moon.",
@@ -32077,7 +36038,22 @@ window.AGA_DATA = {
    "titbit": "Along the line between light and dark, binoculars show craters and mountains in sharp shadow.",
    "draft": true
   },
+  "Astronomy|Gibbous moon": {
+   "size": "A more-than-half lit Moon, between first quarter and full moon or between full and third quarter.",
+   "habitat": "A waxing gibbous moon is high in the east in the early evening.",
+   "food": "Waxing means growing (new to full); waning means shrinking (full to new).",
+   "titbit": "Along the line between light and dark, binoculars show craters and mountains in sharp shadow.",
+   "draft": true
+  },
   "Milky Way": {
+   "size": "Our home galaxy, a spiral of up to 400 billion stars, about 100 000 light years across.",
+   "habitat": "Best on dark, moonless winter evenings (June to August), stretching overhead through Scorpius.",
+   "food": "Look for the band of misty light across a dark sky; it is brightest towards Scorpius and Sagittarius.",
+   "breeding": "San say a girl threw wood ashes into the sky to light the way home; Tswana call it Molalatladi.",
+   "titbit": "The band is our flat galaxy seen edge-on from inside; we see more stars when we look along the disc.",
+   "draft": true
+  },
+  "Astronomy|Milky Way": {
    "size": "Our home galaxy, a spiral of up to 400 billion stars, about 100 000 light years across.",
    "habitat": "Best on dark, moonless winter evenings (June to August), stretching overhead through Scorpius.",
    "food": "Look for the band of misty light across a dark sky; it is brightest towards Scorpius and Sagittarius.",
@@ -32093,7 +36069,23 @@ window.AGA_DATA = {
    "titbit": "One of only three galaxies (besides our own) that you can see with the naked eye.",
    "draft": true
   },
+  "Astronomy|Large Magellanic Cloud": {
+   "size": "A small galaxy close to our own, about 160 000 light years away.",
+   "habitat": "Best on summer evenings (November to March), high in the south.",
+   "food": "Looks like a detached piece of the Milky Way; find it about halfway between Canopus and the south pole.",
+   "breeding": "Named after the explorer Magellan, whose crew described the clouds on their voyage around the world.",
+   "titbit": "One of only three galaxies (besides our own) that you can see with the naked eye.",
+   "draft": true
+  },
   "Small Magellanic Cloud": {
+   "size": "A small galaxy close to our own, about 200 000 light years away.",
+   "habitat": "Best on spring and summer evenings (October to February), high in the south.",
+   "food": "A smaller misty patch than the Large Cloud, near the bright star Achernar.",
+   "breeding": "Named after the explorer Magellan, whose crew described the clouds on their voyage around the world.",
+   "titbit": "Light from the Small Cloud left it about 200 000 years ago, when modern humans first appeared in Africa.",
+   "draft": true
+  },
+  "Astronomy|Small Magellanic Cloud": {
    "size": "A small galaxy close to our own, about 200 000 light years away.",
    "habitat": "Best on spring and summer evenings (October to February), high in the south.",
    "food": "A smaller misty patch than the Large Cloud, near the bright star Achernar.",
@@ -32109,7 +36101,23 @@ window.AGA_DATA = {
    "titbit": "At about 2.5 million light years, it is the most distant object most people can see with the naked eye.",
    "draft": true
   },
+  "Astronomy|Andromeda Galaxy": {
+   "size": "A giant spiral galaxy, the nearest large galaxy to the Milky Way.",
+   "habitat": "Low in the north on spring evenings (October to December); needs a very dark sky.",
+   "food": "A faint oval smudge low in the north; easier to find with binoculars.",
+   "breeding": "Named after the princess Andromeda of Greek myth.",
+   "titbit": "At about 2.5 million light years, it is the most distant object most people can see with the naked eye.",
+   "draft": true
+  },
   "Pleiades (Seven Sisters)": {
+   "size": "A cluster of young, hot blue stars, the Seven Sisters, in Taurus.",
+   "habitat": "Summer evenings (November to February), low in the north; it disappears for a few weeks in May.",
+   "food": "Follow Orion's Belt past Aldebaran to a small, tight group of stars like a tiny dipper.",
+   "breeding": "Xhosa and Zulu call it Isilimela, Tswana Selemela; its return before dawn in June is the sign to plough.",
+   "titbit": "Most people see six or seven stars; binoculars show dozens.",
+   "draft": true
+  },
+  "Astronomy|Pleiades (Seven Sisters)": {
    "size": "A cluster of young, hot blue stars, the Seven Sisters, in Taurus.",
    "habitat": "Summer evenings (November to February), low in the north; it disappears for a few weeks in May.",
    "food": "Follow Orion's Belt past Aldebaran to a small, tight group of stars like a tiny dipper.",
@@ -32125,7 +36133,23 @@ window.AGA_DATA = {
    "titbit": "It is about 600 light years away and contains material for new stars.",
    "draft": true
   },
+  "Astronomy|Coalsack": {
+   "size": "A dark cloud of dust that blocks the light of the stars behind it.",
+   "habitat": "Autumn and winter evenings (April to July), beside the Southern Cross.",
+   "food": "Look for the dark hole in the Milky Way just next to the bottom-left of the Southern Cross.",
+   "breeding": "Aboriginal Australians see it as the head of a great Emu in the sky, whose body is dark dust lanes.",
+   "titbit": "It is about 600 light years away and contains material for new stars.",
+   "draft": true
+  },
   "Jewel Box": {
+   "size": "A small, bright cluster of young stars in the Southern Cross.",
+   "habitat": "Autumn and winter evenings (April to July), in the Southern Cross.",
+   "food": "Look just next to Beta Crux (the left-hand star of the Cross); binoculars show a fuzzy little group.",
+   "breeding": "John Herschel, observing from the Cape in the 1830s, compared it to a box of coloured jewels.",
+   "titbit": "Through a telescope one orange star stands out among the blue-white ones.",
+   "draft": true
+  },
+  "Astronomy|Jewel Box": {
    "size": "A small, bright cluster of young stars in the Southern Cross.",
    "habitat": "Autumn and winter evenings (April to July), in the Southern Cross.",
    "food": "Look just next to Beta Crux (the left-hand star of the Cross); binoculars show a fuzzy little group.",
@@ -32140,7 +36164,21 @@ window.AGA_DATA = {
    "titbit": "Early astronomers thought it was a single star, which is why it has a star name.",
    "draft": true
   },
+  "Astronomy|Omega Centauri": {
+   "size": "The biggest globular cluster of the Milky Way, a ball of about 10 million old stars.",
+   "habitat": "Autumn and winter evenings (April to July), high in the south-east to south.",
+   "food": "From the Southern Cross go up towards Centaurus; it looks like a fuzzy star to the naked eye.",
+   "titbit": "Early astronomers thought it was a single star, which is why it has a star name.",
+   "draft": true
+  },
   "Orion Nebula": {
+   "size": "A huge glowing cloud of gas where new stars are being born, about 1 300 light years away.",
+   "habitat": "Summer evenings (December to March), in Orion.",
+   "food": "Just next to Orion's Belt is a short line of stars (the sword); the middle 'star' is a misty patch.",
+   "titbit": "It is the brightest star nursery in the sky and easy to see in binoculars.",
+   "draft": true
+  },
+  "Astronomy|Orion Nebula": {
    "size": "A huge glowing cloud of gas where new stars are being born, about 1 300 light years away.",
    "habitat": "Summer evenings (December to March), in Orion.",
    "food": "Just next to Orion's Belt is a short line of stars (the sword); the middle 'star' is a misty patch.",
@@ -32155,7 +36193,22 @@ window.AGA_DATA = {
    "titbit": "Lunar eclipses are much more common to see than solar eclipses.",
    "draft": true
   },
+  "Astronomy|Lunar eclipse": {
+   "size": "The Earth's shadow covers the full moon, turning it a dull reddish-brown.",
+   "habitat": "Only at full moon; can be seen from anywhere on Earth where the Moon is up.",
+   "food": "Safe to watch with naked eyes or binoculars; check eclipse dates in advance.",
+   "breeding": "Some San believed a lion put his paw over the full moon because it was too light to hunt.",
+   "titbit": "Lunar eclipses are much more common to see than solar eclipses.",
+   "draft": true
+  },
   "Solar eclipse": {
+   "size": "The Moon passes between the Sun and the Earth and blocks the Sun.",
+   "habitat": "Only at new moon, and only in a narrow path on Earth; rare at any one place.",
+   "food": "Never look at the Sun with naked eyes, binoculars or a telescope; use proper eclipse glasses.",
+   "titbit": "In a total eclipse the Sun's glowing outer atmosphere, the corona, becomes visible.",
+   "draft": true
+  },
+  "Astronomy|Solar eclipse": {
    "size": "The Moon passes between the Sun and the Earth and blocks the Sun.",
    "habitat": "Only at new moon, and only in a narrow path on Earth; rare at any one place.",
    "food": "Never look at the Sun with naked eyes, binoculars or a telescope; use proper eclipse glasses.",
@@ -32169,7 +36222,21 @@ window.AGA_DATA = {
    "titbit": "Most shooting stars come from grains no bigger than a grain of sand.",
    "draft": true
   },
+  "Astronomy|Meteor (shooting star)": {
+   "size": "A streak of light made when a small space rock (meteoroid) burns up in our air.",
+   "habitat": "Any clear, dark night; more are seen after midnight.",
+   "food": "Lie back, let your eyes adjust to the dark for 20 minutes and watch a wide area of sky.",
+   "titbit": "Most shooting stars come from grains no bigger than a grain of sand.",
+   "draft": true
+  },
   "Meteor shower": {
+   "size": "Many meteors in one night, when Earth passes through dust left behind by a comet.",
+   "habitat": "Fixed dates each year; the manual names the Perseids (mid-August), Geminids (mid-December) are good from Botswana.",
+   "food": "The meteors seem to come from one point in the sky, which gives the shower its name.",
+   "titbit": "The Perseids sit low in the north from Botswana, so northern-hemisphere guests see more of them at home.",
+   "draft": true
+  },
+  "Astronomy|Meteor shower": {
    "size": "Many meteors in one night, when Earth passes through dust left behind by a comet.",
    "habitat": "Fixed dates each year; the manual names the Perseids (mid-August), Geminids (mid-December) are good from Botswana.",
    "food": "The meteors seem to come from one point in the sky, which gives the shower its name.",
@@ -32181,7 +36248,20 @@ window.AGA_DATA = {
    "titbit": "The world's largest known meteorite, Hoba (about 60 tonnes), lies in Namibia.",
    "draft": true
   },
+  "Astronomy|Meteorite": {
+   "size": "A space rock that survives its fall through the air and lands on Earth.",
+   "titbit": "The world's largest known meteorite, Hoba (about 60 tonnes), lies in Namibia.",
+   "draft": true
+  },
   "African Darter": {
+   "size": "About 79 cm.",
+   "habitat": "Rivers, lagoons, dams and the Okavango Delta; resident.",
+   "food": "Fish, speared underwater with its sharp, dagger-like bill.",
+   "breeding": "Breeds in colonies, often with herons, building stick nests in trees over water.",
+   "titbit": "It has no preen gland, so it sits with wings spread to dry; it swims with only its snake-like neck showing.",
+   "draft": true
+  },
+  "Birds|African Darter": {
    "size": "About 79 cm.",
    "habitat": "Rivers, lagoons, dams and the Okavango Delta; resident.",
    "food": "Fish, speared underwater with its sharp, dagger-like bill.",
@@ -32197,7 +36277,23 @@ window.AGA_DATA = {
    "titbit": "Like all herons, it flies with its neck folded back in an S-shape, unlike storks and cranes.",
    "draft": true
   },
+  "Birds|Grey Heron": {
+   "size": "About 100 cm.",
+   "habitat": "Rivers, pans, dams and wetlands across Botswana; resident.",
+   "food": "Mainly fish and frogs; also small mammals and other small animals.",
+   "breeding": "Stick nest in tall trees or reedbeds, usually in colonies.",
+   "titbit": "Like all herons, it flies with its neck folded back in an S-shape, unlike storks and cranes.",
+   "draft": true
+  },
   "African Sacred Ibis": {
+   "size": "About 89 cm.",
+   "habitat": "Wetlands, pans, farmlands and rubbish dumps; resident and nomadic.",
+   "food": "Insects, worms, frogs, carrion and food scraps.",
+   "breeding": "Breeds in colonies, building stick nests in trees, reedbeds or on islands.",
+   "titbit": "It was worshipped in ancient Egypt, and many were mummified.",
+   "draft": true
+  },
+  "Birds|African Sacred Ibis": {
    "size": "About 89 cm.",
    "habitat": "Wetlands, pans, farmlands and rubbish dumps; resident and nomadic.",
    "food": "Insects, worms, frogs, carrion and food scraps.",
@@ -32213,7 +36309,23 @@ window.AGA_DATA = {
    "titbit": "It follows buffalo and cattle to catch insects they flush; it spread naturally from Africa to the Americas.",
    "draft": true
   },
+  "Birds|Cattle Egret": {
+   "size": "About 54 cm.",
+   "habitat": "Grassland and floodplains near cattle and game; widespread, resident and nomadic.",
+   "food": "Mainly grasshoppers and other insects disturbed by grazing animals.",
+   "breeding": "Breeds in colonies with other herons; stick nests in trees or reeds over water.",
+   "titbit": "It follows buffalo and cattle to catch insects they flush; it spread naturally from Africa to the Americas.",
+   "draft": true
+  },
   "White-fronted Bee-eater": {
+   "size": "About 24 cm.",
+   "habitat": "Sandy riverbanks in the north (Chobe, Okavango) and east (Limpopo); resident.",
+   "food": "Flying insects, especially bees, caught in the air.",
+   "breeding": "Digs nest tunnels in sandy riverbanks, in colonies.",
+   "titbit": "Lives in family clans; non-breeding helpers bring food to the chicks of relatives.",
+   "draft": true
+  },
+  "Birds|White-fronted Bee-eater": {
    "size": "About 24 cm.",
    "habitat": "Sandy riverbanks in the north (Chobe, Okavango) and east (Limpopo); resident.",
    "food": "Flying insects, especially bees, caught in the air.",
@@ -32229,7 +36341,23 @@ window.AGA_DATA = {
    "titbit": "The largest heron in the world; it can stand still for a long time waiting for big fish.",
    "draft": true
   },
+  "Birds|Goliath Heron": {
+   "size": "About 140 cm.",
+   "habitat": "Large rivers, lagoons and the Okavango and Chobe wetlands; resident.",
+   "food": "Mainly large fish; also frogs and other water animals.",
+   "breeding": "Large stick nest in reedbeds or trees, usually as a single pair.",
+   "titbit": "The largest heron in the world; it can stand still for a long time waiting for big fish.",
+   "draft": true
+  },
   "Southern Pale Chanting Goshawk": {
+   "size": "About 55-63 cm.",
+   "habitat": "Dry, open savanna and Kalahari scrub; widespread resident.",
+   "food": "Lizards, rodents, insects and small birds, often caught on the ground.",
+   "breeding": "Stick nest in a tree, often a thorn tree.",
+   "titbit": "Named for its musical piping call, sung from a perch in the breeding season.",
+   "draft": true
+  },
+  "Birds|Southern Pale Chanting Goshawk": {
    "size": "About 55-63 cm.",
    "habitat": "Dry, open savanna and Kalahari scrub; widespread resident.",
    "food": "Lizards, rodents, insects and small birds, often caught on the ground.",
@@ -32245,7 +36373,23 @@ window.AGA_DATA = {
    "titbit": "Its thin bill cannot open a carcass, so it waits for bigger vultures; its bare face can flush red when excited.",
    "draft": true
   },
+  "Birds|Hooded Vulture": {
+   "size": "About 70 cm.",
+   "habitat": "Savanna and woodland in the north and east; resident; Critically Endangered (poisoning).",
+   "food": "Scraps from carcasses; also insects and other small items.",
+   "breeding": "Lays a single egg in a stick nest high in a tree.",
+   "titbit": "Its thin bill cannot open a carcass, so it waits for bigger vultures; its bare face can flush red when excited.",
+   "draft": true
+  },
   "Southern Grey-headed Sparrow": {
+   "size": "About 15 cm.",
+   "habitat": "Woodland, savanna, villages and camps; resident.",
+   "food": "Seeds and insects.",
+   "breeding": "Nests in tree holes or old nests of other birds, lined with grass and feathers.",
+   "titbit": "Male and female look alike, unlike most sparrows.",
+   "draft": true
+  },
+  "Birds|Southern Grey-headed Sparrow": {
    "size": "About 15 cm.",
    "habitat": "Woodland, savanna, villages and camps; resident.",
    "food": "Seeds and insects.",
@@ -32261,7 +36405,23 @@ window.AGA_DATA = {
    "titbit": "Long yellow wattles hang from the base of its bill.",
    "draft": true
   },
+  "Birds|White-crowned Lapwing": {
+   "size": "About 30 cm.",
+   "habitat": "Sandbanks of large rivers such as the Chobe, Okavango and Limpopo; resident.",
+   "food": "Insects and other small animals at the water's edge.",
+   "breeding": "Lays eggs in a scrape on a sandbank.",
+   "titbit": "Long yellow wattles hang from the base of its bill.",
+   "draft": true
+  },
   "Secretarybird": {
+   "size": "About 125-150 cm.",
+   "habitat": "Open grassland and savanna, including the Kalahari; resident.",
+   "food": "Insects, rodents, lizards and snakes, killed by stamping.",
+   "breeding": "Large, flat stick nest on top of a thorn tree.",
+   "titbit": "It kills snakes by stamping on them; its crest is said to look like pens behind a clerk's ear.",
+   "draft": true
+  },
+  "Birds|Secretarybird": {
    "size": "About 125-150 cm.",
    "habitat": "Open grassland and savanna, including the Kalahari; resident.",
    "food": "Insects, rodents, lizards and snakes, killed by stamping.",
@@ -32277,7 +36437,23 @@ window.AGA_DATA = {
    "titbit": "Africa's largest eagle; it can spot prey from several kilometres away.",
    "draft": true
   },
+  "Birds|Martial Eagle": {
+   "size": "About 78-83 cm.",
+   "habitat": "Savanna and woodland; resident; Near Threatened (persecution by farmers).",
+   "food": "Game birds, monitor lizards, mongooses, hares and young antelope.",
+   "breeding": "Huge stick nest in a tall tree; usually lays one egg.",
+   "titbit": "Africa's largest eagle; it can spot prey from several kilometres away.",
+   "draft": true
+  },
   "Red-eyed Dove": {
+   "size": "About 35 cm.",
+   "habitat": "Riverine woodland, tall trees and gardens, mainly north and east; resident.",
+   "food": "Seeds and fruit.",
+   "breeding": "Flimsy platform nest of twigs in a tree.",
+   "titbit": "Its call is often remembered as 'I am a red-eyed dove'.",
+   "draft": true
+  },
+  "Birds|Red-eyed Dove": {
    "size": "About 35 cm.",
    "habitat": "Riverine woodland, tall trees and gardens, mainly north and east; resident.",
    "food": "Seeds and fruit.",
@@ -32293,7 +36469,23 @@ window.AGA_DATA = {
    "titbit": "It spreads its wings over its head like an umbrella to shade the water while fishing.",
    "draft": true
   },
+  "Birds|Black Heron": {
+   "size": "About 66 cm.",
+   "habitat": "Shallow wetlands and floodplains, especially Okavango and Chobe; resident.",
+   "food": "Small fish.",
+   "breeding": "Breeds in colonies with other herons, in trees or reeds over water.",
+   "titbit": "It spreads its wings over its head like an umbrella to shade the water while fishing.",
+   "draft": true
+  },
   "Comb Duck": {
+   "size": "About 64-79 cm; the male is much larger than the female.",
+   "habitat": "Floodplains, pans and lagoons in the north; nomadic, more common in summer.",
+   "food": "Seeds, water plants and insects.",
+   "breeding": "Nests in tree holes, sometimes far from water.",
+   "titbit": "The breeding male has a large fleshy knob, or comb, on top of its bill.",
+   "draft": true
+  },
+  "Birds|Comb Duck": {
    "size": "About 64-79 cm; the male is much larger than the female.",
    "habitat": "Floodplains, pans and lagoons in the north; nomadic, more common in summer.",
    "food": "Seeds, water plants and insects.",
@@ -32309,7 +36501,23 @@ window.AGA_DATA = {
    "titbit": "The smallest dove in the region; the male has a black face and throat.",
    "draft": true
   },
+  "Birds|Namaqua Dove": {
+   "size": "About 26 cm, including the long tail.",
+   "habitat": "Dry savanna and Kalahari scrub; resident and nomadic.",
+   "food": "Small seeds picked up from the ground.",
+   "breeding": "Small, flimsy nest low in a bush.",
+   "titbit": "The smallest dove in the region; the male has a black face and throat.",
+   "draft": true
+  },
   "Kurrichane Thrush": {
+   "size": "About 22 cm.",
+   "habitat": "Woodland, riverine bush and gardens, mainly north and east; resident.",
+   "food": "Insects, worms and fruit.",
+   "breeding": "Cup nest in the fork of a tree.",
+   "titbit": "Easy to know by its bright orange bill and black stripes on the throat.",
+   "draft": true
+  },
+  "Birds|Kurrichane Thrush": {
    "size": "About 22 cm.",
    "habitat": "Woodland, riverine bush and gardens, mainly north and east; resident.",
    "food": "Insects, worms and fruit.",
@@ -32325,7 +36533,23 @@ window.AGA_DATA = {
    "titbit": "Introduced from Asia, it is invasive and takes nest holes from local birds.",
    "draft": true
   },
+  "Birds|Common Myna": {
+   "size": "About 25 cm.",
+   "habitat": "Towns and villages, mainly in the south-east; introduced, resident.",
+   "food": "Omnivorous: insects, fruit and food scraps.",
+   "breeding": "Nests in holes in buildings and trees.",
+   "titbit": "Introduced from Asia, it is invasive and takes nest holes from local birds.",
+   "draft": true
+  },
   "Red-backed Shrike": {
+   "size": "About 18 cm.",
+   "habitat": "Thornveld and savanna across Botswana; summer migrant from Europe and Asia.",
+   "food": "Insects, also small lizards and rodents.",
+   "breeding": "Does not breed here; it breeds in Europe and Asia.",
+   "titbit": "It stores prey by pushing it onto thorns, like a butcher's hook.",
+   "draft": true
+  },
+  "Birds|Red-backed Shrike": {
    "size": "About 18 cm.",
    "habitat": "Thornveld and savanna across Botswana; summer migrant from Europe and Asia.",
    "food": "Insects, also small lizards and rodents.",
@@ -32341,7 +36565,23 @@ window.AGA_DATA = {
    "titbit": "Flocks roost together in grass nests, even outside the breeding season.",
    "draft": true
   },
+  "Birds|Scaly-feathered Finch": {
+   "size": "About 10 cm.",
+   "habitat": "Dry thornveld and Kalahari scrub; resident.",
+   "food": "Small seeds, picked from the ground.",
+   "breeding": "Untidy ball nest of grass in a thorny tree.",
+   "titbit": "Flocks roost together in grass nests, even outside the breeding season.",
+   "draft": true
+  },
   "Yellow-billed Egret": {
+   "size": "About 68 cm.",
+   "habitat": "Floodplains, marshes and wetlands, mainly north; resident and nomadic.",
+   "food": "Fish, frogs and insects.",
+   "breeding": "Breeds in colonies with other herons, in trees or reeds over water.",
+   "titbit": "Smaller than a great egret; its gape line ends below the eye, not behind it.",
+   "draft": true
+  },
+  "Birds|Yellow-billed Egret": {
    "size": "About 68 cm.",
    "habitat": "Floodplains, marshes and wetlands, mainly north; resident and nomadic.",
    "food": "Fish, frogs and insects.",
@@ -32357,7 +36597,23 @@ window.AGA_DATA = {
    "titbit": "The breeding male loses its head feathers, showing bare yellow and black skin and wattles.",
    "draft": true
   },
+  "Birds|Wattled Starling": {
+   "size": "About 21 cm.",
+   "habitat": "Open savanna and grassland; nomadic, often in large flocks.",
+   "food": "Mainly insects, especially locusts; also fruit.",
+   "breeding": "Breeds in colonies, many stick nests packed together in thorny trees.",
+   "titbit": "The breeding male loses its head feathers, showing bare yellow and black skin and wattles.",
+   "draft": true
+  },
   "Tropical Boubou": {
+   "size": "About 21 cm.",
+   "habitat": "Dense riverine thickets in the north (Okavango, Chobe); resident.",
+   "food": "Insects and other small animals.",
+   "breeding": "Shallow cup nest in a thicket.",
+   "titbit": "Pairs sing duets so well-timed that it sounds like one bird.",
+   "draft": true
+  },
+  "Birds|Tropical Boubou": {
    "size": "About 21 cm.",
    "habitat": "Dense riverine thickets in the north (Okavango, Chobe); resident.",
    "food": "Insects and other small animals.",
@@ -32373,7 +36629,23 @@ window.AGA_DATA = {
    "titbit": "The breeding male has four long, thin tail feathers with spoon-shaped tips.",
    "draft": true
   },
+  "Birds|Shaft-tailed Whydah": {
+   "size": "Breeding male about 34 cm with tail; female about 12 cm.",
+   "habitat": "Dry thornveld and Kalahari savanna; resident.",
+   "food": "Small seeds.",
+   "breeding": "Brood parasite: lays its eggs in the nests of the violet-eared waxbill.",
+   "titbit": "The breeding male has four long, thin tail feathers with spoon-shaped tips.",
+   "draft": true
+  },
   "Black-headed Oriole": {
+   "size": "About 25 cm.",
+   "habitat": "Woodland and riverine forest; resident.",
+   "food": "Insects, fruit and nectar.",
+   "breeding": "Cup nest slung in the fork of an outer branch.",
+   "titbit": "Bright yellow with a black head and red bill; its call is a liquid whistle.",
+   "draft": true
+  },
+  "Birds|Black-headed Oriole": {
    "size": "About 25 cm.",
    "habitat": "Woodland and riverine forest; resident.",
    "food": "Insects, fruit and nectar.",
@@ -32389,7 +36661,23 @@ window.AGA_DATA = {
    "titbit": "Flocks fly fast and straight, calling a whistled 'ti-ti-ti'.",
    "draft": true
   },
+  "Birds|Red-faced Mousebird": {
+   "size": "About 34 cm.",
+   "habitat": "Savanna, woodland and gardens; resident.",
+   "food": "Fruit, leaves, flowers and nectar.",
+   "breeding": "Untidy cup nest in a bush or tree.",
+   "titbit": "Flocks fly fast and straight, calling a whistled 'ti-ti-ti'.",
+   "draft": true
+  },
   "Groundscraper Thrush": {
+   "size": "About 22 cm.",
+   "habitat": "Open woodland, especially mopane and dry savanna; resident.",
+   "food": "Insects and other small animals found on the ground.",
+   "breeding": "Cup nest in the fork of a tree.",
+   "titbit": "It often flicks one wing up after running a short way on the ground.",
+   "draft": true
+  },
+  "Birds|Groundscraper Thrush": {
    "size": "About 22 cm.",
    "habitat": "Open woodland, especially mopane and dry savanna; resident.",
    "food": "Insects and other small animals found on the ground.",
@@ -32405,7 +36693,23 @@ window.AGA_DATA = {
    "titbit": "Unlike the southern masked weaver, the male has a pale eye and its black mask covers the forehead.",
    "draft": true
   },
+  "Birds|Lesser Masked Weaver": {
+   "size": "About 14 cm.",
+   "habitat": "Savanna and woodland near water, mainly north and east; resident.",
+   "food": "Insects, seeds and nectar.",
+   "breeding": "Colonies of woven ball nests, often hanging over water.",
+   "titbit": "Unlike the southern masked weaver, the male has a pale eye and its black mask covers the forehead.",
+   "draft": true
+  },
   "Rufous-naped Lark": {
+   "size": "About 18 cm.",
+   "habitat": "Grassland and open savanna; resident.",
+   "food": "Seeds and insects.",
+   "breeding": "Domed grass nest on the ground, hidden in a tuft of grass.",
+   "titbit": "The male whistles from a bush top and claps its wings in a short display flight.",
+   "draft": true
+  },
+  "Birds|Rufous-naped Lark": {
    "size": "About 18 cm.",
    "habitat": "Grassland and open savanna; resident.",
    "food": "Seeds and insects.",
@@ -32421,7 +36725,23 @@ window.AGA_DATA = {
    "titbit": "Its black breast band and white eyebrow make it easy to know on bare ground.",
    "draft": true
   },
+  "Birds|Capped Wheatear": {
+   "size": "About 18 cm.",
+   "habitat": "Bare, short-grazed or burnt ground; resident and partly migratory.",
+   "food": "Insects, caught on the ground.",
+   "breeding": "Nests in old rodent burrows.",
+   "titbit": "Its black breast band and white eyebrow make it easy to know on bare ground.",
+   "draft": true
+  },
   "Hottentot Teal": {
+   "size": "About 35 cm.",
+   "habitat": "Shallow, vegetated wetlands, especially the Okavango; resident.",
+   "food": "Seeds, water plants and small water insects.",
+   "breeding": "Nest of grass and reeds, hidden near water.",
+   "titbit": "One of our smallest ducks; its blue bill and dark cap help to identify it.",
+   "draft": true
+  },
+  "Birds|Hottentot Teal": {
    "size": "About 35 cm.",
    "habitat": "Shallow, vegetated wetlands, especially the Okavango; resident.",
    "food": "Seeds, water plants and small water insects.",
@@ -32437,7 +36757,23 @@ window.AGA_DATA = {
    "titbit": "When disturbed, it kicks sand over its eggs to hide them.",
    "draft": true
   },
+  "Birds|Kittlitz's Plover": {
+   "size": "About 16 cm.",
+   "habitat": "Dry mud and short grass at the edges of pans and dams; resident.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Lays eggs in a scrape on bare ground.",
+   "titbit": "When disturbed, it kicks sand over its eggs to hide them.",
+   "draft": true
+  },
   "Red-headed Finch": {
+   "size": "About 13 cm.",
+   "habitat": "Dry savanna and Kalahari; resident and nomadic.",
+   "food": "Seeds.",
+   "breeding": "Usually uses old nests of weavers or sparrows.",
+   "titbit": "Flocks gather to drink at waterholes, often with other finches.",
+   "draft": true
+  },
+  "Birds|Red-headed Finch": {
    "size": "About 13 cm.",
    "habitat": "Dry savanna and Kalahari; resident and nomadic.",
    "food": "Seeds.",
@@ -32453,7 +36789,23 @@ window.AGA_DATA = {
    "titbit": "Its long, sad 'hoooo' call gives it the nickname 'ghostbird'.",
    "draft": true
   },
+  "Birds|Grey-headed Bushshrike": {
+   "size": "About 26 cm.",
+   "habitat": "Woodland and riverine forest, mainly north and east; resident.",
+   "food": "Large insects, lizards, small birds and even small snakes.",
+   "breeding": "Shallow cup nest in a tree.",
+   "titbit": "Its long, sad 'hoooo' call gives it the nickname 'ghostbird'.",
+   "draft": true
+  },
   "Black-crowned Night-heron": {
+   "size": "About 56 cm.",
+   "habitat": "Reedbeds and waterways, especially the Okavango; resident.",
+   "food": "Fish, frogs and insects.",
+   "breeding": "Breeds in colonies in reeds or trees over water.",
+   "titbit": "It roosts in thick cover by day and feeds at dusk and at night.",
+   "draft": true
+  },
+  "Birds|Black-crowned Night-heron": {
    "size": "About 56 cm.",
    "habitat": "Reedbeds and waterways, especially the Okavango; resident.",
    "food": "Fish, frogs and insects.",
@@ -32469,7 +36821,23 @@ window.AGA_DATA = {
    "titbit": "The breeding male has a chocolate-brown patch on the throat.",
    "draft": true
   },
+  "Birds|Southern Brown-throated Weaver": {
+   "size": "About 15 cm.",
+   "habitat": "Reedbeds and papyrus in the Okavango and Chobe; resident.",
+   "food": "Seeds and insects.",
+   "breeding": "Small woven nest attached to reeds over water.",
+   "titbit": "The breeding male has a chocolate-brown patch on the throat.",
+   "draft": true
+  },
   "Greater Kestrel": {
+   "size": "About 36 cm.",
+   "habitat": "Dry, open grassland and Kalahari savanna; resident.",
+   "food": "Insects, small rodents and lizards.",
+   "breeding": "Uses old nests of crows or other birds.",
+   "titbit": "Adults have a pale, whitish eye, unlike other kestrels.",
+   "draft": true
+  },
+  "Birds|Greater Kestrel": {
    "size": "About 36 cm.",
    "habitat": "Dry, open grassland and Kalahari savanna; resident.",
    "food": "Insects, small rodents and lizards.",
@@ -32485,7 +36853,23 @@ window.AGA_DATA = {
    "titbit": "It arrives with the summer rains, often in large flocks.",
    "draft": true
   },
+  "Birds|Abdim's Stork": {
+   "size": "About 76 cm.",
+   "habitat": "Grassland, pans and farmland; summer migrant from north of the equator.",
+   "food": "Insects, especially grasshoppers and caterpillars.",
+   "breeding": "Does not breed here; it breeds north of the equator.",
+   "titbit": "It arrives with the summer rains, often in large flocks.",
+   "draft": true
+  },
   "Jameson's Firefinch": {
+   "size": "About 11 cm.",
+   "habitat": "Thickets and dry woodland, mainly north and east; resident.",
+   "food": "Small seeds, picked from the ground.",
+   "breeding": "Ball nest of grass in a bush; host of the purple indigobird.",
+   "titbit": "Purple indigobirds lay their eggs in its nest, and the chicks grow up together.",
+   "draft": true
+  },
+  "Birds|Jameson's Firefinch": {
    "size": "About 11 cm.",
    "habitat": "Thickets and dry woodland, mainly north and east; resident.",
    "food": "Small seeds, picked from the ground.",
@@ -32501,7 +36885,23 @@ window.AGA_DATA = {
    "titbit": "It lays only one egg, very well camouflaged among dung pellets and stones.",
    "draft": true
   },
+  "Birds|Double-banded Courser": {
+   "size": "About 22 cm.",
+   "habitat": "Bare, open plains and pans, e.g. Kalahari and Makgadikgadi; resident.",
+   "food": "Insects, especially ants and termites.",
+   "breeding": "Lays a single egg on bare ground, often among antelope dung.",
+   "titbit": "It lays only one egg, very well camouflaged among dung pellets and stones.",
+   "draft": true
+  },
   "Red-necked Falcon": {
+   "size": "About 33 cm.",
+   "habitat": "Dry savanna, often near palms; resident.",
+   "food": "Mainly small birds caught in flight.",
+   "breeding": "Often uses old crow nests or nests in palms.",
+   "titbit": "Pairs often hunt together, chasing small birds.",
+   "draft": true
+  },
+  "Birds|Red-necked Falcon": {
    "size": "About 33 cm.",
    "habitat": "Dry savanna, often near palms; resident.",
    "food": "Mainly small birds caught in flight.",
@@ -32517,7 +36917,23 @@ window.AGA_DATA = {
    "titbit": "An all-black crow with a long, slender bill used for digging.",
    "draft": true
   },
+  "Birds|Cape Crow": {
+   "size": "About 50 cm.",
+   "habitat": "Open grassland, farmland and pans; resident.",
+   "food": "Omnivorous: insects, seeds, eggs and carrion.",
+   "breeding": "Stick nest in a tree or on a pylon.",
+   "titbit": "An all-black crow with a long, slender bill used for digging.",
+   "draft": true
+  },
   "Whiskered Tern": {
+   "size": "About 25 cm.",
+   "habitat": "Wetlands, pans and the Okavango; resident and nomadic.",
+   "food": "Insects, small fish and frogs.",
+   "breeding": "Builds floating nests of water plants, in colonies.",
+   "titbit": "It dips to pick food from the water surface rather than diving in.",
+   "draft": true
+  },
+  "Birds|Whiskered Tern": {
    "size": "About 25 cm.",
    "habitat": "Wetlands, pans and the Okavango; resident and nomadic.",
    "food": "Insects, small fish and frogs.",
@@ -32533,7 +36949,23 @@ window.AGA_DATA = {
    "titbit": "Groups huddle tightly together at night to keep warm.",
    "draft": true
   },
+  "Birds|Speckled Mousebird": {
+   "size": "About 33 cm.",
+   "habitat": "Thickets, riverine bush and gardens, mainly east; resident.",
+   "food": "Fruit, leaves and flowers.",
+   "breeding": "Untidy cup nest in a bush.",
+   "titbit": "Groups huddle tightly together at night to keep warm.",
+   "draft": true
+  },
   "Lesser Grey Shrike": {
+   "size": "About 22 cm.",
+   "habitat": "Thornveld and Kalahari savanna; summer migrant from Europe and Asia.",
+   "food": "Insects, especially beetles and grasshoppers.",
+   "breeding": "Does not breed here; it breeds in Europe and Asia.",
+   "titbit": "Its black mask stretches across the forehead, unlike similar shrikes.",
+   "draft": true
+  },
+  "Birds|Lesser Grey Shrike": {
    "size": "About 22 cm.",
    "habitat": "Thornveld and Kalahari savanna; summer migrant from Europe and Asia.",
    "food": "Insects, especially beetles and grasshoppers.",
@@ -32549,7 +36981,23 @@ window.AGA_DATA = {
    "titbit": "A large, plain flycatcher that looks and behaves like a chat.",
    "draft": true
   },
+  "Birds|Chat Flycatcher": {
+   "size": "About 20 cm.",
+   "habitat": "Dry Kalahari scrub and open savanna; resident.",
+   "food": "Insects, often caught on the ground.",
+   "breeding": "Cup nest in a bush or small tree.",
+   "titbit": "A large, plain flycatcher that looks and behaves like a chat.",
+   "draft": true
+  },
   "White-throated Robin-Chat": {
+   "size": "About 17 cm.",
+   "habitat": "Thickets in dry woodland, mainly east and south-east; resident.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Cup nest in a hollow or among roots.",
+   "titbit": "Found only in southern Africa.",
+   "draft": true
+  },
+  "Birds|White-throated Robin-Chat": {
    "size": "About 17 cm.",
    "habitat": "Thickets in dry woodland, mainly east and south-east; resident.",
    "food": "Insects and other small invertebrates.",
@@ -32565,7 +37013,23 @@ window.AGA_DATA = {
    "titbit": "Shows a white eyebrow, a brown breast band and white underwings.",
    "draft": true
   },
+  "Birds|Banded Martin": {
+   "size": "About 17 cm.",
+   "habitat": "Grassland, often near water; summer migrant within Africa.",
+   "food": "Flying insects.",
+   "breeding": "Digs a burrow in a sandbank.",
+   "titbit": "Shows a white eyebrow, a brown breast band and white underwings.",
+   "draft": true
+  },
   "Square-tailed Nightjar": {
+   "size": "About 24 cm.",
+   "habitat": "Sandy areas near water, such as riverbanks; resident.",
+   "food": "Flying insects, caught at dusk and at night.",
+   "breeding": "Lays eggs on bare ground, with no nest.",
+   "titbit": "Its call is a long churring trill, like a small engine.",
+   "draft": true
+  },
+  "Birds|Square-tailed Nightjar": {
    "size": "About 24 cm.",
    "habitat": "Sandy areas near water, such as riverbanks; resident.",
    "food": "Flying insects, caught at dusk and at night.",
@@ -32581,7 +37045,23 @@ window.AGA_DATA = {
    "titbit": "Unlike the greater honeyguide, it does not guide people to bees' nests.",
    "draft": true
   },
+  "Birds|Lesser Honeyguide": {
+   "size": "About 15 cm.",
+   "habitat": "Woodland and riverine forest; resident.",
+   "food": "Beeswax, bee larvae and insects.",
+   "breeding": "Brood parasite, mainly of barbets; the chick kills the host's chicks.",
+   "titbit": "Unlike the greater honeyguide, it does not guide people to bees' nests.",
+   "draft": true
+  },
   "African Wood Owl": {
+   "size": "About 33 cm.",
+   "habitat": "Riverine forest and dense woodland in the north; resident.",
+   "food": "Mainly insects; also small rodents.",
+   "breeding": "Nests in a hole in a tree.",
+   "titbit": "Pairs duet with a hooting call often written as 'who-are-you'.",
+   "draft": true
+  },
+  "Birds|African Wood Owl": {
    "size": "About 33 cm.",
    "habitat": "Riverine forest and dense woodland in the north; resident.",
    "food": "Mainly insects; also small rodents.",
@@ -32597,7 +37077,23 @@ window.AGA_DATA = {
    "titbit": "Its black eye-stripe goes behind the eye, unlike the Eurasian golden oriole.",
    "draft": true
   },
+  "Birds|African Golden Oriole": {
+   "size": "About 24 cm.",
+   "habitat": "Woodland and riverine forest; summer migrant within Africa.",
+   "food": "Insects and fruit.",
+   "breeding": "Cup nest slung in the fork of an outer branch.",
+   "titbit": "Its black eye-stripe goes behind the eye, unlike the Eurasian golden oriole.",
+   "draft": true
+  },
   "Fan-tailed Widowbird": {
+   "size": "About 17 cm.",
+   "habitat": "Moist grassland and marshes, e.g. Okavango; resident.",
+   "food": "Seeds and insects.",
+   "breeding": "Woven nest in tall grass.",
+   "titbit": "The breeding male is black with bright red shoulders.",
+   "draft": true
+  },
+  "Birds|Fan-tailed Widowbird": {
    "size": "About 17 cm.",
    "habitat": "Moist grassland and marshes, e.g. Okavango; resident.",
    "food": "Seeds and insects.",
@@ -32613,7 +37109,23 @@ window.AGA_DATA = {
    "titbit": "It sweeps its thin, upturned bill from side to side through the water.",
    "draft": true
   },
+  "Birds|Pied Avocet": {
+   "size": "About 43 cm.",
+   "habitat": "Shallow pans and salty water, e.g. Makgadikgadi; nomadic resident.",
+   "food": "Small water invertebrates.",
+   "breeding": "Lays eggs in a scrape near water.",
+   "titbit": "It sweeps its thin, upturned bill from side to side through the water.",
+   "draft": true
+  },
   "Cinnamon-breasted Bunting": {
+   "size": "About 15 cm.",
+   "habitat": "Rocky hills and stony slopes; resident.",
+   "food": "Seeds and insects.",
+   "breeding": "Cup nest in a rock crack or on the ground.",
+   "titbit": "A cinnamon bird with a black-and-white striped head, found on rocky ground.",
+   "draft": true
+  },
+  "Birds|Cinnamon-breasted Bunting": {
    "size": "About 15 cm.",
    "habitat": "Rocky hills and stony slopes; resident.",
    "food": "Seeds and insects.",
@@ -32629,7 +37141,23 @@ window.AGA_DATA = {
    "titbit": "Our smallest common wader, yet it flies from the Arctic every year.",
    "draft": true
   },
+  "Birds|Little Stint": {
+   "size": "About 14 cm.",
+   "habitat": "Muddy edges of pans and dams; summer migrant from Europe and Asia.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Does not breed here; it breeds in the Arctic.",
+   "titbit": "Our smallest common wader, yet it flies from the Arctic every year.",
+   "draft": true
+  },
   "Western Banded Snake-Eagle": {
+   "size": "About 55 cm.",
+   "habitat": "Riverine woodland, especially Okavango and Chobe; resident.",
+   "food": "Snakes, frogs and lizards.",
+   "breeding": "Stick nest hidden in the canopy of a tree.",
+   "titbit": "Its tail has a single broad white band.",
+   "draft": true
+  },
+  "Birds|Western Banded Snake-Eagle": {
    "size": "About 55 cm.",
    "habitat": "Riverine woodland, especially Okavango and Chobe; resident.",
    "food": "Snakes, frogs and lizards.",
@@ -32645,7 +37173,23 @@ window.AGA_DATA = {
    "titbit": "Before leaving in autumn, some moult into black breeding plumage.",
    "draft": true
   },
+  "Birds|White-winged Tern": {
+   "size": "About 23 cm.",
+   "habitat": "Wetlands and pans; summer migrant from Europe and Asia.",
+   "food": "Insects picked from the water surface or the air.",
+   "breeding": "Does not breed here; it breeds in Europe and Asia.",
+   "titbit": "Before leaving in autumn, some moult into black breeding plumage.",
+   "draft": true
+  },
   "Grey Crowned Crane": {
+   "size": "About 105 cm.",
+   "habitat": "Floodplains and wet grassland in the north; resident; Endangered (habitat loss).",
+   "food": "Seeds, insects, frogs and other small animals.",
+   "breeding": "Large nest of grass and reeds in a marsh.",
+   "titbit": "Pairs dance with jumps and bows; it is the national bird of Uganda.",
+   "draft": true
+  },
+  "Birds|Grey Crowned Crane": {
    "size": "About 105 cm.",
    "habitat": "Floodplains and wet grassland in the north; resident; Endangered (habitat loss).",
    "food": "Seeds, insects, frogs and other small animals.",
@@ -32661,7 +37205,23 @@ window.AGA_DATA = {
    "titbit": "Weighing about 9 g, it flies thousands of kilometres each way.",
    "draft": true
   },
+  "Birds|Willow Warbler": {
+   "size": "About 11 cm.",
+   "habitat": "Woodland, riverine bush and gardens; summer migrant from Europe and Asia.",
+   "food": "Small insects.",
+   "breeding": "Does not breed here; it breeds in Europe and Asia.",
+   "titbit": "Weighing about 9 g, it flies thousands of kilometres each way.",
+   "draft": true
+  },
   "Yellow-billed Stork": {
+   "size": "95-105 cm",
+   "habitat": "Wetlands, pans and floodplains, mainly in the Okavango and Chobe; resident and nomadic.",
+   "food": "Fish, frogs and water insects.",
+   "breeding": "Breeds in colonies in trees, often with herons and other storks.",
+   "titbit": "Its bill is packed with touch sensors; it feeds with the bill open in the water, snapping shut on prey.",
+   "draft": true
+  },
+  "Birds|Yellow-billed Stork": {
    "size": "95-105 cm",
    "habitat": "Wetlands, pans and floodplains, mainly in the Okavango and Chobe; resident and nomadic.",
    "food": "Fish, frogs and water insects.",
@@ -32677,7 +37237,23 @@ window.AGA_DATA = {
    "titbit": "Our smallest bee-eater; it beats bees against a perch to remove the sting before swallowing.",
    "draft": true
   },
+  "Birds|Little Bee-eater": {
+   "size": "15-17 cm",
+   "habitat": "Edges of woodland, reedbeds and riverbanks in the north and east; resident.",
+   "food": "Flying insects, including bees and wasps, caught from a low perch.",
+   "breeding": "Digs a tunnel nest in a sandy bank or in the ground.",
+   "titbit": "Our smallest bee-eater; it beats bees against a perch to remove the sting before swallowing.",
+   "draft": true
+  },
   "Saddle-billed Stork": {
+   "size": "145-150 cm",
+   "habitat": "Rivers, lagoons and floodplains of the Okavango, Chobe and Linyanti; resident.",
+   "food": "Mainly fish, also frogs and other small water animals.",
+   "breeding": "Pairs build a large stick nest on top of a tall tree, away from other storks.",
+   "titbit": "The female has a yellow eye; the male has a dark eye and small yellow wattles under the bill.",
+   "draft": true
+  },
+  "Birds|Saddle-billed Stork": {
    "size": "145-150 cm",
    "habitat": "Rivers, lagoons and floodplains of the Okavango, Chobe and Linyanti; resident.",
    "food": "Mainly fish, also frogs and other small water animals.",
@@ -32693,7 +37269,23 @@ window.AGA_DATA = {
    "titbit": "Its feathers get wet when diving, so it often perches with wings spread to dry them.",
    "draft": true
   },
+  "Birds|Reed Cormorant": {
+   "size": "50-55 cm",
+   "habitat": "Almost any river, lagoon, dam or pan with water; resident.",
+   "food": "Small fish and frogs, caught by swimming underwater.",
+   "breeding": "Breeds in colonies in trees or reeds over water, often with herons.",
+   "titbit": "Its feathers get wet when diving, so it often perches with wings spread to dry them.",
+   "draft": true
+  },
   "Little Egret": {
+   "size": "55-65 cm",
+   "habitat": "Shallow edges of rivers, lagoons and pans throughout; resident.",
+   "food": "Small fish, frogs and water insects.",
+   "breeding": "Breeds in mixed colonies in trees or reeds, with herons and cormorants.",
+   "titbit": "It has black legs with bright yellow feet, which it uses to stir up prey in shallow water.",
+   "draft": true
+  },
+  "Birds|Little Egret": {
    "size": "55-65 cm",
    "habitat": "Shallow edges of rivers, lagoons and pans throughout; resident.",
    "food": "Small fish, frogs and water insects.",
@@ -32709,7 +37301,23 @@ window.AGA_DATA = {
    "titbit": "The shiny blue-green colour comes from feather structure reflecting light, not from pigment.",
    "draft": true
   },
+  "Birds|Cape Glossy Starling": {
+   "size": "25 cm",
+   "habitat": "Savanna woodland, riverine bush and lodges; common resident.",
+   "food": "Fruit, insects and nectar.",
+   "breeding": "Nests in a tree hole, often an old barbet or woodpecker hole.",
+   "titbit": "The shiny blue-green colour comes from feather structure reflecting light, not from pigment.",
+   "draft": true
+  },
   "African Grey Hornbill": {
+   "size": "45-51 cm",
+   "habitat": "Savanna and woodland throughout; resident.",
+   "food": "Insects, small reptiles and fruit.",
+   "breeding": "The female seals herself into a tree hole and moults her feathers while incubating.",
+   "titbit": "The female has a red tip to her bill; the male's bill is dark with a cream stripe.",
+   "draft": true
+  },
+  "Birds|African Grey Hornbill": {
    "size": "45-51 cm",
    "habitat": "Savanna and woodland throughout; resident.",
    "food": "Insects, small reptiles and fruit.",
@@ -32725,7 +37333,23 @@ window.AGA_DATA = {
    "titbit": "Its long pink legs are among the longest of any bird compared to body size.",
    "draft": true
   },
+  "Birds|Black-winged Stilt": {
+   "size": "38 cm",
+   "habitat": "Shallow pans, floodplains and sewage ponds; resident and nomadic.",
+   "food": "Water insects and other small invertebrates picked from the water.",
+   "breeding": "Lays eggs in a scrape near water, often in small loose colonies.",
+   "titbit": "Its long pink legs are among the longest of any bird compared to body size.",
+   "draft": true
+  },
   "African Red-eyed Bulbul": {
+   "size": "19-21 cm",
+   "habitat": "Dry acacia savanna and Kalahari bush, also villages; resident.",
+   "food": "Soft fruit, insects and nectar.",
+   "breeding": "Builds a cup nest in a bush or small tree.",
+   "titbit": "Told from the Dark-capped Bulbul by the bright red ring around its eye.",
+   "draft": true
+  },
+  "Birds|African Red-eyed Bulbul": {
    "size": "19-21 cm",
    "habitat": "Dry acacia savanna and Kalahari bush, also villages; resident.",
    "food": "Soft fruit, insects and nectar.",
@@ -32741,7 +37365,23 @@ window.AGA_DATA = {
    "titbit": "Named for its soft, rising 'laughing' coo; unlike turtle doves it has no black neck collar.",
    "draft": true
   },
+  "Birds|Laughing Dove": {
+   "size": "25 cm",
+   "habitat": "Found almost everywhere, including villages and camps; common resident.",
+   "food": "Seeds, with a few insects.",
+   "breeding": "Builds a flimsy platform nest of twigs in a tree or bush.",
+   "titbit": "Named for its soft, rising 'laughing' coo; unlike turtle doves it has no black neck collar.",
+   "draft": true
+  },
   "Green Wood Hoopoe": {
+   "size": "30-36 cm",
+   "habitat": "Riverine woodland and tall trees in the north and east; resident.",
+   "food": "Insects and grubs probed from under bark with its long curved bill.",
+   "breeding": "Nests in a tree hole; the whole group helps feed the chicks.",
+   "titbit": "Groups make a loud cackling chorus; the Afrikaans name 'kakelaar' means cackler.",
+   "draft": true
+  },
+  "Birds|Green Wood Hoopoe": {
    "size": "30-36 cm",
    "habitat": "Riverine woodland and tall trees in the north and east; resident.",
    "food": "Insects and grubs probed from under bark with its long curved bill.",
@@ -32757,7 +37397,23 @@ window.AGA_DATA = {
    "titbit": "The male calls a loud rasping 'kerrak-kerrak' in display flight, then floats down with legs dangling.",
    "draft": true
   },
+  "Birds|Northern Black Korhaan": {
+   "size": "50-53 cm",
+   "habitat": "Open grassland and Kalahari scrub; resident.",
+   "food": "Insects and seeds.",
+   "breeding": "Lays one or two eggs on bare ground.",
+   "titbit": "The male calls a loud rasping 'kerrak-kerrak' in display flight, then floats down with legs dangling.",
+   "draft": true
+  },
   "Yellow-bellied Greenbul": {
+   "size": "20-23 cm",
+   "habitat": "Dense riverine thickets in the north, such as the Okavango and Chobe; resident.",
+   "food": "Fruit and insects.",
+   "breeding": "Builds a cup nest in a dense thicket.",
+   "titbit": "A shy bird of thick undergrowth, usually heard calling before it is seen.",
+   "draft": true
+  },
+  "Birds|Yellow-bellied Greenbul": {
    "size": "20-23 cm",
    "habitat": "Dense riverine thickets in the north, such as the Okavango and Chobe; resident.",
    "food": "Fruit and insects.",
@@ -32773,7 +37429,23 @@ window.AGA_DATA = {
    "titbit": "A dry-land kingfisher; the male has a black back and the female a brown back.",
    "draft": true
   },
+  "Birds|Brown-hooded Kingfisher": {
+   "size": "23-24 cm",
+   "habitat": "Woodland and savanna, not tied to water; resident.",
+   "food": "Insects, lizards and small rodents.",
+   "breeding": "Digs a tunnel nest in a sandbank or earth bank.",
+   "titbit": "A dry-land kingfisher; the male has a black back and the female a brown back.",
+   "draft": true
+  },
   "Green-backed Heron": {
+   "size": "40-44 cm",
+   "habitat": "Wooded edges of rivers and lagoons in the north; resident.",
+   "food": "Small fish, frogs and insects.",
+   "breeding": "Builds a stick platform nest in a tree over water, usually alone.",
+   "titbit": "This small heron has been seen dropping bait, such as insects, on water to lure fish.",
+   "draft": true
+  },
+  "Birds|Green-backed Heron": {
    "size": "40-44 cm",
    "habitat": "Wooded edges of rivers and lagoons in the north; resident.",
    "food": "Small fish, frogs and insects.",
@@ -32789,7 +37461,23 @@ window.AGA_DATA = {
    "titbit": "Easy to know by its red bill, dark cap and pale cheeks.",
    "draft": true
   },
+  "Birds|Red-billed Teal": {
+   "size": "43-48 cm",
+   "habitat": "Pans, floodplains and dams, especially after rain; resident and nomadic.",
+   "food": "Seeds, water plants and small invertebrates.",
+   "breeding": "Nests on the ground in grass near water, lining the nest with down.",
+   "titbit": "Easy to know by its red bill, dark cap and pale cheeks.",
+   "draft": true
+  },
   "White-bellied Sunbird": {
+   "size": "11-12 cm",
+   "habitat": "Acacia savanna and woodland throughout; resident.",
+   "food": "Nectar, insects and spiders.",
+   "breeding": "Builds a hanging, purse-shaped nest bound with spider web.",
+   "titbit": "Sunbirds are often parasitised by Klaas's Cuckoo; the male has a shiny green head and white belly.",
+   "draft": true
+  },
+  "Birds|White-bellied Sunbird": {
    "size": "11-12 cm",
    "habitat": "Acacia savanna and woodland throughout; resident.",
    "food": "Nectar, insects and spiders.",
@@ -32805,7 +37493,23 @@ window.AGA_DATA = {
    "titbit": "One bird often keeps watch as a sentinel; groups have loud, noisy fights at territory borders.",
    "draft": true
   },
+  "Birds|Southern Pied Babbler": {
+   "size": "26 cm",
+   "habitat": "Kalahari acacia savanna; resident, found only in southern Africa.",
+   "food": "Insects and other small animals found on the ground.",
+   "breeding": "Breeds in groups; the dominant pair nests and the others help feed the chicks.",
+   "titbit": "One bird often keeps watch as a sentinel; groups have loud, noisy fights at territory borders.",
+   "draft": true
+  },
   "Common Sandpiper": {
+   "size": "19-21 cm",
+   "habitat": "Edges of rivers, lagoons and dams; summer migrant from Europe and Asia.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Breeds in Europe and Asia, not in Botswana.",
+   "titbit": "It constantly bobs its tail and flies low over water with stiff, flickering wings.",
+   "draft": true
+  },
+  "Birds|Common Sandpiper": {
    "size": "19-21 cm",
    "habitat": "Edges of rivers, lagoons and dams; summer migrant from Europe and Asia.",
    "food": "Insects and other small invertebrates.",
@@ -32821,7 +37525,23 @@ window.AGA_DATA = {
    "titbit": "Unusual for an eagle, it often hovers while hunting for snakes.",
    "draft": true
   },
+  "Birds|Black-chested Snake Eagle": {
+   "size": "63-68 cm",
+   "habitat": "Open savanna and grassland throughout; resident.",
+   "food": "Mainly snakes, also lizards and small rodents.",
+   "breeding": "Builds a small stick nest on top of a tree and lays one egg.",
+   "titbit": "Unusual for an eagle, it often hovers while hunting for snakes.",
+   "draft": true
+  },
   "Giant Kingfisher": {
+   "size": "43-46 cm",
+   "habitat": "Rivers and lagoons with trees, mainly in the north; resident.",
+   "food": "Fish, crabs and frogs.",
+   "breeding": "Digs a long tunnel nest in a riverbank.",
+   "titbit": "Africa's largest kingfisher; the male has a rufous chest, the female a rufous belly.",
+   "draft": true
+  },
+  "Birds|Giant Kingfisher": {
    "size": "43-46 cm",
    "habitat": "Rivers and lagoons with trees, mainly in the north; resident.",
    "food": "Fish, crabs and frogs.",
@@ -32837,7 +37557,23 @@ window.AGA_DATA = {
    "titbit": "Often seen walking around camps and boats, wagging its long tail.",
    "draft": true
   },
+  "Birds|African Pied Wagtail": {
+   "size": "20 cm",
+   "habitat": "Rivers and lagoons in the north, also lodges and villages; resident.",
+   "food": "Insects picked from the ground and water edge.",
+   "breeding": "Builds a cup nest in a hole, bank or ledge, often near water.",
+   "titbit": "Often seen walking around camps and boats, wagging its long tail.",
+   "draft": true
+  },
   "Pink-backed Pelican": {
+   "size": "135-140 cm",
+   "habitat": "Large rivers and lagoons of the north; uncommon and nomadic.",
+   "food": "Fish.",
+   "breeding": "Breeds in colonies, building stick nests in trees.",
+   "titbit": "Smaller and greyer than the Great White Pelican, and nests in trees, not on the ground.",
+   "draft": true
+  },
+  "Birds|Pink-backed Pelican": {
    "size": "135-140 cm",
    "habitat": "Large rivers and lagoons of the north; uncommon and nomadic.",
    "food": "Fish.",
@@ -32853,7 +37589,23 @@ window.AGA_DATA = {
    "titbit": "Males are much bigger than females (called reeves) and grow a large neck ruff when breeding.",
    "draft": true
   },
+  "Birds|Ruff": {
+   "size": "24-30 cm",
+   "habitat": "Pans, floodplains and flooded grassland, often in flocks; summer migrant from Europe and Asia.",
+   "food": "Insects, worms and seeds.",
+   "breeding": "Breeds in Europe and Asia, where males display together at a lek.",
+   "titbit": "Males are much bigger than females (called reeves) and grow a large neck ruff when breeding.",
+   "draft": true
+  },
   "Speckled Pigeon": {
+   "size": "33 cm",
+   "habitat": "Rocky hills, cliffs, towns and buildings, mainly in the east; resident.",
+   "food": "Seeds and grain.",
+   "breeding": "Builds a twig platform nest on a ledge, often on buildings.",
+   "titbit": "Has bare red skin around the eye and white spots on its maroon wings.",
+   "draft": true
+  },
+  "Birds|Speckled Pigeon": {
    "size": "33 cm",
    "habitat": "Rocky hills, cliffs, towns and buildings, mainly in the east; resident.",
    "food": "Seeds and grain.",
@@ -32869,7 +37621,23 @@ window.AGA_DATA = {
    "titbit": "Its call sounds like two small stones being knocked together, hence the name.",
    "draft": true
   },
+  "Birds|African Stonechat": {
+   "size": "13-14 cm",
+   "habitat": "Open grassy areas and marsh edges; uncommon in Botswana.",
+   "food": "Insects, caught by dropping from a low perch.",
+   "breeding": "Builds a cup nest on the ground in a grass tuft.",
+   "titbit": "Its call sounds like two small stones being knocked together, hence the name.",
+   "draft": true
+  },
   "Long-tailed Paradise Whydah": {
+   "size": "15 cm (breeding male up to 38 cm)",
+   "habitat": "Acacia savanna and dry woodland; resident.",
+   "food": "Seeds picked from the ground.",
+   "breeding": "Lays its eggs in the nests of the Green-winged Pytilia, whose chicks are raised alongside.",
+   "titbit": "In summer the male grows very long, broad black tail feathers for display flights.",
+   "draft": true
+  },
+  "Birds|Long-tailed Paradise Whydah": {
    "size": "15 cm (breeding male up to 38 cm)",
    "habitat": "Acacia savanna and dry woodland; resident.",
    "food": "Seeds picked from the ground.",
@@ -32885,7 +37653,23 @@ window.AGA_DATA = {
    "titbit": "The breeding male has very long orange tail streamers.",
    "draft": true
   },
+  "Birds|African Paradise Flycatcher": {
+   "size": "17 cm (male tail up to 41 cm)",
+   "habitat": "Riverine woodland and tall trees in the north and east; mostly a summer visitor.",
+   "food": "Insects caught in flight.",
+   "breeding": "Builds a small, neat cup nest on a thin branch, covered with lichen.",
+   "titbit": "The breeding male has very long orange tail streamers.",
+   "draft": true
+  },
   "White-browed Scrub-Robin": {
+   "size": "15 cm",
+   "habitat": "Acacia thickets and savanna throughout; resident.",
+   "food": "Insects found on the ground.",
+   "breeding": "Builds a cup nest low in a bush or grass tuft.",
+   "titbit": "It fans and raises its tail to show white tips, and sings even in the heat of the day.",
+   "draft": true
+  },
+  "Birds|White-browed Scrub-Robin": {
    "size": "15 cm",
    "habitat": "Acacia thickets and savanna throughout; resident.",
    "food": "Insects found on the ground.",
@@ -32901,7 +37685,23 @@ window.AGA_DATA = {
    "titbit": "Our smallest sparrowhawk; it has a white rump and two white spots on the tail.",
    "draft": true
   },
+  "Birds|Little Sparrowhawk": {
+   "size": "23-27 cm",
+   "habitat": "Woodland and riverine forest; resident.",
+   "food": "Small birds, caught in fast surprise attacks.",
+   "breeding": "Builds a small stick nest high in a leafy tree.",
+   "titbit": "Our smallest sparrowhawk; it has a white rump and two white spots on the tail.",
+   "draft": true
+  },
   "African Wattled Lapwing": {
+   "size": "34-35 cm",
+   "habitat": "Damp grassland near wetlands, mainly in the north; resident.",
+   "food": "Insects and worms.",
+   "breeding": "Lays well-camouflaged eggs in a scrape on the ground.",
+   "titbit": "Named for the yellow wattles that hang from the base of its bill.",
+   "draft": true
+  },
+  "Birds|African Wattled Lapwing": {
    "size": "34-35 cm",
    "habitat": "Damp grassland near wetlands, mainly in the north; resident.",
    "food": "Insects and worms.",
@@ -32917,7 +37717,23 @@ window.AGA_DATA = {
    "titbit": "Has an orange bill; unlike the Kurrichane Thrush it lacks black stripes on the throat.",
    "draft": true
   },
+  "Birds|Karoo Thrush": {
+   "size": "22-24 cm",
+   "habitat": "Gardens and wooded areas in south-east Botswana; resident.",
+   "food": "Earthworms, insects and fruit.",
+   "breeding": "Builds a cup nest in the fork of a tree.",
+   "titbit": "Has an orange bill; unlike the Kurrichane Thrush it lacks black stripes on the throat.",
+   "draft": true
+  },
   "Black-chested Prinia": {
+   "size": "13-15 cm",
+   "habitat": "Dry savanna and Kalahari scrub; common resident.",
+   "food": "Insects.",
+   "breeding": "Builds an oval grass nest with a side entrance; may be parasitised by the Cuckoo Finch.",
+   "titbit": "The black chest band shows only in breeding plumage; in winter it is plain yellowish below.",
+   "draft": true
+  },
+  "Birds|Black-chested Prinia": {
    "size": "13-15 cm",
    "habitat": "Dry savanna and Kalahari scrub; common resident.",
    "food": "Insects.",
@@ -32933,7 +37749,23 @@ window.AGA_DATA = {
    "titbit": "Brought to southern Africa by people in the late 1800s and now found near most towns.",
    "draft": true
   },
+  "Birds|House Sparrow": {
+   "size": "14-15 cm",
+   "habitat": "Towns and villages; resident, introduced from Europe.",
+   "food": "Seeds, food scraps and insects.",
+   "breeding": "Builds an untidy grass nest in roofs and holes in buildings.",
+   "titbit": "Brought to southern Africa by people in the late 1800s and now found near most towns.",
+   "draft": true
+  },
   "Common Greenshank": {
+   "size": "30-35 cm",
+   "habitat": "Edges of rivers, pans and lagoons; summer migrant from Europe and Asia.",
+   "food": "Small fish, tadpoles and water invertebrates.",
+   "breeding": "Breeds in northern Europe and Asia, not in Botswana.",
+   "titbit": "It gives a loud 'tew-tew-tew' call and has a slightly upturned bill.",
+   "draft": true
+  },
+  "Birds|Common Greenshank": {
    "size": "30-35 cm",
    "habitat": "Edges of rivers, pans and lagoons; summer migrant from Europe and Asia.",
    "food": "Small fish, tadpoles and water invertebrates.",
@@ -32949,7 +37781,23 @@ window.AGA_DATA = {
    "titbit": "Also called the Dabchick; it dives at once when disturbed.",
    "draft": true
   },
+  "Birds|Little Grebe": {
+   "size": "20 cm",
+   "habitat": "Quiet open water with plants: lagoons, dams and pans; resident.",
+   "food": "Small fish, insects and tadpoles caught underwater.",
+   "breeding": "Builds a floating nest of water plants and covers the eggs with weed when it leaves.",
+   "titbit": "Also called the Dabchick; it dives at once when disturbed.",
+   "draft": true
+  },
   "Barn Owl": {
+   "size": "30-33 cm",
+   "habitat": "Almost everywhere, including buildings and hollow trees; resident.",
+   "food": "Mainly rodents, also small birds and insects.",
+   "breeding": "Lays eggs in hollow trees, buildings or old Hamerkop nests, without nest material.",
+   "titbit": "Its face disc collects sound, and moveable skin flaps at the ears help it find prey in the dark.",
+   "draft": true
+  },
+  "Birds|Barn Owl": {
    "size": "30-33 cm",
    "habitat": "Almost everywhere, including buildings and hollow trees; resident.",
    "food": "Mainly rodents, also small birds and insects.",
@@ -32965,7 +37813,23 @@ window.AGA_DATA = {
    "titbit": "Pipits belong to the same family as wagtails and are hard to tell apart from each other.",
    "draft": true
   },
+  "Birds|Plain-backed Pipit": {
+   "size": "17 cm",
+   "habitat": "Short grassland and burnt areas; resident.",
+   "food": "Insects found on the ground.",
+   "breeding": "Builds a cup nest on the ground at the base of a grass tuft.",
+   "titbit": "Pipits belong to the same family as wagtails and are hard to tell apart from each other.",
+   "draft": true
+  },
   "Acacia Pied Barbet": {
+   "size": "17-18 cm",
+   "habitat": "Dry acacia savanna throughout; resident.",
+   "food": "Fruit and insects.",
+   "breeding": "Digs a nest hole in a dead branch.",
+   "titbit": "Its strong bill can open tough fruit and dig holes; it has a red forehead and nasal call.",
+   "draft": true
+  },
+  "Birds|Acacia Pied Barbet": {
    "size": "17-18 cm",
    "habitat": "Dry acacia savanna throughout; resident.",
    "food": "Fruit and insects.",
@@ -32981,7 +37845,23 @@ window.AGA_DATA = {
    "titbit": "Flocks gather at waterholes to drink in dry areas; the male sings a lively song.",
    "draft": true
   },
+  "Birds|Yellow Canary": {
+   "size": "13 cm",
+   "habitat": "Dry Kalahari scrub in the south and west; resident.",
+   "food": "Seeds, buds and some insects.",
+   "breeding": "Builds a small cup nest in a bush.",
+   "titbit": "Flocks gather at waterholes to drink in dry areas; the male sings a lively song.",
+   "draft": true
+  },
   "Lesser Jacana": {
+   "size": "15-16 cm",
+   "habitat": "Floodplains and lagoons with floating plants in the Okavango and Chobe; resident.",
+   "food": "Water insects and small invertebrates.",
+   "breeding": "Lays eggs on a flimsy nest on floating plants.",
+   "titbit": "Much smaller than the African Jacana; shows white edges to the wings in flight.",
+   "draft": true
+  },
+  "Birds|Lesser Jacana": {
    "size": "15-16 cm",
    "habitat": "Floodplains and lagoons with floating plants in the Okavango and Chobe; resident.",
    "food": "Water insects and small invertebrates.",
@@ -32997,7 +37877,23 @@ window.AGA_DATA = {
    "titbit": "A plain grey wagtail with a narrow dark band across the chest.",
    "draft": true
   },
+  "Birds|Cape Wagtail": {
+   "size": "18 cm",
+   "habitat": "Near water, lawns and villages, mainly in the south and east; resident.",
+   "food": "Insects.",
+   "breeding": "Builds a cup nest in a bank, creeper or building.",
+   "titbit": "A plain grey wagtail with a narrow dark band across the chest.",
+   "draft": true
+  },
   "Barn Swallow": {
+   "size": "18 cm",
+   "habitat": "Open country and over water throughout; summer migrant from Europe and Asia.",
+   "food": "Flying insects.",
+   "breeding": "Breeds in Europe and Asia, building mud nests under roofs.",
+   "titbit": "Long wings help it migrate thousands of kilometres; huge numbers roost together in reedbeds.",
+   "draft": true
+  },
+  "Birds|Barn Swallow": {
    "size": "18 cm",
    "habitat": "Open country and over water throughout; summer migrant from Europe and Asia.",
    "food": "Flying insects.",
@@ -33013,7 +37909,23 @@ window.AGA_DATA = {
    "titbit": "A shy firefinch of the far north, usually seen near water in thick cover.",
    "draft": true
   },
+  "Birds|Brown Firefinch": {
+   "size": "10 cm",
+   "habitat": "Dense riverine thickets and reed edges in the Okavango and Chobe; resident.",
+   "food": "Small grass seeds.",
+   "breeding": "Builds a ball-shaped grass nest in a thicket.",
+   "titbit": "A shy firefinch of the far north, usually seen near water in thick cover.",
+   "draft": true
+  },
   "Village Weaver": {
+   "size": "15-17 cm",
+   "habitat": "Riverine trees, reeds and villages, mainly in the north; resident.",
+   "food": "Seeds and insects.",
+   "breeding": "Breeds in colonies; males weave many ball nests and may have several females.",
+   "titbit": "In summer the male turns bright yellow with a black face and spotted back.",
+   "draft": true
+  },
+  "Birds|Village Weaver": {
    "size": "15-17 cm",
    "habitat": "Riverine trees, reeds and villages, mainly in the north; resident.",
    "food": "Seeds and insects.",
@@ -33029,7 +37941,23 @@ window.AGA_DATA = {
    "titbit": "In summer the male turns bright red and black and puffs up his feathers to display.",
    "draft": true
   },
+  "Birds|Southern Red Bishop": {
+   "size": "14 cm",
+   "habitat": "Reedbeds, wetlands and nearby grassland; resident.",
+   "food": "Seeds.",
+   "breeding": "Weaves oval nests in reeds; one male may have several females.",
+   "titbit": "In summer the male turns bright red and black and puffs up his feathers to display.",
+   "draft": true
+  },
   "Village Indigobird": {
+   "size": "11 cm",
+   "habitat": "Savanna, woodland and villages; resident.",
+   "food": "Small seeds picked from the ground.",
+   "breeding": "Lays its eggs in Red-billed Firefinch nests; the host's chicks are raised alongside.",
+   "titbit": "The male copies the song of its host, the Red-billed Firefinch.",
+   "draft": true
+  },
+  "Birds|Village Indigobird": {
    "size": "11 cm",
    "habitat": "Savanna, woodland and villages; resident.",
    "food": "Small seeds picked from the ground.",
@@ -33045,7 +37973,23 @@ window.AGA_DATA = {
    "titbit": "Nomadic: it can suddenly appear in large flocks after good rains.",
    "draft": true
   },
+  "Birds|Lark-like Bunting": {
+   "size": "13-14 cm",
+   "habitat": "Dry Kalahari scrub and grassland; nomadic.",
+   "food": "Seeds.",
+   "breeding": "Builds a cup nest on the ground.",
+   "titbit": "Nomadic: it can suddenly appear in large flocks after good rains.",
+   "draft": true
+  },
   "Red-capped Lark": {
+   "size": "15 cm",
+   "habitat": "Short grassland, pan edges and burnt areas; resident and nomadic.",
+   "food": "Insects and seeds.",
+   "breeding": "Builds a cup nest on the ground next to a grass tuft.",
+   "titbit": "It raises its rufous crown when calling or displaying.",
+   "draft": true
+  },
+  "Birds|Red-capped Lark": {
    "size": "15 cm",
    "habitat": "Short grassland, pan edges and burnt areas; resident and nomadic.",
    "food": "Insects and seeds.",
@@ -33061,7 +38005,23 @@ window.AGA_DATA = {
    "titbit": "Called the 'rainbird': its bubbling 'doo-doo-doo' call is often heard before rain.",
    "draft": true
   },
+  "Birds|Burchell's Coucal": {
+   "size": "41-44 cm",
+   "habitat": "Thickets, reed edges and riverine bush in the north and east; resident.",
+   "food": "Insects, frogs, lizards, small rodents and nestlings.",
+   "breeding": "Builds a large domed grass nest in thick bush and raises its own young.",
+   "titbit": "Called the 'rainbird': its bubbling 'doo-doo-doo' call is often heard before rain.",
+   "draft": true
+  },
   "Familiar Chat": {
+   "size": "14-15 cm",
+   "habitat": "Rocky hills, buildings and farmyards, mainly in the east; resident.",
+   "food": "Insects.",
+   "breeding": "Builds a cup nest in a hole or crevice in rock or a building.",
+   "titbit": "Flicks its wings when it lands; the Afrikaans name 'spekvreter' means fat-eater.",
+   "draft": true
+  },
+  "Birds|Familiar Chat": {
    "size": "14-15 cm",
    "habitat": "Rocky hills, buildings and farmyards, mainly in the east; resident.",
    "food": "Insects.",
@@ -33077,7 +38037,23 @@ window.AGA_DATA = {
    "titbit": "It feeds with its head upside down; its pink colour comes from its food.",
    "draft": true
   },
+  "Birds|Greater Flamingo": {
+   "size": "127-165 cm",
+   "habitat": "Flooded salt pans, especially Makgadikgadi; nomadic.",
+   "food": "Small crustaceans and insect larvae filtered from mud.",
+   "breeding": "Breeds in colonies on flooded pans, laying one egg on a mud mound.",
+   "titbit": "It feeds with its head upside down; its pink colour comes from its food.",
+   "draft": true
+  },
   "Shikra": {
+   "size": "26-30 cm",
+   "habitat": "Savanna and woodland throughout; resident.",
+   "food": "Lizards, small birds and large insects.",
+   "breeding": "Builds a small stick nest in a leafy tree.",
+   "titbit": "Formerly called the Little Banded Goshawk; adults have a deep red eye.",
+   "draft": true
+  },
+  "Birds|Shikra": {
    "size": "26-30 cm",
    "habitat": "Savanna and woodland throughout; resident.",
    "food": "Lizards, small birds and large insects.",
@@ -33093,7 +38069,23 @@ window.AGA_DATA = {
    "titbit": "The breeding male is black and white with a red bill and long tail, and chases other birds away.",
    "draft": true
   },
+  "Birds|Pin-tailed Whydah": {
+   "size": "12-13 cm (breeding male up to 34 cm)",
+   "habitat": "Open grassland, savanna edges and gardens; resident.",
+   "food": "Small seeds.",
+   "breeding": "Lays its eggs in waxbill nests, mostly the Common Waxbill.",
+   "titbit": "The breeding male is black and white with a red bill and long tail, and chases other birds away.",
+   "draft": true
+  },
   "Long-crested Eagle": {
+   "size": "53-58 cm",
+   "habitat": "Wooded edges of wetlands in the far north; uncommon.",
+   "food": "Mainly rodents.",
+   "breeding": "Builds a stick nest in a tall tree.",
+   "titbit": "Its long, floppy crest blows in the wind; white wing patches show in flight.",
+   "draft": true
+  },
+  "Birds|Long-crested Eagle": {
    "size": "53-58 cm",
    "habitat": "Wooded edges of wetlands in the far north; uncommon.",
    "food": "Mainly rodents.",
@@ -33109,7 +38101,23 @@ window.AGA_DATA = {
    "titbit": "A bird of concern (Near Threatened) because of heavy pesticide use in Europe.",
    "draft": true
   },
+  "Birds|European Roller": {
+   "size": "30-31 cm",
+   "habitat": "Open savanna throughout; summer migrant from Europe and Asia.",
+   "food": "Large insects such as beetles and grasshoppers, caught from a perch.",
+   "breeding": "Breeds in tree holes in Europe and Asia, not in Botswana.",
+   "titbit": "A bird of concern (Near Threatened) because of heavy pesticide use in Europe.",
+   "draft": true
+  },
   "Amur Falcon": {
+   "size": "28-30 cm",
+   "habitat": "Open savanna and grassland, often in flocks; summer migrant from eastern Asia.",
+   "food": "Insects such as termites and grasshoppers.",
+   "breeding": "Breeds in eastern Asia, not in Botswana.",
+   "titbit": "It makes one of the longest raptor migrations, crossing the Indian Ocean from Asia.",
+   "draft": true
+  },
+  "Birds|Amur Falcon": {
    "size": "28-30 cm",
    "habitat": "Open savanna and grassland, often in flocks; summer migrant from eastern Asia.",
    "food": "Insects such as termites and grasshoppers.",
@@ -33125,7 +38133,23 @@ window.AGA_DATA = {
    "titbit": "The male has a black chest band; the female has a buff throat and chest.",
    "draft": true
   },
+  "Birds|Pririt Batis": {
+   "size": "12 cm",
+   "habitat": "Dry acacia savanna and Kalahari bush; resident.",
+   "food": "Small insects.",
+   "breeding": "Builds a tiny cup nest bound with spider web on a branch.",
+   "titbit": "The male has a black chest band; the female has a buff throat and chest.",
+   "draft": true
+  },
   "Pygmy Falcon": {
+   "size": "19-20 cm",
+   "habitat": "Dry Kalahari savanna in the south and west; resident.",
+   "food": "Insects, lizards and small rodents.",
+   "breeding": "Nests in the chambers of Sociable Weaver nests.",
+   "titbit": "Africa's smallest raptor; only the female has a chestnut back.",
+   "draft": true
+  },
+  "Birds|Pygmy Falcon": {
    "size": "19-20 cm",
    "habitat": "Dry Kalahari savanna in the south and west; resident.",
    "food": "Insects, lizards and small rodents.",
@@ -33141,7 +38165,23 @@ window.AGA_DATA = {
    "titbit": "Like a small, slim greenshank with a very thin, straight bill.",
    "draft": true
   },
+  "Birds|Marsh Sandpiper": {
+   "size": "22-25 cm",
+   "habitat": "Pans, floodplains and lagoon edges; summer migrant from Europe and Asia.",
+   "food": "Small water invertebrates.",
+   "breeding": "Breeds in Europe and Asia, not in Botswana.",
+   "titbit": "Like a small, slim greenshank with a very thin, straight bill.",
+   "draft": true
+  },
   "Rock Kestrel": {
+   "size": "30-33 cm",
+   "habitat": "Rocky hills and open country, mainly in the south and east; resident.",
+   "food": "Insects, lizards and small rodents.",
+   "breeding": "Nests on a cliff ledge or in an old crow nest.",
+   "titbit": "Often hovers in the wind while searching the ground for prey.",
+   "draft": true
+  },
+  "Birds|Rock Kestrel": {
    "size": "30-33 cm",
    "habitat": "Rocky hills and open country, mainly in the south and east; resident.",
    "food": "Insects, lizards and small rodents.",
@@ -33157,7 +38197,23 @@ window.AGA_DATA = {
    "titbit": "Raids crocodile nests for eggs; its bare head stays clean when it feeds inside a carcass.",
    "draft": true
   },
+  "Birds|Marabou Stork": {
+   "size": "150 cm",
+   "habitat": "Savanna and wetlands, mainly in the north; resident and nomadic.",
+   "food": "Carrion, fish, frogs, termites and other small animals.",
+   "breeding": "Breeds in colonies, with stick nests high in tall trees, in the dry season.",
+   "titbit": "Raids crocodile nests for eggs; its bare head stays clean when it feeds inside a carcass.",
+   "draft": true
+  },
   "Squacco Heron": {
+   "size": "43 cm",
+   "habitat": "Edges of the Okavango, Chobe and other wetlands with floating plants; resident.",
+   "food": "Small fish, frogs and water insects.",
+   "breeding": "Breeds in colonies with other herons, in reedbeds or trees over water.",
+   "titbit": "Looks buff-brown when standing, but suddenly turns white when it opens its wings to fly.",
+   "draft": true
+  },
+  "Birds|Squacco Heron": {
    "size": "43 cm",
    "habitat": "Edges of the Okavango, Chobe and other wetlands with floating plants; resident.",
    "food": "Small fish, frogs and water insects.",
@@ -33173,7 +38229,23 @@ window.AGA_DATA = {
    "titbit": "Its tail is so short that it rocks from side to side in flight; Near Threatened by poisoning.",
    "draft": true
   },
+  "Birds|Bateleur": {
+   "size": "55–70 cm",
+   "habitat": "Savanna and woodland, most common in Chobe and the north; resident.",
+   "food": "Carrion, small mammals, birds and reptiles; often steals food from other raptors.",
+   "breeding": "Stick nest high in a large tree; lays a single egg.",
+   "titbit": "Its tail is so short that it rocks from side to side in flight; Near Threatened by poisoning.",
+   "draft": true
+  },
   "Long-toed Lapwing": {
+   "size": "30 cm",
+   "habitat": "Floating vegetation in the Okavango, Linyanti and Chobe; resident.",
+   "food": "Water insects, snails and other small invertebrates.",
+   "breeding": "Nests on floating plants or small islands in the swamp.",
+   "titbit": "Its very long toes spread its weight so it can walk on lily pads, like a jacana.",
+   "draft": true
+  },
+  "Birds|Long-toed Lapwing": {
    "size": "30 cm",
    "habitat": "Floating vegetation in the Okavango, Linyanti and Chobe; resident.",
    "food": "Water insects, snails and other small invertebrates.",
@@ -33189,7 +38261,23 @@ window.AGA_DATA = {
    "titbit": "Its turquoise, black-barred crest reaches the eye, unlike the similar African Pygmy Kingfisher.",
    "draft": true
   },
+  "Birds|Malachite Kingfisher": {
+   "size": "14 cm",
+   "habitat": "Reedbeds and plant-covered edges of rivers and lagoons; resident.",
+   "food": "Small fish, tadpoles and water insects.",
+   "breeding": "Digs a tunnel nest in a riverbank or the side of a termite mound near water.",
+   "titbit": "Its turquoise, black-barred crest reaches the eye, unlike the similar African Pygmy Kingfisher.",
+   "draft": true
+  },
   "Black Kite": {
+   "size": "55 cm",
+   "habitat": "Savanna and open country; summer migrant from Europe and Asia.",
+   "food": "Insects such as flying termites, small animals and carrion.",
+   "breeding": "Does not breed in southern Africa; it breeds in Europe and Asia.",
+   "titbit": "A long-distance migrant with long wings; flocks gather at fires and termite emergences.",
+   "draft": true
+  },
+  "Birds|Black Kite": {
    "size": "55 cm",
    "habitat": "Savanna and open country; summer migrant from Europe and Asia.",
    "food": "Insects such as flying termites, small animals and carrion.",
@@ -33205,7 +38293,23 @@ window.AGA_DATA = {
    "titbit": "The only bee-eater in our region with a deeply forked, blue tail.",
    "draft": true
   },
+  "Birds|Swallow-tailed Bee-eater": {
+   "size": "20 cm",
+   "habitat": "Dry Kalahari sandveld and woodland; resident and nomadic.",
+   "food": "Flying insects, especially bees and wasps.",
+   "breeding": "Digs a tunnel nest in a sandbank or in flat sandy ground.",
+   "titbit": "The only bee-eater in our region with a deeply forked, blue tail.",
+   "draft": true
+  },
   "African Skimmer": {
+   "size": "38 cm",
+   "habitat": "Large rivers with sandbanks: Okavango Panhandle, Chobe and Linyanti; resident.",
+   "food": "Small fish caught at the water surface.",
+   "breeding": "Lays eggs in a scrape on bare sandbanks during the low-water season.",
+   "titbit": "Flies with its longer lower bill slicing the water; Near Threatened by boat wakes flooding nests.",
+   "draft": true
+  },
+  "Birds|African Skimmer": {
    "size": "38 cm",
    "habitat": "Large rivers with sandbanks: Okavango Panhandle, Chobe and Linyanti; resident.",
    "food": "Small fish caught at the water surface.",
@@ -33221,7 +38325,23 @@ window.AGA_DATA = {
    "titbit": "Looks dark from a distance, but in sunlight its feathers shine green and purple.",
    "draft": true
   },
+  "Birds|Glossy Ibis": {
+   "size": "60 cm",
+   "habitat": "Floodplains, marshes and pans; resident and nomadic.",
+   "food": "Insects, worms, snails and other small animals probed from mud.",
+   "breeding": "Breeds in colonies in reedbeds or trees, often with herons.",
+   "titbit": "Looks dark from a distance, but in sunlight its feathers shine green and purple.",
+   "draft": true
+  },
   "Bradfield's Hornbill": {
+   "size": "50 cm",
+   "habitat": "Broad-leaved woodland, such as mopane and teak, in the north; resident.",
+   "food": "Insects, fruit and seeds.",
+   "breeding": "Female seals herself inside a tree hole to lay eggs; the male feeds her.",
+   "titbit": "Has a piping, whistling call; unlike Monteiro's Hornbill it has no white spots on the wings.",
+   "draft": true
+  },
+  "Birds|Bradfield's Hornbill": {
    "size": "50 cm",
    "habitat": "Broad-leaved woodland, such as mopane and teak, in the north; resident.",
    "food": "Insects, fruit and seeds.",
@@ -33237,7 +38357,23 @@ window.AGA_DATA = {
    "titbit": "Its name comes from its loud call, \"ha-ha-ha-de-dah\", often given in flight.",
    "draft": true
   },
+  "Birds|Hadeda Ibis": {
+   "size": "76 cm",
+   "habitat": "Moist grassland, river edges and lawns; resident.",
+   "food": "Insects, worms and snails probed from soft soil.",
+   "breeding": "Untidy stick platform in a tree, often over water.",
+   "titbit": "Its name comes from its loud call, \"ha-ha-ha-de-dah\", often given in flight.",
+   "draft": true
+  },
   "Holub's Golden Weaver": {
+   "size": "18 cm",
+   "habitat": "Woodland, riverine bush and gardens in the north and east; resident.",
+   "food": "Insects and seeds.",
+   "breeding": "Builds a woven grass nest, usually alone rather than in a colony.",
+   "titbit": "Named after Emil Holub, a Czech doctor and explorer who travelled in southern Africa.",
+   "draft": true
+  },
+  "Birds|Holub's Golden Weaver": {
    "size": "18 cm",
    "habitat": "Woodland, riverine bush and gardens in the north and east; resident.",
    "food": "Insects and seeds.",
@@ -33253,7 +38389,23 @@ window.AGA_DATA = {
    "titbit": "Its call sounds like a bleating lamb, so it was once called the Bleating Warbler.",
    "draft": true
   },
+  "Birds|Green-backed Camaroptera": {
+   "size": "12 cm",
+   "habitat": "Thickets and riverine undergrowth; resident.",
+   "food": "Small insects and spiders.",
+   "breeding": "Stitches living leaves together around its nest using spider web.",
+   "titbit": "Its call sounds like a bleating lamb, so it was once called the Bleating Warbler.",
+   "draft": true
+  },
   "Brown Snake Eagle": {
+   "size": "70 cm",
+   "habitat": "Savanna and woodland; resident.",
+   "food": "Mainly snakes, including large venomous ones such as cobras and mambas.",
+   "breeding": "Small stick nest on top of a tree; lays one egg.",
+   "titbit": "Sits upright on an exposed perch for long periods, watching for snakes with large yellow eyes.",
+   "draft": true
+  },
+  "Birds|Brown Snake Eagle": {
    "size": "70 cm",
    "habitat": "Savanna and woodland; resident.",
    "food": "Mainly snakes, including large venomous ones such as cobras and mambas.",
@@ -33269,7 +38421,23 @@ window.AGA_DATA = {
    "titbit": "Noisy chattering groups; the white rump separates it from the Arrow-marked Babbler.",
    "draft": true
   },
+  "Birds|Hartlaub's Babbler": {
+   "size": "26 cm",
+   "habitat": "Reedbeds and riverine thickets in the Okavango and Chobe; resident.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Cup nest in dense cover; groups help the breeding pair raise chicks.",
+   "titbit": "Noisy chattering groups; the white rump separates it from the Arrow-marked Babbler.",
+   "draft": true
+  },
   "Marico Sunbird": {
+   "size": "13 cm",
+   "habitat": "Acacia savanna and dry woodland; resident.",
+   "food": "Nectar, insects and spiders.",
+   "breeding": "Female builds a hanging, pear-shaped nest with a side entrance.",
+   "titbit": "Male has a green head and a purple band across the chest; long curved bill.",
+   "draft": true
+  },
+  "Birds|Marico Sunbird": {
    "size": "13 cm",
    "habitat": "Acacia savanna and dry woodland; resident.",
    "food": "Nectar, insects and spiders.",
@@ -33285,7 +38453,23 @@ window.AGA_DATA = {
    "titbit": "Hovers like a kestrel when hunting and has bright red eyes; now also called Black-winged Kite.",
    "draft": true
   },
+  "Birds|Black-shouldered Kite": {
+   "size": "32 cm",
+   "habitat": "Open grassland and farmland; resident and nomadic.",
+   "food": "Mainly rodents, caught on the ground.",
+   "breeding": "Small stick nest in a tree.",
+   "titbit": "Hovers like a kestrel when hunting and has bright red eyes; now also called Black-winged Kite.",
+   "draft": true
+  },
   "Lanner Falcon": {
+   "size": "42 cm",
+   "habitat": "Open country across Botswana; resident.",
+   "food": "Mainly birds such as doves and sandgrouse, caught in flight.",
+   "breeding": "Uses a cliff ledge or the old stick nest of another bird.",
+   "titbit": "Recognised by its rufous crown; often hunts sandgrouse and doves at waterholes.",
+   "draft": true
+  },
+  "Birds|Lanner Falcon": {
    "size": "42 cm",
    "habitat": "Open country across Botswana; resident.",
    "food": "Mainly birds such as doves and sandgrouse, caught in flight.",
@@ -33301,7 +38485,23 @@ window.AGA_DATA = {
    "titbit": "Moves through the trees in noisy groups that keep together and call constantly.",
    "draft": true
   },
+  "Birds|White-crested Helmetshrike": {
+   "size": "20 cm",
+   "habitat": "Broad-leaved woodland; resident.",
+   "food": "Insects and caterpillars.",
+   "breeding": "Neat cup nest on a branch; the whole group helps to raise chicks.",
+   "titbit": "Moves through the trees in noisy groups that keep together and call constantly.",
+   "draft": true
+  },
   "Pied Crow": {
+   "size": "50 cm",
+   "habitat": "Towns, villages, roads and open country; resident.",
+   "food": "Almost anything: insects, carrion, scraps, eggs and small animals.",
+   "breeding": "Stick nest in a tall tree or on a pole or pylon.",
+   "titbit": "It is a host of the Great Spotted Cuckoo, which lays eggs in its nest.",
+   "draft": true
+  },
+  "Birds|Pied Crow": {
    "size": "50 cm",
    "habitat": "Towns, villages, roads and open country; resident.",
    "food": "Almost anything: insects, carrion, scraps, eggs and small animals.",
@@ -33317,7 +38517,23 @@ window.AGA_DATA = {
    "titbit": "Active mostly at dusk and on moonlit nights, when its loud whistling call is heard.",
    "draft": true
   },
+  "Birds|Spotted Thick-knee": {
+   "size": "43 cm",
+   "habitat": "Dry open savanna, often near villages and lodges; resident.",
+   "food": "Insects and other small invertebrates.",
+   "breeding": "Lays two eggs in a scrape on bare ground.",
+   "titbit": "Active mostly at dusk and on moonlit nights, when its loud whistling call is heard.",
+   "draft": true
+  },
   "Blue-cheeked Bee-eater": {
+   "size": "30 cm",
+   "habitat": "Okavango, Chobe and other wetlands; summer migrant.",
+   "food": "Flying insects, especially dragonflies.",
+   "breeding": "Does not breed in southern Africa.",
+   "titbit": "Often hunts dragonflies over water from a perch on a dead tree.",
+   "draft": true
+  },
+  "Birds|Blue-cheeked Bee-eater": {
    "size": "30 cm",
    "habitat": "Okavango, Chobe and other wetlands; summer migrant.",
    "food": "Flying insects, especially dragonflies.",
@@ -33333,7 +38549,23 @@ window.AGA_DATA = {
    "titbit": "Its legs can bend backwards at the joint, letting it reach into tree holes and weaver nests.",
    "draft": true
   },
+  "Birds|African Harrier-Hawk": {
+   "size": "63 cm",
+   "habitat": "Woodland and riverine forest; resident.",
+   "food": "Nestlings, eggs, lizards, frogs and small mammals.",
+   "breeding": "Stick nest in a large tree.",
+   "titbit": "Its legs can bend backwards at the joint, letting it reach into tree holes and weaver nests.",
+   "draft": true
+  },
   "Purple Heron": {
+   "size": "85 cm",
+   "habitat": "Reedbeds and swamps, especially the Okavango; resident.",
+   "food": "Fish and frogs, also insects and small animals.",
+   "breeding": "Nest platform of reeds, low in a reedbed.",
+   "titbit": "Shy and secretive; its thin, snake-like neck helps it hide among the reeds.",
+   "draft": true
+  },
+  "Birds|Purple Heron": {
    "size": "85 cm",
    "habitat": "Reedbeds and swamps, especially the Okavango; resident.",
    "food": "Fish and frogs, also insects and small animals.",
@@ -33349,7 +38581,23 @@ window.AGA_DATA = {
    "titbit": "Look for the red eye-ring; it bobs its body up and down while feeding.",
    "draft": true
   },
+  "Birds|Three-banded Plover": {
+   "size": "18 cm",
+   "habitat": "Muddy edges of pans, rivers and dams; resident.",
+   "food": "Small insects and other invertebrates.",
+   "breeding": "Lays eggs in a scrape on the shore.",
+   "titbit": "Look for the red eye-ring; it bobs its body up and down while feeding.",
+   "draft": true
+  },
   "White-browed Coucal": {
+   "size": "40 cm",
+   "habitat": "Reedbeds and long grass near water; resident.",
+   "food": "Insects, frogs, lizards, small birds and eggs.",
+   "breeding": "Domed nest of grass, hidden in thick vegetation.",
+   "titbit": "Its bubbling call sounds like water poured from a bottle, so it is called the Rainbird.",
+   "draft": true
+  },
+  "Birds|White-browed Coucal": {
    "size": "40 cm",
    "habitat": "Reedbeds and long grass near water; resident.",
    "food": "Insects, frogs, lizards, small birds and eggs.",
@@ -33365,7 +38613,23 @@ window.AGA_DATA = {
    "titbit": "Runs on the ground and wags its tail; white outer tail feathers show in flight.",
    "draft": true
   },
+  "Birds|African Pipit": {
+   "size": "17 cm",
+   "habitat": "Short grassland and open areas; resident.",
+   "food": "Insects.",
+   "breeding": "Cup nest on the ground at the base of a grass tuft.",
+   "titbit": "Runs on the ground and wags its tail; white outer tail feathers show in flight.",
+   "draft": true
+  },
   "Grey-headed Gull": {
+   "size": "42 cm",
+   "habitat": "Okavango, Chobe, large dams and flooded pans; resident and nomadic.",
+   "food": "Fish, insects and scraps.",
+   "breeding": "Breeds in colonies on islands, sandbanks or floating vegetation.",
+   "titbit": "The only common gull in Botswana; breeding adults have a grey hood and a pale eye.",
+   "draft": true
+  },
+  "Birds|Grey-headed Gull": {
    "size": "42 cm",
    "habitat": "Okavango, Chobe, large dams and flooded pans; resident and nomadic.",
    "food": "Fish, insects and scraps.",
@@ -33381,7 +38645,23 @@ window.AGA_DATA = {
    "titbit": "Has yellow eyes, unlike the dark eyes and pink eyelids of Verreaux's Eagle-Owl.",
    "draft": true
   },
+  "Birds|Spotted Eagle Owl": {
+   "size": "45 cm",
+   "habitat": "Savanna, rocky hills and towns across Botswana; resident.",
+   "food": "Insects, rodents, birds and other small animals.",
+   "breeding": "Nests on the ground, a cliff ledge, a tree fork or even buildings.",
+   "titbit": "Has yellow eyes, unlike the dark eyes and pink eyelids of Verreaux's Eagle-Owl.",
+   "draft": true
+  },
   "Terrestrial Brownbul": {
+   "size": "21 cm",
+   "habitat": "Riverine thickets in the north; resident.",
+   "food": "Insects found in leaf litter, also some fruit.",
+   "breeding": "Cup nest low in a thicket.",
+   "titbit": "Small groups scratch noisily in leaf litter on the ground; shows a white throat.",
+   "draft": true
+  },
+  "Birds|Terrestrial Brownbul": {
    "size": "21 cm",
    "habitat": "Riverine thickets in the north; resident.",
    "food": "Insects found in leaf litter, also some fruit.",
@@ -33397,7 +38677,23 @@ window.AGA_DATA = {
    "titbit": "Flies slowly and low over reeds with wings held in a shallow V.",
    "draft": true
   },
+  "Birds|African Marsh-harrier": {
+   "size": "48 cm",
+   "habitat": "Okavango and other reedbeds and swamps; resident.",
+   "food": "Rodents, frogs and small birds.",
+   "breeding": "Nest platform hidden in a reedbed.",
+   "titbit": "Flies slowly and low over reeds with wings held in a shallow V.",
+   "draft": true
+  },
   "Ant-eating Chat": {
+   "size": "18 cm",
+   "habitat": "Open grassland and Kalahari plains in the south; resident.",
+   "food": "Ants, termites and other insects.",
+   "breeding": "Digs a tunnel nest in an earth bank or inside an Aardvark burrow.",
+   "titbit": "Flashes white wing panels when it flies; often perches on termite mounds.",
+   "draft": true
+  },
+  "Birds|Ant-eating Chat": {
    "size": "18 cm",
    "habitat": "Open grassland and Kalahari plains in the south; resident.",
    "food": "Ants, termites and other insects.",
@@ -33413,7 +38709,23 @@ window.AGA_DATA = {
    "titbit": "Easy to know by its black-and-white striped head and orange-yellow breast.",
    "draft": true
   },
+  "Birds|Golden-breasted Bunting": {
+   "size": "16 cm",
+   "habitat": "Woodland and savanna; resident.",
+   "food": "Seeds and insects.",
+   "breeding": "Small cup nest low in a tree or bush.",
+   "titbit": "Easy to know by its black-and-white striped head and orange-yellow breast.",
+   "draft": true
+  },
   "Cape Sparrow": {
+   "size": "15 cm",
+   "habitat": "Dry savanna, Kalahari and villages; resident.",
+   "food": "Seeds and insects.",
+   "breeding": "Untidy grass nest with side entrance in a thorn tree.",
+   "titbit": "Male has a bold black-and-white head; in Afrikaans it is called a Mossie.",
+   "draft": true
+  },
+  "Birds|Cape Sparrow": {
    "size": "15 cm",
    "habitat": "Dry savanna, Kalahari and villages; resident.",
    "food": "Seeds and insects.",
@@ -33429,7 +38741,23 @@ window.AGA_DATA = {
    "titbit": "Has an orange-red bill and legs; noisy at dawn and dusk. Now often called Natal Spurfowl.",
    "draft": true
   },
+  "Birds|Natal Francolin": {
+   "size": "35 cm",
+   "habitat": "Riverine thickets and rocky hills in the east; resident.",
+   "food": "Seeds, roots, bulbs and insects.",
+   "breeding": "Nest is a scrape on the ground under cover.",
+   "titbit": "Has an orange-red bill and legs; noisy at dawn and dusk. Now often called Natal Spurfowl.",
+   "draft": true
+  },
   "Dickinson's Kestrel": {
+   "size": "30 cm",
+   "habitat": "Mopane and palm savanna in the north; resident.",
+   "food": "Insects, lizards and small animals.",
+   "breeding": "Nests in a tree hole, a palm crown or an old Hamerkop nest.",
+   "titbit": "Its pale grey head contrasts with a darker body; often perches on dead palms.",
+   "draft": true
+  },
+  "Birds|Dickinson's Kestrel": {
    "size": "30 cm",
    "habitat": "Mopane and palm savanna in the north; resident.",
    "food": "Insects, lizards and small animals.",
@@ -33445,7 +38773,23 @@ window.AGA_DATA = {
    "titbit": "Builds the largest communal nest of any bird; Pygmy Falcons often live in it too.",
    "draft": true
   },
+  "Birds|Sociable Weaver": {
+   "size": "14 cm",
+   "habitat": "Kalahari savanna with camelthorn trees; resident.",
+   "food": "Insects and seeds.",
+   "breeding": "Many birds build one huge shared grass nest, with separate chambers.",
+   "titbit": "Builds the largest communal nest of any bird; Pygmy Falcons often live in it too.",
+   "draft": true
+  },
   "Black-headed Heron": {
+   "size": "95 cm",
+   "habitat": "Grassland, farmland and wetland edges; resident.",
+   "food": "Rodents, insects, lizards and frogs.",
+   "breeding": "Breeds in colonies with stick nests in trees or reeds.",
+   "titbit": "Often hunts in dry grassland far from water; white underwings contrast with black flight feathers.",
+   "draft": true
+  },
+  "Birds|Black-headed Heron": {
    "size": "95 cm",
    "habitat": "Grassland, farmland and wetland edges; resident.",
    "food": "Rodents, insects, lizards and frogs.",
@@ -33461,7 +38805,23 @@ window.AGA_DATA = {
    "titbit": "Comes in dark, brown and pale forms; in flight shows a long, square-ended tail.",
    "draft": true
   },
+  "Birds|Wahlberg's Eagle": {
+   "size": "58 cm",
+   "habitat": "Savanna and woodland; summer breeding migrant.",
+   "food": "Lizards, small mammals and birds.",
+   "breeding": "Stick nest lined with green leaves; usually lays one egg.",
+   "titbit": "Comes in dark, brown and pale forms; in flight shows a long, square-ended tail.",
+   "draft": true
+  },
   "Grey-backed Sparrowlark": {
+   "size": "13 cm",
+   "habitat": "Dry open Kalahari plains; resident and nomadic.",
+   "food": "Mainly seeds.",
+   "breeding": "Small cup nest on the ground.",
+   "titbit": "Moves in flocks; the male has a black face and belly with a white crown patch.",
+   "draft": true
+  },
+  "Birds|Grey-backed Sparrowlark": {
    "size": "13 cm",
    "habitat": "Dry open Kalahari plains; resident and nomadic.",
    "food": "Mainly seeds.",
@@ -33477,7 +38837,23 @@ window.AGA_DATA = {
    "titbit": "A good mimic: its song often includes copied calls of other birds.",
    "draft": true
   },
+  "Birds|Sabota Lark": {
+   "size": "15 cm",
+   "habitat": "Dry savanna and bushveld; resident.",
+   "food": "Insects and seeds.",
+   "breeding": "Cup nest on the ground under a grass tuft.",
+   "titbit": "A good mimic: its song often includes copied calls of other birds.",
+   "draft": true
+  },
   "Common Scimitarbill": {
+   "size": "26 cm",
+   "habitat": "Dry woodland and savanna; resident.",
+   "food": "Insects and spiders probed from bark.",
+   "breeding": "Nests in a tree hole.",
+   "titbit": "Named after its long, curved bill, shaped like a scimitar sword.",
+   "draft": true
+  },
+  "Birds|Common Scimitarbill": {
    "size": "26 cm",
    "habitat": "Dry woodland and savanna; resident.",
    "food": "Insects and spiders probed from bark.",
@@ -33493,7 +38869,23 @@ window.AGA_DATA = {
    "titbit": "Roles are reversed: the female is more colourful than the male.",
    "draft": true
   },
+  "Birds|Greater Painted-snipe": {
+   "size": "25 cm",
+   "habitat": "Wetland edges with thick cover; resident and nomadic.",
+   "food": "Insects, snails, worms and seeds.",
+   "breeding": "Female mates with several males; the male incubates and raises the chicks.",
+   "titbit": "Roles are reversed: the female is more colourful than the male.",
+   "draft": true
+  },
   "Spotted Flycatcher": {
+   "size": "14 cm",
+   "habitat": "Woodland and savanna; summer migrant from Europe and Asia.",
+   "food": "Flying insects.",
+   "breeding": "Does not breed in southern Africa.",
+   "titbit": "Flicks its wings after landing; has a streaked crown and breast.",
+   "draft": true
+  },
+  "Birds|Spotted Flycatcher": {
    "size": "14 cm",
    "habitat": "Woodland and savanna; summer migrant from Europe and Asia.",
    "food": "Flying insects.",
@@ -33509,7 +38901,23 @@ window.AGA_DATA = {
    "titbit": "A tiny sunbird with a short bill and a yellow belly.",
    "draft": true
   },
+  "Birds|Collared Sunbird": {
+   "size": "10 cm",
+   "habitat": "Riverine forest and thickets in the north; resident.",
+   "food": "Insects, spiders and some nectar.",
+   "breeding": "Hanging, pear-shaped nest with a side entrance.",
+   "titbit": "A tiny sunbird with a short bill and a yellow belly.",
+   "draft": true
+  },
   "Black-throated Canary": {
+   "size": "11 cm",
+   "habitat": "Savanna, farmland and villages; resident.",
+   "food": "Seeds.",
+   "breeding": "Small cup nest in a bush or tree.",
+   "titbit": "Its bright yellow rump is easy to see when it flies off.",
+   "draft": true
+  },
+  "Birds|Black-throated Canary": {
    "size": "11 cm",
    "habitat": "Savanna, farmland and villages; resident.",
    "food": "Seeds.",
@@ -33525,7 +38933,23 @@ window.AGA_DATA = {
    "titbit": "Males soak their belly feathers at water and fly back so chicks can drink from them.",
    "draft": true
   },
+  "Birds|Namaqua Sandgrouse": {
+   "size": "25 cm",
+   "habitat": "Kalahari and dry south-west; resident and nomadic.",
+   "food": "Seeds.",
+   "breeding": "Lays eggs in a scrape on bare ground.",
+   "titbit": "Males soak their belly feathers at water and fly back so chicks can drink from them.",
+   "draft": true
+  },
   "Cape Teal": {
+   "size": "46 cm",
+   "habitat": "Saline pans, dams and sewage ponds; resident and nomadic.",
+   "food": "Water insects, small invertebrates and plants.",
+   "breeding": "Nest on the ground near water.",
+   "titbit": "Has a pink bill; it likes salty pans such as the Makgadikgadi.",
+   "draft": true
+  },
+  "Birds|Cape Teal": {
    "size": "46 cm",
    "habitat": "Saline pans, dams and sewage ponds; resident and nomadic.",
    "food": "Water insects, small invertebrates and plants.",
@@ -33541,7 +38965,23 @@ window.AGA_DATA = {
    "titbit": "Male is dark brown with a bright scarlet chest; the female is dull brown.",
    "draft": true
   },
+  "Birds|Scarlet-chested Sunbird": {
+   "size": "15 cm",
+   "habitat": "Woodland, savanna and gardens; resident.",
+   "food": "Nectar and insects.",
+   "breeding": "Hanging nest with a side entrance.",
+   "titbit": "Male is dark brown with a bright scarlet chest; the female is dull brown.",
+   "draft": true
+  },
   "White-backed Night-heron": {
+   "size": "53 cm",
+   "habitat": "Shaded rivers and channels in the Okavango and Chobe; resident.",
+   "food": "Fish, frogs and insects.",
+   "breeding": "Nest of sticks on a branch over water.",
+   "titbit": "Has large dark eyes for night hunting; the white back shows only in flight.",
+   "draft": true
+  },
+  "Birds|White-backed Night-heron": {
    "size": "53 cm",
    "habitat": "Shaded rivers and channels in the Okavango and Chobe; resident.",
    "food": "Fish, frogs and insects.",
@@ -33557,7 +38997,23 @@ window.AGA_DATA = {
    "titbit": "The flagship species of the Makgadikgadi Pans, one of very few breeding sites in Africa.",
    "draft": true
   },
+  "Birds|Lesser Flamingo": {
+   "size": "100 cm",
+   "habitat": "Makgadikgadi and Nata when flooded; nomadic.",
+   "food": "Tiny blue-green algae filtered from salty water.",
+   "breeding": "Breeds in huge colonies on mud mounds at Sua Pan; Near Threatened.",
+   "titbit": "The flagship species of the Makgadikgadi Pans, one of very few breeding sites in Africa.",
+   "draft": true
+  },
   "Cut-throat Finch": {
+   "size": "12 cm",
+   "habitat": "Dry savanna and woodland; resident.",
+   "food": "Seeds.",
+   "breeding": "Often uses an old weaver nest.",
+   "titbit": "Male has a red band across the throat, as if its throat was cut.",
+   "draft": true
+  },
+  "Birds|Cut-throat Finch": {
    "size": "12 cm",
    "habitat": "Dry savanna and woodland; resident.",
    "food": "Seeds.",
@@ -33573,7 +39029,23 @@ window.AGA_DATA = {
    "titbit": "Dives feet-first; its outer toe turns backwards to grip slippery fish.",
    "draft": true
   },
+  "Birds|Osprey": {
+   "size": "57 cm",
+   "habitat": "Rivers, lakes and the Okavango; uncommon summer migrant.",
+   "food": "Almost only fish.",
+   "breeding": "Does not breed in southern Africa.",
+   "titbit": "Dives feet-first; its outer toe turns backwards to grip slippery fish.",
+   "draft": true
+  },
   "White-backed Mousebird": {
+   "size": "32 cm",
+   "habitat": "Dry savanna and Kalahari thornveld; resident.",
+   "food": "Fruit, leaves and flowers.",
+   "breeding": "Cup nest in a thorny bush.",
+   "titbit": "Groups huddle together at night to keep warm; the white back shows in flight.",
+   "draft": true
+  },
+  "Birds|White-backed Mousebird": {
    "size": "32 cm",
    "habitat": "Dry savanna and Kalahari thornveld; resident.",
    "food": "Fruit, leaves and flowers.",
@@ -33589,7 +39061,23 @@ window.AGA_DATA = {
    "titbit": "Its loud call sounds like a crying baby.",
    "draft": true
   },
+  "Birds|Trumpeter Hornbill": {
+   "size": "60 cm",
+   "habitat": "Riverine forest in the north, such as Chobe; resident.",
+   "food": "Mainly fruit, especially figs.",
+   "breeding": "Female seals herself inside a tree hole; the male feeds her.",
+   "titbit": "Its loud call sounds like a crying baby.",
+   "draft": true
+  },
   "Dwarf Bittern": {
+   "size": "27 cm",
+   "habitat": "Flooded woodland and seasonal pans; summer migrant.",
+   "food": "Frogs, small fish and insects.",
+   "breeding": "Stick nest in a tree or bush standing in water.",
+   "titbit": "When alarmed it freezes with its bill pointing up to blend in.",
+   "draft": true
+  },
+  "Birds|Dwarf Bittern": {
    "size": "27 cm",
    "habitat": "Flooded woodland and seasonal pans; summer migrant.",
    "food": "Frogs, small fish and insects.",
@@ -33605,6 +39093,14 @@ window.AGA_DATA = {
    "titbit": "Has dark eyes; often hunts at dusk, flying low over grassland.",
    "draft": true
   },
+  "Birds|Marsh Owl": {
+   "size": "36 cm",
+   "habitat": "Grassland and floodplains; resident.",
+   "food": "Mainly rodents, also insects.",
+   "breeding": "Nest on the ground in long grass.",
+   "titbit": "Has dark eyes; often hunts at dusk, flying low over grassland.",
+   "draft": true
+  },
   "African Snipe": {
    "size": "30 cm",
    "habitat": "Muddy edges of wetlands with short cover; resident.",
@@ -33613,12 +39109,12 @@ window.AGA_DATA = {
    "titbit": "In display flight its stiff tail feathers make a drumming sound.",
    "draft": true
   },
-  "Riverine forest": {
-   "size": "Tall forest of big trees growing along rivers on rich alluvial soil.",
-   "habitat": "Along the Okavango, Chobe, Khwai and Boteti rivers and on Delta islands.",
-   "food": "Gives shade, fruit and cover to elephant, bushbuck, leopard and many birds.",
-   "breeding": "Look for jackal berry, sausage tree, knob thorn and African mangosteen.",
-   "titbit": "Long daylight hours and constant water explain the forests along the Delta rivers.",
+  "Birds|African Snipe": {
+   "size": "30 cm",
+   "habitat": "Muddy edges of wetlands with short cover; resident.",
+   "food": "Worms and insects probed from mud.",
+   "breeding": "Nest on the ground in marsh grass.",
+   "titbit": "In display flight its stiff tail feathers make a drumming sound.",
    "draft": true
   },
   "Mopane woodland": {
@@ -33629,23 +39125,55 @@ window.AGA_DATA = {
    "titbit": "Mopane scrub also holds russet bush-willow and shepherd's tree.",
    "draft": true
   },
+  "Ecology|Mopane woodland": {
+   "size": "Woodland or scrub of mopane trees, from 2 m scrub to 30 m \"cathedral mopane\".",
+   "habitat": "Alluvial clay soils of northern Botswana, e.g. Chobe, Savuti and Moremi.",
+   "food": "Good habitat for elephant and buffalo; mopane worms feed on the leaves.",
+   "breeding": "Show the butterfly-shaped leaves; they fold together in the midday heat.",
+   "titbit": "Mopane scrub also holds russet bush-willow and shepherd's tree.",
+   "draft": true
+  },
   "Kalahari sandveld": {
-   "size": "Dry bush savanna growing on deep, nutrient-poor Kalahari sand.",
+   "size": "Dry bush and tree savanna growing on deep, nutrient-poor Kalahari sand.",
    "habitat": "Most of central and southern Botswana, e.g. CKGR and Kgalagadi.",
    "food": "Supports desert-adapted animals like gemsbok, springbok and red hartebeest.",
    "breeding": "Look for deep-rooted camel thorn and Kalahari apple-leaf trees.",
    "titbit": "Sand holds little water, so the grasses here are poor grazing (e.g. three-awn grass).",
    "draft": true
   },
-  "Acacia (Vachellia) savanna": {
+  "Ecology|Kalahari sandveld": {
+   "size": "Dry bush and tree savanna growing on deep, nutrient-poor Kalahari sand.",
+   "habitat": "Most of central and southern Botswana, e.g. CKGR and Kgalagadi.",
+   "food": "Supports desert-adapted animals like gemsbok, springbok and red hartebeest.",
+   "breeding": "Look for deep-rooted camel thorn and Kalahari apple-leaf trees.",
+   "titbit": "Sand holds little water, so the grasses here are poor grazing (e.g. three-awn grass).",
+   "draft": true
+  },
+  "Acacia savanna": {
    "size": "Grassland dotted with thorn trees such as the umbrella thorn.",
    "habitat": "Poorly drained alluvial soils on the edges of floodplains and pans.",
    "food": "Thorn pods and leaves feed giraffe, kudu, impala and elephant.",
    "breeding": "Many \"acacias\" are now called Vachellia or Senegalia in new books.",
-   "titbit": "The umbrella thorn grows well in the alluvial soils of floodplain savanna.",
+   "titbit": "The flat-topped umbrella thorn is the classic tree of this habitat.",
+   "draft": true
+  },
+  "Ecology|Acacia savanna": {
+   "size": "Grassland dotted with thorn trees such as the umbrella thorn.",
+   "habitat": "Poorly drained alluvial soils on the edges of floodplains and pans.",
+   "food": "Thorn pods and leaves feed giraffe, kudu, impala and elephant.",
+   "breeding": "Many \"acacias\" are now called Vachellia or Senegalia in new books.",
+   "titbit": "The flat-topped umbrella thorn is the classic tree of this habitat.",
    "draft": true
   },
   "Open grassland": {
+   "size": "Large open areas covered mainly by grass, with few or no trees.",
+   "habitat": "Nxai Pan, Savuti Marsh and the Makgadikgadi grasslands.",
+   "food": "Grazers such as zebra, wildebeest and springbok feed here, followed by predators.",
+   "breeding": "Open plains are good places to watch cheetah hunting.",
+   "titbit": "Habitats are usually named after their main plants, e.g. grassland.",
+   "draft": true
+  },
+  "Ecology|Open grassland": {
    "size": "Large open areas covered mainly by grass, with few or no trees.",
    "habitat": "Nxai Pan, Savuti Marsh and the Makgadikgadi grasslands.",
    "food": "Grazers such as zebra, wildebeest and springbok feed here, followed by predators.",
@@ -33658,10 +39186,26 @@ window.AGA_DATA = {
    "habitat": "Seasonal swamps of the Okavango Delta, Khwai and Linyanti.",
    "food": "Rich grazing for red lechwe, buffalo and zebra, and food for many water birds.",
    "breeding": "The flood peaks in the dry winter months, long after the rains in Angola.",
-   "titbit": "Red lechwe have long hooves to run through shallow floodwater.",
+   "titbit": "Red lechwe have long hooves that help them run through shallow floodwater.",
    "draft": true
   },
-  "Papyrus swamp (permanent swamp)": {
+  "Ecology|Okavango floodplain": {
+   "size": "Grassy plains that flood each year when the Okavango water arrives.",
+   "habitat": "Seasonal swamps of the Okavango Delta, Khwai and Linyanti.",
+   "food": "Rich grazing for red lechwe, buffalo and zebra, and food for many water birds.",
+   "breeding": "The flood peaks in the dry winter months, long after the rains in Angola.",
+   "titbit": "Red lechwe have long hooves that help them run through shallow floodwater.",
+   "draft": true
+  },
+  "Papyrus swamp": {
+   "size": "Permanent swamp lined with tall papyrus sedge, up to about 5 m high.",
+   "habitat": "The Okavango Panhandle and the permanent channels of the Delta.",
+   "food": "Papyrus roots trap silt and help build the Delta; sitatunga hide in it.",
+   "breeding": "Look for sitatunga and listen for swamp boubou from a boat.",
+   "titbit": "The Delta drops only 60 m over 250 km, so channels wind slowly through papyrus.",
+   "draft": true
+  },
+  "Ecology|Papyrus swamp": {
    "size": "Permanent swamp lined with tall papyrus sedge, up to about 5 m high.",
    "habitat": "The Okavango Panhandle and the permanent channels of the Delta.",
    "food": "Papyrus roots trap silt and help build the Delta; sitatunga hide in it.",
@@ -33677,7 +39221,23 @@ window.AGA_DATA = {
    "titbit": "Gcodikwe lagoon has one of the largest heronries in southern Africa.",
    "draft": true
   },
+  "Ecology|Lagoon": {
+   "size": "A deep, open, permanent pool of water in the Delta.",
+   "habitat": "Permanent swamp areas, e.g. Xakanaxa and Gcodikwe in Moremi.",
+   "food": "Home to hippo, crocodile and fish, and nesting sites for herons and storks.",
+   "breeding": "Never swim in lagoons and keep boats well away from hippo.",
+   "titbit": "Gcodikwe lagoon has one of the largest heronries in southern Africa.",
+   "draft": true
+  },
   "Termite-mound island": {
+   "size": "A Delta island that often starts as a termite mound and grows as trees take root.",
+   "habitat": "Thousands are scattered across the Okavango Delta floodplains.",
+   "food": "Gives dry ground for trees, nesting birds and animals during the flood.",
+   "breeding": "Point out the ring of trees and the bare, salty centre of older islands.",
+   "titbit": "Salts build up in island centres as water evaporates, until plants cannot grow.",
+   "draft": true
+  },
+  "Ecology|Termite-mound island": {
    "size": "A Delta island that often starts as a termite mound and grows as trees take root.",
    "habitat": "Thousands are scattered across the Okavango Delta floodplains.",
    "food": "Gives dry ground for trees, nesting birds and animals during the flood.",
@@ -33693,7 +39253,23 @@ window.AGA_DATA = {
    "titbit": "Makgadikgadi is what remains of the huge ancient Lake Makgadikgadi.",
    "draft": true
   },
+  "Ecology|Salt pan": {
+   "size": "A flat, dry lake bed covered with a white salt crust.",
+   "habitat": "Makgadikgadi (Sua and Ntwetwe) and many small Kalahari pans.",
+   "food": "After good rains pans fill and flamingos come to breed.",
+   "breeding": "Never drive on a wet pan: vehicles sink through the crust.",
+   "titbit": "Makgadikgadi is what remains of the huge ancient Lake Makgadikgadi.",
+   "draft": true
+  },
   "Kalahari dunes": {
+   "size": "Long, low ridges of red Kalahari sand, held in place by grass.",
+   "habitat": "South-western Botswana, especially the Kgalagadi Transfrontier Park.",
+   "food": "Home to gemsbok, springbok, meerkats and many burrowing animals.",
+   "breeding": "Read the tracks in the sand early in the morning.",
+   "titbit": "The red colour comes from iron oxide coating the sand grains.",
+   "draft": true
+  },
+  "Ecology|Kalahari dunes": {
    "size": "Long, low ridges of red Kalahari sand, held in place by grass.",
    "habitat": "South-western Botswana, especially the Kgalagadi Transfrontier Park.",
    "food": "Home to gemsbok, springbok, meerkats and many burrowing animals.",
@@ -33706,7 +39282,15 @@ window.AGA_DATA = {
    "habitat": "Grasslands, floodplains and open savanna.",
    "food": "They turn grass into food for predators, scavengers and decomposers.",
    "breeding": "Examples: zebra, buffalo, tsessebe and wildebeest.",
-   "titbit": "Some are bulk grazers (e.g. buffalo); others are selective grazers.",
+   "titbit": "Some are bulk grazers (e.g. buffalo); others are selective grazers that pick the best grass.",
+   "draft": true
+  },
+  "Ecology|Grazers": {
+   "size": "Herbivores (primary consumers) that feed mainly on grass.",
+   "habitat": "Grasslands, floodplains and open savanna.",
+   "food": "They turn grass into food for predators, scavengers and decomposers.",
+   "breeding": "Examples: zebra, buffalo, tsessebe and wildebeest.",
+   "titbit": "Some are bulk grazers (e.g. buffalo); others are selective grazers that pick the best grass.",
    "draft": true
   },
   "Browsers": {
@@ -33714,26 +39298,50 @@ window.AGA_DATA = {
    "habitat": "Woodland and bush savanna.",
    "food": "Browse at many heights lets many species share the same trees.",
    "breeding": "Examples: giraffe, kudu and eland; they seldom eat grass.",
-   "titbit": "Savanna has browse at many levels plus grazing, so it supports many species.",
+   "titbit": "A kudu bull like this one eats leaves and twig tips; it seldom eats grass.",
    "draft": true
   },
-  "Predator and prey (food chain)": {
-   "size": "A food chain: sun to plants to herbivores to predators to scavengers.",
+  "Ecology|Browsers": {
+   "size": "Herbivores that eat leaves, fruit, seeds and twig tips of trees and shrubs.",
+   "habitat": "Woodland and bush savanna.",
+   "food": "Browse at many heights lets many species share the same trees.",
+   "breeding": "Examples: giraffe, kudu and eland; they seldom eat grass.",
+   "titbit": "A kudu bull like this one eats leaves and twig tips; it seldom eats grass.",
+   "draft": true
+  },
+  "Food chain": {
+   "size": "A chain of who eats whom: sun to plants to herbivores to predators.",
    "habitat": "Everywhere in the bush; easiest to show at a kill.",
    "food": "Predators keep herbivore numbers healthy and in balance.",
    "breeding": "Only about 10% of the energy passes up to the next level.",
-   "titbit": "Many food chains link together to form a food web.",
+   "titbit": "A lion eating a waterbuck is one link: grass to waterbuck to lion.",
    "draft": true
   },
-  "Scavengers at a carcass": {
+  "Ecology|Food chain": {
+   "size": "A chain of who eats whom: sun to plants to herbivores to predators.",
+   "habitat": "Everywhere in the bush; easiest to show at a kill.",
+   "food": "Predators keep herbivore numbers healthy and in balance.",
+   "breeding": "Only about 10% of the energy passes up to the next level.",
+   "titbit": "A lion eating a waterbuck is one link: grass to waterbuck to lion.",
+   "draft": true
+  },
+  "Scavengers": {
    "size": "Animals that feed on dead animals or steal kills from predators.",
    "habitat": "Seen at carcasses in all habitats.",
    "food": "They clean up carcasses and help stop disease spreading.",
    "breeding": "Circling or dropping vultures can lead you to a kill.",
-   "titbit": "Lions and leopards scavenge too, but they are not true scavengers.",
+   "titbit": "Vultures and jackals are true scavengers; lions only scavenge sometimes.",
    "draft": true
   },
-  "Decomposers (fungi)": {
+  "Ecology|Scavengers": {
+   "size": "Animals that feed on dead animals or steal kills from predators.",
+   "habitat": "Seen at carcasses in all habitats.",
+   "food": "They clean up carcasses and help stop disease spreading.",
+   "breeding": "Circling or dropping vultures can lead you to a kill.",
+   "titbit": "Vultures and jackals are true scavengers; lions only scavenge sometimes.",
+   "draft": true
+  },
+  "Decomposers": {
    "size": "Fungi and bacteria that break down dead plants and animals.",
    "habitat": "Dead wood, dung, leaf litter and termite mounds.",
    "food": "They return nutrients to the soil so plants can grow again.",
@@ -33741,15 +39349,31 @@ window.AGA_DATA = {
    "titbit": "Decomposers are the essential link in the nutrient cycle.",
    "draft": true
   },
-  "Dung beetle (recycling)": {
-   "size": "A detritivore beetle that feeds on and breeds in animal dung.",
+  "Ecology|Decomposers": {
+   "size": "Fungi and bacteria that break down dead plants and animals.",
+   "habitat": "Dead wood, dung, leaf litter and termite mounds.",
+   "food": "They return nutrients to the soil so plants can grow again.",
+   "breeding": "Show guests fungi on dead logs as nature's recyclers.",
+   "titbit": "Decomposers are the essential link in the nutrient cycle.",
+   "draft": true
+  },
+  "Recycling by dung beetles": {
+   "size": "Dung beetles feed on and breed in animal dung, so they recycle it.",
    "habitat": "Common near fresh dung, mostly in the rainy season.",
    "food": "Buries dung, which feeds the soil and plants.",
    "breeding": "Point out the rolled ball; females lay eggs inside buried balls.",
    "titbit": "Dung beetles can use the sun and the Milky Way to roll in a straight line.",
    "draft": true
   },
-  "Mutualism (oxpecker on buffalo)": {
+  "Ecology|Recycling by dung beetles": {
+   "size": "Dung beetles feed on and breed in animal dung, so they recycle it.",
+   "habitat": "Common near fresh dung, mostly in the rainy season.",
+   "food": "Buries dung, which feeds the soil and plants.",
+   "breeding": "Point out the rolled ball; females lay eggs inside buried balls.",
+   "titbit": "Dung beetles can use the sun and the Milky Way to roll in a straight line.",
+   "draft": true
+  },
+  "Mutualism": {
    "size": "A relationship where both partners benefit.",
    "habitat": "Oxpeckers ride on buffalo, giraffe and other large mammals.",
    "food": "Oxpeckers eat ticks, and the host gets rid of parasites.",
@@ -33757,244 +39381,396 @@ window.AGA_DATA = {
    "titbit": "Oxpeckers also feed on blood from wounds, so the benefit is sometimes debated.",
    "draft": true
   },
-  "Seed dispersal (elephant dung)": {
-   "size": "Elephants eat fruit such as marula and spread the seeds in their dung.",
-   "habitat": "Wherever elephants feed, especially in marula and palm woodland.",
-   "food": "Seeds land in a nitrogen-rich heap of manure, ready to grow.",
-   "breeding": "Break open old dung to show guests seeds and plant fibre.",
-   "titbit": "Elephants digest less than half of what they eat.",
+  "Ecology|Mutualism": {
+   "size": "A relationship where both partners benefit.",
+   "habitat": "Oxpeckers ride on buffalo, giraffe and other large mammals.",
+   "food": "Oxpeckers eat ticks, and the host gets rid of parasites.",
+   "breeding": "Other examples: honeyguide and honey badger; elephant and marula.",
+   "titbit": "Oxpeckers also feed on blood from wounds, so the benefit is sometimes debated.",
    "draft": true
   },
-  "Commensalism (cattle egret)": {
+  "Commensalism": {
    "size": "A relationship where one partner benefits and the other is unaffected.",
    "habitat": "Cattle egrets follow buffalo, lechwe and elephant in grassland.",
    "food": "The grazers disturb insects, which the egrets catch.",
    "breeding": "Other examples: hornbills nesting in tree holes; waxbills nesting by wasp nests.",
-   "titbit": "Cattle egrets also follow cattle and tractors.",
+   "titbit": "The egret gets an easy meal, while the buffalo is not helped or harmed.",
    "draft": true
   },
-  "Parasitism (mistletoe)": {
+  "Ecology|Commensalism": {
+   "size": "A relationship where one partner benefits and the other is unaffected.",
+   "habitat": "Cattle egrets follow buffalo, lechwe and elephant in grassland.",
+   "food": "The grazers disturb insects, which the egrets catch.",
+   "breeding": "Other examples: hornbills nesting in tree holes; waxbills nesting by wasp nests.",
+   "titbit": "The egret gets an easy meal, while the buffalo is not helped or harmed.",
+   "draft": true
+  },
+  "Parasitism": {
    "size": "A relationship where the parasite benefits and the host is harmed.",
    "habitat": "Mistletoe grows on many savanna trees, e.g. acacias.",
    "food": "Mistletoe roots grow under the bark and take the host tree's sugars.",
-   "breeding": "Other examples: parasitic wasps in caterpillars; ticks on game.",
-   "titbit": "The sour plum is a partial parasite on the roots of grasses.",
+   "breeding": "Other examples: parasitic wasps in caterpillars; ticks on game; sour plum on grass roots.",
+   "titbit": "The red clump in this tree is mistletoe, a plant that lives off its host tree.",
    "draft": true
   },
-  "Competition (impala rams)": {
+  "Ecology|Parasitism": {
+   "size": "A relationship where the parasite benefits and the host is harmed.",
+   "habitat": "Mistletoe grows on many savanna trees, e.g. acacias.",
+   "food": "Mistletoe roots grow under the bark and take the host tree's sugars.",
+   "breeding": "Other examples: parasitic wasps in caterpillars; ticks on game; sour plum on grass roots.",
+   "titbit": "The red clump in this tree is mistletoe, a plant that lives off its host tree.",
+   "draft": true
+  },
+  "Competition": {
    "size": "Intra-specific competition: animals of one species compete for something scarce.",
    "habitat": "Seen in impala herds during the rutting season.",
    "food": "Only the strongest rams win mates and pass on their genes.",
    "breeding": "Inter-specific competition is between species, e.g. kingfisher and starling for nest holes.",
-   "titbit": "Impala rams fight for dominance during the rut.",
+   "titbit": "These impala rams are fighting for dominance during the rut.",
    "draft": true
   },
-  "Fire and burnt veld": {
-   "size": "Fire is a natural factor that shapes savanna and grassland.",
+  "Ecology|Competition": {
+   "size": "Intra-specific competition: animals of one species compete for something scarce.",
+   "habitat": "Seen in impala herds during the rutting season.",
+   "food": "Only the strongest rams win mates and pass on their genes.",
+   "breeding": "Inter-specific competition is between species, e.g. kingfisher and starling for nest holes.",
+   "titbit": "These impala rams are fighting for dominance during the rut.",
+   "draft": true
+  },
+  "Fire": {
+   "size": "A natural factor that shapes savanna and grassland.",
    "habitat": "Grasslands and floodplains, mainly in the dry season.",
    "food": "Helps some seeds germinate, controls invader plants and removes dead grass.",
    "breeding": "Fires that are too frequent or at the wrong time harm many organisms.",
    "titbit": "Fresh green grass after a burn quickly attracts grazers.",
    "draft": true
   },
-  "Carrying capacity (elephant impact)": {
-   "size": "The most animals an area can support for ever without damaging it.",
-   "habitat": "Easy to see along the Chobe riverfront and at Savuti.",
-   "food": "Too many elephants push over and debark trees, changing woodland to scrub.",
-   "breeding": "Water, temperature, sunlight, soils and fire all limit carrying capacity.",
-   "titbit": "Old, leached Kalahari sands give lower carrying capacity than East Africa.",
+  "Ecology|Fire": {
+   "size": "A natural factor that shapes savanna and grassland.",
+   "habitat": "Grasslands and floodplains, mainly in the dry season.",
+   "food": "Helps some seeds germinate, controls invader plants and removes dead grass.",
+   "breeding": "Fires that are too frequent or at the wrong time harm many organisms.",
+   "titbit": "Fresh green grass after a burn quickly attracts grazers.",
    "draft": true
   },
   "Granite": {
    "size": "An intrusive igneous rock that cooled slowly underground, so it has large crystals.",
-   "habitat": "Granite hills and kopjes in eastern Botswana, e.g. around Francistown and the Tswapong area.",
-   "food": "Granite weathers into sandy, nutrient-poor soils; the Kalahari sand is of granitic origin.",
-   "breeding": "Look for a speckled rock of pink or white feldspar, glassy quartz and black mica crystals.",
-   "titbit": "Granite cooled so slowly deep underground that its crystals had time to grow big enough to see.",
+   "habitat": "Granite hills and kopjes in eastern Botswana, for example around Francistown.",
+   "food": "Granite weathers into sandy, nutrient-poor soils; Kalahari sand is of granitic origin.",
+   "breeding": "Look for a speckled rock of pink or white feldspar, glassy quartz and black crystals.",
+   "titbit": "Granite cooled so slowly deep underground that its crystals grew big enough to see.",
+   "draft": true
+  },
+  "Geology|Granite": {
+   "size": "An intrusive igneous rock that cooled slowly underground, so it has large crystals.",
+   "habitat": "Granite hills and kopjes in eastern Botswana, for example around Francistown.",
+   "food": "Granite weathers into sandy, nutrient-poor soils; Kalahari sand is of granitic origin.",
+   "breeding": "Look for a speckled rock of pink or white feldspar, glassy quartz and black crystals.",
+   "titbit": "Granite cooled so slowly deep underground that its crystals grew big enough to see.",
    "draft": true
   },
   "Basalt": {
    "size": "A dark, fine-grained extrusive igneous rock formed when lava cools quickly at the surface.",
-   "habitat": "Under parts of eastern and northern Botswana; often hidden below Kalahari sand.",
-   "food": "Basalt weathers into dark, very fertile clay soils that support good grazing.",
-   "breeding": "Dark grey to black, heavy, with crystals too small to see; may form six-sided columns.",
-   "titbit": "Basalt weathers fast, which is why basalt soils are rich and support many game animals.",
+   "habitat": "The Victoria Falls gorges are cut into basalt; in Botswana it is mostly hidden under sand.",
+   "food": "Basalt weathers fast into dark, very fertile soils that support a lot of game.",
+   "breeding": "Dark grey to black and heavy; cooling lava often cracks into six-sided columns like these.",
+   "titbit": "Basalt weathers into very fertile soil, while granite gives poor soil.",
+   "draft": true
+  },
+  "Geology|Basalt": {
+   "size": "A dark, fine-grained extrusive igneous rock formed when lava cools quickly at the surface.",
+   "habitat": "The Victoria Falls gorges are cut into basalt; in Botswana it is mostly hidden under sand.",
+   "food": "Basalt weathers fast into dark, very fertile soils that support a lot of game.",
+   "breeding": "Dark grey to black and heavy; cooling lava often cracks into six-sided columns like these.",
+   "titbit": "Basalt weathers into very fertile soil, while granite gives poor soil.",
    "draft": true
   },
   "Rhyolite": {
-   "size": "A pale, fine-grained extrusive igneous rock from sticky, silica-rich lava.",
-   "habitat": "The Savuti Hills (Gubatsa Hills) in Chobe National Park are made of flow-banded rhyolite.",
-   "food": "Rocky hills like Savuti give shelter and lookouts for leopard, klipspringer and rock hyrax.",
-   "breeding": "Look for fine bands or swirls in the rock, left by lava that flowed before it set.",
-   "titbit": "The Savuti rhyolite hills are more than 900 million years old.",
+   "size": "A pale, fine-grained extrusive igneous rock formed from thick, sticky lava.",
+   "habitat": "The Savuti (Gubatsa) Hills in Chobe National Park are made of flow-banded rhyolite.",
+   "food": "Rhyolite hills rise above the flat sand and give shelter, shade and lookout points.",
+   "breeding": "Look for fine wavy bands in the rock, left by lava that flowed before it set.",
+   "titbit": "The rhyolite hills at Savuti are more than 900 million years old.",
+   "draft": true
+  },
+  "Geology|Rhyolite": {
+   "size": "A pale, fine-grained extrusive igneous rock formed from thick, sticky lava.",
+   "habitat": "The Savuti (Gubatsa) Hills in Chobe National Park are made of flow-banded rhyolite.",
+   "food": "Rhyolite hills rise above the flat sand and give shelter, shade and lookout points.",
+   "breeding": "Look for fine wavy bands in the rock, left by lava that flowed before it set.",
+   "titbit": "The rhyolite hills at Savuti are more than 900 million years old.",
    "draft": true
   },
   "Sandstone": {
    "size": "A sedimentary rock made of sand grains cemented together.",
    "habitat": "The Otse Hills in south-east Botswana are mainly sandstone.",
-   "food": "Sandstone weathers back into sand, giving light soils that drain quickly.",
-   "breeding": "Rub it: it feels gritty like sandpaper. Layers (bedding) are often visible.",
+   "food": "Under great heat and pressure sandstone changes into hard quartzite, like the Tsodilo Hills.",
+   "breeding": "It feels gritty like sandpaper, and layers (bedding) are often easy to see.",
+   "titbit": "Slanting layers in sandstone show the direction of ancient wind or water currents.",
+   "draft": true
+  },
+  "Geology|Sandstone": {
+   "size": "A sedimentary rock made of sand grains cemented together.",
+   "habitat": "The Otse Hills in south-east Botswana are mainly sandstone.",
+   "food": "Under great heat and pressure sandstone changes into hard quartzite, like the Tsodilo Hills.",
+   "breeding": "It feels gritty like sandpaper, and layers (bedding) are often easy to see.",
    "titbit": "Slanting layers in sandstone show the direction of ancient wind or water currents.",
    "draft": true
   },
   "Shale": {
    "size": "A fine-grained sedimentary rock formed from compacted clay or mud.",
-   "habitat": "Found under the sand in places; seen in road cuts and quarries rather than game areas.",
-   "food": "Under heat and pressure shale changes into slate and then schist.",
-   "breeding": "Grey, thin layers that split easily into flat flakes.",
+   "habitat": "Seen mostly in road cuts and quarries, as it is usually hidden under the sand.",
+   "food": "Under heat and pressure shale changes into slate and then into schist.",
+   "breeding": "Grey or dark, in thin layers that split easily into flat flakes.",
+   "titbit": "Shale is the most common sedimentary rock on Earth.",
+   "draft": true
+  },
+  "Geology|Shale": {
+   "size": "A fine-grained sedimentary rock formed from compacted clay or mud.",
+   "habitat": "Seen mostly in road cuts and quarries, as it is usually hidden under the sand.",
+   "food": "Under heat and pressure shale changes into slate and then into schist.",
+   "breeding": "Grey or dark, in thin layers that split easily into flat flakes.",
    "titbit": "Shale is the most common sedimentary rock on Earth.",
    "draft": true
   },
   "Limestone": {
-   "size": "A sedimentary rock built from shells, corals and bones, made of calcium carbonate.",
-   "habitat": "The Gcwihaba, Aha and Koanaka hills in the far north-west contain limestone, marble and dolomite.",
-   "food": "Water with carbon dioxide dissolves limestone, forming caves such as Drotsky's Cave.",
-   "breeding": "Pale grey or white; a drop of acid (or vinegar) makes it fizz.",
-   "titbit": "Rocks of organic origin like limestone are not \"true\" rocks, says the manual.",
+   "size": "A sedimentary rock built up from shells, corals and bones; it is made of calcium carbonate.",
+   "habitat": "The Gcwihaba, Aha and Koanaka hills in the far north-west contain limestone and dolomite.",
+   "food": "Rainwater with carbon dioxide slowly dissolves limestone and forms caves.",
+   "breeding": "Usually pale grey or white; a drop of acid or vinegar makes it fizz.",
+   "titbit": "Drotsky's Cave at Gcwihaba formed when water dissolved the limestone and dolomite rock.",
    "draft": true
   },
-  "Dolomite": {
-   "size": "A sedimentary rock like limestone but rich in magnesium.",
-   "habitat": "The Gcwihaba, Aha and Koanaka hills near the Namibian border.",
-   "food": "Dolomite hills are good for cave formation, home to bats and the Gcwihaba Caves.",
-   "breeding": "Looks like grey limestone, often in layers, but fizzes only weakly with acid.",
-   "titbit": "Drotsky's Cave in the dolomite hills may be a million years old or more.",
+  "Geology|Limestone": {
+   "size": "A sedimentary rock built up from shells, corals and bones; it is made of calcium carbonate.",
+   "habitat": "The Gcwihaba, Aha and Koanaka hills in the far north-west contain limestone and dolomite.",
+   "food": "Rainwater with carbon dioxide slowly dissolves limestone and forms caves.",
+   "breeding": "Usually pale grey or white; a drop of acid or vinegar makes it fizz.",
+   "titbit": "Drotsky's Cave at Gcwihaba formed when water dissolved the limestone and dolomite rock.",
    "draft": true
   },
   "Quartzite": {
    "size": "A very hard metamorphic rock formed when sandstone is changed by heat and pressure.",
    "habitat": "The Tsodilo Hills in north-west Botswana are made of quartzite.",
    "food": "Quartzite resists weathering, so it stands up as hills above the flat Kalahari sand.",
-   "breeding": "Hard, glassy and often pink, purple or grey; it breaks through the grains, not around them.",
-   "titbit": "Tsodilo's quartzite cliffs are covered in over 4 000 San rock paintings.",
+   "breeding": "Hard and glassy, often pink, purple or grey, and forms steep cliffs.",
+   "titbit": "Tsodilo's quartzite cliffs carry more than 4 000 rock paintings.",
+   "draft": true
+  },
+  "Geology|Quartzite": {
+   "size": "A very hard metamorphic rock formed when sandstone is changed by heat and pressure.",
+   "habitat": "The Tsodilo Hills in north-west Botswana are made of quartzite.",
+   "food": "Quartzite resists weathering, so it stands up as hills above the flat Kalahari sand.",
+   "breeding": "Hard and glassy, often pink, purple or grey, and forms steep cliffs.",
+   "titbit": "Tsodilo's quartzite cliffs carry more than 4 000 rock paintings.",
    "draft": true
   },
   "Schist": {
    "size": "A metamorphic rock formed from shale under high heat and pressure.",
-   "habitat": "Found in the older rocks of eastern Botswana, but rarely seen in safari areas.",
-   "food": "It shows how one rock type can change into another in the rock cycle.",
-   "breeding": "Look for shiny flakes of mica in wavy layers; it glitters in the sun.",
-   "titbit": "The manual's table shows shale, basalt and slate can all change into schist.",
+   "habitat": "In the very old rocks of eastern Botswana; rarely seen in the safari areas.",
+   "food": "It shows how one rock type changes into another in the rock cycle.",
+   "breeding": "Look for shiny flakes of mica in thin wavy layers; it glitters in the sun.",
+   "titbit": "Schist glitters because the clay in shale has recrystallised into flakes of mica.",
    "draft": true
   },
-  "Diamond (rough)": {
+  "Geology|Schist": {
+   "size": "A metamorphic rock formed from shale under high heat and pressure.",
+   "habitat": "In the very old rocks of eastern Botswana; rarely seen in the safari areas.",
+   "food": "It shows how one rock type changes into another in the rock cycle.",
+   "breeding": "Look for shiny flakes of mica in thin wavy layers; it glitters in the sun.",
+   "titbit": "Schist glitters because the clay in shale has recrystallised into flakes of mica.",
+   "draft": true
+  },
+  "Rough diamond": {
    "size": "A mineral of pure carbon, the hardest natural substance, formed deep in the mantle.",
    "habitat": "Mined at Orapa, Jwaneng, Letlhakane and Karowe; not seen in the wild.",
    "food": "Diamonds are Botswana's main export and paid for much of the country's development.",
-   "breeding": "Rough diamonds look like greasy, eight-sided crystals, not sparkly cut gems.",
-   "titbit": "Diamond is one of the few \"rocks\" made of a single mineral, with gold, silver and platinum.",
+   "breeding": "Rough diamonds look like greasy eight-sided crystals, not like sparkling cut gems.",
+   "titbit": "Diamond is made of a single mineral, like gold, silver and platinum.",
+   "draft": true
+  },
+  "Geology|Rough diamond": {
+   "size": "A mineral of pure carbon, the hardest natural substance, formed deep in the mantle.",
+   "habitat": "Mined at Orapa, Jwaneng, Letlhakane and Karowe; not seen in the wild.",
+   "food": "Diamonds are Botswana's main export and paid for much of the country's development.",
+   "breeding": "Rough diamonds look like greasy eight-sided crystals, not like sparkling cut gems.",
+   "titbit": "Diamond is made of a single mineral, like gold, silver and platinum.",
    "draft": true
   },
   "Kimberlite": {
    "size": "A dark igneous rock from deep in the mantle that can carry diamonds to the surface.",
    "habitat": "Kimberlite pipes lie under the Kalahari sand at Orapa, Jwaneng and Letlhakane.",
-   "food": "All of Botswana's diamonds are mined from kimberlite pipes.",
-   "breeding": "Greenish-grey to blue-grey rock with scattered rounded crystals and bits of other rock.",
+   "food": "Botswana's diamonds are mined from kimberlite pipes.",
+   "breeding": "A dark green-grey rock with scattered rounded crystals and bits of other rock.",
+   "titbit": "Orapa, found in 1967, is one of the largest kimberlite pipes in the world.",
+   "draft": true
+  },
+  "Geology|Kimberlite": {
+   "size": "A dark igneous rock from deep in the mantle that can carry diamonds to the surface.",
+   "habitat": "Kimberlite pipes lie under the Kalahari sand at Orapa, Jwaneng and Letlhakane.",
+   "food": "Botswana's diamonds are mined from kimberlite pipes.",
+   "breeding": "A dark green-grey rock with scattered rounded crystals and bits of other rock.",
    "titbit": "Orapa, found in 1967, is one of the largest kimberlite pipes in the world.",
    "draft": true
   },
   "Calcrete": {
-   "size": "A hard, pale layer of sand and gravel cemented by lime (calcium carbonate).",
-   "habitat": "Common around pans and fossil river valleys in the Kalahari, e.g. Makgadikgadi and Nxai Pan.",
-   "food": "Calcrete holds water near the surface, so pans and waterholes form on it.",
-   "breeding": "A white or cream crust under thin soil; often exposed on the edges of pans.",
-   "titbit": "Calcrete is used across Botswana as a cheap gravel for building roads.",
+   "size": "A hard, pale layer of sand and gravel cemented together by lime (calcium carbonate).",
+   "habitat": "Common around pans and old river valleys in the Kalahari, for example at the Makgadikgadi.",
+   "food": "Calcrete is dug up all over Botswana as gravel for building roads.",
+   "breeding": "Look for a white or cream crust, often lumpy, on the edges of pans.",
+   "titbit": "Calcrete forms when water evaporates in the dry Kalahari and leaves lime that cements the sand.",
+   "draft": true
+  },
+  "Geology|Calcrete": {
+   "size": "A hard, pale layer of sand and gravel cemented together by lime (calcium carbonate).",
+   "habitat": "Common around pans and old river valleys in the Kalahari, for example at the Makgadikgadi.",
+   "food": "Calcrete is dug up all over Botswana as gravel for building roads.",
+   "breeding": "Look for a white or cream crust, often lumpy, on the edges of pans.",
+   "titbit": "Calcrete forms when water evaporates in the dry Kalahari and leaves lime that cements the sand.",
    "draft": true
   },
   "Agate": {
-   "size": "A banded form of quartz (chalcedony) that fills holes in volcanic rock.",
-   "habitat": "Botswana agate comes from the Bobonong area in the east, mainly sold as polished stones.",
+   "size": "A banded form of quartz that fills holes in old volcanic rock.",
+   "habitat": "Botswana agate comes from the Bobonong area in the east.",
    "food": "Botswana agate is a well-known semi-precious stone used in jewellery.",
-   "breeding": "Look for smooth curved bands of colour, often pink, grey, brown and white.",
-   "titbit": "Each band of an agate was laid down as a separate layer of silica in a gas bubble.",
+   "breeding": "Look for smooth curved bands of colour, often brown, orange, grey and white.",
+   "titbit": "Each band of an agate was laid down as a separate layer of silica inside a hollow in the rock.",
+   "draft": true
+  },
+  "Geology|Agate": {
+   "size": "A banded form of quartz that fills holes in old volcanic rock.",
+   "habitat": "Botswana agate comes from the Bobonong area in the east.",
+   "food": "Botswana agate is a well-known semi-precious stone used in jewellery.",
+   "breeding": "Look for smooth curved bands of colour, often brown, orange, grey and white.",
+   "titbit": "Each band of an agate was laid down as a separate layer of silica inside a hollow in the rock.",
    "draft": true
   },
   "Tsodilo Hills": {
-   "size": "Four quartzite hills rising out of the flat Kalahari sand in north-west Botswana.",
+   "size": "Quartzite hills rising out of the flat Kalahari sand in north-west Botswana.",
    "habitat": "Near Shakawe, west of the Okavango Panhandle.",
-   "food": "A UNESCO World Heritage Site with thousands of San and Bantu rock paintings.",
-   "breeding": "Name the four hills: Male, Female, Child and a small unnamed hill.",
-   "titbit": "The San call Tsodilo the \"Mountains of the Gods\" or \"Rock that Whispers\".",
+   "food": "A UNESCO World Heritage Site with more than 4 000 rock paintings.",
+   "breeding": "Name the hills: Male, Female, Child and a small unnamed hill.",
+   "titbit": "The San call Tsodilo the \"Mountains of the Gods\".",
+   "draft": true
+  },
+  "Geology|Tsodilo Hills": {
+   "size": "Quartzite hills rising out of the flat Kalahari sand in north-west Botswana.",
+   "habitat": "Near Shakawe, west of the Okavango Panhandle.",
+   "food": "A UNESCO World Heritage Site with more than 4 000 rock paintings.",
+   "breeding": "Name the hills: Male, Female, Child and a small unnamed hill.",
+   "titbit": "The San call Tsodilo the \"Mountains of the Gods\".",
    "draft": true
   },
   "Makgadikgadi Pans": {
    "size": "Huge flat salt pans left behind when a giant ancient lake dried up.",
-   "habitat": "Central Botswana, between Maun and Nata; Nxai Pan is part of the same system.",
-   "food": "In good rains the pans fill and attract thousands of flamingos; zebra migrate here.",
-   "breeding": "Explain the super-lake of 200 000 km² that dried up about 10 000 years ago.",
+   "habitat": "Central Botswana between Maun and Nata; Nxai Pan (in this photo) lies in the same old lake basin.",
+   "food": "After good rains the pans fill with water and attract thousands of flamingos.",
+   "breeding": "Explain the super-lake of about 200 000 km² that dried up about 10 000 years ago.",
+   "titbit": "The Makgadikgadi is one of the largest salt pan systems in the world.",
+   "draft": true
+  },
+  "Geology|Makgadikgadi Pans": {
+   "size": "Huge flat salt pans left behind when a giant ancient lake dried up.",
+   "habitat": "Central Botswana between Maun and Nata; Nxai Pan (in this photo) lies in the same old lake basin.",
+   "food": "After good rains the pans fill with water and attract thousands of flamingos.",
+   "breeding": "Explain the super-lake of about 200 000 km² that dried up about 10 000 years ago.",
    "titbit": "The Makgadikgadi is one of the largest salt pan systems in the world.",
    "draft": true
   },
   "Kubu Island": {
-   "size": "A granite rocky outcrop with baobabs, rising from the Sowa Pan in the Makgadikgadi.",
-   "habitat": "South-west part of Sowa Pan; reachable only in the dry season.",
-   "food": "A national monument and sacred site with stone walls and ancient shoreline features.",
-   "breeding": "Point out wave-cut terraces and fossil beach pebbles from the old lake shore.",
-   "titbit": "Kubu means \"hippopotamus\" in Setswana, from when the area was wet.",
+   "size": "A rocky island covered in baobabs, rising out of the white Sowa Pan in the Makgadikgadi.",
+   "habitat": "On the south-west side of Sowa Pan; best reached in the dry season.",
+   "food": "A national monument with old stone walls and signs of the ancient lake shore.",
+   "breeding": "Point out the old beach pebbles and rock terraces left by the waves of the ancient lake.",
+   "titbit": "Kubu means \"hippopotamus\" in Setswana, from the days when the area was a lake.",
    "draft": true
   },
-  "Kalahari sand dunes": {
-   "size": "Ridges of wind-blown sand; the Kalahari is the largest continuous body of sand in the world.",
-   "habitat": "Central and southern Kalahari; old fossil dunes are found under the bush in the north.",
-   "food": "The leached sand is poor in nutrients, so it has a low carrying capacity for herbivores.",
-   "breeding": "Red sand gets its colour from iron oxide coating the grains.",
-   "titbit": "Kalahari sand stretches from the Cape to the Congo.",
+  "Geology|Kubu Island": {
+   "size": "A rocky island covered in baobabs, rising out of the white Sowa Pan in the Makgadikgadi.",
+   "habitat": "On the south-west side of Sowa Pan; best reached in the dry season.",
+   "food": "A national monument with old stone walls and signs of the ancient lake shore.",
+   "breeding": "Point out the old beach pebbles and rock terraces left by the waves of the ancient lake.",
+   "titbit": "Kubu means \"hippopotamus\" in Setswana, from the days when the area was a lake.",
    "draft": true
   },
-  "Okavango Delta from the air": {
+  "Okavango Delta": {
    "size": "An inland delta where the Okavango River fans out over the Kalahari and never reaches the sea.",
-   "habitat": "North-west Botswana; best seen on a scenic flight, highest water June to August.",
-   "food": "Its floodplains are the most productive habitat in the Delta for wildlife.",
-   "breeding": "Explain the faults: Gumare fault spreads the water, Thamalakane fault blocks it in the south.",
-   "titbit": "The Delta drops only 60 m over 250 km; about 97% of the water is lost to evaporation and transpiration.",
+   "habitat": "North-west Botswana; best seen from a scenic flight, with the highest water from June to August.",
+   "food": "Its floodplains are the most productive habitats in the Delta for wildlife.",
+   "breeding": "Explain the faults: the Gumare fault spreads the water and the Thamalakane fault blocks it.",
+   "titbit": "The Delta drops only 60 m over 250 km, so the water spreads out slowly.",
    "draft": true
   },
-  "Termite-mound islands": {
-   "size": "Small tree-covered islands in the Delta, many started by termite mounds.",
-   "habitat": "All over the seasonal floodplains of the Okavango Delta.",
-   "food": "Islands give dry ground for trees, nesting birds and animals in the flood season.",
-   "breeding": "From the air: round islands with trees on the edges and a bare white salty centre.",
-   "titbit": "Many Delta islands began as a single termite mound that rose above the floodwater.",
+  "Geology|Okavango Delta": {
+   "size": "An inland delta where the Okavango River fans out over the Kalahari and never reaches the sea.",
+   "habitat": "North-west Botswana; best seen from a scenic flight, with the highest water from June to August.",
+   "food": "Its floodplains are the most productive habitats in the Delta for wildlife.",
+   "breeding": "Explain the faults: the Gumare fault spreads the water and the Thamalakane fault blocks it.",
+   "titbit": "The Delta drops only 60 m over 250 km, so the water spreads out slowly.",
    "draft": true
   },
   "Chobe River": {
-   "size": "A river that flows about 60 km along Botswana's northern border into the Zambezi.",
-   "habitat": "Chobe National Park riverfront near Kasane; best in the dry season, May to October.",
-   "food": "Huge herds of elephant and buffalo come to drink at the Chobe in the dry season.",
-   "breeding": "Tell guests it starts as the Kwando, becomes the Linyanti, then the Chobe.",
+   "size": "A river that flows for about 60 km along Botswana's northern border into the Zambezi.",
+   "habitat": "The Chobe riverfront near Kasane; best in the dry season, May to October.",
+   "food": "Large herds of elephant and buffalo come to drink at the Chobe in the dry season.",
+   "breeding": "Tell guests the same river starts as the Kwando, becomes the Linyanti, then the Chobe.",
    "titbit": "The Linyanti fault forces the Kwando's water north-east into the Chobe.",
    "draft": true
   },
-  "Savuti Channel": {
-   "size": "A channel that links the Linyanti system to the Savuti Marsh; it flows and dries for years at a time.",
-   "habitat": "Savuti, in Chobe National Park, between Maun and Kasane.",
-   "food": "When it flows, the channel and marsh draw large numbers of game and predators.",
-   "breeding": "Dead trees along its banks grew while it was dry and drowned when the water returned.",
-   "titbit": "The channel stopped flowing in 1982 and only started again in 2008.",
+  "Geology|Chobe River": {
+   "size": "A river that flows for about 60 km along Botswana's northern border into the Zambezi.",
+   "habitat": "The Chobe riverfront near Kasane; best in the dry season, May to October.",
+   "food": "Large herds of elephant and buffalo come to drink at the Chobe in the dry season.",
+   "breeding": "Tell guests the same river starts as the Kwando, becomes the Linyanti, then the Chobe.",
+   "titbit": "The Linyanti fault forces the Kwando's water north-east into the Chobe.",
    "draft": true
   },
-  "Weathering (exfoliation)": {
-   "size": "The breaking down of rock where it lies, by heat, cold, water, plants and animals.",
-   "habitat": "Granite and sandstone outcrops in eastern Botswana and at the Tsodilo Hills.",
-   "food": "Weathering turns rock into soil, which decides which plants and animals live there.",
-   "breeding": "Point out rounded boulders peeling in layers like an onion from daily heating and cooling.",
-   "titbit": "Daily heating and cooling makes rock expand and shrink until it cracks.",
+  "Exfoliation": {
+   "size": "Weathering where the outer layers of rock peel off in sheets or shells, like an onion.",
+   "habitat": "On granite hills, domes and boulders, for example the kopjes of eastern Botswana.",
+   "food": "Weathering breaks rock down into soil, which decides which plants and animals live there.",
+   "breeding": "Point out curved slabs of rock lifting and peeling off the surface of granite outcrops.",
+   "titbit": "When the rock above is worn away, the rock below expands and cracks into sheets.",
    "draft": true
   },
-  "Lichen on rock": {
-   "size": "A partnership of a fungus and an alga that grows on bare rock.",
-   "habitat": "On rocks and old tree trunks; brightest after rain.",
-   "food": "Lichens slowly break rock down chemically and start the formation of soil.",
+  "Geology|Exfoliation": {
+   "size": "Weathering where the outer layers of rock peel off in sheets or shells, like an onion.",
+   "habitat": "On granite hills, domes and boulders, for example the kopjes of eastern Botswana.",
+   "food": "Weathering breaks rock down into soil, which decides which plants and animals live there.",
+   "breeding": "Point out curved slabs of rock lifting and peeling off the surface of granite outcrops.",
+   "titbit": "When the rock above is worn away, the rock below expands and cracks into sheets.",
+   "draft": true
+  },
+  "Lichen weathering": {
+   "size": "Lichens are a fungus and an alga living together on bare rock; they slowly break it down.",
+   "habitat": "On bare rock surfaces almost everywhere; brightest after rain.",
+   "food": "Lichens are a form of chemical weathering and help to start the formation of soil.",
    "breeding": "Explain the partnership: the fungus takes minerals from the rock and the alga makes food.",
-   "titbit": "Lichens cause chemical weathering: the fungus absorbs chemicals from the rock.",
+   "titbit": "The fungus part absorbs chemicals from the rock and feeds its algae partner.",
    "draft": true
   },
-  "Water erosion (gullies)": {
-   "size": "Erosion is the removal of soil and rock particles by moving water or wind.",
-   "habitat": "Mainly south-eastern and eastern Botswana, where there is run-off; rare on flat Kalahari sand.",
-   "food": "Erosion moves soil away and starts the formation of new sedimentary rock.",
-   "breeding": "Gullies (dongas) form where water runs off bare, overgrazed ground.",
-   "titbit": "Flat, porous Kalahari sand soaks up rain, so most of Botswana shows little erosion.",
+  "Geology|Lichen weathering": {
+   "size": "Lichens are a fungus and an alga living together on bare rock; they slowly break it down.",
+   "habitat": "On bare rock surfaces almost everywhere; brightest after rain.",
+   "food": "Lichens are a form of chemical weathering and help to start the formation of soil.",
+   "breeding": "Explain the partnership: the fungus takes minerals from the rock and the alga makes food.",
+   "titbit": "The fungus part absorbs chemicals from the rock and feeds its algae partner.",
+   "draft": true
+  },
+  "Water erosion": {
+   "size": "The removal of soil and rock particles by moving water.",
+   "habitat": "Mainly south-eastern and eastern Botswana, where rain runs off the land.",
+   "food": "Erosion carries soil away and is often the start of new sedimentary rock.",
+   "breeding": "Deep gullies (dongas) form where water runs off bare, overgrazed ground.",
+   "titbit": "Flat, porous Kalahari sand soaks up the rain, so most of Botswana shows little erosion.",
+   "draft": true
+  },
+  "Geology|Water erosion": {
+   "size": "The removal of soil and rock particles by moving water.",
+   "habitat": "Mainly south-eastern and eastern Botswana, where rain runs off the land.",
+   "food": "Erosion carries soil away and is often the start of new sedimentary rock.",
+   "breeding": "Deep gullies (dongas) form where water runs off bare, overgrazed ground.",
+   "titbit": "Flat, porous Kalahari sand soaks up the rain, so most of Botswana shows little erosion.",
    "draft": true
   },
   "Chobe National Park": {
@@ -34005,15 +39781,39 @@ window.AGA_DATA = {
    "titbit": "Mostly savanna, with large areas of miombo woodland in the north and east.",
    "draft": true
   },
+  "Tourism and Legislation|Chobe National Park": {
+   "size": "A national park famous for its huge elephant herds.",
+   "habitat": "Far north of Botswana, along the Chobe River near Kasane.",
+   "food": "Main attractions: the Chobe riverfront, Linyanti and Savuti.",
+   "breeding": "No off-road driving; summer gate times are 05:30-19:00.",
+   "titbit": "Mostly savanna, with large areas of miombo woodland in the north and east.",
+   "draft": true
+  },
   "Savuti": {
    "size": "A remote area of Chobe National Park with a marsh and a channel.",
    "habitat": "South-western Chobe National Park, between Linyanti and Mababe.",
-   "food": "Known as one of the best areas in Africa for predators.",
+   "food": "Known as one of the best areas in Africa for predators, such as lion and hyaena.",
+   "breeding": "The Savuti Channel dries up and flows again over many years.",
+   "titbit": "Savuti lions became famous for hunting elephants.",
+   "draft": true
+  },
+  "Tourism and Legislation|Savuti": {
+   "size": "A remote area of Chobe National Park with a marsh and a channel.",
+   "habitat": "South-western Chobe National Park, between Linyanti and Mababe.",
+   "food": "Known as one of the best areas in Africa for predators, such as lion and hyaena.",
    "breeding": "The Savuti Channel dries up and flows again over many years.",
    "titbit": "Savuti lions became famous for hunting elephants.",
    "draft": true
   },
   "Linyanti": {
+   "size": "A river and wetland area in the north-west of Chobe National Park.",
+   "habitat": "Along the Linyanti River on the Namibian border.",
+   "food": "Large elephant herds come to drink here in the dry season.",
+   "breeding": "The Kwando River is blocked by the Linyanti fault and turns north-east.",
+   "titbit": "Much of the area is private concession land with photographic lodges.",
+   "draft": true
+  },
+  "Tourism and Legislation|Linyanti": {
    "size": "A river and wetland area in the north-west of Chobe National Park.",
    "habitat": "Along the Linyanti River on the Namibian border.",
    "food": "Large elephant herds come to drink here in the dry season.",
@@ -34029,6 +39829,14 @@ window.AGA_DATA = {
    "titbit": "Zebra migrate between Nxai Pan and the Makgadikgadi Pans.",
    "draft": true
   },
+  "Tourism and Legislation|Nxai Pan National Park": {
+   "size": "A national park of open grassland and dry Kalahari savanna.",
+   "habitat": "North of the Makgadikgadi Pans, off the Maun-Nata road.",
+   "food": "Its waterhole is a wildlife hotspot in the hot, dry months.",
+   "breeding": "Most wildlife is on the grassy Nxai Pan, north of Baines' Baobabs.",
+   "titbit": "Zebra migrate between Nxai Pan and the Makgadikgadi Pans.",
+   "draft": true
+  },
   "Baines' Baobabs": {
    "size": "A cluster of old baobab trees on a rocky ridge in Nxai Pan National Park.",
    "habitat": "South of Nxai Pan, overlooking a salt pan and grassland.",
@@ -34037,15 +39845,23 @@ window.AGA_DATA = {
    "titbit": "Thomas Baines painted these trees on an expedition in 1862.",
    "draft": true
   },
-  "Makgadikgadi Pans National Park": {
-   "size": "A national park established to protect the Sua and Ntwetwe salt pans.",
-   "habitat": "Central-northern Botswana, along the Boteti River.",
-   "food": "The Boteti River is a wildlife-rich area and a main attraction.",
-   "breeding": "In the dry season zebra and wildebeest crowd the Boteti to drink.",
-   "titbit": "The Boteti carries overflow from the Okavango towards Lake Xau.",
+  "Tourism and Legislation|Baines' Baobabs": {
+   "size": "A cluster of old baobab trees on a rocky ridge in Nxai Pan National Park.",
+   "habitat": "South of Nxai Pan, overlooking a salt pan and grassland.",
+   "food": "One of the most photographed landmarks in Botswana.",
+   "breeding": "Compare the trees with Baines' painting: they have changed very little.",
+   "titbit": "Thomas Baines painted these trees on an expedition in 1862.",
    "draft": true
   },
   "Moremi Game Reserve": {
+   "size": "A game reserve set up to conserve the wildlife of the Okavango Delta.",
+   "habitat": "Eastern Okavango Delta, north of Maun.",
+   "food": "Public camps: South Gate, North Gate, Xakanaxa and Third Bridge.",
+   "breeding": "There is no vehicle access to Chief's Island; it has two lodges.",
+   "titbit": "Moremi was set up by the BaTawana people in 1963.",
+   "draft": true
+  },
+  "Tourism and Legislation|Moremi Game Reserve": {
    "size": "A game reserve set up to conserve the wildlife of the Okavango Delta.",
    "habitat": "Eastern Okavango Delta, north of Maun.",
    "food": "Public camps: South Gate, North Gate, Xakanaxa and Third Bridge.",
@@ -34061,10 +39877,26 @@ window.AGA_DATA = {
    "titbit": "It is more than 1.5 times larger than Belgium.",
    "draft": true
   },
+  "Tourism and Legislation|Central Kalahari Game Reserve": {
+   "size": "About 52,800 km², one of Africa's largest reserves; established in 1961.",
+   "habitat": "In the heart of the Kalahari thirstland, central Botswana.",
+   "food": "Home to the San people and desert antelope like oryx, springbok and red hartebeest.",
+   "breeding": "Walking from lodge sites is allowed here; night drives are not.",
+   "titbit": "It is more than 1.5 times larger than Belgium.",
+   "draft": true
+  },
   "Khama Rhino Sanctuary": {
    "size": "A community-run sanctuary declared to protect rhino.",
    "habitat": "Near Serowe in the Central District.",
-   "food": "Breeds white and black rhino to restock Botswana's wild areas.",
+   "food": "Protects white and black rhino in a safe, fenced area.",
+   "breeding": "In sanctuaries access times are flexible and night drives may be allowed.",
+   "titbit": "Killing a rhino can mean a P100 000 fine or 15 years in prison.",
+   "draft": true
+  },
+  "Tourism and Legislation|Khama Rhino Sanctuary": {
+   "size": "A community-run sanctuary declared to protect rhino.",
+   "habitat": "Near Serowe in the Central District.",
+   "food": "Protects white and black rhino in a safe, fenced area.",
    "breeding": "In sanctuaries access times are flexible and night drives may be allowed.",
    "titbit": "Killing a rhino can mean a P100 000 fine or 15 years in prison.",
    "draft": true
@@ -34074,42 +39906,58 @@ window.AGA_DATA = {
    "habitat": "North-east corner of Sua Pan, near Nata village.",
    "food": "One of only 5 breeding sites for lesser flamingo.",
    "breeding": "As the last part of Sua Pan to dry up, it can give spectacular flamingo viewing.",
-   "titbit": "The fresh-to-salt water gradient gives good bird and plant diversity.",
+   "titbit": "It also protects great white pelicans, as well as greater and lesser flamingos.",
+   "draft": true
+  },
+  "Tourism and Legislation|Nata Bird Sanctuary": {
+   "size": "A sanctuary established to protect flamingos.",
+   "habitat": "North-east corner of Sua Pan, near Nata village.",
+   "food": "One of only 5 breeding sites for lesser flamingo.",
+   "breeding": "As the last part of Sua Pan to dry up, it can give spectacular flamingo viewing.",
+   "titbit": "It also protects great white pelicans, as well as greater and lesser flamingos.",
    "draft": true
   },
   "Kgalagadi Transfrontier Park": {
-   "size": "Botswana's only transfrontier park, shared with South Africa.",
+   "size": "A huge park of red dunes and dry riverbeds, shared with South Africa.",
    "habitat": "Far south-western Botswana, along the Nossob River.",
-   "food": "Red dunes and dry riverbeds hold gemsbok, springbok and black-maned lions.",
+   "food": "Gemsbok, springbok and black-maned lions live among the dunes and riverbeds.",
    "breeding": "Look for game along the dry Nossob and Auob riverbeds.",
-   "titbit": "The planned KAZA area will be the world's largest transfrontier conservation area.",
+   "titbit": "It is Botswana's only transfrontier park; it stretches into South Africa.",
+   "draft": true
+  },
+  "Tourism and Legislation|Kgalagadi Transfrontier Park": {
+   "size": "A huge park of red dunes and dry riverbeds, shared with South Africa.",
+   "habitat": "Far south-western Botswana, along the Nossob River.",
+   "food": "Gemsbok, springbok and black-maned lions live among the dunes and riverbeds.",
+   "breeding": "Look for game along the dry Nossob and Auob riverbeds.",
+   "titbit": "It is Botswana's only transfrontier park; it stretches into South Africa.",
    "draft": true
   },
   "Tsodilo rock art": {
    "size": "Ancient rock paintings of animals, people and patterns.",
    "habitat": "On the rock faces of the Tsodilo Hills.",
-   "food": "Shows thousands of years of human history and San beliefs.",
+   "food": "Shows thousands of years of San life and beliefs.",
    "breeding": "Never touch or wet the paintings; oil and water damage them.",
-   "titbit": "The main hills are called the Male, Female and Child.",
+   "titbit": "About 4,500 San paintings are protected in the Tsodilo Hills.",
    "draft": true
   },
-  "Okavango Delta": {
-   "size": "A huge inland delta; a UNESCO World Heritage Site since 2014.",
-   "habitat": "North-western Botswana, fed by rivers from the Angolan highlands.",
-   "food": "Supports huge wildlife numbers, tourism and local people.",
-   "breeding": "The flood arrives in winter, months after the summer rains in Angola.",
-   "titbit": "It was the 1,000th site on the World Heritage list.",
-   "draft": true
-  },
-  "Makgadikgadi salt pans": {
-   "size": "One of the largest salt flats on Earth: Sua Pan and Ntwetwe Pan.",
-   "habitat": "North-eastern Botswana, between Nata, Gweta and Maun.",
-   "food": "A remnant of ancient Lake Makgadikgadi, which covered over 100,000 km².",
-   "breeding": "Ntwetwe Pan is more broken up and vegetated than Sua Pan.",
-   "titbit": "In good rains, thousands of flamingos come to the pans.",
+  "Tourism and Legislation|Tsodilo rock art": {
+   "size": "Ancient rock paintings of animals, people and patterns.",
+   "habitat": "On the rock faces of the Tsodilo Hills.",
+   "food": "Shows thousands of years of San life and beliefs.",
+   "breeding": "Never touch or wet the paintings; oil and water damage them.",
+   "titbit": "About 4,500 San paintings are protected in the Tsodilo Hills.",
    "draft": true
   },
   "Chapman's Baobab": {
+   "size": "A giant baobab named after the explorer James Chapman.",
+   "habitat": "Near Ntwetwe Pan, east of Makgadikgadi Pans National Park.",
+   "food": "An old landmark where early travellers left messages.",
+   "breeding": "It is on a private concession; visit from Jack's Camp or San Camp.",
+   "titbit": "The great tree collapsed in January 2016.",
+   "draft": true
+  },
+  "Tourism and Legislation|Chapman's Baobab": {
    "size": "A giant baobab named after the explorer James Chapman.",
    "habitat": "Near Ntwetwe Pan, east of Makgadikgadi Pans National Park.",
    "food": "An old landmark where early travellers left messages.",
@@ -34125,7 +39973,23 @@ window.AGA_DATA = {
    "titbit": "It shows that some reserves protect one species, not a whole wilderness.",
    "draft": true
   },
+  "Tourism and Legislation|Mannyelanong Game Reserve": {
+   "size": "A small game reserve declared to protect one species.",
+   "habitat": "At Otse, south of Gaborone.",
+   "food": "Protects a breeding colony of Cape griffon (Cape vulture) on the cliffs.",
+   "breeding": "All vultures are protected birds in Botswana.",
+   "titbit": "It shows that some reserves protect one species, not a whole wilderness.",
+   "draft": true
+  },
   "Kasane": {
+   "size": "A town and the gateway to Chobe National Park.",
+   "habitat": "Far north-east Botswana, on the Chobe River.",
+   "food": "Close to Kazungula, where Botswana, Zambia, Zimbabwe and Namibia meet.",
+   "breeding": "Boat cruises on the Chobe River are the main activity.",
+   "titbit": "Victoria Falls is only about 80 km away.",
+   "draft": true
+  },
+  "Tourism and Legislation|Kasane": {
    "size": "A town and the gateway to Chobe National Park.",
    "habitat": "Far north-east Botswana, on the Chobe River.",
    "food": "Close to Kazungula, where Botswana, Zambia, Zimbabwe and Namibia meet.",
@@ -34141,20 +40005,28 @@ window.AGA_DATA = {
    "titbit": "The Thamalakane fault stops many Delta rivers near Maun.",
    "draft": true
   },
-  "Mokoro trip": {
-   "size": "A trip in a mokoro, a dugout or fibreglass canoe pushed with a pole.",
-   "habitat": "Shallow channels of the Okavango Delta.",
-   "food": "Gives local polers income and a quiet, low-impact safari.",
-   "breeding": "In a storm, pole to shore as soon as possible.",
-   "titbit": "Mokoros were carved from big tree trunks; most are now fibreglass.",
+  "Tourism and Legislation|Maun": {
+   "size": "Botswana's tourism capital and gateway to the Okavango Delta.",
+   "habitat": "On the Thamalakane River at the south-eastern edge of the Delta.",
+   "food": "Most fly-in safaris to Delta camps start at Maun airport.",
+   "breeding": "Scenic flights from Maun show the Delta's channels and islands.",
+   "titbit": "The Thamalakane fault stops many Delta rivers near Maun.",
    "draft": true
   },
-  "Northern Tuli (Mashatu)": {
+  "Northern Tuli Game Reserve": {
    "size": "Private game reserves in the Tuli Block, on freehold land.",
    "habitat": "Eastern Botswana, where the Limpopo and Shashe rivers meet.",
    "food": "Known for elephant, rocky koppies and big baobabs.",
    "breeding": "Walks, horse rides and night drives are allowed on private land.",
-   "titbit": "Tuli is one of the few freehold land areas in Botswana.",
+   "titbit": "Mashatu is the local name for the nyala berry tree, like the big tree in this photo.",
+   "draft": true
+  },
+  "Tourism and Legislation|Northern Tuli Game Reserve": {
+   "size": "Private game reserves in the Tuli Block, on freehold land.",
+   "habitat": "Eastern Botswana, where the Limpopo and Shashe rivers meet.",
+   "food": "Known for elephant, rocky koppies and big baobabs.",
+   "breeding": "Walks, horse rides and night drives are allowed on private land.",
+   "titbit": "Mashatu is the local name for the nyala berry tree, like the big tree in this photo.",
    "draft": true
   },
   "Lake Ngami": {
@@ -34165,129 +40037,249 @@ window.AGA_DATA = {
    "titbit": "David Livingstone reached the lake in 1849.",
    "draft": true
   },
+  "Tourism and Legislation|Lake Ngami": {
+   "size": "A shallow lake that fills and dries with the Okavango flood cycles.",
+   "habitat": "South-west of Maun, at the end of the Nhabe and Kunyere rivers.",
+   "food": "When full it attracts huge numbers of water birds.",
+   "breeding": "The Thaoge, its old main feeder, has not reached the lake in over 50 years.",
+   "titbit": "David Livingstone reached the lake in 1849.",
+   "draft": true
+  },
   "Cumulus": {
-   "size": "Low, puffy clouds with flat bases and rounded tops, like cotton wool.",
-   "habitat": "Common on summer mornings and afternoons across Botswana.",
-   "food": "Growing cumulus can build into thunderclouds by the afternoon.",
-   "breeding": "Cumulus means \"heap\" or \"pile\" in Latin.",
-   "titbit": "Fair-weather cumulus form as warm air rises off the ground and cools.",
+   "size": "Low, puffy white clouds with flat bases and rounded tops, like cotton wool.",
+   "habitat": "Common on summer days across Botswana.",
+   "food": "Cumulus form on rising warm air (thermals), which vultures and eagles use to soar.",
+   "breeding": "Watch cumulus that keep growing taller: by afternoon they can become thunderclouds.",
+   "titbit": "Cumulus means \"heap\" or \"pile\" in Latin.",
+   "draft": true
+  },
+  "Weather and Climate|Cumulus": {
+   "size": "Low, puffy white clouds with flat bases and rounded tops, like cotton wool.",
+   "habitat": "Common on summer days across Botswana.",
+   "food": "Cumulus form on rising warm air (thermals), which vultures and eagles use to soar.",
+   "breeding": "Watch cumulus that keep growing taller: by afternoon they can become thunderclouds.",
+   "titbit": "Cumulus means \"heap\" or \"pile\" in Latin.",
    "draft": true
   },
   "Cumulonimbus": {
-   "size": "A huge thundercloud that stretches from low level to the top of the sky, often with an anvil top.",
+   "size": "A huge thundercloud that reaches from low level to the top of the sky, often with an anvil top.",
    "habitat": "Summer afternoons (November to March), especially after hot, humid mornings.",
-   "food": "It brings lightning, heavy rain, strong wind and hail.",
+   "food": "It brings lightning, heavy rain, strong wind and sometimes hail.",
    "breeding": "Return to base at the first sign of thunderclouds, especially on a boat or on foot.",
-   "titbit": "Cumulonimbus is the only multi-level cloud: it covers all three cloud levels.",
+   "titbit": "Cumulonimbus is the only multi-level cloud: it reaches through all three cloud levels.",
+   "draft": true
+  },
+  "Weather and Climate|Cumulonimbus": {
+   "size": "A huge thundercloud that reaches from low level to the top of the sky, often with an anvil top.",
+   "habitat": "Summer afternoons (November to March), especially after hot, humid mornings.",
+   "food": "It brings lightning, heavy rain, strong wind and sometimes hail.",
+   "breeding": "Return to base at the first sign of thunderclouds, especially on a boat or on foot.",
+   "titbit": "Cumulonimbus is the only multi-level cloud: it reaches through all three cloud levels.",
    "draft": true
   },
   "Stratus": {
-   "size": "A low, grey, even sheet of cloud near the ground, like high fog.",
+   "size": "A low, grey, even layer of cloud that forms near the ground.",
    "habitat": "Uncommon in Botswana; sometimes on cool, damp mornings during rainy spells.",
    "food": "Stratus can bring drizzle but rarely heavy rain.",
-   "breeding": "Stratus means \"sheet\" in Latin.",
-   "titbit": "Stratus forms from 0 to 2 000 m and can touch the ground as fog.",
+   "breeding": "Stratus is the lowest cloud, from 0 to 2 000 m; when it touches the ground we call it fog.",
+   "titbit": "Stratus means \"sheet\" or \"layer\" in Latin.",
+   "draft": true
+  },
+  "Weather and Climate|Stratus": {
+   "size": "A low, grey, even layer of cloud that forms near the ground.",
+   "habitat": "Uncommon in Botswana; sometimes on cool, damp mornings during rainy spells.",
+   "food": "Stratus can bring drizzle but rarely heavy rain.",
+   "breeding": "Stratus is the lowest cloud, from 0 to 2 000 m; when it touches the ground we call it fog.",
+   "titbit": "Stratus means \"sheet\" or \"layer\" in Latin.",
    "draft": true
   },
   "Stratocumulus": {
-   "size": "Low, lumpy grey and white clouds in a layer, with gaps of blue sky.",
-   "habitat": "Common in cooler months and after cold fronts.",
-   "food": "Usually only light rain or none; often breaks up during the day.",
-   "breeding": "Lumpy like cumulus but joined in a sheet like stratus; hence the name.",
+   "size": "Low, lumpy grey and white clouds joined in a layer, often with gaps of blue sky.",
+   "habitat": "Common in the cooler months and after cold fronts.",
+   "food": "It usually brings little or no rain and often breaks up during the day.",
+   "breeding": "Lumpy like cumulus but spread in a layer like stratus, which explains the name.",
    "titbit": "Stratocumulus is the most common cloud type on Earth.",
    "draft": true
   },
-  "Nimbostratus": {
-   "size": "A thick, dark grey rain cloud layer that hides the sun completely.",
-   "habitat": "In summer when the ITCZ brings rain for days at a time.",
-   "food": "Brings steady, long-lasting rain that soaks into the ground.",
-   "breeding": "Nimbus means \"rain\"; no shadows on the ground, and steady rain falling.",
-   "titbit": "Nimbostratus brings soft, steady rain rather than short storms.",
+  "Weather and Climate|Stratocumulus": {
+   "size": "Low, lumpy grey and white clouds joined in a layer, often with gaps of blue sky.",
+   "habitat": "Common in the cooler months and after cold fronts.",
+   "food": "It usually brings little or no rain and often breaks up during the day.",
+   "breeding": "Lumpy like cumulus but spread in a layer like stratus, which explains the name.",
+   "titbit": "Stratocumulus is the most common cloud type on Earth.",
    "draft": true
   },
   "Altostratus": {
    "size": "A grey or blue-grey sheet of middle-level cloud through which the sun looks watery.",
    "habitat": "Often ahead of a summer rain front.",
-   "food": "It can thicken into nimbostratus and bring rain.",
-   "breeding": "The sun shines dimly \"as through frosted glass\" and casts no clear shadows.",
-   "titbit": "Alto means \"high\" but altostratus is a middle cloud, at 2 000 to 6 000 m.",
+   "food": "It can thicken into a lower, darker rain cloud and bring steady rain.",
+   "breeding": "The sun shines dimly, as if through frosted glass, and casts no clear shadows.",
+   "titbit": "Alto means \"high\", but altostratus is a middle cloud, at 2 000 to 6 000 m.",
+   "draft": true
+  },
+  "Weather and Climate|Altostratus": {
+   "size": "A grey or blue-grey sheet of middle-level cloud through which the sun looks watery.",
+   "habitat": "Often ahead of a summer rain front.",
+   "food": "It can thicken into a lower, darker rain cloud and bring steady rain.",
+   "breeding": "The sun shines dimly, as if through frosted glass, and casts no clear shadows.",
+   "titbit": "Alto means \"high\", but altostratus is a middle cloud, at 2 000 to 6 000 m.",
    "draft": true
   },
   "Altocumulus": {
    "size": "Middle-level clouds in white or grey patches or rolls, often in rows.",
-   "habitat": "Common across Botswana, especially in the morning in spring and summer.",
-   "food": "Altocumulus on a humid morning can mean afternoon thunderstorms.",
-   "breeding": "Hold up your hand: each cloudlet is about the size of a thumbnail (smaller for cirrocumulus).",
-   "titbit": "Rows of altocumulus are sometimes called a \"mackerel sky\".",
+   "habitat": "Common across Botswana, especially on spring and summer mornings.",
+   "food": "Altocumulus on a humid morning can be a sign of afternoon thunderstorms.",
+   "breeding": "At arm's length each cloudlet is about thumb-sized; cirrocumulus cloudlets are much smaller.",
+   "titbit": "Altocumulus clouds form between 2 000 and 6 000 m above the ground.",
+   "draft": true
+  },
+  "Weather and Climate|Altocumulus": {
+   "size": "Middle-level clouds in white or grey patches or rolls, often in rows.",
+   "habitat": "Common across Botswana, especially on spring and summer mornings.",
+   "food": "Altocumulus on a humid morning can be a sign of afternoon thunderstorms.",
+   "breeding": "At arm's length each cloudlet is about thumb-sized; cirrocumulus cloudlets are much smaller.",
+   "titbit": "Altocumulus clouds form between 2 000 and 6 000 m above the ground.",
    "draft": true
   },
   "Cirrus": {
    "size": "Thin, wispy high clouds made of ice crystals.",
-   "habitat": "Seen all year, especially in winter and before weather changes.",
-   "food": "Cirrus can be the first sign of an approaching front.",
-   "breeding": "Cirrus means \"a curling lock of hair\"; look for hooked, feathery streaks.",
-   "titbit": "Cirrus clouds float at 6 000 to 12 000 m where it is well below freezing.",
+   "habitat": "Seen all year, especially in winter and before the weather changes.",
+   "food": "Cirrus can be the first sign of an approaching weather front.",
+   "breeding": "Look for hooked, feathery streaks: cirrus means \"a curling lock of hair\".",
+   "titbit": "Cirrus clouds float at 6 000 to 12 000 m, where it is well below freezing.",
+   "draft": true
+  },
+  "Weather and Climate|Cirrus": {
+   "size": "Thin, wispy high clouds made of ice crystals.",
+   "habitat": "Seen all year, especially in winter and before the weather changes.",
+   "food": "Cirrus can be the first sign of an approaching weather front.",
+   "breeding": "Look for hooked, feathery streaks: cirrus means \"a curling lock of hair\".",
+   "titbit": "Cirrus clouds float at 6 000 to 12 000 m, where it is well below freezing.",
    "draft": true
   },
   "Cirrostratus": {
-   "size": "A thin, milky sheet of high ice cloud that covers the sky.",
-   "habitat": "Often ahead of a front; look around the sun or moon.",
-   "food": "It often comes before rain within a day or two.",
-   "breeding": "The best clue is a ring (halo) around the sun or moon.",
-   "titbit": "The ice crystals in cirrostratus bend the light to make the 22-degree halo.",
+   "size": "A thin, milky veil of high ice cloud that often covers the whole sky.",
+   "habitat": "Look around the sun or moon when a thin white veil covers the sky.",
+   "food": "A halo in cirrostratus often means a front and rain may arrive within a day or two.",
+   "breeding": "The best clue is a ring of light (halo) around the sun or moon.",
+   "titbit": "Six-sided ice crystals in the cloud bend the sunlight to make a 22-degree halo.",
+   "draft": true
+  },
+  "Weather and Climate|Cirrostratus": {
+   "size": "A thin, milky veil of high ice cloud that often covers the whole sky.",
+   "habitat": "Look around the sun or moon when a thin white veil covers the sky.",
+   "food": "A halo in cirrostratus often means a front and rain may arrive within a day or two.",
+   "breeding": "The best clue is a ring of light (halo) around the sun or moon.",
+   "titbit": "Six-sided ice crystals in the cloud bend the sunlight to make a 22-degree halo.",
    "draft": true
   },
   "Cirrocumulus": {
-   "size": "High clouds made of many tiny white ripples or grains, with no shadows.",
-   "habitat": "Not common and short-lived; seen in summer and spring.",
-   "food": "It shows moisture and instability high in the atmosphere.",
+   "size": "High clouds made of many tiny white ripples or grains, with no grey shadows.",
+   "habitat": "Not common and short-lived; seen mostly in spring and summer.",
+   "food": "It shows moisture and unsettled air high in the atmosphere.",
    "breeding": "Like altocumulus but higher and smaller: each cloudlet is smaller than a fingertip.",
-   "titbit": "Cirrocumulus is one of the rarest of the ten main cloud types.",
+   "titbit": "Rows of cirrocumulus ripples are often called a \"mackerel sky\".",
+   "draft": true
+  },
+  "Weather and Climate|Cirrocumulus": {
+   "size": "High clouds made of many tiny white ripples or grains, with no grey shadows.",
+   "habitat": "Not common and short-lived; seen mostly in spring and summer.",
+   "food": "It shows moisture and unsettled air high in the atmosphere.",
+   "breeding": "Like altocumulus but higher and smaller: each cloudlet is smaller than a fingertip.",
+   "titbit": "Rows of cirrocumulus ripples are often called a \"mackerel sky\".",
    "draft": true
   },
   "Lightning": {
-   "size": "A huge electric spark caused by an imbalance of charges, usually in a cumulonimbus.",
+   "size": "A huge electric spark caused by an imbalance of charges, usually in a cumulonimbus cloud.",
    "habitat": "Summer thunderstorms, November to March.",
    "food": "It forms nitric acid in the air, which fertilises the plants below.",
-   "breeding": "Count seconds from flash to thunder and divide by three to get the distance in km.",
-   "titbit": "Thunder is caused by the air expanding very fast as lightning super-heats it.",
+   "breeding": "Count the seconds from flash to thunder and divide by three to get the distance in km.",
+   "titbit": "Thunder is caused by air expanding very fast as lightning super-heats it.",
+   "draft": true
+  },
+  "Weather and Climate|Lightning": {
+   "size": "A huge electric spark caused by an imbalance of charges, usually in a cumulonimbus cloud.",
+   "habitat": "Summer thunderstorms, November to March.",
+   "food": "It forms nitric acid in the air, which fertilises the plants below.",
+   "breeding": "Count the seconds from flash to thunder and divide by three to get the distance in km.",
+   "titbit": "Thunder is caused by air expanding very fast as lightning super-heats it.",
    "draft": true
   },
   "Thunderstorm": {
    "size": "A storm with lightning, thunder, strong wind and heavy rain from cumulonimbus clouds.",
    "habitat": "Summer afternoons across Botswana, after hot, humid mornings.",
-   "food": "Storms bring most of Botswana's rain but can cause flash floods and falling trees.",
+   "food": "Storms bring most of the rain but can cause flash floods and falling trees.",
    "breeding": "Never shelter under trees; mokoros should pole to shore; aluminium boats conduct lightning.",
-   "titbit": "Storms form as cold fronts replace the rising warm air in the afternoon.",
+   "titbit": "Afternoon storms form when cold fronts move in to replace the rising warm air.",
+   "draft": true
+  },
+  "Weather and Climate|Thunderstorm": {
+   "size": "A storm with lightning, thunder, strong wind and heavy rain from cumulonimbus clouds.",
+   "habitat": "Summer afternoons across Botswana, after hot, humid mornings.",
+   "food": "Storms bring most of the rain but can cause flash floods and falling trees.",
+   "breeding": "Never shelter under trees; mokoros should pole to shore; aluminium boats conduct lightning.",
+   "titbit": "Afternoon storms form when cold fronts move in to replace the rising warm air.",
    "draft": true
   },
   "Hail": {
    "size": "Balls or lumps of ice that fall from cumulonimbus storm clouds.",
-   "habitat": "Summer storms, especially with the unstable air of occluded fronts.",
+   "habitat": "Summer storms, especially in the unstable conditions of occluded fronts.",
    "food": "Hail can damage crops, injure animals and strip leaves from trees.",
-   "breeding": "Hail plus cold wind after a storm can cause hypothermia; carry warm clothing.",
-   "titbit": "Never use alcohol to treat hypothermia; it lowers the core body temperature.",
+   "breeding": "Hail and cold wind can cause hypothermia; carry warm clothing and never treat it with alcohol.",
+   "titbit": "Hailstones grow in layers as strong winds carry them up and down inside the storm cloud.",
+   "draft": true
+  },
+  "Weather and Climate|Hail": {
+   "size": "Balls or lumps of ice that fall from cumulonimbus storm clouds.",
+   "habitat": "Summer storms, especially in the unstable conditions of occluded fronts.",
+   "food": "Hail can damage crops, injure animals and strip leaves from trees.",
+   "breeding": "Hail and cold wind can cause hypothermia; carry warm clothing and never treat it with alcohol.",
+   "titbit": "Hailstones grow in layers as strong winds carry them up and down inside the storm cloud.",
    "draft": true
   },
   "Rain gauge": {
-   "size": "An instrument with a funnel that collects rain in a cylinder to measure rainfall.",
-   "habitat": "At weather stations, camps and lodges; set in open ground.",
+   "size": "An instrument with a funnel that collects rain in a container so that it can be measured.",
+   "habitat": "At weather stations, camps and lodges, set in open ground.",
    "food": "Rainfall figures show how much grazing and surface water the bush will have.",
-   "breeding": "It must be away from trees and buildings that could affect the reading.",
-   "titbit": "Kasane gets about 650 mm of rain a year, Ghanzi only about 430 mm.",
+   "breeding": "Place it away from trees and buildings, which could affect the reading.",
+   "titbit": "Kasane gets about 650 mm of rain a year, but Ghanzi only about 430 mm.",
+   "draft": true
+  },
+  "Weather and Climate|Rain gauge": {
+   "size": "An instrument with a funnel that collects rain in a container so that it can be measured.",
+   "habitat": "At weather stations, camps and lodges, set in open ground.",
+   "food": "Rainfall figures show how much grazing and surface water the bush will have.",
+   "breeding": "Place it away from trees and buildings, which could affect the reading.",
+   "titbit": "Kasane gets about 650 mm of rain a year, but Ghanzi only about 430 mm.",
    "draft": true
   },
   "Anemometer": {
    "size": "An instrument with spinning cups that measures wind speed.",
    "habitat": "At airstrips and weather stations.",
-   "food": "Wind speed matters for flights, boat trips and fire risk.",
+   "food": "Wind speed matters for flights, boat trips and the risk of fire.",
+   "breeding": "The ideal height is 10 m above open ground, away from trees and buildings.",
+   "titbit": "The faster the cups spin, the stronger the wind.",
+   "draft": true
+  },
+  "Weather and Climate|Anemometer": {
+   "size": "An instrument with spinning cups that measures wind speed.",
+   "habitat": "At airstrips and weather stations.",
+   "food": "Wind speed matters for flights, boat trips and the risk of fire.",
    "breeding": "The ideal height is 10 m above open ground, away from trees and buildings.",
    "titbit": "The faster the cups spin, the stronger the wind.",
    "draft": true
   },
   "Dust devil": {
    "size": "A spinning column of rising hot air that picks up dust and leaves.",
-   "habitat": "Hot, still days in the dry season, especially August to October, on pans and open ground.",
+   "habitat": "Hot, still days on pans and open ground, especially August to October.",
+   "food": "Dust devils show strong heating of the ground, the same process that builds storm clouds.",
+   "breeding": "Unlike a tornado, a dust devil forms on a clear day and is not attached to a cloud.",
+   "titbit": "Dust devils can rise hundreds of metres but usually last only a few minutes.",
+   "draft": true
+  },
+  "Weather and Climate|Dust devil": {
+   "size": "A spinning column of rising hot air that picks up dust and leaves.",
+   "habitat": "Hot, still days on pans and open ground, especially August to October.",
    "food": "Dust devils show strong heating of the ground, the same process that builds storm clouds.",
    "breeding": "Unlike a tornado, a dust devil forms on a clear day and is not attached to a cloud.",
    "titbit": "Dust devils can rise hundreds of metres but usually last only a few minutes.",
@@ -34296,49 +40288,129 @@ window.AGA_DATA = {
   "Dust storm": {
    "size": "A wall of dust and sand carried by strong wind, often ahead of a storm.",
    "habitat": "Late dry season (August to October) in the Kalahari and over the Makgadikgadi pans.",
-   "food": "Dust storms cut visibility and can ground flights and close roads.",
-   "breeding": "Close vehicle windows, protect cameras and keep guests' eyes covered.",
-   "titbit": "Dust from the Makgadikgadi pans can be seen from space.",
+   "food": "Dust storms cut visibility and can stop flights and close roads.",
+   "breeding": "Close the vehicle windows, protect cameras and tell guests to cover their eyes.",
+   "titbit": "Dust blown off the Makgadikgadi pans can be seen from space.",
+   "draft": true
+  },
+  "Weather and Climate|Dust storm": {
+   "size": "A wall of dust and sand carried by strong wind, often ahead of a storm.",
+   "habitat": "Late dry season (August to October) in the Kalahari and over the Makgadikgadi pans.",
+   "food": "Dust storms cut visibility and can stop flights and close roads.",
+   "breeding": "Close the vehicle windows, protect cameras and tell guests to cover their eyes.",
+   "titbit": "Dust blown off the Makgadikgadi pans can be seen from space.",
    "draft": true
   },
   "Rainbow": {
    "size": "An arc of colours made when sunlight is bent and reflected by raindrops.",
-   "habitat": "After summer afternoon storms, with the sun low behind you.",
-   "food": "Rainbows often mean the storm is moving away.",
-   "breeding": "The sun is always behind you; red is on the outside of the main bow.",
-   "titbit": "In a double rainbow the colours of the second bow are reversed.",
+   "habitat": "After summer storms, when the sun is low behind you and rain is falling in front.",
+   "food": "A rainbow shows that the sun is shining on falling rain nearby.",
+   "breeding": "The sun is always behind you, and red is on the outside of the main bow.",
+   "titbit": "In a double rainbow the colours of the second bow are in reverse order.",
+   "draft": true
+  },
+  "Weather and Climate|Rainbow": {
+   "size": "An arc of colours made when sunlight is bent and reflected by raindrops.",
+   "habitat": "After summer storms, when the sun is low behind you and rain is falling in front.",
+   "food": "A rainbow shows that the sun is shining on falling rain nearby.",
+   "breeding": "The sun is always behind you, and red is on the outside of the main bow.",
+   "titbit": "In a double rainbow the colours of the second bow are in reverse order.",
    "draft": true
   },
   "Frost": {
    "size": "Ice crystals that form on the ground and plants when the temperature drops below freezing.",
    "habitat": "Winter mornings (June to August), especially in the Kalahari and low-lying areas.",
-   "food": "Frost kills tender plants and grass and can shape which trees grow in an area.",
-   "breeding": "Warn guests that early winter game drives can be below 0 °C; bring blankets.",
+   "food": "Frost kills tender plants and dries out the grass, which affects winter grazing.",
+   "breeding": "Warn guests that early winter drives can be below 0 °C; bring blankets.",
+   "titbit": "Ghanzi has recorded temperatures as low as -8.5 °C.",
+   "draft": true
+  },
+  "Weather and Climate|Frost": {
+   "size": "Ice crystals that form on the ground and plants when the temperature drops below freezing.",
+   "habitat": "Winter mornings (June to August), especially in the Kalahari and low-lying areas.",
+   "food": "Frost kills tender plants and dries out the grass, which affects winter grazing.",
+   "breeding": "Warn guests that early winter drives can be below 0 °C; bring blankets.",
    "titbit": "Ghanzi has recorded temperatures as low as -8.5 °C.",
    "draft": true
   },
   "Mirage": {
-   "size": "An optical effect where hot air near the ground bends light, making \"water\" appear.",
+   "size": "An optical effect where hot air near the ground bends light, so \"water\" seems to appear.",
    "habitat": "Hot days on the Makgadikgadi pans, Nxai Pan and long straight roads.",
-   "food": "Mirages explain old travellers' stories of lakes that disappear.",
-   "breeding": "Distant trees or animals seem to float above a shimmering \"lake\".",
+   "food": "Mirages explain old travellers' stories of lakes that disappear as you get closer.",
+   "breeding": "Distant trees, hills or animals seem to float above a shimmering \"lake\".",
    "titbit": "The \"water\" in a mirage is really an image of the sky.",
    "draft": true
   },
-  "Halo around the sun": {
-   "size": "A ring of light around the sun or moon made by ice crystals in thin high cloud.",
-   "habitat": "When cirrostratus covers the sky, often before a change in weather.",
-   "food": "A halo is a traditional sign that rain may come within a day or two.",
-   "breeding": "The ring is about 22 degrees across: about the span of an outstretched hand.",
-   "titbit": "Halos are made by six-sided ice crystals bending light like tiny prisms.",
+  "Weather and Climate|Mirage": {
+   "size": "An optical effect where hot air near the ground bends light, so \"water\" seems to appear.",
+   "habitat": "Hot days on the Makgadikgadi pans, Nxai Pan and long straight roads.",
+   "food": "Mirages explain old travellers' stories of lakes that disappear as you get closer.",
+   "breeding": "Distant trees, hills or animals seem to float above a shimmering \"lake\".",
+   "titbit": "The \"water\" in a mirage is really an image of the sky.",
    "draft": true
   },
-  "Fog and mist": {
-   "size": "Tiny water droplets hanging in the air near the ground; cloud at ground level.",
+  "Mist": {
+   "size": "Tiny water droplets hanging in the air near the ground: cloud at ground level.",
    "habitat": "Cold winter mornings over the Okavango, Chobe and Linyanti waterways.",
-   "food": "Morning mist over water is a beautiful photo opportunity on early boat trips.",
-   "breeding": "Mist forms when water is warmer than the cold air above it.",
-   "titbit": "Cold Benguela current air brings fog to the Namib coast but rarely reaches Botswana.",
+   "food": "Mist can hide channels, hippos and other boats, so drive boats slowly.",
+   "breeding": "Mist forms over water on cold mornings, when the water is warmer than the air above it.",
+   "titbit": "If you can see further than 1 km it is called mist; less than 1 km is fog.",
+   "draft": true
+  },
+  "Weather and Climate|Mist": {
+   "size": "Tiny water droplets hanging in the air near the ground: cloud at ground level.",
+   "habitat": "Cold winter mornings over the Okavango, Chobe and Linyanti waterways.",
+   "food": "Mist can hide channels, hippos and other boats, so drive boats slowly.",
+   "breeding": "Mist forms over water on cold mornings, when the water is warmer than the air above it.",
+   "titbit": "If you can see further than 1 km it is called mist; less than 1 km is fog.",
+   "draft": true
+  },
+  "Geology|Kalahari dunes": {
+   "size": "Ridges of wind-blown sand; the Kalahari is the largest continuous body of sand in the world.",
+   "habitat": "Red dunes in the south-west Kalahari; old, grass-covered dunes are found further north.",
+   "food": "The leached sand is poor in nutrients, so it has a low carrying capacity for herbivores.",
+   "breeding": "Explain that the red colour comes from iron oxide (rust) coating the sand grains.",
+   "titbit": "Kalahari sand stretches from the Cape in South Africa to the Congo.",
+   "draft": true
+  },
+  "Geology|Rock-splitting fig": {
+   "size": "A fig tree whose roots grow into cracks in rock; an example of biotic weathering.",
+   "habitat": "On rocky hills and kopjes, such as the Tsodilo Hills and the hills of eastern Botswana.",
+   "food": "As the roots grow thicker they widen the cracks and slowly split the rock apart.",
+   "breeding": "Show guests the pale roots pressed flat against the rock and pushing into its cracks.",
+   "titbit": "The roots go into cracks in search of water and nutrients, and split the rock as they grow.",
+   "draft": true
+  },
+  "Tourism and Legislation|Tsodilo Hills": {
+   "size": "A UNESCO World Heritage Site (cultural), sacred to the San.",
+   "habitat": "North-west Botswana, west of the Okavango Panhandle.",
+   "food": "A spiritual place for the San, with 3 main hills: Male, Female and Child.",
+   "breeding": "Activities: guided rock art walks and a sunrise climb of Male Hill.",
+   "titbit": "Male Hill, at 1,400 m, is the highest point in northern Botswana.",
+   "draft": true
+  },
+  "Tourism and Legislation|Okavango Delta": {
+   "size": "A huge inland delta; a UNESCO World Heritage Site since 2014.",
+   "habitat": "North-western Botswana, fed by rivers from the Angolan highlands.",
+   "food": "Supports huge wildlife numbers, tourism and local people.",
+   "breeding": "The flood arrives in winter, months after the summer rains in Angola.",
+   "titbit": "It was the 1,000th site on the World Heritage list.",
+   "draft": true
+  },
+  "Tourism and Legislation|Makgadikgadi Pans": {
+   "size": "One of the largest salt flats on Earth: Sua Pan and Ntwetwe Pan.",
+   "habitat": "North-eastern Botswana, between Nata, Gweta and Maun.",
+   "food": "A remnant of ancient Lake Makgadikgadi, which covered over 100,000 km².",
+   "breeding": "Ntwetwe Pan is more broken up and vegetated than Sua Pan.",
+   "titbit": "In the dry season zebra and wildebeest cross the pans, as in this photo.",
+   "draft": true
+  },
+  "Tourism and Legislation|Kubu Island": {
+   "size": "A rocky outcrop covered in baobab trees, rising from Sua Pan.",
+   "habitat": "South-western Sua Pan, Makgadikgadi.",
+   "food": "One of Botswana's most scenic places and a national monument.",
+   "breeding": "Only for self-sufficient campers: bring all water and fuel.",
+   "titbit": "The smaller, lesser-known Kokonje Island is also spectacular.",
    "draft": true
   }
  }
