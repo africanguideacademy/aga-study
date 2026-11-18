@@ -119,6 +119,22 @@ Tap a photo in **Browse** to open the species page. It shows the photo, the call
   - Any photo can be replaced by hand the same way: add an entry to `data/photo-overrides.json`.
   - Drive access needs a one-time authorisation: run `setupPhotos` in the Apps Script editor.
 
+## Exam practice, weak spots, sightings
+
+- **Exam practice** (`#/exam`):
+  - Settings: 25, 50 or 100 questions; 30 or 60 minutes or no limit; any choice of chapters; and about 1 in 5 photo identification questions from that subject's current list/level.
+  - There's no feedback until the end. Then students see a score per subject and every missed question, with a link to its manual page.
+  - The last 30 results are kept on the phone.
+- **Weak spots** (`#/weak`): up to 20 items from every subject that the student got wrong and hasn't mastered yet (manual questions, photos, calls).
+- **Sightings** (`#/sightings`, tab bar):
+  - Students keep a personal list per camp (Kwapa / Kalahari / Other), choosing from every species in the app.
+  - They can also tap **I saw this** on any species page.
+  - Each sighting records the date, an optional count and an optional note.
+- **Sending to AGA:**
+  - Unsent sightings and exam results go with **Submit progress**.
+  - The Apps Script writes them to the **Sightings** and **Exams** tabs of the Student Progress sheet. It creates the tabs the first time.
+- **Apps Script:** `clasp` must be logged in as africanguideacademy@gmail.com before `clasp push` / `clasp deploy -i <deployment id>`.
+
 ## The manual (Manual tab)
 
 The manual is split into one PDF per chapter, with each two-page spread shown in the app as two phone-sized pages. The app's reader is pdf.js (`app/media/vendor/pdfjs`), with A−/A+ zoom.

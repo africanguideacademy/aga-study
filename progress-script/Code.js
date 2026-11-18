@@ -90,10 +90,38 @@ function doPost(e) {
       st.getRange(row, 1, 1, STU_HEAD.length).setValues([[idRaw, surname, first, studentId || prev[3], prev[4] || now, now, (Number(prev[6]) || 0) + 1,
         num_(t.answered), totAcc, num_(t.practised), num_(t.mastered), last, lists]]);
     }
+    recordExtras_(ss, d, now, idRaw, surname, first, studentId);
   } finally {
     lock.releaseLock();
   }
   return out_({ ok: true });
+}
+
+// ============================================================
+// SIGHTINGS (camp lists: Kwapa / Kalahari / Other) and EXAM PRACTICE results, sent with a progress submission
+// ============================================================
+const SIGHT_HEAD = ['Submitted', 'Surname', 'First names', 'Omang / Passport', 'Student ID (registry)', 'Camp', 'Date seen', 'Species', 'Subject', 'How many', 'Note'];
+const EXAM_HEAD = ['Submitted', 'Surname', 'First names', 'Omang / Passport', 'Student ID (registry)', 'Exam date', 'Questions', 'Correct', 'Score', 'Minutes', 'Time ran out', 'By subject'];
+function tab_(ss, name, head) {
+  let sh = ss.getSheetByName(name);
+  if (!sh) {
+    sh = ss.insertSheet(name);
+    sh.getRange(1, 1, 1, head.length).setValues([head]).setFontWeight('bold').setBackground('#fbecd2');
+    sh.setFrozenRows(1);
+  }
+  return sh;
+}
+function recordExtras_(ss, d, now, idRaw, surname, first, studentId) {
+  const who = [now, surname, first, idRaw, studentId];
+  const sights = (Array.isArray(d.sightings) ? d.sightings : []).slice(0, 500).map(s => who.concat([clean_(s.camp, 20), clean_(s.date, 10),
+    clean_(s.name, 80), clean_(s.sub, 40), num_(s.n) || '', clean_(s.note, 120)]));
+  if (sights.length) { const sh = tab_(ss, 'Sightings', SIGHT_HEAD); sh.getRange(sh.getLastRow() + 1, 1, sights.length, SIGHT_HEAD.length).setValues(sights); }
+  const exams = (Array.isArray(d.exams) ? d.exams : []).slice(0, 50).map(x => {
+    const by = Object.entries(x.by || {}).slice(0, 20).map(([k, v]) => `${clean_(k, 40)}: ${num_(v && v[0])}/${num_(v && v[1])}`).join('; ');
+    return who.concat([x.date ? new Date(num_(x.date)) : '', num_(x.n), num_(x.score), num_(x.n) ? Math.round(100 * num_(x.score) / num_(x.n)) + '%' : '',
+      Math.round(num_(x.secs) / 60), x.timeUp ? 'Yes' : '', by]);
+  });
+  if (exams.length) { const sh = tab_(ss, 'Exams', EXAM_HEAD); sh.getRange(sh.getLastRow() + 1, 1, exams.length, EXAM_HEAD.length).setValues(exams); }
 }
 
 // ============================================================

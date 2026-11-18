@@ -41,6 +41,10 @@
     paw: '<circle cx="7" cy="9" r="2"/><circle cx="12" cy="6" r="2"/><circle cx="17" cy="9" r="2"/><path d="M8 17c0-3 2-5 4-5s4 2 4 5a2.5 2.5 0 0 1-4 2 2.5 2.5 0 0 1-4-2z"/>',
     scale: '<path d="M12 3v18M5 7h14M7 7l-3 7a3 3 0 0 0 6 0zM17 7l-3 7a3 3 0 0 0 6 0zM8 21h8"/>',
     feather: '<path d="M20 4c-7 0-13 5-13 13"/><path d="M7 17c5 0 11-3 13-13"/><path d="M4 20l3-3"/><path d="M10 12h6"/>',
+    plus: '<path d="M12 5v14M5 12h14"/>',
+    eye: '<path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+    target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/>',
+    clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
     book: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/>',
     list: '<path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/>',
   };
@@ -185,10 +189,10 @@
   const modesFor = mod => { const items = scopedItems(mod); return Object.keys(MODES).filter(k => items.filter(MODES[k].needs).length >= 4); };
 
   // ---------- chrome (header / tab bar) ----------
-  ['home', 'manual', 'progress', 'offline'].forEach(t => {
+  ['home', 'manual', 'sightings', 'progress', 'offline'].forEach(t => {
     const a = tabbar.querySelector(`[data-tab="${t}"]`);
     if (!a) return;
-    a.innerHTML = icon({ home: 'home', manual: 'book', progress: 'chart', offline: 'download' }[t]) + `<span>${{ home: 'Home', manual: 'Manual', progress: 'Progress', offline: 'Offline' }[t]}</span>`;
+    a.innerHTML = icon({ home: 'home', manual: 'book', sightings: 'eye', progress: 'chart', offline: 'download' }[t]) + `<span>${{ home: 'Home', manual: 'Manual', sightings: 'Sightings', progress: 'Progress', offline: 'Offline' }[t]}</span>`;
   });
   let backTarget = '#/';
   function chrome(o) {
@@ -233,6 +237,9 @@
     if (p[0] === 'progress') return renderProgress();
     if (p[0] === 'submit') return renderSubmit();
     if (p[0] === 'credits') return renderCredits();
+    if (p[0] === 'exam') return renderExam();
+    if (p[0] === 'weak') return renderWeak();
+    if (p[0] === 'sightings') return renderSightings();
     if (p[0] === 'manual') {
       if (p[1] === 'p' && p[2]) return openManualPage(+p[2]);
       return p[1] ? renderManualChapter(p[1], +p[2] || 0) : renderManual();
@@ -352,6 +359,9 @@
       </section>
       <div class="section-title">Subjects</div>
       <div class="subject-list">${tiles}</div>
+      <div class="section-title">Practise for the exam</div>
+      <div class="act-grid"><a class="card act" href="#/exam"><div class="tile-ico">${icon('clock')}</div><strong>Exam practice</strong><span>Timed, mixed chapters</span></a>
+        <a class="card act" href="#/weak"><div class="tile-ico">${icon('target')}</div><strong>Weak spots</strong><span>${(() => { const n = weakSpots(999).length; return n ? `${n} to practise` : 'What you keep getting wrong'; })()}</span></a></div>
       ${compactTiles ? `<div class="section-title">Manual chapters</div><div class="subject-grid">${compactTiles}</div>` : ''}
       ${COMING_SOON.length ? `<div class="card coming"><div class="small" style="margin-bottom:8px">Coming soon</div><div class="soon-wrap">${soon}</div></div>` : ''}
       ${nudge}${footer()}`);
@@ -717,11 +727,14 @@
           ${!info ? `<p class="small" style="margin-top:14px">No fact card for this ${esc(subj.noun || 'species')} yet.</p>` : ''}
           ${info && info.draft ? `<p class="small draft-note"><span class="draft">Draft</span> Facts still being checked by AGA trainers.</p>` : ''}
           ${it.photo && it.credit ? `<p class="small credit">Photo: ${esc(it.credit)}${it.license ? ` (${esc(it.license)})` : ''}${it.src ? ` &middot; <a href="${esc(it.src)}" target="_blank" rel="noopener">source</a>` : ''}</p>` : ''}
-          <a class="btn ghost block" style="margin-top:14px" href="#/photo/${mod.id}/${esc(it.id)}">${icon('camera')} ${it.photo ? 'Send a better photo' : 'Send a photo'}</a>
+          <button class="btn block" style="margin-top:14px" id="sawIt">${icon('eye')} I saw this</button>
+          <a class="btn ghost block" style="margin-top:10px" href="#/photo/${mod.id}/${esc(it.id)}">${icon('camera')} ${it.photo ? 'Send a better photo' : 'Send a photo'}</a>
         </div></div>
       ${k >= 0 ? `<div class="sp-pager">${nav(k - 1, -1)}${nav(k + 1, 1)}</div>` : ''}`);
     const b = $('spPlay');
     if (b) b.addEventListener('click', () => playCall(it.call, b));
+    $('sawIt').addEventListener('click', () => logSighting({ name: it.name, sub: subj.id, subTitle: subj.title, mod: mod.id, id: it.id, photo: it.photo }, settings.camp || 'Kwapa',
+      () => { const sb = $('sawIt'); if (sb) { sb.innerHTML = icon('check') + ' Saved to your sightings'; sb.disabled = true; } }));
     keyHandler = e => {
       if (e.key === 'ArrowLeft' && k > 0) go(`#/m/${mod.id}/sp/${items[k - 1].id}`);
       else if (e.key === 'ArrowRight' && k >= 0 && k < items.length - 1) go(`#/m/${mod.id}/sp/${items[k + 1].id}`);
@@ -899,6 +912,211 @@
     });
   }
 
+  // ---------- mixed quizzes: exam practice and weak-spot review ----------
+  // A question is { mod, item, mode } with mode mcq (manual), photo2name (photo) or call2name (call only).
+  const EXAMS_KEY = 'aga-study-exams-v1';
+  const modeFor = item => item.q ? 'mcq' : item.photo ? 'photo2name' : item.call ? 'call2name' : null;
+  function runMixed(o) { // o: { title, back, questions, exam (no feedback until the end), seconds (time limit), onDone(result) }
+    const qs = o.questions;
+    if (!qs.length) { show(`<p class="empty">${o.empty || 'Nothing to practise here yet.'}</p>`); return; }
+    chrome({ focus: true, back: o.back, title: o.title, progress: true });
+    const st = { i: 0, score: 0, answers: [], start: Date.now() };
+    let timer = null;
+    const left = () => Math.max(0, o.seconds - Math.round((Date.now() - st.start) / 1000));
+    const clock = () => { const s = left(); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; };
+    if (o.seconds) timer = setInterval(() => {
+      if (!document.body.contains(view) || !inFocus()) { clearInterval(timer); return; }
+      topRight.textContent = `${st.i + 1}/${qs.length} · ${clock()}`;
+      if (left() <= 0) { clearInterval(timer); finish(true); }
+    }, 1000);
+    function ask() {
+      const { mod, item: q, mode } = qs[st.i];
+      topRight.textContent = `${st.i + 1}/${qs.length}${o.seconds ? ' · ' + clock() : ''}`;
+      setQuizProgress(st.i / qs.length);
+      document.querySelectorAll('.sheet').forEach(s => s.remove());
+      const subj = subjectOf(mod);
+      let opts, prompt;
+      if (mode === 'mcq') {
+        opts = shuffle([{ id: q.id, name: q.a }].concat(q.w.map((w, k) => ({ id: q.id + '~' + k, name: w }))));
+        prompt = `<div class="card prompt qprompt"><div class="qmeta">${esc(subj.title)}${q.group ? ' · ' + esc(q.group) : ''}</div><div class="qtext">${esc(q.q)}</div></div>`;
+      } else {
+        const pool = mod.items.filter(MODES[mode].needs);
+        opts = shuffle([q].concat(distractors(q, pool, 3)));
+        prompt = mode === 'photo2name'
+          ? `<div class="card prompt"><img class="main" src="${esc(q.photo)}" alt="Photo"><div class="q">Which ${esc(subj.noun || 'species')} is this?</div></div>`
+          : `<div class="card prompt">${playBtnHtml('playQ', '', true)}<div class="q">Whose call is this?</div></div>`;
+      }
+      show(`${prompt}<div class="options text${mode === 'mcq' ? ' one' : ''}">${opts.map((x, k) => `<button class="opt" data-id="${esc(x.id)}"><span class="k">${'ABCD'[k]}</span><span>${esc(x.name)}</span></button>`).join('')}</div>`);
+      const pb = $('playQ'); if (pb) { pb.addEventListener('click', () => playCall(q.call, pb)); playCall(q.call, pb); }
+      const buttons = [...view.querySelectorAll('.opt')];
+      buttons.forEach(b => b.addEventListener('click', () => answer(b.dataset.id, buttons, opts)));
+      keyHandler = e => { const k = { 1: 0, 2: 1, 3: 2, 4: 3, a: 0, b: 1, c: 2, d: 3 }[e.key.toLowerCase()]; if (k != null && buttons[k] && !buttons[0].disabled) buttons[k].click(); };
+    }
+    function answer(chosen, buttons, opts) {
+      view.dataset.dirty = '1';
+      const { mod, item: q, mode } = qs[st.i];
+      const ok = chosen === q.id;
+      record(mod.id, q.id, ok);
+      if (ok) st.score++;
+      st.answers.push({ k: st.i, ok, chose: (opts.find(x => x.id === chosen) || {}).name });
+      buttons.forEach(b => { b.disabled = true; });
+      const last = st.i === qs.length - 1;
+      const next = () => { stopAudio(); st.i++; last ? finish(false) : ask(); };
+      if (o.exam) { // exam: no right/wrong shown until the end
+        buttons.find(b => b.dataset.id === chosen).classList.add('picked');
+        setTimeout(next, 250);
+        return;
+      }
+      buttons.forEach(b => { if (b.dataset.id === q.id) b.classList.add('right'); else if (b.dataset.id === chosen) b.classList.add('wrong'); else b.classList.add('dim'); });
+      const ans = mode === 'mcq' ? q.a : q.name;
+      const s = sheet(`<div class="verdict"><div class="mark">${icon(ok ? 'check' : 'x')}</div><div class="msg"><strong>${ok ? pickPraise() : 'Not quite'}</strong><span class="ans">${ok ? esc(ans) : 'Answer: ' + esc(ans)}</span></div></div>
+        ${mode === 'mcq' && (q.ex || q.page) ? `<div class="explain">${esc(q.ex || '')} ${pageLink(q.page)}</div>` : ''}
+        <div class="actions"><button class="btn" id="next">${last ? 'See results' : 'Next'}</button></div>`, ok ? 'good' : 'bad');
+      s.querySelector('#next').addEventListener('click', next);
+      keyHandler = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); next(); } };
+    }
+    function finish(timeUp) {
+      if (timer) clearInterval(timer);
+      document.querySelectorAll('.sheet').forEach(s => s.remove());
+      view.dataset.dirty = '';
+      chrome({ focus: true, back: o.back, title: 'Results' });
+      const done = st.answers.length, secs = Math.round((Date.now() - st.start) / 1000);
+      const by = {};
+      st.answers.forEach(a => { const t = subjectOf(qs[a.k].mod).title; by[t] = by[t] || [0, 0]; by[t][1]++; if (a.ok) by[t][0]++; });
+      qs.slice(done).forEach(x => { const t = subjectOf(x.mod).title; by[t] = by[t] || [0, 0]; by[t][1]++; }); // unanswered count as wrong
+      const p = pct(st.score, qs.length);
+      const result = { date: Date.now(), n: qs.length, score: st.score, secs, timeUp, by };
+      if (o.onDone) o.onDone(result);
+      const wrong = st.answers.filter(a => !a.ok).map(a => {
+        const { item: q, mode } = qs[a.k];
+        return `<li class="qreview"><div class="nm"><span class="qq">${mode === 'mcq' ? esc(q.q) : (mode === 'photo2name' ? `<img src="${esc(q.photo)}" alt="" style="width:64px;height:48px;object-fit:cover;border-radius:6px;vertical-align:middle;margin-right:8px">Photo` : 'Call')}</span>${esc(mode === 'mcq' ? q.a : q.name)}<span class="yours">You chose: ${esc(a.chose || '-')}</span>${mode === 'mcq' ? pageLink(q.page) : ''}</div></li>`;
+      }).join('');
+      show(`<div class="card result"><div class="big-name">${p}%</div>
+          <div class="score-line">${st.score} of ${qs.length} correct${o.seconds ? ` · ${Math.floor(secs / 60)} min ${secs % 60} s` : ''}</div>
+          ${timeUp ? `<div class="msg">Time is up - ${qs.length - done} question${qs.length - done === 1 ? '' : 's'} not answered.</div>` : `<div class="msg">${p >= 75 ? 'Exam ready - well done!' : p >= 50 ? 'Getting there - review the ones you missed.' : 'Keep studying - use Weak spots to practise what you missed.'}</div>`}</div>
+        <div class="section-title">By subject</div>
+        <div class="card pad">${Object.entries(by).map(([t, [r, n]]) => `<div class="setting-row"><span>${esc(t)}</span><strong>${r}/${n} (${pct(r, n)}%)</strong></div>`).join('')}</div>
+        <div class="btn-stack"><a class="btn" href="${o.back}">Done</a><a class="btn ghost" href="#/submit">${icon('check')} Submit my progress</a></div>
+        ${wrong ? `<div class="section-title">To review</div><ul class="card review">${wrong}</ul>` : ''}`);
+    }
+    ask();
+  }
+
+  // Exam practice: a timed, mixed test across the chapters the student picks, with no feedback until the end.
+  function renderExam() {
+    chrome({ tab: 'home', back: '#/' });
+    const subs = SUBJECTS.filter(s => modById(s.manual));
+    const ex = load(EXAMS_KEY, { choice: {}, history: [] });
+    const ch = Object.assign({ subjects: subs.map(s => s.id), n: 50, mins: 60, photos: true }, ex.choice);
+    const hist = ex.history.slice(-5).reverse().map(h => `<div class="setting-row"><span>${new Date(h.date).toLocaleDateString()} · ${h.n} questions</span><strong>${pct(h.score, h.n)}%</strong></div>`).join('');
+    show(`<h1>Exam practice</h1>
+      <p class="sub">A mixed test like the real exam: questions from the chapters you pick, against the clock. You only see the answers at the end.</p>
+      <div class="card pad"><div class="setting-row"><label>Questions</label><div class="seg" id="exN">${[25, 50, 100].map(x => `<button data-v="${x}" aria-pressed="${ch.n === x}">${x}</button>`).join('')}</div></div>
+        <div class="setting-row"><label>Time</label><div class="seg" id="exT">${[30, 60, 0].map(x => `<button data-v="${x}" aria-pressed="${ch.mins === x}">${x ? x + ' min' : 'None'}</button>`).join('')}</div></div>
+        <label class="check-row"><input type="checkbox" id="exP"${ch.photos ? ' checked' : ''}> Include photo identification (about 1 in 5)</label></div>
+      <div class="section-title" style="display:flex;justify-content:space-between;align-items:center">Chapters <button class="linkish" id="exAll">All / none</button></div>
+      <div class="card pad chips">${subs.map(s => `<label class="chip"><input type="checkbox" value="${s.id}"${ch.subjects.includes(s.id) ? ' checked' : ''}> ${esc(s.title)}</label>`).join('')}</div>
+      <button class="btn block" id="exGo" style="margin-top:14px">${icon('book')} Start exam</button>
+      ${hist ? `<div class="section-title">Your last exams</div><div class="card pad">${hist}</div>` : ''}`);
+    const seg = (id, key) => view.querySelectorAll(`#${id} button`).forEach(b => b.addEventListener('click', () => { ch[key] = +b.dataset.v; view.querySelectorAll(`#${id} button`).forEach(x => x.setAttribute('aria-pressed', String(x === b))); }));
+    seg('exN', 'n'); seg('exT', 'mins');
+    $('exAll').addEventListener('click', () => { const boxes = [...view.querySelectorAll('.chips input')]; const on = !boxes.every(b => b.checked); boxes.forEach(b => { b.checked = on; }); });
+    $('exGo').addEventListener('click', () => {
+      ch.subjects = [...view.querySelectorAll('.chips input:checked')].map(b => b.value);
+      ch.photos = $('exP').checked;
+      if (!ch.subjects.length) { alert('Pick at least one chapter.'); return; }
+      ex.choice = ch; save(EXAMS_KEY, ex);
+      const chosen = subs.filter(s => ch.subjects.includes(s.id));
+      const nPhoto = ch.photos ? Math.round(ch.n / 5) : 0;
+      const photoQs = shuffle(chosen.flatMap(s => { const pm = currentPhotoMod(s); return pm ? pm.items.filter(i => i.photo).map(i => ({ mod: pm, item: i, mode: 'photo2name' })) : []; })).slice(0, nPhoto);
+      const manualQs = shuffle(chosen.flatMap(s => modById(s.manual).items.map(i => ({ mod: modById(s.manual), item: i, mode: 'mcq' })))).slice(0, ch.n - photoQs.length);
+      runMixed({ title: 'Exam practice', back: '#/exam', exam: true, seconds: ch.mins * 60, questions: shuffle(manualQs.concat(photoQs)),
+        onDone: r => { const e = load(EXAMS_KEY, { choice: ch, history: [] }); e.history.push(Object.assign(r, { sent: false })); e.history = e.history.slice(-30); save(EXAMS_KEY, e); } });
+    });
+  }
+
+  // Weak spots: the questions, photos and calls a student keeps getting wrong, from every subject.
+  function weakSpots(max) {
+    const out = [];
+    DATA.modules.forEach(m => Object.entries(progress[m.id] || {}).forEach(([id, r]) => {
+      if (!r.wrong || r.box >= 3) return;
+      const item = m.items.find(i => i.id === id), mode = item && modeFor(item);
+      if (mode && (mode !== 'call2name' || callOk(item))) out.push({ mod: m, item, mode, w: (r.wrong - (r.right || 0)) * 2 + (3 - r.box) });
+    }));
+    return out.sort((a, b) => b.w - a.w).slice(0, max);
+  }
+  function renderWeak() {
+    const qs = shuffle(weakSpots(20));
+    runMixed({ title: 'Weak spots', back: '#/', questions: qs, empty: 'No weak spots yet - everything you have answered wrong has since been mastered. Keep practising!' });
+  }
+
+  // ---------- sightings: a personal list per camp (Kwapa / Kalahari), sent to AGA with the progress ----------
+  const SIGHT_KEY = 'aga-study-sightings-v1';
+  const CAMPS = ['Kwapa', 'Kalahari', 'Other'];
+  let sightings = load(SIGHT_KEY, []);
+  const saveSightings = () => save(SIGHT_KEY, sightings);
+  const today = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
+  // every species that can be logged: one entry per name, from the photo lists (and frog calls)
+  let speciesIndex = null;
+  function allSpecies() {
+    if (speciesIndex) return speciesIndex;
+    const seen = new Map();
+    SUBJECTS.forEach(s => {
+      const mods = [...(s.photoSets || []).slice().reverse(), s.calls && s.calls !== 'level' ? s.calls : null].map(modById).filter(Boolean);
+      mods.forEach(m => m.items.forEach(i => { if (!seen.has(i.name)) seen.set(i.name, { name: i.name, sub: s.id, subTitle: s.title, mod: m.id, id: i.id, photo: i.photo || '' }); }));
+    });
+    return (speciesIndex = [...seen.values()].sort((a, b) => a.name.localeCompare(b.name)));
+  }
+  function logSighting(sp, camp, after) {
+    const s = sheet(`<div class="sight-form"><strong>${esc(sp.name)}</strong>
+        <div class="seg" id="sCamp">${CAMPS.map(c => `<button data-c="${c}" aria-pressed="${c === camp}">${c}</button>`).join('')}</div>
+        <label>Date<input type="date" id="sDate" value="${today()}"></label>
+        <label>How many? (optional)<input type="number" id="sN" min="1" inputmode="numeric"></label>
+        <label>Note (optional)<input id="sNote" maxlength="120" placeholder="e.g. at the waterhole, calling at dawn"></label>
+        <div class="actions"><button class="btn ghost" id="sCancel">Cancel</button><button class="btn" id="sSave">${icon('check')} Save sighting</button></div></div>`);
+    let c = camp;
+    s.querySelectorAll('#sCamp button').forEach(b => b.addEventListener('click', () => { c = b.dataset.c; s.querySelectorAll('#sCamp button').forEach(x => x.setAttribute('aria-pressed', String(x === b))); }));
+    s.querySelector('#sCancel').addEventListener('click', () => s.remove());
+    s.querySelector('#sSave').addEventListener('click', () => {
+      sightings.push({ k: Date.now().toString(36) + Math.random().toString(36).slice(2, 5), name: sp.name, sub: sp.subTitle, mod: sp.mod, id: sp.id, camp: c,
+        date: s.querySelector('#sDate').value || today(), n: +s.querySelector('#sN').value || 0, note: s.querySelector('#sNote').value.trim().slice(0, 120), sent: false });
+      saveSightings(); settings.camp = c; save(SETTINGS_KEY, settings);
+      s.remove(); if (after) after();
+    });
+  }
+  function renderSightings() {
+    chrome({ tab: 'sightings' });
+    const camp = settings.camp || 'Kwapa';
+    const mine = sightings.filter(x => x.camp === camp);
+    const bySp = new Map();
+    mine.forEach(x => { const e = bySp.get(x.name) || { x, count: 0, last: '' }; e.count++; if (x.date > e.last) e.last = x.date; bySp.set(x.name, e); });
+    const groups = {};
+    [...bySp.values()].forEach(e => { (groups[e.x.sub] = groups[e.x.sub] || []).push(e); });
+    const lifers = new Set(sightings.map(x => x.name)).size;
+    const list = Object.entries(groups).sort().map(([sub, es]) => `<div class="section-title">${esc(sub)} <span class="sec-sub">${es.length}</span></div>
+      <div class="card sight-list">${es.sort((a, b) => a.x.name.localeCompare(b.x.name)).map(e => `<a class="sight-row" href="#/m/${esc(e.x.mod)}/sp/${esc(e.x.id)}"><span>${esc(e.x.name)}</span><span class="small">${e.count > 1 ? e.count + ' times · ' : ''}${esc(e.last)}</span></a>`).join('')}</div>`).join('');
+    const recent = mine.slice(-5).reverse().map(x => `<div class="sight-row"><span>${esc(x.name)}${x.n ? ` (${x.n})` : ''}${x.note ? `<span class="small"> - ${esc(x.note)}</span>` : ''}</span><span class="small">${esc(x.date)} <button class="linkish" data-del="${x.k}" aria-label="Delete">${icon('x')}</button></span></div>`).join('');
+    show(`<h1>Sightings</h1>
+      <div class="seg wide" id="campSeg">${CAMPS.map(c => `<button data-c="${c}" aria-pressed="${c === camp}">${c}</button>`).join('')}</div>
+      <div class="stat-grid" style="margin:14px 0"><div class="card stat"><b>${bySp.size}</b><span>species at ${esc(camp)}</span></div><div class="card stat"><b>${mine.length}</b><span>sightings here</span></div><div class="card stat"><b>${lifers}</b><span>species in total</span></div></div>
+      <div class="search-wrap">${icon('search')}<input class="search" id="sq" type="search" placeholder="Add a sighting: type a name" autocomplete="off"></div>
+      <div class="card sight-list" id="sres" hidden></div>
+      ${recent ? `<div class="section-title">Latest at ${esc(camp)}</div><div class="card sight-list">${recent}</div>` : `<p class="small" style="margin:12px 4px">No sightings at ${esc(camp)} yet. Type a bird, mammal, reptile, frog, insect or plant above to log one.</p>`}
+      ${list}
+      <p class="small" style="margin:14px 4px">Your sightings are sent to AGA with your progress (<a href="#/submit">Submit my progress</a>).</p>`);
+    view.querySelectorAll('#campSeg button').forEach(b => b.addEventListener('click', () => { settings.camp = b.dataset.c; save(SETTINGS_KEY, settings); renderSightings(); }));
+    view.querySelectorAll('[data-del]').forEach(b => b.addEventListener('click', () => { if (confirm('Delete this sighting?')) { sightings = sightings.filter(x => x.k !== b.dataset.del); saveSightings(); renderSightings(); } }));
+    const res = $('sres');
+    $('sq').addEventListener('input', e => {
+      const f = e.target.value.trim().toLowerCase();
+      if (f.length < 2) { res.hidden = true; return; }
+      const hits = allSpecies().filter(s => s.name.toLowerCase().includes(f)).slice(0, 8);
+      res.hidden = false;
+      res.innerHTML = hits.map((s, k) => `<button class="sight-row" data-k="${k}">${s.photo ? `<img src="${esc(s.photo)}" alt="">` : ''}<span>${esc(s.name)}<span class="small"> · ${esc(s.subTitle)}</span></span>${icon('plus')}</button>`).join('') || '<p class="empty">No match.</p>';
+      res.querySelectorAll('[data-k]').forEach(b => b.addEventListener('click', () => logSighting(hits[+b.dataset.k], camp, renderSightings)));
+    });
+  }
+
   // ---------- the manual (chapter PDFs made by tools/pdf/make-manual.mjs, shown with pdf.js) ----------
   const MANUAL = DATA.manual || { chapters: [] };
   const manualChapterOf = n => MANUAL.chapters.find(c => c.views.some(v => v[2] === n));
@@ -1043,8 +1261,12 @@
       const btn = $('sbtn'); btn.disabled = true; btn.textContent = 'Sending...';
       const payload = Object.assign({ app: 'aga-study', version: DATA.generated, device: deviceId(), first, surname, idno, sentAt: Date.now(),
         session: { answers: session.answers, correct: session.correct, since: session.since } }, progressSummary());
+      const newSightings = sightings.filter(x => !x.sent).slice(0, 300), exState = load(EXAMS_KEY, { choice: {}, history: [] }), newExams = exState.history.filter(x => !x.sent);
+      payload.sightings = newSightings.map(x => ({ camp: x.camp, date: x.date, name: x.name, sub: x.sub, n: x.n, note: x.note }));
+      payload.exams = newExams.map(x => ({ date: x.date, n: x.n, score: x.score, secs: x.secs, timeUp: !!x.timeUp, by: x.by }));
       const res = await postProgress(payload);
       if (res === 'ok' || res === 'offline') {
+        newSightings.forEach(x => { x.sent = true; }); saveSightings(); newExams.forEach(x => { x.sent = true; }); save(EXAMS_KEY, exState);
         if (res === 'offline') { const q = load(QUEUE_KEY, []); q.push(payload); save(QUEUE_KEY, q); }
         else { st.lastSent = Date.now(); save(STUDENT_KEY, st); }
         session = { answers: 0, correct: 0, since: Date.now() }; save(SESSION_KEY, session);
